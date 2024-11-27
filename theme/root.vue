@@ -1,7 +1,5 @@
 <template>
-  <div id="slidev-root">
-    <SlidevWrapper>
-      <slot />
-    </SlidevWrapper>
+  <div class="slidev-root">
+    <slot />
   </div>
 </template> 
