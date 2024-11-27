@@ -1,0 +1,110 @@
+@tailwind utilities;
+
+/* Define theme variables */
+:root {
+  --slidev-theme-primary: #87B1EB;
+  --slidev-theme-accent: #FB7879;
+  --slidev-theme-text: #333333;
+  --slidev-theme-text-dark: #ffffff;
+  --slidev-theme-background: #F3F6FE;
+  --slidev-theme-background-dark: #212B36;
+
+  /* Add font family variable */
+  --slidev-theme-font-family: 'Avenir', system-ui, sans-serif;
+}
+
+html:not(.dark) #slide-content {
+  background-color: var(--slidev-theme-background);
+  color: var(--slidev-theme-text);
+}
+
+/* Style all links with the accent color */
+a {
+  color: var(--slidev-theme-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--slidev-theme-accent);
+  text-decoration: underline;
+}
+
+/* Apply font family globally */
+* {
+  font-family: var(--slidev-theme-font-family) !important;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  height: 100%;
+  display: grid;
+
+  h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+
+  h1 + p {
+    margin-top: -0.5rem;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    margin-top: 2.5rem;
+  }
+}
+
+.slidev-layout.new-section {
+  height: 100%;
+  display: grid;
+}
+
+.dark #slide-content {
+  background-color: var(--slidev-theme-background-dark);
+  color: var(--slidev-theme-text-dark);
+}
+
+.slidev-layout p {
+  margin-top: 0;
+  margin-bottom: 0.25rem !important;
+}
+
+.slidev-layout h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: 1.25rem !important;
+  line-height: 1 !important;
+  font-weight: 200;
+}
+.slidev-layout h2 {
+  margin: 0;
+  margin-bottom: 0.65rem !important;
+  line-height: 1 !important;
+  font-weight: 600;
+}
+.slidev-layout h3,
+.slidev-layout h4,
+.slidev-layout h5,
+.slidev-layout h6 {
+  margin: 0;
+  margin-bottom: 0.725rem !important;
+  line-height: 1 !important;
+}
+
+.slidev-layout ul {
+  list-style: square;
+  margin-bottom: 1.125rem !important;
+}
+
+.fixed.flex.flex-wrap.text-xl.p-2.gap-1.rounded-md.bg-main.shadow.transition-opacity.duration-200.z-20.border.border-main {
+  display: none;
+}
+
+
+/* Custom cursor for the entire presentation */
+* {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Ccircle cx='3' cy='3' r='3' fill='%23FB7879'/%3E%3C/svg%3E") 3 3, none !important;
+}
