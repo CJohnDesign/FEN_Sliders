@@ -11,8 +11,10 @@ themeConfig:
   audioEnabled: true
 transition: fade-out
 drawings:
-  persist: false  
+  persist: false
 ---
+
+
 # MedFirst 1 Plan Overview
 
 Understand the details and benefits of the **MedFirst 1 Plan**.
@@ -47,10 +49,6 @@ image: img/mf1.jpg
   <Arrow v-bind="{ x1:410, y1:410, x2:540, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
-<SlideAudio :sources="[
-  { src: '/Users/cjohndesign/dev/FEN/decks/FEN_MF1/audio/oai/0-22_audio_3.mp3' },
-  { src: '/Users/cjohndesign/dev/FEN/decks/FEN_MF1/audio/oai/0-38_audio_4.mp3' }
-]" />
 
 ---
 transition: fade-out
