@@ -1,4 +1,5 @@
 ---
+id: FEN_MF1
 theme: ../../
 title: MedFirst 1 Plan Overview
 info: |
@@ -20,6 +21,8 @@ drawings:
 Understand the details and benefits of the **MedFirst 1 Plan**.
 
 
+<SlideAudio />
+
 ---
 transition: fade-out
 layout: one-half-img-center
@@ -31,6 +34,8 @@ image: img/mf1.jpg
 <v-click>
   <Arrow v-bind="{ x1:150, y1:413, x2:310, y2:413, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
+
+
 ---
 transition: fade-out
 layout: one-half-img

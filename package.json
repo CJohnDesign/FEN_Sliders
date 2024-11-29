@@ -10,11 +10,12 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "build": "slidev build decks/FEN_MF1/FEN_compare.md",
-    "dev": "slidev decks/FEN_MF1/FEN_compare.md --open",
-    "export": "slidev export decks/FEN_MF1/FEN_compare.md",
-    "screenshot": "slidev export decks/FEN_MF1/FEN_compare.md --format png",
-    "generateAudio": "node scripts/generateAudio.js"
+    "build:mf1": "slidev build decks/FEN_MF1/slides.md --base /mf1/",
+    "dev:mf1": "slidev decks/FEN_MF1/slides.md --open",
+    "export:mf1": "slidev export decks/FEN_MF1/slides.md",
+    "screenshot": "slidev export decks/FEN_MF1/slides.md --format png",
+    "generateAudio": "node scripts/generateAudio.js",
+    "serve": "npx vite preview --base /mf1/"
   },
   "dependencies": {
     "@slidev/client": "^0.50.0-beta.7",

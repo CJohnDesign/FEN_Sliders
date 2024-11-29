@@ -1,0 +1,24 @@
+{
+  "slides": [
+    {
+      "audioFile": "/audio/oai/audio_1.mp3",
+      "clicks": []
+    },
+    {
+      "audioFile": "/audio/oai/audio_2.mp3",
+      "clicks": [4.0, 5.0]
+    },
+    {
+      "audioFile": "/audio/oai/audio_3.mp3",
+      "clicks": [4.0, 5.0]
+    },
+    {
+      "audioFile": "/audio/oai/audio_4.mp3",
+      "clicks": [4.0, 5.0]
+    },
+    {
+      "audioFile": "/audio/oai/audio_5.mp3",
+      "clicks": [4.0, 5.0]
+    }
+  ]
+} 
