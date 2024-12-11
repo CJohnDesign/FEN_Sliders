@@ -10,21 +10,52 @@ if (!OPENAI_API_KEY) {
   throw new Error('Missing OPENAI_API_KEY in environment variables. Please check your .env file.');
 }
 
+async function parseMdFile(filePath) {
+  const content = await fs.readFile(filePath, 'utf-8');
+  const sections = [];
+  
+  // Split content by the single line delimiter pattern: ---- Text ----
+  const sectionRegex = /^----\s*(.*?)\s*----$/gm;
+  const parts = content.split(sectionRegex);
+  
+  // Remove first element if it's empty (content before first delimiter)
+  if (parts[0].trim() === '') {
+    parts.shift();
+  }
+  
+  // Process parts in pairs (title and content)
+  for (let i = 0; i < parts.length; i += 2) {
+    const title = parts[i];
+    const text = parts[i + 1]?.trim();
+    
+    if (title && text) {
+      sections.push({
+        title: title,
+        text: text,
+        slideNumber: (i / 2) + 1
+      });
+    }
+  }
+  
+  return sections;
+}
+
 async function generateAudio(deckKey) {
   try {
     const baseUrl = 'https://api.openai.com/v1/audio/speech';
     
-    // Read the JSON file
-    const jsonContent = await fs.readFile(
-      path.join(process.cwd(), `decks/${deckKey}/audio/${deckKey}-array.json`),
-      'utf-8'
-    );
-    
-    // Parse the JSON array
-    const lines = JSON.parse(jsonContent);
+    // Read the markdown file
+    const mdFilePath = path.join(process.cwd(), `decks/${deckKey}/audio/${deckKey}.md`);
+    const sections = await parseMdFile(mdFilePath);
 
-    // Process each line from the array
-    for (const [index, line] of lines.entries()) {
+    // Create the output directory if it doesn't exist
+    const outputDir = path.join(process.cwd(), `decks/${deckKey}/audio/oai`);
+    await fs.mkdir(outputDir, { recursive: true });
+
+    // Process each section in order
+    for (const section of sections) {
+      if (!section.text) continue; // Skip empty sections
+
       const response = await fetch(baseUrl, {
         method: 'POST',
         headers: {
@@ -33,7 +64,7 @@ async function generateAudio(deckKey) {
         },
         body: JSON.stringify({
           model: 'tts-1',
-          input: line,
+          input: section.text,
           voice: 'nova',
           response_format: 'mp3'
         })
@@ -46,14 +77,14 @@ async function generateAudio(deckKey) {
 
       const audioBuffer = Buffer.from(await response.arrayBuffer());
       
-      // Save the audio file using the deck key in the filename
-      const outputFileName = `${deckKey}-${index}`;
+      // Save the audio file using the slide number: FEN_MF1.mp3, FEN_MF2.mp3, etc.
+      const outputFileName = `${deckKey}${section.slideNumber}`;
       await fs.writeFile(
-        path.join(process.cwd(), `decks/${deckKey}/audio/oai`, `${outputFileName}.mp3`),
+        path.join(outputDir, `${outputFileName}.mp3`),
         audioBuffer
       );
 
-      console.log(`Generated audio file: ${outputFileName}.mp3`);
+      console.log(`Generated audio file: ${outputFileName}.mp3 for section: ${section.title}`);
     }
 
     console.log('Audio generation completed successfully!');
