@@ -218,6 +218,10 @@ Prescription Coverage
 <Arrow v-bind="{ x1:480, y1:282, x2:560, y2:282, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
+<v-click>
+**No Indemnity Hospital Benefits**
+</v-click>
+
 
 
 ---
@@ -367,7 +371,7 @@ line:
 
 
 ---
-transition: fade-out
+transition: none
 layout: one-half-img
 image: img/FEN_MF-06.jpg
 line: Let's review the physician services offered under the MedFirst 4 Plan, which provides our most comprehensive coverage options.
@@ -396,7 +400,7 @@ line: Let's review the physician services offered under the MedFirst 4 Plan, whi
 </v-click>
 
 ---
-transition: default ======================================= CHANGE THIS TO not fade-out ==============
+transition: fade-out
 layout: one-half-img
 image: img/FEN_MF-06.jpg
 line: The MedFirst 4 Plan also includes comprehensive supplementary benefits to support overall healthcare needs.
@@ -433,7 +437,7 @@ line: The MedFirst 4 Plan also includes comprehensive supplementary benefits to 
 
 
 ---
-transition: fade-out
+transition: none
 layout: one-half-img
 image: img/FEN_MF-07.jpg
 line: Let's review the physician services offered under the MedFirst 5 Plan, which provides our most comprehensive coverage options.
