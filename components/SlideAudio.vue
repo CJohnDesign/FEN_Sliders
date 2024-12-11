@@ -8,14 +8,22 @@ import { useNav } from '@slidev/client';
 import audioConfig from '../decks/FEN_MF1/audio/config.json';
 import { onMounted, onBeforeUnmount, ref } from 'vue';
 
+// Function to get starting index from audio filename
+const getStartingIndex = () => {
+  // Get current slide number from URL (1-based)
+  const currentSlideNumber = parseInt(window.location.pathname.split('/').pop()) || 1;
+  // Convert to 0-based index
+  return currentSlideNumber - 1;
+};
+
 // Initialize navigation
 const nav = useNav();
 
 // Reactive state
 const sound = ref(null);
 const isPlaying = ref(false);
-const currentAudioIndex = ref(0);
 const audioQueue = ref(audioConfig.slides.map(slide => slide.audioFile));
+const currentAudioIndex = ref(getStartingIndex());
 const triggeredTimestamps = ref(new Set());
 const checkInterval = ref(null);
 

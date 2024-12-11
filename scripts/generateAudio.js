@@ -10,23 +10,20 @@ if (!OPENAI_API_KEY) {
   throw new Error('Missing OPENAI_API_KEY in environment variables. Please check your .env file.');
 }
 
-async function generateAudioWithTimestamps() {
+async function generateAudio(deckKey) {
   try {
-    // Initialize API endpoint
     const baseUrl = 'https://api.openai.com/v1/audio/speech';
     
-    // Read the text file
-    const textContent = await fs.readFile(
-      path.join(process.cwd(), 'decks/FEN_MF1/audio/FEN_MF1.txt'),
+    // Read the JSON file
+    const jsonContent = await fs.readFile(
+      path.join(process.cwd(), `decks/${deckKey}/audio/${deckKey}-array.json`),
       'utf-8'
     );
+    
+    // Parse the JSON array
+    const lines = JSON.parse(jsonContent);
 
-    // Split the text into lines and filter empty lines
-    const lines = textContent.split('\n').filter(line => line.trim());
-
-    let currentTimestamp = 0;
-
-    // Process each line
+    // Process each line from the array
     for (const [index, line] of lines.entries()) {
       const response = await fetch(baseUrl, {
         method: 'POST',
@@ -35,9 +32,9 @@ async function generateAudioWithTimestamps() {
           'Authorization': `Bearer ${OPENAI_API_KEY}`,
         },
         body: JSON.stringify({
-          model: 'tts-1',  // or 'tts-1-hd' for higher quality
+          model: 'tts-1',
           input: line,
-          voice: 'nova',  // Options: 'alloy', 'echo', 'fable', 'onyx', 'nova', 'shimmer'
+          voice: 'nova',
           response_format: 'mp3'
         })
       });
@@ -49,29 +46,14 @@ async function generateAudioWithTimestamps() {
 
       const audioBuffer = Buffer.from(await response.arrayBuffer());
       
-      // Estimate duration (OpenAI doesn't provide timestamps)
-      // Rough estimate: ~150 words per minute
-      const wordCount = line.split(' ').length;
-      const estimatedDuration = (wordCount / 150) * 60;
-      
-      // Format timestamp for filename
-      const minutes = Math.floor(currentTimestamp / 60);
-      const seconds = Math.floor(currentTimestamp % 60);
-      const timestampStr = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-
-      // Save the audio file with timestamp in filename
-      const outputFileName = `${timestampStr}_audio_${index + 1}.mp3`;
+      // Save the audio file using the deck key in the filename
+      const outputFileName = `${deckKey}-${index}`;
       await fs.writeFile(
-        path.join(process.cwd(), 'decks/FEN_MF1/audio', outputFileName),
+        path.join(process.cwd(), `decks/${deckKey}/audio/oai`, `${outputFileName}.mp3`),
         audioBuffer
       );
 
-      // Generate timestamp entry with estimated duration
-      const timestampEntry = `${timestampStr} - ${line}`;
-      console.log(`Generated audio for timestamp ${timestampStr}: ${line} (Estimated Duration: ${estimatedDuration.toFixed(2)}s)`);
-      
-      // Update the timestamp for the next file
-      currentTimestamp += Math.ceil(estimatedDuration);
+      console.log(`Generated audio file: ${outputFileName}.mp3`);
     }
 
     console.log('Audio generation completed successfully!');
@@ -80,4 +62,11 @@ async function generateAudioWithTimestamps() {
   }
 }
 
-generateAudioWithTimestamps(); 
+// Check if a deck key was provided as a command line argument
+const deckKey = process.argv[2];
+if (!deckKey) {
+  console.error('Please provide a deck key as a command line argument.');
+  process.exit(1);
+}
+
+generateAudio(deckKey); 
