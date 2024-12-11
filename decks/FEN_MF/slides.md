@@ -227,7 +227,7 @@ image: img/FEN_MF-03.jpg
 line: 
 ---
 
-## MedFirst 2 Plan Details
+## MedFirst 1 Plan Details
 
 <v-click>
 
@@ -318,7 +318,7 @@ line:
 ---
 transition: fade-out
 layout: one-half-img
-image: img/FEN_MF-04.jpg
+image: img/FEN_MF-05.jpg
 line: 
 ---
 
@@ -373,7 +373,7 @@ image: img/FEN_MF-06.jpg
 line: Let's review the physician services offered under the MedFirst 4 Plan, which provides our most comprehensive coverage options.
 ---
 
-## MedFirst 4 Plan 
+## MedFirst 4 Plan (1 of 2)
 
 <v-click>
 
@@ -396,13 +396,13 @@ line: Let's review the physician services offered under the MedFirst 4 Plan, whi
 </v-click>
 
 ---
-transition: fade-out
+transition: default ======================================= CHANGE THIS TO not fade-out ==============
 layout: one-half-img
 image: img/FEN_MF-06.jpg
 line: The MedFirst 4 Plan also includes comprehensive supplementary benefits to support overall healthcare needs.
 ---
 
-## MedFirst 4 Plan
+## MedFirst 4 Plan (2 of 2)
 
 <v-click>
 

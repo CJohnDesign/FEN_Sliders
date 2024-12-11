@@ -30,6 +30,7 @@ All MedFirst plans include Minimum Essential Coverage (MEC) preventive health se
 - **Requirements**: Indicates age groups, lifestyle factors, or other conditions that must be met (e.g., certain screenings only for men aged 65-75 who have ever smoked).
 
 
+As you guys can see, the list is extensive, but it is a comprehensive list of preventative services.
 
 -------------------------------------------  
 **Immunizations**  
@@ -39,17 +40,17 @@ All MedFirst plans include Minimum Essential Coverage (MEC) preventive health se
 
 Make sure to cover exclusions with clients and check eligibility before quoting.
 
-
-
 -------------------------------------------  
 **MedFirst Wellness Plan**  
 -------------------------------------------  
 - **Physician Services**:  
   - 1 annual Wellness exam at a $25 copayment, up to $150 maximum.  
   - Must use First Health Network providers for coverage.  
-- **Telemedicine**: $0 consult fee, unlimited visits.  
+- **Telemedicine is provided through Kindly Human and Recuro Health at a $0 consult fee, unlimited visits.  
 - **Prescription Coverage**: Discount program only (Best Choice RX Group Discount), not a prescription drug plan. Offers discounted medications at participating pharmacies. No standard copays; discounts vary by medication.  
 - **No Indemnity Hospital Benefits**: This plan does not include inpatient hospital coverage.
+
+
 
 -------------------------------------------  
 **MedFirst 1 Plan**  
