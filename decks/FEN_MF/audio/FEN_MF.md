@@ -14,27 +14,25 @@ Let's go over some key common points:
 - Inpatient hospital indemnity benefits (when offered) are not restricted to in-network providers.  
 - Preventive benefits must be received at outpatient facilities, not in a hospital.  
 - Prescription coverage varies by plan, often involving discount programs, specific formularies, copay tiers, and, in some plans, a Prescription Assistance Program for certain medications.  
-- Telemedicine services through Kindly Human/Recuro Health are included across all plans with no maximum visit limits, and typically no consult fees. This helps control costs for certain physician services.  
+- Telemedicine services through kindly Human and Recuro Health are included across all plans with no maximum visit limits, and typically no consult fees. This helps control costs for certain physician services.  
 - Healthcare Ninja, when included, is an advocacy tool to reduce healthcare costs and can be used after certain plan benefits are exhausted.
 
 ---- Required Verbiage & Disclosures ----
 
-Whenever you see numbers or footnotes next to a listed benefit, it corresponds to mandatory disclosures or verbiage that must be reviewed with the client. Ensure this is communicated properly during enrollment.
+Remember, whenever you see numbers or footnotes next to a listed benefit, it corresponds to mandatory disclosures or verbiage that must be reviewed with the client. Ensure this is communicated properly during enrollment.
 
 ---- Preventive Health Services ----
 
 All MedFirst plans include Minimum Essential Coverage (MEC) preventive health services, following U.S. Preventive Services Task Force guidelines. For each preventive service:  
-- **Benefit**: Describes what the service is (e.g., screenings, counseling).  
-- **Interval**: States how often the service can be used (e.g., annually, once per lifetime).  
+- **Benefit**: Describes what the service is (for example, screenings, counseling).  
+- **Interval**: States how often the service can be used (for example, annually, once per lifetime).  
 - **Requirements**: Indicates age groups, lifestyle factors, or other conditions that must be met (e.g., certain screenings only for men aged 65-75 who have ever smoked).
 
 ---- Preventative Services Overview ----
 
-
 As you guys can see, the list is extensive, but it is a comprehensive list of preventative services.
 
 ---- Immunizations ----
-
 
 Immunizations are also covered as recommended by the CDC and are grouped by age brackets—birth through 6 years old, 7 through 18 years old, and 19 years or older. Always verify the age group before quoting a covered benefit.
 
@@ -42,129 +40,123 @@ Make sure to cover exclusions with clients and check eligibility before quoting.
 
 ---- MedFirst Wellness Plan ----
 
+Let's start with our entry-level option, the MedFirst Wellness Plan. Let me walk you through each component.
 
-Let's go into what makes the MedFirst plans unique, starting with the Wellness Plan.
+For physician services, members receive one annual wellness exam with a $25 copay, up to a $150 maximum benefit. Like all our plans, you'll need to use First Health Network providers, and benefits are subject to a 30-day waiting period.
 
-For the Wellness Plan, the Physician Services are as follows:
-- 1 annual Wellness exam at a $25 copayment, up to $150 maximum.  
-- Must use First Health Network providers for coverage.  
+When it comes to telemedicine, we've made sure you have great access to care. Members get unlimited visits through kindly Human and Recuro Health with no consult fees. This is a valuable benefit you'll find across all our MedFirst plans, making it easy to get care when you need it.
 
-The telemedicine benefit is provided through Kindly Human and Recuro Health at a $0 consult fee, unlimited visits.  
+For prescriptions, we work with the Best Choice RX Group Discount Program. Now, I want to be very clear here - this is a discount program, not a prescription drug plan. What this means is that members receive varying discounts at participating pharmacies, but there aren't set copays.
 
-The Prescription Coverage is provided through Best Choice RX Group Discount Program, which is a discount program only, not a prescription drug plan. Offers discounted medications at participating pharmacies. No standard copays; discounts vary by medication.  
-
-No Indemnity Hospital Benefits: This plan does not include inpatient hospital coverage.
-
+One important note about this plan - it does not include any hospital coverage. This makes it ideal for those primarily seeking preventive care and basic medical services.
 
 ---- MedFirst 1 Plan ----
 
+Now let's look at our MedFirst 1 Plan, which adds several important benefits to the Wellness Plan foundation.
 
-Continuing with the MedFirst 1 Plan, the Physician Services are as follows:  
-- Primary Care Visits: 3 per year, $25 copay, up to $150 max.  
-- Specialist/Urgent Care: 1 visit per year, $50 copay, up to $300 max.  
-- Use First Health Network for coverage.  
+For physician services, we've expanded the coverage significantly. Members now get three primary care visits per year with a $25 copay and up to $150 maximum per visit. We've also added specialist and urgent care coverage, providing one visit annually with a $50 copay, up to $300 maximum. As always, you'll need to use the First Health Network for these services.
 
-The Inpatient Hospitalization Indemnity is $1,000 per day, up to $5,000 per year. No coverage for pre-existing conditions for first 12 months.  
+Here's an exciting addition - this plan introduces hospital coverage. Members receive $1,000 per day up to $5,000 per year. I do need to point out that there's a 12-month waiting period for any pre-existing conditions.
 
-The Telemedicine benefit is provided through Kindly Human and Recuro Health at a $0 consult fee, unlimited visits.  
-
-The Prescription Coverage is provided through Best Choice RX Group Discount Program, which is a discount program only, not a prescription drug plan. Offers discounted medications at participating pharmacies. No standard copays; discounts vary by medication.  
-
-The Advocacy (Healthcare Ninja) benefit helps manage healthcare costs when primary benefits are exhausted.
+We've also added something special to this plan - our Healthcare Ninja advocacy benefit. This valuable service helps members manage their healthcare costs, especially when primary benefits are exhausted.
 
 ---- MedFirst 2 Plan ----
 
+Moving up to our MedFirst 2 Plan, you'll see we've made some significant enhancements to better serve our members' needs.
 
-Continuing with the MedFirst 2 Plan, the Physician Services are as follows:  
-- Primary Care: 4 visits/year, $25 copay, $150 max.  
-- Specialist/Urgent Care: 2 visits/year, $50 copay, $300 max.  
-- Use First Health Network for coverage.  
+Let's start with physician services. We've increased the number of visits available to you. Now you'll get four primary care visits per year, still with that same $25 copay and $150 maximum per visit. For specialist and urgent care, we've doubled the visits to two per year, keeping the $50 copay and $300 maximum. Remember, these services must be through our First Health Network providers.
 
-The Inpatient Hospitalization Indemnity is $1,000/day, up to $10,000/year; excludes pre-existing conditions for first 12 months.  
+For hospital coverage, we've doubled the annual maximum to $10,000 while maintaining that $1,000 daily benefit. As with Plan 1, there's a 12-month waiting period for pre-existing conditions.
 
-The Telemedicine benefit is provided through Kindly Human and Recuro Health at a $0 consult fee, unlimited visits.  
+Your telemedicine benefit continues unchanged, giving you those valuable unlimited visits with no consult fees through kindly Human and Recuro Health.
 
-The Prescription Coverage is provided through Best Choice RX Group Discount Program, which is a discount program only, not a prescription drug plan. Offers discounted medications at participating pharmacies. No standard copays; discounts vary by medication.  
-  - Preventive & Acute Generics: $0 copay, must be on formulary.  
-  - Maintenance Generics (200 types): $5 copay, up to 30-day retail or 90-day mail order.  
-  - Brand & Specialty drugs not covered, but PAP available if income-qualified.  
-  - Max monthly benefit limit applies to non-preventive generic & brand.  
+Now, here's where we see a major upgrade - the prescription coverage. With the enhanced Best Choice RX program, you'll get:
+- No cost for preventive and acute generic medications
+- Just a $5 copay for 200 maintenance generic drugs
+- Flexible options with both 30-day retail and 90-day mail-order available
+- No monthly maximum for drugs on our formulary
+- Access to our Prescription Assistance Program if you qualify based on income
 
-The Advocacy benefit helps manage healthcare costs when primary benefits are exhausted.
+And of course, you'll still have access to the Healthcare Ninja advocacy service to help manage your healthcare costs.
 
 ---- MedFirst 3 Plan ----
 
+With our MedFirst 3 Plan, we've created an even more robust package of benefits.
 
-Continuing with the MedFirst 3 Plan, the Physician Services are as follows:  
-- Primary Care: 4 visits/year, $25 copay, $150 max.  
-- Specialist/Urgent Care: 4 visits/year, $50 copay, $300 max.  
-- Use First Health Network for coverage.  
+Looking at physician services, we've kept the four primary care visits per year with the same $25 copay and $150 maximum. But here's what's exciting - we've doubled your specialist and urgent care visits to four per year, maintaining the $50 copay and $300 maximum. This gives you more flexibility in accessing specialized care when you need it.
 
-The Inpatient Hospitalization Indemnity is $1,000/day, up to $15,000/year; excludes pre-existing conditions for first 12 months.  
+For hospital coverage, we've increased your annual maximum to $15,000 while keeping that same $1,000 daily benefit. As with all our plans, please remember the 12-month waiting period for pre-existing conditions.
 
-The Telemedicine benefit is provided through Kindly Human and Recuro Health at a $0 consult fee, unlimited visits.  
+Your telemedicine access remains comprehensive with unlimited $0 consult visits through kindly Human and Recuro Health.
 
-The Prescription Coverage is provided through Best Choice RX Group Discount Program, which is a discount program only, not a prescription drug plan. Offers discounted medications at participating pharmacies. No standard copays; discounts vary by medication.  
-- Preventive & Acute Generics: $0 copay.  
-- Maintenance Generics: $5 copay for 200 meds, retail or mail order.  
-- Non-Preferred Generics: Variable copays ($5-$10 retail, $5-$20 mail order).  
-- Brand Medications: Prior Authorization required; $40/30-day supply retail, $80/90-day mail order.  
-- Non-preventive drugs subject to a $150 monthly limit. Specialty not covered, PAP available.  
-- Advocacy (Healthcare Ninja) included for cost management.
+The prescription coverage gets even better with our Best Choice RX Plus Plan. You'll keep all the generic benefits from Plan 2, but now we've added:
+- Coverage for brand medications with prior authorization
+- Tiered copays for non-preferred generics starting at just $5
+- 90-day mail order options for greater convenience
+- A monthly limit of $150 for non-preventive medications
 
----- MedFirst 4 Plan ----
+The Healthcare Ninja advocacy benefit continues to be there to help you navigate your healthcare journey.
 
-Let's move on to the MedFirst 4 Plan, the Physician Services are as follows:  
-- Wellness Exam: 1/year, $25 copay, $150 max.  
-- Primary Care: 4/year, $50 copay, $150 max.  
-- Specialist/Urgent Care: 4/year, $75 copay, $300 max.  
-- Use First Health Network for coverage.  
+---- MedFirst 4 Plan - 1 of 2 ----
 
-The Indemnity Benefits are as follows:  
-- Inpatient Hospitalization: $1,500/day, up to $15,000/year.  
-- In/Outpatient Surgery: $1,500/day, combined max $2,000/year.  
-- ER: $1,000/incident if admitted.  
-- Ambulance: $500/incident if admitted.  
-- All these exclude pre-existing conditions for first 12 months.  
+Our MedFirst 4 Plan introduces some exciting new benefits while building on everything you've seen so far.
 
-The Telemedicine benefit is provided through Kindly Human and Recuro Health at a $0 consult fee, unlimited visits.  
+For physician services, we've created a comprehensive package that includes:
+- An annual wellness exam with a $25 copay and $150 maximum
+- Four primary care visits, now with a $50 copay and $150 maximum
+- Four specialist or urgent care visits with a $75 copay and $300 maximum
+All of these services are available through our First Health Network providers.
 
-The Prescription Coverage is provided through Best Choice RX Group Discount Program, which is a discount program only, not a prescription drug plan. Offers discounted medications at participating pharmacies. No standard copays; discounts vary by medication.  
+The hospital benefits really shine in this plan. You'll receive:
+- A higher daily benefit of $1,500, up to $15,000 annually
+- Coverage for both inpatient and outpatient surgery at $1,500 per day, up to $2,000 per year
+- Emergency room coverage of $1,000 per incident when admitted
+- Ambulance coverage of $500 per incident when admitted
+Remember, these benefits have a 12-month waiting period for pre-existing conditions.
 
-The Advocacy benefit is also included in this plan.
+---- MedFirst 4 Plan - 2 of 2 ----
 
----- MedFirst 5 Plan ----
+Your telemedicine benefit continues to provide unlimited access to kindly Human and Recuro Health with no consult fees.
 
-Continuing with the MedFirst 5 Plan, the Physician Services are as follows:  
-- Wellness Exam: 1/year, $25 copay, $150 max.  
-- Primary Care: 5/year, $50 copay, $150 max.  
-- Specialist/Urgent Care: 5/year, $75 copay, $300 max.  
-- Use First Health Network for coverage.  
+The prescription coverage maintains the comprehensive structure from Plan 3, with all the same benefits including generic and brand coverage, mail order options, and that $150 monthly limit for non-preventive drugs.
 
-The Indemnity Benefits are as follows:  
-- Inpatient Hospitalization: $1,500/day, up to $15,000/year.  
-- In/Outpatient Surgery: $1,500/day, combined max $4,500/year.  
-- ER: $1,000/incident if admitted.  
-- Ambulance: $500/incident if admitted.  
-- All these exclude pre-existing conditions for first 12 months.  
+And of course, you'll still have access to our Healthcare Ninja advocacy service.
 
-The Telemedicine benefit is provided through Kindly Human and Recuro Health at a $0 consult fee, unlimited visits.  
+---- MedFirst 5 Plan - 1 of 2 ----
 
-The Prescription Coverage is provided through Best Choice RX Group Discount Program, which is a discount program only, not a prescription drug plan. Offers discounted medications at participating pharmacies. No standard copays; discounts vary by medication.  
+Finally, let me introduce our premium offering - the MedFirst 5 Plan. This is our most comprehensive coverage option.
 
-The MedFirst 5 Plan also includes the Advocacy benefit.
+For physician services, we've increased your access even further:
+- Keep your annual wellness exam with the $25 copay and $150 maximum
+- Now get five primary care visits with the $50 copay and $150 maximum
+- Also five specialist or urgent care visits with the $75 copay and $300 maximum
+As always, these services are available through our First Health Network providers.
+
+The hospital benefits are similar to Plan 4, but with one important upgrade:
+- You'll still get that $1,500 daily benefit up to $15,000 annually
+- But now your surgery coverage increases to $4,500 per year
+- You keep the same ER and ambulance benefits
+- And yes, the 12-month pre-existing condition waiting period still applies
+
+---- MedFirst 5 Plan - 2 of 2 ----
+
+Your telemedicine benefit remains unchanged, with unlimited visits with no consult fees through kindly Human and Recuro Health.
+
+The prescription coverage continues with all the comprehensive benefits from Plan 4, including the same copay structure and monthly limits.
+
+And of course, the Healthcare Ninja advocacy benefit is still there to help you maximize your healthcare dollars.
+
+This plan represents our highest level of coverage, perfect for those seeking maximum protection and flexibility in their healthcare choices.
 
 ---- Closing Reminders ----
 
-
-Here are some things to remember when talking about the MedFirst plans:
-- Always discuss required footnotes or verbiage associated with numbered benefits.  
-- Ensure clients understand in-network requirements, waiting periods, and formulary restrictions.  
-- Reinforce that Best Choice RX Group programs are not stand-alone prescription drug plans; coverage and costs depend on formulary, brand/generic status, and other factors.  
-- Telemedicine and Healthcare Ninja services are designed to help reduce out-of-pocket costs and should be explained thoroughly.  
-- Most importantly, remain compliant, thorough, and caring. Help clients understand their options and maintain clarity about their coverage. 
+Let me highlight some key points to remember:
+- You must use First Health Network providers when utilizing physician services
+- Best Choice RX is a discount program only, not a full prescription drug plan
+- Telemedicine services are provided through Kindly Human/Recuro Health
+- Healthcare Ninja is available for cost management assistance
+- Always provide complete and compliant care to your clients
 
 ---- Closing ----
-
 
 Thank you for your attention and for completing the MedFirst training. Continue to serve clients with excellence and compliance.

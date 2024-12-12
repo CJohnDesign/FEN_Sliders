@@ -35,6 +35,7 @@
     "fs": "^0.0.1-security",
     "howler": "^2.2.4",
     "node-fetch": "^3.3.2",
+    "openai": "^4.76.1",
     "ora": "^8.1.1",
     "path": "^0.12.7",
     "simplex-noise": "^4.0.3"

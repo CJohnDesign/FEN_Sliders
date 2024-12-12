@@ -40,7 +40,7 @@ async function parseMdFile(filePath) {
   return sections;
 }
 
-async function generateAudio(deckKey) {
+async function generateAudio(deckKey, specificSlide = null) {
   try {
     const baseUrl = 'https://api.openai.com/v1/audio/speech';
     
@@ -52,8 +52,17 @@ async function generateAudio(deckKey) {
     const outputDir = path.join(process.cwd(), `decks/${deckKey}/audio/oai`);
     await fs.mkdir(outputDir, { recursive: true });
 
+    // Filter sections if specificSlide is provided
+    const sectionsToProcess = specificSlide 
+      ? sections.filter(section => section.slideNumber === specificSlide)
+      : sections;
+
+    if (specificSlide && sectionsToProcess.length === 0) {
+      throw new Error(`No slide found with number ${specificSlide}`);
+    }
+
     // Process each section in order
-    for (const section of sections) {
+    for (const section of sectionsToProcess) {
       if (!section.text) continue; // Skip empty sections
 
       const response = await fetch(baseUrl, {
@@ -93,11 +102,13 @@ async function generateAudio(deckKey) {
   }
 }
 
-// Check if a deck key was provided as a command line argument
+// Update argument handling
 const deckKey = process.argv[2];
+const specificSlide = process.argv[3] ? parseInt(process.argv[3], 10) : null;
+
 if (!deckKey) {
   console.error('Please provide a deck key as a command line argument.');
   process.exit(1);
 }
 
-generateAudio(deckKey); 
+generateAudio(deckKey, specificSlide); 

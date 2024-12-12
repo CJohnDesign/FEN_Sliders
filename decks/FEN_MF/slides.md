@@ -87,7 +87,7 @@ Telemedicine services through:
 
 Advocacy tool is provided:
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="./pro_logos/best-choice.png" class="h-12" alt="Best Choice RX Logo">
+  <img src="./pro_logos/health-ninja.png" class="h-12 mix-blend-multiply" alt="Health Ninja Logo">
 </div>
 </v-click>
 
@@ -219,6 +219,7 @@ Prescription Coverage
 </v-click>
 
 <v-click>
+
 **No Indemnity Hospital Benefits**
 </v-click>
 
@@ -237,9 +238,9 @@ line:
 
 **Physician Services**
 
-- Primary Care: 4 visits/yr ($25 copay, $150 max)
-- Specialist/Urgent: 2 visits/yr ($50 copay, $300 max)
-- Inpatient: $1,000/day ($10,000 annual max)
+- Primary Care: 3 visits/yr ($25 copay, $150 max)
+- Specialist/Urgent: 1 visits/yr ($50 copay, $300 max)
+- Inpatient: $1,000/day ($5,000 annual max)
 <Arrow v-bind="{ x1:480, y1:146, x2:560, y2:146, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -304,8 +305,7 @@ line:
 **Rx Coverage** 
 
 - Preventive & Acute Generics: $0 copay
-- Maintenance Generics: $5 copay (30-day retail/90-day mail)
-- Brand & Specialty: Not covered (PAP if qualified)
+- Maintenance Generics: $5 copay
 <Arrow v-bind="{ x1:480, y1:292, x2:560, y2:292, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -443,7 +443,7 @@ image: img/FEN_MF-07.jpg
 line: Let's review the physician services offered under the MedFirst 5 Plan, which provides our most comprehensive coverage options.
 ---
 
-## MedFirst 5 Plan 
+## MedFirst 5 Plan (1 of 2)
 
 <v-click>
 
@@ -472,7 +472,7 @@ image: img/FEN_MF-07.jpg
 line: The MedFirst 5 Plan also includes comprehensive supplementary benefits to support overall healthcare needs.
 ---
 
-## MedFirst 5 Plan
+## MedFirst 5 Plan (2 of 2)
 
 <v-click>
 

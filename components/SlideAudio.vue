@@ -5,7 +5,7 @@
 <script setup>
 import { Howl } from 'howler';
 import { useNav } from '@slidev/client';
-import audioConfig from '../decks/FEN_MF1/audio/config.json';
+import audioConfig from '../decks/FEN_MF/audio/config.json';
 import { onMounted, onBeforeUnmount, ref } from 'vue';
 
 // Function to get starting index from audio filename
@@ -26,6 +26,7 @@ const audioQueue = ref(audioConfig.slides.map(slide => slide.audioFile));
 const currentAudioIndex = ref(getStartingIndex());
 const triggeredTimestamps = ref(new Set());
 const checkInterval = ref(null);
+const loggingInterval = ref(null);
 
 // Current audio data
 const audioData = ref(audioConfig.slides[currentAudioIndex.value]);
@@ -33,9 +34,12 @@ const audioData = ref(audioConfig.slides[currentAudioIndex.value]);
 // Function to handle 'A' key press for play/pause
 const handleKeyPress = (event) => {
   if (event.key.toLowerCase() === 'a') {
+    console.log('=== "A" Key Pressed ===');
     if (!sound.value) {
+      console.log('No sound instance exists, initializing audio...');
       initAudio(true);
     } else {
+      console.log(`Current state before toggle: ${isPlaying.value ? 'playing' : 'paused'}`);
       togglePlayPause();
     }
   }
@@ -44,20 +48,75 @@ const handleKeyPress = (event) => {
 // Toggle play/pause state
 const togglePlayPause = () => {
   if (isPlaying.value) {
+    console.log('Pausing audio...');
     sound.value.pause();
   } else {
+    console.log('Playing audio...');
     sound.value.play();
   }
   isPlaying.value = !isPlaying.value;
 };
 
-// Function to advance slide and play next audio
-const advanceSlideAndPlayNext = async () => {
+// Separate slide advancement from audio handling
+const advanceSlide = async () => {
   try {
     await nav.next();
-    console.log('Advanced to next slide state');
   } catch (error) {
     console.error('Failed to navigate to next state:', error);
+  }
+};
+
+// Function to start interval checking for click timestamps
+const startClickCheck = () => {
+  if (checkInterval.value) return;
+
+  checkInterval.value = setInterval(() => {
+    if (!sound.value || !sound.value.playing()) return;
+
+    const currentTime = sound.value.seek();
+    
+    // Iterate over the clicks array and trigger advancement
+    if (audioData.value && audioData.value.clicks && audioData.value.clicks.length > 0) {
+      // Find the next untriggered timestamp
+      const nextTimestamp = audioData.value.clicks.find(
+        timestamp => Math.abs(currentTime - timestamp) < 0.2 && !triggeredTimestamps.value.has(timestamp)
+      );
+
+      if (nextTimestamp) {
+        triggeredTimestamps.value.add(nextTimestamp);
+        advanceSlide();
+      }
+    }
+  }, 50);
+
+  // Start separate logging interval
+  loggingInterval.value = setInterval(() => {
+    if (sound.value && sound.value.playing()) {
+      const currentTime = Math.round(sound.value.seek());
+      console.log(`secs: ${currentTime}s`);
+    }
+  }, 1000);
+};
+
+// Function to stop interval checking
+const stopClickCheck = () => {
+  if (checkInterval.value) {
+    clearInterval(checkInterval.value);
+    checkInterval.value = null;
+  }
+  if (loggingInterval.value) {
+    clearInterval(loggingInterval.value);
+    loggingInterval.value = null;
+  }
+};
+
+// Function to clean up event listeners and intervals
+const cleanup = () => {
+  stopClickCheck();
+  window.removeEventListener('keydown', handleKeyPress);
+  if (sound.value) {
+    sound.value.unload();
+    sound.value = null;
   }
 };
 
@@ -80,67 +139,33 @@ const initAudio = (shouldPlay = false) => {
     preload: true,
     onplay: () => {
       isPlaying.value = true;
+      triggeredTimestamps.value.clear(); // Clear timestamps when starting new audio
       startClickCheck();
-      console.log(`Playing audio: ${currentSrc}`);
+      console.log(`Slide Number: ${audioData.value.slideNumber}`);
     },
     onpause: () => {
       isPlaying.value = false;
       stopClickCheck();
-      console.log(`Paused audio: ${currentSrc}`);
     },
     onend: async () => {
-      console.log(`Audio ended: ${currentSrc}`);
-      await advanceSlideAndPlayNext();
+      console.log(`=== Audio Ended ===`);
+      console.log(`Slide Number: ${audioData.value.slideNumber}`);
+      
+      // Always advance to the next slide
+      await advanceSlide();
+      
       currentAudioIndex.value++;
       audioData.value = audioConfig.slides[currentAudioIndex.value];
       triggeredTimestamps.value.clear();
-      initAudio(true);
-    },
-    onloaderror: (id, error) => {
-      console.error(`Failed to load audio source: ${currentSrc}`, error);
+      
+      if (audioData.value) {
+        initAudio(true);
+      }
     }
   });
 
   if (shouldPlay) {
     sound.value.play();
-  }
-};
-
-// Function to start interval checking for click timestamps
-const startClickCheck = () => {
-  if (checkInterval.value) return;
-
-  checkInterval.value = setInterval(() => {
-    if (!sound.value || !sound.value.playing()) return;
-
-    const currentTime = sound.value.seek();
-    
-    // Iterate over the clicks array and trigger advancement
-    audioData.value.clicks.forEach((timestamp) => {
-      if (currentTime >= timestamp && !triggeredTimestamps.value.has(timestamp)) {
-        triggeredTimestamps.value.add(timestamp);
-        console.log(`Triggering advancement at timestamp: ${timestamp}`);
-        advanceSlideAndPlayNext();
-      }
-    });
-  }, 100);
-};
-
-// Function to stop interval checking
-const stopClickCheck = () => {
-  if (checkInterval.value) {
-    clearInterval(checkInterval.value);
-    checkInterval.value = null;
-  }
-};
-
-// Function to clean up event listeners and intervals
-const cleanup = () => {
-  stopClickCheck();
-  window.removeEventListener('keydown', handleKeyPress);
-  if (sound.value) {
-    sound.value.unload();
-    sound.value = null;
   }
 };
 
