@@ -25,7 +25,6 @@ Understanding the details and benefits of the **MedFirst Plan**.
 ---
 transition: fade-out
 layout: default
-line: MedFirst offers a range of plans designed to help members access healthcare services at controlled costs. All plans utilize the First Health Network for physician services, which is critical for coverage. Some plans include limited indemnity hospital benefits, others provide a set number of physician visits, and all incorporate Preventive Health Services coverage as required under Minimal Essential Coverage guidelines.
 ---
 
 ## MedFirst Plan Details
@@ -44,7 +43,6 @@ line: MedFirst offers a range of plans designed to help members access healthcar
 ---
 transition: fade-out
 layout: default
-line: MedFirst offers a range of plans designed to help members access healthcare services at controlled costs. All plans utilize the First Health Network for physician services, which is critical for coverage. Some plans include limited indemnity hospital benefits, others provide a set number of physician visits, and all incorporate Preventive Health Services coverage as required under Minimal Essential Coverage guidelines.
 ---
 
 ## Key Common Points
@@ -96,8 +94,6 @@ Advocacy tool is provided:
 transition: fade-out
 layout: one-half-img-center
 image: img/FEN_MF-02.jpg
-line: Required Verbiage & Disclosures  
-Whenever you see numbers or footnotes next to a listed benefit, it corresponds to mandatory disclosures or verbiage that must be reviewed with the client. Ensure this is communicated properly during enrollment.
 ---
 
 ## Required Verbiage
@@ -106,14 +102,13 @@ Whenever you see numbers or footnotes next to a listed benefit, it corresponds t
   <Arrow v-bind="{ x1:350, y1:10, x2:410, y2:80, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 <v-click>
-  <Arrow v-bind="{ x1:150, y1:380, x2:310, y2:380, color: 'var(--slidev-theme-accent)' }" />
+  <Arrow v-bind="{ x1:200, y1:380, x2:310, y2:380, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
 image: img/FEN_MF-08.jpg
-line: Now when reviewing the preventative health services, you'll notice we have our benefits, our intervals and our requirements. Benefit explains the preventative service being provided. Interval explains how often they are able to utilize the benefits.  Our requirement field not only lets us know what requirements are needed from clients for the services, but also in some instances explains what the benefit is and who it may be applicable to.
 ---
 
 ## Understanding Preventative Services
@@ -142,16 +137,9 @@ images:
   - 'img/FEN_MF-09.jpg'
   - 'img/FEN_MF-10.jpg'
   - 'img/FEN_MF-11.jpg'
-line: As you guys can see, the list is extensive, but it is a comprehensive list of preventative services.
 ---
 
 ## Preventative Services Overview
-
-<v-clicks>
-
-- Comprehensive list of services
-
-</v-clicks>
 
 
 
@@ -161,7 +149,6 @@ layout: one-half-img-many
 images: 
   - 'img/FEN_MF-12.jpg'
   - 'img/FEN_MF-13.jpg'
-line: Next would be immunizations. It is important to keep in mind what immunizations are available for which age group so it's key to check the age group prior to quoting a benefit being covered.
 ---
 
 ## Immunizations
@@ -188,13 +175,13 @@ line: Next would be immunizations. It is important to keep in mind what immuniza
 transition: fade-out
 layout: one-half-img
 image: img/FEN_MF-02.jpg
-line: Starting with our Primary Care Office Visit, we can see it will cover 3 visits per calendar year at a $25 Co payment with the maximum of $150. They must access providers through First Health Network when utilizing the Physician Services to be covered by the plan.
 ---
 
 ## Wellness Plan
 
 <v-click>
-Physician Services
+
+**Physician Services**
 
 - 1 annual Wellness exam
 - $25 copayment, up to $150 maximum.
@@ -202,7 +189,8 @@ Physician Services
 </v-click>
 
 <v-click>
-Telemedicine
+
+**Telemedicine**
 
 - **Provider:** Kindly Human/Recuro Health
 - $0 consult fee, unlimited visits
@@ -210,7 +198,8 @@ Telemedicine
 </v-click>
 
 <v-click>
-Prescription Coverage
+
+**Rx Coverage**
 
 - **Provider:** Best Choice RX Group Discount Program
 - **Discount program only**
@@ -229,7 +218,6 @@ Prescription Coverage
 transition: fade-out
 layout: one-half-img
 image: img/FEN_MF-03.jpg
-line: 
 ---
 
 ## MedFirst 1 Plan Details
@@ -256,9 +244,9 @@ line:
 
 **Rx Coverage** 
 
-- Preventive & Acute Generics: $0 copay
-- Maintenance Generics: $5 copay (30-day retail/90-day mail)
-- Brand & Specialty: Not covered (PAP if qualified)
+- **Provider:** Best Choice RX Group Discount Program
+- **Discount program only**
+- No standard copays, discounts vary by medication
 <Arrow v-bind="{ x1:480, y1:262, x2:560, y2:262, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -277,7 +265,6 @@ line:
 transition: fade-out
 layout: one-half-img
 image: img/FEN_MF-04.jpg
-line: 
 ---
 
 ## MedFirst 2 Plan Details
@@ -305,7 +292,10 @@ line:
 **Rx Coverage** 
 
 - Preventive & Acute Generics: $0 copay
-- Maintenance Generics: $5 copay
+- Maintenance Generics: $5 copay (200 medications)
+- 30-day retail and 90-day mail-order options
+- No monthly maximum on formulary drugs
+- Prescription Assistance Program available (income-based)
 <Arrow v-bind="{ x1:480, y1:292, x2:560, y2:292, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -323,7 +313,6 @@ line:
 transition: fade-out
 layout: one-half-img
 image: img/FEN_MF-05.jpg
-line: 
 ---
 
 ## MedFirst 3 Plan Details
@@ -335,7 +324,7 @@ line:
 - Primary Care: 4 visits/yr ($25 copay, $150 max)
 - Specialist/Urgent: 4 visits/yr ($50 copay, $300 max)
 - Inpatient: $1,000/day ($15,000 annual max)
-<Arrow v-bind="{ x1:480, y1:146, x2:560, y2:146, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:130, x2:560, y2:130, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -343,7 +332,7 @@ line:
 **Telemedicine**
 
 - $0 consult, unlimited visits
-<Arrow v-bind="{ x1:480, y1:222, x2:560, y2:222, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -354,7 +343,7 @@ line:
 - Maintenance Generics: $5 copay (200 medications)
 - Brand: $40/30-day retail, $80/90-day mail
 - $150 monthly limit, Specialty not covered
-<Arrow v-bind="{ x1:480, y1:292, x2:560, y2:292, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:280, x2:560, y2:280, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -362,7 +351,7 @@ line:
 **Advocacy:**
 
 - Healthcare Ninja cost management
-<Arrow v-bind="{ x1:480, y1:402, x2:560, y2:402, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:400, x2:560, y2:400, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 
@@ -374,7 +363,6 @@ line:
 transition: none
 layout: one-half-img
 image: img/FEN_MF-06.jpg
-line: Let's review the physician services offered under the MedFirst 4 Plan, which provides our most comprehensive coverage options.
 ---
 
 ## MedFirst 4 Plan (1 of 2)
@@ -386,7 +374,7 @@ line: Let's review the physician services offered under the MedFirst 4 Plan, whi
 - Wellness Exam: 1/yr ($25 copay, $150 max)
 - Primary Care: 4/yr ($50 copay, $150 max)
 - Specialist/Urgent: 4/yr ($75 copay, $300 max)
-<Arrow v-bind="{ x1:480, y1:146, x2:560, y2:146, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:126, x2:560, y2:126, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -396,14 +384,13 @@ line: Let's review the physician services offered under the MedFirst 4 Plan, whi
 - Inpatient: $1,500/day ($15,000 annual max)
 - Surgery: $1,500/day ($2,000 combined max)
 - ER/Ambulance: $1,000/$500 if admitted
-<Arrow v-bind="{ x1:480, y1:222, x2:560, y2:222, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
 image: img/FEN_MF-06.jpg
-line: The MedFirst 4 Plan also includes comprehensive supplementary benefits to support overall healthcare needs.
 ---
 
 ## MedFirst 4 Plan (2 of 2)
@@ -412,7 +399,7 @@ line: The MedFirst 4 Plan also includes comprehensive supplementary benefits to 
 
 **Telemedicine**
 - $0 consult, unlimited visits, 24/7 access
-<Arrow v-bind="{ x1:480, y1:146, x2:560, y2:146, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:232, x2:560, y2:232, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -422,14 +409,14 @@ line: The MedFirst 4 Plan also includes comprehensive supplementary benefits to 
 - Maintenance Generics: $5
 - Brand: $40/30-day, $80/90-day mail
 - $150 monthly limit
-<Arrow v-bind="{ x1:480, y1:222, x2:560, y2:222, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:322, x2:560, y2:322, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Advocacy Services**
 - Healthcare Ninja for cost management & claims
-<Arrow v-bind="{ x1:480, y1:322, x2:560, y2:322, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:420, x2:560, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 
@@ -440,7 +427,6 @@ line: The MedFirst 4 Plan also includes comprehensive supplementary benefits to 
 transition: none
 layout: one-half-img
 image: img/FEN_MF-07.jpg
-line: Let's review the physician services offered under the MedFirst 5 Plan, which provides our most comprehensive coverage options.
 ---
 
 ## MedFirst 5 Plan (1 of 2)
@@ -452,7 +438,7 @@ line: Let's review the physician services offered under the MedFirst 5 Plan, whi
 - Wellness Exam: 1/yr ($25 copay, $150 max)
 - Primary Care: 5/yr ($50 copay, $150 max)
 - Specialist/Urgent: 5/yr ($75 copay, $300 max)
-<Arrow v-bind="{ x1:480, y1:146, x2:560, y2:146, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:126, x2:560, y2:126, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -462,14 +448,13 @@ line: Let's review the physician services offered under the MedFirst 5 Plan, whi
 - Inpatient: $1,500/day ($15,000 annual max)
 - Surgery: $1,500/day ($4,500 combined max)
 - ER/Ambulance: $1,000/$500 if admitted
-<Arrow v-bind="{ x1:480, y1:222, x2:560, y2:222, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
 image: img/FEN_MF-07.jpg
-line: The MedFirst 5 Plan also includes comprehensive supplementary benefits to support overall healthcare needs.
 ---
 
 ## MedFirst 5 Plan (2 of 2)
@@ -478,24 +463,26 @@ line: The MedFirst 5 Plan also includes comprehensive supplementary benefits to 
 
 **Telemedicine**
 - $0 consult, unlimited visits, 24/7 access
-<Arrow v-bind="{ x1:480, y1:146, x2:560, y2:146, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:232, x2:560, y2:232, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Rx Coverage (Best Choice RX Plus)** 
-- Preventive & Acute Generics: $0
-- Maintenance Generics: $5
-- Brand: $40/30-day, $80/90-day mail
-- $150 monthly limit
-<Arrow v-bind="{ x1:480, y1:222, x2:560, y2:222, color: 'var(--slidev-theme-accent)' }" />
+**Rx Coverage (Best Choice RX Enhanced)** 
+
+- Preventive & Acute Generics: $0 copay
+- Maintenance Generics: $5 copay (200 medications)
+- 30-day retail and 90-day mail-order options
+- No monthly maximum on formulary drugs
+- Prescription Assistance Program available (income-based)
+<Arrow v-bind="{ x1:480, y1:322, x2:560, y2:322, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Advocacy Services**
 - Healthcare Ninja for cost management & claims
-<Arrow v-bind="{ x1:480, y1:322, x2:560, y2:322, color: 'var(--slidev-theme-accent)' }" />
+<Arrow v-bind="{ x1:480, y1:420, x2:560, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 

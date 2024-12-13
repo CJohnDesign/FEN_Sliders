@@ -42,16 +42,14 @@
       "audioFile": "/audio/oai/FEN_MF5.mp3",
       "clicks": [
         10,
-        16,
+        14.25,
         21
       ]
     },
     {
       "slideNumber": 6,
       "audioFile": "/audio/oai/FEN_MF6.mp3",
-      "clicks": [
-        4
-      ]
+      "clicks": []
     },
     {
       "slideNumber": 7,
@@ -76,9 +74,9 @@
       "audioFile": "/audio/oai/FEN_MF9.mp3",
       "clicks": [
         6,
-        47,
-        62,
-        77
+        45,
+        55,
+        62
       ]
     },
     {
@@ -86,9 +84,9 @@
       "audioFile": "/audio/oai/FEN_MF10.mp3",
       "clicks": [
         8,
-        46,
-        60, 
-        88
+        48,
+        58, 
+        84
       ]
     },
     {
@@ -123,7 +121,7 @@
       "audioFile": "/audio/oai/FEN_MF14.mp3",
       "clicks": [
         10,
-        32
+        33
       ]
     },
     {
@@ -131,7 +129,7 @@
       "audioFile": "/audio/oai/FEN_MF15.mp3",
       "clicks": [
         1,
-        8,
+        9,
         18
       ]
     },
@@ -141,7 +139,7 @@
       "clicks": [
         3,
         8,
-        13,
+        14,
         18,
         22
       ]
