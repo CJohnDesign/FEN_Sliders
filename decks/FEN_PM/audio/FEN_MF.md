@@ -16,6 +16,7 @@ Let's go over some key common points:
 - Prescription coverage varies by plan, often involving discount programs, specific formularies, copay tiers, and, in some plans, a Prescription Assistance Program for certain medications.  
 - Telemedicine services through kindly human and Recuro Health are included across all plans with no maximum visit limits, and typically no consult fees. This helps control costs for certain physician services.  
 - Healthcare Ninja, when included, is an advocacy tool to reduce healthcare costs and can be used after certain plan benefits are exhausted.
+- All plans include a 12-month waiting period for pre-existing conditions.
 
 ---- Required Verbiage & Disclosures ----
 
@@ -88,7 +89,7 @@ Looking at physician services, we've kept the four primary care visits per year 
 
 For hospital coverage, we've increased your annual maximum to $15000 while keeping that same $1000 daily benefit. As with all our plans, please remember the 12-month waiting period for pre-existing conditions.
 
-Your telemedicine access remains comprehensive with unlimited $0 consult visits through kindly human and Recuro Health.
+Your telemedicine access remains unchanged with unlimited $0 consult visits through kindly human and Recuro Health.
 
 The prescription coverage gets even better with our Best Choice RX Plus Plan. You'll keep all the generic benefits from Plan 2, but now we've added:
 - Coverage for brand medications with prior authorization
@@ -102,7 +103,7 @@ The Healthcare Ninja advocacy benefit continues to be there to help you navigate
 
 Our MedFirst 4 Plan introduces some exciting new benefits while building on everything you've seen so far.
 
-For physician services, we've created a comprehensive package that includes:
+For physician services, we've created a package that includes:
 - An annual wellness exam with a $25 copay and $150 maximum
 - Four primary care visits, now with a $50 copay and $150 maximum
 - Four specialist or urgent care visits with a $75 copay and $300 maximum
@@ -119,13 +120,13 @@ Remember, these benefits have a 12-month waiting period for pre-existing conditi
 
 Your telemedicine benefit continues to provide unlimited access to kindly human and Recuro Health with no consult fees.
 
-The prescription coverage maintains the comprehensive structure from Plan 3, with all the same benefits including generic and brand coverage, mail order options, and that $150 monthly limit for non-preventive drugs.
+The prescription coverage maintains the same structure from Plan 3, with all the same benefits including generic and brand coverage, mail order options, and that $150 monthly limit for non-preventive drugs.
 
 And of course, you'll still have access to our Healthcare Ninja advocacy service.
 
 ---- MedFirst 5 Plan - 1 of 2 ----
 
-Finally, let me introduce our premium offering - the MedFirst 5 Plan. This is our most comprehensive coverage option.
+Finally, let me introduce our premium offering - the MedFirst 5 Plan. This is our premium coverage option.
 
 For physician services, we've increased your access even further:
 - Keep your annual wellness exam with the $25 copay and $150 maximum
@@ -143,7 +144,7 @@ The hospital benefits are similar to Plan 4, but with one important upgrade:
 
 Your telemedicine benefit remains unchanged, with unlimited visits with no consult fees through kindly human and Recuro Health.
 
-The prescription coverage continues with all the comprehensive benefits from Plan 4, including the same copay structure and monthly limits.
+The prescription coverage continues with all the benefits from Plan 4, including the same copay structure and monthly limits.
 
 And of course, the Healthcare Ninja advocacy benefit is still there to help you maximize your healthcare dollars.
 
@@ -156,6 +157,7 @@ Let me highlight some key points to remember:
 - Best Choice RX is a discount program only, not a full prescription drug plan
 - Telemedicine services are provided through kindly human and Recuro Health
 - Healthcare Ninja is available for cost management assistance
+- There is a 12-month waiting period for pre-existing conditions
 - Always provide complete and compliant care to your clients
 
 ---- Closing ----
