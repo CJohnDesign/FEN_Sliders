@@ -2,69 +2,78 @@
   <div></div>
 </template>
 
-<script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+<script setup lang="ts">
+import { ref, onMounted, onBeforeUnmount, watch } from 'vue'
 import { Howl } from 'howler'
 import { useNav } from '@slidev/client'
-import { useRoute } from 'vue-router'
 
-// Extract slide number from the last part of the URL (1-based)
-const getStartingIndex = () => {
-  try {
-    // Get current slide number from URL (1-based)
-    const pathParts = window.location.pathname.split('/');
-    const lastPart = pathParts[pathParts.length - 1];
-    const slideNumber = parseInt(lastPart) || 1;
-    // Convert to 0-based index
-    return slideNumber - 1;
-  } catch (error) {
-    console.warn('Failed to get slide number from URL, defaulting to first slide:', error);
-    return 0;
+type AudioSlideConfig = {
+  slideNumber: number
+  clicks: number[]
+}
+
+type AudioConfig = {
+  slides: AudioSlideConfig[]
+}
+
+// Define props at the top of the script
+const props = defineProps<{
+  deckKey: string
+}>()
+
+// Initialize navigation with fallback
+const nav = ref(useNav());
+
+// Function to get current slide number from URL
+const getCurrentSlideNumber = (): number => {
+  const path = window.location.pathname;
+  const match = path.match(/\/(\d+)(?:\?|$)/);
+  return match ? parseInt(match[1]) : 1;
+};
+
+// Reactive state
+const sound = ref<Howl | null>(null);
+const isPlaying = ref(false);
+const audioConfig = ref<AudioConfig | null>(null);
+const slideNumber = ref(getCurrentSlideNumber());
+const audioData = ref<AudioSlideConfig | null>(null);
+const triggeredTimestamps = ref(new Set<number>());
+const checkInterval = ref<number | null>(null);
+const loggingInterval = ref<number | null>(null);
+const isAutoPlaying = ref(false);
+
+// Function to check if there are more slides
+const hasNextSlide = (): boolean => {
+  if (!audioConfig.value) return false;
+  const currentIndex = audioConfig.value.slides.findIndex(slide => slide.slideNumber === slideNumber.value);
+  return currentIndex < audioConfig.value.slides.length - 1;
+};
+
+// Function to handle auto-play of next slide
+const handleAutoPlay = async () => {
+  if (!isAutoPlaying.value) return;
+  
+  if (hasNextSlide()) {
+    console.log('Auto-playing next slide');
+    await advanceSlide();
+    // Wait a bit for the URL to update
+    setTimeout(async () => {
+      updateSlideFromURL();
+      await initAudio(true);
+    }, 100);
+  } else {
+    console.log('Reached end of deck, stopping auto-play');
+    isAutoPlaying.value = false;
   }
 };
 
-// Define props at the top of the script
-const props = defineProps({
-  deckKey: {
-    type: String,
-    required: true
-  }
-})
-
-// Initialize navigation with fallback
-const nav = ref(null);
-try {
-  nav.value = useNav();
-} catch (error) {
-  console.warn('Failed to initialize navigation, some features may be limited:', error);
-}
-
-// Reactive state
-const sound = ref(null);
-const isPlaying = ref(false);
-const audioQueue = ref([]);
-const currentAudioIndex = ref(getStartingIndex());
-const triggeredTimestamps = ref(new Set());
-const checkInterval = ref(null);
-const loggingInterval = ref(null);
-
-// Import the config directly for the current deck
-const audioConfig = ref(null)
-
-// Use props.deckKey instead of route.path parsing
-const slideNumber = parseInt(window.location.pathname.split('/').pop()) || 1
-
-// Current audio data
-const audioData = ref(audioConfig?.slides?.find(
-  slide => slide.slideNumber === slideNumber
-));
-
 // Function to handle 'A' key press for play/pause
-const handleKeyPress = (event) => {
+const handleKeyPress = (event: KeyboardEvent) => {
   if (event.key.toLowerCase() === 'a') {
     console.log('=== "A" Key Pressed ===');
     if (!sound.value) {
       console.log('No sound instance exists, initializing audio...');
+      isAutoPlaying.value = true;
       initAudio(true);
     } else {
       console.log(`Current state before toggle: ${isPlaying.value ? 'playing' : 'paused'}`);
@@ -75,12 +84,16 @@ const handleKeyPress = (event) => {
 
 // Toggle play/pause state
 const togglePlayPause = () => {
+  if (!sound.value) return;
+  
   if (isPlaying.value) {
     console.log('Pausing audio...');
     sound.value.pause();
+    isAutoPlaying.value = false;
   } else {
     console.log('Playing audio...');
     sound.value.play();
+    isAutoPlaying.value = true;
   }
   isPlaying.value = !isPlaying.value;
 };
@@ -103,10 +116,10 @@ const advanceSlide = async () => {
 const startClickCheck = () => {
   if (checkInterval.value) return;
 
-  checkInterval.value = setInterval(() => {
+  checkInterval.value = window.setInterval(() => {
     if (!sound.value || !sound.value.playing()) return;
 
-    const currentTime = sound.value.seek();
+    const currentTime = sound.value.seek() as number;
     
     // Iterate over the clicks array and trigger advancement
     if (audioData.value && audioData.value.clicks && audioData.value.clicks.length > 0) {
@@ -116,6 +129,7 @@ const startClickCheck = () => {
       );
 
       if (nextTimestamp) {
+        console.log(`Triggering click at timestamp: ${nextTimestamp}`)
         triggeredTimestamps.value.add(nextTimestamp);
         advanceSlide();
       }
@@ -123,9 +137,9 @@ const startClickCheck = () => {
   }, 50);
 
   // Start separate logging interval
-  loggingInterval.value = setInterval(() => {
+  loggingInterval.value = window.setInterval(() => {
     if (sound.value && sound.value.playing()) {
-      const currentTime = Math.round(sound.value.seek());
+      const currentTime = Math.round(sound.value.seek() as number);
       console.log(`secs: ${currentTime}s`);
     }
   }, 1000);
@@ -134,11 +148,11 @@ const startClickCheck = () => {
 // Function to stop interval checking
 const stopClickCheck = () => {
   if (checkInterval.value) {
-    clearInterval(checkInterval.value);
+    window.clearInterval(checkInterval.value);
     checkInterval.value = null;
   }
   if (loggingInterval.value) {
-    clearInterval(loggingInterval.value);
+    window.clearInterval(loggingInterval.value);
     loggingInterval.value = null;
   }
 };
@@ -156,13 +170,18 @@ const cleanup = () => {
 // Initialize and configure Howl instance
 const initAudio = async (autoplay = false) => {
   try {
-    const currentSlide = parseInt(window.location.pathname.split('/').pop()) || 1
+    const currentSlide = getCurrentSlideNumber();
+    console.log(`Initializing audio for slide ${currentSlide}`);
     
     // Use dynamic import to load the audio file
     const audioModule = await import(
       `../decks/${props.deckKey}/audio/oai/${props.deckKey}${currentSlide}.mp3`
     )
     const audioPath = audioModule.default
+
+    if (sound.value) {
+      sound.value.unload()
+    }
 
     sound.value = new Howl({
       src: [audioPath],
@@ -172,64 +191,123 @@ const initAudio = async (autoplay = false) => {
       onload: () => {
         console.log('Audio loaded successfully:', audioPath)
         isPlaying.value = autoplay
+        if (autoplay) {
+          startClickCheck()
+        }
       },
-      onloaderror: (id, error) => {
+      onend: async () => {
+        console.log('Audio ended, handling auto-play')
+        stopClickCheck()
+        await handleAutoPlay()
+      },
+      onloaderror: (id: number, error: any) => {
         console.error('Failed to load audio:', {
           id,
           error,
           path: audioPath,
-          state: sound.value.state()
+          state: sound.value?.state()
         })
+        // If we're auto-playing and hit an error, try to continue to next slide
+        if (isAutoPlaying.value) {
+          handleAutoPlay();
+        }
+      },
+      onplay: () => {
+        startClickCheck()
+        isPlaying.value = true;
+      },
+      onpause: () => {
+        stopClickCheck()
+        isAutoPlaying.value = false
+        isPlaying.value = false;
+      },
+      onstop: () => {
+        stopClickCheck()
+        isAutoPlaying.value = false
+        isPlaying.value = false;
       }
     })
   } catch (error) {
     console.error('Error initializing audio:', error)
+    // If we're auto-playing and hit an error, try to continue to next slide
+    if (isAutoPlaying.value) {
+      handleAutoPlay();
+    }
   }
 }
 
+// Watch for slide number changes
+watch(slideNumber, async (newSlideNumber) => {
+  console.log(`Slide number changed to ${newSlideNumber}`);
+  const foundSlide = audioConfig.value?.slides?.find(
+    slide => slide.slideNumber === newSlideNumber
+  );
+  if (foundSlide) {
+    audioData.value = foundSlide;
+  } else {
+    audioData.value = null;
+  }
+  
+  // Reset timestamps when slide changes
+  triggeredTimestamps.value = new Set()
+});
+
+// Watch for URL changes to update slide number
+const updateSlideFromURL = () => {
+  const newSlideNumber = getCurrentSlideNumber();
+  if (newSlideNumber !== slideNumber.value) {
+    slideNumber.value = newSlideNumber;
+  }
+};
+
 onMounted(async () => {
-  window.addEventListener('keydown', handleKeyPress)
+  window.addEventListener('keydown', handleKeyPress);
+  
+  // Listen for URL changes
+  const observer = new MutationObserver(() => {
+    updateSlideFromURL();
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
   
   try {
     // Import the config file directly using a relative path
     const module = await import(`../decks/${props.deckKey}/audio/config.json`)
     console.log('Imported module:', module)
     
-    // Transform the config with the current deck key
-    audioConfig.value = transformConfig(module.default, props.deckKey)
-    console.log('Loaded and transformed config:', audioConfig.value)
+    // Set the config
+    audioConfig.value = module.default
+    console.log('Loaded config:', audioConfig.value)
+
+    // Initialize audio data for current slide
+    const currentSlideNumber = getCurrentSlideNumber();
+    const foundSlide = audioConfig.value?.slides?.find(
+      slide => slide.slideNumber === currentSlideNumber
+    );
+    if (foundSlide) {
+      audioData.value = foundSlide;
+    } else {
+      audioData.value = null;
+    }
+
+    // Initialize audio
+    await initAudio(false)
   } catch (error) {
     console.error(`Failed to load audio config for deck ${props.deckKey}:`, error)
     console.error('Error details:', {
-      message: error.message,
-      stack: error.stack,
-      code: error.code
+      message: error instanceof Error ? error.message : String(error),
+      stack: error instanceof Error ? error.stack : undefined,
+      code: error instanceof Error ? (error as any).code : undefined
     })
+  }
+
+  return () => {
+    observer.disconnect();
   }
 })
 
 onBeforeUnmount(() => {
   cleanup();
 });
-
-// Update how we access audioConfig (using .value)
-const currentSlideConfig = audioConfig.value?.slides?.find(
-  slide => slide.slideNumber === slideNumber
-)
-
-const audioPath = currentSlideConfig?.audioFile || ''
-const clicks = currentSlideConfig?.clicks || []
-
-// Add this function to transform the config
-const transformConfig = (config, deckKey) => {
-  return {
-    ...config,
-    slides: config.slides.map(slide => ({
-      ...slide,
-      audioFile: `/decks/${deckKey}/oai/${deckKey}${slide.slideNumber}.mp3`
-    }))
-  }
-}
 </script>
 
 <style scoped>

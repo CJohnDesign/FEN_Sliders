@@ -346,12 +346,12 @@ image: img/Paramount_Brochure_3.jpg
   - **Emergency Room Treatment**: $200 (1 day/year)  
   - **Chiropractic Visit**: $25 (5 visits/year)  
   - **Doctor’s Office Visit**: $75 (3 visits/year)  
+  - **Urgent Care Visit**: $150 (2 visits/year)  
   <Arrow v-bind="{ x1:480, y1:169, x2:560, y2:169, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-  - **Urgent Care Visit**: $150 (2 visits/year)  
   - **Air Ambulance**: $300 (1 day/year)  
   - **Ground or Water Ambulance**: $100 (1 day/year)  
   - **Wellness Visit**: $50 (1 day/year)  
