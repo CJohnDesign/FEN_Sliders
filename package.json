@@ -11,20 +11,16 @@
   },
   "scripts": {
     "build:mf": "slidev build decks/FEN_MF/slides.md --base /mf/",
-    "build:mf1": "slidev build decks/FEN_MF1/slides.md --base /mf1/",
-    "build:mf2": "slidev build decks/FEN_MF2/slides.md --base /mf2/",
+    "build:pm": "slidev build decks/FEN_PM/slides.md --base /pm/",
     "dev:mf": "slidev decks/FEN_MF/slides.md --open",
-    "dev:mf1": "slidev decks/FEN_MF1/slides.md --open",
-    "dev:mf2": "slidev decks/FEN_MF2/slides.md --open",
+    "dev:pm": "slidev decks/FEN_PM/slides.md --open",
     "export:mf": "slidev export decks/FEN_MF/slides.md",
-    "export:mf1": "slidev export decks/FEN_MF1/slides.md",
-    "export:mf2": "slidev export decks/FEN_MF2/slides.md",
+    "export:pm": "slidev export decks/FEN_PM/slides.md",
     "screenshot": "slidev export decks/FEN_MF1/slides.md --format png",
     "generateAudio": "node scripts/generateAudio.js",
     "serve": "npx vite preview --base /mf1/",
     "serve:mf": "npx vite preview --base /mf/",
-    "serve:mf1": "npx vite preview --base /mf1/",
-    "serve:mf2": "npx vite preview --base /mf2/"
+    "serve:pm": "npx vite preview --base /pm/"
   },
   "dependencies": {
     "@slidev/client": "^0.50.0-beta.7",

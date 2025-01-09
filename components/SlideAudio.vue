@@ -10,14 +10,26 @@ import { onMounted, onBeforeUnmount, ref } from 'vue';
 
 // Function to get starting index from audio filename
 const getStartingIndex = () => {
-  // Get current slide number from URL (1-based)
-  const currentSlideNumber = parseInt(window.location.pathname.split('/').pop()) || 1;
-  // Convert to 0-based index
-  return currentSlideNumber - 1;
+  try {
+    // Get current slide number from URL (1-based)
+    const pathParts = window.location.pathname.split('/');
+    const lastPart = pathParts[pathParts.length - 1];
+    const slideNumber = parseInt(lastPart) || 1;
+    // Convert to 0-based index
+    return slideNumber - 1;
+  } catch (error) {
+    console.warn('Failed to get slide number from URL, defaulting to first slide:', error);
+    return 0;
+  }
 };
 
-// Initialize navigation
-const nav = useNav();
+// Initialize navigation with fallback
+const nav = ref(null);
+try {
+  nav.value = useNav();
+} catch (error) {
+  console.warn('Failed to initialize navigation, some features may be limited:', error);
+}
 
 // Reactive state
 const sound = ref(null);
@@ -59,10 +71,15 @@ const togglePlayPause = () => {
 
 // Separate slide advancement from audio handling
 const advanceSlide = async () => {
+  if (!nav.value) {
+    console.warn('Navigation not available, skipping slide advancement');
+    return;
+  }
+
   try {
-    await nav.next();
+    await nav.value.next();
   } catch (error) {
-    console.error('Failed to navigate to next state:', error);
+    console.error('Failed to navigate to next slide:', error);
   }
 };
 
@@ -137,11 +154,24 @@ const initAudio = (shouldPlay = false) => {
     src: [currentSrc],
     html5: true,
     preload: true,
+    onload: () => {
+      console.log(`Audio loaded successfully: ${currentSrc}`);
+    },
+    onloaderror: (id, error) => {
+      console.error(`Failed to load audio: ${currentSrc}`, error);
+    },
+    onplayerror: (id, error) => {
+      console.error(`Failed to play audio: ${currentSrc}`, error);
+      // Try to recover by reloading the audio
+      sound.value.once('unlock', () => {
+        sound.value.play();
+      });
+    },
     onplay: () => {
       isPlaying.value = true;
       triggeredTimestamps.value.clear(); // Clear timestamps when starting new audio
       startClickCheck();
-      console.log(`Slide Number: ${audioData.value.slideNumber}`);
+      console.log(`Playing audio for slide ${audioData.value.slideNumber}: ${currentSrc}`);
     },
     onpause: () => {
       isPlaying.value = false;
