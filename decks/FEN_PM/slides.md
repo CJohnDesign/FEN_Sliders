@@ -16,7 +16,7 @@ drawings:
 line: Hello! and thanks for being here! today we're going to be reviewing the Paramount Plan.
 ---
 
-<SlideAudio />
+<SlideAudio deckKey="FEN_PM" />
 
 # Paramount Plan Overview
 
@@ -194,13 +194,13 @@ image: img/Paramount_Brochure_1.jpg
   - **First Day ICU Confinement**: $200 (1 day/year)  
   - **Hospital (Day 2 forward)**: $300 (10 days/year)  
   - **ICU (Day 2 forward)**: $300 (10 days/year)  
-
+  <Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
   - **Emergency Room Treatment**: $200 (1 day/year)  
-
+  <Arrow v-bind="{ x1:480, y1:149, x2:560, y2:149, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -208,7 +208,7 @@ image: img/Paramount_Brochure_1.jpg
   - **Chiropractic Visit**: $25 (5 visits/year)  
   - **Doctor’s Office Visit**: $75 (3 visits/year)  
   - **Urgent Care Visit**: $150 (2 visits/year)  
-
+  <Arrow v-bind="{ x1:480, y1:169, x2:560, y2:169, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -216,7 +216,7 @@ image: img/Paramount_Brochure_1.jpg
   - **Air Ambulance**: $300 (1 day/year)  
   - **Ground or Water Ambulance**: $100 (1 day/year)  
   - **Wellness Visit**: $50 (1 day/year)  
-
+  <Arrow v-bind="{ x1:480, y1:200, x2:560, y2:200, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -232,23 +232,22 @@ image: img/Paramount_Brochure_1.jpg
   - **Pre-Existing Condition Limitations**: 12 months waiting period  
   - **Normal Pregnancy Coverage**: Included (complications always covered)  
   - **Normal Pregnancy Waiting Period**: None  
-
+  <Arrow v-bind="{ x1:480, y1:246, x2:560, y2:246, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
   - **Portability**: Not Included  
   - **Annual Benefit Maximum**: None  
-
+  <Arrow v-bind="{ x1:480, y1:272, x2:560, y2:272, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
   - **Benefit Waiting Period**: 0 days  
   - **Reduction in Benefits at Older Ages**: 75% at age 70  
-
+  <Arrow v-bind="{ x1:480, y1:290, x2:560, y2:290, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
-
 
 ---
 transition: fade-out
@@ -258,14 +257,35 @@ image: img/Paramount_Brochure_2.jpg
 
 ## Paramount 2 Plan (1/2)
 
-<v-clicks>
+<v-click>
 
-- **Enhanced Hospital Indemnity Plan**
-- Hospital Admission Benefit: $1,000 for the first day
-- ICU Confinement: $500/day
-- Surgical Benefits: Inpatient Surgery up to $1,500
+  - **First Day Hospital Confinement**: $1,000 (1 day/year)  
+  - **First Day ICU Confinement**: $200 (1 day/year)  
+  - **Hospital (Day 2 forward)**: $300 (10 days/year)  
+  - **ICU (Day 2 forward)**: $500 (10 days/year)  
+  <Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
+<v-click>
+
+  - **Emergency Room Treatment**: $200 (1 day/year)  
+  <Arrow v-bind="{ x1:480, y1:149, x2:560, y2:149, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+  - **Doctor’s Office Visit**: $50 (3 visits/year)  
+  - **Urgent Care Visit**: $125 (2 visits/year)  
+  <Arrow v-bind="{ x1:480, y1:169, x2:560, y2:169, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+  - **Air Ambulance**: $200 (1 day/year)  
+  - **Ground or Water Ambulance**: $100 (1 day/year)  
+  - **Wellness Visit**: $50 (1 day/year)  
+  <Arrow v-bind="{ x1:480, y1:200, x2:560, y2:200, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 ---
 transition: fade-out
@@ -275,14 +295,27 @@ image: img/Paramount_Brochure_2.jpg
 
 ## Paramount 2 Plan (2/2)
 
-<v-clicks>
+<v-click>
 
-- **Enhanced Hospital Indemnity Plan**
-- Hospital Admission Benefit: $1,000 for the first day
-- ICU Confinement: $500/day
-- Surgical Benefits: Inpatient Surgery up to $1,500
+  - **Pre-Existing Condition Limitations**: 12 months waiting period  
+  - **Normal Pregnancy Coverage**: Included (complications always covered)  
+  - **Normal Pregnancy Waiting Period**: None  
+  <Arrow v-bind="{ x1:480, y1:246, x2:560, y2:246, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
+<v-click>
+
+  - **Portability**: Not Included  
+  - **Annual Benefit Maximum**: None  
+  <Arrow v-bind="{ x1:480, y1:272, x2:560, y2:272, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+  - **Benefit Waiting Period**: 0 days  
+  - **Reduction in Benefits at Older Ages**: 75% at age 70  
+  <Arrow v-bind="{ x1:480, y1:290, x2:560, y2:290, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 ---
 transition: fade-out
@@ -292,14 +325,38 @@ image: img/Paramount_Brochure_3.jpg
 
 ## Paramount 3 Plan (1/2)
 
-<v-clicks>
+<v-click>
 
-- **Comprehensive Hospital Indemnity Plan**
-- Hospital Admission Benefit: $1,000 for the first day
-- ICU Confinement: $300/day
-- Air Ambulance Benefit: $300/day
+  - **First Day Hospital Confinement**: $1,000 (1 day/year)  
+  - **First Day ICU Confinement**: $200 (1 day/year)  
+  - **Hospital (Day 2 forward)**: $300 (10 days/year)  
+  - **ICU (Day 2 forward)**: $300 (10 days/year)  
+  <Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
+<v-click>
+
+  - **Inpatient Surgery**: $1,500  
+  - **Outpatient Surgery (Hospital or ASC)**: $500  
+  <Arrow v-bind="{ x1:480, y1:149, x2:560, y2:149, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+  - **Emergency Room Treatment**: $200 (1 day/year)  
+  - **Chiropractic Visit**: $25 (5 visits/year)  
+  - **Doctor’s Office Visit**: $75 (3 visits/year)  
+  <Arrow v-bind="{ x1:480, y1:169, x2:560, y2:169, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+  - **Urgent Care Visit**: $150 (2 visits/year)  
+  - **Air Ambulance**: $300 (1 day/year)  
+  - **Ground or Water Ambulance**: $100 (1 day/year)  
+  - **Wellness Visit**: $50 (1 day/year)  
+  <Arrow v-bind="{ x1:480, y1:200, x2:560, y2:200, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 ---
 transition: fade-out
@@ -309,14 +366,28 @@ image: img/Paramount_Brochure_3.jpg
 
 ## Paramount 3 Plan (2/2)
 
-<v-clicks>
+<v-click>
 
-- **Comprehensive Hospital Indemnity Plan**
-- Hospital Admission Benefit: $1,000 for the first day
-- ICU Confinement: $300/day
-- Air Ambulance Benefit: $300/day
+  - **Pre-Existing Condition Limitations**: 12 months waiting period  
+  - **Normal Pregnancy Coverage**: Included (complications always covered)  
+  - **Normal Pregnancy Waiting Period**: None  
+  <Arrow v-bind="{ x1:480, y1:246, x2:560, y2:246, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
+<v-click>
+
+  - **Portability**: Not Included  
+  - **Annual Benefit Maximum**: None  
+  <Arrow v-bind="{ x1:480, y1:272, x2:560, y2:272, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+  - **Benefit Waiting Period**: 0 days  
+  - **Reduction in Benefits at Older Ages**: 75% at age 70  
+  <Arrow v-bind="{ x1:480, y1:290, x2:560, y2:290, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
 
 ---
 transition: fade-out

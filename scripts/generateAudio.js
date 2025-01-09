@@ -10,6 +10,25 @@ if (!OPENAI_API_KEY) {
   throw new Error('Missing OPENAI_API_KEY in environment variables. Please check your .env file.');
 }
 
+async function findMdFile(deckKey) {
+  const possiblePaths = [
+    path.join(process.cwd(), `decks/${deckKey}/audio/${deckKey}.md`),
+    path.join(process.cwd(), `decks/${deckKey}/audio/audio_script.md`),
+    // Add more potential paths if needed
+  ];
+
+  for (const filePath of possiblePaths) {
+    try {
+      await fs.access(filePath);
+      return filePath;
+    } catch (error) {
+      continue;
+    }
+  }
+
+  throw new Error(`Could not find markdown file for deck ${deckKey}. Searched in:\n${possiblePaths.join('\n')}`);
+}
+
 async function parseMdFile(filePath) {
   const content = await fs.readFile(filePath, 'utf-8');
   const sections = [];
@@ -44,8 +63,10 @@ async function generateAudio(deckKey, specificSlide = null) {
   try {
     const baseUrl = 'https://api.openai.com/v1/audio/speech';
     
-    // Read the markdown file
-    const mdFilePath = path.join(process.cwd(), `decks/${deckKey}/audio/${deckKey}.md`);
+    // Find the markdown file
+    const mdFilePath = await findMdFile(deckKey);
+    console.log(`Found script at: ${mdFilePath}`);
+    
     const sections = await parseMdFile(mdFilePath);
 
     // Create the output directory if it doesn't exist

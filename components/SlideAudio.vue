@@ -3,12 +3,12 @@
 </template>
 
 <script setup>
-import { Howl } from 'howler';
-import { useNav } from '@slidev/client';
-import audioConfig from '../decks/FEN_MF/audio/config.json';
-import { onMounted, onBeforeUnmount, ref } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { Howl } from 'howler'
+import { useNav } from '@slidev/client'
+import { useRoute } from 'vue-router'
 
-// Function to get starting index from audio filename
+// Extract slide number from the last part of the URL (1-based)
 const getStartingIndex = () => {
   try {
     // Get current slide number from URL (1-based)
@@ -23,6 +23,14 @@ const getStartingIndex = () => {
   }
 };
 
+// Define props at the top of the script
+const props = defineProps({
+  deckKey: {
+    type: String,
+    required: true
+  }
+})
+
 // Initialize navigation with fallback
 const nav = ref(null);
 try {
@@ -34,14 +42,22 @@ try {
 // Reactive state
 const sound = ref(null);
 const isPlaying = ref(false);
-const audioQueue = ref(audioConfig.slides.map(slide => slide.audioFile));
+const audioQueue = ref([]);
 const currentAudioIndex = ref(getStartingIndex());
 const triggeredTimestamps = ref(new Set());
 const checkInterval = ref(null);
 const loggingInterval = ref(null);
 
+// Import the config directly for the current deck
+const audioConfig = ref(null)
+
+// Use props.deckKey instead of route.path parsing
+const slideNumber = parseInt(window.location.pathname.split('/').pop()) || 1
+
 // Current audio data
-const audioData = ref(audioConfig.slides[currentAudioIndex.value]);
+const audioData = ref(audioConfig?.slides?.find(
+  slide => slide.slideNumber === slideNumber
+));
 
 // Function to handle 'A' key press for play/pause
 const handleKeyPress = (event) => {
@@ -138,75 +154,82 @@ const cleanup = () => {
 };
 
 // Initialize and configure Howl instance
-const initAudio = (shouldPlay = false) => {
-  if (sound.value) {
-    sound.value.unload();
-    sound.value = null;
-  }
+const initAudio = async (autoplay = false) => {
+  try {
+    const currentSlide = parseInt(window.location.pathname.split('/').pop()) || 1
+    
+    // Use dynamic import to load the audio file
+    const audioModule = await import(
+      `../decks/${props.deckKey}/audio/oai/${props.deckKey}${currentSlide}.mp3`
+    )
+    const audioPath = audioModule.default
 
-  const currentSrc = audioQueue.value[currentAudioIndex.value];
-  if (!currentSrc) {
-    console.warn('No audio source available for this slide.');
-    return;
-  }
-
-  sound.value = new Howl({
-    src: [currentSrc],
-    html5: true,
-    preload: true,
-    onload: () => {
-      console.log(`Audio loaded successfully: ${currentSrc}`);
-    },
-    onloaderror: (id, error) => {
-      console.error(`Failed to load audio: ${currentSrc}`, error);
-    },
-    onplayerror: (id, error) => {
-      console.error(`Failed to play audio: ${currentSrc}`, error);
-      // Try to recover by reloading the audio
-      sound.value.once('unlock', () => {
-        sound.value.play();
-      });
-    },
-    onplay: () => {
-      isPlaying.value = true;
-      triggeredTimestamps.value.clear(); // Clear timestamps when starting new audio
-      startClickCheck();
-      console.log(`Playing audio for slide ${audioData.value.slideNumber}: ${currentSrc}`);
-    },
-    onpause: () => {
-      isPlaying.value = false;
-      stopClickCheck();
-    },
-    onend: async () => {
-      console.log(`=== Audio Ended ===`);
-      console.log(`Slide Number: ${audioData.value.slideNumber}`);
-      
-      // Always advance to the next slide
-      await advanceSlide();
-      
-      currentAudioIndex.value++;
-      audioData.value = audioConfig.slides[currentAudioIndex.value];
-      triggeredTimestamps.value.clear();
-      
-      if (audioData.value) {
-        initAudio(true);
+    sound.value = new Howl({
+      src: [audioPath],
+      format: ['mp3'],
+      autoplay: autoplay,
+      html5: true,
+      onload: () => {
+        console.log('Audio loaded successfully:', audioPath)
+        isPlaying.value = autoplay
+      },
+      onloaderror: (id, error) => {
+        console.error('Failed to load audio:', {
+          id,
+          error,
+          path: audioPath,
+          state: sound.value.state()
+        })
       }
-    }
-  });
-
-  if (shouldPlay) {
-    sound.value.play();
+    })
+  } catch (error) {
+    console.error('Error initializing audio:', error)
   }
-};
+}
 
-// Lifecycle hooks
-onMounted(() => {
-  window.addEventListener('keydown', handleKeyPress);
-});
+onMounted(async () => {
+  window.addEventListener('keydown', handleKeyPress)
+  
+  try {
+    // Import the config file directly using a relative path
+    const module = await import(`../decks/${props.deckKey}/audio/config.json`)
+    console.log('Imported module:', module)
+    
+    // Transform the config with the current deck key
+    audioConfig.value = transformConfig(module.default, props.deckKey)
+    console.log('Loaded and transformed config:', audioConfig.value)
+  } catch (error) {
+    console.error(`Failed to load audio config for deck ${props.deckKey}:`, error)
+    console.error('Error details:', {
+      message: error.message,
+      stack: error.stack,
+      code: error.code
+    })
+  }
+})
 
 onBeforeUnmount(() => {
   cleanup();
 });
+
+// Update how we access audioConfig (using .value)
+const currentSlideConfig = audioConfig.value?.slides?.find(
+  slide => slide.slideNumber === slideNumber
+)
+
+const audioPath = currentSlideConfig?.audioFile || ''
+const clicks = currentSlideConfig?.clicks || []
+
+// Add this function to transform the config
+const transformConfig = (config, deckKey) => {
+  return {
+    ...config,
+    slides: config.slides.map(slide => ({
+      ...slide,
+      audioFile: `/decks/${deckKey}/oai/${deckKey}${slide.slideNumber}.mp3`
+    }))
+  }
+}
 </script>
 
 <style scoped>

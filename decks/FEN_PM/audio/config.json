@@ -2,12 +2,10 @@
   "slides": [
     {
       "slideNumber": 1,
-      "audioFile": "/audio/oai/FEN_MF1.mp3",
       "clicks": []
     },
     {
       "slideNumber": 2,
-      "audioFile": "/audio/oai/FEN_MF2.mp3",
       "clicks": [
         4,
         8, 
@@ -18,7 +16,6 @@
     },
     {
       "slideNumber": 3,
-      "audioFile": "/audio/oai/FEN_MF3.mp3",
       "clicks": [
         3.5,
         8,
@@ -32,7 +29,6 @@
     },
     {
       "slideNumber": 4,
-      "audioFile": "/audio/oai/FEN_MF4.mp3",
       "clicks": [
         3,
         5
@@ -40,7 +36,6 @@
     },
     {
       "slideNumber": 5,
-      "audioFile": "/audio/oai/FEN_MF5.mp3",
       "clicks": [
         10,
         14.25,
@@ -49,12 +44,10 @@
     },
     {
       "slideNumber": 6,
-      "audioFile": "/audio/oai/FEN_MF6.mp3",
       "clicks": []
     },
     {
       "slideNumber": 7,
-      "audioFile": "/audio/oai/FEN_MF7.mp3",
       "clicks": [
         6,
         13
@@ -62,7 +55,6 @@
     },
     {
       "slideNumber": 8,
-      "audioFile": "/audio/oai/FEN_MF8.mp3",
       "clicks": [
         7,
         23,
@@ -72,7 +64,6 @@
     },
     {
       "slideNumber": 9,
-      "audioFile": "/audio/oai/FEN_MF9.mp3",
       "clicks": [
         6,
         45,
@@ -82,7 +73,6 @@
     },
     {
       "slideNumber": 10,
-      "audioFile": "/audio/oai/FEN_MF10.mp3",
       "clicks": [
         8,
         44,
@@ -92,7 +82,6 @@
     },
     {
       "slideNumber": 11,
-      "audioFile": "/audio/oai/FEN_MF11.mp3",
       "clicks": [
         5,
         42,
@@ -102,7 +91,6 @@
     },
     {
       "slideNumber": 12,
-      "audioFile": "/audio/oai/FEN_MF12.mp3",
       "clicks": [
         7,
         32
@@ -110,7 +98,6 @@
     },
     {
       "slideNumber": 13,
-      "audioFile": "/audio/oai/FEN_MF13.mp3",
       "clicks": [
         1, 
         8, 
@@ -119,7 +106,6 @@
     },
     {
       "slideNumber": 14,
-      "audioFile": "/audio/oai/FEN_MF14.mp3",
       "clicks": [
         10,
         33
@@ -127,7 +113,6 @@
     },
     {
       "slideNumber": 15,
-      "audioFile": "/audio/oai/FEN_MF15.mp3",
       "clicks": [
         1,
         9,
@@ -136,7 +121,6 @@
     },
     {
       "slideNumber": 16,
-      "audioFile": "/audio/oai/FEN_MF16.mp3",
       "clicks": [
         3,
         8,
@@ -148,7 +132,6 @@
     },
     {
       "slideNumber": 17,
-      "audioFile": "/audio/oai/FEN_MF17.mp3",
       "clicks": []
     }
   ]
