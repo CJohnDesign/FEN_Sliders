@@ -389,41 +389,6 @@ image: img/Paramount_Brochure_3.jpg
   <Arrow v-bind="{ x1:480, y1:290, x2:560, y2:290, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/Paramount_Brochure_Limitations.jpg
----
-
-## Limitations and Exclusions
-
-<v-click>
-
-  - **Pre-Existing Conditions**: Not covered for first 12 months
-  - **Observation Stays**: Not eligible for confinement benefits
-  <Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-  - **Non-Emergency Services**: Must contact MBR Plus first
-  - **Hospital Stay Duration**: Must exceed 20 hours
-  <Arrow v-bind="{ x1:480, y1:149, x2:560, y2:149, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-  - **Same Day Services**: Only highest benefit paid
-  - **Visit Limits**: Strictly enforced per plan year
-  <Arrow v-bind="{ x1:480, y1:169, x2:560, y2:169, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-  - **Age Reduction**: Benefits reduce to 75% at age 70
-  - **Readmission**: 30-day waiting period for same condition
-  <Arrow v-bind="{ x1:480, y1:200, x2:560, y2:200, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
 
 ---
 transition: fade-out
@@ -442,11 +407,6 @@ layout: default
 | Outpatient Surgery        | Not Included          | Not Included            | $500                    |
 | Air Ambulance            | Not Included          | $200                    | $300                    |
 
----
-transition: fade-out
-layout: default
----
-
 ## Critical Requirements
 
 <v-clicks>
@@ -456,23 +416,6 @@ layout: default
 - **Multiple Services**: Only highest benefit paid for same-day services
 - **Pre-Service**: Contact MBR Plus before seeking services
 - **Visit Limits**: Strictly enforced for all outpatient services
-
-</v-clicks>
-
----
-transition: fade-out
-layout: default
----
-
-# Policy Limitations and Exclusions
-
-<v-clicks>
-
-- **Risky Behavior Exclusions**
-- **War and Military Exclusions**
-- **Medical Procedure Exclusions**
-- **Mental Health and Government Care**
-- **Other Exclusions**
 
 </v-clicks>
 

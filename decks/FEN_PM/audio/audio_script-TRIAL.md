@@ -56,7 +56,23 @@ The Pre-Existing Condition Limitations remain consistent with a 12-month waiting
 
 ---- Comparing the 3 Paramount Plans ----
 
-Let's compare these plans side by side. Plan 1 includes Daily Hospital and ICU Confinement benefits but excludes Inpatient Surgery, Outpatient Surgery, or enhanced Air Ambulance coverage. Plan 2 adds a higher ICU daily rate of $500 and introduces Inpatient Surgery benefits at $1,500. Plan 3 offers the most comprehensive coverage, including both Inpatient Surgery at $1,500 and Outpatient Surgery at $500, along with enhanced Air Ambulance coverage at $300.
+Let's take a moment to compare these plans side by side. Plan 1 includes Daily Hospital Confinement at $100/day and ICU Confinement at $200/day but excludes Inpatient Surgery, Outpatient Surgery, or enhanced Air Ambulance coverage. Plan 2 offers increased Hospital Confinement at $300/day and ICU at $500/day, plus Inpatient Surgery benefits at $1,500. Plan 3 provides the most comprehensive coverage, with both Hospital and ICU Confinement at $300/day, including both Inpatient Surgery at $1,500 and Outpatient Surgery at $500, along with enhanced Air Ambulance coverage at $300.
+
+---- Critical Requirements ----
+
+Now, let's review some critical requirements that apply to all plans. First, all hospital stays must be at least 20 hours to qualify for benefits - this is non-negotiable. There's also a readmission rule: if you're readmitted within 30 days for the same or related condition, confinement benefits won't be paid again. For multiple services on the same day, only the highest applicable benefit will be paid. It's crucial to contact MBR Plus before seeking services to maximize your benefits. Finally, all outpatient service visit limits are strictly enforced according to the plan specifications.
+
+---- Policy Limitations and Exclusions ----
+
+Let's review the key policy limitations and exclusions. Under Risky Behavior Exclusions, the plan won't provide coverage for injuries resulting from self-harm, intoxication, criminal acts, riots, stunts, or extreme sports activities.
+
+The War and Military Exclusions section specifically excludes any injuries related to war or military service.
+
+For Medical Procedures, there are several important exclusions to note: fertility treatments, cosmetic surgeries, and gender-related surgeries are not covered. The plan also doesn't provide benefits for routine pregnancy or alternative treatments.
+
+Regarding Mental Health and Government Care, most mental health disorders fall under exclusions, and any care provided in government facilities is not eligible for benefits.
+
+Finally, under Other Exclusions, the plan doesn't cover custodial care or cosmetic procedures. Dental care coverage is limited to injuries resulting from accidents only. Remember that all benefits are subject to the specific terms outlined in the group policy.
 
 ---- Key Takeaways and Reminders ----
 
@@ -65,3 +81,5 @@ Remember these important points: MBR Services can significantly reduce members' 
 ---- Closing ----
 
 Thank you for taking the time to learn about the Paramount Plan. By understanding each plan's features and cost-saving tools, you'll be able to guide clients toward the option that best suits their needs. Continue to be great!
+
+
