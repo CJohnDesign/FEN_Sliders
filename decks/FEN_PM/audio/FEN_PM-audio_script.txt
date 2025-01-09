@@ -18,9 +18,9 @@ Medical Bill Repricing, which we'll call MBR, negotiates hospital and medical bi
 
 The process is straightforward. Members enroll through BWA and seek healthcare services as needed. Medical bills are submitted to MBR, and after negotiation, members receive an Explanation of Benefits, or EOB. The final step is paying the reduced balance, making the process simple while providing valuable cost savings.
 
----- Preventive Care and Wellness ----
+---- Wellness & Labs ----
 
-Annual Wellness Exams help detect health issues early. Preventive Screenings address potential risks before they become serious. DirectLabs makes it convenient for members to obtain recommended lab tests without hassle.
+Annual Wellness Exams help detect health issues early. DirectLabs makes it convenient for members to obtain recommended lab tests without hassle.
 
 ---- Telehealth Services ----
 
@@ -62,21 +62,21 @@ Let's take a moment to compare these plans side by side. Plan 1 includes Daily H
 
 Now, let's review some critical requirements that apply to all plans. First, all hospital stays must be at least 20 hours to qualify for benefits - this is non-negotiable. There's also a readmission rule: if you're readmitted within 30 days for the same or related condition, confinement benefits won't be paid again. For multiple services on the same day, only the highest applicable benefit will be paid. It's crucial to contact MBR Plus before seeking services to maximize your benefits. Finally, all outpatient service visit limits are strictly enforced according to the plan specifications.
 
----- Policy Limitations and Exclusions ----
+---- Limitations and Exclusions ----
 
-Let's review the key policy limitations and exclusions. Under Risky Behavior Exclusions, the plan won't provide coverage for injuries resulting from self-harm, intoxication, criminal acts, riots, stunts, or extreme sports activities.
+Let's review the key categories of limitations and exclusions that you must discuss with every client. 
 
-The War and Military Exclusions section specifically excludes any injuries related to war or military service.
+Starting with Risky Behavior Exclusions, this section outlines activities and situations that aren't covered under the plan. The War and Military Exclusions section contains specific limitations related to military service and conflict zones.
 
-For Medical Procedures, there are several important exclusions to note: fertility treatments, cosmetic surgeries, and gender-related surgeries are not covered. The plan also doesn't provide benefits for routine pregnancy or alternative treatments.
+Moving to Medical Procedure Exclusions, there are certain treatments and procedures that have coverage limitations. Mental Health and Government Care also have specific restrictions that need to be reviewed.
 
-Regarding Mental Health and Government Care, most mental health disorders fall under exclusions, and any care provided in government facilities is not eligible for benefits.
+Finally, under Other Exclusions, you'll find additional important limitations that must be discussed with your clients.
 
-Finally, under Other Exclusions, the plan doesn't cover custodial care or cosmetic procedures. Dental care coverage is limited to injuries resulting from accidents only. Remember that all benefits are subject to the specific terms outlined in the group policy.
+Remember, it's crucial to review each of these sections in detail with your members. Take time to answer any questions, and ensure they understand these limitations before proceeding with enrollment. State variations may apply to some of these exclusions.
 
 ---- Key Takeaways and Reminders ----
 
-Remember these important points: MBR Services can significantly reduce members' medical bills. Telemedicine and Prescription Savings are standard features across all plans. Preventive Care and Wellness benefits are designed to keep members healthier in the long run. And don't forget that BWA membership is required to access these plan benefits.
+Remember these important points: MBR Services can significantly reduce members' medical bills. Telemedicine and Prescription Savings are standard features across all plans. Wellness and Labs benefits are designed to keep members healthier in the long run. And don't forget that BWA membership is required to access these plan benefits.
 
 ---- Closing ----
 

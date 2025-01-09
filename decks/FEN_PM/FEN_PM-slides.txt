@@ -113,16 +113,16 @@ transition: fade-out
 layout: default
 ---
 
-## How the Plan Works
+## How MBR Works
 
 <v-clicks>
 
-1. **Contact MBR Plus** before seeking services
-2. **Enroll through BWA membership**
-3. **Access healthcare services** (minimum 20-hour stay for hospital benefits)
-4. **Submit bills to MBR for repricing**
-5. **Receive Explanation of Benefits (EOB)**
-6. **Pay final bill based on negotiated rates**
+1. **Enroll through BWA membership**
+2. **Access healthcare services** 
+3. **Submit bills to MBR for repricing**
+4. **Receive Explanation of Benefits (EOB)**
+5. **Pay final bill based on negotiated rates**
+
 
 </v-clicks>
 
@@ -131,13 +131,11 @@ transition: fade-out
 layout: default
 ---
 
-## Preventive Care and Wellness
+## Wellness & Labs
 
 <v-clicks>
 
 • Annual Wellness Exams to stay ahead of health issues
-
-• Preventive Screenings for early detection
 
 • Convenient lab tests with **DirectLabs**
 
@@ -397,15 +395,20 @@ layout: default
 
 ## Comparing the 3 Paramount Plans
 
-| Feature                   | Paramount 1           | Paramount 2              | Paramount 3              |
-|---------------------------|-----------------------|--------------------------|--------------------------|
-| Daily Hospital Confinement | $100/day (10 days/yr) | $300/day (10 days/yr)   | $300/day (10 days/yr)   |
+| **Feature**                   | **Paramount 1**           | **Paramount 2**              | **Paramount 3**              |
+|-------------------------------|---------------------------|------------------------------|------------------------------|
+| Daily Hospital Confinement | $100/day (10 days/yr)     | $300/day (10 days/yr)       | $300/day (10 days/yr)       |
 | Daily ICU Confinement     | $200/day (10 days/yr) | $500/day (10 days/yr)   | $300/day (10 days/yr)   |
 | Doctor's Office Visits    | $50 (3 visits/yr)     | $50 (3 visits/yr)       | $75 (3 visits/yr)       |
 | Urgent Care Visits        | $125 (2 visits/yr)    | $125 (2 visits/yr)      | $150 (2 visits/yr)      |
 | Inpatient Surgery         | Not Included          | $1,500                  | $1,500                  |
 | Outpatient Surgery        | Not Included          | Not Included            | $500                    |
 | Air Ambulance            | Not Included          | $200                    | $300                    |
+
+---
+transition: fade-out
+layout: default
+---
 
 ## Critical Requirements
 
@@ -421,6 +424,44 @@ layout: default
 
 ---
 transition: fade-out
+layout: one-half-img
+image: img/Paramount_Brochure_Limitations.jpg
+---
+
+## Limitations and Exclusions
+
+<v-click>
+
+**Risky Behavior Exclusions**
+<Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**War and Military Exclusions**
+<Arrow v-bind="{ x1:480, y1:200, x2:560, y2:200, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Medical Procedure Exclusions**
+<Arrow v-bind="{ x1:480, y1:250, x2:560, y2:250, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Mental Health and Government Care**
+<Arrow v-bind="{ x1:480, y1:280, x2:560, y2:280, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Other Exclusions**
+<Arrow v-bind="{ x1:480, y1:320, x2:560, y2:320, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
 layout: default
 ---
 
@@ -430,7 +471,7 @@ layout: default
 
 - **MBR Services** reduce medical expenses.
 - **Telemedicine** and **Prescription Savings** are included.
-- **Preventive Care and Wellness Benefits** are essential.
+- **Wellness and Labs Benefits** are essential.
 - **BWA Membership** is required to access the plan.
 
 </v-clicks>
@@ -448,13 +489,3 @@ Continue to be great!
 
 <img src="./img/logo.svg" class="h-12 mt-32" alt="Paramount Logo">
 
-## Important Notes
-
-<v-clicks>
-
-- Minimum 20-hour hospital stay required
-- 30-day readmission rule applies
-- Only highest benefit paid for same-day services
-- Contact MBR Plus before seeking services
-
-</v-clicks>

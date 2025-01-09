@@ -18,9 +18,9 @@ Medical Bill Repricing, which we'll call MBR, negotiates hospital and medical bi
 
 The process is straightforward. Members enroll through BWA and seek healthcare services as needed. Medical bills are submitted to MBR, and after negotiation, members receive an Explanation of Benefits, or EOB. The final step is paying the reduced balance, making the process simple while providing valuable cost savings.
 
----- Wellness & Labs ----
+---- Preventive Care and Wellness ----
 
-Annual Wellness Exams help detect health issues early. DirectLabs makes it convenient for members to obtain recommended lab tests without hassle.
+Annual Wellness Exams help detect health issues early. Preventive Screenings address potential risks before they become serious. DirectLabs makes it convenient for members to obtain recommended lab tests without hassle.
 
 ---- Telehealth Services ----
 
@@ -56,30 +56,12 @@ The Pre-Existing Condition Limitations remain consistent with a 12-month waiting
 
 ---- Comparing the 3 Paramount Plans ----
 
-Let's take a moment to compare these plans side by side. Plan 1 includes Daily Hospital Confinement at $100/day and ICU Confinement at $200/day but excludes Inpatient Surgery, Outpatient Surgery, or enhanced Air Ambulance coverage. Plan 2 offers increased Hospital Confinement at $300/day and ICU at $500/day, plus Inpatient Surgery benefits at $1,500. Plan 3 provides the most comprehensive coverage, with both Hospital and ICU Confinement at $300/day, including both Inpatient Surgery at $1,500 and Outpatient Surgery at $500, along with enhanced Air Ambulance coverage at $300.
-
----- Critical Requirements ----
-
-Now, let's review some critical requirements that apply to all plans. First, all hospital stays must be at least 20 hours to qualify for benefits - this is non-negotiable. There's also a readmission rule: if you're readmitted within 30 days for the same or related condition, confinement benefits won't be paid again. For multiple services on the same day, only the highest applicable benefit will be paid. It's crucial to contact MBR Plus before seeking services to maximize your benefits. Finally, all outpatient service visit limits are strictly enforced according to the plan specifications.
-
----- Limitations and Exclusions ----
-
-Let's review the key categories of limitations and exclusions that you must discuss with every client. 
-
-Starting with Risky Behavior Exclusions, this section outlines activities and situations that aren't covered under the plan. The War and Military Exclusions section contains specific limitations related to military service and conflict zones.
-
-Moving to Medical Procedure Exclusions, there are certain treatments and procedures that have coverage limitations. Mental Health and Government Care also have specific restrictions that need to be reviewed.
-
-Finally, under Other Exclusions, you'll find additional important limitations that must be discussed with your clients.
-
-Remember, it's crucial to review each of these sections in detail with your members. Take time to answer any questions, and ensure they understand these limitations before proceeding with enrollment. State variations may apply to some of these exclusions.
+Let's compare these plans side by side. Plan 1 includes Daily Hospital and ICU Confinement benefits but excludes Inpatient Surgery, Outpatient Surgery, or enhanced Air Ambulance coverage. Plan 2 adds a higher ICU daily rate of $500 and introduces Inpatient Surgery benefits at $1,500. Plan 3 offers the most comprehensive coverage, including both Inpatient Surgery at $1,500 and Outpatient Surgery at $500, along with enhanced Air Ambulance coverage at $300.
 
 ---- Key Takeaways and Reminders ----
 
-Remember these important points: MBR Services can significantly reduce members' medical bills. Telemedicine and Prescription Savings are standard features across all plans. Wellness and Labs benefits are designed to keep members healthier in the long run. And don't forget that BWA membership is required to access these plan benefits.
+Remember these important points: MBR Services can significantly reduce members' medical bills. Telemedicine and Prescription Savings are standard features across all plans. Preventive Care and Wellness benefits are designed to keep members healthier in the long run. And don't forget that BWA membership is required to access these plan benefits.
 
 ---- Closing ----
 
 Thank you for taking the time to learn about the Paramount Plan. By understanding each plan's features and cost-saving tools, you'll be able to guide clients toward the option that best suits their needs. Continue to be great!
-
-
