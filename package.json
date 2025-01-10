@@ -25,7 +25,7 @@
     "deck": "ts-node tools/cli/create-deck.ts",
     "create-deck": "node scripts/create-deck.js",
     "build:mc": "slidev build decks/FEN_MC/slides.md --base /mc/",
-    "export:mc": "slidev export decks/FEN_MC/slides.md --output exports/FEN_MC.pdf",
+    "export:mc": "slidev export decks/FEN_MC/slides.md",
     "preview:mc": "slidev decks/FEN_MC/slides.md --remote",
     "pdf-to-jpg": "node scripts/pdf-to-jpg.js"
   },
