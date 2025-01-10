@@ -8,7 +8,7 @@ info: |
 verticalCenter: true
 layout: intro
 themeConfig:
-  logoHeader: img/logo.svg
+  logoHeader: img/logos/logo.svg
   audioEnabled: true
 transition: fade-out
 drawings:
@@ -30,11 +30,11 @@ layout: default
 
 <v-clicks>
 
-- Hospital indemnity insurance through Business Workers of America (BWA)
-- Flexible coverage for various medical situations
-- Comprehensive benefits and support tools
-- Significant cost savings through medical bill repricing
-- Extensive healthcare navigation support
+- Hospital indemnity insurance through **Business Workers of America (BWA)**
+- **Flexible coverage** for various medical situations
+- **Comprehensive benefits** and support tools
+- **Significant cost savings** through medical bill repricing
+- **Extensive healthcare** navigation support
 
 </v-clicks>
 
@@ -48,13 +48,23 @@ layout: default
 
 <v-clicks>
 
-- Hospital Admission Benefits
-- ICU Confinement Benefits
-- Daily Hospital and ICU Coverage
-- Surgical and Ambulance Benefits (varies by plan)
-- Prescription Savings through HealthWarehouse
+**Hospital Admission Benefits**
 
+**ICU Confinement Benefits**
+
+**Daily Hospital and ICU Coverage**
+
+**Surgical and Ambulance Benefits** (varies by plan)
 </v-clicks>
+
+<v-click>
+
+**Prescription Savings** through HealthWarehouse
+<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
+  <img src="/img/logos/EssentialCare Logo.png" class="h-12 mix-blend-multiply" alt="EssentialCare Logo">
+</div>
+
+</v-click>
 
 ---
 transition: fade-out
@@ -63,14 +73,25 @@ layout: default
 
 ## Cost Management Tools
 
-<v-clicks>
+<v-click>
 
-- Medical Bill Repricing (MBR)
-- Reference-Based Pricing System (150-200% of Medicare rates)
-- Financial Assistance Guidance
-- Direct bill negotiations
+<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
+  <img src="/img/logos/medical bill repricer logo.png" class="h-24 mix-blend-multiply" alt="MBR Logo">
+</div>
 
-</v-clicks>
+**Medical Bill Repricing** (MBR)
+</v-click>
+
+<v-click>
+
+**Reference-Based** Pricing System
+</v-click>
+
+<v-click>
+
+**Financial Assistance** Guidance
+</v-click>
+
 
 ---
 transition: fade-out
@@ -81,12 +102,12 @@ layout: default
 
 <v-clicks>
 
-1. Enroll through BWA
+1. Enroll through **BWA**
 2. Seek healthcare services
-3. Submit medical bills to MBR
-4. Receive Explanation of Benefits (EOB)
-5. Pay reduced balance
-6. Experience cost savings
+3. Submit medical bills to **MBR**
+4. Receive Explanation of Benefits **(EOB)**
+5. Pay **reduced balance**
+6. **Experience cost savings**
 
 </v-clicks>
 
@@ -99,10 +120,9 @@ layout: default
 
 <v-clicks>
 
-- Annual Wellness Exams
-- Preventive Screenings
-- DirectLabs services
-- Early detection focus
+- **Annual Wellness** Exams
+- **Preventive Screenings** 
+- **DirectLabs** provides lab services
 
 </v-clicks>
 
@@ -115,10 +135,10 @@ layout: default
 
 <v-clicks>
 
-- 24/7 Virtual Doctor Visits
-- No Consultation Fees
-- Prescription services available
-- Convenient access to care
+- **24/7 Virtual Doctor Visits**
+- **No Consultation Fees**
+- **Prescription services** available
+- **Convenient access** to care
 
 </v-clicks>
 
@@ -131,10 +151,10 @@ layout: default
 
 <v-clicks>
 
-- Concierge-style healthcare advocacy
-- Provider selection assistance
-- Financial assistance options
-- Claims process support
+- **Concierge-style** healthcare advocacy
+- **Provider selection** assistance
+- **Financial assistance** options
+- **Claims process** support
 
 </v-clicks>
 
@@ -148,22 +168,29 @@ image: img/pages/MyChoice Low_Brochure.7.jpg
 
 <v-click>
 
-- **Hospital Confinement**: $100/day
-- **ICU Confinement**: $200/day
-<Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+**Hospital Benefits**
+- Hospital Confinement: $100/day
+- ICU Confinement: $200/day
+- First Day Hospital Admission: $1,000
+- Hospital Year Maximum: $1,000,000
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Office Visit**: $50 (per visit)
-- **Ground/Air Ambulance**: $100/$100
-<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
+**Emergency Services**
+- Emergency Room: $200
+- Ground/Air Ambulance: $100/$100
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Outpatient Maximum**: $4,000/year
-<Arrow v-bind="{ x1:480, y1:240, x2:560, y2:240, color: 'var(--slidev-theme-accent)' }" />
+**Outpatient Care**
+- Office Visit: $50
+- Wellness Visit: $50
+- Calendar Year Maximum: $4,000
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -176,16 +203,18 @@ image: img/pages/MyChoice Low_Brochure.7.jpg
 
 <v-click>
 
-- **Pre-existing Conditions**: 12-month waiting period
-- **Normal Pregnancy**: Covered
-<Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+**Plan Limits**
+- Lifetime Maximum: $5,000,000
+- Pre-existing Conditions: 12/12
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Benefit Waiting Period**: None
-- **Age Reduction**: Benefits reduce at age 70
-<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
+**Additional Features**
+- Portability: Included
+- No Surgical Benefits
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -198,22 +227,29 @@ image: img/pages/MyChoice Mid_Brochure.7.jpg
 
 <v-click>
 
-- **Hospital Confinement**: $300/day
-- **ICU Confinement**: $500/day
-<Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+**Hospital Benefits**
+- Hospital Confinement: $300/day
+- ICU Confinement: $500/day
+- First Day Hospital Admission: $1,000
+- Hospital Year Maximum: $1,000,000
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Office Visit**: $50 (per visit)
-- **Ground/Air Ambulance**: $100/$200
-<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
+**Emergency Services**
+- Emergency Room: $200
+- Ground/Air Ambulance: $100/$200
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Outpatient Maximum**: $4,000/year
-<Arrow v-bind="{ x1:480, y1:240, x2:560, y2:240, color: 'var(--slidev-theme-accent)' }" />
+**Outpatient Care**
+- Office Visit: $50
+- Wellness Visit: $50
+- Calendar Year Maximum: $4,000
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -226,16 +262,18 @@ image: img/pages/MyChoice Mid_Brochure.7.jpg
 
 <v-click>
 
-- **Pre-existing Conditions**: 12-month waiting period
-- **Normal Pregnancy**: Covered
-<Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+**Plan Limits**
+- Lifetime Maximum: $5,000,000
+- Pre-existing Conditions: 12/12
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Benefit Waiting Period**: None
-- **Age Reduction**: Benefits reduce at age 70
-<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
+**Additional Features**
+- Portability: Included
+- No Surgical Benefits
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -248,23 +286,30 @@ image: img/pages/MyChoice High_Brochure.8.jpg
 
 <v-click>
 
-- **Hospital Confinement**: $300/day
-- **ICU Confinement**: $500/day
-<Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+**Hospital Benefits**
+- Hospital Confinement: $300/day
+- ICU Confinement: $500/day
+- First Day Hospital Admission: $1,000
+- Hospital Year Maximum: $1,000,000
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Office Visit**: $75 (per visit)
-- **Ground/Air Ambulance**: $100/$300
-<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
+**Emergency Services**
+- Emergency Room: $200
+- Ground/Air Ambulance: $100/$300
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Surgical Schedule**: 1x coverage
-- **Outpatient Maximum**: $4,000/year
-<Arrow v-bind="{ x1:480, y1:240, x2:560, y2:240, color: 'var(--slidev-theme-accent)' }" />
+**Surgical Benefits**
+- Surgical Schedule: 1x Coverage
+- Ambulatory Outpatient: $500
+- Assistant Surgeon: 1x Schedule
+- Anesthesia: 1x Schedule
+<Arrow v-bind="{ x1:480, y1:280, x2:560, y2:280, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -277,49 +322,22 @@ image: img/pages/MyChoice High_Brochure.8.jpg
 
 <v-click>
 
-- **Pre-existing Conditions**: 12-month waiting period
-- **Normal Pregnancy**: Covered
-<Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
+**Outpatient Care**
+- Office Visit: $75
+- Wellness Visit: $50
+- Calendar Year Maximum: $4,000
+<Arrow v-bind="{ x1:480, y1:330, x2:560, y2:330, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-- **Benefit Waiting Period**: None
-- **Age Reduction**: Benefits reduce at age 70
-<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
+**Plan Limits**
+- Lifetime Maximum: $5,000,000
+- Pre-existing Conditions: 12/12
+- Portability: Included
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/MyChoice_Limitations.jpg
----
-
-## Limitations and Exclusions
-
-<v-click>
-
-**Coverage Limitations**
-- Pre-existing conditions
-- Waiting periods
-<Arrow v-bind="{ x1:480, y1:120, x2:560, y2:120, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Service Exclusions**
-- Non-covered procedures
-- Out-of-network services
-<Arrow v-bind="{ x1:480, y1:180, x2:560, y2:180, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Benefit Restrictions**
-- Age-based reductions
-- Maximum benefit caps
-<Arrow v-bind="{ x1:480, y1:240, x2:560, y2:240, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
 
 ---
 transition: fade-out
@@ -328,13 +346,56 @@ layout: default
 
 ## Comparing the Plans
 
-| Feature | Low Plan | Mid Plan | High Plan |
+| **Feature** | **Low Plan** | **Mid Plan** | **High Plan** |
 |---------|----------|----------|-----------|
 | Hospital | $100/day | $300/day | $300/day |
 | ICU | $200/day | $500/day | $500/day |
 | Office Visit | $50 | $50 | $75 |
 | Surgery | N/A | N/A | 1x Schedule |
 | Air Ambulance | $100 | $200 | $300 |
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/MyChoice High_Brochure.9.jpg
+---
+
+## Definitions and Limitations
+
+<v-click>
+
+**Hospital Benefits**
+- Hospital/ICU: 10-day max per stay
+- First Day Admission: 1x per year
+- Emergency Room: 1 visit per day
+<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Surgical Benefits**
+- Based on surgical schedule
+- Includes facility, anesthesia & assistant
+<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Visit Limits**
+- Office: 3 visits per year
+- Wellness: 1 visit per year
+<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Plan Terms**
+- Pre-existing: 12-month wait
+- Portability after 6 months
+- Coverage ends at age 70
+<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
 
 ---
 transition: fade-out
@@ -345,11 +406,10 @@ layout: default
 
 <v-clicks>
 
-- MBR Services reduce medical bills
-- Telemedicine and Rx savings included
-- Preventive care benefits
-- BWA membership required
-- Choose plan based on needs
+- **MBR Services** reduce medical bills
+- **Telemedicine and Rx savings** included
+- **Preventive care** benefits
+- **BWA membership** required
 
 </v-clicks>
 
@@ -363,5 +423,5 @@ line: Thank you for participating in the MyChoice Plan Review. Continue to be gr
 
 Continue to be great!
 
-<img src="" class="h-12 mt-32" alt="MyChoice Logo">
+<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
 

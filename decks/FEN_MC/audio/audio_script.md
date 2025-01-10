@@ -14,7 +14,7 @@ Hospital Admission Benefits give members financial support when they're admitted
 
 Medical Bill Repricing (MBR) negotiates hospital and medical bills on behalf of members, lowering out-of-pocket expenses. A Reference-Based Pricing System ensures fair and competitive rates from healthcare providers. Financial Assistance Guidance helps members handle billing issues and navigate the payment process.
 
----- How the Plan Works ----
+---- How MBR Works ----
 
 Members enroll through BWA and then seek healthcare services as needed. Medical bills are submitted to MBR, and after negotiation, members receive an Explanation of Benefits (EOB). The final step is paying the reduced balance, simplifying the process and providing valuable cost savings.
 
@@ -30,33 +30,43 @@ Annual Wellness Exams help detect health issues early. Preventive Screenings add
 
 Concierge-style healthcare advocacy guides members through provider selection and explains plan benefits. There's support for finding financial assistance options if needed. Additionally, the plan offers help throughout the claims process to reduce confusion and stress.
 
----- MyChoice Low Plan (1/2) ----
+---- MyChoice Low Plan (One of Two) ----
 
-This plan offers Hospital Confinement at $100 per day, plus ICU Confinement at $200 per day. Office Visit benefits are $50 per visit. Ground and Air Ambulance benefits are both $100. The Outpatient Maximum is set at $4,000 per year.
+Let's examine the Low Plan's hospital benefits first. It provides one hundred dollars per day for Hospital Confinement and two hundred dollars for ICU Confinement. There's a generous First Day Hospital Admission benefit of one thousand dollars, and the Hospital Benefits Year Maximum is set at one million dollars. For emergency services, the plan includes a two hundred dollar Emergency Room benefit and both ground and air ambulance coverage at one hundred dollars each. Outpatient care includes a fifty dollar benefit for both office visits and wellness visits, with a Calendar Year Maximum of four thousand dollars.
 
----- MyChoice Low Plan (2/2) ----
+---- MyChoice Low Plan (Two of Two) ----
 
-Pre-Existing Condition Limitations apply for the first 12 months. Normal Pregnancy Coverage is included. There's no Annual Benefit Maximum, and no Benefit Waiting Period beyond enrollment. Benefits reduce at age 70.
+The Low Plan includes important plan limits and features. There's a substantial Lifetime Maximum of five million dollars, and pre-existing conditions are subject to a twelve/twelve limitation. This means that any condition you had in the twelve months before your coverage starts won't be covered for the first twelve months of your plan. The plan includes portability, allowing members to maintain coverage even after leaving their employer. While this plan provides essential coverage, it does not include surgical benefits.
 
----- MyChoice Mid Plan (1/2) ----
+---- MyChoice Mid Plan (One of Two) ----
 
-Hospital Confinement increases to $300 per day, with ICU Confinement at $500 per day. Office Visit benefits remain at $50. Ground Ambulance stays at $100, while Air Ambulance increases to $200. The Outpatient Maximum remains $4,000 per year.
+The Mid Plan enhances hospital benefits significantly. Hospital Confinement increases to three hundred dollars per day, and ICU Confinement rises to five hundred dollars per day. It maintains the same one thousand dollar First Day Hospital Admission benefit and one million dollar Hospital Benefits Year Maximum. Emergency services include the same two hundred dollar Emergency Room benefit, with ground ambulance at one hundred dollars and increased air ambulance coverage at two hundred dollars. Outpatient care remains consistent with fifty dollar benefits for both office and wellness visits, maintaining the four thousand dollar Calendar Year Maximum.
 
----- MyChoice Mid Plan (2/2) ----
+---- MyChoice Mid Plan (Two of Two) ----
 
-Pre-Existing Condition Limitations remain in place for 12 months. Normal Pregnancy Coverage is included. There is no Annual Benefit Maximum. No Benefit Waiting Period is required for plan features. Benefits reduce at age 70.
+Like the Low Plan, the Mid Plan features a five million dollar Lifetime Maximum and the same twelve/twelve pre-existing conditions limitation. Portability is included, and while this plan offers enhanced hospital benefits, it also does not include surgical coverage.
 
----- MyChoice High Plan (1/2) ----
+---- MyChoice High Plan (One of Two) ----
 
-This plan maintains the $300 per day Hospital Confinement and $500 per day ICU Confinement. Office Visit benefits increase to $75. Ground Ambulance remains $100, while Air Ambulance increases to $300. The plan includes a 1x Surgical Schedule, with the $4,000 Outpatient Maximum.
+The High Plan maintains the Mid Plan's enhanced hospital benefits of three hundred dollars per day for Hospital Confinement and five hundred dollars for ICU Confinement, along with the one thousand dollar First Day Hospital Admission and one million dollar Hospital Benefits Year Maximum. Emergency services include the standard two hundred dollar Emergency Room benefit, one hundred dollar ground ambulance, and an increased air ambulance benefit of three hundred dollars. What sets this plan apart, is its comprehensive surgical benefits package, which includes one Surgical Schedule, five hundred dollar Ambulatory Outpatient Facility benefit, and both Assistant Surgeon and Anesthesia cover one Surgical Schedule.
 
----- MyChoice High Plan (2/2) ----
+---- MyChoice High Plan (Two of Two) ----
 
-Pre-Existing Condition Limitations remain the same, with a 12-month waiting period. Normal Pregnancy Coverage applies. There is no Annual Benefit Maximum. No Benefit Waiting Period is required, and benefits reduce at age 70.
+For outpatient care, the High Plan increases the office visit benefit to seventy-five dollars while maintaining the fifty dollar wellness visit benefit and four thousand dollar Calendar Year Maximum. The plan includes a five million dollar Lifetime Maximum and thesame twelve/twelve pre-existing conditions limitation. Portability is included, making this the most comprehensive plan option with its addition of surgical benefits.
 
 ---- Comparing the 3 MyChoice Plans ----
 
 The Low Plan provides basic Hospital and ICU Confinement benefits with standard office visit coverage. The Mid Plan increases hospital benefits and Air Ambulance coverage. The High Plan offers the most comprehensive coverage, including increased office visit benefits and surgical coverage, plus the highest Air Ambulance benefit.
+
+---- Definitions and Limitations ----
+
+Let me highlight the key limitations of each benefit category. For hospital benefits, there's a ten-day maximum per stay for both regular rooms and ICU. Emergency Room coverage is limited to one visit per day.
+
+Surgical benefits follow a set schedule that determines payment amounts for procedures, anesthesia, and assistant surgeons. All surgical benefits are subject to the calendar year maximum.
+
+For doctor visits, the plan allows up to three office visits and one wellness visit per year. Note that office and wellness benefits cannot be combined for the same visit.
+
+Finally, understand that pre-existing conditions have a twelve-month waiting period, portability is available after six months of coverage, and all coverage ends at age seventy. Please review these details carefully with your clients.
 
 ---- Key Takeaways and Reminders ----
 
