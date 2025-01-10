@@ -79,16 +79,53 @@ function isContentSlide(slide) {
     return hasContent;
 }
 
+function getVClickContent(slideContent) {
+    const vClickCount = countVClicks(slideContent);
+    const vClickPreviews = [];
+    
+    // Get content from individual v-click tags
+    const vClickMatches = slideContent.match(/<v-click>[\s\S]*?<\/v-click>/g) || [];
+    vClickMatches.forEach(match => {
+        // Remove HTML tags and trim
+        const content = match.replace(/<[^>]*>/g, '').trim();
+        // Get first 5 words
+        const firstFiveWords = content.split(/\s+/).slice(0, 5).join(' ');
+        vClickPreviews.push(firstFiveWords);
+    });
+    
+    // Get content from v-clicks blocks
+    const vClicksBlocks = slideContent.match(/<v-clicks>[\s\S]*?<\/v-clicks>/g) || [];
+    for (const block of vClicksBlocks) {
+        // Find bullet points or list items
+        const items = block.match(/(?:^[•\-\*]\s|^\d+\.\s|<li>)(.*?)(?=$|\n|<\/li>)/gm) || [];
+        items.forEach(item => {
+            // Clean up the item text
+            const content = item.replace(/^[•\-\*]\s|^\d+\.\s|<li>|<\/li>/g, '').trim();
+            // Get first 5 words
+            const firstFiveWords = content.split(/\s+/).slice(0, 5).join(' ');
+            vClickPreviews.push(firstFiveWords);
+        });
+    }
+    
+    return {
+        vClickCount,
+        vClickPreviews
+    };
+}
+
 function parseSlides(content) {
-    // Split content into slides using markdown separator
     const slides = content.split(/^---$/m)
         .filter(slide => slide.trim())
         .filter(isContentSlide);
     
-    return slides.map((slide, index) => ({
-        slideIndex: index + 1,
-        vClickCount: countVClicks(slide)
-    }));
+    return slides.map((slide, index) => {
+        const { vClickCount, vClickPreviews } = getVClickContent(slide);
+        return {
+            slideIndex: index + 1,
+            vClickCount,
+            vClickPreviews
+        };
+    });
 }
 
 function analyzeSlides(deckId) {

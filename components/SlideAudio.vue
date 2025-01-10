@@ -271,7 +271,7 @@ onMounted(async () => {
   
   try {
     // Import the config file directly using a relative path
-    const module = await import(`../decks/${props.deckKey}/audio/config.json`)
+    const module = await import(`../decks/${props.deckKey}/audio/audio_config.json`)
     console.log('Imported module:', module)
     
     // Set the config

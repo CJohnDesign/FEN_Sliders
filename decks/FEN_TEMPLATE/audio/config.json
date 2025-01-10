@@ -1,0 +1,19 @@
+{
+  "deckId": "FEN_TEMPLATE",
+  "totalSlides": "{Replace with total slides}",
+  "slides": [
+    {
+      "slideNumber": 1,
+      "clicks": []
+    },
+    {
+      "slideNumber": 2,
+      "clicks": []
+    },
+    {
+      "slideNumber": 3,
+      "clicks": []
+    }
+    ...
+  ]
+}

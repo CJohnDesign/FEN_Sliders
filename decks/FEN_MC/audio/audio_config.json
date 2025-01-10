@@ -1,0 +1,78 @@
+{
+  "deckId": "FEN_MC",
+  "totalSlides": 19,
+  "slides": [
+    {
+      "slideNumber": 1,
+      "clicks": []
+    },
+    {
+      "slideNumber": 2,
+      "clicks": [2, 5, 7, 11]
+    },
+    {
+      "slideNumber": 3,
+      "clicks": [1, 5, 11, 14, 17]
+    },
+    {
+      "slideNumber": 4,
+      "clicks": [2, 6, 10, 13]
+    },
+    {
+      "slideNumber": 5,
+      "clicks": [2, 3, 5, 8, 11, 14]
+    },
+    {
+      "slideNumber": 6,
+      "clicks": [2, 3, 6, 9]
+    },
+    {
+      "slideNumber": 7,
+      "clicks": [3, 6, 8, 11]
+    },
+    {
+      "slideNumber": 8,
+      "clicks": [2, 3, 6, 10]
+    },
+    {
+      "slideNumber": 9,
+      "clicks": [3, 7, 13]
+    },
+    {
+      "slideNumber": 10,
+      "clicks": [2, 8]
+    },
+    {
+      "slideNumber": 11,
+      "clicks": [2, 6, 12]
+    },
+    {
+      "slideNumber": 12,
+      "clicks": [3, 9]
+    },
+    {
+      "slideNumber": 13,
+      "clicks": [3, 7, 12]
+    },
+    {
+      "slideNumber": 14,
+      "clicks": [3, 9]
+    },
+    {
+      "slideNumber": 15,
+      "clicks": [2, 8, 15]
+    },
+    {
+      "slideNumber": 16,
+      "clicks": []
+    },
+    {
+      "slideNumber": 17,
+      "clicks": [3, 5, 7, 13, 14]
+    },
+    {
+      "slideNumber": 18,
+      "clicks": []
+    }
+  ]
+}

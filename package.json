@@ -14,13 +14,20 @@
     "build:pm": "slidev build decks/FEN_PM/slides.md --base /pm/",
     "dev:mf": "slidev decks/FEN_MF/slides.md --open",
     "dev:pm": "slidev decks/FEN_PM/slides.md --open",
+    "dev:mc": "slidev decks/FEN_MC/slides.md --open",
     "export:mf": "slidev export decks/FEN_MF/slides.md",
     "export:pm": "slidev export decks/FEN_PM/slides.md",
     "screenshot": "slidev export decks/FEN_MF1/slides.md --format png",
     "generateAudio": "node scripts/generateAudio.js",
     "serve": "npx vite preview --base /mf1/",
     "serve:mf": "npx vite preview --base /mf/",
-    "serve:pm": "npx vite preview --base /pm/"
+    "serve:pm": "npx vite preview --base /pm/",
+    "deck": "ts-node tools/cli/create-deck.ts",
+    "create-deck": "node scripts/create-deck.js",
+    "build:mc": "slidev build decks/FEN_MC/slides.md --base /mc/",
+    "export:mc": "slidev export decks/FEN_MC/slides.md --output exports/FEN_MC.pdf",
+    "preview:mc": "slidev decks/FEN_MC/slides.md --remote",
+    "pdf-to-jpg": "node scripts/pdf-to-jpg.js"
   },
   "dependencies": {
     "@slidev/client": "^0.50.0-beta.7",
@@ -34,14 +41,19 @@
     "openai": "^4.76.1",
     "ora": "^8.1.1",
     "path": "^0.12.7",
+    "pdf-img-convert": "^2.0.0",
+    "pdf2pic": "^3.1.3",
     "simplex-noise": "^4.0.3"
   },
   "devDependencies": {
     "@slidev/cli": "^0.50.0-beta.5",
+    "@types/node": "^22.10.5",
     "autoprefixer": "^10.4.20",
     "playwright-chromium": "^1.48.2",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
     "vite-svg-loader": "^5.1.0"
   },
   "//": "Learn more: https://sli.dev/guide/write-theme.html",
