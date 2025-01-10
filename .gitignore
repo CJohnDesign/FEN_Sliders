@@ -8,11 +8,13 @@ yarn.lock
 
 # Environment variables
 .env
+*.env
 .env.local
 .env.*.local
 .env.development
 .env.test
 .env.production
+.env.example
 
 # IDE/Editor specific
 .idea/
