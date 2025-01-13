@@ -1,3 +1,1 @@
-"""
-FEN Configuration
-""" 
+"""Configuration package.""" 
