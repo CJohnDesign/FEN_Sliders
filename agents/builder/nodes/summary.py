@@ -167,46 +167,8 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
             with open(summaries_file, "w") as f:
                 json.dump(summaries, f, indent=2)
                 
-            # Create slides.md content
-            slides_content = """---
-theme: default
-title: {title}
-info: |
-  {title}
-transition: fade-out
----
-
-# {title}
-
-<style>
-.slidev-layout {{
-  font-family: 'Arial', sans-serif;
-}}
-</style>
-
-""".format(title=state["metadata"].title)
-
-            # Add slides for each summary
-            for summary in summaries:
-                slides_content += f"""
----
-transition: fade-out
----
-
-# {summary['title']}
-
-{summary['summary']}
-
-"""
-                
-            # Save slides.md
-            slides_file = Path(state["deck_info"]["path"]) / "slides.md"
-            with open(slides_file, "w") as f:
-                f.write(slides_content)
-                
-            # Update state with summaries and slides
+            # Update state with summaries
             state["page_summaries"] = summaries
-            state["slides"] = [{"title": s["title"], "content": s["summary"]} for s in summaries]
             
         return state
                                     

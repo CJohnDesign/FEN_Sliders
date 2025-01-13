@@ -1,10 +1,7 @@
 ---
-id: FEN_MC
+id: FEN_LEN
 theme: ../../
-title: MyChoice Plan
-info: |
-  ## MyChoice Plan Review
-  A comprehensive look at the MyChoice benefits and details.
+title: { Plan Name }
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -15,29 +12,24 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_MC" />
+<SlideAudio deckKey="FEN_LEN" />
 
-# MyChoice Plan Review
+# { Plan Name } Review
 
-Understanding the details and benefits of the **MyChoice Hospital Indemnity Plan**
+{ Plan Description }
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## MyChoice Plan Overview
+## { Plan Name } Overview
 
 <v-clicks>
 
-- Hospital indemnity insurance through **Business Workers of America (BWA)**
-- **Flexible coverage** for various medical situations
-- **Comprehensive benefits** and support tools
-- **Significant cost savings** through medical bill repricing
-- **Extensive healthcare** navigation support
+{ Plan Overview Bullets }
 
 </v-clicks>
-
 
 ---
 transition: fade-out
@@ -48,20 +40,14 @@ layout: default
 
 <v-clicks>
 
-**Hospital Admission Benefits**
+{ Key Features and Benefits Bullets }
 
-**ICU Confinement Benefits**
-
-**Daily Hospital and ICU Coverage**
-
-**Surgical and Ambulance Benefits** (varies by plan)
 </v-clicks>
 
 <v-click>
 
-**Prescription Savings** through HealthWarehouse
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="/img/logos/EssentialCare Logo.png" class="h-12 mix-blend-multiply" alt="EssentialCare Logo">
+  <img src="/img/logos/{brand_logo}.svg" class="h-12 mix-blend-multiply" alt="Logo">
 </div>
 
 </v-click>
@@ -76,38 +62,27 @@ layout: default
 <v-click>
 
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="/img/logos/medical bill repricer logo.png" class="h-24 mix-blend-multiply" alt="MBR Logo">
+  <img src="/img/logos/{brand_logo}.svg" class="h-24 mix-blend-multiply" alt="Logo">
 </div>
 
-**Medical Bill Repricing** (MBR)
 </v-click>
 
 <v-click>
 
-**Reference-Based** Pricing System
+{ Cost Management Tools Bullets }
+
 </v-click>
-
-<v-click>
-
-**Financial Assistance** Guidance
-</v-click>
-
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## How MBR Works
+## How { MBR Name } Works
 
 <v-clicks>
 
-1. Enroll through **BWA**
-2. Seek healthcare services
-3. Submit medical bills to **MBR**
-4. Receive Explanation of Benefits **(EOB)**
-5. Pay **reduced balance**
-6. **Experience cost savings**
+{ MBR Process Steps }
 
 </v-clicks>
 
@@ -120,9 +95,7 @@ layout: default
 
 <v-clicks>
 
-- **Annual Wellness** Exams
-- **Preventive Screenings** 
-- **DirectLabs** provides lab services
+{ Preventive Care Details }
 
 </v-clicks>
 
@@ -135,10 +108,7 @@ layout: default
 
 <v-clicks>
 
-- **24/7 Virtual Doctor Visits**
-- **No Consultation Fees**
-- **Prescription services** available
-- **Convenient access** to care
+{ Telehealth Details }
 
 </v-clicks>
 
@@ -151,193 +121,62 @@ layout: default
 
 <v-clicks>
 
-- **Concierge-style** healthcare advocacy
-- **Provider selection** assistance
-- **Financial assistance** options
-- **Claims process** support
+{ Advocacy Details }
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice Low_Brochure.7.jpg
+image: img/pages/{plan_brochure_image_1}.jpg
 ---
 
-## MyChoice Low Plan (1/2)
+## { Plan 1 Name } (1/2)
 
 <v-click>
 
-**Hospital Benefits**
-- Hospital Confinement: $100/day
-- ICU Confinement: $200/day
-- First Day Hospital Admission: $1,000
-- Hospital Year Maximum: $1,000,000
+**{ Benefit Category 1 }**
+{ Benefit Details 1 }
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Emergency Services**
-- Emergency Room: $200
-- Ground/Air Ambulance: $100/$100
+**{ Benefit Category 2 }**
+{ Benefit Details 2 }
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Outpatient Care**
-- Office Visit: $50
-- Wellness Visit: $50
-- Calendar Year Maximum: $4,000
+**{ Benefit Category 3 }**
+{ Benefit Details 3 }
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice Low_Brochure.7.jpg
+image: img/pages/{plan_brochure_image_1}.jpg
 ---
 
-## MyChoice Low Plan (2/2)
+## { Plan 1 Name } (2/2)
 
 <v-click>
 
-**Plan Limits**
-- Lifetime Maximum: $5,000,000
-- Pre-existing Conditions: 12/12
+**{ Benefit Category 4 }**
+{ Benefit Details 4 }
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Additional Features**
-- Portability: Included
-- No Surgical Benefits
+**{ Benefit Category 5 }**
+{ Benefit Details 5 }
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/MyChoice Mid_Brochure.7.jpg
----
-
-## MyChoice Mid Plan (1/2)
-
-<v-click>
-
-**Hospital Benefits**
-- Hospital Confinement: $300/day
-- ICU Confinement: $500/day
-- First Day Hospital Admission: $1,000
-- Hospital Year Maximum: $1,000,000
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Emergency Services**
-- Emergency Room: $200
-- Ground/Air Ambulance: $100/$200
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Outpatient Care**
-- Office Visit: $50
-- Wellness Visit: $50
-- Calendar Year Maximum: $4,000
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/MyChoice Mid_Brochure.7.jpg
----
-
-## MyChoice Mid Plan (2/2)
-
-<v-click>
-
-**Plan Limits**
-- Lifetime Maximum: $5,000,000
-- Pre-existing Conditions: 12/12
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Additional Features**
-- Portability: Included
-- No Surgical Benefits
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/MyChoice High_Brochure.8.jpg
----
-
-## MyChoice High Plan (1/2)
-
-<v-click>
-
-**Hospital Benefits**
-- Hospital Confinement: $300/day
-- ICU Confinement: $500/day
-- First Day Hospital Admission: $1,000
-- Hospital Year Maximum: $1,000,000
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Emergency Services**
-- Emergency Room: $200
-- Ground/Air Ambulance: $100/$300
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Surgical Benefits**
-- Surgical Schedule: 1x Coverage
-- Ambulatory Outpatient: $500
-- Assistant Surgeon: 1x Schedule
-- Anesthesia: 1x Schedule
-<Arrow v-bind="{ x1:480, y1:280, x2:560, y2:280, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/MyChoice High_Brochure.8.jpg
----
-
-## MyChoice High Plan (2/2)
-
-<v-click>
-
-**Outpatient Care**
-- Office Visit: $75
-- Wellness Visit: $50
-- Calendar Year Maximum: $4,000
-<Arrow v-bind="{ x1:480, y1:330, x2:560, y2:330, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Plan Limits**
-- Lifetime Maximum: $5,000,000
-- Pre-existing Conditions: 12/12
-- Portability: Included
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
+<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->
 
 ---
 transition: fade-out
@@ -346,56 +185,48 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **Low Plan** | **Mid Plan** | **High Plan** |
+| **Feature** | **{ Plan 1 }** | **{ Plan 2 }** | **{ Plan 3 }** |
 |---------|----------|----------|-----------|
-| Hospital | $100/day | $300/day | $300/day |
-| ICU | $200/day | $500/day | $500/day |
-| Office Visit | $50 | $50 | $75 |
-| Surgery | N/A | N/A | 1x Schedule |
-| Air Ambulance | $100 | $200 | $300 |
+| { Feature 1 } | { Value 1.1 } | { Value 1.2 } | { Value 1.3 } |
+| { Feature 2 } | { Value 2.1 } | { Value 2.2 } | { Value 2.3 } |
+| { Feature 3 } | { Value 3.1 } | { Value 3.2 } | { Value 3.3 } |
+| { Feature 4 } | { Value 4.1 } | { Value 4.2 } | { Value 4.3 } |
+| { Feature 5 } | { Value 5.1 } | { Value 5.2 } | { Value 5.3 } |
 
 ---
 transition: fade-out
-layout: one-half-img
-image: img/pages/MyChoice High_Brochure.9.jpg
+layout: default
 ---
 
 ## Definitions and Limitations
 
 <v-click>
 
-**Hospital Benefits**
-- Hospital/ICU: 10-day max per stay
-- First Day Admission: 1x per year
-- Emergency Room: 1 visit per day
+**{ Category 1 }**
+{ Definition Details 1 }
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Surgical Benefits**
-- Based on surgical schedule
-- Includes facility, anesthesia & assistant
+**{ Category 2 }**
+{ Definition Details 2 }
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Visit Limits**
-- Office: 3 visits per year
-- Wellness: 1 visit per year
+**{ Category 3 }**
+{ Definition Details 3 }
 <Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Plan Terms**
-- Pre-existing: 12-month wait
-- Portability after 6 months
-- Coverage ends at age 70
+**{ Category 4 }**
+{ Definition Details 4 }
 <Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
-
 
 ---
 transition: fade-out
@@ -406,22 +237,19 @@ layout: default
 
 <v-clicks>
 
-- **MBR Services** reduce medical bills
-- **Telemedicine and Rx savings** included
-- **Preventive care** benefits
-- **BWA membership** required
+{ Key Takeaways Bullets }
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the MyChoice Plan Review. Continue to be great!
+line: { Closing Message }
 ---
 
 # Thank You!
 
-Continue to be great!
+{ Closing Message }
 
-<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="{ Brand } Logo">
 
