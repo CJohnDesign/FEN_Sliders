@@ -1,58 +1,49 @@
 # Audio Script
 
-## Slide 1
+---- Cover ----
 
-The slide promotes Premier's Group Hospital Fixed Indemnity and Group Accident Insurance, underwritten by the United States Fire Insurance Company. It is offered exclusively to NCE Members.
+Hello, everyone! Thank you for joining today's session on the NCE Association Insurance Plans. We'll walk through the plans' key features, benefits, and coverage details. Let's get started!
 
-## Slide 2
+---- NCE Association Insurance Overview ----
 
-This slide outlines the benefits available under the Group Hospital Fixed Indemnity plan. It covers the Hospital Admission Benefit, Intensive Care/Coronary Care Unit Benefit, Daily Inpatient Surgery Benefit, and Daily Inpatient Surgery Anesthesia Benefit. It specifies conditions under which benefits are paid, including hospital stays due to Covered Accidents or Sickness, and details related to surgeries and anesthesia. It also highlights exclusions related to emergency room visits and specific injuries.
+The NCE Association offers insurance plans underwritten by the United States Fire Insurance Company, providing Group Hospital Fixed Indemnity and Group Accident Insurance exclusively to NCE Members. These plans are designed to supplement traditional health insurance and provide additional financial protection in case of hospitalizations or accidents.
 
-## Slide 3
+---- Group Hospital Fixed Indemnity Benefits ----
 
-The slide provides a detailed description of benefits under a Group Hospital Fixed Indemnity plan. It outlines coverage for various medical services, including Day Outpatient Surgery Benefit, which covers outpatient surgery at a hospital or ambulatory surgical center. Day Outpatient Surgery Anesthesia Benefit applies when anesthesia is administered by a Physician. Day Inpatient Diagnostic Radiology, X-Ray, and Laboratory Test Benefits cover specific tests when ordered by a Physician during a hospital stay. Daily Outpatient Laboratory Test Benefit applies to tests not confined to a hospital. Conditions for coverage and exclusions are specified for each benefit.
+Moving on to the Group Hospital Fixed Indemnity plan, it offers valuable benefits to help cover costs associated with hospital stays and medical procedures. The Daily Inpatient Hospital Confinement Benefit provides a fixed daily amount for each day you are confined to a hospital for a covered illness or injury. Additionally, the plan includes an Intensive Care or Coronary Care Unit Benefit, which pays a higher daily amount if you require intensive care during your hospital stay.
 
-## Slide 4
+The plan also covers surgical procedures performed in a hospital setting through the Surgery and Anesthesia Benefit. It's important to note that this benefit applies only to surgeries performed in a hospital and excludes experimental or cosmetic procedures.
 
-This slide outlines the benefits available under the group accident policy, covering Hospital Admission, Hospital Confinement, Daily Intensive Care/Coronary Care, and Emergency Room Visits. Benefits include payments for medically necessary hospital stays and intensive care if conditions are met. The daily benefit amounts are specified for each category, along with the conditions and duration of coverage. The slide also includes details on the effective dates of coverage and exclusions.
+---- Group Accident Insurance Benefits ----
 
-## Slide 5
+Shifting gears to the Group Accident Insurance plan, it provides financial support in the event of injuries sustained from a covered accident. The Hospital Confinement Benefit pays a daily amount for each day you are confined to a hospital due to an accidental injury. If you require intensive care, the Daily Intensive Care or Coronary Care Benefit kicks in, providing a higher daily payment.
 
-The slide outlines the benefits provided under a Group Accident Insurance plan, including Daily Inpatient Surgery Benefit, Daily Inpatient Diagnostic Radiology, X-ray and Imaging Benefits, Daily Outpatient Surgery Benefit, Daily Outpatient Diagnostic Radiology, X-ray and Imaging Benefit, Daily Inpatient Laboratory Test Benefit, and Daily Outpatient Laboratory Test Benefit. Each section describes specific conditions and benefits related to surgery, radiology, imaging, and laboratory tests, specifying the type of services covered and the setting (inpatient or outpatient) in which they must be received.
+In case of an emergency, the plan offers an Emergency Room Benefit, which covers a portion of the costs associated with an emergency room visit due to an accidental injury. Additionally, the Daily Recovery Benefit provides a daily payment to assist with recovery expenses after a hospital stay due to an accidental injury.
 
-## Slide 6
+It's important to note that these accident benefits apply only to injuries resulting from covered accidents and exclude sicknesses, diseases, or bodily infirmities not caused by an accident.
 
-This slide provides an overview of the NCE (National Congress of Employers), highlighting its role as a national association offering small and medium-sized businesses access to affordable insurance and various services. It explains the benefits of membership, including non-insurance benefits and the issuance of a Purchase Confirmation Email with ID Cards. The slide also details the Premier Plan Insured Benefits, emphasizing supplemental medical insurance that complements existing plans. It notes the importance of checking state-specific terms and conditions. Additionally, the slide outlines eligibility for Group Hospital Fixed Indemnity and Group Accident Insurance, with a focus on enrollment criteria and the requirements for an Eligible Person.
+---- Additional Group Hospital Fixed Indemnity Benefits ----
 
-## Slide 7
+The Group Hospital Fixed Indemnity plan also includes several other valuable benefits. The Daily Outpatient Surgery Benefit covers necessary surgeries performed in a hospital or physician's office, excluding cosmetic procedures. The Daily Inpatient Diagnostic Radiology, X-ray and Laboratory Test Benefit pays for these tests when performed during a covered hospital stay.
 
-The slide outlines the benefits available to members of the NCE Association. It highlights that there are no waiting periods or pre-existing condition limitations for the NCE membership benefits, which include medical, dental, vision, hearing, and pharmacy discount card services. Additionally, the GapAfford Plus Program offers a day-one coverage plan for individuals and their families for various medical services, with no limits. The First Health Network provides members with access to discounted services through a large network of providers, with savings on in-network services. The slide also mentions that certain benefits and services are not provided by United States Fire Insurance Company.
+Furthermore, the Daily Outpatient Laboratory Test Benefit covers laboratory tests performed in a hospital outpatient setting or physician's office when you are not confined to a hospital. It's important to note that fertility treatments and cosmetic surgeries are generally excluded from these benefits.
 
-## Slide 8
+---- Additional Group Accident Insurance Benefits ----
 
-This slide outlines the benefits included in the NCE Association Membership, specifically the GapAfford Plus plan. It covers various services such as prescription discounts, access to the Aetna Dental Network, vision care, and pet medications. Additional benefits include access to hearing savings programs, chiropractic care, and MRI/CT scans at reduced prices. Members also have access to the Laboratory Savings Program, medical bill negotiations, and a 24/7 nurse helpline. Physical therapy and vitamins/supplements are also included.
+The Group Accident Insurance plan offers additional benefits beyond hospital confinement and emergency care. The Daily Inpatient Surgery Benefit covers surgeries performed during a hospital stay due to an accidental injury. The Daily Inpatient Diagnostic Radiology, X-ray and Imaging Benefit pays for these tests when performed during a covered hospital confinement.
 
-## Slide 9
+For outpatient procedures, the Daily Outpatient Surgery Benefit and the Daily Outpatient Diagnostic Radiology, X-ray and Imaging Benefit provide coverage for surgeries and tests performed without being admitted to a hospital. Additionally, the plan includes a Daily Inpatient Laboratory Test Benefit and a Daily Outpatient Laboratory Test Benefit for covered laboratory tests.
 
-This slide outlines the exclusions to coverage under the Group Hospital Fixed Indemnity plan. It lists specific situations and conditions that are not covered, such as intentional self-inflicted injuries, military service-related injuries, dental procedures, and more. It also excludes coverage for experimental treatments, participation in illegal activities, and services not provided by a licensed physician. Additionally, it excludes pregnancy terminations unless to preserve the life of the female.
+It's important to note that these benefits are specific to injuries resulting from covered accidents and do not apply to sicknesses or diseases.
 
-## Slide 10
+---- NCE Association Membership ----
 
-The slide lists various exclusions under the Group Hospital Fixed Indemnity Benefits, such as treatments for blood disorders, cosmetic surgeries, and injuries from illegal acts. It also specifies conditions under which benefits are not covered, including pre-existing conditions, and highlights limitations like the non-coverage of prescription drugs and certain surgeries. Additionally, it provides a disclaimer about the limitations of the insurance policy.
+As an NCE Association member, you have access to a range of valuable benefits and services designed to support small and medium-sized businesses. The Premier Plan Insured Benefits offer accident-only plans, which differ from traditional health insurance. These plans provide financial protection in case of accidents or hospitalizations, rather than comprehensive medical coverage.
 
-## Slide 11
+When you join the NCE Association, you'll receive a Membership Packet and ID Cards, making it easy to access your benefits. To be eligible for the Group Hospital Fixed Indemnity and Group Accident Insurance Plans, you must be an active member of the association.
 
-This document outlines various exclusions that apply to group accident benefits. The exclusions include losses resulting from acts of war, service in armed forces, self-inflicted injuries, criminal acts, and participation in riots. It also excludes injuries from drug influence unless prescribed, engagement in hazardous sports, and injuries under Workers' Compensation. Additional exclusions cover injuries from air travel without fare-paying status, intoxication, violations of law, and conditions existing before coverage. The policy also addresses exclusions related to professional sports and specific health conditions.
+---- NCE Association Membership Benefits ----
 
-## Slide 12
+One of the key advantages of NCE Association Membership is the absence of waiting periods or pre-existing condition limitations for benefits like medical, dental, vision, pharmacy discount card, and emergency travel assistance. This means you can start taking advantage of these valuable benefits immediately upon joining.
 
-This slide lists exclusions for group accident benefits, detailing situations where benefits are not payable. Exclusions include treatment of temporomandibular joint disorders, services by non-licensed professionals, care from family members, and travel-related incidents involving aircraft or vehicles without proper licensing. It also excludes injuries from war, participation in certain dangerous activities, and any injury or illness related to drug or alcohol use.
-
-## Slide 13
-
-This slide provides details of various group hospital fixed indemnity and group accident insurance plans, outlining the daily benefits for different types of hospitalizations and medical services. It includes daily hospital confinement benefits, emergency room visits, surgery, anesthesia, and diagnostic laboratory tests. The slide also lists accidental death benefits and specific hospital admission benefits. The plans are categorized based on different coverage amounts ranging from $1,000 to $10,000. The slide also mentions the availability of these plans in several states.
-
-## Slide 14
-
-This slide outlines the conditions for termination of insurance policies. It covers policy termination dates, which occur automatically on the policy expiration date or if premiums are not paid by the grace period. It details how policyholders or the company may terminate the policy with written notice. It also discusses termination conditions for insured persons, such as reaching a limiting age or joining the Armed Forces. Additionally, it addresses the termination of dependent’s coverage, highlighting conditions like reaching a limiting age or ceasing dependency. The slide provides information on how unearned premiums are handled upon termination, specifically mentioning the refund process. There is a mention of the premium schedule underwritten by United States Fire Insurance Company, with specific monthly and annual rates for different coverage levels.
-
+The GapAfford Plus program is another standout

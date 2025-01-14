@@ -1,6 +1,9 @@
 from pathlib import Path
 from typing import List, Dict, Any
 import json
+from langchain_anthropic import ChatAnthropic
+from langchain.prompts import ChatPromptTemplate
+from langchain.schema.messages import HumanMessage, SystemMessage
 
 def load_template_examples(template: str) -> Dict[str, Any]:
     """Load template files to use as examples"""
@@ -24,10 +27,10 @@ def load_template_examples(template: str) -> Dict[str, Any]:
     return examples
 
 def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[str, Any]) -> str:
-    """Generate audio script from slides"""
+    """Generate audio script from slides using LLM"""
     # Create the prompt for the LLM
     prompt = f"""
-    Based on this template example:
+    Based on this template example - notice the format of the headline separator, ie "---- Cover ----". maintain that perfectly:
     ```template
     {template_examples.get("audio_script", "")}
     ```
@@ -38,6 +41,7 @@ def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[
     3. Define insurance-specific terms when first used (e.g., explaining what Fixed Indemnity means)
     4. Flow naturally between points without bullet points
     5. Keep common terms like MRI, CT, US, etc. as is
+    6. Never start a paragraph with "This slide". use a natural on-topic transition instead.
     
     PLAN SUMMARY:
     ```json
@@ -50,18 +54,27 @@ def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[
     ```
 
     Now in the format of the initial template and the slide content template + plan summary, generate a natural, conversational audio script for each slide.
-
     """
     
-    # For now, return a basic script - in future, use the prompt with an LLM
-    script = "# Audio Script\n\n"
+    # Initialize LLM
+    llm = ChatAnthropic(model="claude-3-sonnet-20240229", temperature=0.7)
     
-    # TODO: Replace this with actual LLM call
-    for i, slide in enumerate(slides, 1):
-        script += f"## Slide {i}\n\n"
-        if "content" in slide:
-            script += slide["content"] + "\n\n"
+    # Create messages
+    messages = [
+        SystemMessage(content="You are an expert at creating natural, conversational audio scripts from presentation slides."),
+        HumanMessage(content=prompt)
+    ]
     
+    # Get response from LLM
+    response = llm.invoke(messages)
+    
+    # Extract script from response
+    script = response.content
+    
+    # Ensure script starts with "# Audio Script"
+    if not script.startswith("# Audio Script"):
+        script = "# Audio Script\n\n" + script
+        
     return script
 
 def generate_audio_config(slides: List[Dict[str, Any]], template_examples: Dict[str, Any]) -> Dict[str, Any]:
