@@ -19,7 +19,8 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
             # Add success information to state
             state["deck_info"] = {
                 "path": result["deck_path"],
-                "template": result["template_used"]
+                "template": result["template_used"],
+                "created": True  # Flag to indicate this is a new deck
             }
         
         return state

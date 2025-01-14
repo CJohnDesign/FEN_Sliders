@@ -8,7 +8,7 @@ async def create_structure(deck_id: str, template: str = "FEN_TEMPLATE") -> Dict
     try:
         # Construct paths
         base_dir = Path(__file__).parent.parent.parent
-        deck_path = base_dir / "decks" / f"FEN_{deck_id}"
+        deck_path = base_dir / "decks" / deck_id
         template_path = base_dir / "decks" / template
         
         # Check if template exists
@@ -21,12 +21,25 @@ async def create_structure(deck_id: str, template: str = "FEN_TEMPLATE") -> Dict
         # Create deck directory if it doesn't exist
         deck_path.mkdir(parents=True, exist_ok=True)
         
-        # Copy template structure
-        for item in template_path.iterdir():
-            if item.is_dir():
-                shutil.copytree(item, deck_path / item.name, dirs_exist_ok=True)
-            else:
-                shutil.copy2(item, deck_path / item.name)
+        # Create required subdirectories
+        subdirs = ['ai', 'audio', 'img/logos', 'img/pdfs', 'dist']
+        for subdir in subdirs:
+            (deck_path / subdir).mkdir(parents=True, exist_ok=True)
+            
+        # Copy template files
+        template_files = [
+            'slides.md',
+            'audio/audio_config.json',
+            'audio/audio_script.md'
+        ]
+        
+        for file in template_files:
+            src = template_path / file
+            dst = deck_path / file
+            if src.exists():
+                # Create parent directory if needed
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(src, dst)
             
         return {
             "status": "success",

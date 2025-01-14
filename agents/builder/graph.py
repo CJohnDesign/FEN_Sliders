@@ -3,7 +3,16 @@ from langchain.callbacks.manager import tracing_v2_enabled
 from ..config.langsmith import init_langsmith, get_tracing_context
 from ..utils.monitoring import DeckBuilderEvaluator, log_run_metrics
 from .state import BuilderState
-from .nodes import create_deck_structure, wait_for_pdf, process_imgs, generate_page_summaries
+from .nodes import (
+    create_deck_structure, 
+    wait_for_pdf, 
+    process_imgs, 
+    generate_page_summaries,
+    extract_tables,
+    process_summaries as process_summaries_node, 
+    process_slides as process_slides_node, 
+    setup_audio as setup_audio_node
+)
 from pathlib import Path
 
 # Initialize LangSmith
@@ -17,19 +26,50 @@ def create_builder_graph():
     workflow = StateGraph(BuilderState)
     
     # Add nodes with tracing
-    async def traced_create_structure(state):
+    async def create_structure(state):
+        # Check if deck exists
+        base_dir = Path(__file__).parent.parent.parent
+        deck_path = base_dir / "decks" / state["metadata"].deck_id
+        
+        if deck_path.exists():
+            # If deck exists, skip to slide processing
+            state["deck_info"] = {
+                "path": str(deck_path),
+                "template": state["metadata"].template,
+                "created": True
+            }
+            return state
+            
         with get_tracing_context("deck-structure"):
+            # Create deck structure
             result = await create_deck_structure(state)
+            
+            # Copy PDFs from template folder
+            template_path = base_dir / "decks" / "FEN_TEMPLATE"
+            template_pdfs = template_path / "img" / "pdfs"
+            if template_pdfs.exists():
+                deck_pdfs = Path(result["deck_info"]["path"]) / "img" / "pdfs"
+                deck_pdfs.mkdir(parents=True, exist_ok=True)
+                
+                # Copy all PDFs from template
+                for pdf in template_pdfs.glob("*.pdf"):
+                    import shutil
+                    shutil.copy2(pdf, deck_pdfs / pdf.name)
+            
             log_run_metrics(
                 name="create_deck_structure",
                 metrics={
                     "structure_created": True,
-                    "deck_path": str(state.get("deck_info", {}).get("path", ""))
+                    "deck_path": str(result.get("deck_info", {}).get("path", ""))
                 }
             )
             return result
     
-    async def traced_process_imgs(state):
+    async def process_images(state):
+        # If deck existed before, skip image processing
+        if "created" not in state.get("deck_info", {}):
+            return state
+            
         with get_tracing_context("image-processing"):
             result = await process_imgs(state)
             if result.get("pdf_info"):
@@ -42,7 +82,11 @@ def create_builder_graph():
                 )
             return result
     
-    async def traced_generate_summaries(state):
+    async def generate_summaries(state):
+        # If deck existed before, skip summary generation
+        if "created" not in state.get("deck_info", {}):
+            return state
+            
         with get_tracing_context("summary-generation"):
             result = await generate_page_summaries(state)
             if result.get("summaries"):
@@ -54,11 +98,31 @@ def create_builder_graph():
                     }
                 )
             return result
+
+    async def extract_tables_node(state):
+        with get_tracing_context("table-extraction"):
+            return await extract_tables(state)
+
+    async def process_summaries(state):
+        with get_tracing_context("process-summaries"):
+            return await process_summaries_node(state)
+            
+    async def process_slides(state):
+        with get_tracing_context("slide-processing"):
+            return await process_slides_node(state)
+            
+    async def setup_audio(state):
+        with get_tracing_context("audio-setup"):
+            return await setup_audio_node(state)
     
-    workflow.add_node("create_structure", traced_create_structure)
+    workflow.add_node("create_structure", create_structure)
     workflow.add_node("wait_for_pdf", wait_for_pdf)
-    workflow.add_node("process_imgs", traced_process_imgs)
-    workflow.add_node("generate_summaries", traced_generate_summaries)
+    workflow.add_node("process_imgs", process_images)
+    workflow.add_node("generate_summaries", generate_summaries)
+    workflow.add_node("extract_tables", extract_tables_node)
+    workflow.add_node("process_summaries", process_summaries)
+    workflow.add_node("process_slides", process_slides)
+    workflow.add_node("setup_audio", setup_audio)
     
     # Define the conditional edge function for PDF processing
     def should_process_pdf(state: BuilderState):
@@ -66,8 +130,14 @@ def create_builder_graph():
         if state.get("error_context"):
             return END
             
-        # Check if PDF exists in the correct directory
+        # Check if summaries.json exists
         deck_dir = state.get("deck_info", {}).get("path")
+        if deck_dir:
+            summaries_path = Path(deck_dir) / "ai" / "summaries.json"
+            if summaries_path.exists():
+                return "process_summaries"
+                
+        # Check if PDF exists in the correct directory
         if deck_dir:
             pdf_dir = Path(deck_dir) / "img" / "pdfs"
             pdf_files = list(pdf_dir.glob("*.pdf"))
@@ -81,7 +151,7 @@ def create_builder_graph():
         "create_structure",
         should_process_pdf,
         # List all possible destinations
-        ["process_imgs", "wait_for_pdf", END]
+        ["process_imgs", "wait_for_pdf", "process_summaries", END]
     )
     
     # Define the conditional edge function for summary generation
@@ -101,7 +171,34 @@ def create_builder_graph():
         should_generate_summaries,
         ["generate_summaries", END]
     )
-    workflow.add_edge("generate_summaries", END)
+    
+    # Define the conditional edge function for table extraction
+    def should_extract_tables(state: BuilderState):
+        """Determines if we should extract tables"""
+        if state.get("error_context"):
+            return END
+            
+        # Check if summaries.json exists
+        deck_dir = state.get("deck_info", {}).get("path")
+        if deck_dir:
+            summaries_path = Path(deck_dir) / "ai" / "summaries.json"
+            if summaries_path.exists():
+                return "extract_tables"
+            
+        return "process_summaries"
+
+    # Add edges with conditions
+    workflow.add_conditional_edges(
+        "generate_summaries",
+        should_extract_tables,
+        ["extract_tables", "process_summaries", END]
+    )
+    
+    # Update other edges
+    workflow.add_edge("extract_tables", "process_summaries")
+    workflow.add_edge("process_summaries", "process_slides")
+    workflow.add_edge("process_slides", "setup_audio")
+    workflow.add_edge("setup_audio", END)
     workflow.add_edge("wait_for_pdf", END)
     
     # Set the entry point

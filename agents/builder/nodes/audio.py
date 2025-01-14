@@ -8,36 +8,24 @@ async def setup_audio(state: BuilderState) -> BuilderState:
         if state.get("error_context"):
             return state
             
-        # Generate audio config
-        config_result = await audio_utils.generate_audio_config(
+        # Set up audio script and config
+        success = await audio_utils.setup_audio(
             state["metadata"].deck_id,
-            state["metadata"].template
-        )
-        
-        if config_result["status"] == "error":
-            state["error_context"] = {
-                "error": config_result["error"],
-                "stage": "audio_config"
-            }
-            return state
-            
-        # Process audio script
-        script_result = await audio_utils.process_audio_script(
-            state["metadata"].deck_id,
+            state["metadata"].template,
             state["slides"]
         )
         
-        if not script_result:
+        if not success:
             state["error_context"] = {
-                "error": "Failed to generate audio script",
-                "stage": "audio_script"
+                "error": "Failed to set up audio",
+                "stage": "audio_setup"
             }
             return state
             
         state["audio_config"] = {
-            "config_path": config_result["config_path"],
-            "script_path": script_result["script_path"],
-            "slide_count": script_result["slide_count"]
+            "config_path": f"decks/{state['metadata'].deck_id}/audio/audio_config.json",
+            "script_path": f"decks/{state['metadata'].deck_id}/audio/audio_script.md",
+            "slide_count": len(state["slides"])
         }
         
         return state

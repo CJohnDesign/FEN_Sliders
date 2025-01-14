@@ -2,7 +2,8 @@ from .deck import create_deck_structure
 from .slides import process_slides
 from .audio import setup_audio
 from .pdf import wait_for_pdf, process_imgs
-from .summary import generate_page_summaries
+from .summary import generate_page_summaries, process_summaries
+from .tables import extract_tables
 
 __all__ = [
     'create_deck_structure',
@@ -10,5 +11,7 @@ __all__ = [
     'setup_audio',
     'wait_for_pdf',
     'process_imgs',
-    'generate_page_summaries'
+    'generate_page_summaries',
+    'process_summaries',
+    'extract_tables'
 ] 

@@ -12,7 +12,7 @@ ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
 OPENAI_ORG_ID = os.getenv('OPENAI_ORG_ID')
 
 # Optional settings with defaults
-DEFAULT_MODEL = os.getenv('DEFAULT_MODEL', 'claude-35-sonnet')
+DEFAULT_MODEL = os.getenv('DEFAULT_MODEL', 'claude-3-5-sonnet-20240620')
 TEMPERATURE = float(os.getenv('TEMPERATURE', '0.7'))
 
 # Validate required environment variables

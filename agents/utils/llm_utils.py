@@ -28,6 +28,47 @@ console_formatter = logging.Formatter('%(levelname)s: %(message)s')
 console_handler.setFormatter(console_formatter)
 logging.getLogger().addHandler(console_handler)
 
+async def get_completion(prompt: str, model: str = DEFAULT_MODEL) -> str:
+    """Get a completion from the LLM"""
+    if model.startswith('claude'):
+        from anthropic import AsyncAnthropic
+        client = AsyncAnthropic(api_key=ANTHROPIC_API_KEY)
+        try:
+            response = await client.messages.create(
+                model=model,
+                max_tokens=1000,
+                temperature=TEMPERATURE,
+                system="You are a helpful AI assistant that processes summaries and generates structured content. Your responses should be valid JSON arrays when processing summaries.",
+                messages=[
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ]
+            )
+            # Convert TextBlock to string and log
+            content = str(response.content[0].text) if hasattr(response.content[0], 'text') else str(response.content)
+            logging.info(f"Anthropic API response preview: {content[:200]}...")
+            return content
+        except Exception as e:
+            logging.error(f"Error getting completion from Anthropic: {str(e)}")
+            raise
+    else:
+        client = AsyncOpenAI(
+            api_key=OPENAI_API_KEY,
+            organization=OPENAI_ORG_ID
+        )
+        try:
+            response = await client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=TEMPERATURE
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            logging.error(f"Error getting completion from OpenAI: {str(e)}")
+            raise
+
 def encode_image(image_path):
     """Convert an image file to base64 encoding"""
     with open(image_path, "rb") as image_file:

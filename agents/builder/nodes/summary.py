@@ -7,6 +7,8 @@ from pathlib import Path
 from langchain_core.messages import AIMessage
 from ...utils import llm_utils
 from ..state import BuilderState
+from ...utils.llm_utils import get_completion
+from typing import Dict, Any
 
 # Set up logging
 logging.basicConfig(
@@ -84,13 +86,9 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
                                     Your task is to analyze a presentation slide and provide:
                                     1. A concise title that captures the main topic
                                     2. A detailed summary of the content
-                                    3. Determination if slide falls into one of the following `feature_categories`
-                                        a. `plan_benefits`
-                                        b. `limitations_exclusions`
-                                        c. `cover_slide`
-                                    4. A boolean `hasTable` indicating if the slide contains a table. return true if it does, false otherwise.
+                                    3. A boolean `hasTable` indicating if the slide contains a table. return true if it does, false otherwise.
 
-                                    Return `title`, `summary`, `feature_category`, and `hasTable` in a JSON object. `feature_category` should only be one of the following: `plan_benefits`, `limitations_exclusions`, or `cover_slide`.
+                                    Return `title`, `summary`, and `hasTable` in a JSON object.
                                     """
                                 },
                                 {
@@ -98,7 +96,7 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
                                     "content": [
                                         {
                                             "type": "text",
-                                            "text": f"This is slide {page_num} of {state['pdf_info']['page_count']}. Please analyze it and provide a `title`, `summary`, `feature_category`, and `hasTable` in JSON format."
+                                            "text": f"This is slide {page_num} of {state['pdf_info']['page_count']}. Please analyze it and provide a `title`, `summary`, and `hasTable` in JSON format."
                                         },
                                         {
                                             "type": "image_url",
@@ -120,7 +118,6 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
                                     "page": page_num,
                                     "title": content.get("title", "Error: No Title"),
                                     "summary": content.get("summary", "Error: No Summary"),
-                                    "feature_category": content.get("feature_category"),
                                     "hasTable": content.get("hasTable", False)
                                 })
                                 logging.info(f"Successfully processed page {page_num}")
@@ -178,3 +175,106 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
             "stage": "summary_generation"
         }
         return state 
+
+async def process_summaries(state: Dict[str, Any]) -> Dict[str, Any]:
+    """Process summaries using script and slides template to generate markdown content"""
+    
+    deck_path = Path(state["deck_info"]["path"])
+    summaries_path = deck_path / "ai" / "summaries.json"
+    script_path = deck_path / "audio" / "audio_script.md"
+    slides_path = deck_path / "slides.md"
+    
+    try:
+        # Read existing files as raw text
+        with open(summaries_path) as f:
+            summaries_text = f.read()
+        with open(script_path) as f:
+            script_text = f.read()
+        with open(slides_path) as f:
+            slides_text = f.read()
+            
+        # Build the prompt with raw text content
+        prompt = f"""You will be provided with the current summaries for educational content, along with script and slides templates.
+Your task is to generate a presentation outline in a markdown file that presents this content in an organized, educational format.
+
+The content should be structured with:
+
+```
+## 1. Core Plan Elements
+- **Introduction & Overview**
+  - Plan purpose and scope
+  - Association membership (BWA, NCE, etc.)
+  - Basic coverage framework
+
+## 2. Common Service Features
+- **Telehealth Services**
+- **Preventive Care & Wellness**
+- **Advocacy & Support**
+
+## 3. Cost Management Tools
+- **Medical Bill Management**
+
+## 4. Plan Tiers
+
+### Plans 1 (1/2)
+- Benefits details list
+
+### Plans 1 (2/2)
+- Benefits details list
+
+### Plans 2 (1/2)
+- Benefits details list
+
+### Plans 2 (2/2)
+- Benefits details list
+
+### Plans 3 (1/2)
+- Benefits details list
+
+### Plans 3 (2/2)
+- Benefits details list
+
+<!-- create as few or as many as needed -->
+
+## 5. Administrative Details
+- **Limitations & Definitions**
+- **Required Disclosures**
+
+## 6. Key Takeaways
+- Plan comparison highlights
+- Important reminders
+```
+
+Current summaries - use the information in these to generate the content:
+{summaries_text}
+
+Here are the slides that will be used to generate the content:
+Notice their structure and how they are formatted. I want to keep this as close as possible.
+
+Script template - maintain the header format:
+{script_text}
+
+Slides template - in this file, there is a csv with plans. this should be used to generate the two part product benefits slides. based on the csv, generate the two slides for each product:
+{slides_text}
+
+Return ONLY the markdown (content without ```), structured with appropriate headers, lists, and formatting. Do not include any JSON or explanatory text."""
+
+        # Get the markdown content
+        result = await get_completion(prompt)
+        
+        # Save the markdown content
+        processed_path = deck_path / "ai" / "processed_content.md"
+        with open(processed_path, 'w') as f:
+            f.write(result)
+                
+        # Update state with the path to the processed content
+        state["processed_content_path"] = str(processed_path)
+            
+    except Exception as e:
+        state["error_context"] = {
+            "step": "process_summaries",
+            "error": str(e),
+            "details": "Failed to process summaries"
+        }
+        
+    return state 

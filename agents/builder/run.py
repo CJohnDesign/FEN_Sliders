@@ -4,6 +4,7 @@ import asyncio
 from typing import Dict, Any
 import logging
 import sys
+from pathlib import Path
 
 from .state import BuilderState, DeckMetadata
 from .graph import builder_graph
@@ -24,10 +25,38 @@ console_formatter = logging.Formatter('%(message)s')  # Simplified format for co
 console_handler.setFormatter(console_formatter)
 logging.getLogger().addHandler(console_handler)
 
+def load_existing_deck_state(deck_id: str) -> Dict[str, Any]:
+    """Load state from an existing deck"""
+    base_dir = Path(__file__).parent.parent.parent
+    deck_path = base_dir / "decks" / deck_id
+    
+    # Check if deck exists and has summaries
+    if not deck_path.exists():
+        return None
+        
+    summaries_path = deck_path / "ai" / "summaries.json"
+    if not summaries_path.exists():
+        return None
+        
+    try:
+        with open(summaries_path) as f:
+            summaries = json.load(f)
+            
+        return {
+            "deck_info": {
+                "path": str(deck_path),
+                "template": TEMPLATE,
+                "created": True
+            },
+            "page_summaries": summaries
+        }
+    except Exception as e:
+        logging.error(f"Error loading existing deck state: {str(e)}")
+        return None
+
 async def run_builder(
     deck_id: str,
     title: str,
-    theme_config: Dict[str, Any] = None
 ) -> Dict[str, Any]:
     """
     Run the deck builder workflow
@@ -35,25 +64,30 @@ async def run_builder(
     Args:
         deck_id: Unique identifier for the deck
         title: Title of the deck
-        theme_config: Optional theme configuration
         
     Returns:
         Dict containing the final state or error information
     """
     try:
-        # Initialize state
+        # Initialize base state with hardcoded logo path
         initial_state: BuilderState = {
             "messages": [],
             "metadata": DeckMetadata(
                 deck_id=deck_id,
                 title=title,
                 template=TEMPLATE,
-                theme_config=theme_config or {}
+                theme_config={"logoHeader": "/logo.svg"}
             ),
             "slides": [],
             "audio_config": None,
             "error_context": None
         }
+        
+        # Check for existing deck state
+        existing_state = load_existing_deck_state(deck_id)
+        if existing_state:
+            logging.info(f"Found existing deck {deck_id}, loading state")
+            initial_state.update(existing_state)
         
         # Execute the graph
         final_state = await builder_graph.ainvoke(initial_state)
@@ -86,19 +120,14 @@ def main():
     parser = argparse.ArgumentParser(description="Run the deck builder workflow")
     parser.add_argument("--deck-id", required=True, help="Unique identifier for the deck")
     parser.add_argument("--title", required=True, help="Title of the deck")
-    parser.add_argument("--theme-config", help="Theme configuration as JSON string")
     
     args = parser.parse_args()
     
     try:
-        # Parse theme config if provided
-        theme_config = json.loads(args.theme_config) if args.theme_config else None
-        
         # Run the workflow
         result = asyncio.run(run_builder(
             args.deck_id,
             args.title,
-            theme_config
         ))
         
         # Log result summary without full data
@@ -119,9 +148,6 @@ def main():
         sys.stdout.write(json.dumps(minimal_result) + "\n")
         sys.exit(0 if result["status"] == "success" else 1)
         
-    except json.JSONDecodeError:
-        logging.error("Invalid theme configuration JSON")
-        sys.exit(1)
     except Exception as e:
         logging.error(f"Error in main: {str(e)}")
         sys.exit(1)

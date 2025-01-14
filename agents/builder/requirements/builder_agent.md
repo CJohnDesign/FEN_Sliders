@@ -4,8 +4,11 @@
 The current system processes insurance plan PDFs into presentation decks using a multi-step pipeline:
 1. PDF processing and image extraction
 2. GPT-4V analysis of images to generate summaries
-3. Generation of Slidev markdown presentations
-4. Creation of accompanying audio scripts
+
+Based on this, in this sprint, we want to add a new step to the pipeline:
+1. Generation of Slidev markdown presentations
+2. Creation of accompanying audio scripts
+3. Validate until the script and slides are in sync
 
 The system uses LangGraph for orchestration and maintains state through a BuilderState TypedDict.
 
@@ -35,7 +38,8 @@ async def gen_slides(state: BuilderState) -> BuilderState:
         ],
         "structure": {
             "cover": "Plan introduction",
-            "benefits": "Feature breakdown",
+            "common_benefits": "Feature breakdown",
+            "plan_specific_benefits": "Feature breakdown",
             "comparison": "Plan comparisons",
             "closing": "Key takeaways"
         }
