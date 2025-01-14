@@ -14,6 +14,7 @@ from .nodes import (
     setup_audio as setup_audio_node
 )
 from pathlib import Path
+import json
 
 # Initialize LangSmith
 client = init_langsmith()
@@ -31,39 +32,50 @@ def create_builder_graph():
         base_dir = Path(__file__).parent.parent.parent
         deck_path = base_dir / "decks" / state["metadata"].deck_id
         
-        if deck_path.exists():
-            # If deck exists, skip to slide processing
-            state["deck_info"] = {
-                "path": str(deck_path),
-                "template": state["metadata"].template,
-                "created": True
-            }
+        # Initialize deck_info first
+        state["deck_info"] = {
+            "path": str(deck_path),
+            "template": state["metadata"].template,
+            "created": not deck_path.exists()
+        }
+        
+        if not state["deck_info"]["created"]:
             return state
             
         with get_tracing_context("deck-structure"):
             # Create deck structure
-            result = await create_deck_structure(state)
+            deck_path.mkdir(parents=True, exist_ok=True)
             
-            # Copy PDFs from template folder
+            # Create required directories
+            (deck_path / "img" / "pdfs").mkdir(parents=True, exist_ok=True)
+            (deck_path / "ai").mkdir(parents=True, exist_ok=True)
+            (deck_path / "audio").mkdir(parents=True, exist_ok=True)
+            
+            # Copy template files
             template_path = base_dir / "decks" / "FEN_TEMPLATE"
+            
+            # Copy PDFs
             template_pdfs = template_path / "img" / "pdfs"
             if template_pdfs.exists():
-                deck_pdfs = Path(result["deck_info"]["path"]) / "img" / "pdfs"
-                deck_pdfs.mkdir(parents=True, exist_ok=True)
-                
-                # Copy all PDFs from template
+                deck_pdfs = deck_path / "img" / "pdfs"
                 for pdf in template_pdfs.glob("*.pdf"):
                     import shutil
                     shutil.copy2(pdf, deck_pdfs / pdf.name)
+                
+            # Copy audio script template if exists
+            template_audio = template_path / "audio" / "audio_script.md"
+            if template_audio.exists():
+                deck_audio = deck_path / "audio"
+                shutil.copy2(template_audio, deck_audio / "audio_script.md")
             
             log_run_metrics(
                 name="create_deck_structure",
                 metrics={
                     "structure_created": True,
-                    "deck_path": str(result.get("deck_info", {}).get("path", ""))
+                    "deck_path": str(deck_path)
                 }
             )
-            return result
+            return state
     
     async def process_images(state):
         # If deck existed before, skip image processing
@@ -85,16 +97,23 @@ def create_builder_graph():
     async def generate_summaries(state):
         # If deck existed before, skip summary generation
         if "created" not in state.get("deck_info", {}):
+            # Load existing summaries if available
+            deck_dir = state.get("deck_info", {}).get("path")
+            if deck_dir:
+                summaries_path = Path(deck_dir) / "ai" / "summaries.json"
+                if summaries_path.exists():
+                    with open(summaries_path) as f:
+                        state["page_summaries"] = json.load(f)
             return state
             
         with get_tracing_context("summary-generation"):
             result = await generate_page_summaries(state)
-            if result.get("summaries"):
+            if result.get("page_summaries"):
                 log_run_metrics(
                     name="generate_summaries",
                     metrics={
-                        "summaries_generated": len(result["summaries"]),
-                        "total_tokens": sum(s.get("token_count", 0) for s in result["summaries"])
+                        "summaries_generated": len(result["page_summaries"]),
+                        "total_tokens": sum(s.get("token_count", 0) for s in result["page_summaries"])
                     }
                 )
             return result
@@ -105,6 +124,14 @@ def create_builder_graph():
 
     async def process_summaries(state):
         with get_tracing_context("process-summaries"):
+            # Ensure we have summaries
+            if not state.get("page_summaries"):
+                deck_dir = state.get("deck_info", {}).get("path")
+                if deck_dir:
+                    summaries_path = Path(deck_dir) / "ai" / "summaries.json"
+                    if summaries_path.exists():
+                        with open(summaries_path) as f:
+                            state["page_summaries"] = json.load(f)
             return await process_summaries_node(state)
             
     async def process_slides(state):
@@ -135,6 +162,9 @@ def create_builder_graph():
         if deck_dir:
             summaries_path = Path(deck_dir) / "ai" / "summaries.json"
             if summaries_path.exists():
+                # Load existing summaries into state
+                with open(summaries_path) as f:
+                    state["page_summaries"] = json.load(f)
                 return "process_summaries"
                 
         # Check if PDF exists in the correct directory

@@ -3,7 +3,7 @@
 ## Context
 The current system processes insurance plan PDFs into presentation decks using a multi-step pipeline:
 1. PDF processing and image extraction
-2. GPT-4V analysis of images to generate summaries
+2. GPT-4o analysis of images to generate summaries
 
 Based on this, in this sprint, we want to add a new step to the pipeline:
 1. Generation of Slidev markdown presentations

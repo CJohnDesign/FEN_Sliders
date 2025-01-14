@@ -1,5 +1,5 @@
 ---
-id: FEN_LEN
+id: FEN_{deck_key}
 theme: ../../
 title: | 
   { Plan Name }
@@ -16,7 +16,7 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_LEN" />
+<SlideAudio deckKey="FEN_{deck_key}" />
 
 # { Plan Name } Review
 
@@ -61,7 +61,7 @@ layout: default
 
 **{ Additional Benefit }** through { Partner }
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="/img/logos/{brand_logo}.svg" class="h-12 mix-blend-multiply" alt="{ Brand } Logo">
+  <img src="" class="h-12 mix-blend-multiply" alt="{ Brand } Logo">
 </div>
 
 </v-click>
@@ -76,7 +76,7 @@ layout: default
 <v-click>
 
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="/img/logos/{tool_logo}.svg" class="h-24 mix-blend-multiply" alt="{ Tool } Logo">
+  <img src="" class="h-24 mix-blend-multiply" alt="{ Tool } Logo">
 </div>
 
 **{ Tool Name }** ({ Acronym })

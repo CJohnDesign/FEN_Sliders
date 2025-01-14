@@ -178,23 +178,25 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
 
 async def process_summaries(state: Dict[str, Any]) -> Dict[str, Any]:
     """Process summaries using script and slides template to generate markdown content"""
-    
-    deck_path = Path(state["deck_info"]["path"])
-    summaries_path = deck_path / "ai" / "summaries.json"
-    script_path = deck_path / "audio" / "audio_script.md"
-    slides_path = deck_path / "slides.md"
-    
     try:
+        deck_path = Path(state["deck_info"]["path"])
+        summaries_path = deck_path / "ai" / "summaries.json"
+        script_path = deck_path / "audio" / "audio_script.md"
+        slides_path = deck_path / "slides.md"
+        
+        # Create audio directory if it doesn't exist
+        script_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Create empty script file if it doesn't exist
+        if not script_path.exists():
+            script_path.write_text("")
+        
         # Read existing files as raw text
         with open(summaries_path) as f:
             summaries_text = f.read()
-        with open(script_path) as f:
-            script_text = f.read()
-        with open(slides_path) as f:
-            slides_text = f.read()
             
         # Build the prompt with raw text content
-        prompt = f"""You will be provided with the current summaries for educational content, along with script and slides templates.
+        prompt = f"""You will be provided with the current summaries for educational content.
 Your task is to generate a presentation outline in a markdown file that presents this content in an organized, educational format.
 
 The content should be structured with:
@@ -247,34 +249,21 @@ The content should be structured with:
 
 Current summaries - use the information in these to generate the content:
 {summaries_text}
-
-Here are the slides that will be used to generate the content:
-Notice their structure and how they are formatted. I want to keep this as close as possible.
-
-Script template - maintain the header format:
-{script_text}
-
-Slides template - in this file, there is a csv with plans. this should be used to generate the two part product benefits slides. based on the csv, generate the two slides for each product:
-{slides_text}
-
-Return ONLY the markdown (content without ```), structured with appropriate headers, lists, and formatting. Do not include any JSON or explanatory text."""
-
-        # Get the markdown content
-        result = await get_completion(prompt)
+"""
         
-        # Save the markdown content
-        processed_path = deck_path / "ai" / "processed_content.md"
-        with open(processed_path, 'w') as f:
-            f.write(result)
-                
-        # Update state with the path to the processed content
-        state["processed_content_path"] = str(processed_path)
+        # Generate script content
+        response = await get_completion(prompt)
+        
+        # Save script content
+        with open(script_path, "w") as f:
+            f.write(response)
             
+        return state
+        
     except Exception as e:
         state["error_context"] = {
             "step": "process_summaries",
             "error": str(e),
             "details": "Failed to process summaries"
         }
-        
-    return state 
+        return state 
