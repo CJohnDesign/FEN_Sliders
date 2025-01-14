@@ -1,11 +1,11 @@
 ---
-id: FEN_001
+id: FEN_01
 theme: ../../
 title: | 
-  Premier Insurance Offer
+  Group Hospital Fixed Indemnity Benefits
 info: |
-  ## Premier Insurance Offer Review
-  A comprehensive look at the Premier Insurance Offer benefits and details.
+  ## Group Hospital Fixed Indemnity Benefits Review
+  A comprehensive look at the Group Hospital Fixed Indemnity Benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -16,25 +16,26 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_001" />
+<SlideAudio deckKey="FEN_01" />
 
-# Premier Insurance Offer Review
+# Group Hospital Fixed Indemnity Benefits Review
 
-Understanding the details and benefits of the **Premier Insurance Offer**
+Understanding the details and benefits of the **Group Hospital Fixed Indemnity Benefits Plan**
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Premier Insurance Offer Overview
+## Group Hospital Fixed Indemnity Benefits Overview
 
 <v-clicks>
 
-- Provided through **United States Fire Insurance Company**
-- **Group Hospital Fixed Indemnity** for various situations
-- **Group Accident Insurance** and support tools
-- Exclusive for **NCE Members**
+- Provided through **Insurance Company**
+- **Hospital Admission Benefits** for specific conditions
+- **Daily Inpatient Services** and support tools
+- **Intensive Care** through policy features
+- **Surgery Benefits** support
 
 </v-clicks>
 
@@ -47,18 +48,20 @@ layout: default
 
 <v-clicks>
 
-**Inpatient Hospital Confinement**
+**Hospital Admission Benefits**
 
-**Intensive Care/Coronary Care Unit**
+**Daily Inpatient Services**
 
-**Surgery and Anesthesia** (varies by plan)
+**Intensive Care**
+
+**Surgery Benefits** (varies by plan)
 </v-clicks>
 
 <v-click>
 
-**Additional Benefit** through partner
+**Anesthesia Benefits** through **Medical Partner**
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="Brand Logo">
+  <img src="" class="h-12 mix-blend-multiply" alt="Medical Partner Logo">
 </div>
 
 </v-click>
@@ -73,7 +76,7 @@ layout: default
 <v-click>
 
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-24 mix-blend-multiply" alt="Tool Logo">
+  <img src="" class="h-24 mix-blend-multiply" alt="Cost Management Tool Logo">
 </div>
 
 **Cost Management Tool** (CMT)
@@ -81,12 +84,12 @@ layout: default
 
 <v-click>
 
-**Emergency Room** Benefit
+**Claims Management** System
 </v-click>
 
 <v-click>
 
-**Daily Recovery** Support
+**Policyholder Support** Services
 </v-click>
 
 ---
@@ -94,16 +97,16 @@ transition: fade-out
 layout: default
 ---
 
-## How CMT Works
+## How Cost Management Tool Works
 
 <v-clicks>
 
-1. Enroll through **United States Fire Insurance Company**
-2. Undergo medical examination
-3. Apply for **Premier Insurance Offer**
-4. Receive Policy Document **(PD)**
-5. Start using benefits
-6. **Recover with ease**
+1. Enroll through **Insurance Company**
+2. Submit **Claim**
+3. Receive **Benefit Payouts**
+4. Receive **Explanation of Benefits (EOB)**
+5. Monitor **Claim Status**
+6. **Claim Settlement**
 
 </v-clicks>
 
@@ -116,9 +119,9 @@ layout: default
 
 <v-clicks>
 
-- **Routine Checkups** Services
-- **Vaccination** Programs
-- **Partner** provides wellness programs
+- **Regular Checkups** Services
+- **Health Education** Programs
+- **Medical Partner** provides wellness services
 
 </v-clicks>
 
@@ -131,10 +134,10 @@ layout: default
 
 <v-clicks>
 
-- **24/7 Medical Assistance**
-- **Specialist Consultation**
-- **Prescription Assistance** available
-- **Quick access** to care
+- **24/7 Access**
+- **Virtual Consultation**
+- **Prescription Service** available
+- **Direct Link** to care
 
 </v-clicks>
 
@@ -148,9 +151,9 @@ layout: default
 <v-clicks>
 
 - **Personalized** healthcare advocacy
-- **Emergency Assistance**
-- **Recovery** options
-- **Policy Guidance** support
+- **Claims Assistance**
+- **Billing Clarification** options
+- **Policy Inquiry** support
 
 </v-clicks>
 
@@ -160,31 +163,31 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Premier Insurance Offer (1/2)
+## Plan A (1/2)
 
 <v-click>
 
-**Hospital Confinement**
-- Daily Benefit: $100
-- Maximum Days: 30
-- Waiting Period: 0 days
-- Pre-Existing Conditions: Covered
+**Hospital Admission Benefit**
+- Medical Necessity: **Required**
+- Specific Disease: **Covered**
+- Injury: **Covered**
+- Hospital Confinement: **Required**
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Intensive Care/Coronary Care**
-- Daily Benefit: $200
-- Maximum Days: 15
+**Daily Inpatient Services**
+- Intensive Care: **Included**
+- Coronary Care: **Included**
+- Surgery: **Included**
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Surgery and Anesthesia**
-- Benefit: Varies
-- Maximum: As per plan
+**Anesthesia**
+- Inpatient Surgery: **Covered**
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -194,23 +197,25 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Premier Insurance Offer (2/2)
+## Plan A (2/2)
 
 <v-click>
 
-**Emergency Room**
-- Benefit: $100
-- Maximum Visits: 2
+**Exclusions and Limitations**
+- Pre-existing Conditions: **Excluded**
+- Specific Diseases: **Limited**
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Daily Recovery**
-- Benefit: $100
-- Maximum Days: 30
+**Payment Structure**
+- Benefit Cap: **Defined**
+- Co-payment: **Defined**
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
+
+<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->
 
 ---
 transition: fade-out
@@ -219,13 +224,13 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **Premier Insurance Offer** |
-|---------|----------|
-| Daily Hospital Benefit | $100 |
-| ICU Benefit | $200 |
-| Surgery Benefit | Varies |
-| Emergency Room Visits | 2 |
-| Daily Recovery Benefit | $100 |
+| **Feature** | **Plan A** | **Plan B** | **Plan C** |
+|---------|----------|----------|-----------|
+| Hospital Admission | $500 | $700 | $1,000 |
+| Daily Inpatient Services | $100/day | $150/day | $200/day |
+| Intensive Care | $200/day | $300/day | $400/day |
+| Surgery Benefit | 50% of cost | 60% of cost | 70% of cost |
+| Anesthesia | 25% of surgery benefit | 30% of surgery benefit | 35% of surgery benefit |
 
 ---
 transition: fade-out
@@ -237,24 +242,35 @@ image: img/pages/plan_brochure_image_final.jpg
 
 <v-click>
 
-**Hospital Confinement**
-- Required for covered illness
-- Not for experimental surgeries
+**Hospital Admission Benefit**
+- Medically Necessary: **Required**
+- Specific Disease: **Included**
+- Injury: **Included**
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**ICU/CCU**
-- Only for covered accidents
+**Daily Inpatient Services**
+- Intensive Care: **Defined**
+- Coronary Care: **Defined**
+- Surgery: **Defined**
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Surgery and Anesthesia**
-- Must be performed in hospital
+**Anesthesia**
+- Inpatient Surgery: **Covered**
 <Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Exclusions and Limitations**
+- Pre-existing Conditions: **Excluded**
+- Specific Diseases: **Limited**
+<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -266,10 +282,10 @@ layout: default
 
 <v-clicks>
 
-- **Hospital Confinement** benefits
-- **ICU/CCU** included
-- **Surgery Benefits** available
-- **NCE Membership** required
+- **Hospital Admission** benefits
+- **Inpatient Services** included
+- **Intensive Care** benefits
+- **Claim Submission** required
 
 </v-clicks>
 ---

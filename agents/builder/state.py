@@ -21,4 +21,5 @@ class BuilderState(TypedDict):
     pdf_path: Optional[str]
     pdf_info: Optional[Dict[str, Any]]
     pdf_analysis: Optional[Dict[str, str]]
-    page_summaries: Optional[Dict[int, str]]  # Maps page numbers to their summaries 
+    page_summaries: Optional[Dict[int, str]]  # Maps page numbers to their summaries
+    processed_summaries: Optional[str]  # Markdown formatted processed summaries 

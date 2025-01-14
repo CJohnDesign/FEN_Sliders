@@ -1,64 +1,112 @@
-## 1. Core Plan Elements
-- **Introduction & Overview**
-  - Plan purpose: Group Hospital Fixed Indemnity and Group Accident Insurance
-  - Association membership: NCE (National Association for Small and Medium-sized Businesses)
-  - Basic coverage framework: Limited Fixed Indemnity insurance plan
+Here's a markdown outline that organizes the content in an educational format, focusing on the requested elements:
 
-## 2. Common Service Features
-- **Telehealth Services**
-  - Telemedicine access
-  - 24/7 nurse helpline
-- **Preventive Care & Wellness**
-  - Health information line
-- **Advocacy & Support**
-  - Emergency travel assistance
+# Group Hospital Fixed Indemnity and Group Accident Insurance Plans for NCE Members
 
-## 3. Cost Management Tools
-- **Medical Bill Management**
-  - Medical bill negotiation assistance
-  - GapAfford Plus program for savings on medical expenses
+## I. Introduction
+- Exclusive offer for NCE members
+- Underwritten by United States Fire Insurance Company
 
-## 4. Plan Tiers
+## II. Core Plan Elements
 
-### Plans 1 (1/2)
+### A. Group Hospital Fixed Indemnity Benefits
+1. Hospital Admission
+2. Daily Inpatient Services
+   - Intensive care
+   - Coronary care
+   - Surgery
+3. Outpatient Services
+   - Surgery
+   - Diagnostic radiology and x-ray
+   - Laboratory tests
+4. Physician Office Visits
+
+### B. Group Accident Benefits
+1. Accidental Death Coverage
+2. Hospital Admission
+3. Emergency Room Visits
+
+## III. Plan Tiers and Features
+
+### A. Hospital Fixed Indemnity Plan Tiers
 - 100 Plan
 - 200A Plan
 - 200+ Plan
 - 300 Plan
-
-### Plans 1 (2/2)
 - 500 Plan
 - 750 Plan
 - 1000 Plan
 - 1000+ Plan
 
-### Plans 2 (1/2)
-- Daily Hospital Confinement (ranging from $100 to $1,000 per day)
-- Daily Hospital Admission (available in some plans)
-- Daily Emergency Room Visit (Injury and Sickness)
-- Daily Inpatient and Outpatient Surgery
+### B. Common Features Across Plans
+- Daily hospital confinement benefits
+- Emergency room visit compensation
+- Surgery and anesthesia coverage
+- Diagnostic tests and imaging
 
-### Plans 2 (2/2)
-- Daily Physician Office Visit
-- Daily Inpatient and Outpatient Diagnostic Radiology, X-ray, and Laboratory Tests
-- Group Accident Benefits (Accidental Death, Hospital Admission Benefit)
+## IV. Important Reminders
 
-## 5. Administrative Details
-- **Limitations & Definitions**
-  - Pre-existing conditions limitations
-  - Specific exclusions for various treatments and conditions
-- **Required Disclosures**
-  - Insurance underwritten by United States Fire Insurance Company
-  - Available states listed
-  - Policy is limited and not comprehensive medical coverage
+### A. Benefit Conditions
+- Medical necessity requirement
+- Coverage for specified diseases or injuries
+- Hospital confinement criteria
 
-## 6. Key Takeaways
-- Plan comparison highlights:
-  - Multiple tiers of coverage available
-  - Daily benefits for various medical services
-  - Additional accident coverage included
-- Important reminders:
-  - No waiting periods or pre-existing condition limitations for certain benefits
-  - Access to First Health Network for additional savings
-  - GapAfford Plus program offers savings on medical expenses
-  - Various additional discounts and services available through NCE membership
+### B. Exclusions and Limitations
+1. Group Hospital Fixed Indemnity Exclusions
+   - Active military service
+   - Self-inflicted harm
+   - Illegal activities
+   - Experimental treatments
+   - Mental illness and substance abuse
+   - Normal pregnancy
+   - Cosmetic surgery
+
+2. Group Accident Benefit Exclusions
+   - Self-inflicted injuries
+   - Acts of war
+   - Participation in certain sports
+   - Felony-related injuries
+   - Driving under influence
+
+### C. Pre-existing Conditions
+- 12-month limitation for hospital, surgery, and anesthesia benefits
+
+## V. NCE Association Membership Benefits
+
+### A. GapAfford Plus Program
+- Medical service discounts
+- First Health Network access
+
+### B. Additional Services
+- Prescription discounts
+- Telemedicine access
+- Pet and hearing care
+- Medical supplies
+- Laboratory services
+- Dental plans
+
+## VI. Cost Management Tools
+
+### A. Discount Programs
+- First Health Network provider discounts
+- Pharmacy discount card
+
+### B. No-Wait Access
+- No waiting periods for most services
+- No pre-existing condition limitations for basic services
+
+## VII. Administrative Details
+
+### A. Policy Termination
+- Automatic termination conditions
+- Insured person's termination criteria
+- Dependent's coverage termination
+
+### B. Member Resources
+- ID cards with instructions
+- Contact information
+
+## VIII. Key Takeaways
+- Not comprehensive medical insurance
+- Supplements existing coverage
+- State-specific availability and regulations
+- Consult full policy details for complete understanding

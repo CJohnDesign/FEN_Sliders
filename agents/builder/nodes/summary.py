@@ -176,76 +176,34 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
         }
         return state 
 
-async def process_summaries(state: Dict[str, Any]) -> Dict[str, Any]:
-    """Process summaries using script and slides template to generate markdown content"""
+async def process_summaries(state: BuilderState) -> BuilderState:
+    """Processes summaries to generate markdown content"""
     try:
-        deck_path = Path(state["deck_info"]["path"])
-        summaries_path = deck_path / "ai" / "summaries.json"
-        script_path = deck_path / "audio" / "audio_script.md"
-        slides_path = deck_path / "slides.md"
-        
-        # Create audio directory if it doesn't exist
-        script_path.parent.mkdir(parents=True, exist_ok=True)
-        
-        # Create empty script file if it doesn't exist
-        if not script_path.exists():
-            script_path.write_text("")
-        
-        # Read existing files as raw text
-        with open(summaries_path) as f:
-            summaries_text = f.read()
+        # Skip if there was an error in previous steps
+        if state.get("error_context"):
+            return state
             
-        # Build the prompt with raw text content
-        prompt = f"""You will be provided with the current summaries for educational content.
-Your task is to generate a presentation outline in a markdown file that presents this content in an organized, educational format.
+        # Check for summaries
+        if not state.get("page_summaries"):
+            state["error_context"] = {
+                "step": "process_summaries",
+                "error": "No page summaries available",
+                "details": "Cannot process summaries without page summaries"
+            }
+            return state
+            
+        # Convert summaries to text
+        summaries_text = json.dumps(state["page_summaries"], indent=2)
+        
+        # Create prompt
+        prompt = f"""
+You are an expert at organizing and structuring content for presentations. Please generate a markdown outline that organizes the following content in an educational format.
 
-The content should be structured with:
-
-```
-## 1. Core Plan Elements
-- **Introduction & Overview**
-  - Plan purpose and scope
-  - Association membership (BWA, NCE, etc.)
-  - Basic coverage framework
-
-## 2. Common Service Features
-- **Telehealth Services**
-- **Preventive Care & Wellness**
-- **Advocacy & Support**
-
-## 3. Cost Management Tools
-- **Medical Bill Management**
-
-## 4. Plan Tiers
-
-### Plans 1 (1/2)
-- Benefits details list
-
-### Plans 1 (2/2)
-- Benefits details list
-
-### Plans 2 (1/2)
-- Benefits details list
-
-### Plans 2 (2/2)
-- Benefits details list
-
-### Plans 3 (1/2)
-- Benefits details list
-
-### Plans 3 (2/2)
-- Benefits details list
-
-<!-- create as few or as many as needed -->
-
-## 5. Administrative Details
-- **Limitations & Definitions**
-- **Required Disclosures**
-
-## 6. Key Takeaways
-- Plan comparison highlights
-- Important reminders
-```
+Focus on:
+- Core plan elements and important reminders
+- Common service features and benefits
+- Cost management tools and plan tiers
+- Administrative details and key takeaways
 
 Current summaries - use the information in these to generate the content:
 {summaries_text}
@@ -255,8 +213,14 @@ Current summaries - use the information in these to generate the content:
         response = await get_completion(prompt)
         
         # Save script content
+        script_path = Path(state["deck_info"]["path"]) / "ai" / "processed_summaries.md"
+        script_path.parent.mkdir(parents=True, exist_ok=True)
+        
         with open(script_path, "w") as f:
             f.write(response)
+            
+        # Set processed summaries in state
+        state["processed_summaries"] = response
             
         return state
         

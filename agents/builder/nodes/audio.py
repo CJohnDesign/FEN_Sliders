@@ -8,11 +8,20 @@ async def setup_audio(state: BuilderState) -> BuilderState:
         if state.get("error_context"):
             return state
             
+        # Check for processed summaries
+        if not state.get("processed_summaries"):
+            state["error_context"] = {
+                "error": "No processed summaries available",
+                "stage": "audio_setup"
+            }
+            return state
+            
         # Set up audio script and config
         success = await audio_utils.setup_audio(
             state["metadata"].deck_id,
             state["metadata"].template,
-            state["slides"]
+            [],  # Empty slides list since we're using processed summaries
+            state["processed_summaries"]
         )
         
         if not success:
@@ -25,7 +34,7 @@ async def setup_audio(state: BuilderState) -> BuilderState:
         state["audio_config"] = {
             "config_path": f"decks/{state['metadata'].deck_id}/audio/audio_config.json",
             "script_path": f"decks/{state['metadata'].deck_id}/audio/audio_script.md",
-            "slide_count": len(state["slides"])
+            "slide_count": len(state.get("slides", []))
         }
         
         return state

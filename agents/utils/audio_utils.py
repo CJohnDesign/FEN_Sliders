@@ -23,11 +23,16 @@ def load_template_examples(template: str) -> Dict[str, Any]:
     if audio_script_path.exists():
         with open(audio_script_path) as f:
             examples["audio_script"] = f.read()
+
+    slides_path = template_path / "slides.md"
+    if slides_path.exists():
+        with open(slides_path) as f:
+            examples["slides"] = f.read()
             
     return examples
 
-def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[str, Any]) -> str:
-    """Generate audio script from slides using LLM"""
+def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[str, Any], processed_summaries: str) -> str:
+    """Generate audio script from processed summaries using LLM"""
     # Create the prompt for the LLM
     prompt = f"""
     Based on this template example - notice the format of the headline separator, ie "---- Cover ----". maintain that perfectly:
@@ -35,25 +40,27 @@ def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[
     {template_examples.get("audio_script", "")}
     ```
     
-    Please generate a natural, conversational audio script for these slides. The script should:
+    Please generate a natural, conversational audio script based on these processed summaries. The script should:
     1. Use a warm, professional tone
     2. Spell out numbers (e.g., "one hundred" instead of "100")
     3. Define insurance-specific terms when first used (e.g., explaining what Fixed Indemnity means)
     4. Flow naturally between points without bullet points
     5. Keep common terms like MRI, CT, US, etc. as is
     6. Never start a paragraph with "This slide". use a natural on-topic transition instead.
+    7. Follow the exact section structure from the processed summaries
+    8. Maintain a clear narrative flow between sections
     
-    PLAN SUMMARY:
-    ```json
-    {json.dumps([slide.get("summary", {}) for slide in slides], indent=2)}
+    PROCESSED SUMMARIES:
+    ```markdown
+    {processed_summaries}
     ```
 
     SLIDE CONTENT TEMPLATE:
-    ```json
-    {json.dumps([slide["content"] for slide in slides], indent=2)}
+    ```markdown
+    {template_examples.get("slides", "")}
     ```
 
-    Now in the format of the initial template and the slide content template + plan summary, generate a natural, conversational audio script for each slide.
+    Now in the format of the initial template, generate a natural, conversational audio script that follows the structure and content of the processed summaries. Use "----" section separators as shown in the template.
     """
     
     # Initialize LLM
@@ -61,7 +68,7 @@ def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[
     
     # Create messages
     messages = [
-        SystemMessage(content="You are an expert at creating natural, conversational audio scripts from presentation slides."),
+        SystemMessage(content="You are an expert at creating natural, conversational audio scripts from presentation content. You excel at maintaining document structure while making the content flow naturally."),
         HumanMessage(content=prompt)
     ]
     
@@ -115,7 +122,7 @@ def generate_audio_config(slides: List[Dict[str, Any]], template_examples: Dict[
         ]
     }
 
-async def setup_audio(deck_id: str, template: str, slides: List[Dict[str, Any]]) -> bool:
+async def setup_audio(deck_id: str, template: str, slides: List[Dict[str, Any]], processed_summaries: str) -> bool:
     """Set up audio script and configuration"""
     try:
         # Get deck path
@@ -125,8 +132,8 @@ async def setup_audio(deck_id: str, template: str, slides: List[Dict[str, Any]])
         # Load template examples
         template_examples = load_template_examples(template)
         
-        # Generate audio script
-        script = generate_audio_script(slides, template_examples)
+        # Generate audio script using processed summaries
+        script = generate_audio_script(slides, template_examples, processed_summaries)
         
         # Write audio script
         script_path = deck_path / "audio" / "audio_script.md"
