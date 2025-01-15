@@ -3,11 +3,19 @@ import asyncio
 import logging
 from pathlib import Path
 import json
+import os
 
 from .graph import builder_graph
 from .state import BuilderState, DeckMetadata
 
-logging.basicConfig(level=logging.INFO)
+# Set up LangSmith project
+os.environ["LANGCHAIN_PROJECT"] = "fen-deck-builder"
+
+logging.basicConfig(
+    filename='builder.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 async def main():
     parser = argparse.ArgumentParser(description='Run the deck builder')

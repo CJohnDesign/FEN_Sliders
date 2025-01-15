@@ -1,53 +1,59 @@
-# Audio Script
-
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Group Hospital Fixed Indemnity and Group Accident Insurance Plans for NCE Members. We'll walk through the key features and benefits of these plans, designed exclusively for NCE members. Let's get started!
+Hello, everyone! Thank you for joining today's session on Premier Insurance. We'll walk through the plan's benefits and details. Let's get started!
 
----- Introduction ----
+---- Premier Overview ----
 
-This is an exclusive offer for NCE members, with the plans underwritten by United States Fire Insurance Company. These supplemental insurance products are intended to provide additional financial protection in case of hospitalization or accidental injury.
+Premier Insurance is introduced through the National Congress of Employers, or NCE, which provides membership benefits to support small and medium-sized businesses. This plan includes a basic coverage framework with fixed indemnity and group accident insurance plans, underwritten by the United States Fire Insurance Company.
 
----- Core Plan Elements ----
+---- Key Features and Benefits ----
 
-The Group Hospital Fixed Indemnity plan offers a range of benefits. Firstly, it covers hospital admission expenses. Additionally, it provides daily benefits for inpatient services such as intensive care, coronary care, and surgery. The plan also covers outpatient services like surgery, diagnostic radiology, x-rays, and laboratory tests. Furthermore, it includes coverage for physician office visits.
+One of the key features of Premier Insurance includes telehealth services, allowing you to consult with healthcare professionals from the comfort of your home. Preventive care and wellness programs are also available to help maintain your health. Additionally, you have access to advocacy and support services, as well as medical bill management, to assist with any billing concerns. All these services are part of the membership benefits through NCE.
 
-The Group Accident plan complements the hospital indemnity coverage. It offers accidental death coverage, benefits for hospital admission due to an accident, and compensation for emergency room visits related to accidental injuries.
+---- Plans 100 Plan and 200A Plan (One of Two) ----
 
----- Plan Tiers and Features ----
+The 100 Plan and 200A Plan offer daily hospital confinement benefits, providing a daily amount for up to three hundred sixty-five days. For emergency room visits, there's a benefit per visit, up to ten visits. Surgeries and diagnostic tests are covered with a per-procedure benefit, and anesthesia is included with a maximum benefit limit. Accidental death coverage is also provided, along with hospital admission benefits.
 
-The Group Hospital Fixed Indemnity plan is available in eight different tiers, ranging from the one hundred plan to the one thousand plus plan. While the benefit amounts vary across these tiers, they share common features. These include daily hospital confinement benefits, compensation for emergency room visits, coverage for surgeries and anesthesia, and benefits for diagnostic tests and imaging procedures.
+---- Plans 100 Plan and 200A Plan (Two of Two) ----
 
----- Important Reminders ----
+These plans continue to offer coverage for anesthesia with specific benefits per procedure, and a total maximum benefit. Accidental death coverage offers a significant amount, and hospital admission benefits are provided per admission.
 
-It's important to note that these plans have specific benefit conditions. Coverage is provided for medically necessary treatments related to specified diseases or injuries. Additionally, there are criteria for hospital confinement to qualify for benefits.
+---- Plans 200+ Plan and 300 Plan (One of Two) ----
 
-Like most insurance products, these plans have certain exclusions and limitations. For the Group Hospital Fixed Indemnity plan, exclusions include active military service, self-inflicted harm, illegal activities, experimental treatments, mental illness and substance abuse, normal pregnancy, and cosmetic surgery. The Group Accident plan excludes self-inflicted injuries, acts of war, participation in certain sports, felony-related injuries, and driving under the influence.
+The 200+ Plan and 300 Plan enhance the benefits offered. Daily hospital confinement benefits increase, along with the amount per emergency room visit. Surgeries and diagnostics see a higher per-procedure benefit, ensuring more comprehensive coverage.
 
-Furthermore, there is a twelve-month limitation for hospital, surgery, and anesthesia benefits related to pre-existing conditions.
+---- Plans 200+ Plan and 300 Plan (Two of Two) ----
 
----- NCE Association Membership Benefits ----
+Anesthesia benefits increase with these plans, and the accidental death coverage amount is higher. Hospital admission benefits also see an increase per admission.
 
-As an NCE member, you have access to additional benefits. The GapAfford Plus Program provides discounts on medical services and access to the First Health Network of providers. You also receive discounts on prescriptions, telemedicine access, pet and hearing care, medical supplies, laboratory services, and dental plans.
+---- Plans 500 Plan and 750 Plan (One of Two) ----
 
----- Cost Management Tools ----
+The 500 Plan and 750 Plan further increase the daily hospital confinement benefits and emergency room visit amounts. Surgeries and diagnostics are covered with an even higher per-procedure benefit.
 
-These plans offer cost management tools to help you save money. Firstly, you can take advantage of provider discounts through the First Health Network. Additionally, a pharmacy discount card can help reduce your prescription costs.
+---- Plans 500 Plan and 750 Plan (Two of Two) ----
 
-One of the key advantages is the no-wait access feature. There are no waiting periods for most services, and no pre-existing condition limitations for basic services.
+Anesthesia benefits continue to rise, with a substantial maximum benefit. Accidental death coverage is significantly increased, alongside generous hospital admission benefits.
 
----- Administrative Details ----
+---- Plans 1000 Plan and 1000+ Plan (One of Two) ----
 
-It's important to understand the policy termination conditions. The policy will automatically terminate in certain situations, such as non-payment of premiums or loss of NCE membership. Additionally, there are specific criteria for termination of coverage for insured persons and dependents.
+With the 1000 Plan and 1000+ Plan, outpatient surgery benefits are offered with a high per-procedure amount and a maximum benefit. Physician office visits are included with a specified number of visits per year, and diagnostic radiology procedures are covered with a per-procedure benefit.
 
-As a member, you will receive ID cards with instructions and contact information for any questions or assistance you may need.
+---- Plans 1000 Plan and 1000+ Plan (Two of Two) ----
+
+These plans provide coverage for imaging and lab tests per test, with a maximum number of tests per year. Additional coverage includes extended benefits, while enhanced wellness benefits offer annual checkups.
+
+---- Comparing the Plans ----
+
+When comparing the plans, each offers variations in daily hospital benefits, emergency room visit amounts, surgery, and anesthesia benefits. Accidental death coverage also varies across the 100, 200A, and 300 plans, allowing you to select the level of coverage that best suits your needs.
+
+---- Definitions and Limitations ----
+
+It's important to be aware of the exclusions in the group hospital fixed indemnity and accident benefits, which include self-inflicted injuries, illegal acts, and specific medical conditions. Insurance termination conditions include policy expiration, non-payment of premiums, and changes in eligibility, such as membership changes.
 
 ---- Key Takeaways and Reminders ----
 
-Remember, these plans are not comprehensive medical insurance. They are designed to supplement your existing coverage and provide additional financial protection in case of hospitalization or accidental injury.
-
-It's important to note that availability and regulations may vary by state. Always consult the full policy details for a complete understanding of the coverage, exclusions, and limitations.
+As we wrap up, remember the coverage variations and specific conditions included in each plan. It's crucial to note that these insurance options provide limited benefits and are not substitutes for comprehensive medical coverage. However, membership benefits extend beyond insurance, offering access to discounted services and resources nationwide.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the Group Hospital Fixed Indemnity and Group Accident Insurance Plans for NCE Members. These supplemental plans can provide valuable financial support during unexpected medical events. Continue to be proactive in managing your healthcare needs and expenses.
+Thank you for taking the time to learn about Premier Insurance. Continue to be great!

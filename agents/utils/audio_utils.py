@@ -1,9 +1,7 @@
 from pathlib import Path
 from typing import List, Dict, Any
 import json
-from langchain_anthropic import ChatAnthropic
-from langchain.prompts import ChatPromptTemplate
-from langchain.schema.messages import HumanMessage, SystemMessage
+from openai import AsyncOpenAI
 
 def load_template_examples(template: str) -> Dict[str, Any]:
     """Load template files to use as examples"""
@@ -31,58 +29,79 @@ def load_template_examples(template: str) -> Dict[str, Any]:
             
     return examples
 
-def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[str, Any], processed_summaries: str) -> str:
-    """Generate audio script from processed summaries using LLM"""
-    # Create the prompt for the LLM
-    prompt = f"""
-    Based on this template example - notice the format of the headline separator, ie "---- Cover ----". maintain that perfectly:
-    ```template
-    {template_examples.get("audio_script", "")}
-    ```
+async def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[str, Any], processed_summaries: str) -> str:
+    """Generate audio script from processed summaries using GPT-4o"""
+    # Get the generated slides content
+    base_dir = Path(__file__).parent.parent.parent
+    slides_path = base_dir / "decks" / "FEN_US" / "slides.md"
+    with open(slides_path) as f:
+        generated_slides = f.read()
     
-    Please generate a natural, conversational audio script based on these processed summaries. The script should:
-    1. Use a warm, professional tone
-    2. Spell out numbers (e.g., "one hundred" instead of "100")
-    3. Define insurance-specific terms when first used (e.g., explaining what Fixed Indemnity means)
-    4. Flow naturally between points without bullet points
-    5. Keep common terms like MRI, CT, US, etc. as is
-    6. Never start a paragraph with "This slide". use a natural on-topic transition instead.
-    7. Follow the exact section structure from the processed summaries
-    8. Maintain a clear narrative flow between sections
+    # Clean up markdown formatting from inputs
+    processed_summaries = processed_summaries.replace("```markdown", "").replace("```", "").strip()
+    generated_slides = generated_slides.replace("```markdown", "").replace("```", "").strip()
+    template_script = template_examples.get("audio_script", "").replace("```markdown", "").replace("```", "").strip()
     
-    PROCESSED SUMMARIES:
-    ```markdown
-    {processed_summaries}
-    ```
-
-    SLIDE CONTENT TEMPLATE:
-    ```markdown
-    {template_examples.get("slides", "")}
-    ```
-
-    Now in the format of the initial template, generate a natural, conversational audio script that follows the structure and content of the processed summaries. Use "----" section separators as shown in the template.
-    """
-    
-    # Initialize LLM
-    llm = ChatAnthropic(model="claude-3-sonnet-20240229", temperature=0.7)
-    
-    # Create messages
+    # Create messages for the LLM
     messages = [
-        SystemMessage(content="You are an expert at creating natural, conversational audio scripts from presentation content. You excel at maintaining document structure while making the content flow naturally."),
-        HumanMessage(content=prompt)
+        {
+            "role": "system",
+            "content": """You are an expert at creating natural, conversational audio scripts from presentation content. 
+            You excel at maintaining document structure while making the content flow naturally.
+            IMPORTANT: 
+            1. Only use the content provided in the processed summaries. Do not make up or add information not present in the source material.
+            2. Do not include any markdown formatting, backticks, or other special characters in your response.
+            3. Only use plain text with section separators in the format: ---- Section Name ----"""
+        },
+        {
+            "role": "user",
+            "content": f"""
+            Based on this template example - notice the format of the headline separator, ie "---- Cover ----". maintain that perfectly:
+
+            {template_script}
+            
+            Please generate a natural, conversational audio script based on these processed summaries. The script should:
+            1. Use a warm, professional tone
+            2. Spell out numbers (e.g., "one hundred" instead of "100")
+            3. Define insurance-specific terms when first used (e.g., explaining what Fixed Indemnity means)
+            4. Flow naturally between points without bullet points
+            5. Keep common terms like MRI, CT, US, etc. as is
+            6. Never start a paragraph with "This slide". use a natural on-topic transition instead.
+            7. Follow the EXACT section structure from the processed summaries - do not deviate or add sections
+            8. Maintain a clear narrative flow between sections
+            9. ONLY use information present in the processed summaries
+            10. Do not mention anything about "MyChoice Plans" or other content not in the source material
+            
+            Here are the processed summaries to use as your ONLY source of content:
+
+            {processed_summaries}
+
+            Here are the generated slides to match the audio script to:
+
+            {generated_slides}
+
+            Now in the format of the initial template, generate a natural, conversational audio script that follows the structure and content of the processed summaries EXACTLY, while matching the flow of the generated slides. Use "----" section separators as shown in the template.
+            """
+        }
     ]
     
-    # Get response from LLM
-    response = llm.invoke(messages)
+    # Initialize OpenAI client
+    client = AsyncOpenAI()
     
-    # Extract script from response
-    script = response.content
+    # Get response from GPT-4
+    response = await client.chat.completions.create(
+        model="gpt-4o",
+        messages=messages,
+        temperature=0.7
+    )
     
-    # Ensure script starts with "# Audio Script"
-    if not script.startswith("# Audio Script"):
-        script = "# Audio Script\n\n" + script
-        
-    return script
+    # Extract script from response and clean up formatting
+    script = response.choices[0].message.content.strip()
+    script = script.replace("```markdown", "").replace("```", "").strip()
+    script = script.replace("**", "").replace("*", "").replace("#", "").strip()
+    script = script.replace("Audio Script", "").strip()
+    
+    return script.strip()
 
 def generate_audio_config(slides: List[Dict[str, Any]], template_examples: Dict[str, Any]) -> Dict[str, Any]:
     """Generate audio configuration from slides"""
@@ -133,7 +152,7 @@ async def setup_audio(deck_id: str, template: str, slides: List[Dict[str, Any]],
         template_examples = load_template_examples(template)
         
         # Generate audio script using processed summaries
-        script = generate_audio_script(slides, template_examples, processed_summaries)
+        script = await generate_audio_script(slides, template_examples, processed_summaries)
         
         # Write audio script
         script_path = deck_path / "audio" / "audio_script.md"

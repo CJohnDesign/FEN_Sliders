@@ -40,6 +40,14 @@ async def create_structure(deck_id: str, template: str = "FEN_TEMPLATE") -> Dict
                 # Create parent directory if needed
                 dst.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(src, dst)
+                
+        # Copy PDF file from template if it exists
+        template_pdf_dir = template_path / "img" / "pdfs"
+        deck_pdf_dir = deck_path / "img" / "pdfs"
+        pdf_files = list(template_pdf_dir.glob("*.pdf"))
+        if pdf_files:
+            # Copy the first PDF file found
+            shutil.copy2(pdf_files[0], deck_pdf_dir / pdf_files[0].name)
             
         return {
             "status": "success",

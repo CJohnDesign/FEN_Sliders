@@ -29,7 +29,11 @@
     "create-deck": "node scripts/create-deck.js",
     "build:mc": "slidev build decks/FEN_MC/slides.md --base /mc/",
     "preview:mc": "slidev decks/FEN_MC/slides.md --remote",
-    "pdf-to-jpg": "node scripts/pdf-to-jpg.js"
+    "pdf-to-jpg": "node scripts/pdf-to-jpg.js",
+    "build:FEN_US": "slidev build decks/FEN_US/slides.md --out dist/FEN_US",
+    "dev:FEN_US": "slidev decks/FEN_US/slides.md",
+    "export:FEN_US": "slidev export decks/FEN_US/slides.md --output exports/FEN_US.pdf",
+    "preview:FEN_US": "slidev decks/FEN_US/slides.md --remote"
   },
   "dependencies": {
     "@slidev/client": "^0.50.0-beta.7",

@@ -1,112 +1,54 @@
-Here's a markdown outline that organizes the content in an educational format, focusing on the requested elements:
+```markdown
+# Premier Insurance Overview for NCE Members
 
-# Group Hospital Fixed Indemnity and Group Accident Insurance Plans for NCE Members
+## 1. Core Plan Elements
+- **Introduction & Overview**
+  - Plan purpose and scope
+    - Introduction to Premier's Group Hospital Fixed Indemnity and Group Accident Insurance, exclusively for NCE members.
+  - Association membership (BWA, NCE, etc.)
+    - Membership benefits of the National Congress of Employers (NCE), supporting small and medium-sized businesses.
+  - Basic coverage framework
+    - Overview of fixed indemnity and group accident insurance plans underwritten by the United States Fire Insurance Company.
 
-## I. Introduction
-- Exclusive offer for NCE members
-- Underwritten by United States Fire Insurance Company
+## 2. Common Service Features
+- **Telehealth Services**
+- **Preventive Care & Wellness**
+- **Advocacy & Support**
+- **Medical Bill Management**
 
-## II. Core Plan Elements
+## 3. Plan Tiers (each plan has 2 tiers)
 
-### A. Group Hospital Fixed Indemnity Benefits
-1. Hospital Admission
-2. Daily Inpatient Services
-   - Intensive care
-   - Coronary care
-   - Surgery
-3. Outpatient Services
-   - Surgery
-   - Diagnostic radiology and x-ray
-   - Laboratory tests
-4. Physician Office Visits
+### Plans 100 Plan and 200A Plan (1/2)
+- Benefits details list
+  - Daily hospital confinement
+  - Emergency room visits
+  - Surgeries and diagnostic tests
+  - Anesthesia
+  - Accidental death coverage
+  - Hospital admission benefits
 
-### B. Group Accident Benefits
-1. Accidental Death Coverage
-2. Hospital Admission
-3. Emergency Room Visits
+### Plans 200+ Plan and 300 Plan (2/2)
+- Benefits details list
+  - Continuation of the benefits outlined above with varying coverage amounts.
 
-## III. Plan Tiers and Features
+### Plans 500 Plan and 750 Plan (1/2)
+- Benefits details list
+  - Details on hospital-related benefits under a fixed indemnity policy.
 
-### A. Hospital Fixed Indemnity Plan Tiers
-- 100 Plan
-- 200A Plan
-- 200+ Plan
-- 300 Plan
-- 500 Plan
-- 750 Plan
-- 1000 Plan
-- 1000+ Plan
+### Plans 1000 Plan and 1000+ Plan (2/2)
+- Benefits details list
+  - Additional coverage for outpatient surgery, physician office visits, diagnostic radiology, imaging, and laboratory tests.
 
-### B. Common Features Across Plans
-- Daily hospital confinement benefits
-- Emergency room visit compensation
-- Surgery and anesthesia coverage
-- Diagnostic tests and imaging
+## 4. Limitations & Definitions
+- **Required Disclosures**
+  - Exclusions for group hospital fixed indemnity and accident benefits, including self-inflicted injuries, illegal acts, and specific medical conditions.
+  - Termination conditions for insurance coverage including policy expiration, non-payment of premiums, and changes in eligibility.
 
-## IV. Important Reminders
-
-### A. Benefit Conditions
-- Medical necessity requirement
-- Coverage for specified diseases or injuries
-- Hospital confinement criteria
-
-### B. Exclusions and Limitations
-1. Group Hospital Fixed Indemnity Exclusions
-   - Active military service
-   - Self-inflicted harm
-   - Illegal activities
-   - Experimental treatments
-   - Mental illness and substance abuse
-   - Normal pregnancy
-   - Cosmetic surgery
-
-2. Group Accident Benefit Exclusions
-   - Self-inflicted injuries
-   - Acts of war
-   - Participation in certain sports
-   - Felony-related injuries
-   - Driving under influence
-
-### C. Pre-existing Conditions
-- 12-month limitation for hospital, surgery, and anesthesia benefits
-
-## V. NCE Association Membership Benefits
-
-### A. GapAfford Plus Program
-- Medical service discounts
-- First Health Network access
-
-### B. Additional Services
-- Prescription discounts
-- Telemedicine access
-- Pet and hearing care
-- Medical supplies
-- Laboratory services
-- Dental plans
-
-## VI. Cost Management Tools
-
-### A. Discount Programs
-- First Health Network provider discounts
-- Pharmacy discount card
-
-### B. No-Wait Access
-- No waiting periods for most services
-- No pre-existing condition limitations for basic services
-
-## VII. Administrative Details
-
-### A. Policy Termination
-- Automatic termination conditions
-- Insured person's termination criteria
-- Dependent's coverage termination
-
-### B. Member Resources
-- ID cards with instructions
-- Contact information
-
-## VIII. Key Takeaways
-- Not comprehensive medical insurance
-- Supplements existing coverage
-- State-specific availability and regulations
-- Consult full policy details for complete understanding
+## 5. Key Takeaways
+- Plan comparison highlights
+  - Variations in coverage amounts and benefits among different plans.
+  - Specific conditions and exclusions applicable to each plan.
+- Important reminders
+  - Insurance provides limited benefits and is not a substitute for comprehensive medical coverage.
+  - Membership benefits extend beyond insurance, offering access to discounted services and resources nationwide.
+```

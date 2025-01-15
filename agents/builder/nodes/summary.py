@@ -2,15 +2,12 @@ import asyncio
 import json
 import base64
 import logging
-import signal
 from pathlib import Path
-from langchain_core.messages import AIMessage
 from ...utils import llm_utils
 from ..state import BuilderState
-from ...utils.llm_utils import get_completion
-from typing import Dict, Any
+from langchain_openai import ChatOpenAI
+from langchain_core.messages import HumanMessage, SystemMessage
 
-# Set up logging
 logging.basicConfig(
     filename='builder.log',
     level=logging.INFO,
@@ -21,7 +18,6 @@ def encode_image(image_path):
     """Convert an image file to base64 encoding"""
     try:
         with open(image_path, "rb") as image_file:
-            # Don't log or print the base64 data
             return base64.b64encode(image_file.read()).decode('utf-8')
     except Exception as e:
         logging.error(f"Error encoding image {image_path}: {str(e)}")
@@ -40,11 +36,15 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
             }
             return state
             
-        # Get vision-capable LLM
-        llm = llm_utils.get_llm(vision=True)
-        
-        # Initialize summaries dict
-        state["page_summaries"] = {}
+        # Initialize LangChain chat model for proper tracing
+        model = ChatOpenAI(
+            model="gpt-4o",
+            max_tokens=1024,
+            temperature=0.7,
+            streaming=False,
+            tags=["image_analysis", "summary_generation"],
+            model_kwargs={"response_format": {"type": "json_object"}}
+        )
         
         # Create ai directory if it doesn't exist
         ai_dir = Path(state["deck_info"]["path"]) / "ai"
@@ -70,47 +70,42 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
                     page_num = int(img_path.stem.split('_')[1])
                     logging.info(f"Processing page {page_num}")
                     
-                    # Encode image to base64 without printing
                     try:
                         base64_image = encode_image(img_path)
                     except Exception as e:
                         logging.error(f"Failed to encode image for page {page_num}: {str(e)}")
                         continue
-                    
+                        
                     for retry in range(max_retries):
                         try:
                             messages = [
-                                {
-                                    "role": "system",
-                                    "content": """You are an expert presentation analyst.
-                                    Your task is to analyze a presentation slide and provide:
-                                    1. A concise title that captures the main topic
-                                    2. A detailed summary of the content
-                                    3. A boolean `hasTable` indicating if the slide contains a table. return true if it does, false otherwise.
-
-                                    Return `title`, `summary`, and `hasTable` in a JSON object.
-                                    """
-                                },
-                                {
-                                    "role": "user",
-                                    "content": [
-                                        {
-                                            "type": "text",
-                                            "text": f"This is slide {page_num} of {state['pdf_info']['page_count']}. Please analyze it and provide a `title`, `summary`, and `hasTable` in JSON format."
-                                        },
-                                        {
-                                            "type": "image_url",
-                                            "image_url": f"data:image/jpeg;base64,{base64_image}"
+                                SystemMessage(content="""You are an expert presentation analyst.
+                                Your task is to analyze presentation content and provide:
+                                1. A clear, descriptive title for the content
+                                2. A detailed summary of the content
+                                3. Whether the content contains any tables or tabular data
+                                
+                                Return as a JSON object with `title`, `summary`, and `hasTable` fields.
+                                The `hasTable` field should be a boolean indicating if the content contains any tables."""),
+                                HumanMessage(content=[
+                                    {
+                                        "type": "text",
+                                        "text": f"This is page {page_num} of {state['pdf_info']['page_count']}. Please analyze it and provide a title, summary, and whether it contains tables in JSON format."
+                                    },
+                                    {
+                                        "type": "image_url",
+                                        "image_url": {
+                                            "url": f"data:image/jpeg;base64,{base64_image}",
+                                            "detail": "high"
                                         }
-                                    ]
-                                }
+                                    }
+                                ])
                             ]
                             
-                            response = await llm(messages)
+                            response = await model.ainvoke(messages)
                             
                             try:
-                                # The response is already a dictionary with 'role' and 'content'
-                                content = response.get('content', {})
+                                content = json.loads(response.content)
                                 if not isinstance(content, dict):
                                     raise ValueError("Expected content to be a dictionary")
                                     
@@ -122,13 +117,14 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
                                 })
                                 logging.info(f"Successfully processed page {page_num}")
                                 break
-                            except (json.JSONDecodeError, AttributeError) as e:
+                            except json.JSONDecodeError as e:
                                 if retry == max_retries - 1:
                                     logging.error(f"Failed to parse JSON for page {page_num}: {str(e)}")
                                     summaries.append({
                                         "page": page_num,
                                         "title": "Error: Could not parse response",
-                                        "summary": "Error processing page"
+                                        "summary": "Error processing page",
+                                        "hasTable": False
                                     })
                                     
                         except Exception as e:
@@ -144,7 +140,8 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
                                 summaries.append({
                                     "page": page_num,
                                     "title": "Error",
-                                    "summary": f"Failed to generate summary: {error_msg}"
+                                    "summary": f"Failed to generate summary: {error_msg}",
+                                    "hasTable": False
                                 })
                                 break
                 
@@ -157,7 +154,7 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
                 logging.info(f"Saving {len(summaries)} summaries processed so far...")
             else:
                 raise
-            
+                
         # Save summaries to file
         if summaries:
             summaries_file = ai_dir / "summaries.json"
@@ -179,55 +176,98 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
 async def process_summaries(state: BuilderState) -> BuilderState:
     """Processes summaries to generate markdown content"""
     try:
-        # Skip if there was an error in previous steps
         if state.get("error_context"):
             return state
             
-        # Check for summaries
         if not state.get("page_summaries"):
             state["error_context"] = {
                 "step": "process_summaries",
-                "error": "No page summaries available",
-                "details": "Cannot process summaries without page summaries"
+                "error": "No page summaries available"
             }
             return state
             
         # Convert summaries to text
         summaries_text = json.dumps(state["page_summaries"], indent=2)
         
-        # Create prompt
-        prompt = f"""
-You are an expert at organizing and structuring content for presentations. Please generate a markdown outline that organizes the following content in an educational format.
-
-Focus on:
-- Core plan elements and important reminders
-- Common service features and benefits
-- Cost management tools and plan tiers
-- Administrative details and key takeaways
-
-Current summaries - use the information in these to generate the content:
-{summaries_text}
-"""
+        # Initialize LangChain chat model for proper tracing
+        model = ChatOpenAI(
+            model="gpt-4o",
+            temperature=0.7,
+            streaming=False,
+            tags=["summary_processing", "markdown_generation"]
+        )
         
-        # Generate script content
-        response = await get_completion(prompt)
+        # Extract CSV data from summaries
+        csv_data = None
+        for summary in state["page_summaries"]:
+            if summary.get("hasTable") and summary.get("csv"):
+                # CSV is already clean, use it directly
+                csv_data = summary["csv"]
+                break
         
-        # Save script content
+        # Create system prompt with CSV data if available
+        system_content = """You are an expert at organizing and structuring content for presentations. Your task is to generate a markdown outline that organizes content in an educational format.
+
+The outline should:
+## 1. Core Plan Elements
+- **Introduction & Overview**
+  - Plan purpose and scope
+  - Association membership (BWA, NCE, etc.)
+  - Basic coverage framework
+
+## 2. Common Service Features
+- **Telehealth Services**
+- **Preventive Care & Wellness**
+- **Advocacy & Support**
+- **Medical Bill Management**
+
+## 3. Plan Tiers (each plan has 2 tiers)
+
+<!-- Return sets of two for each plan -->
+
+### Plans 1 (1/2)
+- Benefits details list
+
+### Plans 1 (2/2)
+- Benefits details list"""
+
+        # Add CSV data if available
+        if csv_data:
+            system_content += f"\n\nHere is the CSV data of benefits:\n{csv_data}\n\n"
+
+        system_content += """
+## 4. Limitations & Definitions
+- **Required Disclosures**
+
+## 5. Key Takeaways
+- Plan comparison highlights
+- Important reminders"""
+        
+        # Create messages array
+        messages = [
+            SystemMessage(content=system_content),
+            HumanMessage(content=f"Please organize the following summaries into a structured markdown outline:\n\n{summaries_text}")
+        ]
+        
+        # Generate content
+        response = await model.ainvoke(messages)
+        content = response.content
+        
+        # Save content
         script_path = Path(state["deck_info"]["path"]) / "ai" / "processed_summaries.md"
         script_path.parent.mkdir(parents=True, exist_ok=True)
         
         with open(script_path, "w") as f:
-            f.write(response)
+            f.write(content)
             
         # Set processed summaries in state
-        state["processed_summaries"] = response
+        state["processed_summaries"] = content
             
         return state
         
     except Exception as e:
         state["error_context"] = {
             "step": "process_summaries",
-            "error": str(e),
-            "details": "Failed to process summaries"
+            "error": str(e)
         }
         return state 
