@@ -10,24 +10,82 @@ if (!OPENAI_API_KEY) {
   throw new Error('Missing OPENAI_API_KEY in environment variables. Please check your .env file.');
 }
 
-async function generateAudioWithTimestamps() {
+async function findMdFile(deckKey) {
+  const possiblePaths = [
+    path.join(process.cwd(), `decks/${deckKey}/audio/${deckKey}.md`),
+    path.join(process.cwd(), `decks/${deckKey}/audio/audio_script.md`),
+    // Add more potential paths if needed
+  ];
+
+  for (const filePath of possiblePaths) {
+    try {
+      await fs.access(filePath);
+      return filePath;
+    } catch (error) {
+      continue;
+    }
+  }
+
+  throw new Error(`Could not find markdown file for deck ${deckKey}. Searched in:\n${possiblePaths.join('\n')}`);
+}
+
+async function parseMdFile(filePath) {
+  const content = await fs.readFile(filePath, 'utf-8');
+  const sections = [];
+  
+  // Split content by the single line delimiter pattern: ---- Text ----
+  const sectionRegex = /^----\s*(.*?)\s*----$/gm;
+  const parts = content.split(sectionRegex);
+  
+  // Remove first element if it's empty (content before first delimiter)
+  if (parts[0].trim() === '') {
+    parts.shift();
+  }
+  
+  // Process parts in pairs (title and content)
+  for (let i = 0; i < parts.length; i += 2) {
+    const title = parts[i];
+    const text = parts[i + 1]?.trim();
+    
+    if (title && text) {
+      sections.push({
+        title: title,
+        text: text,
+        slideNumber: (i / 2) + 1
+      });
+    }
+  }
+  
+  return sections;
+}
+
+async function generateAudio(deckKey, specificSlide = null) {
   try {
-    // Initialize API endpoint
     const baseUrl = 'https://api.openai.com/v1/audio/speech';
     
-    // Read the text file
-    const textContent = await fs.readFile(
-      path.join(process.cwd(), 'decks/FEN_MF1/audio/FEN_MF1.txt'),
-      'utf-8'
-    );
+    // Find the markdown file
+    const mdFilePath = await findMdFile(deckKey);
+    console.log(`Found script at: ${mdFilePath}`);
+    
+    const sections = await parseMdFile(mdFilePath);
 
-    // Split the text into lines and filter empty lines
-    const lines = textContent.split('\n').filter(line => line.trim());
+    // Create the output directory if it doesn't exist
+    const outputDir = path.join(process.cwd(), `decks/${deckKey}/audio/oai`);
+    await fs.mkdir(outputDir, { recursive: true });
 
-    let currentTimestamp = 0;
+    // Filter sections if specificSlide is provided
+    const sectionsToProcess = specificSlide 
+      ? sections.filter(section => section.slideNumber === specificSlide)
+      : sections;
 
-    // Process each line
-    for (const [index, line] of lines.entries()) {
+    if (specificSlide && sectionsToProcess.length === 0) {
+      throw new Error(`No slide found with number ${specificSlide}`);
+    }
+
+    // Process each section in order
+    for (const section of sectionsToProcess) {
+      if (!section.text) continue; // Skip empty sections
+
       const response = await fetch(baseUrl, {
         method: 'POST',
         headers: {
@@ -35,9 +93,9 @@ async function generateAudioWithTimestamps() {
           'Authorization': `Bearer ${OPENAI_API_KEY}`,
         },
         body: JSON.stringify({
-          model: 'tts-1',  // or 'tts-1-hd' for higher quality
-          input: line,
-          voice: 'nova',  // Options: 'alloy', 'echo', 'fable', 'onyx', 'nova', 'shimmer'
+          model: 'tts-1',
+          input: section.text,
+          voice: 'nova',
           response_format: 'mp3'
         })
       });
@@ -49,29 +107,14 @@ async function generateAudioWithTimestamps() {
 
       const audioBuffer = Buffer.from(await response.arrayBuffer());
       
-      // Estimate duration (OpenAI doesn't provide timestamps)
-      // Rough estimate: ~150 words per minute
-      const wordCount = line.split(' ').length;
-      const estimatedDuration = (wordCount / 150) * 60;
-      
-      // Format timestamp for filename
-      const minutes = Math.floor(currentTimestamp / 60);
-      const seconds = Math.floor(currentTimestamp % 60);
-      const timestampStr = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-
-      // Save the audio file with timestamp in filename
-      const outputFileName = `${timestampStr}_audio_${index + 1}.mp3`;
+      // Save the audio file using the slide number: FEN_MF1.mp3, FEN_MF2.mp3, etc.
+      const outputFileName = `${deckKey}${section.slideNumber}`;
       await fs.writeFile(
-        path.join(process.cwd(), 'decks/FEN_MF1/audio', outputFileName),
+        path.join(outputDir, `${outputFileName}.mp3`),
         audioBuffer
       );
 
-      // Generate timestamp entry with estimated duration
-      const timestampEntry = `${timestampStr} - ${line}`;
-      console.log(`Generated audio for timestamp ${timestampStr}: ${line} (Estimated Duration: ${estimatedDuration.toFixed(2)}s)`);
-      
-      // Update the timestamp for the next file
-      currentTimestamp += Math.ceil(estimatedDuration);
+      console.log(`Generated audio file: ${outputFileName}.mp3 for section: ${section.title}`);
     }
 
     console.log('Audio generation completed successfully!');
@@ -80,4 +123,13 @@ async function generateAudioWithTimestamps() {
   }
 }
 
-generateAudioWithTimestamps(); 
+// Update argument handling
+const deckKey = process.argv[2];
+const specificSlide = process.argv[3] ? parseInt(process.argv[3], 10) : null;
+
+if (!deckKey) {
+  console.error('Please provide a deck key as a command line argument.');
+  process.exit(1);
+}
+
+generateAudio(deckKey, specificSlide); 

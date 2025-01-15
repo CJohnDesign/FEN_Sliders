@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEN Presentations</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .presentations {
+            display: grid;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .presentation-link {
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+        }
+        .presentation-link:hover {
+            background: #f5f5f5;
+            transform: translateY(-2px);
+        }
+        h1 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>FEN Presentations</h1>
+    <div class="presentations">
+        <a href="/compare/" class="presentation-link">
+            <h2>FEN Compare</h2>
+            <p>Compare different FEN plans and their features</p>
+        </a>
+        <a href="/mf1/" class="presentation-link">
+            <h2>MedFirst 1</h2>
+            <p>Overview of the MedFirst 1 Plan</p>
+        </a>
+    </div>
+</body>
+</html> 

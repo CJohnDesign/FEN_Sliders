@@ -3,7 +3,7 @@
 /* Define theme variables */
 :root {
   --slidev-theme-primary: #87B1EB;
-  --slidev-theme-accent: #FB7879;
+  --slidev-theme-accent: #20a808;
   --slidev-theme-text: #333333;
   --slidev-theme-text-dark: #ffffff;
   --slidev-theme-background: #F3F6FE;
@@ -67,10 +67,7 @@ a:hover {
   color: var(--slidev-theme-text-dark);
 }
 
-.slidev-layout p {
-  margin-top: 0;
-  margin-bottom: 0.25rem !important;
-}
+
 
 .slidev-layout h1 {
   font-size: 2.5rem;
@@ -97,6 +94,15 @@ a:hover {
 .slidev-layout ul {
   list-style: square;
   margin-bottom: 1.125rem !important;
+  font-size: 0.875em;
+  line-height: 1.4;
+}
+
+.slidev-layout p {
+  margin-top: 0;
+  margin-bottom: 0.25rem !important;
+  font-size: 0.9em;
+  line-height: 1.4;
 }
 
 .fixed.flex.flex-wrap.text-xl.p-2.gap-1.rounded-md.bg-main.shadow.transition-opacity.duration-200.z-20.border.border-main {
