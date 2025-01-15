@@ -62,52 +62,37 @@ async def create_structure(deck_id: str, template: str = "FEN_TEMPLATE") -> Dict
             "error": str(e)
         } 
 
-def load_tables_data(deck_path: Union[str, Path]) -> Dict[str, List[Dict]]:
-    """Load all table data for a deck.
-    
-    Args:
-        deck_path: Path to the deck directory
-        
-    Returns:
-        Dict containing:
-        - manifest: The tables manifest data
-        - tables: List of table data with contents
-    """
-    deck_path = Path(deck_path)
-    tables_dir = deck_path / "ai" / "tables"
-    manifest_path = tables_dir / "manifest.json"
-    
-    if not manifest_path.exists():
-        return {"manifest": None, "tables": []}
-        
+def load_tables_data(deck_dir: Path) -> dict:
+    """Load table data from the deck directory"""
     try:
-        # Load manifest
-        with open(manifest_path) as f:
-            manifest = json.load(f)
+        # Load summaries to check which pages have tables
+        summaries_path = deck_dir / "ai" / "summaries.json"
+        if not summaries_path.exists():
+            return {"tables": []}
             
-        # Load each table's contents
+        with open(summaries_path) as f:
+            summaries = json.load(f)
+            
+        # Get pages that have tables
+        pages_with_tables = [summary["page"] for summary in summaries if summary.get("hasTable", False)]
+        
+        if not pages_with_tables:
+            return {"tables": []}
+            
         tables = []
-        for table_info in manifest["tables"]:
-            table_path = tables_dir / table_info["filename"]
-            if table_path.exists():
-                with open(table_path) as f:
-                    tables.append({
-                        "page": table_info["page"],
-                        "title": table_info["title"],
-                        "filename": table_info["filename"],
-                        "headers": table_info["headers"],
-                        "row_count": table_info["row_count"],
-                        "data": f.read()
-                    })
-                    
-        return {
-            "manifest": manifest,
-            "tables": tables
-        }
+        for page in pages_with_tables:
+            table_data = get_table_by_page(deck_dir, page)
+            if table_data:
+                tables.append({
+                    "page": page,
+                    "data": table_data
+                })
+                
+        return {"tables": tables}
         
     except Exception as e:
         print(f"Error loading tables: {str(e)}")
-        return {"manifest": None, "tables": []}
+        return {"tables": []}
 
 def get_table_by_page(deck_path: Union[str, Path], page_number: int) -> Optional[Dict]:
     """Get table data for a specific page.

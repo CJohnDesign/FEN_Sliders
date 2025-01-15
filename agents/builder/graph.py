@@ -13,6 +13,7 @@ from .nodes import (
 )
 from pathlib import Path
 import json
+import shutil
 
 # Initialize LangSmith
 client = init_langsmith()
@@ -37,22 +38,25 @@ def create_builder_graph():
         if state.get("error_context"):
             return END
             
-        # Check if summaries.json exists
-        deck_dir = state.get("deck_info", {}).get("path")
-        if deck_dir:
-            summaries_path = Path(deck_dir) / "ai" / "summaries.json"
-            if summaries_path.exists():
-                # Load existing summaries into state
-                with open(summaries_path) as f:
-                    state["page_summaries"] = json.load(f)
-                return "process_summaries"
-                
         # Check if PDF exists in the correct directory
+        deck_dir = state.get("deck_info", {}).get("path")
         if deck_dir:
             pdf_dir = Path(deck_dir) / "img" / "pdfs"
             pdf_files = list(pdf_dir.glob("*.pdf"))
             if pdf_files:
+                # Store PDF path in state
+                state["pdf_path"] = str(pdf_files[0])
                 return "process_imgs"
+            else:
+                # Check template directory for PDF
+                template_dir = Path(deck_dir).parent / state["metadata"].template / "img" / "pdfs"
+                template_pdfs = list(template_dir.glob("*.pdf"))
+                if template_pdfs:
+                    # Copy template PDF
+                    pdf_dir.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(template_pdfs[0], pdf_dir / template_pdfs[0].name)
+                    state["pdf_path"] = str(pdf_dir / template_pdfs[0].name)
+                    return "process_imgs"
         
         return "wait_for_pdf"
     
@@ -60,14 +64,41 @@ def create_builder_graph():
     workflow.add_conditional_edges(
         "create_structure",
         should_process_pdf,
-        ["process_imgs", "wait_for_pdf", "process_summaries", END]
+        ["process_imgs", "wait_for_pdf", END]
     )
     
-    # Update other edges
+    # Add conditional edge from extract_tables
+    def should_process_summaries(state: BuilderState):
+        """Determines if we should process summaries"""
+        if state.get("error_context"):
+            return END
+        return "process_summaries"
+    
+    # Update edges for proper flow
     workflow.add_edge("process_imgs", "generate_summaries")
     workflow.add_edge("generate_summaries", "extract_tables")
-    workflow.add_edge("extract_tables", "process_summaries")
-    workflow.add_edge("process_summaries", "process_slides")
+    
+    workflow.add_conditional_edges(
+        "extract_tables",
+        should_process_summaries,
+        ["process_summaries", END]
+    )
+    
+    # Add conditional edge from process_summaries
+    def should_continue_processing(state: BuilderState):
+        """Check if we should continue to slides"""
+        if state.get("error_context"):
+            return END
+        if not state.get("processed_summaries"):
+            return "process_summaries"
+        return "process_slides"
+    
+    workflow.add_conditional_edges(
+        "process_summaries",
+        should_continue_processing,
+        ["process_summaries", "process_slides", END]
+    )
+    
     workflow.add_edge("process_slides", "setup_audio")
     workflow.add_edge("setup_audio", END)
     workflow.add_edge("wait_for_pdf", END)

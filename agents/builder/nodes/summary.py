@@ -54,116 +54,136 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
         output_dir = Path(state["pdf_info"]["output_dir"])
         image_files = sorted(output_dir.glob("slide_*.jpg"))
         
-        # Process images in chunks of 3 with retries
-        chunk_size = 3
-        max_retries = 3
-        delay_between_chunks = 2  # seconds
-        
         summaries = []
         
-        try:
-            for chunk_start in range(0, len(image_files), chunk_size):
-                chunk_end = min(chunk_start + chunk_size, len(image_files))
-                chunk = image_files[chunk_start:chunk_end]
+        for img_path in image_files:
+            page_num = int(img_path.stem.split('_')[1])
+            logging.info(f"Processing page {page_num}")
+            
+            try:
+                base64_image = encode_image(img_path)
+            except Exception as e:
+                logging.error(f"Failed to encode image for page {page_num}: {str(e)}")
+                continue
                 
-                for img_path in chunk:
-                    page_num = int(img_path.stem.split('_')[1])
-                    logging.info(f"Processing page {page_num}")
+            messages = [
+                SystemMessage(content="""You are an expert presentation analyst.
+                Your task is to analyze presentation content and provide:
+                1. A clear, descriptive title for the content
+                2. A detailed summary of the content
+                3. Whether the content contains benefit information
+                
+                IMPORTANT: Set hasTable=true if you see ANY of:
+                - Insurance plan details (100 Plan, 200A Plan, etc.)
+                - Daily benefit amounts
+                - Hospital confinement rates
+                - Emergency room benefits
+                - Surgery coverage
+                - Diagnostic test coverage
+                
+                For example, if you see text like:
+                "100 Plan provides $100/day for hospital confinement"
+                You MUST set hasTable=true
+                
+                Return this EXACT JSON format:
+                {
+                    "title": "Clear descriptive title",
+                    "summary": "Detailed content summary",
+                    "hasTable": true
+                }
+                
+                Or if no benefit information:
+                {
+                    "title": "Clear descriptive title",
+                    "summary": "Detailed content summary",
+                    "hasTable": false
+                }"""),
+                HumanMessage(content=[
+                    {
+                        "type": "text",
+                        "text": f"This is page {page_num} of {state['pdf_info']['page_count']}. If you see ANY benefit information with amounts or rates, you MUST set hasTable=true."
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:image/jpeg;base64,{base64_image}",
+                            "detail": "high"
+                        }
+                    }
+                ])
+            ]
+            
+            try:
+                response = await model.ainvoke(messages)
+                
+                # Handle response content
+                try:
+                    if isinstance(response.content, dict):
+                        content = response.content
+                    else:
+                        # Clean up the response if needed
+                        clean_content = response.content.strip()
+                        if clean_content.startswith('```json'):
+                            clean_content = clean_content[7:-3]  # Remove ```json and ```
+                        content = json.loads(clean_content)
                     
-                    try:
-                        base64_image = encode_image(img_path)
-                    except Exception as e:
-                        logging.error(f"Failed to encode image for page {page_num}: {str(e)}")
-                        continue
-                        
-                    for retry in range(max_retries):
-                        try:
-                            messages = [
-                                SystemMessage(content="""You are an expert presentation analyst.
-                                Your task is to analyze presentation content and provide:
-                                1. A clear, descriptive title for the content
-                                2. A detailed summary of the content
-                                3. Whether the content contains any tables or tabular data
-                                
-                                Return as a JSON object with `title`, `summary`, and `hasTable` fields.
-                                The `hasTable` field should be a boolean indicating if the content contains any tables."""),
-                                HumanMessage(content=[
-                                    {
-                                        "type": "text",
-                                        "text": f"This is page {page_num} of {state['pdf_info']['page_count']}. Please analyze it and provide a title, summary, and whether it contains tables in JSON format."
-                                    },
-                                    {
-                                        "type": "image_url",
-                                        "image_url": {
-                                            "url": f"data:image/jpeg;base64,{base64_image}",
-                                            "detail": "high"
-                                        }
-                                    }
-                                ])
-                            ]
-                            
-                            response = await model.ainvoke(messages)
-                            
-                            try:
-                                content = json.loads(response.content)
-                                if not isinstance(content, dict):
-                                    raise ValueError("Expected content to be a dictionary")
-                                    
-                                summaries.append({
-                                    "page": page_num,
-                                    "title": content.get("title", "Error: No Title"),
-                                    "summary": content.get("summary", "Error: No Summary"),
-                                    "hasTable": content.get("hasTable", False)
-                                })
-                                logging.info(f"Successfully processed page {page_num}")
-                                break
-                            except json.JSONDecodeError as e:
-                                if retry == max_retries - 1:
-                                    logging.error(f"Failed to parse JSON for page {page_num}: {str(e)}")
-                                    summaries.append({
-                                        "page": page_num,
-                                        "title": "Error: Could not parse response",
-                                        "summary": "Error processing page",
-                                        "hasTable": False
-                                    })
-                                    
-                        except Exception as e:
-                            error_msg = str(e)
-                            if "invalid_api_key" in error_msg:
-                                error_msg = "Invalid API key"
-                            
-                            if "overloaded" in error_msg.lower() and retry < max_retries - 1:
-                                await asyncio.sleep(2 ** retry)
-                                continue
-                            elif retry == max_retries - 1:
-                                logging.error(f"Failed to process page {page_num}: {error_msg}")
-                                summaries.append({
-                                    "page": page_num,
-                                    "title": "Error",
-                                    "summary": f"Failed to generate summary: {error_msg}",
-                                    "hasTable": False
-                                })
-                                break
-                
-                if chunk_end < len(image_files):
-                    await asyncio.sleep(delay_between_chunks)
+                    summary_entry = {
+                        "page": page_num,
+                        "title": content.get("title", "Error: No Title"),
+                        "summary": content.get("summary", "Error: No Summary"),
+                        "hasTable": bool(content.get("hasTable", False))
+                    }
                     
-        except asyncio.CancelledError:
-            logging.info("Process interrupted by user")
-            if summaries:
-                logging.info(f"Saving {len(summaries)} summaries processed so far...")
-            else:
-                raise
-                
+                    summaries.append(summary_entry)
+                    logging.info(f"Page {page_num}: hasTable={content.get('hasTable', False)}")
+                    
+                except json.JSONDecodeError as e:
+                    logging.error(f"JSON parse error on page {page_num}: {str(e)}")
+                    summary_entry = {
+                        "page": page_num,
+                        "title": "Error: JSON Parse Error",
+                        "summary": f"Failed to parse response: {str(e)}",
+                        "hasTable": False
+                    }
+                    summaries.append(summary_entry)
+                    
+            except Exception as e:
+                logging.error(f"Error processing page {page_num}: {str(e)}")
+                summaries.append({
+                    "page": page_num,
+                    "title": "Error",
+                    "summary": f"Failed to generate summary: {str(e)}",
+                    "hasTable": False
+                })
+        
         # Save summaries to file
         if summaries:
             summaries_file = ai_dir / "summaries.json"
-            with open(summaries_file, "w") as f:
-                json.dump(summaries, f, indent=2)
-                
-            # Update state with summaries
-            state["page_summaries"] = summaries
+            logging.info(f"Saving {len(summaries)} summaries to {summaries_file}")
             
+            try:
+                with open(summaries_file, "w") as f:
+                    json.dump(summaries, f, indent=2)
+                logging.info("Successfully saved summaries.json")
+                
+                # Verify the file was saved correctly
+                if summaries_file.exists():
+                    with open(summaries_file) as f:
+                        saved_summaries = json.load(f)
+                    logging.info(f"Verified summaries.json: {len(saved_summaries)} entries")
+                else:
+                    logging.error("summaries.json was not created")
+                    
+                # Update state with summaries
+                state["page_summaries"] = summaries
+                
+            except Exception as e:
+                logging.error(f"Error saving summaries.json: {str(e)}")
+                state["error_context"] = {
+                    "error": f"Failed to save summaries: {str(e)}",
+                    "stage": "summary_generation"
+                }
+                
         return state
                                     
     except Exception as e:
@@ -171,7 +191,123 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
             "error": str(e),
             "stage": "summary_generation"
         }
-        return state 
+        return state
+
+async def process_plan_tiers(state: BuilderState) -> BuilderState:
+    """Process benefit tables into detailed plan tier summaries"""
+    try:
+        deck_dir = Path(state["deck_info"]["path"])
+        tables_data = deck_utils.load_tables_data(deck_dir)
+        
+        if not tables_data["tables"]:
+            return state
+            
+        # Initialize LangChain chat model
+        model = ChatOpenAI(
+            model="gpt-4o",
+            temperature=0.7,
+            streaming=False,
+            tags=["plan_tier_processing"]
+        )
+        
+        system_content = """You are an expert at analyzing insurance benefit tables and creating detailed plan summaries.
+        
+TASK: Create a comprehensive, cell-by-cell analysis of each insurance plan based on the CSV benefit tables.
+
+ANALYSIS REQUIREMENTS:
+1. Go through EVERY cell in the CSV data
+2. For each plan (column), create two detailed sections:
+
+First Part (1/2) - Core Hospital & Emergency Benefits:
+- Hospital Admission Benefits
+  * List exact admission amounts
+  * Include any per-admission limits
+- Daily Hospital Confinement
+  * List exact daily rates
+  * Include any maximum days
+- ICU/CCU Benefits
+  * List exact daily amounts
+  * Include specialized care rates
+- Emergency Room Benefits
+  * List exact amounts for injury
+  * List exact amounts for sickness
+- Ambulance Services
+  * Ground transport amounts
+  * Air transport amounts
+
+Second Part (2/2) - Additional Medical Benefits:
+- Surgical Benefits
+  * List exact surgical amounts
+  * Include anesthesia benefits
+- Outpatient Benefits
+  * Office visit amounts
+  * Urgent care amounts
+- Diagnostic Benefits
+  * X-ray amounts
+  * Lab test amounts
+  * Advanced imaging rates
+- Specialized Benefits
+  * List any unique benefits
+  * Include special conditions
+
+FORMAT:
+### [Plan Name] (1/2)
+Core Hospital & Emergency Benefits:
+- [Category Name]
+  * [Exact Benefit Amount] for [Specific Service]
+  * [Additional Details/Limits]
+[Continue for all core benefits]
+
+### [Plan Name] (2/2)
+Additional Medical Benefits:
+- [Category Name]
+  * [Exact Benefit Amount] for [Specific Service]
+  * [Additional Details/Limits]
+[Continue for all additional benefits]
+
+CRITICAL REQUIREMENTS:
+- Include EVERY benefit from the CSV
+- Use EXACT dollar amounts
+- Include ALL limits and conditions
+- Group similar benefits together
+- Maintain precise benefit names
+- List EVERY detail from each cell
+- Do not skip any information"""
+
+        # Add table data
+        for table in tables_data["tables"]:
+            system_content += f"\n\nBenefit Table (Page {table['page']}):\n```csv\n{table['data']}\n```"
+        
+        messages = [
+            SystemMessage(content=system_content),
+            HumanMessage(content="""Create a comprehensive, cell-by-cell analysis of each plan's benefits. 
+            Go through EVERY cell in the CSV data, maintaining exact amounts and details.
+            Do not summarize or skip any information - every cell should be represented in the output.
+            Group the information logically but ensure NO data is lost.""")
+        ]
+        
+        # Generate plan tier summaries
+        response = await model.ainvoke(messages)
+        plan_tier_content = response.content
+        
+        # Save plan tier summaries
+        tiers_path = Path(state["deck_info"]["path"]) / "ai" / "plan_tiers.md"
+        tiers_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        with open(tiers_path, "w") as f:
+            f.write(plan_tier_content)
+            
+        # Add to state
+        state["plan_tier_summaries"] = plan_tier_content
+        
+        return state
+        
+    except Exception as e:
+        state["error_context"] = {
+            "step": "plan_tier_processing",
+            "error": str(e)
+        }
+        return state
 
 async def process_summaries(state: BuilderState) -> BuilderState:
     """Processes summaries to generate markdown content"""
@@ -186,6 +322,18 @@ async def process_summaries(state: BuilderState) -> BuilderState:
             }
             return state
             
+        # First process plan tiers
+        state = await process_plan_tiers(state)
+        if state.get("error_context"):
+            return state
+            
+        if not state.get("plan_tier_summaries"):
+            state["error_context"] = {
+                "step": "process_summaries",
+                "error": "Plan tier processing failed"
+            }
+            return state
+            
         # Convert summaries to text
         summaries_text = json.dumps(state["page_summaries"], indent=2)
         
@@ -197,75 +345,75 @@ async def process_summaries(state: BuilderState) -> BuilderState:
             tags=["summary_processing", "markdown_generation"]
         )
         
-        # Get all table data using utility function
-        deck_dir = Path(state["deck_info"]["path"])
-        tables_data = deck_utils.load_tables_data(deck_dir)
-        
-        # Create system prompt with table data if available
-        system_content = """You are an expert at organizing and structuring content for presentations. Your task is to generate a markdown outline that organizes content in an educational format.
+        # Create system prompt using plan tier summaries
+        system_content = """You are an expert at organizing and structuring content for presentations. Your task is to generate a comprehensive markdown outline that organizes all insurance benefit information in an educational format.
 
-The outline should follow this structure, using the CSV data to guide the plan sections:
+IMPORTANT: The outline MUST maintain the exact plan tier information provided, including all benefit amounts and structure.
 
-## 1. Core Plan Elements
+The outline must follow this EXACT structure:
+
+## 1. Plan Tiers
+[PLAN_TIERS_SECTION]
+
+## 2. Core Plan Elements
 - **Introduction & Overview**
   - Plan purpose and scope
   - Association membership (BWA, NCE, etc.)
   - Basic coverage framework
+  - Key insurance concepts and terms
 
-## 2. Common Service Features
+## 3. Common Service Features
 - **Telehealth Services**
+  - Availability and access
+  - Covered services
 - **Preventive Care & Wellness**
+  - Available programs
+  - Coverage details
 - **Advocacy & Support**
+  - Member services
+  - Support resources
 - **Medical Bill Management**
-
-## 3. Plan Tiers
-IMPORTANT: For this section, use the CSV data to create plan sections. Each plan from the CSV (each column after "Benefit Type") should be split into two parts:
-1. First part (1/2): Core hospital and emergency benefits
-2. Second part (2/2): Additional benefits and coverage details
-
-For example, if the CSV has columns: "Benefit Type, 100 Plan, 200A Plan, 500 Plan", create:
-### 100 Plan (1/2)
-- Core hospital benefits with exact amounts
-- Emergency coverage details
-
-### 100 Plan (2/2)
-- Additional benefits
-- Coverage specifics
-
-[Continue for each plan in the CSV]
+  - Billing assistance
+  - Payment processing
 
 ## 4. Limitations & Definitions
 - **Required Disclosures**
+  - Coverage limitations
+  - State-specific information
+  - Important definitions
+  - Policy terms
 
 ## 5. Key Takeaways
 - Plan comparison highlights
-- Important reminders"""
+- Value propositions
+- Important reminders
+- Next steps
 
-        # Add table data if available
-        if tables_data["tables"]:
-            system_content += "\n\nIMPORTANT - Use this benefits data to create the plan sections:\n"
-            for table in tables_data["tables"]:
-                system_content += f"\nBenefit Table (Page {table['page']}):\n```csv\n{table['data']}\n```\n"
-                system_content += """
-Instructions for using this table:
-1. Each column (after "Benefit Type") represents a different plan
-2. Split each plan's benefits into two sections (1/2 and 2/2)
-3. Use exact dollar amounts and benefit names from the table
-4. Group similar benefits together in each section
-5. Maintain the exact benefit values as shown in the CSV
-"""
+CRITICAL REQUIREMENTS:
+1. The Plan Tiers section MUST come first
+2. Use the EXACT plan tier content provided
+3. Do not modify or summarize the plan tier information
+4. Maintain all specific benefit amounts and details
+5. Keep the two-part structure for each plan"""
+
+        # Insert the plan tier summaries exactly as they are
+        plan_tiers_section = state["plan_tier_summaries"]
+        system_content = system_content.replace("[PLAN_TIERS_SECTION]", plan_tiers_section)
 
         # Create messages array
         messages = [
             SystemMessage(content=system_content),
-            HumanMessage(content=f"""Using the summaries below and the benefit tables above, create a structured markdown outline that:
-1. Uses each CSV column to create two-part plan sections
-2. Maintains exact benefit amounts and names
-3. Groups similar benefits together
-4. Creates a natural progression from basic to premium plans
-5. Includes all plans from the CSV data
+            HumanMessage(content=f"""Create a comprehensive benefit overview that:
+1. Keeps the Plan Tiers section EXACTLY as provided
+2. Uses the general summaries to enhance other sections
+3. Maintains all specific benefit amounts
+4. Creates clear explanations of insurance concepts
+5. Includes relevant policy details
 
-Here are the summaries to incorporate:
+The Plan Tiers section has already been processed and must be kept intact.
+Focus on enhancing the other sections while preserving the plan tier information.
+
+Here are the general summaries to incorporate:
 
 {summaries_text}""")
         ]
@@ -273,6 +421,17 @@ Here are the summaries to incorporate:
         # Generate content
         response = await model.ainvoke(messages)
         content = response.content
+        
+        # Verify plan tiers section is present and in the correct position
+        if "## 1. Plan Tiers" not in content or content.find("## 1. Plan Tiers") > content.find("## 2."):
+            # Force correct structure if needed
+            sections = content.split("##")
+            reordered_content = "##" + sections[0]  # Keep any initial content
+            reordered_content += "\n## 1. Plan Tiers\n" + plan_tiers_section + "\n"
+            for section in sections[1:]:
+                if not section.strip().startswith("1. Plan Tiers"):
+                    reordered_content += "##" + section
+            content = reordered_content
         
         # Save content
         script_path = Path(state["deck_info"]["path"]) / "ai" / "processed_summaries.md"

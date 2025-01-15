@@ -51,15 +51,17 @@ async def extract_tables(state: BuilderState) -> BuilderState:
                 # Pre-check if the summary contains actual benefit data
                 contains_benefits = any(keyword in summary["summary"].lower() for keyword in [
                     "plan", "benefit", "coverage", "$", "dollar", "admission", "hospital",
-                    "emergency", "surgery", "physician", "diagnostic", "premium"
-                ])
-                
-                contains_rates = any(keyword in summary["summary"].lower() for keyword in [
-                    "/day", "per day", "daily", "rate", "amount"
+                    "emergency", "surgery", "physician", "diagnostic", "premium", "amount",
+                    "daily", "per day", "rate", "confinement", "intensive care"
                 ])
                 
                 # Update hasTable flag based on content analysis
-                summaries[i]["hasTable"] = contains_benefits and contains_rates
+                summaries[i]["hasTable"] = contains_benefits
+                
+                if contains_benefits:
+                    logger.info(f"Page {summary['page']} contains benefit information")
+                else:
+                    logger.info(f"Page {summary['page']} does not contain benefit information")
 
         # Process all summaries with validated tables
         tables_processed = 0

@@ -1,11 +1,11 @@
 ---
-id: FEN_001
+id: FEN_{deck_key}
 theme: ../../
 title: | 
-  Premier Insurance Offer
+  { Plan Name }
 info: |
-  ## Premier Insurance Offer Review
-  A comprehensive look at the Premier Insurance Offer benefits and details.
+  ## { Plan Name } Review
+  A comprehensive look at the { Plan Name } benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -16,26 +16,26 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_001" />
+<SlideAudio deckKey="FEN_{deck_key}" />
 
-# Premier Insurance Offer Review
+# { Plan Name } Review
 
-Understanding the details and benefits of the **Premier Insurance Offer**
+Understanding the details and benefits of the **{ Plan Full Name }**
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Premier Insurance Offer Overview
+## { Plan Name } Overview
 
 <v-clicks>
 
-- **Introduction & Overview** through **NCE**
-- **Basic coverage** framework
-- **Association membership** benefits
-- **Hospital, accident,** indemnity focus
-- **United States Fire** underwriter
+- { Overview Point 1 } through **{ Organization }**
+- **{ Benefit Category 1 }** for various situations
+- **{ Benefit Category 2 }** and support tools
+- **{ Benefit Category 3 }** through { Feature }
+- **{ Benefit Category 4 }** support
 
 </v-clicks>
 
@@ -48,21 +48,20 @@ layout: default
 
 <v-clicks>
 
-**Telehealth Services**
+**{ Benefit Type 1 }**
 
-**Preventive Care & Wellness**
+**{ Benefit Type 2 }**
 
-**Advocacy & Support**
+**{ Benefit Type 3 }**
 
-**Medical Bill Management**
-
+**{ Benefit Type 4 }** (varies by plan)
 </v-clicks>
 
 <v-click>
 
-**Additional Support** through partners
+**{ Additional Benefit }** through { Partner }
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="Brand Logo">
+  <img src="" class="h-12 mix-blend-multiply" alt="{ Brand } Logo">
 </div>
 
 </v-click>
@@ -77,20 +76,20 @@ layout: default
 <v-click>
 
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-24 mix-blend-multiply" alt="Cost Management Tool Logo">
+  <img src="" class="h-24 mix-blend-multiply" alt="{ Tool } Logo">
 </div>
 
-**Cost Management Tool** (CMT)
+**{ Tool Name }** ({ Acronym })
 </v-click>
 
 <v-click>
 
-**Automated Billing** System
+**{ Feature 1 }** System
 </v-click>
 
 <v-click>
 
-**Customer Support** Services
+**{ Feature 2 }** Support
 </v-click>
 
 ---
@@ -98,16 +97,16 @@ transition: fade-out
 layout: default
 ---
 
-## How Cost Management Tool Works
+## How { Tool Name } Works
 
 <v-clicks>
 
-1. Enroll through **NCE**
-2. Access online portal
-3. Submit claims easily
-4. Receive monthly **CMT** reports
-5. Track expenses efficiently
-6. **Enhanced Financial Control**
+1. Enroll through **{ Organization }**
+2. { Step 2 }
+3. { Step 3 }
+4. Receive { Document } **({ Acronym })**
+5. { Step 5 }
+6. **{ Final Outcome }**
 
 </v-clicks>
 
@@ -120,9 +119,9 @@ layout: default
 
 <v-clicks>
 
-- **Health Check-Up** Services
-- **Wellness Coaching** Programs
-- **Partnered Services** for wellness
+- **{ Service 1 }** Services
+- **{ Service 2 }** Programs
+- **{ Partner }** provides { service_type }
 
 </v-clicks>
 
@@ -135,10 +134,10 @@ layout: default
 
 <v-clicks>
 
-- **24/7 Access**
-- **Remote Consultations**
-- **Specialist Referrals** available
-- **Convenient Access** to care
+- **{ Feature 1 }**
+- **{ Feature 2 }**
+- **{ Feature 3 }** available
+- **{ Feature 4 }** to care
 
 </v-clicks>
 
@@ -151,144 +150,73 @@ layout: default
 
 <v-clicks>
 
-- **Personalized** healthcare advocacy
-- **Guidance** and assistance
-- **Resource** options
-- **Wellness Support** services
+- **{ Service Style }** healthcare advocacy
+- **{ Service 1 }** assistance
+- **{ Service 2 }** options
+- **{ Service 3 }** support
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+image: img/pages/{plan_brochure_image_1}.jpg
 ---
 
-## 100 Plan (1/2)
+## { Plan 1 Name } (1/2)
 
 <v-click>
 
-**Core hospital benefits**
-- Daily Hospital: **$100/day**
-- Intensive Care: **$200/day**
-- Emergency Room: **$50/visit**
+**{ Benefit Category 1 }**
+- { Detail 1 }: { Value 1 }
+- { Detail 2 }: { Value 2 }
+- { Detail 3 }: { Value 3 }
+- { Detail 4 }: { Value 4 }
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
----
+<v-click>
 
-## 100 Plan (2/2)
+**{ Benefit Category 2 }**
+- { Detail 1 }: { Value 1 }
+- { Detail 2 }: { Value 2 }
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 <v-click>
 
-**Additional benefits**
-- Admission Benefit: **$500**
-- Accidental Death: **$20,000**
+**{ Benefit Category 3 }**
+- { Detail 1 }: { Value 1 }
+- { Detail 2 }: { Value 2 }
+- { Detail 3 }: { Value 3 }
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/{plan_brochure_image_1}.jpg
+---
+
+## { Plan 1 Name } (2/2)
+
+<v-click>
+
+**{ Benefit Category 4 }**
+- { Detail 1 }: { Value 1 }
+- { Detail 2 }: { Value 2 }
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_2.jpg
----
-
-## 200A Plan (1/2)
-
 <v-click>
 
-**Core hospital benefits**
-- Daily Hospital: **$200/day**
-- Intensive Care: **$400/day**
-- Emergency Room: **$100/visit**
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+**{ Benefit Category 5 }**
+- { Detail 1 }: { Value 1 }
+- { Detail 2 }: { Value 2 }
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_2.jpg
----
-
-## 200A Plan (2/2)
-
-<v-click>
-
-**Additional benefits**
-- Admission Benefit: **$1,000**
-- Accidental Death: **$40,000**
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_3.jpg
----
-
-## 500 Plan (1/2)
-
-<v-click>
-
-**Core hospital benefits**
-- Daily Hospital: **$500/day**
-- Intensive Care: **$1,000/day**
-- Emergency Room: **$200/visit**
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_3.jpg
----
-
-## 500 Plan (2/2)
-
-<v-click>
-
-**Additional benefits**
-- Admission Benefit: **$2,500**
-- Accidental Death: **$100,000**
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_4.jpg
----
-
-## 1000+ Plan (1/2)
-
-<v-click>
-
-**Core hospital benefits**
-- Daily Hospital: **$1,000/day**
-- Intensive Care: **$2,000/day**
-- Emergency Room: **$500/visit**
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_4.jpg
----
-
-## 1000+ Plan (2/2)
-
-<v-click>
-
-**Additional benefits**
-- Admission Benefit: **$5,000**
-- Accidental Death: **$200,000**
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
+<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->
 
 ---
 transition: fade-out
@@ -297,37 +225,54 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **100 Plan** | **200A Plan** | **500 Plan** | **1000+ Plan** |
-|---------|----------|----------|-----------|-----------|
-| Daily Hospital | $100/day | $200/day | $500/day | $1,000/day |
-| Intensive Care | $200/day | $400/day | $1,000/day | $2,000/day |
-| Emergency Room | $50/visit | $100/visit | $200/visit | $500/visit |
-| Admission Benefit | $500 | $1,000 | $2,500 | $5,000 |
-| Accidental Death | $20,000 | $40,000 | $100,000 | $200,000 |
+| **Feature** | **{ Plan 1 }** | **{ Plan 2 }** | **{ Plan 3 }** |
+|---------|----------|----------|-----------|
+| { Feature 1 } | { Value 1.1 } | { Value 1.2 } | { Value 1.3 } |
+| { Feature 2 } | { Value 2.1 } | { Value 2.2 } | { Value 2.3 } |
+| { Feature 3 } | { Value 3.1 } | { Value 3.2 } | { Value 3.3 } |
+| { Feature 4 } | { Value 4.1 } | { Value 4.2 } | { Value 4.3 } |
+| { Feature 5 } | { Value 5.1 } | { Value 5.2 } | { Value 5.3 } |
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_final.jpg
+image: img/pages/{plan_brochure_image_final}.jpg
 ---
 
 ## Definitions and Limitations
 
 <v-click>
 
-**Required Disclosures**
-- Exclusions: **Specific conditions**
-- Not comprehensive: **Limited coverage**
-- Policy limits: **Defined scenarios**
+**{ Category 1 }**
+- { Limitation 1 }
+- { Limitation 2 }
+- { Limitation 3 }
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Policy Conditions**
-- Termination: **Defined terms**
-- Eligibility: **Continued criteria**
+**{ Category 2 }**
+- { Limitation 1 }
+- { Limitation 2 }
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**{ Category 3 }**
+- { Limitation 1 }
+- { Limitation 2 }
+<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**{ Category 4 }**
+- { Limitation 1 }
+- { Limitation 2 }
+- { Limitation 3 }
+<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -339,21 +284,22 @@ layout: default
 
 <v-clicks>
 
-- **Core Benefits** offered
-- **Varied Plans** available
-- **Exclusions Apply** to coverage
-- **Eligibility** required for benefits
+- **{ Feature 1 }** benefits
+- **{ Feature 2 }** included
+- **{ Feature 3 }** benefits
+- **{ Requirement }** required
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the Premier Insurance Offer Review. Continue to be great!
+line: Thank you for participating in the { Plan Name } Review. Continue to be great!
 ---
 
 # Thank You!
 
 Continue to be great!
 
-<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="Brand Logo">
+<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="{ Brand } Logo">
+
