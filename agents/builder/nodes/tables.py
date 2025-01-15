@@ -89,7 +89,7 @@ async def extract_tables(state: Dict) -> Dict:
                     HumanMessage(content=[
                         {
                             "type": "text",
-                            "text": "Convert this table to CSV format. Return only the CSV text."
+                            "text": "Convert this table to CSV format. Return only the CSV text without anything else, including no ```."
                         },
                         {
                             "type": "image_url",

@@ -56,17 +56,15 @@ async def process_page(model, page_num, img_path, total_pages):
             {
                 "title": "Clear descriptive title",
                 "summary": "Detailed content summary",
-                "hasTable": true/false,
                 "tableDetails": {
-                    "present": true/false,
-                    "type": "benefits/pricing/other",
-                    "complexity": "simple/complex"
+                    "hasTable": true/false,
+                    "type": "benefits/pricing/other"
                 }
             }"""),
             HumanMessage(content=[
                 {
                     "type": "text",
-                    "text": "Analyze this presentation slide systematically. Pay special attention to any tables or structured data."
+                    "text": "Analyze this presentation slide systematically."
                 },
                 {
                     "type": "image_url",
