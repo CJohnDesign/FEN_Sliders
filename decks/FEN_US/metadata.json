@@ -1,8 +1,6 @@
 {
   "deck_id": "FEN_US",
   "title": "US Fire Insurance Benefits Overview",
-  "template": "FEN_TEMPLATE",
-  "theme_config": {},
-  "created_at": "2025-01-15T15:26:36.880597",
-  "version": "1.0"
+  "created_at": "2025-01-15T16:54:10.449855",
+  "version": "1.0.0"
 }

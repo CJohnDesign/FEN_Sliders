@@ -345,17 +345,18 @@ IMPORTANT: The outline MUST maintain the exact plan tier information provided, i
 
 The outline must follow this EXACT structure:
 
-## 1. Plan Tiers
-[PLAN_TIERS_SECTION]
+## Cover
+- Plan name
+- Subtitle
 
-## 2. Core Plan Elements
+## Core Plan Elements
 - **Introduction & Overview**
   - Plan purpose and scope
   - Association membership (BWA, NCE, etc.)
   - Basic coverage framework
   - Key insurance concepts and terms
 
-## 3. Common Service Features
+## Common Service Features
 - **Telehealth Services**
   - Availability and access
   - Covered services
@@ -368,15 +369,22 @@ The outline must follow this EXACT structure:
 - **Medical Bill Management**
   - Billing assistance
   - Payment processing
+  
+## Plan Tiers and Benefits
+- Here, analyze the benefit tables and create a detailed plan tier summary.
+  - atleast one slide per tier
+  - If a slide gets too long, split it into two sections.
+    - label these section with a (1/2) or (2/2)
+  - its likely that the later tiers will be more detailed and require a 2nd slide
 
-## 4. Limitations & Definitions
+## Limitations & Definitions
 - **Required Disclosures**
   - Coverage limitations
   - State-specific information
   - Important definitions
   - Policy terms
 
-## 5. Key Takeaways
+## Key Takeaways
 - Plan comparison highlights
 - Value propositions
 - Important reminders
@@ -389,9 +397,19 @@ CRITICAL REQUIREMENTS:
 4. Maintain all specific benefit amounts and details
 5. Keep the two-part structure for each plan"""
 
-        # Insert the plan tier summaries exactly as they are
-        plan_tiers_section = state["plan_tier_summaries"]
-        system_content = system_content.replace("[PLAN_TIERS_SECTION]", plan_tiers_section)
+        # Get tables data from state
+        deck_dir = Path(state["deck_info"]["path"])
+        tables_data = deck_utils.load_tables_data(deck_dir)
+        tables_text = json.dumps(tables_data, indent=2)
+
+        # Insert the plan tier summaries and tables data
+        system_content = system_content.format(
+            tables_data=tables_text,
+            plan_tier_summaries=state["plan_tier_summaries"]
+        )
+
+        # Get plan tier summaries from state
+        plan_tier_summaries = state.get("plan_tier_summaries", "No plan tier analysis available")
 
         # Create messages array
         messages = [
@@ -408,7 +426,16 @@ Focus on enhancing the other sections while preserving the plan tier information
 
 Here are the general summaries to incorporate:
 
-{summaries_text}""")
+{summaries_text}
+
+  ## Plan Tiers and Benefits
+### Raw Benefit Tables
+{tables_data}
+
+### Plan Tier Analysis
+{plan_tier_summaries}
+
+""")
         ]
         
         # Generate content
@@ -420,7 +447,7 @@ Here are the general summaries to incorporate:
             # Force correct structure if needed
             sections = content.split("##")
             reordered_content = "##" + sections[0]  # Keep any initial content
-            reordered_content += "\n## 1. Plan Tiers\n" + plan_tiers_section + "\n"
+            reordered_content += "\n## 1. Plan Tiers\n" + state["plan_tier_summaries"] + "\n"
             for section in sections[1:]:
                 if not section.strip().startswith("1. Plan Tiers"):
                     reordered_content += "##" + section

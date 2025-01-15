@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Premier Insurance Offering Overview",
+    "summary": "The slide presents an insurance offering from 'Premier' highlighting Group Hospital Fixed Indemnity and Group Accident Insurance. It is underwritten by the United States Fire Insurance Company and is exclusively available to NCE Members. The visual includes a group of people engaging socially, suggesting a community-oriented or member-focused approach.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": null
+    },
+    "page": 1
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity and Group Accident Insurance",
+    "summary": "This slide presents details of various insurance plans under the Group Hospital Fixed Indemnity and Group Accident Insurance. It outlines the benefits for different plans (100 Plan, 200A Plan, 200+ Plan, 300 Plan, 500 Plan, 750 Plan, 1000 Plan, 1000+ Plan) and the corresponding payouts for services like hospital confinement, emergency room visits, surgeries, and diagnostic tests. It also includes group accident benefits such as accidental death and hospital admission benefits.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 2
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity Description of Benefits",
+    "summary": "This slide provides an overview of various benefits under a hospital fixed indemnity policy. It outlines the conditions and criteria for different types of benefits including Hospital Admission, Daily Hospital Confinement, Intensive Care/Coronary Care Unit, Daily Inpatient Surgery, Daily Inpatient Surgery Anesthesia, and Emergency Room Visits for Sickness and Injury. Each benefit is detailed with specific conditions for eligibility and payment terms. There is a note indicating that this is a summary of coverage and that policy terms may vary.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 3
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity Benefits Description",
+    "summary": "This slide provides a detailed description of various benefits under a hospital fixed indemnity plan. It includes descriptions of benefits for daily outpatient surgery, anesthesia for outpatient surgery, physician's office visits, inpatient and outpatient diagnostic radiology, X-ray and imaging, and inpatient and outpatient laboratory tests. Each benefit outlines specific conditions under which they are payable, such as the requirement for a covered person to be confined in a hospital or not, and the necessity of physician orders.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 4
+  },
+  {
+    "title": "Group Accident Description of Benefits",
+    "summary": "This slide provides a detailed description of various benefits available under a group accident policy. It includes: \n\n1. Hospital Admission Benefit: Covers the first hospital confinement for a medically necessary stay due to an injury or illness.\n2. Daily Hospital Confinement Benefit: Provides payment during hospital stays within certain conditions.\n3. Daily Intensive Care/Coronary Care Unit Benefit: Covers stays in ICU/CCU under specified conditions.\n4. Daily Physician\u2019s Office Visits Benefit: Covers visits to a physician or clinic for necessary treatment due to an accident or sickness.\n5. Daily Emergency Room Visits Benefit: Covers emergency room visits for medical emergencies resulting from an accident or sickness.\n6. Daily Inpatient Surgery Anesthesia Benefit: Covers anesthesia administered during inpatient surgery for a necessary medical procedure.\n7. Daily Outpatient Surgery Anesthesia Benefit: Covers anesthesia for outpatient surgery under similar conditions.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 5
+  },
+  {
+    "title": "Group Accident Description of Benefits",
+    "summary": "The slide provides a detailed description of benefits related to group accident insurance coverage. It includes sections on 'Daily Inpatient Surgery Benefit', 'Daily Outpatient Surgery Benefit', 'Daily Inpatient Diagnostic Radiology, X-ray and Imaging Benefits', 'Daily Outpatient Diagnostic Radiology, X-ray and Imaging Benefits', 'Daily Inpatient Laboratory Test Benefit', and 'Daily Outpatient Laboratory Test Benefit'. Each section outlines the conditions under which benefits are applicable, such as being confined in a hospital, necessity of physician orders, and the type of medical procedures or tests covered.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 6
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+    "summary": "This slide outlines the exclusions for the Limited Fixed Indemnity insurance portion of a membership. It lists 23 specific situations where coverage does not apply, including self-inflicted injuries, participation in unlawful activities, treatments for mental illness or substance abuse unless specified, experimental treatments, injuries due to violation of rules, pregnancy-related conditions unless specified, and various specific medical treatments and procedures.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 7
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+    "summary": "This slide outlines specific exclusions under the group hospital fixed indemnity benefits. It lists various scenarios and treatments that are not covered, such as treatment for blood or blood plasma, routine vision care, accidents involving motor vehicles without a valid license, and certain types of travel and flights. Additionally, it mentions exclusions for rest cures, prescription drugs not specified in the policy, elective or cosmetic surgeries, and physiotherapy services. The slide also highlights a pre-existing conditions limitation, stating that such conditions will not be covered for the first 12 months after the effective date of coverage. A disclaimer at the bottom emphasizes that this policy is not comprehensive medical insurance.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 8
+  },
+  {
+    "title": "Group Accident Benefit Exclusions",
+    "summary": "This slide outlines the exclusions from coverage under a Group Accident Benefit Certificate. It lists specific scenarios and conditions under which losses or injuries are not covered. These include incidents such as suicide, war-related injuries, injuries sustained while committing illegal acts, and injuries under the influence of drugs or alcohol. Additional exclusions cover circumstances like participation in motorized races, treatments not related to an accident, and various medical conditions including mental disorders and pregnancy-related complications.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 9
+  },
+  {
+    "title": "Group Accident Benefit Exclusions Overview",
+    "summary": "The slide outlines exclusions from group accident benefits, detailing specific medical treatments and scenarios that are not covered. These include dental care unrelated to accidents, blood treatment charges, and vision-related expenses. Exclusions also cover accidents involving unlicensed motor vehicle operation, certain types of travel like snowmobiling, and participation in sports. Additionally, it excludes elective surgeries, rest cures, and non-essential cosmetic surgeries. The policy is highlighted as a limited benefit plan, designed to supplement rather than replace comprehensive health insurance.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 10
+  },
+  {
+    "title": "Termination of Insurance",
+    "summary": "The slide outlines the termination conditions for an insurance policy, detailing the termination dates for the policyholder, insured person, and dependents. The policy terminates automatically on the earlier of the policy expiration date or premium due date if unpaid. It can also be terminated by either party with notice. Insured person's coverage ends upon certain criteria like no longer being eligible or termination of the policy. Dependent coverage ends when the policy or insured person's coverage ends, among other criteria. There is also a section detailing insurance premiums associated with different membership tiers.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 11
+  },
+  {
+    "title": "NCE Association Membership Overview",
+    "summary": "The slide provides an overview of the National Congress of Employers (NCE) and its membership benefits. NCE is a national association representing small and medium-sized businesses, offering services, resources, and benefits, including insurance coverage. Details about membership packets, ID cards, Premier Plan insured benefits, and insurance eligibility information are included. The insurance benefits are limited and supplemental, not covering sickness, with specific eligibility criteria for members under age 65.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 12
+  }
+]

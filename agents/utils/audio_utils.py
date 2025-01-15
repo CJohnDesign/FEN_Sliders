@@ -1,8 +1,8 @@
+"""Audio utilities for the builder agent."""
 from pathlib import Path
 from typing import List, Dict, Any
 import json
 from openai import AsyncOpenAI
-from . import deck_utils
 
 def load_template_examples(template: str) -> Dict[str, Any]:
     """Load template files to use as examples"""
@@ -30,18 +30,13 @@ def load_template_examples(template: str) -> Dict[str, Any]:
             
     return examples
 
-async def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[str, Any], processed_summaries: str, deck_id: str) -> str:
+async def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[str, Any], processed_summaries: str) -> str:
     """Generate audio script from processed summaries using GPT-4o"""
     # Get the generated slides content
     base_dir = Path(__file__).parent.parent.parent
-    deck_path = base_dir / "decks" / deck_id
-    slides_path = deck_path / "slides.md"
-    
+    slides_path = base_dir / "decks" / "FEN_US" / "slides.md"
     with open(slides_path) as f:
         generated_slides = f.read()
-    
-    # Get table data using utility function
-    tables_content = deck_utils.get_all_table_contents(deck_path)
     
     # Clean up markdown formatting from inputs
     processed_summaries = processed_summaries.replace("```markdown", "").replace("```", "").strip()
@@ -55,13 +50,9 @@ async def generate_audio_script(slides: List[Dict[str, Any]], template_examples:
             "content": """You are an expert at creating natural, conversational audio scripts from presentation content. 
             You excel at maintaining document structure while making the content flow naturally.
             IMPORTANT: 
-            1. Only use the content provided in the processed summaries and tables. Do not make up or add information not present in the source material.
+            1. Only use the content provided in the processed summaries. Do not make up or add information not present in the source material.
             2. Do not include any markdown formatting, backticks, or other special characters in your response.
-            3. Only use plain text with section separators in the format: ---- Section Name ----
-            4. When describing benefit amounts from tables:
-               - Use natural language to describe the progression (e.g., "ranging from $100 in the basic plan to $1000 in the premium plan")
-               - Group similar benefits together
-               - Explain what each benefit means in practical terms"""
+            3. Only use plain text with section separators in the format: ---- Section Name ----"""
         },
         {
             "role": "user",
@@ -70,7 +61,7 @@ async def generate_audio_script(slides: List[Dict[str, Any]], template_examples:
 
             {template_script}
             
-            Please generate a natural, conversational audio script based on these processed summaries and benefit tables. The script should:
+            Please generate a natural, conversational audio script based on these processed summaries. The script should:
             1. Use a warm, professional tone
             2. Spell out numbers (e.g., "one hundred" instead of "100")
             3. Define insurance-specific terms when first used (e.g., explaining what Fixed Indemnity means)
@@ -79,16 +70,12 @@ async def generate_audio_script(slides: List[Dict[str, Any]], template_examples:
             6. Never start a paragraph with "This slide". use a natural on-topic transition instead.
             7. Follow the EXACT section structure from the processed summaries - do not deviate or add sections
             8. Maintain a clear narrative flow between sections
-            9. ONLY use information present in the processed summaries and tables
+            9. ONLY use information present in the processed summaries
             10. Do not mention anything about "MyChoice Plans" or other content not in the source material
             
-            Here are the processed summaries to use as your source of content:
+            Here are the processed summaries to use as your ONLY source of content:
 
             {processed_summaries}
-
-            Here are the detailed benefit tables:
-
-            {tables_content}
 
             Here are the generated slides to match the audio script to:
 
@@ -119,29 +106,6 @@ async def generate_audio_script(slides: List[Dict[str, Any]], template_examples:
 
 def generate_audio_config(slides: List[Dict[str, Any]], template_examples: Dict[str, Any]) -> Dict[str, Any]:
     """Generate audio configuration from slides"""
-    # Create the prompt for the LLM
-    prompt = f"""
-    Based on this template example:
-    ```template
-    {json.dumps(template_examples.get("audio_config", {}), indent=2)}
-    ```
-    
-    Please generate an audio configuration for these slides. The config should:
-    1. Include appropriate timing for each slide section
-    2. Account for longer sections needing more time
-    3. Sync with any click animations in the slides
-    
-    SLIDE CONTENT:
-    ```json
-    {json.dumps([slide["content"] for slide in slides], indent=2)}
-    ```
-
-    SLIDE SUMMARIES:
-    ```json
-    {json.dumps([slide.get("summary", {}) for slide in slides], indent=2)}
-    ```
-    """
-    
     # For now, return a basic config - in future, use the prompt with an LLM
     return {
         "version": "1.0",
@@ -166,7 +130,7 @@ async def setup_audio(deck_id: str, template: str, slides: List[Dict[str, Any]],
         template_examples = load_template_examples(template)
         
         # Generate audio script using processed summaries
-        script = await generate_audio_script(slides, template_examples, processed_summaries, deck_id)
+        script = await generate_audio_script(slides, template_examples, processed_summaries)
         
         # Write audio script
         script_path = deck_path / "audio" / "audio_script.md"

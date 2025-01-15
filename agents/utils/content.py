@@ -1,3 +1,4 @@
+"""Content utilities for the builder agent."""
 from pathlib import Path
 
 async def save_content(path: Path, content: str) -> None:
