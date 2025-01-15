@@ -1,4 +1,8 @@
 {
-  "version": "1.0",
-  "tables": []
+  "tables": [
+    {
+      "page": 2,
+      "path": "ai/tables/table_002.tsv"
+    }
+  ]
 }

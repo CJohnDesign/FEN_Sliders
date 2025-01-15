@@ -1,87 +1,125 @@
+"""PDF processing node for the builder agent."""
+import os
+import logging
+from typing import List, Dict, Any
 from pathlib import Path
-from langchain_core.messages import AIMessage
+from PIL import Image
 from pdf2image import convert_from_path
 from ..state import BuilderState
+from ..utils.logging_utils import setup_logger, log_async_step, log_step_result
 
-async def wait_for_pdf(state: BuilderState) -> BuilderState:
-    """Pauses the workflow to wait for PDF upload"""
-    # Add a message to the state indicating we're waiting
-    state["messages"].append(
-        AIMessage(content="Please upload the PDF file for the deck. Once uploaded, the process will continue.")
-    )
-    
-    # Set a flag in the state to indicate we're waiting for input
-    state["awaiting_input"] = "pdf_upload"
-    
-    return state
+# Set up logger
+logger = setup_logger(__name__)
 
-async def process_imgs(state: BuilderState) -> BuilderState:
-    """Process the images and create structured summaries"""
+@log_async_step(logger)
+async def process_pdf(state: BuilderState) -> BuilderState:
+    """Process PDF file and convert pages to images."""
     try:
-        # Skip if there was an error in previous steps
-        if state.get("error_context"):
-            return state
-            
-        # Get image directory path
-        if not state.get("deck_info"):
+        # Get deck directory
+        deck_dir = state.get("deck_info", {}).get("path")
+        if not deck_dir:
+            log_step_result(
+                logger,
+                "pdf_processing",
+                False,
+                "No deck directory found in state"
+            )
             state["error_context"] = {
-                "error": "No deck info available",
-                "stage": "image_processing"
+                "error": "No deck directory found in state",
+                "stage": "pdf_processing"
             }
             return state
             
-        # Get paths
-        deck_dir = Path(state["deck_info"]["path"])
-        img_dir = deck_dir / "img" / "pages"
+        logger.info(f"Working with deck directory: {deck_dir}")
         
-        # Clean up existing images
-        if img_dir.exists():
-            existing_files = list(img_dir.glob("*.jpg"))
-            if existing_files:
-                for file in existing_files:
-                    file.unlink()
-            
-        # Convert PDF to images
-        pdf_dir = deck_dir / "img" / "pdfs"
-        pdf_files = list(pdf_dir.glob("*.pdf"))
+        # Find PDF file in root directory first
+        deck_path = Path(deck_dir)
+        pdf_files = list(deck_path.glob("*.pdf"))
         
+        # If no PDFs in root, check img/pdfs directory
         if not pdf_files:
+            pdf_dir = deck_path / "img" / "pdfs"
+            if not pdf_dir.exists():
+                log_step_result(
+                    logger,
+                    "pdf_processing",
+                    False,
+                    f"PDF directory not found at: {pdf_dir}"
+                )
+                state["error_context"] = {
+                    "error": f"PDF directory not found at: {pdf_dir}",
+                    "stage": "pdf_processing"
+                }
+                return state
+                
+            pdf_files = list(pdf_dir.glob("*.pdf"))
+            
+        if not pdf_files:
+            log_step_result(
+                logger,
+                "pdf_processing",
+                False,
+                "No PDF files found"
+            )
             state["error_context"] = {
                 "error": "No PDF files found",
-                "stage": "image_processing"
+                "stage": "pdf_processing"
             }
             return state
             
-        # Use the first PDF found
-        pdf_path = pdf_files[0]
+        # Use the first PDF file found
+        pdf_path = str(pdf_files[0])
+        logger.info(f"Found PDF file: {pdf_path}")
         
-        # Ensure output directory exists
+        # Create img/pdfs directory if it doesn't exist
+        img_dir = deck_path / "img" / "pdfs"
         img_dir.mkdir(parents=True, exist_ok=True)
         
-        # Convert PDF to images
-        images = convert_from_path(str(pdf_path))
+        # Move PDF to img/pdfs if it's in root
+        if pdf_files[0].parent == deck_path:
+            new_pdf_path = img_dir / pdf_files[0].name
+            pdf_files[0].rename(new_pdf_path)
+            pdf_path = str(new_pdf_path)
+            logger.info(f"Moved PDF to: {pdf_path}")
         
-        # Save each page as JPG with consistent naming
-        for i, image in enumerate(images, start=1):
-            output_path = img_dir / f"slide_{i:03d}.jpg"
-            image.save(output_path, "JPEG")
+        # Convert PDF pages to images
+        logger.info("Converting PDF pages to images...")
+        images = convert_from_path(pdf_path)
+        
+        # Save images
+        page_paths = []
+        for i, image in enumerate(images):
+            image_path = str(img_dir / f"page_{i+1}.png")
+            image.save(image_path, "PNG")
+            page_paths.append(image_path)
             
-        # Update state with image info
+        logger.info(f"Converted {len(page_paths)} pages to images")
+        
+        # Update state
+        state["pdf_path"] = pdf_path
         state["pdf_info"] = {
-            "page_count": len(images),
+            "num_pages": len(page_paths),
+            "page_paths": page_paths,
             "output_dir": str(img_dir)
         }
         
-        # Add success message
-        state["messages"].append(
-            AIMessage(content=f"Successfully converted PDF to {len(images)} images.")
+        log_step_result(
+            logger,
+            "pdf_processing",
+            True,
+            f"Successfully processed PDF with {len(page_paths)} pages"
         )
-        
         return state
         
     except Exception as e:
+        log_step_result(
+            logger,
+            "pdf_processing",
+            False,
+            f"Failed to process PDF: {str(e)}"
+        )
         state["error_context"] = {
             "error": str(e),
-            "stage": "image_processing"
+            "stage": "pdf_processing"
         }
         return state 
