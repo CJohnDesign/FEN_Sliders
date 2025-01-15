@@ -1,87 +1,86 @@
 [
   {
     "page": 1,
-    "title": "Premier Insurance Overview for NCE Members",
-    "summary": "This page introduces Premier's Group Hospital Fixed Indemnity and Group Accident Insurance, underwritten by United States Fire Insurance Company. The insurance plans are offered exclusively to NCE members.",
+    "title": "Premier Insurance Offer for NCE Members",
+    "summary": "This page introduces a group hospital fixed indemnity and group accident insurance plan offered exclusively to NCE members. It is underwritten by the United States Fire Insurance Company. The page features the Premier logo and an image of three people engaging socially, suggesting a focus on community and accessibility.",
     "hasTable": false
   },
   {
     "page": 2,
     "title": "Group Hospital Fixed Indemnity and Group Accident Insurance Plans",
-    "summary": "This page details various fixed indemnity and group accident insurance plans, outlining the benefits and coverage amounts for different plans labeled as 100 Plan, 200A Plan, 200+ Plan, 300 Plan, 500 Plan, 750 Plan, 1000 Plan, and 1000+ Plan. It includes specific benefit categories such as daily hospital confinement, emergency room visits, surgeries, diagnostic tests, and anesthesia. The page also mentions accidental death coverage and hospital admission benefits. The benefits vary by plan and are subject to certain conditions, including waiting periods for sickness.",
-    "hasTable": true,
-    "csv": "Benefit Type,100 Plan,200A Plan,200+ Plan,300 Plan,500 Plan,750 Plan,1000 Plan,1000+ Plan\r\nHospital Admission,$100,$200,$200,$300,$500,$750,$1000,$1000\r\nDaily Hospital Confinement,$100/day,$200/day,$200/day,$300/day,$500/day,$750/day,$1000/day,$1000/day\r\nEmergency Room Visit,$150,$300,$300,$450,$750,$1125,$1500,$1500\r\nSurgery,$500,$1000,$1000,$1500,$2500,$3750,$5000,$5000\r\nDiagnostic Tests,$50,$100,$100,$150,$250,$375,$500,$500\r\nAnesthesia,$100,$200,$200,$300,$500,$750,$1000,$1000\r\nAccidental Death,\"$10,000\",\"$20,000\",\"$20,000\",\"$30,000\",\"$50,000\",\"$75,000\",\"$100,000\",\"$100,000\""
+    "summary": "This page provides details on various group hospital fixed indemnity and accident insurance plans, specifically focusing on benefits such as daily hospital confinement, emergency room visits, surgeries, diagnostic tests, and office visits. The plans are categorized from '100 Plan' to '1000+ Plan', with corresponding benefit amounts and waiting periods. Additional benefits include accidental death coverage and hospital admission benefits, available across several states.",
+    "hasTable": false
   },
   {
     "page": 3,
-    "title": "Group Hospital Fixed Indemnity Benefit Details",
-    "summary": "This page provides detailed descriptions of various hospital-related benefits under a fixed indemnity policy. It outlines the conditions and payment details for several benefits: Hospital Admission Benefit, Daily Hospital Confinement Benefit, Daily Intensive Care/Coronary Care Unit Benefit, Daily Inpatient Surgery Benefit, Daily Inpatient Surgery Anesthesia Benefit, and Daily Emergency Room Visits Benefit for Sickness and Injury. Each section specifies the conditions under which benefits are paid, such as medically necessary hospital stays, ICU confinements, surgeries, and emergency room visits. The document also notes the limitations and conditions for these benefits.",
+    "title": "Group Hospital Fixed Indemnity Benefits Overview",
+    "summary": "This page outlines various benefits under the Group Hospital Fixed Indemnity Policy. It details specific provisions, including the Hospital Admission Benefit, which applies when a covered person is hospitalized under certain conditions. The Daily Hospital Confinement Benefit is paid if the person is confined as an inpatient. The Daily Intensive Care/Coronary Care Unit Benefit covers ICU/CCU stays under specific conditions. The Daily Inpatient Surgery Benefit and Daily Inpatient Surgery Anesthesia Benefit are provided for surgeries due to covered accidents or sickness. Lastly, the Daily Emergency Room Visits Benefit covers emergency room treatments due to accidents or sickness, distinguishing between trauma centers and regular clinics. Each benefit has specific conditions and payment terms.",
     "hasTable": false
   },
   {
     "page": 4,
     "title": "Group Hospital Fixed Indemnity Description of Benefits",
-    "summary": "The page outlines various benefits under a group hospital fixed indemnity plan. It includes details on daily outpatient surgery benefits, specifying that surgeries must be medically necessary and performed in specific facilities like hospitals or ambulatory surgical centers. Anesthesia benefits are covered for outpatient surgeries. Physician's office visits are covered if medically necessary due to injury or sickness. It also details inpatient and outpatient diagnostic radiology and imaging benefits, specifying conditions for coverage. Inpatient and outpatient laboratory test benefits are outlined, with conditions for coverage.",
+    "summary": "This page outlines various benefits under a group hospital fixed indemnity plan, including daily outpatient surgery, anesthesia, physician office visits, and diagnostic radiology benefits. It details the conditions under which these benefits are payable, such as the necessity of medical procedures and the requirement for procedures to be ordered by licensed professionals. It also differentiates between inpatient and outpatient benefits for diagnostic radiology and laboratory tests, specifying eligibility criteria for coverage.",
     "hasTable": false
   },
   {
     "page": 5,
-    "title": "Group Accident Benefits Overview",
-    "summary": "This page outlines the benefits available under a group accident policy, including Hospital Admission, Daily Hospital Confinement, and Daily Intensive Care/Coronary Care Unit benefits. It explains the conditions under which these benefits are paid, such as medical necessity and policy coverage dates. Additionally, it covers Daily Physician's Office Visits, Emergency Room Visits for Sickness and Injury, and Anesthesia Benefits for both inpatient and outpatient surgeries. Each section specifies the eligibility criteria and the circumstances leading to the termination of benefit payments.",
+    "title": "Group Accident Benefits Description",
+    "summary": "This page outlines the benefits available under a group accident policy. It details various coverage areas, including Hospital Admission, Daily Hospital Confinement, Daily Physician\u2019s Office Visits, Daily Inpatient and Outpatient Surgery Anesthesia, Daily Intensive Care/Coronary Care Unit, and Daily Emergency Room Visits for Sickness and Injury. Each benefit has specific conditions for eligibility and termination dates, such as hospital stay duration or policy end date.",
     "hasTable": false
   },
   {
     "page": 6,
     "title": "Group Accident Description of Benefits",
-    "summary": "This page outlines the benefits provided under a group accident insurance plan for various medical services. It includes details on Daily Inpatient and Outpatient Surgery Benefits, specifying conditions under which a covered person can claim these benefits. The document also discusses Daily Inpatient and Outpatient Diagnostic Radiology, X-ray, and Imaging Benefits, explaining the eligibility criteria for receiving these services. Additionally, it describes Daily Inpatient and Outpatient Laboratory Test Benefits, outlining the requirements for coverage of laboratory tests.",
+    "summary": "This page outlines the benefits provided under a group accident policy for both inpatient and outpatient services. It includes details about the Daily Inpatient and Outpatient Surgery Benefits, which cover medically necessary surgeries resulting from accidents or sickness. It also describes the Daily Inpatient and Outpatient Diagnostic Radiology, X-ray, and Imaging Benefits, specifying conditions for receiving these benefits. Furthermore, it explains the Daily Inpatient and Outpatient Laboratory Test Benefits, highlighting the criteria for eligibility and the scope of covered laboratory tests.",
     "hasTable": false
   },
   {
     "page": 7,
     "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
-    "summary": "This page outlines the exclusions of the Limited Fixed Indemnity insurance portion of the membership. It lists circumstances under which the insurance does not cover losses, including self-inflicted injuries, war, illegal acts, substance abuse, and certain medical treatments. Specific exclusions involve treatments related to mental illness, substance abuse, experimental drugs, pregnancy, elective abortion, and more. Services rendered by non-approved medical personnel or in specific federal facilities are also excluded.",
+    "summary": "This page outlines the exclusions for the Limited Fixed Indemnity insurance portion of a membership. It lists various conditions and scenarios where coverage is not provided, including suicide, acts of war, certain medical treatments like mental illness or substance abuse, injuries involving illegal activities, and experimental procedures. It also excludes services related to pregnancy, elective abortions, and specific dental and orthodontic treatments, among others.",
     "hasTable": false
   },
   {
     "page": 8,
-    "title": "Group Hospital Fixed Indemnity Benefit Exclusions Continued",
-    "summary": "This page outlines additional exclusions to the group hospital fixed indemnity benefits. Exclusions include treatment related to blood or plasma, routine vision care, accidents involving unlicensed motor vehicle operation, and various travel-related scenarios. It also mentions exclusions for rest cures, custodial care, certain prescriptions, elective or cosmetic surgery, and physiotherapy services. Additionally, there is a limitation on coverage for pre-existing conditions, which are not covered for the first 12 months after the coverage start date. The insurance is described as a limited policy, not intended to replace comprehensive medical insurance or provide major medical coverage.",
+    "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+    "summary": "Page 8 outlines specific exclusions under the Group Hospital Fixed Indemnity policy. Exclusions include treatments such as blood or plasma transfusions and routine vision care. Accidents involving motor vehicles without a valid license are not covered, nor are certain travel-related incidents, like aerial navigation without proper licensing. The policy also excludes elective or cosmetic surgeries, and physiotherapy services unless specified. A pre-existing conditions limitation is noted, excluding coverage for the first 12 months. The policy emphasizes its limitations, stating it is not comprehensive medical insurance and not a substitute for major medical coverage.",
     "hasTable": false
   },
   {
     "page": 9,
     "title": "Group Accident Benefit Exclusions",
-    "summary": "This page outlines various exclusions under a Group Accident Benefit Certificate. It lists specific conditions and scenarios where losses are not covered, such as self-inflicted injuries, participation in illegal activities, injuries sustained during military service, and medical conditions like heart attacks or pregnancy-related issues. The document specifies that injuries resulting from intoxication, drug use, and other specified medical treatments are also excluded from coverage.",
+    "summary": "This page outlines exclusions for group accident benefits, detailing circumstances under which losses are not covered. These include self-inflicted injuries, war-related incidents, injuries during military service, participation in riots, and injuries from illegal activities. Exclusions also cover medical conditions like mental disorders, intoxication, treatment not related to a covered accident, and specific conditions such as heart attacks and pregnancy-related issues. Additional exclusions involve injuries during illegal activities, motorized races, and other specified medical conditions.",
     "hasTable": false
   },
   {
     "page": 10,
     "title": "Group Accident Benefit Exclusions (Continued)",
-    "summary": "This page outlines specific exclusions related to group accident benefits. It lists various conditions and scenarios where benefits are not payable, such as treatments for temporomandibular joint disorders, dental care not related to accidents, and certain blood treatments. It also excludes coverage for eyewear, hearing aids, certain motor vehicle accidents, and specific travel situations. Additional exclusions include participation in professional sports, replacement of prosthetic devices, cosmetic surgeries, and rest cures. The document emphasizes that this insurance provides limited benefits and is not a substitute for comprehensive medical coverage.",
+    "summary": "This page outlines specific exclusions from group accident benefits. It lists various medical and non-medical scenarios where expenses are not covered, such as treatment for TMJ disorders, dental care unrelated to accidents, certain blood treatments, and eye-related services. It also excludes accidents involving unlicensed motor vehicle operation, specific kinds of travel, participation in sports, and elective surgeries. The policy emphasizes that benefits are only payable for specific losses from accidents and not for sickness or comprehensive medical coverage.",
     "hasTable": false
   },
   {
     "page": 11,
     "title": "Termination of Insurance Policies",
-    "summary": "This page outlines the conditions under which different types of insurance coverage terminate. It includes information on the termination of the policyholder's insurance, the insured person's termination, and the dependent's termination. The policy terminates automatically on the policy expiration date or if premiums are not paid. Insurance for an insured person ends on the earliest of specified conditions such as not being in an eligible class, reporting for military duty, or request by the insured person. A dependent's insurance ends when the policy terminates, their coverage ends, they are no longer a dependent, or the premium period ends. Additionally, there is information about the insurance premium related to coverage underwritten by the United States Fire Insurance Company, detailing various premium rates for different coverage levels.",
+    "summary": "This page outlines the conditions under which insurance policies can be terminated for policyholders, insured individuals, and dependents. The Policy Termination Date describes automatic termination conditions, such as the policy expiration date or failure to pay premiums. It also explains the process for termination by the policyholder or company, including refund policies for overpaid premiums. The Insured Person\u2019s Termination Date lists conditions like ineligibility or active military duty. The Dependent\u2019s Termination Date covers situations like policy termination or dependent status change. At the bottom, there are details about insurance premiums underwritten by the United States Fire Insurance Company, including rates for various membership tiers.",
     "hasTable": false
   },
   {
     "page": 12,
-    "title": "NCE Association Membership Overview",
-    "summary": "This page provides information about the National Congress of Employers (NCE), highlighting its role in supporting small and medium-sized businesses with services and resources. It discusses membership benefits, including non-insurance offerings and insurance enrollment for individuals and families. Details about the membership packet, ID cards, and the Premier Plan's insured benefits are provided. The plan offers limited accident-only insurance, emphasizing the terms and conditions of coverage. Additionally, the page outlines insurance eligibility criteria for members under age 65 and their dependents.",
+    "title": "NCE Association Membership Information",
+    "summary": "This page provides details about the National Congress of Employers (NCE) membership, which offers benefits to small and medium-sized businesses. It outlines the membership process, including receiving a membership packet and ID cards after successful payment. The page explains the Premier Plan Insured Benefits, highlighting that it is a limited benefit accident-only plan. It also covers insurance eligibility information, specifying criteria for Group Hospital Fixed Indemnity and Group Accident Insurance Plans, including age limits and conditions for eligibility.",
     "hasTable": false
   },
   {
     "page": 13,
     "title": "NCE Association Membership Benefits Overview",
-    "summary": "This page outlines the benefits provided by the NCE Association membership, including no waiting periods or pre-existing condition limitations for services such as medical, pharmacy, vision, dental, hearing, and alternative care. The GapAfford Plus program offers savings on medical expenses with no limits on usage, deductibles, medical exams, or age restrictions. Members can access pre-negotiated, lowered rates. The First Health Network provides discounts by re-pricing claims to reduce out-of-pocket costs. Services are available nationwide, covering doctors, hospitals, clinics, and labs.",
+    "summary": "This page outlines the benefits provided by NCE Association Membership, highlighting that there are no waiting periods or pre-existing condition limitations. Members receive discounts on medical services through the First Health Network, including pharmacy, vision, dental, hearing, and alternative care. The GapAfford Plus program offers savings on medical expenses without deductibles, medical exams, or age restrictions. Additionally, members can access a network of providers across all 50 states for reduced out-of-pocket costs.",
     "hasTable": false
   },
   {
     "page": 14,
     "title": "NCE Association Membership Benefits - GapAfford Plus Overview",
-    "summary": "This page provides an overview of the benefits available through the GapAfford Plus program. It covers various health-related services and discounts, including prescription drug benefits, dental network access, vision network savings, and hearing savings. Additional services include imaging savings, chiropractic care, medical bill negotiations, and access to medical supplies and equipment. The page also highlights the Laboratory Savings Program, physical therapy discounts, and savings on vitamins and supplements. Furthermore, it offers information on 24/7 health information and nurse help lines.",
+    "summary": "The page details the various benefits available under the GapAfford Plus program for NCE Association members, including discounts on prescription medications, dental services, vision care, and medical supplies. Key highlights include prescription discounts with a nationwide pharmacy network, dental savings through the Aetna Dental Access\u00ae Network, and vision care through The OUTLOOK Vision Network. Additional benefits include savings on hearing aids, imaging services, chiropractic care, laboratory tests, and vitamins. The program also offers 24/7 access to health information and nurse help lines.",
     "hasTable": false
   }
 ]

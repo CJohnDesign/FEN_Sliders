@@ -1,59 +1,79 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on Premier Insurance. We'll walk through the plan's benefits and details. Let's get started!
+Hello, everyone! Thank you for joining today's session on the Premier Insurance Offer. We'll walk through the plan's purpose, benefits, and details specifically designed for NCE members. Let's get started!
 
----- Premier Overview ----
+---- Premier Insurance Offer Overview ----
 
-Premier Insurance is introduced through the National Congress of Employers, or NCE, which provides membership benefits to support small and medium-sized businesses. This plan includes a basic coverage framework with fixed indemnity and group accident insurance plans, underwritten by the United States Fire Insurance Company.
+The Premier Insurance Offer introduces a group hospital fixed indemnity and group accident insurance plan, emphasizing accessibility and community for NCE members. This plan is underwritten by United States Fire Insurance Company and focuses on hospital, accident, and indemnity benefits. It’s offered exclusively to those who are part of the NCE association.
 
 ---- Key Features and Benefits ----
 
-One of the key features of Premier Insurance includes telehealth services, allowing you to consult with healthcare professionals from the comfort of your home. Preventive care and wellness programs are also available to help maintain your health. Additionally, you have access to advocacy and support services, as well as medical bill management, to assist with any billing concerns. All these services are part of the membership benefits through NCE.
+With this plan, you’ll have access to a variety of services, including Telehealth Services, which offer 24/7 access to consultations and specialist referrals. There’s a strong emphasis on Preventive Care and Wellness, providing health check-up services and wellness coaching programs. Advocacy and Support Services are also available, giving you personalized healthcare advocacy and guidance. Lastly, the plan includes Medical Bill Management to help you navigate your expenses efficiently.
 
----- Plans 100 Plan and 200A Plan (One of Two) ----
+---- Cost Management Tools ----
 
-The 100 Plan and 200A Plan offer daily hospital confinement benefits, providing a daily amount for up to three hundred sixty-five days. For emergency room visits, there's a benefit per visit, up to ten visits. Surgeries and diagnostic tests are covered with a per-procedure benefit, and anesthesia is included with a maximum benefit limit. Accidental death coverage is also provided, along with hospital admission benefits.
+Managing your costs is made easier with our Cost Management Tool, which features an automated billing system and comprehensive customer support services to assist you in tracking expenses and maintaining financial control.
 
----- Plans 100 Plan and 200A Plan (Two of Two) ----
+---- How Cost Management Tool Works ----
 
-These plans continue to offer coverage for anesthesia with specific benefits per procedure, and a total maximum benefit. Accidental death coverage offers a significant amount, and hospital admission benefits are provided per admission.
+Enrolling through NCE gives you access to an online portal where you can submit claims easily and receive monthly reports. This tool is designed to help you track your expenses efficiently, providing enhanced financial control over your healthcare spending.
 
----- Plans 200+ Plan and 300 Plan (One of Two) ----
+---- Preventive Care and Wellness ----
 
-The 200+ Plan and 300 Plan enhance the benefits offered. Daily hospital confinement benefits increase, along with the amount per emergency room visit. Surgeries and diagnostics see a higher per-procedure benefit, ensuring more comprehensive coverage.
+The plan's preventive care and wellness offerings include comprehensive health check-up services and wellness coaching programs. We also partner with various services to provide you with even more wellness options.
 
----- Plans 200+ Plan and 300 Plan (Two of Two) ----
+---- Telehealth Services ----
 
-Anesthesia benefits increase with these plans, and the accidental death coverage amount is higher. Hospital admission benefits also see an increase per admission.
+Enjoy the convenience of 24/7 access to remote consultations and specialist referrals, ensuring you have the care you need when you need it, without the hassle of travel.
 
----- Plans 500 Plan and 750 Plan (One of Two) ----
+---- Advocacy and Support Services ----
 
-The 500 Plan and 750 Plan further increase the daily hospital confinement benefits and emergency room visit amounts. Surgeries and diagnostics are covered with an even higher per-procedure benefit.
+Our advocacy and support services offer personalized healthcare advocacy, guidance, and assistance, along with various resource options to support your wellness journey.
 
----- Plans 500 Plan and 750 Plan (Two of Two) ----
+---- 100 Plan (One of Two) ----
 
-Anesthesia benefits continue to rise, with a substantial maximum benefit. Accidental death coverage is significantly increased, alongside generous hospital admission benefits.
+Let's dive into the 100 Plan. It includes core hospital benefits such as a daily hospital confinement benefit of one hundred dollars per day, an intensive care unit benefit of two hundred dollars per day, and an emergency room visits benefit of fifty dollars per visit.
 
----- Plans 1000 Plan and 1000+ Plan (One of Two) ----
+---- 100 Plan (Two of Two) ----
 
-With the 1000 Plan and 1000+ Plan, outpatient surgery benefits are offered with a high per-procedure amount and a maximum benefit. Physician office visits are included with a specified number of visits per year, and diagnostic radiology procedures are covered with a per-procedure benefit.
+In addition to core benefits, the 100 Plan offers a hospital admission benefit of five hundred dollars and accidental death coverage of twenty thousand dollars.
 
----- Plans 1000 Plan and 1000+ Plan (Two of Two) ----
+---- 200A Plan (One of Two) ----
 
-These plans provide coverage for imaging and lab tests per test, with a maximum number of tests per year. Additional coverage includes extended benefits, while enhanced wellness benefits offer annual checkups.
+The 200A Plan enhances your coverage with a daily hospital confinement benefit of two hundred dollars per day, an intensive care unit benefit of four hundred dollars per day, and an emergency room visits benefit of one hundred dollars per visit.
+
+---- 200A Plan (Two of Two) ----
+
+This plan also includes a hospital admission benefit of one thousand dollars and accidental death coverage of forty thousand dollars.
+
+---- 500 Plan (One of Two) ----
+
+Stepping up to the 500 Plan, you receive a daily hospital confinement benefit of five hundred dollars per day, an intensive care unit benefit of one thousand dollars per day, and an emergency room visits benefit of two hundred dollars per visit.
+
+---- 500 Plan (Two of Two) ----
+
+Additionally, the 500 Plan provides a hospital admission benefit of two thousand five hundred dollars and accidental death coverage of one hundred thousand dollars.
+
+---- 1000+ Plan (One of Two) ----
+
+The 1000+ Plan offers a robust daily hospital benefit of one thousand dollars per day, intensive care unit benefit of two thousand dollars per day, and emergency room visits benefit of five hundred dollars per visit.
+
+---- 1000+ Plan (Two of Two) ----
+
+In this plan, you also benefit from a hospital admission benefit of five thousand dollars and accidental death coverage of two hundred thousand dollars.
 
 ---- Comparing the Plans ----
 
-When comparing the plans, each offers variations in daily hospital benefits, emergency room visit amounts, surgery, and anesthesia benefits. Accidental death coverage also varies across the 100, 200A, and 300 plans, allowing you to select the level of coverage that best suits your needs.
+As we compare the plans, you’ll notice the progression of benefits from the 100 Plan to the 1000+ Plan. Daily hospital benefits range from one hundred dollars in the 100 Plan to one thousand dollars in the 1000+ Plan. Intensive care benefits progress similarly, and emergency room visit benefits range from fifty dollars to five hundred dollars. Admission benefits increase from five hundred dollars to five thousand dollars, and accidental death coverage spans from twenty thousand dollars to two hundred thousand dollars.
 
 ---- Definitions and Limitations ----
 
-It's important to be aware of the exclusions in the group hospital fixed indemnity and accident benefits, which include self-inflicted injuries, illegal acts, and specific medical conditions. Insurance termination conditions include policy expiration, non-payment of premiums, and changes in eligibility, such as membership changes.
+It's important to understand the limitations and definitions associated with the plan. Required disclosures highlight exclusions for specific medical conditions and scenarios, emphasizing that this is not comprehensive medical insurance. The policy also outlines conditions for termination and eligibility maintenance.
 
 ---- Key Takeaways and Reminders ----
 
-As we wrap up, remember the coverage variations and specific conditions included in each plan. It's crucial to note that these insurance options provide limited benefits and are not substitutes for comprehensive medical coverage. However, membership benefits extend beyond insurance, offering access to discounted services and resources nationwide.
+Key takeaways include an overview of the core benefits and the different plans available, each with its own set of features. Remember that exclusions apply to coverage, and maintaining eligibility is crucial for benefiting from the plan.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about Premier Insurance. Continue to be great!
+Thank you for taking the time to learn about the Premier Insurance Offer. Remember, understanding your coverage is key to making the most out of your benefits. Continue to be great!

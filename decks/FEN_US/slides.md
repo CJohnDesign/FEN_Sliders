@@ -2,10 +2,10 @@
 id: FEN_001
 theme: ../../
 title: | 
-  Premier Insurance
+  Premier Insurance Offer
 info: |
-  ## Premier Insurance Review
-  A comprehensive look at the Premier Insurance benefits and details.
+  ## Premier Insurance Offer Review
+  A comprehensive look at the Premier Insurance Offer benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -18,24 +18,24 @@ drawings:
 
 <SlideAudio deckKey="FEN_001" />
 
-# Premier Insurance Review
+# Premier Insurance Offer Review
 
-Understanding the details and benefits of the **Premier Insurance**
+Understanding the details and benefits of the **Premier Insurance Offer**
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Premier Overview
+## Premier Insurance Offer Overview
 
 <v-clicks>
 
-- **Introduction** to Premier through **NCE**
-- **Association Membership** benefits
-- **Basic Coverage** framework
-- **Fixed Indemnity** and accident plans
-- **Membership Benefits** support
+- **Introduction & Overview** through **NCE**
+- **Basic coverage** framework
+- **Association membership** benefits
+- **Hospital, accident,** indemnity focus
+- **United States Fire** underwriter
 
 </v-clicks>
 
@@ -55,47 +55,124 @@ layout: default
 **Advocacy & Support**
 
 **Medical Bill Management**
+
 </v-clicks>
 
 <v-click>
 
-**Membership Benefits** through **NCE**
+**Additional Support** through partners
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="NCE Logo">
+  <img src="" class="h-12 mix-blend-multiply" alt="Brand Logo">
 </div>
 
 </v-click>
 
 ---
 transition: fade-out
+layout: default
+---
+
+## Cost Management Tools
+
+<v-click>
+
+<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
+  <img src="" class="h-24 mix-blend-multiply" alt="Cost Management Tool Logo">
+</div>
+
+**Cost Management Tool** (CMT)
+</v-click>
+
+<v-click>
+
+**Automated Billing** System
+</v-click>
+
+<v-click>
+
+**Customer Support** Services
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+## How Cost Management Tool Works
+
+<v-clicks>
+
+1. Enroll through **NCE**
+2. Access online portal
+3. Submit claims easily
+4. Receive monthly **CMT** reports
+5. Track expenses efficiently
+6. **Enhanced Financial Control**
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Preventive Care and Wellness
+
+<v-clicks>
+
+- **Health Check-Up** Services
+- **Wellness Coaching** Programs
+- **Partnered Services** for wellness
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Telehealth Services
+
+<v-clicks>
+
+- **24/7 Access**
+- **Remote Consultations**
+- **Specialist Referrals** available
+- **Convenient Access** to care
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Advocacy and Support Services
+
+<v-clicks>
+
+- **Personalized** healthcare advocacy
+- **Guidance** and assistance
+- **Resource** options
+- **Wellness Support** services
+
+</v-clicks>
+
+---
+transition: fade-out
 layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Plans 100 Plan and 200A Plan (1/2)
+## 100 Plan (1/2)
 
 <v-click>
 
-**Daily Hospital Confinement**
-- Daily Benefit: **$100**
-- Maximum Days: **365**
+**Core hospital benefits**
+- Daily Hospital: **$100/day**
+- Intensive Care: **$200/day**
+- Emergency Room: **$50/visit**
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Emergency Room Visits**
-- Per Visit: **$200**
-- Maximum Visits: **10**
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Surgeries & Diagnostics**
-- Per Procedure: **$500**
-- Tests Covered: **10/year**
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -104,28 +181,14 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Plans 100 Plan and 200A Plan (2/2)
+## 100 Plan (2/2)
 
 <v-click>
 
-**Anesthesia**
-- Per Procedure: **$200**
-- Maximum Benefit: **$2,000**
+**Additional benefits**
+- Admission Benefit: **$500**
+- Accidental Death: **$20,000**
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Accidental Death Coverage**
-- Benefit Amount: **$10,000**
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Hospital Admission Benefits**
-- Per Admission: **$500**
-<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -134,30 +197,15 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_2.jpg
 ---
 
-## Plans 200+ Plan and 300 Plan (1/2)
+## 200A Plan (1/2)
 
 <v-click>
 
-**Daily Hospital Confinement**
-- Increased Benefit: **$150**
-- Maximum Days: **365**
+**Core hospital benefits**
+- Daily Hospital: **$200/day**
+- Intensive Care: **$400/day**
+- Emergency Room: **$100/visit**
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Emergency Room Visits**
-- Per Visit: **$250**
-- Maximum Visits: **10**
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Surgeries & Diagnostics**
-- Per Procedure: **$600**
-- Tests Covered: **10/year**
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -166,28 +214,14 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_2.jpg
 ---
 
-## Plans 200+ Plan and 300 Plan (2/2)
+## 200A Plan (2/2)
 
 <v-click>
 
-**Anesthesia**
-- Per Procedure: **$250**
-- Maximum Benefit: **$2,500**
+**Additional benefits**
+- Admission Benefit: **$1,000**
+- Accidental Death: **$40,000**
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Accidental Death Coverage**
-- Benefit Amount: **$15,000**
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Hospital Admission Benefits**
-- Per Admission: **$600**
-<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -196,30 +230,15 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_3.jpg
 ---
 
-## Plans 500 Plan and 750 Plan (1/2)
+## 500 Plan (1/2)
 
 <v-click>
 
-**Daily Hospital Confinement**
-- Increased Benefit: **$200**
-- Maximum Days: **365**
+**Core hospital benefits**
+- Daily Hospital: **$500/day**
+- Intensive Care: **$1,000/day**
+- Emergency Room: **$200/visit**
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Emergency Room Visits**
-- Per Visit: **$300**
-- Maximum Visits: **10**
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Surgeries & Diagnostics**
-- Per Procedure: **$700**
-- Tests Covered: **10/year**
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -228,28 +247,14 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_3.jpg
 ---
 
-## Plans 500 Plan and 750 Plan (2/2)
+## 500 Plan (2/2)
 
 <v-click>
 
-**Anesthesia**
-- Per Procedure: **$300**
-- Maximum Benefit: **$3,000**
+**Additional benefits**
+- Admission Benefit: **$2,500**
+- Accidental Death: **$100,000**
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Accidental Death Coverage**
-- Benefit Amount: **$20,000**
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Hospital Admission Benefits**
-- Per Admission: **$700**
-<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -258,60 +263,31 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_4.jpg
 ---
 
-## Plans 1000 Plan and 1000+ Plan (1/2)
+## 1000+ Plan (1/2)
 
 <v-click>
 
-**Outpatient Surgery**
-- Per Procedure: **$1,000**
-- Maximum Benefit: **$5,000**
+**Core hospital benefits**
+- Daily Hospital: **$1,000/day**
+- Intensive Care: **$2,000/day**
+- Emergency Room: **$500/visit**
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
-<v-click>
-
-**Physician Office Visits**
-- Per Visit: **$100**
-- Maximum Visits: **10/year**
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Diagnostic Radiology**
-- Per Procedure: **$150**
-- Maximum Procedures: **10/year**
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
 ---
 transition: fade-out
 layout: one-half-img
 image: img/pages/plan_brochure_image_4.jpg
 ---
 
-## Plans 1000 Plan and 1000+ Plan (2/2)
+## 1000+ Plan (2/2)
 
 <v-click>
 
-**Imaging & Lab Tests**
-- Per Test: **$75**
-- Maximum Tests: **10/year**
+**Additional benefits**
+- Admission Benefit: **$5,000**
+- Accidental Death: **$200,000**
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Additional Coverage**
-- Extended Benefits: **$1,500**
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Enhanced Wellness**
-- Annual Checkup: **$100**
-<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -321,13 +297,13 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **100 Plan** | **200A Plan** | **300 Plan** |
-|---------|----------|----------|-----------|
-| Daily Hospital | $100 | $150 | $200 |
-| ER Visits | $200 | $250 | $300 |
-| Surgeries | $500 | $600 | $700 |
-| Anesthesia | $200 | $250 | $300 |
-| Accidental Death | $10,000 | $15,000 | $20,000 |
+| **Feature** | **100 Plan** | **200A Plan** | **500 Plan** | **1000+ Plan** |
+|---------|----------|----------|-----------|-----------|
+| Daily Hospital | $100/day | $200/day | $500/day | $1,000/day |
+| Intensive Care | $200/day | $400/day | $1,000/day | $2,000/day |
+| Emergency Room | $50/visit | $100/visit | $200/visit | $500/visit |
+| Admission Benefit | $500 | $1,000 | $2,500 | $5,000 |
+| Accidental Death | $20,000 | $40,000 | $100,000 | $200,000 |
 
 ---
 transition: fade-out
@@ -339,26 +315,19 @@ image: img/pages/plan_brochure_image_final.jpg
 
 <v-click>
 
-**Exclusions**
-- Self-inflicted injuries
-- Illegal acts
-- Specific medical conditions
+**Required Disclosures**
+- Exclusions: **Specific conditions**
+- Not comprehensive: **Limited coverage**
+- Policy limits: **Defined scenarios**
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Termination Conditions**
-- Policy expiration
-- Non-payment
+**Policy Conditions**
+- Termination: **Defined terms**
+- Eligibility: **Continued criteria**
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Eligibility Changes**
-- Membership changes
-<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -370,10 +339,10 @@ layout: default
 
 <v-clicks>
 
-- **Coverage Variations** benefits
-- **Specific Conditions** included
-- **Limited Benefits** available
-- **Membership Resources** required
+- **Core Benefits** offered
+- **Varied Plans** available
+- **Exclusions Apply** to coverage
+- **Eligibility** required for benefits
 
 </v-clicks>
 
@@ -387,4 +356,4 @@ line: Thank you for participating in the Premier Insurance Offer Review. Continu
 
 Continue to be great!
 
-<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="Premier Logo">
+<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="Brand Logo">

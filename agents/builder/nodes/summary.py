@@ -3,7 +3,7 @@ import json
 import base64
 import logging
 from pathlib import Path
-from ...utils import llm_utils
+from ...utils import llm_utils, deck_utils
 from ..state import BuilderState
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
@@ -197,18 +197,15 @@ async def process_summaries(state: BuilderState) -> BuilderState:
             tags=["summary_processing", "markdown_generation"]
         )
         
-        # Extract CSV data from summaries
-        csv_data = None
-        for summary in state["page_summaries"]:
-            if summary.get("hasTable") and summary.get("csv"):
-                # CSV is already clean, use it directly
-                csv_data = summary["csv"]
-                break
+        # Get all table data using utility function
+        deck_dir = Path(state["deck_info"]["path"])
+        tables_data = deck_utils.load_tables_data(deck_dir)
         
-        # Create system prompt with CSV data if available
+        # Create system prompt with table data if available
         system_content = """You are an expert at organizing and structuring content for presentations. Your task is to generate a markdown outline that organizes content in an educational format.
 
-The outline should:
+The outline should follow this structure, using the CSV data to guide the plan sections:
+
 ## 1. Core Plan Elements
 - **Introduction & Overview**
   - Plan purpose and scope
@@ -221,32 +218,56 @@ The outline should:
 - **Advocacy & Support**
 - **Medical Bill Management**
 
-## 3. Plan Tiers (each plan has 2 tiers)
+## 3. Plan Tiers
+IMPORTANT: For this section, use the CSV data to create plan sections. Each plan from the CSV (each column after "Benefit Type") should be split into two parts:
+1. First part (1/2): Core hospital and emergency benefits
+2. Second part (2/2): Additional benefits and coverage details
 
-<!-- Return sets of two for each plan -->
+For example, if the CSV has columns: "Benefit Type, 100 Plan, 200A Plan, 500 Plan", create:
+### 100 Plan (1/2)
+- Core hospital benefits with exact amounts
+- Emergency coverage details
 
-### Plans 1 (1/2)
-- Benefits details list
+### 100 Plan (2/2)
+- Additional benefits
+- Coverage specifics
 
-### Plans 1 (2/2)
-- Benefits details list"""
+[Continue for each plan in the CSV]
 
-        # Add CSV data if available
-        if csv_data:
-            system_content += f"\n\nHere is the CSV data of benefits:\n{csv_data}\n\n"
-
-        system_content += """
 ## 4. Limitations & Definitions
 - **Required Disclosures**
 
 ## 5. Key Takeaways
 - Plan comparison highlights
 - Important reminders"""
-        
+
+        # Add table data if available
+        if tables_data["tables"]:
+            system_content += "\n\nIMPORTANT - Use this benefits data to create the plan sections:\n"
+            for table in tables_data["tables"]:
+                system_content += f"\nBenefit Table (Page {table['page']}):\n```csv\n{table['data']}\n```\n"
+                system_content += """
+Instructions for using this table:
+1. Each column (after "Benefit Type") represents a different plan
+2. Split each plan's benefits into two sections (1/2 and 2/2)
+3. Use exact dollar amounts and benefit names from the table
+4. Group similar benefits together in each section
+5. Maintain the exact benefit values as shown in the CSV
+"""
+
         # Create messages array
         messages = [
             SystemMessage(content=system_content),
-            HumanMessage(content=f"Please organize the following summaries into a structured markdown outline:\n\n{summaries_text}")
+            HumanMessage(content=f"""Using the summaries below and the benefit tables above, create a structured markdown outline that:
+1. Uses each CSV column to create two-part plan sections
+2. Maintains exact benefit amounts and names
+3. Groups similar benefits together
+4. Creates a natural progression from basic to premium plans
+5. Includes all plans from the CSV data
+
+Here are the summaries to incorporate:
+
+{summaries_text}""")
         ]
         
         # Generate content

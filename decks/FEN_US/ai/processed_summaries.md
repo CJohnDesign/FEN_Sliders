@@ -1,14 +1,9 @@
 ```markdown
-# Premier Insurance Overview for NCE Members
-
 ## 1. Core Plan Elements
 - **Introduction & Overview**
-  - Plan purpose and scope
-    - Introduction to Premier's Group Hospital Fixed Indemnity and Group Accident Insurance, exclusively for NCE members.
-  - Association membership (BWA, NCE, etc.)
-    - Membership benefits of the National Congress of Employers (NCE), supporting small and medium-sized businesses.
-  - Basic coverage framework
-    - Overview of fixed indemnity and group accident insurance plans underwritten by the United States Fire Insurance Company.
+  - Plan purpose and scope: Introduces a group hospital fixed indemnity and group accident insurance plan specifically for NCE members, emphasizing community and accessibility.
+  - Association membership: Offered to NCE members, underwritten by United States Fire Insurance Company.
+  - Basic coverage framework: Focus on hospital, accident, and indemnity benefits.
 
 ## 2. Common Service Features
 - **Telehealth Services**
@@ -16,39 +11,70 @@
 - **Advocacy & Support**
 - **Medical Bill Management**
 
-## 3. Plan Tiers (each plan has 2 tiers)
+## 3. Plan Tiers
 
-### Plans 100 Plan and 200A Plan (1/2)
-- Benefits details list
-  - Daily hospital confinement
-  - Emergency room visits
-  - Surgeries and diagnostic tests
-  - Anesthesia
-  - Accidental death coverage
-  - Hospital admission benefits
+### 100 Plan (1/2)
+- Core hospital benefits:
+  - Daily Hospital Confinement Benefit
+  - Daily Intensive Care/Coronary Care Unit Benefit
+- Emergency coverage details:
+  - Daily Emergency Room Visits Benefit
 
-### Plans 200+ Plan and 300 Plan (2/2)
-- Benefits details list
-  - Continuation of the benefits outlined above with varying coverage amounts.
+### 100 Plan (2/2)
+- Additional benefits:
+  - Hospital Admission Benefit
+- Coverage specifics:
+  - Accidental Death Coverage
 
-### Plans 500 Plan and 750 Plan (1/2)
-- Benefits details list
-  - Details on hospital-related benefits under a fixed indemnity policy.
+### 200A Plan (1/2)
+- Core hospital benefits:
+  - Daily Hospital Confinement Benefit
+  - Daily Intensive Care/Coronary Care Unit Benefit
+- Emergency coverage details:
+  - Daily Emergency Room Visits Benefit
 
-### Plans 1000 Plan and 1000+ Plan (2/2)
-- Benefits details list
-  - Additional coverage for outpatient surgery, physician office visits, diagnostic radiology, imaging, and laboratory tests.
+### 200A Plan (2/2)
+- Additional benefits:
+  - Hospital Admission Benefit
+- Coverage specifics:
+  - Accidental Death Coverage
+
+### 500 Plan (1/2)
+- Core hospital benefits:
+  - Daily Hospital Confinement Benefit
+  - Daily Intensive Care/Coronary Care Unit Benefit
+- Emergency coverage details:
+  - Daily Emergency Room Visits Benefit
+
+### 500 Plan (2/2)
+- Additional benefits:
+  - Hospital Admission Benefit
+- Coverage specifics:
+  - Accidental Death Coverage
+
+### 1000+ Plan (1/2)
+- Core hospital benefits:
+  - Daily Hospital Confinement Benefit
+  - Daily Intensive Care/Coronary Care Unit Benefit
+- Emergency coverage details:
+  - Daily Emergency Room Visits Benefit
+
+### 1000+ Plan (2/2)
+- Additional benefits:
+  - Hospital Admission Benefit
+- Coverage specifics:
+  - Accidental Death Coverage
 
 ## 4. Limitations & Definitions
 - **Required Disclosures**
-  - Exclusions for group hospital fixed indemnity and accident benefits, including self-inflicted injuries, illegal acts, and specific medical conditions.
-  - Termination conditions for insurance coverage including policy expiration, non-payment of premiums, and changes in eligibility.
+  - Exclusions for the Limited Fixed Indemnity insurance, including specific medical conditions and scenarios.
+  - Emphasis on limitations as it is not comprehensive medical insurance.
 
 ## 5. Key Takeaways
-- Plan comparison highlights
-  - Variations in coverage amounts and benefits among different plans.
-  - Specific conditions and exclusions applicable to each plan.
-- Important reminders
-  - Insurance provides limited benefits and is not a substitute for comprehensive medical coverage.
-  - Membership benefits extend beyond insurance, offering access to discounted services and resources nationwide.
+- Plan comparison highlights:
+  - Overview of benefits from basic to premium plans.
+  - Differentiation between inpatient and outpatient services.
+- Important reminders:
+  - Exclusions and limitations for both hospital and accident benefits.
+  - Conditions for policy termination and maintenance of eligibility.
 ```
