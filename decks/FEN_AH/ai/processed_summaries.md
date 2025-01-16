@@ -1,26 +1,38 @@
 ## Plan Overview
 
-Advanced Wellness Plus is a comprehensive health care program designed to offer limited benefit health insurance plans through American Financial Security Life Insurance Co. These plans are underwritten and tailored to provide supplemental coverage, particularly suitable for individuals and families looking to augment a high deductible major medical plan. The program is supported by the National Congress of Employers (NCE), ensuring a robust network and reliable membership benefits for small and medium-sized businesses.
+### Advanced Wellness Plus Insurance Overview
+Advanced Wellness Plus Insurance is a comprehensive health plan designed to provide a variety of benefits and coverage options for individuals seeking to enhance their health and wellness. Underwritten by American Financial Security Life Insurance Co., these limited benefit health insurance plans are structured to meet diverse needs. The plan is associated with the National Congress of Employers (NCE), aimed at supporting small and medium-sized businesses with valuable services, advocacy, and networking opportunities.
 
 ## Core Plan Elements
 
-- **Key Features and Benefits**: The plan encompasses a wide range of benefits, including hospital confinement, primary and specialty care visits, surgery benefits, and critical illness coverage. Additional features include mental health support, supplemental accident coverage, and accidental death benefits, ensuring a comprehensive safety net for members.
-  
-- **Coverage Details**: Benefits vary by plan tier, offering flexibility to meet different needs and budgets. Critical illness coverage, for example, provides a maximum benefit of $1,000 across all tiers, while other benefits scale with the tier level.
+### Key Features and Benefits
+- Diverse coverage levels to suit different healthcare needs and budgets.
+- Access to a wide range of health services including hospital confinement, doctor visits, emergency care, and more.
+- Additional benefits such as mental health support, surgical coverage, and supplemental accident insurance.
 
-- **Eligibility Requirements**: The plan is open to adult members aged 18-65 and dependent children aged 1-25, making it accessible for a broad range of individuals seeking supplemental health coverage.
+### Coverage Details
+- Benefits categorized by plan tiers (100A, 100, 200, 200+, 300, 500, 750, 1000) with varying coverage amounts.
+- Coverage includes hospital stays, outpatient visits, emergency services, and more, each with specific maximum days and per-day benefits.
+
+### Eligibility Requirements
+- Available to adult members aged 18-65 and dependent children aged 1-25.
+- Membership in the National Congress of Employers is required, with a non-refundable enrollment fee and monthly billing.
 
 ## Common Service Features
 
-- **Network Access**: Members gain access to a wide network of healthcare providers, ensuring convenient and timely medical services.
+### Network Access
+- Access to a broad network of healthcare providers for various services including dental and vision care through affiliated programs.
 
-- **Claims Process**: Streamlined claims handling facilitated by International Benefits Administrators, providing efficient service and quick resolutions to members’ claims.
+### Claims Process
+- Easy claims submission via mail or electronic methods, ensuring efficient processing and reimbursement.
 
-- **Support Services**: Comprehensive support through health information and nurse help lines, offering guidance and assistance to members throughout their healthcare journey.
+### Support Services
+- 24/7 Health Information Line and Nurse Help Line for immediate health advice and support.
+- Additional services for medical bill negotiations and discounts on various healthcare-related expenses.
 
 ## Plan Tiers and Benefits
 
-### Plan 100A (1/2)
+### Plan 100A
 
 **Hospital Confinement Benefit**
 - Per Day: $100
@@ -34,20 +46,13 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 - Per Day: $50
 - Max Days: 3
 
-### Plan 100A (2/2)
-
-**Emergency Room Benefit**
-- Not Applicable
-
-**Basic Pathology & Radiology Benefit**
-- Not Applicable
-
 **Accidental Death Benefit**
-- Maximum Benefit: Not Applicable
+- Maximum Benefit: Not covered
 
----
+**Critical Illness**
+- Maximum Benefit: Not covered
 
-### Plan 100 (1/2)
+### Plan 100
 
 **Hospital Confinement Benefit**
 - Per Day: $100
@@ -61,22 +66,17 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 - Per Day: $50
 - Max Days: 5
 
-### Plan 100 (2/2)
-
 **Emergency Room Benefit**
-- Per Day: Not Applicable
-- Max Days: 1
-
-**Basic Pathology & Radiology Benefit**
-- Per Day: Not Applicable
+- Per Day: Not covered
 - Max Days: 1
 
 **Accidental Death Benefit**
 - Maximum Benefit: $10,000
 
----
+**Critical Illness**
+- Maximum Benefit: $1,000
 
-### Plan 200 (1/2)
+### Plan 200
 
 **Hospital Confinement Benefit**
 - Per Day: $200
@@ -90,21 +90,21 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 - Per Day: $50
 - Max Days: 5
 
-### Plan 200 (2/2)
-
 **Emergency Room Benefit**
-- Not Applicable
+- Per Day: Not covered
+- Max Days: 1
 
 **Basic Pathology & Radiology Benefit**
 - Per Day: $50
-- Max Days: 3
+- Max Days: 1
 
 **Accidental Death Benefit**
 - Maximum Benefit: $10,000
 
----
+**Critical Illness**
+- Maximum Benefit: $1,000
 
-### Plan 200+ (1/2)
+### Plan 200+
 
 **Hospital Confinement Benefit**
 - Per Day: $200
@@ -118,10 +118,8 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 - Per Day: $50
 - Max Days: 5
 
-### Plan 200+ (2/2)
-
 **Emergency Room Benefit**
-- Per Day: Not Applicable
+- Per Day: $50
 - Max Days: 2
 
 **Basic Pathology & Radiology Benefit**
@@ -131,9 +129,10 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 **Accidental Death Benefit**
 - Maximum Benefit: $10,000
 
----
+**Critical Illness**
+- Maximum Benefit: $1,000
 
-### Plan 300 (1/2)
+### Plan 300
 
 **Hospital Confinement Benefit**
 - Per Day: $300
@@ -147,21 +146,21 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 - Per Day: $50
 - Max Days: 5
 
-### Plan 300 (2/2)
-
 **Emergency Room Benefit**
-- Not Applicable
+- Per Day: $50
+- Max Days: 1
 
-**Basic Pathology & Radiology Benefit**
-- Per Day: Not Applicable
-- Max Days: 2
+**Mental Health Inpatient Benefit**
+- Per Day: $150
+- Max Days: 60
 
 **Accidental Death Benefit**
 - Maximum Benefit: $10,000
 
----
+**Critical Illness**
+- Maximum Benefit: $1,000
 
-### Plan 500 (1/2)
+### Plan 500
 
 **Hospital Confinement Benefit**
 - Per Day: $500
@@ -175,22 +174,21 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 - Per Day: $50
 - Max Days: 5
 
-### Plan 500 (2/2)
-
 **Emergency Room Benefit**
 - Per Day: $50
 - Max Days: 1
 
-**Basic Pathology & Radiology Benefit**
-- Per Day: $50
-- Max Days: 2
+**Mental Health Inpatient Benefit**
+- Per Day: $250
+- Max Days: 60
 
 **Accidental Death Benefit**
 - Maximum Benefit: $10,000
 
----
+**Critical Illness**
+- Maximum Benefit: $1,000
 
-### Plan 750 (1/2)
+### Plan 750
 
 **Hospital Confinement Benefit**
 - Per Day: $750
@@ -204,22 +202,21 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 - Per Day: $75
 - Max Days: 5
 
-### Plan 750 (2/2)
-
 **Emergency Room Benefit**
-- Per Day: $50
+- Per Day: $75
 - Max Days: 1
 
-**Basic Pathology & Radiology Benefit**
-- Per Day: $50
-- Max Days: 2
+**Mental Health Inpatient Benefit**
+- Per Day: $375
+- Max Days: 60
 
 **Accidental Death Benefit**
 - Maximum Benefit: $10,000
 
----
+**Critical Illness**
+- Maximum Benefit: $1,000
 
-### Plan 1000 (1/2)
+### Plan 1000
 
 **Hospital Confinement Benefit**
 - Per Day: $1000
@@ -233,51 +230,58 @@ Advanced Wellness Plus is a comprehensive health care program designed to offer 
 - Per Day: $100
 - Max Days: 5
 
-### Plan 1000 (2/2)
-
 **Emergency Room Benefit**
 - Per Day: $75
 - Max Days: 1
 
-**Basic Pathology & Radiology Benefit**
-- Per Day: $75
-- Max Days: 3
+**Mental Health Inpatient Benefit**
+- Per Day: $500
+- Max Days: 60
 
 **Accidental Death Benefit**
 - Maximum Benefit: $10,000
 
-## Comparison of the Plans (1/2)
+**Critical Illness**
+- Maximum Benefit: $1,000
 
-| **Feature**                       | **100A** | **100** | **200** | **200+** |
-|-----------------------------------|----------|---------|---------|----------|
-| Hospital Confinement Per Day      | $100     | $100    | $200    | $200     |
-| Primary Care Visit Per Day        | $50      | $50     | $50     | $50      |
-| Specialty Care Visit Per Day      | $50      | $50     | $50     | $50      |
-| Emergency Room Per Day            | N/A      | N/A     | N/A     | N/A      |
-| Basic Pathology & Radiology Per Day| N/A      | N/A     | $50     | $50      |
+## Comparison of the Plans
 
-## Comparison of the Plans (2/2)
-
-| **Feature**                       | **300**  | **500** | **750** | **1000** |
-|-----------------------------------|----------|---------|---------|----------|
-| Hospital Confinement Per Day      | $300     | $500    | $750    | $1000    |
-| Primary Care Visit Per Day        | $50      | $50     | $50     | $75      |
-| Specialty Care Visit Per Day      | $50      | $50     | $75     | $100     |
-| Emergency Room Per Day            | N/A      | $50     | $50     | $75      |
-| Basic Pathology & Radiology Per Day| N/A      | $50     | $50     | $75      |
+| **Feature**                        | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
+|------------------------------------|----------|---------|---------|----------|---------|---------|---------|----------|
+| Hospital Confinement (Per Day)     | $100     | $100    | $200    | $200     | $300    | $500    | $750    | $1000    |
+| Primary Care Visit (Per Day)       | $50      | $50     | $50     | $50      | $50     | $50     | $50     | $75      |
+| Specialty Care Visit (Per Day)     | $50      | $50     | $50     | $50      | $50     | $50     | $75     | $100     |
+| Emergency Room (Per Day)           | -        | -       | -       | $50      | $50     | $50     | $75     | $75      |
+| Basic Pathology & Radiology (Per Day)| -      | -       | $50     | $50      | -       | $50     | $50     | $75      |
+| Mental Health Inpatient (Per Day)  | -        | -       | -       | -        | $150    | $250    | $375    | $500     |
+| Accidental Death Benefit           | -        | $10,000 | $10,000 | $10,000  | $10,000 | $10,000 | $10,000 | $10,000  |
+| Critical Illness                   | -        | $1,000  | $1,000  | $1,000   | $1,000  | $1,000  | $1,000  | $1,000   |
 
 ## Limitations and Definitions
 
-- **Important Exclusions**: Benefits are not provided for treatments that are not medically necessary or legally prescribed. This includes elective procedures and self-inflicted injuries. Pre-existing conditions have specific limitations.
-  
-- **Key Terms Defined**: 
-  - **Hospital Confinement**: The period during which a member is admitted to a hospital.
-  - **Critical Illness**: A specified serious illness eligible for a fixed benefit.
+### Important Exclusions
+- No coverage for services not deemed medically necessary or prescribed by a doctor.
+- Excludes dental procedures, elective surgeries, and cosmetic treatments.
+- Excludes injuries related to felonies, illegal activities, self-inflicted harm, and war.
+- Pre-existing conditions are excluded for the first 12 months of coverage.
+
+### Key Terms Defined
+- **Hospital Confinement**: Coverage for each day of a hospital stay.
+- **Primary/Specialty Care Visits**: Coverage for doctor visits, differentiated by general and specialized care.
+- **Emergency Room**: Coverage for emergency medical treatment in a hospital ER.
+- **Critical Illness**: Lump-sum benefit for diagnosis of specific illnesses.
 
 ## Key Takeaways
 
-- **Plan Highlights**: The Advanced Wellness Plus plans offer a wide range of coverage options tailored to supplement high deductible major medical plans with benefits like hospital confinement and critical illness coverage.
+### Plan Highlights
+- Advanced Wellness Plus offers tailored plans to fit various healthcare needs and financial capabilities.
+- Comprehensive coverage across multiple areas of health, with flexibility in plan tiers.
 
-- **Value Propositions**: Members benefit from a flexible plan structure, tiered to match varying healthcare needs and financial capabilities.
+### Value Propositions
+- Provides essential health benefits with added support for mental health and critical illnesses.
+- Membership in the NCE enhances access to valuable resources and support services.
 
-- **Next Steps**: Interested parties should consider their current medical coverage needs, evaluate which plan tier fits best, and reach out for membership enrollment to start benefiting from the Advanced Wellness Plus program.
+### Next Steps
+- Evaluate the specific healthcare needs and financial situation to select the most appropriate plan tier.
+- Consider enrolling in the NCE for additional member benefits and services.
+- Review the plan’s detailed terms and conditions to understand benefits and exclusions fully.

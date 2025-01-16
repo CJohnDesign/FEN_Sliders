@@ -44,15 +44,11 @@ async def process_page(model, page_num, img_path, total_pages):
         logger.info(f"Successfully encoded image for page {page_num}")
         
         messages = [
-            SystemMessage(content="""You are an expert presentation analyst.
-            First work out the content structure before making conclusions.
-            Analyze each element systematically:
-            1. Text content and headings
-            2. Table structures and data organization
-            3. Visual elements and their purpose
-            4. Key information hierarchy
+            SystemMessage(content="""You are an expert at analyzing presentation slides.
+            Look at the slide and return a detailed summary of the content. it should be a single paragraph that covers all details of the slide.
+            If there is a table, identify if it is a benefits table showing insurance coverage details.
             
-            Then provide your analysis in this EXACT JSON format:
+            Provide your analysis in this EXACT JSON format:
             {
                 "title": "Clear descriptive title",
                 "summary": "Detailed content summary",
@@ -132,8 +128,8 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
         logger.info("Initializing LangChain chat model...")
         model = ChatOpenAI(
             model="gpt-4o",
-            max_tokens=4096,
-            temperature=0.7,
+            max_tokens=8000,
+            temperature=0.2,
             streaming=False
         )
         
@@ -293,6 +289,12 @@ Focus on:
         # Save to state
         state["plan_tier_summaries"] = response.content
         
+        # Save to file
+        summaries_path = deck_dir / "ai" / "plan_tier_summaries.md"
+        with open(summaries_path, "w") as f:
+            f.write(response.content)
+        logger.info(f"Saved plan tier summaries to {summaries_path}")
+        
         return state
         
     except Exception as e:
@@ -302,8 +304,8 @@ Focus on:
         }
         return state
 
-async def process_summaries(state: BuilderState) -> BuilderState:
-    """Processes summaries to generate markdown content"""
+async def process_summaries(state: Dict) -> Dict:
+    """Process summaries to generate markdown content"""
     try:
         if state.get("error_context"):
             return state
@@ -311,147 +313,168 @@ async def process_summaries(state: BuilderState) -> BuilderState:
         if not state.get("page_summaries"):
             state["error_context"] = {
                 "step": "process_summaries",
-                "error": "No page summaries available"
+                "error": "Processed summaries not found"
             }
             return state
             
-        # First process plan tiers
-        state = await process_plan_tiers(state)
-        if state.get("error_context"):
-            return state
-            
+        # Try to get plan tier summaries from state or file
+        deck_dir = Path(state["deck_info"]["path"])
         if not state.get("plan_tier_summaries"):
-            state["error_context"] = {
-                "step": "process_summaries",
-                "error": "Plan tier processing failed"
-            }
-            return state
-            
+            plan_tier_path = deck_dir / "ai" / "plan_tier_summaries.md"
+            if plan_tier_path.exists():
+                with open(plan_tier_path, "r") as f:
+                    state["plan_tier_summaries"] = f.read()
+                logger.info("Loaded plan tier summaries from file")
+            else:
+                state["error_context"] = {
+                    "step": "process_summaries",
+                    "error": "Plan tier summaries not found in state or file"
+                }
+                return state
+
+        # Get tables data from state
+        tables_data = deck_utils.load_tables_data(deck_dir)
+        tables_text = json.dumps(tables_data, indent=2)
+
         # Convert summaries to text
         summaries_text = json.dumps(state["page_summaries"], indent=2)
         
-        # Initialize LangChain chat model for proper tracing
+        # Initialize chat model
         model = ChatOpenAI(
             model="gpt-4o",
-            temperature=0.7,
-            streaming=False,
-            tags=["summary_processing", "markdown_generation"]
+            max_tokens=4096,
+            temperature=0.7
         )
         
-        # Create system prompt using plan tier summaries
-        system_content = """You are an expert at organizing and structuring content for presentations. Your task is to generate a comprehensive markdown outline that organizes all insurance benefit information in an educational format.
+        # Create system prompt
+        system_content = """Create a comprehensive benefit overview that follows this structure:
 
-IMPORTANT: The outline MUST maintain the exact plan tier information provided, including all benefit amounts and structure.
-
-The outline must follow this EXACT structure:
-
-## Cover
-- Plan name
-- Subtitle
+## Plan Overview
 
 ## Core Plan Elements
-- **Introduction & Overview**
-  - Plan purpose and scope
-  - Association membership (BWA, NCE, etc.)
-  - Basic coverage framework
-  - Key insurance concepts and terms
 
 ## Common Service Features
-- **Telehealth Services**
-  - Availability and access
-  - Covered services
-- **Preventive Care & Wellness**
-  - Available programs
-  - Coverage details
-- **Advocacy & Support**
-  - Member services
-  - Support resources
-- **Medical Bill Management**
-  - Billing assistance
-  - Payment processing
-  
-## Plan Tiers and Benefits
-- Here, analyze the benefit tables and create a detailed plan tier summary.
-  - atleast one slide per tier
-  - If a slide gets too long, split it into two sections.
-    - label these section with a (1/2) or (2/2)
-  - its likely that the later tiers will be more detailed and require a 2nd slide
 
-## Limitations & Definitions
-- **Required Disclosures**
-  - Coverage limitations
-  - State-specific information
-  - Important definitions
-  - Policy terms
+## Plan Tiers and Benefits 
+**There will be many sections here, return all plans with their benefits.**
+
+## Comparison of the Plans
+
+## Limitations and Definitions
 
 ## Key Takeaways
-- Plan comparison highlights
-- Value propositions
-- Important reminders
-- Next steps
 
 CRITICAL REQUIREMENTS:
-1. The Plan Tiers section MUST come first
-2. Use the EXACT plan tier content provided
-3. Do not modify or summarize the plan tier information
-4. Maintain all specific benefit amounts and details
-5. Keep the two-part structure for each plan"""
+1. Use the EXACT content provided for both tables and analysis - do not modify this information
+2. Maintain all specific benefit amounts and details
+3. Enhance other sections while preserving the exact plan tier information"""
 
-        # Get tables data from state
-        deck_dir = Path(state["deck_info"]["path"])
-        tables_data = deck_utils.load_tables_data(deck_dir)
-        tables_text = json.dumps(tables_data, indent=2)
+        # Get plan tier summaries from state or set default
+        plan_tier_summaries = state.get("plan_tier_summaries", "No plan tier analysis available")
 
         # Insert the plan tier summaries and tables data
         system_content = system_content.format(
             tables_data=tables_text,
-            plan_tier_summaries=state["plan_tier_summaries"]
+            plan_tier_summaries=plan_tier_summaries
         )
-
-        # Get plan tier summaries from state
-        plan_tier_summaries = state.get("plan_tier_summaries", "No plan tier analysis available")
 
         # Create messages array
         messages = [
             SystemMessage(content=system_content),
-            HumanMessage(content=f"""Create a comprehensive benefit overview that:
-1. Keeps the Plan Tiers section EXACTLY as provided
-2. Uses the general summaries to enhance other sections
-3. Maintains all specific benefit amounts
-4. Creates clear explanations of insurance concepts
-5. Includes relevant policy details
-
-The Plan Tiers section has already been processed and must be kept intact.
-Focus on enhancing the other sections while preserving the plan tier information.
-
-Here are the general summaries to incorporate:
-
+            HumanMessage(content=f"""Create a comprehensive benefit overview.
+                         
+Here are the general summaries to use:
 {summaries_text}
+                   
+---
 
-  ## Plan Tiers and Benefits
-### Raw Benefit Tables
-{tables_data}
+Here is the plan overview below. I'm insertings the plan tier summaries and tables data into the appropriate sections:                   
+                         
+## Plan Overview
+- Subheading
 
-### Plan Tier Analysis
+## Core Plan Elements
+- Key features and benefits
+- Coverage details
+- Eligibility requirements
+
+## Common Service Features
+- Network access
+- Claims process
+- Support services
+
+## Plan Tiers and Benefits
+
+* Based on the below, create one page for each plan tier with benefits for each tier.
+* If a slide is too long, break it into multiple slides, ie (1/2) and (2/2)
+** It is likely that the higher plans will have more benefits and require this.
+
+- Plan Tier Analysis
 {plan_tier_summaries}
 
+- Raw Benefit Tables
+{tables_data}
+
+Below is the format of a single plan tier, broken into 2 parts. Create a new section for each plan tier. This is not a strict template, but a general format to follow. Create a new section for each plan tier. if a section is short, it will not require a second part. Higher plans will have more benefits and will require a second section.
+
+## Plan 4 Name (1/2)
+
+**Benefit Category 1**
+- Detail 1: Value 1
+- Detail 2: Value 2
+- Detail 3: Value 3
+- Detail 4: Value 4
+
+**Benefit Category 2**
+- Detail 1: Value 1
+- Detail 2: Value 2
+
+**Benefit Category 3**
+- Detail 1: Value 1
+- Detail 2: Value 2
+- Detail 3: Value 3
+
+
+## Plan 4 Name (2/2)
+
+**Benefit Category 4**
+- Detail 1: Value 1
+- Detail 2: Value 2
+
+**Benefit Category 5**
+- Detail 1: Value 1
+- Detail 2: Value 2
+
+
+## Comparing the Plans
+
+| **Feature** | **Plan 1** | **Plan 2** | **Plan 3** |
+|---------|----------|----------|-----------|
+| Feature 1 | Value 1.1 | Value 1.2 | Value 1.3 |
+| Feature 2 | Value 2.1 | Value 2.2 | Value 2.3 |
+| Feature 3 | Value 3.1 | Value 3.2 | Value 3.3 |
+| Feature 4 | Value 4.1 | Value 4.2 | Value 4.3 |
+| Feature 5 | Value 5.1 | Value 5.2 | Value 5.3 |
+
+* If the content is too long, break the comparing plans section into multiple slides. ie (1/2) and (2/2)
+
+## Limitations and Definitions
+- Important exclusions
+- Key terms defined
+
+## Key Takeaways
+- Plan highlights
+- Value propositions
+- Next steps
+
+The Plan Tiers and Benefits section has already been processed and must be kept intact.
+Focus on enhancing the other sections while preserving both the tables and plan tier information.
 """)
         ]
         
         # Generate content
         response = await model.ainvoke(messages)
         content = response.content
-        
-        # Verify plan tiers section is present and in the correct position
-        if "## 1. Plan Tiers" not in content or content.find("## 1. Plan Tiers") > content.find("## 2."):
-            # Force correct structure if needed
-            sections = content.split("##")
-            reordered_content = "##" + sections[0]  # Keep any initial content
-            reordered_content += "\n## 1. Plan Tiers\n" + state["plan_tier_summaries"] + "\n"
-            for section in sections[1:]:
-                if not section.strip().startswith("1. Plan Tiers"):
-                    reordered_content += "##" + section
-            content = reordered_content
         
         # Save content
         script_path = Path(state["deck_info"]["path"]) / "ai" / "processed_summaries.md"
@@ -464,8 +487,8 @@ Here are the general summaries to incorporate:
         state["processed_summaries"] = content
             
         return state
-        
     except Exception as e:
+        logger.error(f"Error in process_summaries: {str(e)}")
         state["error_context"] = {
             "step": "process_summaries",
             "error": str(e)

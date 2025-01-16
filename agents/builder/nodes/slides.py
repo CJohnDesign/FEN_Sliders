@@ -19,7 +19,7 @@ async def process_slides(state: BuilderState) -> BuilderState:
             return state
             
         base_dir = Path(__file__).parent.parent.parent.parent
-        template_path = base_dir / "decks" / state["metadata"].template / "slides.md"
+        template_path = base_dir / "decks" / state["metadata"]["template"] / "slides.md"
         
         # Load template
         with open(template_path) as f:
@@ -53,6 +53,19 @@ async def process_slides(state: BuilderState) -> BuilderState:
                 Create slides from this processed summary content:
                 {state["processed_summaries"]}
                 
+                You will notice there are a lot of plans here. Create a new section for each plan.
+                
+                Here are all the images in the deck - use these to reference the logos:
+                /img/logos/FirstHealth_logo.png
+                /img/logos/USFire-Premier_logo.png
+                /img/logos/Ameritas_logo.png
+                /img/logos/BWA_logo.png
+                /img/logos/MBR_logo.png
+                /img/logos/TDK_logo.jpg
+                /img/logos/EssentialCare_logo.png
+                /img/logos/NCE_logo.png
+                /img/logos/AFSLIC_logo.png
+                
                 Follow the template's structure exactly, only replacing placeholder values wrapped in curly braces.
                 Maintain all Slidev syntax for layouts and transitions.
                 Do not wrap the content in ```markdown or ``` tags.
@@ -75,7 +88,7 @@ async def process_slides(state: BuilderState) -> BuilderState:
             model="gpt-4o",
             messages=messages,
             temperature=0.7,
-            max_tokens=4000
+            max_tokens=8000
         )
         
         final_content = response.choices[0].message.content
@@ -100,6 +113,7 @@ async def process_slides(state: BuilderState) -> BuilderState:
         return state
         
     except Exception as e:
+        logger.error(f"Error in process_slides: {str(e)}")
         state["error_context"] = {
             "error": str(e),
             "stage": "slide_generation"

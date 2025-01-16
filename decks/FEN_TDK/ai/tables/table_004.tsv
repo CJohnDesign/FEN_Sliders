@@ -1,0 +1,17 @@
+Physician Services,Details
+Primary Care Office Visit,Co-Pay,Maximum / Visit
+4 visits / Yr,$25,$150
+Specialist Care Office Visit,Co-Pay,Maximum / Visit
+4 visit / Yr,$50,$300
+Urgent Care Office Visit,Co-Pay,Maximum / Visit
+4 visit / Yr,$50,$300
+In-Patient Hospitalization Benefit,Per Day,Year Maximum,12/12 month Pre-Existing
+,$1,000,$15,000,
+Virtual Visits,Details
+,Telemedicine
+Virtual Care,$0 Consult Fee,No Maximum
+Prescriptions,1,000+ Free Prescriptions. Discount with Prescription Card.
+Wellness,Details
+,Personal Health Dashboard
+Advocacy,Details
+,Hospital Bill Reducer

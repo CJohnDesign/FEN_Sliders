@@ -99,19 +99,19 @@ def load_tables_data(deck_dir: Path) -> dict:
             summaries = json.load(f)
             
         # Get pages that have tables
-        pages_with_tables = [summary["page"] for summary in summaries if summary.get("hasTable", False)]
+        pages_with_tables = [summary["page"] for summary in summaries if summary.get("tableDetails", {}).get("hasTable", False)]
         
         if not pages_with_tables:
             return {"tables": []}
             
-        # Load tables from CSV files
+        # Load tables from TSV files
         tables_dir = deck_dir / "ai" / "tables"
         if not tables_dir.exists():
             return {"tables": []}
             
         tables = []
         for page in pages_with_tables:
-            table_file = tables_dir / f"table_{page:03d}.csv"
+            table_file = tables_dir / f"table_{page:03d}.tsv"
             if table_file.exists():
                 with open(table_file) as f:
                     table_data = f.read()
@@ -142,7 +142,7 @@ def get_table_by_page(deck_path: Union[str, Path], page_number: int) -> Optional
             deck_path = Path(deck_path)
             
         # Check for table file directly
-        table_file = deck_path / "ai" / "tables" / f"table_{page_number:03d}.csv"
+        table_file = deck_path / "ai" / "tables" / f"table_{page_number:03d}.tsv"
         if not table_file.exists():
             return None
             

@@ -1,0 +1,48 @@
+{
+  "tables": [
+    {
+      "page": 2,
+      "path": "ai/tables/table_002.tsv"
+    },
+    {
+      "page": 3,
+      "path": "ai/tables/table_003.tsv"
+    },
+    {
+      "page": 4,
+      "path": "ai/tables/table_004.tsv"
+    },
+    {
+      "page": 5,
+      "path": "ai/tables/table_005.tsv"
+    },
+    {
+      "page": 6,
+      "path": "ai/tables/table_006.tsv"
+    },
+    {
+      "page": 7,
+      "path": "ai/tables/table_007.tsv"
+    },
+    {
+      "page": 8,
+      "path": "ai/tables/table_008.tsv"
+    },
+    {
+      "page": 9,
+      "path": "ai/tables/table_009.tsv"
+    },
+    {
+      "page": 10,
+      "path": "ai/tables/table_010.tsv"
+    },
+    {
+      "page": 11,
+      "path": "ai/tables/table_011.tsv"
+    },
+    {
+      "page": 12,
+      "path": "ai/tables/table_012.tsv"
+    }
+  ]
+}

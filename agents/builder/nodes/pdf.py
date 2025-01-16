@@ -7,12 +7,22 @@ from PIL import Image
 from pdf2image import convert_from_path
 from ..state import BuilderState
 from ..utils.logging_utils import setup_logger, log_async_step, log_step_result
+from langchain_core.messages import AIMessage
 
 # Set up logger
 logger = setup_logger(__name__)
 
+async def wait_for_pdf(state: BuilderState) -> BuilderState:
+    """Pauses the workflow to wait for PDF upload"""
+    logger.info("Waiting for PDF upload...")
+    state["messages"].append(
+        AIMessage(content="Please upload the PDF file for the deck. Once uploaded, the process will continue.")
+    )
+    state["awaiting_input"] = "pdf_upload"
+    return state
+
 @log_async_step(logger)
-async def process_pdf(state: BuilderState) -> BuilderState:
+async def process_imgs(state: BuilderState) -> BuilderState:
     """Process PDF file and convert pages to images."""
     try:
         # Get deck directory
@@ -72,24 +82,28 @@ async def process_pdf(state: BuilderState) -> BuilderState:
         logger.info(f"Found PDF file: {pdf_path}")
         
         # Create img/pdfs directory if it doesn't exist
-        img_dir = deck_path / "img" / "pdfs"
-        img_dir.mkdir(parents=True, exist_ok=True)
+        pdf_dir = deck_path / "img" / "pdfs"
+        pdf_dir.mkdir(parents=True, exist_ok=True)
         
         # Move PDF to img/pdfs if it's in root
         if pdf_files[0].parent == deck_path:
-            new_pdf_path = img_dir / pdf_files[0].name
+            new_pdf_path = pdf_dir / pdf_files[0].name
             pdf_files[0].rename(new_pdf_path)
             pdf_path = str(new_pdf_path)
             logger.info(f"Moved PDF to: {pdf_path}")
+        
+        # Create img/pages directory for extracted images
+        pages_dir = deck_path / "img" / "pages"
+        pages_dir.mkdir(parents=True, exist_ok=True)
         
         # Convert PDF pages to images
         logger.info("Converting PDF pages to images...")
         images = convert_from_path(pdf_path)
         
-        # Save images
+        # Save images to pages directory
         page_paths = []
         for i, image in enumerate(images):
-            image_path = str(img_dir / f"page_{i+1}.png")
+            image_path = str(pages_dir / f"page_{i+1}.png")
             image.save(image_path, "PNG")
             page_paths.append(image_path)
             
@@ -100,7 +114,7 @@ async def process_pdf(state: BuilderState) -> BuilderState:
         state["pdf_info"] = {
             "num_pages": len(page_paths),
             "page_paths": page_paths,
-            "output_dir": str(img_dir)
+            "output_dir": str(pages_dir)
         }
         
         log_step_result(

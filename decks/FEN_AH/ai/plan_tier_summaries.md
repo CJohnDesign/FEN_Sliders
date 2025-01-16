@@ -1,95 +1,119 @@
 ## Insurance Plan Tier Summary
 
-### Plan Tiers Overview
-The insurance plans are divided into eight tiers: 100A, 100, 200, 200+, 300, 500, 750, and 1000. Each tier offers a range of benefits with varying coverage amounts and limitations. Below is a detailed breakdown of the benefit offerings for each tier:
+This summary provides an overview of the different plan tiers available, highlighting key benefits, coverage amounts, and notable differences between each tier.
 
-### Benefits and Coverage Details
+### Plan Tiers Overview
+
+- **100A**
+- **100**
+- **200**
+- **200+**
+- **300**
+- **500**
+- **750**
+- **1000**
+
+### Benefits & Coverage Details
 
 #### Hospital Confinement Benefit
-- **Per Day Coverage:**
-  - 100A, 100: $100
-  - 200, 200+: $200
+- **Per Day**: 
+  - 100A & 100: $100
+  - 200 & 200+: $200
   - 300: $300
   - 500: $500
   - 750: $750
   - 1000: $1000
-- **Maximum Days:** Up to 30 days across all tiers.
+- **Max Days**: 30 for all tiers
 
 #### Primary Care Doctors Office Visit Benefit
-- **Per Day Coverage:**
-  - 100A, 100, 200, 200+, 300, 500: $50
-  - 750, 1000: $75
-- **Maximum Days:** 3 days for 100A, and 5 days for other tiers.
+- **Per Day**: $50 for all tiers except 1000 ($75)
+- **Max Days**: 
+  - 100A: 3 days
+  - 100 to 1000: 5 days
 
 #### Specialty Care Doctors' Office Visit Benefit
-- **Per Day Coverage:**
-  - 100A, 100, 200, 200+, 300, 500: $50
+- **Per Day**: 
+  - 100A to 500: $50
   - 750: $75
   - 1000: $100
-- **Maximum Days:** 3 days for 100A, and 5 days for other tiers.
+- **Max Days**: 
+  - 100A: 3 days
+  - 100 to 1000: 5 days
 
 #### Emergency Room Benefit
-- **Per Day Coverage:**
-  - 500, 750: $50
-  - 1000: $75
-- **Maximum Days:** 1 day, except for 200+ which offers 2 days.
+- **Per Day**:
+  - 200+: $50
+  - 300 & 500: $50
+  - 750 & 1000: $75
+- **Max Days**: 
+  - 100: 1 day
+  - 200+: 2 days
+  - 300 to 1000: 1 day
 
 #### Basic Pathology & Radiology Benefit*
-- **Per Day Coverage:**
-  - 200, 200+: $50
-  - 500, 750: $50
+- **Per Day**:
+  - 200 & 200+: $50
+  - 300: Not covered
+  - 500 & 750: $50
   - 1000: $75
-- **Maximum Days:** 1 day for 100, 3 days for 200, 200+, 1000, and 2 days for 300, 500, 750.
+- **Max Days**: 
+  - 200: 1 day
+  - 200+: 3 days
+  - 500 to 750: 2 days
+  - 1000: 3 days
 
 #### Advance Studies Benefit*
-- **Per Day Coverage:**
-  - 200, 200+: $50
-  - 500, 750: $50
-  - 1000: $75
-- **Maximum Days:** 1 day for 100, 3 days for 200, 200+, 1000, and 2 days for 300, 500, 750.
+- **Per Day**: Same as Basic Pathology & Radiology Benefit
+- **Max Days**: Same as Basic Pathology & Radiology Benefit
 
 #### Surgery Benefit
-- **Per Day Coverage:**
-  - 200, 200+: $400
+- **Per Day**:
+  - 200 & 200+: $400
   - 300: $750
   - 500: $1000
-  - 750, 1000: $1500
-- **Maximum Days:** Up to 3 days for all applicable tiers.
+  - 750 & 1000: $1500
+- **Max Days**: 3 for all applicable tiers
 
 #### Anesthesia Benefit
-- **Coverage Percentage:** 20% of surgery benefit for 200, 200+, 300, 500, 750, 1000.
-- **Maximum Days:** Up to 3 days for applicable tiers.
+- **Per Day**: 20% of the Surgery Benefit amount for all applicable tiers
+- **Max Days**: 3 for all applicable tiers
 
 #### Mental Health Inpatient Benefit
-- **Per Day Coverage:**
+- **Per Day**: 
   - 300: $150
   - 500: $250
   - 750: $375
   - 1000: $500
-- **Maximum Days:** Up to 60 days.
+- **Max Days**: 60 for all applicable tiers
 
 #### Mental Health Outpatient Benefit
-- **Per Day Coverage:** $50 for 300, 500, 750, 1000.
-- **Maximum Days:** Up to 20 days.
+- **Per Day**: $50 for tiers 300 to 1000
+- **Max Days**: 20 for all applicable tiers
 
 #### Supplemental Accident Inpatient Admission Benefit
-- **Per Day Coverage:** $500 for 300, 500, 750, 1000.
-- **Maximum Days:** 1 day.
+- **Per Day**: $500 for tiers 200 to 1000
+- **Max Days**:
+  - 200: 1 day
+  - 300: 2 days
+  - 500 to 1000: 3 days
 
 #### Supplemental Accident Emergency Room Benefit
-- **Per Day Coverage:** $250 for 300, 500, 750, 1000.
-- **Maximum Days:** 1 day.
+- **Per Day**: $250 for tiers 200 to 1000
+- **Max Days**: 1 for all applicable tiers
 
 #### Accidental Death Benefit
-- **Maximum Benefit:** $10,000 for all tiers except 100A.
+- **Maximum Benefit**: $10,000 for all tiers except 100A (not covered)
 
 #### Critical Illness
-- **Maximum Benefit:** $1,000 for all tiers except 100A.
+- **Maximum Benefit**: $1,000 for all tiers except 100A (not covered)
 
-### Key Differences Between Tiers
-- **Hospital Confinement and Surgery Benefits**: Increase significantly with higher tiers.
-- **Primary and Specialty Care Visits**: Higher tiers (750, 1000) offer increased per day benefits.
-- **Emergency Room and Mental Health Benefits**: Available only from tier 500 and up, with coverage amounts increasing with the tier.
-- **Supplemental Benefits**: Provided starting from tier 300, with consistent coverage across higher tiers.
+### Key Tier Differences
 
-This summary captures the essential elements of each plan tier, allowing for a straightforward comparison of benefits and coverage limits.
+- **Hospital Confinement Benefit** increases per day from $100 at lower tiers (100A and 100) to $1000 at the highest tier (1000).
+- **Doctor's Office Visit Benefits** are consistent across most tiers, with notable increases in the 1000 tier for Specialty Care.
+- **Emergency Room Benefit** is not available in 100 and 200 tiers.
+- **Surgery and Anesthesia Benefits** increase significantly with higher tiers, with the 1000 tier offering the highest coverage.
+- **Mental Health Benefits** are only available starting from the 300 tier and above.
+- **Supplemental Accident Benefits** and **Accidental Death and Critical Illness Benefits** are consistent across most tiers, with 100A lacking coverage in these areas.
+
+This summary captures the essence of each plan tier, providing clarity on coverage specifics and differences, which can aid in making informed decisions on plan selection.

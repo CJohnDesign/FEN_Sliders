@@ -19,8 +19,8 @@ async def setup_audio(state: BuilderState) -> BuilderState:
             
         # Set up audio script and config
         success = await audio_utils.setup_audio(
-            state["metadata"].deck_id,
-            state["metadata"].template,
+            state["metadata"]["deck_id"],
+            state["metadata"]["template"],
             [],  # Empty slides list since we're using processed summaries
             state["processed_summaries"]
         )
@@ -33,8 +33,8 @@ async def setup_audio(state: BuilderState) -> BuilderState:
             return state
             
         state["audio_config"] = {
-            "config_path": f"decks/{state['metadata'].deck_id}/audio/audio_config.json",
-            "script_path": f"decks/{state['metadata'].deck_id}/audio/audio_script.md",
+            "config_path": f"decks/{state['metadata']['deck_id']}/audio/audio_config.json",
+            "script_path": f"decks/{state['metadata']['deck_id']}/audio/audio_script.md",
             "slide_count": len(state.get("slides", []))
         }
         

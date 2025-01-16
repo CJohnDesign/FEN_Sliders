@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Transforming Data Through Knowledge",
+    "summary": "The slide promotes a healthcare coverage plan for individuals and families who cannot afford or qualify for full comprehensive medical plans. It highlights 'America\u2019s Choice' as the provider, administered by Detego Health.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 1
+  },
+  {
+    "title": "TDK 1 Insurance Coverage Details",
+    "summary": "This slide provides an overview of the TDK 1 insurance benefits, including physician services, virtual visits, wellness, and advocacy services. It details co-pays and maximums for different services and mentions associated benefits and partners.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 2,
+    "table_path": "ai/tables/table_002.tsv"
+  },
+  {
+    "title": "TDK 2 Insurance Plan Overview",
+    "summary": "The slide presents details of the TDK 2 insurance plan, including physician services, virtual visits, wellness, and advocacy. Co-pay and maximum visit costs for different types of medical visits are outlined, alongside virtual care benefits and additional services.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 3,
+    "table_path": "ai/tables/table_003.tsv"
+  },
+  {
+    "title": "TDK 3 Insurance Benefits Overview",
+    "summary": "The slide presents a summary of physician services, virtual visits, wellness, and advocacy benefits. It includes details on co-pays, maximum visit costs, and hospitalization benefits. Virtual services offer telemedicine with no consult fees, and wellness includes a personal health dashboard. Advocacy provides hospital bill reduction services.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 4,
+    "table_path": "ai/tables/table_004.tsv"
+  },
+  {
+    "title": "TDK 4 - Healthcare Plan Overview",
+    "summary": "This slide provides details on physician services, in-patient hospitalization benefits, virtual visits, wellness, and advocacy services under a specific healthcare plan. It outlines co-pays, maximum limits, and additional services available to plan members.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 5,
+    "table_path": "ai/tables/table_005.tsv"
+  },
+  {
+    "title": "TDK 5 Insurance Coverage Details",
+    "summary": "The slide provides details on physician services, virtual visits, wellness, and advocacy benefits under the TDK 5 plan. It outlines co-pays, maximum visit costs, and coverage for various medical services, including hospitalization, surgery, and emergency room visits. It also highlights virtual care, prescription benefits, and available wellness services.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 6,
+    "table_path": "ai/tables/table_006.tsv"
+  },
+  {
+    "title": "Preventive Health Services - Covered Benefits",
+    "summary": "This slide provides a summary of preventive health services covered under a specific health plan. It includes details about the benefits, intervals, and specific requirements for services like abdominal aortic aneurysm screening, annual physicals, alcohol misuse counseling, and several cancer-related screenings and medications.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 7,
+    "table_path": "ai/tables/table_007.tsv"
+  },
+  {
+    "title": "MEC/Preventative Health Services Summary of Benefits",
+    "summary": "The slide outlines various preventative health services, detailing the benefit, interval, and requirements for each service.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 8,
+    "table_path": "ai/tables/table_008.tsv"
+  },
+  {
+    "title": "MEC/Preventative Health Services Summary of Benefits",
+    "summary": "The slide provides a summary of benefits related to preventive health services. It includes details on various screenings, intervals, and specific requirements for each service.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 9,
+    "table_path": "ai/tables/table_009.tsv"
+  },
+  {
+    "title": "Preventive Health Services Summary of Benefits",
+    "summary": "This slide provides a summary of preventive health services, detailing the benefits, intervals, and specific requirements for various health screenings and counseling services.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 10,
+    "table_path": "ai/tables/table_010.tsv"
+  },
+  {
+    "title": "Immunization Benefits for Different Age Groups",
+    "summary": "This slide provides a summary of recommended immunizations for children and adolescents, categorized by age groups. It includes abbreviations, vaccines, and age requirements.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 11,
+    "table_path": "ai/tables/table_011.tsv"
+  },
+  {
+    "title": "MEC/Preventative Health Services Summary of Benefits",
+    "summary": "The slide contains a table summarizing various vaccines, their abbreviations, and age requirements and limitations for each. It includes information on influenza, tetanus, measles, varicella, zoster, human papillomavirus, and pneumococcal vaccines.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 12,
+    "table_path": "ai/tables/table_012.tsv"
+  },
+  {
+    "title": "Exclusions in Insurance Plan",
+    "summary": "The slide lists various services and situations that are not covered under the insurance plan, including abortion, acupuncture, adoption expenses, alternative medicine, and more.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 13
+  },
+  {
+    "title": "Insurance Exclusions List",
+    "summary": "This slide lists various medical services and items that are excluded from insurance coverage, such as contraceptives, cosmetic procedures, and genetic testing.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 14
+  },
+  {
+    "title": "Exclusions in Health Plan Coverage",
+    "summary": "This slide lists various exclusions from a health plan, detailing expenses not covered such as hair loss treatments, hazardous hobbies, hearing exams, homeopathic treatments, hospice care, and more.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 15
+  },
+  {
+    "title": "Exclusions",
+    "summary": "The slide lists various medical services and events that are not eligible for coverage under the plan. These include maintenance therapy, massage therapy, maternity services, mental health services, missed appointments, motor vehicle injury care, negligence expenses, and 'Never Events' such as wrong surgery or patient death due to facility errors.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 16
+  },
+  {
+    "title": "Exclusions in Healthcare Coverage",
+    "summary": "The slide lists various exclusions related to patient death, serious disabilities, and non-covered procedures. It includes specific scenarios like medication errors, labor and delivery complications, wrongful insemination, and more. It also outlines conditions under which expenses are not covered, such as services without legal obligation, non-covered procedures, and those not recommended by a physician.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 17
+  },
+  {
+    "title": "Exclusions in Insurance Plan",
+    "summary": "This slide lists various exclusions in an insurance plan, specifying conditions and services that will not be covered, such as nutritional counseling, obesity treatments, off-label drugs, and more.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 18
+  },
+  {
+    "title": "Exclusions List in Insurance Plan",
+    "summary": "The slide lists various exclusions from the insurance plan, detailing specific services and conditions that are not eligible for coverage, such as pre-existing conditions, private duty nursing, and sex transformation expenses.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 19
+  },
+  {
+    "title": "Exclusions in Coverage",
+    "summary": "The slide lists various exclusions from insurance coverage, including services related to sexual dysfunction, skilled nursing facilities, substance abuse, surrogate expenses, transplants, travel, war-related treatments, worker's compensation, and unrelated claims such as routine eye care and rehabilitative therapies.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 20
+  },
+  {
+    "title": "Exclusions in Insurance Plan",
+    "summary": "The slide outlines exclusions within an insurance plan, specifically mentioning the exclusion of routine well-baby care of a newborn infant while inpatient. It clarifies that the list is to provide clarity on what is not covered and that exclusions should not imply coverage by omission.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 21
+  }
+]

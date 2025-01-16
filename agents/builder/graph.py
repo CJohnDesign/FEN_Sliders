@@ -4,13 +4,15 @@ from langgraph.graph import StateGraph
 from .state import BuilderState
 from .nodes import (
     create_deck_structure,
-    generate_slides,
-    process_pdf,
-    process_audio,
-    generate_summaries,
+    process_slides,
+    wait_for_pdf,
+    process_imgs,
+    generate_page_summaries,
     extract_tables,
-    process_summaries
+    process_summaries,
+    setup_audio
 )
+from .nodes.summary import process_plan_tiers
 
 def create_builder_graph() -> StateGraph:
     """Create the builder workflow graph."""
@@ -19,20 +21,24 @@ def create_builder_graph() -> StateGraph:
     
     # Add nodes
     workflow.add_node("create_deck", create_deck_structure)
-    workflow.add_node("process_pdf", process_pdf)
-    workflow.add_node("generate_summaries", generate_summaries)
+    workflow.add_node("wait_for_pdf", wait_for_pdf)
+    workflow.add_node("process_imgs", process_imgs)
+    workflow.add_node("generate_summaries", generate_page_summaries)
     workflow.add_node("extract_tables", extract_tables)
+    workflow.add_node("process_plan_tiers", process_plan_tiers)
     workflow.add_node("process_summaries", process_summaries)
-    workflow.add_node("generate_slides", generate_slides)
-    workflow.add_node("process_audio", process_audio)
+    workflow.add_node("process_slides", process_slides)
+    workflow.add_node("setup_audio", setup_audio)
     
     # Add edges
-    workflow.add_edge("create_deck", "process_pdf")
-    workflow.add_edge("process_pdf", "generate_summaries")
+    workflow.add_edge("create_deck", "wait_for_pdf")
+    workflow.add_edge("wait_for_pdf", "process_imgs")
+    workflow.add_edge("process_imgs", "generate_summaries")
     workflow.add_edge("generate_summaries", "extract_tables")
-    workflow.add_edge("extract_tables", "process_summaries")
-    workflow.add_edge("process_summaries", "generate_slides")
-    workflow.add_edge("generate_slides", "process_audio")
+    workflow.add_edge("extract_tables", "process_plan_tiers")
+    workflow.add_edge("process_plan_tiers", "process_summaries")
+    workflow.add_edge("process_summaries", "process_slides")
+    workflow.add_edge("process_slides", "setup_audio")
     
     # Set entry point
     workflow.set_entry_point("create_deck")

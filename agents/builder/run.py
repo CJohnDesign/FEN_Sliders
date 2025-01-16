@@ -2,35 +2,49 @@
 import os
 import json
 import asyncio
-import argparse
+import logging
 from pathlib import Path
 from .graph import builder_graph
-from .state import DeckMetadata
-from .utils.logging_utils import setup_logger
+from .state import BuilderState
+from langchain_core.messages import AIMessage
 
 # Set up logging
-logger = setup_logger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+def convert_messages_to_dict(state):
+    """Convert AIMessage objects to dictionaries for JSON serialization."""
+    if isinstance(state, dict):
+        return {k: convert_messages_to_dict(v) for k, v in state.items()}
+    elif isinstance(state, list):
+        return [convert_messages_to_dict(item) for item in state]
+    elif isinstance(state, AIMessage):
+        return {
+            "type": "AIMessage",
+            "content": state.content
+        }
+    return state
 
 async def main():
-    """Run the builder agent."""
-    # Parse arguments
-    parser = argparse.ArgumentParser(description="Run the builder agent")
-    parser.add_argument("--deck-id", required=True, help="ID for the deck")
-    parser.add_argument("--title", required=True, help="Title for the deck")
+    """Main entry point for the builder agent."""
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--deck-id", required=True)
+    parser.add_argument("--title", required=True)
     args = parser.parse_args()
     
-    # Create decks directory if it doesn't exist
-    Path("decks").mkdir(exist_ok=True)
-    
-    # Initialize state with required fields
-    state = {
-        "messages": [],  # Required for LangGraph
-        "metadata": DeckMetadata(
-            deck_id=args.deck_id,
-            title=args.title,
-            template="FEN_TEMPLATE",
-            theme_config={}
-        ).dict(),
+    # Initialize state
+    initial_state = {
+        "messages": [],
+        "metadata": {
+            "deck_id": args.deck_id,
+            "title": args.title,
+            "template": "FEN_TEMPLATE",
+            "theme_config": {}
+        },
         "deck_info": None,
         "slides": [],
         "pdf_path": None,
@@ -43,18 +57,17 @@ async def main():
     }
     
     logger.info(f"Starting builder for deck: {args.deck_id}")
-    logger.info(f"Initial state: {state}")
+    logger.info(f"Initial state: {initial_state}")
     
     try:
-        # Run builder graph
-        final_state = await builder_graph.ainvoke(state)
+        final_state = await builder_graph.ainvoke(initial_state)
         
         # Save final state
         state_path = Path(f"decks/{args.deck_id}/state.json")
-        state_path.parent.mkdir(exist_ok=True)
+        state_path.parent.mkdir(parents=True, exist_ok=True)
+        
         with open(state_path, "w") as f:
-            json.dump(final_state, f, indent=2)
-        logger.info(f"Final state saved to {state_path}")
+            json.dump(convert_messages_to_dict(final_state), f, indent=2)
             
     except Exception as e:
         logger.error(f"Critical error in builder execution: {str(e)}")
