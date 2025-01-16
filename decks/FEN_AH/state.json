@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "type": "AIMessage",
+      "content": "Please upload the PDF file for the deck. Once uploaded, the process will continue."
+    }
+  ],
+  "metadata": {
+    "deck_id": "FEN_AH",
+    "title": "Access Health Benefits Overview",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-01-16T16:30:17.724314",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_AH",
+    "metadata": {
+      "deck_id": "FEN_AH",
+      "title": "Access Health Benefits Overview",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-01-16T16:30:17.724314",
+      "version": "1.0"
+    }
+  },
+  "slides": [
+    {
+      "title": "Advanced Wellness Plus Insurance Overview",
+      "content": "The slide presents the Advanced Wellness Plus program, highlighting its association with American Financial Security Life Insurance Co. It emphasizes limited benefit health insurance plans underwritten by this company. The policy details include Group Policy Form AF FI Policy 721, issued to the National Congress of Employers, with specific references to AFS LM 721 AWP BR. The image features a healthcare professional interacting with a senior patient, suggesting a focus on wellness and healthcare services.",
+      "type": "default"
+    },
+    {
+      "title": "Advanced Wellness Plus Benefit Overview",
+      "content": "The slide presents a detailed benefits table for the 'Advanced Wellness Plus' plan, outlining various medical benefits and their corresponding coverage levels across different plan options (100A, 100, 200, 200+, 300, 500, 750, 1000). Benefits include Hospital Confinement, Primary and Specialty Care Doctors Office Visits, Emergency Room, Basic Pathology & Radiology, Advance Studies, Surgery, Anesthesia, Mental Health Inpatient and Outpatient, Supplemental Accident Inpatient Admission, Supplemental Accident Emergency Room, Hospital Intensive Care Unit, Additional Hospital Admission, Accidental Death, and Critical Illness. Coverage amounts vary per day and maximum days, with specific amounts listed for each plan level. Notably, there are exclusions for pre-existing conditions for 12 months and a 30-day waiting period for coverage commencement, except for injuries.",
+      "type": "default"
+    },
+    {
+      "title": "Overview of Advanced Wellness Plus and NCE Membership",
+      "content": "The slide provides an overview of the Advanced Wellness Plus program offered by the National Congress of Employers (NCE), which supports small and medium-sized businesses through networking and benefits. The membership includes a monthly premium for health benefits, with an initial non-refundable enrollment fee. Members receive a packet with a handbook and insurance certificate upon successful application. The Limited Medical Coverage plan is described as a supplementary option to major medical plans, offering capped benefits for specific services. Eligibility is for adult members aged 18-65 and dependent children aged 1-25.",
+      "type": "default"
+    },
+    {
+      "title": "Advanced Wellness Plus - GapAfford Plus Membership Benefits",
+      "content": "The GapAfford Plus program offers a range of benefits designed to help individuals and families save on out-of-pocket medical expenses. Key features include no deductibles, no pre-existing condition limitations, and no age restrictions. Members gain access to the OUTLOOK Vision Network for discounts on eyewear and exams, and the Aetna Dental Access Network for reduced dental service costs. Prescription discounts are available for brand-name and generic medications. Additional benefits include savings on pet prescriptions, alternative medicine, chiropractic care, hearing and imaging services, and medical bill negotiations. Members can also save on medical supplies, laboratory services, physical therapy, vitamins, and supplements. The program provides a 24/7 Health Information Line and Nurse Help Line. Notably, these benefits are not insurance and are not available in certain states.",
+      "type": "default"
+    },
+    {
+      "title": "Hospital Indemnity Insurance Limitations & Exclusions",
+      "content": "The slide outlines specific limitations and exclusions for a hospital indemnity insurance policy. Benefits will not be provided for treatments or services that are not medically necessary, not prescribed by a doctor, experimental, or provided by an immediate family member. Additional exclusions include dental procedures not related to accidental injury, elective and cosmetic surgeries, and injuries related to felonies or illegal occupations. Other exclusions cover manipulations of the musculoskeletal system, self-inflicted injuries, war-related injuries, work-related injuries, and pre-existing conditions within 12 months of coverage. There is a 30-day waiting period for sickness benefits and no coverage for voluntary abortion unless life-threatening. Coverage provisions are subject to policy terms and may vary by state. Claims can be mailed or submitted electronically to the specified addresses.",
+      "type": "default"
+    }
+  ],
+  "pdf_path": "decks/FEN_AH/img/pdfs/Access-Health_brochure.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_AH/img/pages/page_1.png",
+      "decks/FEN_AH/img/pages/page_2.png",
+      "decks/FEN_AH/img/pages/page_3.png",
+      "decks/FEN_AH/img/pages/page_4.png",
+      "decks/FEN_AH/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_AH/img/pages"
+  },
+  "awaiting_input": "pdf_upload",
+  "page_summaries": [
+    {
+      "title": "Advanced Wellness Plus Insurance Overview",
+      "summary": "The slide presents the Advanced Wellness Plus program, highlighting its association with American Financial Security Life Insurance Co. It emphasizes limited benefit health insurance plans underwritten by this company. The policy details include Group Policy Form AF FI Policy 721, issued to the National Congress of Employers, with specific references to AFS LM 721 AWP BR. The image features a healthcare professional interacting with a senior patient, suggesting a focus on wellness and healthcare services.",
+      "tableDetails": {
+        "hasTable": false,
+        "hasLimitations": false
+      },
+      "page": 1
+    },
+    {
+      "title": "Advanced Wellness Plus Benefit Overview",
+      "summary": "The slide presents a detailed benefits table for the 'Advanced Wellness Plus' plan, outlining various medical benefits and their corresponding coverage levels across different plan options (100A, 100, 200, 200+, 300, 500, 750, 1000). Benefits include Hospital Confinement, Primary and Specialty Care Doctors Office Visits, Emergency Room, Basic Pathology & Radiology, Advance Studies, Surgery, Anesthesia, Mental Health Inpatient and Outpatient, Supplemental Accident Inpatient Admission, Supplemental Accident Emergency Room, Hospital Intensive Care Unit, Additional Hospital Admission, Accidental Death, and Critical Illness. Coverage amounts vary per day and maximum days, with specific amounts listed for each plan level. Notably, there are exclusions for pre-existing conditions for 12 months and a 30-day waiting period for coverage commencement, except for injuries.",
+      "tableDetails": {
+        "hasTable": true,
+        "hasLimitations": true
+      },
+      "page": 2
+    },
+    {
+      "title": "Overview of Advanced Wellness Plus and NCE Membership",
+      "summary": "The slide provides an overview of the Advanced Wellness Plus program offered by the National Congress of Employers (NCE), which supports small and medium-sized businesses through networking and benefits. The membership includes a monthly premium for health benefits, with an initial non-refundable enrollment fee. Members receive a packet with a handbook and insurance certificate upon successful application. The Limited Medical Coverage plan is described as a supplementary option to major medical plans, offering capped benefits for specific services. Eligibility is for adult members aged 18-65 and dependent children aged 1-25.",
+      "tableDetails": {
+        "hasTable": false,
+        "hasLimitations": false
+      },
+      "page": 3
+    },
+    {
+      "title": "Advanced Wellness Plus - GapAfford Plus Membership Benefits",
+      "summary": "The GapAfford Plus program offers a range of benefits designed to help individuals and families save on out-of-pocket medical expenses. Key features include no deductibles, no pre-existing condition limitations, and no age restrictions. Members gain access to the OUTLOOK Vision Network for discounts on eyewear and exams, and the Aetna Dental Access Network for reduced dental service costs. Prescription discounts are available for brand-name and generic medications. Additional benefits include savings on pet prescriptions, alternative medicine, chiropractic care, hearing and imaging services, and medical bill negotiations. Members can also save on medical supplies, laboratory services, physical therapy, vitamins, and supplements. The program provides a 24/7 Health Information Line and Nurse Help Line. Notably, these benefits are not insurance and are not available in certain states.",
+      "tableDetails": {
+        "hasTable": false,
+        "hasLimitations": true
+      },
+      "page": 4
+    },
+    {
+      "title": "Hospital Indemnity Insurance Limitations & Exclusions",
+      "summary": "The slide outlines specific limitations and exclusions for a hospital indemnity insurance policy. Benefits will not be provided for treatments or services that are not medically necessary, not prescribed by a doctor, experimental, or provided by an immediate family member. Additional exclusions include dental procedures not related to accidental injury, elective and cosmetic surgeries, and injuries related to felonies or illegal occupations. Other exclusions cover manipulations of the musculoskeletal system, self-inflicted injuries, war-related injuries, work-related injuries, and pre-existing conditions within 12 months of coverage. There is a 30-day waiting period for sickness benefits and no coverage for voluntary abortion unless life-threatening. Coverage provisions are subject to policy terms and may vary by state. Claims can be mailed or submitted electronically to the specified addresses.",
+      "tableDetails": {
+        "hasTable": false,
+        "hasLimitations": true
+      },
+      "page": 5
+    }
+  ],
+  "processed_summaries": "## Plan Overview\n\nThe Advanced Wellness Plus Insurance program, underwritten by American Financial Security Life Insurance Co., offers limited benefit health insurance plans. These plans are designed to cater to a variety of healthcare needs through the Group Policy Form AF FI Policy 721, provided to members of the National Congress of Employers (NCE). This overview focuses on wellness and healthcare services, particularly for small and medium-sized businesses, providing networking opportunities and health benefits through membership.\n\n## Core Plan Elements\n\n- **Key Features and Benefits**: The Advanced Wellness Plus plans include a range of medical coverage benefits such as hospital confinement, doctor visits, and supplemental accident benefits.\n- **Coverage Details**: Each plan offers different levels of coverage, from basic to premium, ensuring options for varying healthcare needs.\n- **Eligibility Requirements**: Available to adult members aged 18-65 and dependent children aged 1-25.\n\n## Common Service Features\n\n- **Network Access**: Members have access to a wide range of healthcare providers through participating networks.\n- **Claims Process**: Simple and efficient claims submission, either through mail or electronically.\n- **Support Services**: 24/7 Health Information Line and Nurse Help Line for medical advice and support.\n\n## Plan Tiers and Benefits\n\n### Plan 100A\n\n**Benefit Category 1**\n- Hospital Confinement: $100 per day, 30 days max\n- Primary Care Visits: $50 per day, 3 days max\n- Specialty Care Visits: $50 per day, 3 days max\n\n**Benefit Category 2**\n- Accidental Death: Not available\n- Critical Illness: $1,000\n\n### Plan 100\n\n**Benefit Category 1**\n- Hospital Confinement: $100 per day, 30 days max\n- Primary Care Visits: $50 per day, 5 days max\n- Specialty Care Visits: $50 per day, 5 days max\n\n**Benefit Category 2**\n- Accidental Death: $10,000\n- Critical Illness: $1,000\n\n### Plan 200\n\n**Benefit Category 1**\n- Hospital Confinement: $200 per day, 30 days max\n- Primary Care Visits: $50 per day, 5 days max\n- Specialty Care Visits: $50 per day, 5 days max\n\n**Benefit Category 2**\n- Supplemental Accident Inpatient Admission: $500 per day, 1 day max\n- Basic Pathology & Radiology: $50 per day, 3 days max\n\n### Plan 200+ (1/2)\n\n**Benefit Category 1**\n- Hospital Confinement: $200 per day, 30 days max\n- Primary Care Visits: $50 per day, 5 days max\n- Specialty Care Visits: $50 per day, 5 days max\n\n**Benefit Category 2**\n- Supplemental Accident Inpatient Admission: $500 per day, 1 day max\n\n### Plan 200+ (2/2)\n\n**Benefit Category 3**\n- Basic Pathology & Radiology: $50 per day, 3 days max\n- Critical Illness: $1,000\n\n### Plan 300\n\n**Benefit Category 1**\n- Hospital Confinement: $300 per day, 30 days max\n- Primary Care Visits: $50 per day, 5 days max\n- Specialty Care Visits: $50 per day, 5 days max\n\n**Benefit Category 2**\n- Surgery: $750 per day, 3 days max\n\n### Plan 500\n\n**Benefit Category 1**\n- Hospital Confinement: $500 per day, 30 days max\n- Primary Care Visits: $50 per day, 5 days max\n- Specialty Care Visits: $50 per day, 5 days max\n\n**Benefit Category 2**\n- Surgery: $1,000 per day, 3 days max\n- Anesthesia: 20%, 3 days max\n\n### Plan 750 (1/2)\n\n**Benefit Category 1**\n- Hospital Confinement: $750 per day, 30 days max\n- Primary Care Visits: $50 per day, 5 days max\n- Specialty Care Visits: $75 per day, 5 days max\n\n### Plan 750 (2/2)\n\n**Benefit Category 2**\n- Surgery: $1,500 per day, 3 days max\n- Anesthesia: 20%, 3 days max\n\n### Plan 1000 (1/2)\n\n**Benefit Category 1**\n- Hospital Confinement: $1,000 per day, 30 days max\n- Primary Care Visits: $75 per day, 5 days max\n- Specialty Care Visits: $100 per day, 5 days max\n\n### Plan 1000 (2/2)\n\n**Benefit Category 2**\n- Basic Pathology & Radiology: $75 per day, 3 days max\n- Anesthesia: 20%, 3 days max\n\n## Comparison of the Plans (1/2)\n\n| **Feature** | **100A** | **100** | **200** | **200+** |\n|-------------|----------|---------|---------|----------|\n| Hospital Confinement | $100 | $100 | $200 | $200 |\n| Primary Care Visits  | $50, 3 days | $50, 5 days | $50, 5 days | $50, 5 days |\n| Specialty Care Visits | $50, 3 days | $50, 5 days | $50, 5 days | $50, 5 days |\n| Accidental Death      | N/A | $10,000 | $10,000 | $10,000 |\n| Critical Illness      | $1,000 | $1,000 | $1,000 | $1,000 |\n\n## Comparison of the Plans (2/2)\n\n| **Feature** | **300** | **500** | **750** | **1000** |\n|-------------|---------|---------|---------|----------|\n| Hospital Confinement | $300 | $500 | $750 | $1,000 |\n| Primary Care Visits  | $50, 5 days | $50, 5 days | $50, 5 days | $75, 5 days |\n| Specialty Care Visits | $50, 5 days | $50, 5 days | $75, 5 days | $100, 5 days |\n| Surgery               | $750 | $1,000 | $1,500 | N/A |\n| Anesthesia            | 20% | 20% | 20% | 20% |\n\n## Limitations and Definitions\n\n- **Important Exclusions**: Coverage is not provided for treatments not medically necessary, experimental procedures, or services by immediate family members. Exclusions include dental procedures (unless due to accidental injury), elective surgeries, and injuries related to illegal activities.\n- **Key Terms Defined**: Pre-existing conditions are excluded for the first 12 months, with a 30-day waiting period for sickness coverage.\n\n## Key Takeaways\n\n- **Plan Highlights**: Advanced Wellness Plus offers a range of plans to suit different healthcare needs, from basic to premium coverage.\n- **Value Propositions**: Provides capped benefits for specified services, excellent for supplementary coverage alongside major medical plans.\n- **Next Steps**: Consider your healthcare needs and financial situation to choose the appropriate plan tier. Contact a representative for enrollment details.",
+  "audio_config": {
+    "config_path": "decks/FEN_AH/audio/audio_config.json",
+    "script_path": "decks/FEN_AH/audio/audio_script.md",
+    "slide_count": 5
+  },
+  "error_context": null
+}

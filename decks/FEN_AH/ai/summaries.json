@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Advanced Wellness Plus Insurance Overview",
+    "summary": "The slide presents the Advanced Wellness Plus program, highlighting its association with American Financial Security Life Insurance Co. It emphasizes limited benefit health insurance plans underwritten by this company. The policy details include Group Policy Form AF FI Policy 721, issued to the National Congress of Employers, with specific references to AFS LM 721 AWP BR. The image features a healthcare professional interacting with a senior patient, suggesting a focus on wellness and healthcare services.",
+    "tableDetails": {
+      "hasTable": false,
+      "hasLimitations": false
+    },
+    "page": 1
+  },
+  {
+    "title": "Advanced Wellness Plus Benefit Overview",
+    "summary": "The slide presents a detailed benefits table for the 'Advanced Wellness Plus' plan, outlining various medical benefits and their corresponding coverage levels across different plan options (100A, 100, 200, 200+, 300, 500, 750, 1000). Benefits include Hospital Confinement, Primary and Specialty Care Doctors Office Visits, Emergency Room, Basic Pathology & Radiology, Advance Studies, Surgery, Anesthesia, Mental Health Inpatient and Outpatient, Supplemental Accident Inpatient Admission, Supplemental Accident Emergency Room, Hospital Intensive Care Unit, Additional Hospital Admission, Accidental Death, and Critical Illness. Coverage amounts vary per day and maximum days, with specific amounts listed for each plan level. Notably, there are exclusions for pre-existing conditions for 12 months and a 30-day waiting period for coverage commencement, except for injuries.",
+    "tableDetails": {
+      "hasTable": true,
+      "hasLimitations": true
+    },
+    "page": 2,
+    "table_path": "ai/tables/table_002.tsv"
+  },
+  {
+    "title": "Overview of Advanced Wellness Plus and NCE Membership",
+    "summary": "The slide provides an overview of the Advanced Wellness Plus program offered by the National Congress of Employers (NCE), which supports small and medium-sized businesses through networking and benefits. The membership includes a monthly premium for health benefits, with an initial non-refundable enrollment fee. Members receive a packet with a handbook and insurance certificate upon successful application. The Limited Medical Coverage plan is described as a supplementary option to major medical plans, offering capped benefits for specific services. Eligibility is for adult members aged 18-65 and dependent children aged 1-25.",
+    "tableDetails": {
+      "hasTable": false,
+      "hasLimitations": false
+    },
+    "page": 3
+  },
+  {
+    "title": "Advanced Wellness Plus - GapAfford Plus Membership Benefits",
+    "summary": "The GapAfford Plus program offers a range of benefits designed to help individuals and families save on out-of-pocket medical expenses. Key features include no deductibles, no pre-existing condition limitations, and no age restrictions. Members gain access to the OUTLOOK Vision Network for discounts on eyewear and exams, and the Aetna Dental Access Network for reduced dental service costs. Prescription discounts are available for brand-name and generic medications. Additional benefits include savings on pet prescriptions, alternative medicine, chiropractic care, hearing and imaging services, and medical bill negotiations. Members can also save on medical supplies, laboratory services, physical therapy, vitamins, and supplements. The program provides a 24/7 Health Information Line and Nurse Help Line. Notably, these benefits are not insurance and are not available in certain states.",
+    "tableDetails": {
+      "hasTable": false,
+      "hasLimitations": true
+    },
+    "page": 4
+  },
+  {
+    "title": "Hospital Indemnity Insurance Limitations & Exclusions",
+    "summary": "The slide outlines specific limitations and exclusions for a hospital indemnity insurance policy. Benefits will not be provided for treatments or services that are not medically necessary, not prescribed by a doctor, experimental, or provided by an immediate family member. Additional exclusions include dental procedures not related to accidental injury, elective and cosmetic surgeries, and injuries related to felonies or illegal occupations. Other exclusions cover manipulations of the musculoskeletal system, self-inflicted injuries, war-related injuries, work-related injuries, and pre-existing conditions within 12 months of coverage. There is a 30-day waiting period for sickness benefits and no coverage for voluntary abortion unless life-threatening. Coverage provisions are subject to policy terms and may vary by state. Claims can be mailed or submitted electronically to the specified addresses.",
+    "tableDetails": {
+      "hasTable": false,
+      "hasLimitations": true
+    },
+    "page": 5
+  }
+]
