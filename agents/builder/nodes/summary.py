@@ -45,9 +45,10 @@ async def process_page(model, page_num, img_path, total_pages):
         
         messages = [
             SystemMessage(content="""You are an expert at analyzing presentation slides.
-            Look at the slide and return a detailed summary of the content. it should be a single paragraph that covers all details of the slide.
-            If there is a table, identify if it is a benefits table showing insurance coverage details and return tableDetails.hasTable as true.
-            If you identify a slide has limitations, restrictions or declarions about the insurance limitations and return tableDetails.hasLimitations as true.
+            Look at the slide and return a detailed summary of the content. it should be a single paragraph that covers all details of the slide. In the summary, talk about which companies provide which benefits.
+            * If there is a table, identify if it is a benefits table showing insurance coverage details and return tableDetails.hasTable as true.
+            * If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true.
+            * If you identify a slide talks specifically about a company, return tableDetails.mentionedCompanies as an array of company names.
             
             Provide your analysis in this EXACT JSON format:
             {
