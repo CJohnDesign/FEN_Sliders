@@ -1,11 +1,11 @@
 ---
-id: FEN_AdvancedWellnessPlus
+id: FEN_WELLNESS
 theme: ../../
 title: | 
-  Advanced Wellness Plus
+  Advanced Wellness Plus Plan
 info: |
-  ## Advanced Wellness Plus Review
-  A comprehensive look at the Advanced Wellness Plus benefits and details.
+  ## Advanced Wellness Plus Plan Review
+  A comprehensive look at the Advanced Wellness Plus Plan benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -16,11 +16,11 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_AdvancedWellnessPlus" />
+<SlideAudio deckKey="FEN_WELLNESS" />
 
-# Advanced Wellness Plus Review
+# Advanced Wellness Plus Plan Review
 
-Understanding the details and benefits of the **Advanced Wellness Plus** plan
+Understanding the details and benefits of the **Advanced Wellness Plus Healthcare Plan**
 
 ---
 transition: fade-out
@@ -31,11 +31,11 @@ layout: default
 
 <v-clicks>
 
-- Health-related service through **American Financial Security Life Insurance**
-- **Limited Benefit Health Insurance** for various situations
-- **Wellness and patient care** support tools
-- **Supplement high-deductible plans** through essential coverage
-- **Coverage for hospital** support
+- Offered through **American Financial Security Life Insurance Co.**
+- **Healthcare Benefits** for various situations
+- **Networking and Advocacy** support tools
+- **Coverage Levels** through multiple tiers
+- **Small Business** support
 
 </v-clicks>
 
@@ -48,20 +48,21 @@ layout: default
 
 <v-clicks>
 
-**Hospital Confinement Benefits**
+**Hospital Confinement**
 
-**Office Visit Benefits**
+**Office Visits**
 
-**Supplemental Accident Benefits**
+**Emergency Care**
 
-**Mental Health Coverage** (varies by plan)
+**Surgical Services** (varies by plan)
+
 </v-clicks>
 
 <v-click>
 
-**Anesthesia Coverage** through **National Congress of Employers**
+**Mental Health Support** through NCE
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="American Financial Security Life Insurance Logo">
+  <img src="" class="h-12 mix-blend-multiply" alt="NCE Logo">
 </div>
 
 </v-click>
@@ -76,20 +77,20 @@ layout: default
 <v-click>
 
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-24 mix-blend-multiply" alt="Claims Process Tool Logo">
+  <img src="" class="h-24 mix-blend-multiply" alt="Claims Tool Logo">
 </div>
 
-**Claims Process Tool** (CPT)
+**Claims Submission** (CSA)
 </v-click>
 
 <v-click>
 
-**Electronic Submission** System
+**Electronic Options** System
 </v-click>
 
 <v-click>
 
-**Customer Service** Support
+**Mail Options** Support
 </v-click>
 
 ---
@@ -97,16 +98,16 @@ transition: fade-out
 layout: default
 ---
 
-## How Claims Process Tool Works
+## How Claims Submission Works
 
 <v-clicks>
 
-1. Enroll through **National Congress of Employers**
+1. Enroll through **American Financial Security**
 2. Submit claims electronically
-3. Track claim status online
+3. Use mail if preferred
 4. Receive **Explanation of Benefits** (EOB)
-5. Access support services
-6. **Receive reimbursements**
+5. Track claims online
+6. **Efficient Reimbursement**
 
 </v-clicks>
 
@@ -119,9 +120,9 @@ layout: default
 
 <v-clicks>
 
-- **Primary and Specialty Care** Services
-- **Emergency Room** Programs
-- **Network Access** provides quality care
+- **Health Information** Services
+- **Nurse Helpline** Programs
+- **American Financial Security** provides comprehensive support
 
 </v-clicks>
 
@@ -134,10 +135,10 @@ layout: default
 
 <v-clicks>
 
-- **24/7 Health Lines**
-- **Nurse Help Lines**
-- **Online Consultations** available
-- **Remote Access** to care
+- **24/7 Access**
+- **Convenient Consultations**
+- **Affordable Options** available
+- **Quick Access** to care
 
 </v-clicks>
 
@@ -150,10 +151,10 @@ layout: default
 
 <v-clicks>
 
-- **Comprehensive** healthcare advocacy
-- **Enrollment Assistance** support
-- **Service Options** available
-- **Member Support** through employers
+- **Dedicated** healthcare advocacy
+- **Application Assistance**
+- **Plan Selection** options
+- **Ongoing Support**
 
 </v-clicks>
 
@@ -163,29 +164,29 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Plan 100A (1/2)
+## 100A Plan (1/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
-- Per Day: $100
-- Max Day: 30 days
+**Hospital Confinement**
+- Coverage Per Day: $100
+- Maximum Days: 30
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Primary Care Doctors Office Visit Benefit**
-- Per Day: $50
-- Max Day: 3 days
+**Primary Care Visit**
+- Coverage Per Day: $50
+- Maximum Days: 3
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Specialty Care Doctors’ Office Visit Benefit**
-- Per Day: $50
-- Max Day: 3 days
+**Specialty Care Visit**
+- Coverage Per Day: $50
+- Maximum Days: 5
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -195,21 +196,73 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Plan 100A (2/2)
+## 100A Plan (2/2)
 
 <v-click>
 
 **Emergency Room Benefit**
-- Per Day: Not covered
-- Max Day: 1 day
+- Coverage Per Day: Not Available
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Basic Pathology & Radiology Benefit**
-- Per Day: Not covered
-- Max Day: Not applicable
+**Basic Pathology & Radiology**
+- Coverage: Not Available
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## 100 Plan (1/2)
+
+<v-click>
+
+**Hospital Confinement**
+- Coverage Per Day: $100
+- Maximum Days: 30
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Primary Care Visit**
+- Coverage Per Day: $50
+- Maximum Days: 5
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Specialty Care Visit**
+- Coverage Per Day: $50
+- Maximum Days: 5
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## 100 Plan (2/2)
+
+<v-click>
+
+**Emergency Room Benefit**
+- Coverage Per Day: Not Available
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- Coverage: Not Available
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -220,13 +273,13 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature**                           | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
-|---------------------------------------|----------|---------|---------|----------|---------|---------|---------|----------|
-| Hospital Confinement (Per Day)        | $100     | $100    | $200    | $200     | $300    | $500    | $750    | $1000    |
-| Primary Care Office Visit (Per Day)   | $50      | $50     | $50     | $50      | $50     | $50     | $50     | $75      |
-| Specialty Care Office Visit (Per Day) | $50      | $50     | $50     | $50      | $50     | $50     | $75     | $100     |
-| Mental Health Inpatient (Per Day)     | Not available | Not available | Not available | Not available | $150    | $250    | $375    | $500    |
-| Accidental Death                      | Not available | $10,000 | $10,000 | $10,000  | $10,000 | $10,000 | $10,000 | $10,000 |
+| **Feature** | **100A** | **100** | **200** | **200+** |
+|-------------|----------|---------|---------|----------|
+| Hospital Confinement (Per Day) | $100 | $100 | $200 | $200 |
+| Primary Care Visit (Per Day) | $50 | $50 | $50 | $50 |
+| Specialty Care Visit (Per Day) | $50 | $50 | $50 | $50 |
+| Emergency Room Benefit (Per Day) | - | - | - | $50 |
+| Basic Pathology & Radiology | - | - | - | $50 |
 
 ---
 transition: fade-out
@@ -238,19 +291,27 @@ image: img/pages/plan_brochure_image_final.jpg
 
 <v-click>
 
-**Important Exclusions**
-- Excludes treatments not medically necessary or experimental
-- Excludes injuries from illegal activities
-- Excludes elective procedures and dental work
+**Exclusions**
+- Non-medically necessary treatments
+- Experimental procedures
+- Services by family members
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Key Terms Defined**
-- **Pre-existing Condition:** 12-month exclusion
-- **Coverage Activation:** 30-day waiting period
+**Terms Defined**
+- **Pre-existing Condition**: Prior 12 months
+- **Waiting Period**: 30 days
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Limitations**
+- Elective surgeries not covered
+- Pre-existing within 12 months
+<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -262,21 +323,21 @@ layout: default
 
 <v-clicks>
 
-- **Plan Highlights:** Supplemental benefits
-- **Value Propositions:** No deductibles
-- **Access to Network:** Broad provider access
-- **Membership Required**
+- **Diverse Coverage** options
+- **Competitive Benefits** included
+- **Supplemental Coverage** benefits
+- **Membership Application** required
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the Advanced Wellness Plus Review. Continue to be great!
+line: Thank you for participating in the Advanced Wellness Plus Plan Review. Continue to be great!
 ---
 
 # Thank You!
 
 Continue to be great!
 
-<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="American Financial Security Life Insurance Logo">
+<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="Brand Logo">
