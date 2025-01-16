@@ -7,6 +7,11 @@ from pathlib import Path
 from .graph import builder_graph
 from .state import BuilderState
 from langchain_core.messages import AIMessage
+from ..config.settings import LANGCHAIN_TRACING_V2, LANGCHAIN_PROJECT
+
+# Set up LangSmith
+os.environ["LANGCHAIN_TRACING_V2"] = LANGCHAIN_TRACING_V2
+os.environ["LANGCHAIN_PROJECT"] = LANGCHAIN_PROJECT
 
 # Set up logging
 logging.basicConfig(

@@ -46,7 +46,8 @@ async def process_page(model, page_num, img_path, total_pages):
         messages = [
             SystemMessage(content="""You are an expert at analyzing presentation slides.
             Look at the slide and return a detailed summary of the content. it should be a single paragraph that covers all details of the slide.
-            If there is a table, identify if it is a benefits table showing insurance coverage details.
+            If there is a table, identify if it is a benefits table showing insurance coverage details and return tableDetails.hasTable as true.
+            If you identify a slide has limitations, restrictions or declarions about the insurance limitations and return tableDetails.hasLimitations as true.
             
             Provide your analysis in this EXACT JSON format:
             {
@@ -54,7 +55,8 @@ async def process_page(model, page_num, img_path, total_pages):
                 "summary": "Detailed content summary",
                 "tableDetails": {
                     "hasTable": true/false,
-                    "type": "benefits/pricing/other"
+                    "hasLimitations": true/false,
+                    "mentionedCompanies": ["Company Name 1", "Company Name 2", "Company Name 3"]
                 }
             }"""),
             HumanMessage(content=[

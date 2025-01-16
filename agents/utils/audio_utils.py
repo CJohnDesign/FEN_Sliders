@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 import json
 from openai import AsyncOpenAI
+from langsmith.run_helpers import traceable
 
 def load_template_examples(template: str) -> Dict[str, Any]:
     """Load template files to use as examples"""
@@ -119,6 +120,7 @@ def generate_audio_config(slides: List[Dict[str, Any]], template_examples: Dict[
         ]
     }
 
+@traceable(name="setup_audio")
 async def setup_audio(deck_id: str, template: str, slides: List[Dict[str, Any]], processed_summaries: str) -> bool:
     """Set up audio script and configuration"""
     try:

@@ -11,6 +11,11 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
 OPENAI_ORG_ID = os.getenv('OPENAI_ORG_ID')
 
+# LangSmith Configuration
+LANGCHAIN_TRACING_V2 = os.getenv('LANGCHAIN_TRACING_V2', 'true')
+LANGCHAIN_PROJECT = os.getenv('LANGCHAIN_PROJECT', 'fen-deck-builder')
+LANGCHAIN_API_KEY = os.getenv('LANGCHAIN_API_KEY')
+
 # Optional settings with defaults
 DEFAULT_MODEL = os.getenv('DEFAULT_MODEL', 'claude-3-5-sonnet-20240620')
 TEMPERATURE = float(os.getenv('TEMPERATURE', '0.7'))
