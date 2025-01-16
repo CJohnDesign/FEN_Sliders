@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "type": "AIMessage",
+      "content": "Please upload the PDF file for the deck. Once uploaded, the process will continue."
+    }
+  ],
+  "metadata": {
+    "deck_id": "FEN_AH",
+    "title": "Access Health Benefits Overview",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-01-16T13:38:03.427504",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_AH",
+    "metadata": {
+      "deck_id": "FEN_AH",
+      "title": "Access Health Benefits Overview",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-01-16T13:38:03.427504",
+      "version": "1.0"
+    }
+  },
+  "slides": [
+    {
+      "title": "Advanced Wellness Plus Overview",
+      "content": "The slide presents 'Advanced Wellness Plus', a health-related service associated with American Financial Security Life Insurance Company. It features an image of a healthcare professional interacting with an elderly patient, suggesting a focus on wellness and patient care. The text at the bottom indicates the offering is a Limited Benefit Health Insurance Plan, underwritten by American Financial Security Life Insurance Co., with specific policy details (Group Policy Form AF FI Policy 721) issued to the National Congress of Employers.",
+      "type": "default"
+    },
+    {
+      "title": "Advanced Wellness Plus Benefit Details",
+      "content": "The slide outlines the benefit description for the 'Advanced Wellness Plus' plan across different plan levels, including 100A, 100, 200, 200+, 300, 500, 750, and 1000. It covers various medical benefits such as Hospital Confinement, Primary and Specialty Care Doctors Office Visit, Emergency Room, Basic Pathology & Radiology, Advanced Studies, Surgery, Anesthesia, Mental Health (Inpatient and Outpatient), and Supplemental Accident benefits. Benefits are displayed per day, max day, or per admission, with specific monetary values assigned to each plan level. A note mentions a 12-month pre-existing condition exclusion and a 30-day waiting period for coverage activation.",
+      "type": "default"
+    },
+    {
+      "title": "Overview of Advanced Wellness Plus and NCE Membership",
+      "content": "The slide introduces Advanced Wellness Plus, associated with the National Congress of Employers (NCE), an organization supporting small and medium-sized businesses through networking and advocacy. NCE provides valuable benefits and customer service to its members. Upon successful application and payment, members receive a confirmation email with the NCE Membership Handbook and insurance certificate. Fulfillment packets are mailed within 7-10 business days, pending carrier approval. The membership involves a monthly premium for health benefits, with an initial non-refundable enrollment fee. The Limited Medical Coverage plan offers basic insurance, not intended to replace major medical plans, and is ideal for supplementing higher deductible plans. Eligible individuals include adult members aged 18-65 and dependent children aged 1-25.",
+      "type": "default"
+    },
+    {
+      "title": "GapAfford Plus - NCE Membership Benefits Overview",
+      "content": "The slide presents the benefits of the GapAfford Plus program, which offers cost savings for individuals and families on medical expenses. The program includes no deductibles, pre-existing condition limitations, medical exams, claim forms, limitations on usage, or age restrictions. Key features include a prescription discount card offering savings of 15% on brand-name and 55% on generic medications. The Aetna Dental Access Network provides discounts on dental services with no pre-existing condition limitations. The OUTLOOK Vision Network offers savings on eye care. Additional benefits include discounts on pet prescriptions, alternative medicine, chiropractic care, hearing aids, imaging services, and medical equipment. The program also features medical bill negotiations, vitamins and supplements discounts, and 24/7 health and nurse help lines. Notably, the GapAfford Plus is not insurance and requires participants to pay for services at the time they are rendered.",
+      "type": "default"
+    },
+    {
+      "title": "Hospital Indemnity Insurance Limitations & Exclusions Overview",
+      "content": "This slide outlines the limitations and exclusions of a hospital indemnity insurance policy, highlighting specific conditions where benefits will not be provided. It excludes coverage for treatments that are not medically necessary, prescribed by a doctor, or experimental. Additional exclusions apply to dental procedures unless related to sound natural teeth within 12 months of the accident, elective procedures, and any injuries caused by felony or illegal occupation. The policy also excludes manipulations of the musculoskeletal system, self-inflicted injuries, and incidents related to war or similar events. Work-related injuries and pre-existing conditions are also not covered under specific circumstances. A 30-day waiting period is required for sickness benefits, and voluntary abortion is not covered unless life-threatening. Claims can be mailed to International Benefits Administrators, with contact details provided for electronic submissions and inquiries.",
+      "type": "default"
+    }
+  ],
+  "pdf_path": "decks/FEN_AH/img/pdfs/Access-Health_brochure.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_AH/img/pages/page_1.png",
+      "decks/FEN_AH/img/pages/page_2.png",
+      "decks/FEN_AH/img/pages/page_3.png",
+      "decks/FEN_AH/img/pages/page_4.png",
+      "decks/FEN_AH/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_AH/img/pages"
+  },
+  "awaiting_input": "pdf_upload",
+  "page_summaries": [
+    {
+      "title": "Advanced Wellness Plus Overview",
+      "summary": "The slide presents 'Advanced Wellness Plus', a health-related service associated with American Financial Security Life Insurance Company. It features an image of a healthcare professional interacting with an elderly patient, suggesting a focus on wellness and patient care. The text at the bottom indicates the offering is a Limited Benefit Health Insurance Plan, underwritten by American Financial Security Life Insurance Co., with specific policy details (Group Policy Form AF FI Policy 721) issued to the National Congress of Employers.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 1
+    },
+    {
+      "title": "Advanced Wellness Plus Benefit Details",
+      "summary": "The slide outlines the benefit description for the 'Advanced Wellness Plus' plan across different plan levels, including 100A, 100, 200, 200+, 300, 500, 750, and 1000. It covers various medical benefits such as Hospital Confinement, Primary and Specialty Care Doctors Office Visit, Emergency Room, Basic Pathology & Radiology, Advanced Studies, Surgery, Anesthesia, Mental Health (Inpatient and Outpatient), and Supplemental Accident benefits. Benefits are displayed per day, max day, or per admission, with specific monetary values assigned to each plan level. A note mentions a 12-month pre-existing condition exclusion and a 30-day waiting period for coverage activation.",
+      "tableDetails": {
+        "hasTable": true,
+        "type": "benefits"
+      },
+      "page": 2
+    },
+    {
+      "title": "Overview of Advanced Wellness Plus and NCE Membership",
+      "summary": "The slide introduces Advanced Wellness Plus, associated with the National Congress of Employers (NCE), an organization supporting small and medium-sized businesses through networking and advocacy. NCE provides valuable benefits and customer service to its members. Upon successful application and payment, members receive a confirmation email with the NCE Membership Handbook and insurance certificate. Fulfillment packets are mailed within 7-10 business days, pending carrier approval. The membership involves a monthly premium for health benefits, with an initial non-refundable enrollment fee. The Limited Medical Coverage plan offers basic insurance, not intended to replace major medical plans, and is ideal for supplementing higher deductible plans. Eligible individuals include adult members aged 18-65 and dependent children aged 1-25.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 3
+    },
+    {
+      "title": "GapAfford Plus - NCE Membership Benefits Overview",
+      "summary": "The slide presents the benefits of the GapAfford Plus program, which offers cost savings for individuals and families on medical expenses. The program includes no deductibles, pre-existing condition limitations, medical exams, claim forms, limitations on usage, or age restrictions. Key features include a prescription discount card offering savings of 15% on brand-name and 55% on generic medications. The Aetna Dental Access Network provides discounts on dental services with no pre-existing condition limitations. The OUTLOOK Vision Network offers savings on eye care. Additional benefits include discounts on pet prescriptions, alternative medicine, chiropractic care, hearing aids, imaging services, and medical equipment. The program also features medical bill negotiations, vitamins and supplements discounts, and 24/7 health and nurse help lines. Notably, the GapAfford Plus is not insurance and requires participants to pay for services at the time they are rendered.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 4
+    },
+    {
+      "title": "Hospital Indemnity Insurance Limitations & Exclusions Overview",
+      "summary": "This slide outlines the limitations and exclusions of a hospital indemnity insurance policy, highlighting specific conditions where benefits will not be provided. It excludes coverage for treatments that are not medically necessary, prescribed by a doctor, or experimental. Additional exclusions apply to dental procedures unless related to sound natural teeth within 12 months of the accident, elective procedures, and any injuries caused by felony or illegal occupation. The policy also excludes manipulations of the musculoskeletal system, self-inflicted injuries, and incidents related to war or similar events. Work-related injuries and pre-existing conditions are also not covered under specific circumstances. A 30-day waiting period is required for sickness benefits, and voluntary abortion is not covered unless life-threatening. Claims can be mailed to International Benefits Administrators, with contact details provided for electronic submissions and inquiries.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 5
+    }
+  ],
+  "processed_summaries": "## Plan Overview\n\nThe \"Advanced Wellness Plus\" plan is a health-related service offered by American Financial Security Life Insurance Company. Designed with wellness and patient care in mind, this plan provides a Limited Benefit Health Insurance option to members of the National Congress of Employers. It is particularly suitable for supplementing high-deductible major medical plans, offering essential coverage for hospital confinement, doctor visits, and additional healthcare services. This plan is available to adult members aged 18-65 and dependent children aged 1-25, with a monthly premium and an initial non-refundable enrollment fee.\n\n## Core Plan Elements\n\n- **Key Features and Benefits:**\n  - Hospital Confinement and Office Visit Benefits\n  - Supplemental Accident Benefits\n  - Mental Health and Anesthesia Coverage\n  \n- **Coverage Details:**\n  - Coverage for primary and specialty care visits, emergency room, surgery, and mental health services.\n  - Limited medical coverage meant for supplemental purposes.\n\n- **Eligibility Requirements:**\n  - Available to adult members aged 18-65 and dependent children aged 1-25.\n  - Requires membership in the National Congress of Employers.\n\n## Common Service Features\n\n- **Network Access:**\n  - Access to a network of healthcare providers ensuring quality service and care.\n  \n- **Claims Process:**\n  - Simplified claims process with support for electronic submissions.\n\n- **Support Services:**\n  - Customer service provided through the National Congress of Employers.\n  - 24/7 health and nurse help lines available.\n\n## Plan Tiers and Benefits\n\n### Plan 100A (1/2)\n\n**Hospital Confinement Benefit**\n- Per Day: $100\n- Max Day: 30 days\n\n**Primary Care Doctors Office Visit Benefit**\n- Per Day: $50\n- Max Day: 3 days\n\n**Specialty Care Doctors\u2019 Office Visit Benefit**\n- Per Day: $50\n- Max Day: 3 days\n\n**Emergency Room Benefit**\n- Per Day: Not covered\n- Max Day: 1 day\n\n### Plan 100A (2/2)\n\n**Basic Pathology & Radiology Benefit**\n- Per Day: Not covered\n- Max Day: Not applicable\n\n**Advance Studies Benefit**\n- Per Day: Not covered\n- Max Day: Not applicable\n\n**Accidental Death Benefit**\n- Maximum Benefit: Not applicable\n\n**Critical Illness**\n- Maximum Benefit: Not applicable\n\n(Continue with similar structure for each subsequent plan tier: 100, 200, 200+, 300, 500, 750, 1000)\n\n## Comparing the Plans\n\n| **Feature**                           | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |\n|---------------------------------------|----------|---------|---------|----------|---------|---------|---------|----------|\n| Hospital Confinement (Per Day)        | $100     | $100    | $200    | $200     | $300    | $500    | $750    | $1000    |\n| Primary Care Office Visit (Per Day)   | $50      | $50     | $50     | $50      | $50     | $50     | $50     | $75      |\n| Specialty Care Office Visit (Per Day) | $50      | $50     | $50     | $50      | $50     | $50     | $75     | $100     |\n| Mental Health Inpatient (Per Day)     | Not available | Not available | Not available | Not available | $150    | $250    | $375    | $500    |\n| Accidental Death                      | Not available | $10,000 | $10,000 | $10,000  | $10,000 | $10,000 | $10,000 | $10,000 |\n\n## Limitations and Definitions\n\n- **Important Exclusions:**\n  - Excludes treatments not medically necessary or experimental.\n  - Excludes injuries from illegal activities, elective procedures, and dental work unless related to an accident.\n\n- **Key Terms Defined:**\n  - **Pre-existing Condition:** Any condition that existed before coverage starts, subject to a 12-month exclusion.\n  - **Coverage Activation:** Begins after a 30-day waiting period.\n\n## Key Takeaways\n\n- **Plan Highlights:**\n  - Offers a range of benefits suitable for supplementing high-deductible major medical plans.\n  - Provides coverage for essential health services with specific monetary benefits per tier.\n\n- **Value Propositions:**\n  - No deductibles on selected services.\n  - Access to a broad network of healthcare providers.\n\n- **Next Steps:**\n  - Consider your specific healthcare needs and budget to select the appropriate plan tier.\n  - Contact the National Congress of Employers for membership and enrollment.",
+  "audio_config": {
+    "config_path": "decks/FEN_AH/audio/audio_config.json",
+    "script_path": "decks/FEN_AH/audio/audio_script.md",
+    "slide_count": 5
+  },
+  "error_context": null
+}
