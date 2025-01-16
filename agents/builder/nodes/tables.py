@@ -61,55 +61,56 @@ async def extract_tables(state: Dict) -> Dict:
             summaries = json.load(f)
         
         logger.info(f"Loaded {len(summaries)} summaries")
-        pages_with_tables = [s for s in summaries if s.get("hasTable", False)]
+        pages_with_tables = [s for s in summaries if s.get("tableDetails", {}).get("hasTable", False)]
         logger.info(f"Found {len(pages_with_tables)} pages marked with hasTable=true")
 
         chat = ChatOpenAI(
             model="gpt-4o",
-            max_tokens=4096,
+            max_tokens=8000,
             temperature=0
         )
-        logger.info("Initialized chat model")
+        logger.info("Initialized chat model with gpt-4o")
 
         manifest = {"tables": []}
         
         for summary in pages_with_tables:
             logger.info(f"Processing table for page {summary['page']}")
             
-            image_path = deck_dir / "img" / "pdfs" / f"page_{summary['page']}.png"
+            image_path = deck_dir / "img" / "pages" / f"page_{summary['page']}.png"
             if not image_path.exists():
                 logger.error(f"Image file not found: {image_path}")
                 continue
-                
+
             try:
-                image_data = encode_image(str(image_path))
-                logger.info(f"Successfully encoded image: {image_path}")
+                # Get base64 of image
+                image_base64 = encode_image(str(image_path))
                 
                 messages = [
                     HumanMessage(content=[
                         {
                             "type": "text",
-                            "text": "Convert this table to CSV format. Return only the CSV text without anything else, including no ```."
+                            "text": """Here is an image of a benefits table. Return in a clean tab-separated (TSV) format, using tabs (\t) as separators between columns. Return only the TSV text without anything else.
+
+Be very careful to not include any other text in the output and ensure it is a true representation of the information in the table."""
                         },
                         {
                             "type": "image_url",
                             "image_url": {
-                                "url": f"data:image/png;base64,{image_data}",
-                                "detail": "high"
+                                "url": f"data:image/png;base64,{image_base64}"
                             }
                         }
                     ])
                 ]
-                
+
                 logger.info(f"Sending request to model for page {summary['page']}")
                 response = await chat.ainvoke(messages)
-                csv_content = response.content.strip()
+                tsv_content = response.content
                 
-                if csv_content:
+                if tsv_content:
                     table_path = tables_dir / f"table_{summary['page']:03d}.tsv"
                     with open(table_path, "w") as f:
-                        f.write(csv_content)
-                    logger.info(f"Saved CSV content to {table_path}")
+                        f.write(tsv_content)
+                    logger.info(f"Saved TSV content to {table_path}")
                     
                     manifest["tables"].append({
                         "page": summary["page"],
