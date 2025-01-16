@@ -1,7 +1,7 @@
 [
   {
-    "title": "Advanced Wellness Plus Healthcare Plan",
-    "summary": "The slide introduces 'Advanced Wellness Plus,' a healthcare plan associated with American Financial Security Life Insurance Co. It features an image of a healthcare professional engaging with a senior patient, suggesting a focus on patient care and wellness. The text at the bottom provides legal information about the insurance plans, specifying that they are limited benefit health insurance plans underwritten by American Financial Security Life Insurance Co., with specific policy forms issued to the National Congress of Employers.",
+    "title": "Advanced Wellness Plus Presentation Slide",
+    "summary": "The slide features the 'Advanced Wellness Plus' branding, with a logo prominently displayed at the top left. In the foreground, a healthcare professional, possibly a doctor or nurse, is smiling and showing a document to an elderly woman, who is also smiling. This image conveys a sense of care and wellbeing. At the bottom, there is a logo and text for 'American Financial Security Life Insurance Co', mentioning that it provides limited benefit health insurance plans. The text also specifies that the insurance is underwritten by American Financial Security Life Insurance Co. and mentions a group policy form issued to the National Congress of Employers, identified as AFS LM 721 AWP BR.",
     "tableDetails": {
       "hasTable": false,
       "type": "other"
@@ -9,8 +9,8 @@
     "page": 1
   },
   {
-    "title": "Advanced Wellness Plus Benefits Overview",
-    "summary": "This slide outlines the benefits provided under the 'Advanced Wellness Plus' plan across various coverage levels, ranging from 100A to 1000. It includes a comprehensive table detailing the per day and maximum day benefits for different categories such as Hospital Confinement, Primary and Specialty Care Doctors Office Visits, Emergency Room, and various surgical and mental health benefits. Specific benefits like Basic Pathology & Radiology, Advance Studies, Surgery, Anesthesia, and Mental Health are included, with varying levels of coverage. Additionally, it covers Supplemental Accident Admission, Emergency Room Benefits, Hospital Intensive Care, Additional Hospital Admission, and Critical Illness benefits. The slide highlights that there is no coverage for pre-existing conditions for 12 months from the effective date and notes a 30-day waiting period post coverage effective date, excluding injuries.",
+    "title": "Advanced Wellness Plus - Benefit Description",
+    "summary": "The slide outlines the benefits offered under the Advanced Wellness Plus policy, detailing various medical benefits and their respective coverages across different plan levels (100A, 100, 200, 200+, 300, 500, 750, 1000). Benefits include Hospital Confinement, Primary and Specialty Care Doctors Office Visits, Emergency Room, Pathology & Radiology, Advance Studies, Surgery, Anesthesia, Mental Health Inpatient and Outpatient, Supplemental Accident Inpatient Admission, Supplemental Accident Emergency Room, Hospital Intensive Care Unit, Additional Hospital Admission, and Accidental Death. Each benefit lists per day or per admission amounts and maximum days or admission limits. Notably, the Critical Illness benefit has a fixed maximum of $1,000 across all plans. Conditions and waiting periods are also briefly mentioned at the bottom.",
     "tableDetails": {
       "hasTable": true,
       "type": "benefits"
@@ -19,8 +19,8 @@
     "table_path": "ai/tables/table_002.tsv"
   },
   {
-    "title": "Overview of Advanced Wellness Plus and NCE Membership",
-    "summary": "The slide describes the National Congress of Employers (NCE), which supports small and medium-sized businesses in the U.S. by offering networking, advocacy, and information sharing. Members receive reliable services and benefits, with superior customer service. Upon successful application and payment, members get a Purchase Confirmation email with a membership handbook and insurance certificate. Monthly membership involves a billing statement for health benefits reflecting the monthly premium and a non-refundable enrollment fee. Limited Medical Coverage is explained as a plan providing basic insurance coverage, not a replacement for major medical plans, suitable for supplementing higher deductible major medical plans. Eligibility is for adult members aged 18-65 and dependent children aged 1-25.",
+    "title": "Advanced Wellness Plus Overview",
+    "summary": "The slide introduces the Advanced Wellness Plus program, emphasizing the role of the National Congress of Employers (NCE) in providing services and benefits to small and medium-sized businesses in America. It explains the process of obtaining membership, including the receipt of a confirmation email, a membership handbook, and a certificate of insurance. The slide outlines the billing process for monthly membership, mentioning a one-time, non-refundable enrollment fee and the drafting of future payments. It describes the Limited Benefit Medical plan as a supplemental option to major medical plans, specifying eligibility for adult members aged 18-65 and dependent children aged 1-25. It highlights that the plan is suitable for those looking to supplement a high deductible major medical plan.",
     "tableDetails": {
       "hasTable": false,
       "type": "other"
@@ -28,8 +28,8 @@
     "page": 3
   },
   {
-    "title": "Advanced Wellness Plus: GapAfford Plus - NCE Membership Benefits",
-    "summary": "The slide outlines the benefits of the GapAfford Plus program, designed to reduce out-of-pocket medical expenses for individuals and families. Key features include no deductibles, claim forms, or age restrictions, with savings on prescription drugs, pet medications, dental services, and more. The program partners with the OUTLOOK Vision Network, offering discounts on eyeglasses, lenses, and medical eye exams. Other benefits include savings on alternative medicine, chiropractic care, hearing aids, medical supplies, and equipment. The program also offers a 24/7 health information line and nurse help line, though it is not insurance. Additional services include savings on lab tests, physical therapy, and vitamins.",
+    "title": "Advanced Wellness Plus - GapAfford Plus - NCE Membership Benefits",
+    "summary": "The slide outlines the benefits of the GapAfford Plus program, designed to help individuals and families reduce out-of-pocket medical expenses. Key features include no deductibles, no pre-existing condition limitations, and no age restrictions. The Prescription Discount Benefits offer savings on brand-name and generic medications, while the Aetna Dental Access Network provides discounted dental services. The OUTLOOK Vision Network offers savings on eyeglasses and surgical procedures like PRK and LASIK. Pet Rx covers savings on pet medications. Alternative Medicine, Chiropractic Care, and Hearing Savings Programs offer discounts on various health services. Imaging Savings and Medical Bill Negotiations help reduce costs on radiology and medical expenses. Additional member benefits include discounts on medical supplies, laboratory services, physical therapy, vitamins, and access to health information and nurse help lines. The slide also includes a disclaimer noting that GapAfford Plus is not insurance.",
     "tableDetails": {
       "hasTable": false,
       "type": "other"
@@ -38,7 +38,7 @@
   },
   {
     "title": "Hospital Indemnity Insurance Limitations & Exclusions",
-    "summary": "The slide outlines various limitations and exclusions of a hospital indemnity insurance policy, specifying conditions under which benefits will not be provided. Benefits will not cover non-medically necessary treatments, experimental procedures, or services rendered by family members. Additional exclusions include dental procedures except for accidental injury treatment, elective and cosmetic surgeries, felonies, musculoskeletal system manipulations, self-inflicted injuries, acts of war, work-related injuries, and pre-existing conditions without coverage for 12 months. Special conditions include a 30-day waiting period for sickness benefits and no coverage for voluntary abortion unless life-threatening. Coverage provisions emphasize the need to refer to the Certificate of Insurance for complete details. Claims are to be mailed or submitted electronically to International Benefits Administrators.",
+    "summary": "The slide outlines the limitations and exclusions of a hospital indemnity insurance policy, specifying no benefits for treatments or services not deemed medically necessary, prescribed by a doctor, or legal. Exclusions include dental procedures unrelated to accidental injury, elective procedures, cosmetic surgery, felonies, and illegal occupations. Additional exclusions involve musculoskeletal manipulations for non-removal purposes, self-inflicted injuries, involvement in war or riots, and work-related injuries not covered by other insurances. Pregnancy-related exclusions include a 30-day sickness benefit waiting period and no coverage for voluntary abortion unless life-threatening. Pre-existing condition limitations are also detailed, with exceptions for adoption-related scenarios. The slide also provides claims submission instructions, including contact information for International Benefits Administrators.",
     "tableDetails": {
       "hasTable": false,
       "type": "other"

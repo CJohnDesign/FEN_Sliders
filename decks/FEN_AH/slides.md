@@ -1,11 +1,11 @@
 ---
-id: FEN_WELLNESS
+id: FEN_advanced_wellness_plus
 theme: ../../
 title: | 
-  Advanced Wellness Plus Plan
+  Advanced Wellness Plus
 info: |
-  ## Advanced Wellness Plus Plan Review
-  A comprehensive look at the Advanced Wellness Plus Plan benefits and details.
+  ## Advanced Wellness Plus Review
+  A comprehensive look at the Advanced Wellness Plus benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -16,11 +16,11 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_WELLNESS" />
+<SlideAudio deckKey="FEN_advanced_wellness_plus" />
 
-# Advanced Wellness Plus Plan Review
+# Advanced Wellness Plus Review
 
-Understanding the details and benefits of the **Advanced Wellness Plus Healthcare Plan**
+Understanding the details and benefits of the **Advanced Wellness Plus Program**
 
 ---
 transition: fade-out
@@ -31,11 +31,11 @@ layout: default
 
 <v-clicks>
 
-- Offered through **American Financial Security Life Insurance Co.**
-- **Healthcare Benefits** for various situations
-- **Networking and Advocacy** support tools
-- **Coverage Levels** through multiple tiers
-- **Small Business** support
+- Comprehensive health care through **American Financial Security**
+- **Limited Benefit Plans** for various situations
+- **Supplemental Coverage** and support tools
+- **Network Access** through NCE
+- **Membership Benefits** support
 
 </v-clicks>
 
@@ -50,12 +50,11 @@ layout: default
 
 **Hospital Confinement**
 
-**Office Visits**
+**Primary Care Visits**
 
-**Emergency Care**
+**Surgery Benefits**
 
-**Surgical Services** (varies by plan)
-
+**Critical Illness Coverage** (varies by plan)
 </v-clicks>
 
 <v-click>
@@ -77,20 +76,20 @@ layout: default
 <v-click>
 
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-24 mix-blend-multiply" alt="Claims Tool Logo">
+  <img src="" class="h-24 mix-blend-multiply" alt="International Benefits Administrators Logo">
 </div>
 
-**Claims Submission** (CSA)
+**International Benefits Administrators** (IBA)
 </v-click>
 
 <v-click>
 
-**Electronic Options** System
+**Claims Handling** System
 </v-click>
 
 <v-click>
 
-**Mail Options** Support
+**Streamlined Support** Services
 </v-click>
 
 ---
@@ -98,16 +97,16 @@ transition: fade-out
 layout: default
 ---
 
-## How Claims Submission Works
+## How International Benefits Administrators Works
 
 <v-clicks>
 
-1. Enroll through **American Financial Security**
-2. Submit claims electronically
-3. Use mail if preferred
-4. Receive **Explanation of Benefits** (EOB)
-5. Track claims online
-6. **Efficient Reimbursement**
+1. Enroll through **NCE**
+2. Submit claim forms
+3. Processing by IBA
+4. Receive **Explanation of Benefits (EOB)**
+5. Resolve any discrepancies
+6. **Benefit Payments**
 
 </v-clicks>
 
@@ -120,9 +119,9 @@ layout: default
 
 <v-clicks>
 
-- **Health Information** Services
-- **Nurse Helpline** Programs
-- **American Financial Security** provides comprehensive support
+- **Health Check** Services
+- **Wellness Programs**
+- **NCE** provides comprehensive support
 
 </v-clicks>
 
@@ -135,10 +134,10 @@ layout: default
 
 <v-clicks>
 
+- **Virtual Consultations**
 - **24/7 Access**
-- **Convenient Consultations**
-- **Affordable Options** available
-- **Quick Access** to care
+- **Specialist Referrals** available
+- **Convenient Access** to care
 
 </v-clicks>
 
@@ -151,10 +150,10 @@ layout: default
 
 <v-clicks>
 
-- **Dedicated** healthcare advocacy
-- **Application Assistance**
-- **Plan Selection** options
-- **Ongoing Support**
+- **Comprehensive** healthcare advocacy
+- **Guidance** assistance
+- **Resource** options
+- **Member** support
 
 </v-clicks>
 
@@ -164,29 +163,29 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## 100A Plan (1/2)
+## Plan 100A (1/2)
 
 <v-click>
 
-**Hospital Confinement**
-- Coverage Per Day: $100
-- Maximum Days: 30
+**Hospital Confinement Benefit**
+- Per Day: $100
+- Max Days: 30
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Primary Care Visit**
-- Coverage Per Day: $50
-- Maximum Days: 3
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 3
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit**
-- Coverage Per Day: $50
-- Maximum Days: 5
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 3
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -196,20 +195,27 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## 100A Plan (2/2)
+## Plan 100A (2/2)
 
 <v-click>
 
 **Emergency Room Benefit**
-- Coverage Per Day: Not Available
+- Not Applicable
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Basic Pathology & Radiology**
-- Coverage: Not Available
+**Basic Pathology & Radiology Benefit**
+- Not Applicable
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- Maximum Benefit: Not Applicable
+<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -218,29 +224,29 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## 100 Plan (1/2)
+## Plan 100 (1/2)
 
 <v-click>
 
-**Hospital Confinement**
-- Coverage Per Day: $100
-- Maximum Days: 30
+**Hospital Confinement Benefit**
+- Per Day: $100
+- Max Days: 30
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Primary Care Visit**
-- Coverage Per Day: $50
-- Maximum Days: 5
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit**
-- Coverage Per Day: $50
-- Maximum Days: 5
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -250,94 +256,355 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## 100 Plan (2/2)
+## Plan 100 (2/2)
 
 <v-click>
 
 **Emergency Room Benefit**
-- Coverage Per Day: Not Available
+- Per Day: Not Applicable
+- Max Days: 1
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Basic Pathology & Radiology**
-- Coverage: Not Available
+**Basic Pathology & Radiology Benefit**
+- Per Day: Not Applicable
+- Max Days: 1
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
----
-transition: fade-out
-layout: default
----
+<v-click>
 
-## Comparing the Plans
-
-| **Feature** | **100A** | **100** | **200** | **200+** |
-|-------------|----------|---------|---------|----------|
-| Hospital Confinement (Per Day) | $100 | $100 | $200 | $200 |
-| Primary Care Visit (Per Day) | $50 | $50 | $50 | $50 |
-| Specialty Care Visit (Per Day) | $50 | $50 | $50 | $50 |
-| Emergency Room Benefit (Per Day) | - | - | - | $50 |
-| Basic Pathology & Radiology | - | - | - | $50 |
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_final.jpg
+image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Definitions and Limitations
+## Plan 200 (1/2)
 
 <v-click>
 
-**Exclusions**
-- Non-medically necessary treatments
-- Experimental procedures
-- Services by family members
-<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
+**Hospital Confinement Benefit**
+- Per Day: $200
+- Max Days: 30
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Terms Defined**
-- **Pre-existing Condition**: Prior 12 months
-- **Waiting Period**: 30 days
-<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Limitations**
-- Elective surgeries not covered
-- Pre-existing within 12 months
-<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
-layout: default
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Key Takeaways and Reminders
+## Plan 200 (2/2)
 
-<v-clicks>
+<v-click>
 
-- **Diverse Coverage** options
-- **Competitive Benefits** included
-- **Supplemental Coverage** benefits
-- **Membership Application** required
+**Emergency Room Benefit**
+- Not Applicable
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
+<v-click>
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $50
+- Max Days: 3
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 ---
 transition: fade-out
-layout: end
-line: Thank you for participating in the Advanced Wellness Plus Plan Review. Continue to be great!
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
 ---
 
-# Thank You!
+## Plan 200+ (1/2)
 
-Continue to be great!
+<v-click>
 
-<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="Brand Logo">
+**Hospital Confinement Benefit**
+- Per Day: $200
+- Max Days: 30
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 200+ (2/2)
+
+<v-click>
+
+**Emergency Room Benefit**
+- Per Day: Not Applicable
+- Max Days: 2
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $50
+- Max Days: 3
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 300 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefit**
+- Per Day: $300
+- Max Days: 30
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 300 (2/2)
+
+<v-click>
+
+**Emergency Room Benefit**
+- Not Applicable
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: Not Applicable
+- Max Days: 2
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 500 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefit**
+- Per Day: $500
+- Max Days: 30
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 500 (2/2)
+
+<v-click>
+
+**Emergency Room Benefit**
+- Per Day: $50
+- Max Days: 1
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $50
+- Max Days: 2
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 750 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefit**
+- Per Day: $750
+- Max Days: 30
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $75
+- Max Days: 5
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 750 (2/2)
+
+<v-click>
+
+**Emergency Room Benefit**
+- Per Day: $50
+- Max Days: 1
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $50
+- Max Days: 2
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+<Arrow v-bind="{ x1:480, y1:450, x2:560, y2:450, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 1000 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefit**
+- Per Day: $1000
+- Max Days: 30
+<Arrow v-bind="{ x1:480, y1:160, x2:560

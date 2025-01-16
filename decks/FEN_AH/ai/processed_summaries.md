@@ -1,94 +1,283 @@
 ## Plan Overview
 
-The "Advanced Wellness Plus Healthcare Plan" offers a comprehensive suite of healthcare benefits designed to enhance patient care and wellness. Underwritten by American Financial Security Life Insurance Co., this plan provides limited benefit health insurance tailored to meet the needs of members through various coverage levels. Associated with the National Congress of Employers (NCE), the plan supports small to medium-sized businesses by offering essential healthcare benefits alongside networking and advocacy resources for member organizations.
+Advanced Wellness Plus is a comprehensive health care program designed to offer limited benefit health insurance plans through American Financial Security Life Insurance Co. These plans are underwritten and tailored to provide supplemental coverage, particularly suitable for individuals and families looking to augment a high deductible major medical plan. The program is supported by the National Congress of Employers (NCE), ensuring a robust network and reliable membership benefits for small and medium-sized businesses.
 
 ## Core Plan Elements
 
-- **Key Features and Benefits**: The plan provides a wide range of benefits including hospital confinement, office visits, emergency care, surgical and anesthesia services, mental health support, and accident-related coverage.
-- **Coverage Details**: Multiple tiers from 100A to 1000 offer escalating levels of coverage, ensuring that members can choose a plan that best suits their healthcare needs.
-- **Eligibility Requirements**: Adult members aged 18-65 and dependent children aged 1-25 are eligible for the plan. There is a 12-month waiting period for pre-existing conditions and a 30-day waiting period for sickness benefits.
+- **Key Features and Benefits**: The plan encompasses a wide range of benefits, including hospital confinement, primary and specialty care visits, surgery benefits, and critical illness coverage. Additional features include mental health support, supplemental accident coverage, and accidental death benefits, ensuring a comprehensive safety net for members.
+  
+- **Coverage Details**: Benefits vary by plan tier, offering flexibility to meet different needs and budgets. Critical illness coverage, for example, provides a maximum benefit of $1,000 across all tiers, while other benefits scale with the tier level.
+
+- **Eligibility Requirements**: The plan is open to adult members aged 18-65 and dependent children aged 1-25, making it accessible for a broad range of individuals seeking supplemental health coverage.
 
 ## Common Service Features
 
-- **Network Access**: Members have access to a broad network of healthcare providers, ensuring convenience and choice in their healthcare services.
-- **Claims Process**: Simplified claims submission through electronic or mail options to International Benefits Administrators.
-- **Support Services**: Includes a 24/7 health information line and nurse helpline, offering immediate assistance and health guidance.
+- **Network Access**: Members gain access to a wide network of healthcare providers, ensuring convenient and timely medical services.
+
+- **Claims Process**: Streamlined claims handling facilitated by International Benefits Administrators, providing efficient service and quick resolutions to members’ claims.
+
+- **Support Services**: Comprehensive support through health information and nurse help lines, offering guidance and assistance to members throughout their healthcare journey.
 
 ## Plan Tiers and Benefits
 
-### Plan Tier Summary
+### Plan 100A (1/2)
 
-#### Overview
-This summary provides a detailed comparison of insurance benefits across different plan tiers. Each tier offers varying levels of coverage, with specific benefits and limitations outlined below.
+**Hospital Confinement Benefit**
+- Per Day: $100
+- Max Days: 30
 
-#### Plan Tiers
-- **100A**
-- **100**
-- **200**
-- **200+**
-- **300**
-- **500**
-- **750**
-- **1000**
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 3
 
-#### Benefits and Coverage Details
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 3
 
-##### Hospital Confinement Benefit
-- **Coverage Per Day:** 
-  - 100A, 100: $100
-  - 200, 200+: $200
-  - 300: $300
-  - 500: $500
-  - 750: $750
-  - 1000: $1000
-- **Maximum Days:** 30 days for all tiers
+### Plan 100A (2/2)
 
-##### Primary Care Doctors Office Visit Benefit
-- **Coverage Per Day:** 
-  - All tiers except 1000: $50
-  - 1000: $75
-- **Maximum Days:** 
-  - 100A: 3 days
-  - 100, 200, 200+, 300, 500, 750, 1000: 5 days
+**Emergency Room Benefit**
+- Not Applicable
 
-##### Specialty Care Doctors' Office Visit Benefit
-- **Coverage Per Day:** 
-  - All tiers except 750 and 1000: $50
-  - 750: $75
-  - 1000: $100
-- **Maximum Days:** 5 days for all tiers
+**Basic Pathology & Radiology Benefit**
+- Not Applicable
 
-[...additional detailed benefit breakdown for each tier...]
+**Accidental Death Benefit**
+- Maximum Benefit: Not Applicable
 
-## Comparing the Plans (1/2)
+---
+
+### Plan 100 (1/2)
+
+**Hospital Confinement Benefit**
+- Per Day: $100
+- Max Days: 30
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+### Plan 100 (2/2)
+
+**Emergency Room Benefit**
+- Per Day: Not Applicable
+- Max Days: 1
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: Not Applicable
+- Max Days: 1
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+
+---
+
+### Plan 200 (1/2)
+
+**Hospital Confinement Benefit**
+- Per Day: $200
+- Max Days: 30
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+### Plan 200 (2/2)
+
+**Emergency Room Benefit**
+- Not Applicable
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $50
+- Max Days: 3
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+
+---
+
+### Plan 200+ (1/2)
+
+**Hospital Confinement Benefit**
+- Per Day: $200
+- Max Days: 30
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+### Plan 200+ (2/2)
+
+**Emergency Room Benefit**
+- Per Day: Not Applicable
+- Max Days: 2
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $50
+- Max Days: 3
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+
+---
+
+### Plan 300 (1/2)
+
+**Hospital Confinement Benefit**
+- Per Day: $300
+- Max Days: 30
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+### Plan 300 (2/2)
+
+**Emergency Room Benefit**
+- Not Applicable
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: Not Applicable
+- Max Days: 2
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+
+---
+
+### Plan 500 (1/2)
+
+**Hospital Confinement Benefit**
+- Per Day: $500
+- Max Days: 30
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+### Plan 500 (2/2)
+
+**Emergency Room Benefit**
+- Per Day: $50
+- Max Days: 1
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $50
+- Max Days: 2
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+
+---
+
+### Plan 750 (1/2)
+
+**Hospital Confinement Benefit**
+- Per Day: $750
+- Max Days: 30
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $50
+- Max Days: 5
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $75
+- Max Days: 5
+
+### Plan 750 (2/2)
+
+**Emergency Room Benefit**
+- Per Day: $50
+- Max Days: 1
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $50
+- Max Days: 2
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+
+---
+
+### Plan 1000 (1/2)
+
+**Hospital Confinement Benefit**
+- Per Day: $1000
+- Max Days: 30
+
+**Primary Care Doctors Office Visit Benefit**
+- Per Day: $75
+- Max Days: 5
+
+**Specialty Care Doctors' Office Visit Benefit**
+- Per Day: $100
+- Max Days: 5
+
+### Plan 1000 (2/2)
+
+**Emergency Room Benefit**
+- Per Day: $75
+- Max Days: 1
+
+**Basic Pathology & Radiology Benefit**
+- Per Day: $75
+- Max Days: 3
+
+**Accidental Death Benefit**
+- Maximum Benefit: $10,000
+
+## Comparison of the Plans (1/2)
 
 | **Feature**                       | **100A** | **100** | **200** | **200+** |
 |-----------------------------------|----------|---------|---------|----------|
-| Hospital Confinement (Per Day)    | $100     | $100    | $200    | $200     |
-| Primary Care Visit (Per Day)      | $50      | $50     | $50     | $50      |
-| Specialty Care Visit (Per Day)    | $50      | $50     | $50     | $50      |
-| Emergency Room Benefit (Per Day)  | -        | -       | -       | $50      |
-| Basic Pathology & Radiology       | -        | -       | -       | $50      |
+| Hospital Confinement Per Day      | $100     | $100    | $200    | $200     |
+| Primary Care Visit Per Day        | $50      | $50     | $50     | $50      |
+| Specialty Care Visit Per Day      | $50      | $50     | $50     | $50      |
+| Emergency Room Per Day            | N/A      | N/A     | N/A     | N/A      |
+| Basic Pathology & Radiology Per Day| N/A      | N/A     | $50     | $50      |
 
-## Comparing the Plans (2/2)
+## Comparison of the Plans (2/2)
 
-| **Feature**                       | **300** | **500** | **750** | **1000** |
-|-----------------------------------|---------|---------|---------|----------|
-| Hospital Confinement (Per Day)    | $300    | $500    | $750    | $1000    |
-| Primary Care Visit (Per Day)      | $50     | $50     | $50     | $75      |
-| Specialty Care Visit (Per Day)    | $50     | $50     | $75     | $100     |
-| Emergency Room Benefit (Per Day)  | $50     | $50     | $50     | $75      |
-| Basic Pathology & Radiology       | $50     | $50     | $50     | $75      |
+| **Feature**                       | **300**  | **500** | **750** | **1000** |
+|-----------------------------------|----------|---------|---------|----------|
+| Hospital Confinement Per Day      | $300     | $500    | $750    | $1000    |
+| Primary Care Visit Per Day        | $50      | $50     | $50     | $75      |
+| Specialty Care Visit Per Day      | $50      | $50     | $75     | $100     |
+| Emergency Room Per Day            | N/A      | $50     | $50     | $75      |
+| Basic Pathology & Radiology Per Day| N/A      | $50     | $50     | $75      |
 
 ## Limitations and Definitions
 
-- **Important Exclusions**: Benefits do not cover non-medically necessary treatments, experimental procedures, services by family members, elective surgeries, or pre-existing conditions within the first 12 months.
+- **Important Exclusions**: Benefits are not provided for treatments that are not medically necessary or legally prescribed. This includes elective procedures and self-inflicted injuries. Pre-existing conditions have specific limitations.
+  
 - **Key Terms Defined**: 
-  - **Pre-existing Condition**: Any condition for which medical advice, diagnosis, care, or treatment was recommended or received during the 12 months before the effective date of coverage.
-  - **Waiting Period**: A 30-day timeframe post-coverage effective date during which benefits are not payable for sickness (injuries are excluded from this waiting period).
+  - **Hospital Confinement**: The period during which a member is admitted to a hospital.
+  - **Critical Illness**: A specified serious illness eligible for a fixed benefit.
 
 ## Key Takeaways
 
-- **Plan Highlights**: The Advanced Wellness Plus Plan offers diverse coverage options, ensuring a fit for different healthcare needs and preferences.
-- **Value Propositions**: Competitive benefit packages are designed to supplement existing high-deductible major medical plans effectively.
-- **Next Steps**: Evaluate your healthcare needs, select the appropriate plan tier, and apply for membership to start enjoying the benefits of the Advanced Wellness Plus Plan.
+- **Plan Highlights**: The Advanced Wellness Plus plans offer a wide range of coverage options tailored to supplement high deductible major medical plans with benefits like hospital confinement and critical illness coverage.
+
+- **Value Propositions**: Members benefit from a flexible plan structure, tiered to match varying healthcare needs and financial capabilities.
+
+- **Next Steps**: Interested parties should consider their current medical coverage needs, evaluate which plan tier fits best, and reach out for membership enrollment to start benefiting from the Advanced Wellness Plus program.
