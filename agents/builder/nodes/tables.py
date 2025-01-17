@@ -74,16 +74,17 @@ async def extract_tables(state: Dict) -> Dict:
         manifest = {"tables": []}
         
         for summary in pages_with_tables:
-            logger.info(f"Processing table for page {summary['page']}")
-            
-            image_path = deck_dir / "img" / "pages" / f"page_{summary['page']}.png"
-            if not image_path.exists():
-                logger.error(f"Image file not found: {image_path}")
-                continue
-
             try:
+                logger.info(f"Processing table for page {summary['page']}")
+                
+                image_path = deck_dir / "img" / "pages" / f"page_{summary['page']}.png"
+                if not image_path.exists():
+                    logger.error(f"Image file not found: {image_path}")
+                    continue
+
                 # Get base64 of image
                 image_base64 = encode_image(str(image_path))
+                logger.info(f"Successfully encoded image for page {summary['page']}")
                 
                 messages = [
                     HumanMessage(content=[
@@ -104,6 +105,7 @@ Be very careful to not include any other text in the output and ensure it is a t
 
                 logger.info(f"Sending request to model for page {summary['page']}")
                 response = await chat.ainvoke(messages)
+                logger.info(f"Received response from model for page {summary['page']}")
                 tsv_content = response.content
                 
                 if tsv_content:
@@ -118,6 +120,7 @@ Be very careful to not include any other text in the output and ensure it is a t
                     })
                     
                     summary["table_path"] = str(table_path.relative_to(deck_dir))
+                    logger.info(f"Added table path to summary for page {summary['page']}")
                 else:
                     logger.warning(f"No table content extracted for page {summary['page']}")
                     
@@ -134,13 +137,12 @@ Be very careful to not include any other text in the output and ensure it is a t
             json.dump(summaries, f, indent=2)
         logger.info("Updated summaries.json with table references")
 
+        # Even if some tables fail, continue with the process
         logger.info(f"Table extraction complete. Successfully processed {len(manifest['tables'])} tables")
         return state
         
     except Exception as e:
         logger.error(f"Failed to extract tables: {str(e)}")
-        state["error_context"] = {
-            "error": str(e),
-            "stage": "table_extraction"
-        }
+        # Don't stop the process on table extraction failure
+        logger.info("Continuing despite table extraction failure")
         return state 

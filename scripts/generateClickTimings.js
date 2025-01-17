@@ -12,11 +12,11 @@ const WORDS_PER_SECOND = WORDS_PER_MINUTE / 60;
 
 export async function generateClickTimings(deckKey) {
     // Read the markdown file
-    const mdPath = path.join('decks', deckKey, 'audio', `${deckKey}.md`);
+    const mdPath = path.join('decks', deckKey, 'audio', `audio_script.md`);
     const mdContent = fs.readFileSync(mdPath, 'utf-8');
 
     // Read the config file
-    const configPath = path.join('decks', deckKey, 'audio', 'config.json');
+    const configPath = path.join('decks', deckKey, 'audio', 'audio_config.json');
     const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
 
     // Split MD into sections using the delimiter

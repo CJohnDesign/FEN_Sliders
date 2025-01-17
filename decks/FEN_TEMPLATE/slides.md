@@ -75,10 +75,6 @@ layout: default
 
 <v-click>
 
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-24 mix-blend-multiply" alt="{ Tool } Logo">
-</div>
-
 **{ Tool Name }** ({ Acronym })
 </v-click>
 
@@ -168,27 +164,27 @@ image: img/pages/{plan_brochure_image_1}.jpg
 <v-click>
 
 **{ Benefit Category 1 }**
-- { Detail 1 }: { Value 1 }
-- { Detail 2 }: { Value 2 }
-- { Detail 3 }: { Value 3 }
-- { Detail 4 }: { Value 4 }
+- { Detail 1 }
+- { Detail 2 }
+- { Detail 3 }
+- { Detail 4 }
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **{ Benefit Category 2 }**
-- { Detail 1 }: { Value 1 }
-- { Detail 2 }: { Value 2 }
+- { Detail 1 }
+- { Detail 2 }
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **{ Benefit Category 3 }**
-- { Detail 1 }: { Value 1 }
-- { Detail 2 }: { Value 2 }
-- { Detail 3 }: { Value 3 }
+- { Detail 1 }
+- { Detail 2 }
+- { Detail 3 }
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -203,16 +199,16 @@ image: img/pages/{plan_brochure_image_1}.jpg
 <v-click>
 
 **{ Benefit Category 4 }**
-- { Detail 1 }: { Value 1 }
-- { Detail 2 }: { Value 2 }
+- { Detail 1 }
+- { Detail 2 }
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **{ Benefit Category 5 }**
-- { Detail 1 }: { Value 1 }
-- { Detail 2 }: { Value 2 }
+- { Detail 1 }
+- { Detail 2 }
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 

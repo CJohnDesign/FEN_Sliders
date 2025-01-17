@@ -1,103 +1,103 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Premier Insurance Offer. We'll walk through the plan's comprehensive coverage and benefits designed to give you peace of mind. Let's get started!
+Welcome to our Advanced Wellness Plus Review. Today, we'll explore the details and benefits of the Advanced Wellness Plus Insurance Plan, helping you understand how this comprehensive coverage can support your healthcare needs.
 
----- Premier Insurance Overview ----
+---- Plan Overview ----
 
-The Premier Insurance Offer is tailored to provide comprehensive coverage through the National Congress of Employers, or NCE. It includes group hospital coverage for various situations, group accident support, and financial assistance to ensure peace of mind. These benefits are designed to meet a wide range of healthcare needs.
+Let's begin with an overview of the Advanced Wellness Plus plan. This is a Limited Benefit Health plan offered through American Financial Security Life Insurance Company. The plan provides essential health and wellness benefits, specifically designed to support small and medium-sized businesses. It works as a supplement to major medical plans, with capped benefits for healthcare services.
 
 ---- Key Features and Benefits ----
 
-Let's explore some of the key features and benefits. The plan offers daily hospital coverage, accident insurance, and financial support, all contributing to peace of mind. Additionally, the Premier Insurance Offer provides further support through the United States Fire Insurance, enhancing the reliability of your coverage.
+The plan includes several key features. You'll receive comprehensive medical benefits, coverage for hospital confinement, and office visits. There's also emergency room coverage and additional benefits like accidental death coverage. The plan also includes Critical Illness coverage through various tiers.
 
----- Cost Management Tools ----
+---- Eligibility Requirements ----
 
-Managing costs is crucial, and this plan includes several tools to help. The Cost Management System, or CMS, is at the heart of this. It offers an expense tracking system and claims support access, all designed to simplify your healthcare experience.
+Let's review who can enroll in this plan. Coverage is available to adult members aged eighteen to sixty-five, and dependent children aged one to twenty-five.
 
----- How Cost Management Works ----
+---- Common Service Features ----
 
-Here's how the cost management process unfolds. You'll begin by enrolling through the NCE. After that, submitting claims is straightforward, and you can track expenses online. You'll receive an Explanation of Benefits, also known as EOB, to help manage out-of-pocket costs. This streamlined process ensures a simplified reimbursement experience.
+The plan includes valuable cost-saving features through the GapAfford Plus Program and access to Aetna Dental Access network. You'll benefit from prescription discount programs and optical savings through the OUTLOOK Vision Network. Claims processing is straightforward through easy submission, and you'll have access to support services, including a twenty-four-seven health line.
 
----- Preventive Care and Wellness ----
+---- Plan 100A ----
 
-Preventive care is essential for long-term health, and this plan covers routine check-ups and wellness programs. Through a comprehensive health network, you can access a variety of services to maintain your well-being.
+Let's review Plan 100A. This plan provides a hospital confinement benefit of one hundred dollars per day for up to thirty days. For doctor visits, you'll receive fifty dollars per day for up to three days for both primary care and specialty care visits.
 
----- Telehealth Services ----
+---- Plan 100 ----
 
-Telehealth services offer convenience and accessibility. With virtual consultations available twenty-four seven, remote monitoring becomes possible, providing you with convenient access to care from the comfort of your home.
+Moving to Plan 100, you'll find similar hospital confinement benefits of one hundred dollars per day for up to thirty days. Doctor visits remain at fifty dollars per day for up to three days for both primary and specialty care. This plan adds an emergency room benefit of fifty dollars for one visit and includes a ten thousand dollar accidental death benefit.
 
----- Advocacy and Support Services ----
+---- Plan 200 (1/2) ----
 
-Advocacy and support services are key components of the plan. It includes personalized healthcare advocacy, assistance in navigating healthcare options, and comprehensive support to ensure you receive the care you need.
+Plan 200 increases the hospital confinement benefit to two hundred dollars per day for up to thirty days. Doctor visits increase to five days coverage at fifty dollars per day for both primary and specialty care. The emergency room benefit provides fifty dollars for one day.
 
----- 100 Plan (One of Two) ----
+---- Plan 200 (2/2) ----
 
-Let's take a closer look at the 100 Plan. This plan includes daily hospital confinement coverage of one hundred dollars per day for up to thirty days. It also covers physician office visits at fifty dollars per visit for six days and emergency room visits at fifty dollars per day for one day.
+Continuing with Plan 200, it includes basic pathology and radiology benefits of fifty dollars for one day, as well as advanced studies benefits at the same rate. The plan includes a ten thousand dollar accidental death benefit.
 
----- 100 Plan (Two of Two) ----
+---- Plan 200+ (1/2) ----
 
-In addition to these benefits, the 100 Plan offers an accidental death benefit amounting to ten thousand dollars, providing extra security for unforeseen events.
+Plan 200+ maintains the two hundred dollar per day hospital confinement benefit for up to thirty days. Doctor visits provide five days of coverage at fifty dollars per day for both primary and specialty care. The emergency room benefit increases to three days of coverage at fifty dollars per day.
 
----- 200A Plan (One of Two) ----
+---- Plan 200+ (2/2) ----
 
-Now, moving on to the 200A Plan. It includes daily hospital confinement coverage of two hundred dollars per day for up to thirty days. Physician office visits are covered at fifty dollars per visit for six days, and emergency room visits are covered at fifty dollars per day for one day.
+The second part of Plan 200+ includes pathology, radiology, and advanced studies benefits at fifty dollars per day for three days each. It adds surgery benefits of four hundred dollars per day for up to three days with twenty percent anesthesia coverage. The plan includes both accidental death coverage of ten thousand dollars and a critical illness benefit of one thousand dollars.
 
----- 200A Plan (Two of Two) ----
+---- Plan 300 (1/3) ----
 
-The 200A Plan does not include additional benefits in this section, but it still provides comprehensive support as outlined.
+Plan 300 increases hospital confinement to three hundred dollars per day for up to thirty days. It maintains five-day coverage for doctor visits at fifty dollars per day and includes emergency room coverage of fifty dollars for one day.
 
----- 200+ Plan (One of Two) ----
+---- Plan 300 (2/3) ----
 
-Let's discuss the 200+ Plan. This plan offers daily hospital confinement coverage of two hundred dollars per day for up to thirty days. It includes physician office visits at fifty dollars per visit for ten days and emergency room visits at fifty dollars per day for one day.
+The second part of Plan 300 includes surgery benefits of four hundred dollars per day for three days with twenty percent anesthesia coverage. Mental health benefits include inpatient coverage at one hundred fifty dollars per day for sixty days and outpatient coverage at fifty dollars per day for twenty days.
 
----- 200+ Plan (Two of Two) ----
+---- Plan 300 (3/3) ----
 
-The 200+ Plan also includes a hospital admission benefit of five hundred dollars for one day, enhancing its coverage for significant healthcare events.
+Completing Plan 300, it provides supplemental accident inpatient admission coverage of five hundred dollars for one day and emergency room coverage of two hundred fifty dollars for one day. The plan includes both a ten thousand dollar accidental death benefit and a one thousand dollar critical illness benefit.
 
----- 300 Plan (One of Two) ----
+---- Plan 500 (1/3) ----
 
-Now, let's explore the 300 Plan. It provides daily hospital confinement coverage of three hundred dollars per day for up to thirty days. Physician office visits are fifty dollars per visit for ten days, and emergency room visits are fifty dollars per day for one day.
+Plan 500 increases the hospital confinement benefit to five hundred dollars per day for up to thirty days. Doctor visits remain at fifty dollars per day for up to five days for both primary and specialty care. The emergency room benefit provides fifty dollars for one day. Basic pathology, radiology, and advanced studies benefits are fifty dollars per day for up to two days each.
 
----- 300 Plan (Two of Two) ----
+---- Plan 500 (2/3) ----
 
-The plan also covers inpatient and outpatient surgery benefits, each at two hundred fifty dollars per day for up to three days, offering additional support for surgical needs.
+The second part of Plan 500 includes surgery benefits of seven hundred fifty dollars per day for up to three days with twenty percent anesthesia coverage. Mental health benefits include inpatient coverage at two hundred fifty dollars per day for sixty days and outpatient coverage at fifty dollars per day for twenty days.
 
----- 500 Plan (One of Two) ----
+---- Plan 500 (3/3) ----
 
-Next, we have the 500 Plan, offering daily hospital confinement coverage of five hundred dollars per day for up to thirty days. It includes physician office visits at fifty dollars per visit for ten days and emergency room visits at fifty dollars per day for one day.
+Completing Plan 500, it provides supplemental accident inpatient admission coverage of five hundred dollars for one day and emergency room coverage of two hundred fifty dollars for one day. The plan includes both a ten thousand dollar accidental death benefit and a one thousand dollar critical illness benefit.
 
----- 500 Plan (Two of Two) ----
+---- Plan 750 (1/3) ----
 
-This plan also provides inpatient and outpatient surgery benefits at three hundred fifty dollars per day for up to three days, ensuring ample support for surgical procedures.
+Plan 750 increases the hospital confinement benefit to seven hundred fifty dollars per day for up to thirty days. Doctor visits remain at fifty dollars per day for up to five days for both primary and specialty care. The emergency room benefit increases to seventy-five dollars for one day.
 
----- 750 Plan (One of Two) ----
+---- Plan 750 (2/3) ----
 
-Let's delve into the 750 Plan. It includes daily hospital confinement coverage of seven hundred fifty dollars per day for up to thirty days. Physician office visits are covered at seventy-five dollars per visit for ten days, and emergency room visits are seventy-five dollars per day for one day.
+The second part of Plan 750 includes basic pathology and radiology benefits of fifty dollars per day for up to two days, as well as advanced studies benefits at the same rate. Surgery benefits increase to one thousand dollars per day for up to three days with twenty percent anesthesia coverage.
 
----- 750 Plan (Two of Two) ----
+---- Plan 750 (3/3) ----
 
-The plan offers inpatient and outpatient surgery benefits at four hundred dollars per day for up to three days, providing robust surgical coverage.
+For Plan 750's final section, mental health inpatient benefits increase to three hundred seventy-five dollars per day for sixty days, with outpatient coverage at fifty dollars per day for twenty days. Supplemental accident inpatient admission provides five hundred dollars for up to two days, and emergency room coverage is two hundred fifty dollars for one day. The plan maintains the ten thousand dollar accidental death benefit and one thousand dollar critical illness benefit.
 
----- 1000 Plan (One of Two) ----
+---- Plan 1000 (1/3) ----
 
-Now, moving to the 1000 Plan. It covers daily hospital confinement at one thousand dollars per day for up to thirty days. Physician office visits are seventy-five dollars per visit for ten days, and emergency room visits are one hundred dollars per day for one day.
+Plan 1000, our most comprehensive option, provides a hospital confinement benefit of one thousand dollars per day for up to thirty days. Doctor visits increase to seventy-five dollars per day for up to five days for both primary and specialty care. The emergency room benefit provides one hundred dollars per day for up to three days.
 
----- 1000 Plan (Two of Two) ----
+---- Plan 1000 (2/3) ----
 
-The plan also features inpatient and outpatient surgery benefits at five hundred dollars per day for up to three days, offering extensive surgical support.
+The second part of Plan 1000 includes enhanced pathology, radiology, and advanced studies benefits at seventy-five dollars per day for up to three days each. Surgery benefits increase to fifteen hundred dollars per day for up to three days with twenty percent anesthesia coverage. Mental health inpatient benefits provide five hundred dollars per day for up to sixty days.
 
----- Comparing the Plans ----
+---- Plan 1000 (3/3) ----
 
-Let's compare the plans to see how they stack up against each other. Each plan provides varying levels of hospital confinement, emergency room, and physician visit coverage. Additionally, some plans offer inpatient and outpatient surgery benefits, allowing you to choose the right plan based on your healthcare needs and budget.
+Completing Plan 1000, mental health outpatient benefits remain at fifty dollars per day for up to twenty days. Supplemental accident inpatient admission coverage increases to five hundred dollars for up to three days, while emergency room coverage provides two hundred fifty dollars for one day. The plan maintains both the ten thousand dollar accidental death benefit and the one thousand dollar critical illness benefit.
 
----- Definitions and Limitations ----
+---- Limitations and Definitions ----
 
-It's important to understand the definitions and limitations of the plans. Coverage conditions include specific exclusions, and not all conditions are covered under the policy. Be sure to review the policy details to fully understand what is included.
+Let's review some important exclusions and limitations. The plan does not cover non-medically necessary treatments, dental procedures not due to injury, or cosmetic and experimental treatments. There are specific exclusions for injuries from war, self-harm, or illegal activities. Important timing restrictions include a thirty-day waiting period for sickness and a twelve-month pre-existing condition exclusion. Make sure to carefully review all limitations.
 
----- Key Takeaways and Reminders ----
+---- Key Takeaways ----
 
-As we wrap up, here are some key takeaways. The Advanced Wellness Plus offers a range of plans to suit different healthcare needs, providing capped benefits that are excellent for supplementary coverage. Consider your healthcare needs and financial situation when selecting a plan tier, and don't hesitate to contact a representative for enrollment details.
+To summarize, the Advanced Wellness Plus plan offers broad healthcare benefits as an affordable, supplemental coverage option. We encourage you to review these benefits with your members to ensure you understand all aspects of the coverage.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the Premier Insurance Offer. Remember, your health is important, and making informed choices about your coverage is crucial. Continue to be great!
+Thank you for participating in the Advanced Wellness Plus Review. Continue to be great!

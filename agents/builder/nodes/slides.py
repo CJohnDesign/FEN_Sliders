@@ -62,9 +62,9 @@ async def process_slides(state: BuilderState) -> BuilderState:
                 - Maintain exact Slidev syntax for layouts and transitions
                 - Keep the exact section hierarchy from the summaries
                 - Create slides that match the outline structure
-                - When discussing a specific company's benefits or plans:
+                - When a benefit is provided by a provider, include their logo on the slide in an <img> tag
                   -- Include their logo on the slide in an <img> tag
-                    -- <img src="ADD FROM BELOW" class="h-24 mix-blend-multiply" alt="{ variable } Logo">
+                    -- <img src="ADD FROM BELOW" class="h-24 mix-blend-multiply" alt="Brand Logo">
                   -- Available logo paths:
                      - FirstHealth: /img/logos/FirstHealth_logo.png
                      - US Fire: /img/logos/USFire-Premier_logo.png
@@ -93,7 +93,7 @@ async def process_slides(state: BuilderState) -> BuilderState:
             {
                 "role": "user",
                 "content": f"""
-                Use this template structure:
+                Use this template structure - notice the placement of the logo images:
                 {template}
                 
                 Create slides from this processed summary content:

@@ -45,10 +45,9 @@ async def process_page(model, page_num, img_path, total_pages):
         
         messages = [
             SystemMessage(content="""You are an expert at analyzing presentation slides.
-            Look at the slide and return a detailed summary of the content. it should be a single paragraph that covers all details of the slide. In the summary, talk about which companies provide which benefits.
+            Look at the slide and return a detailed summary of the content. Include a descriptive title and the summary should be a single paragraph that covers all details of the slide. In the summary, talk about which companies provide which benefits.
             * If there is a table, identify if it is a benefits table showing insurance coverage details and return tableDetails.hasTable as true.
-            * If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true.
-            * If you identify a slide talks specifically about a company, return tableDetails.mentionedCompanies as an array of company names.
+            * If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true. This should never return true for a slide that is a benefits table.
             
             Provide your analysis in this EXACT JSON format:
             {
@@ -57,7 +56,6 @@ async def process_page(model, page_num, img_path, total_pages):
                 "tableDetails": {
                     "hasTable": true/false,
                     "hasLimitations": true/false,
-                    "mentionedCompanies": ["Company Name 1", "Company Name 2", "Company Name 3"]
                 }
             }"""),
             HumanMessage(content=[
@@ -418,36 +416,60 @@ Here is the plan overview below. I'm insertings the plan tier summaries and tabl
 - Raw Benefit Tables
 {tables_data}
 
-Below is the format of a single plan tier, broken into 2 parts. Create a new section for each plan tier. This is not a strict template, but a general format to follow. Create a new section for each plan tier. if a section is short, it will not require a second part. Higher plans will have more benefits and will require a second section.
+** YOU MUST COVER ALL BENEFITS IN THE TABLES. DO NOT MISS ANY. **
 
-## Plan 4 Name (1/2)
+Below is the format of a single plan tier, broken into 3 parts. 
+
+Create a new section for each plan tier.If a section is short, like a lower plan, it may only have 1 part and not require any (x/x). The mid tier plans will have 2 parts and the top tier plans will have 3 parts.
+
+This is not a strict template, but a general format to follow. 
+
+```
+## Plan 4 Name (1/3)
 
 **Benefit Category 1**
-- Detail 1: Value 1
-- Detail 2: Value 2
-- Detail 3: Value 3
-- Detail 4: Value 4
+- Detail 1
+- Detail 2
+- Detail 3
+- Detail 4
 
 **Benefit Category 2**
-- Detail 1: Value 1
-- Detail 2: Value 2
+- Detail 1
+- Detail 2
 
 **Benefit Category 3**
-- Detail 1: Value 1
-- Detail 2: Value 2
-- Detail 3: Value 3
+- Detail 1
+- Detail 2
+- Detail 3
 
+## Plan 4 Name (2/3)
 
-## Plan 4 Name (2/2)
+**Benefit Category 1**
+- Detail 1
+- Detail 2
+- Detail 3
+- Detail 4
+
+**Benefit Category 2**
+- Detail 1
+- Detail 2
+
+**Benefit Category 3**
+- Detail 1
+- Detail 2
+- Detail 3
+
+## Plan 4 Name (3/3)
 
 **Benefit Category 4**
-- Detail 1: Value 1
-- Detail 2: Value 2
+- Detail 1
+- Detail 2
 
 **Benefit Category 5**
-- Detail 1: Value 1
-- Detail 2: Value 2
+- Detail 1
+- Detail 2
 
+```
 
 ## Comparing the Plans
 

@@ -1,4 +1,238 @@
 {
-  "version": "1.0",
-  "slides": []
+  "deckId": "FEN_AH",
+  "totalSlides": 26,
+  "slides": [
+    {
+      "slideNumber": 1,
+      "clicks": []
+    },
+    {
+      "slideNumber": 2,
+      "clicks": [
+        4,
+        12,
+        16,
+        20,
+        22
+      ]
+    },
+    {
+      "slideNumber": 3,
+      "clicks": [
+        3,
+        7,
+        9,
+        14
+      ]
+    },
+    {
+      "slideNumber": 4,
+      "clicks": [
+        4,
+        8
+      ]
+    },
+    {
+      "slideNumber": 5,
+      "clicks": [
+        2,
+        5,
+        9,
+        12,
+        17,
+        20
+      ]
+    },
+    {
+      "slideNumber": 6,
+      "clicks": [
+        4,
+        12,
+        14
+      ]
+    },
+    {
+      "slideNumber": 7,
+      "clicks": [
+        4,
+        8,
+        12,
+        16,
+        20
+      ]
+    },
+    {
+      "slideNumber": 8,
+      "clicks": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "slideNumber": 9,
+      "clicks": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "slideNumber": 10,
+      "clicks": [
+        2,
+        7,
+        10,
+        12
+      ]
+    },
+    {
+      "slideNumber": 11,
+      "clicks": [
+        1,
+        5,
+        10,
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "slideNumber": 12,
+      "clicks": [
+        4,
+        8,
+        9,
+        14
+      ]
+    },
+    {
+      "slideNumber": 13,
+      "clicks": [
+        2,
+        6,
+        10,
+        14
+      ]
+    },
+    {
+      "slideNumber": 14,
+      "clicks": [
+        4,
+        6,
+        12,
+        17
+      ]
+    },
+    {
+      "slideNumber": 15,
+      "clicks": [
+        2,
+        8,
+        9,
+        14,
+        17,
+        20
+      ]
+    },
+    {
+      "slideNumber": 16,
+      "clicks": [
+        2,
+        6,
+        10,
+        15
+      ]
+    },
+    {
+      "slideNumber": 17,
+      "clicks": [
+        2,
+        6,
+        10,
+        15
+      ]
+    },
+    {
+      "slideNumber": 18,
+      "clicks": [
+        4,
+        8,
+        12,
+        15
+      ]
+    },
+    {
+      "slideNumber": 19,
+      "clicks": [
+        2,
+        6,
+        10,
+        15
+      ]
+    },
+    {
+      "slideNumber": 20,
+      "clicks": [
+        2,
+        7,
+        12,
+        17,
+        22,
+        23
+      ]
+    },
+    {
+      "slideNumber": 21,
+      "clicks": [
+        2,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "slideNumber": 22,
+      "clicks": [
+        2,
+        4,
+        9,
+        12,
+        17
+      ]
+    },
+    {
+      "slideNumber": 23,
+      "clicks": [
+        2,
+        8,
+        13,
+        17,
+        20
+      ]
+    },
+    {
+      "slideNumber": 24,
+      "clicks": [
+        2,
+        9,
+        15,
+        19
+      ]
+    },
+    {
+      "slideNumber": 25,
+      "clicks": [
+        2,
+        8,
+        13
+      ]
+    },
+    {
+      "slideNumber": 26,
+      "clicks": []
+    }
+  ]
 }
