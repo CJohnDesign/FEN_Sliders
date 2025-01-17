@@ -48,41 +48,60 @@ async def generate_audio_script(slides: List[Dict[str, Any]], template_examples:
     messages = [
         {
             "role": "system",
-            "content": """You are an expert at creating natural, conversational audio scripts from presentation content. 
-            You excel at maintaining document structure while making the content flow naturally.
-            IMPORTANT: 
-            1. Only use the content provided in the processed summaries. Do not make up or add information not present in the source material.
-            2. Do not include any markdown formatting, backticks, or other special characters in your response.
-            3. Only use plain text with section separators in the format: ---- Section Name ----"""
+            "content": """You are an expert at creating engaging, natural voice-over scripts for insurance presentations.
+            Your expertise includes:
+            1. Converting technical insurance content into clear, conversational narratives
+            2. Maintaining perfect synchronization with slide content
+            3. Creating smooth transitions between topics
+            4. Explaining complex insurance terms in simple language
+
+            CRITICAL REQUIREMENTS:
+            1. ALWAYS spell out ALL numbers (e.g., "one thousand five hundred dollars" not "$1,500")
+            2. Keep insurance-specific acronyms (e.g., MRI, CT, ICU) but explain them on first use
+            3. Use only information from the provided content - never add or modify details
+            4. Maintain exact section structure with ---- Section Name ---- format
+            5. Create natural transitions between sections without using "This slide" or similar phrases
+            6. Use a warm, professional tone throughout the script"""
         },
         {
             "role": "user",
             "content": f"""
-            Based on this template example - notice the format of the headline separator, ie "---- Cover ----". maintain that perfectly:
+            Using this template format for reference:
 
             {template_script}
-            
-            Please generate a natural, conversational audio script based on these processed summaries. The script should:
-            1. Use a warm, professional tone
-            2. Spell out numbers (e.g., "one hundred" instead of "100")
-            3. Define insurance-specific terms when first used (e.g., explaining what Fixed Indemnity means)
-            4. Flow naturally between points without bullet points
-            5. Keep common terms like MRI, CT, US, etc. as is
-            6. Never start a paragraph with "This slide". use a natural on-topic transition instead.
-            7. Follow the EXACT section structure from the processed summaries - do not deviate or add sections
-            8. Maintain a clear narrative flow between sections
-            9. ONLY use information present in the processed summaries
-            10. Do not mention anything about "MyChoice Plans" or other content not in the source material
-            
-            Here are the processed summaries to use as your ONLY source of content:
+
+            Create a natural, engaging voice-over script that follows these rules:
+
+            FORMATTING:
+            1. Use ---- Section Name ---- for all section headers
+            2. Start each major section with a brief introduction
+            3. End each section with a smooth transition to the next topic
+
+            CONTENT RULES:
+            1. Spell out ALL numbers (e.g., "two hundred fifty dollars per day")
+            2. Define insurance terms on first use (e.g., "Fixed Indemnity, which means you receive a set payment amount")
+            3. Keep medical acronyms (MRI, CT, etc.) but explain them first time
+            4. Use conversational transitions between points
+            5. Maintain exact section order from the slides
+            6. End with a warm, encouraging closing statement
+
+            VOICE AND TONE:
+            1. Professional but approachable
+            2. Clear and confident
+            3. Empathetic to healthcare concerns
+            4. Educational without being condescending
+
+            Here are the processed summaries to use as your source content:
 
             {processed_summaries}
 
-            Here are the generated slides to match the audio script to:
+            Here are the slides to match the script to:
 
             {generated_slides}
+            
+            ** THIS IS VERY IMPORTANT - THE SCRIPT SHOULD SPEAK TO EACH POINT OF THE SLIDES**
 
-            Now in the format of the initial template, generate a natural, conversational audio script that follows the structure and content of the processed summaries EXACTLY, while matching the flow of the generated slides. Use "----" section separators as shown in the template.
+            Generate a natural, conversational voice-over script that perfectly matches the slide content while following all the above rules.
             """
         }
     ]

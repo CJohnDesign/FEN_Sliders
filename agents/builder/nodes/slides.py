@@ -44,31 +44,28 @@ async def process_slides(state: BuilderState) -> BuilderState:
             if s.get("tableDetails", {}).get("hasLimitations", False)
         ]
         
-        # Extract mentioned companies
-        mentioned_companies = set()
-        for summary in summaries:
-            companies = summary.get("tableDetails", {}).get("mentionedCompanies", [])
-            mentioned_companies.update(companies)
-        
         logger.info(f"Found {len(pages_with_tables)} pages with tables")
         logger.info(f"Found {len(pages_with_limitations)} pages with limitations")
-        logger.info(f"Found companies: {list(mentioned_companies)}")
             
         # Create slides from processed summaries
         messages = [
             {
                 "role": "system",
-                "content": """You are an expert presentation writer specializing in insurance benefits.
+                "content": f"""You are an expert presentation writer specializing in insurance benefits.
+                You are currently working on deck: {state["metadata"]["deck_id"]}
+                
                 Guidelines for slide content:
                 - Use bullet points with 3-5 words each
+                - **compress bullets into a single line. for example, per day and max day. **
                 - Lead bullets with action verbs or key benefits
                 - Bold important terms using **term**
                 - Maintain exact Slidev syntax for layouts and transitions
-                - Follow template structure exactly
-                - Keep the exact section hierarchy from the template
+                - Keep the exact section hierarchy from the summaries
                 - Create slides that match the outline structure
                 - When discussing a specific company's benefits or plans:
-                  -- Include their logo at the start of their section using the appropriate path:
+                  -- Include their logo on the slide in an <img> tag
+                    -- <img src="ADD FROM BELOW" class="h-24 mix-blend-multiply" alt="{ variable } Logo">
+                  -- Available logo paths:
                      - FirstHealth: /img/logos/FirstHealth_logo.png
                      - US Fire: /img/logos/USFire-Premier_logo.png
                      - Ameritas: /img/logos/Ameritas_logo.png
@@ -77,12 +74,21 @@ async def process_slides(state: BuilderState) -> BuilderState:
                      - TDK: /img/logos/TDK_logo.jpg
                      - EssentialCare: /img/logos/EssentialCare_logo.png
                      - NCE: /img/logos/NCE_logo.png
-                     - AFSLIC: /img/logos/AFSLIC_logo.png
+                     - American Financial Security Life Insurance Company: /img/logos/AFSLIC_logo.png
+                     - FirstEnroll: /img/logos/FEN_logo.svg
+                  -- Always include a logo if the slide mentions it and we have a logo for it.
+                  -- Wrap the logo in a <v-click> with the text that mentions the associated company.
+                    -- for example: <v-click>
+
+                                    **Additional Benefit** through Partner
+                                    <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
+                                      <img src="" class="h-12 mix-blend-multiply" alt="Brand Logo">
+                                    </div>
+                                    </v-click>
                 - Create a product slide for each plan slide, with the same content but split into two parts
-                -- you'll notice that the plan slides are split into two parts (1/2, 2/2)
+                -- you'll notice that each plan has a slide. Longer slides are split into two parts (1/2, 2/2). Even 3 parts for long top tier sections.
                 -- make sure to create two slides for each plan slide, with the same content but split into two parts
-                - Do not wrap the content in ```markdown or ``` tags
-                """
+                - Do not wrap the content in ```markdown or ``` tags"""
             },
             {
                 "role": "user",
@@ -93,10 +99,9 @@ async def process_slides(state: BuilderState) -> BuilderState:
                 Create slides from this processed summary content:
                 {state["processed_summaries"]}
                 
-                You will notice there are a lot of plans here. Create a new section for each plan.
+                ** IT IS VERY IMPORTANT TO FOLLOW THE OUTLINE OF THESE SUMMARIES.** The template as extra sections that might not be relevant.
                 
-                These companies are mentioned in the content, use their logos in their respective sections:
-                {json.dumps(list(mentioned_companies), indent=2)}
+                Below you will notice there are a lot of plans here. Create a new section for each plan. Cover every benefit that there is a value for.
                 
                 Here are the benefit pages that contain tables - use these in the benefit sections:
                 {json.dumps(pages_with_tables, indent=2)}
@@ -104,9 +109,9 @@ async def process_slides(state: BuilderState) -> BuilderState:
                 Here are the pages that contain limitations - use these in the limitations sections:
                 {json.dumps(pages_with_limitations, indent=2)}
                 
-                Follow the template's structure exactly, only replacing placeholder values wrapped in curly braces.
                 Maintain all Slidev syntax for layouts and transitions.
                 Do not wrap the content in ```markdown or ``` tags.
+                
                 End with a thank you slide in this format:
 
                 ---
@@ -118,6 +123,16 @@ async def process_slides(state: BuilderState) -> BuilderState:
                 # Thank You!
 
                 Continue to be great!
+                
+                <add firstenroll logo here>
+
+                -------------------------------                
+                Keep benefits information short and concise but thorough. Consolidate benefits when possible, especially when going over the plan tiers. Use subbullet headers sparingly - each v-click should reveal complete information.
+                
+                Pre day and max day should be in the same bullet point. **include all plan tiers**
+                
+                Return a logical markdown file that outline the health insurance benefits. 
+                Do not wrap the content in ```markdown or ``` tags.
                 """
             }
         ]
