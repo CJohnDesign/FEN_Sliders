@@ -1,6 +1,6 @@
 ---- Cover ----
 
-Hello, everyone! Welcome to our presentation on the National Congress of Employers. As you can see on the title slide, we're focused on supporting America's independent workforce. Today, we'll explore what associations are, how they work, and the valuable benefits NCE offers to its members.
+Hello, everyone! Welcome to our presentation on the National Congress of Employers. Today, we'll explore what associations are, how they work, and the valuable benefits NCE offers to its members.
 
 ---- What is an Association? ----
 
@@ -68,6 +68,6 @@ Vitamins and Supplements: Members can save up to 75% off retail pricing on a hug
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the National Congress of Employers and our comprehensive member benefits. As our closing slide emphasizes, we're dedicated to supporting America's independent workforce.
+Thank you for taking the time to learn about the National Congress of Employers and our comprehensive member benefits. We're dedicated to supporting America's independent workforce.
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
