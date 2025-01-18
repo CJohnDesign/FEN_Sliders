@@ -1,21 +1,31 @@
 ---- Introduction ----
 
-Welcome to this tutorial on using the First Health provider search website. I'll guide you through the process of finding a healthcare provider step by step.
+Welcome to this tutorial on using the Multiplan provider search website. I'll guide you through the process of finding a healthcare provider in the Multiplan network.
 
----- Accessing the Search ----
+---- Locating the Search ----
 
-Let's begin with heading to the site. Locate and click on the "Locate a Provider" button. Under network options, select "First Health Network," and then click the "Start Now" button to begin your provider search.
+Before we begin, note that most Member ID cards will have a specific web address for provider search. Even if this information isn't available, you can still locate the correct Provider Network using the process I'll show you today.
 
-Now, let's set up your search criteria. First, select your provider type. In this demonstration, we'll choose "Physician" as our provider type. Make sure to check the "Accepting New Patients" option to ensure provider availability. You can search using either a ZIP code or state, but I recommend using a ZIP code for more precise results. You can adjust the search radius up to 100 miles from your location.
+---- Accessing the Network ----
 
-For more specific results, click on "More Options." This opens additional search criteria that allow you to break down provider searches in greater detail. Take a moment to review and select any specific requirements you may have for your provider.
+Once you've accessed the web page, locate and click on the "Find a Provider" button. Next, you'll need to select the network shown on your member ID card with the Multiplan Logo. For example, if you have the essential care plan, your member ID card will show "Value Point by MultiPlan." This indicates that Value Point is under the Multiplan Network, so we'll select "Value Point" as shown on the card.
 
-After entering all your search criteria, click the "Search Now" button. The system will generate a list of providers matching your specifications. To view detailed information about a specific provider, simply click on their name in the results list.
+---- Setting Search Criteria ----
 
-On the provider details page, you'll find comprehensive information that the provider has chosen to share. This may include their specialties, office hours, and contact information. Notice the convenient sharing options available to you.
+Now let's enter our search criteria. Click in the search box to see a dropdown menu of provider types, or you can directly type in a physician's name if you're looking for someone specific. For this demonstration, we'll select "hospital" as our provider type. Next, enter your ZIP code to find providers in your area.
 
-A helpful feature is the ability to share provider information. You can send the details to yourself via email or text message. To use this feature, click either the email or telephone option, enter your contact information, and click "Verify and Send." The system will then send you the provider's details for future reference.
+---- Performing the Search ----
+
+After entering your search criteria, locate the search icon. Before the search begins, you'll need to verify that you're not a robot by checking the appropriate box. Once you've done this, click the search icon to proceed.
+
+---- Viewing Results ----
+
+The system will generate a list of providers available in your area. To view more detailed information about any provider, simply click on their name in the results list. This will show you their complete provider details.
+
+---- Additional Features ----
+
+Take a moment to explore the provider details page. Here you'll find important information about the facility or physician, including contact information, specialties, and other relevant details that can help you make an informed decision.
 
 ---- Closing ----
 
-This completes our tutorial on using the First Health provider search. Remember, you can repeat this process anytime you need to find a new healthcare provider in your network.
+This concludes our tutorial on using the Multiplan provider search. Thank you for participating in First Enroll's Training, and continue to be great!
