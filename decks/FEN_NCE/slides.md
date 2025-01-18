@@ -76,12 +76,12 @@ image: /img/style/boss.png
 <v-clicks>
 
 - Supporting **56.7M** independent workers
-- Includes **micro-businesses** & self-employed
-- Established in **1996**
-- Founded by **attorneys**, politicians & leaders
+- Founded in **1996** by industry leaders
+- Led by **attorneys** & politicians
 - Focuses on **policy advocacy**
-- Provides **reliable services** & resources
-- Supports members **regardless of means**
+- Provides **valuable resources**
+- Empowers **professional success**
+- Supports **all circumstances**
 
 </v-clicks>
 
