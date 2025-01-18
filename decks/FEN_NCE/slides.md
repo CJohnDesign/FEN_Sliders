@@ -127,24 +127,24 @@ layout: default-row
 ---
 
 ::header::
-# Additional Benefits
+# Additional Member Benefits
 
 ::left::
 <v-click>
 
 **Healthcare Savings**
-- **15-55%** Rx discounts
-- **15-50%** dental savings
-- **10-50%** vision savings
+- **Prescription** discounts (15-55%)
+- **Aetna Dental Access®** (15-50%)
+- Over **132,000** locations
 </v-click>
 
 ::center::
 <v-click>
 
 **Specialty Care**
-- **Chiropractic** care
-- **Laboratory** services
-- **Medical bill** negotiations
+- **Chiropractic** services
+- **Lab** work
+- **Provider** network access
 </v-click>
 
 ::right::
