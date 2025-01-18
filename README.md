@@ -2,6 +2,8 @@
 
 An AI-powered system that transforms insurance plan PDFs into dynamic Slidev presentations with synchronized narration, powered by LangGraph orchestration, GPT-4o content analysis, and OpenAI's Text-to-Speech.
 
+🎥 [Watch the Demo Video](https://youtu.be/Il_U4ssIE7w)
+
 ## Overview
 
 The system automatically:
@@ -12,8 +14,6 @@ The system automatically:
 - Exports to multiple formats (PDF/web)
 
 ## Quick Start
-
-### Create a New Deck
 ```bash
 npm run create-deck <DECK_ID> "<Deck Title>"
 # Example: npm run create-deck FEN_EXAMPLE "Example Insurance Plan"
