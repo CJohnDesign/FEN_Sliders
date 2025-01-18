@@ -14,7 +14,7 @@ transition: fade-out
 drawings:
   persist: false
 ---
-<div class="relative top-24">
+<div class="relative top-2">
 
 <SlideAudio deckKey="FEN_HCD" />
 
@@ -24,9 +24,7 @@ drawings:
 
   Understanding **Plan Sponsorship** and Benefits
   </div>
-  <div class="grid grid-cols-1 gap-4 items-center py-8 mt-16">
-    <img src="/img/logos/HCDA_logo.png" class="h-12 pt-1 mix-blend-multiply" alt="HCDA Logo">
-  </div>
+
 </div>
 
 ---
@@ -50,7 +48,7 @@ image: /img/style/sponsors.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/work.png
+image: /img/style/yoga.png
 ---
 
 ## How Plan Sponsors Work
@@ -105,7 +103,7 @@ image: /img/style/analytics.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/relationship.png
+image: /img/style/check.png
 ---
 
 ## Plan Sponsor & Relationship
@@ -163,7 +161,7 @@ line: Thank you for learning about HCDA. Improving healthcare through data!
 
 # Thank You!
 
-Improving healthcare through data!
+Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
 

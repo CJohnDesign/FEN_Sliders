@@ -32,7 +32,7 @@ drawings:
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/association.png
+image: /img/style/assoc.png
 ---
 
 ## What is an Association?
@@ -50,7 +50,7 @@ image: /img/style/association.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/work.png
+image: /img/style/working.png
 ---
 
 ## How Associations Work
@@ -68,7 +68,7 @@ image: /img/style/work.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/about.png
+image: /img/style/boss.png
 ---
 
 ## About NCE
@@ -105,7 +105,7 @@ image: /img/style/relationship.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/gapafford.png
+image: /img/style/success.png
 ---
 
 ## GapAfford Plus Benefits

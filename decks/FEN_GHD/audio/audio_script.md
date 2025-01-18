@@ -32,4 +32,8 @@ Let's explore the key membership benefit highlights. First, you become an Affili
 
 ---- Closing ----
 
-Thank you for taking the time to learn about Good Health Distribution Partners and our comprehensive sponsor benefits. We're here to support you in living a healthier, happier life.
+Thank you for taking the time to learn about Good Health Distribution Partners and our comprehensive sponsor benefits. 
+
+Continue to be great!
+
+<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

@@ -14,7 +14,7 @@ transition: fade-out
 drawings:
   persist: false
 ---
-<div class="relative top-24">
+<div class="relative top-2">
 
 <SlideAudio deckKey="FEN_VPP" />
 
@@ -24,9 +24,7 @@ drawings:
 
   Innovative **Health & Wellness** Solutions
   </div>
-  <div class="grid grid-cols-1 gap-4 items-center py-8 mt-16">
-    <img src="/img/logos/VPP_logo.png" class="h-12 pt-1 mix-blend-multiply" alt="VPP Logo">
-  </div>
+
 </div>
 
 ---
@@ -50,7 +48,7 @@ image: /img/style/sponsors.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/work.png
+image: /img/style/paperwork.png
 ---
 
 ## How Plan Sponsors Work
@@ -86,7 +84,7 @@ image: /img/style/doc.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/team.png
+image: /img/style/vitamin.png
 ---
 
 ## About The Vitamin Patch
@@ -105,7 +103,7 @@ image: /img/style/team.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/partnership.png
+image: /img/style/relation.png
 ---
 
 ## Plan Sponsor & Relationship

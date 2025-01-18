@@ -18,21 +18,21 @@ drawings:
 
 <SlideAudio deckKey="FEN_GHD" />
 
-  <div class="grid grid-cols-1 items-center py-8">
+  <div class="grid grid-cols-1 items-center py-8 -mt-8">
 
   # Good Health Distribution Partner Sponsor
 
   Understanding **Plan Sponsorship** and Benefits
   </div>
-  <div class="grid grid-cols-1 gap-4 items-center py-8 mt-16">
-    <img src="/img/logos/GHD_logo.png" class="h-12 pt-1 mix-blend-multiply" alt="GHD Logo">
+  <div class="grid grid-cols-1 gap-4 items-center py-1 -ml-10 mt-12">
+    <img src="/img/logos/GHD_logo.png" class="h-24 pt-1 mix-blend-multiply" alt="GHD Logo">
   </div>
 </div>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/plan_sponsor.png
+image: /img/style/sponsors.png
 ---
 
 ## What is a Plan Sponsor?
@@ -50,7 +50,7 @@ image: /img/style/plan_sponsor.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/sponsor_work.png
+image: /img/style/work.png
 ---
 
 ## How Plan Sponsors Work
@@ -68,7 +68,7 @@ image: /img/style/sponsor_work.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/characteristics.png
+image: /img/style/doc.png
 ---
 
 ## Plan Sponsor Characteristics
@@ -86,7 +86,7 @@ image: /img/style/characteristics.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/about_ghd.png
+image: /img/style/health.png
 ---
 
 ## About Good Health
@@ -105,7 +105,7 @@ image: /img/style/about_ghd.png
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/relationship.png
+image: /img/style/benefits.png
 ---
 
 ## Plan Sponsor & Relationship
@@ -163,7 +163,7 @@ line: Thank you for learning about GHD. Live healthier, happier lives!
 
 # Thank You!
 
-Live healthier, happier lives!
+Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
 
