@@ -42,8 +42,6 @@ image: /img/style/assoc.png
 - Organizations serving **collective interests**
 - Provides access to **various services**
 - Focuses on **health insurance plans**
-- Leverages **collective purchasing power**
-- Negotiates better **terms** and **coverage**
 
 </v-clicks>
 
@@ -57,11 +55,13 @@ image: /img/style/working.png
 
 <v-clicks>
 
-- Acts as **intermediary**
 - Negotiates **group rates**
+- Leverages **collective power**
+- Offers **better terms**
+- Acts as **intermediary**
 - Manages **enrollment process**
 - Provides **member support**
-- Leverages **collective power**
+
 
 </v-clicks>
 
@@ -218,34 +218,34 @@ layout: default-row
 ::left::
 <v-click>
 
-**Specialty Services**
+**Chiropractic Care**
 - **Free** initial consult
-- Up to **50%** diagnostic savings
+- **50%** diagnostic savings
 - **30%** treatment savings
 - **12,000+** chiropractors
-- **X-ray** discounts
+- **Unlimited** treatments
 </v-click>
 
 ::center::
 <v-click>
 
-**Lab & Medical**
-- **Online** lab testing
+**Laboratory Program**
+- **Affordable** testing
+- **Wide array** of tests
 - **PHR** system access
-- **Medical bill** negotiations
-- **Patient** advocacy
+- **Monitor** overall health
 - **Not in NY, NJ, RI**
 </v-click>
 
 ::right::
 <v-click>
 
-**Extra Value**
-- **50%** pet med savings
-- **FDA-approved** pharmacy
-- Up to **75%** off vitamins
-- **Natural** products
-- **Mail-order** options
+**Additional Services**
+- **Medical bill** negotiations
+- **Patient** advocacy
+- **50%** pet prescriptions
+- **75%** off vitamins
+- **Mail-order** pharmacy
 </v-click>
 
 ---
@@ -256,7 +256,7 @@ line: Thank you for learning about NCE. Supporting America's independent workfor
 
 # Thank You!
 
-Supporting America's independent workforce!
+Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
 
