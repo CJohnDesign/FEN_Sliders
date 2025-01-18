@@ -134,31 +134,32 @@ layout: default-row
 ::left::
 <v-click>
 
-**Network Providers**
-- **Doctors** & physicians
-- Including **specialists**
-- **Hospitals** & surgical centers
-- **Clinics** & specialty centers
+**Member Savings**
+- **Network** provider access
+- **Re-priced** claims
+- **Reduced** out-of-pocket costs
+- Available in **all 50 states**
 </v-click>
 
 ::center::
 <v-click>
 
-**Coverage Benefits**
-- Available in **all 50 states**
-- **Re-priced** claims
-- For **non-covered** benefits
-- For **exhausted** benefits
+**Provider Network**
+- **Doctors** & physicians
+- Including **specialists**
+- **Hospitals** & surgical centers (IN/OUT)
+- **Clinics** & specialty centers
+- **Laboratories** & imaging
 </v-click>
 
 ::right::
 <v-click>
 
-**Cost Savings**
-- **Reduced** out-of-pocket costs
-- **Laboratories** & imaging
-- **IN/OUT** patient care
-- **Network** provider access
+**Coverage Details**
+- For **non-covered** benefits
+- For **exhausted** benefits
+- **Comprehensive** coverage
+- **Network** discounts
 </v-click>
 
 ---
