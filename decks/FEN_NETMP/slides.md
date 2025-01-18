@@ -3,8 +3,8 @@ id: FEN_NETMP
 theme: ../../
 title: Multiplan Provider Search
 info: |
-  ## Multiplan Provider Search Tutorial
-  A step-by-step guide to finding providers in the Multiplan network.
+  ## Multiplan Provider Search Overview
+  A comprehensive look at the Multiplan provider search website.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -14,97 +14,55 @@ transition: fade-out
 drawings:
   persist: false
 ---
-<div class="relative top-24">
+<div class="relative top-2">
 
 <SlideAudio deckKey="FEN_NETMP" />
 
-  <div class="grid grid-cols-1 items-center py-8">
+  <div class="grid grid-cols-1 items-center py-8 mt-36">
 
   # Multiplan Provider Search
 
-  Step-by-step guide to finding your provider
+  Navigating the Multiplan website for members to **find providers!**
   </div>
-  <div class="grid grid-cols-1 gap-4 items-center py-8 mt-16">
-    <img src="/img/logos/MP_logo.png" class="h-12 pt-1 mix-blend-multiply" alt="Multiplan Logo">
+
+  <div class="grid grid-cols-1 items-center py-8 mt-24">
+  <img src="./img/logos/MULTIPLAN_LOGO.webp" class="h-12 object-cover" alt="Multiplan Logo">
   </div>
+
 </div>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/id-card.png
+image: ./img/idCard.png
 ---
 
-## Getting Started
 
-<v-clicks>
+## Finding your provider network website
 
-- Member ID cards have **web address**
-- Contains **provider search** information
-- Alternative process if **unavailable**
-- Follow steps to locate **Provider Network**
+<v-click>
+<Arrow v-bind="{ x1:780, y1:450, x2:860, y2:365, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
 
 ---
 transition: fade-out
-layout: one-half-img
-image: /img/style/network.png
+layout: new-section
 ---
 
-## Finding Provider Search
-
-<v-clicks>
-
-- Sign in to **web page**
-- Select **Find a Provider**
-- Look for **Multiplan Logo**
-- Find network on **member ID**
-- Example: **Value Point** by MultiPlan
-- Select **Value Point** network
-
-</v-clicks>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/style/search.png
----
-
-## Search Process
-
-<v-clicks>
-
-- Click box for **dropdown menu**
-- Choose **provider type**
-- Option to enter **physician name**
-- Using **hospital** in example
-- Enter **member's zip code**
-- Click **search icon**
-- Verify **"I'm not a robot"**
-
-</v-clicks>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/style/results.png
----
-
-## Results
-
-<v-clicks>
-
-- List of **available providers**
-- Click provider for **details**
-- View **provider information**
-
-</v-clicks>
+<div class="relative w-full h-full overflow-hidden">
+  <video 
+    src="./video/FEN_NETMP-2.mov" 
+    class="w-full h-full object-cover -mt-[13px]" 
+    autoplay 
+    muted
+  ></video>
+</div>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in First Enroll's Training!
+line: Thank you for learning about VPP. Promoting health and creating opportunities!
 ---
 
 # Thank You!

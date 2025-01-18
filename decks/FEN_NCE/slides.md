@@ -134,31 +134,32 @@ layout: default-row
 ::left::
 <v-click>
 
-**Network Benefits**
+**Network Savings**
 - **Re-priced** claims
-- **Non-covered** benefits covered
-- **Exhausted** benefits covered
+- **Non-covered** benefit savings
+- **Exhausted** yearly benefits
 - **Reduced** out-of-pocket costs
+- Use any **network provider**
 </v-click>
 
 ::center::
 <v-click>
 
-**Provider Types**
-- **Doctors** & physicians
-- Including **specialists**
-- **Hospitals** & surgical centers
-- **IN/OUT** patient care
+**Medical Facilities**
+- **Inpatient** hospitals
+- **Outpatient** hospitals
+- **Surgical** centers
+- **Clinics** & specialty centers
 </v-click>
 
 ::right::
 <v-click>
 
-**Additional Providers**
-- **Clinics** & specialty centers
+**Healthcare Providers** 
+- **Physicians** & specialists
 - **Laboratories**
 - **Imaging** centers
-- In **all 50** states
+- Available in **all 50** states
 </v-click>
 
 ---
@@ -173,12 +174,14 @@ layout: default-row
 <v-click>
 
 **Prescription Benefits**
-- **15%** brand name savings
-- **55%** generic savings
+- Average **15%** brand savings
+- Average **55%** generic savings
 - **All FDA** approved drugs
 - **Lifestyle** drugs included
 - **No limits** on prescriptions
+- **National** pharmacy network
 - **Family** coverage
+- **No forms** to fill
 </v-click>
 
 ::center::
@@ -188,9 +191,11 @@ layout: default-row
 - **132,000+** locations
 - **15-50%** savings per visit
 - **Cleanings** & x-rays
+- **Fillings** & bridges
 - **Root canals** & crowns
 - **Cosmetic** & orthodontia
 - **No** benefit maximum
+- **No** pre-existing exclusions
 </v-click>
 
 ::right::
@@ -200,6 +205,8 @@ layout: default-row
 - **10,000+** locations
 - **10-50%** eyewear savings
 - **10-30%** exam savings
+- **Medical** eye exams
+- **Surgical** procedures
 - **PRK/LASIK** discounts
 - **Ophthalmologists**
 - **Optometrists**
@@ -219,6 +226,7 @@ layout: default-row
 **Chiropractic Care**
 - **Free** initial consult
 - **50%** diagnostic savings
+- **X-rays** included
 - **30%** treatment savings
 - **12,000+** chiropractors
 - **Unlimited** treatments
@@ -230,6 +238,7 @@ layout: default-row
 **Laboratory Program**
 - **Affordable** testing
 - **Wide array** of tests
+- **Browse** online
 - **PHR** system access
 - **Monitor** overall health
 - **Not in NY, NJ, RI**
@@ -241,9 +250,9 @@ layout: default-row
 **Additional Services**
 - **Medical bill** negotiations
 - **Patient** advocacy
-- **50%** pet prescriptions
-- **75%** off vitamins
-- **Mail-order** pharmacy
+- **No minimum** bill required
+- **Pet Rx** prescriptions
+- **75% retail** on vitamins & supplements
 </v-click>
 
 ---

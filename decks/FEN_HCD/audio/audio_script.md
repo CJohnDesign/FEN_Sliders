@@ -8,7 +8,7 @@ Let's begin with understanding what a Plan Sponsor is. Plan Sponsors are entitie
 
 ---- How Plan Sponsors Work ----
 
-Now, let me explain how Plan Sponsors operate. They offer health insurance plans directly to members and provide wellness programs. Plan sponsors manage plans in-house or through third-party administrators. They design and implement customized benefits that meet their specific needs.
+Now, let me explain how Plan Sponsors operate. As a plan sponsor, they would offer their own health insurance plans or benefits directly to its members or employees. This might include health insurance coverage, wellness programs, or other related benefits. A plan sponsor usually manages the insurance plan in-house or through third-party administrators. They may negotiate with insurance carriers or providers to design and implement a health plan that meets their specific needs. Plan Sponsors would focus on providing benefits that are tailored to its members, often including customized wellness programs, health insurance plans, or other employee benefits.
 
 ---- Plan Sponsor Characteristics ----
 
@@ -16,7 +16,7 @@ Let's examine the key characteristics of Plan Sponsors. First, they provide and 
 
 ---- About HCDA ----
 
-Healthcare Data Analytics are experts in healthcare data analytics. We provide actionable insights and enable informed decisions about patient care. Our focus is on improving operational efficiency and identifying healthcare trends through data-driven analysis.
+Healthcare Data Analytics specializes in collecting, analyzing, and interpreting healthcare data to provide insights and actionable information for healthcare providers. They enable providers to make informed decisions regarding patient care, cost management, and operational efficiency. Essentially, they use data analytics specifically within the healthcare sector to identify patterns and trends for improved outcomes.
 
 ---- Plan Sponsor & Relationship ----
 
@@ -29,5 +29,3 @@ Let's explore our three key membership benefits. First, Survey Opportunities: yo
 ---- Closing ----
 
 Thank you for taking the time to learn about Healthcare Data Analytics. Together, we're improving healthcare through data! Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

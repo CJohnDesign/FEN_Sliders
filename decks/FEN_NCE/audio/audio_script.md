@@ -35,8 +35,8 @@ The GapAfford Plus Program is a great way for individuals and families to save m
 ---- First Health Network Benefits ----
 
 As an NCE Association member, members will enjoy the savings you will receive when you use a First Health Network provider. If there is a benefit that is not covered under the limited medical plan, or if they have exhausted their benefits for the policy year, and they use a network provider, their claims are re-priced, therefore "reducing" their out-of-pocket costs. Practitioners in all 50 states!
-• Doctors and Physicians (including specialists)
-• Hospitals or Surgical Centers (IN/OUT)
+• Physicians and specialists
+• Inpatient and Outpatient Hospitals or Surgical Centers
 • Clinics and Specialty Centers
 • Laboratories and Imaging Centers
 
