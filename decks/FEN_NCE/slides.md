@@ -39,10 +39,9 @@ image: /img/style/assoc.png
 
 <v-clicks>
 
-- Organizations formed to serve **collective interests**
+- Organizations serving **collective interests**
 - Provides access to **various services**
 - Focuses on **health insurance plans**
-- Leverages **collective purchasing power**
 
 </v-clicks>
 
@@ -56,12 +55,13 @@ image: /img/style/working.png
 
 <v-clicks>
 
-- Acts as **intermediary**
 - Negotiates **group rates**
+- Leverages **collective power**
+- Offers **better terms**
+- Acts as **intermediary**
 - Manages **enrollment process**
 - Provides **member support**
-- Leverages **collective power**
-- Obtains **better terms**
+
 
 </v-clicks>
 
@@ -97,9 +97,8 @@ image: /img/style/relationship.png
 
 - Must be **working**
 - Join **NCE Group**
-- Eligible for **plan benefits**
-- Access **NCE membership benefits**
-- Access **health benefits**
+- Access to **plan benefits**
+- **Health benefits** included
 
 </v-clicks>
 
@@ -113,7 +112,6 @@ image: /img/style/success.png
 
 <v-clicks>
 
-- Save on **out-of-pocket** expenses
 - Savings from **first dollar**
 - **Pre-negotiated** rates
 - **No deductibles**
@@ -136,31 +134,31 @@ layout: default-row
 ::left::
 <v-click>
 
-**Provider Network**
-- **Doctors** & specialists
-- **Hospitals** (IN/OUT)
-- **Clinics** & centers
-- **Labs** & imaging
+**Network Providers**
+- **Doctors** & physicians
+- Including **specialists**
+- **Hospitals** & surgical centers
+- **Clinics** & specialty centers
 </v-click>
 
 ::center::
 <v-click>
 
-**Coverage Details**
-- **All 50** states coverage
+**Coverage Benefits**
+- Available in **all 50 states**
 - **Re-priced** claims
-- **Reduced** costs
-- **Exhausted** benefits covered
+- For **non-covered** benefits
+- For **exhausted** benefits
 </v-click>
 
 ::right::
 <v-click>
 
-**Additional Features**
-- **Pre-negotiated** rates
-- **Specialty** centers
-- **Surgical** centers
-- **Comprehensive** network
+**Cost Savings**
+- **Reduced** out-of-pocket costs
+- **Laboratories** & imaging
+- **IN/OUT** patient care
+- **Network** provider access
 </v-click>
 
 ---
@@ -178,9 +176,9 @@ layout: default-row
 - **15%** brand name savings
 - **55%** generic savings
 - **All FDA** approved drugs
-- **National** pharmacy network
-- **Family** coverage included
-- **No forms** to activate
+- **Lifestyle** drugs included
+- **No limits** on prescriptions
+- **Family** coverage
 </v-click>
 
 ::center::
@@ -203,8 +201,8 @@ layout: default-row
 - **10-50%** eyewear savings
 - **10-30%** exam savings
 - **PRK/LASIK** discounts
-- **Multiple** provider types
-- **National** chain access
+- **Ophthalmologists**
+- **Optometrists**
 </v-click>
 
 ---
@@ -224,18 +222,16 @@ layout: default-row
 - **30%** treatment savings
 - **12,000+** chiropractors
 - **Unlimited** treatments
-- **X-ray** savings included
 </v-click>
 
 ::center::
 <v-click>
 
 **Laboratory Program**
-- **Efficient** testing solutions
+- **Affordable** testing
 - **Wide array** of tests
 - **PHR** system access
 - **Monitor** overall health
-- **Purchase** tests online
 - **Not in NY, NJ, RI**
 </v-click>
 
@@ -248,18 +244,17 @@ layout: default-row
 - **50%** pet prescriptions
 - **75%** off vitamins
 - **Mail-order** pharmacy
-- **Natural** products
 </v-click>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for learning about NCE. Continue to be great!
+line: Thank you for learning about NCE. Supporting America's independent workforce!
 ---
 
 # Thank You!
 
-Supporting America's independent workforce!
+Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
 
