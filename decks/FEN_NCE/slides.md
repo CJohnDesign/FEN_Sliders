@@ -114,14 +114,14 @@ image: /img/style/success.png
 
 <v-clicks>
 
-- **First-dollar** savings
-- **No deductibles** or limits
-- **No medical** exams needed
+- Savings from **first dollar**
+- **Pre-negotiated** rates
+- **No deductibles**
+- **No medical** exams
 - **No claim** forms
-- **No usage** limitations
+- **No usage** limits
 - **No age** restrictions
-- **No pre-existing** condition limits
-- **First Health Network** access
+- **No pre-existing** conditions
 
 </v-clicks>
 
@@ -136,21 +136,21 @@ layout: default-row
 ::left::
 <v-click>
 
-**Medical Services**
+**Provider Network**
 - **Doctors** & specialists
-- **Hospitals** & surgical centers
-- **Clinics** & specialty centers
-- **Labs** & imaging centers
+- **Hospitals** (IN/OUT)
+- **Clinics** & centers
+- **Labs** & imaging
 </v-click>
 
 ::center::
 <v-click>
 
 **Coverage Details**
-- Available in **all 50 states**
+- **All 50** states coverage
 - **Re-priced** claims
-- **Reduced** out-of-pocket costs
-- **Comprehensive** network
+- **Reduced** costs
+- **Exhausted** benefits covered
 </v-click>
 
 ::right::
@@ -158,9 +158,9 @@ layout: default-row
 
 **Additional Features**
 - **Pre-negotiated** rates
-- **In/Out** patient care
-- **Flexible** usage
-- **Cost-effective** solutions
+- **Specialty** centers
+- **Surgical** centers
+- **Comprehensive** network
 </v-click>
 
 ---
@@ -177,31 +177,34 @@ layout: default-row
 **Prescription Benefits**
 - **15%** brand name savings
 - **55%** generic savings
-- **National** pharmacy network
 - **All FDA** approved drugs
-- **Family** coverage included
+- **Lifestyle** drugs included
+- **No limits** on prescriptions
+- **Family** coverage
 </v-click>
 
 ::center::
 <v-click>
 
 **Dental Access®**
-- Over **132,000** locations
-- **15-50%** average savings
+- **132,000+** locations
+- **15-50%** savings per visit
+- **Cleanings** & x-rays
+- **Root canals** & crowns
+- **Cosmetic** & orthodontia
 - **No** benefit maximum
-- **Cosmetic** dentistry included
-- **Orthodontia** included
 </v-click>
 
 ::right::
 <v-click>
 
 **Vision Care**
-- Over **10,000** locations
+- **10,000+** locations
 - **10-50%** eyewear savings
 - **10-30%** exam savings
 - **PRK/LASIK** discounts
-- **Nationwide** coverage
+- **Ophthalmologists**
+- **Optometrists**
 </v-click>
 
 ---
@@ -216,10 +219,11 @@ layout: default-row
 <v-click>
 
 **Specialty Services**
-- **Free** chiro consultation
+- **Free** initial consult
 - Up to **50%** diagnostic savings
 - **30%** treatment savings
 - **12,000+** chiropractors
+- **X-ray** discounts
 </v-click>
 
 ::center::
@@ -230,16 +234,18 @@ layout: default-row
 - **PHR** system access
 - **Medical bill** negotiations
 - **Patient** advocacy
+- **Not in NY, NJ, RI**
 </v-click>
 
 ::right::
 <v-click>
 
 **Extra Value**
-- **Pet** prescriptions
+- **50%** pet med savings
+- **FDA-approved** pharmacy
 - Up to **75%** off vitamins
-- **Mail-order** pharmacy
 - **Natural** products
+- **Mail-order** options
 </v-click>
 
 ---
