@@ -40,6 +40,27 @@ npm run generate-audio <DECK_ID>
 - **OpenAI TTS**: Creates natural narration
 - **Slidev**: Renders markdown into presentations
 
+### AI-Powered Generation
+1. **Template System**
+   - Dynamic template injection
+   - Automatic variable replacement
+   - Consistent branding and styling
+   - Smart layout selection based on content
+
+2. **Content Processing**
+   - Intelligent section breakdown
+   - Key information extraction
+   - Benefit comparison tables
+   - Feature highlight detection
+
+3. **Presentation Structure**
+   - Overview slides
+   - Feature breakdowns
+   - Plan comparisons
+   - Cost management tools
+   - Service descriptions
+   - Definitions and limitations
+
 ### Processing Pipeline
 1. **PDF Analysis**
    - Image extraction
@@ -79,8 +100,12 @@ interface BuilderState {
 ```
 insurance-deck-builder/
 ├── agents/                # AI processing agents
-│   └── builder/          # Core pipeline logic
+│   ├── builder/          # Core pipeline logic
+│   ├── config/           # AI configuration
+│   └── utils/            # Helper functions
 ├── decks/                # Generated presentations
+│   ├── FEN_TEMPLATE/     # Base template
+│   └── [DECK_ID]/       # Generated decks
 ├── scripts/              # Utility scripts
 └── types/                # TypeScript definitions
 ```
