@@ -8,11 +8,7 @@ Let's begin with understanding what a Plan Sponsor is. Plan Sponsors are entitie
 
 ---- How does it work: Plan Sponsor ----
 
-Now, let me explain how Plan Sponsors operate. As a plan sponsor, they would offer their own health insurance plans or benefits directly to its members or employees. This might include health insurance coverage, wellness programs, or other related benefits.
-
----- How does it work: Plan Sponsor...Continued ----
-
-A plan sponsor usually manages the insurance plan in-house or through third-party administrators. They may negotiate with insurance carriers or providers to design and implement a health plan that meets their specific needs. Plan Sponsors would focus on providing benefits that are tailored to its members, often including customized wellness programs, health insurance plans, or other employee benefits.
+Now, let me explain how Plan Sponsors operate. As a plan sponsor, they would offer their own health insurance plans or benefits directly to its members or employees. This might include health insurance coverage, wellness programs, or other related benefits. A plan sponsor usually manages the insurance plan in-house or through third-party administrators. They may negotiate with insurance carriers or providers to design and implement a health plan that meets their specific needs. Plan Sponsors would focus on providing benefits that are tailored to its members, often including customized wellness programs, health insurance plans, or other employee benefits.
 
 ---- Characteristics ----
 
