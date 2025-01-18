@@ -1,50 +1,96 @@
-# slidev-theme-FEN
+# FEN - Insurance Deck Builder
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-FEN?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-FEN)
+An AI-powered system that transforms insurance plan PDFs into dynamic Slidev presentations with synchronized narration, powered by LangGraph orchestration, GPT-4o content analysis, and OpenAI's Text-to-Speech.
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+## Overview
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/guide/write-theme.html
---->
+The system automatically:
+- Processes and analyzes insurance plan PDFs
+- Generates professional slide decks with consistent branding
+- Creates synchronized voiceover narration
+- Validates content accuracy and structural alignment
+- Exports to multiple formats (PDF/web)
 
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
+## Quick Start
 
-<!--
-  Put some screenshots here to demonstrate your theme
+### Create a New Deck
+```bash
+npm run create-deck <DECK_ID> "<Deck Title>"
+# Example: npm run create-deck FEN_EXAMPLE "Example Insurance Plan"
+```
 
-  Live demo: [...]
--->
+### Development Commands
+```bash
+npm run dev:<DECK_ID>      # Start development server
+npm run build:<DECK_ID>    # Build for production
+npm run export:<DECK_ID>   # Export to PDF
+npm run preview:<DECK_ID>  # Preview remotely
+```
 
-## Install
+### Generate Audio
+```bash
+npm run generate-audio <DECK_ID>
+```
 
-Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
+## Technical Architecture
 
-<pre><code>---
-theme: <b>FEN</b>
----</code></pre>
+### Core Technologies
+- **LangGraph**: Orchestrates the multi-step generation pipeline
+- **GPT-4o**: Powers content analysis and generation
+- **OpenAI TTS**: Creates natural narration
+- **Slidev**: Renders markdown into presentations
 
-Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
+### Processing Pipeline
+1. **PDF Analysis**
+   - Image extraction
+   - Content analysis with GPT-4o
+   - Table detection and processing
 
-## Layouts
+2. **Content Generation**
+   - Markdown generation with Slidev syntax
+   - Template-based formatting
+   - Branding integration
 
-This theme provides the following layouts:
+3. **Validation**
+   - Structure alignment verification
+   - Content accuracy checks
+   - Template compliance
 
-> TODO:
+4. **Audio Generation**
+   - Script creation
+   - TTS processing
+   - Timing synchronization
 
-## Components
+### State Management
+```typescript
+interface BuilderState {
+    messages: any[];              // Processing messages
+    metadata: DeckMetadata;       // Deck configuration
+    slides: Record<string, any>[]; // Generated slides
+    audio_config?: Record<string, any>; // Audio settings
+    error_context?: Record<string, any>; // Error tracking
+    deck_info?: Record<string, string>;
+    pdf_info?: Record<string, any>;
+    page_summaries?: Record<string, any>[];
+}
+```
 
-This theme provides the following components:
+## Project Structure
+```
+insurance-deck-builder/
+├── agents/                # AI processing agents
+│   └── builder/          # Core pipeline logic
+├── decks/                # Generated presentations
+├── scripts/              # Utility scripts
+└── types/                # TypeScript definitions
+```
 
-> TODO:
+## License & Credits
 
-## Contributing
+### License
+MIT License - Free to use, modify, and distribute
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+### Built With
+- [Slidev](https://sli.dev/)
+- [LangGraph](https://github.com/langchain-ai/langgraph)
+- OpenAI GPT-4o and TTS APIs
