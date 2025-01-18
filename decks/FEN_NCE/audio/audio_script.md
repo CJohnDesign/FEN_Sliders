@@ -1,33 +1,33 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the National Congress of Employers. We'll explore what associations are, how they work, and the valuable benefits NCE offers to its members.
+Hello, everyone! Welcome to our presentation on the National Congress of Employers. As you can see on the title slide, we're focused on supporting America's independent workforce. Today, we'll explore what associations are, how they work, and the valuable benefits NCE offers to its members.
 
 ---- What is an Association? ----
 
-Let's begin with understanding what an Association is. Associations are organizations formed to serve the collective interests of their members, often by providing access to various services, including health insurance plans.
+Looking at our first topic, let's understand what an Association is. As shown on the slide, Associations are organizations formed to serve the collective interests of their members. They provide access to various services, with a particular focus on health insurance plans. The key strength lies in leveraging collective purchasing power to negotiate better terms and coverage for all members.
 
 ---- How Associations Work ----
 
-Now, let me explain how Associations operate. As an association, NCE negotiates and offers health insurance plans and other benefits to its member businesses or employees. The association's role is to leverage the collective purchasing power of its members to obtain better terms and coverage. The association acts as an intermediary between insurance providers and its members, negotiating group rates and terms, managing enrollment, and providing ongoing support.
+On this slide, we can see the key operational aspects of associations. As an association, NCE acts as an intermediary, negotiating and offering health insurance plans and other benefits to member businesses and employees. We manage the enrollment process, provide ongoing member support, and leverage our collective power to obtain better terms and coverage.
 
 ---- Who is NCE? ----
 
-The National Congress of Employers, or NCE, is a prominent organization dedicated to supporting the nation's 56.7 million independent workers, including micro-businesses and self-employed individuals. Established in 1996 by attorneys, former politicians, and business leaders, NCE focuses on advocating for the interests of its members through policy advocacy and providing valuable resources. Their mission is to support micro-businesses and independent workers by providing reliable services, resources, and benefits, regardless of individual circumstances or means.
+As highlighted on this slide, the National Congress of Employers, or NCE, is a prominent organization dedicated to supporting the nation's 56.7 million independent workers. Established in 1996 by attorneys, former politicians, and business leaders, we focus on policy advocacy and providing valuable resources. Our mission is to support micro-businesses and independent workers with reliable services and benefits, regardless of individual circumstances.
 
 ---- NCE & Plan Relationship ----
 
-Before we dive into plan benefit information, there's something important you need to understand. Members must be working and become a Member of the NCE Group to be eligible for plan and Member Benefits. This allows Members to not only take advantage of NCE Membership Benefits but Health Benefits as well.
+Looking at this important relationship slide, there's something crucial you need to understand about membership. As shown here, members must be working and become a Member of the NCE Group to be eligible for plan and Member Benefits. This membership opens the door to both NCE Membership Benefits and comprehensive Health Benefits.
 
 ---- GapAfford Plus Benefits ----
 
-Let's explore the GapAfford Plus Program, a great way for individuals and families to save money on out-of-pocket medical expenses. Savings start from the first dollar, with no limits. There are no deductibles, medical exams, claim forms, usage limitations, age restrictions, or pre-existing condition limitations. Through the First Health Network, members enjoy provider network discounts with practitioners in all 50 states, including doctors, hospitals, clinics, and laboratories.
+Now, let's explore the GapAfford Plus Program shown on this slide. This is an excellent way for individuals and families to save money on out-of-pocket medical expenses. As you can see, there are no deductibles, medical exams, claim forms, usage limitations, age restrictions, or pre-existing condition limitations. Through the First Health Network, members enjoy provider network discounts nationwide.
 
 ---- Additional Member Benefits ----
 
-NCE offers several valuable additional benefits. The Prescription Discount Benefit saves an average of 15% on Brand Name and 55% on Generic Medications. The Aetna Dental Access® Network provides savings of 15-50% at over 132,000 dental locations. The OUTLOOK Vision Network offers 10-50% savings on eyewear at over 10,000 locations. Members also receive discounts on chiropractic care, laboratory services, medical bill negotiations, pet prescriptions, and vitamins and supplements.
+As displayed in these three benefit categories, NCE offers valuable additional benefits. Under Healthcare Savings, the Prescription Discount Benefit saves 15-55% on medications, while Aetna Dental Access® provides 15-50% savings at over 132,000 locations. For Specialty Care, we offer chiropractic services and lab work. And in our Extra Value category, members receive discounts on pet prescriptions, vitamins, and supplements, all with nationwide coverage.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the National Congress of Employers and our comprehensive member benefits. Together, we're supporting America's independent workforce.
+Thank you for taking the time to learn about the National Congress of Employers and our comprehensive member benefits. As our closing slide emphasizes, we're dedicated to supporting America's independent workforce.
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
