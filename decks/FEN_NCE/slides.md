@@ -76,11 +76,12 @@ image: /img/style/boss.png
 <v-clicks>
 
 - Supporting **56.7M** independent workers
+- Includes **micro-businesses** & self-employed
 - Established in **1996**
-- Founded by **industry leaders**
+- Founded by **attorneys**, politicians & leaders
 - Focuses on **policy advocacy**
-- Provides **valuable resources**
-- Supports **micro-businesses**
+- Provides **reliable services** & resources
+- Supports members **regardless of means**
 
 </v-clicks>
 
@@ -99,6 +100,7 @@ image: /img/style/relationship.png
 - Access to **plan benefits**
 - Comprehensive **member benefits**
 - **Health benefits** included
+- Eligibility **requirements** apply
 
 </v-clicks>
 
@@ -116,10 +118,91 @@ image: /img/style/success.png
 - **No deductibles** or limits
 - **No medical** exams needed
 - **No claim** forms
+- **No usage** limitations
 - **No age** restrictions
+- **No pre-existing** condition limits
 - **First Health Network** access
 
 </v-clicks>
+
+---
+transition: fade-out
+layout: default-row
+---
+
+::header::
+# First Health Network Benefits
+
+::left::
+<v-click>
+
+**Medical Services**
+- **Doctors** & specialists
+- **Hospitals** & surgical centers
+- **Clinics** & specialty centers
+- **Labs** & imaging centers
+</v-click>
+
+::center::
+<v-click>
+
+**Coverage Details**
+- Available in **all 50 states**
+- **Re-priced** claims
+- **Reduced** out-of-pocket costs
+- **Comprehensive** network
+</v-click>
+
+::right::
+<v-click>
+
+**Additional Features**
+- **Pre-negotiated** rates
+- **In/Out** patient care
+- **Flexible** usage
+- **Cost-effective** solutions
+</v-click>
+
+---
+transition: fade-out
+layout: default-row
+---
+
+::header::
+# Healthcare Savings Programs
+
+::left::
+<v-click>
+
+**Prescription Benefits**
+- **15%** brand name savings
+- **55%** generic savings
+- **National** pharmacy network
+- **All FDA** approved drugs
+- **Family** coverage included
+</v-click>
+
+::center::
+<v-click>
+
+**Dental Access®**
+- Over **132,000** locations
+- **15-50%** average savings
+- **No** benefit maximum
+- **Cosmetic** dentistry included
+- **Orthodontia** included
+</v-click>
+
+::right::
+<v-click>
+
+**Vision Care**
+- Over **10,000** locations
+- **10-50%** eyewear savings
+- **10-30%** exam savings
+- **PRK/LASIK** discounts
+- **Nationwide** coverage
+</v-click>
 
 ---
 transition: fade-out
@@ -132,19 +215,21 @@ layout: default-row
 ::left::
 <v-click>
 
-**Healthcare Savings**
-- **Prescription** discounts (15-55%)
-- **Aetna Dental Access®** (15-50%)
-- Over **132,000** locations
+**Specialty Services**
+- **Free** chiro consultation
+- Up to **50%** diagnostic savings
+- **30%** treatment savings
+- **12,000+** chiropractors
 </v-click>
 
 ::center::
 <v-click>
 
-**Specialty Care**
-- **Chiropractic** services
-- **Lab** work
-- **Provider** network access
+**Lab & Medical**
+- **Online** lab testing
+- **PHR** system access
+- **Medical bill** negotiations
+- **Patient** advocacy
 </v-click>
 
 ::right::
@@ -152,8 +237,9 @@ layout: default-row
 
 **Extra Value**
 - **Pet** prescriptions
-- **Vitamins** & supplements
-- **Nationwide** coverage
+- Up to **75%** off vitamins
+- **Mail-order** pharmacy
+- **Natural** products
 </v-click>
 
 ---
