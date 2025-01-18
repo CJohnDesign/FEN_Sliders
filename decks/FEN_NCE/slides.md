@@ -39,9 +39,10 @@ image: /img/style/assoc.png
 
 <v-clicks>
 
-- Organizations serving **collective interests**
+- Organizations formed to serve **collective interests**
 - Provides access to **various services**
 - Focuses on **health insurance plans**
+- Leverages **collective purchasing power**
 
 </v-clicks>
 
@@ -55,13 +56,12 @@ image: /img/style/working.png
 
 <v-clicks>
 
-- Negotiates **group rates**
-- Leverages **collective power**
-- Offers **better terms**
 - Acts as **intermediary**
+- Negotiates **group rates**
 - Manages **enrollment process**
 - Provides **member support**
-
+- Leverages **collective power**
+- Obtains **better terms**
 
 </v-clicks>
 
@@ -77,11 +77,11 @@ image: /img/style/boss.png
 
 - Supporting **56.7M** independent workers
 - Founded in **1996** by industry leaders
-- Led by **attorneys** & politicians
+- Led by **attorneys & former politicians**
 - Focuses on **policy advocacy**
 - Provides **valuable resources**
 - Empowers **professional success**
-- Supports **all circumstances**
+- Supports **all circumstances or means**
 
 </v-clicks>
 
@@ -97,10 +97,9 @@ image: /img/style/relationship.png
 
 - Must be **working**
 - Join **NCE Group**
-- Access to **plan benefits**
-- Comprehensive **member benefits**
-- **Health benefits** included
-- Eligibility **requirements** apply
+- Eligible for **plan benefits**
+- Access **NCE membership benefits**
+- Access **health benefits**
 
 </v-clicks>
 
@@ -114,6 +113,7 @@ image: /img/style/success.png
 
 <v-clicks>
 
+- Save on **out-of-pocket** expenses
 - Savings from **first dollar**
 - **Pre-negotiated** rates
 - **No deductibles**
@@ -178,9 +178,9 @@ layout: default-row
 - **15%** brand name savings
 - **55%** generic savings
 - **All FDA** approved drugs
-- **Lifestyle** drugs included
-- **No limits** on prescriptions
-- **Family** coverage
+- **National** pharmacy network
+- **Family** coverage included
+- **No forms** to activate
 </v-click>
 
 ::center::
@@ -203,8 +203,8 @@ layout: default-row
 - **10-50%** eyewear savings
 - **10-30%** exam savings
 - **PRK/LASIK** discounts
-- **Ophthalmologists**
-- **Optometrists**
+- **Multiple** provider types
+- **National** chain access
 </v-click>
 
 ---
@@ -224,16 +224,18 @@ layout: default-row
 - **30%** treatment savings
 - **12,000+** chiropractors
 - **Unlimited** treatments
+- **X-ray** savings included
 </v-click>
 
 ::center::
 <v-click>
 
 **Laboratory Program**
-- **Affordable** testing
+- **Efficient** testing solutions
 - **Wide array** of tests
 - **PHR** system access
 - **Monitor** overall health
+- **Purchase** tests online
 - **Not in NY, NJ, RI**
 </v-click>
 
@@ -246,17 +248,18 @@ layout: default-row
 - **50%** pet prescriptions
 - **75%** off vitamins
 - **Mail-order** pharmacy
+- **Natural** products
 </v-click>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for learning about NCE. Supporting America's independent workforce!
+line: Thank you for learning about NCE. Continue to be great!
 ---
 
 # Thank You!
 
-Continue to be great!
+Supporting America's independent workforce!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
 
