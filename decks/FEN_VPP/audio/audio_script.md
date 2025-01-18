@@ -1,33 +1,54 @@
 ---- Cover ----
 
-Hello, everyone! Welcome to our presentation on The Vitamin Patch Plan Sponsor. As you can see on the title slide, we're focused on innovative health and wellness solutions. Today, we'll explore what plan sponsors are, how they work, and the valuable benefits The Vitamin Patch offers to its members.
+Welcome to The Vitamin Patch Plan Sponsor presentation. Today, we'll explore what plan sponsors are, how they operate, and the unique benefits The Vitamin Patch offers to its members.
 
 ---- What is a Plan Sponsor? ----
 
-Looking at our first topic, let's understand what a Plan Sponsor is. As shown on the slide, Plan Sponsors are entities that provide health insurance plans or other benefits directly to their members, employees, or participants. They are typically organizations, companies, or groups that administer their own benefits programs.
+Let's begin by understanding what a Plan Sponsor is. Plan Sponsors are entities that provide health insurance plans or other benefits directly to their members, employees, or participants. They are typically organizations, companies, or groups that administer their own benefits programs.
 
 ---- How Plan Sponsors Work ----
 
-On this slide, we can see the key operational aspects of plan sponsors. As a plan sponsor, they would offer their own health insurance plans or benefits directly to members or employees. This includes health insurance coverage, wellness programs, and other related benefits. The structure involves managing plans in-house or through third-party administrators, negotiating with carriers, and designing plans that meet specific needs.
+The operation of a Plan Sponsor involves several key aspects:
+
+Role: As a plan sponsor, they offer their own health insurance plans or benefits directly to members or employees. This includes health insurance coverage, wellness programs, and other related benefits.
+
+Structure: Plan sponsors typically manage insurance plans in-house or through third-party administrators. They negotiate with insurance carriers or providers to design and implement health plans that meet specific needs.
+
+Services: Plan Sponsors focus on providing benefits tailored to their members, including customized wellness programs, health insurance plans, and other employee benefits.
 
 ---- Plan Sponsor Characteristics ----
 
-As highlighted on this slide, let's examine the key characteristics of Plan Sponsors. First, they provide and manage health benefits directly for their members or employees. Second, they often design and customize plans to fit specific organizational needs. Finally, they may be self-funded, meaning they pay claims directly, or insured, where they purchase coverage from an insurance company.
+Let's examine three key characteristics of Plan Sponsors:
+
+1. Direct Provision: They provide and manage health benefits directly for members or employees.
+2. Custom Plans: They design and customize plans to fit specific organizational needs.
+3. Self-Funding or Insured: They may be self-funded (paying claims directly) or insured (purchasing coverage from an insurance company).
 
 ---- Who is The Vitamin Patch? ----
 
-Looking at this slide, let me introduce you to The Vitamin Patch. We're a passionate team with over 70 years of combined experience in natural health, healthcare, business management, marketing, and product development. Beyond our impressive credentials, we're real people who genuinely care about your well-being. We understand that supplements don't work the same for everyone, which is why we've developed a solution that ensures you get the most out of your nutritional supplements.
+The Vitamin Patch is a passionate team with over 70 years of combined experience in natural health, healthcare, business management, marketing, and product development. Beyond impressive credentials, we're real people who genuinely care about individual well-being. We understand that supplements don't work the same for everyone, which is why we've developed a solution that ensures individuals get the most from their nutritional supplements.
+
+Our mission is to provide access to high-quality health and wellness products and services, offer a platform for personal growth and financial opportunities, and foster a community focused on well-being and entrepreneurial success.
 
 ---- Plan Sponsor & Relationship ----
 
-As shown on this important slide, there's something crucial you need to understand about membership. Members must become an Affiliate Marketer of The Vitamin Patch Plan Sponsorship. While not required, this allows you to share the brand and refer others to become Affiliates. As an Ambassador, you can receive compensation, and as an Affiliate, you receive certain health benefits that will be covered in the Plan Overview.
+Before we discuss plan benefits, there's important information you need to know. Members must become an Affiliate Marketer of The Vitamin Patch Plan Sponsorship. While not required to sell, this affiliation allows you to share the brand and refer others to become Affiliates. As an Ambassador, you can receive compensation, and as an Affiliate, you receive health benefits that we'll cover in the Plan Overview.
 
 ---- Membership Benefits ----
 
-As displayed in these benefit categories, The Vitamin Patch offers comprehensive membership advantages. You'll become an Affiliate with access to our innovative products and health benefits. You can sell The Vitamin Patch products and earn compensation as a brand ambassador. Additionally, with a Minimum Essential Coverage (MEC) Plan, you can avoid tax penalties in several states, including New Jersey, California, Rhode Island, Massachusetts, and the District of Columbia.
+Let's review the key membership benefits:
+• Become an Affiliate of The Vitamin Patch
+• Access to The Vitamin Patch innovative products
+• Comprehensive health benefits
+• Opportunity to sell The Vitamin Patch products
+• Earn compensation as a brand ambassador
+• MEC Plan compliance to avoid tax penalties in select states:
+  - New Jersey
+  - California
+  - Rhode Island
+  - Massachusetts
+  - District of Columbia
 
 ---- Closing ----
 
-Thank you for taking the time to learn about The Vitamin Patch and our comprehensive sponsor benefits. As our closing slide emphasizes, we're dedicated to promoting health and creating opportunities for our members.
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+Thank you for your attention to The Vitamin Patch Plan Sponsor presentation. Continue to be great!

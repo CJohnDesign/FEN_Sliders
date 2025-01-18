@@ -37,11 +37,10 @@ image: /img/style/sponsors.png
 
 <v-clicks>
 
-- Entities providing **health insurance plans**
-- Offer benefits **directly** to members
+- Organizations providing **health insurance plans**
+- Provide benefits **directly** to members
+- Typically **companies** or **groups**
 - Administer own **benefits programs**
-- Serve **employees** or **participants**
-- Manage **organizational benefits**
 
 </v-clicks>
 
@@ -55,11 +54,9 @@ image: /img/style/paperwork.png
 
 <v-clicks>
 
-- Offer **health plans** directly
-- Provide **wellness programs**
-- Manage plans **in-house**
-- Use **third-party administrators**
-- Design **customized benefits**
+- **Role**: Offer health plans directly
+- **Structure**: Manage plans in-house
+- **Services**: Provide benefits directly
 
 </v-clicks>
 
@@ -73,11 +70,9 @@ image: /img/style/doc.png
 
 <v-clicks>
 
-- **Direct Provision** of health benefits
+- **Direct Provision** of benefits
 - **Custom Plans** for specific needs
-- Can be **Self-Funded**
-- Or **Insured** through carriers
-- **Tailored** benefit solutions
+- **Self-Funded** or **Insured** through carriers
 
 </v-clicks>
 
@@ -92,11 +87,10 @@ image: /img/style/vitamin.png
 <v-clicks>
 
 - **70+ years** combined experience
+- **Professional** experts
+- Passionate team with **real care**
+- Focus on **individual well-being**
 - Experts in **natural health**
-- Focus on **individual needs**
-- Provide **innovative solutions**
-- **Passionate** about well-being
-- Foster **entrepreneurial success**
 
 </v-clicks>
 
@@ -110,9 +104,10 @@ image: /img/style/relation.png
 
 <v-clicks>
 
-- Become an **Affiliate Marketer**
+- Join as an **Affiliate Marketer**
+- **No sales** requirement
 - Share the **brand**
-- Refer **new members**
+- Refer **others**
 - Earn as an **Ambassador**
 - Access **health benefits**
 
@@ -129,28 +124,30 @@ layout: default-row
 ::left::
 <v-click>
 
-**Affiliate Status**
+**Core Benefits**
+- **Affiliate** status
 - **Product** access
-- **Brand** ambassador
-- **Referral** opportunities
+- **Health** benefits
 </v-click>
 
 ::center::
 <v-click>
 
-**Health Benefits**
-- **Comprehensive** coverage
-- **MEC Plan** access
-- **Quality** care options
+**Business Benefits**
+- **Product** sales
+- **Brand** ambassador
+- **Compensation** plan
 </v-click>
 
 ::right::
 <v-click>
 
-**Business Benefits**
-- **Compensation** plan
-- **Product** sales
-- **Growth** opportunities
+**MEC Compliance**
+- New Jersey
+- California
+- Rhode Island
+- Massachusetts
+- District of Columbia
 </v-click>
 
 ---
