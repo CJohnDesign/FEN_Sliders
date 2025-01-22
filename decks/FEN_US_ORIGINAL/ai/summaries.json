@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Premier Insurance Offer",
+    "summary": "The slide promotes Group Hospital Fixed Indemnity and Group Accident Insurance. These are underwritten by the United States Fire Insurance Company and offered exclusively to NCE members.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 1
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity and Group Accident Insurance Plan Details",
+    "summary": "The slide provides details of various insurance plans, outlining the coverage for hospital and accident-related incidents. It includes daily benefits for hospital confinement, emergency room visits, surgeries, and diagnostic tests, as well as group accident benefits.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "benefits"
+    },
+    "page": 2,
+    "table_path": "ai/tables/table_002.tsv"
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity Description of Benefits",
+    "summary": "The slide outlines the benefits available under the hospital policy, including Hospital Admission, Daily Hospital Confinement, Intensive Care, Surgery, and Emergency Room Visits. Each benefit has specific conditions and terms for eligibility and payment.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 3
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity Description of Benefits",
+    "summary": "The slide outlines various benefits related to outpatient and inpatient procedures, including surgery, anesthesia, physician visits, radiology, and laboratory tests. It specifies conditions under which these benefits are applicable.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 4
+  },
+  {
+    "title": "Group Accident Description of Benefits",
+    "summary": "This slide provides a detailed description of various benefits available under a group accident policy. It includes Hospital Admission Benefit, Daily Hospital Confinement Benefit, Daily Physician\u2019s Office Visits Benefit, Daily Emergency Room Visits Benefit for Sickness and Injury, Daily Intensive Care/Coronary Care Unit Benefit, Daily Inpatient Surgery Anesthesia Benefit, and Daily Outpatient Surgery Anesthesia Benefit. Each benefit outlines conditions for eligibility and the terms of payment.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 5
+  },
+  {
+    "title": "Group Accident Description of Benefits",
+    "summary": "This slide outlines various benefits related to surgeries, diagnostics, and laboratory tests for covered persons in case of accidents or sickness. It includes details on inpatient and outpatient procedures and the conditions under which benefits are applicable.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 6
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+    "summary": "This slide lists exclusions for the Group Hospital Fixed Indemnity insurance, detailing specific conditions and treatments not covered under the policy.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 7
+  },
+  {
+    "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+    "summary": "This slide lists exclusions to the group hospital fixed indemnity benefits, including various medical and non-medical conditions and situations, such as lack of a valid driver's license, travel in certain aircraft, and specific medical services like cosmetic surgery. It also mentions pre-existing conditions limitations.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 8
+  },
+  {
+    "title": "Group Accident Benefit Exclusions",
+    "summary": "This slide outlines various exclusions related to group accident benefits, specifying conditions and situations where coverage does not apply. It includes exclusions for self-inflicted injuries, war-related injuries, injuries sustained during illegal activities, and more.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 9
+  },
+  {
+    "title": "Group Accident Benefit Exclusions",
+    "summary": "This slide outlines specific exclusions for group accident benefits, detailing circumstances and treatments not covered under the policy, such as certain dental treatments, travel activities, and elective surgeries.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 10
+  },
+  {
+    "title": "Termination of Insurance",
+    "summary": "The slide outlines the conditions under which insurance policies and coverage for insured persons and dependents terminate. It includes specific criteria for termination dates and mentions refund policies for premiums paid beyond termination dates. Additionally, it lists insurance premium rates for different membership categories and family sizes.",
+    "tableDetails": {
+      "hasTable": true,
+      "type": "pricing"
+    },
+    "page": 11,
+    "table_path": "ai/tables/table_011.tsv"
+  },
+  {
+    "title": "NCE Association Membership Overview",
+    "summary": "This slide provides information about the National Congress of Employers (NCE), including membership benefits, insurance plans, and eligibility information. It outlines the types of insurance available, the process for receiving membership materials, and conditions for insurance coverage.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 12
+  },
+  {
+    "title": "NCE Association Membership Benefits Overview",
+    "summary": "The slide outlines the benefits of NCE Association membership, highlighting no waiting periods or pre-existing condition limitations. It details the medical discounts available through the First Health Network, and additional services such as pharmacy, vision, dental, and hearing care. The GapAfford Plus program offers cost savings with no deductibles or medical exam requirements. The slide also explains provider network discounts and benefits applicable across all 50 states.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 13
+  },
+  {
+    "title": "NCE Association Membership Benefits - GapAfford Plus",
+    "summary": "The slide outlines various membership benefits under the GapAfford Plus program, including discounts on prescription drugs, dental services, eyewear, hearing aids, imaging services, medical supplies, and more. It highlights savings opportunities and special programs available to members.",
+    "tableDetails": {
+      "hasTable": false,
+      "type": "other"
+    },
+    "page": 14
+  }
+]

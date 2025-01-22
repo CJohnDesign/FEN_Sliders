@@ -1,9 +1,9 @@
 ---
 id: FEN_GHD
 theme: ../../
-title: Good Health Distribution Partner Sponsor
+title: Good Health Distribution Partners
 info: |
-  ## Good Health Distribution Partner Sponsor Overview
+  ## Good Health Distribution Partners Overview
   A comprehensive look at Plan Sponsorship and GHD benefits.
 verticalCenter: true
 layout: intro
@@ -20,9 +20,9 @@ drawings:
 
   <div class="grid grid-cols-1 items-center py-8 -mt-8">
 
-  # Good Health Distribution Partner Sponsor
+  # Good Health Distribution Partners
 
-  Understanding **Plan Sponsorship** and Benefits
+  Understanding **Plan Sponsorship** and **Benefits of GHDA**
   </div>
   <div class="grid grid-cols-1 gap-4 items-center py-1 -ml-10 mt-12">
     <img src="/img/logos/GHD_logo.png" class="h-24 pt-1 mix-blend-multiply" alt="GHD Logo">
@@ -89,7 +89,7 @@ layout: one-half-img
 image: /img/style/health.png
 ---
 
-## About Good Health
+## About Good Health Distribution Partners
 
 <v-clicks>
 
@@ -113,7 +113,7 @@ image: /img/style/benefits.png
 <v-clicks>
 
 - Must become **Affiliate Marketer**
-- Join **Good Health** Distribution Partners
+- Join **Good Health Distribution Partners**
 - Access to **health benefits**
 - Provided by **GHD LLC**
 - Comprehensive **plan overview**

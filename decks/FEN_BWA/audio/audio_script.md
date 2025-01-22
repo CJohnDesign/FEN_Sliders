@@ -16,7 +16,7 @@ BWA, or Business Workers of America, is a not-for-profit member association that
 
 ---- BWA & Plan Relationship ----
 
-Before we dive into the specific benefits, there's something important you need to understand about membership. A working membership is required to access our benefits. You must join the BWA Group to be eligible for plan benefits. This membership opens the door to both BWA Membership benefits and comprehensive health benefits.
+Before we dive into the specific benefits, there's something important you need to understand about membership. A working membership is required to access our benefits. You must join the BWA Association to be eligible for plan benefits. This membership opens the door to both BWA Membership benefits and comprehensive health benefits.
 
 ---- MBR Benefits ----
 

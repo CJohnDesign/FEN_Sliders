@@ -96,7 +96,7 @@ image: /img/style/relationship.png
 <v-clicks>
 
 - Must be **working**
-- Join **NCE Group**
+- Join **NCE Association**
 - Access to **plan benefits**
 - **Health benefits** included
 

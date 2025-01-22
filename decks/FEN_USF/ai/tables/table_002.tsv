@@ -1,0 +1,21 @@
+```
+	100 Plan	200A Plan	200+ Plan	300 Plan	500 Plan	750 Plan	1000 Plan	1000+ Plan
+Daily Hospital Confinement	Per Day	$100 30 Days	$200 30 Days	$200 30 Days	$300 30 Days	$500 30 Days	$750 30 Days	$1,000 30 Days	$1,000 30 Days
+Daily Hospital Admission	Per Day		$1,000 5 Days	$1,000 15 Days
+Daily Intensive Care/Coronary Care (ICU/CCU)	Per Day					
+Daily Emergency Room Visit (Injury)	Per Visit	$50 1 Day	$50 1 Day	$50 1 Day	$50 1 Day	$50 1 Day	$75 1 Day	$100 1 Day	$200 1 Day
+Daily Emergency Room Visit (Sickness)	Per Visit	$50 1 Day	$50 1 Day	$50 1 Day	$50 1 Day	$50 1 Day	$75 1 Day	$100 1 Day	$200 1 Day
+Daily Inpatient Surgery	Per Day		$250 3 Days	$250 3 Days	$350 3 Days	$400 3 Days	$500 3 Days	$500 3 Days
+Daily Inpatient Surgery Anesthesia	Per Day		$100 3 Days	$100 3 Days	$100 3 Days	$100 3 Days	$100 3 Days	$125 3 Days
+Daily Outpatient Surgery	Per Day		$250 3 Days	$250 3 Days	$350 3 Days	$400 3 Days	$500 3 Days	$500 3 Days
+Daily Outpatient Surgery Anesthesia	Per Day		$100 3 Days	$100 3 Days	$100 3 Days	$100 3 Days	$100 3 Days	$125 3 Days
+Daily Physician Office Visit	Per Visit	$50 6 Days	$50 6 Days	$50 10 Days	$50 10 Days	$50 10 Days	$50 10 Days	$75 10 Days	$75 10 Days
+Daily Inpatient diagnostic radiology & x-ray	Per Day		$50 1 Day	$50 1 Day	$50 2 Days	$50 2 Days	$50 2 Days	$75 3 Days	$100 3 Days
+Daily Outpatient diagnostic radiology & x-ray	Per Day		$50 1 Day	$50 1 Day	$50 2 Days	$50 2 Days	$50 2 Days	$75 3 Days	$100 3 Days
+Daily Inpatient diagnostic laboratory tests	Per Day		$50 1 Day	$50 1 Day	$50 2 Days	$50 2 Days	$50 2 Days	$75 3 Days	$100 3 Days
+Daily Outpatient diagnostic laboratory tests	Per Day		$50 1 Day	$50 1 Day	$50 2 Days	$50 2 Days	$50 2 Days	$75 3 Days	$100 3 Days
+Group Accident Benefits					
+Accidental Death		$10,000					
+Hospital Admission Benefit	Per Day	$500 1 Day	$500 1 Day	$500 2 Days	$500 2 Days	$500 3 Days	$500 3 Days	$500 3 Days
+Emergency Room	Per Day	$250 1 Day	$250 1 Day	$250 1 Day	$250 1 Day	$250 1 Day	$250 1 Day	$250 1 Day
+```

@@ -97,7 +97,7 @@ image: /img/style/enroll.png
 <v-clicks>
 
 - **Working membership** required
-- Must join **BWA Group**
+- Must join **BWA Association**
 - Eligibility for **plan benefits**
 - Access to **BWA Membership benefits**
 - Comprehensive **health benefits** available

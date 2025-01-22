@@ -1,0 +1,256 @@
+{
+  "messages": [
+    {
+      "type": "AIMessage",
+      "content": "Please upload the PDF file for the deck. Once uploaded, the process will continue."
+    }
+  ],
+  "metadata": {
+    "deck_id": "FEN_US",
+    "title": "US Fire Insurance Benefits Overview",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-01-15T18:05:34.645425",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_US",
+    "metadata": {
+      "deck_id": "FEN_US",
+      "title": "US Fire Insurance Benefits Overview",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-01-15T18:05:34.645425",
+      "version": "1.0"
+    }
+  },
+  "slides": [
+    {
+      "title": "Premier Insurance Offer",
+      "content": "The slide promotes Group Hospital Fixed Indemnity and Group Accident Insurance. These are underwritten by the United States Fire Insurance Company and offered exclusively to NCE members.",
+      "type": "default"
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity and Group Accident Insurance Plan Details",
+      "content": "The slide provides details of various insurance plans, outlining the coverage for hospital and accident-related incidents. It includes daily benefits for hospital confinement, emergency room visits, surgeries, and diagnostic tests, as well as group accident benefits.",
+      "type": "default"
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity Description of Benefits",
+      "content": "The slide outlines the benefits available under the hospital policy, including Hospital Admission, Daily Hospital Confinement, Intensive Care, Surgery, and Emergency Room Visits. Each benefit has specific conditions and terms for eligibility and payment.",
+      "type": "default"
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity Description of Benefits",
+      "content": "The slide outlines various benefits related to outpatient and inpatient procedures, including surgery, anesthesia, physician visits, radiology, and laboratory tests. It specifies conditions under which these benefits are applicable.",
+      "type": "default"
+    },
+    {
+      "title": "Group Accident Description of Benefits",
+      "content": "This slide provides a detailed description of various benefits available under a group accident policy. It includes Hospital Admission Benefit, Daily Hospital Confinement Benefit, Daily Physician\u2019s Office Visits Benefit, Daily Emergency Room Visits Benefit for Sickness and Injury, Daily Intensive Care/Coronary Care Unit Benefit, Daily Inpatient Surgery Anesthesia Benefit, and Daily Outpatient Surgery Anesthesia Benefit. Each benefit outlines conditions for eligibility and the terms of payment.",
+      "type": "default"
+    },
+    {
+      "title": "Group Accident Description of Benefits",
+      "content": "This slide outlines various benefits related to surgeries, diagnostics, and laboratory tests for covered persons in case of accidents or sickness. It includes details on inpatient and outpatient procedures and the conditions under which benefits are applicable.",
+      "type": "default"
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+      "content": "This slide lists exclusions for the Group Hospital Fixed Indemnity insurance, detailing specific conditions and treatments not covered under the policy.",
+      "type": "default"
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+      "content": "This slide lists exclusions to the group hospital fixed indemnity benefits, including various medical and non-medical conditions and situations, such as lack of a valid driver's license, travel in certain aircraft, and specific medical services like cosmetic surgery. It also mentions pre-existing conditions limitations.",
+      "type": "default"
+    },
+    {
+      "title": "Group Accident Benefit Exclusions",
+      "content": "This slide outlines various exclusions related to group accident benefits, specifying conditions and situations where coverage does not apply. It includes exclusions for self-inflicted injuries, war-related injuries, injuries sustained during illegal activities, and more.",
+      "type": "default"
+    },
+    {
+      "title": "Group Accident Benefit Exclusions",
+      "content": "This slide outlines specific exclusions for group accident benefits, detailing circumstances and treatments not covered under the policy, such as certain dental treatments, travel activities, and elective surgeries.",
+      "type": "default"
+    },
+    {
+      "title": "Termination of Insurance",
+      "content": "The slide outlines the conditions under which insurance policies and coverage for insured persons and dependents terminate. It includes specific criteria for termination dates and mentions refund policies for premiums paid beyond termination dates. Additionally, it lists insurance premium rates for different membership categories and family sizes.",
+      "type": "default"
+    },
+    {
+      "title": "NCE Association Membership Overview",
+      "content": "This slide provides information about the National Congress of Employers (NCE), including membership benefits, insurance plans, and eligibility information. It outlines the types of insurance available, the process for receiving membership materials, and conditions for insurance coverage.",
+      "type": "default"
+    },
+    {
+      "title": "NCE Association Membership Benefits Overview",
+      "content": "The slide outlines the benefits of NCE Association membership, highlighting no waiting periods or pre-existing condition limitations. It details the medical discounts available through the First Health Network, and additional services such as pharmacy, vision, dental, and hearing care. The GapAfford Plus program offers cost savings with no deductibles or medical exam requirements. The slide also explains provider network discounts and benefits applicable across all 50 states.",
+      "type": "default"
+    },
+    {
+      "title": "NCE Association Membership Benefits - GapAfford Plus",
+      "content": "The slide outlines various membership benefits under the GapAfford Plus program, including discounts on prescription drugs, dental services, eyewear, hearing aids, imaging services, medical supplies, and more. It highlights savings opportunities and special programs available to members.",
+      "type": "default"
+    }
+  ],
+  "pdf_path": "decks/FEN_US/img/pdfs/US_Fire.pdf",
+  "pdf_info": {
+    "num_pages": 14,
+    "page_paths": [
+      "decks/FEN_US/img/pdfs/page_1.png",
+      "decks/FEN_US/img/pdfs/page_2.png",
+      "decks/FEN_US/img/pdfs/page_3.png",
+      "decks/FEN_US/img/pdfs/page_4.png",
+      "decks/FEN_US/img/pdfs/page_5.png",
+      "decks/FEN_US/img/pdfs/page_6.png",
+      "decks/FEN_US/img/pdfs/page_7.png",
+      "decks/FEN_US/img/pdfs/page_8.png",
+      "decks/FEN_US/img/pdfs/page_9.png",
+      "decks/FEN_US/img/pdfs/page_10.png",
+      "decks/FEN_US/img/pdfs/page_11.png",
+      "decks/FEN_US/img/pdfs/page_12.png",
+      "decks/FEN_US/img/pdfs/page_13.png",
+      "decks/FEN_US/img/pdfs/page_14.png"
+    ],
+    "output_dir": "decks/FEN_US/img/pdfs"
+  },
+  "awaiting_input": "pdf_upload",
+  "page_summaries": [
+    {
+      "title": "Premier Insurance Offer",
+      "summary": "The slide promotes Group Hospital Fixed Indemnity and Group Accident Insurance. These are underwritten by the United States Fire Insurance Company and offered exclusively to NCE members.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 1
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity and Group Accident Insurance Plan Details",
+      "summary": "The slide provides details of various insurance plans, outlining the coverage for hospital and accident-related incidents. It includes daily benefits for hospital confinement, emergency room visits, surgeries, and diagnostic tests, as well as group accident benefits.",
+      "tableDetails": {
+        "hasTable": true,
+        "type": "benefits"
+      },
+      "page": 2
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity Description of Benefits",
+      "summary": "The slide outlines the benefits available under the hospital policy, including Hospital Admission, Daily Hospital Confinement, Intensive Care, Surgery, and Emergency Room Visits. Each benefit has specific conditions and terms for eligibility and payment.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 3
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity Description of Benefits",
+      "summary": "The slide outlines various benefits related to outpatient and inpatient procedures, including surgery, anesthesia, physician visits, radiology, and laboratory tests. It specifies conditions under which these benefits are applicable.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 4
+    },
+    {
+      "title": "Group Accident Description of Benefits",
+      "summary": "This slide provides a detailed description of various benefits available under a group accident policy. It includes Hospital Admission Benefit, Daily Hospital Confinement Benefit, Daily Physician\u2019s Office Visits Benefit, Daily Emergency Room Visits Benefit for Sickness and Injury, Daily Intensive Care/Coronary Care Unit Benefit, Daily Inpatient Surgery Anesthesia Benefit, and Daily Outpatient Surgery Anesthesia Benefit. Each benefit outlines conditions for eligibility and the terms of payment.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 5
+    },
+    {
+      "title": "Group Accident Description of Benefits",
+      "summary": "This slide outlines various benefits related to surgeries, diagnostics, and laboratory tests for covered persons in case of accidents or sickness. It includes details on inpatient and outpatient procedures and the conditions under which benefits are applicable.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 6
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+      "summary": "This slide lists exclusions for the Group Hospital Fixed Indemnity insurance, detailing specific conditions and treatments not covered under the policy.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 7
+    },
+    {
+      "title": "Group Hospital Fixed Indemnity Benefit Exclusions",
+      "summary": "This slide lists exclusions to the group hospital fixed indemnity benefits, including various medical and non-medical conditions and situations, such as lack of a valid driver's license, travel in certain aircraft, and specific medical services like cosmetic surgery. It also mentions pre-existing conditions limitations.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 8
+    },
+    {
+      "title": "Group Accident Benefit Exclusions",
+      "summary": "This slide outlines various exclusions related to group accident benefits, specifying conditions and situations where coverage does not apply. It includes exclusions for self-inflicted injuries, war-related injuries, injuries sustained during illegal activities, and more.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 9
+    },
+    {
+      "title": "Group Accident Benefit Exclusions",
+      "summary": "This slide outlines specific exclusions for group accident benefits, detailing circumstances and treatments not covered under the policy, such as certain dental treatments, travel activities, and elective surgeries.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 10
+    },
+    {
+      "title": "Termination of Insurance",
+      "summary": "The slide outlines the conditions under which insurance policies and coverage for insured persons and dependents terminate. It includes specific criteria for termination dates and mentions refund policies for premiums paid beyond termination dates. Additionally, it lists insurance premium rates for different membership categories and family sizes.",
+      "tableDetails": {
+        "hasTable": true,
+        "type": "pricing"
+      },
+      "page": 11
+    },
+    {
+      "title": "NCE Association Membership Overview",
+      "summary": "This slide provides information about the National Congress of Employers (NCE), including membership benefits, insurance plans, and eligibility information. It outlines the types of insurance available, the process for receiving membership materials, and conditions for insurance coverage.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 12
+    },
+    {
+      "title": "NCE Association Membership Benefits Overview",
+      "summary": "The slide outlines the benefits of NCE Association membership, highlighting no waiting periods or pre-existing condition limitations. It details the medical discounts available through the First Health Network, and additional services such as pharmacy, vision, dental, and hearing care. The GapAfford Plus program offers cost savings with no deductibles or medical exam requirements. The slide also explains provider network discounts and benefits applicable across all 50 states.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 13
+    },
+    {
+      "title": "NCE Association Membership Benefits - GapAfford Plus",
+      "summary": "The slide outlines various membership benefits under the GapAfford Plus program, including discounts on prescription drugs, dental services, eyewear, hearing aids, imaging services, medical supplies, and more. It highlights savings opportunities and special programs available to members.",
+      "tableDetails": {
+        "hasTable": false,
+        "type": "other"
+      },
+      "page": 14
+    }
+  ],
+  "processed_summaries": "## Comprehensive Benefit Overview\n\n### Premier Insurance Offer\n\nThe Premier Insurance Offer is designed to provide comprehensive coverage through Group Hospital Fixed Indemnity and Group Accident Insurance. These insurance plans are underwritten by the United States Fire Insurance Company and are exclusive to members of the National Congress of Employers (NCE). This offer is tailored to provide financial assistance during hospital stays and accidents, ensuring peace of mind for policyholders.\n\n### Plan Tiers and Benefits\n\n#### Raw Benefit Tables\n{\n  \"tables\": [\n    {\n      \"page\": 2,\n      \"data\": \"\\\"\\\",\\\"100 Plan\\\",\\\"200A Plan\\\",\\\"200+ Plan\\\",\\\"300 Plan\\\",\\\"500 Plan\\\",\\\"750 Plan\\\",\\\"1000 Plan\\\",\\\"1000+ Plan\\\"\\n\\\"\\\",\\\"Per Day\\\",\\\"30 Days\\\",\\\"Per Day\\\",\\\"30 Days\\\",\\\"Per Day\\\",\\\"30 Days\\\",\\\"Per Day\\\",\\\"30 Days\\\",\\\"Per Day\\\",\\\"30 Days\\\",\\\"Per Day\\\",\\\"30 Days\\\",\\\"Per Day\\\",\\\"30 Days\\\",\\\"Per Day\\\",\\\"30 Days\\\"\\n\\\"Daily Hospital Confinement\\\",\\\"$100\\\",\\\"$200\\\",\\\"$200\\\",\\\"$300\\\",\\\"$500\\\",\\\"$750\\\",\\\"$1,000\\\",\\\"$1,000\\\"\\n\\\"Daily Hospital Admission\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"5 Days\\\",\\\"15 Days\\\"\\n\\\"Daily Intensive Care/Coronary Care (ICU/CCU)\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"1 Day\\\",\\\"1 Day\\\"\\n\\\"Daily Emergency Room Visit (Injury)\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$75\\\",\\\"1 Day\\\",\\\"$100\\\",\\\"1 Day\\\",\\\"$200\\\",\\\"1 Day\\\"\\n\\\"Daily Emergency Room Visit (Sickness)\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$75\\\",\\\"1 Day\\\",\\\"$100\\\",\\\"1 Day\\\",\\\"$200\\\",\\\"1 Day\\\"\\n\\\"Daily Inpatient Surgery\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$250\\\",\\\"3 Days\\\",\\\"$250\\\",\\\"3 Days\\\",\\\"$350\\\",\\\"3 Days\\\",\\\"$400\\\",\\\"3 Days\\\",\\\"$500\\\",\\\"3 Days\\\",\\\"$500\\\",\\\"3 Days\\\"\\n\\\"Daily Inpatient Surgery Anesthesia\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$125\\\",\\\"3 Days\\\"\\n\\\"Daily Outpatient Surgery\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$250\\\",\\\"3 Days\\\",\\\"$250\\\",\\\"3 Days\\\",\\\"$350\\\",\\\"3 Days\\\",\\\"$400\\\",\\\"3 Days\\\",\\\"$500\\\",\\\"3 Days\\\",\\\"$500\\\",\\\"3 Days\\\"\\n\\\"Daily Outpatient Surgery Anesthesia\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\",\\\"$125\\\",\\\"3 Days\\\"\\n\\\"Daily Physician Office Visit\\\",\\\"$50\\\",\\\"6 Days\\\",\\\"$50\\\",\\\"6 Days\\\",\\\"$50\\\",\\\"10 Days\\\",\\\"$50\\\",\\\"10 Days\\\",\\\"$50\\\",\\\"10 Days\\\",\\\"$75\\\",\\\"10 Days\\\",\\\"$75\\\",\\\"10 Days\\\"\\n\\\"Daily Inpatient diagnostic radiology & x-ray\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"2 Days\\\",\\\"$50\\\",\\\"2 Days\\\",\\\"$75\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\"\\n\\\"Daily Outpatient diagnostic radiology & x-ray\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"2 Days\\\",\\\"$50\\\",\\\"2 Days\\\",\\\"$75\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\"\\n\\\"Daily Inpatient diagnostic laboratory tests\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"2 Days\\\",\\\"$50\\\",\\\"2 Days\\\",\\\"$75\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\"\\n\\\"Daily Outpatient diagnostic laboratory tests\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"1 Day\\\",\\\"$50\\\",\\\"2 Days\\\",\\\"$50\\\",\\\"2 Days\\\",\\\"$75\\\",\\\"3 Days\\\",\\\"$100\\\",\\\"3 Days\\\"\\n\\\"Group Accident Benefits\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\"\\n\\\"Accidental Death\\\",\\\"$10,000\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"\\\"\\n\\\"Hospital Admission Benefit\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$500\\\",\\\"1 Day\\\",\\\"$500\\\",\\\"2 Days\\\",\\\"$500\\\",\\\"2 Days\\\",\\\"$500\\\",\\\"3 Days\\\",\\\"$500\\\",\\\"3 Days\\\",\\\"$500\\\",\\\"3 Days\\\"\\n\\\"Emergency Room\\\",\\\"\\\",\\\"\\\",\\\"\\\",\\\"$250\\\",\\\"1 Day\\\",\\\"$250\\\",\\\"1 Day\\\",\\\"$250\\\",\\\"1 Day\\\",\\\"$250\\\",\\\"1 Day\\\",\\\"$250\\\",\\\"1 Day\\\",\\\"$250\\\",\\\"1 Day\\\"\"\n    },\n    {\n      \"page\": 11,\n      \"data\": \"\\\"Policy Termination Date\\\",\\\"Insured Person\\u2019s Termination Date\\\",\\\"Dependent\\u2019s Termination Date\\\"\\n\\\"Termination takes effect at 12:01 A.M. time at the address of the Policyholder on the date of termination. Termination by the Policyholder or by the Company will be without prejudice to any claims originating prior to the date of termination.\\\",\\\"Insurance for an Insured Person will end on the earliest of:\\\",\\\"A Dependent\\u2019s coverage under the Policy ends on the earliest of:\\\"\\n\\\"The Policy terminates automatically on the earlier of:\\\",\\\"1. The date He is no longer in an Eligible Class.\\\",\\\"1. The date the Policy terminates; or\\\"\\n\\\"1. The Policy Expiration Date shown in the Policy; or\\\",\\\"2. The date He reports for full-time active duty in any Armed Forces, according to the referenced date shown in the Application. We will refund, upon receipt of proof of service, any premium paid, calculated from the date active duty begins until the earlier of:\\\",\\\"2. The date the Insured Person\\u2019s coverage ends; or\\\"\\n\\\"2. The premium due date if premiums are not paid when due, subject to any Grace Period.\\\",\\\"(a) The date the premium is fully earned; or\\\",\\\"3. The date the Dependent is no longer a Dependent; or\\\"\\n\\\"Failure by the Policyholder to pay all required premiums due by the last day of the Grace Period shall be deemed notice by the Policyholder to the Company to terminate the Policy on the last day of the period for which premiums have been earned.\\\",\\\"(b) The Expiration Date of the Policy.\\\",\\\"4. The last day of the period for which premiums have been paid.\\\"\\n\\\"The Policy may be terminated by the Policyholder or the Company as of any premium due date or Policy Anniversary Date by giving written notice to the other at least 60 days prior to such date.\\\",\\\"This does not include Reserve or National Guard duty for training;\\\",\\\"\\\"\\n\\\"The Policyholder and the Company may terminate the Policy at any time by written mutual consent.\\\",\\\"3. The end of the period for which the last premium contribution is made; or\\\",\\\"\\\"\\n\\\"If premiums have been paid beyond the termination date, the Company will refund the excess; or if premiums have been paid short of the termination date, the Policyholder will owe the Company the difference.\\\",\\\"4. The date the Policy is terminated; or\\\",\\\"\\\"\\n\\\"\\\",\\\"5. The date the Insured Person requests, in writing, that his/her coverage be terminated.\\\",\\\"\\\"\"\n    }\n  ]\n}\n\n#### Plan Tier Analysis\n## Insurance Plan Tier Summary\n\nThis summary provides an overview of the insurance benefits across different plan tiers. Each plan offers distinct coverage levels, identified by specific benefit amounts and coverage durations. Below is a detailed breakdown of each tier's offerings:\n\n### Plan Tiers Overview\n\n1. **100 Plan**\n   - **Daily Hospital Confinement**: $100 per day\n   - **Daily Emergency Room Visit (Injury & Sickness)**: $50 per day, limited to 1 day\n   - **Daily Physician Office Visit**: $50 per visit, limited to 6 days\n   - **Accidental Death Benefit**: $10,000\n\n2. **200A Plan**\n   - **Daily Hospital Confinement**: $200 for 30 days\n   - **Daily Emergency Room Visit (Injury & Sickness)**: $50 per day, limited to 1 day\n   - **Daily Physician Office Visit**: $50 per visit, limited to 6 days\n\n3. **200+ Plan**\n   - **Daily Hospital Confinement**: $200 for 30 days\n   - **Daily Emergency Room Visit (Injury & Sickness)**: $50 per day, limited to 1 day\n   - **Daily Physician Office Visit**: $50 per visit, limited to 10 days\n   - **Hospital Admission Benefit**: $500 for 1 day\n\n4. **300 Plan**\n   - **Daily Hospital Confinement**: $300 for 30 days\n   - **Daily Emergency Room Visit (Injury & Sickness)**: $50 per day, limited to 1 day\n   - **Daily Physician Office Visit**: $50 per visit, limited to 10 days\n   - **Daily Inpatient Surgery**: $250 per day for 3 days\n   - **Daily Outpatient Surgery**: $250 per day for 3 days\n   - **Hospital Admission Benefit**: $500 for 2 days\n\n5. **500 Plan**\n   - **Daily Hospital Confinement**: $500 for 30 days\n   - **Daily Emergency Room Visit (Injury & Sickness)**: $50 per day, limited to 1 day\n   - **Daily Physician Office Visit**: $50 per visit, limited to 10 days\n   - **Daily Inpatient Surgery**: $350 per day for 3 days\n   - **Daily Outpatient Surgery**: $350 per day for 3 days\n   - **Hospital Admission Benefit**: $500 for 2 days\n\n6. **750 Plan**\n   - **Daily Hospital Confinement**: $750 for 30 days\n   - **Daily Emergency Room Visit (Injury & Sickness)**: $75 per day, limited to 1 day\n   - **Daily Physician Office Visit**: $75 per visit, limited to 10 days\n   - **Daily Inpatient Surgery**: $400 per day for 3 days\n   - **Daily Outpatient Surgery**: $400 per day for 3 days\n   - **Hospital Admission Benefit**: $500 for 3 days\n\n7. **1000 Plan**\n   - **Daily Hospital Confinement**: $1,000 for 30 days\n   - **Daily Emergency Room Visit (Injury & Sickness)**: $100 per day, limited to 1 day\n   - **Daily Physician Office Visit**: $75 per visit, limited to 10 days\n   - **Daily Inpatient Surgery**: $500 per day for 3 days\n   - **Daily Outpatient Surgery**: $500 per day for 3 days\n   - **Hospital Admission Benefit**: $500 for 3 days\n\n8. **1000+ Plan**\n   - **Daily Hospital Confinement**: $1,000 for 30 days\n   - **Daily Emergency Room Visit (Injury & Sickness)**: $200 per day, limited to 1 day\n   - **Daily Physician Office Visit**: $75 per visit, limited to 10 days\n   - **Daily Inpatient Surgery**: $500 per day for 3 days\n   - **Daily Outpatient Surgery**: $500 per day for 3 days\n   - **Hospital Admission Benefit**: $500 for 3 days\n\n### Key Differences Between Tiers\n- **Hospital Confinement**: Gradually increases from $100 to $1,000 across plans.\n- **Emergency Room Visits**: Benefits are consistent in amount but increase in the 750 and 1000+ plans.\n- **Physician Office Visits**: Limited to 6 days for lower tiers and 10 days for higher tiers.\n- **Surgery Benefits**: Begin at the 300 Plan with increasing amounts and days covered.\n- **Hospital Admission Benefit**: Starts from the 200+ Plan and increases in duration with higher tiers.\n\nThis summary captures the core differences in coverage and benefits among the various plan tiers, allowing for a clear comparison and selection based on individual needs.\n\n### Core Plan Elements\n\n#### Key Features and Benefits\nThe insurance plans offer a range of benefits that cover daily hospital confinements, emergency room visits, surgeries, and diagnostic tests. These benefits are structured to provide financial support to members during hospitalization or after accidents.\n\n#### Coverage Details\nEach plan tier includes specific coverage amounts for various medical needs, ensuring that members can select a plan that best suits their personal healthcare requirements. Coverage extends to both inpatient and outpatient services.\n\n#### Eligibility Requirements\nThe insurance plans are available exclusively to NCE members, ensuring that those who are part of this organization can access these specialized benefits. Eligibility is determined based on membership status and adherence to the policy terms.\n\n### Common Service Features\n\n#### Network Access\nMembers have access to a vast network of healthcare providers, allowing for convenient and comprehensive medical care across different locations.\n\n#### Claims Process\nThe claims process is designed to be user-friendly, ensuring that members can easily submit claims and receive reimbursements for covered services.\n\n#### Support Services\nMembers benefit from various support services, including customer service hotlines and online resources, to assist them in navigating their insurance benefits.\n\n### Limitations and Definitions\n\n#### Important Exclusions\nThe insurance policies outline specific exclusions, including certain medical conditions and procedures that are not covered. These are detailed to ensure members are aware of the limitations of their coverage.\n\n#### Key Terms Defined\nThe policy documents include definitions of key insurance terms, providing clarity on the scope and limitations of the benefits offered.\n\n### Key Takeaways\n\n#### Plan Highlights\nEach plan tier offers tailored benefits to meet the diverse needs of members, from basic coverage to more comprehensive plans.\n\n#### Value Propositions\nThe insurance plans are designed to provide financial protection and peace of mind, ensuring that members can focus on recovery without the stress of medical expenses.\n\n#### Next Steps\nMembers interested in enrolling or upgrading their insurance plans should contact their NCE representative for further assistance and guidance.",
+  "audio_config": {
+    "config_path": "decks/FEN_US/audio/audio_config.json",
+    "script_path": "decks/FEN_US/audio/audio_script.md",
+    "slide_count": 14
+  },
+  "error_context": null
+}

@@ -1,0 +1,12 @@
+{
+  "tables": [
+    {
+      "page": 2,
+      "path": "ai/tables/table_002.tsv"
+    },
+    {
+      "page": 11,
+      "path": "ai/tables/table_011.tsv"
+    }
+  ]
+}
