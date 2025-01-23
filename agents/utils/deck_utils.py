@@ -98,8 +98,8 @@ def load_tables_data(deck_dir: Path) -> dict:
         with open(summaries_path) as f:
             summaries = json.load(f)
             
-        # Get pages that have tables
-        pages_with_tables = [summary["page"] for summary in summaries if summary.get("tableDetails", {}).get("hasTable", False)]
+        # Get pages with tables
+        pages_with_tables = [summary["page"] for summary in summaries if summary.get("tableDetails", {}).get("hasBenefitsTable", False)]
         
         if not pages_with_tables:
             return {"tables": []}

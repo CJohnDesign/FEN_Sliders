@@ -1,41 +1,41 @@
 ---
-id: FEN_PremierInsurance
+id: FEN_TDK
 theme: ../../
 title: | 
-  Premier Insurance Plan
+  Transforming Data Through Knowledge
 info: |
-  ## Premier Insurance Plan Review
-  A comprehensive look at the Premier Insurance Plan benefits and details.
+  ## Transforming Data Through Knowledge Review
+  A comprehensive look at the Transforming Data Through Knowledge benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
-  logoHeader: img/logos/logo.svg
+  logoHeader: ./img/logos/FEN_logo.svg
   audioEnabled: true
 transition: fade-out
 drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_PremierInsurance" />
+<SlideAudio deckKey="FEN_TDK" />
 
-# Premier Insurance Plan Review
+# TDK Plan Overview
 
-Understanding the details and benefits of the **Premier Insurance Plan**
+Understanding the details and benefits of the **Transforming Data Through Knowledge** plan.
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Premier Insurance Overview
+## Plan Overview
 
 <v-clicks>
 
-- Offers comprehensive coverage through **Premier Insurance**
-- **Physician Services** for various situations
-- **Hospitalization Benefits** and support tools
-- **Virtual Visits** through telemedicine
-- **Prescription Discounts** support
+- Provided by **America's Choice Health Care**
+- **Accessibility** for individuals and families
+- **Administered** by Detego Health
+- **Emphasizes** personal impact
+- **Ensures** vital services within reach
 
 </v-clicks>
 
@@ -44,437 +44,397 @@ transition: fade-out
 layout: default
 ---
 
-## Key Features and Benefits
+## Core Plan Elements
 
 <v-clicks>
 
-**Primary Care Visits**
+**Key Features and Benefits**
 
-**Specialist Consultations**
+- Comprehensive coverage options
+- Physician services, hospitalization
+- Virtual visits, prescriptions
+- Wellness, advocacy
 
-**Urgent Care Access**
+**Coverage Details**
 
-**Hospitalization Coverage** (varies by plan)
+- Tier-specific benefits
+- Co-pays, visit allowances
+- Maximum coverage limits
+
+**Eligibility Requirements**
+
+- For individuals and families
+- Focus on affordability
+- Essential health services
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: default-row
+---
+
+::header::
+## Common Service Features
+
+::left::
+<v-clicks>
+
+**Network Access**
+
+- Utilizes **First Health Network**
+- Wide range of providers
+
+**Claims Process**
+
+- Streamlined through Detego Health
+- Efficient claims handling
+
+</v-clicks>
+
+::right::
+<v-clicks>
+
+**Support Services**
+
+- Wellness support
+- Personal health dashboard
+- Advocacy via NaviClaim
+
 </v-clicks>
 
 <v-click>
 
-**Telemedicine** through MyLiveDoc
+**Network Access** through First Health
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="MyLiveDoc Logo">
+  <img src="/img/logos/FirstHealth_logo.png" class="h-12 mix-blend-multiply" alt="First Health Logo">
 </div>
 
 </v-click>
 
 ---
 transition: fade-out
-layout: default
----
-
-## Cost Management Tools
-
-<v-click>
-
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-24 mix-blend-multiply" alt="Prescription Card Logo">
-</div>
-
-**Prescription Discount Card** (PDC)
-</v-click>
-
-<v-click>
-
-**Co-Pay** System
-</v-click>
-
-<v-click>
-
-**No Maximum** Consult Fee
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## How MyLiveDoc Works
-
-<v-clicks>
-
-1. Enroll through **Premier Insurance**
-2. Access virtual consultations
-3. Connect with physicians
-4. Receive **Telehealth** support
-5. Manage prescriptions online
-6. **Enhanced Care** experience
-
-</v-clicks>
-
----
-transition: fade-out
-layout: default
----
-
-## Preventive Care and Wellness
-
-<v-clicks>
-
-- **Wellness Exams** Services
-- **Health Programs** Initiatives
-- **Personal Health Dashboard** provides tracking
-
-</v-clicks>
-
----
-transition: fade-out
-layout: default
----
-
-## Telehealth Services
-
-<v-clicks>
-
-- **Virtual Consultations**
-- **Immediate Access**
-- **Remote Prescriptions** available
-- **Convenient Access** to care
-
-</v-clicks>
-
----
-transition: fade-out
-layout: default
----
-
-## Advocacy and Support Services
-
-<v-clicks>
-
-- **Personal Assistance** healthcare advocacy
-- **Claim Support** assistance
-- **Benefit Options** guidance
-- **Healthcare Navigation** support
-
-</v-clicks>
-
----
-transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+image: img/pages/page_2.png
 ---
 
-## Premier Plan Tier 1 (1/2)
+## TDK 1 Health Plan (1/2)
 
 <v-click>
 
 **Physician Services**
-- Primary Care: 3 visits/Yr, Co-Pay: $25
-- Specialist Care: 1 visit/Yr, Co-Pay: $50
-- Urgent Care: 1 visit/Yr, Co-Pay: $50
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+- Primary Care: $25 co-pay, $150 max/visit, 3 visits/year
+- Specialist Care: $50 co-pay, $300 max/visit, 1 visit/year
+- Urgent Care: $50 co-pay, $300 max/visit, 1 visit/year
+
 </v-click>
 
 <v-click>
 
 **Hospitalization**
-- In-Patient: $1,000/Day, Max: $5,000
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+- In-Patient: $1,000/day, $5,000 max/year, 12/12 waiting period
+
 </v-click>
 
 <v-click>
 
 **Virtual Visits**
-- MyLiveDoc: $0 Consult Fee
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+- MyLiveDoc: $0 consult fee, no maximum
+
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+image: img/pages/page_2.png
 ---
 
-## Premier Plan Tier 1 (2/2)
+## TDK 1 Health Plan (2/2)
 
 <v-click>
 
 **Prescriptions**
-- 70+ Free Prescriptions
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+- 70+ free prescriptions, discount card
+
 </v-click>
 
 <v-click>
 
 **Wellness**
 - Personal Health Dashboard
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+
+</v-click>
+
+<v-click>
+
+**Advocacy**
+- Navi Claim (Hospital Bill Reducer)
+
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_2.jpg
+image: img/pages/page_3.png
 ---
 
-## Premier Plan Tier 2 (1/2)
+## TDK 2 Health Plan (1/2)
 
 <v-click>
 
 **Physician Services**
-- Primary Care: 4 visits/Yr, Co-Pay: $25
-- Specialist Care: 2 visits/Yr, Co-Pay: $50
-- Urgent Care: 2 visits/Yr, Co-Pay: $50
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+- Primary Care: $25 co-pay, $150 max/visit, 4 visits/year
+- Specialist Care: $50 co-pay, $300 max/visit, 2 visits/year
+- Urgent Care: $50 co-pay, $300 max/visit, 2 visits/year
+
 </v-click>
 
 <v-click>
 
 **Hospitalization**
-- In-Patient: $1,000/Day, Max: $10,000
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+- In-Patient: $1,000/day, $10,000 max/year, 12/12 waiting period
+
 </v-click>
 
 <v-click>
 
 **Virtual Visits**
-- MyLiveDoc: $0 Consult Fee
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+- MyLiveDoc: $0 consult fee, no maximum
+
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_2.jpg
+image: img/pages/page_3.png
 ---
 
-## Premier Plan Tier 2 (2/2)
+## TDK 2 Health Plan (2/2)
 
 <v-click>
 
 **Prescriptions**
-- 1,000+ Free Prescriptions
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+- 1,000+ free prescriptions, discount card
+
 </v-click>
 
 <v-click>
 
 **Wellness**
 - Personal Health Dashboard
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+
+</v-click>
+
+<v-click>
+
+**Advocacy**
+- Navi Claim (Hospital Bill Reducer)
+
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_3.jpg
+image: img/pages/page_4.png
 ---
 
-## Premier Plan Tier 3 (1/2)
+## TDK 3 Health Plan (1/2)
 
 <v-click>
 
 **Physician Services**
-- Primary Care: 4 visits/Yr, Co-Pay: $25
-- Specialist Care: 4 visits/Yr, Co-Pay: $50
-- Urgent Care: 4 visits/Yr, Co-Pay: $50
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+- Primary Care: $25 co-pay, $150 max/visit, 4 visits/year
+- Specialist Care: $50 co-pay, $300 max/visit, 4 visits/year
+- Urgent Care: $50 co-pay, $300 max/visit, 4 visits/year
+
 </v-click>
 
 <v-click>
 
 **Hospitalization**
-- In-Patient: $1,000/Day, Max: $15,000
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+- In-Patient: $1,000/day, $15,000 max/year, 12/12 waiting period
+
 </v-click>
 
 <v-click>
 
 **Virtual Visits**
-- MyLiveDoc: $0 Consult Fee
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+- MyLiveDoc: $0 consult fee, no maximum
+
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_3.jpg
+image: img/pages/page_4.png
 ---
 
-## Premier Plan Tier 3 (2/2)
+## TDK 3 Health Plan (2/2)
 
 <v-click>
 
 **Prescriptions**
-- 1,000+ Free Prescriptions
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+- 1,000+ free prescriptions, discount card
+
 </v-click>
 
 <v-click>
 
 **Wellness**
 - Personal Health Dashboard
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+
+</v-click>
+
+<v-click>
+
+**Advocacy**
+- Navi Claim (Hospital Bill Reducer)
+
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_4.jpg
+image: img/pages/page_5.png
 ---
 
-## Premier Plan Tier 4 (1/2)
+## TDK 4 Health Plan (1/2)
 
 <v-click>
 
 **Physician Services**
-- Wellness Exam: 1 visit/Yr, Co-Pay: $0
-- Primary Care: 4 visits/Yr, Co-Pay: $50
-- Specialist Care: 4 visits/Yr, Co-Pay: $75
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+- Wellness Exam: $0 co-pay, $150 max/visit, 1 visit/year
+- Primary Care: $50 co-pay, $150 max/visit, 4 visits/year
+- Specialist Care: $75 co-pay, $300 max/visit, 4 visits/year
+- Urgent Care: $75 co-pay, $300 max/visit, 4 visits/year
+
 </v-click>
 
 <v-click>
 
-**Hospitalization**
-- In-Patient: $1,000/Day, Max: $10,000
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+**Hospitalization and Surgery**
+- In-Patient: $1,000/day, $10,000 max/year
+- Out-Patient Surgery: $1,000/day, $2,000 max/year
+
 </v-click>
 
 <v-click>
 
 **Emergency Services**
-- Emergency Room: $1,000/Incident
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+- Emergency Room: $1,000 per incident (admitted)
+- Ambulance Benefit: $500 per incident (admitted)
+
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_4.jpg
+image: img/pages/page_5.png
 ---
 
-## Premier Plan Tier 4 (2/2)
+## TDK 4 Health Plan (2/2)
 
 <v-click>
 
-**Urgent Care**
-- 4 visits/Yr, Co-Pay: $75
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+**Virtual Visits**
+- Virtual Care: $0 consult fee, no maximum
+
 </v-click>
 
 <v-click>
 
 **Prescriptions**
-- 1,000+ Free Prescriptions
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+- 1,000+ free prescriptions, discount card
+
+</v-click>
+
+<v-click>
+
+**Wellness**
+- Tracks medical records, fitness, sleep, hydration
+- Discount lab and DNA testing access
+- Additional benefits
+
+</v-click>
+
+<v-click>
+
+**Advocacy**
+- Hospital Bill Reducer
+
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_5.jpg
+image: img/pages/page_6.png
 ---
 
-## Premier Plan Tier 5 (1/2)
+## TDK 5 Health Plan (1/2)
 
 <v-click>
 
 **Physician Services**
-- Wellness Exam: 1 visit/Yr, Co-Pay: $0
-- Primary Care: 5 visits/Yr, Co-Pay: $50
-- Specialist Care: 5 visits/Yr, Co-Pay: $75
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+- Wellness Exam: $0 co-pay, $150 max/visit, 1 visit/year
+- Primary Care: $50 co-pay, $150 max/visit, 5 visits/year
+- Specialist Care: $75 co-pay, $300 max/visit, 5 visits/year
+- Urgent Care: $75 co-pay, $300 max/visit, 5 visits/year
+
 </v-click>
 
 <v-click>
 
-**Hospitalization**
-- In-Patient: $1,500/Day, Max: $15,000
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+**Hospitalization and Surgery**
+- In-Patient: $1,500/day, $15,000 max/year
+- In/Out-Patient Surgery: $1,500/day, $4,500 max/year
+
 </v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/page_6.png
+---
+
+## TDK 5 Health Plan (2/2)
 
 <v-click>
 
 **Emergency Services**
-- Emergency Room: $1,000/Incident
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
+- Emergency Room: $1,000 per incident
+- Ambulance Benefit: $500 per incident
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_5.jpg
----
-
-## Premier Plan Tier 5 (2/2)
-
-<v-click>
-
-**Urgent Care**
-- 5 visits/Yr, Co-Pay: $75
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Prescriptions**
-- 1,000+ Free Prescriptions
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## Comparing the Plans
-
-| **Feature** | **Tier 1** | **Tier 2** | **Tier 3** | **Tier 4** | **Tier 5** |
-|---------|----------|----------|-----------|----------|-----------|
-| Primary Care Visits | 3/Yr | 4/Yr | 4/Yr | 4/Yr | 5/Yr |
-| Specialist Visits | 1/Yr | 2/Yr | 4/Yr | 4/Yr | 5/Yr |
-| Urgent Care Visits | 1/Yr | 2/Yr | 4/Yr | 4/Yr | 5/Yr |
-| Hospitalization Max | $5,000 | $10,000 | $15,000 | $10,000 | $15,000 |
-| Prescriptions | 70+ | 1,000+ | 1,000+ | 1,000+ | 1,000+ |
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_final.jpg
----
-
-## Definitions and Limitations
-
-<v-click>
-
-**Physician Services**
-- Limited to specified visits
-- Co-Pay required per visit
-- Maximum coverage applies
-<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Hospitalization**
-- Pre-existing conditions apply
-- Yearly maximum limits
-<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Virtual Visits**
-- No consult fee
-<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
+- MyLiveDoc: $0 consult fee, no maximum
+
 </v-click>
 
 <v-click>
 
 **Prescriptions**
-- Limited free prescriptions
-- Discount card available
-<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
+- 1,000+ free prescriptions, discount card
+
+</v-click>
+
+<v-click>
+
+**Wellness**
+- Personal Health Dashboard
+- Tracks medical records, fitness, sleep, hydration
+- Discount lab and DNA testing access
+- Additional benefits
+
+</v-click>
+
+<v-click>
+
+**Advocacy**
+- Navi Claim (Hospital Bill Reducer)
+
 </v-click>
 
 ---
@@ -482,14 +442,80 @@ transition: fade-out
 layout: default
 ---
 
-## Key Takeaways and Reminders
+## Comparison of the Plans (1/2)
+
+| **Feature**                      | **TDK 1**          | **TDK 2**          | **TDK 3**          |
+|----------------------------------|--------------------|--------------------|--------------------|
+| Primary Care Visits (Year)       | 3                  | 4                  | 4                  |
+| Specialist Visits (Year)         | 1                  | 2                  | 4                  |
+| Urgent Care Visits (Year)        | 1                  | 2                  | 4                  |
+| Hospitalization (Max/Year)       | $5,000             | $10,000            | $15,000            |
+| Free Prescriptions               | 70+                | 1,000+             | 1,000+             |
+
+---
+transition: fade-out
+layout: default
+---
+
+## Comparison of the Plans (2/2)
+
+| **Feature**                      | **TDK 4**          | **TDK 5**          |
+|----------------------------------|--------------------|--------------------|
+| Primary Care Visits (Year)       | 4                  | 5                  |
+| Specialist Visits (Year)         | 4                  | 5                  |
+| Urgent Care Visits (Year)        | 4                  | 5                  |
+| Hospitalization (Max/Year)       | $10,000            | $15,000            |
+| Surgery Benefits (Max/Year)      | $2,000             | $4,500             |
+| Emergency Room Benefit           | $1,000 (admitted)  | $1,000             |
+| Free Prescriptions               | 1,000+             | 1,000+             |
+
+---
+transition: fade-out
+layout: one-half-img-many
+images: 
+  - 'img/pages/page_13.png'
+  - 'img/pages/page_14.png'
+  - 'img/pages/page_15.png'
+  - 'img/pages/page_16.png'
+  - 'img/pages/page_17.png'
+  - 'img/pages/page_18.png'
+  - 'img/pages/page_19.png'
+  - 'img/pages/page_20.png'
+  - 'img/pages/page_21.png'
+---
+
+## Limitations and Definitions
+
+<v-click>
+
+**Important Exclusions**
+- No pre-existing conditions 12 months
+- Excludes certain elective procedures
+- Services not physician-directed
+
+</v-click>
+
+<v-click>
+
+**Key Terms Defined**
+- **Pre-existing Condition**: Condition prior to coverage
+- **Co-Pay**: Fixed amount before insurer pays
+- **Maximum/Visit**: Highest plan payout per visit
+
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Key Takeaways
 
 <v-clicks>
 
-- **Comprehensive Coverage** benefits
-- **Virtual Care** included
-- **Specialist Access** benefits
-- **Enrollment** required
+- **Plan Highlights**: Flexible options, varying coverage levels
+- **Value Propositions**: Affordable access, extensive prescriptions
+- **Next Steps**: Evaluate needs/budget, select plan tier
 
 </v-clicks>
 
@@ -503,4 +529,4 @@ line: Thank you for participating in the Premier Insurance Offer Review. Continu
 
 Continue to be great!
 
-<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="Premier Insurance Logo">
+<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

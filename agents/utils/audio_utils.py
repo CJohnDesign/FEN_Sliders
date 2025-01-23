@@ -4,6 +4,9 @@ from typing import List, Dict, Any
 import json
 from openai import AsyncOpenAI
 from langsmith.run_helpers import traceable
+import logging
+
+logger = logging.getLogger(__name__)
 
 def load_template_examples(template: str) -> Dict[str, Any]:
     """Load template files to use as examples"""
@@ -31,11 +34,19 @@ def load_template_examples(template: str) -> Dict[str, Any]:
             
     return examples
 
-async def generate_audio_script(slides: List[Dict[str, Any]], template_examples: Dict[str, Any], processed_summaries: str) -> str:
+async def generate_audio_script(
+    slides: List[Dict[str, Any]], 
+    template_examples: Dict[str, Any], 
+    processed_summaries: str,
+    deck_name: str
+) -> str:
     """Generate audio script from processed summaries using GPT-4o"""
     # Get the generated slides content
     base_dir = Path(__file__).parent.parent.parent
-    slides_path = base_dir / "decks" / "FEN_US" / "slides.md"
+    slides_path = base_dir / "decks" / deck_name / "slides.md"
+    
+    logger.info(f"Accessing slides at path: {slides_path}")
+    
     with open(slides_path) as f:
         generated_slides = f.read()
     
@@ -151,7 +162,7 @@ async def setup_audio(deck_id: str, template: str, slides: List[Dict[str, Any]],
         template_examples = load_template_examples(template)
         
         # Generate audio script using processed summaries
-        script = await generate_audio_script(slides, template_examples, processed_summaries)
+        script = await generate_audio_script(slides, template_examples, processed_summaries, deck_id)
         
         # Write audio script
         script_path = deck_path / "audio" / "audio_script.md"

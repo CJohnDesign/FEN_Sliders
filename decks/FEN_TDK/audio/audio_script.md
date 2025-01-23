@@ -1,107 +1,115 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Premier Insurance Offer. We'll walk through the plan's comprehensive coverage and key benefits. Let's get started!
+Hello, everyone! Thank you for joining today's session on the TDK, the Transforming Data Through Knowledge plan. We'll walk through this plan's unique features and benefits, designed to provide accessible healthcare solutions. Let's dive right in!
 
----- Premier Insurance Overview ----
+---- Plan Overview ----
 
-The Premier Insurance Offer provides extensive coverage through NCE, including Group Hospital benefits for various situations, Group Accident support, financial assistance, and peace of mind support.
+The Transforming Data Through Knowledge plan is brought to you by America's Choice Health Care, with administration by Detego Health. This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional comprehensive medical plans can still access vital healthcare services. It's designed to have a personal impact, making sure necessary care is within reach.
 
----- Key Features and Benefits ----
+Moving forward, let's explore the core elements of the plan.
 
-The plan includes daily hospital coverage, accident insurance, financial support, and peace of mind, which varies by plan. Additional support is available through United States Fire Insurance.
+---- Core Plan Elements ----
 
----- Cost Management Tools ----
+This plan offers comprehensive coverage options tailored to a variety of healthcare needs. These include physician services, hospitalization, virtual visits, prescriptions, wellness, and advocacy services. Each plan tier has specific co-pays, visit allowances, and maximum coverage limits, ensuring flexibility. Eligibility is focused on individuals and families who value affordability and essential health services.
 
-The plan offers a Cost Management System, which includes expense tracking and claims support access.
+Now, let's look into the common service features.
 
----- How Cost Management Works ----
+---- Common Service Features ----
 
-You begin with enrollment through NCE and can easily submit claims. Expenses can be tracked online, you'll receive an Explanation of Benefits, manage out-of-pocket costs, and benefit from simplified reimbursement.
+With the First Health Network, you'll have access to a wide range of healthcare providers and facilities. Claims are processed efficiently through Detego Health, ensuring smooth handling and reimbursements. Additionally, support services are robust, offering wellness support via a personal health dashboard and advocacy for hospital bill reduction through NaviClaim.
 
----- Preventive Care and Wellness ----
+Let's transition to the specifics of each plan tier, starting with the TDK 1 Health Plan.
 
-This plan covers routine check-ups, offers wellness program benefits, and includes comprehensive care through a health network.
+---- TDK 1 Health Plan (One of Two) ----
 
----- Telehealth Services ----
+The TDK 1 Health Plan focuses on essential physician services, including primary care visits with a twenty-five dollar co-pay, up to one hundred fifty dollars per visit, and a maximum of three visits per year. Specialist and urgent care visits are also covered, with a fifty dollar co-pay and three hundred dollars maximum per visit, allowing for one visit each per year.
 
-Enjoy virtual consultations, twenty-four seven access, remote monitoring, and convenient access to care.
+For hospitalization, there's a one thousand dollar per day benefit, with a five thousand dollar maximum annually, and a twelve-month pre-existing condition waiting period. MyLiveDoc telemedicine services are offered with zero consult fees and no maximum, ensuring virtual visits are always accessible.
 
----- Advocacy and Support Services ----
+Let's continue with the rest of the TDK 1 Health Plan features.
 
-The plan provides personalized healthcare advocacy, guidance assistance, various care options, and comprehensive support.
+---- TDK 1 Health Plan (Two of Two) ----
 
----- 100 Plan (One of Two) ----
+The prescription benefit includes over seventy free prescriptions with a convenient discount card. Wellness is supported through a personal health dashboard, allowing you to track and manage your health effectively. Advocacy services are available via NaviClaim, which helps reduce hospital bills.
 
-Under the 100 Plan, daily hospital confinement offers coverage of one hundred dollars per day, limited to thirty days. Physician office visits are covered at fifty dollars per visit, with a limit of six days. Emergency room visits are covered at fifty dollars per day, limited to one day.
+Next, we explore the TDK 2 Health Plan.
 
----- 100 Plan (Two of Two) ----
+---- TDK 2 Health Plan (One of Two) ----
 
-The plan includes an accidental death benefit amounting to ten thousand dollars.
+TDK 2 enhances access with four primary care visits annually, at the same co-pay and maximum as TDK 1. Specialist visits double to two per year, and urgent care visits also increase to two annually. Hospitalization benefits rise to a ten thousand dollar maximum each year, maintaining the same daily rate and waiting period.
 
----- 200A Plan (One of Two) ----
+Telemedicine remains a key feature with MyLiveDoc, at no cost per consult and no limit on usage.
 
-The Daily Hospital Confinement coverage increases to two hundred dollars per day, with a limit of thirty days. Physician office visits remain at fifty dollars per visit, limited to six days, and emergency room visits are also covered at fifty dollars per day, limited to one day.
+Let's go over additional TDK 2 details.
 
----- 200A Plan (Two of Two) ----
+---- TDK 2 Health Plan (Two of Two) ----
 
-There are no additional benefits for the 200A Plan in this section.
+This plan significantly boosts the prescription benefit to over one thousand free prescriptions with a discount card. The personal health dashboard is included, along with advocacy through NaviClaim to assist with hospital bill reductions.
 
----- 200+ Plan (One of Two) ----
+We'll now move on to the TDK 3 Health Plan.
 
-The 200+ Plan provides daily hospital confinement coverage of two hundred dollars per day, for up to thirty days. Physician office visits are covered at fifty dollars per visit, limited to ten days. Emergency room visits are fifty dollars per day, limited to one day.
+---- TDK 3 Health Plan (One of Two) ----
 
----- 200+ Plan (Two of Two) ----
+TDK 3 offers four visits each for primary, specialist, and urgent care services, providing more flexibility. The hospitalization benefit increases further to a fifteen thousand dollar yearly maximum, maintaining the same day rate and pre-existing condition waiting period.
 
-It includes a hospital admission benefit of five hundred dollars, limited to one day.
+Virtual visits continue to be a highlight with MyLiveDoc, at zero cost per consult.
 
----- 300 Plan (One of Two) ----
+Let's complete the features for TDK 3.
 
-This plan offers three hundred dollars per day for hospital confinement, limited to thirty days. Physician office visits are fifty dollars per visit, limited to ten days, and emergency room visits are covered at fifty dollars per day, limited to one day.
+---- TDK 3 Health Plan (Two of Two) ----
 
----- 300 Plan (Two of Two) ----
+Enjoy the extensive prescription benefit with over one thousand free options and a discount card. Wellness management through a personal health dashboard and advocacy services for hospital bill reduction remain integral parts of this plan.
 
-Inpatient surgery benefits are two hundred fifty dollars per day, limited to three days. Outpatient surgery benefits are also two hundred fifty dollars per day, limited to three days.
+Next, let's discuss the TDK 4 Health Plan.
 
----- 500 Plan (One of Two) ----
+---- TDK 4 Health Plan (One of Two) ----
 
-Coverage includes five hundred dollars per day for hospital confinement, up to thirty days. Physician office visits are fifty dollars per visit, limited to ten days, and emergency room visits are fifty dollars per day, limited to one day.
+TDK 4 includes a wellness exam with no co-pay and one hundred fifty dollars maximum per visit, available once a year. It also offers four visits each for primary care, specialist, and urgent care services. Hospitalization is covered at one thousand dollars per day with a ten thousand dollar maximum annually, while out-patient surgery benefits up to two thousand dollars per year.
 
----- 500 Plan (Two of Two) ----
+Emergency services like the emergency room and ambulance benefits are included if admitted, each with specific coverage.
 
-The inpatient surgery benefit is three hundred fifty dollars per day, limited to three days, and the outpatient surgery benefit is also three hundred fifty dollars per day, limited to three days.
+Let's review the remaining features for TDK 4.
 
----- 750 Plan (One of Two) ----
+---- TDK 4 Health Plan (Two of Two) ----
 
-Hospital confinement is covered at seven hundred fifty dollars per day, limited to thirty days. Physician office visits are seventy-five dollars per visit, limited to ten days, and emergency room visits are seventy-five dollars per day, limited to one day.
+Virtual care is offered with no consult fee and limitless access. Prescriptions include over one thousand free options, supplemented with a discount card. The wellness program tracks medical records, fitness, sleep, and hydration, alongside access to discounted lab and DNA testing.
 
----- 750 Plan (Two of Two) ----
+Advocacy is also present through the Hospital Bill Reducer service.
 
-Inpatient surgery benefits are four hundred dollars per day, limited to three days. Outpatient surgery benefits are four hundred dollars per day, also limited to three days.
+Now, let's explore the TDK 5 Health Plan.
 
----- 1000 Plan (One of Two) ----
+---- TDK 5 Health Plan (One of Two) ----
 
-This provides one thousand dollars per day for hospital confinement, limited to thirty days. Physician office visits are seventy-five dollars per visit, limited to ten days, and emergency room visits are one hundred dollars per day, limited to one day.
+TDK 5 expands further with five annual visits each for primary care, specialist, and urgent care. Hospitalization benefits rise to one thousand five hundred dollars per day, with a fifteen thousand dollar yearly maximum, and surgery benefits up to four thousand five hundred dollars annually.
 
----- 1000 Plan (Two of Two) ----
+Let's go over the concluding features for TDK 5.
 
-Inpatient surgery benefits amount to five hundred dollars per day, limited to three days. Outpatient surgery benefits are also five hundred dollars per day, limited to three days.
+---- TDK 5 Health Plan (Two of Two) ----
 
----- 1000+ Plan (One of Two) ----
+Emergency services cover one thousand dollars per incident for the emergency room and five hundred dollars for ambulance services. Virtual visits through MyLiveDoc are unlimited and free of charge. Prescriptions remain extensive with over one thousand free options and a discount card.
 
-The plan covers one thousand dollars per day for hospital confinement, with a limit of thirty days. Physician office visits are seventy-five dollars per visit, limited to ten days. Emergency room visits provide coverage of two hundred dollars per day, limited to one day.
+The wellness component includes a personal health dashboard and tracks various health metrics, complemented by discount lab and DNA testing access. Advocacy services continue with NaviClaim.
 
----- 1000+ Plan (Two of Two) ----
+Let's compare these plans to help you make informed choices.
 
-Inpatient surgery benefits offer five hundred dollars per day, limited to three days. Outpatient surgery benefits match this at five hundred dollars per day, limited to three days.
+---- Comparing the 3 MyChoice Plans ----
 
----- Comparing the Plans ----
+When comparing the plans, consider the number of visits allowed for primary, specialist, and urgent care services, which increase from TDK 1 to TDK 5. Hospitalization and prescription benefits also expand significantly across the plans, offering more extensive coverage as you move up the tiers.
 
-Let's compare the plans: The 100 Plan offers one hundred dollars per day for hospital confinement, while the 200A and 200+ Plans both provide two hundred dollars per day. The 300 Plan increases this to three hundred, the 500 Plan to five hundred, the 750 Plan to seven hundred fifty, and finally, the 1000 and 1000+ Plans both offer one thousand dollars per day. Emergency room coverage starts at fifty dollars per day in most plans, with the 750 Plan increasing to seventy-five dollars, and the 1000+ Plan offering the highest at two hundred dollars per day. Physician visits are fifty dollars per visit in all plans except for the 750, 1000, and 1000+ Plans, which offer seventy-five dollars per visit. Inpatient and outpatient surgery benefits begin in the 300 Plan at two hundred fifty dollars per day, increasing to five hundred dollars per day in the 1000 and 1000+ Plans.
+Let's clarify some important definitions and limitations.
 
 ---- Definitions and Limitations ----
 
-Coverage conditions include specific exclusions, and not all conditions are covered. For detailed information, please refer to the policy.
+There are important exclusions, such as no coverage for pre-existing conditions within the first twelve months, and certain elective procedures are not covered. Services not directed by a physician are also excluded.
+
+Key terms include "pre-existing condition," referring to any condition existing before coverage begins, and "co-pay," which is a fixed amount you pay for services before your insurer covers the rest. "Maximum/visit" indicates the highest amount the plan will pay per visit.
+
+Finally, let's wrap up with key takeaways.
+
+---- Key Takeaways and Reminders ----
+
+The Transforming Data Through Knowledge plan offers flexible healthcare options with varying coverage levels. It ensures affordable access to healthcare and prescriptions, supported by the extensive First Health Network. Consider your healthcare needs and budget to select the most appropriate plan tier, and reach out for further assistance and enrollment.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the Premier Insurance Offer. Remember to review your options carefully to find the best fit for your needs. Continue to be great!
+Thank you for taking the time to learn about the Transforming Data Through Knowledge plan. Remember, healthcare is about making informed choices that best suit your needs. Continue to be great!

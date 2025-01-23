@@ -36,7 +36,7 @@ async def process_slides(state: BuilderState) -> BuilderState:
         pages_with_tables = [
             f"/img/pages/page_{s['page']}.png"
             for s in summaries
-            if s.get("tableDetails", {}).get("hasTable", False)
+            if s.get("tableDetails", {}).get("hasBenefitsTable", False)
         ]
         pages_with_limitations = [
             f"/img/pages/page_{s['page']}.png"

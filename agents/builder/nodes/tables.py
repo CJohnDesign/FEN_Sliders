@@ -61,8 +61,8 @@ async def extract_tables(state: Dict) -> Dict:
             summaries = json.load(f)
         
         logger.info(f"Loaded {len(summaries)} summaries")
-        pages_with_tables = [s for s in summaries if s.get("tableDetails", {}).get("hasTable", False)]
-        logger.info(f"Found {len(pages_with_tables)} pages marked with hasTable=true")
+        pages_with_tables = [s for s in summaries if s.get("tableDetails", {}).get("hasBenefitsTable", False)]
+        logger.info(f"Found {len(pages_with_tables)} pages marked with hasBenefitsTable=true")
 
         chat = ChatOpenAI(
             model="gpt-4o",
@@ -139,10 +139,15 @@ Be very careful to not include any other text in the output and ensure it is a t
 
         # Even if some tables fail, continue with the process
         logger.info(f"Table extraction complete. Successfully processed {len(manifest['tables'])} tables")
+        logger.info(f"Final state keys: {list(state.keys())}")
+        logger.info(f"Tables data: {json.dumps(tables_data, indent=2)}")
+        logger.info(f"State error context: {state.get('error_context')}")
         return state
         
     except Exception as e:
         logger.error(f"Failed to extract tables: {str(e)}")
+        logger.error("Full error context:", exc_info=True)
+        logger.error(f"State contents: {list(state.keys())}")
         # Don't stop the process on table extraction failure
         logger.info("Continuing despite table extraction failure")
         return state 

@@ -1,6 +1,7 @@
 from typing import TypedDict, Annotated, Optional, Dict, Literal, Any, List
 from langgraph.graph.message import add_messages
 from pydantic import BaseModel
+from dataclasses import dataclass
 
 class PageSummary(TypedDict):
     """Structure for individual page summaries."""
@@ -41,3 +42,9 @@ class BuilderState(TypedDict):
     
     # Error handling
     error_context: Optional[dict]  # Error information if any step fails 
+
+@dataclass
+class TableDetails:
+    """Table details for a page."""
+    hasBenefitsTable: bool
+    hasLimitations: bool 

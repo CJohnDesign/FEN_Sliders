@@ -1,140 +1,234 @@
-# Insurance Plan Tier Summary
+# FEN_TDK Plan Tier Summary
 
-Below is a comprehensive summary of the insurance plan tiers, extracted and analyzed from the provided benefit tables. This summary highlights exact benefit amounts, coverage percentages, key limitations, and the differences between each tier.
+## Tier 1 (Page 2)
 
-## Plan Tiers Overview
+### Physician Services
+- **Primary Care Office Visit**: 
+  - Co-Pay: $25
+  - Maximum/Visit: $150
+  - Visits/Yr: 3
+- **Specialist Care Office Visit**:
+  - Co-Pay: $50
+  - Maximum/Visit: $300
+  - Visits/Yr: 1
+- **Urgent Care Office Visit**:
+  - Co-Pay: $50
+  - Maximum/Visit: $300
+  - Visits/Yr: 1
 
-### Plan Tier 1
-- **Physician Services**
-  - **Primary Care Office Visit:** 
-    - Coverage: 3 visits per year
-    - Co-Pay: $25
-    - Maximum per Visit: $150
-  - **Specialist Care Office Visit:** 
-    - Coverage: 1 visit per year
-    - Co-Pay: $50
-    - Maximum per Visit: $300
-  - **Urgent Care Office Visit:** 
-    - Coverage: 1 visit per year
-    - Co-Pay: $50
-    - Maximum per Visit: $300
-- **Hospitalization**
-  - In-Patient: $1,000 per day, Year Maximum: $5,000
-  - Pre-Existing Condition Limitation: 12/12 month
-- **Virtual Visits**
-  - MyLiveDoc Telemedicine: $0 Consult Fee, No Maximum
-- **Prescriptions**
-  - 70+ Free Prescriptions with a Discount Prescription Card
+### Hospitalization
+- **In-Patient Hospitalization Benefit**:
+  - Per Day: $1,000
+  - Year Maximum: $5,000
+  - Pre-Existing Condition Waiting Period: 12/12 months
 
-### Plan Tier 2
-- **Physician Services**
-  - **Primary Care Office Visit:** 
-    - Coverage: 4 visits per year
-    - Co-Pay: $25
-    - Maximum per Visit: $150
-  - **Specialist Care Office Visit:** 
-    - Coverage: 2 visits per year
-    - Co-Pay: $50
-    - Maximum per Visit: $300
-  - **Urgent Care Office Visit:** 
-    - Coverage: 2 visits per year
-    - Co-Pay: $50
-    - Maximum per Visit: $300
-- **Hospitalization**
-  - In-Patient: $1,000 per day, Year Maximum: $10,000
-  - Pre-Existing Condition Limitation: 12/12 month
-- **Virtual Visits**
-  - MyLiveDoc Telemedicine: $0 Consult Fee, No Maximum
-- **Prescriptions**
-  - 1,000+ Free Prescriptions with a Discount Prescription Card
+### Virtual Visits
+- **MyLiveDoc Telemedicine**:
+  - Consult Fee: $0
+  - Maximum: No Maximum
 
-### Plan Tier 3
-- **Physician Services**
-  - **Primary Care Office Visit:** 
-    - Coverage: 4 visits per year
-    - Co-Pay: $25
-    - Maximum per Visit: $150
-  - **Specialist Care Office Visit:** 
-    - Coverage: 4 visits per year
-    - Co-Pay: $50
-    - Maximum per Visit: $300
-  - **Urgent Care Office Visit:** 
-    - Coverage: 4 visits per year
-    - Co-Pay: $50
-    - Maximum per Visit: $300
-- **Hospitalization**
-  - In-Patient: $1,000 per day, Year Maximum: $15,000
-  - Pre-Existing Condition Limitation: 12/12 month
-- **Virtual Visits**
-  - MyLiveDoc Telemedicine: $0 Consult Fee, No Maximum
-- **Prescriptions**
-  - 1,000+ Free Prescriptions with a Discount Prescription Card
+### Prescriptions
+- 70+ Free Prescriptions
+- Discount with Prescription Card
 
-### Plan Tier 4
-- **Physician Services**
-  - **Wellness Exam:** 
-    - Coverage: 1 visit per year
-    - Co-Pay: $0
-    - Maximum per Visit: $150
-  - **Primary Care Office Visit:** 
-    - Coverage: 4 visits per year
-    - Co-Pay: $50
-    - Maximum per Visit: $150
-  - **Specialist Care Office Visit:** 
-    - Coverage: 4 visits per year
-    - Co-Pay: $75
-    - Maximum per Visit: $300
-  - **Urgent Care Office Visit:** 
-    - Coverage: 4 visits per year
-    - Co-Pay: $75
-    - Maximum per Visit: $300
-- **Hospitalization**
-  - In-Patient: $1,000 per day, Year Maximum: $10,000
-  - Out-Patient Surgery: $1,000 per day, Year Maximum: $2,000
-  - Pre-Existing Condition Limitation: 12/12 month
-- **Emergency Services**
-  - Emergency Room: $1,000 per incident (if admitted)
-  - Ambulance Benefit: $500 per incident (if admitted)
-- **Virtual Visits**
-  - MyLiveDoc Telemedicine: $0 Consult Fee, No Maximum
-- **Prescriptions**
-  - 1,000+ Free Prescriptions with a Discount Prescription Card
+### Wellness
+- Personal Health Dashboard
 
-### Plan Tier 5
-- **Physician Services**
-  - **Wellness Exam:** 
-    - Coverage: 1 visit per year
-    - Co-Pay: $0
-    - Maximum per Visit: $150
-  - **Primary Care Office Visit:** 
-    - Coverage: 5 visits per year
-    - Co-Pay: $50
-    - Maximum per Visit: $150
-  - **Specialist Care Office Visit:** 
-    - Coverage: 5 visits per year
-    - Co-Pay: $75
-    - Maximum per Visit: $300
-  - **Urgent Care Office Visit:** 
-    - Coverage: 5 visits per year
-    - Co-Pay: $75
-    - Maximum per Visit: $300
-- **Hospitalization and Surgery**
-  - In-Patient: $1,500 per day, Year Maximum: $15,000
-  - In/Out-Patient Surgery: $1,500 per day, Year Maximum: $4,500
-  - Pre-Existing Condition Limitation: 12/12 month
-- **Emergency Services**
-  - Emergency Room: $1,000 per incident (if admitted)
-  - Ambulance Benefit: $500 per incident (if admitted)
-- **Virtual Visits**
-  - MyLiveDoc Telemedicine: $0 Consult Fee, No Maximum
-- **Prescriptions**
-  - 1,000+ Free Prescriptions with a Discount Prescription Card
+### Advocacy
+- Navi Claim (Hospital Bill Reducer)
 
-## Key Differences Between Tiers
-- **Number of Visits:** Higher tiers allow more visits per year for primary, specialist, and urgent care services.
-- **Hospitalization Coverage:** Higher tiers provide increased year maximums for in-patient hospitalization.
-- **Surgery Coverage:** Only available in Tier 4 and Tier 5, with higher coverage in Tier 5.
-- **Emergency Services:** Available from Tier 4, with consistent benefits in Tier 5.
-- **Prescriptions:** Tiers 2, 3, 4, and 5 offer more free prescriptions compared to Tier 1.
+---
 
-This summary provides a clear comparison of the plan tiers, ensuring informed decision-making based on coverage needs and financial considerations.
+## Tier 2 (Page 3)
+
+### Physician Services
+- **Primary Care Office Visit**:
+  - Co-Pay: $25
+  - Maximum/Visit: $150
+  - Visits/Yr: 4
+- **Specialist Care Office Visit**:
+  - Co-Pay: $50
+  - Maximum/Visit: $300
+  - Visits/Yr: 2
+- **Urgent Care Office Visit**:
+  - Co-Pay: $50
+  - Maximum/Visit: $300
+  - Visits/Yr: 2
+
+### Hospitalization
+- **In-Patient Hospitalization Benefit**:
+  - Per Day: $1,000
+  - Year Maximum: $10,000
+  - Pre-Existing Condition Waiting Period: 12/12 months
+
+### Virtual Visits
+- **MyLiveDoc Telemedicine**:
+  - Consult Fee: $0
+  - Maximum: No Maximum
+
+### Prescriptions
+- 1,000+ Free Prescriptions
+- Discount with Prescription Card
+
+### Wellness
+- Personal Health Dashboard
+
+### Advocacy
+- Navi Claim (Hospital Bill Reducer)
+
+---
+
+## Tier 3 (Page 4)
+
+### Physician Services
+- **Primary Care Office Visit**:
+  - Co-Pay: $25
+  - Maximum/Visit: $150
+  - Visits/Yr: 4
+- **Specialist Care Office Visit**:
+  - Co-Pay: $50
+  - Maximum/Visit: $300
+  - Visits/Yr: 4
+- **Urgent Care Office Visit**:
+  - Co-Pay: $50
+  - Maximum/Visit: $300
+  - Visits/Yr: 4
+
+### Hospitalization
+- **In-Patient Hospitalization Benefit**:
+  - Per Day: $1,000
+  - Year Maximum: $15,000
+  - Pre-Existing Condition Waiting Period: 12/12 months
+
+### Virtual Visits
+- **MyLiveDoc Telemedicine**:
+  - Consult Fee: $0
+  - Maximum: No Maximum
+
+### Prescriptions
+- 1,000+ Free Prescriptions
+- Discount with Prescription Card
+
+### Wellness
+- Personal Health Dashboard
+
+### Advocacy
+- Navi Claim (Hospital Bill Reducer)
+
+---
+
+## Tier 4 (Page 5)
+
+### Physician Services
+- **Wellness Exam**:
+  - Co-Pay: $0
+  - Maximum/Visit: $150
+  - Visits/Yr: 1
+- **Primary Care Office Visit**:
+  - Co-Pay: $50
+  - Maximum/Visit: $150
+  - Visits/Yr: 4
+- **Specialist Care Office Visit**:
+  - Co-Pay: $75
+  - Maximum/Visit: $300
+  - Visits/Yr: 4
+- **Urgent Care Office Visit**:
+  - Co-Pay: $75
+  - Maximum/Visit: $300
+  - Visits/Yr: 4
+
+### Hospitalization
+- **In-Patient Hospitalization Benefit**:
+  - Per Day: $1,000
+  - Year Maximum: $10,000
+  - Pre-Existing Condition Waiting Period: 12/12 months
+- **Out-Patient Surgery**:
+  - Per Day: $1,000
+  - Year Maximum: $2,000
+  - Pre-Existing Condition Waiting Period: 12/12 months
+
+### Emergency Services
+- **Emergency Room**:
+  - Per Incident: $1,000 (if admitted)
+- **Ambulance Benefit**:
+  - Per Incident: $500 (if admitted)
+
+### Virtual Visits
+- Virtual Care: $0 Consult Fee, No Maximum
+
+### Prescriptions
+- 1,000+ Free Prescriptions
+- Discount with Prescription Card
+
+### Wellness
+- Tracks medical records, fitness, sleep, hydration
+- Discount lab and DNA testing access
+- Additional benefits
+
+### Advocacy
+- Hospital Bill Reducer
+
+---
+
+## Tier 5 (Page 6)
+
+### Physician Services
+- **Wellness Exam**:
+  - Co-Pay: $0
+  - Maximum/Visit: $150
+  - Visits/Yr: 1
+- **Primary Care Office Visit**:
+  - Co-Pay: $50
+  - Maximum/Visit: $150
+  - Visits/Yr: 5
+- **Specialist Care Office Visit**:
+  - Co-Pay: $75
+  - Maximum/Visit: $300
+  - Visits/Yr: 5
+- **Urgent Care Office Visit**:
+  - Co-Pay: $75
+  - Maximum/Visit: $300
+  - Visits/Yr: 5
+
+### Hospitalization
+- **In-Patient Hospitalization Benefit**:
+  - Per Day: $1,500
+  - Year Maximum: $15,000
+  - Pre-Existing Condition Waiting Period: 12/12 months
+- **In/Out-Patient Surgery**:
+  - Per Day: $1,500
+  - Year Maximum: $4,500
+  - Pre-Existing Condition Waiting Period: 12/12 months
+
+### Emergency Services
+- **Emergency Room**:
+  - Per Incident: $1,000
+- **Ambulance Benefit**:
+  - Per Incident: $500
+
+### Virtual Visits
+- **MyLiveDoc Telemedicine**:
+  - Consult Fee: $0
+  - Maximum: No Maximum
+
+### Prescriptions
+- 1,000+ Free Prescriptions
+- Discount with Prescription Card
+
+### Wellness
+- Personal Health Dashboard
+- Tracks medical records, fitness, sleep, hydration
+- Discount lab and DNA testing access
+- Additional benefits
+
+### Advocacy
+- Navi Claim (Hospital Bill Reducer)
+
+---
+
+### Key Differences Between Tiers
+- **Tier 1** has the lowest in-patient hospitalization maximum and limited specialist/urgent care visits.
+- **Tier 2** increases the hospitalization maximum and adds more visits for specialist and urgent care.
+- **Tier 3** further increases in-patient hospitalization benefits and offers even more specialist/urgent care visits.
+- **Tier 4** introduces a wellness exam benefit and expands coverage with emergency room and ambulance benefits, while adjusting co-pays.
+- **Tier 5** offers the highest level of coverage with increased hospital/surgery benefits and more visits for primary, specialist, and urgent care services.

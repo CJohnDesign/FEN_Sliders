@@ -1,27 +1,28 @@
-Physician Services,Details
-Wellness Exam,Co-Pay,Maximum / Visit
-1 visit / Yr,$0,$150
-Primary Care Office Visit,Co-Pay,Maximum / Visit
-4 visits / Yr,$50,$150
-Specialist Care Office Visit,Co-Pay,Maximum / Visit
-4 visit / Yr,$75,$300
-Urgent Care Office Visit,Co-Pay,Maximum / Visit
-4 visit / Yr,$75,$300
-In-Patient Hospitalization Benefit,Per Day,Year Maximum,12/12 month Pre-Existing
-,$1,000,$10,000,
-Out-Patient Surgery,Per Day,Year Maximum,12/12 month Pre-Existing
-,$1,000,$2,000,
-Emergency Room,Per Incident,12/12 month Pre-Existing
-(if admitted),$1,000,
-Ambulance Benefit,Per Incident,12/12 month Pre-Existing
-(if admitted),$500,
-Virtual Visits,Details
-MyLiveDoc,Telemedicine
-Virtual Care,$0 Consult Fee,No Maximum
-Prescriptions,1,000+ Free Prescriptions. Discount with Prescription Card.
-Wellness,Details
-Personal Health Dashboard,"- Track your medical records, fitness, sleep, hydration and other items.
-- Access to discount lab and DNA testing.
-- A wide array of additional benefits."
-Advocacy,Details
-Navi Claim,Hospital Bill Reducer
+```
+Physician Services	Details
+Wellness Exam	Co-Pay	Maximum / Visit
+1 visit / Yr	$0	$150
+Primary Care Office Visit	Co-Pay	Maximum / Visit
+4 visits / Yr	$50	$150
+Specialist Care Office Visit	Co-Pay	Maximum / Visit
+4 visit / Yr	$75	$300
+Urgent Care Office Visit	Co-Pay	Maximum / Visit
+4 visit / Yr	$75	$300
+In-Patient Hospitalization Benefit	Per Day	Year Maximum	12/12 month Pre-Existing
+	$1,000	$10,000	
+Out-Patient Surgery	Per Day	Year Maximum	12/12 month Pre-Existing
+	$1,000	$2,000	
+Emergency Room	Per Incident	12/12 month Pre-Existing
+(if admitted)	$1,000		
+Ambulance Benefit	Per Incident	12/12 month Pre-Existing
+(if admitted)	$500		
+Virtual Visits	Details
+Virtual Care	$0 Consult Fee	No Maximum
+Prescriptions	1,000+ Free Prescriptions. Discount with Prescription Card.
+Wellness	Details
+	* Track your medical records, fitness, sleep, hydration and other items.
+	* Access to discount lab and DNA testing.
+	* A wide array of additional benefits.
+Advocacy	Details
+	Hospital Bill Reducer
+```

@@ -46,16 +46,18 @@ async def process_page(model, page_num, img_path, total_pages):
         messages = [
             SystemMessage(content="""You are an expert at analyzing presentation slides.
             Look at the slide and return a detailed summary of the content. Include a descriptive title and the summary should be a single paragraph that covers all details of the slide. In the summary, talk about which companies provide which benefits.
-            * If there is a table, identify if it is a benefits table showing insurance coverage details and return tableDetails.hasTable as true.
-            * If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true. This should never return true for a slide that is a benefits table.
-            
+            * If there is a benefits table, return tableDetails.hasBenefitsTable as true
+            ** Benefits tables include primary care visits, specialist visits, urgent care, and in-patient hospitalization benefits with specific co-pays and maximums. It also includes virtual care with no consult fees, wellness support, and advocacy services like hospital bill reduction.
+            * If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true. This should never return true for a slide that has a benefits table.
+            * if a slide has a benefits table, it will never have limitations.
+            ** So both can be false but both can never be true.
             Provide your analysis in this EXACT JSON format:
             {
                 "title": "Clear descriptive title",
                 "summary": "Detailed content summary",
                 "tableDetails": {
-                    "hasTable": true/false,
-                    "hasLimitations": true/false,
+                    "hasBenefitsTable": true/false,
+                    "hasLimitations": true/false
                 }
             }"""),
             HumanMessage(content=[
@@ -239,41 +241,56 @@ async def generate_page_summaries(state: BuilderState) -> BuilderState:
 async def process_plan_tiers(state: BuilderState) -> BuilderState:
     """Process benefit tables into detailed plan tier summaries"""
     try:
+        logger.info("Starting process_plan_tiers...")
+        logger.info(f"State keys available: {list(state.keys())}")
+        logger.info(f"Deck info: {state.get('deck_info')}")
+        logger.info(f"Error context: {state.get('error_context')}")
+        
         deck_dir = Path(state["deck_info"]["path"])
+        logger.info(f"Looking for tables in: {deck_dir}")
         tables_data = deck_utils.load_tables_data(deck_dir)
+        logger.info(f"Loaded tables data: {json.dumps(tables_data, indent=2)}")
         
         if not tables_data["tables"]:
             logger.warning("No tables found for plan tier processing")
             state["plan_tier_summaries"] = "No plan tiers found in document"
             return state
             
-        # Initialize chat model
-        model = ChatOpenAI(
-            model="gpt-4o",
-            temperature=0.7,
-            streaming=False,
-            max_tokens=4096
-        )
-        
-        # Create system prompt
-        system_content = """You are an expert at analyzing insurance benefit tables and creating clear plan tier summaries.
-        
-        Analyze the provided tables and create a detailed markdown summary that:
-        1. Clearly identifies each plan tier
-        2. Lists all benefits and coverage details
-        3. Maintains exact dollar amounts and percentages
-        4. Highlights key differences between tiers
-        5. Uses clear formatting and structure
-        
-        Format the output as a clean markdown section that can be inserted directly into a presentation outline."""
-        
-        # Convert tables to text format
-        tables_text = json.dumps(tables_data, indent=2)
-        
-        # Create messages
-        messages = [
-            SystemMessage(content=system_content),
-            HumanMessage(content=f"""Analyze these benefit tables and create a detailed plan tier summary:
+        try:
+            # Initialize chat model
+            logger.info("Initializing chat model with gpt-4o...")
+            model = ChatOpenAI(
+                model="gpt-4o",
+                temperature=0.7,
+                streaming=False,
+                max_tokens=4096,
+                request_timeout=120
+            )
+            logger.info("Chat model initialized successfully")
+            
+            # Create system prompt
+            logger.info("Creating system prompt...")
+            system_content = """You are an expert at analyzing insurance benefit tables and creating clear plan tier summaries.
+            
+            Analyze the provided tables and create a detailed markdown summary that:
+            1. Clearly identifies each plan tier
+            2. Lists all benefits and coverage details
+            3. Maintains exact dollar amounts and percentages
+            4. Highlights key differences between tiers
+            5. Uses clear formatting and structure
+            
+            Format the output as a clean markdown section that can be inserted directly into a presentation outline."""
+            logger.info("System prompt created")
+            
+            # Convert tables to text format
+            tables_text = json.dumps(tables_data, indent=2)
+            logger.info(f"Created tables text for model input (length: {len(tables_text)})")
+            
+            # Create messages
+            logger.info("Creating messages array...")
+            messages = [
+                SystemMessage(content=system_content),
+                HumanMessage(content=f"""Analyze these benefit tables and create a detailed plan tier summary for {state["deck_info"]['metadata']['deck_id']}:
 
 {tables_text}
 
@@ -282,23 +299,47 @@ Focus on:
 2. Coverage percentages
 3. Key limitations
 4. Tier differences""")
-        ]
-        
-        # Generate summary
-        response = await model.ainvoke(messages)
-        
-        # Save to state
-        state["plan_tier_summaries"] = response.content
-        
-        # Save to file
-        summaries_path = deck_dir / "ai" / "plan_tier_summaries.md"
-        with open(summaries_path, "w") as f:
-            f.write(response.content)
-        logger.info(f"Saved plan tier summaries to {summaries_path}")
-        
-        return state
-        
+            ]
+            logger.info(f"Created messages array with {len(messages)} messages")
+            
+            # Generate summary
+            logger.info("Sending request to model...")
+            try:
+                response = await model.ainvoke(messages)
+                logger.info("Successfully received response from model")
+                logger.info(f"Response type: {type(response)}")
+                logger.info(f"Response content length: {len(response.content) if hasattr(response, 'content') else 'No content'}")
+            except Exception as model_error:
+                logger.error(f"Model invocation failed: {str(model_error)}")
+                logger.error(f"Model error type: {type(model_error).__name__}")
+                logger.error("Model error details:", exc_info=True)
+                raise
+            
+            # Save to state
+            logger.info("Saving response to state...")
+            state["plan_tier_summaries"] = response.content
+            logger.info("Successfully saved to state")
+            
+            # Save to file
+            logger.info("Saving to file...")
+            summaries_path = deck_dir / "ai" / "plan_tier_summaries.md"
+            summaries_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(summaries_path, "w") as f:
+                f.write(response.content)
+            logger.info(f"Successfully saved plan tier summaries to {summaries_path}")
+            
+            return state
+            
+        except Exception as e:
+            logger.error(f"Error during model processing: {str(e)}")
+            logger.error(f"Error type: {type(e).__name__}")
+            logger.error("Full error context:", exc_info=True)
+            raise
+            
     except Exception as e:
+        logger.error(f"Error in process_plan_tiers: {str(e)}")
+        logger.error(f"Error type: {type(e).__name__}")
+        logger.error("Full error context:", exc_info=True)
         state["error_context"] = {
             "step": "plan_tier_processing",
             "error": str(e)

@@ -5,7 +5,6 @@ from .state import BuilderState
 from .nodes import (
     create_deck_structure,
     process_slides,
-    wait_for_pdf,
     process_imgs,
     generate_page_summaries,
     extract_tables,
@@ -21,7 +20,6 @@ def create_builder_graph() -> StateGraph:
     
     # Add nodes
     workflow.add_node("create_deck", create_deck_structure)
-    workflow.add_node("wait_for_pdf", wait_for_pdf)
     workflow.add_node("process_imgs", process_imgs)
     workflow.add_node("generate_summaries", generate_page_summaries)
     workflow.add_node("extract_tables", extract_tables)
@@ -31,8 +29,7 @@ def create_builder_graph() -> StateGraph:
     workflow.add_node("setup_audio", setup_audio)
     
     # Add edges
-    workflow.add_edge("create_deck", "wait_for_pdf")
-    workflow.add_edge("wait_for_pdf", "process_imgs")
+    workflow.add_edge("create_deck", "process_imgs")
     workflow.add_edge("process_imgs", "generate_summaries")
     workflow.add_edge("generate_summaries", "extract_tables")
     workflow.add_edge("extract_tables", "process_plan_tiers")
