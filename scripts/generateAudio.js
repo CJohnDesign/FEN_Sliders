@@ -48,10 +48,17 @@ async function parseMdFile(filePath) {
     const text = parts[i + 1]?.trim();
     
     if (title && text) {
-      sections.push({
-        title: title,
-        text: text,
-        slideNumber: (i / 2) + 1
+      // Split the text into paragraphs (split by double newline)
+      const paragraphs = text.split(/\n\n+/).filter(p => p.trim());
+      
+      // Create a section for each paragraph
+      paragraphs.forEach((paragraph, pIndex) => {
+        sections.push({
+          title: `${title}_click_${pIndex + 1}`,
+          text: paragraph.trim(),
+          slideNumber: (i / 2) + 1,
+          clickNumber: pIndex + 1
+        });
       });
     }
   }
@@ -107,8 +114,8 @@ async function generateAudio(deckKey, specificSlide = null) {
 
       const audioBuffer = Buffer.from(await response.arrayBuffer());
       
-      // Save the audio file using the slide number: FEN_MF1.mp3, FEN_MF2.mp3, etc.
-      const outputFileName = `${deckKey}${section.slideNumber}`;
+      // Save the audio file using the slide number and click number: FEN_MF1_1.mp3, FEN_MF1_2.mp3, etc.
+      const outputFileName = `${deckKey}${section.slideNumber}_${section.clickNumber}`;
       await fs.writeFile(
         path.join(outputDir, `${outputFileName}.mp3`),
         audioBuffer
