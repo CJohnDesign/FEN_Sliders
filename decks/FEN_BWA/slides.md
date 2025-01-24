@@ -4,7 +4,7 @@ theme: ../../
 title: Business Workers of America (BWA)
 info: |
   ## Business Workers of America Overview
-  A comprehensive look at BWA membership benefits and details.
+  A look at BWA membership benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -17,8 +17,6 @@ drawings:
 <div class="relative top-24">
 
 <SlideAudio deckKey="FEN_BWA" />
-
-  
 
   <div class="grid grid-cols-1 items-center py-8">
 
@@ -100,7 +98,6 @@ image: /img/style/enroll.png
 - Must join **BWA Association**
 - Eligibility for **plan benefits**
 - Access to **BWA Membership benefits**
-- Comprehensive **health benefits** available
 
 </v-clicks>
 

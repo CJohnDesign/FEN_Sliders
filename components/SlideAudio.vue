@@ -82,33 +82,48 @@ const playAudio = async (slideNumber: number, clickNumber: number) => {
       onplay: () => {
         console.log(`Started playing audio ${slideNumber}_${clickNumber}`);
       },
-      onloaderror: () => {
+      onloaderror: async () => {
         console.log(`Audio file not found: ${props.deckKey}${slideNumber}_${clickNumber}.mp3`);
-        throw new Error('Audio file not found');
+        
+        // Check if we're on the last slide
+        if (nav.value && nav.value.currentPage >= nav.value.total) {
+          console.log('Reached end of presentation');
+          isPlaying.value = false;
+          return;
+        }
+
+        // If audio file not found, advance to next slide
+        if (nav.value) {
+          await nav.value.next();
+          // Wait for URL to update before playing next audio
+          setTimeout(async () => {
+            const newSlide = nav.value?.currentPage;
+            const newClick = getCurrentClick();
+            console.log(`Advanced to slide ${newSlide}, click ${newClick}`);
+            playAudio(newSlide, newClick);
+          }, 100);
+        }
       }
     });
 
     currentHowl.value.play();
   } catch (error) {
-    if (error.message === 'Audio file not found') {
-      // Check if we're on the last slide
-      if (nav.value && slideNumber >= nav.value.total) {
+    console.error('Error playing audio:', error);
+    // If we're still playing, try to advance to next slide
+    if (isPlaying.value && nav.value) {
+      if (nav.value.currentPage >= nav.value.total) {
         console.log('Reached end of presentation');
         isPlaying.value = false;
         return;
       }
-
-      // If no more clicks on this slide, advance to next slide
-      if (nav.value) {
-        await nav.value.next();
-        // Wait for URL to update before playing next audio
-        setTimeout(async () => {
-          const newSlide = nav.value?.currentPage;
-          const newClick = getCurrentClick();
-          console.log(`Advanced to slide ${newSlide}, click ${newClick}`);
-          playAudio(newSlide, newClick);
-        }, 100);
-      }
+      
+      await nav.value.next();
+      setTimeout(async () => {
+        const newSlide = nav.value?.currentPage;
+        const newClick = getCurrentClick();
+        console.log(`Advanced to slide ${newSlide}, click ${newClick}`);
+        playAudio(newSlide, newClick);
+      }, 100);
     }
   }
 };

@@ -66,7 +66,7 @@ async function parseMdFile(filePath) {
   return sections;
 }
 
-async function generateAudio(deckKey, specificSlide = null) {
+async function generateAudio(deckKey, specificSlide = null, specificClick = null) {
   try {
     const baseUrl = 'https://api.openai.com/v1/audio/speech';
     
@@ -80,13 +80,19 @@ async function generateAudio(deckKey, specificSlide = null) {
     const outputDir = path.join(process.cwd(), `decks/${deckKey}/audio/oai`);
     await fs.mkdir(outputDir, { recursive: true });
 
-    // Filter sections if specificSlide is provided
-    const sectionsToProcess = specificSlide 
-      ? sections.filter(section => section.slideNumber === specificSlide)
-      : sections;
-
-    if (specificSlide && sectionsToProcess.length === 0) {
-      throw new Error(`No slide found with number ${specificSlide}`);
+    // Filter sections based on slide and click numbers
+    let sectionsToProcess = sections;
+    if (specificSlide) {
+      sectionsToProcess = sections.filter(section => section.slideNumber === specificSlide);
+      if (sectionsToProcess.length === 0) {
+        throw new Error(`No slide found with number ${specificSlide}`);
+      }
+    }
+    if (specificClick) {
+      sectionsToProcess = sectionsToProcess.filter(section => section.clickNumber === specificClick);
+      if (sectionsToProcess.length === 0) {
+        throw new Error(`No click ${specificClick} found for slide ${specificSlide}`);
+      }
     }
 
     // Process each section in order
@@ -114,7 +120,6 @@ async function generateAudio(deckKey, specificSlide = null) {
 
       const audioBuffer = Buffer.from(await response.arrayBuffer());
       
-      // Save the audio file using the slide number and click number: FEN_MF1_1.mp3, FEN_MF1_2.mp3, etc.
       const outputFileName = `${deckKey}${section.slideNumber}_${section.clickNumber}`;
       await fs.writeFile(
         path.join(outputDir, `${outputFileName}.mp3`),
@@ -133,10 +138,11 @@ async function generateAudio(deckKey, specificSlide = null) {
 // Update argument handling
 const deckKey = process.argv[2];
 const specificSlide = process.argv[3] ? parseInt(process.argv[3], 10) : null;
+const specificClick = process.argv[4] ? parseInt(process.argv[4], 10) : null;
 
 if (!deckKey) {
   console.error('Please provide a deck key as a command line argument.');
   process.exit(1);
 }
 
-generateAudio(deckKey, specificSlide); 
+generateAudio(deckKey, specificSlide, specificClick); 

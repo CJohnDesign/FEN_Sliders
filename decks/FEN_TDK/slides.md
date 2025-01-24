@@ -5,7 +5,7 @@ title: |
   Transforming Data Through Knowledge
 info: |
   ## Transforming Data Through Knowledge Review
-  A comprehensive look at the Transforming Data Through Knowledge benefits and details.
+  A look at the Transforming Data Through Knowledge benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -32,8 +32,8 @@ layout: default
 <v-clicks>
 
 - Provided by **America's Choice Health Care**
+- administration by **Detego Health**
 - **Accessibility** for individuals and families
-- **Administered** by Detego Health
 - **Emphasizes** personal impact
 - **Ensures** vital services within reach
 
@@ -46,71 +46,79 @@ layout: default
 
 ## Core Plan Elements
 
-<v-clicks>
+<v-click>
 
-**Key Features and Benefits**
+**Coverage**
 
-- Comprehensive coverage options
-- Physician services, hospitalization
-- Virtual visits, prescriptions
-- Wellness, advocacy
+- Physician services and hospitalization
+- Virtual visits and prescriptions
+- Wellness and advocacy services
+- Tailored healthcare options
 
-**Coverage Details**
+</v-click>
 
-- Tier-specific benefits
-- Co-pays, visit allowances
+<v-click>
+
+**Plan Structure**
+
+- Tiered plan options
+- Specific co-pays per service
+- Visit allowances
 - Maximum coverage limits
 
-**Eligibility Requirements**
+</v-click>
 
-- For individuals and families
-- Focus on affordability
-- Essential health services
+<v-click>
 
-</v-clicks>
+**Eligibility**
+
+- Individual and family coverage
+- Emphasis on affordability 
+- Access to essential health services
+- Flexible coverage options
+
+</v-click>
 
 ---
 transition: fade-out
 layout: default-row
 ---
-
 ::header::
 ## Common Service Features
 
 ::left::
-<v-clicks>
+<v-click>
 
-**Network Access**
+**First Health Network**
 
-- Utilizes **First Health Network**
-- Wide range of providers
+- Wide range of providers and facilities
+- Nationwide access to healthcare
+- Healthcare provider network
 
-**Claims Process**
-
-- Streamlined through Detego Health
-- Efficient claims handling
-
-</v-clicks>
-
-::right::
-<v-clicks>
-
-**Support Services**
-
-- Wellness support
-- Personal health dashboard
-- Advocacy via NaviClaim
-
-</v-clicks>
+</v-click>
 
 <v-click>
 
-**Network Access** through First Health
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="/img/logos/FirstHealth_logo.png" class="h-12 mix-blend-multiply" alt="First Health Logo">
-</div>
+**Claims Management**
+
+- Efficient processing through Detego Health
+- Smooth handling of claims
+- Quick reimbursements
 
 </v-click>
+
+::right::
+<v-click>
+
+**Support Services**
+
+- Personal health dashboard
+- Wellness support tools
+- NaviClaim advocacy
+- Hospital bill reduction help
+
+</v-click>
+
 
 ---
 transition: fade-out
@@ -123,23 +131,22 @@ image: img/pages/page_2.png
 <v-click>
 
 **Physician Services**
-- Primary Care: $25 co-pay, $150 max/visit, 3 visits/year
-- Specialist Care: $50 co-pay, $300 max/visit, 1 visit/year
-- Urgent Care: $50 co-pay, $300 max/visit, 1 visit/year
+- Primary Care: **$25 co-pay**, **$150 max/visit**, **3 visits/year**
+- Specialist/Urgent Care: **$50 co-pay**, **$300 max/visit**, **1 visit/year**
 
 </v-click>
 
 <v-click>
 
 **Hospitalization**
-- In-Patient: $1,000/day, $5,000 max/year, 12/12 waiting period
+- **$1,000/day**, **$5,000 annual max**
 
 </v-click>
 
 <v-click>
 
 **Virtual Visits**
-- MyLiveDoc: $0 consult fee, no maximum
+- Telemedicine: **$0 consult fee**, **unlimited visits**, **4 mental health visits/year**
 
 </v-click>
 
@@ -154,7 +161,7 @@ image: img/pages/page_2.png
 <v-click>
 
 **Prescriptions**
-- 70+ free prescriptions, discount card
+- **70+ free prescriptions**, **discount card**
 
 </v-click>
 
@@ -168,7 +175,7 @@ image: img/pages/page_2.png
 <v-click>
 
 **Advocacy**
-- Navi Claim (Hospital Bill Reducer)
+- **NaviClaim** (Hospital Bill Reducer)
 
 </v-click>
 
@@ -183,23 +190,22 @@ image: img/pages/page_3.png
 <v-click>
 
 **Physician Services**
-- Primary Care: $25 co-pay, $150 max/visit, 4 visits/year
-- Specialist Care: $50 co-pay, $300 max/visit, 2 visits/year
-- Urgent Care: $50 co-pay, $300 max/visit, 2 visits/year
+- Primary Care: **$25 co-pay**, **$150 max/visit**, **4 visits/year**
+- Specialist/Urgent Care: **$50 co-pay**, **$300 max/visit**, **2 visits/year**
 
 </v-click>
 
 <v-click>
 
 **Hospitalization**
-- In-Patient: $1,000/day, $10,000 max/year, 12/12 waiting period
+- **$1,000/day**, **$10,000 annual max**
 
 </v-click>
 
 <v-click>
 
 **Virtual Visits**
-- MyLiveDoc: $0 consult fee, no maximum
+- Telemedicine: **$0 consult fee**, **unlimited visits**, **4 mental health visits/year**
 
 </v-click>
 
@@ -214,7 +220,8 @@ image: img/pages/page_3.png
 <v-click>
 
 **Prescriptions**
-- 1,000+ free prescriptions, discount card
+- **1,000+ free prescriptions**, **discount card**
+- Mail-Order: **Generic medications only**
 
 </v-click>
 
@@ -228,7 +235,7 @@ image: img/pages/page_3.png
 <v-click>
 
 **Advocacy**
-- Navi Claim (Hospital Bill Reducer)
+- **NaviClaim** (Hospital Bill Reducer)
 
 </v-click>
 
@@ -243,23 +250,23 @@ image: img/pages/page_4.png
 <v-click>
 
 **Physician Services**
-- Primary Care: $25 co-pay, $150 max/visit, 4 visits/year
-- Specialist Care: $50 co-pay, $300 max/visit, 4 visits/year
-- Urgent Care: $50 co-pay, $300 max/visit, 4 visits/year
+- Primary Care: **$25 co-pay**, **$150 max/visit**, **4 visits/year**
+- Specialist: **$50 co-pay**, **$300 max/visit**, **4 visits/year**
+- Urgent Care: **$50 co-pay**, **$300 max/visit**, **4 visits/year**
 
 </v-click>
 
 <v-click>
 
 **Hospitalization**
-- In-Patient: $1,000/day, $15,000 max/year, 12/12 waiting period
+- **$1,000/day**, **$15,000 annual max**
 
 </v-click>
 
 <v-click>
 
 **Virtual Visits**
-- MyLiveDoc: $0 consult fee, no maximum
+- Telemedicine: **$0 consult fee**, **unlimited visits**, **4 mental health visits/year**
 
 </v-click>
 
@@ -274,7 +281,7 @@ image: img/pages/page_4.png
 <v-click>
 
 **Prescriptions**
-- 1,000+ free prescriptions, discount card
+- **1,000+ free prescriptions**, **discount card**
 
 </v-click>
 
@@ -288,7 +295,7 @@ image: img/pages/page_4.png
 <v-click>
 
 **Advocacy**
-- Navi Claim (Hospital Bill Reducer)
+- **NaviClaim** (Hospital Bill Reducer)
 
 </v-click>
 
@@ -303,26 +310,26 @@ image: img/pages/page_5.png
 <v-click>
 
 **Physician Services**
-- Wellness Exam: $0 co-pay, $150 max/visit, 1 visit/year
-- Primary Care: $50 co-pay, $150 max/visit, 4 visits/year
-- Specialist Care: $75 co-pay, $300 max/visit, 4 visits/year
-- Urgent Care: $75 co-pay, $300 max/visit, 4 visits/year
+- Wellness Exam: **$0 co-pay**, **$150 max**, **1 visit/year**
+- Primary Care: **$50 co-pay**, **$150 max/visit**, **4 visits/year**
+- Specialist: **$75 co-pay**, **$300 max/visit**, **4 visits/year**
+- Urgent Care: **$75 co-pay**, **$300 max/visit**, **4 visits/year**
 
 </v-click>
 
 <v-click>
 
 **Hospitalization and Surgery**
-- In-Patient: $1,000/day, $10,000 max/year
-- Out-Patient Surgery: $1,000/day, $2,000 max/year
+- In-Patient: **$1,000/day**, **$10,000 annual max**
+- Outpatient Surgery: **$1,000/day**, **$2,000 annual max**
 
 </v-click>
 
 <v-click>
 
 **Emergency Services**
-- Emergency Room: $1,000 per incident (admitted)
-- Ambulance Benefit: $500 per incident (admitted)
+- Emergency Room: **$1,000 per incident** (if admitted)
+- Ambulance: **$500 per incident** (if admitted)
 
 </v-click>
 
@@ -337,30 +344,28 @@ image: img/pages/page_5.png
 <v-click>
 
 **Virtual Visits**
-- Virtual Care: $0 consult fee, no maximum
+- Telemedicine: **$0 consult fee**, **unlimited visits**, **4 mental health visits/year**
 
 </v-click>
 
 <v-click>
 
 **Prescriptions**
-- 1,000+ free prescriptions, discount card
+- **1,000+ free prescriptions**, **discount card**
 
 </v-click>
 
 <v-click>
 
 **Wellness**
-- Tracks medical records, fitness, sleep, hydration
-- Discount lab and DNA testing access
-- Additional benefits
+- Personal Health Dashboard
 
 </v-click>
 
 <v-click>
 
 **Advocacy**
-- Hospital Bill Reducer
+- **NaviClaim** (Hospital Bill Reducer)
 
 </v-click>
 
@@ -375,18 +380,18 @@ image: img/pages/page_6.png
 <v-click>
 
 **Physician Services**
-- Wellness Exam: $0 co-pay, $150 max/visit, 1 visit/year
-- Primary Care: $50 co-pay, $150 max/visit, 5 visits/year
-- Specialist Care: $75 co-pay, $300 max/visit, 5 visits/year
-- Urgent Care: $75 co-pay, $300 max/visit, 5 visits/year
+- Wellness Exam: **$0 co-pay**, **$150 max**, **1 visit/year**
+- Primary Care: **$50 co-pay**, **$150 max/visit**, **5 visits/year**
+- Specialist: **$75 co-pay**, **$300 max/visit**, **5 visits/year**
+- Urgent Care: **$75 co-pay**, **$300 max/visit**, **5 visits/year**
 
 </v-click>
 
 <v-click>
 
 **Hospitalization and Surgery**
-- In-Patient: $1,500/day, $15,000 max/year
-- In/Out-Patient Surgery: $1,500/day, $4,500 max/year
+- In-Patient: **$1,000/day**, **$15,000 annual max**
+- Inpatient & Outpatient Surgery: **$1,500/day**, **$4,500 annual max**
 
 </v-click>
 
@@ -401,22 +406,22 @@ image: img/pages/page_6.png
 <v-click>
 
 **Emergency Services**
-- Emergency Room: $1,000 per incident
-- Ambulance Benefit: $500 per incident
+- Emergency Room: **$1,000 per incident** (if admitted)
+- Ambulance: **$500 per incident** (if admitted)
 
 </v-click>
 
 <v-click>
 
 **Virtual Visits**
-- MyLiveDoc: $0 consult fee, no maximum
+- Telemedicine: **$0 consult fee**, **unlimited visits**, **4 mental health visits/year**
 
 </v-click>
 
 <v-click>
 
 **Prescriptions**
-- 1,000+ free prescriptions, discount card
+- **1,000+ free prescriptions**, **discount card**
 
 </v-click>
 
@@ -424,50 +429,15 @@ image: img/pages/page_6.png
 
 **Wellness**
 - Personal Health Dashboard
-- Tracks medical records, fitness, sleep, hydration
-- Discount lab and DNA testing access
-- Additional benefits
 
 </v-click>
 
 <v-click>
 
 **Advocacy**
-- Navi Claim (Hospital Bill Reducer)
+- **NaviClaim** (Hospital Bill Reducer)
 
 </v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## Comparison of the Plans (1/2)
-
-| **Feature**                      | **TDK 1**          | **TDK 2**          | **TDK 3**          |
-|----------------------------------|--------------------|--------------------|--------------------|
-| Primary Care Visits (Year)       | 3                  | 4                  | 4                  |
-| Specialist Visits (Year)         | 1                  | 2                  | 4                  |
-| Urgent Care Visits (Year)        | 1                  | 2                  | 4                  |
-| Hospitalization (Max/Year)       | $5,000             | $10,000            | $15,000            |
-| Free Prescriptions               | 70+                | 1,000+             | 1,000+             |
-
----
-transition: fade-out
-layout: default
----
-
-## Comparison of the Plans (2/2)
-
-| **Feature**                      | **TDK 4**          | **TDK 5**          |
-|----------------------------------|--------------------|--------------------|
-| Primary Care Visits (Year)       | 4                  | 5                  |
-| Specialist Visits (Year)         | 4                  | 5                  |
-| Urgent Care Visits (Year)        | 4                  | 5                  |
-| Hospitalization (Max/Year)       | $10,000            | $15,000            |
-| Surgery Benefits (Max/Year)      | $2,000             | $4,500             |
-| Emergency Room Benefit           | $1,000 (admitted)  | $1,000             |
-| Free Prescriptions               | 1,000+             | 1,000+             |
 
 ---
 transition: fade-out
@@ -488,19 +458,20 @@ images:
 
 <v-click>
 
-**Important Exclusions**
-- No pre-existing conditions 12 months
-- Excludes certain elective procedures
-- Services not physician-directed
+**Important Limitations**
+- 30-day waiting period for sickness benefits
+- Pre-existing conditions not covered for first 12 months
+- Prescription Plan is a discount program, not a drug plan
+  - Generic acute medications at $0 cost
+  - Brand-name medications available at discount
 
 </v-click>
 
 <v-click>
 
-**Key Terms Defined**
-- **Pre-existing Condition**: Condition prior to coverage
-- **Co-Pay**: Fixed amount before insurer pays
-- **Maximum/Visit**: Highest plan payout per visit
+**NaviClaim Services**
+- Available for hospital bill reduction
+- Assists with indemnity benefits
 
 </v-click>
 
@@ -511,13 +482,23 @@ layout: default
 
 ## Key Takeaways
 
-<v-clicks>
+<v-click>
 
-- **Plan Highlights**: Flexible options, varying coverage levels
-- **Value Propositions**: Affordable access, extensive prescriptions
-- **Next Steps**: Evaluate needs/budget, select plan tier
+Flexible healthcare options with varying coverage levels
 
-</v-clicks>
+</v-click>
+
+<v-click>
+
+Affordable access through First Health Network
+
+</v-click>
+
+<v-click>
+
+Choose your tier based on needs and budget
+
+</v-click>
 
 ---
 transition: fade-out

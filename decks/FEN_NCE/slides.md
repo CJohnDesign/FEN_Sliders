@@ -4,7 +4,7 @@ theme: ../../
 title: National Congress of Employers
 info: |
   ## National Congress of Employers Overview
-  A comprehensive look at NCE membership benefits and services.
+  A look at NCE membership benefits and services.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -162,6 +162,12 @@ layout: default-row
 - Available in **all 50** states
 </v-click>
 
+<v-click>
+
+**Available in all 50 states**
+
+</v-click>  
+
 ---
 transition: fade-out
 layout: default-row
@@ -187,7 +193,7 @@ layout: default-row
 ::center::
 <v-click>
 
-**Dental Access®**
+**Aetna Dental Access® Network**
 - **132,000+** locations
 - **15-50%** savings per visit
 - **Cleanings** & x-rays
@@ -201,7 +207,7 @@ layout: default-row
 ::right::
 <v-click>
 
-**Vision Care**
+**OUTLOOK Vision Network**
 - **10,000+** locations
 - **10-50%** eyewear savings
 - **10-30%** exam savings

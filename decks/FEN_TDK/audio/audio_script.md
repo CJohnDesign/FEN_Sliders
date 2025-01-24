@@ -4,112 +4,163 @@ Hello, everyone! Thank you for joining today's session on the TDK, the Transform
 
 ---- Plan Overview ----
 
-The Transforming Data Through Knowledge plan is brought to you by America's Choice Health Care, with administration by Detego Health. This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional comprehensive medical plans can still access vital healthcare services. It's designed to have a personal impact, making sure necessary care is within reach.
+The Transforming Data Through Knowledge plan
+
+is brought to you by America's Choice Health Care, 
+
+with administration by Detego Health. 
+
+This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional comprehensive medical plans can still access vital healthcare services. 
+
+It's designed to have a personal impact, making sure necessary care is within reach.
 
 Moving forward, let's explore the core elements of the plan.
 
 ---- Core Plan Elements ----
 
-This plan offers comprehensive coverage options tailored to a variety of healthcare needs. These include physician services, hospitalization, virtual visits, prescriptions, wellness, and advocacy services. Each plan tier has specific co-pays, visit allowances, and maximum coverage limits, ensuring flexibility. Eligibility is focused on individuals and families who value affordability and essential health services.
+This plan offers coverage options tailored to a variety of healthcare needs. 
+
+These include physician services, hospitalization, virtual visits, prescriptions, wellness, and advocacy services. 
+
+Each plan tier has specific co-pays, visit allowances, and maximum coverage limits, ensuring flexibility. 
+
+Eligibility is focused on individuals and families who value affordability and essential health services.
 
 Now, let's look into the common service features.
 
 ---- Common Service Features ----
 
-With the First Health Network, you'll have access to a wide range of healthcare providers and facilities. Claims are processed efficiently through Detego Health, ensuring smooth handling and reimbursements. Additionally, support services are robust, offering wellness support via a personal health dashboard and advocacy for hospital bill reduction through NaviClaim.
+With the First Health Network, 
 
-Let's transition to the specifics of each plan tier, starting with the TDK 1 Health Plan.
+you'll have access to a wide range of healthcare providers and facilities. 
 
----- TDK 1 Health Plan (One of Two) ----
+Claims are processed efficiently through Detego Health, ensuring smooth handling and reimbursements. 
 
-The TDK 1 Health Plan focuses on essential physician services, including primary care visits with a twenty-five dollar co-pay, up to one hundred fifty dollars per visit, and a maximum of three visits per year. Specialist and urgent care visits are also covered, with a fifty dollar co-pay and three hundred dollars maximum per visit, allowing for one visit each per year.
+Additionally, support services are robust, offering wellness support via a personal health dashboard and advocacy for hospital bill reduction through NaviClaim. Let's transition to the specifics of each plan tier, starting with the TDK 1 Health Plan.
 
-For hospitalization, there's a one thousand dollar per day benefit, with a five thousand dollar maximum annually, and a twelve-month pre-existing condition waiting period. MyLiveDoc telemedicine services are offered with zero consult fees and no maximum, ensuring virtual visits are always accessible.
+---- TDK 1 Health Plan (Part 1) ----
 
-Let's continue with the rest of the TDK 1 Health Plan features.
+The TDK One plan offers essential physician services through the First Health Network. 
 
----- TDK 1 Health Plan (Two of Two) ----
+For primary care, you receive three office visits per year with a twenty-five dollar copay and a maximum of one hundred fifty dollars per visit. When you need to see a specialist or visit urgent care, you get one visit per year with a fifty dollar copay, and a maximum of three hundred dollars per visit.
 
-The prescription benefit includes over seventy free prescriptions with a convenient discount card. Wellness is supported through a personal health dashboard, allowing you to track and manage your health effectively. Advocacy services are available via NaviClaim, which helps reduce hospital bills.
+If hospitalization becomes necessary, this plan provides one thousand dollars per day with a yearly maximum of five thousand dollars.
 
-Next, we explore the TDK 2 Health Plan.
+Virtual care is at your fingertips with MyLiveDoc telemedicine. You'll have unlimited virtual visits with zero dollar consult fees, including four mental health visits per year.
 
----- TDK 2 Health Plan (One of Two) ----
+---- TDK 1 Health Plan (Part 2) ----
 
-TDK 2 enhances access with four primary care visits annually, at the same co-pay and maximum as TDK 1. Specialist visits double to two per year, and urgent care visits also increase to two annually. Hospitalization benefits rise to a ten thousand dollar maximum each year, maintaining the same daily rate and waiting period.
+Your prescription benefits include 
 
-Telemedicine remains a key feature with MyLiveDoc, at no cost per consult and no limit on usage.
+seventy-plus free prescriptions, along with a discount card for additional savings.
 
-Let's go over additional TDK 2 details.
+To help manage your health, you'll have access to a personal health dashboard that tracks your wellness journey.
 
----- TDK 2 Health Plan (Two of Two) ----
+For additional support, the NaviClaim advocacy service helps reduce your hospital bills.
 
-This plan significantly boosts the prescription benefit to over one thousand free prescriptions with a discount card. The personal health dashboard is included, along with advocacy through NaviClaim to assist with hospital bill reductions.
+---- TDK 2 Health Plan (Part 1) ----
 
-We'll now move on to the TDK 3 Health Plan.
+The TDK Two plan enhances your healthcare coverage. 
 
----- TDK 3 Health Plan (One of Two) ----
+Primary care includes four office visits yearly with a twenty-five dollar copay and a maximum of one hundred fifty dollars per visit. For specialist and urgent care needs, you receive two visits per year, each with a fifty dollar copay and a maximum of three hundred dollars per visit.
 
-TDK 3 offers four visits each for primary, specialist, and urgent care services, providing more flexibility. The hospitalization benefit increases further to a fifteen thousand dollar yearly maximum, maintaining the same day rate and pre-existing condition waiting period.
+Hospital coverage increases to one thousand dollars per day with a yearly maximum of ten thousand dollars.
 
-Virtual visits continue to be a highlight with MyLiveDoc, at zero cost per consult.
+Virtual care remains accessible through MyLiveDoc telemedicine, offering unlimited visits with zero dollar consult fees and four mental health visits annually.
 
-Let's complete the features for TDK 3.
+---- TDK 2 Health Plan (Part 2) ----
 
----- TDK 3 Health Plan (Two of Two) ----
+The prescription benefit 
 
-Enjoy the extensive prescription benefit with over one thousand free options and a discount card. Wellness management through a personal health dashboard and advocacy services for hospital bill reduction remain integral parts of this plan.
+Íexpands to over one thousand free prescriptions with a discount card, plus access to mail-order generic medications.
 
-Next, let's discuss the TDK 4 Health Plan.
+Your personal health dashboard helps you track and manage your wellness goals effectively.
 
----- TDK 4 Health Plan (One of Two) ----
+The NaviClaim advocacy service continues to provide support in reducing your hospital bills.
 
-TDK 4 includes a wellness exam with no co-pay and one hundred fifty dollars maximum per visit, available once a year. It also offers four visits each for primary care, specialist, and urgent care services. Hospitalization is covered at one thousand dollars per day with a ten thousand dollar maximum annually, while out-patient surgery benefits up to two thousand dollars per year.
+---- TDK 3 Health Plan (Part 1) ----
 
-Emergency services like the emergency room and ambulance benefits are included if admitted, each with specific coverage.
+The TDK Three plan provides broader access to care. 
 
-Let's review the remaining features for TDK 4.
+Primary care coverage includes four office visits per year with a twenty-five dollar copay and a maximum of one hundred fifty dollars per visit. Your specialist and urgent care benefits increase to four visits each per year, with a fifty dollar copay and a maximum of three hundred dollars per visit.
 
----- TDK 4 Health Plan (Two of Two) ----
+Hospital coverage expands to one thousand dollars per day with a yearly maximum of fifteen thousand dollars.
 
-Virtual care is offered with no consult fee and limitless access. Prescriptions include over one thousand free options, supplemented with a discount card. The wellness program tracks medical records, fitness, sleep, and hydration, alongside access to discounted lab and DNA testing.
+Virtual care through MyLiveDoc telemedicine continues with unlimited visits at zero dollar consult fees and four mental health visits per year.
 
-Advocacy is also present through the Hospital Bill Reducer service.
+---- TDK 3 Health Plan (Part 2) ----
 
-Now, let's explore the TDK 5 Health Plan.
+The prescription benefit 
 
----- TDK 5 Health Plan (One of Two) ----
+includes over one thousand free prescriptions with a discount card for additional savings.
 
-TDK 5 expands further with five annual visits each for primary care, specialist, and urgent care. Hospitalization benefits rise to one thousand five hundred dollars per day, with a fifteen thousand dollar yearly maximum, and surgery benefits up to four thousand five hundred dollars annually.
+Your personal health dashboard remains available to help monitor your health progress.
 
-Let's go over the concluding features for TDK 5.
+NaviClaim continues to provide advocacy services to help reduce your hospital expenses.
 
----- TDK 5 Health Plan (Two of Two) ----
+---- TDK 4 Health Plan (Part 1) ----
 
-Emergency services cover one thousand dollars per incident for the emergency room and five hundred dollars for ambulance services. Virtual visits through MyLiveDoc are unlimited and free of charge. Prescriptions remain extensive with over one thousand free options and a discount card.
+The TDK Four plan introduces a wellness focus, 
 
-The wellness component includes a personal health dashboard and tracks various health metrics, complemented by discount lab and DNA testing access. Advocacy services continue with NaviClaim.
+starting with one annual wellness exam at zero dollar copay and a maximum of one hundred fifty dollars. Primary care expands to four visits yearly with a fifty dollar copay and a maximum of one hundred fifty dollars per visit. You'll also receive four specialist visits and four urgent care visits annually, each with a seventy-five dollar copay and a maximum of three hundred dollars per visit.
 
-Let's compare these plans to help you make informed choices.
+Hospital coverage provides one thousand dollars per day with a ten thousand dollar yearly maximum. Outpatient surgery coverage adds one thousand dollars per day with a two thousand dollar annual maximum.
 
----- Comparing the 3 MyChoice Plans ----
+Emergency services include one thousand dollars per emergency room visit and five hundred dollars for ambulance service when admitted.
 
-When comparing the plans, consider the number of visits allowed for primary, specialist, and urgent care services, which increase from TDK 1 to TDK 5. Hospitalization and prescription benefits also expand significantly across the plans, offering more extensive coverage as you move up the tiers.
+---- TDK 4 Health Plan (Part 2) ----
 
-Let's clarify some important definitions and limitations.
+Virtual care through 
+
+MyLiveDoc telemedicine continues offering unlimited visits with zero dollar consult fees and four mental health visits annually.
+
+Your prescription coverage includes over one thousand free prescriptions with a discount card.
+
+Your personal health dashboard helps track your wellness journey.
+
+NaviClaim remains your advocate for reducing hospital bills.
+
+---- TDK 5 Health Plan (Part 1) ----
+
+The TDK Five plan maximizes your healthcare options, 
+
+beginning with one annual wellness exam at zero dollar copay and a maximum of one hundred fifty dollars. You'll receive five primary care visits yearly with a fifty dollar copay and a maximum of one hundred fifty dollars per visit. Specialist and urgent care benefits also increase to five visits each annually, with a seventy-five dollar copay and a maximum of three hundred dollars per visit.
+
+Hospital coverage expands to one thousand dollars per day with a fifteen thousand dollar yearly maximum. Combined inpatient and outpatient surgery coverage provides one thousand five hundred dollars per day with a four thousand five hundred dollar annual maximum.
+
+---- TDK 5 Health Plan (Part 2) ----
+
+Emergency services maintain coverage of 
+
+one thousand dollars per emergency room visit and five hundred dollars for ambulance service when admitted.
+
+Virtual care access through MyLiveDoc telemedicine continues with unlimited visits at zero dollar consult fees and four mental health visits per year.
+
+The prescription benefit covers over one thousand free prescriptions with a discount card for additional savings.
+
+Your personal health dashboard helps track your wellness journey.
+
+NaviClaim continues to serve as your advocate for reducing hospital expenses.
 
 ---- Definitions and Limitations ----
 
-There are important exclusions, such as no coverage for pre-existing conditions within the first twelve months, and certain elective procedures are not covered. Services not directed by a physician are also excluded.
+Let's discuss some important limitations and definitions.
 
-Key terms include "pre-existing condition," referring to any condition existing before coverage begins, and "co-pay," which is a fixed amount you pay for services before your insurer covers the rest. "Maximum/visit" indicates the highest amount the plan will pay per visit.
+All sickness benefits are subject to a 30-day waiting period before they are payable. Pre-existing conditions are not covered for the first 12 months. Prescription Plan Disclaimer: This is a Prescription Discount Program, not a Prescription Drug Plan. Generic acute medications are covered at $0 cost, while brand-name medications may be available at a discount.
 
-Finally, let's wrap up with key takeaways.
+NaviClaim is available for hospital bill reduction and indemnity benefits assistance.
 
 ---- Key Takeaways and Reminders ----
 
-The Transforming Data Through Knowledge plan offers flexible healthcare options with varying coverage levels. It ensures affordable access to healthcare and prescriptions, supported by the extensive First Health Network. Consider your healthcare needs and budget to select the most appropriate plan tier, and reach out for further assistance and enrollment.
+The Transforming Data Through Knowledge plan
+
+offers flexible healthcare options with varying coverage levels. 
+
+It ensures affordable access to healthcare and prescriptions, supported by the extensive First Health Network. 
+
+Consider your healthcare needs and budget to select the most appropriate plan tier, and reach out for further assistance and enrollment.
 
 ---- Closing ----
 
 Thank you for taking the time to learn about the Transforming Data Through Knowledge plan. Remember, healthcare is about making informed choices that best suit your needs. Continue to be great!
+

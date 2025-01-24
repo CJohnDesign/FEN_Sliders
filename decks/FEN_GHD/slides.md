@@ -79,7 +79,6 @@ image: /img/style/doc.png
 - **Custom Plans** for specific needs
 - Can be **Self-Funded**
 - Or **Insured** through carriers
-- **Tailored** benefit solutions
 
 </v-clicks>
 
@@ -115,8 +114,6 @@ image: /img/style/benefits.png
 - Must become **Affiliate Marketer**
 - Join **Good Health Distribution Partners**
 - Access to **health benefits**
-- Provided by **GHD LLC**
-- Comprehensive **plan overview**
 
 </v-clicks>
 
@@ -152,7 +149,7 @@ layout: default-row
 **MEC Plan Benefits**
 - Avoid **tax penalties**
 - Coverage in **key states**
-- **Comprehensive** protection
+- **Stay Protected**
 </v-click>
 
 ---
