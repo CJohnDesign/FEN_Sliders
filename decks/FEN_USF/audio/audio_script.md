@@ -14,25 +14,30 @@ Our plan includes some essential features and benefits, such as coverage for hos
 
 You'll have access to a broad network of healthcare providers across the United States, ensuring you receive the care you need. The claims process is designed for ease and efficiency, so you won't have to worry about complicated paperwork. Plus, comprehensive support services are available to help you make the most of your plan, answering any questions you might have.
 
----- 100 Plan (One of Two) ----
+---- 100 Plan ----
 
-Let's dive into the details of the 100 Plan. This plan offers daily benefits of one hundred dollars per day for hospital confinement, up to thirty days. Emergency room visits are covered at fifty dollars per visit for one day, and inpatient surgeries are compensated at two hundred fifty dollars per day, up to three days. Outpatient surgeries and physician office visits are also included, with benefits of two hundred fifty dollars per day and fifty dollars per visit, respectively.
+Let's dive into the details of the 100 Plan. 
 
----- 100 Plan (Two of Two) ----
+This plan offers daily hospital confinement benefits of one hundred dollars per day for up to thirty days. For emergency room visits, you'll receive fifty dollars per visit for one day, whether for injury or sickness. The plan also includes daily physician office visits at fifty dollars per visit for up to six days.
 
-On top of that, diagnostic and hospital benefits provide fifty dollars per day for radiology and X-ray, and laboratory tests, each for one day. Additional coverage includes a ten thousand dollar accidental death benefit and two hundred fifty dollars per day for emergency room visits related to group accidents.
+Outpatient surgeries and physician office visits are also included, with benefits of two hundred fifty dollars per day and fifty dollars per visit, respectively.
 
----- 200A Plan (One of Two) ----
+On top of that, diagnostic and hospital benefits provide fifty dollars per day for radiology and X-ray, and laboratory tests, each for one day. 
 
-Now, let's examine the 200A Plan. This plan increases the daily hospital confinement benefit to two hundred dollars per day, still allowing up to thirty days. Emergency room visits remain at fifty dollars per visit for one day. Both inpatient and outpatient surgeries are covered at two hundred fifty dollars per day, for up to three days each.
 
----- 200A Plan (Two of Two) ----
+---- 200A Plan ----
 
-The plan also includes a fifty dollar benefit per physician office visit, available for up to six days. Diagnostic benefits cover radiology and X-ray at fifty dollars per day for one day. There's also the ten thousand dollar accidental death benefit and two hundred fifty dollars per day for emergency room visits related to group accidents.
+Now, let's examine the 200A Plan. This plan increases the daily hospital confinement benefit to two hundred dollars per day, still allowing up to thirty days. Emergency room visits remain at fifty dollars per visit for one day, whether for injury or sickness. 
 
----- 200+ Plan (One of Two) ----
+The plan includes diagnostic benefits, with both inpatient and outpatient diagnostic radiology & x-ray at fifty dollars per day for one day, and inpatient and outpatient diagnostic laboratory tests at fifty dollars per day for one day. Daily physician office visits are covered at fifty dollars per visit for up to six days.
 
-The 200+ Plan offers two hundred dollars per day for hospital confinement, allowing up to thirty days, and fifty dollars per visit for emergency room visits, for one day. Inpatient and outpatient surgeries are generously covered at three hundred fifty dollars per day, for up to three days.
+
+
+---- 200+ Plan ----
+
+The 200+ Plan offers daily hospital confinement benefits of two hundred dollars per day for up to thirty days. Emergency room visits are covered at fifty dollars per visit for one day, whether for injury or sickness. 
+
+This plan introduces surgery benefits, with both inpatient and outpatient surgeries covered at two hundred fifty dollars per day for up to three days, each including anesthesia benefits of one hundred dollars per day. Daily physician office visits are covered at fifty dollars per visit for up to ten days. The plan also includes diagnostic benefits, with both inpatient and outpatient diagnostic radiology & x-ray and laboratory tests at fifty dollars per day for one day.
 
 ---- 200+ Plan (Two of Two) ----
 
@@ -40,43 +45,35 @@ This plan includes additional benefits like one thousand dollars per day for hos
 
 ---- 300 Plan (One of Two) ----
 
-The 300 Plan steps up the hospital confinement benefit to three hundred dollars per day, up to thirty days, and maintains the emergency room visit benefit at fifty dollars per visit, for one day. Surgery benefits are robust, with four hundred dollars per day for inpatient and outpatient procedures, each available for up to three days.
+The 300 Plan steps up the hospital confinement benefit to three hundred dollars per day, up to thirty days. Emergency room visits are covered at fifty dollars per visit for one day, whether for injury or sickness. 
+
+Both inpatient and outpatient surgeries are covered at two hundred fifty dollars per day for up to three days, each including anesthesia benefits of one hundred dollars per day. 
+
+Daily physician office visits are covered at fifty dollars per visit for up to ten days. 
 
 ---- 300 Plan (Two of Two) ----
 
 Hospital admission benefits offer one thousand dollars per day, for up to fifteen days, and physician visits are covered at fifty dollars per visit, up to ten days. The plan continues to offer a ten thousand dollar accidental death benefit and two hundred fifty dollars per day for emergency room visits due to group accidents.
 
----- 500 Plan (One of Two) ----
+---- 500 Plan ----
 
-The 500 Plan enhances your hospital confinement benefit to five hundred dollars per day, for up to thirty days. Emergency room visits are covered at seventy-five dollars per visit for one day, and both inpatient and outpatient surgeries are compensated at five hundred dollars per day, for up to three days.
+The 500 Plan enhances your hospital confinement benefit to five hundred dollars per day, for up to thirty days. Emergency room visits are covered at fifty dollars per visit for one day, whether for injury or sickness. Both inpatient and outpatient surgeries are compensated at three hundred fifty dollars per day for up to three days, each including anesthesia benefits of one hundred dollars per day. Daily physician office visits are covered at fifty dollars per visit for up to ten days. The plan also includes diagnostic benefits, with both inpatient and outpatient diagnostic radiology & x-ray and laboratory tests at fifty dollars per day for two days.
 
----- 500 Plan (Two of Two) ----
+---- 750 Plan ----
 
-Physician visits are included at fifty dollars per visit, for up to ten days, with diagnostic benefits covering radiology and X-ray at fifty dollars per day, for two days. The ten thousand dollar accidental death benefit remains, along with two hundred fifty dollars per day for emergency room visits related to group accidents.
+The 750 Plan provides seven hundred fifty dollars per day for hospital confinement, for up to thirty days. Emergency room visits are covered at seventy-five dollars per visit for one day, whether for injury or sickness. Both inpatient and outpatient surgeries are compensated at four hundred dollars per day for up to three days, each including anesthesia benefits of one hundred dollars per day. Daily physician office visits are covered at fifty dollars per visit for up to ten days. The plan also includes diagnostic benefits, with both inpatient and outpatient diagnostic radiology & x-ray and laboratory tests at fifty dollars per day for two days.
 
----- 750 Plan (One of Two) ----
+---- 1000 Plan ----
 
-Moving on to the 750 Plan, this offers seven hundred fifty dollars per day for hospital confinement, up to thirty days. Emergency room visits are covered at one hundred dollars per visit, for one day. Both inpatient and outpatient surgeries are compensated at five hundred dollars per day, for up to three days.
-
----- 750 Plan (Two of Two) ----
-
-Physician visits are covered at seventy-five dollars per visit, for up to ten days, and diagnostic benefits include seventy-five dollars per day for radiology and X-ray, available for up to three days. The plan also includes a ten thousand dollar accidental death benefit and two hundred fifty dollars per day for emergency room visits related to group accidents.
-
----- 1000 Plan (One of Two) ----
-
-The 1000 Plan provides one thousand dollars per day for hospital confinement, for up to thirty days. Emergency room visits are covered at two hundred dollars per visit, for one day. Both inpatient and outpatient surgeries are included at five hundred dollars per day, for up to three days.
-
----- 1000 Plan (Two of Two) ----
-
-Physician visits are compensated at seventy-five dollars per visit, up to ten days, with diagnostic benefits covering radiology and X-ray at one hundred dollars per day, for three days. The ten thousand dollar accidental death benefit and two hundred fifty dollars per day for group accident-related emergency room visits are also included.
+The 1000 Plan provides one thousand dollars per day for hospital confinement, for up to thirty days. Emergency room visits are covered at one hundred dollars per visit for one day, whether for injury or sickness. Both inpatient and outpatient surgeries are compensated at five hundred dollars per day for up to three days, each including anesthesia benefits of one hundred dollars per day. Daily physician office visits are covered at seventy-five dollars per visit for up to ten days. The plan also includes diagnostic benefits, with both inpatient and outpatient diagnostic radiology & x-ray and laboratory tests at seventy-five dollars per day for three days.
 
 ---- 1000+ Plan (One of Two) ----
 
-The 1000+ Plan matches the 1000 Plan with one thousand dollars per day for hospital confinement, for up to thirty days, and emergency room visits at two hundred dollars per visit, for one day. Inpatient and outpatient surgeries remain at five hundred dollars per day, for up to three days.
+The 1000+ Plan provides one thousand dollars per day for hospital confinement, for up to thirty days. It includes additional hospital benefits with one thousand dollars per day for hospital admission up to five days, and one thousand dollars per day for intensive care or coronary care stays up to fifteen days. Emergency room visits are covered at two hundred dollars per visit for one day, whether for injury or sickness. Both inpatient and outpatient surgeries are compensated at five hundred dollars per day for up to three days, each including anesthesia benefits of one hundred twenty-five dollars per day.
 
 ---- 1000+ Plan (Two of Two) ----
 
-Additional benefits include seventy-five dollars per physician visit, for up to ten days, and diagnostic benefits of one hundred dollars per day for radiology and X-ray, available for up to three days. The ten thousand dollar accidental death benefit and two hundred fifty dollars per day for emergency room visits related to group accidents are also part of this plan.
+The plan includes comprehensive diagnostic coverage with both inpatient and outpatient diagnostic radiology & x-ray and laboratory tests at one hundred dollars per day for three days. Daily physician office visits are covered at seventy-five dollars per visit for up to ten days. Under the Group Accident Benefits, you'll receive ten thousand dollars for accidental death, five hundred dollars per day for up to three days for hospital admission, and two hundred fifty dollars per day for emergency room visits.
 
 ---- Comparing the Plans - Core Benefits ----
 

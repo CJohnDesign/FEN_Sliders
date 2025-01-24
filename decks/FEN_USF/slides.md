@@ -46,16 +46,24 @@ layout: default
 
 ## Core Plan Elements
 
-<v-clicks>
+<v-click>
 
 **Key Features and Benefits**
 
 - Hospital confinement, emergency room, surgeries, diagnostic tests
 
+</v-click>
+
+<v-click>
+
 **Coverage Details**
 
 - Daily hospital, surgical, physician visits, diagnostic tests
 - $10,000 accidental death, $500 hospital admission
+
+</v-click>
+
+<v-click>
 
 **Eligibility Requirements**
 
@@ -71,13 +79,11 @@ layout: default
 
 ## Common Service Features
 
-<v-clicks>
 
 - **Network Access**: Broad network of providers
 - **Claims Process**: Streamlined and efficient
 - **Support Services**: Assistance for plan utilization
 
-</v-clicks>
 
 ---
 transition: fade-out
@@ -85,148 +91,22 @@ layout: one-half-img
 image: /img/pages/page_2.png
 ---
 
-## 100 Plan (1/2)
+## 100 Plan
 
 <v-click>
 
 **Daily Benefits**
 - Hospital Confinement: $100/day, 30 days
-- Emergency Room Visit: $50/visit, 1 day
-- Inpatient Surgery: $250/day, 3 days
+- Emergency Room Visit (Injury): $50/visit, 1 day
+- Emergency Room Visit (Sickness): $50/visit, 1 day
 <Arrow v-bind="{ x1:665, y1:80, x2:665, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
-
-<v-click>
-
-**Outpatient Surgery**
-- $250/day, 3 days
-- Physician Office Visit: $50/visit, 6 days
-
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 100 Plan (2/2)
-
-<v-click>
-
-**Diagnostic and Hospital Benefits**
-- Radiology & X-ray: $50/day, 1 day
-- Laboratory Tests: $50/day, 1 day
-<Arrow v-bind="{ x1:665, y1:80, x2:665, y2:140, color: 'var(--slidev-theme-accent)' }" />
-
-</v-click>
-
-<v-click>
-
-**Additional Coverage**
-- Accidental Death: $10,000
-- Emergency Room (Group Accident): $250/day, 1 day
-
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 200A Plan (1/2)
-
-<v-click>
-
-**Daily Benefits**
-- Hospital Confinement: $200/day, 30 days
-- Emergency Room Visit: $50/visit, 1 day
-<Arrow v-bind="{ x1:705, y1:80, x2:705, y2:140, color: 'var(--slidev-theme-accent)' }" />
-
-</v-click>
-
-<v-click>
-
-**Surgery Benefits**
-- Inpatient: $250/day, 3 days
-- Outpatient: $250/day, 3 days
-
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 200A Plan (2/2)
-
-<v-click>
-
-**Physician and Diagnostic**
-- Office Visit: $50/visit, 6 days
-- Radiology & X-ray: $50/day, 1 day
-<Arrow v-bind="{ x1:705, y1:80, x2:705, y2:140, color: 'var(--slidev-theme-accent)' }" />
-
-</v-click>
-
-<v-click>
-
-**Additional Coverage**
-- Accidental Death: $10,000
-- Emergency Room (Group Accident): $250/day, 1 day
-
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 200+ Plan (1/2)
-
-<v-click>
-
-**Daily Benefits**
-- Hospital Confinement: $200/day, 30 days
-- Emergency Room Visit: $50/visit, 1 day
-<Arrow v-bind="{ x1:743, y1:80, x2:743, y2:140, color: 'var(--slidev-theme-accent)' }" />
-
-</v-click>
-
-<v-click>
-
-**Surgery Benefits**
-- Inpatient: $350/day, 3 days
-- Outpatient: $350/day, 3 days
-
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 200+ Plan (2/2)
 
 <v-click>
 
 **Additional Benefits**
-- Hospital Admission: $1,000/day, 5 days
-- Physician Visit: $50/visit, 10 days
-<Arrow v-bind="{ x1:743, y1:80, x2:743, y2:140, color: 'var(--slidev-theme-accent)' }" />
-
-</v-click>
-
-<v-click>
-
-**Additional Coverage**
-- Accidental Death: $10,000
-- Emergency Room (Group Accident): $250/day, 1 day
+- Daily Physician Office Visit: $50/visit, 6 days
 
 </v-click>
 
@@ -236,13 +116,78 @@ layout: one-half-img
 image: /img/pages/page_2.png
 ---
 
-## 300 Plan (1/2)
+## 200A Plan
+
+<v-click>
+
+**Daily Benefits**
+- Hospital Confinement: $200/day, 30 days
+- Emergency Room Visit (Injury): $50/visit, 1 day
+- Emergency Room Visit (Sickness): $50/visit, 1 day
+<Arrow v-bind="{ x1:705, y1:80, x2:705, y2:140, color: 'var(--slidev-theme-accent)' }" />
+
+</v-click>
+
+<v-click>
+
+**Diagnostic Benefits**
+- Daily Physician Office Visit: $50/visit, 6 days
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: $50/day, 1 day
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: $50/day, 1 day
+
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: /img/pages/page_2.png
+---
+
+## 200+ Plan
+
+<v-click>
+
+**Daily Benefits**
+- Hospital Confinement: $200/day, 30 days
+- Emergency Room Visit (Injury): $50/visit, 1 day
+- Emergency Room Visit (Sickness): $50/visit, 1 day
+<Arrow v-bind="{ x1:743, y1:80, x2:743, y2:140, color: 'var(--slidev-theme-accent)' }" />
+
+</v-click>
+
+<v-click>
+
+**Surgery Benefits**
+- Daily Inpatient Surgery: $250/day, 3 days
+- Daily Inpatient Surgery Anesthesia: $100/day, 3 days
+- Daily Outpatient Surgery: $250/day, 3 days
+- Daily Outpatient Surgery Anesthesia: $100/day, 3 days
+
+</v-click>
+
+<v-click>
+
+**Additional Benefits**
+- Daily Physician Office Visit: $50/visit, 10 days
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: $50/day, 1 day
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: $50/day, 1 day
+
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: /img/pages/page_2.png
+---
+
+## 300 Plan
 
 <v-click>
 
 **Daily Benefits**
 - Hospital Confinement: $300/day, 30 days
-- Emergency Room Visit: $50/visit, 1 day
+- Emergency Room Visit (Injury): $50/visit, 1 day
+- Emergency Room Visit (Sickness): $50/visit, 1 day
 <Arrow v-bind="{ x1:780, y1:80, x2:780, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -250,33 +195,17 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Surgery Benefits**
-- Inpatient: $400/day, 3 days
-- Outpatient: $400/day, 3 days
+- Daily Inpatient Surgery: $250/day, 3 days
+- Daily Inpatient Surgery Anesthesia: $100/day, 3 days
+- Daily Outpatient Surgery: $250/day, 3 days
+- Daily Outpatient Surgery Anesthesia: $100/day, 3 days
 
 </v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 300 Plan (2/2)
 
 <v-click>
 
 **Additional Benefits**
-- Hospital Admission: $1,000/day, 15 days
-- Physician Visit: $50/visit, 10 days
-<Arrow v-bind="{ x1:780, y1:80, x2:780, y2:140, color: 'var(--slidev-theme-accent)' }" />
-
-</v-click>
-
-<v-click>
-
-**Additional Coverage**
-- Accidental Death: $10,000
-- Emergency Room (Group Accident): $250/day, 1 day
+- Daily Physician Office Visit: $50/visit, 10 days
 
 </v-click>
 
@@ -286,13 +215,14 @@ layout: one-half-img
 image: /img/pages/page_2.png
 ---
 
-## 500 Plan (1/2)
+## 500 Plan
 
 <v-click>
 
 **Daily Benefits**
 - Hospital Confinement: $500/day, 30 days
-- Emergency Room Visit: $75/visit, 1 day
+- Emergency Room Visit (Injury): $50/visit, 1 day
+- Emergency Room Visit (Sickness): $50/visit, 1 day
 <Arrow v-bind="{ x1:819, y1:80, x2:819, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -300,32 +230,19 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Surgery Benefits**
-- Inpatient: $500/day, 3 days
-- Outpatient: $500/day, 3 days
+- Daily Inpatient Surgery: $350/day, 3 days
+- Daily Inpatient Surgery Anesthesia: $100/day, 3 days
+- Daily Outpatient Surgery: $350/day, 3 days
+- Daily Outpatient Surgery Anesthesia: $100/day, 3 days
 
 </v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 500 Plan (2/2)
 
 <v-click>
 
 **Additional Benefits**
-- Physician Visit: $50/visit, 10 days
-- Radiology & X-ray: $50/day, 2 days
-<Arrow v-bind="{ x1:819, y1:80, x2:819, y2:140, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Additional Coverage**
-- Accidental Death: $10,000
-- Emergency Room (Group Accident): $250/day, 1 day
+- Daily Physician Office Visit: $50/visit, 10 days
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: $50/day, 2 days
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: $50/day, 2 days
 
 </v-click>
 
@@ -335,47 +252,33 @@ layout: one-half-img
 image: /img/pages/page_2.png
 ---
 
-## 750 Plan (1/2)
+## 750 Plan
 
 <v-click>
 
 **Daily Benefits**
 - Hospital Confinement: $750/day, 30 days
-- Emergency Room Visit: $100/visit, 1 day
-<Arrow v-bind="{ x1:855, y1:80, x2:855, y2:140, color: 'var(--slidev-theme-accent)' }" />
+- Emergency Room Visit (Injury): $75/visit, 1 day
+- Emergency Room Visit (Sickness): $75/visit, 1 day
 
 </v-click>
 
 <v-click>
 
 **Surgery Benefits**
-- Inpatient: $500/day, 3 days
-- Outpatient: $500/day, 3 days
+- Daily Inpatient Surgery: $400/day, 3 days
+- Daily Inpatient Surgery Anesthesia: $100/day, 3 days
+- Daily Outpatient Surgery: $400/day, 3 days
+- Daily Outpatient Surgery Anesthesia: $100/day, 3 days
 
 </v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 750 Plan (2/2)
 
 <v-click>
 
 **Additional Benefits**
-- Physician Visit: $75/visit, 10 days
-- Radiology & X-ray: $75/day, 3 days
-<Arrow v-bind="{ x1:855, y1:80, x2:855, y2:140, color: 'var(--slidev-theme-accent)' }" />
-
-</v-click>
-
-<v-click>
-
-**Additional Coverage**
-- Accidental Death: $10,000
-- Emergency Room (Group Accident): $250/day, 1 day
+- Daily Physician Office Visit: $50/visit, 10 days
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: $50/day, 2 days
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: $50/day, 2 days
 
 </v-click>
 
@@ -385,47 +288,33 @@ layout: one-half-img
 image: /img/pages/page_2.png
 ---
 
-## 1000 Plan (1/2)
+## 1000 Plan
 
 <v-click>
 
 **Daily Benefits**
 - Hospital Confinement: $1,000/day, 30 days
-- Emergency Room Visit: $200/visit, 1 day
-<Arrow v-bind="{ x1:896, y1:80, x2:896, y2:140, color: 'var(--slidev-theme-accent)' }" />
+- Emergency Room Visit (Injury): $100/visit, 1 day
+- Emergency Room Visit (Sickness): $100/visit, 1 day
 
 </v-click>
 
 <v-click>
 
 **Surgery Benefits**
-- Inpatient: $500/day, 3 days
-- Outpatient: $500/day, 3 days
+- Daily Inpatient Surgery: $500/day, 3 days
+- Daily Inpatient Surgery Anesthesia: $100/day, 3 days
+- Daily Outpatient Surgery: $500/day, 3 days
+- Daily Outpatient Surgery Anesthesia: $100/day, 3 days
 
 </v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: /img/pages/page_2.png
----
-
-## 1000 Plan (2/2)
 
 <v-click>
 
 **Additional Benefits**
-- Physician Visit: $75/visit, 10 days
-- Radiology & X-ray: $100/day, 3 days
-<Arrow v-bind="{ x1:896, y1:80, x2:896, y2:140, color: 'var(--slidev-theme-accent)' }" />
-
-</v-click>
-
-<v-click>
-
-**Additional Coverage**
-- Accidental Death: $10,000
-- Emergency Room (Group Accident): $250/day, 1 day
+- Daily Physician Office Visit: $75/visit, 10 days
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: $75/day, 3 days
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: $75/day, 3 days
 
 </v-click>
 
@@ -441,16 +330,20 @@ image: /img/pages/page_2.png
 
 **Daily Benefits**
 - Hospital Confinement: $1,000/day, 30 days
-- Emergency Room Visit: $200/visit, 1 day
-<Arrow v-bind="{ x1:938, y1:80, x2:938, y2:140, color: 'var(--slidev-theme-accent)' }" />
+- Daily Hospital Admission: $1,000/day, 5 days
+- Daily Intensive Care/Coronary Care (ICU/CCU): $1,000/day, 15 days
+- Emergency Room Visit (Injury): $200/visit, 1 day
+- Emergency Room Visit (Sickness): $200/visit, 1 day
 
 </v-click>
 
 <v-click>
 
 **Surgery Benefits**
-- Inpatient: $500/day, 3 days
-- Outpatient: $500/day, 3 days
+- Daily Inpatient Surgery: $500/day, 3 days
+- Daily Inpatient Surgery Anesthesia: $125/day, 3 days
+- Daily Outpatient Surgery: $500/day, 3 days
+- Daily Outpatient Surgery Anesthesia: $125/day, 3 days
 
 </v-click>
 
@@ -465,17 +358,18 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Additional Benefits**
-- Physician Visit: $75/visit, 10 days
-- Radiology & X-ray: $100/day, 3 days
-<Arrow v-bind="{ x1:938, y1:80, x2:938, y2:140, color: 'var(--slidev-theme-accent)' }" />
+- Daily Physician Office Visit: $75/visit, 10 days
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: $100/day, 3 days
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: $100/day, 3 days
 
 </v-click>
 
 <v-click>
 
-**Additional Coverage**
+**Group Accident Benefits**
 - Accidental Death: $10,000
-- Emergency Room (Group Accident): $250/day, 1 day
+- Hospital Admission: $500/day, 3 days
+- Emergency Room: $250/day, 1 day
 
 </v-click>
 
@@ -489,9 +383,9 @@ layout: default
 | **Core Benefits** | **100 Plan** | **200A Plan** | **200+ Plan** | **300 Plan** | **500 Plan** | **750 Plan** | **1000 Plan** | **1000+ Plan** |
 |-------------|--------------|---------------|---------------|--------------|--------------|--------------|---------------|----------------|
 | Daily Hospital Confinement (up to 30 days) | $100 | $200 | $200 | $300 | $500 | $750 | $1,000 | $1,000 |
-| Daily Emergency Room Visit (1 day) | $50 | $50 | $50 | $50 | $75 | $100 | $200 | $200 |
-| Daily Inpatient Surgery (up to 3 days) | $250 | $250 | $350 | $400 | $500 | $500 | $500 | $500 |
-| Daily Outpatient Surgery (up to 3 days) | $250 | $250 | $350 | $400 | $500 | $500 | $500 | $500 |
+| Daily Emergency Room Visit (1 day) | $50 | $50 | $50 | $50 | $50 | $75 | $200 | $200 |
+| Daily Inpatient Surgery (up to 3 days) | $250 | $250 | $350 | $400 | $350 | $400 | $500 | $500 |
+| Daily Outpatient Surgery (up to 3 days) | $250 | $250 | $350 | $400 | $350 | $400 | $500 | $500 |
 
 ---
 transition: fade-out
@@ -502,9 +396,9 @@ layout: default
 
 | **Additional Benefits** | **100 Plan** | **200A Plan** | **200+ Plan** | **300 Plan** | **500 Plan** | **750 Plan** | **1000 Plan** | **1000+ Plan** |
 |-------------|--------------|---------------|---------------|--------------|--------------|--------------|---------------|----------------|
-| Daily Physician Office Visit (up to 6-10 days) | $50 | $50 | $50 | $50 | $50 | $75 | $75 | $75 |
+| Daily Physician Office Visit (up to 6-10 days) | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 |
 | Daily Hospital Admission | - | - | $1,000 | $1,000 | - | - | - | - |
-| Daily Radiology & X-ray | $50 | $50 | - | - | $50 | $75 | $100 | $100 |
+| Daily Radiology & X-ray | $50 | $50 | - | - | $50 | $50 | $100 | $100 |
 | Accidental Death Benefit | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |
 | Group Accident ER Visit (1 day) | $250 | $250 | $250 | $250 | $250 | $250 | $250 | $250 |
 
