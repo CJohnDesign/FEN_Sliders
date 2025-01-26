@@ -36,27 +36,27 @@ BWA, or Business Workers of America,
 
 is a not-for-profit member association that was founded in 2006. 
 
-Our mission is dedicated to improving workers' lives 
+Their mission is dedicated to improving workers' lives 
 
 by enhancing their standard of living 
 
 and providing access to valuable savings. 
 
-We actively influence both federal and state legislation to benefit the American workforce, 
+They actively influence both federal and state legislation to benefit the American workforce, 
 
-ensuring your interests are represented at every level.
+ensuring member's interests are represented at every level.
 
 ---- BWA & Plan Relationship ----
 
-Before we dive into the specific benefits, there's something important you need to understand about membership. 
+Before we discuss plan benefits with clients, there's required information we must cover with them.
 
-A working membership is required to access our benefits. 
+Members must be working and become a member of BWA Group to be eligible for plan and member benefits. 
 
-You must join the BWA Association 
+This allows members to not only 
 
-to be eligible for plan benefits. 
+take advantage of BWA Membership benefits
 
-This membership also opens the door to both BWA Membership benefits
+but health benefits as well. Next up are the Membership Benefit Highlights
 
 ---- MBR Benefits ----
 

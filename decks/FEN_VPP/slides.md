@@ -158,7 +158,7 @@ line: Thank you for learning about VPP. Promoting health and creating opportunit
 
 # Thank You!
 
-Promoting health and creating opportunities!
+Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
 

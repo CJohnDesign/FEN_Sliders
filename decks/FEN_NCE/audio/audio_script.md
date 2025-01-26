@@ -48,7 +48,7 @@ We are committed to supporting micro-businesses and independent workers by provi
 
 ---- NCE & Plan Relationship ----
 
-Prior to discussing plan benefit information, clients must be informed of this information. 
+Before we discuss plan benefits with clients, there's required information we must cover with them.
 
 Members must be working and become a Member of the NCE Group
 
@@ -92,6 +92,8 @@ The First Health Network is available in all 50 states, giving you nationwide ac
 
 ---- Healthcare Savings Programs ----
 
+Let's discuss the Healthcare Savings Programs
+
 Prescription Discount Benefit: Members can use their Discount Rx card and save an average of 15% on Brand Name and 55% on Generic Medications at participating Pharmacies. All FDA approved drugs are discounted with the card. Even lifestyle drugs can be obtained at greatly reduced rates. The Pharmacy Network is national in scope. Cards can be used for all family members. There is no limit on the number of prescriptions filled. No forms to fill out, nothing to activate.
 
 The Aetna Dental Access® Network: As a member of the GapAfford Plus program, members and their family have access to a national network of over 132,000 available dental practice locations through one of the largest dental discount networks in America, the Aetna Dental Access® Network. Participating dental locations provide savings that range from 15-50% per visit, on average, on dental services including cleanings, x-rays, fillings, root canals, crowns, bridges and orthodontia. Advantages of this discount program: No pre-existing condition exclusions, No benefit maximum, Cosmetic dentistry included, Orthodontia always included, Can be used in addition to dental insurance or enhance existing dental insurance
@@ -111,4 +113,3 @@ Additional services include, Medical Bill Negotiations: Members can save on thei
 ---- Closing ----
 
 Thank you for taking the time to learn about the National Congress of Employers and our member benefits. Continue to be great!
-

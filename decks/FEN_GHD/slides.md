@@ -61,7 +61,7 @@ image: /img/style/work.png
 - Provide **wellness programs**
 - Manage plans **in-house**
 - Use **third-party administrators**
-- Design **customized benefits**
+- Design and implement **customized benefits**
 
 </v-clicks>
 
@@ -75,10 +75,10 @@ image: /img/style/doc.png
 
 <v-clicks>
 
-- **Direct Provision** of health benefits
-- **Custom Plans** for specific needs
-- Can be **Self-Funded**
-- Or **Insured** through carriers
+- Provide and manage **health benefits** directly
+- Design **customized plans** for specific needs
+- Can be **self-funded** (pay claims directly)
+- Or **insured** through carriers
 
 </v-clicks>
 
@@ -95,9 +95,9 @@ image: /img/style/health.png
 - **Healthcare product** distribution
 - Focus on **vitamins** and **supplements**
 - **Wholesale** business model
+- Supply products to **retailers**
 - Provide **all-natural** topical patches
-- **Maximum effectiveness** supplements
-- Improve **quality of life**
+- **Maximum effectiveness** supplements improving **quality of life**
 
 </v-clicks>
 
@@ -112,8 +112,9 @@ image: /img/style/benefits.png
 <v-clicks>
 
 - Must become **Affiliate Marketer**
-- Join **Good Health Distribution Partners**
-- Access to **health benefits**
+- Share brand and **refer others**
+- Receive **compensation** as Ambassador
+- Access **health benefits** as Affiliate
 
 </v-clicks>
 

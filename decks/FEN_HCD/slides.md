@@ -77,7 +77,6 @@ image: /img/style/doc.png
 - **Custom Plans** for specific needs
 - Can be **Self-Funded**
 - Or **Insured** through carriers
-- **Tailored** benefit solutions
 
 </v-clicks>
 
@@ -91,12 +90,12 @@ image: /img/style/analytics.png
 
 <v-clicks>
 
-- **Healthcare data** analytics experts
-- Provide **actionable insights**
-- Enable **informed decisions**
-- Focus on **patient care**
-- Improve **operational efficiency**
-- Identify **healthcare trends**
+- **Healthcare product** distribution
+- Focus on **vitamins** and **supplements**
+- **Wholesale** business model
+- Supply products to **retailers**
+- Provide **all-natural** topical patches
+- **Maximum effectiveness** supplements improving **quality of life**
 
 </v-clicks>
 
@@ -110,11 +109,10 @@ image: /img/style/check.png
 
 <v-clicks>
 
-- Become a **Working Owner**
-- Complete **health surveys**
-- Receive **compensation**
-- Access **health benefits**
-- Provided by **HCDA**
+- Must become **Affiliate Marketer**
+- Share brand and **refer others**
+- Receive **compensation** as Ambassador
+- Access **health benefits** as Affiliate
 
 </v-clicks>
 

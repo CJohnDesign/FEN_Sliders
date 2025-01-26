@@ -50,35 +50,34 @@ healthcare product distribution,
 
 focusing on vitamins, supplements, and other wellness items. 
 
-We operate a wholesale business model, 
+They operate a wholesale business model, 
 
 supplying products to retailers and other businesses. Our mission is to help people live healthier lives through our all-natural topical patches that provide 
 
-maximum effectiveness for nutritional supplements,
+maximum effectiveness for nutritional supplements, improving quality of life for our members.
 
-improving quality of life for our members.
 
 ---- Plan Sponsor & Relationship ----
 
-There's something crucial you need to understand about membership. 
+Before we discuss plan benefits with clients, there's required information we must cover with them.
 
 Members must become an Affiliate Marketer of Good Health Distribution Partners. 
 
-When you join Good Health Distribution Partners, 
+While not required to sell, this affiliation allows members to share the brand and refer others to become Affiliates.
 
-you gain access to health benefits. 
+As an Ambassador, they can receive compensation, 
 
-These benefits will be covered in our plan overview.
+and as an Affiliate, they receive health benefits that we'll cover in the Plan Overview.
 
 ---- Membership Benefits ----
 
 Let's explore the key membership benefits in three important categories. 
 
-As an Official GHD Affiliate, you'll have business opportunities and product access. 
+As an Official Good Health Distribution Partner Affiliate, they'll have business opportunities and product access. 
 
-Through our Benefit Programs, you get Health Benefits access and our Get Well and Stay Well programs. 
+Through their Benefit Programs, members get Health Benefits access and our Get Well and Stay Well programs. 
 
-With our MEC Plan Benefits, you can avoid tax penalties in key states while staying protected.
+With our MEC Plan Benefits, members can avoid tax penalties in key states while staying protected.
 
 ---- Closing ----
 
