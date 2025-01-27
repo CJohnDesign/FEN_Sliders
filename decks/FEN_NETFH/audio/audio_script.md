@@ -2,20 +2,14 @@
 
 Welcome to this tutorial on using the First Health provider search website. I'll guide you through the process of finding a healthcare provider step by step.
 
+---- Locating the Provider Search ----
+
+The provider search website is located at providerlocator.firsthealth.com. This web address should be located on the member's ID card.
+
 ---- Accessing the Search ----
 
-Let's begin with heading to the site. Locate and click on the "Locate a Provider" button. Under network options, select "First Health Network," and then click the "Start Now" button to begin your provider search.
-
-Now, let's set up your search criteria. First, select your provider type. In this demonstration, we'll choose "Physician" as our provider type. Make sure to check the "Accepting New Patients" option to ensure provider availability. You can search using either a ZIP code or state, but I recommend using a ZIP code for more precise results. You can adjust the search radius up to 100 miles from your location.
-
-For more specific results, click on "More Options." This opens additional search criteria that allow you to break down provider searches in greater detail. Take a moment to review and select any specific requirements you may have for your provider.
-
-After entering all your search criteria, click the "Search Now" button. The system will generate a list of providers matching your specifications. To view detailed information about a specific provider, simply click on their name in the results list.
-
-On the provider details page, you'll find comprehensive information that the provider has chosen to share. This may include their specialties, office hours, and contact information. Notice the convenient sharing options available to you.
-
-A helpful feature is the ability to share provider information. You can send the details to yourself via email or text message. To use this feature, click either the email or telephone option, enter your contact information, and click "Verify and Send." The system will then send you the provider's details for future reference.
+To begin with the site, members should locate and click on the "Locate a Provider" button. Under network options, select "First Health Network," and then click the "Start Now" button to begin the provider search. Next, members will set up their search criteria. First, they should select their provider type. For this demonstration, "Physician" will be selected as the provider type. members should check the "Accepting New Patients" option to ensure provider availability. They can search using either a ZIP code or state, but using a ZIP code is recommended for more precise results. The search radius can be adjusted up to 100 miles from the location. For more specific results, members can click on "More Options." This opens additional search criteria that allow provider searches to be broken down in greater detail. members should take a moment to review and select any specific requirements they may have for their provider. After entering all search criteria, clicking the "Search Now" button will generate a list of providers matching the specifications. To view detailed information about a specific provider, members can click on the provider's name in the results list. On the provider details page, comprehensive information that the provider has chosen to share will be displayed. This may include their specialties, office hours, and contact information. The system offers convenient sharing options. A helpful feature is the ability to share provider information. members can send the details to themselves via email or text message. To use this feature, they can click either the email or telephone option, enter their contact information, and click "Verify and Send." The system will then send the provider's details for future reference.
 
 ---- Closing ----
 
-This completes our tutorial on using the First Health provider search. Remember, you can repeat this process anytime you need to find a new healthcare provider in your network.
+This completes the tutorial on using the First Health provider search. members can repeat this process anytime they need to find a new healthcare provider in their network.

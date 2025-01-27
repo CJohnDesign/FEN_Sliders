@@ -4,36 +4,14 @@ Welcome to this tutorial on using the Multiplan provider search website. I'll gu
 
 ---- Getting Started ----
 
-Most Member ID cards will have a specific web address for provider search. Notice the card states Value Point by MultiPlan.
+Most Member ID cards contain a specific web address for provider search. This card displays 
 
-If this information is unavailable members can still locate the correct Provider Network following this process.
+Value Point by MultiPlan. If this information is unavailable, members can still locate the correct Provider Network following these steps.
 
 ---- Finding the Provider Search ----
 
-Once we've signed on to the web page, we are going to select Find a Provider.
-
-From there, we're going to select the network on the members ID with the Multiplan Logo.
-
-For example, on our essential care plan member ID card, it states Value Point by MultiPlan.
-
-This indicates that Value Point is under the Multiplan Network.
-
-So we're going to select Value Point.
-
-As we saw on the card.
-
-We're now going to enter in our search criteria.
-
-If you click in the box, it will allow a drop down box to formulate and you can select the provider type or if you'd like, you can type in the physician's name.
-
-So in this example, we are going to use hospital.
-
-Next We're going to enter in member's zip code.
-
-And then we'll click on the search icon.
-
-Once you click on the search icon, it will populate a list of providers that are available for you and you can click on the providers available to get the provider details.
+After signing onto the web page, members should select Find a Provider. From there, they should select the network shown on the member's ID card with the Multiplan Logo. For example, if the essential care plan member ID card states Value Point by MultiPlan, this indicates that Value Point is under the Multiplan Network. members should select Value Point as shown on the card. Next, members can enter their search criteria. Clicking in the search box will display a drop-down menu to select the provider type, or members may type in a specific physician's name. For this example, "hospital" will be used as the provider type. members then enter the member's zip code and click on the search icon. The search results will populate a list of available providers. members can click on any provider to view their detailed information.
 
 ---- Closing ----
 
-This will conclude your Multiplan provider search. Thank you for participating in First Enroll's Training and continue to be great!!
+This concludes the Multiplan provider search tutorial. Thank you for participating in First Enroll's Training.

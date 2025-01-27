@@ -36,6 +36,19 @@ transition: fade-out
 layout: new-section
 ---
 
+<div class="grid grid-cols-1 items-center py-8 mt-6">
+
+  ### Locating the Provider Search
+  # https://providerlocator.firsthealth.com
+
+</div>
+
+
+---
+transition: fade-out
+layout: new-section
+---
+
 <div class="relative w-full h-full overflow-hidden">
   <video 
     src="./video/FEN_NETFH.mp4" 
