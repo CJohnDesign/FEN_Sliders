@@ -1,0 +1,131 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BAC_2",
+    "title": "BWA Americare2",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-01-27T17:02:42.553649",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BAC_2",
+    "metadata": {
+      "deck_id": "FEN_BAC_2",
+      "title": "BWA Americare2",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-01-27T17:02:42.553649",
+      "version": "1.0"
+    }
+  },
+  "slides": [
+    {
+      "title": "MedChoice Group Hospital Indemnity Insurance Overview",
+      "content": "This slide provides an overview of the MedChoice Group Hospital Indemnity Insurance offered by APL, designed to help cover costs associated with unexpected illnesses or accidents requiring hospital stays or outpatient treatments. Key features include coverage for doctor visits, urgent care, outpatient surgery, and hospital stays, with the flexibility to use benefit funds for both medical and non-medical expenses. The plan offers guaranteed issue without medical questions or exams and cost-effective premiums with payroll deduction. The benefits table for Business Workers of America Association under Plan 2 includes various coverage details such as hospital admission benefits, intensive care unit admission benefits, accident and sickness surgery benefits, and outpatient treatment benefits, with specific daily rates and maximum days covered.",
+      "type": "default"
+    },
+    {
+      "title": "MedChoice\u2122 Group Hospital Indemnity Insurance Plan 2 Details",
+      "content": "The slide outlines the additional riders and treatments included or excluded in the MedChoice\u2122 Group Hospital Indemnity Insurance Plan 2. The Portability Option Rider is included, allowing policyholders to maintain coverage if they leave their employer. The Occupational Exclusion Rider is not included. The Continuity of Coverage Amendment Rider (Takeover) is included, providing credit for time served under prior coverage for the Pre-Existing Condition Period. Treatments for serious mental illness and for alcohol or drug addiction are not included in this plan.",
+      "type": "default"
+    },
+    {
+      "title": "MedChoice Group Hospital Indemnity Insurance Overview",
+      "content": "This slide presents the MedChoice Group Hospital Indemnity Insurance offered by APL, designed to help cover costs associated with unexpected illnesses or accidents requiring hospital stays or outpatient treatments. It highlights the process of choosing a plan, receiving treatment, and filing claims. Key features include coverage for doctor visits, urgent care, outpatient surgery, and hospital stays, with funds usable for both medical and non-medical expenses. The plan offers guaranteed issue without medical exams and cost-effective premiums through payroll deduction. The benefits table for Business Workers of America Assn. under Plan 3 includes details such as hospital admission benefits of $1,000 per day, intensive care unit admission benefits of $2,000 per day, and various outpatient and surgery benefits with specified daily maximums.",
+      "type": "default"
+    },
+    {
+      "title": "MedChoice\u2122 Group Hospital Indemnity Insurance Plan 3 Details",
+      "content": "The slide outlines the additional riders and treatments included in the MedChoice\u2122 Group Hospital Indemnity Insurance Plan 3. The Portability Option Rider and Continuity of Coverage Amendment Rider (Takeover) are included, with the latter offering credit for time served under prior coverage for the Pre-Existing Condition Period. The Occupational Exclusion Rider is not included. Additionally, the plan covers treatment for serious mental illness and treatment for alcohol or drug addiction.",
+      "type": "default"
+    },
+    {
+      "title": "MedChoice Group Hospital Indemnity Insurance Overview",
+      "content": "This slide presents an overview of the MedChoice Group Hospital Indemnity Insurance offered by APL, designed to help cover costs associated with unexpected illnesses or accidents requiring hospital stays or outpatient treatments. Key features include coverage for doctor visits, urgent care, outpatient surgery, and hospital stays, with flexible use of benefit funds and guaranteed issue without medical exams. The plan offers cost-effective premiums with payroll deduction. The summary of benefits for Business Workers of America Assn. under Plan 4 includes various coverages such as hospital admission and confinement benefits, intensive care unit benefits, accident and sickness surgery benefits, and outpatient treatment benefits, with specified daily maximums.",
+      "type": "default"
+    },
+    {
+      "title": "MedChoice\u2122 Group Hospital Indemnity Insurance Plan 4 Details",
+      "content": "The slide provides details of the MedChoice\u2122 Group Hospital Indemnity Insurance Plan 4. It outlines specific benefits and exclusions, including a $75 per day benefit for physical, speech, or occupational therapy facilities for a maximum of 5 days, $100 per day for minor diagnostic exams for 1 day, and $500 per day for major diagnostic exams for 1 day. Ambulance benefits are also detailed, with $500 per day for ground transport and $1,000 per day for air transport, each for a maximum of 1 day. Additional riders include a portability option rider, which is included, while occupational exclusion and continuity of coverage amendment riders are not included. Treatments for serious mental illness and alcohol or drug addiction are also not included.",
+      "type": "default"
+    }
+  ],
+  "pdf_path": "decks/FEN_BAC_2/img/pdfs/BAC-all.pdf",
+  "pdf_info": {
+    "num_pages": 6,
+    "page_paths": [
+      "decks/FEN_BAC_2/img/pages/page_1.png",
+      "decks/FEN_BAC_2/img/pages/page_2.png",
+      "decks/FEN_BAC_2/img/pages/page_3.png",
+      "decks/FEN_BAC_2/img/pages/page_4.png",
+      "decks/FEN_BAC_2/img/pages/page_5.png",
+      "decks/FEN_BAC_2/img/pages/page_6.png"
+    ],
+    "output_dir": "decks/FEN_BAC_2/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": [
+    {
+      "title": "MedChoice Group Hospital Indemnity Insurance Overview",
+      "summary": "This slide provides an overview of the MedChoice Group Hospital Indemnity Insurance offered by APL, designed to help cover costs associated with unexpected illnesses or accidents requiring hospital stays or outpatient treatments. Key features include coverage for doctor visits, urgent care, outpatient surgery, and hospital stays, with the flexibility to use benefit funds for both medical and non-medical expenses. The plan offers guaranteed issue without medical questions or exams and cost-effective premiums with payroll deduction. The benefits table for Business Workers of America Association under Plan 2 includes various coverage details such as hospital admission benefits, intensive care unit admission benefits, accident and sickness surgery benefits, and outpatient treatment benefits, with specific daily rates and maximum days covered.",
+      "tableDetails": {
+        "hasBenefitsTable": true,
+        "hasLimitations": false
+      },
+      "page": 1
+    },
+    {
+      "title": "MedChoice\u2122 Group Hospital Indemnity Insurance Plan 2 Details",
+      "summary": "The slide outlines the additional riders and treatments included or excluded in the MedChoice\u2122 Group Hospital Indemnity Insurance Plan 2. The Portability Option Rider is included, allowing policyholders to maintain coverage if they leave their employer. The Occupational Exclusion Rider is not included. The Continuity of Coverage Amendment Rider (Takeover) is included, providing credit for time served under prior coverage for the Pre-Existing Condition Period. Treatments for serious mental illness and for alcohol or drug addiction are not included in this plan.",
+      "tableDetails": {
+        "hasBenefitsTable": false,
+        "hasLimitations": true
+      },
+      "page": 2
+    },
+    {
+      "title": "MedChoice Group Hospital Indemnity Insurance Overview",
+      "summary": "This slide presents the MedChoice Group Hospital Indemnity Insurance offered by APL, designed to help cover costs associated with unexpected illnesses or accidents requiring hospital stays or outpatient treatments. It highlights the process of choosing a plan, receiving treatment, and filing claims. Key features include coverage for doctor visits, urgent care, outpatient surgery, and hospital stays, with funds usable for both medical and non-medical expenses. The plan offers guaranteed issue without medical exams and cost-effective premiums through payroll deduction. The benefits table for Business Workers of America Assn. under Plan 3 includes details such as hospital admission benefits of $1,000 per day, intensive care unit admission benefits of $2,000 per day, and various outpatient and surgery benefits with specified daily maximums.",
+      "tableDetails": {
+        "hasBenefitsTable": true,
+        "hasLimitations": false
+      },
+      "page": 3
+    },
+    {
+      "title": "MedChoice\u2122 Group Hospital Indemnity Insurance Plan 3 Details",
+      "summary": "The slide outlines the additional riders and treatments included in the MedChoice\u2122 Group Hospital Indemnity Insurance Plan 3. The Portability Option Rider and Continuity of Coverage Amendment Rider (Takeover) are included, with the latter offering credit for time served under prior coverage for the Pre-Existing Condition Period. The Occupational Exclusion Rider is not included. Additionally, the plan covers treatment for serious mental illness and treatment for alcohol or drug addiction.",
+      "tableDetails": {
+        "hasBenefitsTable": false,
+        "hasLimitations": false
+      },
+      "page": 4
+    },
+    {
+      "title": "MedChoice Group Hospital Indemnity Insurance Overview",
+      "summary": "This slide presents an overview of the MedChoice Group Hospital Indemnity Insurance offered by APL, designed to help cover costs associated with unexpected illnesses or accidents requiring hospital stays or outpatient treatments. Key features include coverage for doctor visits, urgent care, outpatient surgery, and hospital stays, with flexible use of benefit funds and guaranteed issue without medical exams. The plan offers cost-effective premiums with payroll deduction. The summary of benefits for Business Workers of America Assn. under Plan 4 includes various coverages such as hospital admission and confinement benefits, intensive care unit benefits, accident and sickness surgery benefits, and outpatient treatment benefits, with specified daily maximums.",
+      "tableDetails": {
+        "hasBenefitsTable": true,
+        "hasLimitations": false
+      },
+      "page": 5
+    },
+    {
+      "title": "MedChoice\u2122 Group Hospital Indemnity Insurance Plan 4 Details",
+      "summary": "The slide provides details of the MedChoice\u2122 Group Hospital Indemnity Insurance Plan 4. It outlines specific benefits and exclusions, including a $75 per day benefit for physical, speech, or occupational therapy facilities for a maximum of 5 days, $100 per day for minor diagnostic exams for 1 day, and $500 per day for major diagnostic exams for 1 day. Ambulance benefits are also detailed, with $500 per day for ground transport and $1,000 per day for air transport, each for a maximum of 1 day. Additional riders include a portability option rider, which is included, while occupational exclusion and continuity of coverage amendment riders are not included. Treatments for serious mental illness and alcohol or drug addiction are also not included.",
+      "tableDetails": {
+        "hasBenefitsTable": false,
+        "hasLimitations": true
+      },
+      "page": 6
+    }
+  ],
+  "processed_summaries": "## Plan Overview\nThe MedChoice Group Hospital Indemnity Insurance offered by APL is tailored to address the financial challenges posed by unexpected illnesses or accidents requiring hospital stays or outpatient treatments. This insurance plan provides comprehensive coverage for doctor visits, urgent care, outpatient surgery, and hospital stays. It offers the flexibility to use benefit funds for both medical and non-medical expenses, ensuring peace of mind during unforeseen health events. The plan is accessible with guaranteed issue, meaning no medical exam is required, and features cost-effective premiums with the convenience of payroll deduction.\n\n## Core Plan Elements\n- **Key Features and Benefits:** Coverage includes doctor visits, urgent care, outpatient surgery, and hospital stays.\n- **Coverage Details:** Offers guaranteed issue without medical questions or exams.\n- **Eligibility Requirements:** Available to Business Workers of America Association members, with spouse and dependent child coverage options.\n\n## Common Service Features\n- **Network Access:** Flexibility to choose healthcare providers.\n- **Claims Process:** Easy filing procedure for claims to ensure timely benefit payments.\n- **Support Services:** Dedicated customer service for inquiries and assistance.\n\n## Plan Tiers and Benefits\n\n### Plan Tier 1 (1/1)\n\n**General Coverage**\n- **Hospital Admission Benefit:** $750 per day; maximum of 1 day\n- **Hospital Confinement Benefit:** $200 per day; maximum of 30 days\n- **Intensive Care Unit Admission Benefit:** $1,500 per day; maximum of 1 day\n- **Intensive Care Unit Benefit:** $350 per day; maximum of 30 days\n\n**Surgery and Treatment**\n- **Inpatient Surgery Benefit:** $500 per day; maximum of 1 day\n- **Outpatient Surgery Benefit:** $300 per day; maximum of 1 day\n- **General Anesthesia Benefit:** $125 per day\n- **Emergency Room Benefit:** $200 per day; maximum of 2 days\n\n**Additional Benefits**\n- **Urgent Care Facility Benefit:** $50 per day; maximum of 3 days\n- **Physician's Office Benefit:** $50 per day; maximum of 3 days\n- **Therapy Facility Benefit:** $15 per day; maximum of 5 days\n\n### Plan Tier 2 (1/2)\n\n**General Coverage**\n- **Hospital Admission Benefit:** $1,000 per day; maximum of 1 day\n- **Hospital Confinement Benefit:** $300 per day; maximum of 30 days\n- **Intensive Care Unit Admission Benefit:** $2,000 per day; maximum of 1 day\n- **Intensive Care Unit Benefit:** $500 per day; maximum of 30 days\n\n**Surgery and Treatment**\n- **Inpatient Surgery Benefit:** $500 per day; maximum of 1 day\n- **Outpatient Surgery Benefit:** $300 per day; maximum of 1 day\n- **General Anesthesia Benefit:** $125 per day\n\n### Plan Tier 2 (2/2)\n\n**Outpatient Treatment**\n- **Emergency Room Benefit:** $300 per day; maximum of 2 days\n- **Urgent Care Facility Benefit:** $50 per day; maximum of 3 days\n- **Physician's Office Benefit:** $50 per day; maximum of 3 days\n- **Therapy Facility Benefit:** $15 per day; maximum of 5 days\n\n### Plan Tier 3 (1/3)\n\n**General Coverage**\n- **Hospital Admission Benefit:** $2,000 per day; maximum of 1 day\n- **Hospital Confinement Benefit:** $500 per day; maximum of 30 days\n- **Intensive Care Unit Admission Benefit:** $2,000 per day; maximum of 1 day\n- **Intensive Care Unit Benefit:** $500 per day; maximum of 30 days\n\n**Surgery and Treatment**\n- **Inpatient Surgery Benefit:** $750 per day; maximum of 1 day\n- **Outpatient Surgery Benefit:** $400 per day; maximum of 1 day\n- **General Anesthesia Benefit:** $300 per day\n\n### Plan Tier 3 (2/3)\n\n**Outpatient Treatment**\n- **Emergency Room Benefit:** $500 per day; maximum of 2 days\n- **Urgent Care Facility Benefit:** $75 per day; maximum of 5 days\n- **Physician's Office Benefit:** $75 per day; maximum of 5 days\n\n### Plan Tier 3 (3/3)\n\n**Additional Benefits**\n- **Extended Coverage for Therapy and Physician Visits:** Enhanced benefits with a higher maximum number of days covered.\n\n## Comparison of the Plans (1/2)\n\n| **Feature** | **Plan Tier 1** | **Plan Tier 2** | **Plan Tier 3** |\n|-------------|-----------------|-----------------|-----------------|\n| **Hospital Admission Benefit** | $750/day, max 1 day | $1,000/day, max 1 day | $2,000/day, max 1 day |\n| **Hospital Confinement Benefit** | $200/day, max 30 days | $300/day, max 30 days | $500/day, max 30 days |\n| **ICU Admission Benefit** | $1,500/day, max 1 day | $2,000/day, max 1 day | $2,000/day, max 1 day |\n\n## Comparison of the Plans (2/2)\n\n| **Feature** | **Plan Tier 1** | **Plan Tier 2** | **Plan Tier 3** |\n|-------------|-----------------|-----------------|-----------------|\n| **Surgery Benefits** | $500/day inpatient, $300/day outpatient | $500/day inpatient, $300/day outpatient | $750/day inpatient, $400/day outpatient |\n| **Emergency Room Benefit** | $200/day, max 2 days | $300/day, max 2 days | $500/day, max 2 days |\n| **Physician's Office Benefit** | $50/day, max 3 days | $50/day, max 3 days | $75/day, max 5 days |\n\n## Limitations and Definitions\n- **Important Exclusions:** Treatments for serious mental illness, alcohol or drug addiction are not covered under some plans.\n- **Key Terms Defined:**\n  - **Hospital Admission Benefit:** Payment upon being admitted to a hospital.\n  - **ICU Admission Benefit:** Payment upon admission to intensive care.\n  - **Confinement Benefit:** Daily benefit for each day confined in a hospital.\n\n## Key Takeaways\n- **Plan Highlights:** Comprehensive coverage options tailored to various levels of need and budget.\n- **Value Propositions:** Offers financial support for unexpected health events with flexible use of funds.\n- **Next Steps:** Evaluate your health needs and choose the plan that best fits your personal and financial situation. Contact your benefits administrator for enrollment details.",
+  "audio_config": {
+    "config_path": "decks/FEN_BAC_2/audio/audio_config.json",
+    "script_path": "decks/FEN_BAC_2/audio/audio_script.md",
+    "slide_count": 6
+  },
+  "error_context": null
+}

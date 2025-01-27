@@ -1,6 +1,6 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on Good Health Distribution Partner Sponsor. We'll explore what plan sponsors are, how they work, and the valuable benefits Good Health offers to its members.
+Hello, everyone! Thank you for joining today's session on Healthcare Data Analytics Plan Sponsor. We'll explore what plan sponsors are, how they work, and the valuable benefits HCDA offers to its members.
 
 ---- What is a Plan Sponsor? ----
 
@@ -18,7 +18,7 @@ manage organizational benefits
 
 ---- How Plan Sponsors Work ----
 
-Now, let me explain how Plan Sponsors operate. 
+let me explain how Plan Sponsors operate. 
 
 They offer health insurance plans directly to members and 
 
@@ -42,9 +42,9 @@ Finally, they may be self-funded, meaning they pay claims directly,
 
 or insured, where they purchase coverage from an insurance company.
 
----- About Good Health ----
+---- About HCDA ----
 
-Good Health Distribution Partners specializes in 
+HCDA specializes in 
 
 healthcare product distribution, 
 
@@ -52,32 +52,35 @@ focusing on vitamins, supplements, and other wellness items.
 
 They operate a wholesale business model, 
 
-Our mission is to help people live healthier lives through our all-natural topical patches that provide, supplying products to retailers and other businesses. 
+supplying products to retailers and other businesses. 
 
-maximum effectiveness for nutritional supplements, improving quality of life for our members.
+through our all-natural topical patches that provide 
+
+maximum effectiveness for nutritional supplements improving quality of life for our members.
 
 ---- Plan Sponsor & Relationship ----
 
-Before we discuss plan benefits with clients, there's required information we must cover with them.
+Before we discuss plan benefits with clients, there's required information we must cover with them. 
 
-Members must become an Affiliate Marketer of Good Health Distribution Partners. 
+Members must become a Working Owner of HCDA, 
 
-While not required to sell, this affiliation allows members to share the brand and refer others to become Affiliates.
+and can complete health surveys for compensation. 
 
-As an Ambassador, they can receive compensation, 
+Members are not required to complete surveys. 
 
-and as an Affiliate, they receive health benefits that we'll cover in the Plan Overview.
+As a Working Owner, they'll have access to health benefits provided by HCDA, which we'll cover in detail.
 
 ---- Membership Benefits ----
 
-Let's explore the key membership benefits in three important categories. 
+Let's explore our three key membership benefits. 
 
-As an Official Good Health Distribution Partner Affiliate, they'll have business opportunities and product access. 
+First, Survey Opportunities: Members can participate in compensated, health-focused surveys with regular opportunities. 
 
-Through their Benefit Programs, members get Health Benefits access and our Get Well and Stay Well programs. 
+Second, Health Benefits: HCDA offers Health coverage with flexible options and quality care access. 
 
-With our MEC Plan Benefits, members can avoid tax penalties in key states while staying protected.
+Third, our MEC Plan Benefits help you avoid tax penalties in key states while providing protection against health costs.
+
 
 ---- Closing ----
 
-Thank you for taking the time to learn about Good Health Distribution Partners and our sponsor benefits. Continue to be great!
+Thank you for taking the time to learn about HCDA and our sponsor benefits. Continue to be great!

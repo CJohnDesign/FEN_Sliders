@@ -95,7 +95,7 @@ image: /img/style/analytics.png
 - **Wholesale** business model
 - Supply products to **retailers**
 - Provide **all-natural** topical patches
-- **Maximum effectiveness** supplements improving **quality of life**
+- **Maximum effectiveness** supplements
 
 </v-clicks>
 
@@ -110,8 +110,8 @@ image: /img/style/check.png
 <v-clicks>
 
 - Must become **Affiliate Marketer**
-- Share brand and **refer others**
-- Receive **compensation** as Ambassador
+- Can **complete surveys** for compensation
+- Complete surveys **not required**
 - Access **health benefits** as Affiliate
 
 </v-clicks>

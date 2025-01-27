@@ -98,7 +98,7 @@ image: /img/style/relationship.png
 - Must be **working**
 - Join **NCE Association**
 - Access to **plan benefits**
-- **Health benefits** included
+- **Member Benefits** included
 
 </v-clicks>
 
@@ -135,11 +135,10 @@ layout: default-row
 <v-click>
 
 **Network Savings**
-- **Re-priced** claims
-- **Non-covered** benefit savings
-- **Exhausted** yearly benefits
+- **Re-priced** claims for non-covered benefits
+- **Savings** on exhausted benefits
 - **Reduced** out-of-pocket costs
-- Use any **network provider**
+- **Freedom** to use network provider
 </v-click>
 
 ::center::
