@@ -42,41 +42,39 @@ by enhancing their standard of living
 
 and providing access to valuable savings. 
 
-They actively influence both federal and state legislation to benefit the American workforce, 
+They actively influence both federal and state legislation 
 
-ensuring member's interests are represented at every level.
+to benefit the American workforce, ensuring member’s interests are represented at every level.
 
 ---- BWA & Plan Relationship ----
 
 Before we discuss plan benefits with clients, there's required information we must cover with them.
 
-Members must be working and become a member of BWA Group to be eligible for plan and member benefits. 
+Members must be working and
 
-This allows members to not only 
+become a member of BWA Association to be eligible for plan and member benefits. This allows members to not only 
 
-take advantage of BWA Membership benefits
+take advantage of BWA Membership health benefits 
 
-but health benefits as well. Next up are the Membership Benefit Highlights
+but other benefits as well. 
 
 ---- MBR Benefits ----
 
-MBR 
+Next up are MBR Benefits
 
-is one of our Most Important Benefits available to new members. 
+MBR is one of our Most Important Benefits available to new members. 
 
 This benefit helps members understand their insurance and non-insurance benefits, 
 
 assists with claim filing 
 
-and coordinates insurance benefits 
-
-with bill reductions 
+and coordinates insurance benefits with bill reductions 
 
 Members enjoy significant savings with a $25 pre-pay for urgent care facility visits and primary care doctor visits, 
 
 and a $50 pre-pay for specialist physician visits. 
 
-Additionally, it provides vital advocacy and negotiating services to maximize the value of your health benefits.
+Additionally, it provides vital advocacy and negotiating services to maximize the value of their health benefits.
 
 ---- Healthcare Services ----
 
@@ -84,20 +82,20 @@ Let's explore our healthcare services.
 
 Our Telemedicine service provides 24/7/365 physician consultations, prescription services when needed, and all without consult fees or co-pays. 
 
-Through our Health Advocate service, you receive assistance in locating providers, resolving claims, understanding medical treatments, and access to a 24/7 nurse hotline. 
+Through their Health Advocate service, members receive assistance in locating providers, resolving claims, understanding medical treatments, and access to a 24/7 nurse hotline. 
 
-For lab testing, we offer DirectLabs discounted services with no doctor's visit required, including necessary blood testing orders.
+For lab testing, they offer DirectLabs discounted services with no doctor's visit required, including necessary blood testing orders.
 
 ---- Additional Member Benefits ----
 
-Beyond healthcare, we offer several valuable additional benefits. 
+Beyond healthcare, they offer several valuable additional benefits. 
 
-Our Online Health Manager provides physician-reviewed materials, health assessment tools, and weekly health tips to help you maintain your wellbeing. 
+Their Online Health Manager provides physician-reviewed materials, health assessment tools, and weekly health tips to help members maintain their wellbeing. 
 
-For your travel needs, we offer hotel discounts, resort access, and condominium savings. 
+For travel needs, they offer hotel discounts, resort access, and condominium savings. 
 
-To support your professional growth, we provide online courses, webinars, and career advancement workshops.
+To support professional growth, they provide online courses, webinars, and career advancement workshops.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about Business Workers of America and our member benefits. We're here to support you and your family's needs. Continue to be great!
+Thank you for taking the time to learn about Business Workers of America and their member benefits. We're here to support you and your needs, and remember, Continue to be great!

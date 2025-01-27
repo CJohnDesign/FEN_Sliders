@@ -8,7 +8,7 @@ The Transforming Data Through Knowledge plan
 
 is brought to you by America's Choice Health Care, 
 
-with administration by Detego Health. 
+with Administration by Detego Health. 
 
 This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional comprehensive medical plans can still access vital healthcare services. 
 
@@ -20,11 +20,11 @@ Moving forward, let's explore the core elements of the plan.
 
 This plan offers coverage options tailored to a variety of healthcare needs. 
 
-These include physician services, hospitalization, virtual visits, prescriptions, wellness, and advocacy services. 
+These include Physician Services, Hospitalization, Virtual Visits, Prescriptions, Wellness, and Advocacy Services. 
 
 Each plan tier has specific co-pays, visit allowances, and maximum coverage limits, ensuring flexibility. 
 
-Eligibility is focused on individuals and families who value affordability and essential health services.
+Eligibility is focused on individuals and families who value affordability and health services.
 
 Now, let's look into the common service features.
 
@@ -62,7 +62,7 @@ For additional support, the NaviClaim advocacy service helps reduce your hospita
 
 The TDK Two plan enhances your healthcare coverage. 
 
-Primary care includes four office visits yearly with a twenty-five dollar copay and a maximum of one hundred fifty dollars per visit. For specialist and urgent care needs, you receive two visits per year, each with a fifty dollar copay and a maximum of three hundred dollars per visit.
+Primary care includes four office visits yearly with a twenty-five dollar copay and a Maximum of one hundred fifty dollars per visit. For specialist and urgent care needs, you receive two visits per year, each with a fifty dollar copay and a maximum of three hundred dollars per visit.
 
 Hospital coverage increases to one thousand dollars per day with a yearly maximum of ten thousand dollars.
 
@@ -159,6 +159,13 @@ offers flexible healthcare options with varying coverage levels.
 It ensures affordable access to healthcare and prescriptions, supported by the extensive First Health Network. 
 
 Consider your healthcare needs and budget to select the most appropriate plan tier, and reach out for further assistance and enrollment.
+
+Members will receive a Welcome E-mail from MyLiveDoc to access their portal and their Rx card.  
+
+The e-mail is sent every 5 days until the member enrolls, or the member can call MLD for assistance. Be sure to have clients be on the lookout for this important information.
+
+Members can always call for assistance.
+
 
 ---- Closing ----
 

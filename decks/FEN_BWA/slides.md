@@ -94,10 +94,10 @@ image: /img/style/enroll.png
 
 <v-clicks>
 
-- **Working membership** required
+- **Must be working** required
 - Must join **BWA Association**
-- Eligibility for **plan benefits**
-- Access to **BWA Membership benefits**
+- Eligibility for **Health Benefits**
+- Access to **BWA Membership Benefits**
 
 </v-clicks>
 
@@ -111,13 +111,13 @@ image: /img/style/benefits.png
 
 <v-clicks>
 
-- **Most Important Benefit** for new members
-- Insurance and **non-insurance** benefit support
-- **Claim filing** assistance
-- **Bill reduction** coordination
-- **$25 pre-pay** for urgent care/primary care
-- **$50 pre-pay** for specialist visits
-- **Advocacy** and **negotiating** services
+- **Most Important Benefit** for New Members
+- Insurance and **non-insurance** Benefit support
+- **Claim filing** Assistance
+- **Bill Reduction** Coordination
+- **$25 pre-pay** for Urgent Care/Primary Care
+- **$50 pre-pay** for Specialist Visits
+- **Advocacy** and **Negotiating** Services
 
 </v-clicks>
 
@@ -133,9 +133,9 @@ layout: default-row
 <v-click>
 
 **Telemedicine**
-- **24/7** physician consultations
+- **24/7** Physician Consultations
 - **Prescription services** 
-- **No consult fees** or co-pays
+- **No Consult fees** or Co-pays
 </v-click>
 
 ::center::
@@ -143,9 +143,9 @@ layout: default-row
 
 **Health Advocate**
 - Provider **location assistance**
-- **Claims resolution** support
+- **Claims Resolution** support
 - **Medical treatment** guidance
-- **24/7** nurse hotline
+- **24/7** Nurse Hotline
 </v-click>
 
 ::right::
@@ -153,8 +153,8 @@ layout: default-row
 
 **Lab Testing**
 - **DirectLabs** discounted services
-- **No doctor's visit** required
-- Includes **blood testing** orders
+- **No Doctor's Visit** required
+- Includes **Blood Testing** orders
 </v-click>
 
 ---
@@ -203,4 +203,6 @@ line: Thank you for learning about BWA. Continue to be great!
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+
+
 

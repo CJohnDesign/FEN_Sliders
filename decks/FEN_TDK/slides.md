@@ -32,10 +32,10 @@ layout: default
 <v-clicks>
 
 - Provided by **America's Choice Health Care**
-- administration by **Detego Health**
-- **Accessibility** for individuals and families
-- **Emphasizes** personal impact
-- **Ensures** vital services within reach
+- Administration by **Detego Health**
+- **Accessibility** for Individuals and Families
+- **Emphasizes** Personal impact
+- **Ensures** Vital services within reach
 
 </v-clicks>
 
@@ -50,10 +50,10 @@ layout: default
 
 **Coverage**
 
-- Physician services and hospitalization
-- Virtual visits and prescriptions
-- Wellness and advocacy services
-- Tailored healthcare options
+- Physician Services and Hospitalization
+- Virtual Visits and Prescriptions
+- Wellness and Advocacy Services
+- Tailored Healthcare options
 
 </v-click>
 
@@ -62,8 +62,8 @@ layout: default
 **Plan Structure**
 
 - Tiered plan options
-- Specific co-pays per service
-- Visit allowances
+- Specific Co-pays per service
+- Visit Allowances
 - Maximum coverage limits
 
 </v-click>
@@ -74,7 +74,7 @@ layout: default
 
 - Individual and family coverage
 - Emphasis on affordability 
-- Access to essential health services
+- Access to health services
 - Flexible coverage options
 
 </v-click>
@@ -482,23 +482,16 @@ layout: default
 
 ## Key Takeaways
 
-<v-click>
+<v-clicks>
 
-Flexible healthcare options with varying coverage levels
+- **Flexible healthcare options** with varying coverage levels
+- Affordable access through **First Health Network**
+- Choose your tier based on **needs and budget**
+- Welcome Email from **MyLiveDoc** for **Portal** and **RX Card Access**
+- Email sent every 5 days until member enrolls
+- Members can always **call for assistance**
 
-</v-click>
-
-<v-click>
-
-Affordable access through First Health Network
-
-</v-click>
-
-<v-click>
-
-Choose your tier based on needs and budget
-
-</v-click>
+</v-clicks>
 
 ---
 transition: fade-out
@@ -511,3 +504,4 @@ line: Thank you for participating in the Premier Insurance Offer Review. Continu
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+
