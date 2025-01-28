@@ -77,6 +77,7 @@ image: /img/style/doc.png
 - **Custom Plans** for specific needs
 - Can be **Self-Funded**
 - Or **Insured** through carriers
+- **Tailored** benefit solutions
 
 </v-clicks>
 
@@ -90,12 +91,12 @@ image: /img/style/analytics.png
 
 <v-clicks>
 
-- **Healthcare product** distribution
-- Focus on **vitamins** and **supplements**
-- **Wholesale** business model
-- Supply products to **retailers**
-- Provide **all-natural** topical patches
-- **Maximum effectiveness** supplements
+- **Healthcare data** analytics experts
+- Provide **actionable insights**
+- Enable **informed decisions**
+- Focus on **patient care**
+- Improve **operational efficiency**
+- Identify **healthcare trends**
 
 </v-clicks>
 
@@ -109,10 +110,11 @@ image: /img/style/check.png
 
 <v-clicks>
 
-- Must become **Affiliate Marketer**
-- Can **complete surveys** for compensation
-- Complete surveys **not required**
-- Access **health benefits** as Affiliate
+- Become a **Working Owner**
+- Complete **health surveys**
+- Receive **compensation**
+- Access **health benefits**
+- Provided by **HCDA**
 
 </v-clicks>
 
@@ -137,7 +139,7 @@ layout: default-row
 <v-click>
 
 **Health Benefits**
-- **Comprehensive** coverage
+- **Accessable** coverage
 - **Flexible** options
 - **Quality** care access
 </v-click>
@@ -148,7 +150,7 @@ layout: default-row
 **MEC Plan Benefits**
 - Avoid **tax penalties**
 - Coverage in **key states**
-- **Comprehensive** protection
+- **Quality** protection
 </v-click>
 
 ---

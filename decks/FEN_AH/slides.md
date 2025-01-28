@@ -5,7 +5,7 @@ title: |
   Advanced Wellness Plus
 info: |
   ## Advanced Wellness Plus Review
-  A comprehensive look at the Advanced Wellness Plus benefits and details.
+  A look at the Advanced Wellness Plus benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -39,7 +39,6 @@ layout: default
 <v-clicks>
 
 - **Essential health** and wellness benefits
-- **Support for small** and medium-sized businesses
 - **Supplements major** medical plans
 - **Capped benefits** for healthcare services
 
@@ -60,14 +59,10 @@ layout: default
 **Office Visits and Emergency Room**
 
 **Additional Benefits** like accidental death
-</v-clicks>
-
-<v-click>
 
 **Critical Illness** through various tiers
 
-
-</v-click>
+</v-clicks>
 
 ---
 transition: fade-out
@@ -156,9 +151,6 @@ image: /img/pages/page_2.png
 
 **Primary Care Doctors Office Visit**
 - Per Day: $50, Max: 3 Days
-</v-click>
-
-<v-click>
 
 **Specialty Care Doctors' Office Visit**
 - Per Day: $50, Max: 3 Days
@@ -195,9 +187,6 @@ image: /img/pages/page_2.png
 
 **Primary Care Doctors Office Visit**
 - Per Day: $50, Max: 5 Days
-</v-click>
-
-<v-click>
 
 **Specialty Care Doctors' Office Visit**
 - Per Day: $50, Max: 5 Days
@@ -256,9 +245,6 @@ image: /img/pages/page_2.png
 
 **Primary Care Doctors Office Visit**
 - Per Day: $50, Max: 5 Days
-</v-click>
-
-<v-click>
 
 **Specialty Care Doctors' Office Visit**
 - Per Day: $50, Max: 5 Days
@@ -336,9 +322,6 @@ image: /img/pages/page_2.png
 
 **Primary Care Doctors Office Visit**
 - Per Day: $50, Max: 5 Days
-</v-click>
-
-<v-click>
 
 **Specialty Care Doctors' Office Visit**
 - Per Day: $50, Max: 5 Days
@@ -436,9 +419,6 @@ image: /img/pages/page_2.png
 
 **Primary Care Doctors Office Visit**
 - Per Day: $50, Max: 5 Days
-</v-click>
-
-<v-click>
 
 **Specialty Care Doctors' Office Visit**
 - Per Day: $50, Max: 5 Days
@@ -548,9 +528,6 @@ image: /img/pages/page_2.png
 
 **Primary Care Doctors Office Visit**
 - Per Day: $50, Max: 5 Days
-</v-click>
-
-<v-click>
 
 **Specialty Care Doctors' Office Visit**
 - Per Day: $50, Max: 5 Days
@@ -661,9 +638,6 @@ image: /img/pages/page_2.png
 
 **Primary Care Doctors Office Visit**
 - Per Day: $75, Max: 5 Days
-</v-click>
-
-<v-click>
 
 **Specialty Care Doctors' Office Visit**
 - Per Day: $75, Max: 5 Days
@@ -688,9 +662,6 @@ image: /img/pages/page_2.png
 **Basic Pathology & Radiology Benefit**
 - Per Day: $75, Max: 3 Days
 <Arrow v-bind="{ x1:922, y1:60, x2:922, y2:120, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
 
 **Advance Studies Benefit**
 - Per Day: $75, Max: 3 Days
@@ -766,21 +737,21 @@ image: /img/pages/page_5.png
 
 **Important Exclusions**
 - No coverage for non-medically necessary treatments
-- Excludes dental procedures not due to injury
-- Excludes cosmetic surgeries, experimental treatments
+- Excludes Dental procedures not due to injury
+- Excludes Cosmetic Surgeries, Experimental Treatments
 </v-click>
 
 <v-click>
 
 **Exclusion Details**
 - Injuries from war, self-harm, illegal activities
-- 30-day wait for sickness
-- 12-month pre-existing exclusion
+- 30-day Wait for Sickness
+- 12-month Pre-existing exclusion
 </v-click>
 
 <v-click>
 
-**Make sure to cover all limitations**
+**Make sure to cover all Exclusions & Limitations**
 
 </v-click>
 
@@ -794,9 +765,9 @@ layout: default
 
 <v-clicks>
 
-- **Plan Highlights:** Broad healthcare benefits
-- **Value Propositions:** Affordable, supplemental coverage
-- **Next Steps:** Review benefits with yourmembers
+- **Plan Highlights:** Broad Healthcare Benefits
+- **Value Propositions:** Affordable, Supplemental Coverage
+- **Next Steps:** Review benefits with your Members
 
 </v-clicks>
 
@@ -811,3 +782,5 @@ line: Thank you for participating in the Advanced Wellness Plus Review. Continue
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+
+

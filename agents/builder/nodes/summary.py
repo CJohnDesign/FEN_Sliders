@@ -389,7 +389,7 @@ async def process_summaries(state: Dict) -> Dict:
         )
         
         # Create system prompt
-        system_content = """Create a comprehensive benefit overview that follows this structure:
+        system_content = """Create a benefit overview that follows this structure:
 
 ## Plan Overview
 
@@ -423,7 +423,7 @@ CRITICAL REQUIREMENTS:
         # Create messages array
         messages = [
             SystemMessage(content=system_content),
-            HumanMessage(content=f"""Create a comprehensive benefit overview.
+            HumanMessage(content=f"""Create a benefit overview.
                          
 Here are the general summaries to use:
 {summaries_text}

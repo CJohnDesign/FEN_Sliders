@@ -8,27 +8,27 @@ Let's begin with understanding what a Plan Sponsor is.
 
 Plan Sponsors are entities that provide health insurance plans or other benefits directly to their members, employees, or participants. 
 
-They offer benefits directly to members
+They offer benefits directly to members,
 
-administer their own benefits programs
+administer their own benefits programs,
 
-serve employees or participants and
+serve employees or participants, and
 
-manage organizational benefits
+manage organizational benefits.
 
 ---- How Plan Sponsors Work ----
 
-let me explain how Plan Sponsors operate. 
+Now, let me explain how Plan Sponsors operate. 
 
-They offer health insurance plans directly to members and 
+As a plan sponsor, they would offer their own health insurance plans or benefits directly to members.
 
-provide wellness programs. 
+This includes health insurance coverage and wellness programs.
 
-A plan sponsor manages the insurance plan in-house or 
+A plan sponsor usually manages the insurance plan in-house or through third-party administrators.
 
-through third-party administrators. 
+They negotiate with providers to design plans meeting specific needs.
 
-They design and implement customized benefits that meet their specific needs.
+Plan Sponsors focus on providing tailored benefits including customized wellness programs.
 
 ---- Plan Sponsor Characteristics ----
 
@@ -36,27 +36,27 @@ Let's examine the key characteristics of Plan Sponsors.
 
 First, they provide and manage health benefits directly for their members or employees. 
 
-Second, they often design and customize plans to fit specific organizational needs. 
+Second, they design custom plans for specific organizational needs. 
 
-Finally, they may be self-funded, meaning they pay claims directly, 
+Third, they can be self-funded, meaning they pay claims directly, or insured through carriers.
 
-or insured, where they purchase coverage from an insurance company.
+Finally, they focus on tailored benefit solutions.
 
 ---- About HCDA ----
 
-HCDA specializes in 
+Healthcare Data Analytics specializes in 
 
-healthcare product distribution, 
+collecting, analyzing, and interpreting healthcare data
 
-focusing on vitamins, supplements, and other wellness items. 
+to provide insights and actionable information for healthcare providers. 
 
-They operate a wholesale business model, 
+They enable providers to make informed decisions regarding patient care,
 
-supplying products to retailers and other businesses. 
+cost management, and operational efficiency. 
 
-through our all-natural topical patches that provide 
+Essentially, they use data analytics within healthcare to identify patterns 
 
-maximum effectiveness for nutritional supplements improving quality of life for our members.
+and trends for improved outcomes.
 
 ---- Plan Sponsor & Relationship ----
 
@@ -83,4 +83,8 @@ Third, our MEC Plan Benefits help you avoid tax penalties in key states while pr
 
 ---- Closing ----
 
-Thank you for taking the time to learn about HCDA and our sponsor benefits. Continue to be great!
+Thank you for taking the time to learn about Healthcare Data Analytics. 
+
+Together, we're improving healthcare through data! 
+
+Continue to be great!

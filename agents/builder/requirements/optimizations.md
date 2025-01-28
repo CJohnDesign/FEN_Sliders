@@ -67,7 +67,7 @@
 
 5. **Error Handling and Recovery**
 ```python
-- Add comprehensive error logging
+- Add error logging
 - Implement recovery mechanisms
 - Add support for resuming failed builds
 - Add validation of intermediate results

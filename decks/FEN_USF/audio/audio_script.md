@@ -14,27 +14,27 @@ group accident insurance options.
 
 These plans are crafted exclusively for NCE members and 
 
-are accessible in several states, such as Alabama, California, and Wisconsin. This is all about community and accessibility, making sure you have the protection you need wherever you are.
+are accessible in several states, such as Alabama, California, and Wisconsin. This is all about community and accessibility, making sure members have the protection they need wherever they are.
 
 ---- Core Plan Elements ----
 
-Our plan includes some essential features and benefits such as coverage for 
+These plan includes some essential features and benefits such as coverage for 
 
-hospital confinement, emergency room visits, surgeries, and diagnostic tests. Each tier of the plan provides different daily benefits tailored to meet your specific needs. 
+hospital confinement, emergency room visits, surgeries, and diagnostic tests. Each tier of the plan provides different daily benefits tailored to meet clients specific needs. 
 
-You can rely on benefits like Daily hospital, surgical, physician visits and diagnostic tests. A ten thousand dollars for accidental death, emergency room and hospital admission benefits are available for plans three hundred and above. 
+Members can rely on benefits like Daily hospital, surgical, physician visits and diagnostic tests. A ten thousand dollars for accidental death, emergency room and hospital admission benefits are available for plans three hundred and above. 
 
 Eligibility is straightforward: it's available to NCE members under age sixty-five who are not eligible for Medicare, and it's important to note that coverage isn't available for children under eighteen.
 
 ---- Common Service Features ----
 
-You'll have access to a broad network of healthcare providers across the United States, ensuring you receive the care you need. The claims process is designed for ease and efficiency, so you won't have to worry about complicated paperwork. Plus, support services are available to help you make the most of your plan, answering any questions you might have.
+Members have access to a broad network of healthcare providers across the United States, ensuring members receive the care they need. The claims process is designed for ease and efficiency, so members won't have to worry about complicated paperwork. Plus, support services are available to help members make the most of their plan, answering any questions they might have.
 
 ---- 100 Plan ----
 
 Let's dive into the details of the 100 Plan. 
 
-This plan offers daily hospital confinement benefits of one hundred dollars per day for up to thirty days. For emergency room visits, you'll receive fifty dollars per visit for one day, whether for injury or sickness. 
+This plan offers daily hospital confinement benefits of one hundred dollars per day for up to thirty days. For emergency room visits, members receive fifty dollars per visit for one day, whether for injury or sickness. 
 
 The plan also includes daily physician office visits at fifty dollars per visit for up to six days.
 
@@ -73,7 +73,7 @@ Starting with this plan, members receive Group Accident Benefits including ten t
 
 The 500 Plan 
 
-enhances your hospital confinement benefit to five hundred dollars per day, for up to thirty days. Emergency room visits are covered at fifty dollars per visit for one day, whether for injury or sickness.
+enhances members hospital confinement benefit to five hundred dollars per day, for up to thirty days. Emergency room visits are covered at fifty dollars per visit for one day, whether for injury or sickness.
 
 Both inpatient and outpatient surgeries are compensated at three hundred fifty dollars per day for up to three days, each including anesthesia benefits of one hundred dollars per day.
 
@@ -145,12 +145,13 @@ There are some important exclusions to be aware of, including losses from suicid
 
 In summary, 
 
-our Premier Insurance Offering provides coverage options with benefits that increase across plan tiers.
+The Premier Insurance Offering provides coverage options with benefits that increase across plan tiers.
 
-These plans are tailored to meet diverse needs, with benefits increasing significantly as you move up through the plan tiers.
+These plans are tailored to meet diverse needs, with benefits increasing as you move up through the plan tiers.
 
-It's important to evaluate your personal circumstances and select the most appropriate coverage. Remember, our representatives are always ready to assist you further.
+It's important to evaluate members personal circumstances and select the most appropriate coverage. Remember, our representatives are always ready to assist you further.
 
 ---- Closing ----
 
 Thank you for taking the time to learn about the Premier Insurance Offering. Continue to be great!
+

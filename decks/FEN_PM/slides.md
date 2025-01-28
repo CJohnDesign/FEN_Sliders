@@ -177,6 +177,8 @@ layout: default
 
 • Support through the claims process.
 
+• Support through the claims process.
+
 </v-clicks>
 
 ---

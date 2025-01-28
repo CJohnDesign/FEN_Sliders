@@ -28,7 +28,7 @@ VALUES (
     "Interval explains how often they are able to utilize the benefits.",
     "Our requirement field not only lets us know what requirements are needed from clients for the services, but also in some instances explains what the benefit is and who it may be applicable to.",
     "For example for the domino aortic aneurysm screenings benefit. It lets me know that this is by ultrasonography in men, they can only use it once per lifetime, and they must be of ages 65 to 75 years who''ve ever smoked. So this would NOT be for non-smokers and or people aged 64 or younger or 76 and older.",
-    "As you guys can see, the list is extensive, but it is a comprehensive list of preventative services.",
+    "As you guys can see, the list is extensive, but it is a list of preventative services.",
     "Next would be immunizations. It is important to keep in mind what immunizations are available for which age group so it''s key to check the age group prior to quoting a benefit being covered.",
     "So as you can see, birth through 6 year olds would be the eligibility group for these vaccinations",
     "As we continue children from 7 through 18 years old and we also have adults 19 years or older.",

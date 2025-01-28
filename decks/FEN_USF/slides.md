@@ -32,10 +32,10 @@ layout: default
 <v-clicks>
 
 - Underwritten by **United States Fire Insurance Company**
-- **Group hospital indemnity** plans
-- **Group accident insurance** benefits
-- **NCE membership** required
-- Available in **multiple states**
+- **Group Hospital Indemnity** Plans
+- **Group Accident Insurance** Benefits
+- **NCE Membership** Required
+- Available in **Multiple States**
 
 </v-clicks>
 
@@ -50,7 +50,7 @@ layout: default
 
 **Key Features and Benefits**
 
-- Hospital confinement, emergency room, surgeries, diagnostic tests
+- Hospital Confinement, Emergency Room, Surgeries, Diagnostic Tests
 
 </v-click>
 
@@ -58,8 +58,8 @@ layout: default
 
 **Coverage Details**
 
-- Daily hospital, surgical, physician visits, diagnostic tests
-- Accidental death, ER and hospital admission benefits **(300 and above)**
+- Daily Hospital, Surgical, Physician Visits, Diagnostic Tests
+- Accidental Death, ER and Hospital Admission Benefits **(300 and above)**
 
 </v-click>
 
@@ -67,7 +67,7 @@ layout: default
 
 **Eligibility Requirements**
 
-- NCE members under age: **65**, not Medicare eligible
+- NCE embers under age: **65**, not Medicare eligible
 - No coverage for children under: **18**
 
 </v-click>
@@ -96,8 +96,8 @@ image: /img/pages/page_2.png
 
 **Daily Benefits**
 - Hospital Confinement: **$100/day, 30 days**
-- Emergency Room Visit (Injury): **$50/visit, 1 day**
-- Emergency Room Visit (Sickness): **$50/visit, 1 day**
+- Emergency Room Visit (Injury): **$50/Visit, 1 Day**
+- Emergency Room Visit (Sickness): **$50/Visit, 1 Day**
 <Arrow v-bind="{ x1:665, y1:80, x2:665, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -105,7 +105,7 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Additional Benefits**
-- Daily Physician Office Visit: **$50/visit, 6 days**
+- Daily Physician Office Visit: **$50/Visit, 6 Days**
 
 </v-click>
 
@@ -120,9 +120,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Daily Benefits**
-- Hospital Confinement: **$200/day, 30 days**
-- Emergency Room Visit (Injury): **$50/visit, 1 day**
-- Emergency Room Visit (Sickness): **$50/visit, 1 day**
+- Hospital Confinement: **$200/Day, 30 Days**
+- Emergency Room Visit (Injury): **$50/Visit, 1 Day**
+- Emergency Room Visit (Sickness): **$50/Visit, 1 Day**
 <Arrow v-bind="{ x1:705, y1:80, x2:705, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -130,9 +130,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Diagnostic Benefits**
-- Daily Physician Office Visit: **$50/visit, 6 days**
-- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$50/day, 1 day**
-- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$50/day, 1 day**
+- Daily Physician Office Visit: **$50/Visit, 6 Days**
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$50/Day, 1 Day**
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$50/Day, 1 Day**
 
 </v-click>
 
@@ -147,9 +147,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Daily Benefits**
-- Hospital Confinement: **$200/day, 30 days**
-- Emergency Room Visit (Injury): **$50/visit, 1 day**
-- Emergency Room Visit (Sickness): **$50/visit, 1 day**
+- Hospital Confinement: **$200/Day, 30 Days**
+- Emergency Room Visit (Injury): **$50/Visit, 1 Day**
+- Emergency Room Visit (Sickness): **$50/Visit, 1 Day**
 <Arrow v-bind="{ x1:743, y1:80, x2:743, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -157,19 +157,19 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Surgery Benefits**
-- Daily Inpatient Surgery: **$250/day, 3 days**
-- Daily Inpatient Surgery Anesthesia: **$100/day, 3 days**
-- Daily Outpatient Surgery: **$250/day, 3 days**
-- Daily Outpatient Surgery Anesthesia: **$100/day, 3 days**
+- Daily Inpatient Surgery: **$250/Day, 3 Days**
+- Daily Inpatient Surgery Anesthesia: **$100/Day, 3 Days**
+- Daily Outpatient Surgery: **$250/Day, 3 days**
+- Daily Outpatient Surgery Anesthesia: **$100/Day, 3 Days**
 
 </v-click>
 
 <v-click>
 
 **Additional Benefits**
-- Daily Physician Office Visit: **$50/visit, 10 days**
-- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$50/day, 1 day**
-- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$50/day, 1 day**
+- Daily Physician Office Visit: **$50/Visit, 10 Days**
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$50/Day, 1 Day**
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$50/Day, 1 Day**
 
 </v-click>
 
@@ -184,9 +184,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Daily Benefits**
-- Hospital Confinement: **$300/day, 30 days**
-- Emergency Room Visit (Injury): **$50/visit, 1 day**
-- Emergency Room Visit (Sickness): **$50/visit, 1 day**
+- Hospital Confinement: **$300/Day, 30 Days**
+- Emergency Room Visit (Injury): **$50/Visit, 1 Day**
+- Emergency Room Visit (Sickness): **$50/Visit, 1 Day**
 <Arrow v-bind="{ x1:780, y1:80, x2:780, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -194,17 +194,17 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Surgery Benefits**
-- Daily Inpatient Surgery: **$250/day, 3 days**
-- Daily Inpatient Surgery Anesthesia: **$100/day, 3 days**
-- Daily Outpatient Surgery: **$250/day, 3 days**
-- Daily Outpatient Surgery Anesthesia: **$100/day, 3 days**
+- Daily Inpatient Surgery: **$250/Day, 3 Days**
+- Daily Inpatient Surgery Anesthesia: **$100/Day, 3 Days**
+- Daily Outpatient Surgery: **$250/Day, 3 Days**
+- Daily Outpatient Surgery Anesthesia: **$100/Day, 3 Days**
 
 </v-click>
 
 <v-click>
 
 **Additional Benefits**
-- Daily Physician Office Visit: **$50/visit, 10 days**
+- Daily Physician Office Visit: **$50/Visit, 10 Days**
 
 </v-click>
 
@@ -212,8 +212,8 @@ image: /img/pages/page_2.png
 
 **Group Accident Benefits**
 - Accidental Death: **$10,000**
-- Hospital Admission: **$500/day, 1 day**
-- Emergency Room: **$250/day, 1 day**
+- Hospital Admission: **$500/Day, 1 Day**
+- Emergency Room: **$250/Day, 1 Day**
 
 </v-click>
 
@@ -228,9 +228,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Daily Benefits**
-- Hospital Confinement: **$500/day, 30 days**
-- Emergency Room Visit (Injury): **$50/visit, 1 day**
-- Emergency Room Visit (Sickness): **$50/visit, 1 day**
+- Hospital Confinement: **$500/Day, 30 Days**
+- Emergency Room Visit (Injury): **$50/Visit , 1 Day**
+- Emergency Room Visit (Sickness): **$50/Visit, 1 Day**
 <Arrow v-bind="{ x1:819, y1:80, x2:819, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -238,10 +238,10 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Surgery Benefits**
-- Daily Inpatient Surgery: **$350/day, 3 days**
-- Daily Inpatient Surgery Anesthesia: **$100/day, 3 days**
-- Daily Outpatient Surgery: **$350/day, 3 days**
-- Daily Outpatient Surgery Anesthesia: **$100/day, 3 days**
+- Daily Inpatient Surgery: **$350/Day, 3 Days**
+- Daily Inpatient Surgery Anesthesia: **$100/Day, 3 Days**
+- Daily Outpatient Surgery: **$350/Day, 3 Days**
+- Daily Outpatient Surgery Anesthesia: **$100/Day, 3 Days**
 
 </v-click>
 
@@ -256,9 +256,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Additional Benefits**
-- Daily Physician Office Visit: **$50/visit, 10 days**
-- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$50/day, 2 days**
-- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$50/day, 2 days**
+- Daily Physician Office Visit: **$50/Visit, 10 Days**
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$50/Day, 2 days**
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$50/Day, 2 Days**
 <Arrow v-bind="{ x1:819, y1:80, x2:819, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -267,8 +267,8 @@ image: /img/pages/page_2.png
 
 **Group Accident Benefits**
 - Accidental Death: **$10,000**
-- Hospital Admission: **$500/day, 1 day**
-- Emergency Room: **$250/day, 1 day**
+- Hospital Admission: **$500/Day, 1 Day**
+- Emergency Room: **$250/Day, 1 Day**
 
 </v-click>
 
@@ -283,9 +283,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Daily Benefits**
-- Hospital Confinement: **$750/day, 30 days**
-- Emergency Room Visit (Injury): **$75/visit, 1 day**
-- Emergency Room Visit (Sickness): **$75/visit, 1 day**
+- Hospital Confinement: **$750/Day, 30 Days**
+- Emergency Room Visit (Injury): **$75/Visit , 1 Day**
+- Emergency Room Visit (Sickness): **$75/Visit , 1 Day**
 <Arrow v-bind="{ x1:857, y1:80, x2:857, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -293,10 +293,10 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Surgery Benefits**
-- Daily Inpatient Surgery: **$400/day, 3 days**
-- Daily Inpatient Surgery Anesthesia: **$100/day, 3 days**
-- Daily Outpatient Surgery: **$400/day, 3 days**
-- Daily Outpatient Surgery Anesthesia: **$100/day, 3 days**
+- Daily Inpatient Surgery: **$400/Day, 3 Days**
+- Daily Inpatient Surgery Anesthesia: **$100/Day, 3 Days**
+- Daily Outpatient Surgery: **$400/Day, 3 Days**
+- Daily Outpatient Surgery Anesthesia: **$100/Day, 3 Days**
 
 </v-click>
 
@@ -311,9 +311,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Additional Benefits**
-- Daily Physician Office Visit: **$50/visit, 10 days**
-- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$50/day, 2 days**
-- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$50/day, 2 days**
+- Daily Physician Office Visit: **$50/Visit, 10 Days**
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$50/Day, 2 Days**
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$50/Day, 2 Days**
 <Arrow v-bind="{ x1:857, y1:80, x2:857, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -322,8 +322,8 @@ image: /img/pages/page_2.png
 
 **Group Accident Benefits**
 - Accidental Death: **$10,000**
-- Hospital Admission: **$500/day, 2 days**
-- Emergency Room: **$250/day, 1 day**
+- Hospital Admission: **$500/Day, 2 Days**
+- Emergency Room: **$250/Day, 1 Day**
 
 </v-click>
 
@@ -338,9 +338,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Daily Benefits**
-- Hospital Confinement: **$1,000/day, 30 days**
-- Emergency Room Visit (Injury): **$100/visit, 1 day**
-- Emergency Room Visit (Sickness): **$100/visit, 1 day**
+- Hospital Confinement: **$1,000/Day, 30 Days**
+- Emergency Room Visit (Injury): **$100/Visit, 1 Day**
+- Emergency Room Visit (Sickness): **$100/Visit, 1 Day**
 <Arrow v-bind="{ x1:895, y1:80, x2:895, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -348,10 +348,10 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Surgery Benefits**
-- Daily Inpatient Surgery: **$500/day, 3 days**
-- Daily Inpatient Surgery Anesthesia: **$100/day, 3 days**
-- Daily Outpatient Surgery: **$500/day, 3 days**
-- Daily Outpatient Surgery Anesthesia: **$100/day, 3 days**
+- Daily Inpatient Surgery: **$500/Day, 3 Days**
+- Daily Inpatient Surgery Anesthesia: **$100/Day, 3 Days**
+- Daily Outpatient Surgery: **$500/Day, 3 Days**
+- Daily Outpatient Surgery Anesthesia: **$100/Day, 3 Days**
 
 </v-click>
 
@@ -366,9 +366,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Additional Benefits**
-- Daily Physician Office Visit: **$75/visit, 10 days**
-- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$75/day, 3 days**
-- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$75/day, 3 days**
+- Daily Physician Office Visit: **$75/Visit, 10 Days**
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$75/Day, 3 Days**
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$75/Day, 3 Days**
 <Arrow v-bind="{ x1:895, y1:80, x2:895, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -377,8 +377,8 @@ image: /img/pages/page_2.png
 
 **Group Accident Benefits**
 - Accidental Death: **$10,000**
-- Hospital Admission: **$500/day, 3 days**
-- Emergency Room: **$250/day, 1 day**
+- Hospital Admission: **$500/Day, 3 Days**
+- Emergency Room: **$250/Day, 1 Day**
 
 </v-click>
 
@@ -393,11 +393,11 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Daily Benefits**
-- Hospital Confinement: **$1,000/day, 30 days**
-- Daily Hospital Admission: **$1,000/day, 5 days**
-- Daily Intensive Care/Coronary Care (ICU/CCU): **$1,000/day, 15 days**
-- Emergency Room Visit (Injury): **$200/visit, 1 day**
-- Emergency Room Visit (Sickness): **$200/visit, 1 day**
+- Hospital Confinement: **$1,000/Day, 30 Days**
+- Daily Hospital Admission: **$1,000/Day, 5 Days**
+- Daily Intensive Care/Coronary Care (ICU/CCU): **$1,000/Day, 15 Days**
+- Emergency Room Visit (Injury): **$200/Visit , 1 Day**
+- Emergency Room Visit (Sickness): **$200/Visit , 1 Day**
 <Arrow v-bind="{ x1:933, y1:80, x2:933, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -405,10 +405,10 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Surgery Benefits**
-- Daily Inpatient Surgery: **$500/day, 3 days**
-- Daily Inpatient Surgery Anesthesia: **$125/day, 3 days**
-- Daily Outpatient Surgery: **$500/day, 3 days**
-- Daily Outpatient Surgery Anesthesia: **$125/day, 3 days**
+- Daily Inpatient Surgery: **$500/Day, 3 Days**
+- Daily Inpatient Surgery Anesthesia: **$125/Day, 3 Days**
+- Daily Outpatient Surgery: **$500/Day, 3 Days**
+- Daily Outpatient Surgery Anesthesia: **$125/Day, 3 Days**
 
 </v-click>
 
@@ -423,9 +423,9 @@ image: /img/pages/page_2.png
 <v-click>
 
 **Additional Benefits**
-- Daily Physician Office Visit: **$75/visit, 10 days**
-- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$100/day, 3 days**
-- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$100/day, 3 days**
+- Daily Physician Office Visit: **$75/Visit , 10 Days**
+- Daily Inpatient/Outpatient Diagnostic Radiology & X-ray: **$100/Day, 3 Days**
+- Daily Inpatient/Outpatient Diagnostic Laboratory Tests: **$100/Day, 3 Days**
 <Arrow v-bind="{ x1:933, y1:80, x2:933, y2:140, color: 'var(--slidev-theme-accent)' }" />
 
 </v-click>
@@ -434,8 +434,8 @@ image: /img/pages/page_2.png
 
 **Group Accident Benefits**
 - Accidental Death: **$10,000**
-- Hospital Admission: **$500/day, 3 days**
-- Emergency Room: **$250/day, 1 day**
+- Hospital Admission: **$500/Day, 3 Days**
+- Emergency Room: **$250/Day, 1 Day**
 
 </v-click>
 
@@ -455,16 +455,16 @@ images:
 <v-click>
 
 **Key Terms**
-- Hospital Confinement: Medically necessary inpatient stay
-- Emergency Room Visit: Treatment for acute medical conditions
-- Surgery: Medically necessary procedures from accidents or sickness
+- Hospital Confinement: Medically Necessary Inpatient stay
+- Emergency Room Visit: Treatment for Acute Medical Conditions
+- Surgery: Medically Necessary procedures from accidents or sickness
 
 </v-click>
 
 <v-click>
 
 **Important Exclusions**
-- Losses from suicide, war, or military service
+- Losses from Suicide, War, or Military Service
 - Illegal activities
 - Certain medical procedures (see policy for details)
 
@@ -479,7 +479,7 @@ layout: default
 
 <v-clicks>
 
-- **Plan Highlights**: coverage for hospital, surgeries
+- **Plan Highlights**: coverage for Hospital, Surgeries
 - **Value Propositions**: Tailored plans, benefits increase with higher tiers
 - **Next Steps**: Evaluate needs, select appropriate coverage, consult representative
 
@@ -495,3 +495,4 @@ layout: end
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+

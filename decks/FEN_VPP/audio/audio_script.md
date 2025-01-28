@@ -6,13 +6,13 @@ Welcome to The Vitamin Patch Plan Sponsor presentation. Today, we'll explore wha
 
 Let's begin by understanding what a Plan Sponsor is. 
 
-Plan Sponsors are entities that provide health insurance plans or other benefits 
+Plan Sponsors are entities 
 
-directly to their members, employees, or participants. 
+that provide health insurance plans or other benefits directly to their members, employees, or participants. 
 
-They are typically organizations, companies, or groups
+They are typically organizations, companies, or groups 
 
- that administer their own benefits programs.
+that administer their own benefits programs.
 
 ---- How Plan Sponsors Work ----
 
@@ -38,7 +38,7 @@ Self-Funding or Insured: They may be self-funded (paying claims directly) or ins
 
 The Vitamin Patch is a passionate team 
 
-with over 70 years of combined experience in 
+with over 70 years of combined experience in
 
 natural health, healthcare, business management, marketing, and product development. 
 
@@ -54,9 +54,11 @@ Before we discuss plan benefits with clients, there's required information we mu
 
 Members must become an Affiliate Marketer of The Vitamin Patch Plan Sponsorship. 
 
-While not required to sell, 
+While not required to sell, this affiliation allows members 
 
-this affiliation allows members to share the brand and refer others to become Affiliates. 
+to share the brand 
+
+and refer others to become Affiliates. 
 
 As an Ambassador, they can receive compensation, and 
 
@@ -66,15 +68,12 @@ as an Affiliate, they receive health benefits that we'll cover in the Plan Overv
 
 Let's review the key membership benefits:
 
-Become an Affiliate of The Vitamin Patch
-Access to The Vitamin Patch innovative products
-Comprehensive health benefits
+Become an Affiliate of The Vitamin Patch to sccess to The Vitamin Patch innovative products with customizable health benefits.
 
-Opportunity to sell The Vitamin Patch products
-Earn compensation as a brand ambassador
+Opportunity to sell The Vitamin Patch products and earn compensation as a brand ambassador.
 
-MEC Plan compliance to avoid tax penalties in select states. including New Jersey, California, Rhode Island, Massachusetts, and District of Columbia
-
+MEC Plan compliance to avoid tax penalties in select states
+  
 ---- Closing ----
 
 Thank you for your attention to The Vitamin Patch Plan Sponsor presentation. Continue to be great!

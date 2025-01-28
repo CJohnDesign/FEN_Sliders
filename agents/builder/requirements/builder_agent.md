@@ -187,7 +187,7 @@ title: Premium Health Plus
 
 # Premium Health Plus Plan
 <v-clicks>
-- Comprehensive coverage starting at $250/month
+- Coverage starting at $250/month
 - Includes dental and vision benefits
 - Access to nationwide provider network
 </v-clicks>
@@ -197,7 +197,7 @@ title: Premium Health Plus
 ```markdown
 ---- Premium Health Plus Plan ----
 Let me introduce you to our Premium Health Plus Plan. 
-This comprehensive health insurance plan starts at two hundred 
+This health insurance plan starts at two hundred 
 and fifty dollars per month. One key feature is the inclusion 
 of both dental and vision benefits...
 ```
