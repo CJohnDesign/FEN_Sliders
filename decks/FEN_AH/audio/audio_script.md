@@ -1,6 +1,6 @@
 ---- Cover ----
 
-Welcome to our Advanced Wellness Plus Review. Today, we'll explore the details and benefits of the Advanced Wellness Plus Insurance Plan, helping you understand how this coverage can support your members healthcare needs.
+Welcome to our Advanced Wellness Plus Review. Today, we'll explore the details and benefits of the Advanced Wellness Plus Insurance Plan, helping you understand how this coverage can support your member’s healthcare needs.
 
 ---- Plan Overview ----
 
@@ -8,7 +8,11 @@ Let's begin with an overview of the Advanced Wellness Plus plan.
 
 This is a Limited Benefit Health plan offered through American Financial Security Life Insurance Company. 
 
-The plan provides essential health and wellness benefits 
+The plan provides indemnity health for all plans 
+
+critical illness for two hundred plus and above
+
+Along with a accidental death benefit for plans one hundred and above 
 
 and works as a supplement to major medical plans 
 
@@ -120,7 +124,6 @@ and a critical illness benefit of one thousand dollars.
 Plan 300 
 
 increases hospital confinement to three hundred dollars per day for up to thirty days. 
-
 
 It maintains five-day coverage for doctor visits at fifty dollars per day and 
 
@@ -236,9 +239,9 @@ The emergency room benefit provides one hundred dollars per day for up to three 
 
 ---- Plan 1000 (2/3) ----
 
-The second part of Plan 1000 includes 
+The second part of Plan 1000 includes enhanced pathology, radiology, 
 
-enhanced pathology, radiology, and advanced studies benefits at seventy-five dollars per day for up to three days each. 
+and advanced studies benefits at seventy-five dollars per day for up to three days each. 
 
 Surgery benefits increase to fifteen hundred dollars per day for up to three days 
 
@@ -283,3 +286,5 @@ We encourage you to review these benefits with your members to ensure you unders
 ---- Closing ----
 
 Thank you for participating in the Advanced Wellness Plus Review. Continue to be great!
+
+
