@@ -5,7 +5,7 @@ title: |
   Premier Insurance Offer
 info: |
   ## Premier Insurance Offer Review
-  A comprehensive look at the Premier Insurance Offer benefits and details.
+  A look at the Premier Insurance Offer benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -31,7 +31,7 @@ layout: default
 
 <v-clicks>
 
-- Comprehensive coverage through **NCE**
+- coverage through **NCE**
 - **Group Hospital** for various situations
 - **Group Accident** and support tools
 - **Financial Assistance** through coverage
@@ -121,7 +121,7 @@ layout: default
 
 - **Routine Check-ups** Services
 - **Wellness Programs** Benefits
-- **Health Network** provides comprehensive care
+- **Health Network** provides care
 
 </v-clicks>
 

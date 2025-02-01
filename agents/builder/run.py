@@ -57,7 +57,6 @@ async def main():
         "awaiting_input": None,
         "page_summaries": None,
         "processed_summaries": None,
-        "audio_config": None,
         "error_context": None
     }
     

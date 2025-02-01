@@ -5,7 +5,7 @@ title: |
   MedChoice Group Hospital Indemnity
 info: |
   ## MedChoice Group Hospital Indemnity Review
-  A comprehensive look at the MedChoice Group Hospital Indemnity benefits and details.
+  A look at the MedChoice Group Hospital Indemnity benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -317,7 +317,7 @@ layout: default
 
 <v-clicks>
 
-- **Plan Highlights:** Comprehensive coverage options
+- **Plan Highlights:** coverage options
 - **Value Propositions:** Financial support for health events
 - **Next Steps:** Evaluate needs, choose the best plan, contact benefits administrator
 

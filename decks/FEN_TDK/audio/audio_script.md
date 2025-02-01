@@ -10,7 +10,7 @@ is brought to you by America's Choice Health Care,
 
 with Administration by Detego Health. 
 
-This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional comprehensive medical plans can still access vital healthcare services. 
+This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional medical plans can still access vital healthcare services. 
 
 It's designed to have a personal impact, making sure necessary care is within reach.
 

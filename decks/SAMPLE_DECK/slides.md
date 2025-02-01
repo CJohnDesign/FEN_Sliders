@@ -5,7 +5,7 @@ title: |
   { Plan Name }
 info: |
   ## { Plan Name } Review
-  A comprehensive look at the { Plan Name } benefits and details.
+  A look at the { Plan Name } benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:

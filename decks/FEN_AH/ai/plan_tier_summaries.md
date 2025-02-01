@@ -1,6 +1,6 @@
 # Insurance Plan Tier Summary
 
-The following section provides a comprehensive breakdown of the available insurance plan tiers based on the benefit descriptions, coverage details, and key differences.
+The following section provides a breakdown of the available insurance plan tiers based on the benefit descriptions, coverage details, and key differences.
 
 ### Plan Tiers Overview
 The insurance plans are categorized into the following tiers: **100A, 100, 200, 200+, 300, 500, 750,** and **1000**. Each tier offers different levels of benefits for various healthcare services.

@@ -4,7 +4,7 @@ theme: ../../
 title: Multiplan Provider Search
 info: |
   ## Multiplan Provider Search Overview
-  A comprehensive look at the Multiplan provider search website.
+  A look at the Multiplan provider search website.
 verticalCenter: true
 layout: intro
 themeConfig:

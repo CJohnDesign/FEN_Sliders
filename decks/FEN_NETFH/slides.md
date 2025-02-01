@@ -4,7 +4,7 @@ theme: ../../
 title: First Health Provider Search
 info: |
   ## First Health Provider Search Overview
-  A comprehensive look at the First Health provider search website.
+  A look at the First Health provider search website.
 verticalCenter: true
 layout: intro
 themeConfig:

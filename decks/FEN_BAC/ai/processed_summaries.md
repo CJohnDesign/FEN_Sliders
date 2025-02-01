@@ -1,6 +1,6 @@
 ## Plan Overview
 
-The BWA Membership Package provides a comprehensive array of benefits tailored to meet the diverse needs of professionals across various occupations, including construction and healthcare. With a colorful and dynamic design, this overview encapsulates the engaging and inclusive nature of the offerings, aiming to enhance the lives of American workers and their families through valuable services and advocacy.
+The BWA Membership Package provides a array of benefits tailored to meet the diverse needs of professionals across various occupations, including construction and healthcare. With a colorful and dynamic design, this overview encapsulates the engaging and inclusive nature of the offerings, aiming to enhance the lives of American workers and their families through valuable services and advocacy.
 
 ## Core Plan Elements
 
@@ -74,6 +74,6 @@ The BWA Membership Package provides a comprehensive array of benefits tailored t
 
 ## Key Takeaways
 
-- **Plan Highlights**: Comprehensive healthcare coverage with flexible options for family members and significant daily benefits for hospital and outpatient services.
+- **Plan Highlights**: healthcare coverage with flexible options for family members and significant daily benefits for hospital and outpatient services.
 - **Value Propositions**: The plan offers great value through its extensive provider network and cost-saving measures like Reference-Based Pricing.
 - **Next Steps**: Members should review their specific needs and contact BWA for further assistance in selecting the best plan tier.

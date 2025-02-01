@@ -2,7 +2,7 @@
 
 ### Plan Tiers Overview
 
-The FEN_USF insurance plan offers a range of plan tiers, each providing varying levels of coverage and benefits. Below is a comprehensive summary of each plan tier, detailing the specific benefits and coverage options available.
+The FEN_USF insurance plan offers a range of plan tiers, each providing varying levels of coverage and benefits. Below is a summary of each plan tier, detailing the specific benefits and coverage options available.
 
 ### Plan Tiers and Benefits
 

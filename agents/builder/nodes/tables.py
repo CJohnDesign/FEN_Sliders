@@ -140,7 +140,7 @@ Be very careful to not include any other text in the output and ensure it is a t
         # Even if some tables fail, continue with the process
         logger.info(f"Table extraction complete. Successfully processed {len(manifest['tables'])} tables")
         logger.info(f"Final state keys: {list(state.keys())}")
-        logger.info(f"Tables data: {json.dumps(tables_data, indent=2)}")
+        logger.info(f"Tables manifest: {json.dumps(manifest, indent=2)}")
         logger.info(f"State error context: {state.get('error_context')}")
         return state
         

@@ -1,6 +1,6 @@
 ## Plan Overview
 
-The Premier Insurance Offering provides a comprehensive overview of the group hospital fixed indemnity and group accident insurance plans underwritten by the United States Fire Insurance Company. Exclusively available to NCE members, these plans emphasize community and accessibility, offering a targeted membership benefit. The insurance plans are available in multiple states, including Alabama, California, and Wisconsin.
+The Premier Insurance Offering provides a overview of the group hospital fixed indemnity and group accident insurance plans underwritten by the United States Fire Insurance Company. Exclusively available to NCE members, these plans emphasize community and accessibility, offering a targeted membership benefit. The insurance plans are available in multiple states, including Alabama, California, and Wisconsin.
 
 ## Core Plan Elements
 
@@ -12,7 +12,7 @@ The Premier Insurance Offering provides a comprehensive overview of the group ho
 
 - **Network Access**: Access to a broad network of healthcare providers across the United States.
 - **Claims Process**: Streamlined claims process designed for ease and efficiency.
-- **Support Services**: Comprehensive support services available to assist members with plan utilization and inquiries.
+- **Support Services**: support services available to assist members with plan utilization and inquiries.
 
 ## Plan Tiers and Benefits
 
@@ -182,6 +182,6 @@ The Premier Insurance Offering provides a comprehensive overview of the group ho
 
 ## Key Takeaways
 
-- **Plan Highlights**: Comprehensive coverage options with benefits for hospital confinement, surgeries, and more.
+- **Plan Highlights**: coverage options with benefits for hospital confinement, surgeries, and more.
 - **Value Propositions**: Tailored plans to meet diverse needs, with specific benefits increasing with higher tiers.
 - **Next Steps**: Evaluate personal needs against plan tiers to select the most appropriate coverage. Consider eligibility and speak with a representative for further assistance.

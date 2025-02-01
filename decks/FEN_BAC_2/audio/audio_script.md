@@ -1,6 +1,6 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the MedChoice Group Hospital Indemnity Insurance. We're here to explore the comprehensive benefits and details of this plan, designed to support you during unexpected health challenges. Let's dive right in!
+Hello, everyone! Thank you for joining today's session on the MedChoice Group Hospital Indemnity Insurance. We're here to explore the benefits and details of this plan, designed to support you during unexpected health challenges. Let's dive right in!
 
 ---- MedChoice Plan Overview ----
 
@@ -8,7 +8,7 @@ The MedChoice Plan, offered through APL, is crafted to protect you from the fina
 
 ---- Key Features and Benefits ----
 
-This plan ensures comprehensive coverage that includes essential healthcare services. You have access to doctor visits, urgent care, outpatient surgery, and hospital stays. Plus, with the guaranteed issue feature, there's no need to worry about medical exams or questions. These benefits provide peace of mind, knowing you have the coverage you need when it matters most. Moving forward, let's explore the tools available to help manage your healthcare costs effectively.
+This plan ensures coverage that includes essential healthcare services. You have access to doctor visits, urgent care, outpatient surgery, and hospital stays. Plus, with the guaranteed issue feature, there's no need to worry about medical exams or questions. These benefits provide peace of mind, knowing you have the coverage you need when it matters most. Moving forward, let's explore the tools available to help manage your healthcare costs effectively.
 
 ---- Cost Management Tools ----
 
@@ -44,7 +44,7 @@ Plan Tier Three also enhances your coverage with extended benefits for therapy a
 
 ---- Comparing the 3 MyChoice Plans ----
 
-When we compare the three MyChoice Plans, each tier offers distinctive benefits to suit different needs and budgets. Plan Tier One provides a hospital admission benefit of seven hundred fifty dollars per day, while Plan Tiers Two and Three increase this to one thousand and two thousand dollars, respectively. Hospital confinement benefits range from two hundred dollars per day in Tier One to five hundred dollars in Tier Three. Similarly, ICU admission and benefits, as well as surgery and emergency room benefits, scale upward with each tier, offering more comprehensive coverage in higher tiers. These comparisons can guide you in selecting the plan that best aligns with your personal healthcare needs. Let's now define key terms and address any limitations.
+When we compare the three MyChoice Plans, each tier offers distinctive benefits to suit different needs and budgets. Plan Tier One provides a hospital admission benefit of seven hundred fifty dollars per day, while Plan Tiers Two and Three increase this to one thousand and two thousand dollars, respectively. Hospital confinement benefits range from two hundred dollars per day in Tier One to five hundred dollars in Tier Three. Similarly, ICU admission and benefits, as well as surgery and emergency room benefits, scale upward with each tier, offering more coverage in higher tiers. These comparisons can guide you in selecting the plan that best aligns with your personal healthcare needs. Let's now define key terms and address any limitations.
 
 ---- Definitions and Limitations ----
 
@@ -52,7 +52,7 @@ It's crucial to understand certain exclusions and key terms. Some plans do not c
 
 ---- Key Takeaways and Reminders ----
 
-To summarize, the MedChoice Plan offers comprehensive coverage options that are tailored to meet various healthcare needs and budgets. It provides financial support during unexpected health events with the flexibility to use funds according to your situation. As you consider these plans, evaluate your health requirements and choose the plan that aligns best with your needs. For enrollment details, be sure to contact your benefits administrator. Finally, let's conclude our session with a warm thought.
+To summarize, the MedChoice Plan offers coverage options that are tailored to meet various healthcare needs and budgets. It provides financial support during unexpected health events with the flexibility to use funds according to your situation. As you consider these plans, evaluate your health requirements and choose the plan that aligns best with your needs. For enrollment details, be sure to contact your benefits administrator. Finally, let's conclude our session with a warm thought.
 
 ---- Closing ----
 

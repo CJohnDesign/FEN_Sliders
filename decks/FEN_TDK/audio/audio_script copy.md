@@ -4,13 +4,13 @@ Hello, everyone! Thank you for joining today's session on the TDK, the Transform
 
 ---- Plan Overview ----
 
-The Transforming Data Through Knowledge plan is brought to you by America's Choice Health Care, with administration by Detego Health. This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional comprehensive medical plans can still access vital healthcare services. It's designed to have a personal impact, making sure necessary care is within reach.
+The Transforming Data Through Knowledge plan is brought to you by America's Choice Health Care, with administration by Detego Health. This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional medical plans can still access vital healthcare services. It's designed to have a personal impact, making sure necessary care is within reach.
 
 Moving forward, let's explore the core elements of the plan.
 
 ---- Core Plan Elements ----
 
-This plan offers comprehensive coverage options tailored to a variety of healthcare needs. These include physician services, hospitalization, virtual visits, prescriptions, wellness, and advocacy services. Each plan tier has specific co-pays, visit allowances, and maximum coverage limits, ensuring flexibility. Eligibility is focused on individuals and families who value affordability and essential health services.
+This plan offers coverage options tailored to a variety of healthcare needs. These include physician services, hospitalization, virtual visits, prescriptions, wellness, and advocacy services. Each plan tier has specific co-pays, visit allowances, and maximum coverage limits, ensuring flexibility. Eligibility is focused on individuals and families who value affordability and essential health services.
 
 Now, let's look into the common service features.
 

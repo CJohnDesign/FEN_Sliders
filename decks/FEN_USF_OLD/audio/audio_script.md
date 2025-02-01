@@ -1,6 +1,6 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Premier Insurance Offering. We'll explore the comprehensive benefits and details of this plan, ensuring you have a clear understanding. Let's get started!
+Hello, everyone! Thank you for joining today's session on the Premier Insurance Offering. We'll explore the benefits and details of this plan, ensuring you have a clear understanding. Let's get started!
 
 ---- Premier Insurance Overview ----
 
@@ -12,7 +12,7 @@ Our plan includes some essential features and benefits, such as coverage for hos
 
 ---- Common Service Features ----
 
-You'll have access to a broad network of healthcare providers across the United States, ensuring you receive the care you need. The claims process is designed for ease and efficiency, so you won't have to worry about complicated paperwork. Plus, comprehensive support services are available to help you make the most of your plan, answering any questions you might have.
+You'll have access to a broad network of healthcare providers across the United States, ensuring you receive the care you need. The claims process is designed for ease and efficiency, so you won't have to worry about complicated paperwork. Plus, support services are available to help you make the most of your plan, answering any questions you might have.
 
 ---- 100 Plan (One of Two) ----
 
@@ -80,11 +80,11 @@ Additional benefits include seventy-five dollars per physician visit, for up to 
 
 ---- Comparing the Plans - Core Benefits ----
 
-Let's compare the core benefits across all plans. Starting with hospital confinement, we see a steady increase from one hundred dollars per day in the 100 Plan up to one thousand dollars in our premium plans. Emergency room visits and surgery benefits also scale up significantly with higher-tier plans, providing more comprehensive coverage as you move up.
+Let's compare the core benefits across all plans. Starting with hospital confinement, we see a steady increase from one hundred dollars per day in the 100 Plan up to one thousand dollars in our premium plans. Emergency room visits and surgery benefits also scale up significantly with higher-tier plans, providing more coverage as you move up.
 
 ---- Comparing the Plans - Additional Benefits ----
 
-Looking at additional benefits, each plan includes valuable coverage beyond the core features. All plans include physician office visits, with higher-tier plans offering increased daily benefits. Some plans, like the 200+ and 300 Plans, include hospital admission benefits. Every plan includes the ten thousand dollar accidental death benefit and group accident emergency room coverage, ensuring comprehensive protection across all tiers.
+Looking at additional benefits, each plan includes valuable coverage beyond the core features. All plans include physician office visits, with higher-tier plans offering increased daily benefits. Some plans, like the 200+ and 300 Plans, include hospital admission benefits. Every plan includes the ten thousand dollar accidental death benefit and group accident emergency room coverage, ensuring protection across all tiers.
 
 ---- Plan Definitions & Limitations ----
 
@@ -92,7 +92,7 @@ Let's review some important terms and limitations of the plan. For key terms: Ho
 
 ---- Key Takeaways and Reminders ----
 
-In summary, our Premier Insurance Offering provides comprehensive coverage options with benefits that increase across plan tiers. These plans are tailored to meet diverse needs, so it's important to evaluate your personal circumstances and select the most appropriate coverage. Remember, our representatives are always ready to assist you further.
+In summary, our Premier Insurance Offering provides coverage options with benefits that increase across plan tiers. These plans are tailored to meet diverse needs, so it's important to evaluate your personal circumstances and select the most appropriate coverage. Remember, our representatives are always ready to assist you further.
 
 ---- Closing ----
 

@@ -1,8 +1,8 @@
-## Comprehensive Benefit Overview
+## Benefit Overview
 
 ### Premier Insurance Offer
 
-The Premier Insurance Offer is designed to provide comprehensive coverage through Group Hospital Fixed Indemnity and Group Accident Insurance. These insurance plans are underwritten by the United States Fire Insurance Company and are exclusive to members of the National Congress of Employers (NCE). This offer is tailored to provide financial assistance during hospital stays and accidents, ensuring peace of mind for policyholders.
+The Premier Insurance Offer is designed to provide coverage through Group Hospital Fixed Indemnity and Group Accident Insurance. These insurance plans are underwritten by the United States Fire Insurance Company and are exclusive to members of the National Congress of Employers (NCE). This offer is tailored to provide financial assistance during hospital stays and accidents, ensuring peace of mind for policyholders.
 
 ### Plan Tiers and Benefits
 
@@ -107,7 +107,7 @@ The insurance plans are available exclusively to NCE members, ensuring that thos
 ### Common Service Features
 
 #### Network Access
-Members have access to a vast network of healthcare providers, allowing for convenient and comprehensive medical care across different locations.
+Members have access to a vast network of healthcare providers, allowing for convenient and medical care across different locations.
 
 #### Claims Process
 The claims process is designed to be user-friendly, ensuring that members can easily submit claims and receive reimbursements for covered services.
@@ -126,7 +126,7 @@ The policy documents include definitions of key insurance terms, providing clari
 ### Key Takeaways
 
 #### Plan Highlights
-Each plan tier offers tailored benefits to meet the diverse needs of members, from basic coverage to more comprehensive plans.
+Each plan tier offers tailored benefits to meet the diverse needs of members, from basic coverage to more plans.
 
 #### Value Propositions
 The insurance plans are designed to provide financial protection and peace of mind, ensuring that members can focus on recovery without the stress of medical expenses.

@@ -4,7 +4,7 @@ theme: ../../
 title: MyChoice Plan
 info: |
   ## MyChoice Plan Review
-  A comprehensive look at the MyChoice benefits and details.
+  A look at the MyChoice benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -32,7 +32,7 @@ layout: default
 
 - Hospital indemnity insurance through **Business Workers of America (BWA)**
 - **Flexible coverage** for various medical situations
-- **Comprehensive benefits** and support tools
+- **benefits** and support tools
 - **Significant cost savings** through medical bill repricing
 - **Extensive healthcare** navigation support
 

@@ -1,5 +1,5 @@
 ## Plan Overview
-The MedChoice Group Hospital Indemnity Insurance offered by APL is tailored to address the financial challenges posed by unexpected illnesses or accidents requiring hospital stays or outpatient treatments. This insurance plan provides comprehensive coverage for doctor visits, urgent care, outpatient surgery, and hospital stays. It offers the flexibility to use benefit funds for both medical and non-medical expenses, ensuring peace of mind during unforeseen health events. The plan is accessible with guaranteed issue, meaning no medical exam is required, and features cost-effective premiums with the convenience of payroll deduction.
+The MedChoice Group Hospital Indemnity Insurance offered by APL is tailored to address the financial challenges posed by unexpected illnesses or accidents requiring hospital stays or outpatient treatments. This insurance plan provides coverage for doctor visits, urgent care, outpatient surgery, and hospital stays. It offers the flexibility to use benefit funds for both medical and non-medical expenses, ensuring peace of mind during unforeseen health events. The plan is accessible with guaranteed issue, meaning no medical exam is required, and features cost-effective premiums with the convenience of payroll deduction.
 
 ## Core Plan Elements
 - **Key Features and Benefits:** Coverage includes doctor visits, urgent care, outpatient surgery, and hospital stays.
@@ -102,6 +102,6 @@ The MedChoice Group Hospital Indemnity Insurance offered by APL is tailored to a
   - **Confinement Benefit:** Daily benefit for each day confined in a hospital.
 
 ## Key Takeaways
-- **Plan Highlights:** Comprehensive coverage options tailored to various levels of need and budget.
+- **Plan Highlights:** coverage options tailored to various levels of need and budget.
 - **Value Propositions:** Offers financial support for unexpected health events with flexible use of funds.
 - **Next Steps:** Evaluate your health needs and choose the plan that best fits your personal and financial situation. Contact your benefits administrator for enrollment details.

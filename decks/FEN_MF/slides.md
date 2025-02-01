@@ -4,7 +4,7 @@ theme: ../../
 title: MedFirst 1 Plan Overview
 info: |
   ## Slidev Deck for MedFirst 1 Plan Review
-  A comprehensive look at the MedFirst 1 Plan benefits and details.
+  A look at the MedFirst 1 Plan benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:

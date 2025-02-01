@@ -5,7 +5,7 @@ title: |
   Premier Insurance Offering
 info: |
   ## Premier Insurance Offering Review
-  A comprehensive look at the Premier Insurance Offering benefits and details.
+  A look at the Premier Insurance Offering benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -538,7 +538,7 @@ layout: default
 
 <v-clicks>
 
-- **Plan Highlights**: Comprehensive coverage for hospital, surgeries
+- **Plan Highlights**: coverage for hospital, surgeries
 - **Value Propositions**: Tailored plans, benefits increase with higher tiers
 - **Next Steps**: Evaluate needs, select appropriate coverage, consult representative
 

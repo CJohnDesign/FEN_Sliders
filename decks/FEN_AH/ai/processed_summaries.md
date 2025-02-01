@@ -5,7 +5,7 @@ The "Advanced Wellness Plus" insurance plan is a Limited Benefit Health Insuranc
 ## Core Plan Elements
 
 - **Key Features and Benefits:**
-  - Comprehensive medical benefits across multiple tiers.
+  - medical benefits across multiple tiers.
   - Coverage for hospital confinement, office visits, emergency room services, mental health, and more.
   - Additional benefits like accidental death and critical illness coverage.
 

@@ -4,7 +4,7 @@ theme: ../../
 title: Healthcare Data Analytics Plan Sponsor
 info: |
   ## Healthcare Data Analytics Plan Sponsor Overview
-  A comprehensive look at Plan Sponsorship and HCDA benefits.
+  A look at Plan Sponsorship and HCDA benefits.
 verticalCenter: true
 layout: intro
 themeConfig:

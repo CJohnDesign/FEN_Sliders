@@ -5,7 +5,7 @@ title: |
   Advanced Wellness Plus
 info: |
   ## Advanced Wellness Plus Review
-  A comprehensive look at the Advanced Wellness Plus benefits and details.
+  A look at the Advanced Wellness Plus benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:

@@ -58,7 +58,7 @@ All prior rules apply regarding confinement limitations, outpatient day-of-servi
 
 **---- Paramount 3 Plan ----**
 
-Now, let’s review the Paramount 3 Plan, which offers even more comprehensive coverage and includes surgical benefits.
+Now, let’s review the Paramount 3 Plan, which offers even more coverage and includes surgical benefits.
 
 Similar to the previous plans, the Paramount 3 Plan provides a $1,000 first-day Hospital Confinement benefit and a $200 first-day ICU Confinement benefit once per year. For subsequent days, both Hospital and ICU Confinements are covered at $300 per day, up to 10 days per year.
 

@@ -4,7 +4,7 @@ theme: ../../
 title: Good Health Distribution Partners
 info: |
   ## Good Health Distribution Partners Overview
-  A comprehensive look at Plan Sponsorship and GHD benefits.
+  A look at Plan Sponsorship and GHD benefits.
 verticalCenter: true
 layout: intro
 themeConfig:

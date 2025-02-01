@@ -47,7 +47,7 @@ async def process_page(model, page_num, img_path, total_pages):
             SystemMessage(content="""You are an expert at analyzing presentation slides.
             Look at the slide and return a detailed summary of the content. Include a descriptive title and the summary should be a single paragraph that covers all details of the slide. In the summary, talk about which companies provide which benefits.
             * If there is a benefits table, return tableDetails.hasBenefitsTable as true
-            ** Benefits tables include primary care visits, specialist visits, urgent care, and in-patient hospitalization benefits with specific co-pays and maximums. It also includes virtual care with no consult fees, wellness support, and advocacy services like hospital bill reduction.
+            ** Benefits tables can include, but not limited to, primary care visits, specialist visits, urgent care, and in-patient hospitalization benefits with specific co-pays and maximums. It can include Dental benefits plan, vision, etc. it will talk about the benefits you get with the plans.
             * If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true. This should never return true for a slide that has a benefits table.
             * if a slide has a benefits table, it will never have limitations.
             ** So both can be false but both can never be true.

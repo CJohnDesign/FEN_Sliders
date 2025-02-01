@@ -1,6 +1,6 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Premier Insurance Offer. We'll walk through the plan's comprehensive coverage options and benefits available exclusively to members of the National Congress of Employers. Let's get started!
+Hello, everyone! Thank you for joining today's session on the Premier Insurance Offer. We'll walk through the plan's coverage options and benefits available exclusively to members of the National Congress of Employers. Let's get started!
 
 ---- Premier Insurance Overview ----
 
@@ -8,7 +8,7 @@ The Premier Insurance Offer provides extensive coverage through Group Hospital F
 
 ---- Key Features and Benefits ----
 
-This plan provides daily hospital coverage and accident insurance, offering financial support tailored to your needs. With the backing of United States Fire Insurance, you can enjoy added peace of mind knowing that you have comprehensive support.
+This plan provides daily hospital coverage and accident insurance, offering financial support tailored to your needs. With the backing of United States Fire Insurance, you can enjoy added peace of mind knowing that you have support.
 
 ---- Cost Management Tools ----
 
@@ -20,7 +20,7 @@ To manage costs effectively, enroll through NCE, submit claims easily, and track
 
 ---- Preventive Care and Wellness ----
 
-Our plan includes services for routine check-ups and wellness programs. With access to a comprehensive health network, you can maintain your well-being effortlessly.
+Our plan includes services for routine check-ups and wellness programs. With access to a health network, you can maintain your well-being effortlessly.
 
 ---- Telehealth Services ----
 
@@ -28,7 +28,7 @@ Enjoy the convenience of virtual consultations with our telehealth services. Acc
 
 ---- Advocacy and Support Services ----
 
-Our personalized advocacy and support services provide guidance and options for care, ensuring you receive comprehensive support throughout your healthcare journey.
+Our personalized advocacy and support services provide guidance and options for care, ensuring you receive support throughout your healthcare journey.
 
 ---- 100 Plan (One of Two) ----
 
@@ -100,7 +100,7 @@ Comparing the plans, the daily hospital confinement benefits range from one hund
 
 ---- Definitions and Limitations ----
 
-It's important to note that specific exclusions apply to coverage. These exclusions ensure members are aware of the limitations within the policy. Be sure to review the policy details for comprehensive information.
+It's important to note that specific exclusions apply to coverage. These exclusions ensure members are aware of the limitations within the policy. Be sure to review the policy details for information.
 
 ---- Key Takeaways and Reminders ----
 

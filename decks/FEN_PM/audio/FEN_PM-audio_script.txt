@@ -1,6 +1,6 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Paramount Plan. We'll walk through the plan's comprehensive benefits. Let's get started!
+Hello, everyone! Thank you for joining today's session on the Paramount Plan. We'll walk through the plan's benefits. Let's get started!
 
 ---- Introduction to the Paramount Plan ----
 
@@ -8,7 +8,7 @@ The Paramount Plan provides flexible coverage for various medical situations. It
 
 ---- Key Features and Benefits ----
 
-Let's explore the key features. Hospital Admission Benefits provide financial support when members are admitted to a hospital. Intensive Care Unit, or ICU, Confinement Benefits add protection for intensive care stays. Daily Hospital and ICU Confinement Benefits extend coverage for multiple days. Some plans include Surgical and Ambulance Benefits for comprehensive protection. Members can also access Prescription Savings Programs through HealthWarehouse to help save on medications.
+Let's explore the key features. Hospital Admission Benefits provide financial support when members are admitted to a hospital. Intensive Care Unit, or ICU, Confinement Benefits add protection for intensive care stays. Daily Hospital and ICU Confinement Benefits extend coverage for multiple days. Some plans include Surgical and Ambulance Benefits for protection. Members can also access Prescription Savings Programs through HealthWarehouse to help save on medications.
 
 ---- Cost Management Tools ----
 
@@ -48,7 +48,7 @@ The same Pre-Existing Condition Limitations remain in place for 12 months. Norma
 
 ---- Paramount 3 Plan (1/2) ----
 
-Our most comprehensive option includes first-day Hospital Confinement at $1,000 and ICU Confinement at $200, with $300 daily coverage for both afterward. Inpatient Surgery is covered at $1,500, and Outpatient Surgery comes with a $500 benefit. Emergency Room Treatment remains at $200, with Chiropractic Visits at $25, Doctor's Office Visits at $75, and Urgent Care at $150. Air Ambulance coverage increases to $300.
+Our most option includes first-day Hospital Confinement at $1,000 and ICU Confinement at $200, with $300 daily coverage for both afterward. Inpatient Surgery is covered at $1,500, and Outpatient Surgery comes with a $500 benefit. Emergency Room Treatment remains at $200, with Chiropractic Visits at $25, Doctor's Office Visits at $75, and Urgent Care at $150. Air Ambulance coverage increases to $300.
 
 ---- Paramount 3 Plan (2/2) ----
 
@@ -56,7 +56,7 @@ The Pre-Existing Condition Limitations remain consistent with a 12-month waiting
 
 ---- Comparing the 3 Paramount Plans ----
 
-Let's take a moment to compare these plans side by side. Plan 1 includes Daily Hospital Confinement at $100/day and ICU Confinement at $200/day but excludes Inpatient Surgery, Outpatient Surgery, or enhanced Air Ambulance coverage. Plan 2 offers increased Hospital Confinement at $300/day and ICU at $500/day, plus Inpatient Surgery benefits at $1,500. Plan 3 provides the most comprehensive coverage, with both Hospital and ICU Confinement at $300/day, including both Inpatient Surgery at $1,500 and Outpatient Surgery at $500, along with enhanced Air Ambulance coverage at $300.
+Let's take a moment to compare these plans side by side. Plan 1 includes Daily Hospital Confinement at $100/day and ICU Confinement at $200/day but excludes Inpatient Surgery, Outpatient Surgery, or enhanced Air Ambulance coverage. Plan 2 offers increased Hospital Confinement at $300/day and ICU at $500/day, plus Inpatient Surgery benefits at $1,500. Plan 3 provides the most coverage, with both Hospital and ICU Confinement at $300/day, including both Inpatient Surgery at $1,500 and Outpatient Surgery at $500, along with enhanced Air Ambulance coverage at $300.
 
 ---- Critical Requirements ----
 

@@ -4,7 +4,7 @@ theme: ../../
 title: The Vitamin Patch Plan Sponsor
 info: |
   ## The Vitamin Patch Plan Sponsor Overview
-  A comprehensive look at Plan Sponsorship and VPP benefits.
+  A look at Plan Sponsorship and VPP benefits.
 verticalCenter: true
 layout: intro
 themeConfig:

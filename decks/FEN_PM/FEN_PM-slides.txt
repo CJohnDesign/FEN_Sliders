@@ -4,7 +4,7 @@ theme: ../../
 title: Paramount Plan Overview
 info: |
   ## Slidev Deck for Paramount Plan Review
-  A comprehensive look at the Paramount Plan benefits and details.
+  A look at the Paramount Plan benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -36,7 +36,7 @@ A unique set of health coverage options designed to meet diverse needs.
 
 <v-click>
 
-Combines hospital indemnity benefits with comprehensive support services.
+Combines hospital indemnity benefits with support services.
 </v-click>
 
 <v-click>

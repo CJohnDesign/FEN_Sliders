@@ -1,14 +1,14 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the MyChoice Plan. We'll walk through the plan's comprehensive benefits, explain how it helps control healthcare costs, and discuss how membership through the Business Workers of America (BWA) makes these benefits possible.
+Hello, everyone! Thank you for joining today's session on the MyChoice Plan. We'll walk through the plan's benefits, explain how it helps control healthcare costs, and discuss how membership through the Business Workers of America (BWA) makes these benefits possible.
 
 ---- MyChoice Plan Overview ----
 
-The MyChoice Plan offers hospital indemnity insurance through Business Workers of America (BWA), providing flexible coverage for various medical situations. This comprehensive plan includes extensive benefits and support tools designed to help members navigate their healthcare journey effectively. One of its key advantages is significant cost savings through medical bill repricing, along with extensive support to help members understand and maximize their benefits.
+The MyChoice Plan offers hospital indemnity insurance through Business Workers of America (BWA), providing flexible coverage for various medical situations. This plan includes extensive benefits and support tools designed to help members navigate their healthcare journey effectively. One of its key advantages is significant cost savings through medical bill repricing, along with extensive support to help members understand and maximize their benefits.
 
 ---- Key Features and Benefits ----
 
-Hospital Admission Benefits give members financial support when they're admitted to a hospital. ICU Confinement Benefits provide an additional layer of protection for intensive care stays. Daily Hospital and ICU Confinement Benefits extend coverage for multiple days. Certain plans include Surgical and Ambulance Benefits for more comprehensive protection. Prescription Savings Programs through HealthWarehouse help members save on medications.
+Hospital Admission Benefits give members financial support when they're admitted to a hospital. ICU Confinement Benefits provide an additional layer of protection for intensive care stays. Daily Hospital and ICU Confinement Benefits extend coverage for multiple days. Certain plans include Surgical and Ambulance Benefits for more protection. Prescription Savings Programs through HealthWarehouse help members save on medications.
 
 ---- Cost Management Tools ----
 
@@ -48,15 +48,15 @@ Like the Low Plan, the Mid Plan features a five million dollar Lifetime Maximum 
 
 ---- MyChoice High Plan (One of Two) ----
 
-The High Plan maintains the Mid Plan's enhanced hospital benefits of three hundred dollars per day for Hospital Confinement and five hundred dollars for ICU Confinement, along with the one thousand dollar First Day Hospital Admission and one million dollar Hospital Benefits Year Maximum. Emergency services include the standard two hundred dollar Emergency Room benefit, one hundred dollar ground ambulance, and an increased air ambulance benefit of three hundred dollars. What sets this plan apart, is its comprehensive surgical benefits package, which includes one Surgical Schedule, five hundred dollar Ambulatory Outpatient Facility benefit, and both Assistant Surgeon and Anesthesia cover one Surgical Schedule.
+The High Plan maintains the Mid Plan's enhanced hospital benefits of three hundred dollars per day for Hospital Confinement and five hundred dollars for ICU Confinement, along with the one thousand dollar First Day Hospital Admission and one million dollar Hospital Benefits Year Maximum. Emergency services include the standard two hundred dollar Emergency Room benefit, one hundred dollar ground ambulance, and an increased air ambulance benefit of three hundred dollars. What sets this plan apart, is its surgical benefits package, which includes one Surgical Schedule, five hundred dollar Ambulatory Outpatient Facility benefit, and both Assistant Surgeon and Anesthesia cover one Surgical Schedule.
 
 ---- MyChoice High Plan (Two of Two) ----
 
-For outpatient care, the High Plan increases the office visit benefit to seventy-five dollars while maintaining the fifty dollar wellness visit benefit and four thousand dollar Calendar Year Maximum. The plan includes a five million dollar Lifetime Maximum and thesame twelve/twelve pre-existing conditions limitation. Portability is included, making this the most comprehensive plan option with its addition of surgical benefits.
+For outpatient care, the High Plan increases the office visit benefit to seventy-five dollars while maintaining the fifty dollar wellness visit benefit and four thousand dollar Calendar Year Maximum. The plan includes a five million dollar Lifetime Maximum and thesame twelve/twelve pre-existing conditions limitation. Portability is included, making this the most plan option with its addition of surgical benefits.
 
 ---- Comparing the 3 MyChoice Plans ----
 
-The Low Plan provides basic Hospital and ICU Confinement benefits with standard office visit coverage. The Mid Plan increases hospital benefits and Air Ambulance coverage. The High Plan offers the most comprehensive coverage, including increased office visit benefits and surgical coverage, plus the highest Air Ambulance benefit.
+The Low Plan provides basic Hospital and ICU Confinement benefits with standard office visit coverage. The Mid Plan increases hospital benefits and Air Ambulance coverage. The High Plan offers the most coverage, including increased office visit benefits and surgical coverage, plus the highest Air Ambulance benefit.
 
 ---- Definitions and Limitations ----
 
