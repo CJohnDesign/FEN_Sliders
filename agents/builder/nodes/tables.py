@@ -6,7 +6,8 @@ import base64
 from typing import Dict
 from pathlib import Path
 from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import HumanMessage, SystemMessage
+from ..config.models import get_model_config
 
 logger = logging.getLogger(__name__)
 
@@ -22,132 +23,103 @@ def encode_image(image_path: str) -> str:
         raise
 
 async def extract_tables(state: Dict) -> Dict:
-    """Extract tables from pages marked as containing tables."""
+    """Extract tables from slides and save as TSV files"""
     try:
         logger.info("Starting table extraction...")
-        logger.info(f"State contains: {list(state.keys())}")
         
-        if state.get("error_context"):
-            logger.warning("Error context found in state, skipping table extraction")
-            return state
-            
-        if not state.get("deck_info"):
-            error_msg = "No deck info available"
-            logger.error(error_msg)
-            state["error_context"] = {
-                "error": error_msg,
-                "stage": "table_extraction"
-            }
-            return state
-
+        # Initialize tables data structure
+        tables_data = {
+            "tables": []
+        }
+        
         deck_dir = Path(state["deck_info"]["path"])
-        logger.info(f"Working with deck directory: {deck_dir}")
-
+        img_dir = deck_dir / "img" / "pages"
         tables_dir = deck_dir / "ai" / "tables"
         tables_dir.mkdir(parents=True, exist_ok=True)
-        logger.info(f"Created/verified tables directory at: {tables_dir}")
-
-        summaries_path = deck_dir / "ai" / "summaries.json"
-        if not summaries_path.exists():
-            error_msg = "Summaries file not found"
-            logger.error(error_msg)
-            state["error_context"] = {
-                "error": error_msg,
-                "stage": "table_extraction"
-            }
-            return state
+        
+        # Get list of PNG files
+        png_files = sorted([f for f in os.listdir(img_dir) if f.endswith('.png')])
+        
+        # Initialize model with config
+        model_config = get_model_config()
+        model = ChatOpenAI(**model_config)
+        
+        for i, png_file in enumerate(png_files, 1):
+            logger.info(f"Processing table for page {i}")
+            img_path = img_dir / png_file
             
-        with open(summaries_path, "r") as f:
-            summaries = json.load(f)
-        
-        logger.info(f"Loaded {len(summaries)} summaries")
-        pages_with_tables = [s for s in summaries if s.get("tableDetails", {}).get("hasBenefitsTable", False)]
-        logger.info(f"Found {len(pages_with_tables)} pages marked with hasBenefitsTable=true")
-
-        chat = ChatOpenAI(
-            model="gpt-4o",
-            max_tokens=8000,
-            temperature=0
-        )
-        logger.info("Initialized chat model with gpt-4o")
-
-        manifest = {"tables": []}
-        
-        for summary in pages_with_tables:
             try:
-                logger.info(f"Processing table for page {summary['page']}")
+                # Encode image
+                base64_image = encode_image(str(img_path))
+                logger.info(f"Successfully encoded image for page {i}")
                 
-                image_path = deck_dir / "img" / "pages" / f"page_{summary['page']}.png"
-                if not image_path.exists():
-                    logger.error(f"Image file not found: {image_path}")
-                    continue
-
-                # Get base64 of image
-                image_base64 = encode_image(str(image_path))
-                logger.info(f"Successfully encoded image for page {summary['page']}")
-                
+                # Create messages for model
                 messages = [
+                    SystemMessage(content="""You are an expert at extracting tables from images.
+                    If you find a table in the image, extract it and return it in TSV format.
+                    If there is no table, return "NO_TABLE".
+                    Only return the TSV content or NO_TABLE - no other text."""),
                     HumanMessage(content=[
                         {
-                            "type": "text",
-                            "text": """Here is an image of a benefits table. Return in a clean tab-separated (TSV) format, using tabs (\t) as separators between columns. Return only the TSV text without anything else.
-
-Be very careful to not include any other text in the output and ensure it is a true representation of the information in the table."""
+                            "type": "text", 
+                            "text": "Extract any tables from this image in TSV format."
                         },
                         {
                             "type": "image_url",
                             "image_url": {
-                                "url": f"data:image/png;base64,{image_base64}"
+                                "url": f"data:image/png;base64,{base64_image}",
+                                "detail": "high"
                             }
                         }
                     ])
                 ]
-
-                logger.info(f"Sending request to model for page {summary['page']}")
-                response = await chat.ainvoke(messages)
-                logger.info(f"Received response from model for page {summary['page']}")
-                tsv_content = response.content
                 
-                if tsv_content:
-                    table_path = tables_dir / f"table_{summary['page']:03d}.tsv"
-                    with open(table_path, "w") as f:
-                        f.write(tsv_content)
-                    logger.info(f"Saved TSV content to {table_path}")
+                # Get model response
+                logger.info(f"Sending request to model for page {i}")
+                response = await model.ainvoke(messages)
+                logger.info(f"Received response from model for page {i}")
+                
+                content = response.content.strip()
+                
+                # Skip if no table found
+                if content == "NO_TABLE":
+                    continue
                     
-                    manifest["tables"].append({
-                        "page": summary["page"],
-                        "path": str(table_path.relative_to(deck_dir))
-                    })
-                    
-                    summary["table_path"] = str(table_path.relative_to(deck_dir))
-                    logger.info(f"Added table path to summary for page {summary['page']}")
-                else:
-                    logger.warning(f"No table content extracted for page {summary['page']}")
-                    
+                # Save table content
+                table_filename = f"table_{i:03d}.tsv"
+                table_path = tables_dir / table_filename
+                with open(table_path, "w") as f:
+                    f.write(content)
+                logger.info(f"Saved TSV content to {table_path}")
+                
+                # Add to tables data
+                tables_data["tables"].append({
+                    "page": i,
+                    "filename": table_filename,
+                    "path": str(table_path.relative_to(deck_dir))
+                })
+                logger.info(f"Added table path to summary for page {i}")
+                
             except Exception as e:
-                logger.error(f"Failed to process table for page {summary['page']}: {str(e)}")
+                logger.error(f"Error processing page {i}: {str(e)}")
+                logger.error("Full error context:", exc_info=True)
                 continue
-
+        
+        # Save tables manifest
         manifest_path = tables_dir / "manifest.json"
         with open(manifest_path, "w") as f:
-            json.dump(manifest, f, indent=2)
-        logger.info(f"Saved tables manifest to {manifest_path}")
-
-        with open(summaries_path, "w") as f:
-            json.dump(summaries, f, indent=2)
-        logger.info("Updated summaries.json with table references")
-
-        # Even if some tables fail, continue with the process
-        logger.info(f"Table extraction complete. Successfully processed {len(manifest['tables'])} tables")
-        logger.info(f"Final state keys: {list(state.keys())}")
-        logger.info(f"Tables manifest: {json.dumps(manifest, indent=2)}")
-        logger.info(f"State error context: {state.get('error_context')}")
+            json.dump(tables_data, f, indent=2)
+        logger.info("Saved tables manifest to decks/FEN_ADP/ai/tables/manifest.json")
+        
+        # Update state
+        state["tables_data"] = tables_data
+        logger.info(f"Table extraction complete. Successfully processed {len(tables_data['tables'])} tables")
+        
         return state
         
     except Exception as e:
         logger.error(f"Failed to extract tables: {str(e)}")
         logger.error("Full error context:", exc_info=True)
         logger.error(f"State contents: {list(state.keys())}")
-        # Don't stop the process on table extraction failure
         logger.info("Continuing despite table extraction failure")
         return state 

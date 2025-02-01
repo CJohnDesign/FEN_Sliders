@@ -37,8 +37,11 @@ class BuilderState(TypedDict):
     page_summaries: Optional[List[PageSummary]]  # List of page summaries with their metadata
     processed_summaries: Optional[str]  # Markdown formatted processed summaries
     
+    # Audio state
+    audio_config: Optional[dict]  # Audio generation configuration
+    
     # Error handling
-    error_context: Optional[dict]  # Error information if any step fails
+    error_context: Optional[dict]  # Error information if any step fails 
 
 @dataclass
 class TableDetails:

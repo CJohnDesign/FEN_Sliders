@@ -1,43 +1,114 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the FEN_ADP Plan. Together, we'll explore the comprehensive benefits and details of this plan. Let's dive right in!
+Hello, everyone! Thank you for joining today's session on the Ameritas Dental and Vision Plan. We'll walk through the plan's comprehensive package that integrates both dental and eye care benefits under a single plan. Let's get started!
 
----- Plan Overview ----
+---- MyChoice Plan Overview ----
 
-The FEN_ADP Plan, brought to you by the National Congress of Employers and administered by Ameritas, provides a comprehensive benefits package. This plan combines dental and eye care under the FUSION plan and is crafted to meet the diverse needs of our members. With a strong focus on flexibility and immediate access to services, members can enjoy significant savings. What's more, you have the opportunity to utilize up to one thousand dollars for dental expenses and one hundred dollars for eye care within the annual coverage cap of one thousand dollars.
+The Ameritas Dental and Vision Plan offers a comprehensive package designed to provide flexibility and extensive coverage, ensuring members can manage their dental and vision health effectively.
+
+Before we dive into the specific features, let's get an overview of what this plan offers.
+
+The Ameritas Dental and Vision Plan is a comprehensive package through Ameritas. It offers dental benefits for routine care, vision benefits and allowances, combined coverage flexibility, and outlines late entrant policy limitations.
 
 ---- Key Features and Benefits ----
 
-Let’s take a closer look at the key features and benefits of the FEN_ADP Plan. You’ll find comprehensive coverage for both dental and eye care services. One of the standout features is that there are no waiting periods for dental benefits, allowing you to access care right when you need it. Additionally, the plan offers access to a large network of healthcare providers, ensuring that you have plenty of choices.
+Let's explore the key features that make this plan beneficial.
+
+### Dental Benefits
+
+The Ameritas Dental Plan includes three types of coverage:
+- **Type 1 Preventive Services:** These services are covered at 100%, including routine exams, bitewing X-rays, and cleanings, with no waiting period.
+- **Type 2 Basic Services:** Restorative amalgams and composites are covered at 100%.
+- **Type 3 Major Services:** Surgical extractions and crowns are also covered at 100%.
+
+### Vision Benefits
+
+The plan provides specific allowances and frequencies for exams, lenses, and frames. Members have the flexibility to allocate up to $100 for eye care within the combined annual maximum of $1,000.
+
+### Provider Flexibility
+
+Members can choose any dentist, enjoying network savings of up to 30% below average costs.
+
+### Dental Rewards Program
+
+Members can increase their annual maximum benefit by submitting claims and visiting Ameritas network providers.
+
+### Additional Services
+
+Additional services are available through Ameritas, ensuring members have access to a wide range of benefits.
 
 ---- Cost Management Tools ----
 
-Managing costs effectively is crucial, and this plan offers excellent tools to help you do just that. With access to a vast network, you can enjoy significant savings by staying in-network. The claims process is streamlined for your convenience, and you’ll have access to support services around the clock. Whether you need assistance with claims or have questions about your benefits, support is just a call away.
+Understanding how to manage costs effectively is key.
+
+### In-Network Savings
+
+Claims are subject to a maximum covered expense, with in-network allowances offering discounted rates.
+
+### Prescription Savings
+
+Members benefit from savings on medications through a network of over 60,000 pharmacies, including major chains like CVS, Walgreens, and Walmart, with up to 65% savings on generic prescriptions.
+
+### Combined Coverage
+
+The plan allows a total cap of $1,000 for both dental and vision expenses, providing flexibility in how members allocate their benefits.
+
+### Late Entrant Policy
+
+New enrollees face limitations on benefits for the first 12 months, except for certain preventive services.
+
+---- How MBR Works ----
+
+Here’s how you can maximize savings by staying in-network.
+
+Enroll through Ameritas to begin enjoying the benefits of in-network savings. Choose in-network providers to save up to 30% below average costs. You'll receive an Explanation of Benefits (EOB) to help you allocate benefits flexibly and maximize your annual savings.
 
 ---- Preventive Care and Wellness ----
 
-Preventive care is a cornerstone of the FEN_ADP Plan, ensuring you stay on top of your health with ease. The dental coverage is divided into three categories: Preventive, Basic, and Major procedures. In terms of eye care, you’ll be covered for exams, lenses, and frames, each with specified allowances that help manage costs effectively.
+Preventive care is a cornerstone of maintaining good health.
 
----- Plan Tiers and Benefits ----
+### Vision Savings
 
-Exploring the plan tiers and benefits, the FEN_ADP Dental Plan offers a structured approach. For Type One, which is Preventive, coverage is at one hundred percent, with services like routine exams, bitewing X-rays, and cleanings included, all with a zero-dollar deductible. For Type Two, which is Basic, coverage remains at one hundred percent, covering services such as restorative amalgams and composites, nonsurgical endodontics, and simple extractions. Here, a fifty-dollar deductible per person per calendar year applies, with a family maximum of one hundred fifty dollars.
+Members can enjoy up to 35% off eyewear frames and lenses at Walmart Vision Centers.
 
----- Plan Tiers and Benefits (Two of Two) ----
+---- Advocacy and Support Services ----
 
-Continuing onto Type Three, which is Major, you’ll find one hundred percent coverage for services like surgical extractions, crowns, and prosthodontics, which includes bridges and dentures. The deductible is the same as Basic, with fifty dollars per person per year and one hundred fifty dollars for a family maximum. Importantly, the annual benefit maximum for Type One, Two, and Three combined is one thousand dollars per person per calendar year.
+Let's discuss the support services available to you.
 
----- Comparison of the Plans ----
+### Customer Service
 
-Let’s now compare the three plan types. All offer one hundred percent coverage, but they vary in deductibles and services. Type One Preventive has a zero-dollar deductible and covers exams, X-rays, and cleanings. Type Two Basic includes restorative work and extractions with a fifty-dollar deductible. Type Three Major covers surgical procedures and prosthodontics, also with a fifty-dollar deductible. Each type shares the same annual maximum of one thousand dollars.
+Members have access to dedicated contact information for assistance, including customer service hours and a support phone number for any inquiries.
+
+---- Ameritas Dental and Vision Plan (One of Two) ----
+
+The Ameritas Dental Plan covers a wide range of services.
+
+### Plan Details
+
+The plan integrates both dental and vision benefits, providing extensive coverage options that promote overall health and wellness.
+
+---- Ameritas Dental and Vision Plan (Two of Two) ----
+
+Now, let's look at the financial details of the dental plan.
+
+### Plan Details
+
+The plan's comprehensive structure ensures flexibility and balance between dental and vision care, accommodating diverse member needs.
+
+---- Comparing the 3 MyChoice Plans ----
+
+Here’s how the dental, vision, and combined plans compare. The Ameritas Dental and Vision Plan stands out for its unique integration of dental and eye care benefits, offering competitive savings and flexible coverage options compared to other MyChoice plans.
 
 ---- Definitions and Limitations ----
 
-Understanding the definitions and limitations is key. The deductible is the amount you pay out-of-pocket before your benefits kick in. The maximum covered expense refers to the highest fee allowed for a covered service. In-network allowance means you benefit from discounted fees when using services within the network. Also, remember certain major procedures, like crowns, are limited to once every ten years.
+Let’s clarify some key definitions and limitations of the plan.
+
+The plan includes a Late Entrant policy that imposes benefit limitations for new enrollees during the first 12 months, excluding certain preventive services. Combined coverage offers a $1,000 total cap with flexible allocation, and there's no waiting period for Type 1 services. Provider choice allows dentist flexibility and network savings.
 
 ---- Key Takeaways and Reminders ----
 
-As we wrap up, here are some key takeaways. The FEN_ADP Plan offers immediate access to a broad range of dental and eye care services, with no waiting periods and significant in-network savings. The high coverage percentages ensure you face minimal out-of-pocket costs, and you have the flexibility to choose your providers while still enjoying substantial savings. Don’t forget to review the plan details, confirm provider participation, and reach out to customer service for any questions or to enroll.
+Let’s wrap up with some key takeaways. Key takeaways from the Ameritas Dental and Vision Plan include its comprehensive benefits, flexible coverage options, provider freedom, and the necessity for enrollment.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the FEN_ADP Plan. Remember, your health is our priority, and with the right plan, you can continue to thrive. Continue to be great!
+Thank you for taking the time to learn about the Ameritas Dental and Vision Plan. This plan is designed to support your dental and vision health needs effectively. Continue to be great!

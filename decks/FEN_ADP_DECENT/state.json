@@ -1,0 +1,86 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_ADP",
+    "title": "Ameritas Dental Plan",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T12:10:16.849178",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_ADP",
+    "metadata": {
+      "deck_id": "FEN_ADP",
+      "title": "Ameritas Dental Plan",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T12:10:16.849178",
+      "version": "1.0"
+    }
+  },
+  "slides": [
+    {
+      "title": "Dental and Eye Care Benefits Overview",
+      "content": "The slide presents a dental and eye care benefits plan offered by The National Congress of Employers, underwritten by Ameritas. The plan, named FUSION, combines dental and eye care benefits with an annual maximum of $1,000, where $1,000 can be used for dental expenses and $100 for eye care expenses. The dental plan benefits are categorized into three types: Type 1 Preventive, Type 2 Basic, and Type 3 Major, all with no waiting period and covered at 100%. Type 1 includes routine exams, bitewing X-rays, and cleanings. Type 2 covers restorative procedures and simple extractions, while Type 3 includes surgical extractions, periodontics, crowns, endodontics, and prosthodontics. The deductible is $0 for Type 1 and $50 per person per calendar year for Types 2 and 3, with a family maximum of $150. The benefit year maximum is $1,000 per person per calendar year, and claims allowance is based on maximum covered expense with in-network discounts.",
+      "type": "default"
+    },
+    {
+      "title": "Vision and Dental Plan Benefits Overview",
+      "content": "The slide outlines the vision plan benefits provided by Ameritas under the National Congress of Employers policy. It details allowances for exams, lenses, frames, and various types of lenses such as bifocal and trifocal, all subject to maximum limits. The plan includes a lifetime deductible of $100 for exams and $0 for other services. Additionally, the slide describes dental rewards, which allow members to increase their annual maximum benefit by submitting claims and visiting Ameritas network providers. It highlights provider flexibility, allowing members to choose any dentist, with network dentists offering up to 30% savings. The Ameritas dental network is one of the largest in the nation. Late entrants face a 12-month waiting period for certain benefits, except for evaluations and cleanings.",
+      "type": "default"
+    },
+    {
+      "title": "Member Savings and Customer Service Information",
+      "content": "The slide provides details on member savings offered by The National Congress of Employers through Ameritas. It highlights prescription savings, allowing members to save on medications at over 60,000 pharmacies, including major chains like CVS and Walgreens. Additionally, members can save up to 35% on eyewear frames and lenses at Walmart Vision Centers, with benefits such as top quality frames, a wide selection of lenses with scratch-resistant coating, and safety eyewear. The slide also mentions guarantees like a 60-day satisfaction guarantee and a 12-month replacement guarantee for damaged frames or lenses. Customer service contact information is provided, with hours of operation from Monday to Thursday, 7am-12am CST, and Friday, 7am-6:30pm CST.",
+      "type": "default"
+    }
+  ],
+  "pdf_path": "decks/FEN_ADP/img/pdfs/NCE_Ameritas_SchedulePlan_Brochure.pdf",
+  "pdf_info": {
+    "num_pages": 3,
+    "page_paths": [
+      "decks/FEN_ADP/img/pages/page_1.png",
+      "decks/FEN_ADP/img/pages/page_2.png",
+      "decks/FEN_ADP/img/pages/page_3.png"
+    ],
+    "output_dir": "decks/FEN_ADP/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": [
+    {
+      "title": "Dental and Eye Care Benefits Overview",
+      "summary": "The slide presents a dental and eye care benefits plan offered by The National Congress of Employers, underwritten by Ameritas. The plan, named FUSION, combines dental and eye care benefits with an annual maximum of $1,000, where $1,000 can be used for dental expenses and $100 for eye care expenses. The dental plan benefits are categorized into three types: Type 1 Preventive, Type 2 Basic, and Type 3 Major, all with no waiting period and covered at 100%. Type 1 includes routine exams, bitewing X-rays, and cleanings. Type 2 covers restorative procedures and simple extractions, while Type 3 includes surgical extractions, periodontics, crowns, endodontics, and prosthodontics. The deductible is $0 for Type 1 and $50 per person per calendar year for Types 2 and 3, with a family maximum of $150. The benefit year maximum is $1,000 per person per calendar year, and claims allowance is based on maximum covered expense with in-network discounts.",
+      "tableDetails": {
+        "hasBenefitsTable": true,
+        "hasLimitations": false
+      },
+      "page": 1
+    },
+    {
+      "title": "Vision and Dental Plan Benefits Overview",
+      "summary": "The slide outlines the vision plan benefits provided by Ameritas under the National Congress of Employers policy. It details allowances for exams, lenses, frames, and various types of lenses such as bifocal and trifocal, all subject to maximum limits. The plan includes a lifetime deductible of $100 for exams and $0 for other services. Additionally, the slide describes dental rewards, which allow members to increase their annual maximum benefit by submitting claims and visiting Ameritas network providers. It highlights provider flexibility, allowing members to choose any dentist, with network dentists offering up to 30% savings. The Ameritas dental network is one of the largest in the nation. Late entrants face a 12-month waiting period for certain benefits, except for evaluations and cleanings.",
+      "tableDetails": {
+        "hasBenefitsTable": true,
+        "hasLimitations": false
+      },
+      "page": 2
+    },
+    {
+      "title": "Member Savings and Customer Service Information",
+      "summary": "The slide provides details on member savings offered by The National Congress of Employers through Ameritas. It highlights prescription savings, allowing members to save on medications at over 60,000 pharmacies, including major chains like CVS and Walgreens. Additionally, members can save up to 35% on eyewear frames and lenses at Walmart Vision Centers, with benefits such as top quality frames, a wide selection of lenses with scratch-resistant coating, and safety eyewear. The slide also mentions guarantees like a 60-day satisfaction guarantee and a 12-month replacement guarantee for damaged frames or lenses. Customer service contact information is provided, with hours of operation from Monday to Thursday, 7am-12am CST, and Friday, 7am-6:30pm CST.",
+      "tableDetails": {
+        "hasBenefitsTable": false,
+        "hasLimitations": false
+      },
+      "page": 3
+    }
+  ],
+  "processed_summaries": "## Plan Overview\nWelcome to the comprehensive benefits overview for the FUSION Dental and Vision Plans offered by The National Congress of Employers and underwritten by Ameritas. These plans combine dental and eye care benefits to provide flexible and robust coverage options designed to meet your healthcare needs.\n\n## Core Plan Elements\n- **Key Features and Benefits**: The FUSION plan integrates both dental and vision benefits with specific allocations for each. Dental benefits are categorized into Preventive, Basic, and Major services, all covered at 100% with no waiting period.\n- **Coverage Details**: Up to $1,000 is available annually for dental expenses, and $100 is allocated for eye care expenses.\n- **Eligibility Requirements**: Membership with The National Congress of Employers and adherence to Ameritas\u2019 guidelines are required for enrollment.\n\n## Common Service Features\n- **Network Access**: Leverage Ameritas' extensive network of dental providers and vision care centers for maximum savings and convenience.\n- **Claims Process**: Simplified claims submission process with assistance available through Ameritas customer service.\n- **Support Services**: Access to dedicated customer service representatives from Monday to Thursday, 7am-12am CST, and Friday, 7am-6:30pm CST.\n\n## Plan Tiers and Benefits\n\n## FEN_ADP Dental and Vision Plan Summary (1/2)\n\n### Dental Plan Benefits\n\n**Type 1: Preventive Care**\n- Coverage: 100%\n- Services Included: \n  - Routine Exam: 1 per 6 months\n  - Bitewing X-rays: 1 per 12 months\n  - Cleaning: 1 per 6 months\n- Deductible: $0\n\n**Type 2: Basic Care**\n- Coverage: 100%\n- Services Included:\n  - Restorative Amalgams\n  - Restorative Composites\n  - Endodontics (nonsurgical)\n  - Simple Extractions\n- Deductible: $50 per person, per calendar year\n- Family Maximum Deductible: $150 per calendar year\n\n## FEN_ADP Dental and Vision Plan Summary (2/2)\n\n**Type 3: Major Care**\n- Coverage: 100%\n- Services Included:\n  - Surgical Extractions\n  - Periodontics (nonsurgical and surgical)\n  - Crowns: 1 in 10 years per tooth\n  - Endodontics (surgical)\n  - Prosthodontics (Bridges, Dentures): 1 in 10 years\n- Deductible: $50 per person, per calendar year\n- Family Maximum Deductible: $150 per calendar year\n\n**Benefit Year Maximum**\n- Coverage Maximum: $1,000 per person, per calendar year for Types 1, 2, and 3\n\n**Claims Allowance**\n- In-Network Allowance: Based on a discounted fee for Types 1, 2, and 3\n\n## Vision Plan Benefits\n\n### Coverage Overview\nThe vision plan provides allowances on various services and materials, with specific maximum allowances for contact lenses.\n\n**Allowances**\n- Exam: Subject to maximum; no specific limit listed\n- Lenses (per pair): Subject to maximum; no specific limit listed for:\n  - Single\n  - Bifocal\n  - Trifocal\n  - Lenticular\n  - Progressive\n- Contacts:\n  - Maximum: $100 for elective or medically necessary contact lenses\n- Frames: Subject to maximum; no specific limit listed\n\n**Deductibles**\n- Lifetime Deductible: $0\n\n## Comparing the Plans (1/2)\n\n| **Feature**             | **Dental Plan**   | **Vision Plan**   |\n|-------------------------|-------------------|-------------------|\n| Coverage Type           | Preventive, Basic, Major | Various lenses and frames |\n| Deductible              | $0 for Preventive; $50 for Basic and Major | $0 Lifetime |\n| Annual Maximum          | $1,000 per person | $100 for contacts |\n| Waiting Period          | None              | None              |\n\n## Comparing the Plans (2/2)\n\n| **Feature**             | **Dental Plan**   | **Vision Plan**   |\n|-------------------------|-------------------|-------------------|\n| Network Access          | Extensive network | Large optical network |\n| Claims Process          | Simplified with in-network discounts | Seamless claims process |\n| Customer Support        | Available Monday-Friday | Available Monday-Friday |\n\n## Limitations and Definitions\n- **Important Exclusions**: Late entrants face a 12-month waiting period for certain dental benefits, except for evaluations and cleanings.\n- **Key Terms Defined**:\n  - **Preventive Care**: Routine checks to prevent dental issues.\n  - **Basic Care**: Treatments like fillings and extractions.\n  - **Major Care**: Extensive procedures like crowns and dentures.\n\n## Key Takeaways\n- **Plan Highlights**: Comprehensive dental and vision coverage with substantial savings through Ameritas' network.\n- **Value Propositions**: No waiting periods and 100% coverage on a wide array of services.\n- **Next Steps**: Consider enrolling to optimize your healthcare benefits and take advantage of the network savings and robust support services provided.",
+  "audio_config": {
+    "config_path": "decks/FEN_ADP/audio/audio_config.json",
+    "script_path": "decks/FEN_ADP/audio/audio_script.md",
+    "slide_count": 3
+  },
+  "error_context": null
+}

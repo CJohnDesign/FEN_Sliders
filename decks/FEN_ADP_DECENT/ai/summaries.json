@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Dental and Eye Care Benefits Overview",
+    "summary": "The slide presents a dental and eye care benefits plan offered by The National Congress of Employers, underwritten by Ameritas. The plan, named FUSION, combines dental and eye care benefits with an annual maximum of $1,000, where $1,000 can be used for dental expenses and $100 for eye care expenses. The dental plan benefits are categorized into three types: Type 1 Preventive, Type 2 Basic, and Type 3 Major, all with no waiting period and covered at 100%. Type 1 includes routine exams, bitewing X-rays, and cleanings. Type 2 covers restorative procedures and simple extractions, while Type 3 includes surgical extractions, periodontics, crowns, endodontics, and prosthodontics. The deductible is $0 for Type 1 and $50 per person per calendar year for Types 2 and 3, with a family maximum of $150. The benefit year maximum is $1,000 per person per calendar year, and claims allowance is based on maximum covered expense with in-network discounts.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 1,
+    "table_path": "ai/tables/table_001.tsv"
+  },
+  {
+    "title": "Vision and Dental Plan Benefits Overview",
+    "summary": "The slide outlines the vision plan benefits provided by Ameritas under the National Congress of Employers policy. It details allowances for exams, lenses, frames, and various types of lenses such as bifocal and trifocal, all subject to maximum limits. The plan includes a lifetime deductible of $100 for exams and $0 for other services. Additionally, the slide describes dental rewards, which allow members to increase their annual maximum benefit by submitting claims and visiting Ameritas network providers. It highlights provider flexibility, allowing members to choose any dentist, with network dentists offering up to 30% savings. The Ameritas dental network is one of the largest in the nation. Late entrants face a 12-month waiting period for certain benefits, except for evaluations and cleanings.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 2,
+    "table_path": "ai/tables/table_002.tsv"
+  },
+  {
+    "title": "Member Savings and Customer Service Information",
+    "summary": "The slide provides details on member savings offered by The National Congress of Employers through Ameritas. It highlights prescription savings, allowing members to save on medications at over 60,000 pharmacies, including major chains like CVS and Walgreens. Additionally, members can save up to 35% on eyewear frames and lenses at Walmart Vision Centers, with benefits such as top quality frames, a wide selection of lenses with scratch-resistant coating, and safety eyewear. The slide also mentions guarantees like a 60-day satisfaction guarantee and a 12-month replacement guarantee for damaged frames or lenses. Customer service contact information is provided, with hours of operation from Monday to Thursday, 7am-12am CST, and Friday, 7am-6:30pm CST.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 3
+  }
+]

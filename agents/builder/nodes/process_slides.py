@@ -1,8 +1,8 @@
 """Slide generation node for the builder agent."""
-from typing import List, Dict, Any
-from pathlib import Path
 import json
 import logging
+from pathlib import Path
+from typing import Dict, List, Any
 from openai import AsyncOpenAI
 from ..state import BuilderState
 from ...utils.content import save_content, count_slides
@@ -15,7 +15,7 @@ client = AsyncOpenAI()
 
 @traceable(name="process_slides")
 async def process_slides(state: BuilderState) -> BuilderState:
-    """Generate Slidev markdown with concise, presentation-style content"""
+    """Generate initial Slidev markdown with presentation content"""
     try:
         if not state.get("processed_summaries"):
             state["error_context"] = {
@@ -26,13 +26,14 @@ async def process_slides(state: BuilderState) -> BuilderState:
             
         base_dir = Path(__file__).parent.parent.parent.parent
         template_path = base_dir / "decks" / state["metadata"]["template"] / "slides.md"
+        output_path = Path(state["deck_info"]["path"]) / "slides.md"
         
         # Load template
         with open(template_path) as f:
             template = f.read()
             
         # Extract pages with tables and limitations
-        summaries = state.get("page_summaries", [])
+        summaries = state.get("summaries", [])
         pages_with_tables = [
             f"/img/pages/page_{s['page']}.png"
             for s in summaries
@@ -46,13 +47,19 @@ async def process_slides(state: BuilderState) -> BuilderState:
         
         logger.info(f"Found {len(pages_with_tables)} pages with tables")
         logger.info(f"Found {len(pages_with_limitations)} pages with limitations")
-            
-        # Create slides from processed summaries
+
+        # Check if slides already exist
+        existing_content = ""
+        if output_path.exists():
+            with open(output_path) as f:
+                existing_content = f.read()
+                logger.info("Found existing slides content")
+        
+        # Create messages for slide generation
         messages = [
             {
                 "role": "system",
-                "content": f"""You are an expert presentation writer specializing in insurance benefits.
-                You are currently working on deck: {state["metadata"]["deck_id"]}
+                "content": """You are an expert presentation writer specializing in insurance benefits.
                 
                 Guidelines for slide content:
                 - Use bullet points with 3-5 words each
@@ -93,15 +100,11 @@ async def process_slides(state: BuilderState) -> BuilderState:
             {
                 "role": "user",
                 "content": f"""
-                Use this template structure - notice the placement of the logo images:
-                {template}
+                {"Use this existing slide structure as your base - maintain all layouts and transitions:" if existing_content else "Use this template structure - notice the placement of the logo images:"}
+                {existing_content if existing_content else template}
                 
-                Create slides from this processed summary content:
+                Generate slides using this processed summary content:
                 {state["processed_summaries"]}
-                
-                ** IT IS VERY IMPORTANT TO FOLLOW THE OUTLINE OF THESE SUMMARIES.** The template as extra sections that might not be relevant.
-                
-                Below you will notice there are a lot of plans here. Create a new section for each plan. Cover every benefit that there is a value for.
                 
                 Here are the benefit pages that contain tables - use these in the benefit sections:
                 {json.dumps(pages_with_tables, indent=2)}
@@ -109,29 +112,7 @@ async def process_slides(state: BuilderState) -> BuilderState:
                 Here are the pages that contain limitations - use these in the limitations sections:
                 {json.dumps(pages_with_limitations, indent=2)}
                 
-                Maintain all Slidev syntax for layouts and transitions.
-                Do not wrap the content in ```markdown or ``` tags.
-                
-                End with a thank you slide in this format:
-
-                ---
-                transition: fade-out
-                layout: end
-                line: Thank you for participating in the Premier Insurance Offer Review. Continue to be great!
-                ---
-
-                # Thank You!
-
-                Continue to be great!
-                
-                <add firstenroll logo here>
-
-                -------------------------------                
-                Keep benefits information short and concise but thorough. Consolidate benefits when possible, especially when going over the plan tiers. Use subbullet headers sparingly - each v-click should reveal complete information.
-                
-                Pre day and max day should be in the same bullet point. **include all plan tiers**
-                
-                Return a logical markdown file that outline the health insurance benefits. 
+                {"Update the content while maintaining the exact same structure and formatting from the existing slides." if existing_content else "Maintain all Slidev syntax for layouts and transitions."}
                 Do not wrap the content in ```markdown or ``` tags.
                 """
             }
@@ -144,19 +125,19 @@ async def process_slides(state: BuilderState) -> BuilderState:
             max_tokens=8000
         )
         
-        final_content = response.choices[0].message.content
+        # Get slide content
+        slides_content = response.choices[0].message.content
         
         # Save to file
-        output_path = Path(state["deck_info"]["path"]) / "slides.md"
-        await save_content(output_path, final_content)
+        await save_content(output_path, slides_content)
         
         # Update state
-        state["generated_slides"] = final_content
-        state["slide_count"] = count_slides(final_content)
+        state["generated_slides"] = slides_content
+        state["slide_count"] = count_slides(slides_content)
         
         # Add slides for audio setup
         state["slides"] = []
-        for summary in state.get("page_summaries", []):
+        for summary in summaries:
             state["slides"].append({
                 "title": summary.get("title", ""),
                 "content": summary.get("summary", ""),
