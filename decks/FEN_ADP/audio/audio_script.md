@@ -1,114 +1,98 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Ameritas Dental and Vision Plan. We'll walk through the plan's comprehensive package that integrates both dental and eye care benefits under a single plan. Let's get started!
+Hello, everyone! Thank you for joining today's session on the Ameritas Dental and Vision Plan. We'll walk through the plan's comprehensive benefits designed to cater to your dental and vision care needs. Let's get started!
 
----- MyChoice Plan Overview ----
+---- Ameritas Dental and Vision Overview ----
 
-The Ameritas Dental and Vision Plan offers a comprehensive package designed to provide flexibility and extensive coverage, ensuring members can manage their dental and vision health effectively.
+Let's start by looking at an overview of the Ameritas Dental and Vision Plan.
 
-Before we dive into the specific features, let's get an overview of what this plan offers.
-
-The Ameritas Dental and Vision Plan is a comprehensive package through Ameritas. It offers dental benefits for routine care, vision benefits and allowances, combined coverage flexibility, and outlines late entrant policy limitations.
+The Ameritas Dental and Vision Plan offers a suite of benefits that include coverage for dental and vision care expenses. This plan provides members with the flexibility to manage their healthcare needs efficiently, while also enjoying potential savings.
 
 ---- Key Features and Benefits ----
 
-Let's explore the key features that make this plan beneficial.
+We will now discuss the key features and benefits of the plan.
 
-### Dental Benefits
+The Ameritas Dental Plan under the FUSION plan design offers robust benefits. Members can utilize up to $1,000 for dental expenses, with an additional $100 allocated for eye care, provided the total does not exceed $1,000. The dental benefits are categorized into three types:
 
-The Ameritas Dental Plan includes three types of coverage:
-- **Type 1 Preventive Services:** These services are covered at 100%, including routine exams, bitewing X-rays, and cleanings, with no waiting period.
-- **Type 2 Basic Services:** Restorative amalgams and composites are covered at 100%.
-- **Type 3 Major Services:** Surgical extractions and crowns are also covered at 100%.
+- **Type 1: Preventive (100% coverage, no deductible)**
+  - Routine exams
+  - X-rays
+  - Cleanings
 
-### Vision Benefits
+- **Type 2: Basic (100% coverage, $50 deductible per person)**
+  - Restorative services like amalgams and composites
 
-The plan provides specific allowances and frequencies for exams, lenses, and frames. Members have the flexibility to allocate up to $100 for eye care within the combined annual maximum of $1,000.
+- **Type 3: Major (100% coverage, $50 deductible per person)**
+  - Complex procedures such as surgical extractions and crowns
 
-### Provider Flexibility
+The annual deductible for Types 2 and 3 is $50 per person with a $150 family maximum, and the benefit year maximum is $1,000 per person.
 
-Members can choose any dentist, enjoying network savings of up to 30% below average costs.
-
-### Dental Rewards Program
-
-Members can increase their annual maximum benefit by submitting claims and visiting Ameritas network providers.
-
-### Additional Services
-
-Additional services are available through Ameritas, ensuring members have access to a wide range of benefits.
+Additionally, there are services available through partner networks for further benefits.
 
 ---- Cost Management Tools ----
 
-Understanding how to manage costs effectively is key.
+Now, let's look at the cost management tools available with the plan.
 
-### In-Network Savings
+While there are no waiting periods for coverage, certain conditions apply for late entrants. Specifically, some benefits will not be payable during the first 12 months unless specific conditions are met.
 
-Claims are subject to a maximum covered expense, with in-network allowances offering discounted rates.
+Members can take advantage of prescription savings and access vision savings systems to help manage costs effectively.
 
-### Prescription Savings
+---- How the Plan Works ----
 
-Members benefit from savings on medications through a network of over 60,000 pharmacies, including major chains like CVS, Walgreens, and Walmart, with up to 65% savings on generic prescriptions.
+Here's how the Ameritas Dental and Vision Plan functions.
 
-### Combined Coverage
-
-The plan allows a total cap of $1,000 for both dental and vision expenses, providing flexibility in how members allocate their benefits.
-
-### Late Entrant Policy
-
-New enrollees face limitations on benefits for the first 12 months, except for certain preventive services.
-
----- How MBR Works ----
-
-Here’s how you can maximize savings by staying in-network.
-
-Enroll through Ameritas to begin enjoying the benefits of in-network savings. Choose in-network providers to save up to 30% below average costs. You'll receive an Explanation of Benefits (EOB) to help you allocate benefits flexibly and maximize your annual savings.
+Members can grow their annual maximum benefits by visiting dental providers and submitting claims, with potential rewards up to $1,000. There is also flexibility to choose any dentist, maximizing network savings.
 
 ---- Preventive Care and Wellness ----
 
-Preventive care is a cornerstone of maintaining good health.
+Focusing on preventive care and wellness.
 
-### Vision Savings
+The plan encourages preventive care by offering 100% coverage for routine exams, cleanings, and X-rays without a deductible, promoting regular check-ups and wellness.
 
-Members can enjoy up to 35% off eyewear frames and lenses at Walmart Vision Centers.
+---- Telehealth Services ----
+
+Exploring the telehealth services available.
+
+Currently, telehealth services are not explicitly detailed in this plan. However, members are advised to contact customer service for any telehealth-related inquiries.
 
 ---- Advocacy and Support Services ----
 
-Let's discuss the support services available to you.
+Let's discuss the advocacy and support services included in the plan.
 
-### Customer Service
-
-Members have access to dedicated contact information for assistance, including customer service hours and a support phone number for any inquiries.
+Members have access to dedicated customer service support. Contact details include a phone number and specified service hours to assist with any inquiries.
 
 ---- Ameritas Dental and Vision Plan (One of Two) ----
 
-The Ameritas Dental Plan covers a wide range of services.
+Reviewing the first part of the Ameritas Dental Plan.
 
-### Plan Details
-
-The plan integrates both dental and vision benefits, providing extensive coverage options that promote overall health and wellness.
+The vision plan includes allowances and service frequencies for exams, lenses, frames, and various types of lenses, all subject to maximums.
 
 ---- Ameritas Dental and Vision Plan (Two of Two) ----
 
-Now, let's look at the financial details of the dental plan.
+Continuing with the second part of the Ameritas Dental Plan.
 
-### Plan Details
+Members can enjoy up to 35% off eyewear frames and lenses at Walmart Vision Centers, along with guarantees such as satisfaction assurance and defect protection.
 
-The plan's comprehensive structure ensures flexibility and balance between dental and vision care, accommodating diverse member needs.
+---- Comparing the Plans ----
 
----- Comparing the 3 MyChoice Plans ----
+Here's a comparison of the different plans available.
 
-Here’s how the dental, vision, and combined plans compare. The Ameritas Dental and Vision Plan stands out for its unique integration of dental and eye care benefits, offering competitive savings and flexible coverage options compared to other MyChoice plans.
+While specific comparisons with other MyChoice Plans are not included here, the Ameritas Dental and Vision Plan stands out for its comprehensive coverage and additional savings opportunities.
 
 ---- Definitions and Limitations ----
 
-Let’s clarify some key definitions and limitations of the plan.
+Defining the coverage types and their limitations.
 
-The plan includes a Late Entrant policy that imposes benefit limitations for new enrollees during the first 12 months, excluding certain preventive services. Combined coverage offers a $1,000 total cap with flexible allocation, and there's no waiting period for Type 1 services. Provider choice allows dentist flexibility and network savings.
+- **Type 1 Preventive:** $0 deductible
+- **Type 2 and Type 3:** $50 deductible per person per year, $150 family maximum
+- **Benefit Year Maximum:** $1,000 per person
 
 ---- Key Takeaways and Reminders ----
 
-Let’s wrap up with some key takeaways. Key takeaways from the Ameritas Dental and Vision Plan include its comprehensive benefits, flexible coverage options, provider freedom, and the necessity for enrollment.
+Wrapping up with key takeaways and reminders.
+
+The Ameritas Dental and Vision Plan offers a comprehensive suite of benefits designed to meet your dental and vision care needs with flexibility and savings. Members are encouraged to take full advantage of these offerings to maximize their health benefits and potential rewards.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the Ameritas Dental and Vision Plan. This plan is designed to support your dental and vision health needs effectively. Continue to be great!
+Thank you for taking the time to learn about the Ameritas Dental and Vision Plan. Remember, these benefits are here to support your health and financial well-being. Continue to be great!

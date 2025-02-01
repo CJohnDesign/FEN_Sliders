@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T14:13:53.600537",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T14:13:53.600537",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Presentation Content: Basic Core Insurance Benefits Overview\n\n## Introduction/Overview\n- **Overview of Plans**: The presentation provides a detailed comparison of two managed care plans\u2014Basic Core and Basic Core-Plus\u2014underwritten by American Public Life Insurance Company. Both plans feature no waiting or exclusion periods for pre-existing conditions; however, pregnancy is not included in the coverage.\n\n## Benefits and Features\n- **Hospital and Physician Services**: \n  - Hospital admission coverage: $500 per day for one day.\n  - Hospital daily confinement: $100 per day, up to ten days.\n  - Emergency room and urgent care visits: $50 per day.\n  - Physician office visits: $50 per day, up to three days.\n\n- **Additional Plan Features**:\n  - **Basic Core**: Includes a free prescription club and telemedicine services.\n  - **Basic Core-Plus**: Offers free generic medications and unlimited virtual doctor visits.\n\n- **Telemedicine and Pharmacy Benefits**:\n  - **Telemedicine**: Unlimited 24/7 virtual doctor visits via computers and phones. Basic Core involves a co-pay per visit, while Core-Plus offers visits at no cost.\n  - **Pharmacy Plan (FREE Prescription Club)**: Free acute and chronic medications, diabetic supplies, pharmacy coaching, and discounts on diabetic insulin and over-the-counter medications.\n\n## Plan Details\n- **Member Benefit Packages**:\n  - Both Basic Core and Core-Plus provide medical bill repricing, reference-based pricing, advocacy services, and access to a prescription club.\n  - **Core-Plus Specifics**: No-cost virtual doctor visits, direct lab testing, discounts on alternative wellness services, and programs for prescriptions, entertainment, diabetic supplies, and medical supplies. Includes fitness and nutrition guidance.\n\n## Costs and Coverage\n- **Pricing Structure**:\n  - Wholesale plan pricing for Business Workers of America membership.\n  - Pricing comparisons for different classifications: Member, Member & Spouse, Member & Child(ren), and Family.\n  - Insurance provided by American Public Life Insurance Company, rated A+ (Superior) by AM Best.\n\n## Additional Services\n- **Medical Bill Repricing and Services**:\n  - **Medical Bill Repricer**: Simplifies medical billing through reference-based pricing (150% to 200% of Medicare Allowable Rates).\n  - Members choose their own doctors with a $25 prepay for primary care visits or $50 for specialist visits.\n  - Includes advocacy and concierge services to aid in benefit utilization, bill negotiation, and out-of-pocket cost reduction.\n\n## Limitations and Exclusions\n- **Coverage Limitations**: Not explicitly detailed in the provided slides, but note that pregnancy is not covered under either plan.\n\nThe structured content above is designed to facilitate clear communication in both slide format and audio script generation, ensuring all critical elements of the insurance plans are effectively conveyed.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

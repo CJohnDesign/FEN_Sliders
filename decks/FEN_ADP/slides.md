@@ -27,17 +27,17 @@ transition: fade-out
 layout: default
 ---
 
-## Ameritas Dental and Vision Plan Overview
+## Ameritas Dental and Vision Overview
 
-Before we dive into the specific features, let's get an overview of what this plan offers.
+Let's start by looking at an overview of the Ameritas Dental and Vision Plan.
 
 <v-clicks>
 
-- Comprehensive package through **Ameritas**
-- **Dental Benefits** for routine care
-- **Vision Benefits** and allowances
-- **Combined Coverage** flexibility
-- **Late Entrant Policy** limitations
+- **Comprehensive Benefits** through **Ameritas**
+- **Dental Care** for various needs
+- **Vision Coverage** and support tools
+- **Member Savings** through discounts
+- **Customer Service** support
 
 </v-clicks>
 
@@ -48,23 +48,22 @@ layout: default
 
 ## Key Features and Benefits
 
-Let's explore the key features that make this plan beneficial.
+We will now discuss the key features and benefits of the plan.
 
 <v-clicks>
 
-**Dental Benefits**
+**Dental Plan Benefits**
 
-**Vision Benefits**
+**Vision Plan Benefits**
 
-**Provider Flexibility**
+**Dental Rewards**
 
-**Dental Rewards Program**
-
+**Member Savings** (varies by plan)
 </v-clicks>
 
 <v-click>
 
-**Additional Services** through Ameritas
+**Additional Services** through Partner
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
   <img src="/img/logos/Ameritas_logo.png" class="h-12 mix-blend-multiply" alt="Ameritas Logo">
 </div>
@@ -78,16 +77,21 @@ layout: default
 
 ## Cost Management Tools
 
-Understanding how to manage costs effectively is key.
+Now, let's look at the cost management tools available with the plan.
 
 <v-click>
 
-**In-Network Savings** system
+**Prescription Savings** (Rx)
 </v-click>
 
 <v-click>
 
-**Prescription Savings** network
+**Vision Savings** System
+</v-click>
+
+<v-click>
+
+**Customer Service** Support
 </v-click>
 
 ---
@@ -95,18 +99,18 @@ transition: fade-out
 layout: default
 ---
 
-## How In-Network Savings Works
+## How the Plan Works
 
-Here’s how you can maximize savings by staying in-network.
+Here's how the Ameritas Dental and Vision Plan functions.
 
 <v-clicks>
 
 1. Enroll through **Ameritas**
-2. Choose in-network providers
-3. Save up to 30% below average costs
-4. Receive **EOB** (Explanation of Benefits)
-5. Allocate benefits flexibly
-6. **Maximize annual savings**
+2. Access dental and vision care
+3. Submit claims for services
+4. Receive annual **Benefits** (max: $1,000)
+5. Utilize member savings
+6. **Maximize Health** benefits
 
 </v-clicks>
 
@@ -117,13 +121,13 @@ layout: default
 
 ## Preventive Care and Wellness
 
-Preventive care is a cornerstone of maintaining good health.
+Focusing on preventive care and wellness.
 
 <v-clicks>
 
-- **Type 1 Services** routine exams
-- **Type 2 Services** restorative care
-- **Ameritas** provides flexibility
+- **Routine Exams** Services
+- **X-rays and Cleanings** Programs
+- **Ameritas** provides dental services
 
 </v-clicks>
 
@@ -134,14 +138,14 @@ layout: default
 
 ## Telehealth Services
 
-Accessing care remotely has never been easier.
+Exploring the telehealth services available.
 
 <v-clicks>
 
-- **Access to Care**
-- **24/7 Availability**
-- **Convenient Service** options
-- **Remote Consultations** available
+- **Dental Consultations**
+- **Vision Assistance**
+- **Prescription Discounts** available
+- **Access to Care** anytime
 
 </v-clicks>
 
@@ -152,75 +156,71 @@ layout: default
 
 ## Advocacy and Support Services
 
-Let's discuss the support services available to you.
+Let's discuss the advocacy and support services included in the plan.
 
 <v-clicks>
 
-- **Comprehensive** healthcare advocacy
-- **Member Assistance** available
-- **Flexible Options** provided
-- **Customer Support** services
+- **24/7 Dental** healthcare advocacy
+- **Vision Assistance** services
+- **Prescription Options** savings
+- **Dedicated Support** team
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/ameritas_plan_brochure_1.jpg
+image: img/pages/01_dental_plan_benefits_and_coverage.png
 ---
 
 ## Ameritas Dental Plan (1/2)
 
-The Ameritas Dental Plan covers a wide range of services.
+Reviewing the first part of the Ameritas Dental Plan.
 
 <v-click>
 
-**Type 1 Preventive Services**
+**Type 1 Preventive**
+- 100% coverage
+- No deductible
 - Routine exams
-- Bitewing X-rays
-- Cleanings
+- X-rays
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Type 2 Basic Services**
-- Restorative amalgams
-- Composites
+**Type 2 Basic**
+- 100% coverage
+- $50 deductible
+- Restorative services
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**Type 3 Major Services**
-- Surgical extractions
-- Crowns
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/ameritas_plan_brochure_1.jpg
+image: img/pages/01_dental_plan_benefits_and_coverage.png
 ---
 
 ## Ameritas Dental Plan (2/2)
 
-Now, let's look at the financial details of the dental plan.
+Continuing with the second part of the Ameritas Dental Plan.
 
 <v-click>
 
-**Deductibles and Maximums**
-- $0 Type 1 deductible
-- $50 annual per person
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+**Type 3 Major**
+- 100% coverage
+- $50 deductible
+- Surgical extractions
+- Crowns
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Vision Benefits**
-- Up to $100 eye care
-- $1,000 combined max
+**Annual Deductible**
+- $50 per person
+- $150 family max
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -231,56 +231,55 @@ layout: default
 
 ## Comparing the Plans
 
-Here’s how the dental, vision, and combined plans compare.
+Here's a comparison of the different plans available.
 
-| **Feature** | **Dental Plan** | **Vision Plan** | **Combined Plan** |
-|---------|---------|---------|---------|
-| Type 1 Services | 100% coverage | N/A | 100% coverage |
-| Type 2 Services | 100% coverage | N/A | 100% coverage |
-| Type 3 Services | 100% coverage | N/A | 100% coverage |
-| Vision Allowance | N/A | Specifics apply | Up to $100 |
-| Annual Maximum | $1,000 | N/A | $1,000 combined |
+| **Feature** | **Dental Plan** | **Vision Plan** | **Rewards Plan** |
+|---------|----------|----------|-----------|
+| **Coverage Type** | Preventive | Exams | Rewards Growth |
+| **Deductible** | $50/person | $0 | N/A |
+| **Max Benefit** | $1,000/person | Varies | $1,000 max |
+| **Network Savings** | Available | Available | Available |
+| **Service Frequency** | Routine | Annual | Claims Visit |
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/ameritas_plan_brochure_final.jpg
+image: img/pages/01_dental_plan_benefits_and_coverage.png
 ---
 
 ## Definitions and Limitations
 
-Let’s clarify some key definitions and limitations of the plan.
+Defining the coverage types and their limitations.
 
 <v-click>
 
-**Combined Coverage**
-- $1,000 total cap
-- Flexible allocation
-- No waiting for Type 1
+**Type 1 Coverage**
+- Routine exams not limited
+- X-rays included
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Late Entrant Policy**
-- 12-month limitations
-- Preventive exceptions
+**Type 2 and 3**
+- Deductibles apply
+- Major services
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Provider Choice**
-- Dentist flexibility
-- Network savings
+**Vision Limitations**
+- Exam frequency
+- Frame allowances
 <Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Prescription Savings**
-- Up to 65% on generics
-- Major pharmacy networks
+**Rewards Conditions**
+- Claims required
+- Annual visits needed
 <Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -291,13 +290,13 @@ layout: default
 
 ## Key Takeaways and Reminders
 
-Let’s wrap up with some key takeaways.
+Wrapping up with key takeaways and reminders.
 
 <v-clicks>
 
-- **Comprehensive Benefits** included
-- **Flexible Coverage** options
-- **Provider Freedom** benefits
+- **Dental Benefits** extensive
+- **Vision Coverage** included
+- **Rewards Program** benefits
 - **Enrollment** required
 
 </v-clicks>
@@ -312,4 +311,4 @@ line: Thank you for participating in the Ameritas Dental and Vision Plan Review.
 
 Continue to be great!
 
-<img src="./img/logos/logo.svg" class="h-12 mt-32" alt="Ameritas Logo">
+<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
