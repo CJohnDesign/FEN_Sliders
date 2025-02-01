@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T15:15:09.769257",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T15:15:09.769257",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Presentation on Basic Core and Core-Plus Benefits\n\n## Introduction/Overview\nThis presentation provides a comprehensive overview of the Basic Core and Core-Plus health benefit plans. These plans are designed to offer members a range of healthcare services with no waiting or exclusion periods for pre-existing conditions. The plans differ mainly in the additional services and benefits provided, with the Core-Plus plan offering a more extensive package.\n\n## Benefits and Features\n\n### Core Benefits\n- **Hospital and Medical Services**: Both plans cover hospital admission, daily confinement, emergency room visits, urgent care, and physician office visits. Each service comes with specific monetary coverage per day and a maximum number of days covered.\n- **Prescription and Pharmacy Benefits**:\n  - **Basic Core Plan**: Includes a free prescription club with a discount Rx card.\n  - **Core-Plus Plan**: Offers free generic medications, free acute and chronic medications, and free diabetic supplies. Pharmacy coaching and low-cost diabetic insulin options are also available.\n- **Telemedicine**:\n  - **Core-Plus Plan**: Provides unlimited virtual doctor visits at no cost, allowing 24/7 access to consultations via video. There is a $0 co-pay for these visits.\n\n### Additional Services\n- **Medical Bill Repricer Services**:\n  - Both plans include managed care reference-based pricing and advocacy concierge service, assisting members in navigating healthcare costs and negotiating reductions in bills.\n  - The service allows members to choose any doctor or specialist with a prepay of $25 for primary care visits and $50 for specialist visits.\n- **Advocacy Services**: Provides support for understanding benefits, filing insurance claims, and negotiating with providers.\n\n## Plan Details\n\n### Member Benefit Package Overview\n- **Basic Core Plus Package**: \n  - Includes additional benefits like no-cost virtual doctor visits, free prescription club access, and online health management.\n  - Offers discounts on prescriptions, lab testing, diabetic and medical supplies, wellness services, entertainment packages, and business training.\n\n## Costs and Coverage\n\n### Pricing Overview\n- The membership benefit packages are underwritten by American Public Life Insurance Company, which holds an A+ (Superior) rating by AM Best.\n- **Cost Comparison**: Monthly pricing is provided for the Basic Core Plan and the Basic Core-Plus Plan, broken down by member classification:\n  - Individual Members\n  - Members with a Spouse\n  - Members with Children\n  - Families\n- The Core-Plus Plan costs more across all classifications compared to the Basic Core Plan.\n\n## Limitations and Exclusions\n- Neither plan covers pregnancy.\n- The Basic Core Plan does not include telemedicine services.\n\nThis structured overview is designed to help potential members and stakeholders understand the benefits, features, costs, and limitations of the Basic Core and Core-Plus plans, enabling informed decision-making about their healthcare coverage options.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

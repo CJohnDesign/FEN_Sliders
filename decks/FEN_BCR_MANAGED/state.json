@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T14:32:47.474934",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T14:32:47.474934",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "```markdown\n# Presentation: Managed Care Plans Overview\n\n## Introduction/Overview\nThis presentation provides a comprehensive look at the Managed Care Plans underwritten by the American Public Life Insurance Company. We will explore the benefits and features of the Basic Core and Basic Core-Plus plans, highlighting key elements such as coverage, additional services, and cost details. Both plans are designed with no waiting or exclusion periods for pre-existing conditions and do not cover pregnancy.\n\n## Benefits and Features\n\n### Basic Core and Core-Plus Benefits\n- **Hospitalization**: $500 reimbursement per day for hospital admission (maximum 1 day), and $100 coverage per day for hospital confinement (up to 10 days).\n- **Emergency Services**: $50 per day for emergency room and urgent care visits, with urgent care limited to 3 days.\n- **Physician Visits**: $50 per day for physician office visits, up to 3 days.\n- **Additional Features**:\n  - Basic Core: Includes a free prescription club and virtual doctor visits.\n  - Basic Core-Plus: Offers unlimited virtual doctor visits at no cost and a $25 prepay feature for doctor or specialist visits.\n\n### Medical Bill Repricer Services\n- **Reference Based Pricing**: A cost containment method paying providers 150% to 200% of Medicare Allowable Rates.\n- **Member Choice**: $25 prepay for primary care or $50 for specialist visits, allowing freedom to choose doctors.\n- **Advocacy Services**: Assistance in navigating insurance claims and negotiating provider payments to minimize out-of-pocket expenses.\n\n### Pharmacy and Telemedicine Benefits\n- **Pharmacy**:\n  - Free acute and chronic medications.\n  - Diabetic supplies and coaching.\n  - Discounts on diabetic insulin and over-the-counter medications.\n  - Member portal for account management.\n- **Telemedicine**:\n  - Unlimited virtual doctor visits available 24/7 via various devices.\n  - Prescriptions through the Free Prescription Club.\n\n### Additional Services\n- **Basic Core Plus Plan**: Offers enhanced benefits such as direct lab testing, business training, and discounts on MRI and CT scans.\n- **Wellness and Lifestyle**:\n  - Online health manager, fitness, and nutrition programs.\n  - Discounts on alternative wellness services.\n\n## Plan Details\n\n### Member Benefit Packages\n- **Basic Core**: Includes essential medical bill repricing, reference-based pricing, advocacy services, and discounted prescription programs.\n- **Basic Core Plus**: Expands on Basic Core with additional no-cost virtual doctor visits and access to the Free Prescription Club.\n\n## Costs and Coverage\n\n### Wholesale Plan Pricing\nThe Membership Benefit Package, offered by the Business Workers of America and underwritten by American Public Life Insurance Company (rated A+ by AM Best), outlines the following pricing:\n- **Individual Members**\n- **Members with Spouse**\n- **Members with Children**\n- **Families**\n\nEach classification is provided with specific monthly costs for both the Basic Core and Basic Core-Plus plans.\n\n## Conclusion\nThese Managed Care Plans offer a variety of benefits designed to provide comprehensive coverage and additional services to meet diverse healthcare needs. By understanding the details of each plan, members can choose the best option for themselves and their families.\n```\nThis structured format organizes the content logically, maintaining all important details for both slide presentation and audio script purposes.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

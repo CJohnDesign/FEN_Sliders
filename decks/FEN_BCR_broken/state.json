@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T14:45:47.302909",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T14:45:47.302909",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Insurance Plan Overview and Details\n\n## Introduction and Overview\nWelcome to the presentation on the insurance plans offered by American Public Life Insurance Company. Today, we will explore the details of the Basic Core and Basic Core-Plus insurance plans, both underwritten by American Public Life Insurance Company, which holds an A+ (Superior) rating from AM Best. Our focus will be on the comprehensive benefits and services provided, the pricing structure, and additional features available to members.\n\n## Benefits and Features\n\n### Basic Core and Basic Core-Plus Plan Benefits\nThe Basic Core and Basic Core-Plus plans include coverage for hospital admission, daily confinement, emergency room, urgent care, and physician office visits. Specific per-day payment maximums apply, with no waiting or exclusion periods for pre-existing conditions. It's important to note that pregnancy coverage is not included.\n\n### Pharmacy and Telemedicine Benefits\n- **Pharmacy Benefits**: \n  - Free acute and chronic medications\n  - Diabetic supplies\n  - Pharmacy coaching\n  - Member portal access\n  - Opportunities for lower-cost diabetic insulin and over-the-counter medications\n  - All these benefits are free under the Basic Core plan.\n  \n- **Telemedicine Benefits**: \n  - Unlimited virtual doctor visits with no cost under Basic Core Plus.\n  - 24/7 access to consultations and prescriptions.\n  - A co-pay applies for visits under the Basic Core plan.\n\n### Additional Services\nThe plans include a free prescription club and telemedicine services. Members also have access to Medical Bill Repricer Services and Managed Care Reference Base Pricing, which ensures payments to providers are lower than typical PPO rates. Advocacy services are available to help members manage their benefits and negotiate costs.\n\n## Plan Details\n\n### Member Benefit Package Overview\nThe Basic Core and Basic Core Plus bundles offered by BWA include a variety of services:\n- Medical bill repricing\n- Reference-based pricing\n- Advocacy services\n\nThe Basic Core Plus bundle provides additional benefits such as:\n- No-cost virtual doctor visits\n- Free prescription club\n- Discounts on prescription programs\n- Mail-order pharmacy services\n- Entertainment packages\n- Direct lab testing\n- Access to diabetic and medical supplies\n- Online health manager\n- Alternative wellness services\n\n## Costs and Coverage\n\n### Wholesale Plan Pricing Overview\nThe membership benefit packages are offered with wholesale pricing for different member classifications:\n- Individual members\n- Members with a spouse\n- Members with children\n- Families\n\nA detailed pricing table compares the monthly costs for these classifications under both the Basic Core and Basic Core-Plus plans.\n\n## Conclusion\nIn summary, the insurance plans provided by American Public Life Insurance Company offer a wide range of coverage options and additional benefits to meet diverse healthcare needs. With competitive pricing and comprehensive services, these plans are designed to provide peace of mind and financial protection for you and your family.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

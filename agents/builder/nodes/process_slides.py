@@ -73,23 +73,23 @@ async def process_slides(state: BuilderState) -> BuilderState:
                   -- Include their logo on the slide in an <img> tag
                     -- <img src="ADD FROM BELOW" class="h-24 mix-blend-multiply" alt="Brand Logo">
                   -- Available logo paths:
-                     - FirstHealth: /img/logos/FirstHealth_logo.png
-                     - US Fire: /img/logos/USFire-Premier_logo.png
-                     - Ameritas: /img/logos/Ameritas_logo.png
-                     - BWA: /img/logos/BWA_logo.png
-                     - MBR: /img/logos/MBR_logo.png
-                     - TDK: /img/logos/TDK_logo.jpg
-                     - EssentialCare: /img/logos/EssentialCare_logo.png
-                     - NCE: /img/logos/NCE_logo.png
-                     - American Financial Security Life Insurance Company: /img/logos/AFSLIC_logo.png
-                     - FirstEnroll: /img/logos/FEN_logo.svg
+                     - FirstHealth: ./img/logos/FirstHealth_logo.png
+                     - US Fire: ./img/logos/USFire-Premier_logo.png
+                     - Ameritas: ./img/logos/Ameritas_logo.png
+                     - BWA: ./img/logos/BWA_logo.png
+                     - MBR: ./img/logos/MBR_logo.png
+                     - TDK: ./img/logos/TDK_logo.jpg
+                     - EssentialCare: ./img/logos/EssentialCare_logo.png
+                     - NCE: ./img/logos/NCE_logo.png
+                     - American Financial Security Life Insurance Company: ./img/logos/AFSLIC_logo.png
+                     - FirstEnroll: /img/logos/FEN_logo.svg  // no trailing . needed
                   -- Always include a logo if the slide mentions it and we have a logo for it.
                   -- Wrap the logo in a <v-click> with the text that mentions the associated company.
                     -- for example: <v-click>
 
                                     **Additional Benefit** through Partner
                                     <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-                                      <img src="" class="h-12 mix-blend-multiply" alt="Brand Logo">
+                                      <img src="./img..." class="h-12 mix-blend-multiply" alt="Brand Logo">
                                     </div>
                                     </v-click>
                 - Create a product slide for each plan slide, with the same content but split into two parts

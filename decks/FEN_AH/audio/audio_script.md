@@ -18,7 +18,6 @@ and works as a supplement to major medical plans
 
 with capped benefits for healthcare services.
 
-
 ---- Key Features and Benefits ----
 
 The plan includes several key features. 

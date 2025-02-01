@@ -9,7 +9,7 @@ info: |
 verticalCenter: true
 layout: intro
 themeConfig:
-  logoHeader: ./img/logos/FEN_logo.svg
+  logoHeader: /img/logos/FEN_logo.svg
   audioEnabled: true
 transition: fade-out
 drawings:

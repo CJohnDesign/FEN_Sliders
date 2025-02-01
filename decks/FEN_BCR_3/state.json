@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T15:25:43.680817",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T15:25:43.680817",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "```markdown\n# Presentation on Managed Care Plans\n\n## Introduction/Overview\nWelcome to our presentation on the managed care plans offered by American Public Life Insurance Company. We will be exploring the Basic Core and Core-Plus plans, their benefits, features, pricing, and additional services available to members.\n\n## Benefits and Features\n### Basic Core and Core-Plus Benefits\n- **Daily Benefits**: Both plans offer specific daily benefits for hospital admission, daily confinement, emergency room visits, urgent care, and physician office visits, with a cap on the maximum days.\n- **No Waiting Period**: No waiting or exclusion periods for pre-existing conditions.\n- **Exclusion**: Neither plan covers pregnancy.\n\n### Additional Services\n- **Free Prescription Club**: Access to a variety of medications at no cost.\n- **Telemedicine**: Unlimited virtual doctor visits available 24/7, especially with the Core-Plus plan.\n- **Medical Bill Repricer Services**: Members can choose any doctor with a nominal prepay feature for office visits.\n- **Advocacy Concierge Service**: Assistance in understanding benefits, negotiating bills, and setting up payment plans.\n\n## Plan Details\n### Pharmacy Plan and Telemedicine\n- **Pharmacy Benefits**: Offers free medications for acute and chronic conditions, diabetic supplies, and pharmacy coaching.\n- **Telemedicine**: Available with the Core-Plus, allowing virtual consultations with doctors via various devices.\n\n### Member Benefit Package\n- **Core-Plus Additional Benefits**:\n  - No-cost virtual doctor visits.\n  - Direct lab testing and reduced cost MRI/CT scans.\n  - Online health management and fitness plans.\n  - Discounts on medical supplies and alternative wellness services.\n\n## Costs and Coverage\n### Wholesale Plan Pricing\n- Membership pricing is available for different member classifications: individuals, members with a spouse, children, and families.\n- **Plan Comparison**: Displays premium differences between Basic Core and Core-Plus plans.\n\n## Limitations and Exclusions\n- **Pregnancy Coverage**: Not included in either plan.\n\nBy the end of this presentation, you will have a comprehensive understanding of the American Public Life Insurance Company\u2019s managed care plans, their benefits, pricing, and the additional services that enhance the member experience.\n```\nThis structured format provides a clear flow of information, making it suitable for slide creation and audio script generation.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}
