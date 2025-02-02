@@ -62,10 +62,20 @@ async def process_page(model, page_num, img_path, total_pages, title, deck_id):
                 2. A detailed summary of the content in a 3-5 short paragraphs
                     A. Never use the word "comprehensive". These plans are never comprehensive so we should not say that.
                 3. Information about tables and limitations
-                    A. If there is a benefits table, return tableDetails.hasBenefitsTable as true
-                    B. Benefits tables can include, but not limited to, primary care visits, specialist visits, urgent care, and in-patient hospitalization benefits with specific co-pays and maximums. It can include Dental benefits plan, vision, etc. it will talk about the benefits you get with the plans.
-                    C. If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true. This should never return true for a slide that has a benefits table.
-                
+                    A. If there is ANY table comparing plans, benefits, or features, return tableDetails.hasBenefitsTable as true
+                    B. Benefits tables include ANY of these:
+                       - Plan comparisons showing different features/benefits
+                       - Tables showing coverage amounts, co-pays, or maximums
+                       - Tables comparing different plan tiers
+                       - Tables listing benefits with their values
+                       - ANY table that shows what a plan covers or provides
+                    C. If ANY of these are present, return tableDetails.hasLimitations as true:
+                       - Sections titled with "Limitations", "Restrictions", "Exclusions"
+                       - Content describing what plans do NOT cover
+                       - Content about waiting periods
+                       - Content about pre-existing conditions
+                       - Content about maximum coverage periods
+                       - ANY text describing restrictions or limits on coverage
                 
                 Provide your analysis in this EXACT JSON format:
                 {{    

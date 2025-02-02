@@ -339,7 +339,7 @@ async def validate_and_fix(state: Dict) -> Dict:
                         ---
                         transition: fade-out
                         layout: one-half-img
-                        image: /img/pages/page_2.png
+                        image: /img/pages/{appropriate_image_name}.png
                         ---
                         
                         ## Plan 200 (1/2)
@@ -424,7 +424,20 @@ async def validate_and_fix(state: Dict) -> Dict:
                                 "header": "---- Section Title ----",
                                 "content": "complete script content with proper line spacing and alignment to v-clicks"
                             }
-                        }"""
+                        }
+                        
+                        Rules for validation - if any rule is violated, needs_fixes should be true
+    - Only return fixes_needed as true if changes are absolutely necessary to maintain slide/script sync
+    - Keep all existing content and formatting from original slides/script
+    - Make sure each v-click element has a matching line in the script
+    -- There should be an extra line before all the v-click lines that speaks to the headline of the slide
+    -- script lines can break mid sentence, if the next vclick is mentioned on the slides
+    - Follow proper markdown formatting and syntax rules
+    - Use appropriate line breaks between lines in the script sections
+    - Plan Tier pages should include the plan name, tier, and a list of benefits, with numbers and dollar amounts
+    - The slide should never use the word comprehensive, if it does needs_fixes should be true
+                        
+                        """
                     },
                     {
                         "role": "user",
@@ -476,20 +489,27 @@ async def validate_and_fix(state: Dict) -> Dict:
         # Build final content with proper spacing
         final_slides = []
         logger.info("\nProcessing slide sections:")
-        for slide in sorted_slides:
-            # Skip empty headers (these are the duplicates)
-            if not slide['content'].strip():
-                logger.info(f"  Skipping empty section: {slide['title']}")
-                continue
-                
-            logger.info(f"  Including section: {slide['title']}")
+        total_slides = len(sorted_slides)
+        for idx, slide in enumerate(sorted_slides, 1):
+            logger.info(f"  Processing section {idx}/{total_slides}: {slide['title']}")
+            logger.info(f"    Header: {slide['header'].split()[0] if slide['header'] else 'No header'}")
+            logger.info(f"    Content first line: {slide['content'].split()[0] if slide['content'] else 'No content'}")
+            
+            # Always include the section - no empty checks
             final_slides.append(f"{slide['header'].rstrip()}\n\n{slide['content'].strip()}")
+            logger.info(f"  Added section {idx}: {slide['title']}")
         
         logger.info("\nProcessing script sections:")
         final_script = []
-        for script in sorted_script:
-            logger.info(f"  Including section: {script['title']}")
+        total_scripts = len(sorted_script)
+        for idx, script in enumerate(sorted_script, 1):
+            logger.info(f"  Processing section {idx}/{total_scripts}: {script['title']}")
+            logger.info(f"    Header: {script['header'].split()[0] if script['header'] else 'No header'}")
+            logger.info(f"    Content first line: {script['content'].split()[0] if script['content'] else 'No content'}")
+            
+            # Always include the section - no empty checks
             final_script.append(f"{script['header'].strip()}\n\n{script['content'].strip()}")
+            logger.info(f"  Added section {idx}: {script['title']}")
         
         # Join all sections with double newlines
         final_slides_content = "\n\n".join(final_slides)

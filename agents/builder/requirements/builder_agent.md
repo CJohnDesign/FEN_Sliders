@@ -104,11 +104,20 @@ title: {plan_name}
 ---
 
 # {plan_name} Overview
-<v-clicks>
-- Key Features
-- Benefits
-- Coverage Details
-</v-clicks>
+<v-click>
+
+Key Features
+</v-click>
+
+<v-click>
+
+Benefits
+</v-click>
+
+<v-click>
+
+Coverage Details
+</v-click>
 
 ---
 # Benefit Details
@@ -186,11 +195,20 @@ title: Premium Health Plus
 ---
 
 # Premium Health Plus Plan
-<v-clicks>
-- Coverage starting at $250/month
-- Includes dental and vision benefits
-- Access to nationwide provider network
-</v-clicks>
+<v-click>
+
+Coverage starting at $250/month
+</v-click>
+
+<v-click>
+
+Includes dental and vision benefits
+</v-click>
+
+<v-click>
+
+Access to nationwide provider network
+</v-click>
 ```
 
 #### B. Valid Script Output

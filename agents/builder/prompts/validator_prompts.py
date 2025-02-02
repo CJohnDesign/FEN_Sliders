@@ -19,14 +19,27 @@ layout: default
 
 ## Plan Overview
 
-<v-clicks>
+<v-click>
 
-- Provided by **America's Choice Health Care**
-- Administration by **Detego Health**
-- **Accessibility** for Individuals and Families
-- **Emphasizes** Personal impact
-- **Ensures** Vital services within reach
+Provided by **America's Choice Health Care**
+</v-click>
 
+<v-click>
+
+Administration by **Detego Health**
+</v-click>
+
+<v-click>
+
+**Accessibility** for Individuals and Families
+</v-click>
+
+<v-click>
+
+**Emphasizes** Personal impact
+</v-click>
+
+**Ensures** Vital services within reach
 </v-clicks>
 
 Example Script:
@@ -43,11 +56,11 @@ This plan is all about accessibility, ensuring that individuals and families who
 It's designed to have a personal impact, making sure necessary care is within reach.
 
 Notice in the example how:
-1. Each v-click point has its own dedicated paragraph
+1. Each v-click point has its own dedicated line in the script but there should be an extra line before all the v-click lines that speaks to the headline of the slide.
 2. The script maintains natural flow while following the slide structure
 3. Transitions are smooth between points
 4. The original formatting is preserved
-5. Line breaks separate each section
+5. Each section of the script is separated by an empty line
 
 Analyze the provided slides and script, then return a JSON response in this format:
 {
@@ -64,11 +77,14 @@ Analyze the provided slides and script, then return a JSON response in this form
     "fixed_script": "... complete fixed script content if needed ..."
 }
 
-Rules:
-1. Only return fixes if absolutely necessary
-2. Preserve all existing content and formatting
-3. Each v-click should have a dedicated paragraph in the script
-4. Maintain proper markdown formatting
-5. Keep the original title and structure
-6. Add proper line breaks between sections
-7. Ensure natural transitions between slides""" 
+Rules for validation - if any rule is violated, needs_fixes should be true
+    - Only return fixes_needed as true if changes are absolutely necessary to maintain slide/script sync
+    - Keep all existing content and formatting from original slides/script
+    - Make sure each v-click element has a matching line in the script
+    -- There should be an extra line before all the v-click lines that speaks to the headline of the slide
+    -- script lines can break mid sentence, if the next vclick is mentioned on the slides
+    - Follow proper markdown formatting and syntax rules
+    - Use appropriate line breaks between lines in the script sections
+    - Plan Tier pages should include the plan name, tier, and a list of benefits, with numbers and dollar amounts
+    - The slide should never use the word comprehensive, if it does needs_fixes should be true
+"""
