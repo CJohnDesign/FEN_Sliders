@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T20:29:48.174557",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T20:29:48.174557",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "```markdown\n# Basic Core and Basic Core-Plus Insurance Plans\n\n## Introduction\nWelcome to the overview of the Basic Core and Basic Core-Plus insurance plans, offered by American Public Life Insurance Company. These plans are designed to provide comprehensive coverage with an A+ (Superior) rating by AM Best. Both plans are notable for their flexibility, having no waiting or exclusion periods for pre-existing conditions, although they do not cover pregnancy.\n\n## Benefits and Features\n- **Hospital Coverage**: \n  - Hospital admission: $500 per day for one day.\n  - Hospital daily confinement: $100 per day for up to ten days.\n  \n- **Visit Coverage**: \n  - Emergency room and urgent care: $50 per day.\n  - Physician office visits: $50 per day for up to three days.\n\n- **Additional Services**:\n  - Free Prescription Club.\n  - Telemedicine services (exclusive to Basic Core-Plus).\n  - Managed care through Medical Bill Repricer Services.\n  - Members can choose any doctor with prepay options for primary and specialist visits.\n\n## Plan Tiers\n### Basic Core\n- **Medical Bill Repricer**: Allows cost management through Reference Based Pricing, paying providers a percentage of Medicare Allowable Rates.\n- **Doctor Office Visit Prepay System**: \n  - $25 prepay for primary care visits.\n  - $50 prepay for specialist visits.\n  - Remaining balance due post-insurance claims.\n\n### Basic Core-Plus\n- **Enhanced Benefits**:\n  - No-cost virtual doctor visits.\n  - Direct lab testing.\n  - Additional discounts on medical supplies and alternative wellness services.\n  - Online health management and fitness programs.\n\n## Pharmacy and Telemedicine Benefits\n- **Pharmacy Plan**:\n  - Free acute and chronic medications.\n  - Free diabetic supplies and pharmacy coaching.\n  - Reduced cost for diabetic insulin.\n  - Discounted over-the-counter medications.\n  \n- **Telemedicine**:\n  - Unlimited virtual doctor visits available 24/7.\n  - Minimal co-pay per visit.\n  - No-cost prescriptions for generic medications through the Free Prescription Club.\n\n## Comparing Plans\nThe Basic Core and Basic Core-Plus plans offer flexibility and a wide range of benefits, with the Core-Plus plan providing additional services such as telemedicine and broader wellness programs. Both plans include advocacy services to assist with navigating benefits and negotiating provider costs.\n\n## Wholesale Plan Pricing\nThe pricing for these plans is structured according to membership classifications:\n- **Member**: Basic Core and Basic Core-Plus pricing.\n- **Member & Spouse**: Differing costs for each plan.\n- **Member & Child(ren)**: Specific pricing for both plans.\n- **Family**: Comprehensive pricing structure for both plans.\n\n## Key Takeaways\n- Both plans offer robust coverage with no pre-existing condition exclusions.\n- Basic Core-Plus provides additional benefits not available in Basic Core.\n- Cost-effective solutions through managed care and advocacy services.\n- Flexible doctor visit options with prepaid systems to minimize out-of-pocket expenses.\n\n## Thank You\nThank you for considering the Basic Core and Basic Core-Plus insurance plans. These offerings are designed to provide comprehensive care and support to meet your healthcare needs.\n```",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

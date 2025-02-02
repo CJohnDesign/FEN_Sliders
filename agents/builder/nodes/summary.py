@@ -16,6 +16,7 @@ logger = logging.getLogger(__name__)
 
 client = AsyncOpenAI()
 
+@traceable(name="encode_image")
 def encode_image(image_path):
     """Convert an image file to base64 encoding with retry logic"""
     try:
@@ -39,7 +40,8 @@ def sanitize_filename(title: str) -> str:
     sanitized = ''.join(c for c in sanitized if c.isalnum() or c in '_-')
     return sanitized
 
-async def process_page(model, page_num, img_path, total_pages, title):
+@traceable(name="process_page")
+async def process_page(model, page_num, img_path, total_pages, title, deck_id):
     """Process a single page with proper error handling and retries"""
     try:
         logger.info(f"Processing page {page_num} of {total_pages}")
@@ -51,33 +53,29 @@ async def process_page(model, page_num, img_path, total_pages, title):
             {
                 "role": "system",
                 "content": f"""You are an expert at analyzing presentation slides.
-                You are analyzing a presentation titled: "{title}"
+                Presentation title: "{title}"
+                Deck id: {deck_id}
                 
                 Look at the slide and return:
-                1. A clear, descriptive title for the slide (3-7 words)
-                2. A detailed summary of the content in a single paragraph
+                1. A long and descriptive title for the slide (15-20 words)
+                    A. The title should be keyword rich
+                2. A detailed summary of the content in a 3-5 short paragraphs
+                    A. Never use the word "comprehensive". These plans are never comprehensive so we should not say that.
                 3. Information about tables and limitations
+                    A. If there is a benefits table, return tableDetails.hasBenefitsTable as true
+                    B. Benefits tables can include, but not limited to, primary care visits, specialist visits, urgent care, and in-patient hospitalization benefits with specific co-pays and maximums. It can include Dental benefits plan, vision, etc. it will talk about the benefits you get with the plans.
+                    C. If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true. This should never return true for a slide that has a benefits table.
                 
-                The title should be descriptive and specific, not generic. For example:
-                - Good: "Primary Care and Specialist Copays"
-                - Bad: "Benefits Overview"
-                
-                * If there is a benefits table, return tableDetails.hasBenefitsTable as true
-                ** Benefits tables can include, but not limited to, primary care visits, specialist visits, urgent care, and in-patient hospitalization benefits with specific co-pays and maximums. It can include Dental benefits plan, vision, etc. it will talk about the benefits you get with the plans.
-                * If you identify a slide talks specifically about limitations, restrictions or exclusions about the insurance, return tableDetails.hasLimitations as true. This should never return true for a slide that has a benefits table.
-                * if a slide has a benefits table, it will never have limitations.
-                ** So both can be false but both can never be true.
-                * Never use the word "comprehensive". These plans are never comprehensive so we should not say that.
                 
                 Provide your analysis in this EXACT JSON format:
-                {{
-                    "page_title": "Clear descriptive title",
-                    "title": "Same as page_title",
+                {{    
+                    "page_title": "long_descriptive_title"
                     "summary": "Detailed content summary",
                     "tableDetails": {{
                         "hasBenefitsTable": true/false,
                         "hasLimitations": true/false
-                    }}
+                    }},
+                    
                 }}"""
             },
             {
@@ -144,12 +142,17 @@ async def process_page(model, page_num, img_path, total_pages, title):
         logger.error(f"Error processing page {page_num}: {str(e)}")
         logger.error("Full error context:", exc_info=True)
         raise
+    
+    
 
+@traceable(name="process_raw_summaries")
 async def process_raw_summaries(state: Dict) -> str:
     """Process raw summaries into a structured format for slides and audio"""
     logger.info("Processing raw summaries into structured format")
     
     summaries = state.get("summaries", [])
+    tables_data = state.get("tables_data", {"tables": []})
+    
     if not summaries:
         logger.error("No raw summaries found in state")
         return ""
@@ -158,27 +161,48 @@ async def process_raw_summaries(state: Dict) -> str:
     messages = [
         {
             "role": "system",
-            "content": """You are an expert at organizing presentation content.
-            Take the raw summaries and organize them into a clear, structured format.
+            "content": f"""You are an expert at organizing presentation content.
+            
+            title: "{state['metadata']['title']}"
+            id: "{state['metadata']['deck_id']}"
+            
+            The FirstEnroll logo should only be on the cover and thank you slides.
+            Take the raw summaries and table data and organize them into a clear, structured format.
             Group related content together and create a logical flow.
+            
+            When processing tables:
+            - Tables typically contain plan tier information
+            - Each table row represents a different benefit or feature
+            - Use tables to create detailed plan tier sections and comparison slide
+            - Maintain exact values and limits from tables
+            
             Identify key sections like:
-            - Introduction/Overview
+            - Title Page
+            -- Title    
+            -- Subtitle
+            - Introduction/Overview 
             - Benefits and Features
-            - Plan Details
-            - Costs and Coverage
-            - Additional Services
+            - Plan Tiers (incorporate table data here)
+            - Comparing Plans
             - Limitations and Exclusions
+            - Key Takeaways
             
             Return the processed content in a clear markdown format that can be used
             for both slides and audio script generation."""
         },
         {
             "role": "user",
-            "content": f"""Process these raw summaries into a structured format:
-            {json.dumps(summaries, indent=2)}
-            
-            Create a logical flow that groups related content and maintains all the important details.
-            The output will be used to generate both slides and an audio script."""
+            "content": f"""Process these raw summaries and table data into a structured format:
+
+Raw Summaries:
+{json.dumps(summaries, indent=2)}
+
+Table Data:
+{json.dumps(tables_data, indent=2)}
+
+Create a logical flow that groups related content and maintains all the important details.
+The output will be used to generate both slides and an audio script.
+Pay special attention to incorporating the table data when describing plan tiers and benefits."""
         }
     ]
     
@@ -191,7 +215,7 @@ async def process_raw_summaries(state: Dict) -> str:
         max_tokens=4000
     )
     processed_content = response.choices[0].message.content.strip()
-    logger.info("Successfully processed summaries")
+    logger.info("Successfully processed summaries and table data")
     
     return processed_content
 
@@ -207,6 +231,7 @@ async def process_summaries(state: Dict) -> Dict:
     
     # Initialize model
     title = state["metadata"]["title"]
+    deck_id = state["metadata"]["deck_id"]
     
     # Get list of PNG files
     png_files = sorted([f for f in os.listdir(img_dir) if f.endswith('.png')])
@@ -218,7 +243,7 @@ async def process_summaries(state: Dict) -> Dict:
     summaries = []
     for i, png_file in enumerate(png_files):
         img_path = os.path.join(img_dir, png_file)
-        summary = await process_page(client, i+1, img_path, total_pages, title)
+        summary = await process_page(client, i+1, img_path, total_pages, title, deck_id)
         summaries.append(summary)
         
     state["summaries"] = summaries

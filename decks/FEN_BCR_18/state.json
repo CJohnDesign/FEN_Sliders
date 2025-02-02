@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T21:02:27.176078",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T21:02:27.176078",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Basic Core\n\n## Title Page\n- **Title:** Basic Core Insurance Plans\n- **Subtitle:** Indemnity and Managed Care Options with Benefits and Services\n- **Presented by:** American Public Life Insurance Company\n- **Rating:** A+ by AM Best\n\n## Introduction/Overview\nThe Basic Core insurance plans, offered by American Public Life Insurance Company, provide two main plan options: Basic Core and Basic Core-Plus. Both options fall under managed care and are designed to offer comprehensive coverage without waiting or exclusion periods for pre-existing conditions, although pregnancy is not covered.\n\n## Benefits and Features\n### Core Features\n- **No Waiting/Exclusion Periods:** Immediate coverage without delays for pre-existing conditions.\n- **Medical Bill Repricer Services:** Allows members to choose any doctor with pre-set pay amounts for visits and utilizes Reference Based Pricing to reduce costs.\n- **Advocacy/Concierge Services:** Personal assistance in navigating health plans and filing claims.\n\n### Additional Features (Basic Core-Plus)\n- **Free Generic Medications:** Access to essential medications at no cost.\n- **Unlimited Telemedicine Visits:** 24/7 access to virtual doctor consultations with no copay.\n- **Free Prescription Club:** Offers free acute and chronic medications, diabetic supplies, and pharmacy coaching.\n\n## Plan Tiers\n### Basic Core Plan\n- **Prescription Club:** Includes a free prescription club and a discount Rx card.\n- **No Telemedicine Option:** Access to traditional in-person healthcare services only.\n\n### Basic Core-Plus Plan\n- **Telemedicine Services:** Unlimited virtual visits with diagnosis, tests, and prescriptions.\n- **Extended Benefits:** Includes MRI/CT scans, online health management, fitness programs, and alternative wellness services at discounted rates.\n\n## Comparing Plans\nBoth the Basic Core and Basic Core-Plus plans include:\n- **Medical Bill Repricing and Reference-Based Pricing:** Cost containment method that pays 150% to 200% of Medicare Allowable Rates.\n- **Advocacy Services:** Aids in understanding and negotiating healthcare costs.\n- **Mail Order Pharmacy, Entertainment Package Discounts, and Direct Lab Testing:** Included in both plans, enhancing member convenience and cost savings.\n\n## Limitations and Exclusions\n- **Pregnancy Coverage:** Not included under either plan.\n- **Plan-Specific Limitations:** Basic Core lacks telemedicine options, while Basic Core-Plus offers more extensive services and discounts.\n\n## Key Takeaways\n- The Basic Core insurance plans offer flexible and comprehensive coverage options for members, with significant cost savings through managed care strategies.\n- The Basic Core-Plus plan provides enhanced benefits, including telemedicine and additional health and wellness services, making it a more versatile option for those seeking broader coverage.\n- The plans are designed to be accessible without pre-existing condition exclusions, offering members the freedom to choose their healthcare providers and services through innovative cost-containment solutions.\n\n## Thank You\n- **Presented by:** American Public Life Insurance Company\n- **Contact Information:** [Insert Contact Details] \n- **Logo:** FirstEnroll (on cover and thank you slides)",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

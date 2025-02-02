@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T20:25:02.894189",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T20:25:02.894189",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Basic Core Health Insurance Plans\n\n## Title Page\n**Title:** Basic Core  \n**Subtitle:** Overview and Benefits of Basic Core and Basic Core-Plus Health Insurance Plans  \n**Logo:** FirstEnroll\n\n---\n\n## Introduction/Overview\nWelcome to the detailed overview of the Basic Core and Basic Core-Plus health insurance plans. These plans are underwritten by American Public Life Insurance Company, which boasts an A+ (Superior) rating from AM Best. Both plans are designed to provide comprehensive health benefits without any waiting period or exclusion for pre-existing conditions. However, it is important to note that neither plan covers pregnancy.\n\n---\n\n## Benefits and Features\n### Hospital and Emergency Services\n- **Hospital Admission:** Covered at $500 per day, maximum of one day\n- **Hospital Daily Confinement:** Covered at $100 per day, up to ten days\n- **Emergency Room Visits:** Covered at $50 per day, for one day\n- **Urgent Care Visits:** Covered at $50 per day, up to three days\n\n### Prescription and Telemedicine Services\n- **Basic Core Plan:**\n  - Includes a free prescription discount card\n  - No-cost telemedicine virtual doctor visits\n\n- **Basic Core-Plus Plan:**\n  - Offers free generic medications\n  - Unlimited 24-hour telemedicine visits at no copay\n\n### Additional Services\n- **Managed Care Reference Base Pricing (MRBP):**\n  - Pays providers 150% to 200% of Medicare Allowable Rates\n  - Typically results in lower costs compared to PPO network rates\n\n- **Medical Bill Repricer Services:**\n  - Allows members to choose any doctor\n  - Primary care visits require a $25 prepay, specialist visits a $50 prepay\n  - Advocacy services included\n\n---\n\n## Plan Tiers\n**Basic Core Plan**\n- Free prescription discount card\n- No-cost telemedicine visits\n\n**Basic Core-Plus Plan**\n- Free generic medications\n- Unlimited telemedicine with no copay\n- Free prescription club covering 90% of commonly prescribed medications\n\n### Member Benefits for Both Plans\n- Medical bill repricing\n- Reference-based pricing\n- Advocacy services\n- Discounts on direct lab testing, MRI, CT scans, diabetic supplies, and medical supplies\n\n---\n\n## Comparing Plans\n| Feature                     | Basic Core Plan                | Basic Core-Plus Plan          |\n|-----------------------------|--------------------------------|-------------------------------|\n| Prescription Discount       | Yes                            | Yes                           |\n| Telemedicine                | No-cost virtual visits         | Unlimited, no copay           |\n| Generic Medications         | Available                      | Free                          |\n| Medical Supplies            | Discounted                     | Discounted                    |\n| Wellness Services           | Available                      | Discounted therapies          |\n\n---\n\n## Limitations and Exclusions\n- Both plans do not cover pregnancy.\n- Members are responsible for any remaining balances after insurance payments, with assistance available through Medical Bill Repricer services.\n\n---\n\n## Key Takeaways\n- Both Basic Core and Basic Core-Plus plans offer robust health benefits with no waiting or exclusion periods for pre-existing conditions.\n- Each plan provides access to a range of services, including hospital benefits, prescription discounts, and telemedicine.\n- The Basic Core-Plus plan offers additional perks such as free generic medications and unlimited telemedicine services.\n- Advocacy and repricer services ensure members can manage healthcare costs effectively.\n\n---\n\n## Thank You\n**Logo:** FirstEnroll  \nThank you for considering the Basic Core and Basic Core-Plus health insurance plans. We are dedicated to providing you with superior health benefits and services.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T16:45:58.348848",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T16:45:58.348848",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Presentation Content: Basic Core and Core-Plus Insurance Plans\n\n## Introduction/Overview\nThe Basic Core and Core-Plus insurance plans, underwritten by American Public Life Insurance Company with an A+ rating from AM Best, offer comprehensive managed care solutions. These plans are designed to provide flexible, cost-effective healthcare options without waiting or exclusion periods for pre-existing conditions, although they do not cover pregnancy.\n\n## Benefits and Features\n\n### Basic Core and Core-Plus Insurance Benefits\n- **Hospital Coverage**: \n  - $500 per day for hospital admission (maximum of 1 day).\n  - $100 per day for hospital daily confinement (up to 10 days).\n- **Visits Coverage**: \n  - Emergency room, urgent care, and physician office visits covered at $50 per day with varying day limits.\n- **Prescription Benefits**:\n  - Basic Core: Free prescription club with a discount Rx card.\n  - Basic Core-Plus: Free generic medications and unlimited telemedicine visits.\n- **Additional Services**:\n  - Prepay feature for doctor visits.\n  - Managed care reference-based pricing to help manage medical bills.\n\n### Medical Bill Repricer Overview\n- **Reference-Based Pricing**: Reduces medical costs by paying providers based on a percentage of Medicare Allowable Rates.\n- **Provider Access**: Members can choose any doctor or specialist with pre-set fees ($25 for primary care, $50 for specialists).\n- **Advocacy Services**: Helps members understand benefits and negotiate with providers to reduce any remaining balance after insurance payments.\n\n### Pharmacy and Telemedicine Benefits\n- **Pharmacy Services**:\n  - Free acute and chronic medications, diabetic supplies, pharmacy coaching, and access to a member portal.\n  - Discounted insulin from Walmart and lower prices for over-the-counter medications.\n- **Telemedicine**:\n  - Basic Core-Plus: Unlimited virtual doctor visits, 24/7 access to consultations.\n  - Basic Core: Does not include virtual doctor visits.\n- **Free Prescriptions**: Free generic medications to emphasize cost savings.\n\n## Plan Details\n\n### Member Benefit Package Overview\n- **Basic Core Package**:\n  - Medical bill repricing, reference-based pricing, advocacy services, prescription program, mail order pharmacy, and entertainment discounts.\n- **Basic Core-Plus Package**:\n  - Additional no-cost virtual doctor visits, free prescription club, direct lab testing, business training, MRI and CT scan discounts, diabetic and medical supplies savings, and online health management services.\n- **Both Packages**: Discounts on alternative wellness services, therapies, and fitness programs.\n\n## Costs and Coverage\n\n### Wholesale Plan Pricing Overview\n- **Membership Benefit Package Pricing**:\n  - Pricing varies based on member classification: individual members, member and spouse, member and child(ren), and family.\n- **Plan Options**:\n  - Basic Core Plan\n  - Basic Core-Plus Plan\n\nBy organizing the content in this structured format, it provides a clear and logical flow of information that is easy to follow for both slides and audio script generation.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

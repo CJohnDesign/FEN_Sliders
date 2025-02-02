@@ -1,0 +1,29 @@
+{
+  "tables": [
+    {
+      "page": 1,
+      "filename": "table_001.tsv",
+      "path": "ai/tables/table_001.tsv"
+    },
+    {
+      "page": 2,
+      "filename": "table_002.tsv",
+      "path": "ai/tables/table_002.tsv"
+    },
+    {
+      "page": 3,
+      "filename": "table_003.tsv",
+      "path": "ai/tables/table_003.tsv"
+    },
+    {
+      "page": 4,
+      "filename": "table_004.tsv",
+      "path": "ai/tables/table_004.tsv"
+    },
+    {
+      "page": 5,
+      "filename": "table_005.tsv",
+      "path": "ai/tables/table_005.tsv"
+    }
+  ]
+}

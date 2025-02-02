@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T18:36:43.285919",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T18:36:43.285919",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Basic Core Insurance Presentation\n\n## Title Page\n- **Title:** Basic Core\n- **Subtitle:** Comprehensive Overview of Benefits and Features\n\n## Introduction/Overview\n### Basic Core Insurance Overview\nThis section provides an introduction to the Basic Core insurance plan, emphasizing its features and benefits. It discusses indemnity insurance and managed care options, comparing the Basic Core and Basic Core-Plus plans. Key highlights include:\n- No waiting or exclusion period for pre-existing conditions\n- No coverage for pregnancy\n\n## Benefits and Features\n### Plan Coverage\n- **Hospital Services:**\n  - Hospital admission: $500 per day (maximum 1 day)\n  - Hospital daily confinement: $100 per day (up to 10 days)\n- **Outpatient Services:**\n  - Emergency room visits: $50 per day\n  - Urgent care: $50 per day (maximum 3 days)\n  - Physician office visits: $50 per day (maximum 3 days)\n\n### Additional Benefits\n- Free prescription club access\n- Discount Rx cards\n- Basic Core-Plus includes:\n  - Free generic medications at no copay\n  - Unlimited 24-hour telemedicine access with no copay\n\n## Plan Tiers\n### Basic Core vs. Basic Core-Plus\n- **Basic Core:**\n  - Standard coverage with limited hospital and outpatient services\n  - Access to prescription discounts and limited medical services\n- **Basic Core-Plus:**\n  - Enhanced coverage with additional benefits such as free generic medications and unlimited telemedicine\n\n## Comparing Plans\n### Medical Bill Repricing Solution Overview\n- Introduces the 'Medical Bill Repricer' within the Managed Care Benefit Package\n- Features:\n  - Reference Based Pricing: Payments between 150% and 200% of Medicare Allowable Rates\n  - Prepay options: $25 for primary care and $50 for specialist visits\n  - Advocacy Service: Assists with claims and provider negotiations\n\n### Pharmacy and Telemedicine Benefits\n- **Pharmacy Plan:**\n  - Free acute and chronic medications\n  - Access to diabetic supplies and pharmacy coaching\n- **Telemedicine:**\n  - Unlimited 24/7 virtual doctor consultations\n  - Immediate medical advice and prescriptions at no cost\n\n## Limitations and Exclusions\n- **Exclusions:**\n  - Pregnancy is not covered under any plan\n- **Limitations:**\n  - Specific daily limits on hospital and outpatient services\n\n## Member Benefit Package Summary\n- **Basic Core and Basic Core Plus Plans:**\n  - Medical bill repricing\n  - Virtual doctor visits\n  - Prescription discounts\n  - Basic Core Plus includes additional services like direct lab testing and online health management\n\n## Membership Benefit Package Pricing\n- **Plan Pricing for Business Workers of America:**\n  - Underwritten by American Public Life Insurance Company (A+ AM Best Rating)\n  - Pricing categories include individual, member and spouse, member and child(ren), and family packages\n  - Basic Core-Plus Plan is more expensive across all categories\n\n## Key Takeaways\n- Comprehensive coverage with no waiting periods for pre-existing conditions\n- Valuable additional benefits for Basic Core-Plus members\n- Advocacy and repricing services to manage costs effectively\n- Flexible pricing options for different member classifications\n\nThis structured content provides a detailed overview of the Basic Core insurance plans, highlighting the benefits, features, and differences between the Basic Core and Basic Core-Plus plans, along with pricing information.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

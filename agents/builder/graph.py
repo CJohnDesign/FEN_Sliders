@@ -28,9 +28,9 @@ def create_builder_graph() -> StateGraph:
     
     # Add edges
     workflow.add_edge("create_deck", "process_imgs")
-    workflow.add_edge("process_imgs", "process_summaries")
-    workflow.add_edge("process_summaries", "extract_tables")
-    workflow.add_edge("extract_tables", "process_slides")
+    workflow.add_edge("process_imgs", "extract_tables")
+    workflow.add_edge("extract_tables", "process_summaries")
+    workflow.add_edge("process_summaries", "process_slides")
     workflow.add_edge("process_slides", "setup_audio")
     workflow.add_edge("setup_audio", "validate_sync")
     

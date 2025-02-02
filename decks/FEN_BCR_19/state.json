@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T21:17:02.235363",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T21:17:02.235363",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Presentation Content for \"Basic Core\" (ID: FEN_BCR)\n\n## Title Page\n- **Title:** Basic Core\n- **Subtitle:** Comprehensive Overview of Basic Core and Basic Core-Plus Insurance Plans\n- **Logo:** FirstEnroll\n\n---\n\n## Introduction/Overview\n- **Overview:** The presentation provides a comprehensive comparison of the Basic Core and Basic Core-Plus insurance plans underwritten by the American Public Life Insurance Company. These plans are managed care options, featuring no waiting or exclusion periods for pre-existing conditions. However, pregnancy is not covered under these plans.\n\n---\n\n## Benefits and Features\n- **Core Benefits:**\n  - Hospital admission, daily confinement, emergency room, urgent care, and physician office visits.\n  - Specific co-pays and maximum day limits apply.\n\n- **Medical Bill Repricer Services:**\n  - Enables members to choose any doctor with prepay options.\n  - Managed Care Reference Base Pricing is used to negotiate provider rates.\n\n- **Advocacy Service:**\n  - Assists members in managing medical benefits, finding providers, and reducing out-of-pocket costs.\n  \n- **Pharmacy Plan:**\n  - Free Prescription Club offers free acute and chronic medications.\n  - Free diabetic supplies and pharmacy coaching.\n  - Patient Assistance Program for affordable brand name and specialized medications.\n\n- **Telemedicine Benefits:**\n  - Unlimited virtual doctor visits available 24/7 under the Basic Core-Plus plan.\n  - Consultations, diagnoses, and prescription writing via live video.\n\n---\n\n## Plan Tiers\n\n### Basic Core Plan\n- **Features:**\n  - Free prescription club.\n  - Telemedicine services.\n  - Member portal for account management.\n  \n### Basic Core-Plus Plan\n- **Enhanced Features:**\n  - Unlimited virtual doctor visits with no copay.\n  - Additional healthcare and wellness services.\n  - Free prescription club access with 90% of commonly prescribed medications.\n  - Discounts on MRI and CT scans, diabetic and medical supplies.\n  - Online health management and fitness programs.\n\n---\n\n## Comparing Plans\n- **Common Features:**\n  - Both plans include medical bill repricing, reference-based pricing, and advocacy services.\n  - Access to a prescription program with up to 60% discounts at over 60,000 pharmacies.\n  - Mail order pharmacy services with up to 80% savings on medications.\n\n- **Basic Core-Plus Exclusive Benefits:**\n  - Entertainment packages and direct lab testing options.\n  - Educational opportunities and alternative wellness treatment discounts.\n\n---\n\n## Membership Pricing\n- **Membership Benefit Package Pricing:**\n  - The pricing for different member classifications is divided into:\n    - Member\n    - Member & Spouse\n    - Member & Child(ren)\n    - Family\n  - The pricing table highlights the financial commitment for each classification under the Basic Core and Basic Core-Plus plans.\n  - Insurance plans are underwritten by a company with an A+ (Superior) rating by AM Best, ensuring reliability and financial stability.\n\n---\n\n## Limitations and Exclusions\n- **Exclusions:** \n  - Pregnancy coverage is not included in either plan.\n\n---\n\n## Key Takeaways\n- The Basic Core and Basic Core-Plus plans offer a variety of benefits suited to different needs.\n- No waiting periods and no exclusions for pre-existing conditions, promoting accessibility.\n- Comprehensive pharmacy and telemedicine benefits enhance member experience and healthcare access.\n- Members are empowered through flexible doctor choices and reduced out-of-pocket expenses.\n\n---\n\n## Thank You Slide\n- **Logo:** FirstEnroll\n- **Closing Message:** Thank you for considering the Basic Core and Basic Core-Plus insurance plans for your healthcare needs.",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}

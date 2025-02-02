@@ -8,6 +8,7 @@ from pathlib import Path
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 from ..config.models import get_model_config
+from langsmith.run_helpers import traceable
 
 logger = logging.getLogger(__name__)
 
@@ -22,6 +23,7 @@ def encode_image(image_path: str) -> str:
         logger.error(f"Failed to encode image {image_path}: {str(e)}")
         raise
 
+@traceable(name="extract_tables")
 async def extract_tables(state: Dict) -> Dict:
     """Extract tables from slides and save as TSV files"""
     try:

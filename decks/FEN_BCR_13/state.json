@@ -1,0 +1,44 @@
+{
+  "messages": [],
+  "metadata": {
+    "deck_id": "FEN_BCR",
+    "title": "Basic Core",
+    "template": "FEN_TEMPLATE",
+    "theme_config": {},
+    "created_at": "2025-02-01T20:12:20.631488",
+    "version": "1.0"
+  },
+  "deck_info": {
+    "path": "decks/FEN_BCR",
+    "metadata": {
+      "deck_id": "FEN_BCR",
+      "title": "Basic Core",
+      "template": "FEN_TEMPLATE",
+      "theme_config": {},
+      "created_at": "2025-02-01T20:12:20.631488",
+      "version": "1.0"
+    }
+  },
+  "slides": [],
+  "pdf_path": "decks/FEN_BCR/img/pdfs/BasicCore_brochure2.pdf",
+  "pdf_info": {
+    "num_pages": 5,
+    "page_paths": [
+      "decks/FEN_BCR/img/pages/page_1.png",
+      "decks/FEN_BCR/img/pages/page_2.png",
+      "decks/FEN_BCR/img/pages/page_3.png",
+      "decks/FEN_BCR/img/pages/page_4.png",
+      "decks/FEN_BCR/img/pages/page_5.png"
+    ],
+    "output_dir": "decks/FEN_BCR/img/pages"
+  },
+  "awaiting_input": null,
+  "page_summaries": null,
+  "processed_summaries": "# Title Page\n\n## Basic Core\n### Managed Care Insurance Plans\n\n---\n\n# Introduction/Overview\n\n## Overview of Basic Core and Basic Core-Plus Managed Care Insurance Plans\n- Comparison of Basic Core and Basic Core-Plus plans.\n- Immediate coverage with no waiting or exclusion periods for pre-existing conditions.\n- Benefits include hospital admission, emergency room visits, urgent care, and physician office visits.\n- Additional services: free prescription club, telemedicine services, and Medical Bill Repricer Services.\n- Advocacy concierge services to navigate benefits, negotiate claims, and reduce out-of-pocket costs.\n\n---\n\n# Benefits and Features\n\n## Medical Bill Repricer: Managed Care Solution\n- Simplifies healthcare billing with Reference Based Pricing.\n- Pays providers 150% to 200% of Medicare Allowable Rates.\n- Doctor Office Visit: $25 pre-pay for primary care, $50 for specialists.\n- Advocacy Service aids in understanding benefits and negotiating claims.\n\n## Pharmacy Plan and Telemedicine Benefits\n- Free acute and chronic medications, diabetic supplies, and pharmacy coaching.\n- Personal member portal for managing prescriptions.\n- Telemedicine: 24/7 virtual doctor consultations at no cost.\n\n## Member Benefit Package Overview\n- Cost-saving features: medical bill repricing, reference-based pricing, and advocacy services.\n- Discount prescription program and mail order pharmacy service.\n- Entertainment and wellness discounts.\n\n---\n\n# Plan Tiers\n\n## Basic Core Plan\n- Immediate coverage for pre-existing conditions.\n- Benefits include hospital admission ($500/day for 1 day) and hospital daily confinement ($100/day for 10 days).\n- Emergency room visits ($50/day for 1 day), urgent care ($50/day for 3 days), and physician office visits ($50/day for 3 days).\n- Free prescription club with a discount Rx card.\n- Telemedicine services not included.\n\n## Basic Core-Plus Plan\n- Includes all Basic Core Plan benefits.\n- Additional benefits: unlimited virtual doctor visits at no cost.\n- Free generic medications with no copay.\n- Value-added services: diabetic supplies discounts, online health management, and alternative wellness therapies.\n\n---\n\n# Comparing Plans\n\n## Comprehensive Overview of Basic Core and Plus Bundles\n- Both plans include medical bill repricing, reference-based pricing, and advocacy services.\n- Basic Core-Plus offers enhanced services: free prescription club, diabetic and medical supplies discounts, and alternative wellness therapies.\n- Discount programs: prescription, mail order pharmacy, entertainment, and lab testing.\n\n---\n\n# Limitations and Exclusions\n\n## Basic Core and Basic Core-Plus Plan Exclusions\n- Neither plan covers pregnancy-related services.\n- Specific financial limits on benefits such as hospital admission and daily confinement.\n\n---\n\n# Key Takeaways\n\n## Summary of Benefits and Services\n- Immediate coverage with no waiting periods.\n- Comprehensive benefits including medical, pharmacy, and telemedicine services.\n- Cost-saving measures through repricing and advocacy services.\n- Enhanced offerings in the Basic Core-Plus plan for added convenience and savings.\n\n---\n\n# Thank You\n\n![FirstEnroll Logo]",
+  "audio_config": {
+    "title": "Basic Core",
+    "script_path": "audio/audio_script.md",
+    "slide_count": 0
+  },
+  "error_context": null
+}
