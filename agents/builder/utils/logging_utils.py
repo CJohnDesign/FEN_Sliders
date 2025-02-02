@@ -61,9 +61,9 @@ def log_async_step(logger: logging.Logger):
             # Get state from args (first argument should be state)
             state = args[0] if args else None
             
-            # Check if state is a dict with required keys
-            if not isinstance(state, dict):
-                raise ValueError("First argument must be a BuilderState dict")
+            # Check if state is a BuilderState
+            if not isinstance(state, BuilderState):
+                raise ValueError("First argument must be a BuilderState object")
             
             # Get function name without 'async' prefix
             func_name = func.__name__
@@ -72,13 +72,13 @@ def log_async_step(logger: logging.Logger):
             try:
                 # Log start
                 logger.info(f"Starting {stage_name}...")
-                logger.info(f"State contains: {list(state.keys())}")
+                logger.info(f"State contains: {[key for key in vars(state).keys()]}")
                 
                 # Execute function
                 result = await func(*args, **kwargs)
                 
                 # Log completion if no errors
-                if not result.get("error_context"):
+                if not result.error_context:
                     logger.info(f"Successfully completed {stage_name}")
                 
                 return result
@@ -94,8 +94,8 @@ def log_async_step(logger: logging.Logger):
                 logger.error(f"Traceback:\n{tb}")
                 
                 # Update state with error context
-                if isinstance(state, dict):
-                    state["error_context"] = {
+                if isinstance(state, BuilderState):
+                    state.error_context = {
                         "error": str(e),
                         "stage": stage_name,
                         "traceback": tb

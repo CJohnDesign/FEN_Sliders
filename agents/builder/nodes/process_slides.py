@@ -47,13 +47,6 @@ async def process_slides(state: BuilderState) -> BuilderState:
         
         logger.info(f"Found {len(pages_with_tables)} pages with tables")
         logger.info(f"Found {len(pages_with_limitations)} pages with limitations")
-
-        # Check if slides already exist
-        existing_content = ""
-        if output_path.exists():
-            with open(output_path) as f:
-                existing_content = f.read()
-                logger.info("Found existing slides content")
         
         # Create messages for slide generation
         messages = [
@@ -100,8 +93,8 @@ async def process_slides(state: BuilderState) -> BuilderState:
             {
                 "role": "user",
                 "content": f"""
-                {"Use this existing slide structure as your base - maintain all layouts and transitions:" if existing_content else "Use this template structure - notice the placement of the logo images:"}
-                {existing_content if existing_content else template}
+                Use this template structure - notice the placement of the logo images:
+                {template}
                 
                 Generate slides using this processed summary content:
                 {state["processed_summaries"]}
@@ -112,7 +105,7 @@ async def process_slides(state: BuilderState) -> BuilderState:
                 Here are the pages that contain limitations - use these in the limitations sections:
                 {json.dumps(pages_with_limitations, indent=2)}
                 
-                {"Update the content while maintaining the exact same structure and formatting from the existing slides." if existing_content else "Maintain all Slidev syntax for layouts and transitions."}
+                Maintain all Slidev syntax for layouts and transitions.
                 Do not wrap the content in ```markdown or ``` tags.
                 """
             }
@@ -131,19 +124,21 @@ async def process_slides(state: BuilderState) -> BuilderState:
         # Save to file
         await save_content(output_path, slides_content)
         
-        # Update state
-        state["generated_slides"] = slides_content
+        # Update state with raw slides content for validation
+        state["slides"] = slides_content
         state["slide_count"] = count_slides(slides_content)
         
-        # Add slides for audio setup
-        state["slides"] = []
-        for summary in summaries:
-            state["slides"].append({
+        # Store structured slides data separately for other uses
+        state["structured_slides"] = [
+            {
                 "title": summary.get("title", ""),
                 "content": summary.get("summary", ""),
                 "type": "default"
-            })
+            }
+            for summary in summaries
+        ]
         
+        logger.info(f"Generated {state['slide_count']} slides")
         return state
         
     except Exception as e:

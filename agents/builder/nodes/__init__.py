@@ -6,6 +6,8 @@ from .setup_audio import setup_audio
 from .tables import extract_tables
 from .summary import process_summaries
 from .validator import validate_and_fix
+from .slides_writer import slides_writer
+from .script_writer import script_writer
 
 __all__ = [
     'create_deck_structure',
@@ -14,5 +16,7 @@ __all__ = [
     'process_imgs',
     'process_summaries',
     'extract_tables',
-    'validate_and_fix'
+    'validate_and_fix',
+    'slides_writer',
+    'script_writer'
 ] 

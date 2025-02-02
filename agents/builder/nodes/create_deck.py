@@ -5,111 +5,90 @@ import shutil
 import logging
 from pathlib import Path
 from datetime import datetime
-from typing import Dict
-from ..utils.retry_utils import retry_with_exponential_backoff
+from typing import Dict, Any
+from agents.builder.utils.retry_utils import retry_with_exponential_backoff
 from ..utils.logging_utils import setup_logger
+
+from agents.builder.state import BuilderState
 
 # Set up logger
 logger = setup_logger(__name__)
 
 @retry_with_exponential_backoff()
-def create_deck_structure(state: Dict) -> Dict:
-    """Create the initial deck structure and return state."""
+def create_deck_structure(state: BuilderState) -> BuilderState:
+    """Create the initial deck structure."""
     try:
-        # Get parameters from state
-        metadata = state.get("metadata", {})
-        deck_id = metadata.get("deck_id")
-        title = metadata.get("title")
-        template = metadata.get("template", "FEN_TEMPLATE")
-        
-        if not deck_id or not title:
-            raise ValueError("Missing required metadata: deck_id or title")
-            
+        metadata = state.metadata
+        deck_id = metadata.deck_id
+        template = metadata.template
+
+        # Get paths
+        deck_dir = Path("decks") / deck_id
+        template_dir = Path("decks") / template
+
+        # Create directories
         logger.info(f"Creating deck structure for {deck_id}")
         
-        # Create base directory structure
-        deck_path = Path("decks") / deck_id
-        template_path = Path("decks") / template
-        
-        # Create the deck directory if it doesn't exist
-        deck_path.mkdir(parents=True, exist_ok=True)
-        
-        # Define directories to create and copy
-        directories = [
-            "ai",
-            "ai/tables",
-            "audio",
-            "audio/oai",
-            "img",
-            "img/logos",
-            "img/pdfs",
-            "img/pages",
-            "dist"
+        # Create main directories
+        dirs = [
+            deck_dir / "ai" / "tables",
+            deck_dir / "audio" / "oai",
+            deck_dir / "img" / "logos",
+            deck_dir / "img" / "pdfs",
+            deck_dir / "img" / "pages",
+            deck_dir / "dist"
         ]
-        
-        # Create all required directories
-        for dir_path in directories:
-            (deck_path / dir_path).mkdir(parents=True, exist_ok=True)
-            logger.info(f"Created directory: {deck_path / dir_path}")
-        
-        # Copy template files and directories
+
+        for dir_path in dirs:
+            dir_path.mkdir(parents=True, exist_ok=True)
+            logger.info(f"Created directory: {dir_path}")
+
+        # Copy template files
         def copy_directory_contents(src_dir: Path, dst_dir: Path):
-            """Copy all contents from source to destination directory."""
+            """Copy all files from source to destination directory."""
             if not src_dir.exists():
                 logger.warning(f"Source directory does not exist: {src_dir}")
                 return
-                
+            
             for item in src_dir.iterdir():
                 if item.is_file():
-                    shutil.copy2(item, dst_dir / item.name)
+                    shutil.copy2(item, dst_dir)
                     logger.info(f"Copied file: {item.name}")
-                elif item.is_dir():
-                    new_dst = dst_dir / item.name
-                    new_dst.mkdir(exist_ok=True)
-                    copy_directory_contents(item, new_dst)
-        
-        # Copy template structure
-        template_dirs = {
-            "img/logos": deck_path / "img" / "logos",
-            "img/pdfs": deck_path / "img" / "pdfs",
-            "img/pages": deck_path / "img" / "pages",
-            "audio": deck_path / "audio"
-        }
-        
-        for src_path, dst_path in template_dirs.items():
-            src_full_path = template_path / src_path
-            copy_directory_contents(src_full_path, dst_path)
-        
-        # Copy slides.md if it exists
-        template_slides = template_path / "slides.md"
-        if template_slides.exists():
-            shutil.copy2(template_slides, deck_path / "slides.md")
+
+        # Copy logo files
+        logger.info("Copying logos from template...")
+        copy_directory_contents(template_dir / "img" / "logos", deck_dir / "img" / "logos")
+
+        # Copy PDF files
+        logger.info("Copying PDFs from template...")
+        copy_directory_contents(template_dir / "img" / "pdfs", deck_dir / "img" / "pdfs")
+
+        # Copy audio files
+        logger.info("Copying audio files from template...")
+        copy_directory_contents(template_dir / "audio", deck_dir / "audio")
+
+        # Copy slides template
+        slides_template = template_dir / "slides.md"
+        if slides_template.exists():
+            shutil.copy2(slides_template, deck_dir)
             logger.info("Copied slides.md template")
-        
-        # Create initial metadata
-        metadata.update({
-            "created_at": datetime.now().isoformat(),
-            "version": "1.0"
-        })
-        
-        # Save metadata
-        with open(deck_path / "metadata.json", "w") as f:
-            json.dump(metadata, f, indent=2)
-            
-        logger.info(f"Successfully created deck structure at {deck_path}")
-        
-        # Update state
-        state["deck_info"] = {
-            "path": str(deck_path),
-            "metadata": metadata
+        else:
+            logger.warning("No slides.md template found in template directory")
+
+        # Update state with deck info
+        state.deck_info = {
+            "path": str(deck_dir),
+            "template": template
         }
-        
+
+        logger.info(f"Successfully created deck structure at {deck_dir}")
         return state
-        
+
     except Exception as e:
         logger.error(f"Failed to create deck structure: {str(e)}")
-        state["error_context"] = {
+        state.error_context = {
             "error": str(e),
-            "stage": "create_deck_structure"
+            "stage": "create_deck",
+            "details": "Failed to create initial deck structure"
         }
-        return state 
+        raise e 

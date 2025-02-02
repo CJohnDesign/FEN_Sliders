@@ -92,6 +92,7 @@ async def setup_audio(state: Dict) -> Dict:
             
         # Update state
         state["audio_config"] = config
+        state["script"] = script_content  # Add script content to state
         logger.info("Completed audio setup")
         
         return state

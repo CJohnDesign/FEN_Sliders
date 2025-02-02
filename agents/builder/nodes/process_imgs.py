@@ -15,31 +15,34 @@ logger = setup_logger(__name__)
 async def wait_for_pdf(state: BuilderState) -> BuilderState:
     """Pauses the workflow to wait for PDF upload"""
     logger.info("Waiting for PDF upload...")
-    state["messages"].append(
+    state.messages.append(
         AIMessage(content="Please upload the PDF file for the deck. Once uploaded, the process will continue.")
     )
-    state["awaiting_input"] = "pdf_upload"
+    state.awaiting_input = "pdf_upload"
     return state
 
 @log_async_step(logger)
 async def process_imgs(state: BuilderState) -> BuilderState:
     """Process PDF file and convert pages to images."""
     try:
+        logger.info(f"Starting process_imgs...")
+        logger.info(f"State contains: {[key for key in vars(state).keys()]}")
+
         # Get deck directory
-        deck_dir = state.get("deck_info", {}).get("path")
-        if not deck_dir:
+        if not state.deck_info or "path" not in state.deck_info:
             log_step_result(
                 logger,
                 "pdf_processing",
                 False,
                 "No deck directory found in state"
             )
-            state["error_context"] = {
+            state.error_context = {
                 "error": "No deck directory found in state",
                 "stage": "pdf_processing"
             }
             return state
             
+        deck_dir = state.deck_info["path"]
         logger.info(f"Working with deck directory: {deck_dir}")
         
         # Find PDF file in root directory first
@@ -56,7 +59,7 @@ async def process_imgs(state: BuilderState) -> BuilderState:
                     False,
                     f"PDF directory not found at: {pdf_dir}"
                 )
-                state["error_context"] = {
+                state.error_context = {
                     "error": f"PDF directory not found at: {pdf_dir}",
                     "stage": "pdf_processing"
                 }
@@ -71,7 +74,7 @@ async def process_imgs(state: BuilderState) -> BuilderState:
                 False,
                 "No PDF files found"
             )
-            state["error_context"] = {
+            state.error_context = {
                 "error": "No PDF files found",
                 "stage": "pdf_processing"
             }
@@ -110,8 +113,8 @@ async def process_imgs(state: BuilderState) -> BuilderState:
         logger.info(f"Converted {len(page_paths)} pages to images")
         
         # Update state
-        state["pdf_path"] = pdf_path
-        state["pdf_info"] = {
+        state.pdf_path = pdf_path
+        state.pdf_info = {
             "num_pages": len(page_paths),
             "page_paths": page_paths,
             "output_dir": str(pages_dir)
@@ -132,7 +135,7 @@ async def process_imgs(state: BuilderState) -> BuilderState:
             False,
             f"Failed to process PDF: {str(e)}"
         )
-        state["error_context"] = {
+        state.error_context = {
             "error": str(e),
             "stage": "pdf_processing"
         }
