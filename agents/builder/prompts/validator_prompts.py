@@ -88,3 +88,25 @@ Rules for validation - if any rule is violated, needs_fixes should be true
     - Plan Tier pages should include the plan name, tier, and a list of benefits, with numbers and dollar amounts
     - The slide should never use the word comprehensive, if it does needs_fixes should be true
 """
+
+VALIDATION_PROMPT = """Validate the following presentation content for quality and consistency.
+
+Content to validate:
+{content}
+
+Check for the following issues:
+1. Flow and transitions between sections
+2. Formatting consistency
+3. Content completeness
+4. Grammar and spelling
+5. Technical accuracy
+6. Visual balance
+7. Timing and pacing
+
+For each issue found, provide:
+- Description of the issue
+- Severity (low/medium/high)
+- Location in the content
+- Suggestions for improvement
+
+Format the response as a structured list of validation issues."""

@@ -1,0 +1,209 @@
+[
+  {
+    "title": "Everest Reinsurance Company Overview",
+    "summary": "The slide provides an overview of the Everest Reinsurance Company, highlighting its offerings and insurance options. It specifies that the insurance is offered through NCE and carried by Everest. The type of insurance provided is Group Fixed Indemnity Insurance, which is designed to offer fixed benefits for specific services. Additionally, the slide mentions that the provider options include the Multiplan PPO Network, suggesting a broad network of healthcare providers available to policyholders.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 1
+  },
+  {
+    "title": "Understanding Group Indemnity Insurance Benefits",
+    "summary": "The slide emphasizes the importance of protecting clients from unexpected medical expenses that can arise from accidents and illnesses. It introduces Everest's Group Indemnity Insurance as a solution that provides fixed payments to help manage these costs. The insurance offers cash benefits for covered expenses, allowing clients to focus on recovery rather than financial burdens. An example is provided, illustrating how a 35-year-old woman benefits from the plan after an accident, with specific payouts for hospital admission, ER visits, and physician office visits. The slide highlights the flexibility of using these benefits for various expenses, such as copays, deductibles, transportation, and childcare. Additionally, it outlines the advantages of choosing Everest Group Indemnity Insurance, including access to a Multiplan PPO Network, direct payment of benefits, and a simplified claims process.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 2
+  },
+  {
+    "title": "Group Fixed Indemnity Plan Details",
+    "summary": "This slide provides a detailed comparison of different Group Fixed Indemnity Plans offered by Everest, including Plan 100, Plan 200, Plan 200+, and Plan 300. Each plan is outlined with specific benefits and limitations. The plans cover various aspects such as confinement benefits, hospital benefits, procedure benefits, and outpatient benefits. Confinement benefits include hospital and ICU confinement with varying amounts per plan. Hospital benefits detail emergency room visits, while procedure benefits cover surgery and anesthesia. Outpatient benefits include lab tests, X-rays, advanced diagnostics, and physician office visits. The slide also notes a pre-existing condition limitation and clarifies that benefits are per person.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 3
+  },
+  {
+    "title": "Group Fixed Indemnity Plan Details",
+    "summary": "The slide provides a detailed comparison of four different fixed indemnity plans offered by Everest: Plan 500, Plan 750, Plan 1000, and Plan 1000+. Each plan outlines specific benefits related to hospital confinement, ICU confinement, hospital admission, emergency room visits, surgery, anesthesia, and outpatient services. The plans vary in terms of coverage amounts and conditions, such as the number of days covered for confinement and the maximum days allowed for surgery per certificate year. Additionally, the slide mentions pre-existing condition limitations and the guaranteed issue underwriting level for all plans. It also highlights the outpatient benefits, including lab tests, X-rays, advanced diagnostics, and physician's office visits. The coverage includes a pre-existing condition exclusion, and there are no cancel age or chiropractic/acupuncture coverage.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 4
+  },
+  {
+    "title": "Everest Insurance FAQ Overview",
+    "summary": "The slide provides a comprehensive FAQ section for Everest Insurance, focusing on various aspects of their group fixed indemnity insurance policy. It explains that this type of insurance is a supplemental health plan offering fixed monetary benefits for specific medical expenses. The slide also guides users on finding participating providers through a website or phone number, emphasizing the availability of plan discounts. Advanced Diagnostics are detailed, listing several tests such as MRI and CT scans. Definitions for terms like 'Calendar Year' and 'Certificate Year' are provided, clarifying the timeframes for coverage. A 'free look period' is mentioned, allowing policyholders to return the certificate within 10 days if unsatisfied. The concept of 'Confinement' is explained as hospital admission for inpatient services, with benefits paid per day. 'Diagnostic Care' is defined as medically necessary services for diagnosing medical conditions. Lastly, the MultiPlan PPO Network is introduced as a nationwide network offering additional provider choices with agreed discounts.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 5
+  },
+  {
+    "title": "Insurance Plan Exclusions and Limitations",
+    "summary": "The slide outlines various exclusions and limitations of an insurance plan, specifying conditions under which no benefits will be payable. It details exclusions for breast surgery, except in cases related to cancer treatment, and cosmetic surgery, unless reconstructive surgery is necessary due to trauma or disease. Dental care is excluded unless related to accidental injury or congenital conditions. Elective and experimental treatments are not covered. Accidents resulting from extreme sports or activities involving high risk are also excluded. Additionally, treatments from family members and services received during foreign travel are not covered unless under specific emergency conditions.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": true
+    },
+    "page": 6
+  },
+  {
+    "title": "Exclusions from Benefit Coverage",
+    "summary": "The slide outlines various conditions and circumstances under which benefits are not payable. It specifies exclusions related to gender-related treatments, hazardous activities, illegal acts, and incarceration. Additionally, it addresses exclusions for intoxication, non-medically necessary treatments, mental illness or substance abuse, narcotic use, and overdose. Pregnancy-related exclusions are also detailed, with exceptions for life-endangering situations. Finally, it mentions exclusions for losses incurred during military service.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": true
+    },
+    "page": 7
+  },
+  {
+    "title": "Exclusions and Limitations of Insurance Benefits",
+    "summary": "The slide outlines various scenarios where insurance benefits are not payable. It specifies that no benefits are provided for treatments related to manipulations of the musculoskeletal system or acupuncture, particularly when related to structural imbalances or nerve interference. Sports-related injuries, especially from intercollegiate or professional sports, are also excluded, although local recreational sports are not mentioned. Losses due to suicide or intentional injury, even if unintended, are not covered. Accidents involving unlicensed drivers are excluded unless specific conditions are met, such as holding a valid learner's permit and receiving instruction. Additionally, no benefits are payable for incidents related to war, riots, or acts of terrorism, with specific exclusions for acts of terrorism. Weight-related treatments, including surgeries and fitness programs, are not covered unless deemed medically necessary. Workers' compensation cases are excluded if they are eligible for other specific benefits. Pre-existing conditions are not covered for a specified period, except for newborns or adopted children. Lastly, a waiting period must be completed before certain benefits become available, with exceptions for newborn or adopted children.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": true
+    },
+    "page": 8
+  },
+  {
+    "title": "NCE Discount Benefit Program Overview",
+    "summary": "The slide introduces the NCE Discount Benefit Program Member Handbook. It highlights that the program offers valuable discount benefits in addition to limited medical benefits. The emphasis is on the membership providing additional value through discounts, distinguishing it from traditional insurance programs.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 9
+  },
+  {
+    "title": "Table of Contents for Health Discount Program",
+    "summary": "This slide presents the table of contents for a health discount program document. It outlines various sections, starting with a welcome page, followed by sections on dental, vision, and pharmacy services. Additional sections cover brand-name mail-order services, CBD products, and diabetic supplies. The document also includes information on physical therapy and rehabilitation, hearing savings programs, and medical bill negotiations. Further sections detail medical supplies and equipment, laboratory savings programs, nutrition, and speech therapy. The document provides access to a 24/7 nurse help line, chiropractic savings plans, and vitamins and supplements. The final section is the health discount program member agreement. The note at the bottom clarifies that this program is not insurance but a discount program.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 10
+  },
+  {
+    "title": "Overview of NCE's GapAfford Plus Program",
+    "summary": "The slide introduces NCE's GapAfford Plus program, designed to help individuals and families save on out-of-pocket medical expenses, regardless of their insurance status. The program offers savings from the first dollar spent, with no limits, and provides access to pre-negotiated rates similar to those received by insurance companies. It is particularly beneficial for people with high deductible plans, no insurance, under-insured individuals, those with pre-existing conditions, and others in specific situations like COBRA. The program does not require medical exams for approval.\n\nThe slide also addresses common questions, clarifying that all household members are included and that the program is not insurance but a reduced fee-for-service plan. It highlights that there are no deductibles, pre-existing condition limitations, medical exams, claim forms, usage limitations, or age restrictions, except for work already in progress. Additionally, individuals with existing insurance can still enroll in the program if their provider accepts it.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 11
+  },
+  {
+    "title": "Aetna Dental Access Network Benefits and Savings",
+    "summary": "The slide provides an overview of the Aetna Dental Access Network, part of the GapAfford Plus program, which offers members access to a vast network of over 262,000 dental practice locations. This network allows for significant savings on dental services, ranging from 15-50% per visit. Key advantages include no waiting periods, no age restrictions, no pre-existing condition exclusions, no benefit maximums, and the inclusion of cosmetic dentistry and orthodontia. The program can complement existing dental insurance and includes vision discounts. A table illustrates sample dental care savings, comparing regional average costs with discounted prices through Dentachoice, highlighting substantial savings across various procedures.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 12
+  },
+  {
+    "title": "OUTLOOK Vision Network Discount Program",
+    "summary": "The slide presents the OUTLOOK Vision network, which has partnered with over 12,000 eye care locations across the nation. This network includes a variety of providers such as ophthalmologists, optometrists, and both independent and chain optical centers. The vision program offers significant savings ranging from 10% to 50% on prescription eyeglasses, frames, lenses, and contact lenses at participating retail locations. Additionally, there are discounts of 10% to 30% on medical eye exams and surgical procedures like PRK and LASIK, where available. A sample table of vision care savings is provided, showing potential savings on various optical products at different locations. The slide also lists some of the participating vision care providers, indicating a wide network of available services.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 13
+  },
+  {
+    "title": "Pharmacy Discount Card Benefits",
+    "summary": "The slide presents information about a pharmacy discount card program that offers significant savings on medications. Users can save an average of 55% on generic drugs and 15% on brand-name drugs at over 80% of pharmacies nationwide. The card provides discounts on all FDA-approved drugs, including lifestyle medications, with no limit on the number of prescriptions filled. The card is pre-activated, never expires, and can be used repeatedly without the need for activation or filling out forms. It covers the entire household with no exclusions and ensures that personal information is never collected from users. Additionally, the card includes discounts on pet medications.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 14
+  },
+  {
+    "title": "MedAfford Global RX Mail-Order Program",
+    "summary": "The slide introduces MedAfford Global's mail-order prescription service, highlighting potential savings of up to 80% on medications, with specific savings on insulin medications of 45% or more. The service is described as convenient, easy, and secure. The process involves three steps: pricing medication online, ordering via phone or online with a valid prescription, and receiving medications directly with email confirmation. The slide includes tables listing commonly ordered brand-name and generic medications with their average prices for a 90-day supply, emphasizing cost-effectiveness. MedAfford Global is administered by National Benefit Builders, Inc., and the program is a discount service, not insurance.",
+    "tableDetails": {
+      "hasBenefitsTable": true,
+      "hasLimitations": false
+    },
+    "page": 15
+  },
+  {
+    "title": "Benefits and Unique Features of CBD Products",
+    "summary": "The slide introduces CBD products, emphasizing their benefits as a natural and safe alternative to prescription painkillers for individuals and pets. It explains that CBD, or cannabidiol, is a non-intoxicating compound found in hemp plants, which can support a sense of peace and balance. The slide highlights the company's commitment to providing high-quality CBD products by ensuring compliance with the Farm Bill Act 2018, using pharmacist-formulated full-spectrum CBD, and maintaining purity and potency through multi-stage third-party lab testing. Additionally, QR codes on packages link to lab results, enhancing transparency and trust.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 16
+  },
+  {
+    "title": "Healthcare Discount Programs Overview",
+    "summary": "The slide provides information on various healthcare discount programs. The 'Diabetic Supplies' section offers discounts ranging from 20-85% off retail prices on diabetes-related products such as glucose test strips, monitors, and other medical devices. Contact information and a website link are provided for further assistance. The 'Physical Therapy & Rehabilitation' section highlights a 20% savings opportunity at over 1,200 offices with 4,000 providers across 23 states. Similarly, contact details and a website are available for more information. Lastly, the 'Hearing Savings Program' offers free hearing consultations and discounts on hearing aid technology, including free annual consultations, exclusive discounts, a deluxe warranty program, and a supply of batteries. Customer service contact and billing information are provided for all programs.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 17
+  },
+  {
+    "title": "Medical Bill Negotiations and Medical Supplies Discounts",
+    "summary": "The slide outlines a program that assists members in saving on medical bills that exceed their plan benefits. Patient advocates help negotiate reduced costs, requiring full payment upon acceptance and a minimum bill of $5000 to start negotiations. Additionally, the program offers discounts of 20% to 50% on medical supplies, including ambulatory aids and safety items like wheelchairs and hospital beds. Contact information for customer service and billing is provided, along with a website for accessing the program and locating providers.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 18
+  },
+  {
+    "title": "Laboratory Savings and Nutrition Programs Overview",
+    "summary": "The slide presents two distinct programs: the Laboratory Savings Program and the SDO Nutrition program. The Laboratory Savings Program offers an efficient, affordable, and confidential solution for medical laboratory testing. Members can access a wide array of tests, gain information on tests and diseases, and purchase tests directly from the website. However, this service is not available in NY, NJ, or RI. Contact information and a website link are provided for further assistance.\n\nThe SDO Nutrition program aims to help individuals achieve personal health goals, maintain a healthy lifestyle, and manage chronic health conditions through food and diet education. It offers support for weight loss, dietary restrictions, geriatric health, diabetes and high blood pressure management, chronic health conditions management, and nutrition for athletic and fitness training. Contact information and a website link are also provided for this program.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 19
+  },
+  {
+    "title": "Telepractice Speech Therapy and 24/7 Nurse Help Line Services",
+    "summary": "The slide presents two distinct healthcare services: telepractice speech therapy and a 24/7 nurse help line. The speech therapy service utilizes video conferencing technology to deliver personalized, interactive therapy sessions worldwide. This approach offers a modern alternative to traditional speech therapy, requiring only a computer, internet access, webcam, and a quiet space. Therapists engage with clients through scheduled sessions, providing therapeutic activities and exercises, along with materials for practice between sessions.\n\nThe 24/7 nurse help line offers continuous access to registered nurses who can address family health issues. This service includes support in over 100 languages, ensuring broad accessibility. Both services provide contact information for customer service and billing, along with a website for accessing programs and locating providers.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 20
+  },
+  {
+    "title": "Chiropractic Savings Program and Vitamins & Supplements Discounts",
+    "summary": "The slide presents a Chiropractic Savings Program offering a free initial consultation, up to 50% savings on diagnostic services and x-rays, and unlimited treatments with up to 30% savings through a network of over 12,000 chiropractors. Contact information for customer service and billing is provided, along with a website for accessing the program and locating providers. Additionally, the slide highlights a discount program for vitamins and supplements, allowing members to save up to 75% off retail prices on a wide range of natural products. It is noted that this program is not provided by AccessOne DMPO.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 21
+  },
+  {
+    "title": "Health Discount Program Member Agreement Overview",
+    "summary": "This slide outlines the terms and conditions for participants in the GapAfford Plus Health Discount Program provided by AccessOne Consumer Health, Inc. The agreement specifies that the plan is not insurance but offers discounts at certain healthcare providers. Participants are responsible for paying healthcare services directly to providers, with discounts available for various medical services, equipment, and supplies. The agreement details the process for enrollment, payment, and cancellation, including the requirement for written notice to cancel membership. It also emphasizes that the plan does not replace health insurance and is not a Qualified Health Plan under the Affordable Care Act. Participants can add dependents at no extra charge and are encouraged to keep a copy of the agreement for their records.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 22
+  },
+  {
+    "title": "Discount Program Overview",
+    "summary": "The slide presents information about a program offered by National Benefit Builders, Inc. It is emphasized that this program is not insurance but rather a discount program. The slide includes logos indicating accreditation and a high rating from the Better Business Bureau, suggesting credibility and trustworthiness. The content is intended for agent use only, indicating it is likely part of a training or informational session for representatives.",
+    "tableDetails": {
+      "hasBenefitsTable": false,
+      "hasLimitations": false
+    },
+    "page": 23
+  }
+]

@@ -1,94 +1,104 @@
-"""Deck creation and structure management."""
-import os
-import json
-import shutil
+"""Create deck node for initializing deck structure."""
 import logging
+import shutil
 from pathlib import Path
-from datetime import datetime
-from typing import Dict, Any
-from agents.builder.utils.retry_utils import retry_with_exponential_backoff
-from ..utils.logging_utils import setup_logger
+from ..state import BuilderState, DeckInfo
+from ..utils.logging_utils import log_state_change, log_error
+from typing import Dict
 
-from agents.builder.state import BuilderState
+# Set up logging
+logger = logging.getLogger(__name__)
 
-# Set up logger
-logger = setup_logger(__name__)
-
-@retry_with_exponential_backoff()
-def create_deck_structure(state: BuilderState) -> BuilderState:
-    """Create the initial deck structure."""
+async def create_deck_structure(state: BuilderState) -> Dict:
+    """Create initial deck directory structure."""
     try:
-        metadata = state.metadata
-        deck_id = metadata.deck_id
-        template = metadata.template
-
-        # Get paths
-        deck_dir = Path("decks") / deck_id
-        template_dir = Path("decks") / template
-
-        # Create directories
-        logger.info(f"Creating deck structure for {deck_id}")
-        
-        # Create main directories
-        dirs = [
-            deck_dir / "ai" / "tables",
-            deck_dir / "audio" / "oai",
-            deck_dir / "img" / "logos",
-            deck_dir / "img" / "pdfs",
-            deck_dir / "img" / "pages",
-            deck_dir / "dist"
-        ]
-
-        for dir_path in dirs:
-            dir_path.mkdir(parents=True, exist_ok=True)
-            logger.info(f"Created directory: {dir_path}")
-
-        # Copy template files
-        def copy_directory_contents(src_dir: Path, dst_dir: Path):
-            """Copy all files from source to destination directory."""
-            if not src_dir.exists():
-                logger.warning(f"Source directory does not exist: {src_dir}")
-                return
+        # Get metadata
+        if not state.metadata:
+            logger.warning("No metadata found in state")
+            return {
+                "error_context": {
+                    "error": "No metadata available",
+                    "stage": "deck_creation"
+                }
+            }
             
-            for item in src_dir.iterdir():
-                if item.is_file():
-                    shutil.copy2(item, dst_dir)
-                    logger.info(f"Copied file: {item.name}")
-
-        # Copy logo files
-        logger.info("Copying logos from template...")
-        copy_directory_contents(template_dir / "img" / "logos", deck_dir / "img" / "logos")
-
-        # Copy PDF files
-        logger.info("Copying PDFs from template...")
-        copy_directory_contents(template_dir / "img" / "pdfs", deck_dir / "img" / "pdfs")
-
-        # Copy audio files
-        logger.info("Copying audio files from template...")
-        copy_directory_contents(template_dir / "audio", deck_dir / "audio")
-
-        # Copy slides template
-        slides_template = template_dir / "slides.md"
-        if slides_template.exists():
-            shutil.copy2(slides_template, deck_dir)
-            logger.info("Copied slides.md template")
-        else:
-            logger.warning("No slides.md template found in template directory")
-
+        # Set up paths
+        base_dir = Path(__file__).parent.parent.parent.parent
+        template_dir = base_dir / "decks" / state.deck_info.template
+        deck_dir = base_dir / "decks" / state.metadata.deck_id
+        
+        # Check template exists
+        if not template_dir.exists():
+            logger.error(f"Template directory not found: {template_dir}")
+            return {
+                "error_context": {
+                    "error": f"Template {state.deck_info.template} not found",
+                    "stage": "deck_creation"
+                }
+            }
+            
+        # Check if deck directory already exists and remove it
+        if deck_dir.exists():
+            logger.info(f"Removing existing deck directory: {deck_dir}")
+            try:
+                shutil.rmtree(deck_dir)
+                logger.info(f"Successfully removed existing deck directory: {deck_dir}")
+            except Exception as e:
+                logger.error(f"Error removing existing deck directory: {e}")
+                return {
+                    "error_context": {
+                        "error": f"Failed to remove existing deck directory: {str(e)}",
+                        "stage": "deck_creation"
+                    }
+                }
+        
+        # Create fresh deck directory
+        logger.info(f"Creating fresh deck directory: {deck_dir}")
+        deck_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Create and copy directory structure
+        for dir_name in ["img/pages", "img/pdfs", "img/logos", "audio", "ai"]:
+            # Create directory
+            target_dir = deck_dir / dir_name
+            target_dir.mkdir(parents=True, exist_ok=True)
+            
+            # Copy contents if directory exists in template
+            template_dir_path = template_dir / dir_name
+            if template_dir_path.exists():
+                for file in template_dir_path.iterdir():
+                    if file.is_file():
+                        shutil.copy2(file, target_dir)
+                        logger.info(f"Copied template file: {dir_name}/{file.name}")
+        
+        # Copy template files
+        for file in template_dir.glob("*.*"):
+            if file.suffix in [".md", ".json", ".yaml", ".yml"]:
+                shutil.copy2(file, deck_dir)
+                logger.info(f"Copied template file: {file.name}")
+        
         # Update state with deck info
-        state.deck_info = {
-            "path": str(deck_dir),
-            "template": template
+        deck_info = DeckInfo(
+            path=str(deck_dir),
+            template=state.deck_info.template
+        )
+        
+        # Log completion
+        log_state_change(
+            state=state,
+            node_name="create_deck",
+            change_type="complete",
+            details={"deck_path": str(deck_dir)}
+        )
+        
+        return {
+            "deck_info": deck_info.model_dump()
         }
-
-        logger.info(f"Successfully created deck structure at {deck_dir}")
-        return state
-
+        
     except Exception as e:
-        logger.error(f"Failed to create deck structure: {str(e)}")
-        state.error_context = {
-            "error": str(e),
-            "stage": "create_deck",
-            "details": "Failed to create initial deck structure"
-        }
-        raise e 
+        log_error(state, "create_deck", e)
+        return {
+            "error_context": {
+                "error": str(e),
+                "stage": "deck_creation"
+            }
+        } 

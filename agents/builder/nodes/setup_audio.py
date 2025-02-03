@@ -1,107 +1,85 @@
-"""Audio generation node for the builder agent."""
-import json
+"""Audio setup node for preparing presentation audio."""
 import logging
 from pathlib import Path
-from typing import Dict, List
-from openai import AsyncOpenAI
+from langchain_community.chat_models import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
 from ..state import BuilderState
-from ...utils.content import save_content
-from langsmith.run_helpers import traceable
+from ..utils.logging_utils import log_state_change, log_error
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
-client = AsyncOpenAI()
+def create_audio_chain():
+    """Create the chain for generating audio script."""
+    # Use a more capable model for audio script generation
+    llm = ChatOpenAI(
+        model="gpt-4-0125-preview",
+        temperature=0.2,
+        request_timeout=120
+    )
+    
+    # Create prompt template
+    prompt = ChatPromptTemplate.from_template(
+        """Convert the following script into a natural, conversational audio script.
+        The audio script should:
+        1. Flow naturally between sections
+        2. Use clear pronunciation guides for technical terms
+        3. Include appropriate pauses and emphasis
+        4. Maintain professional but approachable tone
+        5. Include timing markers for synchronization
+        
+        Script Content:
+        {content}
+        
+        Format the audio script to be clear and well-structured."""
+    )
+    
+    # Create chain
+    chain = prompt | llm
+    
+    return chain
 
-@traceable(name="setup_audio")
-async def setup_audio(state: Dict) -> Dict:
-    """Sets up audio configuration and generates script"""
+async def setup_audio(state: BuilderState) -> BuilderState:
+    """Set up audio script for the presentation."""
     try:
-        logger.info("Starting audio setup")
-        
-        # Get paths
-        base_dir = Path(__file__).parent.parent.parent.parent
-        template_path = base_dir / "decks" / state["metadata"]["template"] / "audio" / "audio_script.md"
-        deck_dir = Path(state["deck_info"]["path"])
-        script_path = deck_dir / "audio" / "audio_script.md"
-        config_path = deck_dir / "audio" / "audio_config.json"
-        
-        # Load template
-        with open(template_path) as f:
-            template = f.read()
-            
-        # Check if script already exists
-        existing_content = ""
-        if script_path.exists():
-            with open(script_path, "r") as f:
-                existing_content = f.read()
-                logger.info("Found existing script content")
-        
-        # Create messages for script generation
-        messages = [
-            {
-                "role": "system",
-                "content": """You are an expert at creating presentation scripts.
-                
-                Guidelines for script content:
-                - Keep the tone professional but conversational
-                - Each section should be marked with **Section Title**
-                - Each v-click point should have its own paragraph
-                - Maintain natural transitions between sections
-                - Include clear verbal cues for slide transitions
-                - Do not wrap the content in ```markdown or ``` tags"""
-            },
-            {
-                "role": "user",
-                "content": f"""
-                {"Use this existing script structure as your base - maintain all sections and formatting:" if existing_content else "Use this template structure - notice the section formatting:"}
-                {existing_content if existing_content else template}
-                
-                Generate a script using this processed summary content:
-                {state["processed_summaries"]}
-                
-                {"Update the content while maintaining the exact same structure and formatting from the existing script." if existing_content else "Maintain all section formatting and structure from the template."}
-                Do not wrap the content in ```markdown or ``` tags.
-                """
+        # Check for script content
+        if not state.script:
+            logger.warning("No script content found in state")
+            state.error_context = {
+                "error": "No script content available",
+                "stage": "audio_setup"
             }
-        ]
+            return state
+            
+        # Create audio chain
+        chain = create_audio_chain()
         
-        response = await client.chat.completions.create(
-            model="gpt-4o",
-            messages=messages,
-            temperature=0.7,
-            max_tokens=8000
-        )
+        # Generate audio script
+        audio_script = await chain.ainvoke({"content": state.script})
         
-        # Get script content
-        script_content = response.choices[0].message.content
-        
-        # Save script
-        await save_content(script_path, script_content)
-        
-        # Create/update config
-        config = {
-            "title": state["metadata"]["title"],
-            "script_path": str(script_path.relative_to(deck_dir)),
-            "slide_count": len(state.get("summaries", []))
-        }
-        
-        # Save config
-        with open(config_path, "w") as f:
-            json.dump(config, f, indent=2)
+        # Write audio script to file
+        output_path = Path(state.deck_info.path) / "audio" / "audio_script.md"
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w") as f:
+            f.write(audio_script)
             
         # Update state
-        state["audio_config"] = config
-        state["script"] = script_content  # Add script content to state
-        logger.info("Completed audio setup")
+        state.audio_script = audio_script
+        
+        # Log completion
+        log_state_change(
+            state=state,
+            node_name="setup_audio",
+            change_type="complete",
+            details={"output_path": str(output_path)}
+        )
         
         return state
         
     except Exception as e:
-        logger.error(f"Error in setup_audio: {str(e)}")
-        logger.error("Full error context:", exc_info=True)
-        state["error_context"] = {
-            "step": "setup_audio",
-            "error": str(e)
+        log_error(state, "setup_audio", e)
+        state.error_context = {
+            "error": str(e),
+            "stage": "audio_setup"
         }
         return state 

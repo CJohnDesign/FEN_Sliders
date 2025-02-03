@@ -1,0 +1,21 @@
+```
+	Plan 100	Plan 200	Plan 200+	Plan 300
+Benefit Eligibility				
+Pre-existing Condition Limitation	12-12 Pre-Existing Conditions	12-12 Pre-Existing Conditions	12-12 Pre-Existing Conditions	12-12 Pre-Existing Conditions
+Underwriting Level	Guaranteed Issue	Guaranteed Issue	Guaranteed Issue	Guaranteed Issue
+Confinement Benefits	30 Days Per Certificate Year	30 Days Per Certificate Year	30 Days Per Certificate Year	30 Days Per Certificate Year
+	Hospital Confinement	Confinement/90 Days Per Certificate Year	Confinement/90 Days Per Certificate Year	Confinement/90 Days Per Certificate Year	Confinement/90 Days Per Certificate Year
+	$100	$200	$200	$300
+ICU Confinement	$100	$200	$200	$300
+Hospital Benefits				
+Hospital Admission	N/A	N/A	N/A	N/A
+Emergency Room	$50	$50	$50	$50
+Procedure Benefits	N/A	N/A	Combined Inpatient & Outpatient $250 per day	Combined Inpatient & Outpatient $250 per day
+Surgery	N/A	N/A	25%	25%
+Anesthesia	N/A	N/A	25%	25%
+Outpatient Benefits	Physician's Office-3 per certificate year	X-Rays & Labs-4 covered days per certificate year/Advanced Diagnostic-covered days per certificate year/Physician's Office-3 per certificate year	X-Rays & Labs-4 covered days per certificate year/Advanced Diagnostic-covered days per certificate year/Physician's Office-3 per certificate year	Physician's Office-3 per certificate year
+Lab	N/A	$50	$50	N/A
+X-Rays	N/A	$50	$50	N/A
+Advanced Diagnostic	N/A	$50	$50	N/A
+Physician's Office	$50	$50	$50	$50
+```

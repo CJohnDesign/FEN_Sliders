@@ -1,165 +1,127 @@
-from typing import TypedDict, Annotated, Optional, Dict, Literal, Any, List
-from langgraph.graph.message import add_messages
-from pydantic import BaseModel
-from dataclasses import dataclass, asdict
-import json
+"""State management for the builder agent."""
+import logging
+from typing import List, Optional, Dict, Any
+from pydantic import BaseModel, Field
 
-class PageSummary(TypedDict):
-    """Structure for individual page summaries."""
-    page: int
-    title: str
-    summary: str
-    hasTable: bool
-    csv: Optional[str]
+# Set up logging
+logger = logging.getLogger(__name__)
 
-@dataclass
-class DeckMetadata:
-    """Metadata for deck creation and configuration."""
+class DeckInfo(BaseModel):
+    """Information about the deck."""
+    path: str
+    template: str = "FEN_TEMPLATE"
+
+class DeckMetadata(BaseModel):
+    """Metadata for the deck."""
     deck_id: str
     title: str
-    template: str = "FEN_TEMPLATE"
-    theme_config: dict = None
+    version: str = "1.0.0"
+    author: str = "FirstEnroll"
+    theme: str = "default"
 
-    def __post_init__(self):
-        if self.theme_config is None:
-            self.theme_config = {}
+class PageMetadata(BaseModel):
+    """Metadata for a single page."""
+    page_number: int
+    page_name: str
+    file_path: str
+    content_type: str = "slide"
 
-    def get(self, key: str, default: Any = None) -> Any:
-        """Get a value by key with a default fallback."""
-        return getattr(self, key, default)
-        
-    def __getitem__(self, key: str) -> Any:
-        """Support dictionary-like access."""
-        return getattr(self, key)
-        
-    def update(self, data: Dict[str, Any]) -> None:
-        """Update metadata with new values."""
-        for key, value in data.items():
-            if hasattr(self, key):
-                setattr(self, key, value)
-                
-    def to_dict(self) -> Dict[str, Any]:
-        """Convert DeckMetadata to a dictionary."""
-        return {
-            "deck_id": self.deck_id,
-            "title": self.title,
-            "template": self.template,
-            "theme_config": self.theme_config
-        }
-        
-    def json(self) -> str:
-        """Convert to JSON string."""
-        return json.dumps(self.to_dict())
+class PageSummary(BaseModel):
+    """Summary of a page's content."""
+    page_number: int
+    page_name: str
+    summary: Optional[str] = None
+    key_points: List[str] = Field(default_factory=list)
+    action_items: List[str] = Field(default_factory=list)
+    has_tables: bool = False
+    has_limitations: bool = False
 
-class BuilderState(TypedDict):
-    """State management for the deck building process."""
-    # Core state
-    messages: Annotated[list, add_messages]  # LangGraph message history
-    metadata: DeckMetadata  # Deck configuration
-    
-    # Deck generation state
-    deck_info: Optional[Dict[str, str]]  # Path and template info
-    slides: list[dict]  # Generated slide content
-    
-    # PDF processing state
-    pdf_path: Optional[str]  # Path to uploaded PDF
-    pdf_info: Optional[Dict[str, Any]]  # PDF metadata and processing info
-    awaiting_input: Optional[Literal["pdf_upload"]]  # Current input requirement
-    
-    # Content generation state
-    page_summaries: Optional[List[PageSummary]]  # List of page summaries with their metadata
-    processed_summaries: Optional[str]  # Markdown formatted processed summaries
-    
-    # Audio state
-    audio_config: Optional[dict]  # Audio generation configuration
-    
-    # Validation state
-    needs_fixes: bool  # Whether fixes are needed
-    retry_count: int  # Number of validation retries
-    validation_issues: List[Dict[str, str]]  # List of validation issues
-    
-    # Error handling
-    error_context: Optional[dict]  # Error information if any step fails 
+class TableData(BaseModel):
+    """Structured table data."""
+    headers: List[str]
+    rows: List[List[str]]
+    table_type: str = "benefits"
+    metadata: Dict[str, str] = Field(default_factory=dict)
 
-@dataclass
-class TableDetails:
-    """Table details for a page."""
-    hasBenefitsTable: bool
-    hasLimitations: bool 
+class ValidationIssue(BaseModel):
+    """Validation issue details."""
+    type: str
+    description: str
+    severity: str = "medium"
+    location: str
+    suggestions: List[str] = Field(default_factory=list)
 
-@dataclass
-class PageSummary:
+class SlideContent(BaseModel):
+    """Structured slide content."""
     page_number: int
     title: str
     content: str
-    tables: List[str]
-    limitations: List[str]
+    has_tables: bool = False
+    has_limitations: bool = False
+    layout: str = "default"
+    transitions: List[str] = Field(default_factory=list)
 
-@dataclass
-class BuilderState:
-    messages: List[Dict]
-    metadata: DeckMetadata
-    deck_info: Optional[Dict] = None
-    slides: List[Dict] = None
-    script: Optional[str] = None
-    pdf_path: Optional[str] = None
-    pdf_info: Optional[Dict] = None
-    awaiting_input: Optional[str] = None
-    page_summaries: Optional[List[PageSummary]] = None
-    processed_summaries: Optional[Dict] = None
-    audio_config: Optional[Dict] = None
-    error_context: Optional[str] = None
+class Message(BaseModel):
+    """Message for tracking agent communication."""
+    role: str
+    content: str
+    metadata: Dict[str, str] = Field(default_factory=dict)
+
+class BuilderState(BaseModel):
+    """Main state container for the builder agent."""
+    # Core metadata
+    metadata: Optional[DeckMetadata] = None
+    deck_info: Optional[DeckInfo] = None
+    
+    # Content state
+    slides: str = ""
+    script: str = ""
+    slide_count: int = 0
+    processed_content: List[Dict[str, Any]] = Field(default_factory=list)
+    
+    # Page tracking
+    page_metadata: List[PageMetadata] = Field(default_factory=list)  # Track basic page info
+    page_summaries: List[PageSummary] = Field(default_factory=list)  # Track content summaries
+    structured_slides: List[SlideContent] = Field(default_factory=list)
+    tables_data: Dict[int, TableData] = Field(default_factory=dict)
+    
+    # Processing state
     needs_fixes: bool = False
     retry_count: int = 0
-    validation_issues: List[str] = None
+    max_retries: int = 3
+    validation_issues: List[ValidationIssue] = Field(default_factory=list)
+    error_context: Optional[Dict[str, str]] = None
+    
+    # Communication
+    messages: List[Message] = Field(default_factory=list)
+    
+    def add_page_metadata(self, page_data: PageMetadata) -> None:
+        """Add metadata for a processed page."""
+        if not self.page_metadata:
+            self.page_metadata = []
+            
+        # Update existing or add new
+        for i, metadata in enumerate(self.page_metadata):
+            if metadata.page_number == page_data.page_number:
+                self.page_metadata[i] = page_data
+                return
+                
+        self.page_metadata.append(page_data)
+        
+    def add_message(self, role: str, content: str, metadata: Optional[Dict[str, str]] = None) -> None:
+        """Add a message to the conversation history."""
+        message = Message(
+            role=role,
+            content=content,
+            metadata=metadata or {}
+        )
+        self.messages.append(message)
+        
+    def model_dump(self, **kwargs) -> Dict[str, Any]:
+        """Convert state to dictionary format."""
+        return super().model_dump(**kwargs)
 
-    def __post_init__(self):
-        if self.slides is None:
-            self.slides = []
-        if self.validation_issues is None:
-            self.validation_issues = []
-
-    def get(self, key: str, default: Any = None) -> Any:
-        """Get a value by key with a default fallback."""
-        return getattr(self, key, default)
-
-    def __getitem__(self, key: str) -> Any:
-        """Support dictionary-like access."""
-        return getattr(self, key)
-
-    def __setitem__(self, key: str, value: Any) -> None:
-        """Support dictionary-like assignment."""
-        setattr(self, key, value)
-
-    def to_dict(self) -> Dict[str, Any]:
-        """Convert BuilderState to a dictionary."""
-        return {
-            "messages": self.messages,
-            "metadata": self.metadata.to_dict() if self.metadata else None,
-            "deck_info": self.deck_info,
-            "slides": self.slides,
-            "script": self.script,
-            "pdf_path": self.pdf_path,
-            "pdf_info": self.pdf_info,
-            "awaiting_input": self.awaiting_input,
-            "page_summaries": [asdict(s) for s in self.page_summaries] if self.page_summaries else None,
-            "processed_summaries": self.processed_summaries,
-            "audio_config": self.audio_config,
-            "error_context": self.error_context,
-            "needs_fixes": self.needs_fixes,
-            "retry_count": self.retry_count,
-            "validation_issues": self.validation_issues
-        }
-
-def convert_messages_to_dict(state: Dict) -> Dict:
-    """Convert state messages to a dictionary format."""
-    result = {}
-    for key, value in state.items():
-        if isinstance(value, DeckMetadata):
-            result[key] = value.to_dict()
-        elif isinstance(value, (list, dict, str, int, float, bool, type(None))):
-            result[key] = value
-        else:
-            # Skip non-serializable objects
-            continue
-    return result 
+def convert_messages_to_dict(state: BuilderState) -> Dict[str, Any]:
+    """Convert BuilderState to a serializable dictionary format."""
+    # Use Pydantic's built-in serialization
+    return state.model_dump() 

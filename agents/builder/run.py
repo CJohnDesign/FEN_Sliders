@@ -4,15 +4,19 @@ import json
 import asyncio
 import logging
 import argparse
+from typing import Optional, Dict, Union
 from pathlib import Path
 from .graph import builder_graph
-from .state import BuilderState, DeckMetadata, convert_messages_to_dict
+from .state import BuilderState, DeckMetadata, DeckInfo, convert_messages_to_dict
 from langchain_core.messages import AIMessage
 from ..config.settings import LANGCHAIN_TRACING_V2, LANGCHAIN_PROJECT
 
-# Set up LangSmith
+# Set up LangSmith configuration
 os.environ["LANGCHAIN_TRACING_V2"] = LANGCHAIN_TRACING_V2
 os.environ["LANGCHAIN_PROJECT"] = LANGCHAIN_PROJECT
+os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
+os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_VERBOSE"] = "true"
 
 # Set up logging
 logging.basicConfig(
@@ -34,104 +38,115 @@ VALID_NODES = [
     "script_writer"
 ]
 
-def load_existing_state(deck_id: str) -> BuilderState:
+def initialize_state(deck_id: str, title: str) -> BuilderState:
+    """Initialize a fresh state with default values."""
+    return BuilderState(
+        metadata=DeckMetadata(
+            deck_id=deck_id,
+            title=title,
+            version="1.0.0",
+            author="FirstEnroll",
+            theme="default"
+        ),
+        deck_info=DeckInfo(
+            path=f"decks/{deck_id}",
+            template="FEN_TEMPLATE"
+        ),
+        slides="",
+        script="",
+        slide_count=0,
+        page_metadata=[],
+        page_summaries=[],
+        structured_slides=[],
+        tables_data={},
+        needs_fixes=False,
+        retry_count=0,
+        max_retries=3,
+        validation_issues=[],
+        error_context=None,
+        messages=[]
+    )
+
+def load_existing_state(deck_id: str) -> Optional[BuilderState]:
     """Load existing state from state.json if it exists."""
     state_path = Path(f"decks/{deck_id}/state.json")
     if state_path.exists():
         logger.info(f"Loading existing state from {state_path}")
         with open(state_path) as f:
             state_dict = json.load(f)
-            # Convert dictionary to BuilderState
-            metadata = DeckMetadata(**state_dict.get('metadata', {}))
-            return BuilderState(
-                messages=state_dict.get('messages', []),
-                metadata=metadata,
-                deck_info=state_dict.get('deck_info', {}),
-                slides=state_dict.get('slides', []),
-                script=state_dict.get('script'),
-                pdf_path=state_dict.get('pdf_path'),
-                pdf_info=state_dict.get('pdf_info'),
-                awaiting_input=state_dict.get('awaiting_input'),
-                page_summaries=state_dict.get('page_summaries'),
-                processed_summaries=state_dict.get('processed_summaries'),
-                audio_config=state_dict.get('audio_config'),
-                error_context=state_dict.get('error_context'),
-                needs_fixes=state_dict.get('needs_fixes', False),
-                retry_count=state_dict.get('retry_count', 0),
-                validation_issues=state_dict.get('validation_issues', [])
-            )
+            return BuilderState.model_validate(state_dict)
     return None
 
-async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
-    """Run the builder workflow.
-    
-    Args:
-        deck_id: ID for the deck
-        title: Title for the deck
-        start_node: Optional node to start from. Must be one of VALID_NODES.
-    """
-    logger.info(f"Starting builder for deck: {deck_id}")
-    
-    if start_node and start_node not in VALID_NODES:
-        logger.error(f"Invalid start node: {start_node}. Must be one of: {', '.join(VALID_NODES)}")
-        return 1
-    
-    # Initialize state
-    if start_node:
-        # Load existing state when starting from a specific node
-        existing_state = load_existing_state(deck_id)
-        if existing_state:
-            logger.info("Using existing state")
-            initial_state = existing_state
-        else:
-            logger.warning("No existing state found, starting fresh")
-            initial_state = BuilderState(
-                messages=[],
-                metadata=DeckMetadata(deck_id=deck_id, title=title),
-                deck_info={"path": f"decks/{deck_id}", "template": "FEN_TEMPLATE"}
-            )
-    else:
-        initial_state = BuilderState(
-            messages=[],
-            metadata=DeckMetadata(deck_id=deck_id, title=title),
-            deck_info={"path": f"decks/{deck_id}", "template": "FEN_TEMPLATE"}
-        )
-    
-    logger.info(f"Initial state: {initial_state}")
-    
+def save_state(state: Union[BuilderState, Dict], deck_id: str) -> None:
+    """Save current state to disk."""
     try:
-        # Run workflow using ainvoke for async execution
-        if start_node:
-            logger.info(f"Starting workflow from node: {start_node}")
-            final_state = await builder_graph.ainvoke(initial_state, {"start_node": start_node})
-        else:
-            final_state = await builder_graph.ainvoke(initial_state)
-        
-        # Convert final state to dictionary for safe access
-        if not isinstance(final_state, dict):
-            final_state = dict(final_state)
-        
-        # Check for errors using dictionary access
-        if final_state.get('error_context'):
-            logger.error("Builder workflow failed")
-            logger.error(f"Error context: {final_state['error_context']}")
-            return 1
-            
-        # Convert to serializable dictionary
-        final_dict = convert_messages_to_dict(final_state)
-            
-        # Write final state
         state_path = Path(f"decks/{deck_id}/state.json")
         state_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Convert state to dictionary format
+        if isinstance(state, BuilderState):
+            state_dict = state.model_dump(mode='json')
+        elif isinstance(state, dict):
+            # If it's a dict but contains Pydantic models, convert them
+            state_dict = BuilderState.model_validate(state).model_dump(mode='json')
+        else:
+            raise ValueError(f"Unsupported state type: {type(state)}")
+        
+        # Write state to file
         with open(state_path, "w") as f:
-            json.dump(final_dict, f, indent=2)
+            json.dump(state_dict, f, indent=2)
             
-        logger.info("Builder completed successfully")
-        return 0
+        logger.info(f"State saved to {state_path}")
+        
+    except Exception as e:
+        logger.error(f"Error saving state: {str(e)}")
+        logger.error(f"State type: {type(state)}")
+        if isinstance(state, dict):
+            logger.error("State keys: " + ", ".join(state.keys()))
+
+def prepare_state_for_graph(state: BuilderState) -> Dict:
+    """Prepare state for graph execution."""
+    # Convert state to dictionary format
+    state_dict = state.model_dump(mode='json')
+    
+    # Add any required runtime configuration
+    state_dict["config"] = {
+        "allow_delegation": True,
+        "max_iterations": 10
+    }
+    
+    return state_dict
+
+async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
+    """Run the builder workflow."""
+    try:
+        # Initialize or load state
+        if start_node:
+            state = load_existing_state(deck_id) or initialize_state(deck_id, title)
+        else:
+            state = initialize_state(deck_id, title)
+        
+        # Prepare state for graph execution
+        graph_input = prepare_state_for_graph(state)
+        
+        # Add start node if specified
+        if start_node:
+            graph_input["start_node"] = start_node
+        
+        # Run workflow
+        try:
+            final_state = await builder_graph.ainvoke(graph_input)
+            save_state(final_state, deck_id)
+            logger.info("Builder completed successfully")
+            return 0
+            
+        except Exception as e:
+            logger.error(f"Graph execution failed: {str(e)}")
+            save_state(state, deck_id)
+            return 1
             
     except Exception as e:
-        logger.error(f"Critical error in builder execution: {str(e)}")
-        logger.error("Full error context:", exc_info=True)
+        logger.error(f"Builder initialization failed: {str(e)}")
         return 1
 
 def main():

@@ -2,11 +2,17 @@
 from pathlib import Path
 from typing import List, Dict, Any
 import json
-from openai import AsyncOpenAI
+from langchain_openai import ChatOpenAI
+from langchain_core.messages import HumanMessage, SystemMessage
+from ..config.models import get_model_config
 from langsmith.run_helpers import traceable
 import logging
 
 logger = logging.getLogger(__name__)
+
+# Initialize model with config
+model_config = get_model_config()
+model = ChatOpenAI(**model_config)
 
 def load_template_examples(template: str) -> Dict[str, Any]:
     """Load template files to use as examples"""
@@ -57,9 +63,7 @@ async def generate_audio_script(
     
     # Create messages for the LLM
     messages = [
-        {
-            "role": "system",
-            "content": """You are an expert at creating engaging, natural voice-over scripts for insurance presentations.
+        SystemMessage(content="""You are an expert at creating engaging, natural voice-over scripts for insurance presentations.
             Your expertise includes:
             1. Converting technical insurance content into clear, conversational narratives
             2. Maintaining perfect synchronization with slide content
@@ -72,11 +76,8 @@ async def generate_audio_script(
             3. Use only information from the provided content - never add or modify details
             4. Maintain exact section structure with ---- Section Name ---- format
             5. Create natural transitions between sections without using "This slide" or similar phrases
-            6. Use a warm, professional tone throughout the script"""
-        },
-        {
-            "role": "user",
-            "content": f"""
+            6. Use a warm, professional tone throughout the script"""),
+        HumanMessage(content=f"""
             Using this template format for reference:
 
             {template_script}
@@ -113,22 +114,15 @@ async def generate_audio_script(
             ** THIS IS VERY IMPORTANT - THE SCRIPT SHOULD SPEAK TO EACH POINT OF THE SLIDES**
 
             Generate a natural, conversational voice-over script that perfectly matches the slide content while following all the above rules.
-            """
-        }
+            """)
     ]
     
-    # Initialize OpenAI client
-    client = AsyncOpenAI()
-    
-    # Get response from GPT-4
-    response = await client.chat.completions.create(
-        model="gpt-4o",
-        messages=messages,
-        temperature=0.7
-    )
+    logger.info("[GPT Call] Sending request to generate audio script")
+    response = await model.ainvoke(messages)
+    logger.info("[GPT Call] Received audio script response")
     
     # Extract script from response and clean up formatting
-    script = response.choices[0].message.content.strip()
+    script = response.content.strip()
     script = script.replace("```markdown", "").replace("```", "").strip()
     script = script.replace("**", "").replace("*", "").replace("#", "").strip()
     script = script.replace("Audio Script", "").strip()
@@ -150,7 +144,6 @@ def generate_audio_config(slides: List[Dict[str, Any]], template_examples: Dict[
         ]
     }
 
-@traceable(name="setup_audio")
 async def setup_audio(deck_id: str, template: str, slides: List[Dict[str, Any]], processed_summaries: str) -> bool:
     """Set up audio script and configuration"""
     try:

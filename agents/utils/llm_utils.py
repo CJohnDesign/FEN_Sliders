@@ -1,32 +1,68 @@
-import os
-import json
+"""LLM utilities for model interactions."""
 import logging
 from typing import Dict, Any, List
-from openai import AsyncOpenAI
+from langchain_openai import ChatOpenAI
+from langchain_core.messages import HumanMessage, SystemMessage
 
-async def get_completion(messages: List[Dict[str, Any]], model: str = "gpt-4o", temperature: float = 0.7, response_format: Dict[str, str] = None) -> Dict[str, Any]:
-    """Get a completion from OpenAI API"""
+logger = logging.getLogger(__name__)
+
+def get_base_config() -> Dict[str, Any]:
+    """Get base configuration for LLM models."""
+    return {
+        "request_timeout": 300,
+        "max_retries": 3
+    }
+
+async def get_completion(
+    messages: List[Dict[str, str]], 
+    model: str = "gpt-4o", 
+    temperature: float = 0.7
+) -> str:
+    """Get a completion from the LLM.
+    
+    Args:
+        messages: List of message dictionaries with 'role' and 'content'
+        model: Model identifier to use
+        temperature: Temperature for generation
+        
+    Returns:
+        Generated completion text
+    """
     try:
-        client = AsyncOpenAI()
-        
-        kwargs = {
+        # Configure model
+        config = get_base_config()
+        config.update({
             "model": model,
-            "messages": messages,
             "temperature": temperature
-        }
+        })
         
-        if response_format:
-            kwargs["response_format"] = response_format
-            
-        response = await client.chat.completions.create(**kwargs)
-        return json.loads(response.choices[0].message.content)
+        llm = ChatOpenAI(**config)
+        
+        # Convert to LangChain message format
+        langchain_messages = [
+            SystemMessage(content=msg["content"]) if msg["role"] == "system"
+            else HumanMessage(content=msg["content"])
+            for msg in messages
+        ]
+        
+        # Make request
+        logger.info(f"[GPT Call] Sending request to {model}")
+        response = await llm.ainvoke(langchain_messages)
+        logger.info("[GPT Call] Received response")
+        
+        return response.content
         
     except Exception as e:
-        logging.error(f"Error getting completion: {str(e)}")
-        return {"error": str(e)}
+        logger.error(f"Error in LLM completion: {str(e)}")
+        raise
 
 async def get_llm(model: str = "gpt-4o", temperature: float = 0.7, response_format: Dict[str, str] = None) -> Any:
-    """Get an LLM instance configured with the specified parameters"""
-    async def llm(messages: List[Dict[str, Any]]) -> Dict[str, Any]:
-        return await get_completion(messages, model, temperature, response_format)
-    return llm 
+    """Get a LangChain LLM instance configured with the specified parameters"""
+    config = get_base_config()
+    config.update({
+        "model": "gpt-4o",  # Always use gpt-4o
+        "temperature": temperature,
+        "model_kwargs": {"response_format": {"type": "json_object"}} if response_format else {}
+    })
+    
+    return ChatOpenAI(**config) 
