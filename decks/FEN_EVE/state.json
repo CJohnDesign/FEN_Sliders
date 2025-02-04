@@ -10,48 +10,57 @@
     "path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE",
     "template": "FEN_TEMPLATE"
   },
-  "slides": "To create a comprehensive aggregated summary for the insurance plan data, I will follow the provided structure and instructions. The plan will involve synthesizing the information from the individual summaries and extracted tables into a cohesive narrative and slide presentation. Here is the outline for the aggregation process:\n\n### Outline for Aggregated Summary:\n\n1. **Cover (1 slide)**\n   - Title: \"Everest Group Fixed Indemnity Insurance\"\n   - Tagline: \"Flexible Coverage for Unexpected Medical Expenses\"\n\n2. **Plan Overview (1 slide)**\n   - Audience: Individuals and families seeking supplemental health coverage.\n   - Offerings: Fixed indemnity payments for medical expenses.\n   - Key Benefits: Flexibility, broad provider network, and simplified claims process.\n\n3. **Core Plan Elements (2-3 slides)**\n   - Coverage Areas: Physician services, hospitalization, virtual visits.\n   - Plan Structure: Multiple tiers (Plan 100 to Plan 1000+), co-pays, visit limits.\n   - Eligibility: Guaranteed issue, no medical exams required.\n\n4. **Common Service Features (2-3 slides)**\n   - Provider Networks: Access to Multiplan PPO Network.\n   - Claims Management: Direct payment to insured, fast processing.\n   - Support Tools: Wellness programs, advocacy services.\n\n5. **Plan Tiers Breakdown (8-12 slides)**\n   - Detailed breakdown of each plan tier (Plan 100, Plan 200, Plan 200+, Plan 300, Plan 500, Plan 750, Plan 1000, Plan 1000+).\n   - Components: Physician services, hospitalization, virtual visits, prescriptions, wellness tools, advocacy.\n\n6. **Comparison Slides (2-3 slides)**\n   - Highlight differences among tiers, focusing on benefits and coverage levels.\n\n7. **Limitations and Exclusions (1-2 slides)**\n   - Define exclusions: Pre-existing conditions, waiting periods, specific treatments.\n\n8. **Key Takeaways and Action Steps (1 slide)**\n   - Summary: Flexibility, cost-coverage balance.\n   - Next Steps: Enrollment instructions, support contact information.\n\n9. **Conclusion (1 slide)**\n   - Thank you message, final enrollment or support instructions.\n\n### Full Aggregated Summary:\n\n**1. Cover (1 slide)**\n   - **Title:** Everest Group Fixed Indemnity Insurance\n   - **Tagline:** Flexible Coverage for Unexpected Medical Expenses\n\n**2. Plan Overview (1 slide)**\n   - **Audience:** Designed for individuals and families seeking supplemental health coverage.\n   - **Offerings:** Provides fixed indemnity payments to help manage medical expenses not fully covered by traditional insurance.\n   - **Key Benefits:** Offers flexibility in healthcare choices, access to a broad provider network through the Multiplan PPO, and a simplified claims process for ease of use.\n\n**3. Core Plan Elements (2-3 slides)**\n   - **Coverage Areas:** Includes physician services, hospitalization, and virtual visits, ensuring comprehensive support for various medical needs.\n   - **Plan Structure:** Features multiple tiers (Plan 100 to Plan 1000+), each with specific benefits, co-pays, and visit limits tailored to different needs and budgets.\n   - **Eligibility:** Guaranteed issue with no medical exams required, making it accessible to a wide range of applicants.\n\n**4. Common Service Features (2-3 slides)**\n   - **Provider Networks:** Access to the extensive Multiplan PPO Network, offering a wide range of healthcare providers.\n   - **Claims Management:** Direct payment of benefits to the insured with a fast, simplified claims process.\n   - **Support Tools:** Includes wellness programs and advocacy services to enhance policyholder experience and support health management.\n\n**5. Plan Tiers Breakdown (8-12 slides)**\n   - **Plan 100:** Basic coverage with essential benefits for physician services and hospitalization.\n   - **Plan 200 & 200+:** Enhanced coverage with additional outpatient benefits and higher confinement benefits.\n   - **Plan 300:** Comprehensive coverage with combined inpatient and outpatient surgery benefits.\n   - **Plan 500 to 1000+:** Increasing coverage levels with higher benefits for hospital and ICU confinement, emergency room visits, and advanced diagnostics.\n\n**6. Comparison Slides (2-3 slides)**\n   - **Differences Among Tiers:** Highlight the incremental benefits and coverage levels across different plans, emphasizing the value of higher-tier plans for more extensive medical needs.\n\n**7. Limitations and Exclusions (1-2 slides)**\n   - **Exclusions:** Includes pre-existing conditions, certain elective and experimental treatments, and specific activities like extreme sports.\n   - **Limitations:** Waiting periods for certain benefits and exclusions for treatments not deemed medically necessary.\n\n**8. Key Takeaways and Action Steps (1 slide)**\n   - **Summary:** The plan offers flexibility and a balance between cost and coverage, making it a viable option for managing unexpected medical expenses.\n   - **Next Steps:** Instructions for enrollment and contact information for obtaining support and further assistance.\n\n**9. Conclusion (1 slide)**\n   - **Thank You Message:** Thank you for considering Everest Group Fixed Indemnity Insurance.\n   - **Final Instructions:** For enrollment or support, please contact our customer service team or visit our website for more information.\n\nThis aggregated summary provides a structured and comprehensive overview of the Everest Group Fixed Indemnity Insurance, highlighting its key features, benefits, and options available to potential policyholders.",
-  "script": "",
-  "audio_script": null,
+  "current_stage": "complete",
+  "completed_stages": [
+    "process_imgs",
+    "extract_tables",
+    "aggregate_summary",
+    "process_slides",
+    "setup_audio",
+    "validate"
+  ],
+  "slides": "---\nid: FEN_everest_reinsurance\ntheme: ../../\ntitle: | \n  Everest Reinsurance Company Group Fixed Indemnity Insurance\ninfo: |\n  ## Everest Reinsurance Company Group Fixed Indemnity Insurance Review\n  A look at the Everest Reinsurance Company Group Fixed Indemnity Insurance benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_everest_reinsurance\" />\n\n# Everest Reinsurance Company Group Fixed Indemnity Insurance Review\n\nUnderstanding the details and benefits of the **Everest Reinsurance Company Group Fixed Indemnity Insurance**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Everest Reinsurance Overview\n\n<v-clicks>\n\n- Target Audience: Individuals and families seeking supplemental health coverage through **Everest Reinsurance Company**\n- **Group Fixed Indemnity Insurance** providing set daily payments for covered services\n- **Wide provider network** and direct payments\n- **Simplified claims process** and financial relief from unexpected medical expenses\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Core Plan Elements\n\n<v-clicks>\n\n**Coverage Areas**\n\n- Physician Services\n- Hospitalization (including ICU)\n- Virtual Visits\n\n**Plan Structure**\n\n- Tiered options with varying benefits\n- Co-pays and visit limits\n\n**Eligibility**\n\n- Individuals and families\n- Focus on affordability and accessibility\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Common Service Features\n\n<v-clicks>\n\n- **Provider Networks:** Access to Multiplan PPO Network for a broad range of healthcare providers\n- **Claims Management:** Direct payments to clients with a simplified claims process\n- **Support Tools:**\n  - Wellness programs\n  - Advocacy services\n  - Online dashboards for easy management\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/plan_brochure_image_1.jpg\n---\n\n## Plan 100 (1/2)\n\n<v-click>\n\n**Confinement Benefits**\n- 30 Days Per Confinement/90 Days Per Certificate Year\n- Hospital Confinement: $100 per day\n- ICU Confinement: $100 per day\n- Emergency Room Visits: $50 per visit, 2 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- Physician's Office Visits: $50 per visit, 3 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/plan_brochure_image_1.jpg\n---\n\n## Plan 200 (1/2)\n\n<v-click>\n\n**Confinement Benefits**\n- 30 Days Per Confinement/90 Days Per Certificate Year\n- Hospital Confinement: $200 per day\n- ICU Confinement: $200 per day\n- Emergency Room Visits: $50 per visit, 2 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Procedure Benefits**\n- Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year\n<Arrow v-bind=\"{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- Lab and X-Rays: $50 per covered day\n- Physician's Office Visits: $50 per visit, 3 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/plan_brochure_image_1.jpg\n---\n\n## Plan 200+ (1/2)\n\n<v-click>\n\n**Confinement Benefits**\n- 30 Days Per Confinement/90 Days Per Certificate Year\n- Hospital Confinement: $300 per day\n- ICU Confinement: $300 per day\n- Emergency Room Visits: $50 per visit, 2 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Procedure Benefits**\n- Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year\n<Arrow v-bind=\"{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- Lab and X-Rays: $50 per covered day\n- Advanced Diagnostic: $50 per covered day\n- Physician's Office Visits: $50 per visit, 3 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Plan 100** | **Plan 200** | **Plan 200+** |\n|---------|----------|----------|-----------|\n| Hospital Confinement | $100 | $200 | $300 |\n| ICU Confinement | $100 | $200 | $300 |\n| Emergency Room | $50 | $50 | $50 |\n| Surgery | N/A | $250 | $250 |\n| Lab | N/A | $50 | $50 |\n| X-Rays | N/A | $50 | $50 |\n| Advanced Diagnostic | N/A | N/A | $50 |\n| Physician's Office Visits | $50 | $50 | $50 |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/plan_brochure_image_final.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions within a specified waiting period\n- Cosmetic surgery, dental care (except in specific cases), and experimental treatments\n- Services from family members or during foreign travel\n<Arrow v-bind=\"{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Limitations**\n- No coverage for chiropractic or acupuncture services\n- Specific exclusions for hazardous activities and certain sports\n<Arrow v-bind=\"{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **Flexibility:** Multiple plan tiers to suit different needs and budgets\n- **Balance:** Offers a balance between cost and coverage with direct payments and a wide provider network\n- **Next Steps:** Contact an agent for enrollment, review plan details, and access support tools\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Everest Reinsurance Company Group Fixed Indemnity Insurance Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+  "script": null,
+  "audio_script": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Everest Reinsurance Company Group Fixed Indemnity Insurance. We'll walk through the plan's details and benefits. Let's get started!\n\n---- Everest Reinsurance Overview ----\n\nThe Everest Reinsurance Company Group Fixed Indemnity Insurance offers supplemental health coverage designed for individuals and families. It provides set daily payments for covered services, ensuring financial relief from unexpected medical expenses. With a wide provider network and simplified claims process, this plan is both accessible and efficient.\n\n---- Core Plan Elements ----\n\nLet's dive into the core elements of the plan. \n\nFirst, the coverage areas include physician services, hospitalization, including ICU, and virtual visits. The plan structure offers tiered options with varying benefits, co-pays, and visit limits. Eligibility is open to individuals and families, focusing on affordability and accessibility.\n\n---- Common Service Features ----\n\nNow, let's explore the common service features. \n\nThe plan provides access to the Multiplan PPO Network, offering a broad range of healthcare providers. Claims management is streamlined with direct payments to clients. Support tools include wellness programs, advocacy services, and online dashboards for easy management.\n\n---- Plan 100 (One of Two) ----\n\nLet's take a closer look at Plan 100. \n\nFor confinement benefits, it covers 30 days per confinement and 90 days per certificate year. Hospital and ICU confinement are covered at $100 per day. Emergency room visits are $50 per visit, with a limit of 2 visits per certificate year.\n\n---- Plan 100 (Two of Two) ----\n\nContinuing with Plan 100, \n\nOutpatient benefits include physician's office visits at $50 per visit, with a maximum of 3 visits per certificate year.\n\n---- Plan 200 (One of Two) ----\n\nMoving on to Plan 200, \n\nConfinement benefits remain at 30 days per confinement and 90 days per certificate year. Hospital and ICU confinement are covered at $200 per day. Emergency room visits are $50 per visit, with a limit of 2 visits per certificate year.\n\n---- Plan 200 (Two of Two) ----\n\nFor Plan 200, \n\nProcedure benefits include surgery, both inpatient and outpatient, at $250 per day, with a maximum of 3 days per certificate year. Outpatient benefits cover lab and X-rays at $50 per covered day, and physician's office visits at $50 per visit, with a maximum of 3 visits per certificate year.\n\n---- Plan 200+ (One of Two) ----\n\nLet's explore Plan 200+. \n\nConfinement benefits are similar, with 30 days per confinement and 90 days per certificate year. Hospital and ICU confinement are covered at $300 per day. Emergency room visits remain at $50 per visit, with a limit of 2 visits per certificate year.\n\n---- Plan 200+ (Two of Two) ----\n\nFor Plan 200+, \n\nProcedure benefits include surgery at $250 per day, with a maximum of 3 days per certificate year. Outpatient benefits cover lab and X-rays at $50 per covered day, advanced diagnostics at $50 per covered day, and physician's office visits at $50 per visit, with a maximum of 3 visits per certificate year.\n\n---- Comparing the Plans ----\n\nNow, let's compare the three plans. \n\nPlan 100 offers $100 per day for hospital and ICU confinement, while Plan 200 increases this to $200, and Plan 200+ offers $300. Emergency room visits are consistent across all plans at $50. Surgery benefits are available in Plan 200 and 200+, with lab and X-ray coverage starting from Plan 200. Advanced diagnostics are exclusive to Plan 200+.\n\n---- Definitions and Limitations ----\n\nLet's discuss the definitions and limitations. \n\nExclusions include pre-existing conditions within a specified waiting period, cosmetic surgery, dental care except in specific cases, and experimental treatments. Services from family members or during foreign travel are also excluded. Limitations include no coverage for chiropractic or acupuncture services, with specific exclusions for hazardous activities and certain sports.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key takeaways and reminders. \n\nThe plan offers flexibility with multiple tiers to suit different needs and budgets. It balances cost and coverage with direct payments and a wide provider network. For next steps, contact an agent for enrollment, review plan details, and access support tools.\n\n---- Closing ----\n\nThank you for taking the time to learn about the Everest Reinsurance Company Group Fixed Indemnity Insurance. Remember, flexibility and balance are key. Continue to be great!",
   "pdf_path": null,
   "pdf_info": null,
-  "slide_count": 0,
+  "slide_count": 34,
   "processed_content": [],
   "page_metadata": [
     {
       "page_number": 1,
-      "page_name": "Everest Reinsurance Company Group Fixed Indemnity Insurance Overview",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/001_everest_reinsurance_company_group_fixed_indemnity_insurance_overview.jpg",
+      "page_name": "Everest Reinsurance Company Overview and Insurance Options",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/001_everest_reinsurance_company_overview_and_insurance_options.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 2,
-      "page_name": "Understanding Group Indemnity Insurance for Managing Medical Expenses",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/002_understanding_group_indemnity_insurance_for_managing_medical_expenses.jpg",
+      "page_name": "Understanding Group Indemnity Insurance for Medical Expenses",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/002_understanding_group_indemnity_insurance_for_medical_expenses.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 3,
-      "page_name": "Group Fixed Indemnity Plan Details Overview by Everest",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/003_group_fixed_indemnity_plan_details_overview_by_everest.jpg",
+      "page_name": "Detailed Overview of Group Fixed Indemnity Plan Options by Everest",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/003_detailed_overview_of_group_fixed_indemnity_plan_options_by_everest.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 4,
-      "page_name": "Comprehensive Overview of Group Fixed Indemnity Plan Details by Everest",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/004_comprehensive_overview_of_group_fixed_indemnity_plan_details_by_everest.jpg",
+      "page_name": "Group Fixed Indemnity Plan Details Overview",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/004_group_fixed_indemnity_plan_details_overview.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 5,
-      "page_name": "Everest Insurance FAQs and Key Information",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/005_everest_insurance_faqs_and_key_information.jpg",
+      "page_name": "Everest Insurance FAQs on Group Fixed Indemnity and Diagnostic Services",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/005_everest_insurance_faqs_on_group_fixed_indemnity_and_diagnostic_services.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 6,
-      "page_name": "Detailed Overview of Plan Exclusions and Limitations",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/006_detailed_overview_of_plan_exclusions_and_limitations.jpg",
+      "page_name": "Plan Exclusions and Limitations Overview",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/006_plan_exclusions_and_limitations_overview.jpg",
       "content_type": "slide"
     },
     {
@@ -86,38 +95,38 @@
     },
     {
       "page_number": 12,
-      "page_name": "Utilizing The Aetna Dental Access Network for Cost Savings",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/012_utilizing_the_aetna_dental_access_network_for_cost_savings.jpg",
+      "page_name": "Utilizing the Aetna Dental Access Network for Discounted Dental Services",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/012_utilizing_the_aetna_dental_access_network_for_discounted_dental_services.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 13,
-      "page_name": "Outlook Vision Network Discount Program Overview",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/013_outlook_vision_network_discount_program_overview.jpg",
+      "page_name": "Overview of OUTLOOK Vision Network Discount Program",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/013_overview_of_outlook_vision_network_discount_program.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 14,
-      "page_name": "Pharmacy Discount Program Overview and Benefits",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/014_pharmacy_discount_program_overview_and_benefits.jpg",
+      "page_name": "Pharmacy Discount Card Benefits and Usage",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/014_pharmacy_discount_card_benefits_and_usage.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 15,
-      "page_name": "MedAfford Global RX Mail-Order Prescription Medication Savings",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/015_medafford_global_rx_mail-order_prescription_medication_savings.jpg",
+      "page_name": "MedAfford Global RX Mail-Order Prescription Savings Program",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/015_medafford_global_rx_mail-order_prescription_savings_program.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 16,
-      "page_name": "Benefits and Unique Features of CBD Products for Health",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/016_benefits_and_unique_features_of_cbd_products_for_health.jpg",
+      "page_name": "Discovering the Benefits and Unique Qualities of CBD Products",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/016_discovering_the_benefits_and_unique_qualities_of_cbd_products.jpg",
       "content_type": "slide"
     },
     {
       "page_number": 17,
-      "page_name": "Healthcare Discount Programs Overview for Diabetic Supplies, Physical Therapy, and Hearing",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/017_healthcare_discount_programs_overview_for_diabetic_supplies_physical_therapy_and_hearing.jpg",
+      "page_name": "Healthcare Savings Programs Overview for Diabetic Supplies, Physical Therapy, and Hearing",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/017_healthcare_savings_programs_overview_for_diabetic_supplies_physical_therapy_and_hearing.jpg",
       "content_type": "slide"
     },
     {
@@ -140,8 +149,8 @@
     },
     {
       "page_number": 21,
-      "page_name": "Chiropractic Savings Program and Vitamins & Supplements Discount Overview",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/021_chiropractic_savings_program_and_vitamins_supplements_discount_overview.jpg",
+      "page_name": "Chiropractic Savings Program and Vitamins Supplements Discounts",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/021_chiropractic_savings_program_and_vitamins_supplements_discounts.jpg",
       "content_type": "slide"
     },
     {
@@ -160,9 +169,9 @@
   "page_summaries": [
     {
       "page_number": 1,
-      "page_name": "Everest Reinsurance Company Group Fixed Indemnity Insurance Overview",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/001_everest_reinsurance_company_group_fixed_indemnity_insurance_overview.jpg",
-      "summary": "The slide presents an overview of the insurance offerings by Everest Reinsurance Company. It highlights that the insurance is offered through NCE and identifies Everest as the carrier. The type of insurance provided is Group Fixed Indemnity Insurance, which is a specific form of health insurance that pays a set amount per day or per service. \n\nAdditionally, the slide mentions that the provider options include the Multiplan PPO Network, indicating a broad network of healthcare providers available to policyholders. This type of insurance is typically designed to offer flexibility and choice in healthcare services.",
+      "page_name": "Everest Reinsurance Company Overview and Insurance Options",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/001_everest_reinsurance_company_overview_and_insurance_options.jpg",
+      "summary": "The slide provides an overview of the Everest Reinsurance Company, highlighting its offerings and insurance options. It indicates that the insurance is offered through NCE and carried by Everest. The type of insurance provided is Group Fixed Indemnity Insurance, which is a specific form of health insurance that pays a set amount per day for covered services. Additionally, the slide mentions that the provider options include the Multiplan PPO Network, suggesting a wide range of healthcare providers available to policyholders.\n\nThe visual elements of the slide, including the image of two individuals embracing on a beach, convey a sense of security and care, aligning with the company's insurance offerings. The slide is intended for agent use only, indicating that it is likely part of a presentation or training material aimed at insurance agents.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -170,19 +179,19 @@
     },
     {
       "page_number": 2,
-      "page_name": "Understanding Group Indemnity Insurance for Managing Medical Expenses",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/002_understanding_group_indemnity_insurance_for_managing_medical_expenses.jpg",
-      "summary": "The slide emphasizes the unexpected nature of medical expenses and the importance of being financially prepared. It introduces the concept of Group Indemnity Insurance as a means to supplement existing medical coverage. This insurance provides fixed payments to help manage costs that are not fully covered by traditional health insurance, such as deductibles, copays, and coinsurance. The focus is on allowing individuals to concentrate on their recovery rather than financial stress.\n\nAn example is provided to illustrate how the insurance works: a 35-year-old woman incurs various medical expenses after an accident, including hospital admission and physician office visits. The insurance covers these costs with fixed payments, totaling $3,175. The slide also highlights the flexibility of using these benefits for various needs, such as transportation or childcare, emphasizing that the usage of the funds is at the policyholder's discretion.\n\nAdditionally, the slide outlines the advantages of choosing Everest Group Indemnity Insurance, such as access to a Multiplan PPO Network, direct payment of benefits to the insured, and a fast, simplified claims process. It underscores the importance of understanding policy details, as these products are not substitutes for major medical insurance.",
+      "page_name": "Understanding Group Indemnity Insurance for Medical Expenses",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/002_understanding_group_indemnity_insurance_for_medical_expenses.jpg",
+      "summary": "The slide emphasizes the importance of protecting clients from unexpected medical expenses that can arise despite having medical insurance. It highlights how accidents and illnesses can lead to unplanned costs such as deductibles, copays, and coinsurance, which can burden individuals financially. Everest offers a solution through Group Indemnity Insurance, which provides fixed payments to help manage these expenses, allowing individuals to focus on recovery rather than financial stress.\n\nThe slide explains how Group Indemnity Insurance works by supplementing existing coverage and providing cash benefits for medical and living expenses. An example is provided, illustrating a scenario where a 35-year-old woman incurs various medical costs after an accident. The insurance covers hospital admission, ER admission, hospital confinement, and physician office visits, totaling $3,175 in benefits.\n\nAdditionally, the slide outlines the flexibility of using these benefits for various needs, such as medical copays, deductibles, transportation, child care, and housekeeping. It also highlights the advantages of choosing Everest Group Indemnity Insurance, including a Multiplan PPO Network, direct payments to clients, and a simplified claims process.",
       "key_points": [],
       "action_items": [],
-      "has_tables": true,
+      "has_tables": false,
       "has_limitations": false
     },
     {
       "page_number": 3,
-      "page_name": "Group Fixed Indemnity Plan Details Overview by Everest",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/003_group_fixed_indemnity_plan_details_overview_by_everest.jpg",
-      "summary": "This slide provides a detailed comparison of various Group Fixed Indemnity Plans offered by Everest, specifically focusing on Plan 100, Plan 200, Plan 200+, and Plan 300. Each plan is outlined with specific benefits and limitations, including pre-existing condition limitations, underwriting levels, and confinement benefits. All plans have a 12-12 pre-existing condition limitation and are guaranteed issue.\n\nThe slide details confinement benefits, such as hospital and ICU confinement, with varying amounts per plan. Hospital benefits are also compared, including emergency room visits and hospital admissions. Procedure benefits are highlighted, with Plan 200+ and Plan 300 offering combined inpatient and outpatient surgery benefits.\n\nOutpatient benefits are also covered, including lab, X-rays, advanced diagnostics, and physician's office visits. The slide notes specific exclusions and conditions, emphasizing that policy terms may vary by state and that certain benefits are not available in all states.",
+      "page_name": "Detailed Overview of Group Fixed Indemnity Plan Options by Everest",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/003_detailed_overview_of_group_fixed_indemnity_plan_options_by_everest.jpg",
+      "summary": "This slide provides a comprehensive overview of the Group Fixed Indemnity Plan options offered by Everest. It compares four different plans: Plan 100, Plan 200, Plan 200+, and Plan 300. Each plan is detailed with respect to benefit eligibility, pre-existing condition limitations, and underwriting levels, which are consistent across all plans as '12-12 Pre-Existing Conditions' and 'Guaranteed Issue' respectively.\n\nThe slide further breaks down the benefits into categories such as Confinement Benefits, Hospital Benefits, Procedure Benefits, and Outpatient Benefits. Confinement Benefits include hospital and ICU confinement with varying monetary benefits per plan. Hospital Benefits cover emergency room visits with specified limits per certificate year. Procedure Benefits are only available in Plan 200+ and Plan 300, offering combined inpatient and outpatient coverage per day. Outpatient Benefits include lab, X-rays, advanced diagnostics, and physician's office visits, with specific coverage details varying across the plans.\n\nThe slide also includes a disclaimer about pre-existing condition exclusions and notes on policy terms, conditions, and limitations, emphasizing that these may vary by state and are subject to availability.",
       "key_points": [],
       "action_items": [],
       "has_tables": true,
@@ -190,19 +199,19 @@
     },
     {
       "page_number": 4,
-      "page_name": "Comprehensive Overview of Group Fixed Indemnity Plan Details by Everest",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/004_comprehensive_overview_of_group_fixed_indemnity_plan_details_by_everest.jpg",
-      "summary": "This slide provides a detailed comparison of the Group Fixed Indemnity Plan options offered by Everest, including Plan 500, Plan 750, Plan 1000, and Plan 1000+. Each plan is outlined with specific benefits and limitations, focusing on areas such as benefit eligibility, confinement benefits, hospital benefits, procedure benefits, and outpatient benefits.\n\nThe benefit eligibility section highlights the pre-existing condition limitations, which are consistent across all plans, and the underwriting level, which is guaranteed for all. Confinement benefits detail the coverage for hospital and ICU confinement, with increasing amounts from Plan 500 to Plan 1000+. Hospital benefits include emergency room visits and hospital admissions, with varying coverage levels. Procedure benefits cover surgery and anesthesia, with specific conditions for inpatient and outpatient services. Outpatient benefits include lab tests, X-rays, advanced diagnostics, and physician's office visits, with coverage increasing with higher-tier plans.\n\nThe slide also notes that the coverage contains a pre-existing condition exclusion and outlines the limitations and conditions of the policy. It emphasizes that benefits are per person and that there is no cancellation or chiropractic/acupuncture coverage.",
+      "page_name": "Group Fixed Indemnity Plan Details Overview",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/004_group_fixed_indemnity_plan_details_overview.jpg",
+      "summary": "This slide provides a detailed comparison of the Group Fixed Indemnity Plan options offered by Everest. It outlines four different plans: Plan 500, Plan 750, Plan 1000, and Plan 1000+. Each plan is described in terms of benefit eligibility, underwriting level, and specific benefits related to confinement, hospital, procedure, and outpatient services.\n\nThe slide highlights the pre-existing condition limitations, which are consistent across all plans, and the guaranteed issue underwriting level. Confinement benefits include hospital and ICU confinement amounts, which increase with each plan tier. Hospital benefits cover emergency room visits and hospital admissions, with varying coverage levels depending on the plan.\n\nProcedure benefits detail the coverage for surgeries and anesthesia, while outpatient benefits include lab tests, X-rays, advanced diagnostics, and physician's office visits. Each benefit category is broken down by the number of covered days or the monetary amount provided per certificate year. The slide also notes exclusions and limitations, emphasizing that benefits are per person and that there is no coverage for chiropractic or acupuncture services.",
       "key_points": [],
       "action_items": [],
       "has_tables": true,
-      "has_limitations": true
+      "has_limitations": false
     },
     {
       "page_number": 5,
-      "page_name": "Everest Insurance FAQs and Key Information",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/005_everest_insurance_faqs_and_key_information.jpg",
-      "summary": "This slide provides a comprehensive overview of frequently asked questions related to Everest's Group Fixed Indemnity Insurance. It begins by explaining that this type of insurance is a supplemental health plan offering a fixed monetary benefit for specific medical expenses. The slide also provides information on where to find participating providers, directing users to a specific website and phone number for assistance.\n\nThe slide further details what constitutes Advanced Diagnostics, listing various tests such as Angiogram, MRI, and CT scans. It clarifies terms like 'Calendar Year' and 'Certificate Year,' explaining their relevance to the insurance plan. Additionally, it addresses the 'free look period,' allowing certificate holders to return the certificate within 10 days if unsatisfied.\n\nOther sections define 'Confinement' as hospital admission for inpatient services and 'Diagnostic Care' as medical services necessary for diagnosing medical conditions. Lastly, the slide introduces the MultiPlan PPO Network, highlighting its role in providing access to a broader range of healthcare providers offering discounted services.",
+      "page_name": "Everest Insurance FAQs on Group Fixed Indemnity and Diagnostic Services",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/005_everest_insurance_faqs_on_group_fixed_indemnity_and_diagnostic_services.jpg",
+      "summary": "This slide provides a comprehensive FAQ section for Everest's Group Fixed Indemnity Insurance. It explains that this type of insurance is a supplemental health plan offering a fixed monetary benefit for specific medical expenses. The slide also provides information on where to find participating providers, directing members to a website and a contact number for assistance. Additionally, it outlines the concept of advanced diagnostics, listing various tests such as angiograms, MRIs, and CT scans.\n\nThe slide further clarifies terms like 'Calendar Year' and 'Certificate Year,' explaining their respective durations. It addresses the 'free look period,' which allows certificate holders to return their certificates within 10 days if they choose not to proceed. The concept of 'Confinement' is defined as being admitted to a hospital for inpatient services, with benefits paid per day of confinement.\n\nLastly, the slide describes 'Diagnostic Care' as medical services necessary for diagnosing medical conditions, and introduces the MultiPlan PPO Network, which offers a wider choice of providers with agreed discounts for services.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -210,9 +219,9 @@
     },
     {
       "page_number": 6,
-      "page_name": "Detailed Overview of Plan Exclusions and Limitations",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/006_detailed_overview_of_plan_exclusions_and_limitations.jpg",
-      "summary": "The slide outlines various exclusions and limitations associated with a specific insurance plan. It specifies that expenses for certain services, supplies, and treatments will not be considered covered, and no benefits will be payable unless otherwise stated. The exclusions include specific types of breast surgery, except for medically necessary procedures related to cancer treatment. It also mentions that no benefits are payable for services provided by individuals who do not normally charge for their services unless legally obligated.\n\nCosmetic surgery is generally excluded unless it is reconstructive and necessary due to trauma or disease. Dental care is not covered except in cases of accidental injury or congenital conditions affecting dependent children. Elective treatments and experimental or investigational treatments are also excluded from coverage. Additionally, accidents resulting from participation in extreme sports or activities are not covered.\n\nThe slide further specifies that treatments, services, or supplies received from a family member are not eligible for benefits. Lastly, it states that foreign travel expenses are not covered unless they are incurred during business or pleasure trips lasting less than 30 days and are related to an emergency, with the condition that the treatment is approved for use in the United States.",
+      "page_name": "Plan Exclusions and Limitations Overview",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/006_plan_exclusions_and_limitations_overview.jpg",
+      "summary": "This slide outlines the exclusions and limitations of a specific insurance plan, detailing various services and treatments that are not covered. It specifies that expenses for certain services, supplies, and treatments will not be considered covered, unless otherwise stated. The slide highlights exclusions related to breast surgery, where benefits are not payable except for specific reconstructive scenarios following a medically necessary mastectomy.\n\nThe document further explains that no benefits are payable for services provided by individuals who do not typically charge for their services, unless legally obligated. Cosmetic surgery is excluded unless it is reconstructive and related to trauma or disease. Dental care is not covered except in cases of accidental injury or congenital conditions affecting dependent children. Other exclusions include elective treatments, experimental treatments, and injuries related to extreme sports.\n\nAdditionally, the slide mentions that no benefits are payable for treatments received from family members or for services obtained during foreign travel, unless specific emergency conditions are met. The exclusions emphasize the plan's focus on medically necessary and emergency treatments within the United States.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -222,7 +231,7 @@
       "page_number": 7,
       "page_name": "Exclusions and Limitations on Benefit Payability",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/007_exclusions_and_limitations_on_benefit_payability.jpg",
-      "summary": "The slide outlines various conditions and scenarios under which benefits are not payable. It specifies that no benefits are provided for treatments related to gender-related procedures, including sex transformation and gender dysphoric disorder. Additionally, it excludes benefits for injuries sustained during hazardous activities or occupations where compensation is involved, such as professional sports.\n\nThe slide also details exclusions related to illegal acts, stating that no benefits are payable for losses resulting from criminal activities or illegal occupations. Incarceration is another condition under which benefits are denied, as well as intoxication, where losses occurring while the covered person is intoxicated are not covered.\n\nFurther exclusions include treatments deemed not medically necessary, mental illness or substance abuse unless specified otherwise, and losses due to narcotic use unless prescribed by a physician. Overdose-related medical conditions are also excluded unless the substance was used as advised by a physician. Pregnancy-related treatments and services are excluded except under specific conditions, and no benefits are payable for losses incurred while serving in the armed forces.",
+      "summary": "The slide outlines various conditions and circumstances under which no benefits are payable. It specifies that benefits are not provided for treatments related to gender-related procedures, hazardous activities, illegal acts, and incarceration. Additionally, it excludes coverage for losses incurred while the insured is intoxicated or under the influence of narcotics, unless prescribed by a physician.\n\nThe slide also mentions that benefits are not payable for conditions deemed not medically necessary, mental illness or substance abuse, unless specified under certain benefit provisions. It further excludes coverage for pregnancy-related services, except in life-threatening situations, and for losses incurred during military service. These exclusions are part of a broader policy framework aimed at defining the limits of coverage.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -232,7 +241,7 @@
       "page_number": 8,
       "page_name": "Exclusions and Limitations in Insurance Coverage",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/008_exclusions_and_limitations_in_insurance_coverage.jpg",
-      "summary": "The slide outlines various exclusions and limitations in insurance coverage provided by the policy. It specifies that no benefits are payable for treatments related to the manipulation of the musculoskeletal system or acupuncture, particularly when related to structural imbalances or nerve interference. Additionally, sports-related injuries, especially those from intercollegiate or professional athletics, are not covered, although local recreational activities are excluded from this limitation.\n\nThe policy also excludes benefits for losses caused by suicide or intentional injury, even if the harm was unintended. Accidents involving unlicensed drivers are not covered unless specific conditions are met, such as the driver holding a valid learner's permit and receiving instruction. Furthermore, losses due to war, acts of war, or terrorism are not covered, nor are treatments related to weight control unless deemed medically necessary.\n\nWorkers' compensation-related medical conditions and pre-existing conditions within a specified period are also excluded from coverage. The slide mentions a waiting period requirement before a covered person becomes eligible for certain benefits, with exceptions for newborn or adopted children.",
+      "summary": "This slide outlines various exclusions and limitations in an insurance policy, detailing specific scenarios where no benefits are payable. It begins by addressing manipulations of the musculoskeletal system or acupuncture, stating that no benefits are provided for treatments aimed at correcting structural imbalances or nerve interference through manual or mechanical means.\n\nThe slide further specifies that no benefits are payable for losses resulting from participation in certain sports activities, including intercollegiate and professional sports, though local recreational activities are excluded from this limitation. It also highlights that losses caused by suicide or intentional injury, even if unintended, are not covered.\n\nAdditional exclusions include accidents involving unlicensed drivers, acts of war or terrorism, and treatments related to weight control unless deemed medically necessary. Workers' compensation-related conditions and pre-existing conditions within a specified waiting period are also not covered. The slide concludes with a note on the waiting period requirement before certain benefits become payable.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -242,7 +251,7 @@
       "page_number": 9,
       "page_name": "NCE Discount Benefit Program Member Handbook Overview",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/009_nce_discount_benefit_program_member_handbook_overview.jpg",
-      "summary": "The slide introduces the NCE Discount Benefit Program Member Handbook, highlighting the additional benefits available to members. It emphasizes that the program offers valuable discount benefits alongside limited medical benefits, suggesting a comprehensive approach to member advantages.\n\nThe imagery of a happy family suggests that the program is family-friendly and aims to enhance the well-being of its members. The slide clarifies that the program is not insurance but a discount program, ensuring that potential members understand the nature of the benefits offered.",
+      "summary": "The slide introduces the NCE Discount Benefit Program Member Handbook, highlighting the additional benefits available to members. It emphasizes that the program offers valuable discount benefits alongside limited medical benefits. The imagery of a happy family suggests a focus on family-friendly benefits and well-being.\n\nThe slide clarifies that the program is not insurance but a discount program, indicating that members can access various discounts through their membership. This distinction is important for setting expectations about the nature of the benefits provided.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -252,7 +261,7 @@
       "page_number": 10,
       "page_name": "Comprehensive Health Discount Program Table of Contents",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/010_comprehensive_health_discount_program_table_of_contents.jpg",
-      "summary": "This slide presents the table of contents for a comprehensive health discount program. It outlines various sections that cover a wide range of health-related services and products. The document begins with a welcome section, followed by detailed sections on dental and vision services, indicating a focus on essential health care needs.\n\nFurther sections include pharmacy services, brand-name mail-order options, and CBD products, highlighting the program's diverse offerings. The inclusion of diabetic supplies, physical therapy, and rehabilitation services suggests a commitment to supporting chronic health conditions and recovery processes. Additionally, the program offers hearing savings, medical bill negotiations, and access to medical supplies and equipment, providing financial and practical support to members.\n\nThe document also covers laboratory savings, nutrition, and speech therapy, emphasizing a holistic approach to health and wellness. A 24/7 nurse help line and chiropractic savings plan are available, ensuring round-the-clock support and alternative health care options. Finally, the program includes vitamins and supplements, and concludes with a health discount program member agreement, ensuring members understand the terms and benefits of their participation.",
+      "summary": "This slide presents the table of contents for a comprehensive health discount program. It outlines various sections that detail different health-related services and savings plans available to members. The contents include a welcome section, followed by specific health services such as dental, vision, and pharmacy. Additional sections cover brand-name mail-order services, CBD products, and diabetic supplies.\n\nThe table of contents also lists services related to physical therapy and rehabilitation, hearing savings programs, and medical bill negotiations. Other notable sections include medical supplies and equipment, laboratory savings programs, nutrition, and speech therapy. The program offers a 24/7 nurse help line and chiropractic savings plans, along with vitamins and supplements. The final section is dedicated to the health discount program member agreement, emphasizing the non-insurance nature of the program.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -262,17 +271,17 @@
       "page_number": 11,
       "page_name": "Overview of NCE's GapAfford Plus Program for Healthcare Savings",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/011_overview_of_nces_gapafford_plus_program_for_healthcare_savings.jpg",
-      "summary": "The slide presents NCE's GapAfford Plus program, designed to help individuals and families save on out-of-pocket medical expenses, regardless of their insurance status. The program offers savings from the first dollar spent, with no limits, by providing access to pre-negotiated rates similar to those received by insurance companies. It is particularly beneficial for people with high deductible plans, no insurance, under-insured individuals, those with pre-existing conditions, and those in waiting periods or on COBRA.\n\nThe program includes all household members without age restrictions and does not require a medical exam for approval. It is a reduced fee-for-service program, not an insurance plan. The slide also addresses common questions, confirming that those with existing insurance can enroll if their provider accepts the program. The program does not cover deductibles, pre-existing condition limitations, medical exams, claim forms, usage limitations, or age restrictions, except for work already in progress.",
+      "summary": "The slide introduces NCE's GapAfford Plus program, designed to help individuals and families save on out-of-pocket medical expenses, regardless of their insurance status. The program offers savings from the first dollar spent, with no limits, providing access to pre-negotiated rates similar to those offered by insurance companies. It is particularly beneficial for people with high deductible plans, no insurance, or those who are under-insured. Additionally, it caters to individuals who cannot obtain insurance due to pre-existing conditions, those in waiting periods, or on COBRA.\n\nThe program is inclusive, covering all household members without age restrictions, including students away at college. It is emphasized that this is not an insurance plan but a reduced fee-for-service program. The slide also addresses common questions, clarifying that enrollment is possible even for those with existing insurance, provided their provider accepts the program. Notably, there are no deductibles, pre-existing condition limitations, medical exams, claim forms, usage limitations, or age restrictions, except for work already in progress.",
       "key_points": [],
       "action_items": [],
-      "has_tables": true,
+      "has_tables": false,
       "has_limitations": false
     },
     {
       "page_number": 12,
-      "page_name": "Utilizing The Aetna Dental Access Network for Cost Savings",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/012_utilizing_the_aetna_dental_access_network_for_cost_savings.jpg",
-      "summary": "The slide provides an overview of the benefits of using the Aetna Dental Access Network through the GapAfford Plus program. It highlights that members have access to a vast network of over 262,000 dental practice locations across the United States, offering significant savings on dental services. These savings range from 15-50% per visit on various services such as cleanings, x-rays, fillings, root canals, crowns, bridges, and orthodontia.\n\nAdditionally, the slide outlines the advantages of this discount program, which include no waiting periods, no age restrictions, and no exclusions for pre-existing conditions. There is no benefit maximum, and the program includes cosmetic dentistry and orthodontia. It can be used alongside existing dental insurance to enhance coverage, and it also offers vision discounts. The slide notes that the program is not available in certain states.\n\nA sample table of dental care savings is provided, comparing the regional average costs by Aetna with the costs through Dentachoice, illustrating potential savings for various procedures.",
+      "page_name": "Utilizing the Aetna Dental Access Network for Discounted Dental Services",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/012_utilizing_the_aetna_dental_access_network_for_discounted_dental_services.jpg",
+      "summary": "This slide provides an overview of the Aetna Dental Access Network, which is part of the GapAfford Plus program. It highlights that members have access to a vast network of over 262,000 dental practice locations across the United States. The network offers significant savings on dental services, ranging from 15% to 50% per visit. Services covered include cleanings, x-rays, fillings, root canals, crowns, bridges, and orthodontia.\n\nThe slide emphasizes the advantages of the discount program, such as no waiting periods, no age restrictions, and no pre-existing condition exclusions. It also mentions that there is no benefit maximum, and paperwork hassles are eliminated. Cosmetic dentistry and orthodontia are included, and the program can be used alongside existing dental insurance. Vision discounts are also part of the program.\n\nAdditionally, the slide includes a sample table of dental care savings, comparing the regional average costs by Aetna with the costs through Dentachoice, illustrating potential savings for various dental procedures.",
       "key_points": [],
       "action_items": [],
       "has_tables": true,
@@ -280,9 +289,9 @@
     },
     {
       "page_number": 13,
-      "page_name": "Outlook Vision Network Discount Program Overview",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/013_outlook_vision_network_discount_program_overview.jpg",
-      "summary": "The slide presents an overview of the OUTLOOK Vision network, which has partnered with over 12,000 eye care locations across the United States. The network includes a diverse range of providers such as ophthalmologists, optometrists, independent optical centers, and national chain locations. The vision program offers significant savings on various optical products and services. Members can enjoy discounts ranging from 10% to 50% on prescription eyeglasses, frames, and lenses. Additionally, there are savings on contact lenses at participating retail locations and discounts of 10% to 30% on medical eye exams and surgical procedures like PRK and LASIK, where available and approved.\n\nThe slide also includes a sample table of vision care savings, illustrating the potential cost reductions for members compared to retail prices. For example, at Exact Eye Care in Kearney, NE, members can save 30% on frame single vision with polycarbonate lenses. The table highlights various locations and the corresponding savings percentages, emphasizing the financial benefits of the program.\n\nFurthermore, the slide lists some of the participating vision care providers, including well-known chains such as Pearle Vision, Sears Optical, and Lenscrafters, among others. This extensive network ensures that members have access to a wide array of options for their vision care needs. Contact information for customer service and billing is also provided, along with a website link for accessing the program and locating providers.",
+      "page_name": "Overview of OUTLOOK Vision Network Discount Program",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/013_overview_of_outlook_vision_network_discount_program.jpg",
+      "summary": "The slide presents an overview of the OUTLOOK Vision network, which has contracted with over 12,000 eye care locations nationwide. The network includes a diverse range of providers such as ophthalmologists, optometrists, independent optical centers, and national chain locations. The program offers significant savings on various vision-related products and services. These include discounts ranging from 10% to 50% on most prescription eyeglasses, frames, and lenses, as well as savings on contact lenses at participating retail locations. Additionally, there are discounts of 10% to 30% on medical eye exams and surgical procedures like PRK and LASIK, where available and approved.\n\nThe slide also provides a sample of vision care savings, showcasing specific locations and the savings available on different vision products. For example, at Exact Eye Care in Kearney, NE, members can save up to 30% on frame single vision with polycarbonate lenses. Similar savings are highlighted for other locations such as LensCrafters in Mesa, AZ, and JC Penney Optical in Michigan. The slide lists several participating vision care providers, including Pearle Vision, Sears Optical, and Visionworks, among others.\n\nContact information for customer service and billing is provided, along with a website link for accessing the program and locating providers. The slide notes that the program is not available in certain states, including Alaska, Montana, Rhode Island, Utah, Vermont, and Washington.",
       "key_points": [],
       "action_items": [],
       "has_tables": true,
@@ -290,29 +299,29 @@
     },
     {
       "page_number": 14,
-      "page_name": "Pharmacy Discount Program Overview and Benefits",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/014_pharmacy_discount_program_overview_and_benefits.jpg",
-      "summary": "The slide provides an overview of a pharmacy discount program that offers significant savings on medications. Users can save an average of 55% on generic drugs and 15% on brand-name drugs at over 80% of pharmacies nationwide. The program includes discounts on all FDA-approved drugs, including lifestyle medications, and covers pet medications as well.\n\nThe program is designed for ease of use, with no forms to fill out and no activation required. The card is pre-activated, never expires, and can be used repeatedly. It covers the entire household without exclusions, and personal information is not collected from users. The pharmacy network is extensive, ensuring broad accessibility across the country.",
+      "page_name": "Pharmacy Discount Card Benefits and Usage",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/014_pharmacy_discount_card_benefits_and_usage.jpg",
+      "summary": "The slide provides an overview of a pharmacy discount card program that offers significant savings on prescription medications. Users can save an average of 55% on generic drugs and 15% on brand-name drugs at over 80% of pharmacies nationwide. The program includes discounts on all FDA-approved drugs, including lifestyle and pet medications. The card is pre-activated, never expires, and can be used immediately without any forms to fill out. It covers the entire household with no exclusions, and personal information is not collected from the card user.\n\nThe pharmacy network is extensive, covering a national scope with no limit on the number of prescriptions filled. The card can be used repeatedly, providing ongoing benefits to the user. To access the program and locate providers, users are directed to visit a specific website. Customer service and billing contact information are also provided for further assistance.",
       "key_points": [],
       "action_items": [],
-      "has_tables": true,
+      "has_tables": false,
       "has_limitations": false
     },
     {
       "page_number": 15,
-      "page_name": "MedAfford Global RX Mail-Order Prescription Medication Savings",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/015_medafford_global_rx_mail-order_prescription_medication_savings.jpg",
-      "summary": "The slide presents MedAfford Global, a service offering significant savings on prescription medications through a mail-order system. Customers can save up to 80% on prescription medications and receive insulin medication savings of 45% or more. The service is highlighted as convenient, easy, and secure, providing a streamlined process for ordering medications.\n\nThe process involves three steps: pricing the medication on the MedAfford Global website, placing an order online or via phone, and receiving the medications directly at home. Customers are required to provide a valid prescription from their doctor to complete the order. The slide emphasizes the ease of ordering and the direct shipment of medications, ensuring customer convenience.\n\nAdditionally, the slide includes tables listing commonly ordered brand-name and generic medications, along with their average prices based on a 90-day supply. This provides potential customers with a clear understanding of the cost benefits associated with using the service. MedAfford Global is administered by National Benefit Builders, Inc., and it is noted that this program is a discount program, not insurance.",
+      "page_name": "MedAfford Global RX Mail-Order Prescription Savings Program",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/015_medafford_global_rx_mail-order_prescription_savings_program.jpg",
+      "summary": "The slide introduces MedAfford Global, a service offering significant savings on prescription medications through a mail-order system. Customers can save up to 80% on prescription medications and receive insulin medication savings of 45% or more. The process is described as convenient, easy, and secure.\n\nThe slide outlines a three-step process for ordering medications. Step 1 involves pricing the medication on the MedAfford Global website. Step 2 requires placing an order online or via phone, providing an Rx Group number, and ensuring a valid prescription from a doctor. Step 3 ensures that medications are shipped directly to the customer, with email confirmation provided.\n\nAdditionally, the slide lists commonly ordered brand-name and generic medications with their average prices based on a 90-day supply. It emphasizes that the program is a discount service and not insurance, administered by National Benefit Builders, Inc.",
       "key_points": [],
       "action_items": [],
-      "has_tables": true,
+      "has_tables": false,
       "has_limitations": false
     },
     {
       "page_number": 16,
-      "page_name": "Benefits and Unique Features of CBD Products for Health",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/016_benefits_and_unique_features_of_cbd_products_for_health.jpg",
-      "summary": "This slide highlights the advantages of incorporating CBD into daily health routines, emphasizing its natural ingredients and the purest form of Cannabidiol. It positions CBD as a safe and effective alternative to prescription painkillers for individuals, families, and pets. The slide explains that CBD, or cannabidiol, is a compound found in hemp plants that supports peace and balance without intoxication, allowing it to be integrated into daily life without altering one's state of mind.\n\nThe slide also outlines the unique aspects of the CBD products offered by CBD Afford. These include compliance with the Farm Bill Act of 2018, high-quality pharmacist-formulated full-spectrum CBD products, and the purity and potency of ingredients. Additionally, the products undergo multi-stage third-party lab testing, and each package includes QR codes linked to lab results, ensuring transparency and quality assurance.",
+      "page_name": "Discovering the Benefits and Unique Qualities of CBD Products",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/016_discovering_the_benefits_and_unique_qualities_of_cbd_products.jpg",
+      "summary": "This slide introduces the benefits of incorporating CBD into daily health routines, emphasizing its natural ingredients and the purest form of cannabidiol. It positions CBD as a safe and effective alternative to prescription painkillers for individuals, families, and pets. The slide explains that CBD, or cannabidiol, is a compound found in hemp plants that supports peace and balance without intoxication, allowing for its integration into everyday life without altering one's state of mind.\n\nFurthermore, the slide highlights the unique aspects of the CBD products offered by CBD Afford. These include compliance with the Farm Bill Act of 2018, the highest quality pharmacist-formulated full-spectrum CBD products, and the purity and potency of ingredients. The products undergo multi-stage third-party lab testing, and each package includes QR codes linked to lab results, ensuring transparency and quality assurance.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -320,9 +329,9 @@
     },
     {
       "page_number": 17,
-      "page_name": "Healthcare Discount Programs Overview for Diabetic Supplies, Physical Therapy, and Hearing",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/017_healthcare_discount_programs_overview_for_diabetic_supplies_physical_therapy_and_hearing.jpg",
-      "summary": "The slide provides an overview of various healthcare discount programs available for diabetic supplies, physical therapy, rehabilitation, and hearing savings. The diabetic supplies program offers significant discounts ranging from 20% to 85% off retail prices on essential items such as glucose test strips, glucose monitors, lancets, blood pressure monitors, and urinalysis test strips. Customers can access these discounts through a specified program and contact customer service for more information.\n\nThe physical therapy and rehabilitation section highlights a program that offers an average of 20% savings at over 1,200 offices with 4,000 providers across 23 states. This program is designed to make rehabilitation and physical therapy more affordable and accessible to a wider audience.\n\nLastly, the hearing savings program provides free hearing consultations and exclusive discounts on hearing aid technology. Benefits include free annual consultations at over 3,000 locations, discounts on hearing aid technologies and styles, a free deluxe warranty program, and up to a 3-year supply of batteries. Contact information is provided for customer service and billing inquiries.",
+      "page_name": "Healthcare Savings Programs Overview for Diabetic Supplies, Physical Therapy, and Hearing",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/017_healthcare_savings_programs_overview_for_diabetic_supplies_physical_therapy_and_hearing.jpg",
+      "summary": "The slide provides an overview of various healthcare savings programs available for diabetic supplies, physical therapy and rehabilitation, and hearing services. The diabetic supplies program offers significant discounts ranging from 20% to 85% off retail prices on essential items such as glucose test strips, monitors, lancets, and other related devices. Customers can access these services through a dedicated customer service line and billing contact, with further information available on the specified website.\n\nThe physical therapy and rehabilitation section highlights an average savings of 20% at over 1,200 offices, covering 4,000 providers across 23 states. This program aims to make rehabilitation services more affordable and accessible to a wider audience.\n\nThe hearing savings program offers free consultations and exclusive discounts on hearing aid technology. Benefits include free annual consultations at over 3,000 locations, discounts on hearing aid technologies, a deluxe warranty program, and up to a three-year supply of batteries. Contact information and a website are provided for further details and service access.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -332,7 +341,7 @@
       "page_number": 18,
       "page_name": "Medical Bill Negotiations and Medical Supplies Discount Program",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/018_medical_bill_negotiations_and_medical_supplies_discount_program.jpg",
-      "summary": "The slide presents a program aimed at helping members save on medical bills that exceed their allowed plan benefits. It highlights the role of patient advocates who negotiate on behalf of the members to reduce medical costs. A key requirement for this service is a minimum bill of $5000, and full payment to the provider is necessary once a negotiation is accepted. Contact information is provided for customer service and billing inquiries.\n\nAdditionally, the slide details a discount program for medical supplies and equipment, offering savings between 20% to 50%. The program covers a wide range of items, including ambulatory aids, bathroom safety items, wheelchairs, scooters, and hospital beds. The slide emphasizes that this is a discount program and not insurance, providing a website for further information and provider location.",
+      "summary": "The slide presents information about a program designed to help members save on medical bills that exceed their allowed benefits. Patient advocates work on behalf of members to negotiate reduced costs for medical bills, with a requirement of full payment to the provider upon acceptance of the negotiation. The program requires a minimum bill of $5000 to initiate the negotiation process.\n\nAdditionally, the slide highlights discounts on medical supplies and equipment, offering savings between 20% to 50%. The program covers a wide range of items, including ambulatory aids and bathroom safety products such as wheelchairs, scooters, and hospital beds. Contact information for customer service and billing is provided, along with a website for accessing the program and locating providers.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -342,7 +351,7 @@
       "page_number": 19,
       "page_name": "Laboratory Savings Program and Nutrition Services Overview",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/019_laboratory_savings_program_and_nutrition_services_overview.jpg",
-      "summary": "The slide presents information about the Laboratory Savings Program, which offers an efficient, affordable, and confidential solution for medical laboratory testing. Members can access a wide array of medical laboratory tests, gain information on tests and diseases, and purchase lab tests directly from the website. The program is not available in New York, New Jersey, or Rhode Island.\n\nAdditionally, the slide details the SDO Nutrition program, which assists individuals in achieving personal health goals, maintaining a healthy lifestyle, and managing chronic health conditions through food and diet education. The program offers support for weight loss, dietary restrictions, geriatric health, diabetes and high blood pressure management, chronic health conditions management, and nutrition for athletic and fitness training.",
+      "summary": "The slide presents an overview of the Laboratory Savings Program, which offers an efficient, affordable, and confidential solution for medical laboratory testing. Members can access a wide array of medical tests, gain information about tests and diseases, and purchase lab tests directly from the website. The program is not available in NY, NJ, or RI. Contact information and a website link are provided for further assistance.\n\nAdditionally, the slide introduces SDO Nutrition, a program designed to help individuals achieve personal health goals, maintain a healthy lifestyle, and manage chronic health conditions through diet education. The program offers support for weight loss, dietary restrictions, geriatric health, diabetes and high blood pressure management, chronic health conditions management, and nutrition for athletic and fitness training. Contact details and a website link are also provided for accessing the program.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -352,7 +361,7 @@
       "page_number": 20,
       "page_name": "Telepractice Speech Therapy and 24/7 Nurse Help Line Services Overview",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/020_telepractice_speech_therapy_and_247_nurse_help_line_services_overview.jpg",
-      "summary": "The slide presents two distinct healthcare services: telepractice speech therapy and a 24/7 nurse help line. The speech therapy section highlights the use of video conferencing technology to deliver personalized and interactive speech therapy services globally. This telepractice model offers a modern alternative to traditional therapy, requiring only a computer, high-speed internet, a webcam, and a quiet space. Therapists engage with clients using therapeutic activities and exercises, with additional materials and follow-up resources provided for skill practice between sessions.\n\nThe 24/7 nurse help line offers round-the-clock access to registered nurses for family health inquiries. This service includes assistance in over 100 languages, ensuring broad accessibility. Both services provide contact information for customer service and billing, along with a website for accessing programs and locating providers.",
+      "summary": "The slide presents two distinct healthcare services: telepractice speech therapy and a 24/7 nurse help line. The speech therapy service utilizes video conferencing technology to offer live, one-on-one, and highly individualized speech therapy sessions worldwide. This innovative telepractice model serves as an alternative to traditional speech therapy, requiring only a computer, high-speed internet, a web camera, and a quiet room. Therapists engage with clients using therapeutic activities and exercises, with additional materials and follow-up resources available to reinforce learning.\n\nThe 24/7 nurse help line provides round-the-clock access to registered nurses who can answer family health-related questions. This service is available in over 100 languages, ensuring broad accessibility and support for medical information assistance. Both services emphasize accessibility and convenience, with contact information provided for customer service and billing inquiries.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -360,9 +369,9 @@
     },
     {
       "page_number": 21,
-      "page_name": "Chiropractic Savings Program and Vitamins & Supplements Discount Overview",
-      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/021_chiropractic_savings_program_and_vitamins_supplements_discount_overview.jpg",
-      "summary": "The slide presents an overview of a Chiropractic Savings Program that offers significant discounts on various chiropractic services. It includes a free initial consultation and up to 50% savings on diagnostic services and x-rays if necessary. Additionally, it provides unlimited treatments with up to 30% savings through a national network of over 12,000 chiropractors. Contact information for customer service and billing is provided, along with a website link for accessing the program and locating providers.\n\nThe slide also highlights a discount program for vitamins and supplements, allowing members to save up to 75% off retail pricing on a wide selection of natural products. This includes vitamins, supplements, and more. The program is not provided by AccessOne DMPO, and similar contact information is available for customer inquiries and billing.",
+      "page_name": "Chiropractic Savings Program and Vitamins Supplements Discounts",
+      "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/021_chiropractic_savings_program_and_vitamins_supplements_discounts.jpg",
+      "summary": "The slide presents a Chiropractic Savings Program offering significant discounts on chiropractic services. It includes a free initial consultation, up to 50% savings on diagnostic services and x-rays if necessary, and unlimited treatments with up to 30% savings. The program is supported by a national network of over 12,000 chiropractors, providing extensive access to discounted services.\n\nAdditionally, the slide highlights a discount program for vitamins and supplements. Members can save up to 75% off retail pricing on a wide selection of natural products, including vitamins and supplements. The slide provides contact information for customer service and billing, as well as a website for accessing the program and locating providers.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -372,17 +381,17 @@
       "page_number": 22,
       "page_name": "Health Discount Program Member Agreement Overview",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/022_health_discount_program_member_agreement_overview.jpg",
-      "summary": "This slide outlines the terms and conditions of the Health Discount Program Member Agreement provided by AccessOne Consumer Health, Inc. It details the effective date of enrollment, which is linked to the Member ID, and specifies that the plan is not insurance but offers discounts at certain healthcare providers. The agreement emphasizes that members are responsible for paying healthcare services directly to providers, and it provides a list of participating providers where discounts can be applied.\n\nThe document also explains the process for changing payment modes and filing complaints under the discount medical plan organization's system. It highlights the rights of members to cancel their participation within thirty days of enrollment and the conditions under which refunds are applicable. Additionally, the slide clarifies that the plan includes dependent children at no extra charge and provides contact information for further assistance or complaints.\n\nThe agreement concludes by stating that it supersedes all prior representations and agreements, and it is not intended to replace health insurance. It also notes the importance of keeping a copy of the Member Agreement for personal records.",
+      "summary": "This slide provides an overview of the Health Discount Program Member Agreement for participants in the GapAfford Plus plan, offered by AccessOne Consumer Health, Inc. It outlines the terms and conditions of participation, emphasizing that the plan is not insurance but a discount program. The agreement specifies the effective date of enrollment, payment procedures, and the process for filing complaints. It also details the obligations of the plan member, including the requirement to pay for healthcare services while receiving discounts from participating providers.\n\nThe slide includes disclosures clarifying that the plan does not make payments directly to providers and that members must pay for services at the time they are rendered. It lists the types of discounts available, such as those for medical services, equipment, and prescriptions, with varying discount rates. The agreement also covers cancellation policies, stating that members can cancel within 30 days for a refund of unused months, and outlines the conditions under which participation may be terminated.\n\nAdditional information is provided on how to access a list of participating providers and the importance of keeping a copy of the agreement for personal records. The slide concludes by reiterating that the plan is not intended to replace health insurance and does not meet certain legal requirements for insurance coverage.",
       "key_points": [],
       "action_items": [],
-      "has_tables": true,
+      "has_tables": false,
       "has_limitations": false
     },
     {
       "page_number": 23,
       "page_name": "National Benefit Builders Discount Program Overview",
       "file_path": "/Users/cjohndesign/dev/FEN/decks/FEN_EVE/img/pages/023_national_benefit_builders_discount_program_overview.jpg",
-      "summary": "The slide presents information about a program offered by National Benefit Builders, Inc. It emphasizes that the program is not insurance but a discount program. This distinction is crucial for understanding the nature of the benefits provided, which likely involve reduced costs for certain services rather than coverage for expenses.\n\nThe slide includes branding elements such as the logo of the organization and mentions its accreditation by the Better Business Bureau with the highest rating. This accreditation suggests a level of trust and reliability in the services offered. The slide is intended for agent use only, indicating that it is part of a presentation or training material for those selling or managing the program.",
+      "summary": "The slide presents information about a discount program offered by National Benefit Builders, Inc. It emphasizes that the program is not insurance but rather a discount offering. The slide includes branding elements such as the company's logo and accreditation from the Better Business Bureau, indicating a high rating. This slide is intended for agent use only, suggesting it is part of a presentation or training material for representatives who will be discussing or selling the program.",
       "key_points": [],
       "action_items": [],
       "has_tables": false,
@@ -391,9 +400,234 @@
   ],
   "structured_slides": [
     {
-      "page_number": 1,
-      "title": "Slide 1",
-      "content": "To create a comprehensive aggregated summary for the insurance plan data, I will follow the provided structure and instructions. The plan will involve synthesizing the information from the individual summaries and extracted tables into a cohesive narrative and slide presentation. Here is the outline for the aggregation process:\n\n### Outline for Aggregated Summary:\n\n1. **Cover (1 slide)**\n   - Title: \"Everest Group Fixed Indemnity Insurance\"\n   - Tagline: \"Flexible Coverage for Unexpected Medical Expenses\"\n\n2. **Plan Overview (1 slide)**\n   - Audience: Individuals and families seeking supplemental health coverage.\n   - Offerings: Fixed indemnity payments for medical expenses.\n   - Key Benefits: Flexibility, broad provider network, and simplified claims process.\n\n3. **Core Plan Elements (2-3 slides)**\n   - Coverage Areas: Physician services, hospitalization, virtual visits.\n   - Plan Structure: Multiple tiers (Plan 100 to Plan 1000+), co-pays, visit limits.\n   - Eligibility: Guaranteed issue, no medical exams required.\n\n4. **Common Service Features (2-3 slides)**\n   - Provider Networks: Access to Multiplan PPO Network.\n   - Claims Management: Direct payment to insured, fast processing.\n   - Support Tools: Wellness programs, advocacy services.\n\n5. **Plan Tiers Breakdown (8-12 slides)**\n   - Detailed breakdown of each plan tier (Plan 100, Plan 200, Plan 200+, Plan 300, Plan 500, Plan 750, Plan 1000, Plan 1000+).\n   - Components: Physician services, hospitalization, virtual visits, prescriptions, wellness tools, advocacy.\n\n6. **Comparison Slides (2-3 slides)**\n   - Highlight differences among tiers, focusing on benefits and coverage levels.\n\n7. **Limitations and Exclusions (1-2 slides)**\n   - Define exclusions: Pre-existing conditions, waiting periods, specific treatments.\n\n8. **Key Takeaways and Action Steps (1 slide)**\n   - Summary: Flexibility, cost-coverage balance.\n   - Next Steps: Enrollment instructions, support contact information.\n\n9. **Conclusion (1 slide)**\n   - Thank you message, final enrollment or support instructions.\n\n### Full Aggregated Summary:\n\n**1. Cover (1 slide)**\n   - **Title:** Everest Group Fixed Indemnity Insurance\n   - **Tagline:** Flexible Coverage for Unexpected Medical Expenses\n\n**2. Plan Overview (1 slide)**\n   - **Audience:** Designed for individuals and families seeking supplemental health coverage.\n   - **Offerings:** Provides fixed indemnity payments to help manage medical expenses not fully covered by traditional insurance.\n   - **Key Benefits:** Offers flexibility in healthcare choices, access to a broad provider network through the Multiplan PPO, and a simplified claims process for ease of use.\n\n**3. Core Plan Elements (2-3 slides)**\n   - **Coverage Areas:** Includes physician services, hospitalization, and virtual visits, ensuring comprehensive support for various medical needs.\n   - **Plan Structure:** Features multiple tiers (Plan 100 to Plan 1000+), each with specific benefits, co-pays, and visit limits tailored to different needs and budgets.\n   - **Eligibility:** Guaranteed issue with no medical exams required, making it accessible to a wide range of applicants.\n\n**4. Common Service Features (2-3 slides)**\n   - **Provider Networks:** Access to the extensive Multiplan PPO Network, offering a wide range of healthcare providers.\n   - **Claims Management:** Direct payment of benefits to the insured with a fast, simplified claims process.\n   - **Support Tools:** Includes wellness programs and advocacy services to enhance policyholder experience and support health management.\n\n**5. Plan Tiers Breakdown (8-12 slides)**\n   - **Plan 100:** Basic coverage with essential benefits for physician services and hospitalization.\n   - **Plan 200 & 200+:** Enhanced coverage with additional outpatient benefits and higher confinement benefits.\n   - **Plan 300:** Comprehensive coverage with combined inpatient and outpatient surgery benefits.\n   - **Plan 500 to 1000+:** Increasing coverage levels with higher benefits for hospital and ICU confinement, emergency room visits, and advanced diagnostics.\n\n**6. Comparison Slides (2-3 slides)**\n   - **Differences Among Tiers:** Highlight the incremental benefits and coverage levels across different plans, emphasizing the value of higher-tier plans for more extensive medical needs.\n\n**7. Limitations and Exclusions (1-2 slides)**\n   - **Exclusions:** Includes pre-existing conditions, certain elective and experimental treatments, and specific activities like extreme sports.\n   - **Limitations:** Waiting periods for certain benefits and exclusions for treatments not deemed medically necessary.\n\n**8. Key Takeaways and Action Steps (1 slide)**\n   - **Summary:** The plan offers flexibility and a balance between cost and coverage, making it a viable option for managing unexpected medical expenses.\n   - **Next Steps:** Instructions for enrollment and contact information for obtaining support and further assistance.\n\n**9. Conclusion (1 slide)**\n   - **Thank You Message:** Thank you for considering Everest Group Fixed Indemnity Insurance.\n   - **Final Instructions:** For enrollment or support, please contact our customer service team or visit our website for more information.\n\nThis aggregated summary provides a structured and comprehensive overview of the Everest Group Fixed Indemnity Insurance, highlighting its key features, benefits, and options available to potential policyholders.",
+      "page_number": 2,
+      "title": "Slide 2",
+      "content": "id: FEN_everest_reinsurance\ntheme: ../../\ntitle: | \n  Everest Reinsurance Company Group Fixed Indemnity Insurance\ninfo: |\n  ## Everest Reinsurance Company Group Fixed Indemnity Insurance Review\n  A look at the Everest Reinsurance Company Group Fixed Indemnity Insurance benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 3,
+      "title": "Everest Reinsurance Company Group Fixed Indemnity Insurance Review",
+      "content": "<SlideAudio deckKey=\"FEN_everest_reinsurance\" />\n\n# Everest Reinsurance Company Group Fixed Indemnity Insurance Review\n\nUnderstanding the details and benefits of the **Everest Reinsurance Company Group Fixed Indemnity Insurance**",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 4,
+      "title": "Slide 4",
+      "content": "transition: fade-out\nlayout: default",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 5,
+      "title": "Everest Reinsurance Overview",
+      "content": "## Everest Reinsurance Overview\n\n<v-clicks>\n\n- Target Audience: Individuals and families seeking supplemental health coverage through **Everest Reinsurance Company**\n- **Group Fixed Indemnity Insurance** providing set daily payments for covered services\n- **Wide provider network** and direct payments\n- **Simplified claims process** and financial relief from unexpected medical expenses\n\n</v-clicks>",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 6,
+      "title": "Slide 6",
+      "content": "transition: fade-out\nlayout: default",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 7,
+      "title": "Core Plan Elements",
+      "content": "## Core Plan Elements\n\n<v-clicks>\n\n**Coverage Areas**\n\n- Physician Services\n- Hospitalization (including ICU)\n- Virtual Visits\n\n**Plan Structure**\n\n- Tiered options with varying benefits\n- Co-pays and visit limits\n\n**Eligibility**\n\n- Individuals and families\n- Focus on affordability and accessibility\n\n</v-clicks>",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 8,
+      "title": "Slide 8",
+      "content": "transition: fade-out\nlayout: default",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 9,
+      "title": "Common Service Features",
+      "content": "## Common Service Features\n\n<v-clicks>\n\n- **Provider Networks:** Access to Multiplan PPO Network for a broad range of healthcare providers\n- **Claims Management:** Direct payments to clients with a simplified claims process\n- **Support Tools:**\n  - Wellness programs\n  - Advocacy services\n  - Online dashboards for easy management\n\n</v-clicks>",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 10,
+      "title": "Slide 10",
+      "content": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/plan_brochure_image_1.jpg",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 11,
+      "title": "Plan 100 (1/2)",
+      "content": "## Plan 100 (1/2)\n\n<v-click>\n\n**Confinement Benefits**\n- 30 Days Per Confinement/90 Days Per Certificate Year\n- Hospital Confinement: $100 per day\n- ICU Confinement: $100 per day\n- Emergency Room Visits: $50 per visit, 2 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- Physician's Office Visits: $50 per visit, 3 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 12,
+      "title": "Slide 12",
+      "content": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/plan_brochure_image_1.jpg",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 13,
+      "title": "Plan 200 (1/2)",
+      "content": "## Plan 200 (1/2)\n\n<v-click>\n\n**Confinement Benefits**\n- 30 Days Per Confinement/90 Days Per Certificate Year\n- Hospital Confinement: $200 per day\n- ICU Confinement: $200 per day\n- Emergency Room Visits: $50 per visit, 2 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Procedure Benefits**\n- Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year\n<Arrow v-bind=\"{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- Lab and X-Rays: $50 per covered day\n- Physician's Office Visits: $50 per visit, 3 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 14,
+      "title": "Slide 14",
+      "content": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/plan_brochure_image_1.jpg",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 15,
+      "title": "Plan 200+ (1/2)",
+      "content": "## Plan 200+ (1/2)\n\n<v-click>\n\n**Confinement Benefits**\n- 30 Days Per Confinement/90 Days Per Certificate Year\n- Hospital Confinement: $300 per day\n- ICU Confinement: $300 per day\n- Emergency Room Visits: $50 per visit, 2 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Procedure Benefits**\n- Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year\n<Arrow v-bind=\"{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- Lab and X-Rays: $50 per covered day\n- Advanced Diagnostic: $50 per covered day\n- Physician's Office Visits: $50 per visit, 3 visits per certificate year\n<Arrow v-bind=\"{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 16,
+      "title": "Slide 16",
+      "content": "transition: fade-out\nlayout: default",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 17,
+      "title": "Comparing the Plans",
+      "content": "## Comparing the Plans\n\n| **Feature** | **Plan 100** | **Plan 200** | **Plan 200+** |\n|",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 20,
+      "title": "Slide 20",
+      "content": "|",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 23,
+      "title": "Slide 23",
+      "content": "-|",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 26,
+      "title": "Slide 26",
+      "content": "-|",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 29,
+      "title": "Slide 29",
+      "content": "--|\n| Hospital Confinement | $100 | $200 | $300 |\n| ICU Confinement | $100 | $200 | $300 |\n| Emergency Room | $50 | $50 | $50 |\n| Surgery | N/A | $250 | $250 |\n| Lab | N/A | $50 | $50 |\n| X-Rays | N/A | $50 | $50 |\n| Advanced Diagnostic | N/A | N/A | $50 |\n| Physician's Office Visits | $50 | $50 | $50 |",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 30,
+      "title": "Slide 30",
+      "content": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/plan_brochure_image_final.jpg",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 31,
+      "title": "Definitions and Limitations",
+      "content": "## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions within a specified waiting period\n- Cosmetic surgery, dental care (except in specific cases), and experimental treatments\n- Services from family members or during foreign travel\n<Arrow v-bind=\"{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>\n\n<v-click>\n\n**Limitations**\n- No coverage for chiropractic or acupuncture services\n- Specific exclusions for hazardous activities and certain sports\n<Arrow v-bind=\"{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }\" />\n</v-click>",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 32,
+      "title": "Slide 32",
+      "content": "transition: fade-out\nlayout: default",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 33,
+      "title": "Key Takeaways and Reminders",
+      "content": "## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **Flexibility:** Multiple plan tiers to suit different needs and budgets\n- **Balance:** Offers a balance between cost and coverage with direct payments and a wide provider network\n- **Next Steps:** Contact an agent for enrollment, review plan details, and access support tools\n\n</v-clicks>",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 34,
+      "title": "Slide 34",
+      "content": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Everest Reinsurance Company Group Fixed Indemnity Insurance Review. Continue to be great!",
+      "has_tables": false,
+      "has_limitations": false,
+      "layout": "default",
+      "transitions": []
+    },
+    {
+      "page_number": 35,
+      "title": "Thank You!",
+      "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
       "has_tables": false,
       "has_limitations": false,
       "layout": "default",
@@ -401,36 +635,6 @@
     }
   ],
   "tables_data": {
-    "2": {
-      "headers": [
-        "Description",
-        "Amount"
-      ],
-      "rows": [
-        [
-          "Hospital admission benefit",
-          "$1,000"
-        ],
-        [
-          "ER admission benefit",
-          "$100"
-        ],
-        [
-          "Hospital confinement benefit",
-          "$2,000"
-        ],
-        [
-          "Physician office benefit",
-          "$75"
-        ],
-        [
-          "TOTAL",
-          "$3,175"
-        ]
-      ],
-      "table_type": "benefits",
-      "metadata": {}
-    },
     "3": {
       "headers": [
         "Plan 100",
@@ -490,20 +694,17 @@
         [
           "Procedure Benefits",
           "N/A",
-          "N/A",
           "Surgery-3 maximum days per certificate year (maximum days are shared between inpatient and outpatient)",
           "Surgery-3 maximum days per certificate year (maximum days are shared between inpatient and outpatient)"
         ],
         [
           "Surgery",
           "N/A",
-          "N/A",
           "Combined Inpatient & Outpatient $250 per day",
           "Combined Inpatient & Outpatient $250 per day"
         ],
         [
           "Anesthesia",
-          "N/A",
           "N/A",
           "25%",
           "25%"
@@ -512,33 +713,28 @@
           "Outpatient Benefits",
           "Physician's Office-3 per certificate year",
           "X-Rays & Labs-4 covered days per certificate year/Advanced Diagnostic-covered days per certificate year/Physician's Office-3 per certificate year",
-          "X-Rays & Labs-4 covered days per certificate year/Advanced Diagnostic-covered days per certificate year/Physician's Office-3 per certificate year",
           "Physician's Office-3 per certificate year"
         ],
         [
           "Lab",
           "N/A",
           "$50",
-          "$50",
-          "N/A"
+          "$50"
         ],
         [
           "X-Rays",
           "N/A",
           "$50",
-          "$50",
-          "N/A"
+          "$50"
         ],
         [
           "Advanced Diagnostic",
           "N/A",
           "$50",
-          "$50",
           "N/A"
         ],
         [
           "Physician's Office",
-          "$50",
           "$50",
           "$50",
           "$50"
@@ -549,7 +745,7 @@
     },
     "4": {
       "headers": [
-        "Benefit Eligibility",
+        "Benefit",
         "Plan 500",
         "Plan 750",
         "Plan 1000",
@@ -571,9 +767,9 @@
           "Guaranteed Issue"
         ],
         [
-          "Confinement Benefits",
-          "30 Days Per Confinement/90 Days Per Certificate Year",
-          "30 Days Per Confinement/90 Days Per Certificate Year",
+          "Confinement/90 Days Per Certificate Year",
+          "30 Days Per Certificate Year",
+          "30 Days Per Certificate Year",
           "30 Days Per Confinement/90 Days Per Certificate Year",
           "30 Days Per Confinement/90 Days Per Certificate Year"
         ],
@@ -592,13 +788,6 @@
           "$1000"
         ],
         [
-          "Hospital Benefits",
-          "Emergency Room 2 per certificate year",
-          "Emergency Room 2 per certificate year",
-          "Emergency Room 2 per certificate year",
-          "Hospital Admission-5 per certificate year/Emergency Room-2 per certificate year"
-        ],
-        [
           "Hospital Admission",
           "N/A",
           "N/A",
@@ -613,13 +802,6 @@
           "$100"
         ],
         [
-          "Procedure Benefits",
-          "Surgery-3 maximum days per certificate year (maximum days are shared between inpatient and outpatient)",
-          "Surgery-3 maximum days per certificate year (maximum days are shared between inpatient and outpatient)",
-          "Surgery-3 maximum days per certificate year (maximum days are shared between inpatient and outpatient)",
-          "Surgery-3 maximum days per certificate year (maximum days are shared between inpatient and outpatient)"
-        ],
-        [
           "Surgery",
           "Combined Inpatient & Outpatient, $350 per day",
           "Combined Inpatient & Outpatient, $400 per day",
@@ -632,13 +814,6 @@
           "25%",
           "25%",
           "25%"
-        ],
-        [
-          "Outpatient Benefits",
-          "X-Rays & Labs-6 covered days per certificate year/Advanced Diagnostic-6 covered days per certificate year/Physician's Office- per certificate year",
-          "X-Rays & Labs-8 covered days per certificate year/Advanced Diagnostic-6 covered days per certificate year/Physician's Office- per certificate year",
-          "X-Rays & Labs-12 covered days per certificate year/Advanced Diagnostic-6 covered days per certificate year/Physician's Office-5 per certificate year",
-          "X-Rays & Labs-12 covered days per certificate year/Advanced Diagnostic-6 covered days per certificate year/Physician's Office-5 per certificate year"
         ],
         [
           "Lab",
@@ -667,40 +842,6 @@
           "$50",
           "$75",
           "$75"
-        ]
-      ],
-      "table_type": "benefits",
-      "metadata": {}
-    },
-    "11": {
-      "headers": [
-        "Feature",
-        "Details"
-      ],
-      "rows": [
-        [
-          "Deductibles",
-          "None"
-        ],
-        [
-          "Pre-existing condition limitations",
-          "None*"
-        ],
-        [
-          "Medical exams",
-          "None"
-        ],
-        [
-          "Claim forms",
-          "None"
-        ],
-        [
-          "Limitation on usage",
-          "None"
-        ],
-        [
-          "Age restrictions",
-          "None"
         ]
       ],
       "table_type": "benefits",
@@ -867,119 +1008,25 @@
       ],
       "table_type": "benefits",
       "metadata": {}
-    },
-    "14": {
-      "headers": [],
-      "rows": [],
-      "table_type": "benefits",
-      "metadata": {}
-    },
-    "15": {
-      "headers": [
-        "Medication",
-        "Price"
-      ],
-      "rows": [
-        [
-          "Abilify 10mg",
-          "$160"
-        ],
-        [
-          "Advair Diskus 50/250mcg 180 doses",
-          "$144"
-        ],
-        [
-          "Cymbalta 20mg",
-          "$149"
-        ],
-        [
-          "Eliquis 5mg 180 tabs",
-          "$236"
-        ],
-        [
-          "Januvia 100mg",
-          "$170"
-        ],
-        [
-          "Jardiance 25mg",
-          "$260"
-        ],
-        [
-          "Lyrica 50mg 60 tabs",
-          "$170"
-        ],
-        [
-          "Premarin 0.625mg",
-          "$88"
-        ],
-        [
-          "Spiriva 18MCG",
-          "$250"
-        ],
-        [
-          "Symbicort 160/6MCG 360 doses",
-          "$145"
-        ],
-        [
-          "Wellbutrin XL 150mg",
-          "$130"
-        ],
-        [
-          "Xarelto 20mg",
-          "$210"
-        ],
-        [
-          "Amlodipine 10mg",
-          "$20"
-        ],
-        [
-          "Lisinopril 20mg",
-          "$22"
-        ],
-        [
-          "Metformin ER 500mg",
-          "$23"
-        ],
-        [
-          "Montelukast 10mg",
-          "$27"
-        ],
-        [
-          "Omeprazole 20mg",
-          "$25"
-        ],
-        [
-          "Pravastatin 20mg",
-          "$33"
-        ]
-      ],
-      "table_type": "benefits",
-      "metadata": {}
-    },
-    "22": {
-      "headers": [],
-      "rows": [],
-      "table_type": "benefits",
-      "metadata": {}
     }
   },
-  "processed_summaries": "To create a comprehensive aggregated summary for the insurance plan data, I will follow the provided structure and instructions. The plan will involve synthesizing the information from the individual summaries and extracted tables into a cohesive narrative and slide presentation. Here is the outline for the aggregation process:\n\n### Outline for Aggregated Summary:\n\n1. **Cover (1 slide)**\n   - Title: \"Everest Group Fixed Indemnity Insurance\"\n   - Tagline: \"Flexible Coverage for Unexpected Medical Expenses\"\n\n2. **Plan Overview (1 slide)**\n   - Audience: Individuals and families seeking supplemental health coverage.\n   - Offerings: Fixed indemnity payments for medical expenses.\n   - Key Benefits: Flexibility, broad provider network, and simplified claims process.\n\n3. **Core Plan Elements (2-3 slides)**\n   - Coverage Areas: Physician services, hospitalization, virtual visits.\n   - Plan Structure: Multiple tiers (Plan 100 to Plan 1000+), co-pays, visit limits.\n   - Eligibility: Guaranteed issue, no medical exams required.\n\n4. **Common Service Features (2-3 slides)**\n   - Provider Networks: Access to Multiplan PPO Network.\n   - Claims Management: Direct payment to insured, fast processing.\n   - Support Tools: Wellness programs, advocacy services.\n\n5. **Plan Tiers Breakdown (8-12 slides)**\n   - Detailed breakdown of each plan tier (Plan 100, Plan 200, Plan 200+, Plan 300, Plan 500, Plan 750, Plan 1000, Plan 1000+).\n   - Components: Physician services, hospitalization, virtual visits, prescriptions, wellness tools, advocacy.\n\n6. **Comparison Slides (2-3 slides)**\n   - Highlight differences among tiers, focusing on benefits and coverage levels.\n\n7. **Limitations and Exclusions (1-2 slides)**\n   - Define exclusions: Pre-existing conditions, waiting periods, specific treatments.\n\n8. **Key Takeaways and Action Steps (1 slide)**\n   - Summary: Flexibility, cost-coverage balance.\n   - Next Steps: Enrollment instructions, support contact information.\n\n9. **Conclusion (1 slide)**\n   - Thank you message, final enrollment or support instructions.\n\n### Full Aggregated Summary:\n\n**1. Cover (1 slide)**\n   - **Title:** Everest Group Fixed Indemnity Insurance\n   - **Tagline:** Flexible Coverage for Unexpected Medical Expenses\n\n**2. Plan Overview (1 slide)**\n   - **Audience:** Designed for individuals and families seeking supplemental health coverage.\n   - **Offerings:** Provides fixed indemnity payments to help manage medical expenses not fully covered by traditional insurance.\n   - **Key Benefits:** Offers flexibility in healthcare choices, access to a broad provider network through the Multiplan PPO, and a simplified claims process for ease of use.\n\n**3. Core Plan Elements (2-3 slides)**\n   - **Coverage Areas:** Includes physician services, hospitalization, and virtual visits, ensuring comprehensive support for various medical needs.\n   - **Plan Structure:** Features multiple tiers (Plan 100 to Plan 1000+), each with specific benefits, co-pays, and visit limits tailored to different needs and budgets.\n   - **Eligibility:** Guaranteed issue with no medical exams required, making it accessible to a wide range of applicants.\n\n**4. Common Service Features (2-3 slides)**\n   - **Provider Networks:** Access to the extensive Multiplan PPO Network, offering a wide range of healthcare providers.\n   - **Claims Management:** Direct payment of benefits to the insured with a fast, simplified claims process.\n   - **Support Tools:** Includes wellness programs and advocacy services to enhance policyholder experience and support health management.\n\n**5. Plan Tiers Breakdown (8-12 slides)**\n   - **Plan 100:** Basic coverage with essential benefits for physician services and hospitalization.\n   - **Plan 200 & 200+:** Enhanced coverage with additional outpatient benefits and higher confinement benefits.\n   - **Plan 300:** Comprehensive coverage with combined inpatient and outpatient surgery benefits.\n   - **Plan 500 to 1000+:** Increasing coverage levels with higher benefits for hospital and ICU confinement, emergency room visits, and advanced diagnostics.\n\n**6. Comparison Slides (2-3 slides)**\n   - **Differences Among Tiers:** Highlight the incremental benefits and coverage levels across different plans, emphasizing the value of higher-tier plans for more extensive medical needs.\n\n**7. Limitations and Exclusions (1-2 slides)**\n   - **Exclusions:** Includes pre-existing conditions, certain elective and experimental treatments, and specific activities like extreme sports.\n   - **Limitations:** Waiting periods for certain benefits and exclusions for treatments not deemed medically necessary.\n\n**8. Key Takeaways and Action Steps (1 slide)**\n   - **Summary:** The plan offers flexibility and a balance between cost and coverage, making it a viable option for managing unexpected medical expenses.\n   - **Next Steps:** Instructions for enrollment and contact information for obtaining support and further assistance.\n\n**9. Conclusion (1 slide)**\n   - **Thank You Message:** Thank you for considering Everest Group Fixed Indemnity Insurance.\n   - **Final Instructions:** For enrollment or support, please contact our customer service team or visit our website for more information.\n\nThis aggregated summary provides a structured and comprehensive overview of the Everest Group Fixed Indemnity Insurance, highlighting its key features, benefits, and options available to potential policyholders.",
+  "processed_summaries": "Certainly! Below is a structured outline for a presentation on Everest Reinsurance Company's Group Fixed Indemnity Insurance Plans, formatted for slides and narrative script. The plan tiers section includes detailed breakdowns for each tier.\n\n---\n\n### Cover (1 Slide)\n- **Title:** Everest Reinsurance Company Group Fixed Indemnity Insurance\n- **Tagline:** \"Secure Your Health, Simplify Your Costs\"\n\n### Plan Overview (1 Slide)\n- **Target Audience:** Individuals and families seeking supplemental health coverage.\n- **Offerings:** Group Fixed Indemnity Insurance providing set daily payments for covered services.\n- **Key Benefits:** Wide provider network, direct payments, simplified claims process, and financial relief from unexpected medical expenses.\n\n### Core Plan Elements (2-3 Slides)\n- **Coverage Areas:**\n  - Physician Services\n  - Hospitalization (including ICU)\n  - Virtual Visits\n- **Plan Structure:**\n  - Tiered options with varying benefits\n  - Co-pays and visit limits\n- **Eligibility:**\n  - Individuals and families\n  - Focus on affordability and accessibility\n\n### Common Service Features (2-3 Slides)\n- **Provider Networks:** Access to Multiplan PPO Network for a broad range of healthcare providers.\n- **Claims Management:** Direct payments to clients with a simplified claims process.\n- **Support Tools:**\n  - Wellness programs\n  - Advocacy services\n  - Online dashboards for easy management\n\n### Plan Tiers Breakdown (8-12 Slides)\n\n#### **Plan 100**\n- **Confinement Benefits:** 30 Days Per Confinement/90 Days Per Certificate Year\n- **Hospital Confinement:** $100 per day\n- **ICU Confinement:** $100 per day\n- **Emergency Room Visits:** $50 per visit, 2 visits per certificate year\n- **Outpatient Benefits:**\n  - Physician's Office Visits: $50 per visit, 3 visits per certificate year\n\n#### **Plan 200**\n- **Confinement Benefits:** 30 Days Per Confinement/90 Days Per Certificate Year\n- **Hospital Confinement:** $200 per day\n- **ICU Confinement:** $200 per day\n- **Emergency Room Visits:** $50 per visit, 2 visits per certificate year\n- **Procedure Benefits:**\n  - Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year\n- **Outpatient Benefits:**\n  - Lab and X-Rays: $50 per covered day\n  - Physician's Office Visits: $50 per visit, 3 visits per certificate year\n\n#### **Plan 200+**\n- **Confinement Benefits:** 30 Days Per Confinement/90 Days Per Certificate Year\n- **Hospital Confinement:** $300 per day\n- **ICU Confinement:** $300 per day\n- **Emergency Room Visits:** $50 per visit, 2 visits per certificate year\n- **Procedure Benefits:**\n  - Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year\n- **Outpatient Benefits:**\n  - Lab and X-Rays: $50 per covered day\n  - Advanced Diagnostic: $50 per covered day\n  - Physician's Office Visits: $50 per visit, 3 visits per certificate year\n\n#### **Plan 300**\n- **Confinement Benefits:** 30 Days Per Confinement/90 Days Per Certificate Year\n- **Hospital Confinement:** $300 per day\n- **ICU Confinement:** $300 per day\n- **Emergency Room Visits:** $50 per visit, 2 visits per certificate year\n- **Procedure Benefits:**\n  - Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year\n- **Outpatient Benefits:**\n  - Lab and X-Rays: $50 per covered day\n  - Advanced Diagnostic: $50 per covered day\n  - Physician's Office Visits: $50 per visit, 3 visits per certificate year\n\n#### **Plan 500**\n- **Confinement Benefits:** 30 Days Per Confinement/90 Days Per Certificate Year\n- **Hospital Confinement:** $500 per day\n- **ICU Confinement:** $500 per day\n- **Emergency Room Visits:** $50 per visit\n- **Procedure Benefits:**\n  - Surgery: Combined Inpatient & Outpatient $350 per day\n- **Outpatient Benefits:**\n  - Lab and X-Rays: $50 per covered day\n  - Physician's Office Visits: $50 per visit\n\n#### **Plan 750**\n- **Confinement Benefits:** 30 Days Per Confinement/90 Days Per Certificate Year\n- **Hospital Confinement:** $750 per day\n- **ICU Confinement:** $750 per day\n- **Emergency Room Visits:** $75 per visit\n- **Procedure Benefits:**\n  - Surgery: Combined Inpatient & Outpatient $400 per day\n- **Outpatient Benefits:**\n  - Lab and X-Rays: $50 per covered day\n  - Physician's Office Visits: $50 per visit\n\n#### **Plan 1000**\n- **Confinement Benefits:** 30 Days Per Confinement/90 Days Per Certificate Year\n- **Hospital Confinement:** $1000 per day\n- **ICU Confinement:** $1000 per day\n- **Emergency Room Visits:** $100 per visit\n- **Procedure Benefits:**\n  - Surgery: Combined Inpatient & Outpatient $500 per day\n- **Outpatient Benefits:**\n  - Lab and X-Rays: $75 per covered day\n  - Physician's Office Visits: $75 per visit\n\n#### **Plan 1000+**\n- **Confinement Benefits:** 30 Days Per Confinement/90 Days Per Certificate Year\n- **Hospital Confinement:** $1000 per day\n- **ICU Confinement:** $1000 per day\n- **Hospital Admission:** $1,000\n- **Emergency Room Visits:** $100 per visit\n- **Procedure Benefits:**\n  - Surgery: Combined Inpatient & Outpatient $500 per day\n- **Outpatient Benefits:**\n  - Lab and X-Rays: $100 per covered day\n  - Physician's Office Visits: $75 per visit\n\n### Comparison Slides (Markdown Table)\n```markdown\n| Feature                     | Plan 100 | Plan 200 | Plan 200+ | Plan 300 | Plan 500 | Plan 750 | Plan 1000 | Plan 1000+ |\n|-----------------------------|----------|----------|-----------|----------|----------|----------|-----------|------------|\n| Hospital Confinement        | $100     | $200     | $300      | $300     | $500     | $750     | $1000     | $1000      |\n| ICU Confinement             | $100     | $200     | $300      | $300     | $500     | $750     | $1000     | $1000      |\n| Emergency Room              | $50      | $50      | $50       | $50      | $50      | $75      | $100      | $100       |\n| Surgery                     | N/A      | $250     | $250      | $250     | $350     | $400     | $500      | $500       |\n| Anesthesia                  | N/A      | 25%      | 25%       | 25%      | 25%      | 25%      | 25%       | 25%        |\n| Lab                         | N/A      | $50      | $50       | $50      | $50      | $50      | $75       | $100       |\n| X-Rays                      | N/A      | $50      | $50       | $50      | $50      | $50      | $75       | $100       |\n| Advanced Diagnostic         | N/A      | $50      | $50       | N/A      | $50      | $50      | $75       | $100       |\n| Physician's Office Visits   | $50      | $50      | $50       | $50      | $50      | $50      | $75       | $75        |\n```\n\n### Limitations and Exclusions (1-2 Slides)\n- **Exclusions:**\n  - Pre-existing conditions within a specified waiting period\n  - Cosmetic surgery, dental care (except in specific cases), and experimental treatments\n  - Services from family members or during foreign travel\n- **Limitations:**\n  - No coverage for chiropractic or acupuncture services\n  - Specific exclusions for hazardous activities and certain sports\n\n### Key Takeaways and Action Steps (1 Slide)\n- **Flexibility:** Multiple plan tiers to suit different needs and budgets.\n- **Balance:** Offers a balance between cost and coverage with direct payments and a wide provider network.\n- **Next Steps:** Contact an agent for enrollment, review plan details, and access support tools.\n\n### Thank You (1 Slide)\n- **Message:** \"Thank you for considering Everest Reinsurance Company for your health coverage needs. Secure your health, simplify your costs.\"\n\n---\n\nThis outline provides a comprehensive structure for a presentation on Everest Reinsurance Company's Group Fixed Indemnity Insurance Plans, with detailed information on each plan tier to aid in decision-making.",
   "needs_fixes": true,
   "retry_count": 0,
   "max_retries": 3,
   "validation_issues": [
     {
       "type": "error",
-      "description": "Validation failed due to internal error",
+      "description": "Validation failed: 'Input to ChatPromptTemplate is missing variables {\\'\\\\n    \"is_valid\"\\'}.  Expected: [\\'\\\\n    \"is_valid\"\\', \\'content\\'] Received: [\\'content\\']\\nNote: if you intended {\\n    \"is_valid\"} to be part of the string and not a variable, please escape it with double curly braces like: \\'{{\\n    \"is_valid\"}}\\'.\\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT '",
       "severity": "high",
       "location": "validation",
-      "suggestions": []
+      "suggestions": [
+        "Check if all required content is present",
+        "Verify content format"
+      ]
     }
   ],
-  "error_context": {
-    "error": "No script content available",
-    "stage": "audio_setup"
-  },
+  "error_context": null,
   "awaiting_input": null,
   "messages": []
 }

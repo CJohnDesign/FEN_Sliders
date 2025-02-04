@@ -9,8 +9,11 @@ from pathlib import Path
 from typing import List, Dict, Any, Tuple
 from langchain.prompts import ChatPromptTemplate
 from langchain.output_parsers import PydanticOutputParser
-from ..state import BuilderState, TableData, PageMetadata, PageSummary
+from ..state import BuilderState, TableData, PageMetadata, PageSummary, WorkflowStage
 from ...utils.llm_utils import get_llm
+from ..utils.logging_utils import log_state_change, log_error
+from ..utils.state_utils import save_state
+from ..prompts.summary_prompts import TABLE_EXTRACTION_PROMPT
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -37,25 +40,9 @@ async def create_table_chain():
         response_format={"type": "json_object"}
     )
     
-    # Create prompt template
+    # Create prompt template using imported prompt
     prompt = ChatPromptTemplate.from_messages([
-        ("system", """You are an expert at analyzing presentation slides and extracting tabular data.
-                     Focus on identifying and structuring:
-                     1. Plan tiers and their features
-                     2. Benefit comparisons
-                     3. Coverage limits
-                     4. Pricing information
-                     
-                     Output must be a valid JSON object with this structure:
-                     {{
-                         "headers": ["Column1", "Column2", ...],
-                         "rows": [
-                             ["Row1Col1", "Row1Col2", ...],
-                             ["Row2Col1", "Row2Col2", ...]
-                         ],
-                         "table_type": "benefits",
-                         "metadata": {{}}
-                     }}"""),
+        ("system", TABLE_EXTRACTION_PROMPT),
         ("human", [
             {"type": "text", "text": "Please extract any tables from this slide."},
             {"type": "image_url", "image_url": "{image_data}"}
@@ -125,8 +112,12 @@ async def process_page_batch(
     return {page_num: data for page_num, data in results if data is not None}
 
 async def extract_tables(state: BuilderState) -> BuilderState:
-    """Extract tables from pages."""
+    """Extract and process tables from slides."""
     try:
+        # Verify we're in the correct stage
+        if state.current_stage != WorkflowStage.EXTRACT_TABLES:
+            logger.warning(f"Expected stage {WorkflowStage.EXTRACT_TABLES}, but got {state.current_stage}")
+            
         # Validate input state
         if not state.page_summaries:
             logger.error("No page summaries found in state")
@@ -201,14 +192,36 @@ async def extract_tables(state: BuilderState) -> BuilderState:
             logger.error("Final state validation failed - no tables data")
             return state
             
+        # Log completion and update stage
+        log_state_change(
+            state=state,
+            node_name="extract_tables",
+            change_type="complete",
+            details={
+                "tables_count": len(state.tables_data or {}),
+                "pages_with_tables": sorted(list(state.tables_data.keys())) if state.tables_data else []
+            }
+        )
+        
+        # Update workflow stage
+        state.update_stage(WorkflowStage.EXTRACT_TABLES)
+        logger.info(f"Moving to next stage: {state.current_stage}")
+        
+        # Save state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
+            logger.info(f"Saved state for deck {state.metadata.deck_id}")
+        
         return state
         
     except Exception as e:
-        logger.error(f"Table extraction failed: {str(e)}")
-        logger.error(f"Traceback: {traceback.format_exc()}")
+        log_error(state, "extract_tables", e)
         state.error_context = {
             "error": str(e),
             "stage": "table_extraction",
             "traceback": traceback.format_exc()
         }
+        # Save error state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
         return state 

@@ -3,8 +3,9 @@ import logging
 import asyncio
 from pathlib import Path
 from typing import List, Dict, Any, Tuple
-from ..state import BuilderState, PageMetadata
+from ..state import BuilderState, PageMetadata, WorkflowStage
 from ..utils.logging_utils import log_error, log_state_change
+from ..utils.state_utils import save_state
 from agents.utils.pdf_utils import convert_pdf_to_images
 
 # Set up logging
@@ -62,6 +63,10 @@ async def process_imgs(state: BuilderState) -> BuilderState:
     """Process images from PDF or existing files."""
     try:
         logger.info("Starting process_imgs node")
+        
+        # Verify we're in the correct stage
+        if state.current_stage != WorkflowStage.PROCESS_IMAGES:
+            logger.warning(f"Expected stage {WorkflowStage.PROCESS_IMAGES}, but got {state.current_stage}")
         
         # Check deck info exists
         if not state.deck_info:
@@ -135,7 +140,7 @@ async def process_imgs(state: BuilderState) -> BuilderState:
         state.page_metadata = all_metadata
         state.slide_count = len(all_metadata)
         
-        # Log completion
+        # Log completion and update stage
         log_state_change(
             state=state,
             node_name="process_imgs",
@@ -146,6 +151,15 @@ async def process_imgs(state: BuilderState) -> BuilderState:
             }
         )
         
+        # Update workflow stage
+        state.update_stage(WorkflowStage.PROCESS_IMAGES)
+        logger.info(f"Moving to next stage: {state.current_stage}")
+        
+        # Save state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
+            logger.info(f"Saved state for deck {state.metadata.deck_id}")
+        
         logger.info(f"✓ Successfully processed {len(all_metadata)} images")
         return state
         
@@ -155,4 +169,7 @@ async def process_imgs(state: BuilderState) -> BuilderState:
         logger.error(f"  Error: {str(e)}")
         if state.deck_info:
             logger.error(f"  Deck path: {state.deck_info.path}")
+        # Save error state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
         return state 

@@ -13,6 +13,10 @@ import re
 from ..state import BuilderState, PageMetadata, PageSummary
 from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
+from ..prompts.summary_analysis_prompts import (
+    SUMMARY_ANALYSIS_SYSTEM_PROMPT,
+    SUMMARY_ANALYSIS_HUMAN_PROMPT
+)
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -94,34 +98,18 @@ async def create_summary_chain():
     )
     
     # Create prompt template with proper message structure
-    system_prompt = """You are an expert at analyzing presentation slides. You must output a JSON object that matches this exact structure:
-
-{{
-    "page_title": "long_and_descriptive_title_that_summarizes_the_content_of_the_slide",
-    "summary": "Detailed content summary with multiple paragraphs",
-    "tableDetails": {{
-        "hasBenefitsTable": true,
-        "hasLimitations": false
-    }},
-    "page": 1
-}}
-
-Analyze the slide and provide:
-1. A long descriptive title that captures the main topic. this will be later saved as the filename
-2. A detailed multi-paragraph summary of the content
-3. Indicate if the slide contains benefit tables or limitations
-
-YOUR RESPONSE MUST BE A VALID JSON OBJECT."""
-
     prompt = ChatPromptTemplate.from_messages([
-        ("system", system_prompt),
+        ("system", SUMMARY_ANALYSIS_SYSTEM_PROMPT),
         ("human", [
             {"type": "text", "text": "Please analyze this slide."},
             {"type": "image_url", "image_url": "{image_url}"}
         ])
     ])
     
-    return prompt | llm
+    # Create chain
+    chain = prompt | llm
+    
+    return chain
 
 async def process_image_batch(
     batch: List[Tuple[Path, int]],
@@ -134,14 +122,16 @@ async def process_image_batch(
             # Encode image - base64 data should not be logged
             image_url = encode_image_to_base64(str(image_path))
             
-            # Generate summary
-            response = await chain.ainvoke({"image_url": image_url})
+            # Generate summary with properly formatted input
+            response = await chain.ainvoke({
+                "image_url": image_url
+            })
             
             # Clear the image data from memory explicitly
             del image_url
             
-            # Parse JSON response
-            result = json.loads(response.content)
+            # Parse response content directly since it's already JSON
+            result = response if isinstance(response, dict) else json.loads(response.content)
             
             # Sanitize the title for filename
             sanitized_title = sanitize_filename(result["page_title"])

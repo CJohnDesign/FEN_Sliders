@@ -3,32 +3,25 @@ import logging
 from typing import Any, Dict
 from pathlib import Path
 from langchain.prompts import ChatPromptTemplate
-from ..state import BuilderState
+from langchain_core.messages import SystemMessage, HumanMessage
+from ..state import BuilderState, WorkflowStage
 from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
+from ..utils.state_utils import save_state
+from ..prompts.summary_prompts import AGGREGATE_SUMMARY_PROMPT
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
 async def aggregate_summary(state: BuilderState) -> BuilderState:
-    """
-    Aggregates individual page summaries and extracted table data into a cohesive aggregated summary.
-    The summary is structured in the following sections:
-      1. Cover (1 slide)
-      2. Plan Overview (1 slide)
-      3. Core Plan Elements (2-3 slides)
-      4. Common Service Features (2-3 slides)
-      5. Plan Tiers Breakdown (8-12 slides)
-        A. for each tier, detail components like physician services, hospitalization details, virtual visits, prescriptions, wellness tools, and advocacy.
-        B. go over each benefit in detail, piece by piece
-      6. Limitations and Exclusions (1-2 slides)
-      7. Key Takeaways and Action Steps (1 slide)
-      8. Conclusion (1 slide)
-    """
     
     logger.info("Starting aggregate summary node.")
     
     try:
+        # Verify we're in the correct stage
+        if state.current_stage != WorkflowStage.AGGREGATE_SUMMARY:
+            logger.warning(f"Expected stage {WorkflowStage.AGGREGATE_SUMMARY}, but got {state.current_stage}")
+            
         # Check for required state
         if not state.page_summaries:
             logger.error("No page summaries found in state")
@@ -49,66 +42,28 @@ async def aggregate_summary(state: BuilderState) -> BuilderState:
         extracted_tables = ""
         if state.tables_data:
             table_entries = []
+            # Create a mapping of page numbers to page names
+            page_name_map = {s.page_number: s.page_name for s in state.page_summaries}
+            
             for page_num, table in sorted(state.tables_data.items()):
-                table_str = f"Table on Page {page_num}:\n"
-                table_str += "Headers: " + ", ".join(table.headers) + "\n"
-                table_str += "Type: " + table.table_type + "\n"
-                table_str += "Rows: " + str(len(table.rows)) + "\n"
+                page_name = page_name_map.get(page_num, f"Page {page_num}")
+                table_str = f"Table from: {page_name}\n"
+                table_str += f"Type: {table.table_type}\n"
+                # Format table as TSV
+                rows = ["\t".join(table.headers)]  # Start with headers
+                for row in table.rows:
+                    rows.append("\t".join(str(cell) for cell in row))
+                table_str += "\n".join(rows) + "\n"
                 table_entries.append(table_str)
             extracted_tables = "\n\n".join(table_entries)
         else:
             extracted_tables = "No table data available."
         
-        # Step 3: Create the LLM prompt template
-        prompt_template = ChatPromptTemplate.from_template(
-            """You are an expert at summarizing insurance plan data into a cohesive aggregated summary for creating presentation slides and a narrative script.
-Below are the instructions for the aggregated summary structure:
-
-1. Cover (1 slide)
-   - Display the plan name and a simple tagline summarizing the plan's purpose.
-
-2. Plan Overview (1 slide)
-   - Provide a high-level summary of who the plan is for (e.g., individuals, families), what it offers (e.g., comprehensive healthcare, affordability), and the key benefits (e.g., accessibility, personal impact).
-
-3. Core Plan Elements (2-3 slides)
-   - Highlight major components like coverage areas (physician services, hospitalization, virtual visits),
-     the plan structure (tiered options, co-pays, visit limits), and eligibility (individuals, families, affordability focus).
-
-4. Common Service Features (2-3 slides)
-   - Outline standard services such as provider networks, claims management, and support tools (e.g., dashboards, wellness programs, advocacy services).
-
-5. Plan Tiers Breakdown (8-12 slides)
-   - For each plan tier, detail components like physician services, hospitalization details, virtual visits, prescriptions, wellness tools, and advocacy.
-   - Each tier should be detailed, but the slides should be concise and to the point.
-   
-6. Comparison slides showing differences among the tiers.
-    - Highlight the benefits of each tier, but don't be redundant.
-
-7. Limitations and Exclusions (1-2 slides)
-   - Define exclusions (e.g., pre-existing conditions, waiting periods, prescription limitations).
-
-8. Key Takeaways and Action Steps (1 slide)
-   - Summarize the plan's flexibility, its balance between cost and coverage, and detail next steps for enrollment or obtaining support.
-
-9. Conclusion (1 slide)
-   - Conclude with a branded thank you message and final enrollment or support instructions.
-
-Inputs:
-
-Individual Summaries:
----------------------
-{individual_summaries}
-
-Extracted Table Information:
-----------------------------
-{extracted_tables}
-
-First, outline your plan for aggregating the above information, then generate the full aggregated summary.
-"""
-        )
-        
         try:
-            # Step 4: Generate aggregated summary using a single call to the LLM
+            # Create prompt template using the imported prompt
+            prompt_template = ChatPromptTemplate.from_template(AGGREGATE_SUMMARY_PROMPT)
+            
+            # Generate aggregated summary using a single call to the LLM
             llm = await get_llm(temperature=0.2)
             response = await llm.ainvoke(prompt_template.format(
                 individual_summaries=individual_summaries,
@@ -117,8 +72,19 @@ First, outline your plan for aggregating the above information, then generate th
             
             aggregated_summary = response.content.strip()
             
-            # Step 5: Update state with the aggregated summary
+            # Update state with the aggregated summary
             state.processed_summaries = aggregated_summary
+            
+            # Save aggregated summary as markdown file
+            if state.deck_info and state.deck_info.path:
+                ai_dir = Path(state.deck_info.path) / "ai"
+                ai_dir.mkdir(parents=True, exist_ok=True)
+                
+                summary_path = ai_dir / "aggregated_summary.md"
+                with open(summary_path, "w") as f:
+                    f.write("# Aggregated Summary\n\n")
+                    f.write(aggregated_summary)
+                logger.info(f"Saved aggregated summary to {summary_path}")
             
             log_state_change(
                 state=state,
@@ -136,6 +102,15 @@ First, outline your plan for aggregating the above information, then generate th
             logger.error(f"Error during LLM processing: {str(llm_error)}")
             raise
             
+        # Update workflow stage
+        state.update_stage(WorkflowStage.AGGREGATE_SUMMARY)
+        logger.info(f"Moving to next stage: {state.current_stage}")
+        
+        # Save state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
+            logger.info(f"Saved state for deck {state.metadata.deck_id}")
+        
         return state
         
     except Exception as e:
@@ -145,4 +120,7 @@ First, outline your plan for aggregating the above information, then generate th
             "stage": "aggregate_summary"
         }
         logger.error("Error during summary aggregation.", exc_info=True)
+        # Save error state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
         return state 

@@ -2,9 +2,10 @@
 import logging
 import shutil
 from pathlib import Path
-from ..state import BuilderState, DeckInfo
-from ..utils.logging_utils import log_state_change, log_error
 from typing import Dict
+from ..state import BuilderState, DeckInfo, WorkflowStage
+from ..utils.logging_utils import log_state_change, log_error
+from ..utils.state_utils import save_state
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -12,6 +13,10 @@ logger = logging.getLogger(__name__)
 async def create_deck_structure(state: BuilderState) -> Dict:
     """Create initial deck directory structure."""
     try:
+        # Verify we're in the correct stage
+        if state.current_stage != WorkflowStage.CREATE_DECK:
+            logger.warning(f"Expected stage {WorkflowStage.CREATE_DECK}, but got {state.current_stage}")
+            
         # Get metadata
         if not state.metadata:
             logger.warning("No metadata found in state")
@@ -82,7 +87,7 @@ async def create_deck_structure(state: BuilderState) -> Dict:
             template=state.deck_info.template
         )
         
-        # Log completion
+        # Log completion and update stage
         log_state_change(
             state=state,
             node_name="create_deck",
@@ -90,12 +95,24 @@ async def create_deck_structure(state: BuilderState) -> Dict:
             details={"deck_path": str(deck_dir)}
         )
         
+        # Update workflow stage
+        state.update_stage(WorkflowStage.CREATE_DECK)
+        logger.info(f"Moving to next stage: {state.current_stage}")
+        
+        # Save state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
+            logger.info(f"Saved state for deck {state.metadata.deck_id}")
+        
         return {
             "deck_info": deck_info.model_dump()
         }
         
     except Exception as e:
         log_error(state, "create_deck", e)
+        # Save error state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
         return {
             "error_context": {
                 "error": str(e),

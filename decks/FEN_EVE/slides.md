@@ -1,83 +1,246 @@
-To create a comprehensive aggregated summary for the insurance plan data, I will follow the provided structure and instructions. The plan will involve synthesizing the information from the individual summaries and extracted tables into a cohesive narrative and slide presentation. Here is the outline for the aggregation process:
+---
+id: FEN_everest_reinsurance
+theme: ../../
+title: | 
+  Everest Reinsurance Company Group Fixed Indemnity Insurance
+info: |
+  ## Everest Reinsurance Company Group Fixed Indemnity Insurance Review
+  A look at the Everest Reinsurance Company Group Fixed Indemnity Insurance benefits and details.
+verticalCenter: true
+layout: intro
+themeConfig:
+  logoHeader: ./img/logos/FEN_logo.svg
+  audioEnabled: true
+transition: fade-out
+drawings:
+  persist: false
+---
 
-### Outline for Aggregated Summary:
+<SlideAudio deckKey="FEN_everest_reinsurance" />
 
-1. **Cover (1 slide)**
-   - Title: "Everest Group Fixed Indemnity Insurance"
-   - Tagline: "Flexible Coverage for Unexpected Medical Expenses"
+# Everest Reinsurance Company Group Fixed Indemnity Insurance Review
 
-2. **Plan Overview (1 slide)**
-   - Audience: Individuals and families seeking supplemental health coverage.
-   - Offerings: Fixed indemnity payments for medical expenses.
-   - Key Benefits: Flexibility, broad provider network, and simplified claims process.
+Understanding the details and benefits of the **Everest Reinsurance Company Group Fixed Indemnity Insurance**
 
-3. **Core Plan Elements (2-3 slides)**
-   - Coverage Areas: Physician services, hospitalization, virtual visits.
-   - Plan Structure: Multiple tiers (Plan 100 to Plan 1000+), co-pays, visit limits.
-   - Eligibility: Guaranteed issue, no medical exams required.
+---
+transition: fade-out
+layout: default
+---
 
-4. **Common Service Features (2-3 slides)**
-   - Provider Networks: Access to Multiplan PPO Network.
-   - Claims Management: Direct payment to insured, fast processing.
-   - Support Tools: Wellness programs, advocacy services.
+## Everest Reinsurance Overview
 
-5. **Plan Tiers Breakdown (8-12 slides)**
-   - Detailed breakdown of each plan tier (Plan 100, Plan 200, Plan 200+, Plan 300, Plan 500, Plan 750, Plan 1000, Plan 1000+).
-   - Components: Physician services, hospitalization, virtual visits, prescriptions, wellness tools, advocacy.
+<v-clicks>
 
-6. **Comparison Slides (2-3 slides)**
-   - Highlight differences among tiers, focusing on benefits and coverage levels.
+- Target Audience: Individuals and families seeking supplemental health coverage through **Everest Reinsurance Company**
+- **Group Fixed Indemnity Insurance** providing set daily payments for covered services
+- **Wide provider network** and direct payments
+- **Simplified claims process** and financial relief from unexpected medical expenses
 
-7. **Limitations and Exclusions (1-2 slides)**
-   - Define exclusions: Pre-existing conditions, waiting periods, specific treatments.
+</v-clicks>
 
-8. **Key Takeaways and Action Steps (1 slide)**
-   - Summary: Flexibility, cost-coverage balance.
-   - Next Steps: Enrollment instructions, support contact information.
+---
+transition: fade-out
+layout: default
+---
 
-9. **Conclusion (1 slide)**
-   - Thank you message, final enrollment or support instructions.
+## Core Plan Elements
 
-### Full Aggregated Summary:
+<v-clicks>
 
-**1. Cover (1 slide)**
-   - **Title:** Everest Group Fixed Indemnity Insurance
-   - **Tagline:** Flexible Coverage for Unexpected Medical Expenses
+**Coverage Areas**
 
-**2. Plan Overview (1 slide)**
-   - **Audience:** Designed for individuals and families seeking supplemental health coverage.
-   - **Offerings:** Provides fixed indemnity payments to help manage medical expenses not fully covered by traditional insurance.
-   - **Key Benefits:** Offers flexibility in healthcare choices, access to a broad provider network through the Multiplan PPO, and a simplified claims process for ease of use.
+- Physician Services
+- Hospitalization (including ICU)
+- Virtual Visits
 
-**3. Core Plan Elements (2-3 slides)**
-   - **Coverage Areas:** Includes physician services, hospitalization, and virtual visits, ensuring comprehensive support for various medical needs.
-   - **Plan Structure:** Features multiple tiers (Plan 100 to Plan 1000+), each with specific benefits, co-pays, and visit limits tailored to different needs and budgets.
-   - **Eligibility:** Guaranteed issue with no medical exams required, making it accessible to a wide range of applicants.
+**Plan Structure**
 
-**4. Common Service Features (2-3 slides)**
-   - **Provider Networks:** Access to the extensive Multiplan PPO Network, offering a wide range of healthcare providers.
-   - **Claims Management:** Direct payment of benefits to the insured with a fast, simplified claims process.
-   - **Support Tools:** Includes wellness programs and advocacy services to enhance policyholder experience and support health management.
+- Tiered options with varying benefits
+- Co-pays and visit limits
 
-**5. Plan Tiers Breakdown (8-12 slides)**
-   - **Plan 100:** Basic coverage with essential benefits for physician services and hospitalization.
-   - **Plan 200 & 200+:** Enhanced coverage with additional outpatient benefits and higher confinement benefits.
-   - **Plan 300:** Comprehensive coverage with combined inpatient and outpatient surgery benefits.
-   - **Plan 500 to 1000+:** Increasing coverage levels with higher benefits for hospital and ICU confinement, emergency room visits, and advanced diagnostics.
+**Eligibility**
 
-**6. Comparison Slides (2-3 slides)**
-   - **Differences Among Tiers:** Highlight the incremental benefits and coverage levels across different plans, emphasizing the value of higher-tier plans for more extensive medical needs.
+- Individuals and families
+- Focus on affordability and accessibility
 
-**7. Limitations and Exclusions (1-2 slides)**
-   - **Exclusions:** Includes pre-existing conditions, certain elective and experimental treatments, and specific activities like extreme sports.
-   - **Limitations:** Waiting periods for certain benefits and exclusions for treatments not deemed medically necessary.
+</v-clicks>
 
-**8. Key Takeaways and Action Steps (1 slide)**
-   - **Summary:** The plan offers flexibility and a balance between cost and coverage, making it a viable option for managing unexpected medical expenses.
-   - **Next Steps:** Instructions for enrollment and contact information for obtaining support and further assistance.
+---
+transition: fade-out
+layout: default
+---
 
-**9. Conclusion (1 slide)**
-   - **Thank You Message:** Thank you for considering Everest Group Fixed Indemnity Insurance.
-   - **Final Instructions:** For enrollment or support, please contact our customer service team or visit our website for more information.
+## Common Service Features
 
-This aggregated summary provides a structured and comprehensive overview of the Everest Group Fixed Indemnity Insurance, highlighting its key features, benefits, and options available to potential policyholders.
+<v-clicks>
+
+- **Provider Networks:** Access to Multiplan PPO Network for a broad range of healthcare providers
+- **Claims Management:** Direct payments to clients with a simplified claims process
+- **Support Tools:**
+  - Wellness programs
+  - Advocacy services
+  - Online dashboards for easy management
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 100 (1/2)
+
+<v-click>
+
+**Confinement Benefits**
+- 30 Days Per Confinement/90 Days Per Certificate Year
+- Hospital Confinement: $100 per day
+- ICU Confinement: $100 per day
+- Emergency Room Visits: $50 per visit, 2 visits per certificate year
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Physician's Office Visits: $50 per visit, 3 visits per certificate year
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 200 (1/2)
+
+<v-click>
+
+**Confinement Benefits**
+- 30 Days Per Confinement/90 Days Per Certificate Year
+- Hospital Confinement: $200 per day
+- ICU Confinement: $200 per day
+- Emergency Room Visits: $50 per visit, 2 visits per certificate year
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Procedure Benefits**
+- Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab and X-Rays: $50 per covered day
+- Physician's Office Visits: $50 per visit, 3 visits per certificate year
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_1.jpg
+---
+
+## Plan 200+ (1/2)
+
+<v-click>
+
+**Confinement Benefits**
+- 30 Days Per Confinement/90 Days Per Certificate Year
+- Hospital Confinement: $300 per day
+- ICU Confinement: $300 per day
+- Emergency Room Visits: $50 per visit, 2 visits per certificate year
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Procedure Benefits**
+- Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab and X-Rays: $50 per covered day
+- Advanced Diagnostic: $50 per covered day
+- Physician's Office Visits: $50 per visit, 3 visits per certificate year
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Comparing the Plans
+
+| **Feature** | **Plan 100** | **Plan 200** | **Plan 200+** |
+|---------|----------|----------|-----------|
+| Hospital Confinement | $100 | $200 | $300 |
+| ICU Confinement | $100 | $200 | $300 |
+| Emergency Room | $50 | $50 | $50 |
+| Surgery | N/A | $250 | $250 |
+| Lab | N/A | $50 | $50 |
+| X-Rays | N/A | $50 | $50 |
+| Advanced Diagnostic | N/A | N/A | $50 |
+| Physician's Office Visits | $50 | $50 | $50 |
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/plan_brochure_image_final.jpg
+---
+
+## Definitions and Limitations
+
+<v-click>
+
+**Exclusions**
+- Pre-existing conditions within a specified waiting period
+- Cosmetic surgery, dental care (except in specific cases), and experimental treatments
+- Services from family members or during foreign travel
+<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Limitations**
+- No coverage for chiropractic or acupuncture services
+- Specific exclusions for hazardous activities and certain sports
+<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Key Takeaways and Reminders
+
+<v-clicks>
+
+- **Flexibility:** Multiple plan tiers to suit different needs and budgets
+- **Balance:** Offers a balance between cost and coverage with direct payments and a wide provider network
+- **Next Steps:** Contact an agent for enrollment, review plan details, and access support tools
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: end
+line: Thank you for participating in the Everest Reinsurance Company Group Fixed Indemnity Insurance Review. Continue to be great!
+---
+
+# Thank You!
+
+Continue to be great!
+
+<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

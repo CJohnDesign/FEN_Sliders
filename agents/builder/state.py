@@ -1,10 +1,23 @@
 """State management for the builder agent."""
 import logging
+from enum import Enum
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel, Field
 
 # Set up logging
 logger = logging.getLogger(__name__)
+
+class WorkflowStage(str, Enum):
+    """Enum for tracking workflow stages."""
+    CREATE_DECK = "create_deck"
+    PROCESS_IMAGES = "process_imgs"
+    PROCESS_SUMMARIES = "process_summaries"
+    EXTRACT_TABLES = "extract_tables"
+    AGGREGATE_SUMMARY = "aggregate_summary"
+    PROCESS_SLIDES = "process_slides"
+    SETUP_AUDIO = "setup_audio"
+    VALIDATE = "validate"
+    COMPLETE = "complete"
 
 class DeckInfo(BaseModel):
     """Information about the deck."""
@@ -74,6 +87,10 @@ class BuilderState(BaseModel):
     metadata: Optional[DeckMetadata] = None
     deck_info: Optional[DeckInfo] = None
     
+    # Workflow tracking
+    current_stage: WorkflowStage = WorkflowStage.CREATE_DECK
+    completed_stages: List[WorkflowStage] = Field(default_factory=list)
+    
     # Content state
     slides: Optional[str] = None
     script: Optional[str] = None
@@ -100,6 +117,23 @@ class BuilderState(BaseModel):
     
     # Communication
     messages: List[Message] = Field(default_factory=list)
+    
+    def update_stage(self, completed_stage: WorkflowStage) -> None:
+        """Update workflow stage after completion of a node."""
+        # Add to completed stages if not already there
+        if completed_stage not in self.completed_stages:
+            self.completed_stages.append(completed_stage)
+        
+        # Set next stage based on workflow order
+        stage_order = list(WorkflowStage)
+        try:
+            current_index = stage_order.index(completed_stage)
+            if current_index < len(stage_order) - 1:
+                self.current_stage = stage_order[current_index + 1]
+            else:
+                self.current_stage = WorkflowStage.COMPLETE
+        except ValueError:
+            logger.error(f"Invalid stage: {completed_stage}")
     
     def add_page_metadata(self, page_data: PageMetadata) -> None:
         """Add metadata for a processed page."""

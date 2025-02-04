@@ -1,14 +1,13 @@
 """Builder agent entry point."""
 import os
-import json
 import asyncio
 import logging
 import argparse
-from typing import Optional, Dict, Union
+from typing import Optional
 from pathlib import Path
 from .graph import builder_graph
-from .state import BuilderState, DeckMetadata, DeckInfo, convert_messages_to_dict
-from langchain_core.messages import AIMessage
+from .state import BuilderState, DeckMetadata, DeckInfo
+from .utils.state_utils import load_existing_state, save_state
 from ..config.settings import LANGCHAIN_TRACING_V2, LANGCHAIN_PROJECT
 
 # Set up LangSmith configuration
@@ -51,60 +50,10 @@ def initialize_state(deck_id: str, title: str) -> BuilderState:
         deck_info=DeckInfo(
             path=f"decks/{deck_id}",
             template="FEN_TEMPLATE"
-        ),
-        slides="",
-        script="",
-        slide_count=0,
-        page_metadata=[],
-        page_summaries=[],
-        structured_slides=[],
-        tables_data={},
-        needs_fixes=False,
-        retry_count=0,
-        max_retries=3,
-        validation_issues=[],
-        error_context=None,
-        messages=[]
+        )
     )
 
-def load_existing_state(deck_id: str) -> Optional[BuilderState]:
-    """Load existing state from state.json if it exists."""
-    state_path = Path(f"decks/{deck_id}/state.json")
-    if state_path.exists():
-        logger.info(f"Loading existing state from {state_path}")
-        with open(state_path) as f:
-            state_dict = json.load(f)
-            return BuilderState.model_validate(state_dict)
-    return None
-
-def save_state(state: Union[BuilderState, Dict], deck_id: str) -> None:
-    """Save current state to disk."""
-    try:
-        state_path = Path(f"decks/{deck_id}/state.json")
-        state_path.parent.mkdir(parents=True, exist_ok=True)
-        
-        # Convert state to dictionary format
-        if isinstance(state, BuilderState):
-            state_dict = state.model_dump(mode='json')
-        elif isinstance(state, dict):
-            # If it's a dict but contains Pydantic models, convert them
-            state_dict = BuilderState.model_validate(state).model_dump(mode='json')
-        else:
-            raise ValueError(f"Unsupported state type: {type(state)}")
-        
-        # Write state to file
-        with open(state_path, "w") as f:
-            json.dump(state_dict, f, indent=2)
-            
-        logger.info(f"State saved to {state_path}")
-        
-    except Exception as e:
-        logger.error(f"Error saving state: {str(e)}")
-        logger.error(f"State type: {type(state)}")
-        if isinstance(state, dict):
-            logger.error("State keys: " + ", ".join(state.keys()))
-
-def prepare_state_for_graph(state: BuilderState) -> Dict:
+def prepare_state_for_graph(state: BuilderState) -> dict:
     """Prepare state for graph execution."""
     # Convert state to dictionary format
     state_dict = state.model_dump(mode='json')

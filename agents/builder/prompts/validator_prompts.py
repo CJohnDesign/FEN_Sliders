@@ -86,7 +86,7 @@ Rules for validation - if any rule is violated, needs_fixes should be true
     - Follow proper markdown formatting and syntax rules
     - Use appropriate line breaks between lines in the script sections
     - Plan Tier pages should include the plan name, tier, and a list of benefits, with numbers and dollar amounts
-    - The slide should never use the word comprehensive, if it does needs_fixes should be true
+    - Never use the word comprehensive, if it does needs_fixes should be true
 """
 
 VALIDATION_PROMPT = """Validate the following presentation content for quality and consistency.
@@ -109,4 +109,22 @@ For each issue found, provide:
 - Location in the content
 - Suggestions for improvement
 
-Format the response as a structured list of validation issues."""
+Return your response as a JSON object with this exact structure:
+{
+    "is_valid": false,
+    "issues": [
+        {
+            "type": "flow",
+            "description": "Issue description",
+            "severity": "medium",
+            "location": "specific location in content",
+            "suggestions": ["suggestion 1", "suggestion 2"]
+        }
+    ],
+    "suggested_fixes": {
+        "slides": "complete fixed slides content if needed",
+        "script": "complete fixed script content if needed"
+    }
+}
+
+The response MUST be a valid JSON object matching this structure exactly."""

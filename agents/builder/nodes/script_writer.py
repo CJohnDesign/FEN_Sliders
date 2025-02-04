@@ -3,10 +3,12 @@ import logging
 from pathlib import Path
 from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
+from langchain_core.messages import SystemMessage, HumanMessage
 from ..state import BuilderState
 from ..utils.logging_utils import log_state_change, log_error
 from ..config.models import get_model_config
 from ...utils.llm_utils import get_llm
+from ..prompts.summary_prompts import SCRIPT_WRITER_PROMPT, SCRIPT_WRITER_HUMAN_TEMPLATE
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -16,21 +18,11 @@ def create_script_chain():
     # Use centralized LLM configuration
     llm = get_llm(temperature=0.2)
     
-    # Create prompt template
-    prompt = ChatPromptTemplate.from_template(
-        """Generate a presentation script from the following slides content.
-        The script should:
-        1. Flow naturally between sections
-        2. Expand on slide content with details
-        3. Include clear transitions
-        4. Use professional but conversational tone
-        5. Include timing markers
-        
-        Slides Content:
-        {content}
-        
-        Format the script to be clear and well-structured."""
-    )
+    # Create prompt template using imported prompts
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", SCRIPT_WRITER_PROMPT),
+        ("human", SCRIPT_WRITER_HUMAN_TEMPLATE)
+    ])
     
     # Create chain
     chain = prompt | llm
@@ -53,16 +45,19 @@ async def script_writer(state: BuilderState) -> BuilderState:
         chain = create_script_chain()
         
         # Generate script content
-        script_content = await chain.ainvoke({"content": state.processed_summaries})
+        script_content = await chain.ainvoke({
+            "template": state.slides,
+            "slides_content": state.processed_summaries
+        })
         
         # Write script to file
         output_path = Path(state.deck_info.path) / "script.md"
         output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w") as f:
-            f.write(script_content)
+            f.write(script_content.content)
             
         # Update state
-        state.script = script_content
+        state.script = script_content.content
         
         # Log completion
         log_state_change(
