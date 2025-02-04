@@ -185,6 +185,8 @@ Use this exact template structure - maintain all formatting, frontmatter, and se
 Generate a complete Slidev markdown presentation using this processed summary content:
 {processed_summaries}
 
+** DONT SKIP ANY SECTIONS, ESSPECIALLY THE PLAN TIERS SECTIONS **
+
 Maintain all existing slides (intro, overview, thank you) and add the content slides in between.
 Each content slide should use the appropriate layout and include v-clicks for progressive reveals."""
 
