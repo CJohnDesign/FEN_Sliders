@@ -250,6 +250,12 @@ async def validate(state: BuilderState) -> BuilderState:
     try:
         logger.info("Starting validation")
         
+        # Preserve existing state
+        if state.slides is None and state.script is None:
+            logger.error("Missing slides and script content")
+            state.set_error("Missing content", "validate")
+            return state
+            
         # Validate required state attributes
         if not state.metadata or not state.metadata.deck_id:
             logger.error("Missing deck ID in metadata")
@@ -277,10 +283,17 @@ async def validate(state: BuilderState) -> BuilderState:
             state.set_error("Script file not found", "validate")
             return state
             
-        # Read content
+        # Read content if not already in state
         try:
-            slides_content = slides_path.read_text()
-            script_content = script_path.read_text()
+            slides_content = state.slides or slides_path.read_text()
+            script_content = state.script or script_path.read_text()
+            
+            # Update state with content if needed
+            if not state.slides:
+                state.slides = slides_content
+            if not state.script:
+                state.script = script_content
+                
         except Exception as e:
             logger.error(f"Error reading files: {str(e)}")
             state.set_error(f"Error reading files: {str(e)}", "validate")
@@ -304,6 +317,10 @@ async def validate(state: BuilderState) -> BuilderState:
             state.set_error("No structured pages found", "validate")
             return state
             
+        # Preserve existing validation issues if any
+        if not state.validation_issues:
+            state.validation_issues = ValidationIssues()
+            
         for i, page in enumerate(state.structured_pages.pages, 1):
             # Get validation history for this page
             history = state.validation_state.page_histories.get(i)
@@ -316,20 +333,24 @@ async def validate(state: BuilderState) -> BuilderState:
             
             # Add any issues found
             if validation_issues.script_issues or validation_issues.slide_issues:
-                if not state.validation_issues:
-                    state.validation_issues = ValidationIssues()
                 state.validation_issues.script_issues.extend(validation_issues.script_issues)
                 state.validation_issues.slide_issues.extend(validation_issues.slide_issues)
-                state.validation_state.invalid_pages.append(i)
+                if i not in state.validation_state.invalid_pages:
+                    state.validation_state.invalid_pages.append(i)
         
         # If no issues found, move to next stage
-        if not state.validation_issues or (
-            not state.validation_issues.script_issues and 
-            not state.validation_issues.slide_issues
-        ):
+        if not state.validation_issues.script_issues and not state.validation_issues.slide_issues:
             state.update_stage(WorkflowStage.VALIDATE)
             save_state(state, state.metadata.deck_id)
             log_state_change(state, "validate", "complete")
+        else:
+            # Keep track of validation state even if there are issues
+            save_state(state, state.metadata.deck_id)
+            log_state_change(state, "validate", "issues_found", {
+                "num_script_issues": len(state.validation_issues.script_issues),
+                "num_slide_issues": len(state.validation_issues.slide_issues),
+                "invalid_pages": state.validation_state.invalid_pages
+            })
             
         return state
             

@@ -7,6 +7,24 @@ from pydantic import BaseModel, Field, ConfigDict
 # Set up logging
 logger = logging.getLogger(__name__)
 
+class ContentSection(BaseModel):
+    """Model for header and content sections."""
+    header: str = ""
+    content: str = ""
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
+class Message(BaseModel):
+    """Model for LLM messages."""
+    role: str
+    content: str
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
 class WorkflowStage(str, Enum):
     """Stages in the builder workflow."""
     # New stages
@@ -43,6 +61,56 @@ class WorkflowStage(str, Enum):
         }
         return stage_mapping.get(stage, cls.INIT)
 
+class PageContent(BaseModel):
+    """Model for page content containing slide and script information."""
+    slide: ContentSection = Field(default_factory=ContentSection)
+    script: ContentSection = Field(default_factory=ContentSection)
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
+class Pages(BaseModel):
+    """Model for pages collection."""
+    pages: List[PageContent] = []
+
+class ValidationAttempt(BaseModel):
+    """Model for a single validation attempt."""
+    attempt: int
+    result: str
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
+class ValidationChange(BaseModel):
+    """Model for a validation change."""
+    description: str
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
+class PageValidationHistory(BaseModel):
+    """Track validation history for a page."""
+    page_number: int
+    attempts: List[ValidationAttempt] = Field(default_factory=list)
+    changes: List[ValidationChange] = Field(default_factory=list)
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
+class ValidationState(BaseModel):
+    """Track validation state across attempts."""
+    current_attempt: int = 0
+    page_histories: Dict[int, PageValidationHistory] = Field(default_factory=dict)
+    invalid_pages: List[int] = Field(default_factory=list)
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
 class DeckInfo(BaseModel):
     """Information about the deck."""
     path: str
@@ -71,6 +139,7 @@ class PageMetadata(BaseModel):
     page_name: str
     file_path: str
     content_type: str = "slide"
+    content: Optional[str] = None
 
 class PageSummary(BaseModel):
     """Summary of a page's content."""
@@ -127,12 +196,6 @@ class SlideContent(BaseModel):
     layout: str = "default"
     transitions: List[str] = Field(default_factory=list)
 
-class Message(BaseModel):
-    """Message for tracking agent communication."""
-    role: str
-    content: str
-    metadata: Dict[str, str] = Field(default_factory=dict)
-
 class GoogleDriveConfig(BaseModel):
     """Configuration for Google Drive integration."""
     credentials_path: str
@@ -174,6 +237,9 @@ class BuilderState(BaseModel):
     structured_slides: List[SlideContent] = Field(default_factory=list)
     slide_count: Optional[int] = None
     
+    # NEW FIELD: Structured pages containing slide and script content
+    structured_pages: Optional[Pages] = None
+    
     # Table data
     table_data: List[TableData] = Field(default_factory=list)
     
@@ -192,6 +258,9 @@ class BuilderState(BaseModel):
     
     # Validation state
     validation_issues: Optional[ValidationIssues] = Field(default_factory=ValidationIssues)
+    
+    # Validation state tracking
+    validation_state: Optional[ValidationState] = None
     
     # Error handling
     error_context: Optional[ErrorContext] = None

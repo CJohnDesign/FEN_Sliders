@@ -3,7 +3,7 @@ import logging
 import os
 from pathlib import Path
 from typing import Optional, List
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from langchain.prompts import ChatPromptTemplate
 from langsmith import Client, trace
 from langsmith.run_helpers import traceable
@@ -23,10 +23,10 @@ ls_client = Client()
 
 class SlideState(BaseModel):
     """State for slide generation."""
-    processed_summaries: str
-    template: str
-    slides_content: Optional[str] = None
-    structured_slides: List[SlideContent] = []
+    processed_summaries: str = Field(default="")  # Default to empty string
+    template: str = Field(default="")  # Default to empty string
+    slides_content: Optional[str] = Field(default=None)
+    structured_slides: List[SlideContent] = Field(default_factory=list)
 
 def get_template(state: BuilderState) -> str:
     """Get the slides template from state.
@@ -38,14 +38,21 @@ def get_template(state: BuilderState) -> str:
         str: The template content or empty string if not found
     """
     try:
-        if not state.slides:
-            logger.error("No template content found in state")
-            return ""
+        # Check if template exists in state
+        if state.slides:
+            return state.slides
             
-        return state.slides
+        # Try to read template from file
+        if state.deck_info and state.deck_info.path:
+            template_path = Path(state.deck_info.path) / "slides.md"
+            if template_path.exists():
+                return template_path.read_text()
+                
+        logger.warning("No template found, using empty template")
+        return ""
         
     except Exception as e:
-        logger.error(f"Error accessing template from state: {str(e)}")
+        logger.error(f"Error accessing template: {str(e)}")
         return ""
 
 @traceable(name="save_slides_to_file")
@@ -71,12 +78,21 @@ async def process_slides(state: BuilderState) -> BuilderState:
             logger.info("Starting slide processing...")
             logger.info(f"Current stage: {state.current_stage}")
             
+            # Get template
+            template = get_template(state)
+            logger.info(f"Template length: {len(template)}")
+            
+            # Get processed summaries with fallback
+            processed_summaries = ""
+            if hasattr(state, 'processed_summaries') and state.processed_summaries:
+                processed_summaries = state.processed_summaries
+            else:
+                logger.warning("No processed summaries found in state")
+            
             # Initialize slide state
             slide_state = SlideState(
-                processed_summaries=state.processed_summaries if hasattr(state, 'processed_summaries') else "",
-                template=state.slides if hasattr(state, 'slides') else "",
-                slides_content=None,
-                structured_slides=[]
+                processed_summaries=processed_summaries,
+                template=template
             )
             
             # Verify we're in the correct stage and fix if needed
@@ -85,22 +101,12 @@ async def process_slides(state: BuilderState) -> BuilderState:
                 state.update_stage(WorkflowStage.PROCESS_SLIDES)
                 
             # Validate required state attributes
-            required_attrs = {
-                "processed_summaries": "Processed summaries",
-                "deck_info": "Deck information",
-                "metadata": "Deck metadata"
-            }
+            if not processed_summaries:
+                error_msg = "Missing processed summaries"
+                logger.error(error_msg)
+                state.set_error(error_msg, "process_slides")
+                return state
             
-            for attr, desc in required_attrs.items():
-                if not hasattr(state, attr) or not getattr(state, attr):
-                    logger.error(f"Missing required state attribute: {attr}")
-                    state.set_error(
-                        f"Missing {desc}",
-                        "process_slides",
-                        {"missing": [attr]}
-                    )
-                    return state
-                    
             logger.info("All required attributes present")
             logger.info(f"Processed summaries length: {len(state.processed_summaries)}")
             

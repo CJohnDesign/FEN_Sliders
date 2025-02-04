@@ -4,14 +4,14 @@ from langgraph.pregel import END
 from typing import Annotated, TypeVar, Callable, Any
 from .state import BuilderState, WorkflowStage
 from .nodes import (
-    create_deck_structure,
+    create_deck,
     process_imgs,
     process_summaries,
     extract_tables,
     aggregate_summary,
     process_slides,
     setup_audio,
-    validate_and_fix,
+    validate,
     google_drive_sync
 )
 
@@ -42,14 +42,14 @@ def create_builder_graph(start_node: str = "create_deck"):
     workflow = StateGraph(state_schema=BuilderState)
     
     # Add nodes - LangGraph will handle async/sync automatically
-    workflow.add_node("create_deck", create_deck_structure)
+    workflow.add_node("create_deck", create_deck)
     workflow.add_node("process_imgs", process_imgs)
     workflow.add_node("process_summaries", process_summaries)
     workflow.add_node("extract_tables", extract_tables)
     workflow.add_node("aggregate_summary", aggregate_summary)
     workflow.add_node("process_slides", process_slides)
     workflow.add_node("setup_audio", setup_audio)
-    workflow.add_node("validate", validate_and_fix)
+    workflow.add_node("validate", validate)
     workflow.add_node("google_drive_sync", google_drive_sync)
     
     # Set entry point based on start_node

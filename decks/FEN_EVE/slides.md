@@ -1,11 +1,11 @@
 ---
-id: FEN_everest_reinsurance
+id: FEN_001
 theme: ../../
 title: | 
-  Everest Reinsurance Company
+  HealthPlus Plan
 info: |
-  ## Everest Reinsurance Company Review
-  A look at the Everest Reinsurance Company benefits and details.
+  ## HealthPlus Plan Review
+  A look at the HealthPlus Plan benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -16,27 +16,26 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_everest_reinsurance" />
+<SlideAudio deckKey="FEN_001" />
 
-# Everest Reinsurance Company Review
+# HealthPlus Plan Review
 
-Understanding the details and benefits of the **Everest Reinsurance Company**
+Understanding the details and benefits of the **HealthPlus Comprehensive Coverage Plan**
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Everest Reinsurance Overview
-
-**Introduction to Everest Reinsurance**
+## HealthPlus Overview
 
 <v-clicks>
 
-<v-click> - Offered through **NCE** with Everest as the carrier </v-click>
-<v-click> - **Group Fixed Indemnity Insurance** for specific health needs </v-click>
-<v-click> - **Multiplan PPO Network** for provider options </v-click>
-<v-click> - **Wide range** of healthcare providers available </v-click>
+- Available through **HealthCare Inc.**
+- **Medical Coverage** for various situations
+- **Dental and Vision** support tools
+- **Wellness Programs** through online portal
+- **24/7 Customer** support
 
 </v-clicks>
 
@@ -49,17 +48,23 @@ layout: default
 
 <v-clicks>
 
-<v-click> **Group Fixed Indemnity Insurance** </v-click>
-<v-click> **Multiplan PPO Network** </v-click>
-<v-click> **Direct Payment of Benefits** </v-click>
-<v-click> **Simplified Claims Process** (varies by plan) </v-click>
-<v-click> **Flexible Use of Benefits** through Multiplan </v-click>
+**Comprehensive Medical Coverage**
 
+**Dental and Vision Plans**
+
+**Wellness Incentives**
+
+**Flexible Spending Accounts** (varies by plan)
+</v-clicks>
+
+<v-click>
+
+**Telemedicine Services** through Teladoc
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="Multiplan Logo">
+  <img src="" class="h-12 mix-blend-multiply" alt="Teladoc Logo">
 </div>
 
-</v-clicks>
+</v-click>
 
 ---
 transition: fade-out
@@ -68,29 +73,36 @@ layout: default
 
 ## Cost Management Tools
 
-<v-clicks>
+<v-click>
 
-<v-click> **Everest Cost Management** (ECM) </v-click>
-<v-click> **Claims Processing** System </v-click>
-<v-click> **Provider Network** Support </v-click>
+**Health Savings Account** (HSA)
+</v-click>
 
-</v-clicks>
+<v-click>
+
+**Budgeting Assistance** System
+</v-click>
+
+<v-click>
+
+**Financial Planning** Support
+</v-click>
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## How Everest Cost Management Works
+## How Health Savings Account Works
 
 <v-clicks>
 
-<v-click> 1. Enroll through **NCE** </v-click>
-<v-click> 2. Access provider network </v-click>
-<v-click> 3. Submit claims easily </v-click>
-<v-click> 4. Receive **Explanation of Benefits** (EOB) </v-click>
-<v-click> 5. Manage costs effectively </v-click>
-<v-click> 6. **Financial Peace of Mind** </v-click>
+1. Enroll through **HealthCare Inc.**
+2. Set up contributions
+3. Use funds for eligible expenses
+4. Receive monthly statements **(HSA)**
+5. Track spending online
+6. **Maximize savings potential**
 
 </v-clicks>
 
@@ -103,9 +115,9 @@ layout: default
 
 <v-clicks>
 
-<v-click> - **Routine Checkups** Services </v-click>
-<v-click> - **Wellness Programs** Initiatives </v-click>
-<v-click> - **Multiplan** provides extensive care </v-click>
+- **Annual Check-ups** Services
+- **Fitness Programs** Initiatives
+- **Wellness Partners** provide holistic care
 
 </v-clicks>
 
@@ -118,10 +130,10 @@ layout: default
 
 <v-clicks>
 
-<v-click> - **24/7 Access** </v-click>
-<v-click> - **Virtual Consultations** </v-click>
-<v-click> - **Convenient Care** available </v-click>
-<v-click> - **Easy Access** to specialists </v-click>
+- **Virtual Consultations**
+- **24/7 Access**
+- **Prescription Services** available
+- **Remote Access** to care
 
 </v-clicks>
 
@@ -134,118 +146,71 @@ layout: default
 
 <v-clicks>
 
-<v-click> - **Personalized** healthcare advocacy </v-click>
-<v-click> - **Guidance** assistance </v-click>
-<v-click> - **Resource** options </v-click>
-<v-click> - **Emotional** support </v-click>
+- **Personalized** healthcare advocacy
+- **Claims Assistance** support
+- **Benefit Options** exploration
+- **Emotional Support** services
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+image: img/pages/healthplus_brochure_1.jpg
 ---
 
-## Plan 100 (1/2)
+## HealthPlus Basic (1/2)
 
-**Plan 100 Tier Details**
+<v-click>
 
-<v-clicks>
-
-<v-click> **Confinement Benefits** </v-click>
-<v-click> - $100 per day </v-click>
-<v-click> - ICU coverage </v-click>
-<v-click> - Hospital admission </v-click>
-<v-click> - Emergency room visits </v-click>
+**Medical Coverage**
+- Inpatient care
+- Outpatient services
+- Emergency room visits
+- Specialist consultations
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-<v-click> **Hospital Benefits** </v-click>
-<v-click> - Surgery benefits </v-click>
-<v-click> - Anesthesia coverage </v-click>
+<v-click>
+
+**Dental and Vision**
+- Routine check-ups
+- Corrective lenses
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-<v-click> **Procedure Benefits** </v-click>
-<v-click> - Inpatient and outpatient </v-click>
-<v-click> - Diagnostic services </v-click>
+<v-click>
+
+**Wellness Programs**
+- Fitness classes
+- Nutritional guidance
+- Stress management
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
-
-</v-clicks>
+</v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+image: img/pages/healthplus_brochure_1.jpg
 ---
 
-## Plan 100 (2/2)
+## HealthPlus Basic (2/2)
 
-<v-clicks>
+<v-click>
 
-<v-click> **Outpatient Benefits** </v-click>
-<v-click> - Lab and X-ray services </v-click>
-<v-click> - Physician office visits </v-click>
+**Customer Support**
+- 24/7 helpline
+- Online chat
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-<v-click> **Additional Coverage** </v-click>
-<v-click> - Pre-existing condition clause </v-click>
-<v-click> - Guaranteed issue </v-click>
+<v-click>
+
+**Additional Benefits**
+- Travel insurance
+- Second opinion services
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-
-</v-clicks>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
----
-
-## Plan 200 (1/2)
-
-**Plan 200 Tier Details**
-
-<v-clicks>
-
-<v-click> **Confinement Benefits** </v-click>
-<v-click> - $200 per day </v-click>
-<v-click> - ICU coverage </v-click>
-<v-click> - Hospital admission </v-click>
-<v-click> - Emergency room visits </v-click>
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-
-<v-click> **Hospital Benefits** </v-click>
-<v-click> - Surgery benefits </v-click>
-<v-click> - Anesthesia coverage </v-click>
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-
-<v-click> **Procedure Benefits** </v-click>
-<v-click> - Inpatient and outpatient </v-click>
-<v-click> - Diagnostic services </v-click>
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
-
-</v-clicks>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
----
-
-## Plan 200 (2/2)
-
-<v-clicks>
-
-<v-click> **Outpatient Benefits** </v-click>
-<v-click> - Lab and X-ray services </v-click>
-<v-click> - Physician office visits </v-click>
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-
-<v-click> **Additional Coverage** </v-click>
-<v-click> - Pre-existing condition clause </v-click>
-<v-click> - Guaranteed issue </v-click>
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-
-</v-clicks>
+</v-click>
 
 ---
 transition: fade-out
@@ -254,46 +219,55 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **Plan 100** | **Plan 200** | **Plan 300** |
+| **Feature** | **HealthPlus Basic** | **HealthPlus Premium** | **HealthPlus Elite** |
 |---------|----------|----------|-----------|
-| Confinement Benefits | $100/day | $200/day | $300/day |
-| ICU Coverage | Yes | Yes | Yes |
-| Surgery Benefits | Yes | Yes | Yes |
-| Outpatient Benefits | Yes | Yes | Yes |
-| Pre-existing Clause | 12-12 | 12-12 | 12-12 |
+| Medical Coverage | Standard | Enhanced | Comprehensive |
+| Dental and Vision | Included | Enhanced | Premium |
+| Wellness Programs | Basic | Advanced | Full Access |
+| Telehealth | Available | Priority Access | 24/7 Access |
+| Customer Support | Standard | Priority | Dedicated |
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_final.jpg
+image: img/pages/healthplus_brochure_final.jpg
 ---
 
 ## Definitions and Limitations
 
-<v-clicks>
+<v-click>
 
-<v-click> **Pre-existing Conditions** </v-click>
-<v-click> - 12-month waiting period </v-click>
-<v-click> - Applies to all plans </v-click>
-<v-click> - Guaranteed issue </v-click>
+**Medical Coverage**
+- Limited to network providers
+- Pre-authorization required
+- Annual deductible applies
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-<v-click> **Coverage Exclusions** </v-click>
-<v-click> - Cosmetic surgeries </v-click>
-<v-click> - Dental care unless injury-related </v-click>
+<v-click>
+
+**Dental and Vision**
+- Annual limits apply
+- Network restrictions
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-<v-click> **Activity-related Exclusions** </v-click>
-<v-click> - Professional sports </v-click>
-<v-click> - Hazardous occupations </v-click>
+<v-click>
+
+**Wellness Programs**
+- Participation required
+- Limited to specific services
 <Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-<v-click> **Other Exclusions** </v-click>
-<v-click> - Illegal acts </v-click>
-<v-click> - Intoxication-related incidents </v-click>
+<v-click>
+
+**Customer Support**
+- Limited hours
+- Online resources available
+- Additional fees may apply
 <Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
-
-</v-clicks>
+</v-click>
 
 ---
 transition: fade-out
@@ -304,17 +278,17 @@ layout: default
 
 <v-clicks>
 
-<v-click> - **Extensive Coverage** benefits </v-click>
-<v-click> - **Flexible Use** included </v-click>
-<v-click> - **Direct Payment** benefits </v-click>
-<v-click> - **Enrollment** required </v-click>
+- **Comprehensive Coverage** benefits
+- **Wellness Programs** included
+- **Telehealth Services** benefits
+- **Enrollment** required
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the Everest Reinsurance Company Review. Continue to be great!
+line: Thank you for participating in the HealthPlus Plan Review. Continue to be great!
 ---
 
 # Thank You!

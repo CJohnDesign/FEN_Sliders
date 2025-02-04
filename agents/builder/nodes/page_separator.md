@@ -121,10 +121,23 @@ Now, let's look into the common service features.
 
 
 
- so these two examples would represent three pages and they should be safe together in a J which is then saved to state.
+ so these two examples would represent three pages and they should be safe together in a JSON which is then saved to state.
  
- 
- 
+ Example of a page:
+{
+  "pages": [
+    {
+      "slide": {
+        "header": "",
+        "content": ""
+      },
+      "script": {
+        "header": "",
+        "content": ""
+      }
+    }
+  ]
+}
  
  ------
  
@@ -145,5 +158,9 @@ Example of a page:
 Now the validator is going to loop through these pages and compare the content of the slide and the script to the content of the page in the Json object. If they match, the page is valid. If they don't match, the page is invalid. If the page comes back is not valid, then we should continue the current process of giving each example to the script and slide rider, respectively, and return that to state to recheck again. While we're at it, we should probably keep track of the changes in state too, so make sure to iterate that with two digits appended to the end of the state key.
 
 I want to create a very logical pattern for this recursive agent. We should load the prompts up with a lot of context. 
+
+---
+not started
+---
 
 We can give the task of writing it to the script, writer and slides writer note but I wanna create an additional prompt while we're in the validation step, which should be stored in the prompts directory. It should vary intelligently build the context to logically explain how things should sync. If I'm the first attempt to rewrite it, it still comes back false, we should be putting the previous step into the prompt as well with the new instructions so that it can hold context of the changes it's making. (I have a question about this because I'm worried that we might be getting redundant and expanding the contact links too much, will this be going into the same thread by default?)

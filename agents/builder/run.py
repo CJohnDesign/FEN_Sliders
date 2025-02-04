@@ -39,6 +39,11 @@ VALID_NODES = [
 
 def initialize_state(deck_id: str, title: str) -> BuilderState:
     """Initialize a fresh state with default values."""
+    if not deck_id or not isinstance(deck_id, str):
+        raise ValueError("deck_id must be a non-empty string")
+    if not title or not isinstance(title, str):
+        raise ValueError("title must be a non-empty string")
+        
     return BuilderState(
         metadata=DeckMetadata(
             deck_id=deck_id,
@@ -69,6 +74,14 @@ def prepare_state_for_graph(state: BuilderState) -> dict:
 async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
     """Run the builder workflow."""
     try:
+        # Validate inputs
+        if not deck_id or not isinstance(deck_id, str):
+            logger.error("Invalid deck_id provided")
+            return 1
+        if not title or not isinstance(title, str):
+            logger.error("Invalid title provided")
+            return 1
+            
         # Initialize or load state
         if start_node:
             # Load existing state or create new one

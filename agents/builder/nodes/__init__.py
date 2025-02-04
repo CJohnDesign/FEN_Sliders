@@ -1,26 +1,28 @@
-"""Builder workflow nodes."""
-from .create_deck import create_deck_structure
+"""Builder node functions."""
+from .create_deck import create_deck
 from .process_imgs import process_imgs
+from .process_summaries import process_summaries
+from .extract_tables import extract_tables
+from .aggregate_summary import aggregate_summary
 from .process_slides import process_slides
 from .setup_audio import setup_audio
-from .tables import extract_tables
-from .summary import process_summaries
-from .validator import validate_and_fix
+from .validate import validate
+from .google_drive_sync import google_drive_sync
+from .page_separator import page_separator
 from .slides_writer import slides_writer
 from .script_writer import script_writer
-from .aggregate_summary import aggregate_summary
-from .google_drive_sync import google_drive_sync
 
 __all__ = [
-    'create_deck_structure',
-    'process_slides',
-    'setup_audio',
-    'process_imgs',
-    'process_summaries',
-    'extract_tables',
-    'validate_and_fix',
-    'slides_writer',
-    'script_writer',
-    'aggregate_summary',
-    'google_drive_sync'
+    "create_deck",
+    "process_imgs",
+    "process_summaries", 
+    "extract_tables",
+    "aggregate_summary",
+    "process_slides",
+    "setup_audio",
+    "validate",
+    "google_drive_sync",
+    "page_separator",
+    "slides_writer",
+    "script_writer"
 ] 

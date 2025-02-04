@@ -1,164 +1,175 @@
-"""Create deck structure node for the builder agent."""
-import os
+"""Create deck node for initializing a new deck."""
 import logging
 import shutil
 from pathlib import Path
-from typing import Optional
-from ..state import BuilderState, WorkflowStage, DeckInfo, GoogleDriveConfig
-from ..utils.logging_utils import log_state_change, log_error
+from typing import Optional, Any
+from ..state import BuilderState, DeckInfo, DeckMetadata, WorkflowStage
 from ..utils.state_utils import save_state
+from ..utils.logging_utils import log_state_change, log_error
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
-def read_template_file(file_path: Path) -> Optional[str]:
-    """Read template file content."""
-    try:
-        if file_path.exists():
-            with open(file_path) as f:
-                return f.read()
-        return None
-    except Exception as e:
-        logger.error(f"Error reading template file {file_path}: {str(e)}")
-        return None
+def preserve_state(state: BuilderState, field_name: str) -> Any:
+    """Helper to preserve state fields."""
+    return getattr(state, field_name, None)
 
-async def create_deck_structure(state: BuilderState) -> BuilderState:
-    """Create initial deck directory structure."""
+def update_state(state: BuilderState, field_name: str, new_value: Any) -> None:
+    """Helper to safely update state fields."""
+    if not getattr(state, field_name, None):
+        setattr(state, field_name, new_value)
+        logger.info(f"Updated state field: {field_name}")
+
+def transition_stage(state: BuilderState, current: WorkflowStage, next_stage: WorkflowStage) -> None:
+    """Helper for stage transitions."""
+    if state.current_stage == current:
+        state.update_stage(next_stage)
+        save_state(state, state.metadata.deck_id)
+        log_state_change(state, current.value, "complete")
+        logger.info(f"Transitioned from {current} to {next_stage}")
+
+def setup_google_drive_config(state: BuilderState) -> None:
+    """Set up Google Drive configuration if not already present."""
     try:
-        # Initialize state if starting fresh
-        if not hasattr(state, 'current_stage') or state.current_stage == WorkflowStage.INIT:
-            logger.info("Initializing fresh state")
-            state.current_stage = WorkflowStage.CREATE_DECK
-            
-        # Initialize deck_info if not present
-        if not hasattr(state, 'deck_info') or state.deck_info is None:
-            logger.info("Initializing deck_info with FEN_TEMPLATE")
-            state.deck_info = DeckInfo(
-                path="",  # Will be set after directory creation
-                template="FEN_TEMPLATE"  # Use FEN_TEMPLATE instead of default
-            )
-            
-        # Get metadata
-        if not state.metadata:
-            logger.warning("No metadata found in state")
-            return state
-            
-        # Set up paths
-        base_dir = Path(__file__).parent.parent.parent.parent
-        template_dir = base_dir / "decks" / state.deck_info.template
-        deck_dir = base_dir / "decks" / state.metadata.deck_id
-        
-        # Initialize Google Drive configuration
-        credentials_path = base_dir / "firstenroll-f68aed7de363.json"
-        if credentials_path.exists():
+        if not state.google_drive_config:
             logger.info("Setting up Google Drive configuration")
-            state.google_drive_config = GoogleDriveConfig(
-                credentials_path=str(credentials_path),
-                pdf_folder_name=f"Insurance PDFs - {state.metadata.deck_id}",
-                docs_folder_name=f"Generated Docs - {state.metadata.deck_id}"
-            )
+            state.google_drive_config = None
             logger.info("Google Drive configuration initialized successfully")
-        else:
-            logger.warning(f"Google Drive credentials not found at {credentials_path}")
-            
-        # Check template exists
-        if not template_dir.exists():
-            logger.error(f"Template directory not found: {template_dir}")
-            state.set_error(
-                f"Template directory not found: {template_dir}",
-                "deck_creation",
-                {"template": state.deck_info.template}
-            )
+    except Exception as e:
+        logger.error(f"Error setting up Google Drive config: {str(e)}")
+
+async def create_deck(state: BuilderState) -> BuilderState:
+    """Create a new deck with initial structure while preserving existing state.
+    
+    Args:
+        state: Current builder state
+        
+    Returns:
+        Updated builder state
+    """
+    try:
+        logger.info("Starting deck creation")
+        
+        # Preserve existing metadata and deck info
+        existing_metadata = preserve_state(state, "metadata")
+        existing_deck_info = preserve_state(state, "deck_info")
+        
+        # Validate required state attributes
+        if not existing_metadata or not existing_metadata.deck_id:
+            logger.error("Missing deck ID in metadata")
+            state.set_error("Missing deck ID", "create_deck")
             return state
             
-        # Check if deck directory already exists and remove it
+        # Set up deck info if not present
+        if not existing_deck_info:
+            deck_dir = Path("decks") / existing_metadata.deck_id
+            new_deck_info = DeckInfo(
+                path=str(deck_dir),
+                template="FEN_TEMPLATE"
+            )
+            update_state(state, "deck_info", new_deck_info)
+            
+        # Get paths
+        deck_dir = Path(state.deck_info.path)
+        template_dir = deck_dir.parent / state.deck_info.template
+        
+        # Remove existing deck directory if it exists
         if deck_dir.exists():
             logger.info(f"Removing existing deck directory: {deck_dir}")
-            try:
-                shutil.rmtree(deck_dir)
-                logger.info(f"Successfully removed existing deck directory: {deck_dir}")
-            except Exception as e:
-                logger.error(f"Error removing existing deck directory: {e}")
-                state.set_error(
-                    f"Failed to remove existing deck directory: {str(e)}",
-                    "deck_creation"
-                )
-                return state
-                
+            shutil.rmtree(deck_dir)
+            logger.info(f"Successfully removed existing deck directory: {deck_dir}")
+            
         # Create fresh deck directory
         logger.info(f"Creating fresh deck directory: {deck_dir}")
         deck_dir.mkdir(parents=True, exist_ok=True)
         
-        # Create and copy directory structure
-        for dir_name in ["img/pages", "img/pdfs", "img/logos", "audio", "audio/oai", "ai"]:
-            # Create directory
-            target_dir = deck_dir / dir_name
-            target_dir.mkdir(parents=True, exist_ok=True)
-            
-            # Copy contents if directory exists in template
-            template_dir_path = template_dir / dir_name
-            if template_dir_path.exists():
-                for file in template_dir_path.iterdir():
-                    if file.is_file():
-                        shutil.copy2(file, target_dir)
-                        logger.info(f"Copied template file: {dir_name}/{file.name}")
-                        
-        # Read and copy template files
-        # First, copy slides.md
-        slides_template_path = template_dir / "slides.md"
-        if slides_template_path.exists():
-            state.slides = read_template_file(slides_template_path)
-            if state.slides:
-                slides_target = deck_dir / "slides.md"
-                with open(slides_target, "w") as f:
-                    f.write(state.slides)
-                logger.info("Copied slides.md template")
-                
-        # Copy audio script and config
-        audio_script_path = template_dir / "audio" / "audio_script.md"
-        if audio_script_path.exists():
-            state.script = read_template_file(audio_script_path)
-            if state.script:
-                script_target = deck_dir / "audio" / "audio_script.md"
-                with open(script_target, "w") as f:
-                    f.write(state.script)
-                logger.info("Copied audio_script.md template")
-                
-        audio_config_path = template_dir / "audio" / "audio_config.json"
-        if audio_config_path.exists():
-            shutil.copy2(audio_config_path, deck_dir / "audio" / "audio_config.json")
-            logger.info("Copied audio_config.json template")
-            
-        # Copy any remaining files from root directory
-        for file in template_dir.glob("*.*"):
-            if file.suffix in [".json", ".yaml", ".yml"] and file.is_file():
-                shutil.copy2(file, deck_dir)
-                logger.info(f"Copied template file: {file.name}")
+        # Copy template files
+        copy_template_files(template_dir, deck_dir)
         
-        # Update state with deck info
-        deck_info = DeckInfo(
-            path=str(deck_dir),
-            template=state.deck_info.template
-        )
-        state.deck_info = deck_info
+        # Initialize empty state fields if not present
+        empty_fields = {
+            "page_metadata": [],
+            "page_summaries": [],
+            "structured_slides": [],
+            "table_data": [],
+            "aggregated_content": [],
+            "validation_issues": None,
+            "validation_state": None,
+            "error_context": None
+        }
         
-        # Log completion and update stage
+        for field, default_value in empty_fields.items():
+            update_state(state, field, default_value)
+        
+        # Set up Google Drive config if needed
+        setup_google_drive_config(state)
+        
+        # Log completion and transition stage
         log_state_change(
             state=state,
             node_name="create_deck",
             change_type="complete",
             details={
-                "deck_path": str(deck_dir),
-                "google_drive_configured": state.google_drive_config is not None
+                "deck_id": state.metadata.deck_id,
+                "deck_path": str(deck_dir)
             }
         )
         
+        # Move to next stage
+        transition_stage(state, WorkflowStage.CREATE_DECK, WorkflowStage.PROCESS_IMAGES)
+        
         return state
-            
+        
     except Exception as e:
-        log_error(state, "create_deck", e)
-        state.error_context = {
-            "error": f"Failed to create deck: {str(e)}",
-            "stage": "deck_creation"
-        }
-        return state 
+        error_msg = f"Deck creation failed: {str(e)}"
+        logger.error(error_msg)
+        state.set_error(error_msg, "create_deck")
+        return state
+
+def copy_template_files(template_dir: Path, deck_dir: Path) -> None:
+    """Copy template files to deck directory.
+    
+    Args:
+        template_dir: Source template directory
+        deck_dir: Target deck directory
+    """
+    try:
+        # Create required directories
+        (deck_dir / "img" / "pages").mkdir(parents=True, exist_ok=True)
+        (deck_dir / "img" / "pdfs").mkdir(parents=True, exist_ok=True)
+        (deck_dir / "img" / "logos").mkdir(parents=True, exist_ok=True)
+        (deck_dir / "audio").mkdir(parents=True, exist_ok=True)
+        
+        # Copy template files
+        template_files = [
+            ("img/pages/.gitkeep", "img/pages/.gitkeep"),
+            ("img/pdfs/.gitkeep", "img/pdfs/.gitkeep"),
+            ("img/pdfs/.DS_Store", "img/pdfs/.DS_Store"),
+            ("img/pdfs/Everest_Brochure_REV.pdf", "img/pdfs/Everest_Brochure_REV.pdf"),
+            ("img/logos/FirstHealth_logo.png", "img/logos/FirstHealth_logo.png"),
+            ("img/logos/USFire-Premier_logo.png", "img/logos/USFire-Premier_logo.png"),
+            ("img/logos/.gitkeep", "img/logos/.gitkeep"),
+            ("img/logos/Ameritas_logo.png", "img/logos/Ameritas_logo.png"),
+            ("img/logos/FEN_logo.svg", "img/logos/FEN_logo.svg"),
+            ("img/logos/BWA_logo.png", "img/logos/BWA_logo.png"),
+            ("img/logos/MBR_logo.png", "img/logos/MBR_logo.png"),
+            ("img/logos/TDK_logo.jpg", "img/logos/TDK_logo.jpg"),
+            ("img/logos/EssentialCare_logo.png", "img/logos/EssentialCare_logo.png"),
+            ("img/logos/NCE_logo.png", "img/logos/NCE_logo.png"),
+            ("img/logos/AFSLIC_logo.png", "img/logos/AFSLIC_logo.png"),
+            ("audio_script.md", "audio/audio_script.md"),
+            ("slides.md", "slides.md")
+        ]
+        
+        for src, dst in template_files:
+            src_path = template_dir / src
+            dst_path = deck_dir / dst
+            if src_path.exists():
+                shutil.copy2(src_path, dst_path)
+                logger.info(f"Copied template file: {dst}")
+            else:
+                logger.warning(f"Template file not found: {src}")
+                
+    except Exception as e:
+        logger.error(f"Error copying template files: {str(e)}")
+        raise 
