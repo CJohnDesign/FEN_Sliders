@@ -7,7 +7,7 @@ from openai import AsyncOpenAI
 from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.messages import SystemMessage, HumanMessage
-from ..state import BuilderState, SlideContent
+from ..state import BuilderState, SlideContent, ValidationIssues, ValidationIssue
 from ..utils.logging_utils import log_state_change, log_error
 from ..config.models import get_model_config
 from ...utils.llm_utils import get_llm
@@ -41,14 +41,14 @@ def extract_preserved_slides(content: str) -> Tuple[str, str, str]:
     
     return first_slide, current_slides, last_slide
 
-def filter_validation_issues(issues: Dict) -> str:
+def filter_validation_issues(issues: ValidationIssues) -> str:
     """Filter and format validation issues specific to slides."""
-    if not issues or 'slide_issues' not in issues:
+    if not issues or not issues.slide_issues:
         return ""
         
     slides_issues = []
-    for issue in issues['slide_issues']:
-        slides_issues.append(f"- In section '{issue.get('section', '')}': {issue.get('issue', '')}")
+    for issue in issues.slide_issues:
+        slides_issues.append(f"- In section '{issue.section}': {issue.issue}")
     
     return "\nFix these validation issues:\n" + "\n".join(slides_issues) if slides_issues else ""
 
@@ -73,11 +73,11 @@ async def slides_writer(state: BuilderState) -> BuilderState:
     """Update slides that have validation issues while preserving the rest."""
     try:
         # Get current slides content and validation issues
-        current_slides = state.get("slides", "")  # This is the validated content from validator
-        validation_issues = state.get("validation_issues", {})
+        current_slides = state.get("slides", "")
+        validation_issues = state.get("validation_issues")
         
         # If no content or no issues, return current state
-        if not current_slides or not validation_issues.get('slide_issues'):
+        if not current_slides or not validation_issues or not validation_issues.slide_issues:
             logger.info("No slides content or no issues to fix")
             return state
             
@@ -88,7 +88,7 @@ async def slides_writer(state: BuilderState) -> BuilderState:
         middle_slide_sections = middle_slides.split('---') if middle_slides else []
         
         # Get list of sections that need fixing
-        sections_to_fix = {issue['section'] for issue in validation_issues.get('slide_issues', [])}
+        sections_to_fix = {issue.section for issue in validation_issues.slide_issues}
         
         # Format validation issues for the prompt
         validation_instructions = filter_validation_issues(validation_issues)
@@ -122,59 +122,25 @@ Instructions:
             }
         ]
 
-        # Create slides chain
+        # Create and run chain
         chain = create_slides_chain()
+        response = await chain.ainvoke({"messages": messages})
         
-        # Generate slides content
-        slides_content = await chain.ainvoke({
-            "template": state.deck_info.template,
-            "processed_summaries": state.processed_summaries
-        })
+        # Extract fixed slides content
+        fixed_slides = response.content if hasattr(response, 'content') else str(response)
         
-        # Write slides to file
-        output_path = Path(state.deck_info.path) / "slides.md"
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(output_path, "w") as f:
-            f.write(slides_content.content)
+        # Combine fixed slides with preserved slides
+        if first_slide and last_slide:
+            state.slides = f"{first_slide}\n---\n{fixed_slides}\n---\n{last_slide}"
+        else:
+            state.slides = fixed_slides
             
-        # Update state
-        state.slides = slides_content.content
-        
-        # Create structured slides
-        structured_slides = []
-        sections = slides_content.content.split("---")
-        for i, section in enumerate(sections):
-            if section.strip():
-                # Extract title from the section if it exists
-                lines = section.strip().split("\n")
-                title = next((line.replace("#", "").strip() for line in lines if line.startswith("#")), f"Slide {i + 1}")
-                
-                slide = SlideContent(
-                    page_number=i + 1,
-                    title=title,
-                    content=section.strip()
-                )
-                structured_slides.append(slide)
-                
-        state.structured_slides = structured_slides
-        
-        # Log completion
-        log_state_change(
-            state=state,
-            node_name="slides_writer",
-            change_type="complete",
-            details={
-                "slide_count": len(structured_slides),
-                "output_path": str(output_path)
-            }
-        )
-        
         return state
         
     except Exception as e:
         log_error(state, "slides_writer", e)
         state.error_context = {
-            "error": str(e),
-            "stage": "slides_writing"
+            "error": f"Failed to fix slides: {str(e)}",
+            "stage": "validation"
         }
         return state 

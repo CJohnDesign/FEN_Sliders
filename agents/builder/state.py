@@ -17,6 +17,7 @@ class WorkflowStage(str, Enum):
     PROCESS_SLIDES = "process_slides"
     SETUP_AUDIO = "setup_audio"
     VALIDATE = "validate"
+    GOOGLE_DRIVE_SYNC = "google_drive_sync"
     COMPLETE = "complete"
 
 class DeckInfo(BaseModel):
@@ -59,11 +60,21 @@ class TableData(BaseModel):
 
 class ValidationIssue(BaseModel):
     """Validation issue details."""
-    type: str
-    description: str
+    section: str
+    issue: str
     severity: str = "medium"
-    location: str
     suggestions: List[str] = Field(default_factory=list)
+
+class ValidationIssues(BaseModel):
+    """Collection of validation issues."""
+    script_issues: List[ValidationIssue] = Field(default_factory=list)
+    slide_issues: List[ValidationIssue] = Field(default_factory=list)
+
+class ValidationResult(BaseModel):
+    """Result of content validation."""
+    is_valid: bool
+    validation_issues: ValidationIssues = Field(default_factory=ValidationIssues)
+    suggested_fixes: Optional[Dict[str, str]] = Field(default_factory=dict)
 
 class SlideContent(BaseModel):
     """Structured slide content."""
@@ -80,6 +91,20 @@ class Message(BaseModel):
     role: str
     content: str
     metadata: Dict[str, str] = Field(default_factory=dict)
+
+class GoogleDriveConfig(BaseModel):
+    """Configuration for Google Drive integration."""
+    credentials_path: str
+    folder_id: Optional[str] = None
+    pdf_folder_name: str = "Insurance PDFs"
+    docs_folder_name: str = "Generated Docs"
+
+class GoogleDriveSyncInfo(BaseModel):
+    """Information about Google Drive sync status."""
+    pdf_folder_id: str
+    docs_folder_id: str
+    uploaded_pdfs: List[Dict[str, str]]
+    created_docs: List[Dict[str, str]]
 
 class BuilderState(BaseModel):
     """Main state container for the builder agent."""
@@ -114,6 +139,10 @@ class BuilderState(BaseModel):
     validation_issues: List[ValidationIssue] = Field(default_factory=list)
     error_context: Optional[Dict[str, Any]] = None
     awaiting_input: Optional[str] = None
+    
+    # Google Drive integration
+    google_drive_config: Optional[GoogleDriveConfig] = None
+    drive_sync_info: Optional[GoogleDriveSyncInfo] = None
     
     # Communication
     messages: List[Message] = Field(default_factory=list)

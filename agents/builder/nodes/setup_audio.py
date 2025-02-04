@@ -49,10 +49,7 @@ async def setup_audio(state: BuilderState) -> BuilderState:
         # Create prompt template
         prompt = ChatPromptTemplate.from_messages([
             ("system", SCRIPT_WRITER_SYSTEM_PROMPT),
-            ("human", SCRIPT_WRITER_HUMAN_PROMPT.format(
-                template="",  # Empty template since we're generating from slides
-                slides_content=state.slides
-            ))
+            ("human", SCRIPT_WRITER_HUMAN_PROMPT)
         ])
         
         # Create and execute the chain
@@ -61,10 +58,22 @@ async def setup_audio(state: BuilderState) -> BuilderState:
         
         # Generate audio script
         logger.info("Generating audio script...")
-        response = await chain.ainvoke({})
+        response = await chain.ainvoke({
+            "template": state.audio_script if hasattr(state, 'audio_script') else "",  # Handle case where audio_script doesn't exist
+            "slides_content": state.slides
+        })
         audio_script = response.content
         
         # Write audio script to file
+        # Get the deck path from state.deck_info.path
+        if not hasattr(state, 'deck_info') or not hasattr(state.deck_info, 'path'):
+            logger.error("Missing deck_info.path in state")
+            state.error_context = {
+                "error": "Missing deck path information",
+                "stage": "audio_setup"
+            }
+            return state
+            
         output_path = Path(state.deck_info.path) / "audio" / "audio_script.md"
         output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w") as f:
@@ -82,7 +91,7 @@ async def setup_audio(state: BuilderState) -> BuilderState:
         )
         
         # Update workflow stage
-        state.update_stage(WorkflowStage.SETUP_AUDIO)
+        state.current_stage = WorkflowStage.VALIDATE
         logger.info(f"Moving to next stage: {state.current_stage}")
         
         # Save state

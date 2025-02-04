@@ -2,11 +2,12 @@
 import logging
 from pathlib import Path
 from typing import List, Dict, Any, Optional
-from pydantic import BaseModel
+from string import Template
+from pydantic import BaseModel, Field
 from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.output_parsers import PydanticOutputParser
-from ..state import BuilderState, ValidationIssue, WorkflowStage
+from ..state import BuilderState, ValidationIssue, ValidationIssues, ValidationResult, WorkflowStage
 from ..prompts.validator_prompts import VALIDATION_PROMPT
 from ..utils.logging_utils import log_state_change, log_error, log_validation
 from ..config.models import get_model_config
@@ -17,10 +18,9 @@ import os
 import re
 from openai import AsyncOpenAI
 from langsmith.run_helpers import traceable
-from ..utils.content import save_content
 from ...utils.content import save_content
 from ..utils.content_parser import Section, parse_script_sections, parse_slides_sections, update_state_with_content
-from .script_writer import script_writer
+from .script_writer import script_writer, escape_curly_braces
 from .slides_writer import slides_writer
 
 # Set up logging
@@ -29,8 +29,8 @@ logger = logging.getLogger(__name__)
 class ValidationResult(BaseModel):
     """Validation result from LLM."""
     is_valid: bool
-    issues: List[ValidationIssue] = []
-    suggested_fixes: Optional[Dict[str, Any]] = None
+    validation_issues: ValidationIssues = Field(default_factory=ValidationIssues)
+    suggested_fixes: Optional[Dict[str, str]] = Field(default_factory=dict)
 
 async def create_validator_chain():
     """Create the chain for validating content."""
@@ -59,12 +59,12 @@ async def validate_content(state: BuilderState) -> ValidationResult:
         
         # Format content as a string with sections
         content_sections = []
-        if state.slides:
-            content_sections.append("# Slides:\n" + state.slides)
-        if state.script:
-            content_sections.append("# Script:\n" + state.audio_script)
-        if state.metadata:
-            content_sections.append("# Metadata:\n" + str(state.metadata.model_dump()))
+        if hasattr(state, 'slides') and state.slides:
+            content_sections.append("# Slides:\n" + escape_curly_braces(state.slides))
+        if hasattr(state, 'script') and state.script:
+            content_sections.append("# Script:\n" + escape_curly_braces(state.script))
+        if hasattr(state, 'metadata') and state.metadata:
+            content_sections.append("# Metadata:\n" + escape_curly_braces(str(state.metadata.model_dump())))
             
         # Join sections with clear separators
         content = "\n\n---\n\n".join(content_sections)
@@ -72,52 +72,60 @@ async def validate_content(state: BuilderState) -> ValidationResult:
         # Run validation with properly formatted content
         result = await chain.ainvoke({"content": content})
         
-        # Log validation result
-        log_validation(
-            state=state,
-            validation_type="content",
+        # Convert to proper Pydantic model
+        validation_result = ValidationResult(
             is_valid=result.is_valid,
-            details={"issues": [issue.model_dump() for issue in result.issues] if result.issues else []}
+            validation_issues=ValidationIssues(
+                script_issues=[ValidationIssue(**issue) for issue in result.validation_issues.script_issues],
+                slide_issues=[ValidationIssue(**issue) for issue in result.validation_issues.slide_issues]
+            ),
+            suggested_fixes=result.suggested_fixes or {}
         )
         
-        return result
+        return validation_result
         
     except Exception as e:
         log_error(state, "validate_content", e)
         # Return failed validation with more specific error information
         return ValidationResult(
             is_valid=False,
-            issues=[ValidationIssue(
-                type="error",
-                description=f"Validation failed: {str(e)}",
-                severity="high",
-                location="validation",
-                suggestions=["Check if all required content is present", "Verify content format"]
-            )]
+            validation_issues=ValidationIssues(
+                script_issues=[
+                    ValidationIssue(
+                        section="validation",
+                        issue=f"Validation failed: {str(e)}",
+                        severity="high",
+                        suggestions=["Check if all required content is present", "Verify content format"]
+                    )
+                ],
+                slide_issues=[]
+            ),
+            suggested_fixes={}
         )
 
-async def apply_fixes(state: BuilderState, fixes: Dict[str, Any]) -> BuilderState:
-    """Apply suggested fixes to state."""
+async def apply_fixes(state: BuilderState, suggested_fixes: Dict[str, str]) -> BuilderState:
+    """Apply suggested fixes to content."""
     try:
-        # Apply fixes based on their type
-        if "slides" in fixes:
-            state.slides = fixes["slides"]
-            
-        if "script" in fixes:
-            state.script = fixes["script"]
-            
-        # Log fix application
-        log_validation(
-            state=state,
-            validation_type="fixes",
-            is_valid=True,
-            details={"applied_fixes": fixes}
-        )
+        logger.info("Applying fixes to content...")
         
+        # Apply script fixes if present
+        if "script" in suggested_fixes:
+            logger.info("Applying script fixes...")
+            state = await script_writer(state)
+            
+        # Apply slides fixes if present
+        if "slides" in suggested_fixes:
+            logger.info("Applying slides fixes...")
+            state = await slides_writer(state)
+            
         return state
         
     except Exception as e:
         log_error(state, "apply_fixes", e)
+        state.error_context = {
+            "error": f"Failed to apply fixes: {str(e)}",
+            "stage": "validation"
+        }
         return state
 
 async def validate_and_fix(state: BuilderState) -> BuilderState:
@@ -128,13 +136,11 @@ async def validate_and_fix(state: BuilderState) -> BuilderState:
             logger.warning(f"Expected stage {WorkflowStage.VALIDATE}, but got {state.current_stage}")
         
         # Initialize validation state if needed
-        if state.retry_count is None:
-            state.retry_count = 0
-        if state.max_retries is None:
-            state.max_retries = 3
+        state.retry_count = getattr(state, 'retry_count', 0)
+        state.max_retries = getattr(state, 'max_retries', 3)
             
         # Skip if no content to validate
-        if not state.slides and not state.script:
+        if not hasattr(state, 'slides') and not hasattr(state, 'script'):
             logger.info("No content to validate")
             state.error_context = {
                 "error": "No content available for validation",
@@ -147,7 +153,7 @@ async def validate_and_fix(state: BuilderState) -> BuilderState:
         
         # Update state with validation results
         state.needs_fixes = not validation_result.is_valid
-        state.validation_issues = validation_result.issues if validation_result.issues else []
+        state.validation_issues = validation_result.validation_issues
         
         # Apply fixes if needed and available
         if state.needs_fixes and validation_result.suggested_fixes:
@@ -161,7 +167,7 @@ async def validate_and_fix(state: BuilderState) -> BuilderState:
                 state.error_context = {
                     "error": "Max validation retries reached",
                     "stage": "validation",
-                    "issues": [issue.model_dump() for issue in state.validation_issues]
+                    "issues": validation_result.validation_issues.model_dump()
                 }
         
         # Log completion and update stage
@@ -170,32 +176,29 @@ async def validate_and_fix(state: BuilderState) -> BuilderState:
             node_name="validate",
             change_type="complete",
             details={
-                "validation_issues": len(state.validation_issues),
+                "validation_issues": len(validation_result.validation_issues.script_issues) + len(validation_result.validation_issues.slide_issues),
                 "needs_fixes": state.needs_fixes,
                 "retry_count": state.retry_count
             }
         )
         
         # Update workflow stage
-        state.update_stage(WorkflowStage.VALIDATE)
+        state.current_stage = WorkflowStage.VALIDATE
         logger.info(f"Moving to next stage: {state.current_stage}")
         
         # Save state
-        if state.metadata and state.metadata.deck_id:
+        if hasattr(state, 'metadata') and state.metadata and state.metadata.deck_id:
             save_state(state, state.metadata.deck_id)
             logger.info(f"Saved state for deck {state.metadata.deck_id}")
         
         return state
         
     except Exception as e:
-        log_error(state, "validate", e)
+        log_error(state, "validate_and_fix", e)
         state.error_context = {
-            "error": str(e),
+            "error": f"Validation failed: {str(e)}",
             "stage": "validation"
         }
-        # Save error state
-        if state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
         return state
 
 async def validate_sync(state: BuilderState) -> BuilderState:
@@ -206,13 +209,11 @@ async def validate_sync(state: BuilderState) -> BuilderState:
             logger.warning(f"Expected stage {WorkflowStage.VALIDATE}, but got {state.current_stage}")
         
         # Initialize validation state if needed
-        if state.retry_count is None:
-            state.retry_count = 0
-        if state.max_retries is None:
-            state.max_retries = 3
+        state.retry_count = getattr(state, 'retry_count', 0)
+        state.max_retries = getattr(state, 'max_retries', 3)
             
         # Skip if no content to validate
-        if not state.slides and not state.script:
+        if not hasattr(state, 'slides') or not hasattr(state, 'script'):
             logger.info("No content to validate")
             state.error_context = {
                 "error": "No content available for validation",
@@ -224,6 +225,15 @@ async def validate_sync(state: BuilderState) -> BuilderState:
         script_sections = parse_script_sections(state.script)
         slides_sections = parse_slides_sections(state.slides)
 
+        # Create message template
+        message_template = Template('''Validate these sections and return a JSON response:
+                
+SCRIPT SECTIONS:
+$script_sections
+
+SLIDES SECTIONS:
+$slides_sections''')
+
         # Create messages for validation
         messages = [
             {
@@ -232,13 +242,10 @@ async def validate_sync(state: BuilderState) -> BuilderState:
             },
             {
                 "role": "user",
-                "content": f"""Validate these sections and return a JSON response:
-                
-                SCRIPT SECTIONS:
-                {json.dumps([s for s in script_sections], indent=2) if script_sections else "No script sections"}
-                
-                SLIDES SECTIONS:
-                {json.dumps([s for s in slides_sections], indent=2) if slides_sections else "No slides sections"}"""
+                "content": message_template.substitute(
+                    script_sections=escape_curly_braces(json.dumps([s for s in script_sections], indent=2) if script_sections else "No script sections"),
+                    slides_sections=escape_curly_braces(json.dumps([s for s in slides_sections], indent=2) if slides_sections else "No slides sections")
+                )
             }
         ]
 
@@ -247,7 +254,7 @@ async def validate_sync(state: BuilderState) -> BuilderState:
         
         # Update state with validation results
         state.needs_fixes = not result.is_valid
-        state.validation_issues = result.issues if result.issues else []
+        state.validation_issues = result.validation_issues
         
         # Apply fixes if needed and available
         if state.needs_fixes and result.suggested_fixes:
@@ -261,7 +268,7 @@ async def validate_sync(state: BuilderState) -> BuilderState:
                 state.error_context = {
                     "error": "Max validation retries reached",
                     "stage": "validation",
-                    "issues": [issue.model_dump() for issue in state.validation_issues]
+                    "issues": [issue for issues in state.validation_issues.values() for issue in issues]
                 }
         
         # Log completion and update stage
@@ -290,10 +297,7 @@ async def validate_sync(state: BuilderState) -> BuilderState:
     except Exception as e:
         log_error(state, "validate_sync", e)
         state.error_context = {
-            "error": str(e),
+            "error": f"Validation sync failed: {str(e)}",
             "stage": "validation"
         }
-        # Save error state
-        if state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
         return state 

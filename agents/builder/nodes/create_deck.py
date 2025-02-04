@@ -1,35 +1,26 @@
-"""Create deck node for initializing deck structure."""
+"""Create deck structure node for the builder agent."""
+import os
 import logging
 import shutil
 from pathlib import Path
-from typing import Dict
-from ..state import BuilderState, DeckInfo, WorkflowStage
+from typing import Optional
+from ..state import BuilderState, WorkflowStage, DeckInfo, GoogleDriveConfig
 from ..utils.logging_utils import log_state_change, log_error
 from ..utils.state_utils import save_state
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
-def read_template_file(file_path: Path) -> str:
-    """Read a template file and return its contents.
-    
-    Args:
-        file_path: Path to the template file
-        
-    Returns:
-        str: The file contents or empty string if file doesn't exist
-    """
+def read_template_file(file_path: Path) -> Optional[str]:
+    """Read template file content."""
     try:
-        if not file_path.exists():
-            logger.error(f"Template file not found: {file_path}")
-            return ""
-            
-        with open(file_path) as f:
-            return f.read()
-            
+        if file_path.exists():
+            with open(file_path) as f:
+                return f.read()
+        return None
     except Exception as e:
-        logger.error(f"Error reading template file: {str(e)}")
-        return ""
+        logger.error(f"Error reading template file {file_path}: {str(e)}")
+        return None
 
 async def create_deck_structure(state: BuilderState) -> BuilderState:
     """Create initial deck directory structure."""
@@ -48,6 +39,19 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
         template_dir = base_dir / "decks" / state.deck_info.template
         deck_dir = base_dir / "decks" / state.metadata.deck_id
         
+        # Initialize Google Drive configuration
+        credentials_path = base_dir / "firstenroll-f68aed7de363.json"
+        if credentials_path.exists():
+            logger.info("Setting up Google Drive configuration")
+            state.google_drive_config = GoogleDriveConfig(
+                credentials_path=str(credentials_path),
+                pdf_folder_name=f"Insurance PDFs - {state.metadata.deck_id}",
+                docs_folder_name=f"Generated Docs - {state.metadata.deck_id}"
+            )
+            logger.info("Google Drive configuration initialized successfully")
+        else:
+            logger.warning(f"Google Drive credentials not found at {credentials_path}")
+        
         # Check template exists
         if not template_dir.exists():
             logger.error(f"Template directory not found: {template_dir}")
@@ -62,7 +66,7 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
             except Exception as e:
                 logger.error(f"Error removing existing deck directory: {e}")
                 return state
-        
+                
         # Create fresh deck directory
         logger.info(f"Creating fresh deck directory: {deck_dir}")
         deck_dir.mkdir(parents=True, exist_ok=True)
@@ -116,7 +120,10 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
             state=state,
             node_name="create_deck",
             change_type="complete",
-            details={"deck_path": str(deck_dir)}
+            details={
+                "deck_path": str(deck_dir),
+                "google_drive_configured": state.google_drive_config is not None
+            }
         )
         
         # Update workflow stage

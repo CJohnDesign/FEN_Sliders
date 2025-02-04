@@ -9,6 +9,7 @@ from .validator import validate_and_fix
 from .slides_writer import slides_writer
 from .script_writer import script_writer
 from .aggregate_summary import aggregate_summary
+from .google_drive_sync import google_drive_sync
 
 __all__ = [
     'create_deck_structure',
@@ -20,5 +21,6 @@ __all__ = [
     'validate_and_fix',
     'slides_writer',
     'script_writer',
-    'aggregate_summary'
+    'aggregate_summary',
+    'google_drive_sync'
 ] 

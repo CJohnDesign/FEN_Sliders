@@ -10,7 +10,8 @@ from .nodes import (
     aggregate_summary,
     process_slides,
     setup_audio,
-    validate_and_fix
+    validate_and_fix,
+    google_drive_sync
 )
 
 def create_builder_graph(start_node: str = "create_deck"):
@@ -31,6 +32,7 @@ def create_builder_graph(start_node: str = "create_deck"):
     workflow.add_node("process_slides", process_slides)
     workflow.add_node("setup_audio", setup_audio)
     workflow.add_node("validate", validate_and_fix)
+    workflow.add_node("google_drive_sync", google_drive_sync)
     
     # Set entry point based on start_node
     workflow.set_entry_point(start_node)
@@ -43,7 +45,8 @@ def create_builder_graph(start_node: str = "create_deck"):
     workflow.add_edge("aggregate_summary", "process_slides")
     workflow.add_edge("process_slides", "setup_audio")
     workflow.add_edge("setup_audio", "validate")
-    workflow.add_edge("validate", END)
+    workflow.add_edge("validate", "google_drive_sync")
+    workflow.add_edge("google_drive_sync", END)
     
     return workflow.compile()
 

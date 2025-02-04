@@ -1,6 +1,6 @@
 """Prompts for the validator node."""
 
-VALIDATION_PROMPT = """You are an expert content validator specializing in presentation slides and scripts.
+VALIDATION_PROMPT = '''You are an expert content validator specializing in presentation slides and scripts.
 
 Your task is to validate the synchronization and quality of the presentation content according to these rules:
 
@@ -64,31 +64,34 @@ Notice how:
 3. Formatting is preserved
 4. Sections are properly separated
 
-Return your response as a JSON object with this exact structure:
-{
+Analyze the following content and return your response as a JSON object with this exact structure:
+{{
     "is_valid": false,
-    "validation_issues": {
+    "validation_issues": {{
         "script_issues": [
-            {
+            {{
                 "section": "section_name",
                 "issue": "description",
                 "severity": "low|medium|high",
                 "suggestions": ["suggestion 1", "suggestion 2"]
-            }
+            }}
         ],
         "slide_issues": [
-            {
+            {{
                 "section": "section_name",
                 "issue": "description",
                 "severity": "low|medium|high",
                 "suggestions": ["suggestion 1", "suggestion 2"]
-            }
+            }}
         ]
-    },
-    "suggested_fixes": {
+    }},
+    "suggested_fixes": {{
         "slides": "complete fixed slides content if needed",
         "script": "complete fixed script content if needed"
-    }
-}
+    }}
+}}
 
-The response MUST be a valid JSON object matching this structure exactly."""
+Content to validate:
+{content}
+
+The response MUST be a valid JSON object matching this structure exactly.'''

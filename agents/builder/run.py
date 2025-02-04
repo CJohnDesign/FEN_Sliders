@@ -32,7 +32,7 @@ VALID_NODES = [
     "extract_tables",
     "process_slides",
     "setup_audio",
-    "validate_sync",
+    "validate",
     "slides_writer",
     "script_writer"
 ]

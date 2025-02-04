@@ -6,4 +6,10 @@ langsmith>=0.0.69
 python-dotenv>=1.0.0
 openai>=1.12.0
 anthropic>=0.8.1
-pydantic>=2.5.0 
+pydantic>=2.5.0
+
+# Google API dependencies
+google-api-python-client>=2.108.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
+google-auth>=2.23.4 
