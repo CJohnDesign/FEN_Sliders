@@ -1,27 +1,20 @@
 """Validation node for checking deck content."""
 import logging
 from pathlib import Path
-from typing import List, Dict, Any, Optional
+from typing import Dict, Any, Optional
 from string import Template
-from pydantic import BaseModel, Field
-from langchain_community.chat_models import ChatOpenAI
+from pydantic import BaseModel, Field, ConfigDict
 from langchain.prompts import ChatPromptTemplate
 from langchain.output_parsers import PydanticOutputParser
-from ..state import BuilderState, ValidationIssue, ValidationIssues, ValidationResult, WorkflowStage
+from ..state import BuilderState, ValidationIssue, ValidationIssues, WorkflowStage
 from ..prompts.validator_prompts import VALIDATION_PROMPT
-from ..utils.logging_utils import log_state_change, log_error, log_validation
-from ..config.models import get_model_config
+from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
 from ..utils.state_utils import save_state
-import json
-import os
-import re
-from openai import AsyncOpenAI
-from langsmith.run_helpers import traceable
+from ..utils.content_parser import parse_script_sections, parse_slides_sections
+from .script_writer import escape_curly_braces
 from ...utils.content import save_content
-from ..utils.content_parser import Section, parse_script_sections, parse_slides_sections, update_state_with_content
-from .script_writer import script_writer, escape_curly_braces
-from .slides_writer import slides_writer
+import json
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -30,23 +23,19 @@ class ValidationResult(BaseModel):
     """Validation result from LLM."""
     is_valid: bool
     validation_issues: ValidationIssues = Field(default_factory=ValidationIssues)
-    suggested_fixes: Optional[Dict[str, str]] = Field(default_factory=dict)
+    suggested_fixes: Dict[str, str] = Field(default_factory=dict)
+    
+    model_config = ConfigDict(extra='forbid')
 
 async def create_validator_chain():
     """Create the chain for validating content."""
-    # Use centralized LLM configuration
     llm = await get_llm(
-        temperature=0.1,  # Lower temperature for validation
-        response_format={"type": "json_object"}  # Ensure JSON output
+        temperature=0.1,
+        response_format={"type": "json_object"}
     )
     
-    # Create prompt template
     prompt = ChatPromptTemplate.from_template(VALIDATION_PROMPT)
-    
-    # Create output parser
     parser = PydanticOutputParser(pydantic_object=ValidationResult)
-    
-    # Create chain
     chain = prompt | llm | parser
     
     return chain
@@ -54,39 +43,73 @@ async def create_validator_chain():
 async def validate_content(state: BuilderState) -> ValidationResult:
     """Validate deck content using LLM."""
     try:
-        # Create validation chain
         chain = await create_validator_chain()
         
-        # Format content as a string with sections
+        # Format content sections
         content_sections = []
-        if hasattr(state, 'slides') and state.slides:
+        if state.slides:
             content_sections.append("# Slides:\n" + escape_curly_braces(state.slides))
-        if hasattr(state, 'script') and state.script:
+        if state.script:
             content_sections.append("# Script:\n" + escape_curly_braces(state.script))
-        if hasattr(state, 'metadata') and state.metadata:
-            content_sections.append("# Metadata:\n" + escape_curly_braces(str(state.metadata.model_dump())))
+        if state.metadata:
+            content_sections.append("# Metadata:\n" + escape_curly_braces(state.metadata.model_dump_json()))
             
-        # Join sections with clear separators
+        # If no content to validate, return invalid result
+        if not content_sections:
+            return ValidationResult(
+                is_valid=False,
+                validation_issues=ValidationIssues(
+                    script_issues=[
+                        ValidationIssue(
+                            section="content",
+                            issue="No content available to validate",
+                            severity="high",
+                            suggestions=["Add slides content", "Add script content"]
+                        )
+                    ]
+                )
+            )
+            
         content = "\n\n---\n\n".join(content_sections)
+        logger.debug(f"Content to validate:\n{content}")
         
-        # Run validation with properly formatted content
-        result = await chain.ainvoke({"content": content})
-        
-        # Convert to proper Pydantic model
-        validation_result = ValidationResult(
-            is_valid=result.is_valid,
-            validation_issues=ValidationIssues(
-                script_issues=[ValidationIssue(**issue) for issue in result.validation_issues.script_issues],
-                slide_issues=[ValidationIssue(**issue) for issue in result.validation_issues.slide_issues]
-            ),
-            suggested_fixes=result.suggested_fixes or {}
-        )
-        
-        return validation_result
-        
+        try:
+            result = await chain.ainvoke({"content": content})
+            logger.debug(f"Raw validation result: {result}")
+            
+            # Convert to ValidationResult
+            validation_result = ValidationResult(
+                is_valid=result.is_valid,
+                validation_issues=ValidationIssues(
+                    script_issues=[
+                        ValidationIssue(
+                            section=issue.section,
+                            issue=issue.issue,
+                            severity=issue.severity,
+                            suggestions=issue.suggestions
+                        ) for issue in result.validation_issues.script_issues
+                    ],
+                    slide_issues=[
+                        ValidationIssue(
+                            section=issue.section,
+                            issue=issue.issue,
+                            severity=issue.severity,
+                            suggestions=issue.suggestions
+                        ) for issue in result.validation_issues.slide_issues
+                    ]
+                ),
+                suggested_fixes=result.suggested_fixes or {}
+            )
+            
+            logger.debug(f"Validation result: {validation_result.model_dump_json()}")
+            return validation_result
+            
+        except Exception as e:
+            logger.error(f"Validation chain error: {str(e)}")
+            raise
+            
     except Exception as e:
-        log_error(state, "validate_content", e)
-        # Return failed validation with more specific error information
+        logger.error(f"Validation failed: {str(e)}")
         return ValidationResult(
             is_valid=False,
             validation_issues=ValidationIssues(
@@ -95,199 +118,155 @@ async def validate_content(state: BuilderState) -> ValidationResult:
                         section="validation",
                         issue=f"Validation failed: {str(e)}",
                         severity="high",
-                        suggestions=["Check if all required content is present", "Verify content format"]
+                        suggestions=["Check content format", "Verify required fields"]
                     )
-                ],
-                slide_issues=[]
-            ),
-            suggested_fixes={}
+                ]
+            )
         )
 
-async def apply_fixes(state: BuilderState, suggested_fixes: Dict[str, str]) -> BuilderState:
-    """Apply suggested fixes to content."""
-    try:
-        logger.info("Applying fixes to content...")
-        
-        # Apply script fixes if present
-        if "script" in suggested_fixes:
-            logger.info("Applying script fixes...")
-            state = await script_writer(state)
-            
-        # Apply slides fixes if present
-        if "slides" in suggested_fixes:
-            logger.info("Applying slides fixes...")
-            state = await slides_writer(state)
-            
-        return state
-        
-    except Exception as e:
-        log_error(state, "apply_fixes", e)
-        state.error_context = {
-            "error": f"Failed to apply fixes: {str(e)}",
-            "stage": "validation"
-        }
-        return state
-
 async def validate_and_fix(state: BuilderState) -> BuilderState:
-    """Validate and fix deck content."""
+    """Validate and fix deck content using a ReAct pattern."""
     try:
-        # Verify we're in the correct stage
-        if state.current_stage != WorkflowStage.VALIDATE:
-            logger.warning(f"Expected stage {WorkflowStage.VALIDATE}, but got {state.current_stage}")
+        # Initialize validation loop
+        logger.info("Starting validation process")
+        state.retry_count = 0  # Reset retry count at start
         
-        # Initialize validation state if needed
-        state.retry_count = getattr(state, 'retry_count', 0)
-        state.max_retries = getattr(state, 'max_retries', 3)
-            
-        # Skip if no content to validate
-        if not hasattr(state, 'slides') and not hasattr(state, 'script'):
-            logger.info("No content to validate")
-            state.error_context = {
-                "error": "No content available for validation",
-                "stage": "validation"
-            }
+        # First check if we have required content
+        if not state.slides:
+            logger.warning("No slides content available - slides must be created before validation")
+            state.set_error(
+                "Missing required content",
+                "validation",
+                {"missing": ["slides"]}
+            )
             return state
             
-        # Validate content
-        validation_result = await validate_content(state)
-        
-        # Update state with validation results
-        state.needs_fixes = not validation_result.is_valid
-        state.validation_issues = validation_result.validation_issues
-        
-        # Apply fixes if needed and available
-        if state.needs_fixes and validation_result.suggested_fixes:
-            logger.info("Applying suggested fixes...")
-            state = await apply_fixes(state, validation_result.suggested_fixes)
+        while state.retry_count < state.max_retries:
             state.retry_count += 1
+            logger.info(f"Starting validation attempt {state.retry_count}/{state.max_retries}")
             
-            # Check if we've hit max retries
-            if state.retry_count >= state.max_retries:
-                logger.warning(f"Hit max retries ({state.max_retries})")
-                state.error_context = {
-                    "error": "Max validation retries reached",
-                    "stage": "validation",
-                    "issues": validation_result.validation_issues.model_dump()
+            # Observe: Get current state through validation
+            validation_result = await validate_content(state)
+            logger.info(f"Validation complete. Valid: {validation_result.is_valid}")
+            
+            # Update state with validation results
+            state.needs_fixes = not validation_result.is_valid
+            state.validation_issues = validation_result.validation_issues
+            
+            # If content is valid, we're done
+            if validation_result.is_valid:
+                logger.info("Content is valid, no fixes needed")
+                state.needs_fixes = False
+                # Save the final valid content
+                if state.deck_info and state.deck_info.path:
+                    # Save slides
+                    if state.slides:
+                        slides_path = Path(state.deck_info.path) / "slides.md"
+                        await save_content(slides_path, state.slides)
+                        logger.info(f"Saved validated slides to {slides_path}")
+                    
+                    # Save script
+                    if state.script:
+                        script_path = Path(state.deck_info.path) / "audio" / "audio_script.md"
+                        script_path.parent.mkdir(parents=True, exist_ok=True)
+                        await save_content(script_path, state.script)
+                        logger.info(f"Saved validated script to {script_path}")
+                break
+                
+            # Think: Determine what tools to use based on issues
+            tools_to_use = []
+            if validation_result.validation_issues.slide_issues:
+                tools_to_use.append("fix_slides")
+            if validation_result.validation_issues.script_issues:
+                tools_to_use.append("fix_script")
+                
+            if not tools_to_use:
+                logger.warning("No tools selected despite validation issues")
+                state.set_error(
+                    "Validation failed but no tools available to fix issues",
+                    "validation",
+                    {"issues": validation_result.validation_issues.model_dump()}
+                )
+                break
+                
+            # Act: Apply each selected tool
+            changes_made = False
+            from .validator_tools import VALIDATOR_TOOLS
+            
+            for tool_name in tools_to_use:
+                logger.info(f"Using tool: {tool_name}")
+                tool = VALIDATOR_TOOLS[tool_name]
+                updated_state, result = await tool(state)
+                
+                # Update state and track changes
+                if result["success"]:
+                    state = updated_state  # Update state with tool results
+                    changes_made = changes_made or result["changes_made"]
+                    logger.info(f"Tool {tool_name} result: {result['message']}")
+                    
+                    # Save the updated content after each successful tool run
+                    if state.deck_info and state.deck_info.path:
+                        if tool_name == "fix_slides" and state.slides:
+                            slides_path = Path(state.deck_info.path) / "slides.md"
+                            await save_content(slides_path, state.slides)
+                            logger.info(f"Saved updated slides to {slides_path}")
+                        elif tool_name == "fix_script" and state.script:
+                            script_path = Path(state.deck_info.path) / "audio" / "audio_script.md"
+                            script_path.parent.mkdir(parents=True, exist_ok=True)
+                            await save_content(script_path, state.script)
+                            logger.info(f"Saved updated script to {script_path}")
+                else:
+                    logger.error(f"Tool {tool_name} failed: {result['message']}")
+                    state.set_error(
+                        f"Tool {tool_name} failed to fix issues",
+                        "validation",
+                        {"tool": tool_name, "error": result["message"]}
+                    )
+                    break
+                    
+            # If no changes were made, break the loop to avoid infinite retries
+            if not changes_made:
+                logger.warning("No changes were made by any tools despite validation issues")
+                state.set_error(
+                    "Writers failed to make necessary changes",
+                    "validation",
+                    {"issues": state.validation_issues.model_dump()}
+                )
+                # Set needs_fixes to False to prevent further retries
+                state.needs_fixes = False
+                break
+                
+            logger.info("Changes made, continuing to next validation attempt")
+            
+        # Handle max retries
+        if state.retry_count >= state.max_retries and state.needs_fixes:
+            logger.error(f"Max validation attempts ({state.max_retries}) reached without success")
+            state.set_error(
+                "Max validation attempts reached without success",
+                "validation",
+                {
+                    "attempts": state.retry_count,
+                    "max_retries": state.max_retries,
+                    "issues": state.validation_issues.model_dump() if hasattr(state, 'validation_issues') else None
                 }
-        
-        # Log completion and update stage
+            )
+            # Set needs_fixes to False since we're giving up
+            state.needs_fixes = False
+            
+        # Log completion
         log_state_change(
             state=state,
             node_name="validate",
             change_type="complete",
             details={
-                "validation_issues": len(validation_result.validation_issues.script_issues) + len(validation_result.validation_issues.slide_issues),
+                "validation_issues": len(state.validation_issues.script_issues) + len(state.validation_issues.slide_issues),
                 "needs_fixes": state.needs_fixes,
                 "retry_count": state.retry_count
             }
         )
         
-        # Update workflow stage
-        state.current_stage = WorkflowStage.VALIDATE
-        logger.info(f"Moving to next stage: {state.current_stage}")
-        
-        # Save state
-        if hasattr(state, 'metadata') and state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
-            logger.info(f"Saved state for deck {state.metadata.deck_id}")
-        
-        return state
-        
-    except Exception as e:
-        log_error(state, "validate_and_fix", e)
-        state.error_context = {
-            "error": f"Validation failed: {str(e)}",
-            "stage": "validation"
-        }
-        return state
-
-async def validate_sync(state: BuilderState) -> BuilderState:
-    """Validate and fix slide-script synchronization."""
-    try:
-        # Verify we're in the correct stage
-        if state.current_stage != WorkflowStage.VALIDATE:
-            logger.warning(f"Expected stage {WorkflowStage.VALIDATE}, but got {state.current_stage}")
-        
-        # Initialize validation state if needed
-        state.retry_count = getattr(state, 'retry_count', 0)
-        state.max_retries = getattr(state, 'max_retries', 3)
-            
-        # Skip if no content to validate
-        if not hasattr(state, 'slides') or not hasattr(state, 'script'):
-            logger.info("No content to validate")
-            state.error_context = {
-                "error": "No content available for validation",
-                "stage": "validation"
-            }
-            return state
-            
-        # Parse script and slides sections
-        script_sections = parse_script_sections(state.script)
-        slides_sections = parse_slides_sections(state.slides)
-
-        # Create message template
-        message_template = Template('''Validate these sections and return a JSON response:
-                
-SCRIPT SECTIONS:
-$script_sections
-
-SLIDES SECTIONS:
-$slides_sections''')
-
-        # Create messages for validation
-        messages = [
-            {
-                "role": "system",
-                "content": VALIDATION_PROMPT
-            },
-            {
-                "role": "user",
-                "content": message_template.substitute(
-                    script_sections=escape_curly_braces(json.dumps([s for s in script_sections], indent=2) if script_sections else "No script sections"),
-                    slides_sections=escape_curly_braces(json.dumps([s for s in slides_sections], indent=2) if slides_sections else "No slides sections")
-                )
-            }
-        ]
-
-        # Run validation with properly formatted content
-        result = await validate_content(state)
-        
-        # Update state with validation results
-        state.needs_fixes = not result.is_valid
-        state.validation_issues = result.validation_issues
-        
-        # Apply fixes if needed and available
-        if state.needs_fixes and result.suggested_fixes:
-            logger.info("Applying suggested fixes...")
-            state = await apply_fixes(state, result.suggested_fixes)
-            state.retry_count += 1
-            
-            # Check if we've hit max retries
-            if state.retry_count >= state.max_retries:
-                logger.warning(f"Hit max retries ({state.max_retries})")
-                state.error_context = {
-                    "error": "Max validation retries reached",
-                    "stage": "validation",
-                    "issues": [issue for issues in state.validation_issues.values() for issue in issues]
-                }
-        
-        # Log completion and update stage
-        log_state_change(
-            state=state,
-            node_name="validate_sync",
-            change_type="complete",
-            details={
-                "validation_issues": len(state.validation_issues),
-                "needs_fixes": state.needs_fixes,
-                "retry_count": state.retry_count
-            }
-        )
-        
-        # Update workflow stage
+        # Update stage and save
         state.update_stage(WorkflowStage.VALIDATE)
-        logger.info(f"Moving to next stage: {state.current_stage}")
-        
-        # Save state
         if state.metadata and state.metadata.deck_id:
             save_state(state, state.metadata.deck_id)
             logger.info(f"Saved state for deck {state.metadata.deck_id}")
@@ -295,9 +274,11 @@ $slides_sections''')
         return state
         
     except Exception as e:
-        log_error(state, "validate_sync", e)
-        state.error_context = {
-            "error": f"Validation sync failed: {str(e)}",
-            "stage": "validation"
-        }
+        logger.error(f"Validation failed: {str(e)}")
+        state.set_error(
+            f"Validation process failed: {str(e)}",
+            "validation"
+        )
+        # Set needs_fixes to False since we encountered an error
+        state.needs_fixes = False
         return state 

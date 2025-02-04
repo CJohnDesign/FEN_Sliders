@@ -71,29 +71,58 @@ async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
     try:
         # Initialize or load state
         if start_node:
-            state = load_existing_state(deck_id) or initialize_state(deck_id, title)
+            # Load existing state or create new one
+            state = load_existing_state(deck_id)
+            if not state:
+                state = initialize_state(deck_id, title)
+                logger.info(f"Created new state for deck {deck_id}")
+            else:
+                logger.info(f"Loaded existing state for deck {deck_id}")
+            
             # Set the current stage based on start_node
             try:
-                stage = WorkflowStage(start_node)
+                # Convert node name to workflow stage
+                stage_map = {
+                    "create_deck": WorkflowStage.CREATE_DECK,
+                    "process_imgs": WorkflowStage.PROCESS_IMAGES,
+                    "process_summaries": WorkflowStage.PROCESS_SUMMARIES,
+                    "extract_tables": WorkflowStage.EXTRACT_TABLES,
+                    "aggregate_summary": WorkflowStage.AGGREGATE_SUMMARY,
+                    "process_slides": WorkflowStage.PROCESS_SLIDES,
+                    "setup_audio": WorkflowStage.SETUP_AUDIO,
+                    "validate": WorkflowStage.VALIDATE,
+                    "google_drive_sync": WorkflowStage.GOOGLE_DRIVE_SYNC
+                }
+                
+                if start_node not in stage_map:
+                    logger.error(f"Invalid start node: {start_node}")
+                    return 1
+                    
+                stage = stage_map[start_node]
                 state.current_stage = stage
+                logger.info(f"Set current stage to: {stage}")
+                
                 # Remove this stage and all subsequent stages from completed_stages
-                if state.completed_stages:
+                if hasattr(state, 'completed_stages') and state.completed_stages:
                     stage_order = list(WorkflowStage)
                     start_idx = stage_order.index(stage)
                     stages_to_remove = set(stage_order[start_idx:])
                     state.completed_stages = [s for s in state.completed_stages if s not in stages_to_remove]
-            except ValueError:
-                logger.error(f"Invalid start node: {start_node}")
+                    logger.info(f"Reset completed stages after {stage}")
+            except ValueError as e:
+                logger.error(f"Error setting workflow stage: {str(e)}")
                 return 1
         else:
             state = initialize_state(deck_id, title)
             start_node = "create_deck"  # Default start node
+            logger.info("Starting fresh workflow from create_deck")
         
         # Prepare state for graph execution
         graph_input = prepare_state_for_graph(state)
         
         # Create graph with specified start node
         graph = create_builder_graph(start_node)
+        logger.info(f"Created graph starting from node: {start_node}")
         
         # Run workflow
         try:

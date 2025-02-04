@@ -65,7 +65,8 @@ async def process_imgs(state: BuilderState) -> BuilderState:
         logger.info("Starting process_imgs node")
         
         # Verify we're in the correct stage
-        if state.current_stage != WorkflowStage.PROCESS_IMAGES:
+        expected_stages = [WorkflowStage.CREATE_DECK, WorkflowStage.PROCESS_IMAGES]  # Allow both stages
+        if state.current_stage not in expected_stages:
             logger.warning(f"Expected stage {WorkflowStage.PROCESS_IMAGES}, but got {state.current_stage}")
         
         # Check deck info exists

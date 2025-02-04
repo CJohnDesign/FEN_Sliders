@@ -1,7 +1,7 @@
 """Script writer node for the builder agent."""
 import json
 import logging
-from typing import Dict, List
+import os
 from pathlib import Path
 from string import Template
 from openai import AsyncOpenAI
@@ -16,6 +16,25 @@ from ...utils.llm_utils import get_llm
 # Set up logging
 logger = logging.getLogger(__name__)
 
+def save_script_to_file(script_content: str, deck_path: str) -> bool:
+    """Save script content to file."""
+    try:
+        deck_path = Path(deck_path)
+        script_path = deck_path / "audio" / "audio_script.md"
+        
+        # Ensure directory exists
+        script_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Write content
+        with open(script_path, "w") as f:
+            f.write(script_content)
+            
+        logger.info(f"Saved script to {script_path}")
+        return True
+    except Exception as e:
+        logger.error(f"Failed to save script: {str(e)}")
+        return False
+
 def escape_curly_braces(text: str) -> str:
     """Double up curly braces to escape them in f-strings."""
     return text.replace("{", "{{").replace("}", "}}")
@@ -28,6 +47,8 @@ def filter_validation_issues(issues: ValidationIssues) -> str:
     script_issues = []
     for issue in issues.script_issues:
         script_issues.append(f"- In section '{issue.section}': {issue.issue}")
+        if issue.suggestions:
+            script_issues.extend([f"  * {suggestion}" for suggestion in issue.suggestions])
     
     return "\nFix these validation issues:\n" + "\n".join(script_issues) if script_issues else ""
 
@@ -39,47 +60,100 @@ async def create_script_chain():
 
 @traceable(name="script_writer")
 async def script_writer(state: BuilderState) -> BuilderState:
-    """Update script sections that have validation issues while preserving the rest."""
+    """Update script based on validation issues and suggestions."""
     try:
         # Get current script content and validation issues
         current_script = state.script if hasattr(state, 'script') else ""
         validation_issues = state.validation_issues if hasattr(state, 'validation_issues') else None
         
-        # If no content or no issues, return current state
-        if not current_script or not validation_issues or not validation_issues.script_issues:
-            logger.info("No script content or no issues to fix")
+        # Check if we need to create initial script
+        needs_initial_script = (
+            not current_script and 
+            state.slides  # We have slides to work with
+        )
+        
+        if needs_initial_script:
+            logger.info("Creating initial script content")
+            # Create message template for initial script
+            message_template = Template('''Create a complete presentation script for these slides:
+
+Slides content:
+$slides_content
+
+Instructions:
+1. Create a natural, engaging script that follows the slides exactly
+2. Each slide section should be marked with ---- Section Title ----
+3. Include a line for each v-click point
+4. Use conversational, professional tone
+5. Spell out all numbers
+6. Define technical terms on first use
+7. Include smooth transitions between sections
+''')
+            
+            messages = [
+                {
+                    "role": "system",
+                    "content": SCRIPT_WRITER_PROMPT
+                },
+                {
+                    "role": "user",
+                    "content": message_template.substitute(
+                        slides_content=escape_curly_braces(state.slides)
+                    )
+                }
+            ]
+            
+            # Create and run chain
+            chain = await create_script_chain()
+            response = await chain.ainvoke(messages)
+            
+            # Extract script content
+            state.script = response.content if hasattr(response, 'content') else str(response)
+            logger.info("Created initial script content")
+            
+            # Save initial script to file
+            if state.deck_info and state.deck_info.path:
+                script_path = Path(state.deck_info.path) / "audio" / "audio_script.md"
+                script_path.parent.mkdir(parents=True, exist_ok=True)
+                await save_content(script_path, state.script)
+                logger.info(f"Saved initial script to {script_path}")
+                
             return state
             
-        # Parse script sections
-        script_sections = parse_script_sections(current_script)
-        
-        # Get list of sections that need fixing
-        sections_to_fix = {issue.section for issue in validation_issues.script_issues}
-        
+        # If no content to fix, return current state
+        if not current_script:
+            logger.info("No script content to fix")
+            return state
+            
         # Format validation issues for the prompt
-        validation_instructions = filter_validation_issues(validation_issues)
+        validation_instructions = filter_validation_issues(validation_issues) if validation_issues else ""
         
-        # Create message template
-        message_template = Template('''Fix ONLY these specific script sections that have issues. Keep all other sections exactly as they are:
+        # Get suggested fixes if available
+        suggested_fixes = validation_issues.suggested_fixes if hasattr(validation_issues, 'suggested_fixes') else {}
+        suggested_script_fixes = suggested_fixes.get('script', '')
+        
+        # Create message template for fixes
+        message_template = Template('''Review and update this script based on the validation issues and suggestions:
 
 Current script:
 $current_script
 
-Sections that need fixing:
-$sections_to_fix
+${validation_instructions}
 
-Validation issues to fix:
-$validation_instructions
+${suggested_fixes}
 
 Instructions:
-1. Return the complete script with fixed sections
-2. Only modify the sections listed in validation issues
-3. Keep all other sections exactly as they are
-4. Maintain the exact same section order
-5. Keep the same formatting and structure
+1. Return the complete updated script
+2. Address all validation issues and suggestions
+3. Maintain consistent formatting with ---- Section Title ----
+4. Keep v-click points on separate lines
+5. Use natural, conversational tone
+6. Spell out all numbers
+7. Define technical terms on first use
+8. Ensure smooth transitions between sections
 ''')
-
-        # Create messages for script generation
+        
+        # Create messages for script update
         messages = [
             {
                 "role": "system",
@@ -89,8 +163,8 @@ Instructions:
                 "role": "user",
                 "content": message_template.substitute(
                     current_script=escape_curly_braces(current_script),
-                    sections_to_fix=escape_curly_braces(json.dumps(list(sections_to_fix), indent=2)),
-                    validation_instructions=escape_curly_braces(validation_instructions)
+                    validation_instructions=escape_curly_braces(validation_instructions),
+                    suggested_fixes="Suggested fixes:" + suggested_script_fixes if suggested_script_fixes else ""
                 )
             }
         ]
@@ -99,14 +173,25 @@ Instructions:
         chain = await create_script_chain()
         response = await chain.ainvoke(messages)
         
-        # Extract fixed script content
-        fixed_script = response.content if hasattr(response, 'content') else str(response)
+        # Extract updated script content
+        updated_script = response.content if hasattr(response, 'content') else str(response)
         
-        # Update state with fixed script
-        state.script = fixed_script
+        # Verify changes were made
+        if updated_script != current_script:
+            logger.info("Script content updated")
+            state.script = updated_script
+            
+            # Save script to file
+            if state.deck_info and state.deck_info.path:
+                script_path = Path(state.deck_info.path) / "audio" / "audio_script.md"
+                script_path.parent.mkdir(parents=True, exist_ok=True)
+                await save_content(script_path, updated_script)
+                logger.info(f"Successfully saved updated script to {script_path}")
+        else:
+            logger.warning("No changes made to script content")
             
         return state
-        
+            
     except Exception as e:
         log_error(state, "script_writer", e)
         state.error_context = {

@@ -16,7 +16,8 @@ def get_base_config() -> Dict[str, Any]:
 async def get_completion(
     messages: List[Dict[str, str]], 
     model: str = "gpt-4o", 
-    temperature: float = 0.7
+    temperature: float = 0.7,
+    model_type: str = "standard"
 ) -> str:
     """Get a completion from the LLM.
     
@@ -24,6 +25,7 @@ async def get_completion(
         messages: List of message dictionaries with 'role' and 'content'
         model: Model identifier to use
         temperature: Temperature for generation
+        model_type: Type of model usage ("standard" or "reasoning")
         
     Returns:
         Generated completion text
@@ -31,6 +33,10 @@ async def get_completion(
     try:
         # Configure model
         config = get_base_config()
+        
+        # If model_type is reasoning, use o3-mini, otherwise use gpt-4o
+        model = "o3-mini" if model_type == "reasoning" else "gpt-4o"
+        
         config.update({
             "model": model,
             "temperature": temperature
@@ -60,7 +66,7 @@ async def get_llm(model: str = "gpt-4o", temperature: float = 0.7, response_form
     """Get a LangChain LLM instance configured with the specified parameters"""
     config = get_base_config()
     config.update({
-        "model": "gpt-4o",  # Always use gpt-4o
+        "model": "gpt-4o",  # Always use gpt-4o for this function
         "temperature": temperature,
         "model_kwargs": {"response_format": {"type": "json_object"}} if response_format else {}
     })

@@ -117,6 +117,7 @@ async def extract_tables(state: BuilderState) -> BuilderState:
         # Verify we're in the correct stage
         if state.current_stage != WorkflowStage.EXTRACT_TABLES:
             logger.warning(f"Expected stage {WorkflowStage.EXTRACT_TABLES}, but got {state.current_stage}")
+            state.update_stage(WorkflowStage.EXTRACT_TABLES)
             
         # Validate input state
         if not state.page_summaries:
@@ -140,16 +141,12 @@ async def extract_tables(state: BuilderState) -> BuilderState:
         logger.info(f"Found {len(pages_with_tables)} pages with tables:")
         for summary, path in pages_with_tables:
             logger.info(f"  - Page {summary.page_number}: {summary.page_name}")
-            if not os.path.exists(path):
-                logger.error(f"    Warning: File not found at {path}")
-                logger.error(f"    Current directory: {os.getcwd()}")
-                logger.error(f"    Is absolute path: {os.path.isabs(path)}")
-        
+            
         # Create table chain
         chain = await create_table_chain()
         
         # Process pages in batches
-        tables_data = {}
+        tables_data = []
         total_batches = (len(pages_with_tables) + BATCH_SIZE - 1) // BATCH_SIZE
         
         try:
@@ -162,11 +159,14 @@ async def extract_tables(state: BuilderState) -> BuilderState:
                 try:
                     batch_results = await process_page_batch(batch, chain)
                     if batch_results:
-                        tables_data.update(batch_results)
+                        for page_num, table in batch_results.items():
+                            if table:
+                                tables_data.append(table)
                         logger.info(f"Batch {current_batch} complete - extracted {len(batch_results)} tables")
                         for page_num, table in batch_results.items():
-                            logger.info(f"  - Page {page_num}: {len(table.rows)} rows, {len(table.headers)} columns")
-                            logger.info(f"    Headers: {table.headers}")
+                            if table:
+                                logger.info(f"  - Page {page_num}: {len(table.rows)} rows, {len(table.headers)} columns")
+                                logger.info(f"    Headers: {table.headers}")
                     else:
                         logger.error(f"Batch {current_batch} failed to process")
                 except Exception as batch_error:
@@ -182,13 +182,12 @@ async def extract_tables(state: BuilderState) -> BuilderState:
             return state
             
         # Update state with structured table data
-        state.tables_data = tables_data
+        state.table_data = tables_data
         
         logger.info(f"Table extraction completed. Processed {len(tables_data)} tables")
-        logger.info(f"Pages with extracted tables: {sorted(tables_data.keys())}")
         
         # Validate final state
-        if not state.tables_data:
+        if not state.table_data:
             logger.error("Final state validation failed - no tables data")
             return state
             
@@ -198,13 +197,13 @@ async def extract_tables(state: BuilderState) -> BuilderState:
             node_name="extract_tables",
             change_type="complete",
             details={
-                "tables_count": len(state.tables_data or {}),
-                "pages_with_tables": sorted(list(state.tables_data.keys())) if state.tables_data else []
+                "tables_count": len(state.table_data),
+                "pages_with_tables": sorted(list(set(s.page_number for s in state.page_summaries if s.has_tables)))
             }
         )
         
-        # Update workflow stage
-        state.update_stage(WorkflowStage.EXTRACT_TABLES)
+        # Update workflow stage to next stage
+        state.update_stage(WorkflowStage.AGGREGATE_SUMMARY)
         logger.info(f"Moving to next stage: {state.current_stage}")
         
         # Save state

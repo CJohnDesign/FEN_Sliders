@@ -2,13 +2,21 @@
 import logging
 from enum import Enum
 from typing import List, Optional, Dict, Any
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
 class WorkflowStage(str, Enum):
-    """Enum for tracking workflow stages."""
+    """Stages in the builder workflow."""
+    # New stages
+    INIT = "init"
+    VALIDATE = "validate"
+    GENERATE = "generate"
+    REVIEW = "review"
+    COMPLETE = "complete"
+    
+    # Legacy stages (for backward compatibility)
     CREATE_DECK = "create_deck"
     PROCESS_IMAGES = "process_imgs"
     PROCESS_SUMMARIES = "process_summaries"
@@ -16,22 +24,46 @@ class WorkflowStage(str, Enum):
     AGGREGATE_SUMMARY = "aggregate_summary"
     PROCESS_SLIDES = "process_slides"
     SETUP_AUDIO = "setup_audio"
-    VALIDATE = "validate"
     GOOGLE_DRIVE_SYNC = "google_drive_sync"
-    COMPLETE = "complete"
+    
+    @classmethod
+    def map_legacy_stage(cls, stage: str) -> 'WorkflowStage':
+        """Map legacy stage to new stage."""
+        stage_mapping = {
+            "create_deck": cls.INIT,
+            "process_imgs": cls.GENERATE,
+            "process_summaries": cls.GENERATE,
+            "extract_tables": cls.GENERATE,
+            "aggregate_summary": cls.GENERATE,
+            "process_slides": cls.GENERATE,
+            "setup_audio": cls.GENERATE,
+            "validate": cls.VALIDATE,
+            "google_drive_sync": cls.COMPLETE,
+            "complete": cls.COMPLETE
+        }
+        return stage_mapping.get(stage, cls.INIT)
 
 class DeckInfo(BaseModel):
     """Information about the deck."""
     path: str
     template: str = "FEN_TEMPLATE"
+    
+    model_config = ConfigDict(
+        extra='ignore'  # Allow extra fields for backward compatibility
+    )
 
 class DeckMetadata(BaseModel):
-    """Metadata for the deck."""
+    """Metadata for a deck."""
     deck_id: str
-    title: str
-    version: str = "1.0.0"
-    author: str = "FirstEnroll"
-    theme: str = "default"
+    title: Optional[str] = None
+    description: Optional[str] = None
+    author: Optional[str] = None
+    created_at: Optional[str] = None
+    updated_at: Optional[str] = None
+    
+    model_config = ConfigDict(
+        extra='ignore'  # Allow extra fields for backward compatibility
+    )
 
 class PageMetadata(BaseModel):
     """Metadata for a single page."""
@@ -59,16 +91,25 @@ class TableData(BaseModel):
     metadata: Dict[str, str] = Field(default_factory=dict)
 
 class ValidationIssue(BaseModel):
-    """Validation issue details."""
+    """A validation issue found in the content."""
     section: str
     issue: str
-    severity: str = "medium"
+    severity: str
     suggestions: List[str] = Field(default_factory=list)
+    
+    model_config = ConfigDict(
+        extra='ignore'  # Allow extra fields for backward compatibility
+    )
 
 class ValidationIssues(BaseModel):
     """Collection of validation issues."""
     script_issues: List[ValidationIssue] = Field(default_factory=list)
     slide_issues: List[ValidationIssue] = Field(default_factory=list)
+    suggested_fixes: Dict[str, str] = Field(default_factory=dict)
+    
+    model_config = ConfigDict(
+        extra='ignore'  # Allow extra fields for backward compatibility
+    )
 
 class ValidationResult(BaseModel):
     """Result of content validation."""
@@ -106,89 +147,87 @@ class GoogleDriveSyncInfo(BaseModel):
     uploaded_pdfs: List[Dict[str, str]]
     created_docs: List[Dict[str, str]]
 
+class ErrorContext(BaseModel):
+    """Context for errors that occur during processing."""
+    error: str
+    stage: str
+    details: Optional[Dict[str, Any]] = Field(default_factory=dict)
+    
+    model_config = ConfigDict(
+        extra='ignore'  # Allow extra fields for backward compatibility
+    )
+
 class BuilderState(BaseModel):
-    """Main state container for the builder agent."""
-    # Core metadata
+    """State for the builder agent."""
+    # Core content
+    slides: Optional[str] = None
+    script: Optional[str] = None
     metadata: Optional[DeckMetadata] = None
     deck_info: Optional[DeckInfo] = None
     
-    # Workflow tracking
-    current_stage: WorkflowStage = WorkflowStage.CREATE_DECK
-    completed_stages: List[WorkflowStage] = Field(default_factory=list)
+    # NEW FIELD: Processed summaries to be used for slides generation
+    processed_summaries: Optional[str] = None
     
-    # Content state
-    slides: Optional[str] = None
-    script: Optional[str] = None
-    audio_script: Optional[str] = None
-    pdf_path: Optional[str] = None
-    pdf_info: Optional[Dict[str, Any]] = None
+    # Page processing state
+    page_summaries: List[PageSummary] = Field(default_factory=list)
+    page_metadata: List[PageMetadata] = Field(default_factory=list)
+    structured_slides: List[SlideContent] = Field(default_factory=list)
     slide_count: Optional[int] = None
-    processed_content: List[Dict[str, Any]] = Field(default_factory=list)
     
-    # Page tracking
-    page_metadata: Optional[List[PageMetadata]] = None
-    page_summaries: Optional[List[PageSummary]] = None
-    structured_slides: Optional[List[SlideContent]] = None
-    tables_data: Optional[Dict[int, TableData]] = None
-    processed_summaries: Optional[str] = None  # Aggregated summary content
+    # Table data
+    table_data: List[TableData] = Field(default_factory=list)
     
-    # Processing state
-    needs_fixes: bool = False
-    retry_count: int = 0
-    max_retries: int = 3
-    validation_issues: List[ValidationIssue] = Field(default_factory=list)
-    error_context: Optional[Dict[str, Any]] = None
-    awaiting_input: Optional[str] = None
+    # Aggregated content
+    aggregated_content: List[Dict[str, Any]] = Field(default_factory=list)
     
-    # Google Drive integration
+    # Google Drive state
     google_drive_config: Optional[GoogleDriveConfig] = None
-    drive_sync_info: Optional[GoogleDriveSyncInfo] = None
+    google_drive_sync_info: Optional[GoogleDriveSyncInfo] = None
     
-    # Communication
-    messages: List[Message] = Field(default_factory=list)
+    # Workflow state
+    current_stage: WorkflowStage = Field(default=WorkflowStage.INIT)
+    needs_fixes: bool = Field(default=False)
+    retry_count: int = Field(default=0)
+    max_retries: int = Field(default=3)
     
-    def update_stage(self, completed_stage: WorkflowStage) -> None:
-        """Update workflow stage after completion of a node."""
-        # Add to completed stages if not already there
-        if completed_stage not in self.completed_stages:
-            self.completed_stages.append(completed_stage)
+    # Validation state
+    validation_issues: Optional[ValidationIssues] = Field(default_factory=ValidationIssues)
+    
+    # Error handling
+    error_context: Optional[ErrorContext] = None
+    
+    # Methods
+    def update_stage(self, new_stage: WorkflowStage) -> None:
+        """Update the current workflow stage."""
+        self.current_stage = new_stage
+    
+    def add_validation_issue(self, issue: ValidationIssue, is_script: bool = True) -> None:
+        """Add a validation issue to the appropriate list."""
+        if not self.validation_issues:
+            self.validation_issues = ValidationIssues()
         
-        # Set next stage based on workflow order
-        stage_order = list(WorkflowStage)
-        try:
-            current_index = stage_order.index(completed_stage)
-            if current_index < len(stage_order) - 1:
-                self.current_stage = stage_order[current_index + 1]
-            else:
-                self.current_stage = WorkflowStage.COMPLETE
-        except ValueError:
-            logger.error(f"Invalid stage: {completed_stage}")
+        if is_script:
+            self.validation_issues.script_issues.append(issue)
+        else:
+            self.validation_issues.slide_issues.append(issue)
     
-    def add_page_metadata(self, page_data: PageMetadata) -> None:
-        """Add metadata for a processed page."""
-        if not self.page_metadata:
-            self.page_metadata = []
-            
-        # Update existing or add new
-        for i, metadata in enumerate(self.page_metadata):
-            if metadata.page_number == page_data.page_number:
-                self.page_metadata[i] = page_data
-                return
-                
-        self.page_metadata.append(page_data)
-        
-    def add_message(self, role: str, content: str, metadata: Optional[Dict[str, str]] = None) -> None:
-        """Add a message to the conversation history."""
-        message = Message(
-            role=role,
-            content=content,
-            metadata=metadata or {}
+    def clear_validation_issues(self) -> None:
+        """Clear all validation issues."""
+        self.validation_issues = ValidationIssues()
+    
+    def set_error(self, error: str, stage: str, details: Optional[Dict[str, Any]] = None) -> None:
+        """Set error context."""
+        self.error_context = ErrorContext(
+            error=error,
+            stage=stage,
+            details=details or {}
         )
-        self.messages.append(message)
-        
-    def model_dump(self, **kwargs) -> Dict[str, Any]:
-        """Convert state to dictionary format."""
-        return super().model_dump(**kwargs)
+    
+    model_config = ConfigDict(
+        extra='ignore',  # Allow extra fields for backward compatibility
+        validate_assignment=True,  # Validate on attribute assignment
+        str_strip_whitespace=True  # Strip whitespace from string values
+    )
 
 def convert_messages_to_dict(state: BuilderState) -> Dict[str, Any]:
     """Convert BuilderState to a serializable dictionary format."""

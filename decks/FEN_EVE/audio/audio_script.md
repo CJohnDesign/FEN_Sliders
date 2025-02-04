@@ -1,261 +1,123 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Everest Group Fixed Indemnity Insurance. We'll walk through the plan's benefits and details. Let's get started!
+Hello, everyone! Thank you for joining today's session on the Everest Reinsurance Company Health Plan.
 
----- Everest Group Fixed Indemnity Insurance Overview ----
+We'll walk through the plan's key features and benefits.
 
-The Everest Group Fixed Indemnity Insurance offers structured benefits through Everest Group.
+Let's get started!
 
-This plan provides supplemental healthcare coverage for various situations, offering financial relief and support tools.
+---- Everest Plan Overview ----
 
-It features a simplified claims process through fixed benefits, which means you receive a set payment amount.
+Let's begin with an overview of the Everest Reinsurance Company Health Plan.
 
-Additionally, there is wide provider network support to ensure you have access to necessary care.
+The plan offers a flexible approach to managing your healthcare needs.
+
+It provides a wide network of healthcare providers.
+
+You can choose from various levels of coverage to suit your lifestyle.
 
 ---- Key Features and Benefits ----
 
-Let's explore the key features and benefits of this plan.
+Now, let's explore the key features and benefits of the plan.
 
-Accessibility is a cornerstone of this insurance, ensuring you can easily access the services you need.
+The plan includes hospital coverage for your peace of mind during stays.
 
-Financial relief is provided through structured benefits, helping to manage unexpected healthcare costs.
+Primary care visits are covered, ensuring access to essential health services.
 
-The claims process is simplified, making it easier for you to receive your benefits.
+You can see specialists without needing referrals, giving you direct access to expert care.
 
-The plan supports a wide provider network, although this varies by plan.
-
-Wellness programs are available through the Multiplan PPO Network, enhancing your overall health and well-being.
+Prescription drug coverage is included, helping manage medication costs.
 
 ---- Cost Management Tools ----
 
-Now, let's discuss the cost management tools available with this plan.
+Let's discuss the tools available to help manage your healthcare costs.
 
-The Direct Payment System, or DPS, allows for straightforward payment processes.
+Our plan offers a health savings account to help you save for medical expenses.
 
-Tiered Options System provides flexibility in choosing the level of coverage that suits your needs.
+You can track your healthcare spending with our easy-to-use online portal.
 
-Visit Limits Support helps manage the number of visits covered, ensuring efficient use of your plan.
+We also offer discount programs for wellness services and gym memberships.
 
----- How Direct Payment System Works ----
+---- Medical Benefits Ratio ----
 
-Here's how the Direct Payment System works.
+Let's talk about the medical benefits ratio, or MBR, used by the Everest Plan.
 
-First, you enroll through Everest Group.
+This ratio ensures value for your premiums by directing a significant portion to healthcare services.
 
-Next, select your desired plan tier to match your healthcare needs.
-
-Access the provider network to receive care.
-
-You will receive an Explanation of Benefits, or EOB, detailing your coverage.
-
-Submit claims easily through the streamlined process.
-
-Finally, receive structured benefits as outlined in your plan.
+It helps keep administrative costs low and focuses on your care.
 
 ---- Preventive Care and Wellness ----
 
-Preventive care and wellness are integral parts of this plan.
+Preventive care and wellness are important parts of our plan.
 
-Wellness programs services are available to support your health.
+Preventive services like annual check-ups and screenings are fully covered.
 
-Advocacy services programs provide additional guidance and support.
+Our wellness program offers incentives for maintaining a healthy lifestyle.
 
-The Multiplan PPO Network offers access to a wide range of wellness resources.
+You can access nutrition counseling and fitness programs to support your health goals.
 
 ---- Telehealth Services ----
 
-Let's talk about telehealth services.
+Telehealth services provide access to healthcare professionals from the comfort of your home.
 
-Virtual visits allow you to consult with healthcare providers remotely.
+You can schedule virtual visits for non-emergency medical issues.
 
-Remote consultations provide flexibility and convenience.
-
-You have twenty-four/seven access to care, ensuring help is always available.
-
-This service offers convenient access to healthcare from the comfort of your home.
+This service is available twenty-four/seven, offering flexibility and convenience.
 
 ---- Advocacy and Support Services ----
 
-Advocacy and support services are also included.
+Our advocacy team is here to help you navigate your healthcare options.
 
-Personalized healthcare advocacy helps navigate your healthcare journey.
+They provide support for understanding your benefits and resolving claims issues.
 
-Claims assistance support is available to help with any questions or issues.
+You can reach out to them for personalized assistance anytime.
 
-Benefit options exploration ensures you understand all available choices.
+---- Everest Plan Options ----
 
-Wellness support services are there to guide you towards better health.
+Let's explore the options available within the Everest Health Plan.
 
----- Plan 100 (One of Two) ----
+The plan offers coverage for individuals and families.
 
-Let's dive into the details of Plan 100.
+It includes options for dental and vision care, enhancing your overall health package.
 
-Confinement benefits include hospital confinement at one hundred dollars and ICU confinement at one hundred dollars.
+You have the flexibility to choose higher deductibles for lower premiums.
 
-Hospital benefits cover emergency room visits, with two visits allowed per certificate year.
+The plan also offers wellness rewards for participating in health improvement activities.
 
-Outpatient benefits include physician's office visits at fifty dollars per visit.
+---- Comparing the Everest Plans ----
 
----- Plan 100 (Two of Two) ----
+Now, let's compare the different Everest Plans.
 
-Continuing with Plan 100.
+The Basic Plan offers essential coverage at an affordable rate.
 
-Procedure benefits are not applicable under this plan.
+The Plus Plan includes additional services like specialist visits and prescription coverage.
 
-Additional benefits provide structured benefits for peace of mind.
-
----- Plan 200 (One of Two) ----
-
-Now, let's look at Plan 200.
-
-Confinement benefits include hospital confinement at two hundred dollars and ICU confinement at two hundred dollars.
-
-Hospital benefits cover emergency room visits, with two visits allowed per certificate year.
-
-Outpatient benefits include physician's office visits at fifty dollars per visit and X-rays and labs at fifty dollars.
-
----- Plan 200 (Two of Two) ----
-
-Continuing with Plan 200.
-
-Procedure benefits are not applicable under this plan.
-
-Additional benefits provide structured benefits for peace of mind.
-
----- Plan 200+ (One of Two) ----
-
-Next, we have Plan 200+.
-
-Confinement benefits include hospital confinement at three hundred dollars and ICU confinement at three hundred dollars.
-
-Hospital benefits cover emergency room visits, with two visits allowed per certificate year.
-
-Outpatient benefits include physician's office visits at fifty dollars per visit and X-rays and labs at fifty dollars.
-
----- Plan 200+ (Two of Two) ----
-
-Continuing with Plan 200+.
-
-Procedure benefits include surgery, with combined inpatient and outpatient coverage at two hundred fifty dollars per day, and anesthesia at twenty-five percent.
-
-Additional benefits provide structured benefits for peace of mind.
-
----- Plan 300 (One of Two) ----
-
-Let's move on to Plan 300.
-
-Confinement benefits include hospital confinement at three hundred dollars and ICU confinement at three hundred dollars.
-
-Hospital benefits cover emergency room visits, with two visits allowed per certificate year.
-
-Outpatient benefits include physician's office visits at fifty dollars per visit and X-rays and labs at fifty dollars.
-
----- Plan 300 (Two of Two) ----
-
-Continuing with Plan 300.
-
-Procedure benefits include surgery, with combined inpatient and outpatient coverage at two hundred fifty dollars per day, and anesthesia at twenty-five percent.
-
-Additional benefits provide structured benefits for peace of mind.
-
----- Plan 500 (One of Two) ----
-
-Now, let's explore Plan 500.
-
-Confinement benefits include hospital confinement at five hundred dollars and ICU confinement at five hundred dollars.
-
-Hospital benefits cover emergency room visits at fifty dollars.
-
-Outpatient benefits include physician's office visits at fifty dollars per visit and X-rays and labs at fifty dollars.
-
----- Plan 500 (Two of Two) ----
-
-Continuing with Plan 500.
-
-Procedure benefits include surgery, with combined inpatient and outpatient coverage at three hundred fifty dollars per day, and anesthesia at twenty-five percent.
-
-Additional benefits provide structured benefits for peace of mind.
-
----- Plan 750 (One of Two) ----
-
-Next, we have Plan 750.
-
-Confinement benefits include hospital confinement at seven hundred fifty dollars and ICU confinement at seven hundred fifty dollars.
-
-Hospital benefits cover emergency room visits at seventy-five dollars.
-
-Outpatient benefits include physician's office visits at fifty dollars per visit and X-rays and labs at fifty dollars.
-
----- Plan 750 (Two of Two) ----
-
-Continuing with Plan 750.
-
-Procedure benefits include surgery, with combined inpatient and outpatient coverage at four hundred dollars per day, and anesthesia at twenty-five percent.
-
-Additional benefits provide structured benefits for peace of mind.
-
----- Plan 1000 (One of Two) ----
-
-Let's look at Plan 1000.
-
-Confinement benefits include hospital confinement at one thousand dollars and ICU confinement at one thousand dollars.
-
-Hospital benefits cover emergency room visits at one hundred dollars.
-
-Outpatient benefits include physician's office visits at seventy-five dollars per visit and X-rays and labs at seventy-five dollars.
-
----- Plan 1000 (Two of Two) ----
-
-Continuing with Plan 1000.
-
-Procedure benefits include surgery, with combined inpatient and outpatient coverage at five hundred dollars per day, and anesthesia at twenty-five percent.
-
-Additional benefits provide structured benefits for peace of mind.
-
----- Plan 1000+ (One of Two) ----
-
-Finally, let's explore Plan 1000+.
-
-Confinement benefits include hospital confinement at one thousand dollars and ICU confinement at one thousand dollars.
-
-Hospital benefits cover hospital admission at one thousand dollars and emergency room visits at one hundred dollars.
-
-Outpatient benefits include physician's office visits at seventy-five dollars per visit and X-rays and labs at one hundred dollars.
-
----- Plan 1000+ (Two of Two) ----
-
-Continuing with Plan 1000+.
-
-Procedure benefits include surgery, with combined inpatient and outpatient coverage at five hundred dollars per day, and anesthesia at twenty-five percent.
-
-Additional benefits provide structured benefits for peace of mind.
-
----- Comparing the Plans ----
-
-Let's compare the plans to see how they stack up against each other.
-
-The comparison table highlights key features such as hospital confinement, ICU confinement, emergency room visits, surgery, anesthesia, and physician's office visits across all plans.
-
-This comparison helps you choose the plan that best fits your needs.
+The Premium Plan provides the most extensive coverage with added wellness benefits.
 
 ---- Definitions and Limitations ----
 
-Now, let's discuss definitions and limitations.
+Let's clarify some important terms and limitations.
 
-Exclusions include pre-existing conditions within a specified period, cosmetic surgery unless medically necessary, and dental care except in cases of accidental injury.
+A deductible is the amount you pay before your insurance starts to cover costs.
 
-Limitations cover elective treatments, experimental procedures, injuries related to extreme sports, and illegal acts.
+The out-of-pocket maximum is the most you will pay during a policy period before your plan covers one hundred percent of costs.
+
+Some services may have limitations, such as frequency or provider restrictions.
 
 ---- Key Takeaways and Reminders ----
 
-Here are the key takeaways and reminders.
+Here are some key takeaways and reminders.
 
-Flexibility is offered through multiple plan tiers to suit different needs.
+Remember to review your plan options carefully to choose the best fit for your needs.
 
-The plan provides a balance of cost-effective coverage with structured benefits.
+Take advantage of preventive services to maintain your health.
 
-For next steps, contact Everest for enrollment details and support.
+Utilize telehealth services for convenient access to care.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the Everest Group Fixed Indemnity Insurance. Remember, structured benefits can provide peace of mind. Continue to be great!
+Thank you for taking the time to learn about the Everest Reinsurance Company Health Plan.
+
+We hope you find the right plan to meet your needs.
+
+Continue to be great!

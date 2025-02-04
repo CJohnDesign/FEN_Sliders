@@ -1,6 +1,7 @@
 """Slide generation node for the builder agent."""
 import json
 import logging
+import os
 from pathlib import Path
 from typing import Dict, List, Any, Tuple
 from openai import AsyncOpenAI
@@ -68,32 +69,46 @@ def create_slides_chain():
     
     return chain
 
+def save_slides_to_file(slides_content: str, deck_path: str) -> bool:
+    """Save slides content to file."""
+    try:
+        deck_path = Path(deck_path)
+        slides_path = deck_path / "slides.md"
+        
+        # Ensure directory exists
+        deck_path.mkdir(parents=True, exist_ok=True)
+        
+        # Write content
+        with open(slides_path, "w") as f:
+            f.write(slides_content)
+            
+        logger.info(f"Saved slides to {slides_path}")
+        return True
+    except Exception as e:
+        logger.error(f"Failed to save slides: {str(e)}")
+        return False
+
 @traceable(name="slides_writer")
 async def slides_writer(state: BuilderState) -> BuilderState:
-    """Update slides that have validation issues while preserving the rest."""
+    """Update slides based on validation issues and suggestions."""
     try:
         # Get current slides content and validation issues
-        current_slides = state.get("slides", "")
-        validation_issues = state.get("validation_issues")
+        current_slides = state.slides if hasattr(state, 'slides') else ""
+        validation_issues = state.validation_issues if hasattr(state, 'validation_issues') else None
         
-        # If no content or no issues, return current state
-        if not current_slides or not validation_issues or not validation_issues.slide_issues:
-            logger.info("No slides content or no issues to fix")
+        # If no content to fix, return current state
+        if not current_slides:
+            logger.info("No slides content to fix")
             return state
             
-        # Extract preserved slides
-        first_slide, middle_slides, last_slide = extract_preserved_slides(current_slides)
-        
-        # Split middle slides into individual slides
-        middle_slide_sections = middle_slides.split('---') if middle_slides else []
-        
-        # Get list of sections that need fixing
-        sections_to_fix = {issue.section for issue in validation_issues.slide_issues}
-        
         # Format validation issues for the prompt
-        validation_instructions = filter_validation_issues(validation_issues)
+        validation_instructions = filter_validation_issues(validation_issues) if validation_issues else ""
         
-        # Create messages for slide generation
+        # Get suggested fixes if available
+        suggested_fixes = validation_issues.suggested_fixes if hasattr(validation_issues, 'suggested_fixes') else {}
+        suggested_slides_fixes = suggested_fixes.get('slides', '')
+        
+        # Create messages for slide update
         messages = [
             {
                 "role": "system",
@@ -101,39 +116,46 @@ async def slides_writer(state: BuilderState) -> BuilderState:
             },
             {
                 "role": "user",
-                "content": f"""Fix ONLY these specific slides that have issues. Keep all other slides exactly as they are:
+                "content": f"""Review and update these slides based on the validation issues and suggestions:
 
-Current middle slides:
-{middle_slides}
+Current slides:
+{current_slides}
 
-Sections that need fixing:
-{json.dumps(list(sections_to_fix), indent=2)}
-
-Validation issues to fix:
 {validation_instructions}
 
+{"Suggested fixes:" + suggested_slides_fixes if suggested_slides_fixes else ""}
+
 Instructions:
-1. Return ALL middle slides (fixed and unchanged)
-2. Only modify the slides for sections listed in validation issues
-3. Keep all other slides exactly as they are
-4. Maintain the exact same slide order
-5. Keep the same transition and layout for each slide
+1. Return the complete updated slides
+2. Address all validation issues and suggestions
+3. Maintain consistent formatting and structure
+4. Keep all slide transitions and layouts
+5. Ensure proper slide order and flow
+6. Preserve any existing frontmatter
+7. Keep the first slide (title) and last slide intact
 """
             }
         ]
 
         # Create and run chain
-        chain = create_slides_chain()
-        response = await chain.ainvoke({"messages": messages})
+        llm = await get_llm(temperature=0.2)
+        response = await llm.ainvoke(messages)
         
-        # Extract fixed slides content
-        fixed_slides = response.content if hasattr(response, 'content') else str(response)
+        # Extract updated slides content
+        updated_slides = response.content if hasattr(response, 'content') else str(response)
         
-        # Combine fixed slides with preserved slides
-        if first_slide and last_slide:
-            state.slides = f"{first_slide}\n---\n{fixed_slides}\n---\n{last_slide}"
+        # Verify changes were made
+        if updated_slides != current_slides:
+            logger.info("Slides content updated")
+            state.slides = updated_slides
+            
+            # Save slides to file
+            if state.deck_info and state.deck_info.path:
+                slides_path = Path(state.deck_info.path) / "slides.md"
+                await save_content(slides_path, updated_slides)
+                logger.info(f"Successfully saved slides to {slides_path}")
         else:
-            state.slides = fixed_slides
+            logger.warning("No changes made to slides content")
             
         return state
         

@@ -25,9 +25,18 @@ def read_template_file(file_path: Path) -> Optional[str]:
 async def create_deck_structure(state: BuilderState) -> BuilderState:
     """Create initial deck directory structure."""
     try:
-        # Verify we're in the correct stage
-        if state.current_stage != WorkflowStage.CREATE_DECK:
-            logger.warning(f"Expected stage {WorkflowStage.CREATE_DECK}, but got {state.current_stage}")
+        # Initialize state if starting fresh
+        if not hasattr(state, 'current_stage') or state.current_stage == WorkflowStage.INIT:
+            logger.info("Initializing fresh state")
+            state.current_stage = WorkflowStage.CREATE_DECK
+            
+        # Initialize deck_info if not present
+        if not hasattr(state, 'deck_info') or state.deck_info is None:
+            logger.info("Initializing deck_info with FEN_TEMPLATE")
+            state.deck_info = DeckInfo(
+                path="",  # Will be set after directory creation
+                template="FEN_TEMPLATE"  # Use FEN_TEMPLATE instead of default
+            )
             
         # Get metadata
         if not state.metadata:
@@ -51,10 +60,15 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
             logger.info("Google Drive configuration initialized successfully")
         else:
             logger.warning(f"Google Drive credentials not found at {credentials_path}")
-        
+            
         # Check template exists
         if not template_dir.exists():
             logger.error(f"Template directory not found: {template_dir}")
+            state.set_error(
+                f"Template directory not found: {template_dir}",
+                "deck_creation",
+                {"template": state.deck_info.template}
+            )
             return state
             
         # Check if deck directory already exists and remove it
@@ -65,6 +79,10 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
                 logger.info(f"Successfully removed existing deck directory: {deck_dir}")
             except Exception as e:
                 logger.error(f"Error removing existing deck directory: {e}")
+                state.set_error(
+                    f"Failed to remove existing deck directory: {str(e)}",
+                    "deck_creation"
+                )
                 return state
                 
         # Create fresh deck directory
@@ -72,7 +90,7 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
         deck_dir.mkdir(parents=True, exist_ok=True)
         
         # Create and copy directory structure
-        for dir_name in ["img/pages", "img/pdfs", "img/logos", "audio", "ai"]:
+        for dir_name in ["img/pages", "img/pdfs", "img/logos", "audio", "audio/oai", "ai"]:
             # Create directory
             target_dir = deck_dir / dir_name
             target_dir.mkdir(parents=True, exist_ok=True)
@@ -84,28 +102,37 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
                     if file.is_file():
                         shutil.copy2(file, target_dir)
                         logger.info(f"Copied template file: {dir_name}/{file.name}")
-        
-        # Read template files
-        slides_template = read_template_file(template_dir / "slides.md")
-        audio_script_template = read_template_file(template_dir / "audio" / "audio_script.md")
-        
-        # Update state with template content
-        state.slides = slides_template
-        state.audio_script = audio_script_template
-        
-        # Copy template files
+                        
+        # Read and copy template files
+        # First, copy slides.md
+        slides_template_path = template_dir / "slides.md"
+        if slides_template_path.exists():
+            state.slides = read_template_file(slides_template_path)
+            if state.slides:
+                slides_target = deck_dir / "slides.md"
+                with open(slides_target, "w") as f:
+                    f.write(state.slides)
+                logger.info("Copied slides.md template")
+                
+        # Copy audio script and config
+        audio_script_path = template_dir / "audio" / "audio_script.md"
+        if audio_script_path.exists():
+            state.script = read_template_file(audio_script_path)
+            if state.script:
+                script_target = deck_dir / "audio" / "audio_script.md"
+                with open(script_target, "w") as f:
+                    f.write(state.script)
+                logger.info("Copied audio_script.md template")
+                
+        audio_config_path = template_dir / "audio" / "audio_config.json"
+        if audio_config_path.exists():
+            shutil.copy2(audio_config_path, deck_dir / "audio" / "audio_config.json")
+            logger.info("Copied audio_config.json template")
+            
+        # Copy any remaining files from root directory
         for file in template_dir.glob("*.*"):
-            if file.suffix in [".md", ".json", ".yaml", ".yml"]:
-                target_file = deck_dir / file.name
-                # Replace template content with state content if available
-                if file.name == "slides.md" and state.slides:
-                    with open(target_file, "w") as f:
-                        f.write(state.slides)
-                elif file.name == "audio/audio_script.md" and state.audio_script:
-                    with open(target_file, "w") as f:
-                        f.write(state.audio_script)
-                else:
-                    shutil.copy2(file, deck_dir)
+            if file.suffix in [".json", ".yaml", ".yml"] and file.is_file():
+                shutil.copy2(file, deck_dir)
                 logger.info(f"Copied template file: {file.name}")
         
         # Update state with deck info
@@ -126,24 +153,12 @@ async def create_deck_structure(state: BuilderState) -> BuilderState:
             }
         )
         
-        # Update workflow stage
-        state.update_stage(WorkflowStage.CREATE_DECK)
-        logger.info(f"Moving to next stage: {state.current_stage}")
-        
-        # Save state
-        if state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
-            logger.info(f"Saved state for deck {state.metadata.deck_id}")
-        
         return state
-        
+            
     except Exception as e:
         log_error(state, "create_deck", e)
         state.error_context = {
-            "error": str(e),
+            "error": f"Failed to create deck: {str(e)}",
             "stage": "deck_creation"
         }
-        # Save error state
-        if state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
         return state 

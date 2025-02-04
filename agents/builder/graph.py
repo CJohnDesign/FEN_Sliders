@@ -1,7 +1,8 @@
 """Builder workflow graph definition."""
 from langgraph.graph import StateGraph
 from langgraph.pregel import END
-from .state import BuilderState
+from typing import Annotated, TypeVar, Callable, Any
+from .state import BuilderState, WorkflowStage
 from .nodes import (
     create_deck_structure,
     process_imgs,
@@ -13,6 +14,23 @@ from .nodes import (
     validate_and_fix,
     google_drive_sync
 )
+
+# Set up logging
+import logging
+logger = logging.getLogger(__name__)
+
+def should_continue_validation(state: BuilderState) -> str:
+    """Determine if validation should continue."""
+    if not state.needs_fixes:
+        logger.info("No fixes needed, proceeding to completion")
+        return "complete"
+    
+    if state.retry_count >= state.max_retries:
+        logger.warning(f"Hit max retries ({state.max_retries}), proceeding to completion")
+        return "complete"
+        
+    logger.info(f"Content needs fixes (attempt {state.retry_count + 1}/{state.max_retries})")
+    return "retry"
 
 def create_builder_graph(start_node: str = "create_deck"):
     """Create the builder workflow graph.
@@ -37,16 +55,40 @@ def create_builder_graph(start_node: str = "create_deck"):
     # Set entry point based on start_node
     workflow.set_entry_point(start_node)
     
-    # Define simple linear flow
-    workflow.add_edge("create_deck", "process_imgs")
-    workflow.add_edge("process_imgs", "process_summaries")
-    workflow.add_edge("process_summaries", "extract_tables")
-    workflow.add_edge("extract_tables", "aggregate_summary")
-    workflow.add_edge("aggregate_summary", "process_slides")
-    workflow.add_edge("process_slides", "setup_audio")
-    workflow.add_edge("setup_audio", "validate")
-    workflow.add_edge("validate", "google_drive_sync")
-    workflow.add_edge("google_drive_sync", END)
+    # Define the main workflow edges
+    edges = {
+        "create_deck": "process_imgs",
+        "process_imgs": "process_summaries",
+        "process_summaries": "extract_tables",
+        "extract_tables": "aggregate_summary",
+        "aggregate_summary": "process_slides",
+        "process_slides": "setup_audio",
+        "setup_audio": "validate"
+    }
+    
+    # Add edges based on start_node to ensure validation always happens
+    if start_node == "validate":
+        # If starting at validate, just add the validation loop
+        pass
+    else:
+        # Find the starting point in the workflow
+        current = start_node
+        while current in edges:
+            workflow.add_edge(current, edges[current])
+            current = edges[current]
+        # Always add edge to validation
+        if current != "validate":
+            workflow.add_edge(current, "validate")
+    
+    # Add validation loop
+    workflow.add_conditional_edges(
+        "validate",
+        should_continue_validation,
+        {
+            "retry": "validate",  # Loop back for another validation attempt
+            "complete": END  # Proceed to completion
+        }
+    )
     
     return workflow.compile()
 

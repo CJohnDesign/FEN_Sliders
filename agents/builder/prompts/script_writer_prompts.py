@@ -96,6 +96,9 @@ SCRIPT_WRITER_HUMAN_PROMPT = """Use this template structure - maintain all forma
 
 {template}
 
+Here are the processed summaries to use as source content:
+{processed_summaries}
+
 Generate a complete presentation script using this slides content:
 {slides_content}
 
