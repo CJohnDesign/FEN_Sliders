@@ -5,18 +5,16 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from ..state import BuilderState
 from ..utils.logging_utils import log_state_change, log_error
+from ..config.models import get_model_config
+from ...utils.llm_utils import get_llm
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
 def create_script_chain():
     """Create the chain for generating script content."""
-    # Use a more capable model for script generation
-    llm = ChatOpenAI(
-        model="gpt-4-0125-preview",
-        temperature=0.2,
-        request_timeout=120
-    )
+    # Use centralized LLM configuration
+    llm = get_llm(temperature=0.2)
     
     # Create prompt template
     prompt = ChatPromptTemplate.from_template(
@@ -42,11 +40,11 @@ def create_script_chain():
 async def script_writer(state: BuilderState) -> BuilderState:
     """Generate script content."""
     try:
-        # Check for slides content
-        if not state.slides:
-            logger.warning("No slides content found in state")
+        # Check for processed content
+        if not state.processed_summaries:
+            logger.warning("No processed summaries found in state")
             state.error_context = {
-                "error": "No slides content available",
+                "error": "No processed summaries available",
                 "stage": "script_writing"
             }
             return state
@@ -55,7 +53,7 @@ async def script_writer(state: BuilderState) -> BuilderState:
         chain = create_script_chain()
         
         # Generate script content
-        script_content = await chain.ainvoke({"content": state.slides})
+        script_content = await chain.ainvoke({"content": state.processed_summaries})
         
         # Write script to file
         output_path = Path(state.deck_info.path) / "script.md"

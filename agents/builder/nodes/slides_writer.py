@@ -5,18 +5,16 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from ..state import BuilderState, SlideContent
 from ..utils.logging_utils import log_state_change, log_error
+from ..config.models import get_model_config
+from ...utils.llm_utils import get_llm
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
 def create_slides_chain():
     """Create the chain for generating slides content."""
-    # Use a more capable model for slides
-    llm = ChatOpenAI(
-        model="gpt-4-0125-preview",
-        temperature=0.2,
-        request_timeout=120
-    )
+    # Use centralized LLM configuration
+    llm = get_llm(temperature=0.2)
     
     # Create prompt template
     prompt = ChatPromptTemplate.from_template(
@@ -43,10 +41,10 @@ async def slides_writer(state: BuilderState) -> BuilderState:
     """Generate slides content."""
     try:
         # Check for processed content
-        if not state.processed_content:
-            logger.warning("No processed content found in state")
+        if not state.processed_summaries:
+            logger.warning("No processed summaries found in state")
             state.error_context = {
-                "error": "No processed content available",
+                "error": "No processed summaries available",
                 "stage": "slides_writing"
             }
             return state
@@ -55,7 +53,7 @@ async def slides_writer(state: BuilderState) -> BuilderState:
         chain = create_slides_chain()
         
         # Generate slides content
-        slides_content = await chain.ainvoke({"content": state.processed_content})
+        slides_content = await chain.ainvoke({"content": state.processed_summaries})
         
         # Write slides to file
         output_path = Path(state.deck_info.path) / "slides.md"

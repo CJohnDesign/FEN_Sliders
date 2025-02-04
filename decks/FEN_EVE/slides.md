@@ -1,301 +1,83 @@
----
-id: FEN_{deck_key}
-theme: ../../
-title: | 
-  { Plan Name }
-info: |
-  ## { Plan Name } Review
-  A look at the { Plan Name } benefits and details.
-verticalCenter: true
-layout: intro
-themeConfig:
-  logoHeader: ./img/logos/FEN_logo.svg
-  audioEnabled: true
-transition: fade-out
-drawings:
-  persist: false
----
+To create a comprehensive aggregated summary for the insurance plan data, I will follow the provided structure and instructions. The plan will involve synthesizing the information from the individual summaries and extracted tables into a cohesive narrative and slide presentation. Here is the outline for the aggregation process:
 
-<SlideAudio deckKey="FEN_{deck_key}" />
+### Outline for Aggregated Summary:
 
-# { Plan Name } Review
+1. **Cover (1 slide)**
+   - Title: "Everest Group Fixed Indemnity Insurance"
+   - Tagline: "Flexible Coverage for Unexpected Medical Expenses"
 
-Understanding the details and benefits of the **{ Plan Full Name }**
+2. **Plan Overview (1 slide)**
+   - Audience: Individuals and families seeking supplemental health coverage.
+   - Offerings: Fixed indemnity payments for medical expenses.
+   - Key Benefits: Flexibility, broad provider network, and simplified claims process.
 
----
-transition: fade-out
-layout: default
----
+3. **Core Plan Elements (2-3 slides)**
+   - Coverage Areas: Physician services, hospitalization, virtual visits.
+   - Plan Structure: Multiple tiers (Plan 100 to Plan 1000+), co-pays, visit limits.
+   - Eligibility: Guaranteed issue, no medical exams required.
 
-## { Plan Name } Overview
+4. **Common Service Features (2-3 slides)**
+   - Provider Networks: Access to Multiplan PPO Network.
+   - Claims Management: Direct payment to insured, fast processing.
+   - Support Tools: Wellness programs, advocacy services.
 
-<v-clicks>
+5. **Plan Tiers Breakdown (8-12 slides)**
+   - Detailed breakdown of each plan tier (Plan 100, Plan 200, Plan 200+, Plan 300, Plan 500, Plan 750, Plan 1000, Plan 1000+).
+   - Components: Physician services, hospitalization, virtual visits, prescriptions, wellness tools, advocacy.
 
-- { Overview Point 1 } through **{ Organization }**
-- **{ Benefit Category 1 }** for various situations
-- **{ Benefit Category 2 }** and support tools
-- **{ Benefit Category 3 }** through { Feature }
-- **{ Benefit Category 4 }** support
+6. **Comparison Slides (2-3 slides)**
+   - Highlight differences among tiers, focusing on benefits and coverage levels.
 
-</v-clicks>
+7. **Limitations and Exclusions (1-2 slides)**
+   - Define exclusions: Pre-existing conditions, waiting periods, specific treatments.
 
----
-transition: fade-out
-layout: default
----
+8. **Key Takeaways and Action Steps (1 slide)**
+   - Summary: Flexibility, cost-coverage balance.
+   - Next Steps: Enrollment instructions, support contact information.
 
-## Key Features and Benefits
+9. **Conclusion (1 slide)**
+   - Thank you message, final enrollment or support instructions.
 
-<v-clicks>
+### Full Aggregated Summary:
 
-**{ Benefit Type 1 }**
+**1. Cover (1 slide)**
+   - **Title:** Everest Group Fixed Indemnity Insurance
+   - **Tagline:** Flexible Coverage for Unexpected Medical Expenses
 
-**{ Benefit Type 2 }**
+**2. Plan Overview (1 slide)**
+   - **Audience:** Designed for individuals and families seeking supplemental health coverage.
+   - **Offerings:** Provides fixed indemnity payments to help manage medical expenses not fully covered by traditional insurance.
+   - **Key Benefits:** Offers flexibility in healthcare choices, access to a broad provider network through the Multiplan PPO, and a simplified claims process for ease of use.
 
-**{ Benefit Type 3 }**
+**3. Core Plan Elements (2-3 slides)**
+   - **Coverage Areas:** Includes physician services, hospitalization, and virtual visits, ensuring comprehensive support for various medical needs.
+   - **Plan Structure:** Features multiple tiers (Plan 100 to Plan 1000+), each with specific benefits, co-pays, and visit limits tailored to different needs and budgets.
+   - **Eligibility:** Guaranteed issue with no medical exams required, making it accessible to a wide range of applicants.
 
-**{ Benefit Type 4 }** (varies by plan)
-</v-clicks>
+**4. Common Service Features (2-3 slides)**
+   - **Provider Networks:** Access to the extensive Multiplan PPO Network, offering a wide range of healthcare providers.
+   - **Claims Management:** Direct payment of benefits to the insured with a fast, simplified claims process.
+   - **Support Tools:** Includes wellness programs and advocacy services to enhance policyholder experience and support health management.
 
-<v-click>
+**5. Plan Tiers Breakdown (8-12 slides)**
+   - **Plan 100:** Basic coverage with essential benefits for physician services and hospitalization.
+   - **Plan 200 & 200+:** Enhanced coverage with additional outpatient benefits and higher confinement benefits.
+   - **Plan 300:** Comprehensive coverage with combined inpatient and outpatient surgery benefits.
+   - **Plan 500 to 1000+:** Increasing coverage levels with higher benefits for hospital and ICU confinement, emergency room visits, and advanced diagnostics.
 
-**{ Additional Benefit }** through { Partner }
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="{ Brand } Logo">
-</div>
+**6. Comparison Slides (2-3 slides)**
+   - **Differences Among Tiers:** Highlight the incremental benefits and coverage levels across different plans, emphasizing the value of higher-tier plans for more extensive medical needs.
 
-</v-click>
+**7. Limitations and Exclusions (1-2 slides)**
+   - **Exclusions:** Includes pre-existing conditions, certain elective and experimental treatments, and specific activities like extreme sports.
+   - **Limitations:** Waiting periods for certain benefits and exclusions for treatments not deemed medically necessary.
 
----
-transition: fade-out
-layout: default
----
+**8. Key Takeaways and Action Steps (1 slide)**
+   - **Summary:** The plan offers flexibility and a balance between cost and coverage, making it a viable option for managing unexpected medical expenses.
+   - **Next Steps:** Instructions for enrollment and contact information for obtaining support and further assistance.
 
-## Cost Management Tools
+**9. Conclusion (1 slide)**
+   - **Thank You Message:** Thank you for considering Everest Group Fixed Indemnity Insurance.
+   - **Final Instructions:** For enrollment or support, please contact our customer service team or visit our website for more information.
 
-<v-click>
-
-**{ Tool Name }** ({ Acronym })
-</v-click>
-
-<v-click>
-
-**{ Feature 1 }** System
-</v-click>
-
-<v-click>
-
-**{ Feature 2 }** Support
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## How { Tool Name } Works
-
-<v-clicks>
-
-1. Enroll through **{ Organization }**
-2. { Step 2 }
-3. { Step 3 }
-4. Receive { Document } **({ Acronym })**
-5. { Step 5 }
-6. **{ Final Outcome }**
-
-</v-clicks>
-
----
-transition: fade-out
-layout: default
----
-
-## Preventive Care and Wellness
-
-<v-clicks>
-
-- **{ Service 1 }** Services
-- **{ Service 2 }** Programs
-- **{ Partner }** provides { service_type }
-
-</v-clicks>
-
----
-transition: fade-out
-layout: default
----
-
-## Telehealth Services
-
-<v-clicks>
-
-- **{ Feature 1 }**
-- **{ Feature 2 }**
-- **{ Feature 3 }** available
-- **{ Feature 4 }** to care
-
-</v-clicks>
-
----
-transition: fade-out
-layout: default
----
-
-## Advocacy and Support Services
-
-<v-clicks>
-
-- **{ Service Style }** healthcare advocacy
-- **{ Service 1 }** assistance
-- **{ Service 2 }** options
-- **{ Service 3 }** support
-
-</v-clicks>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/{plan_brochure_image_1}.jpg
----
-
-## { Plan 1 Name } (1/2)
-
-<v-click>
-
-**{ Benefit Category 1 }**
-- { Detail 1 }
-- { Detail 2 }
-- { Detail 3 }
-- { Detail 4 }
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**{ Benefit Category 2 }**
-- { Detail 1 }
-- { Detail 2 }
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**{ Benefit Category 3 }**
-- { Detail 1 }
-- { Detail 2 }
-- { Detail 3 }
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/{plan_brochure_image_1}.jpg
----
-
-## { Plan 1 Name } (2/2)
-
-<v-click>
-
-**{ Benefit Category 4 }**
-- { Detail 1 }
-- { Detail 2 }
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**{ Benefit Category 5 }**
-- { Detail 1 }
-- { Detail 2 }
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->
-
----
-transition: fade-out
-layout: default
----
-
-## Comparing the Plans
-
-| **Feature** | **{ Plan 1 }** | **{ Plan 2 }** | **{ Plan 3 }** |
-|---------|----------|----------|-----------|
-| { Feature 1 } | { Value 1.1 } | { Value 1.2 } | { Value 1.3 } |
-| { Feature 2 } | { Value 2.1 } | { Value 2.2 } | { Value 2.3 } |
-| { Feature 3 } | { Value 3.1 } | { Value 3.2 } | { Value 3.3 } |
-| { Feature 4 } | { Value 4.1 } | { Value 4.2 } | { Value 4.3 } |
-| { Feature 5 } | { Value 5.1 } | { Value 5.2 } | { Value 5.3 } |
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/{plan_brochure_image_final}.jpg
----
-
-## Definitions and Limitations
-
-<v-click>
-
-**{ Category 1 }**
-- { Limitation 1 }
-- { Limitation 2 }
-- { Limitation 3 }
-<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**{ Category 2 }**
-- { Limitation 1 }
-- { Limitation 2 }
-<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**{ Category 3 }**
-- { Limitation 1 }
-- { Limitation 2 }
-<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
-
-**{ Category 4 }**
-- { Limitation 1 }
-- { Limitation 2 }
-- { Limitation 3 }
-<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## Key Takeaways and Reminders
-
-<v-clicks>
-
-- **{ Feature 1 }** benefits
-- **{ Feature 2 }** included
-- **{ Feature 3 }** benefits
-- **{ Requirement }** required
-
-</v-clicks>
-
----
-transition: fade-out
-layout: end
-line: Thank you for participating in the { Plan Name } Review. Continue to be great!
----
-
-# Thank You!
-
-Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
-
+This aggregated summary provides a structured and comprehensive overview of the Everest Group Fixed Indemnity Insurance, highlighting its key features, benefits, and options available to potential policyholders.

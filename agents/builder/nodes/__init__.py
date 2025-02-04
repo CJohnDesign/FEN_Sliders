@@ -8,6 +8,7 @@ from .summary import process_summaries
 from .validator import validate_and_fix
 from .slides_writer import slides_writer
 from .script_writer import script_writer
+from .aggregate_summary import aggregate_summary
 
 __all__ = [
     'create_deck_structure',
@@ -18,5 +19,6 @@ __all__ = [
     'extract_tables',
     'validate_and_fix',
     'slides_writer',
-    'script_writer'
+    'script_writer',
+    'aggregate_summary'
 ] 

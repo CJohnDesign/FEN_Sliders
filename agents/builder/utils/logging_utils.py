@@ -28,17 +28,20 @@ def log_state_change(
     if not isinstance(state, BuilderState):
         raise ValueError("First argument must be a BuilderState object")
         
+    # Only log minimal, non-sensitive information
     log_data = {
         "node": node_name,
         "change_type": change_type,
-        "deck_id": state.metadata.deck_id if state.metadata else None,
-        "state": state.model_dump(exclude={'messages'}) if isinstance(state, BaseModel) else state,
     }
     
+    # Only include safe details that don't expose state
     if details:
-        log_data.update(details)
+        safe_keys = {'page_number', 'status', 'total_count'}
+        safe_details = {k: v for k, v in details.items() if k in safe_keys}
+        if safe_details:
+            log_data.update(safe_details)
         
-    logger.info(f"State Change: {log_data}")
+    logger.info(f"{node_name}: {change_type}")
     
 def log_error(
     state: Union[BuilderState, Dict[str, Any]], 
@@ -54,26 +57,20 @@ def log_error(
         error: The exception that was raised
         context: Optional dictionary of additional context
     """
+    # Only log essential error information
     error_data = {
         "node": node_name,
-        "error_type": type(error).__name__,
-        "error_message": str(error),
-        "deck_id": None
+        "error_type": type(error).__name__
     }
     
-    # Extract deck_id safely
-    if isinstance(state, BuilderState):
-        error_data["deck_id"] = state.metadata.deck_id if state.metadata else None
-        error_data["state"] = state.model_dump(exclude={'messages'})
-    elif isinstance(state, dict):
-        metadata = state.get('metadata', {})
-        error_data["deck_id"] = metadata.get('deck_id') if metadata else None
-        error_data["state"] = state
-        
+    # Include minimal context if provided
     if context:
-        error_data["context"] = context
+        safe_keys = {'stage', 'step', 'status'}
+        safe_context = {k: v for k, v in context.items() if k in safe_keys}
+        if safe_context:
+            error_data["context"] = safe_context
         
-    logger.error(f"Error in builder: {error_data}", exc_info=True)
+    logger.error(f"{node_name} failed: {type(error).__name__}")
     
 def log_validation(
     state: BuilderState,
@@ -89,16 +86,15 @@ def log_validation(
         is_valid: Whether validation passed
         details: Optional dictionary of validation details
     """
-    validation_data = {
-        "validation_type": validation_type,
-        "is_valid": is_valid,
-        "deck_id": state.metadata.deck_id if state.metadata else None
-    }
+    # Only log essential validation information
+    status = "passed" if is_valid else "failed"
     
+    # Include minimal details if provided
     if details:
-        validation_data["details"] = details
-        
-    if is_valid:
-        logger.info(f"Validation passed: {validation_data}")
+        safe_keys = {'check_name', 'status'}
+        safe_details = {k: v for k, v in details.items() if k in safe_keys}
+        detail_str = f" - {safe_details}" if safe_details else ""
     else:
-        logger.warning(f"Validation failed: {validation_data}") 
+        detail_str = ""
+        
+    logger.info(f"Validation {status}: {validation_type}{detail_str}") 

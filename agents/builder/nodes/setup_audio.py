@@ -5,18 +5,16 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from ..state import BuilderState
 from ..utils.logging_utils import log_state_change, log_error
+from ..config.models import get_model_config
+from ...utils.llm_utils import get_llm
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
 def create_audio_chain():
     """Create the chain for generating audio script."""
-    # Use a more capable model for audio script generation
-    llm = ChatOpenAI(
-        model="gpt-4-0125-preview",
-        temperature=0.2,
-        request_timeout=120
-    )
+    # Use centralized LLM configuration
+    llm = get_llm(temperature=0.2)
     
     # Create prompt template
     prompt = ChatPromptTemplate.from_template(

@@ -30,6 +30,7 @@ class PageSummary(BaseModel):
     """Summary of a page's content."""
     page_number: int
     page_name: str
+    file_path: str
     summary: Optional[str] = None
     key_points: List[str] = Field(default_factory=list)
     action_items: List[str] = Field(default_factory=list)
@@ -74,23 +75,28 @@ class BuilderState(BaseModel):
     deck_info: Optional[DeckInfo] = None
     
     # Content state
-    slides: str = ""
-    script: str = ""
-    slide_count: int = 0
+    slides: Optional[str] = None
+    script: Optional[str] = None
+    audio_script: Optional[str] = None
+    pdf_path: Optional[str] = None
+    pdf_info: Optional[Dict[str, Any]] = None
+    slide_count: Optional[int] = None
     processed_content: List[Dict[str, Any]] = Field(default_factory=list)
     
     # Page tracking
-    page_metadata: List[PageMetadata] = Field(default_factory=list)  # Track basic page info
-    page_summaries: List[PageSummary] = Field(default_factory=list)  # Track content summaries
-    structured_slides: List[SlideContent] = Field(default_factory=list)
-    tables_data: Dict[int, TableData] = Field(default_factory=dict)
+    page_metadata: Optional[List[PageMetadata]] = None
+    page_summaries: Optional[List[PageSummary]] = None
+    structured_slides: Optional[List[SlideContent]] = None
+    tables_data: Optional[Dict[int, TableData]] = None
+    processed_summaries: Optional[str] = None  # Aggregated summary content
     
     # Processing state
     needs_fixes: bool = False
     retry_count: int = 0
     max_retries: int = 3
     validation_issues: List[ValidationIssue] = Field(default_factory=list)
-    error_context: Optional[Dict[str, str]] = None
+    error_context: Optional[Dict[str, Any]] = None
+    awaiting_input: Optional[str] = None
     
     # Communication
     messages: List[Message] = Field(default_factory=list)

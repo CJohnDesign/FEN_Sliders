@@ -4,12 +4,12 @@ import os
 import base64
 import json
 import asyncio
+import traceback
 from pathlib import Path
 from typing import List, Dict, Any, Tuple
 from langchain.prompts import ChatPromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 from ..state import BuilderState, TableData, PageMetadata, PageSummary
-from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
 
 # Set up logging
@@ -18,9 +18,16 @@ logger = logging.getLogger(__name__)
 BATCH_SIZE = 5
 
 def encode_image_to_base64(image_path: str) -> str:
-    """Encode an image file to base64."""
+    """Encode an image file to base64.
+    WARNING: The returned base64 string should never be logged or stored in state.
+    It should only be used for immediate processing and then discarded.
+    """
     with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode('utf-8')
+        # Get file extension to determine mime type
+        ext = Path(image_path).suffix.lower()
+        mime_type = "image/jpeg" if ext in [".jpg", ".jpeg"] else "image/png"
+        # Create proper data URL format
+        return f"data:{mime_type};base64,{base64.b64encode(image_file.read()).decode('utf-8')}"
 
 async def create_table_chain():
     """Create the chain for extracting table data."""
@@ -40,66 +47,78 @@ async def create_table_chain():
                      4. Pricing information
                      
                      Output must be a valid JSON object with this structure:
-                     {
+                     {{
                          "headers": ["Column1", "Column2", ...],
                          "rows": [
                              ["Row1Col1", "Row1Col2", ...],
                              ["Row2Col1", "Row2Col2", ...]
                          ],
                          "table_type": "benefits",
-                         "metadata": {}
-                     }"""),
+                         "metadata": {{}}
+                     }}"""),
         ("human", [
             {"type": "text", "text": "Please extract any tables from this slide."},
             {"type": "image_url", "image_url": "{image_data}"}
         ])
     ])
     
-    # Create chain that runs synchronously
-    chain = prompt | llm
-    
-    return chain
+    return prompt | llm
 
 async def process_page_batch(
     batch: List[Tuple[PageSummary, str]], 
-    chain,
-    state: BuilderState
-) -> Dict[int, Dict]:
+    chain
+) -> Dict[int, TableData]:
     """Process a batch of pages concurrently."""
-    async def process_single_page(summary: PageSummary, image_path: str) -> Tuple[int, Dict]:
+    async def process_single_page(summary: PageSummary) -> Tuple[int, TableData]:
         try:
-            if not os.path.exists(image_path):
-                logger.warning(f"Image not found at path: {image_path} for page {summary.page_number}")
+            if not os.path.exists(summary.file_path):
+                logger.error(f"Image not found: {summary.file_path}")
+                logger.error(f"Current directory: {os.getcwd()}")
                 return summary.page_number, None
                 
-            # Encode image
-            image_data = encode_image_to_base64(image_path)
+            # Encode image - base64 data should not be logged
+            image_data = encode_image_to_base64(summary.file_path)
                 
             # Extract table data
             response = await chain.ainvoke({"image_data": image_data})
             
-            # Parse JSON response
-            result = json.loads(response.content)
+            # Clear the image data from memory explicitly
+            del image_data
             
-            # Log progress
-            log_state_change(
-                state=state,
-                node_name="extract_tables",
-                change_type="table_extracted",
-                details={
-                    "page_number": summary.page_number,
-                    "file_path": image_path
-                }
+            # Parse JSON response
+            try:
+                result = json.loads(response.content)
+            except json.JSONDecodeError as json_error:
+                logger.error(f"Failed to parse JSON for page {summary.page_number}: {str(json_error)}")
+                logger.error(f"Response content: {response.content[:100]}...")  # Log first 100 chars
+                return summary.page_number, None
+            
+            # Validate response structure
+            required_fields = ["headers", "rows", "table_type", "metadata"]
+            if not all(field in result for field in required_fields):
+                logger.error(f"Missing required fields in response for page {summary.page_number}")
+                logger.error(f"Got fields: {list(result.keys())}")
+                return summary.page_number, None
+            
+            # Convert to TableData
+            table_data = TableData(
+                headers=result["headers"],
+                rows=result["rows"],
+                table_type=result["table_type"],
+                metadata=result["metadata"]
             )
             
-            return summary.page_number, result
+            logger.info(f"Extracted table from page {summary.page_number} ({len(table_data.rows)} rows)")
+            
+            return summary.page_number, table_data
             
         except Exception as e:
-            logger.error(f"Error processing table on page {summary.page_number}: {str(e)}")
+            logger.error(f"Failed to process page {summary.page_number}: {str(e)}")
+            logger.error(traceback.format_exc())
             return summary.page_number, None
 
     # Process batch concurrently
-    tasks = [process_single_page(summary, image_path) for summary, image_path in batch]
+    tasks = [process_single_page(summary) for summary, _ in batch]
     results = await asyncio.gather(*tasks)
     
     # Filter out failed results and convert to dict
@@ -108,57 +127,88 @@ async def process_page_batch(
 async def extract_tables(state: BuilderState) -> BuilderState:
     """Extract tables from pages."""
     try:
-        # Get pages with tables
-        pages_with_tables = []
-        
-        # First, create a mapping of page numbers to file paths from metadata
-        page_paths = {
-            meta.page_number: meta.file_path 
-            for meta in state.page_metadata
-        }
-        
-        # Then get summaries with tables and their corresponding file paths
-        if state.page_summaries:
-            for summary in state.page_summaries:
-                if summary.has_tables and summary.page_number in page_paths:
-                    pages_with_tables.append((summary, page_paths[summary.page_number]))
-                else:
-                    if summary.has_tables:
-                        logger.warning(f"Page {summary.page_number} has tables but no corresponding file path found")
-                    
-        if not pages_with_tables:
-            logger.info("No pages with tables found")
+        # Validate input state
+        if not state.page_summaries:
+            logger.error("No page summaries found in state")
             return state
             
+        logger.info(f"Starting table extraction with {len(state.page_summaries)} summaries")
+        logger.info(f"Summary page numbers: {[s.page_number for s in state.page_summaries]}")
+            
+        # Get pages with tables directly from summaries
+        pages_with_tables = [
+            (summary, summary.file_path) 
+            for summary in state.page_summaries 
+            if summary.has_tables
+        ]
+        
+        if not pages_with_tables:
+            logger.info("No tables to process")
+            return state
+            
+        logger.info(f"Found {len(pages_with_tables)} pages with tables:")
+        for summary, path in pages_with_tables:
+            logger.info(f"  - Page {summary.page_number}: {summary.page_name}")
+            if not os.path.exists(path):
+                logger.error(f"    Warning: File not found at {path}")
+                logger.error(f"    Current directory: {os.getcwd()}")
+                logger.error(f"    Is absolute path: {os.path.isabs(path)}")
+        
         # Create table chain
         chain = await create_table_chain()
         
         # Process pages in batches
         tables_data = {}
-        for i in range(0, len(pages_with_tables), BATCH_SIZE):
-            batch = pages_with_tables[i:i + BATCH_SIZE]
-            logger.info(f"Processing batch {i//BATCH_SIZE + 1} of {(len(pages_with_tables) + BATCH_SIZE - 1)//BATCH_SIZE}")
+        total_batches = (len(pages_with_tables) + BATCH_SIZE - 1) // BATCH_SIZE
+        
+        try:
+            for i in range(0, len(pages_with_tables), BATCH_SIZE):
+                batch = pages_with_tables[i:i + BATCH_SIZE]
+                current_batch = i // BATCH_SIZE + 1
+                logger.info(f"Processing batch {current_batch}/{total_batches}")
+                logger.info(f"Batch pages: {[s.page_number for s, _ in batch]}")
+                
+                try:
+                    batch_results = await process_page_batch(batch, chain)
+                    if batch_results:
+                        tables_data.update(batch_results)
+                        logger.info(f"Batch {current_batch} complete - extracted {len(batch_results)} tables")
+                        for page_num, table in batch_results.items():
+                            logger.info(f"  - Page {page_num}: {len(table.rows)} rows, {len(table.headers)} columns")
+                            logger.info(f"    Headers: {table.headers}")
+                    else:
+                        logger.error(f"Batch {current_batch} failed to process")
+                except Exception as batch_error:
+                    logger.error(f"Error in batch {current_batch}: {str(batch_error)}")
+                    logger.error(traceback.format_exc())
+                    continue
+        except Exception as batch_loop_error:
+            logger.error(f"Error in batch processing loop: {str(batch_loop_error)}")
+            logger.error(traceback.format_exc())
             
-            batch_results = await process_page_batch(batch, chain, state)
-            tables_data.update(batch_results)
+        if not tables_data:
+            logger.error("No tables were extracted")
+            return state
             
-        # Update state
+        # Update state with structured table data
         state.tables_data = tables_data
         
-        # Log completion
-        log_state_change(
-            state=state,
-            node_name="extract_tables",
-            change_type="complete",
-            details={"total_tables": len(tables_data)}
-        )
+        logger.info(f"Table extraction completed. Processed {len(tables_data)} tables")
+        logger.info(f"Pages with extracted tables: {sorted(tables_data.keys())}")
         
+        # Validate final state
+        if not state.tables_data:
+            logger.error("Final state validation failed - no tables data")
+            return state
+            
         return state
         
     except Exception as e:
-        log_error(state, "extract_tables", e)
+        logger.error(f"Table extraction failed: {str(e)}")
+        logger.error(f"Traceback: {traceback.format_exc()}")
         state.error_context = {
             "error": str(e),
-            "stage": "table_extraction"
+            "stage": "table_extraction",
+            "traceback": traceback.format_exc()
         }
         return state 

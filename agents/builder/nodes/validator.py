@@ -9,6 +9,8 @@ from langchain.output_parsers import PydanticOutputParser
 from ..state import BuilderState, ValidationIssue
 from ..prompts.validator_prompts import VALIDATION_PROMPT
 from ..utils.logging_utils import log_state_change, log_error, log_validation
+from ..config.models import get_model_config
+from ...utils.llm_utils import get_llm
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -19,14 +21,10 @@ class ValidationResult(BaseModel):
     issues: List[ValidationIssue] = []
     suggested_fixes: Optional[Dict[str, Any]] = None
 
-def create_validation_chain():
-    """Create the validation chain with LLM."""
-    # Use a more capable model for validation
-    llm = ChatOpenAI(
-        model="gpt-4-0125-preview",
-        temperature=0,
-        request_timeout=120
-    )
+def create_validator_chain():
+    """Create the chain for validating content."""
+    # Use centralized LLM configuration
+    llm = get_llm(temperature=0.1)  # Lower temperature for validation
     
     # Create prompt template
     prompt = ChatPromptTemplate.from_template(VALIDATION_PROMPT)
@@ -43,7 +41,7 @@ async def validate_content(state: BuilderState) -> ValidationResult:
     """Validate deck content using LLM."""
     try:
         # Create validation chain
-        chain = create_validation_chain()
+        chain = create_validator_chain()
         
         # Prepare content for validation
         content = {
