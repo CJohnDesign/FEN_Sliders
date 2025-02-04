@@ -12,6 +12,16 @@ from ..utils.logging_utils import log_state_change, log_error, log_validation
 from ..config.models import get_model_config
 from ...utils.llm_utils import get_llm
 from ..utils.state_utils import save_state
+import json
+import os
+import re
+from openai import AsyncOpenAI
+from langsmith.run_helpers import traceable
+from ..utils.content import save_content
+from ...utils.content import save_content
+from ..utils.content_parser import Section, parse_script_sections, parse_slides_sections, update_state_with_content
+from .script_writer import script_writer
+from .slides_writer import slides_writer
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -179,6 +189,106 @@ async def validate_and_fix(state: BuilderState) -> BuilderState:
         
     except Exception as e:
         log_error(state, "validate", e)
+        state.error_context = {
+            "error": str(e),
+            "stage": "validation"
+        }
+        # Save error state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
+        return state
+
+async def validate_sync(state: BuilderState) -> BuilderState:
+    """Validate and fix slide-script synchronization."""
+    try:
+        # Verify we're in the correct stage
+        if state.current_stage != WorkflowStage.VALIDATE:
+            logger.warning(f"Expected stage {WorkflowStage.VALIDATE}, but got {state.current_stage}")
+        
+        # Initialize validation state if needed
+        if state.retry_count is None:
+            state.retry_count = 0
+        if state.max_retries is None:
+            state.max_retries = 3
+            
+        # Skip if no content to validate
+        if not state.slides and not state.script:
+            logger.info("No content to validate")
+            state.error_context = {
+                "error": "No content available for validation",
+                "stage": "validation"
+            }
+            return state
+            
+        # Parse script and slides sections
+        script_sections = parse_script_sections(state.script)
+        slides_sections = parse_slides_sections(state.slides)
+
+        # Create messages for validation
+        messages = [
+            {
+                "role": "system",
+                "content": VALIDATION_PROMPT
+            },
+            {
+                "role": "user",
+                "content": f"""Validate these sections and return a JSON response:
+                
+                SCRIPT SECTIONS:
+                {json.dumps([s for s in script_sections], indent=2) if script_sections else "No script sections"}
+                
+                SLIDES SECTIONS:
+                {json.dumps([s for s in slides_sections], indent=2) if slides_sections else "No slides sections"}"""
+            }
+        ]
+
+        # Run validation with properly formatted content
+        result = await validate_content(state)
+        
+        # Update state with validation results
+        state.needs_fixes = not result.is_valid
+        state.validation_issues = result.issues if result.issues else []
+        
+        # Apply fixes if needed and available
+        if state.needs_fixes and result.suggested_fixes:
+            logger.info("Applying suggested fixes...")
+            state = await apply_fixes(state, result.suggested_fixes)
+            state.retry_count += 1
+            
+            # Check if we've hit max retries
+            if state.retry_count >= state.max_retries:
+                logger.warning(f"Hit max retries ({state.max_retries})")
+                state.error_context = {
+                    "error": "Max validation retries reached",
+                    "stage": "validation",
+                    "issues": [issue.model_dump() for issue in state.validation_issues]
+                }
+        
+        # Log completion and update stage
+        log_state_change(
+            state=state,
+            node_name="validate_sync",
+            change_type="complete",
+            details={
+                "validation_issues": len(state.validation_issues),
+                "needs_fixes": state.needs_fixes,
+                "retry_count": state.retry_count
+            }
+        )
+        
+        # Update workflow stage
+        state.update_stage(WorkflowStage.VALIDATE)
+        logger.info(f"Moving to next stage: {state.current_stage}")
+        
+        # Save state
+        if state.metadata and state.metadata.deck_id:
+            save_state(state, state.metadata.deck_id)
+            logger.info(f"Saved state for deck {state.metadata.deck_id}")
+        
+        return state
+        
+    except Exception as e:
+        log_error(state, "validate_sync", e)
         state.error_context = {
             "error": str(e),
             "stage": "validation"
