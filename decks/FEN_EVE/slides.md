@@ -1,11 +1,11 @@
 ---
-id: FEN_everest_reinsurance
+id: FEN_everest_group
 theme: ../../
 title: | 
-  Everest Reinsurance Company Group Fixed Indemnity Insurance
+  Everest Group Fixed Indemnity Insurance
 info: |
-  ## Everest Reinsurance Company Group Fixed Indemnity Insurance Review
-  A look at the Everest Reinsurance Company Group Fixed Indemnity Insurance benefits and details.
+  ## Everest Group Fixed Indemnity Insurance Review
+  A look at the Everest Group Fixed Indemnity Insurance benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -16,25 +16,25 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_everest_reinsurance" />
+<SlideAudio deckKey="FEN_everest_group" />
 
-# Everest Reinsurance Company Group Fixed Indemnity Insurance Review
+# Everest Group Fixed Indemnity Insurance Review
 
-Understanding the details and benefits of the **Everest Reinsurance Company Group Fixed Indemnity Insurance**
+Understanding the details and benefits of the **Everest Group Fixed Indemnity Insurance**
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Everest Reinsurance Overview
+## Everest Group Fixed Indemnity Insurance Overview
 
 <v-clicks>
 
-- Target Audience: Individuals and families seeking supplemental health coverage through **Everest Reinsurance Company**
-- **Group Fixed Indemnity Insurance** providing set daily payments for covered services
-- **Wide provider network** and direct payments
-- **Simplified claims process** and financial relief from unexpected medical expenses
+- Designed for individuals and families seeking supplemental health coverage
+- **Financial protection** against unexpected medical expenses
+- **Broad provider network** for accessibility
+- **Direct payments** and a simplified claims process
 
 </v-clicks>
 
@@ -43,25 +43,26 @@ transition: fade-out
 layout: default
 ---
 
-## Core Plan Elements
+## Key Features and Benefits
 
 <v-clicks>
 
 **Coverage Areas**
 
 - Physician Services
-- Hospitalization (including ICU)
+- Hospitalization
 - Virtual Visits
 
 **Plan Structure**
 
-- Tiered options with varying benefits
-- Co-pays and visit limits
+- Tiered Options
+- Co-pays
+- Visit Limits
 
 **Eligibility**
 
-- Individuals and families
-- Focus on affordability and accessibility
+- Individuals and Families
+- Focus on Affordability
 
 </v-clicks>
 
@@ -74,105 +75,215 @@ layout: default
 
 <v-clicks>
 
-- **Provider Networks:** Access to Multiplan PPO Network for a broad range of healthcare providers
-- **Claims Management:** Direct payments to clients with a simplified claims process
-- **Support Tools:**
-  - Wellness programs
-  - Advocacy services
-  - Online dashboards for easy management
+**Provider Networks**
+
+- Multiplan PPO Network
+
+**Claims Management**
+
+- Direct Payment to Clients
+- Simplified Process
+
+**Support Tools**
+
+- Wellness Programs
+- Advocacy Services
 
 </v-clicks>
 
 ---
 transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+layout: default
 ---
 
-## Plan 100 (1/2)
+## Plan Tiers Breakdown
+
+### Plan 100
 
 <v-click>
 
 **Confinement Benefits**
-- 30 Days Per Confinement/90 Days Per Certificate Year
-- Hospital Confinement: $100 per day
-- ICU Confinement: $100 per day
-- Emergency Room Visits: $50 per visit, 2 visits per certificate year
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
+- Hospital Confinement: $100
+- ICU Confinement: $100
 
-<v-click>
+**Hospital Benefits**
+- Emergency Room: $50 per visit (2 per year)
 
 **Outpatient Benefits**
-- Physician's Office Visits: $50 per visit, 3 visits per certificate year
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+- Physician's Office: $50 per visit (3 per year)
+
 </v-click>
 
 ---
 transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+layout: default
 ---
 
-## Plan 200 (1/2)
+### Plan 200
 
 <v-click>
 
 **Confinement Benefits**
-- 30 Days Per Confinement/90 Days Per Certificate Year
-- Hospital Confinement: $200 per day
-- ICU Confinement: $200 per day
-- Emergency Room Visits: $50 per visit, 2 visits per certificate year
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
+- Hospital Confinement: $200
+- ICU Confinement: $200
 
-<v-click>
+**Hospital Benefits**
+- Emergency Room: $50 per visit (2 per year)
 
 **Procedure Benefits**
-- Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
-
-<v-click>
+- Surgery: $250 per day (3 days max)
 
 **Outpatient Benefits**
-- Lab and X-Rays: $50 per covered day
-- Physician's Office Visits: $50 per visit, 3 visits per certificate year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+- X-Rays & Labs: $50 (4 days per year)
+- Advanced Diagnostic: $50
+
 </v-click>
 
 ---
 transition: fade-out
-layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+layout: default
 ---
 
-## Plan 200+ (1/2)
+### Plan 200+
 
 <v-click>
 
 **Confinement Benefits**
-- 30 Days Per Confinement/90 Days Per Certificate Year
-- Hospital Confinement: $300 per day
-- ICU Confinement: $300 per day
-- Emergency Room Visits: $50 per visit, 2 visits per certificate year
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
-</v-click>
+- Hospital Confinement: $200
+- ICU Confinement: $200
 
-<v-click>
+**Hospital Benefits**
+- Emergency Room: $50 per visit (2 per year)
 
 **Procedure Benefits**
-- Surgery: Combined Inpatient & Outpatient $250 per day, 3 maximum days per certificate year
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+- Surgery: $250 per day (3 days max)
+
+**Outpatient Benefits**
+- X-Rays & Labs: $50 (4 days per year)
+- Advanced Diagnostic: $50
+
 </v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+### Plan 300
 
 <v-click>
 
+**Confinement Benefits**
+- Hospital Confinement: $300
+- ICU Confinement: $300
+
+**Hospital Benefits**
+- Emergency Room: $50 per visit (2 per year)
+
 **Outpatient Benefits**
-- Lab and X-Rays: $50 per covered day
-- Advanced Diagnostic: $50 per covered day
-- Physician's Office Visits: $50 per visit, 3 visits per certificate year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+- Physician's Office: $50 per visit (3 per year)
+
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+### Plan 500
+
+<v-click>
+
+**Confinement Benefits**
+- Hospital Confinement: $500
+- ICU Confinement: $500
+
+**Hospital Benefits**
+- Emergency Room: $50 per visit (2 per year)
+
+**Procedure Benefits**
+- Surgery: $350 per day (3 days max)
+
+**Outpatient Benefits**
+- X-Rays & Labs: $50 (6 days per year)
+- Advanced Diagnostic: $50
+
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+### Plan 750
+
+<v-click>
+
+**Confinement Benefits**
+- Hospital Confinement: $750
+- ICU Confinement: $750
+
+**Hospital Benefits**
+- Emergency Room: $75 per visit (2 per year)
+
+**Procedure Benefits**
+- Surgery: $400 per day (3 days max)
+
+**Outpatient Benefits**
+- X-Rays & Labs: $50 (8 days per year)
+- Advanced Diagnostic: $50
+
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+### Plan 1000
+
+<v-click>
+
+**Confinement Benefits**
+- Hospital Confinement: $1000
+- ICU Confinement: $1000
+
+**Hospital Benefits**
+- Emergency Room: $100 per visit (2 per year)
+
+**Procedure Benefits**
+- Surgery: $500 per day (3 days max)
+
+**Outpatient Benefits**
+- X-Rays & Labs: $75 (12 days per year)
+- Advanced Diagnostic: $75
+
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+### Plan 1000+
+
+<v-click>
+
+**Confinement Benefits**
+- Hospital Confinement: $1000
+- ICU Confinement: $1000
+
+**Hospital Benefits**
+- Hospital Admission: $1000 (5 per year)
+- Emergency Room: $100 per visit (2 per year)
+
+**Procedure Benefits**
+- Surgery: $500 per day (3 days max)
+
+**Outpatient Benefits**
+- X-Rays & Labs: $100 (12 days per year)
+- Advanced Diagnostic: $100
+
 </v-click>
 
 ---
@@ -182,16 +293,15 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **Plan 100** | **Plan 200** | **Plan 200+** |
-|---------|----------|----------|-----------|
-| Hospital Confinement | $100 | $200 | $300 |
-| ICU Confinement | $100 | $200 | $300 |
-| Emergency Room | $50 | $50 | $50 |
-| Surgery | N/A | $250 | $250 |
-| Lab | N/A | $50 | $50 |
-| X-Rays | N/A | $50 | $50 |
-| Advanced Diagnostic | N/A | N/A | $50 |
-| Physician's Office Visits | $50 | $50 | $50 |
+| **Feature**            | **Plan 100** | **Plan 200** | **Plan 200+** | **Plan 300** | **Plan 500** | **Plan 750** | **Plan 1000** | **Plan 1000+** |
+|------------------------|--------------|--------------|---------------|--------------|--------------|--------------|---------------|----------------|
+| Hospital Confinement   | $100         | $200         | $200          | $300         | $500         | $750         | $1000         | $1000          |
+| ICU Confinement        | $100         | $200         | $200          | $300         | $500         | $750         | $1000         | $1000          |
+| Emergency Room         | $50          | $50          | $50           | $50          | $50          | $75          | $100          | $100           |
+| Surgery                | N/A          | $250         | $250          | N/A          | $350         | $400         | $500          | $500           |
+| X-Rays & Labs          | N/A          | $50          | $50           | N/A          | $50          | $50          | $75           | $100           |
+| Advanced Diagnostic    | N/A          | $50          | $50           | N/A          | $50          | $50          | $75           | $100           |
+| Hospital Admission     | N/A          | N/A          | N/A           | N/A          | N/A          | N/A          | N/A           | $1000          |
 
 ---
 transition: fade-out
@@ -204,17 +314,17 @@ image: img/pages/plan_brochure_image_final.jpg
 <v-click>
 
 **Exclusions**
-- Pre-existing conditions within a specified waiting period
-- Cosmetic surgery, dental care (except in specific cases), and experimental treatments
-- Services from family members or during foreign travel
+- Pre-existing Conditions
+- Cosmetic Surgery
+- Dental Care (except specific conditions)
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Limitations**
-- No coverage for chiropractic or acupuncture services
-- Specific exclusions for hazardous activities and certain sports
+- Waiting Periods
+- Specific Service Exclusions (e.g., chiropractic, acupuncture)
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -223,20 +333,20 @@ transition: fade-out
 layout: default
 ---
 
-## Key Takeaways and Reminders
+## Key Takeaways and Action Steps
 
 <v-clicks>
 
-- **Flexibility:** Multiple plan tiers to suit different needs and budgets
-- **Balance:** Offers a balance between cost and coverage with direct payments and a wide provider network
-- **Next Steps:** Contact an agent for enrollment, review plan details, and access support tools
+- **Flexible coverage** with a balance between cost and benefits
+- **Contact your agent** or visit our website for more information
+- **Enrollment support** available
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the Everest Reinsurance Company Group Fixed Indemnity Insurance Review. Continue to be great!
+line: Thank you for participating in the Everest Group Fixed Indemnity Insurance Review. Continue to be great!
 ---
 
 # Thank You!

@@ -47,18 +47,20 @@ async def validate_content(state: BuilderState) -> ValidationResult:
         # Create validation chain
         chain = await create_validator_chain()
         
-        # Prepare content for validation with proper null checks
-        content = {
-            "content": {
-                "slides": state.slides if state.slides else "",
-                "script": state.script if state.script else "",
-                "metadata": state.metadata.model_dump() if state.metadata else {},
-                "deck_info": state.deck_info.model_dump() if state.deck_info else {}
-            }
-        }
+        # Format content as a string with sections
+        content_sections = []
+        if state.slides:
+            content_sections.append("# Slides:\n" + state.slides)
+        if state.script:
+            content_sections.append("# Script:\n" + state.audio_script)
+        if state.metadata:
+            content_sections.append("# Metadata:\n" + str(state.metadata.model_dump()))
+            
+        # Join sections with clear separators
+        content = "\n\n---\n\n".join(content_sections)
         
-        # Run validation
-        result = await chain.ainvoke(content)
+        # Run validation with properly formatted content
+        result = await chain.ainvoke({"content": content})
         
         # Log validation result
         log_validation(

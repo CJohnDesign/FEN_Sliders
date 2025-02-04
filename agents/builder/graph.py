@@ -13,8 +13,12 @@ from .nodes import (
     validate_and_fix
 )
 
-def create_builder_graph():
-    """Create the builder workflow graph."""
+def create_builder_graph(start_node: str = "create_deck"):
+    """Create the builder workflow graph.
+    
+    Args:
+        start_node: The node to start the workflow from. Defaults to "create_deck".
+    """
     # Initialize graph
     workflow = StateGraph(state_schema=BuilderState)
     
@@ -28,8 +32,8 @@ def create_builder_graph():
     workflow.add_node("setup_audio", setup_audio)
     workflow.add_node("validate", validate_and_fix)
     
-    # Set entry point
-    workflow.set_entry_point("create_deck")
+    # Set entry point based on start_node
+    workflow.set_entry_point(start_node)
     
     # Define simple linear flow
     workflow.add_edge("create_deck", "process_imgs")
@@ -43,5 +47,4 @@ def create_builder_graph():
     
     return workflow.compile()
 
-# Create graph instance
-builder_graph = create_builder_graph() 
+# Don't create a global instance since we need the start_node parameter 

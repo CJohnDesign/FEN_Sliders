@@ -141,7 +141,9 @@ Extracted Table Information:
 
 **NEVER USE THE WORD COMPREHENSIVE**
 
-Outline your plan for the full presentation plan. add extra detail to the plan tiers sections"""
+Outline your plan for the full presentation plan. add extra detail to the plan tiers sections
+
+return only the content without any other text or comments"""
 
 TABLE_EXTRACTION_PROMPT = """You are an expert at analyzing presentation slides and extracting tabular data.
 Focus on identifying and structuring:

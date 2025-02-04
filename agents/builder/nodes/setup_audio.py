@@ -8,6 +8,10 @@ from ..state import BuilderState, WorkflowStage
 from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
 from ..utils.state_utils import save_state
+from ..prompts.script_writer_prompts import (
+    SCRIPT_WRITER_SYSTEM_PROMPT,
+    SCRIPT_WRITER_HUMAN_PROMPT
+)
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -42,54 +46,16 @@ async def setup_audio(state: BuilderState) -> BuilderState:
             }
             return state
             
-        # Get template path
-        base_dir = Path(__file__).parent.parent.parent.parent
-        template_dir = base_dir / "decks" / state.deck_info.template
-        
-        # Create system and human messages
-        system_message = SystemMessage(content="""You are an expert at creating presentation scripts.
-            
-Guidelines for script content:
-- Keep the tone professional but conversational
-- Each section should be marked with ---- Section Title ----
-- Each v-click point should have its own paragraph
-- Maintain natural transitions between sections
-- Include clear verbal cues for slide transitions
-- Do not wrap the content in ```markdown or ``` tags""")
-
-        # Use audio script from state if available, otherwise use template
-        script_content = state.audio_script if state.audio_script else get_template(template_dir)
-        if not script_content:
-            logger.error("No audio script template available")
-            state.error_context = {
-                "error": "No audio script template available",
-                "stage": "audio_setup"
-            }
-            return state
-        
-        human_message = HumanMessage(content=f"""
-
-Use this script structure as your base - the headers have ---- on either side of them - eg ---- Section Title ----. keep this format.
-{script_content}
-
-Generate a script using this complete slides content:
-{state.slides}
-
----
-
-Update the content while maintaining the exact formatting from the script.
-Do not wrap the content in ```markdown or ``` tags.
-
-Important:
-- headers have ---- on either side of them, ie ---- Section Title ----. keep this format.
-- Create a script that follows the slides exactly
-- Each slide's content should be clearly marked
-- Include verbal cues for transitions and animations (v-clicks)
-- Maintain professional but engaging tone
-- Script should be natural and conversational""")
+        # Create prompt template
+        prompt = ChatPromptTemplate.from_messages([
+            ("system", SCRIPT_WRITER_SYSTEM_PROMPT),
+            ("human", SCRIPT_WRITER_HUMAN_PROMPT.format(
+                template="",  # Empty template since we're generating from slides
+                slides_content=state.slides
+            ))
+        ])
         
         # Create and execute the chain
-        prompt = ChatPromptTemplate.from_messages([system_message, human_message])
         llm = await get_llm(temperature=0.2)
         chain = prompt | llm
         
@@ -104,7 +70,7 @@ Important:
         with open(output_path, "w") as f:
             f.write(audio_script)
             
-        # Update state
+        # Update state with generated content
         state.audio_script = audio_script
         
         # Log completion and update stage

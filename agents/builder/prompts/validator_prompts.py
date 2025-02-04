@@ -63,19 +63,19 @@ Notice in the example how:
 5. Each section of the script is separated by an empty line
 
 Analyze the provided slides and script, then return a JSON response in this format:
-{
+{{}
     "needs_fixes": true/false,
     "issues": [
-        {
+        {{}
             "type": "missing_vclick",
             "slide_number": 1,
             "description": "V-click point missing corresponding script line"
-        }
+        }}
         // ... more issues if found
     ],
     "fixed_slides": "... complete fixed slides content if needed ...",
     "fixed_script": "... complete fixed script content if needed ..."
-}
+}}
 
 Rules for validation - if any rule is violated, needs_fixes should be true
     - Only return fixes_needed as true if changes are absolutely necessary to maintain slide/script sync
@@ -110,21 +110,22 @@ For each issue found, provide:
 - Suggestions for improvement
 
 Return your response as a JSON object with this exact structure:
-{
+{{
     "is_valid": false,
     "issues": [
-        {
+        {{
             "type": "flow",
             "description": "Issue description",
             "severity": "medium",
             "location": "specific location in content",
             "suggestions": ["suggestion 1", "suggestion 2"]
-        }
+        }}
+        // ... more issues if found
     ],
-    "suggested_fixes": {
+    "suggested_fixes": {{
         "slides": "complete fixed slides content if needed",
         "script": "complete fixed script content if needed"
-    }
-}
+    }}
+}}
 
 The response MUST be a valid JSON object matching this structure exactly."""

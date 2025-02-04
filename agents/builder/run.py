@@ -5,8 +5,8 @@ import logging
 import argparse
 from typing import Optional
 from pathlib import Path
-from .graph import builder_graph
-from .state import BuilderState, DeckMetadata, DeckInfo
+from .graph import create_builder_graph
+from .state import BuilderState, DeckMetadata, DeckInfo, WorkflowStage
 from .utils.state_utils import load_existing_state, save_state
 from ..config.settings import LANGCHAIN_TRACING_V2, LANGCHAIN_PROJECT
 
@@ -72,19 +72,32 @@ async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
         # Initialize or load state
         if start_node:
             state = load_existing_state(deck_id) or initialize_state(deck_id, title)
+            # Set the current stage based on start_node
+            try:
+                stage = WorkflowStage(start_node)
+                state.current_stage = stage
+                # Remove this stage and all subsequent stages from completed_stages
+                if state.completed_stages:
+                    stage_order = list(WorkflowStage)
+                    start_idx = stage_order.index(stage)
+                    stages_to_remove = set(stage_order[start_idx:])
+                    state.completed_stages = [s for s in state.completed_stages if s not in stages_to_remove]
+            except ValueError:
+                logger.error(f"Invalid start node: {start_node}")
+                return 1
         else:
             state = initialize_state(deck_id, title)
+            start_node = "create_deck"  # Default start node
         
         # Prepare state for graph execution
         graph_input = prepare_state_for_graph(state)
         
-        # Add start node if specified
-        if start_node:
-            graph_input["start_node"] = start_node
+        # Create graph with specified start node
+        graph = create_builder_graph(start_node)
         
         # Run workflow
         try:
-            final_state = await builder_graph.ainvoke(graph_input)
+            final_state = await graph.ainvoke(graph_input)
             save_state(final_state, deck_id)
             logger.info("Builder completed successfully")
             return 0

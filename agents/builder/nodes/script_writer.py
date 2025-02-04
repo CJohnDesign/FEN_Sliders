@@ -51,13 +51,13 @@ async def script_writer(state: BuilderState) -> BuilderState:
         })
         
         # Write script to file
-        output_path = Path(state.deck_info.path) / "script.md"
+        output_path = Path(state.deck_info.path) / "audio" / "audio_script.md"
         output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w") as f:
             f.write(script_content.content)
             
         # Update state
-        state.script = script_content.content
+        state.audio_script = script_content.content
         
         # Log completion
         log_state_change(
