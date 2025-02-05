@@ -27,10 +27,8 @@ def update_state(state: BuilderState, field_name: str, new_value: Any) -> None:
 
 def transition_stage(state: BuilderState, current: WorkflowStage, next_stage: WorkflowStage) -> None:
     """Helper for stage transitions."""
-    if state.current_stage == current:
+    if state.workflow_progress.current_stage == current:
         state.update_stage(next_stage)
-        save_state(state, state.metadata.deck_id)
-        log_state_change(state, current.value, "complete")
         logger.info(f"Transitioned from {current} to {next_stage}")
 
 async def process_single_summary(
@@ -109,9 +107,12 @@ Please provide:
 async def process_summaries(state: BuilderState) -> BuilderState:
     """Process summaries for all pages while preserving existing state."""
     try:
+        logger.info("Starting summary processing")
+        
         # Verify we're in the correct stage
-        if state.current_stage != WorkflowStage.PROCESS_SUMMARIES:
-            logger.warning(f"Expected stage {WorkflowStage.PROCESS_SUMMARIES}, but got {state.current_stage}")
+        if state.workflow_progress.current_stage != WorkflowStage.PROCESS_SUMMARIES:
+            logger.warning(f"Expected stage {WorkflowStage.PROCESS_SUMMARIES}, but got {state.workflow_progress.current_stage}")
+            state.update_stage(WorkflowStage.PROCESS_SUMMARIES)
             
         # Preserve existing state
         existing_summaries = {
@@ -120,24 +121,41 @@ async def process_summaries(state: BuilderState) -> BuilderState:
         }
             
         if not state.deck_info or not state.deck_info.path:
-            logger.error("Missing deck_info in state")
-            state.set_error("Missing deck info", "process_summaries")
+            error_msg = "Missing deck_info in state"
+            logger.error(error_msg)
+            state.set_error(error_msg, "process_summaries")
             return state
             
         # Check for required state
         if not state.page_metadata:
-            logger.error("No page metadata found in state")
-            state.set_error("No page metadata available", "process_summaries")
+            error_msg = "No page metadata found in state"
+            logger.error(error_msg)
+            state.set_error(error_msg, "process_summaries")
             return state
             
         logger.info(f"Processing summaries for {len(state.page_metadata)} pages")
         
+        # Set initial progress
+        total_pages = len(state.page_metadata)
+        state.set_stage_progress(
+            total=total_pages,
+            completed=0,
+            current="Starting summary processing"
+        )
+        
         # Process each page
         processed_summaries = []
-        for metadata in sorted(state.page_metadata, key=lambda x: x.page_number):
+        for idx, metadata in enumerate(sorted(state.page_metadata, key=lambda x: x.page_number)):
             summary = await process_single_summary(metadata, existing_summaries)
             if summary:
                 processed_summaries.append(summary)
+                
+            # Update progress
+            state.set_stage_progress(
+                total=total_pages,
+                completed=idx + 1,
+                current=f"Processed page {metadata.page_number}"
+            )
                 
         # Update state with processed summaries
         state.page_summaries = processed_summaries
@@ -154,8 +172,9 @@ async def process_summaries(state: BuilderState) -> BuilderState:
         )
         
         # Move to next stage
-        transition_stage(state, WorkflowStage.PROCESS_SUMMARIES, WorkflowStage.EXTRACT_TABLES)
-        logger.info(f"Saved state for deck {state.metadata.deck_id}")
+        state.update_stage(WorkflowStage.EXTRACT_TABLES)
+        await save_state(state, state.metadata.deck_id)
+        logger.info(f"Completed summary processing for deck {state.metadata.deck_id}")
         
         return state
         

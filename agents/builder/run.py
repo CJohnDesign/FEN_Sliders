@@ -74,13 +74,6 @@ def prepare_state_for_graph(state: BuilderState) -> dict:
     """Prepare state for graph execution."""
     # Convert state to dictionary format
     state_dict = state.model_dump(mode='json')
-    
-    # Add any required runtime configuration
-    state_dict["config"] = {
-        "allow_delegation": True,
-        "max_iterations": 10
-    }
-    
     return state_dict
 
 async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
@@ -112,15 +105,18 @@ async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
                     return 1
                     
                 stage = STAGE_MAPPING[start_node]
-                state.current_stage = stage
+                state.workflow_progress.current_stage = stage
                 logger.info(f"Set current stage to: {stage}")
                 
                 # Remove this stage and all subsequent stages from completed_stages
-                if hasattr(state, 'completed_stages') and state.completed_stages:
+                if state.workflow_progress.completed_stages:
                     stage_order = list(WorkflowStage)
                     start_idx = stage_order.index(stage)
                     stages_to_remove = set(stage_order[start_idx:])
-                    state.completed_stages = [s for s in state.completed_stages if s not in stages_to_remove]
+                    state.workflow_progress.completed_stages = [
+                        s for s in state.workflow_progress.completed_stages 
+                        if s not in stages_to_remove
+                    ]
                     logger.info(f"Reset completed stages after {stage}")
             except ValueError as e:
                 logger.error(f"Error setting workflow stage: {str(e)}")
