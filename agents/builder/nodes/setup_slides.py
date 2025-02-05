@@ -8,7 +8,7 @@ from langchain.prompts import ChatPromptTemplate
 from langsmith import Client, trace
 from langsmith.run_helpers import traceable
 from ..state import BuilderState, WorkflowStage, SlideContent
-from ..utils.logging import log_state_change, log_error
+from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
 from ..utils.state_utils import save_state
 from ...utils.content import save_content

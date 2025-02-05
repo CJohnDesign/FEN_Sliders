@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Dict, Any, Tuple, Optional
 from ..state import BuilderState, WorkflowStage
 from ..utils.state_utils import save_state
-from ..utils.logging import log_state_change, log_error
+from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_completion
 from langchain.prompts import ChatPromptTemplate
 from ..utils.tracing import traceable
