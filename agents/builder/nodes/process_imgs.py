@@ -1,18 +1,41 @@
 """Image processing node for handling presentation images."""
 import logging
 import asyncio
+import base64
+import json
 from pathlib import Path
 from typing import List, Dict, Any, Tuple
+from PIL import Image
+from io import BytesIO
 from ..state import BuilderState, PageMetadata, WorkflowStage
 from ..utils.logging_utils import log_error, log_state_change
 from ..utils.state_utils import save_state
+from ...utils.llm_utils import get_llm
 from agents.utils.pdf_utils import convert_pdf_to_images
+from langchain.prompts import ChatPromptTemplate
 
 # Set up logging
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)  # Changed to INFO for more visibility
+logger.setLevel(logging.INFO)
 
 BATCH_SIZE = 5
+
+IMAGE_ANALYSIS_PROMPT = """You are an expert at analyzing presentation slides and extracting their content.
+For this slide image, please:
+1. Extract all visible text
+2. Describe any visible diagrams, charts, or graphics
+3. Note any key data points or statistics
+4. Identify the main topic/purpose of the slide
+5. Generate a descriptive name for this slide based on its content (use snake_case)
+
+Return the information in this JSON format:
+{
+    "extracted_text": "All text found in the image",
+    "visual_elements": "Description of diagrams/charts/graphics",
+    "key_points": ["List of important points"],
+    "main_topic": "Primary topic of the slide",
+    "descriptive_name": "snake_case_name_for_slide"
+}"""
 
 def preserve_state(state: BuilderState, field_name: str) -> Any:
     """Helper to preserve state fields."""
@@ -32,6 +55,84 @@ def transition_stage(state: BuilderState, current: WorkflowStage, next_stage: Wo
         log_state_change(state, current.value, "complete")
         logger.info(f"Transitioned from {current} to {next_stage}")
 
+async def get_image_base64(image_path: Path) -> str:
+    """Convert image to base64 string."""
+    try:
+        with Image.open(image_path) as img:
+            # Convert to RGB if needed
+            if img.mode != 'RGB':
+                img = img.convert('RGB')
+            # Resize if too large (max 2048px on longest side)
+            max_size = 2048
+            if max(img.size) > max_size:
+                ratio = max_size / max(img.size)
+                new_size = tuple(int(dim * ratio) for dim in img.size)
+                img = img.resize(new_size, Image.Resampling.LANCZOS)
+            # Convert to base64
+            buffered = BytesIO()
+            img.save(buffered, format="JPEG", quality=85)
+            img_str = base64.b64encode(buffered.getvalue()).decode()
+            return img_str
+    except Exception as e:
+        logger.error(f"Error converting image to base64: {str(e)}")
+        return ""
+
+async def analyze_image_with_gpt(image_path: Path) -> Dict[str, Any]:
+    """Analyze image content using GPT-4 Vision."""
+    try:
+        # Convert image to base64
+        base64_image = await get_image_base64(image_path)
+        if not base64_image:
+            raise ValueError("Failed to convert image to base64")
+
+        # Get LLM instance
+        llm = await get_llm(model="gpt-4o", temperature=0.2)
+        
+        # Create messages for vision analysis
+        messages = [
+            {
+                "role": "system",
+                "content": IMAGE_ANALYSIS_PROMPT
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Please analyze this slide image:"
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:image/jpeg;base64,{base64_image}",
+                            "detail": "high"
+                        }
+                    }
+                ]
+            }
+        ]
+        
+        # Call the vision model directly
+        response = await llm.ainvoke(messages)
+        
+        # Parse response
+        try:
+            result = json.loads(response.content)
+            return result
+        except:
+            # If not JSON, create structured response
+            return {
+                "extracted_text": response.content.strip(),
+                "visual_elements": "",
+                "key_points": [],
+                "main_topic": "Unknown",
+                "descriptive_name": image_path.stem
+            }
+
+    except Exception as e:
+        logger.error(f"Error analyzing image with GPT: {str(e)}")
+        return {"error": str(e)}
+
 async def process_image_batch(
     batch: List[Path],
     state: BuilderState,
@@ -47,13 +148,24 @@ async def process_image_batch(
                 logger.info(f"Using existing metadata for page {page_number}")
                 return existing_metadata[page_number]
                 
-            # Create new page metadata
-            page_name = image_path.stem
-            content = f"Image content for page {page_number}"
+            # Analyze image with GPT
+            analysis = await analyze_image_with_gpt(image_path)
+            
+            if "error" in analysis:
+                raise ValueError(f"Failed to analyze image: {analysis['error']}")
+            
+            # Create new page metadata with descriptive name
+            descriptive_name = analysis.get("descriptive_name", image_path.stem)
+            content = (
+                f"Main Topic: {analysis.get('main_topic', '')}\n\n"
+                f"Extracted Text:\n{analysis.get('extracted_text', '')}\n\n"
+                f"Visual Elements:\n{analysis.get('visual_elements', '')}\n\n"
+                f"Key Points:\n" + "\n".join(analysis.get('key_points', []))
+            )
             
             metadata = PageMetadata(
                 page_number=page_number,
-                page_name=page_name,
+                page_name=descriptive_name,
                 file_path=str(image_path),
                 content_type="slide",
                 content=content
@@ -66,11 +178,12 @@ async def process_image_batch(
                 change_type="image_processed",
                 details={
                     "page_number": page_number,
-                    "file_path": str(image_path)
+                    "file_path": str(image_path),
+                    "descriptive_name": descriptive_name
                 }
             )
             
-            logger.info(f"✓ Processed image {page_number}: {image_path.name}")
+            logger.info(f"✓ Processed image {page_number}: {descriptive_name}")
             return metadata
             
         except Exception as e:
@@ -79,7 +192,7 @@ async def process_image_batch(
             return None
 
     # Process batch concurrently
-    tasks = [process_single_image(img, idx) for idx, img in enumerate(batch)]
+    tasks = [process_single_image(img, i) for i, img in enumerate(batch)]
     results = await asyncio.gather(*tasks)
     
     # Filter out failed results

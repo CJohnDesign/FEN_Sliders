@@ -82,6 +82,36 @@ async def process_slides(state: BuilderState) -> BuilderState:
             template = get_template(state)
             logger.info(f"Template length: {len(template)}")
             
+            # Define replacements
+            replacements = {
+                "{{deck_key}}": "FEN_EVE",
+                "{{ Plan Name }}": "Everest",
+                "{{ Plan Full Name }}": "Everest Insurance Benefits",
+                "{{ Organization }}": "Everest Insurance",
+                "{{ Brand }}": "Everest",
+                "{{ Partner }}": "Everest Insurance Partners",
+                "{{ Benefit Category 1 }}": "Risk Management",
+                "{{ Benefit Category 2 }}": "Claims Support",
+                "{{ Benefit Category 3 }}": "Customer Service",
+                "{{ Benefit Category 4 }}": "Technical Support",
+                "{{ Tool Name }}": "Risk Management Portal",
+                "{{ Acronym }}": "RMP",
+                "{{ Feature 1 }}": "Claims Management",
+                "{{ Feature 2 }}": "Risk Assessment",
+                "{{ Overview Point 1 }}": "Complete insurance solutions",
+                "{{ Benefit Type 1 }}": "Property Insurance",
+                "{{ Benefit Type 2 }}": "Casualty Insurance",
+                "{{ Benefit Type 3 }}": "Specialty Insurance",
+                "{{ Benefit Type 4 }}": "Risk Management Services",
+                "{{ Additional Benefit }}": "24/7 Claims Support",
+                "{{ Feature }}": "Online Portal"
+            }
+            
+            # Replace variables in template
+            processed_template = template
+            for old, new in replacements.items():
+                processed_template = processed_template.replace(old, new)
+            
             # Get processed summaries with fallback
             processed_summaries = ""
             if hasattr(state, 'processed_summaries') and state.processed_summaries:
@@ -92,165 +122,47 @@ async def process_slides(state: BuilderState) -> BuilderState:
             # Initialize slide state
             slide_state = SlideState(
                 processed_summaries=processed_summaries,
-                template=template
+                template=processed_template
             )
             
             # Verify we're in the correct stage and fix if needed
             if state.current_stage != WorkflowStage.PROCESS_SLIDES:
                 logger.warning(f"Expected stage {WorkflowStage.PROCESS_SLIDES}, but got {state.current_stage}")
-                state.update_stage(WorkflowStage.PROCESS_SLIDES)
+                state.current_stage = WorkflowStage.PROCESS_SLIDES
                 
-            # Validate required state attributes
-            if not processed_summaries:
-                error_msg = "Missing processed summaries"
-                logger.error(error_msg)
-                state.set_error(error_msg, "process_slides")
-                return state
-            
-            logger.info("All required attributes present")
-            logger.info(f"Processed summaries length: {len(state.processed_summaries)}")
-            
-            # Create prompt template
-            logger.info("Creating slide generation prompt...")
+            # Create chat prompt for slide generation
             prompt = ChatPromptTemplate.from_messages([
                 ("system", SLIDES_WRITER_SYSTEM_PROMPT),
                 ("human", SLIDES_WRITER_HUMAN_PROMPT.format(
-                    template=slide_state.template,
-                    processed_summaries=slide_state.processed_summaries
+                    template=processed_template,
+                    processed_summaries=processed_summaries
                 ))
             ])
             
-            # Create and execute the chain
-            logger.info("Initializing LLM for slide generation...")
-            llm = await get_llm(temperature=0.2)
-            chain = prompt | llm
+            # Get LLM response
+            llm = get_llm()
+            response = await llm.ainvoke(prompt)
+            slides_content = response.content
             
-            # Generate slides
-            logger.info("Generating slides content...")
-            try:
-                # Track the LLM call with LangSmith
-                with trace(name="llm_slide_generation") as llm_trace:
-                    response = await chain.ainvoke({})
-                    llm_trace.metadata["model"] = "gpt4o"
-                    llm_trace.metadata["temperature"] = 0.2
+            # Replace any remaining template variables in the response
+            for old, new in replacements.items():
+                slides_content = slides_content.replace(old, new)
+            
+            # Save slides content
+            if state.deck_info and state.deck_info.path:
+                output_path = Path(state.deck_info.path) / "slides.md"
+                success = await save_slides_to_file(slides_content, output_path)
+                if not success:
+                    raise Exception("Failed to save slides content")
                     
-                slide_state.slides_content = response.content
-                logger.info(f"Generated slides content length: {len(slide_state.slides_content)}")
-            except Exception as gen_error:
-                logger.error(f"Error during slide generation: {str(gen_error)}")
-                state.set_error(
-                    "Failed to generate slides content",
-                    "process_slides",
-                    {"error": str(gen_error)}
-                )
-                return state
-            
-            # Validate slides content
-            if not slide_state.slides_content or not slide_state.slides_content.strip():
-                logger.error("Generated slides content is empty")
-                state.set_error(
-                    "Generated slides content is empty",
-                    "process_slides"
-                )
-                return state
+                logger.info(f"Successfully saved slides to {output_path}")
+                state.slides = slides_content
                 
-            # Save slides to file
-            output_path = Path(state.deck_info.path) / "slides.md"
-            logger.info(f"Attempting to save slides to {output_path}")
-            if not await save_slides_to_file(slide_state.slides_content, output_path):
-                state.set_error(
-                    "Failed to save slides to file",
-                    "process_slides",
-                    {"path": str(output_path)}
-                )
-                return state
-                
-            # Create structured slides
-            logger.info("Creating structured slides...")
-            sections = slide_state.slides_content.split("---")
-            logger.info(f"Found {len(sections)} slide sections")
-            
-            structured_slides = []
-            for i, section in enumerate(sections):
-                if section.strip():
-                    # Extract title from the section if it exists
-                    lines = section.strip().split("\n")
-                    title = next((line.replace("#", "").strip() for line in lines if line.startswith("#")), f"Slide {i + 1}")
-                    
-                    slide = SlideContent(
-                        page_number=i + 1,
-                        title=title,
-                        content=section.strip()
-                    )
-                    structured_slides.append(slide)
-                    logger.info(f"Processed slide {i + 1}: {title}")
-            
-            slide_state.structured_slides = structured_slides
-            
-            # Validate structured slides
-            if not slide_state.structured_slides:
-                logger.error("No structured slides were created")
-                state.set_error(
-                    "Failed to create structured slides",
-                    "process_slides"
-                )
-                return state
-            
-            # Update state with generated content
-            state.slides = slide_state.slides_content
-            state.structured_slides = slide_state.structured_slides
-            state.slide_count = len(slide_state.structured_slides)
-            logger.info(f"Successfully created {len(slide_state.structured_slides)} structured slides")
-            
-            # Add metadata about the slide generation process
-            slide_trace.metadata.update({
-                "deck_id": state.metadata.deck_id if state.metadata else None,
-                "slides_content_length": len(slide_state.slides_content),
-                "num_slides": len(slide_state.structured_slides),
-                "output_path": str(output_path)
-            })
-            
-            # Log completion and update stage
-            log_state_change(
-                state=state,
-                node_name="process_slides",
-                change_type="complete",
-                details={
-                    "slide_count": len(slide_state.structured_slides),
-                    "output_path": str(output_path),
-                    "slides_content_length": len(slide_state.slides_content),
-                    "structured_slides_count": len(slide_state.structured_slides)
-                }
-            )
-            
-            # Save state before transitioning
-            if state.metadata and state.metadata.deck_id:
-                save_state(state, state.metadata.deck_id)
-                logger.info(f"Saved state for deck {state.metadata.deck_id}")
-            
-            # Update workflow stage
-            state.update_stage(WorkflowStage.SETUP_AUDIO)
-            logger.info(f"Moving to next stage: {state.current_stage}")
-            
-            # Save state again after stage transition
-            if state.metadata and state.metadata.deck_id:
-                save_state(state, state.metadata.deck_id)
-            
+            # Update state
+            state = await save_state(state)
+            logger.info("Completed slide processing")
             return state
             
     except Exception as e:
-        logger.error(f"Error in process_slides: {str(e)}")
-        logger.error("Stack trace:", exc_info=True)
-        state.set_error(
-            str(e),
-            "process_slides",
-            {
-                "error_type": type(e).__name__,
-                "stage": "process_slides",
-                "current_stage": str(state.current_stage)
-            }
-        )
-        # Save error state
-        if state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
-        return state 
+        log_error("Error in process_slides", e)
+        raise 

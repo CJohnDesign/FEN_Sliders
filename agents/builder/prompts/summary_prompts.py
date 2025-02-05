@@ -16,80 +16,62 @@ Core Plan Elements (2-3 slides)
 Common Service Features (2-3 slides)
    - Outline standard services such as provider networks, claims management, and support tools (e.g., dashboards, wellness programs, advocacy services).
 
-Plan Tiers Breakdown (8-12 slides - one slide per tier - broke higher tier plans with more benefits into multiple slides)
-   - **IMPORTANT** For each plan tier, detail benefits like physician services, hospitalization details, virtual visits, prescriptions, wellness tools, and advocacy.
-   - Each tier should be detailed, but the slides should be concise and to the point.
-
-Example:
 
 ## Plan 1
 
 **Category 1**
-
 - **Details**
 - **Details**
-
 **Category 2**
-
 - **Details**
 
 **Category 3**
-
 - **Details**
 
 **Category 4**
-
 - **Details**
 
 **Category 5**
-
+- **Details**   
 - **Details**
 
 **Category 6**
-
 - **Details**
+    
 
 
 ## Plan 2
 
 **Category 1**
-
 - **Details**
 - **Details**
 - **Details**
 
 **Category 2**
-
 - **Details**
 
 **Category 3**
-
 - **Details**
 
 **Category 4**
-
 - **Details**
 
 **Category 5**
-
 - **Details**
 
 **Category 6**
-
 - **Details**
 
 
 ## Plan 3 (1/2)
 
 **Category 1**
-
 - **Details**
 - **Details**
 - **Details**
 - **Details**
 
 **Category 2**
-
 - **Details**
 - **Additional Details**
 
@@ -97,23 +79,24 @@ Example:
 ## Plan 3 (2/2)
 
 **Category 3**
-
 - **Details**
 - **Additional Details**
 
 **Category 4**
-
 - **Details**
 
 **Category 5**
-
 - **Details**
 
 **Category 6**
-
 - **Details**
 
-   
+(these are the tiers for the plan)
+    Plan Tiers Breakdown (8-12 slides - one slide per tier - broke higher tier plans with more benefits into multiple slides)
+        - **IMPORTANT** For each plan tier, detail benefits like physician services, hospitalization details, virtual visits, prescriptions, wellness tools, and advocacy.
+        - Each tier should be detailed, but the slides should be concise and to the point.
+
+
 Comparison slides showing differences among the tiers.
     - Highlight the benefits of each tier, but don't be redundant.
     - should return a markdown formatted spread sheet showing key differences between tiers.

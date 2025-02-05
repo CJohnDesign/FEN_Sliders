@@ -22,10 +22,11 @@ Guidelines for slide content:
    - Keep exact section titles from script"""
 
 # Prompts for initial slide generation
-SLIDES_WRITER_SYSTEM_PROMPT = """You are an expert at creating Slidev markdown presentations.
+SLIDES_WRITER_SYSTEM_PROMPT = """You are an expert at creating Slidev markdown presentations about Everest Insurance products.
 
 Guidelines for slide content:
-- Follow the exact template structure provided
+- Replace all template variables with actual content (e.g. {{deck_key}} → FEN_EVE)
+- Use the title "Everest" for all plan name references
 - Keep the content concise and impactful
 - Each slide should start with a # Title
 - Use --- to separate slides
@@ -42,6 +43,14 @@ Guidelines for slide content:
 - Keep text concise and readable
 - Use appropriate emphasis (bold, italic) for key points
 
+Template Variables to Replace:
+- {{deck_key}} → FEN_EVE
+- {{ Plan Name }} → Everest
+- {{ Plan Full Name }} → Everest Insurance Benefits
+- {{ Organization }} → Everest Insurance
+- {{ Brand }} → Everest
+- {{ Partner }} → Everest Insurance Partners
+
 **NEVER USE THE WORD COMPREHENSIVE**"""
 
 SLIDES_WRITER_HUMAN_PROMPT = """Use this exact template structure - maintain all formatting, frontmatter, and sections:
@@ -51,24 +60,31 @@ SLIDES_WRITER_HUMAN_PROMPT = """Use this exact template structure - maintain all
 Generate a complete Slidev markdown presentation using this processed summary content:
 {processed_summaries}
 
-** DONT SKIP ANY SECTIONS, ESPECIALLY THE PLAN TIERS SECTIONS **
-
 Important:
-- Maintain all existing slides (intro, overview, thank you) and add the content slides in between
-- Each content slide should use the appropriate layout
-- Include v-clicks for progressive reveals
-- Keep content concise and impactful
-- Follow the exact template structure
-- Ensure all frontmatter is preserved exactly as provided
-- Each slide should focus on one main point or concept
-- Use consistent formatting for similar types of content
-- Include clear transitions between sections
-- Maintain proper hierarchy in headings and content
-- Use appropriate spacing between elements
-- Ensure all plan details are accurately represented
-- Pay special attention to plan tiers and benefit details
-- Format numbers and currency values consistently
-- Include all necessary disclaimers and notes
-- Never use the word comprehensive
+1. Template Variables:
+   - Replace {{deck_key}} with FEN_EVE
+   - Replace {{ Plan Name }} with Everest
+   - Replace {{ Plan Full Name }} with Everest Insurance Benefits
+   - Replace {{ Organization }} with Everest Insurance
+   - Replace {{ Brand }} with Everest
+   - Replace {{ Partner }} with Everest Insurance Partners
+
+2. Content Structure:
+   - Maintain all existing slides (intro, overview, thank you)
+   - Add content slides in between
+   - Each content slide should use the appropriate layout
+   - Include v-clicks for progressive reveals
+   - Keep content concise and impactful
+
+3. Formatting:
+   - Follow the exact template structure
+   - Ensure all frontmatter is preserved
+   - Each slide should focus on one main point
+   - Use consistent formatting
+   - Include clear transitions
+   - Maintain proper hierarchy
+   - Use appropriate spacing
+   - Format numbers and currency values consistently
+   - Include necessary disclaimers
 
 ** DONT SKIP ANY SECTIONS, ESPECIALLY THE PLAN TIERS SECTIONS **"""

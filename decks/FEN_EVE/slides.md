@@ -1,11 +1,11 @@
 ---
-id: FEN_001
+id: FEN_{{deck_key}}
 theme: ../../
 title: | 
-  HealthPlus Plan
+  {{ Plan Name }}
 info: |
-  ## HealthPlus Plan Review
-  A look at the HealthPlus Plan benefits and details.
+  ## {{ Plan Name }} Review
+  A look at the {{ Plan Name }} benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -16,26 +16,26 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_001" />
+<SlideAudio deckKey="FEN_{{deck_key}}" />
 
-# HealthPlus Plan Review
+# {{ Plan Name }} Review
 
-Understanding the details and benefits of the **HealthPlus Comprehensive Coverage Plan**
+Understanding the details and benefits of the **{{ Plan Full Name }}**
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## HealthPlus Overview
+## {{ Plan Name }} Overview
 
 <v-clicks>
 
-- Available through **HealthCare Inc.**
-- **Medical Coverage** for various situations
-- **Dental and Vision** support tools
-- **Wellness Programs** through online portal
-- **24/7 Customer** support
+- {{ Overview Point 1 }} through **{{ Organization }}**
+- **{{ Benefit Category 1 }}** for various situations
+- **{{ Benefit Category 2 }}** and support tools
+- **{{ Benefit Category 3 }}** through {{ Feature }}
+- **{{ Benefit Category 4 }}** support
 
 </v-clicks>
 
@@ -48,20 +48,20 @@ layout: default
 
 <v-clicks>
 
-**Comprehensive Medical Coverage**
+**{{ Benefit Type 1 }}**
 
-**Dental and Vision Plans**
+**{{ Benefit Type 2 }}**
 
-**Wellness Incentives**
+**{{ Benefit Type 3 }}**
 
-**Flexible Spending Accounts** (varies by plan)
+**{{ Benefit Type 4 }}** (varies by plan)
 </v-clicks>
 
 <v-click>
 
-**Telemedicine Services** through Teladoc
+**{{ Additional Benefit }}** through {{ Partner }}
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="Teladoc Logo">
+  <img src="" class="h-12 mix-blend-multiply" alt="{{ Brand }} Logo">
 </div>
 
 </v-click>
@@ -75,17 +75,17 @@ layout: default
 
 <v-click>
 
-**Health Savings Account** (HSA)
+**{{ Tool Name }}** ({{ Acronym }})
 </v-click>
 
 <v-click>
 
-**Budgeting Assistance** System
+**{{ Feature 1 }}** System
 </v-click>
 
 <v-click>
 
-**Financial Planning** Support
+**{{ Feature 2 }}** Support
 </v-click>
 
 ---
@@ -93,16 +93,16 @@ transition: fade-out
 layout: default
 ---
 
-## How Health Savings Account Works
+## How {{ Tool Name }} Works
 
 <v-clicks>
 
-1. Enroll through **HealthCare Inc.**
-2. Set up contributions
-3. Use funds for eligible expenses
-4. Receive monthly statements **(HSA)**
-5. Track spending online
-6. **Maximize savings potential**
+1. Enroll through **{{ Organization }}**
+2. {{ Step 2 }}
+3. {{ Step 3 }}
+4. Receive {{ Document }} **({{ Acronym }})**
+5. {{ Step 5 }}
+6. **{{ Final Outcome }}**
 
 </v-clicks>
 
@@ -115,9 +115,9 @@ layout: default
 
 <v-clicks>
 
-- **Annual Check-ups** Services
-- **Fitness Programs** Initiatives
-- **Wellness Partners** provide holistic care
+- **{{ Service 1 }}** Services
+- **{{ Service 2 }}** Programs
+- **{{ Partner }}** provides {{ service_type }}
 
 </v-clicks>
 
@@ -130,10 +130,10 @@ layout: default
 
 <v-clicks>
 
-- **Virtual Consultations**
-- **24/7 Access**
-- **Prescription Services** available
-- **Remote Access** to care
+- **{{ Feature 1 }}**
+- **{{ Feature 2 }}**
+- **{{ Feature 3 }}** available
+- **{{ Feature 4 }}** to care
 
 </v-clicks>
 
@@ -146,71 +146,73 @@ layout: default
 
 <v-clicks>
 
-- **Personalized** healthcare advocacy
-- **Claims Assistance** support
-- **Benefit Options** exploration
-- **Emotional Support** services
+- **{{ Service Style }}** healthcare advocacy
+- **{{ Service 1 }}** assistance
+- **{{ Service 2 }}** options
+- **{{ Service 3 }}** support
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/healthplus_brochure_1.jpg
+image: img/pages/{{plan_brochure_image_1}}.jpg
 ---
 
-## HealthPlus Basic (1/2)
+## {{ Plan 1 Name }} (1/2)
 
 <v-click>
 
-**Medical Coverage**
-- Inpatient care
-- Outpatient services
-- Emergency room visits
-- Specialist consultations
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+**{{ Benefit Category 1 }}**
+- {{ Detail 1 }}
+- {{ Detail 2 }}
+- {{ Detail 3 }}
+- {{ Detail 4 }}
+<Arrow v-bind="{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
-**Dental and Vision**
-- Routine check-ups
-- Corrective lenses
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+**{{ Benefit Category 2 }}**
+- {{ Detail 1 }}
+- {{ Detail 2 }}
+<Arrow v-bind="{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
-**Wellness Programs**
-- Fitness classes
-- Nutritional guidance
-- Stress management
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+**{{ Benefit Category 3 }}**
+- {{ Detail 1 }}
+- {{ Detail 2 }}
+- {{ Detail 3 }}
+<Arrow v-bind="{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/healthplus_brochure_1.jpg
+image: img/pages/{{plan_brochure_image_1}}.jpg
 ---
 
-## HealthPlus Basic (2/2)
+## {{ Plan 1 Name }} (2/2)
 
 <v-click>
 
-**Customer Support**
-- 24/7 helpline
-- Online chat
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+**{{ Benefit Category 4 }}**
+- {{ Detail 1 }}
+- {{ Detail 2 }}
+<Arrow v-bind="{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
-**Additional Benefits**
-- Travel insurance
-- Second opinion services
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+**{{ Benefit Category 5 }}**
+- {{ Detail 1 }}
+- {{ Detail 2 }}
+<Arrow v-bind="{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
+
+<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->
 
 ---
 transition: fade-out
@@ -219,54 +221,54 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **HealthPlus Basic** | **HealthPlus Premium** | **HealthPlus Elite** |
+| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |
 |---------|----------|----------|-----------|
-| Medical Coverage | Standard | Enhanced | Comprehensive |
-| Dental and Vision | Included | Enhanced | Premium |
-| Wellness Programs | Basic | Advanced | Full Access |
-| Telehealth | Available | Priority Access | 24/7 Access |
-| Customer Support | Standard | Priority | Dedicated |
+| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |
+| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |
+| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |
+| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |
+| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/healthplus_brochure_final.jpg
+image: img/pages/{{plan_brochure_image_final}}.jpg
 ---
 
 ## Definitions and Limitations
 
 <v-click>
 
-**Medical Coverage**
-- Limited to network providers
-- Pre-authorization required
-- Annual deductible applies
-<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
+**{{ Category 1 }}**
+- {{ Limitation 1 }}
+- {{ Limitation 2 }}
+- {{ Limitation 3 }}
+<Arrow v-bind="{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
-**Dental and Vision**
-- Annual limits apply
-- Network restrictions
-<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
+**{{ Category 2 }}**
+- {{ Limitation 1 }}
+- {{ Limitation 2 }}
+<Arrow v-bind="{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
-**Wellness Programs**
-- Participation required
-- Limited to specific services
-<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
+**{{ Category 3 }}**
+- {{ Limitation 1 }}
+- {{ Limitation 2 }}
+<Arrow v-bind="{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
-**Customer Support**
-- Limited hours
-- Online resources available
-- Additional fees may apply
-<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
+**{{ Category 4 }}**
+- {{ Limitation 1 }}
+- {{ Limitation 2 }}
+- {{ Limitation 3 }}
+<Arrow v-bind="{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 ---
@@ -278,17 +280,17 @@ layout: default
 
 <v-clicks>
 
-- **Comprehensive Coverage** benefits
-- **Wellness Programs** included
-- **Telehealth Services** benefits
-- **Enrollment** required
+- **{{ Feature 1 }}** benefits
+- **{{ Feature 2 }}** included
+- **{{ Feature 3 }}** benefits
+- **{{ Requirement }}** required
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the HealthPlus Plan Review. Continue to be great!
+line: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!
 ---
 
 # Thank You!
@@ -296,3 +298,4 @@ line: Thank you for participating in the HealthPlus Plan Review. Continue to be 
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+
