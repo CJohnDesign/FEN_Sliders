@@ -5,9 +5,10 @@ from pathlib import Path
 from typing import Dict, Any, Tuple, Optional
 from ..state import BuilderState, WorkflowStage
 from ..utils.state_utils import save_state
-from ..utils.logging_utils import log_state_change, log_error
+from ..utils.logging import log_state_change, log_error
 from ...utils.llm_utils import get_completion
 from langchain.prompts import ChatPromptTemplate
+from ..utils.tracing import traceable
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -70,16 +71,14 @@ async def generate_audio_script(state: BuilderState) -> Optional[str]:
         logger.error(f"Error generating audio script: {str(e)}")
         return None
 
-async def setup_audio(state: BuilderState) -> BuilderState:
-    """Setup audio script for the deck.
-    
-    Args:
-        state: Current builder state
-        
-    Returns:
-        Updated builder state
-    """
+@traceable(name="setup_script")
+async def setup_script(state: BuilderState) -> BuilderState:
+    """Setup script for the presentation."""
     try:
+        if state.current_stage != WorkflowStage.SETUP_SCRIPT:
+            logger.warning(f"Expected stage {WorkflowStage.SETUP_SCRIPT}, but got {state.current_stage}")
+            state.current_stage = WorkflowStage.SETUP_SCRIPT
+
         logger.info("Generating audio script...")
         
         # Generate audio script
@@ -87,26 +86,26 @@ async def setup_audio(state: BuilderState) -> BuilderState:
         if not audio_script:
             error_msg = "Failed to generate audio script"
             logger.error(error_msg)
-            state.set_error(error_msg, "setup_audio")
+            state.set_error(error_msg, "setup_script")
             return state
             
         # Save audio script
         if not await save_audio_script(state, audio_script):
             error_msg = "Failed to save audio script"
             logger.error(error_msg)
-            state.set_error(error_msg, "setup_audio")
+            state.set_error(error_msg, "setup_script")
             return state
             
         # Update state
         state.script = audio_script
         state.update_stage(WorkflowStage.VALIDATE)
         save_state(state, state.metadata.deck_id)
-        log_state_change(state, "setup_audio", "complete")
+        log_state_change(state, "setup_script", "complete")
         
         return state
         
     except Exception as e:
-        error_msg = f"Error in setup_audio: {str(e)}"
+        error_msg = f"Error in setup_script: {str(e)}"
         logger.error(error_msg)
-        state.set_error(error_msg, "setup_audio")
+        state.set_error(error_msg, "setup_script")
         return state 

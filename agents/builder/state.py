@@ -40,8 +40,8 @@ class WorkflowStage(str, Enum):
     PROCESS_SUMMARIES = "process_summaries"
     EXTRACT_TABLES = "extract_tables"
     AGGREGATE_SUMMARY = "aggregate_summary"
-    PROCESS_SLIDES = "process_slides"
-    SETUP_AUDIO = "setup_audio"
+    SETUP_SLIDES = "setup_slides"
+    SETUP_SCRIPT = "setup_script"
     GOOGLE_DRIVE_SYNC = "google_drive_sync"
     
     @classmethod
@@ -53,8 +53,8 @@ class WorkflowStage(str, Enum):
             "process_summaries": cls.GENERATE,
             "extract_tables": cls.GENERATE,
             "aggregate_summary": cls.GENERATE,
-            "process_slides": cls.GENERATE,
-            "setup_audio": cls.GENERATE,
+            "setup_slides": cls.GENERATE,
+            "setup_script": cls.GENERATE,
             "validate": cls.VALIDATE,
             "google_drive_sync": cls.COMPLETE,
             "complete": cls.COMPLETE

@@ -8,7 +8,7 @@ from langchain.prompts import ChatPromptTemplate
 from langsmith import Client, trace
 from langsmith.run_helpers import traceable
 from ..state import BuilderState, WorkflowStage, SlideContent
-from ..utils.logging_utils import log_state_change, log_error
+from ..utils.logging import log_state_change, log_error
 from ...utils.llm_utils import get_llm
 from ..utils.state_utils import save_state
 from ...utils.content import save_content
@@ -166,3 +166,21 @@ async def process_slides(state: BuilderState) -> BuilderState:
     except Exception as e:
         log_error("Error in process_slides", e)
         raise 
+
+@traceable(name="setup_slides")
+async def setup_slides(state: BuilderState) -> BuilderState:
+    """Setup slides for the presentation."""
+    try:
+        if state.current_stage != WorkflowStage.SETUP_SLIDES:
+            logger.warning(f"Expected stage {WorkflowStage.SETUP_SLIDES}, but got {state.current_stage}")
+            state.current_stage = WorkflowStage.SETUP_SLIDES
+
+        # ... rest of the function implementation ...
+
+        log_state_change(state, "setup_slides", "complete")
+        return state
+
+    except Exception as e:
+        log_error("Error in setup_slides", e)
+        state.set_error(str(e), "setup_slides")
+        return state 

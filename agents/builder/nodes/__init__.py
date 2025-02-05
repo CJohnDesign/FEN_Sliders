@@ -4,8 +4,8 @@ from .process_imgs import process_imgs
 from .process_summaries import process_summaries
 from .extract_tables import extract_tables
 from .aggregate_summary import aggregate_summary
-from .process_slides import process_slides
-from .setup_audio import setup_audio
+from .setup_slides import setup_slides
+from .setup_script import setup_script
 from .validate import validate
 from .google_drive_sync import google_drive_sync
 from .page_separator import page_separator
@@ -18,8 +18,8 @@ __all__ = [
     "process_summaries", 
     "extract_tables",
     "aggregate_summary",
-    "process_slides",
-    "setup_audio",
+    "setup_slides",
+    "setup_script",
     "validate",
     "google_drive_sync",
     "page_separator",

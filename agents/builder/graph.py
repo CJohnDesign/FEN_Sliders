@@ -9,8 +9,8 @@ from .nodes import (
     process_summaries,
     extract_tables,
     aggregate_summary,
-    process_slides,
-    setup_audio,
+    setup_slides,
+    setup_script,
     validate,
     google_drive_sync
 )
@@ -47,8 +47,8 @@ def create_builder_graph(start_node: str = "create_deck"):
     workflow.add_node("process_summaries", process_summaries)
     workflow.add_node("extract_tables", extract_tables)
     workflow.add_node("aggregate_summary", aggregate_summary)
-    workflow.add_node("process_slides", process_slides)
-    workflow.add_node("setup_audio", setup_audio)
+    workflow.add_node("setup_slides", setup_slides)
+    workflow.add_node("setup_script", setup_script)
     workflow.add_node("validate", validate)
     workflow.add_node("google_drive_sync", google_drive_sync)
     
@@ -61,9 +61,9 @@ def create_builder_graph(start_node: str = "create_deck"):
         "process_imgs": "process_summaries",
         "process_summaries": "extract_tables",
         "extract_tables": "aggregate_summary",
-        "aggregate_summary": "process_slides",
-        "process_slides": "setup_audio",
-        "setup_audio": "validate"
+        "aggregate_summary": "setup_slides",
+        "setup_slides": "setup_script",
+        "setup_script": "validate"
     }
     
     # Add edges based on start_node to ensure validation always happens

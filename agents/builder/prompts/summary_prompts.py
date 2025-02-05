@@ -148,7 +148,7 @@ Output must be a valid JSON object with this structure:
 
 Please extract any tables from this slide."""
 
-PROCESS_SLIDES_PROMPT = """You are an expert at creating Slidev markdown presentations.
+SETUP_SLIDES_PROMPT = """You are an expert at creating Slidev markdown presentations.
             
 Guidelines for slide content:
 - Follow the exact template structure provided
@@ -162,7 +162,7 @@ Guidelines for slide content:
 - Do not wrap the content in ```markdown or ``` tags
 - Maintain all frontmatter exactly as provided"""
 
-PROCESS_SLIDES_HUMAN_TEMPLATE = """
+SETUP_SLIDES_HUMAN_TEMPLATE = """
 Use this exact template structure - maintain all formatting, frontmatter, and sections:
 
 {template}

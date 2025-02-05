@@ -25,17 +25,29 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Valid starting nodes in the graph
-VALID_NODES = [
+VALID_START_NODES = [
     "create_deck",
     "process_imgs",
     "process_summaries",
     "extract_tables",
-    "process_slides",
-    "setup_audio",
+    "aggregate_summary",
+    "setup_slides",
+    "setup_script",
     "validate",
-    "slides_writer",
-    "script_writer"
+    "google_drive_sync",
 ]
+
+STAGE_MAPPING = {
+    "create_deck": WorkflowStage.CREATE_DECK,
+    "process_imgs": WorkflowStage.PROCESS_IMAGES,
+    "process_summaries": WorkflowStage.PROCESS_SUMMARIES,
+    "extract_tables": WorkflowStage.EXTRACT_TABLES,
+    "aggregate_summary": WorkflowStage.AGGREGATE_SUMMARY,
+    "setup_slides": WorkflowStage.SETUP_SLIDES,
+    "setup_script": WorkflowStage.SETUP_SCRIPT,
+    "validate": WorkflowStage.VALIDATE,
+    "google_drive_sync": WorkflowStage.GOOGLE_DRIVE_SYNC,
+}
 
 def initialize_state(deck_id: str, title: str) -> BuilderState:
     """Initialize a fresh state with default values."""
@@ -95,23 +107,11 @@ async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
             # Set the current stage based on start_node
             try:
                 # Convert node name to workflow stage
-                stage_map = {
-                    "create_deck": WorkflowStage.CREATE_DECK,
-                    "process_imgs": WorkflowStage.PROCESS_IMAGES,
-                    "process_summaries": WorkflowStage.PROCESS_SUMMARIES,
-                    "extract_tables": WorkflowStage.EXTRACT_TABLES,
-                    "aggregate_summary": WorkflowStage.AGGREGATE_SUMMARY,
-                    "process_slides": WorkflowStage.PROCESS_SLIDES,
-                    "setup_audio": WorkflowStage.SETUP_AUDIO,
-                    "validate": WorkflowStage.VALIDATE,
-                    "google_drive_sync": WorkflowStage.GOOGLE_DRIVE_SYNC
-                }
-                
-                if start_node not in stage_map:
+                if start_node not in STAGE_MAPPING:
                     logger.error(f"Invalid start node: {start_node}")
                     return 1
                     
-                stage = stage_map[start_node]
+                stage = STAGE_MAPPING[start_node]
                 state.current_stage = stage
                 logger.info(f"Set current stage to: {stage}")
                 
@@ -158,7 +158,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run the deck builder")
     parser.add_argument("--deck-id", required=True, help="ID for the deck")
     parser.add_argument("--title", required=True, help="Title for the deck")
-    parser.add_argument("--start-node", choices=VALID_NODES, help="Node to start from")
+    parser.add_argument("--start-node", choices=VALID_START_NODES, help="Node to start from")
     args = parser.parse_args()
     
     return asyncio.run(run_builder(args.deck_id, args.title, args.start_node))
