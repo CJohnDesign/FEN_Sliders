@@ -146,12 +146,15 @@ def load_existing_state(deck_id: str) -> Optional[BuilderState]:
         logger.error(f"Failed to load state: {str(e)}")
         return None
 
-def save_state(state: Union[BuilderState, Dict[str, Any]], deck_id: str) -> None:
-    """Save current state to disk.
+async def save_state(state: Union[BuilderState, Dict[str, Any]], deck_id: str) -> BuilderState:
+    """Save current state to disk and return the state.
     
     Args:
         state: Either a BuilderState instance or a dictionary from LangGraph
         deck_id: The ID of the deck to save state for
+        
+    Returns:
+        The BuilderState instance that was saved
     """
     try:
         # Ensure deck directory exists
@@ -161,10 +164,12 @@ def save_state(state: Union[BuilderState, Dict[str, Any]], deck_id: str) -> None
         # Convert state to dict based on its type
         if isinstance(state, BuilderState):
             state_dict = state.model_dump(mode='json')
+            builder_state = state
         else:
             # If it's a dict (like from LangGraph), migrate it first
             migrated_state = migrate_old_state(dict(state))
-            state_dict = BuilderState.model_validate(migrated_state).model_dump(mode='json')
+            builder_state = BuilderState.model_validate(migrated_state)
+            state_dict = builder_state.model_dump(mode='json')
         
         # Save to file
         state_path = state_dir / "state.json"
@@ -172,9 +177,11 @@ def save_state(state: Union[BuilderState, Dict[str, Any]], deck_id: str) -> None
             json.dump(state_dict, f, indent=2)
             
         logger.info(f"State saved to {state_path}")
+        return builder_state
         
     except Exception as e:
         logger.error(f"Failed to save state: {str(e)}")
         logger.error(f"State type: {type(state)}")
         if not isinstance(state, BuilderState):
-            logger.error(f"State keys: {list(state.keys()) if hasattr(state, 'keys') else 'no keys'}") 
+            logger.error(f"State keys: {list(state.keys()) if hasattr(state, 'keys') else 'no keys'}")
+        raise 

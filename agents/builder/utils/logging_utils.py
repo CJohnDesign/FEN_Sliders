@@ -44,23 +44,21 @@ def log_state_change(
     logger.info(f"{node_name}: {change_type}")
     
 def log_error(
-    state: Union[BuilderState, Dict[str, Any]], 
     node_name: str,
-    error: Exception,
+    error: Union[Exception, str],
     context: Optional[Dict[str, Any]] = None
 ) -> None:
     """Log errors in a standardized format.
     
     Args:
-        state: Current BuilderState or state dict
         node_name: Name of the node where error occurred
-        error: The exception that was raised
+        error: The exception or error message
         context: Optional dictionary of additional context
     """
     # Only log essential error information
     error_data = {
         "node": node_name,
-        "error_type": type(error).__name__
+        "error_type": type(error).__name__ if isinstance(error, Exception) else "str"
     }
     
     # Include minimal context if provided
@@ -70,7 +68,8 @@ def log_error(
         if safe_context:
             error_data["context"] = safe_context
         
-    logger.error(f"{node_name} failed: {type(error).__name__}")
+    error_msg = str(error)
+    logger.error(f"{node_name} failed: {error_msg}")
     
 def log_validation(
     state: BuilderState,

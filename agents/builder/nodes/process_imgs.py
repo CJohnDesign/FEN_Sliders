@@ -174,7 +174,7 @@ async def process_image_batch(
             
         except Exception as e:
             logger.error(f"❌ Error processing image {image_path.name}:")
-            logger.error(f"  Error: {str(e)}")
+            log_error("process_imgs", str(e))
             return None
 
     # Process batch concurrently
@@ -293,6 +293,6 @@ async def process_imgs(state: BuilderState) -> BuilderState:
         
     except Exception as e:
         error_msg = f"Image processing failed: {str(e)}"
-        logger.error(error_msg)
+        log_error("process_imgs", error_msg)
         state.set_error(error_msg, "process_imgs")
         return state 
