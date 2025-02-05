@@ -56,7 +56,7 @@ def initialize_state(deck_id: str, title: str) -> BuilderState:
     if not title or not isinstance(title, str):
         raise ValueError("title must be a non-empty string")
         
-    return BuilderState(
+    state = BuilderState(
         metadata=DeckMetadata(
             deck_id=deck_id,
             title=title,
@@ -69,6 +69,10 @@ def initialize_state(deck_id: str, title: str) -> BuilderState:
             template="FEN_TEMPLATE"
         )
     )
+    
+    # Initialize workflow progress
+    state.workflow_progress.current_stage = WorkflowStage.INIT
+    return state
 
 def prepare_state_for_graph(state: BuilderState) -> dict:
     """Prepare state for graph execution."""
@@ -118,6 +122,9 @@ async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
                         if s not in stages_to_remove
                     ]
                     logger.info(f"Reset completed stages after {stage}")
+                
+                # Save updated state
+                await save_state(state, deck_id)
             except ValueError as e:
                 logger.error(f"Error setting workflow stage: {str(e)}")
                 return 1
@@ -125,6 +132,7 @@ async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
             state = initialize_state(deck_id, title)
             start_node = "create_deck"  # Default start node
             logger.info("Starting fresh workflow from create_deck")
+            await save_state(state, deck_id)
         
         # Prepare state for graph execution
         graph_input = prepare_state_for_graph(state)
@@ -136,13 +144,13 @@ async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
         # Run workflow
         try:
             final_state = await graph.ainvoke(graph_input)
-            save_state(final_state, deck_id)
+            await save_state(final_state, deck_id)
             logger.info("Builder completed successfully")
             return 0
             
         except Exception as e:
             logger.error(f"Graph execution failed: {str(e)}")
-            save_state(state, deck_id)
+            await save_state(state, deck_id)
             return 1
             
     except Exception as e:

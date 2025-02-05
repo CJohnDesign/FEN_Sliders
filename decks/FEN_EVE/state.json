@@ -20,34 +20,19 @@
   "structured_pages": null,
   "table_data": [],
   "workflow_progress": {
-    "stages": {
-      "init": {
-        "total_items": 4,
-        "completed_items": 3,
-        "current_item": "Initialized state fields",
-        "status": "completed",
-        "started_at": null,
-        "completed_at": "2025-02-05T17:18:25.557745"
-      },
-      "extract": {
-        "total_items": 4,
-        "completed_items": 4,
-        "current_item": "Completed deck creation",
-        "status": "in_progress",
-        "started_at": "2025-02-05T17:18:25.557752",
-        "completed_at": null
-      }
-    },
-    "current_stage": "extract",
-    "completed_stages": [
-      "init"
-    ]
+    "stages": {},
+    "current_stage": "init",
+    "completed_stages": []
   },
   "needs_fixes": false,
   "retry_count": 0,
   "max_retries": 3,
   "validation_state": null,
-  "validation_issues": null,
+  "validation_issues": {
+    "script_issues": [],
+    "slide_issues": [],
+    "suggested_fixes": {}
+  },
   "google_drive_config": null,
   "google_drive_sync_info": null,
   "error_context": null

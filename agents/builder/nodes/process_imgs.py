@@ -243,9 +243,26 @@ async def process_imgs(state: BuilderState) -> BuilderState:
                 current="Converting PDFs to images"
             )
             
-            # Convert PDFs to images
-            await convert_pdf_to_images(pdf_files[0], pages_dir)
-            
+            try:
+                # Convert PDFs to images with correct parameters
+                result = await convert_pdf_to_images(
+                    deck_id=state.metadata.deck_id,
+                    deck_path=str(deck_dir)
+                )
+                
+                if result["status"] == "error":
+                    error_msg = f"PDF conversion failed: {result['error']}"
+                    logger.error(f"❌ {error_msg}")
+                    state.set_error(error_msg, "process_imgs")
+                    return state
+                    
+                logger.info(f"✓ PDF conversion completed - {result['page_count']} pages")
+            except Exception as e:
+                error_msg = f"PDF conversion failed: {str(e)}"
+                logger.error(f"❌ {error_msg}")
+                state.set_error(error_msg, "process_imgs")
+                return state
+        
         # Get all image files
         image_files = sorted(list(pages_dir.glob("*.jpg")))
         if not image_files:
