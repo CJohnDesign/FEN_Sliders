@@ -3,6 +3,7 @@ import logging
 from enum import Enum
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel, Field, ConfigDict
+from datetime import datetime
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -27,36 +28,48 @@ class Message(BaseModel):
 
 class WorkflowStage(str, Enum):
     """Stages in the builder workflow."""
-    # New stages
-    INIT = "init"
-    VALIDATE = "validate"
-    GENERATE = "generate"
-    REVIEW = "review"
-    COMPLETE = "complete"
+    # Core workflow stages
+    INIT = "init"  # Initial setup and deck creation
+    EXTRACT = "extract"  # Extract content from PDFs
+    PROCESS = "process"  # Process and structure content
+    GENERATE = "generate"  # Generate slides and script
+    VALIDATE = "validate"  # Validate content
+    EXPORT = "export"  # Export and sync to drive
+    COMPLETE = "complete"  # Workflow completion
     
-    # Legacy stages (for backward compatibility)
-    CREATE_DECK = "create_deck"
-    PROCESS_IMAGES = "process_imgs"
-    PROCESS_SUMMARIES = "process_summaries"
-    EXTRACT_TABLES = "extract_tables"
-    AGGREGATE_SUMMARY = "aggregate_summary"
-    SETUP_SLIDES = "setup_slides"
-    SETUP_SCRIPT = "setup_script"
-    GOOGLE_DRIVE_SYNC = "google_drive_sync"
+    # Detailed sub-stages for backward compatibility
+    CREATE_DECK = "create_deck"  # Maps to INIT
+    PROCESS_IMAGES = "process_imgs"  # Maps to EXTRACT
+    PROCESS_SUMMARIES = "process_summaries"  # Maps to PROCESS
+    EXTRACT_TABLES = "extract_tables"  # Maps to PROCESS
+    AGGREGATE_SUMMARY = "aggregate_summary"  # Maps to PROCESS
+    SETUP_SLIDES = "setup_slides"  # Maps to GENERATE
+    SETUP_SCRIPT = "setup_script"  # Maps to GENERATE
+    GOOGLE_DRIVE_SYNC = "google_drive_sync"  # Maps to EXPORT
     
     @classmethod
     def map_legacy_stage(cls, stage: str) -> 'WorkflowStage':
         """Map legacy stage to new stage."""
         stage_mapping = {
+            # Map detailed stages to core stages
             "create_deck": cls.INIT,
-            "process_imgs": cls.GENERATE,
-            "process_summaries": cls.GENERATE,
-            "extract_tables": cls.GENERATE,
-            "aggregate_summary": cls.GENERATE,
+            "process_imgs": cls.EXTRACT,
+            "process_summaries": cls.PROCESS,
+            "extract_tables": cls.PROCESS,
+            "aggregate_summary": cls.PROCESS,
             "setup_slides": cls.GENERATE,
             "setup_script": cls.GENERATE,
             "validate": cls.VALIDATE,
-            "google_drive_sync": cls.COMPLETE,
+            "google_drive_sync": cls.EXPORT,
+            "complete": cls.COMPLETE,
+            
+            # Map core stages to themselves
+            "init": cls.INIT,
+            "extract": cls.EXTRACT,
+            "process": cls.PROCESS,
+            "generate": cls.GENERATE,
+            "validate": cls.VALIDATE,
+            "export": cls.EXPORT,
             "complete": cls.COMPLETE
         }
         return stage_mapping.get(stage, cls.INIT)
@@ -220,55 +233,97 @@ class ErrorContext(BaseModel):
         extra='ignore'  # Allow extra fields for backward compatibility
     )
 
+class StageProgress(BaseModel):
+    """Track progress within a stage."""
+    total_items: int = 0
+    completed_items: int = 0
+    current_item: Optional[str] = None
+    status: str = "pending"  # pending, in_progress, completed, failed
+    started_at: Optional[str] = None
+    completed_at: Optional[str] = None
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
+class WorkflowProgress(BaseModel):
+    """Track overall workflow progress."""
+    stages: Dict[str, StageProgress] = Field(default_factory=dict)
+    current_stage: WorkflowStage = Field(default=WorkflowStage.INIT)
+    completed_stages: List[WorkflowStage] = Field(default_factory=list)
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
+
 class BuilderState(BaseModel):
     """State for the builder agent."""
-    # Core content
-    slides: Optional[str] = None
-    script: Optional[str] = None
+    # Core metadata
     metadata: Optional[DeckMetadata] = None
     deck_info: Optional[DeckInfo] = None
     
-    # NEW FIELD: Processed summaries to be used for slides generation
+    # Content storage
+    slides: Optional[str] = None
+    script: Optional[str] = None
     processed_summaries: Optional[str] = None
     
-    # Page processing state
+    # Structured content
     page_summaries: List[PageSummary] = Field(default_factory=list)
     page_metadata: List[PageMetadata] = Field(default_factory=list)
     structured_slides: List[SlideContent] = Field(default_factory=list)
-    slide_count: Optional[int] = None
-    
-    # NEW FIELD: Structured pages containing slide and script content
     structured_pages: Optional[Pages] = None
-    
-    # Table data
     table_data: List[TableData] = Field(default_factory=list)
     
-    # Aggregated content
-    aggregated_content: List[Dict[str, Any]] = Field(default_factory=list)
-    
-    # Google Drive state
-    google_drive_config: Optional[GoogleDriveConfig] = None
-    google_drive_sync_info: Optional[GoogleDriveSyncInfo] = None
-    
-    # Workflow state
-    current_stage: WorkflowStage = Field(default=WorkflowStage.INIT)
+    # Progress tracking
+    workflow_progress: WorkflowProgress = Field(default_factory=WorkflowProgress)
     needs_fixes: bool = Field(default=False)
     retry_count: int = Field(default=0)
     max_retries: int = Field(default=3)
     
-    # Validation state
+    # Validation
+    validation_state: Optional[ValidationState] = None
     validation_issues: Optional[ValidationIssues] = Field(default_factory=ValidationIssues)
     
-    # Validation state tracking
-    validation_state: Optional[ValidationState] = None
+    # Export state
+    google_drive_config: Optional[GoogleDriveConfig] = None
+    google_drive_sync_info: Optional[GoogleDriveSyncInfo] = None
     
     # Error handling
     error_context: Optional[ErrorContext] = None
     
     # Methods
     def update_stage(self, new_stage: WorkflowStage) -> None:
-        """Update the current workflow stage."""
-        self.current_stage = new_stage
+        """Update the current workflow stage and track progress."""
+        old_stage = self.workflow_progress.current_stage
+        
+        # Complete the old stage
+        if old_stage in self.workflow_progress.stages:
+            stage_progress = self.workflow_progress.stages[old_stage]
+            stage_progress.status = "completed"
+            stage_progress.completed_at = datetime.now().isoformat()
+            
+            if old_stage not in self.workflow_progress.completed_stages:
+                self.workflow_progress.completed_stages.append(old_stage)
+        
+        # Initialize the new stage
+        self.workflow_progress.current_stage = new_stage
+        if new_stage not in self.workflow_progress.stages:
+            self.workflow_progress.stages[new_stage] = StageProgress(
+                status="in_progress",
+                started_at=datetime.now().isoformat()
+            )
+    
+    def set_stage_progress(self, total: int, completed: int, current: Optional[str] = None) -> None:
+        """Update progress for the current stage."""
+        stage = self.workflow_progress.current_stage
+        if stage not in self.workflow_progress.stages:
+            self.workflow_progress.stages[stage] = StageProgress()
+            
+        progress = self.workflow_progress.stages[stage]
+        progress.total_items = total
+        progress.completed_items = completed
+        if current:
+            progress.current_item = current
     
     def add_validation_issue(self, issue: ValidationIssue, is_script: bool = True) -> None:
         """Add a validation issue to the appropriate list."""
@@ -285,17 +340,21 @@ class BuilderState(BaseModel):
         self.validation_issues = ValidationIssues()
     
     def set_error(self, error: str, stage: str, details: Optional[Dict[str, Any]] = None) -> None:
-        """Set error context."""
+        """Set error context and update stage progress."""
         self.error_context = ErrorContext(
             error=error,
             stage=stage,
             details=details or {}
         )
+        
+        # Update stage progress to failed
+        if stage in self.workflow_progress.stages:
+            self.workflow_progress.stages[stage].status = "failed"
     
     model_config = ConfigDict(
-        extra='ignore',  # Allow extra fields for backward compatibility
-        validate_assignment=True,  # Validate on attribute assignment
-        str_strip_whitespace=True  # Strip whitespace from string values
+        extra='ignore',
+        validate_assignment=True,
+        str_strip_whitespace=True
     )
 
 def convert_messages_to_dict(state: BuilderState) -> Dict[str, Any]:
