@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Optional, Any, List, Tuple
 from ..state import BuilderState, DeckInfo, DeckMetadata, WorkflowStage
 from ..utils.state_utils import save_state
-from ..utils.logging import log_state_change, log_error
+from ..utils.logging_utils import log_state_change, log_error
 from langsmith.run_helpers import traceable
 
 # Set up logging
