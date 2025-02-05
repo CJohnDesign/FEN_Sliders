@@ -171,7 +171,7 @@ async def create_deck(state: BuilderState) -> BuilderState:
         state.set_stage_progress(total=4, completed=4, current="Completed deck creation")
         
         # Save state
-        await save_state(state)
+        await save_state(state, state.metadata.deck_id)
         return state
         
     except Exception as e:

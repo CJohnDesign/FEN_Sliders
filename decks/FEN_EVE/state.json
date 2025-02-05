@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "deck_id": "FEN_EVE",
+    "title": "Everest",
+    "description": null,
+    "author": "FirstEnroll",
+    "created_at": null,
+    "updated_at": null
+  },
+  "deck_info": {
+    "path": "decks/FEN_EVE",
+    "template": "FEN_TEMPLATE"
+  },
+  "slides": null,
+  "script": null,
+  "processed_summaries": null,
+  "page_summaries": [],
+  "page_metadata": [],
+  "structured_slides": [],
+  "structured_pages": null,
+  "table_data": [],
+  "workflow_progress": {
+    "stages": {},
+    "current_stage": "init",
+    "completed_stages": []
+  },
+  "needs_fixes": false,
+  "retry_count": 0,
+  "max_retries": 3,
+  "validation_state": null,
+  "validation_issues": {
+    "script_issues": [],
+    "slide_issues": [],
+    "suggested_fixes": {}
+  },
+  "google_drive_config": null,
+  "google_drive_sync_info": null,
+  "error_context": null
+}

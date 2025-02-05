@@ -13,6 +13,7 @@ from ..utils.state_utils import save_state
 from ...utils.llm_utils import get_llm
 from agents.utils.pdf_utils import convert_pdf_to_images
 from langchain.prompts import ChatPromptTemplate
+from langsmith.run_helpers import traceable
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -37,24 +38,7 @@ Return the information in this JSON format:
     "descriptive_name": "snake_case_name_for_slide"
 }"""
 
-def preserve_state(state: BuilderState, field_name: str) -> Any:
-    """Helper to preserve state fields."""
-    return getattr(state, field_name, None)
-
-def update_state(state: BuilderState, field_name: str, new_value: Any) -> None:
-    """Helper to safely update state fields."""
-    if not getattr(state, field_name, None):
-        setattr(state, field_name, new_value)
-        logger.info(f"Updated state field: {field_name}")
-
-def transition_stage(state: BuilderState, current: WorkflowStage, next_stage: WorkflowStage) -> None:
-    """Helper for stage transitions."""
-    if state.current_stage == current:
-        state.update_stage(next_stage)
-        save_state(state, state.metadata.deck_id)
-        log_state_change(state, current.value, "complete")
-        logger.info(f"Transitioned from {current} to {next_stage}")
-
+@traceable(name="get_image_base64")
 async def get_image_base64(image_path: Path) -> str:
     """Convert image to base64 string."""
     try:
@@ -77,6 +61,7 @@ async def get_image_base64(image_path: Path) -> str:
         logger.error(f"Error converting image to base64: {str(e)}")
         return ""
 
+@traceable(name="analyze_image_with_gpt")
 async def analyze_image_with_gpt(image_path: Path) -> Dict[str, Any]:
     """Analyze image content using GPT-4 Vision."""
     try:
@@ -133,6 +118,7 @@ async def analyze_image_with_gpt(image_path: Path) -> Dict[str, Any]:
         logger.error(f"Error analyzing image with GPT: {str(e)}")
         return {"error": str(e)}
 
+@traceable(name="process_image_batch")
 async def process_image_batch(
     batch: List[Path],
     state: BuilderState,
@@ -198,25 +184,22 @@ async def process_image_batch(
     # Filter out failed results
     return [result for result in results if result is not None]
 
+@traceable(name="process_imgs")
 async def process_imgs(state: BuilderState) -> BuilderState:
     """Process images from PDF or existing files while preserving state."""
     try:
         logger.info("Starting process_imgs node")
         
-        # Preserve existing state
-        existing_metadata = {
-            meta.page_number: meta 
-            for meta in (preserve_state(state, "page_metadata") or [])
-        }
-        
         # Verify we're in the correct stage
-        expected_stages = [WorkflowStage.CREATE_DECK, WorkflowStage.PROCESS_IMAGES]  # Allow both stages
-        if state.current_stage not in expected_stages:
-            logger.warning(f"Expected stage {WorkflowStage.PROCESS_IMAGES}, but got {state.current_stage}")
+        if state.workflow_progress.current_stage != WorkflowStage.EXTRACT:
+            logger.warning(f"Expected stage {WorkflowStage.EXTRACT}, got {state.workflow_progress.current_stage}")
+            state.update_stage(WorkflowStage.EXTRACT)
         
         # Check deck info exists
         if not state.deck_info:
-            logger.error("❌ No deck info found in state")
+            error_msg = "No deck info found in state"
+            logger.error(f"❌ {error_msg}")
+            state.set_error(error_msg, "process_imgs")
             return state
         
         logger.info(f"✓ Found deck info: {state.deck_info.path}")
@@ -225,6 +208,13 @@ async def process_imgs(state: BuilderState) -> BuilderState:
         deck_dir = Path(state.deck_info.path)
         pdf_dir = deck_dir / "img" / "pdfs"
         pages_dir = deck_dir / "img" / "pages"
+        
+        # Set initial progress
+        state.set_stage_progress(
+            total=3,  # PDF conversion, image processing, finalization
+            completed=0,
+            current="Starting image processing"
+        )
         
         logger.info(f"Directories to use:")
         logger.info(f"  - Deck dir: {deck_dir}")
@@ -247,62 +237,58 @@ async def process_imgs(state: BuilderState) -> BuilderState:
             logger.info(f"Starting PDF conversion for deck_id: {state.metadata.deck_id}")
             logger.info(f"Converting PDF to images in: {deck_dir}")
             
-            # Call convert_pdf_to_images with correct parameters
-            result = await convert_pdf_to_images(
-                deck_id=state.metadata.deck_id,
-                deck_path=str(deck_dir)
+            state.set_stage_progress(
+                total=3,
+                completed=1,
+                current="Converting PDFs to images"
             )
             
-            if result["status"] == "error":
-                error_msg = f"PDF conversion failed: {result.get('error', 'Unknown error')}"
-                logger.error(error_msg)
-                state.set_error(error_msg, "process_imgs")
-                return state
-                
-            logger.info(f"✓ PDF conversion complete - {result.get('page_count', 0)} pages processed")
+            # Convert PDFs to images
+            await convert_pdf_to_images(pdf_files[0], pages_dir)
             
         # Get all image files
-        image_files = sorted(list(pages_dir.glob("*.jpg")) + list(pages_dir.glob("*.png")))
+        image_files = sorted(list(pages_dir.glob("*.jpg")))
         if not image_files:
-            logger.error("❌ No images found to process")
-            state.set_error("No images found", "process_imgs")
+            error_msg = "No images found to process"
+            logger.error(f"❌ {error_msg}")
+            state.set_error(error_msg, "process_imgs")
             return state
             
         logger.info(f"✓ Found {len(image_files)} images to process")
         
         # Process images in batches
-        processed_metadata = []
-        for i in range(0, len(image_files), BATCH_SIZE):
-            batch = image_files[i:i + BATCH_SIZE]
-            logger.info(f"Processing batch {i//BATCH_SIZE + 1} of {(len(image_files) + BATCH_SIZE - 1)//BATCH_SIZE}")
-            
-            batch_metadata = await process_image_batch(
-                batch, 
-                state, 
-                pages_dir,
-                existing_metadata
-            )
-            processed_metadata.extend(batch_metadata)
+        existing_metadata = {meta.page_number: meta for meta in state.page_metadata} if state.page_metadata else {}
+        all_metadata = []
         
-        # Update state with processed metadata
-        state.page_metadata = processed_metadata
-        
-        # Log completion and transition stage
-        log_state_change(
-            state=state,
-            node_name="process_imgs",
-            change_type="complete",
-            details={
-                "processed_images": len(processed_metadata),
-                "deck_id": state.metadata.deck_id
-            }
+        # Update progress for image processing
+        state.set_stage_progress(
+            total=3,
+            completed=2,
+            current=f"Processing {len(image_files)} images"
         )
         
-        # Move to next stage
-        transition_stage(state, WorkflowStage.PROCESS_IMAGES, WorkflowStage.PROCESS_SUMMARIES)
-        logger.info(f"Saved state for deck {state.metadata.deck_id}")
-        logger.info(f"✓ Successfully processed {len(processed_metadata)} images")
+        for i in range(0, len(image_files), BATCH_SIZE):
+            batch = image_files[i:i + BATCH_SIZE]
+            batch_metadata = await process_image_batch(batch, state, pages_dir, existing_metadata)
+            all_metadata.extend(batch_metadata)
+            
+            # Update progress within batch processing
+            progress = min((i + BATCH_SIZE) / len(image_files), 1.0)
+            logger.info(f"Progress: {progress:.1%}")
         
+        # Update state with processed metadata
+        state.page_metadata = sorted(all_metadata, key=lambda x: x.page_number)
+        
+        # Move to next stage (PROCESS)
+        state.update_stage(WorkflowStage.PROCESS)
+        state.set_stage_progress(
+            total=3,
+            completed=3,
+            current="Completed image processing"
+        )
+        
+        # Save state
+        await save_state(state, state.metadata.deck_id)
         return state
         
     except Exception as e:
