@@ -8,7 +8,7 @@ from ..utils.state_utils import save_state
 from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_completion
 from langchain.prompts import ChatPromptTemplate
-from ..utils.tracing import traceable
+from langsmith.run_helpers import traceable
 
 # Set up logging
 logger = logging.getLogger(__name__)
