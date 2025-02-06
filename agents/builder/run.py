@@ -6,9 +6,10 @@ import argparse
 from typing import Optional
 from pathlib import Path
 from .graph import create_builder_graph
-from .state import BuilderState, DeckMetadata, DeckInfo, WorkflowStage
+from .state import BuilderState, DeckMetadata, DeckInfo, WorkflowStage, WorkflowProgress, StageProgress
 from .utils.state_utils import load_existing_state, save_state
 from ..config.settings import LANGCHAIN_TRACING_V2, LANGCHAIN_PROJECT
+from datetime import datetime
 
 # Set up LangSmith configuration
 os.environ["LANGCHAIN_TRACING_V2"] = LANGCHAIN_TRACING_V2
@@ -67,11 +68,19 @@ def initialize_state(deck_id: str, title: str) -> BuilderState:
         deck_info=DeckInfo(
             path=f"decks/{deck_id}",
             template="FEN_TEMPLATE"
+        ),
+        workflow_progress=WorkflowProgress(
+            current_stage=WorkflowStage.INIT,
+            stages={
+                WorkflowStage.INIT: StageProgress(
+                    status="in_progress",
+                    started_at=datetime.now().isoformat()
+                )
+            }
         )
     )
     
-    # Initialize workflow progress
-    state.workflow_progress.current_stage = WorkflowStage.INIT
+    logger.info(f"Initialized state with stage: {state.workflow_progress.current_stage}")
     return state
 
 def prepare_state_for_graph(state: BuilderState) -> dict:

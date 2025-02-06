@@ -281,7 +281,17 @@ class WorkflowProgress(BaseModel):
 class BuilderState(BaseModel):
     """Model for builder state."""
     metadata: Optional[DeckMetadata] = None
-    workflow_progress: Optional[WorkflowProgress] = None
+    workflow_progress: WorkflowProgress = Field(
+        default_factory=lambda: WorkflowProgress(
+            current_stage=WorkflowStage.INIT,
+            stages={
+                WorkflowStage.INIT: StageProgress(
+                    status="in_progress",
+                    started_at=datetime.now().isoformat()
+                )
+            }
+        )
+    )
     deck_info: Optional[DeckInfo] = None
     page_summaries: Dict[str, PageSummary] = Field(default_factory=dict)
     slides_content: Optional[SlideContent] = None
