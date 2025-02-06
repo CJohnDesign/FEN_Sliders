@@ -155,7 +155,10 @@ async def save_state(state: Union[BuilderState, Dict[str, Any]], deck_id: str) -
             
         # Save to file
         state_path = state_dir / "state.json"
-        state_dict = builder_state.to_dict()
+        state_dict = builder_state.model_dump(
+            mode='json',
+            exclude={'config', 'model_config'}
+        )
         with open(state_path, 'w') as f:
             json.dump(state_dict, f, indent=2)
             
@@ -171,9 +174,9 @@ async def save_state(state: Union[BuilderState, Dict[str, Any]], deck_id: str) -
 
 def prepare_state_for_graph(state: BuilderState) -> dict:
     """Prepare state for graph execution."""
-    # Convert state to dict excluding config and model_config
+    # Convert state to dictionary format, excluding config
     state_dict = state.model_dump(
-        exclude={'config', 'model_config'},
-        mode='json'
+        mode='json',
+        exclude={'config', 'model_config'}
     )
     return state_dict 

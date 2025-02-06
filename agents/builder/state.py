@@ -305,5 +305,7 @@ class BuilderState(BaseModel):
 
 def convert_messages_to_dict(state: BuilderState) -> Dict[str, Any]:
     """Convert BuilderState to a serializable dictionary format."""
-    # Use Pydantic's built-in serialization
-    return state.model_dump() 
+    return state.model_dump(
+        mode='json',
+        exclude={'config', 'model_config'}
+    ) 
