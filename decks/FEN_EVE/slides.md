@@ -33,9 +33,9 @@ layout: default
 
 - Coverage through **Everest Insurance**
 - **Health Benefits** for various situations
-- **Financial Protection** and support tools
-- **Travel Assistance** through global networks
-- **Customer Support** available 24/7
+- **Financial Support** and tools
+- **Wellness Programs** through digital platforms
+- **Customer Service** support
 
 </v-clicks>
 
@@ -48,13 +48,13 @@ layout: default
 
 <v-clicks>
 
-**Health Coverage**
+**Medical Coverage**
 
-**Financial Security**
+**Dental and Vision Plans**
 
-**Travel Assistance**
+**Mental Health Support**
 
-**Customer Support** (varies by plan)
+**Prescription Drug Coverage** (varies by plan)
 </v-clicks>
 
 <v-click>
@@ -75,17 +75,17 @@ layout: default
 
 <v-click>
 
-**Everest Savings Program** (ESP)
+**Health Savings Account** (HSA)
 </v-click>
 
 <v-click>
 
-**Budgeting System**
+**Budgeting Assistance** System
 </v-click>
 
 <v-click>
 
-**Financial Support**
+**Financial Planning** Support
 </v-click>
 
 ---
@@ -93,16 +93,16 @@ transition: fade-out
 layout: default
 ---
 
-## How Everest Savings Program Works
+## How Health Savings Account Works
 
 <v-clicks>
 
 1. Enroll through **Everest Insurance**
-2. Choose your coverage level
-3. Access online resources
-4. Receive your membership card **(ESP)**
-5. Start saving on eligible services
-6. **Enjoy peace of mind**
+2. Set up your account
+3. Contribute pre-tax dollars
+4. Receive monthly statements **(HSA)**
+5. Use funds for eligible expenses
+6. **Save on healthcare costs**
 
 </v-clicks>
 
@@ -115,9 +115,9 @@ layout: default
 
 <v-clicks>
 
-- **Health Screenings** Services
-- **Wellness Programs**
-- **Everest Insurance Partners** provides wellness support
+- **Annual Check-ups** Services
+- **Fitness Programs** Initiatives
+- **Everest Insurance Partners** provides wellness resources
 
 </v-clicks>
 
@@ -132,8 +132,8 @@ layout: default
 
 - **24/7 Access**
 - **Virtual Consultations**
-- **Prescription Services** available
-- **Easy Access** to care
+- **Specialist Referrals** available
+- **Convenient Access** to care
 
 </v-clicks>
 
@@ -147,9 +147,9 @@ layout: default
 <v-clicks>
 
 - **Personalized** healthcare advocacy
-- **Guidance** assistance
-- **Resource** options
-- **Emotional** support
+- **Claims Assistance** support
+- **Coverage Options** exploration
+- **Emotional Support** resources
 
 </v-clicks>
 
@@ -159,32 +159,32 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Everest Plan (1/2)
+## Everest Basic Plan (1/2)
 
 <v-click>
 
 **Health Benefits**
-- Comprehensive coverage
-- Preventive care
-- Specialist visits
-- Emergency services
+- Doctor visits
+- Hospital stays
+- Emergency care
+- Preventive services
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Financial Protection**
-- Income protection
-- Disability coverage
+**Financial Support**
+- Budgeting tools
+- Expense tracking
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Travel Assistance**
-- Global support
-- Emergency evacuation
-- Lost luggage assistance
+**Wellness Programs**
+- Fitness discounts
+- Nutritional guidance
+- Stress management
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -194,21 +194,21 @@ layout: one-half-img
 image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## Everest Plan (2/2)
+## Everest Basic Plan (2/2)
 
 <v-click>
 
-**Customer Support**
-- 24/7 helpline
-- Online chat support
+**Customer Service**
+- 24/7 support line
+- Online chat assistance
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Additional Perks**
-- Wellness discounts
-- Partner offers
+**Additional Benefits**
+- Travel assistance
+- Identity theft protection
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -219,13 +219,13 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **Basic Plan** | **Standard Plan** | **Premium Plan** |
+| **Feature** | **Everest Basic** | **Everest Plus** | **Everest Premium** |
 |---------|----------|----------|-----------|
-| Health Coverage | Basic | Standard | Extensive |
-| Financial Security | Limited | Moderate | High |
-| Travel Assistance | Included | Enhanced | Premium |
-| Customer Support | Basic | Standard | Priority |
-| Additional Perks | Limited | Standard | Extensive |
+| Medical Coverage | Basic | Enhanced | Comprehensive |
+| Dental & Vision | Included | Included | Premium |
+| Mental Health | Limited | Standard | Extensive |
+| Prescription Coverage | Generic | Brand | Full |
+| Wellness Programs | Basic | Advanced | Premium |
 
 ---
 transition: fade-out
@@ -237,35 +237,35 @@ image: img/pages/plan_brochure_image_final.jpg
 
 <v-click>
 
-**Health Coverage**
-- Exclusions apply
-- Pre-authorization required
-- Network restrictions
+**Coverage Limits**
+- Annual maximums
+- Service restrictions
+- Network limitations
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Financial Security**
-- Waiting periods
-- Benefit caps
+**Exclusions**
+- Cosmetic procedures
+- Experimental treatments
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Travel Assistance**
-- Region limitations
-- Service availability
+**Pre-authorization**
+- Required for certain services
+- Approval process
 <Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Customer Support**
-- Limited hours
-- Language support
-- Service fees
+**Out-of-Network**
+- Higher costs
+- Limited coverage
+- Pre-approval needed
 <Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -278,10 +278,10 @@ layout: default
 
 <v-clicks>
 
-- **Health Coverage** benefits
-- **Financial Security** included
-- **Travel Assistance** benefits
-- **Enrollment** required
+- **Comprehensive Coverage** benefits
+- **Preventive Care** included
+- **Telehealth Services** benefits
+- **Enrollment Deadline** required
 
 </v-clicks>
 

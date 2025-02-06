@@ -10,7 +10,10 @@ from ...utils.content import save_content
 from ..utils.content_parser import parse_script_sections
 from ..utils.logging_utils import log_error
 from langsmith.run_helpers import traceable
-from ..prompts.script_writer_prompts import SCRIPT_WRITER_PROMPT
+from ..prompts.script_writer_prompts import (
+    SCRIPT_WRITER_SYSTEM_PROMPT,
+    SCRIPT_WRITER_HUMAN_PROMPT
+)
 from ...utils.llm_utils import get_llm
 
 # Set up logging
@@ -74,31 +77,19 @@ async def script_writer(state: BuilderState) -> BuilderState:
         
         if needs_initial_script:
             logger.info("Creating initial script content")
-            # Create message template for initial script
-            message_template = Template('''Create a complete presentation script for these slides:
-
-Slides content:
-$slides_content
-
-Instructions:
-1. Create a natural, engaging script that follows the slides exactly
-2. Each slide section should be marked with ---- Section Title ----
-3. Include a line for each v-click point
-4. Use conversational, professional tone
-5. Spell out all numbers
-6. Define technical terms on first use
-7. Include smooth transitions between sections
-''')
             
+            # Create messages for initial script
             messages = [
                 {
                     "role": "system",
-                    "content": SCRIPT_WRITER_PROMPT
+                    "content": SCRIPT_WRITER_SYSTEM_PROMPT
                 },
                 {
                     "role": "user",
-                    "content": message_template.substitute(
-                        slides_content=escape_curly_braces(state.slides)
+                    "content": SCRIPT_WRITER_HUMAN_PROMPT.format(
+                        template="",  # No template for initial generation
+                        processed_summaries="",  # No summaries for initial generation
+                        slides_content=state.slides
                     )
                 }
             ]
@@ -132,39 +123,20 @@ Instructions:
         suggested_fixes = validation_issues.suggested_fixes if hasattr(validation_issues, 'suggested_fixes') else {}
         suggested_script_fixes = suggested_fixes.get('script', '')
         
-        # Create message template for fixes
-        message_template = Template('''Review and update this script based on the validation issues and suggestions:
-
-Current script:
-$current_script
-
-${validation_instructions}
-
-${suggested_fixes}
-
-Instructions:
-1. Return the complete updated script
-2. Address all validation issues and suggestions
-3. Maintain consistent formatting with ---- Section Title ----
-4. Keep v-click points on separate lines
-5. Use natural, conversational tone
-6. Spell out all numbers
-7. Define technical terms on first use
-8. Ensure smooth transitions between sections
-''')
-        
         # Create messages for script update
         messages = [
             {
                 "role": "system",
-                "content": SCRIPT_WRITER_PROMPT
+                "content": SCRIPT_WRITER_SYSTEM_PROMPT
             },
             {
                 "role": "user",
-                "content": message_template.substitute(
-                    current_script=escape_curly_braces(current_script),
-                    validation_instructions=escape_curly_braces(validation_instructions),
-                    suggested_fixes="Suggested fixes:" + suggested_script_fixes if suggested_script_fixes else ""
+                "content": SCRIPT_WRITER_HUMAN_PROMPT.format(
+                    template=current_script,
+                    processed_summaries="",  # No summaries needed for fixes
+                    slides_content=state.slides
+                ) + "\n\n" + validation_instructions + (
+                    "\n\nSuggested fixes:" + suggested_script_fixes if suggested_script_fixes else ""
                 )
             }
         ]

@@ -10,6 +10,10 @@ from ...utils.llm_utils import get_completion
 from langchain.prompts import ChatPromptTemplate
 from langsmith.run_helpers import traceable
 from datetime import datetime
+from ..prompts.script_writer_prompts import (
+    SCRIPT_WRITER_SYSTEM_PROMPT,
+    SCRIPT_WRITER_HUMAN_PROMPT
+)
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -58,10 +62,14 @@ async def generate_audio_script(state: BuilderState) -> Optional[str]:
             logger.error("No slides content found")
             return None
             
-        # Create messages for completion
+        # Create messages for completion using proper prompts
         messages = [
-            {"role": "system", "content": "You are an expert at creating natural, engaging audio scripts from slide content."},
-            {"role": "human", "content": f"Generate an audio script for the following slides:\n\n{state.slides_content}"}
+            {"role": "system", "content": SCRIPT_WRITER_SYSTEM_PROMPT},
+            {"role": "human", "content": SCRIPT_WRITER_HUMAN_PROMPT.format(
+                template="",  # No template for initial generation
+                processed_summaries="",  # No summaries needed for initial generation
+                slides_content=state.slides_content
+            )}
         ]
         
         # Generate script using get_completion

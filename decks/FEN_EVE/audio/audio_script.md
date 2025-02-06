@@ -1,41 +1,57 @@
-[Slide 1: Everest Review]
-Welcome to the Everest Review. Today, we’ll explore the comprehensive details and benefits of Everest Insurance. Let’s dive in to understand how Everest can meet your insurance needs.
+[Intro Music Fades In]
 
-[Slide 2: Everest Overview]
-Everest Insurance offers a range of benefits designed to support you in various situations. These include comprehensive health benefits, financial protection tools, and travel assistance through a global network. Plus, there’s round-the-clock customer support. Let’s take a closer look at these offerings.
+Welcome to the Everest Review. In this session, we’ll explore the details and benefits of Everest Insurance Benefits, helping you understand the comprehensive coverage options available to you.
 
-[Slide 3: Key Features and Benefits]
-With Everest, you gain access to essential health coverage, financial security, and travel assistance. Customer support varies by plan, and additional perks are available through Everest Insurance Partners.
+[Slide Transition]
 
-[Slide 4: Cost Management Tools]
-Managing your costs effectively is crucial, and Everest provides tools to help. The Everest Savings Program, budgeting systems, and financial support services are here to assist you.
+Let's start with an overview of what Everest Insurance offers. Coverage through Everest includes a variety of health benefits designed to support you in different situations. You'll have access to financial support tools, wellness programs available through digital platforms, and robust customer service support.
 
-[Slide 5: How Everest Savings Program Works]
-The Everest Savings Program, or ESP, is simple to use. Start by enrolling through Everest Insurance and selecting your coverage level. You’ll gain access to online resources, receive your membership card, and enjoy savings on eligible services, offering you peace of mind.
+[Slide Transition]
 
-[Slide 6: Preventive Care and Wellness]
-Prioritize your health with Everest’s preventive care and wellness services. Access health screenings, wellness programs, and support from Everest Insurance Partners.
+Now, let's dive into the key features and benefits. Everest Insurance provides extensive medical coverage, along with dental and vision plans. You can also access mental health support services and prescription drug coverage, which varies by plan. Additionally, you’ll enjoy extra perks through Everest Insurance partners.
 
-[Slide 7: Telehealth Services]
-Everest’s telehealth services provide 24/7 access to healthcare. Benefit from virtual consultations, prescription services, and easy access to care whenever you need it.
+[Slide Transition]
 
-[Slide 8: Advocacy and Support Services]
-Receive personalized healthcare advocacy with Everest. Guidance assistance, resource options, and emotional support are available to help you navigate your healthcare journey.
+To help you manage costs, Everest offers several tools. You'll have the option to set up a Health Savings Account or HSA, which offers tax advantages. Budgeting assistance systems and financial planning support are also available to help you keep your expenses in check.
 
-[Slide 9: Everest Plan (1/2)]
-The Everest Plan covers comprehensive health benefits, including preventive care, specialist visits, and emergency services. Financial protection includes income and disability coverage, while travel assistance offers global support, emergency evacuation, and lost luggage assistance.
+[Slide Transition]
 
-[Slide 10: Everest Plan (2/2)]
-Customer support is available through a 24/7 helpline and online chat. Additional perks include wellness discounts and partner offers, enhancing your Everest experience.
+Here’s how the Health Savings Account works: First, enroll through Everest Insurance. Once your account is set up, you can contribute pre-tax dollars and receive monthly statements. Use these funds for eligible expenses, ultimately helping you save on healthcare costs.
 
-[Slide 11: Comparing the Plans]
-Here’s a comparison of Everest’s plan options. The Basic Plan offers essential coverage, while the Standard and Premium Plans provide enhanced and extensive benefits, respectively, across health coverage, financial security, travel assistance, and customer support.
+[Slide Transition]
 
-[Slide 12: Definitions and Limitations]
-It’s essential to understand the definitions and limitations of your coverage. Health coverage may have exclusions, pre-authorization requirements, and network restrictions. Financial security benefits have waiting periods and caps, while travel assistance and customer support services may have regional limitations and service fees.
+Everest also prioritizes preventive care and wellness, offering annual check-up services and fitness program initiatives. With resources provided by Everest Insurance partners, you have access to comprehensive wellness resources.
 
-[Slide 13: Key Takeaways and Reminders]
-Remember the key benefits Everest offers: comprehensive health coverage, financial security, and travel assistance. Enrollment is required to access these benefits.
+[Slide Transition]
 
-[Slide 14: Thank You!]
-Thank you for participating in the Everest Review. We hope this information helps you make informed decisions about your insurance needs. Continue to be great!
+Telehealth services with Everest are designed for your convenience, offering 24/7 access to virtual consultations and specialist referrals, ensuring you get the care you need, when you need it, from the comfort of your home.
+
+[Slide Transition]
+
+In addition to health services, Everest provides advocacy and support services. This includes personalized healthcare advocacy, claims assistance, exploration of coverage options, and emotional support resources to help you navigate your healthcare journey.
+
+[Slide Transition]
+
+Let’s look at the Everest Basic Plan. This plan covers essential health benefits like doctor visits, hospital stays, emergency care, and preventive services. It also includes financial support tools for budgeting and expense tracking, and wellness programs offering fitness discounts, nutritional guidance, and stress management resources.
+
+[Slide Transition]
+
+The Everest Basic Plan also emphasizes customer service, with 24/7 support lines and online chat assistance. Additional benefits include travel assistance and identity theft protection for a well-rounded coverage experience.
+
+[Slide Transition]
+
+When comparing plans, the Everest Basic provides foundational coverage. The Everest Plus offers enhanced benefits, while the Everest Premium delivers comprehensive coverage, including premium dental and vision, extensive mental health support, and full prescription coverage.
+
+[Slide Transition]
+
+Understanding the definitions and limitations is crucial. Be aware of coverage limits such as annual maximums and service restrictions. Note the exclusions for cosmetic or experimental treatments, and remember that pre-authorization is required for certain services. Out-of-network services may incur higher costs and require pre-approval.
+
+[Slide Transition]
+
+Key takeaways include the comprehensive coverage benefits Everest offers, including preventive care and telehealth services. Remember to pay attention to the enrollment deadline to ensure you secure the coverage you need.
+
+[Outro Music Begins]
+
+Thank you for participating in the Everest Review. We hope this information helps you make informed decisions about your health coverage. Continue to be great!
+
+[Outro Music Fades Out]

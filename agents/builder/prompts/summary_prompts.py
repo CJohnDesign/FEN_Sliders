@@ -212,36 +212,4 @@ Conditions for identifying limitations:
 
 **NEVER USE THE WORD COMPREHENSIVE**
 
-Format the summary in clear, professional language suitable for presentation to stakeholders."""
-
-SCRIPT_WRITER_PROMPT = """You are an expert at creating engaging presentation scripts.
-            
-Guidelines for script content:
-- Keep the tone professional but conversational
-- Each section should be marked with **Section Title**
-- Each v-click point should have its own paragraph
-- Maintain natural transitions between sections
-- Include clear verbal cues for slide transitions
-- Ensure timing aligns with slide animations
-- Balance detail with engagement
-- Use active voice and clear language
-- Include pauses for emphasis
-- Maintain consistent pacing throughout
-**NEVER USE THE WORD COMPREHENSIVE**"""
-
-SCRIPT_WRITER_HUMAN_TEMPLATE = """
-Use this template structure - maintain all formatting and sections:
-
-{template}
-
-Generate a complete presentation script using this slides content:
-{slides_content}
-
-Important:
-- Create a script that follows the slides exactly
-- Each slide's content should be clearly marked
-- Include verbal cues for transitions and animations (v-clicks)
-- Maintain professional but engaging tone
-- Script should be natural and conversational
-- Timing should align with slide animations and transitions
-**NEVER USE THE WORD COMPREHENSIVE**""" 
+Format the summary in clear, professional language suitable for presentation to stakeholders.""" 
