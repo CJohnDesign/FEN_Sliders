@@ -96,42 +96,66 @@ Please provide:
 4. Note if there are any tables
 5. Note if there are any limitations or restrictions""")
         
-        # Create and execute chain
+        # Create and execute chain with better error handling
         prompt = ChatPromptTemplate.from_messages([system_message, human_message])
-        llm = await get_llm(temperature=0.2)
-        chain = prompt | llm
+        llm = await get_llm(temperature=0.2, response_format={"type": "json_object"})
         
         # Generate summary
-        response = await chain.ainvoke({})
+        response = await llm.ainvoke(prompt.format_messages(content=metadata.content))
         
-        # Parse response
         try:
-            result = json.loads(response.content)
-        except:
-            # If not JSON, treat entire response as summary
-            result = {
-                "summary": response.content.strip(),
-                "key_points": [],
-                "action_items": [],
-                "has_tables": "table" in response.content.lower(),
-                "has_limitations": "limit" in response.content.lower() or "restrict" in response.content.lower()
-            }
-        
-        # Create summary object
-        summary = PageSummary(
-            page_number=metadata.page_number,
-            page_name=metadata.page_name,
-            title=metadata.descriptive_title or result.get("title", metadata.page_name),
-            file_path=metadata.file_path,
-            summary=result.get("summary", ""),
-            key_points=result.get("key_points", []),
-            action_items=result.get("action_items", []),
-            has_tables=result.get("has_tables", False),
-            has_limitations=result.get("has_limitations", False)
-        )
-        
-        logger.info(f"Generated summary for page {metadata.page_number}")
-        return summary
+            # Parse JSON response
+            parsed_response = json.loads(response.content)
+            
+            # Create summary object with proper validation
+            summary = PageSummary(
+                page_number=metadata.page_number,
+                page_name=metadata.page_name,
+                title=metadata.descriptive_title or parsed_response.get("title", metadata.page_name),
+                file_path=metadata.file_path,
+                summary=parsed_response.get("summary", ""),
+                key_points=parsed_response.get("key_points", []),
+                action_items=parsed_response.get("action_items", []),
+                has_tables=parsed_response.get("tableDetails", {}).get("hasBenefitsTable", False),
+                has_limitations=parsed_response.get("tableDetails", {}).get("hasLimitations", False)
+            )
+            
+            # Validate that we have actual content
+            if not summary.summary.strip():
+                logger.warning(f"Empty summary for page {metadata.page_number}, retrying...")
+                # Retry once with a more explicit prompt
+                retry_message = HumanMessage(content=f"""Please provide a DETAILED analysis and summary of this page:
+
+Page {metadata.page_number}: {metadata.page_name}
+Title: {metadata.descriptive_title}
+
+Content: {metadata.content}
+
+You MUST provide:
+1. A detailed multi-paragraph summary (at least 2-3 paragraphs)
+2. At least 3-5 specific key points
+3. Any relevant action items
+4. Note if there are any tables
+5. Note if there are any limitations or restrictions
+
+Your response must be detailed and thorough.""")
+                
+                retry_response = await llm.ainvoke([system_message, retry_message])
+                retry_parsed = json.loads(retry_response.content)
+                
+                summary.summary = retry_parsed.get("summary", "")
+                summary.key_points = retry_parsed.get("key_points", [])
+                summary.action_items = retry_parsed.get("action_items", [])
+                summary.has_tables = retry_parsed.get("tableDetails", {}).get("hasBenefitsTable", False)
+                summary.has_limitations = retry_parsed.get("tableDetails", {}).get("hasLimitations", False)
+            
+            logger.info(f"Generated summary for page {metadata.page_number}")
+            return summary
+            
+        except json.JSONDecodeError:
+            logger.error(f"Failed to parse JSON response for page {metadata.page_number}")
+            logger.error(f"Raw response: {response.content[:500]}...")  # Log first 500 chars
+            return None
         
     except Exception as e:
         logger.error(f"Error processing summary for page {metadata.page_number}: {str(e)}")
@@ -162,24 +186,16 @@ async def process_summaries(state: BuilderState) -> BuilderState:
             processing_state.current_page = idx + 1
             logger.info(f"Processing page {idx + 1} of {processing_state.total_pages}")
             
-            # Generate summary using OpenAI
-            summary_result = await generate_page_summary(page_meta)
-            
-            # Create PageSummary instance
-            page_summary = PageSummary(
-                page_name=f"page_{idx + 1}",
-                page_number=idx + 1,
-                title=summary_result.title,
-                summary=summary_result.summary,
-                key_points=summary_result.key_points,
-                action_items=summary_result.action_items,
-                has_tables=summary_result.has_tables,
-                has_limitations=summary_result.has_limitations
+            # Process summary using existing process_single_summary function
+            summary = await process_single_summary(
+                page_meta,
+                {meta.page_number: meta for meta in state.page_summaries.values()} if state.page_summaries else None
             )
             
-            # Store in state
-            state.page_summaries[page_summary.page_name] = page_summary
-            processing_state.processed_pages += 1
+            if summary:
+                # Store in state using page number as key
+                state.page_summaries[idx + 1] = summary
+                processing_state.processed_pages += 1
             
         except Exception as e:
             error_msg = f"Error processing page {idx + 1}: {str(e)}"
@@ -187,6 +203,10 @@ async def process_summaries(state: BuilderState) -> BuilderState:
             processing_state.errors.append(error_msg)
     
     logger.info(f"Completed summary processing. Processed {processing_state.processed_pages} pages with {len(processing_state.errors)} errors")
+    
+    # Save state after processing
+    await save_state(state, state.metadata.deck_id)
+    
     return state
 
 async def process_single_page(page_metadata: PageMetadata, state: BuilderState) -> Optional[PageSummary]:

@@ -4,7 +4,7 @@ import asyncio
 from pathlib import Path
 from typing import List, Dict, Any
 from PIL import Image
-from ..state import BuilderState, PageMetadata, WorkflowStage, DeckInfo
+from ..state import BuilderState, PageMetadata, WorkflowStage, DeckInfo, PageSummary
 from ..utils.logging_utils import log_error, log_state_change
 from ..utils.state_utils import save_state
 from agents.utils.pdf_utils import convert_pdf_to_images
@@ -34,15 +34,15 @@ async def collect_image_metadata(image_path: Path, page_number: int) -> PageMeta
         
         # Generate descriptive title using OpenAI with image
         llm = await get_llm(temperature=0.7)
-        title_prompt = ChatPromptTemplate.from_messages([
-            ("system", "You are an expert at creating descriptive titles for insurance presentation slides. Create a 15-20 word title that describes the content and purpose of this slide. The title should be clear and professional."),
-            ("human", [
+        messages = [
+            {"role": "system", "content": "You are an expert at creating descriptive titles for insurance presentation slides. Create a 15-20 word title that describes the content and purpose of this slide. The title should be clear and professional."},
+            {"role": "user", "content": [
                 {"type": "text", "text": f"Create a descriptive title for slide {page_number} that will be used as a filename. The title should be separated by underscores and be safe for use in a filename (no special characters)."},
-                {"type": "image_url", "image_url": image_data}
-            ])
-        ])
+                {"type": "image_url", "image_url": {"url": image_data}}
+            ]}
+        ]
         
-        title_response = await llm.ainvoke(title_prompt)
+        title_response = await llm.ainvoke(messages)
         descriptive_title = title_response.content.strip().replace(" ", "_").replace("-", "_")
         descriptive_title = "".join(c for c in descriptive_title if c.isalnum() or c == "_")
         
@@ -223,6 +223,15 @@ async def process_imgs(state: BuilderState) -> BuilderState:
             
             # Save state after each batch
             state.page_metadata = sorted(all_metadata, key=lambda x: x.page_number)
+            # Initialize empty page_summaries dictionary with PageSummary objects
+            state.page_summaries = {
+                meta.page_number: PageSummary(
+                    page_number=meta.page_number,
+                    page_name=meta.page_name,
+                    title=meta.descriptive_title,
+                    file_path=meta.file_path
+                ) for meta in all_metadata
+            }
             await save_state(state, state.metadata.deck_id)
             
             # Add a small delay between batches
@@ -230,10 +239,6 @@ async def process_imgs(state: BuilderState) -> BuilderState:
         
         # Update state with processed metadata
         state.page_metadata = sorted(all_metadata, key=lambda x: x.page_number)
-        
-        # Ensure clean state for next node
-        state.page_summaries = []  # Reset summaries for next stage
-        state.table_data = []      # Reset table data for next stage
         
         # Move to next stage (PROCESS)
         state.update_stage(WorkflowStage.PROCESS)

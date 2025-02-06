@@ -229,8 +229,8 @@ async def save_final_content(state: BuilderState) -> bool:
         logger.info(f"Saved final script to {script_path}")
         
         # Update state with final content
-        state.slides = slides_content
-        state.script = script_content
+        state.slides_content = slides_content
+        state.script_content = script_content
         
         return True
         
@@ -251,7 +251,7 @@ async def validate(state: BuilderState) -> BuilderState:
         logger.info("Starting validation")
         
         # Preserve existing state
-        if state.slides is None and state.script is None:
+        if state.slides_content is None and state.script_content is None:
             logger.error("Missing slides and script content")
             state.set_error("Missing content", "validate")
             return state
@@ -285,14 +285,14 @@ async def validate(state: BuilderState) -> BuilderState:
             
         # Read content if not already in state
         try:
-            slides_content = state.slides or slides_path.read_text()
-            script_content = state.script or script_path.read_text()
+            slides_content = state.slides_content or slides_path.read_text()
+            script_content = state.script_content or script_path.read_text()
             
             # Update state with content if needed
-            if not state.slides:
-                state.slides = slides_content
-            if not state.script:
-                state.script = script_content
+            if not state.slides_content:
+                state.slides_content = slides_content
+            if not state.script_content:
+                state.script_content = script_content
                 
         except Exception as e:
             logger.error(f"Error reading files: {str(e)}")
@@ -341,11 +341,11 @@ async def validate(state: BuilderState) -> BuilderState:
         # If no issues found, move to next stage
         if not state.validation_issues.script_issues and not state.validation_issues.slide_issues:
             state.update_stage(WorkflowStage.VALIDATE)
-            save_state(state, state.metadata.deck_id)
+            await save_state(state, state.metadata.deck_id)
             log_state_change(state, "validate", "complete")
         else:
             # Keep track of validation state even if there are issues
-            save_state(state, state.metadata.deck_id)
+            await save_state(state, state.metadata.deck_id)
             log_state_change(state, "validate", "issues_found", {
                 "num_script_issues": len(state.validation_issues.script_issues),
                 "num_slide_issues": len(state.validation_issues.slide_issues),

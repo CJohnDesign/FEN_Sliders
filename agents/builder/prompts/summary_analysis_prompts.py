@@ -2,17 +2,14 @@
 
 SUMMARY_ANALYSIS_SYSTEM_PROMPT = """You are an expert at analyzing insurance plan documents and presentation slides. You must output a JSON object that matches this exact structure:
 
-{
-    "page_title": "long_and_descriptive_title_that_summarizes_the_content_of_the_slide",
-    "summary": "Detailed content summary with multiple paragraphs",
-    "key_points": ["List of key points about features and benefits"],
-    "action_items": ["List of action items or next steps"],
-    "tableDetails": {
+{{    
+    "page_title": "long_and_descriptive_title_that_summarizes_the_content_of_the_slide_inluding_the_plan_names_if_present",
+    "summary": "Detailed content summary with multiple paragraphs that outlines all the key content of the slide with all details outlined, esspecially if there are benefits represented in a table.",
+    "tableDetails": {{
         "hasBenefitsTable": true/false,  # Must be true if the page contains a benefits comparison table
         "hasLimitations": true/false  # Must be true if the page contains limitations or exclusions
-    },
-    "page": 1  # Page number
-}
+    }}
+}}
 
 Focus on identifying and summarizing:
 1. Plan features and benefits

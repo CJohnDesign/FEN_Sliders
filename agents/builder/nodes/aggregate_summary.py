@@ -50,7 +50,7 @@ async def aggregate_summary(state: BuilderState) -> BuilderState:
             
         # Combine summaries with table data
         aggregated_content = []
-        for summary in state.page_summaries:
+        for summary in state.page_summaries.values():  # Use .values() to get PageSummary objects
             content = {
                 "page_number": summary.page_number,
                 "title": summary.page_name,
@@ -73,8 +73,31 @@ async def aggregate_summary(state: BuilderState) -> BuilderState:
         # Sort by page number
         aggregated_content.sort(key=lambda x: x["page_number"])
         
+        # Create aggregated content string
+        aggregated_content_str = ""
+        for content in aggregated_content:
+            aggregated_content_str += f"\n## {content['title']}\n\n"
+            aggregated_content_str += f"{content['summary']}\n\n"
+            if content.get("key_points"):
+                aggregated_content_str += "**Key Points:**\n"
+                for point in content["key_points"]:
+                    aggregated_content_str += f"- {point}\n"
+                aggregated_content_str += "\n"
+            if content.get("action_items"):
+                aggregated_content_str += "**Action Items:**\n"
+                for item in content["action_items"]:
+                    aggregated_content_str += f"- {item}\n"
+                aggregated_content_str += "\n"
+            if content.get("tables"):
+                aggregated_content_str += "**Tables:**\n"
+                for table in content["tables"]:
+                    aggregated_content_str += f"- Headers: {', '.join(table.headers)}\n"
+                    for row in table.rows:
+                        aggregated_content_str += f"  - {', '.join(row)}\n"
+                aggregated_content_str += "\n"
+        
         # Update state with aggregated content
-        state.aggregated_content = aggregated_content
+        state.aggregated_content = aggregated_content_str
         
         # Create processed summaries string for slide generation
         processed_summaries = ""
@@ -110,17 +133,18 @@ async def aggregate_summary(state: BuilderState) -> BuilderState:
             details={
                 "pages_processed": len(aggregated_content),
                 "pages_with_tables": len([c for c in aggregated_content if c.get("has_tables", False)]),
-                "processed_summaries_length": len(processed_summaries)
+                "processed_summaries_length": len(processed_summaries),
+                "aggregated_content_length": len(aggregated_content_str)
             }
         )
         
         # Update workflow stage
-        state.update_stage(WorkflowStage.PROCESS_SLIDES)
-        logger.info(f"Moving to next stage: {state.current_stage}")
+        state.update_stage(WorkflowStage.GENERATE)
+        logger.info(f"Moving to next stage: {state.workflow_progress.current_stage}")
         
         # Save state
         if state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
+            await save_state(state, state.metadata.deck_id)
             logger.info(f"Saved state for deck {state.metadata.deck_id}")
             
         return state

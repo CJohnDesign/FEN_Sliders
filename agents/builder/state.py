@@ -293,10 +293,57 @@ class BuilderState(BaseModel):
         )
     )
     deck_info: Optional[DeckInfo] = None
-    page_summaries: Dict[str, PageSummary] = Field(default_factory=dict)
-    slides_content: Optional[SlideContent] = None
-    script_content: Optional[ContentSection] = None
+    page_metadata: List[PageMetadata] = Field(default_factory=list)
+    page_summaries: Dict[int, PageSummary] = Field(default_factory=dict)
+    table_data: List[TableData] = Field(default_factory=list)
+    processed_summaries: Optional[str] = None
+    slides_content: Optional[str] = None
+    slides: List[SlideContent] = Field(default_factory=list)
+    aggregated_content: Optional[str] = None
+    script_content: Optional[str] = None
+    validation_issues: Optional[ValidationIssues] = None
+    validation_state: Optional[ValidationState] = None
+    error_context: Optional[ErrorContext] = None
+    google_drive_config: Optional[GoogleDriveConfig] = None
+    google_drive_sync_info: Optional[GoogleDriveSyncInfo] = None
+    structured_pages: Optional[Pages] = None
     
+    def update_stage(self, new_stage: WorkflowStage) -> None:
+        """Update the current stage and manage stage transitions."""
+        if new_stage == self.workflow_progress.current_stage:
+            return
+            
+        # Complete current stage
+        if self.workflow_progress.current_stage in self.workflow_progress.stages:
+            current_stage = self.workflow_progress.stages[self.workflow_progress.current_stage]
+            current_stage.status = "completed"
+            current_stage.completed_at = datetime.now().isoformat()
+            
+        # Initialize new stage
+        self.workflow_progress.stages[new_stage] = StageProgress(
+            status="in_progress",
+            started_at=datetime.now().isoformat()
+        )
+        self.workflow_progress.current_stage = new_stage
+        
+    def set_stage_progress(self, total: int, completed: int, current: str) -> None:
+        """Update progress for the current stage."""
+        if self.workflow_progress.current_stage in self.workflow_progress.stages:
+            stage = self.workflow_progress.stages[self.workflow_progress.current_stage]
+            stage.total_items = total
+            stage.completed_items = completed
+            stage.current_item = current
+            
+    def set_error(self, error: str, stage: str, details: Optional[Dict[str, Any]] = None) -> None:
+        """Set error context."""
+        self.error_context = ErrorContext(
+            error=error,
+            stage=stage,
+            details=details or {}
+        )
+        if stage in self.workflow_progress.stages:
+            self.workflow_progress.stages[stage].status = "failed"
+            
     model_config = ConfigDict(
         extra='ignore',
         validate_assignment=True,

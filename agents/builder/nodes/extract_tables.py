@@ -37,22 +37,32 @@ def encode_image_to_base64(image_path: str) -> str:
 @traceable(name="create_table_chain")
 async def create_table_chain():
     """Create the chain for extracting table data."""
-    # Use centralized LLM configuration
-    llm = await get_llm(
-        temperature=0,
-        response_format={"type": "json_object"}
-    )
-    
-    # Create prompt template using imported prompt
-    prompt = ChatPromptTemplate.from_messages([
-        ("system", TABLE_EXTRACTION_PROMPT),
-        ("human", [
-            {"type": "text", "text": "Please extract any tables from this slide."},
-            {"type": "image_url", "image_url": "{image_data}"}
+    try:
+        # Use centralized LLM configuration
+        llm = await get_llm(
+            temperature=0,
+            response_format={"type": "json_object"}
+        )
+        
+        # Create prompt template using imported prompt
+        prompt = ChatPromptTemplate.from_messages([
+            ("system", TABLE_EXTRACTION_PROMPT),
+            ("human", [
+                {"type": "text", "text": "Please extract any tables from this slide."},
+                {"type": "image_url", "image_url": "{image_data}"}
+            ])
         ])
-    ])
-    
-    return prompt | llm
+        
+        # Create chain with error handling and retry logic
+        chain = prompt | llm | {
+            "table_data": lambda x: x.content,
+            "error": lambda x: None if x.content else "Failed to extract table data"
+        }
+        
+        return chain
+    except Exception as e:
+        logger.error(f"Error creating table chain: {str(e)}")
+        raise
 
 @traceable(name="process_page_batch")
 async def process_page_batch(
@@ -63,15 +73,15 @@ async def process_page_batch(
     total_batches: int
 ) -> Dict[int, TableData]:
     """Process a batch of pages concurrently."""
-    async def process_single_page(summary: PageSummary) -> Tuple[int, TableData]:
+    async def process_single_page(summary: PageSummary, file_path: str) -> Tuple[int, TableData]:
         try:
-            if not os.path.exists(summary.file_path):
-                logger.error(f"Image not found: {summary.file_path}")
+            if not os.path.exists(file_path):
+                logger.error(f"Image not found: {file_path}")
                 logger.error(f"Current directory: {os.getcwd()}")
                 return summary.page_number, None
                 
             # Encode image - base64 data should not be logged
-            image_data = encode_image_to_base64(summary.file_path)
+            image_data = encode_image_to_base64(file_path)
                 
             # Extract table data
             response = await chain.ainvoke({"image_data": image_data})
@@ -112,7 +122,7 @@ async def process_page_batch(
             return summary.page_number, None
 
     # Process batch concurrently
-    tasks = [process_single_page(summary) for summary, _ in batch]
+    tasks = [process_single_page(summary, file_path) for summary, file_path in batch]
     results = await asyncio.gather(*tasks)
     
     # Update progress
@@ -151,14 +161,12 @@ async def extract_tables(state: BuilderState) -> BuilderState:
             return state
             
         logger.info(f"Starting table extraction with {len(state.page_summaries)} summaries")
-        logger.info(f"Summary page numbers: {[s.page_number for s in state.page_summaries]}")
-            
+        
         # Get pages with tables directly from summaries
-        pages_with_tables = [
-            (summary, summary.file_path) 
-            for summary in state.page_summaries 
-            if summary.tableDetails.hasBenefitsTable  # Only process pages with benefits tables
-        ]
+        pages_with_tables = []
+        for page_num, summary in state.page_summaries.items():
+            if summary and summary.has_tables:
+                pages_with_tables.append((summary, summary.file_path))
         
         if not pages_with_tables:
             logger.info("No benefits tables to process")
@@ -262,6 +270,6 @@ async def extract_tables(state: BuilderState) -> BuilderState:
     except Exception as e:
         error_msg = f"Table extraction failed: {str(e)}"
         logger.error(error_msg)
+        logger.error(traceback.format_exc())
         state.set_error(error_msg, "extract_tables")
-        await save_state(state, state.metadata.deck_id)
         return state 

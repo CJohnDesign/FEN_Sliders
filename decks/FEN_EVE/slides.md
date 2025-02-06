@@ -1,11 +1,11 @@
 ---
-id: FEN_{{deck_key}}
+id: FEN_EVE
 theme: ../../
 title: | 
-  {{ Plan Name }}
+  Everest
 info: |
-  ## {{ Plan Name }} Review
-  A look at the {{ Plan Name }} benefits and details.
+  ## Everest Review
+  A look at the Everest benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -16,26 +16,26 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_{{deck_key}}" />
+<SlideAudio deckKey="FEN_EVE" />
 
-# {{ Plan Name }} Review
+# Everest Review
 
-Understanding the details and benefits of the **{{ Plan Full Name }}**
+Understanding the details and benefits of the **Everest Insurance Benefits**
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## {{ Plan Name }} Overview
+## Everest Overview
 
 <v-clicks>
 
-- {{ Overview Point 1 }} through **{{ Organization }}**
-- **{{ Benefit Category 1 }}** for various situations
-- **{{ Benefit Category 2 }}** and support tools
-- **{{ Benefit Category 3 }}** through {{ Feature }}
-- **{{ Benefit Category 4 }}** support
+- Coverage through **Everest Insurance**
+- **Health Benefits** for various situations
+- **Financial Protection** and support tools
+- **Travel Assistance** through global networks
+- **Customer Support** available 24/7
 
 </v-clicks>
 
@@ -48,20 +48,20 @@ layout: default
 
 <v-clicks>
 
-**{{ Benefit Type 1 }}**
+**Health Coverage**
 
-**{{ Benefit Type 2 }}**
+**Financial Security**
 
-**{{ Benefit Type 3 }}**
+**Travel Assistance**
 
-**{{ Benefit Type 4 }}** (varies by plan)
+**Customer Support** (varies by plan)
 </v-clicks>
 
 <v-click>
 
-**{{ Additional Benefit }}** through {{ Partner }}
+**Additional Perks** through Everest Insurance Partners
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="{{ Brand }} Logo">
+  <img src="" class="h-12 mix-blend-multiply" alt="Everest Logo">
 </div>
 
 </v-click>
@@ -75,17 +75,17 @@ layout: default
 
 <v-click>
 
-**{{ Tool Name }}** ({{ Acronym }})
+**Everest Savings Program** (ESP)
 </v-click>
 
 <v-click>
 
-**{{ Feature 1 }}** System
+**Budgeting System**
 </v-click>
 
 <v-click>
 
-**{{ Feature 2 }}** Support
+**Financial Support**
 </v-click>
 
 ---
@@ -93,16 +93,16 @@ transition: fade-out
 layout: default
 ---
 
-## How {{ Tool Name }} Works
+## How Everest Savings Program Works
 
 <v-clicks>
 
-1. Enroll through **{{ Organization }}**
-2. {{ Step 2 }}
-3. {{ Step 3 }}
-4. Receive {{ Document }} **({{ Acronym }})**
-5. {{ Step 5 }}
-6. **{{ Final Outcome }}**
+1. Enroll through **Everest Insurance**
+2. Choose your coverage level
+3. Access online resources
+4. Receive your membership card **(ESP)**
+5. Start saving on eligible services
+6. **Enjoy peace of mind**
 
 </v-clicks>
 
@@ -115,9 +115,9 @@ layout: default
 
 <v-clicks>
 
-- **{{ Service 1 }}** Services
-- **{{ Service 2 }}** Programs
-- **{{ Partner }}** provides {{ service_type }}
+- **Health Screenings** Services
+- **Wellness Programs**
+- **Everest Insurance Partners** provides wellness support
 
 </v-clicks>
 
@@ -130,10 +130,10 @@ layout: default
 
 <v-clicks>
 
-- **{{ Feature 1 }}**
-- **{{ Feature 2 }}**
-- **{{ Feature 3 }}** available
-- **{{ Feature 4 }}** to care
+- **24/7 Access**
+- **Virtual Consultations**
+- **Prescription Services** available
+- **Easy Access** to care
 
 </v-clicks>
 
@@ -146,73 +146,71 @@ layout: default
 
 <v-clicks>
 
-- **{{ Service Style }}** healthcare advocacy
-- **{{ Service 1 }}** assistance
-- **{{ Service 2 }}** options
-- **{{ Service 3 }}** support
+- **Personalized** healthcare advocacy
+- **Guidance** assistance
+- **Resource** options
+- **Emotional** support
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/{{plan_brochure_image_1}}.jpg
+image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## {{ Plan 1 Name }} (1/2)
+## Everest Plan (1/2)
 
 <v-click>
 
-**{{ Benefit Category 1 }}**
-- {{ Detail 1 }}
-- {{ Detail 2 }}
-- {{ Detail 3 }}
-- {{ Detail 4 }}
-<Arrow v-bind="{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}" />
+**Health Benefits**
+- Comprehensive coverage
+- Preventive care
+- Specialist visits
+- Emergency services
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**{{ Benefit Category 2 }}**
-- {{ Detail 1 }}
-- {{ Detail 2 }}
-<Arrow v-bind="{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}" />
+**Financial Protection**
+- Income protection
+- Disability coverage
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**{{ Benefit Category 3 }}**
-- {{ Detail 1 }}
-- {{ Detail 2 }}
-- {{ Detail 3 }}
-<Arrow v-bind="{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}" />
+**Travel Assistance**
+- Global support
+- Emergency evacuation
+- Lost luggage assistance
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/{{plan_brochure_image_1}}.jpg
+image: img/pages/plan_brochure_image_1.jpg
 ---
 
-## {{ Plan 1 Name }} (2/2)
+## Everest Plan (2/2)
 
 <v-click>
 
-**{{ Benefit Category 4 }}**
-- {{ Detail 1 }}
-- {{ Detail 2 }}
-<Arrow v-bind="{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}" />
+**Customer Support**
+- 24/7 helpline
+- Online chat support
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**{{ Benefit Category 5 }}**
-- {{ Detail 1 }}
-- {{ Detail 2 }}
-<Arrow v-bind="{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}" />
+**Additional Perks**
+- Wellness discounts
+- Partner offers
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
-
-<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->
 
 ---
 transition: fade-out
@@ -221,54 +219,54 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |
+| **Feature** | **Basic Plan** | **Standard Plan** | **Premium Plan** |
 |---------|----------|----------|-----------|
-| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |
-| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |
-| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |
-| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |
-| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |
+| Health Coverage | Basic | Standard | Extensive |
+| Financial Security | Limited | Moderate | High |
+| Travel Assistance | Included | Enhanced | Premium |
+| Customer Support | Basic | Standard | Priority |
+| Additional Perks | Limited | Standard | Extensive |
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/{{plan_brochure_image_final}}.jpg
+image: img/pages/plan_brochure_image_final.jpg
 ---
 
 ## Definitions and Limitations
 
 <v-click>
 
-**{{ Category 1 }}**
-- {{ Limitation 1 }}
-- {{ Limitation 2 }}
-- {{ Limitation 3 }}
-<Arrow v-bind="{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}" />
+**Health Coverage**
+- Exclusions apply
+- Pre-authorization required
+- Network restrictions
+<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**{{ Category 2 }}**
-- {{ Limitation 1 }}
-- {{ Limitation 2 }}
-<Arrow v-bind="{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}" />
+**Financial Security**
+- Waiting periods
+- Benefit caps
+<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**{{ Category 3 }}**
-- {{ Limitation 1 }}
-- {{ Limitation 2 }}
-<Arrow v-bind="{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}" />
+**Travel Assistance**
+- Region limitations
+- Service availability
+<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**{{ Category 4 }}**
-- {{ Limitation 1 }}
-- {{ Limitation 2 }}
-- {{ Limitation 3 }}
-<Arrow v-bind="{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}" />
+**Customer Support**
+- Limited hours
+- Language support
+- Service fees
+<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -280,17 +278,17 @@ layout: default
 
 <v-clicks>
 
-- **{{ Feature 1 }}** benefits
-- **{{ Feature 2 }}** included
-- **{{ Feature 3 }}** benefits
-- **{{ Requirement }}** required
+- **Health Coverage** benefits
+- **Financial Security** included
+- **Travel Assistance** benefits
+- **Enrollment** required
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!
+line: Thank you for participating in the Everest Review. Continue to be great!
 ---
 
 # Thank You!
@@ -298,4 +296,3 @@ line: Thank you for participating in the {{ Plan Name }} Review. Continue to be 
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
-

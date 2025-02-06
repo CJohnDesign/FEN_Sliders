@@ -21,15 +21,25 @@ logger = logging.getLogger(__name__)
 
 def should_continue_validation(state: BuilderState) -> str:
     """Determine if validation should continue."""
-    if not state.needs_fixes:
-        logger.info("No fixes needed, proceeding to completion")
-        return "complete"
-    
-    if state.retry_count >= state.max_retries:
-        logger.warning(f"Hit max retries ({state.max_retries}), proceeding to completion")
+    # Check if we have validation issues
+    if not state.validation_issues:
+        logger.info("No validation issues found, proceeding to completion")
         return "complete"
         
-    logger.info(f"Content needs fixes (attempt {state.retry_count + 1}/{state.max_retries})")
+    # Check if we're in a failed state
+    if (state.error_context and 
+        state.error_context.stage == WorkflowStage.VALIDATE):
+        logger.warning("Validation failed, proceeding to completion")
+        return "complete"
+        
+    # Check current stage progress
+    if state.workflow_progress.stages.get(WorkflowStage.VALIDATE):
+        validate_progress = state.workflow_progress.stages[WorkflowStage.VALIDATE]
+        if validate_progress.status == "failed":
+            logger.warning("Validation stage failed, proceeding to completion")
+            return "complete"
+            
+    logger.info("Content needs fixes, retrying validation")
     return "retry"
 
 def create_builder_graph(start_node: str = "create_deck"):
@@ -52,33 +62,43 @@ def create_builder_graph(start_node: str = "create_deck"):
     workflow.add_node("validate", validate)
     workflow.add_node("google_drive_sync", google_drive_sync)
     
-    # Set entry point based on start_node
-    workflow.set_entry_point(start_node)
-    
-    # Define the main workflow edges
+    # Define the main workflow edges with stage transitions
     edges = {
+        # INIT -> EXTRACT
         "create_deck": "process_imgs",
+        
+        # EXTRACT -> PROCESS
         "process_imgs": "process_summaries",
+        
+        # PROCESS stage steps
         "process_summaries": "extract_tables",
         "extract_tables": "aggregate_summary",
+        
+        # PROCESS -> GENERATE
         "aggregate_summary": "setup_slides",
+        
+        # GENERATE stage steps
         "setup_slides": "setup_script",
+        
+        # GENERATE -> VALIDATE
         "setup_script": "validate"
     }
     
-    # Add edges based on start_node to ensure validation always happens
-    if start_node == "validate":
-        # If starting at validate, just add the validation loop
-        pass
-    else:
-        # Find the starting point in the workflow
-        current = start_node
-        while current in edges:
-            workflow.add_edge(current, edges[current])
-            current = edges[current]
-        # Always add edge to validation
-        if current != "validate":
-            workflow.add_edge(current, "validate")
+    # Set entry point based on start_node
+    if start_node not in edges and start_node != "validate":
+        logger.error(f"Invalid start node: {start_node}")
+        start_node = "create_deck"
+    workflow.set_entry_point(start_node)
+    
+    # Add edges based on start_node
+    current = start_node
+    while current in edges:
+        workflow.add_edge(current, edges[current])
+        current = edges[current]
+        
+    # Always ensure we end with validation
+    if current != "validate" and current in edges:
+        workflow.add_edge(current, "validate")
     
     # Add validation loop
     workflow.add_conditional_edges(

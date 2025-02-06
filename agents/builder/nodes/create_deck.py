@@ -159,8 +159,7 @@ async def create_deck(state: BuilderState) -> BuilderState:
         
         # Initialize empty state fields
         state.page_metadata = []
-        state.page_summaries = []
-        state.structured_slides = []
+        state.page_summaries = {}
         state.table_data = []
         state.validation_issues = None
         state.validation_state = None

@@ -54,14 +54,14 @@ async def generate_audio_script(state: BuilderState) -> Optional[str]:
         Generated audio script or None if error
     """
     try:
-        if not state.slides:
+        if not state.slides_content:
             logger.error("No slides content found")
             return None
             
         # Create messages for completion
         messages = [
             {"role": "system", "content": "You are an expert at creating natural, engaging audio scripts from slide content."},
-            {"role": "human", "content": f"Generate an audio script for the following slides:\n\n{state.slides}"}
+            {"role": "human", "content": f"Generate an audio script for the following slides:\n\n{state.slides_content}"}
         ]
         
         # Generate script using get_completion
@@ -95,6 +95,13 @@ async def setup_script(state: BuilderState) -> BuilderState:
             logger.warning(f"Expected stage {WorkflowStage.GENERATE}, got {state.workflow_progress.current_stage}")
             state.update_stage(WorkflowStage.GENERATE)
             
+        # Check for slides content
+        if not state.slides_content:
+            error_msg = "No slides content found"
+            logger.error(error_msg)
+            state.set_error(error_msg, "setup_script")
+            return state
+            
         # Generate audio script
         audio_script = await generate_audio_script(state)
         if not audio_script:
@@ -111,10 +118,23 @@ async def setup_script(state: BuilderState) -> BuilderState:
             return state
             
         # Update state
-        state.script = audio_script
+        state.script_content = audio_script
+        
+        # Log completion
+        log_state_change(
+            state=state,
+            node_name="setup_script",
+            change_type="complete",
+            details={
+                "script_content_length": len(audio_script)
+            }
+        )
+        
+        # Move to validation stage
         state.update_stage(WorkflowStage.VALIDATE)
-        save_state(state, state.metadata.deck_id)
-        log_state_change(state, "setup_script", "complete")
+        
+        # Save state
+        await save_state(state, state.metadata.deck_id)
         
         return state
         

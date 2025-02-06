@@ -1,6 +1,6 @@
 """LLM utilities for model interactions."""
 import logging
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
@@ -62,13 +62,28 @@ async def get_completion(
         logger.error(f"Error in LLM completion: {str(e)}")
         raise
 
-async def get_llm(model: str = "gpt-4o", temperature: float = 0.7, response_format: Dict[str, str] = None) -> Any:
-    """Get a LangChain LLM instance configured with the specified parameters"""
-    config = get_base_config()
-    config.update({
-        "model": "gpt-4o",  # Always use gpt-4o for this function
-        "temperature": temperature,
-        "model_kwargs": {"response_format": {"type": "json_object"}} if response_format else {}
-    })
-    
-    return ChatOpenAI(**config) 
+async def get_llm(
+    temperature: float = 0.7,
+    model: str = "gpt-4o",
+    response_format: Optional[Dict[str, str]] = None
+) -> ChatOpenAI:
+    """Get LLM instance with proper configuration."""
+    try:
+        # Get base config
+        config = get_base_config()
+        
+        # Add model and temperature
+        config.update({
+            "model": model,
+            "temperature": temperature
+        })
+        
+        # Add response format if specified
+        if response_format:
+            config["response_format"] = response_format
+            
+        return ChatOpenAI(**config)
+        
+    except Exception as e:
+        logger.error(f"Error configuring LLM: {str(e)}")
+        raise 

@@ -36,7 +36,7 @@ class SlideState(BaseModel):
     )
 
 def get_template(state: BuilderState) -> str:
-    """Get the slides template from state.
+    """Get the slides template from state or file.
     
     Args:
         state: The current builder state containing template content
@@ -45,14 +45,11 @@ def get_template(state: BuilderState) -> str:
         str: The template content or empty string if not found
     """
     try:
-        # Check if template exists in state
-        if state.slides:
-            return state.slides
-            
         # Try to read template from file
         if state.deck_info and state.deck_info.path:
             template_path = Path(state.deck_info.path) / "slides.md"
             if template_path.exists():
+                logger.info(f"Reading template from {template_path}")
                 return template_path.read_text()
                 
         logger.warning("No template found, using empty template")
@@ -77,103 +74,6 @@ async def save_slides_to_file(slides_content: str, output_path: Path) -> bool:
         logger.error(f"Failed to save slides to {output_path}: {str(e)}")
         return False
 
-@traceable(name="process_slides")
-async def process_slides(state: BuilderState) -> BuilderState:
-    """Process content into slides."""
-    try:
-        with trace(name="slide_processing") as slide_trace:
-            logger.info("Starting slide processing...")
-            logger.info(f"Current stage: {state.current_stage}")
-            
-            # Get template
-            template = get_template(state)
-            logger.info(f"Template length: {len(template)}")
-            
-            # Define replacements
-            replacements = {
-                "{{deck_key}}": "FEN_EVE",
-                "{{ Plan Name }}": "Everest",
-                "{{ Plan Full Name }}": "Everest Insurance Benefits",
-                "{{ Organization }}": "Everest Insurance",
-                "{{ Brand }}": "Everest",
-                "{{ Partner }}": "Everest Insurance Partners",
-                "{{ Benefit Category 1 }}": "Risk Management",
-                "{{ Benefit Category 2 }}": "Claims Support",
-                "{{ Benefit Category 3 }}": "Customer Service",
-                "{{ Benefit Category 4 }}": "Technical Support",
-                "{{ Tool Name }}": "Risk Management Portal",
-                "{{ Acronym }}": "RMP",
-                "{{ Feature 1 }}": "Claims Management",
-                "{{ Feature 2 }}": "Risk Assessment",
-                "{{ Overview Point 1 }}": "Complete insurance solutions",
-                "{{ Benefit Type 1 }}": "Property Insurance",
-                "{{ Benefit Type 2 }}": "Casualty Insurance",
-                "{{ Benefit Type 3 }}": "Specialty Insurance",
-                "{{ Benefit Type 4 }}": "Risk Management Services",
-                "{{ Additional Benefit }}": "24/7 Claims Support",
-                "{{ Feature }}": "Online Portal"
-            }
-            
-            # Replace variables in template
-            processed_template = template
-            for old, new in replacements.items():
-                processed_template = processed_template.replace(old, new)
-            
-            # Get processed summaries with fallback
-            processed_summaries = ""
-            if hasattr(state, 'processed_summaries') and state.processed_summaries:
-                processed_summaries = state.processed_summaries
-            else:
-                logger.warning("No processed summaries found in state")
-            
-            # Initialize slide state
-            slide_state = SlideState(
-                processed_summaries=processed_summaries,
-                template=processed_template
-            )
-            
-            # Verify we're in the correct stage and fix if needed
-            if state.current_stage != WorkflowStage.PROCESS_SLIDES:
-                logger.warning(f"Expected stage {WorkflowStage.PROCESS_SLIDES}, but got {state.current_stage}")
-                state.current_stage = WorkflowStage.PROCESS_SLIDES
-                
-            # Create chat prompt for slide generation
-            prompt = ChatPromptTemplate.from_messages([
-                ("system", SLIDES_WRITER_SYSTEM_PROMPT),
-                ("human", SLIDES_WRITER_HUMAN_PROMPT.format(
-                    template=processed_template,
-                    processed_summaries=processed_summaries
-                ))
-            ])
-            
-            # Get LLM response
-            llm = get_llm()
-            response = await llm.ainvoke(prompt)
-            slides_content = response.content
-            
-            # Replace any remaining template variables in the response
-            for old, new in replacements.items():
-                slides_content = slides_content.replace(old, new)
-            
-            # Save slides content
-            if state.deck_info and state.deck_info.path:
-                output_path = Path(state.deck_info.path) / "slides.md"
-                success = await save_slides_to_file(slides_content, output_path)
-                if not success:
-                    raise Exception("Failed to save slides content")
-                    
-                logger.info(f"Successfully saved slides to {output_path}")
-                state.slides = slides_content
-                
-            # Update state
-            state = await save_state(state)
-            logger.info("Completed slide processing")
-            return state
-            
-    except Exception as e:
-        log_error("Error in process_slides", e)
-        raise 
-
 @traceable(name="setup_slides")
 async def setup_slides(state: BuilderState) -> BuilderState:
     """Set up slides based on processed content."""
@@ -197,11 +97,78 @@ async def setup_slides(state: BuilderState) -> BuilderState:
             logger.warning(f"Expected stage {WorkflowStage.GENERATE}, got {state.workflow_progress.current_stage}")
             state.update_stage(WorkflowStage.GENERATE)
             
-        # ... rest of the function implementation ...
-
-        log_state_change(state, "setup_slides", "complete")
-        return state
-
+        # Get template and processed summaries
+        template = get_template(state)
+        if not template:
+            error_msg = "Failed to get slides template"
+            logger.error(error_msg)
+            state.set_error(error_msg, "setup_slides")
+            return state
+            
+        # Get processed summaries with fallback to aggregated content
+        processed_summaries = state.processed_summaries
+        if not processed_summaries and state.aggregated_content:
+            logger.info("Using aggregated content as fallback for processed summaries")
+            processed_summaries = state.aggregated_content
+            
+        if not processed_summaries:
+            error_msg = "No processed summaries or aggregated content found"
+            logger.error(error_msg)
+            state.set_error(error_msg, "setup_slides")
+            return state
+            
+        # Create chat prompt for slide generation
+        prompt = ChatPromptTemplate.from_messages([
+            ("system", SLIDES_WRITER_SYSTEM_PROMPT),
+            ("human", SLIDES_WRITER_HUMAN_PROMPT)
+        ])
+        
+        # Get LLM response
+        llm = await get_llm(temperature=0.2)
+        formatted_prompt = await prompt.ainvoke({
+            "template": template,
+            "processed_summaries": processed_summaries
+        })
+        response = await llm.ainvoke(formatted_prompt)
+        slides_content = response.content
+        
+        # Process slides content
+        if slides_content:
+            state.slides_content = slides_content  # Store in slides_content field
+            
+            # Save slides content
+            if state.deck_info and state.deck_info.path:
+                output_path = Path(state.deck_info.path) / "slides.md"
+                success = await save_slides_to_file(slides_content, output_path)
+                if not success:
+                    error_msg = "Failed to save slides content"
+                    logger.error(error_msg)
+                    state.set_error(error_msg, "setup_slides")
+                    return state
+                    
+                logger.info(f"Successfully saved slides to {output_path}")
+                
+            # Update state
+            state = await save_state(state, state.metadata.deck_id)
+            logger.info("Completed slide processing")
+            
+            # Log completion
+            log_state_change(
+                state=state,
+                node_name="setup_slides",
+                change_type="complete",
+                details={
+                    "slides_content_length": len(slides_content)
+                }
+            )
+            
+            return state
+        else:
+            error_msg = "Failed to generate slides content"
+            logger.error(error_msg)
+            state.set_error(error_msg, "setup_slides")
+            return state
+            
     except Exception as e:
         error_msg = f"Error in setup_slides: {str(e)}"
         logger.error(error_msg)

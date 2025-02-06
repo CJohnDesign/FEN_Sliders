@@ -38,16 +38,17 @@ VALID_START_NODES = [
     "google_drive_sync",
 ]
 
+# Map node names to workflow stages
 STAGE_MAPPING = {
-    "create_deck": WorkflowStage.CREATE_DECK,
-    "process_imgs": WorkflowStage.PROCESS_IMAGES,
-    "process_summaries": WorkflowStage.PROCESS_SUMMARIES,
-    "extract_tables": WorkflowStage.EXTRACT_TABLES,
-    "aggregate_summary": WorkflowStage.AGGREGATE_SUMMARY,
-    "setup_slides": WorkflowStage.SETUP_SLIDES,
-    "setup_script": WorkflowStage.SETUP_SCRIPT,
+    "create_deck": WorkflowStage.INIT,
+    "process_imgs": WorkflowStage.EXTRACT,
+    "process_summaries": WorkflowStage.PROCESS,
+    "extract_tables": WorkflowStage.PROCESS,
+    "aggregate_summary": WorkflowStage.PROCESS,
+    "setup_slides": WorkflowStage.GENERATE,
+    "setup_script": WorkflowStage.GENERATE,
     "validate": WorkflowStage.VALIDATE,
-    "google_drive_sync": WorkflowStage.GOOGLE_DRIVE_SYNC,
+    "google_drive_sync": WorkflowStage.EXPORT
 }
 
 def initialize_state(deck_id: str, title: str) -> BuilderState:
@@ -104,54 +105,38 @@ async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:
             return 1
             
         # Initialize or load state
+        state = None
         if start_node:
-            # Load existing state or create new one
+            # Try to load existing state
             state = load_existing_state(deck_id)
-            if not state:
-                state = initialize_state(deck_id, title)
-                logger.info(f"Created new state for deck {deck_id}")
-            else:
-                logger.info(f"Loaded existing state for deck {deck_id}")
+            logger.info(f"Attempting to load existing state for {deck_id}")
             
-            # Set the current stage based on start_node
+        # Create new state if none exists
+        if not state:
+            state = initialize_state(deck_id, title)
+            logger.info(f"Created new state for deck {deck_id}")
+            
+        # Set the current stage based on start_node
+        if start_node:
             try:
-                # Convert node name to workflow stage
                 if start_node not in STAGE_MAPPING:
                     logger.error(f"Invalid start node: {start_node}")
                     return 1
                     
                 stage = STAGE_MAPPING[start_node]
-                state.workflow_progress.current_stage = stage
+                state.update_stage(stage)
                 logger.info(f"Set current stage to: {stage}")
                 
-                # Remove this stage and all subsequent stages from completed_stages
-                if state.workflow_progress.completed_stages:
-                    stage_order = list(WorkflowStage)
-                    start_idx = stage_order.index(stage)
-                    stages_to_remove = set(stage_order[start_idx:])
-                    state.workflow_progress.completed_stages = [
-                        s for s in state.workflow_progress.completed_stages 
-                        if s not in stages_to_remove
-                    ]
-                    logger.info(f"Reset completed stages after {stage}")
-                
-                # Save updated state
-                await save_state(state, deck_id)
             except ValueError as e:
                 logger.error(f"Error setting workflow stage: {str(e)}")
                 return 1
-        else:
-            state = initialize_state(deck_id, title)
-            start_node = "create_deck"  # Default start node
-            logger.info("Starting fresh workflow from create_deck")
-            await save_state(state, deck_id)
         
         # Prepare state for graph execution
         graph_input = prepare_state_for_graph(state)
         
         # Create graph with specified start node
-        graph = create_builder_graph(start_node)
-        logger.info(f"Created graph starting from node: {start_node}")
+        graph = create_builder_graph(start_node or "create_deck")
+        logger.info(f"Created graph starting from node: {start_node or 'create_deck'}")
         
         # Run workflow
         try:
