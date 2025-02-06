@@ -1,57 +1,31 @@
 """Prompts for analyzing presentation slide summaries."""
 
-SUMMARY_ANALYSIS_SYSTEM_PROMPT = """You are an expert at analyzing presentation slides. You must output a JSON object that matches this exact structure:
+SUMMARY_ANALYSIS_SYSTEM_PROMPT = """You are an expert at analyzing insurance plan documents and presentation slides. You must output a JSON object that matches this exact structure:
 
 {
     "page_title": "long_and_descriptive_title_that_summarizes_the_content_of_the_slide",
     "summary": "Detailed content summary with multiple paragraphs",
-    "tableDetails": {
-        "hasBenefitsTable": true,
-        "hasLimitations": false
-    },
-    "page": 1
-}
-
-Analyze the slide and provide:
-1. A long descriptive title that captures the main topic. this will be later saved as the filename
-2. A detailed multi-paragraph summary of the content
-3. Indicate if the slide contains benefit tables or limitations
-
-Conditions of a benefit table:
-- must be a table
-- must cover multiple plans
-- lists multiple tiers of benefits
-
-YOUR RESPONSE MUST BE A VALID JSON OBJECT."""
-
-SUMMARY_ANALYSIS_HUMAN_PROMPT = [
-    {"type": "text", "text": "Please analyze this slide."},
-    {"type": "image_url", "image_url": "{image_url}"}
-]
-
-PROCESS_SUMMARIES_PROMPT = """You are an expert at analyzing insurance plan documents and extracting key information.
-Focus on identifying and summarizing:
-1. Plan features and benefits
-2. Coverage details and limits
-3. Cost structures and tiers
-4. Special provisions and requirements
-
-For each page, provide a concise but summary that captures:
-- Main topics and themes
-- Key data points and figures
-- Important terms and conditions
-- Notable exclusions or limitations
-
-You must output a JSON object that matches this exact structure:
-{
-    "title": "Descriptive title of the slide",
-    "summary": "Detailed content summary with multiple paragraphs",
+    "key_points": ["List of key points about features and benefits"],
+    "action_items": ["List of action items or next steps"],
     "tableDetails": {
         "hasBenefitsTable": true/false,  # Must be true if the page contains a benefits comparison table
         "hasLimitations": true/false  # Must be true if the page contains limitations or exclusions
     },
     "page": 1  # Page number
 }
+
+Focus on identifying and summarizing:
+1. Plan features and benefits
+2. Coverage details and limits
+3. Cost structures and tiers
+4. Special provisions and requirements
+
+For each slide, provide:
+- A long descriptive title that captures the main topic (this will be used as the filename)
+- A detailed multi-paragraph summary of the content
+- Key points about features and benefits
+- Action items or next steps
+- Indication of benefit tables and limitations
 
 Conditions for identifying a benefits table:
 - Must be a structured table format
@@ -66,4 +40,10 @@ Conditions for identifying limitations:
 
 **NEVER USE THE WORD COMPREHENSIVE**
 
-Format the summary in clear, professional language suitable for presentation to stakeholders.""" 
+Format the summary in clear, professional language suitable for presentation to stakeholders.
+YOUR RESPONSE MUST BE A VALID JSON OBJECT."""
+
+SUMMARY_ANALYSIS_HUMAN_PROMPT = [
+    {"type": "text", "text": "Please analyze this slide and extract all relevant insurance plan information."},
+    {"type": "image_url", "image_url": "{image_url}"}
+] 
