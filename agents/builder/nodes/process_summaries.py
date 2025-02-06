@@ -193,17 +193,17 @@ async def process_single_page(page_metadata: PageMetadata, state: BuilderState) 
     """Process a single page to generate its summary."""
     try:
         # Create page summary with page name from metadata
-        summary = await generate_page_summary(page_metadata)
+        summary = await process_single_summary(page_metadata)
         if summary:
             return PageSummary(
                 page_number=page_metadata.page_number,
                 page_name=page_metadata.page_name,
-                title=summary.get("title", ""),
-                summary=summary.get("summary", ""),
-                tableDetails=TableDetails(
-                    hasBenefitsTable=summary.get("hasBenefitsTable", False),
-                    hasLimitations=summary.get("hasLimitations", False)
-                )
+                title=summary.title,
+                summary=summary.summary,
+                key_points=summary.key_points,
+                action_items=summary.action_items,
+                has_tables=summary.has_tables,
+                has_limitations=summary.has_limitations
             )
         return None
         
