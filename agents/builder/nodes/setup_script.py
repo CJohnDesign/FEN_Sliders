@@ -2,13 +2,14 @@
 import json
 import logging
 from pathlib import Path
-from typing import Dict, Any, Tuple, Optional
-from ..state import BuilderState, WorkflowStage
+from typing import Dict, Any, Tuple, Optional, List
+from ..state import BuilderState, WorkflowStage, WorkflowProgress, StageProgress
 from ..utils.state_utils import save_state
 from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_completion
 from langchain.prompts import ChatPromptTemplate
 from langsmith.run_helpers import traceable
+from datetime import datetime
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -73,14 +74,27 @@ async def generate_audio_script(state: BuilderState) -> Optional[str]:
 
 @traceable(name="setup_script")
 async def setup_script(state: BuilderState) -> BuilderState:
-    """Setup script for the presentation."""
+    """Set up script based on processed content."""
     try:
-        if state.current_stage != WorkflowStage.SETUP_SCRIPT:
-            logger.warning(f"Expected stage {WorkflowStage.SETUP_SCRIPT}, but got {state.current_stage}")
-            state.current_stage = WorkflowStage.SETUP_SCRIPT
-
-        logger.info("Generating audio script...")
+        logger.info("Starting script setup")
         
+        # Initialize workflow progress if not present
+        if not state.workflow_progress:
+            state.workflow_progress = WorkflowProgress(
+                current_stage=WorkflowStage.GENERATE,
+                stages={
+                    WorkflowStage.GENERATE: StageProgress(
+                        status="in_progress",
+                        started_at=datetime.now().isoformat()
+                    )
+                }
+            )
+        
+        # Verify we're in the correct stage
+        if state.workflow_progress.current_stage != WorkflowStage.GENERATE:
+            logger.warning(f"Expected stage {WorkflowStage.GENERATE}, got {state.workflow_progress.current_stage}")
+            state.update_stage(WorkflowStage.GENERATE)
+            
         # Generate audio script
         audio_script = await generate_audio_script(state)
         if not audio_script:

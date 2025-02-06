@@ -3,10 +3,11 @@ import logging
 import shutil
 from pathlib import Path
 from typing import Optional, Any, List, Tuple
-from ..state import BuilderState, DeckInfo, DeckMetadata, WorkflowStage
+from ..state import BuilderState, DeckInfo, DeckMetadata, WorkflowStage, WorkflowProgress, StageProgress
 from ..utils.state_utils import save_state
 from ..utils.logging_utils import log_state_change, log_error
 from langsmith.run_helpers import traceable
+from datetime import datetime
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -101,6 +102,18 @@ async def create_deck(state: BuilderState) -> BuilderState:
     """
     try:
         logger.info("Starting deck creation")
+        
+        # Initialize workflow progress if not present
+        if not state.workflow_progress:
+            state.workflow_progress = WorkflowProgress(
+                current_stage=WorkflowStage.INIT,
+                stages={
+                    WorkflowStage.INIT: StageProgress(
+                        status="in_progress",
+                        started_at=datetime.now().isoformat()
+                    )
+                }
+            )
         
         # Verify we're in the correct stage
         if state.workflow_progress.current_stage != WorkflowStage.INIT:

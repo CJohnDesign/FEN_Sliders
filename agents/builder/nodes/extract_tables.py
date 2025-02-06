@@ -14,12 +14,14 @@ from ...utils.llm_utils import get_llm
 from ..utils.logging_utils import log_state_change, log_error
 from ..utils.state_utils import save_state
 from ..prompts.summary_prompts import TABLE_EXTRACTION_PROMPT
+from langsmith.run_helpers import traceable
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
 BATCH_SIZE = 5
 
+@traceable(name="encode_image")
 def encode_image_to_base64(image_path: str) -> str:
     """Encode an image file to base64.
     WARNING: The returned base64 string should never be logged or stored in state.
@@ -32,6 +34,7 @@ def encode_image_to_base64(image_path: str) -> str:
         # Create proper data URL format
         return f"data:{mime_type};base64,{base64.b64encode(image_file.read()).decode('utf-8')}"
 
+@traceable(name="create_table_chain")
 async def create_table_chain():
     """Create the chain for extracting table data."""
     # Use centralized LLM configuration
@@ -51,9 +54,13 @@ async def create_table_chain():
     
     return prompt | llm
 
+@traceable(name="process_page_batch")
 async def process_page_batch(
     batch: List[Tuple[PageSummary, str]], 
-    chain
+    chain,
+    state: BuilderState,
+    batch_number: int,
+    total_batches: int
 ) -> Dict[int, TableData]:
     """Process a batch of pages concurrently."""
     async def process_single_page(summary: PageSummary) -> Tuple[int, TableData]:
@@ -108,20 +115,39 @@ async def process_page_batch(
     tasks = [process_single_page(summary) for summary, _ in batch]
     results = await asyncio.gather(*tasks)
     
+    # Update progress
+    state.set_stage_progress(
+        total=4,  # setup, chain creation, batch processing, finalization
+        completed=2,
+        current=f"Processing batch {batch_number}/{total_batches}"
+    )
+    
     # Filter out failed results and convert to dict
     return {page_num: data for page_num, data in results if data is not None}
 
+@traceable(name="extract_tables")
 async def extract_tables(state: BuilderState) -> BuilderState:
     """Extract and process tables from slides."""
     try:
+        logger.info("Starting table extraction")
+        
         # Verify we're in the correct stage
-        if state.current_stage != WorkflowStage.EXTRACT_TABLES:
-            logger.warning(f"Expected stage {WorkflowStage.EXTRACT_TABLES}, but got {state.current_stage}")
-            state.update_stage(WorkflowStage.EXTRACT_TABLES)
+        if state.workflow_progress.current_stage != WorkflowStage.PROCESS:
+            logger.warning(f"Expected stage {WorkflowStage.PROCESS}, got {state.workflow_progress.current_stage}")
+            state.update_stage(WorkflowStage.PROCESS)
+            
+        # Initialize stage progress
+        state.set_stage_progress(
+            total=4,  # setup, chain creation, batch processing, finalization
+            completed=0,
+            current="Initializing table extraction"
+        )
             
         # Validate input state
         if not state.page_summaries:
-            logger.error("No page summaries found in state")
+            error_msg = "No page summaries found in state"
+            logger.error(error_msg)
+            state.set_error(error_msg, "extract_tables")
             return state
             
         logger.info(f"Starting table extraction with {len(state.page_summaries)} summaries")
@@ -131,16 +157,28 @@ async def extract_tables(state: BuilderState) -> BuilderState:
         pages_with_tables = [
             (summary, summary.file_path) 
             for summary in state.page_summaries 
-            if summary.has_tables
+            if summary.tableDetails.hasBenefitsTable  # Only process pages with benefits tables
         ]
         
         if not pages_with_tables:
-            logger.info("No tables to process")
+            logger.info("No benefits tables to process")
+            state.set_stage_progress(
+                total=4,
+                completed=4,
+                current="No benefits tables found to process"
+            )
             return state
             
         logger.info(f"Found {len(pages_with_tables)} pages with tables:")
         for summary, path in pages_with_tables:
             logger.info(f"  - Page {summary.page_number}: {summary.page_name}")
+            
+        # Update progress after setup
+        state.set_stage_progress(
+            total=4,
+            completed=1,
+            current="Setup complete, creating extraction chain"
+        )
             
         # Create table chain
         chain = await create_table_chain()
@@ -157,7 +195,13 @@ async def extract_tables(state: BuilderState) -> BuilderState:
                 logger.info(f"Batch pages: {[s.page_number for s, _ in batch]}")
                 
                 try:
-                    batch_results = await process_page_batch(batch, chain)
+                    batch_results = await process_page_batch(
+                        batch, 
+                        chain, 
+                        state,
+                        current_batch,
+                        total_batches
+                    )
                     if batch_results:
                         for page_num, table in batch_results.items():
                             if table:
@@ -174,24 +218,31 @@ async def extract_tables(state: BuilderState) -> BuilderState:
                     logger.error(traceback.format_exc())
                     continue
         except Exception as batch_loop_error:
-            logger.error(f"Error in batch processing loop: {str(batch_loop_error)}")
+            error_msg = f"Error in batch processing loop: {str(batch_loop_error)}"
+            logger.error(error_msg)
             logger.error(traceback.format_exc())
+            state.set_error(error_msg, "extract_tables")
+            return state
             
         if not tables_data:
-            logger.error("No tables were extracted")
+            error_msg = "No tables were extracted"
+            logger.error(error_msg)
+            state.set_error(error_msg, "extract_tables")
             return state
             
         # Update state with structured table data
         state.table_data = tables_data
         
+        # Set progress to complete
+        state.set_stage_progress(
+            total=4,
+            completed=4,
+            current=f"Table extraction complete - processed {len(tables_data)} tables"
+        )
+        
         logger.info(f"Table extraction completed. Processed {len(tables_data)} tables")
         
-        # Validate final state
-        if not state.table_data:
-            logger.error("Final state validation failed - no tables data")
-            return state
-            
-        # Log completion and update stage
+        # Log completion
         log_state_change(
             state=state,
             node_name="extract_tables",
@@ -202,25 +253,15 @@ async def extract_tables(state: BuilderState) -> BuilderState:
             }
         )
         
-        # Update workflow stage to next stage
-        state.update_stage(WorkflowStage.AGGREGATE_SUMMARY)
-        logger.info(f"Moving to next stage: {state.current_stage}")
-        
         # Save state
-        if state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
-            logger.info(f"Saved state for deck {state.metadata.deck_id}")
+        await save_state(state, state.metadata.deck_id)
+        logger.info(f"Saved state for deck {state.metadata.deck_id}")
         
         return state
         
     except Exception as e:
-        log_error(state, "extract_tables", e)
-        state.error_context = {
-            "error": str(e),
-            "stage": "table_extraction",
-            "traceback": traceback.format_exc()
-        }
-        # Save error state
-        if state.metadata and state.metadata.deck_id:
-            save_state(state, state.metadata.deck_id)
+        error_msg = f"Table extraction failed: {str(e)}"
+        logger.error(error_msg)
+        state.set_error(error_msg, "extract_tables")
+        await save_state(state, state.metadata.deck_id)
         return state 

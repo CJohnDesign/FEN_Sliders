@@ -188,6 +188,28 @@ For each page, provide a concise but summary that captures:
 - Important terms and conditions
 - Notable exclusions or limitations
 
+You must output a JSON object that matches this exact structure:
+{
+    "title": "Descriptive title of the slide",
+    "summary": "Detailed content summary with multiple paragraphs",
+    "tableDetails": {
+        "hasBenefitsTable": true/false,  # Must be true if the page contains a benefits comparison table
+        "hasLimitations": true/false  # Must be true if the page contains limitations or exclusions
+    },
+    "page": 1  # Page number
+}
+
+Conditions for identifying a benefits table:
+- Must be a structured table format
+- Must compare multiple plans or tiers
+- Must list benefits or coverage details
+- Examples: plan comparison tables, tier comparison tables, coverage matrices
+
+Conditions for identifying limitations:
+- Must contain explicit limitations, restrictions, or exclusions
+- Examples: coverage exclusions, waiting periods, pre-existing condition clauses
+- Look for terms like "limitations", "exclusions", "restrictions", "not covered", "waiting period"
+
 **NEVER USE THE WORD COMPREHENSIVE**
 
 Format the summary in clear, professional language suitable for presentation to stakeholders."""

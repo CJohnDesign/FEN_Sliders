@@ -4,22 +4,39 @@ from typing import Dict, Any, List
 from pathlib import Path
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.messages import SystemMessage, HumanMessage
-from ..state import BuilderState, WorkflowStage
+from ..state import BuilderState, WorkflowStage, WorkflowProgress, StageProgress
 from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
 from ..utils.state_utils import save_state
 from ..prompts.summary_prompts import AGGREGATE_SUMMARY_PROMPT
+from datetime import datetime
+from langsmith.run_helpers import traceable
 
 # Set up logging
 logger = logging.getLogger(__name__)
 
+@traceable(name="aggregate_summary")
 async def aggregate_summary(state: BuilderState) -> BuilderState:
     """Aggregate all content summaries and prepare for slide generation."""
     try:
+        logger.info("Starting summary aggregation")
+        
+        # Initialize workflow progress if not present
+        if not state.workflow_progress:
+            state.workflow_progress = WorkflowProgress(
+                current_stage=WorkflowStage.PROCESS,
+                stages={
+                    WorkflowStage.PROCESS: StageProgress(
+                        status="in_progress",
+                        started_at=datetime.now().isoformat()
+                    )
+                }
+            )
+        
         # Verify we're in the correct stage
-        if state.current_stage != WorkflowStage.AGGREGATE_SUMMARY:
-            logger.warning(f"Expected stage {WorkflowStage.AGGREGATE_SUMMARY}, but got {state.current_stage}")
-            state.update_stage(WorkflowStage.AGGREGATE_SUMMARY)
+        if state.workflow_progress.current_stage != WorkflowStage.PROCESS:
+            logger.warning(f"Expected stage {WorkflowStage.PROCESS}, got {state.workflow_progress.current_stage}")
+            state.update_stage(WorkflowStage.PROCESS)
             
         # Validate input state
         if not state.page_summaries:
@@ -109,10 +126,7 @@ async def aggregate_summary(state: BuilderState) -> BuilderState:
         return state
         
     except Exception as e:
-        logger.error("Error during summary aggregation.")
-        logger.error(str(e))
-        state.set_error(
-            f"Failed to aggregate summaries: {str(e)}",
-            "aggregate_summary"
-        )
+        error_msg = f"Error during summary aggregation: {str(e)}"
+        logger.error(error_msg)
+        state.set_error(error_msg, "aggregate_summary")
         return state 

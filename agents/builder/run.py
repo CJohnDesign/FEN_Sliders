@@ -76,8 +76,11 @@ def initialize_state(deck_id: str, title: str) -> BuilderState:
 
 def prepare_state_for_graph(state: BuilderState) -> dict:
     """Prepare state for graph execution."""
-    # Convert state to dictionary format
-    state_dict = state.model_dump(mode='json')
+    # Convert state to dictionary format, excluding config
+    state_dict = state.model_dump(
+        mode='json',
+        exclude={'config'}
+    )
     return state_dict
 
 async def run_builder(deck_id: str, title: str, start_node: str = None) -> int:

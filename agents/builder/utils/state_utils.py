@@ -121,25 +121,19 @@ def load_existing_state(deck_id: str) -> Optional[BuilderState]:
                 state_dict = json.load(f)
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse state file: {str(e)}")
-            logger.error(f"File contents: {state_path.read_text()[:1000] if state_path.exists() else 'empty'}")
             return None
             
         if not isinstance(state_dict, dict):
             logger.error(f"Invalid state format: expected dict, got {type(state_dict)}")
             return None
             
-        # Always migrate the state to ensure compatibility
-        logger.info("Migrating state to ensure compatibility...")
-        migrated_state = migrate_old_state(state_dict)
-        
         try:
-            # Create BuilderState from migrated dict
-            state = BuilderState.model_validate(migrated_state)
-            logger.info(f"Successfully loaded state with stage: {state.current_stage}")
+            # Create BuilderState directly from dict
+            state = BuilderState.model_validate(state_dict)
+            logger.info(f"Successfully loaded state with stage: {state.workflow_progress.current_stage}")
             return state
         except Exception as e:
-            logger.error(f"Failed to create BuilderState from migrated dict: {str(e)}")
-            logger.error(f"Migrated state keys: {list(migrated_state.keys())}")
+            logger.error(f"Failed to create BuilderState: {str(e)}")
             return None
         
     except Exception as e:
@@ -147,32 +141,21 @@ def load_existing_state(deck_id: str) -> Optional[BuilderState]:
         return None
 
 async def save_state(state: Union[BuilderState, Dict[str, Any]], deck_id: str) -> BuilderState:
-    """Save current state to disk and return the state.
-    
-    Args:
-        state: Either a BuilderState instance or a dictionary from LangGraph
-        deck_id: The ID of the deck to save state for
-        
-    Returns:
-        The BuilderState instance that was saved
-    """
+    """Save current state to disk and return the state."""
     try:
         # Ensure deck directory exists
         state_dir = Path(f"decks/{deck_id}")
         state_dir.mkdir(parents=True, exist_ok=True)
         
-        # Convert state to dict based on its type
-        if isinstance(state, BuilderState):
-            state_dict = state.model_dump(mode='json')
-            builder_state = state
+        # Convert state to BuilderState if it's a dict
+        if isinstance(state, dict):
+            builder_state = BuilderState.model_validate(state)
         else:
-            # If it's a dict (like from LangGraph), migrate it first
-            migrated_state = migrate_old_state(dict(state))
-            builder_state = BuilderState.model_validate(migrated_state)
-            state_dict = builder_state.model_dump(mode='json')
-        
+            builder_state = state
+            
         # Save to file
         state_path = state_dir / "state.json"
+        state_dict = builder_state.to_dict()
         with open(state_path, 'w') as f:
             json.dump(state_dict, f, indent=2)
             
@@ -184,4 +167,13 @@ async def save_state(state: Union[BuilderState, Dict[str, Any]], deck_id: str) -
         logger.error(f"State type: {type(state)}")
         if not isinstance(state, BuilderState):
             logger.error(f"State keys: {list(state.keys()) if hasattr(state, 'keys') else 'no keys'}")
-        raise 
+        raise
+
+def prepare_state_for_graph(state: BuilderState) -> dict:
+    """Prepare state for graph execution."""
+    # Convert state to dict excluding config and model_config
+    state_dict = state.model_dump(
+        exclude={'config', 'model_config'},
+        mode='json'
+    )
+    return state_dict 

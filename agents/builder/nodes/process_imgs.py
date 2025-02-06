@@ -1,19 +1,17 @@
 """Image processing node for handling presentation images."""
 import logging
 import asyncio
-import base64
-import json
 from pathlib import Path
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any
 from PIL import Image
-from io import BytesIO
-from ..state import BuilderState, PageMetadata, WorkflowStage
+from ..state import BuilderState, PageMetadata, WorkflowStage, DeckInfo
 from ..utils.logging_utils import log_error, log_state_change
 from ..utils.state_utils import save_state
-from ...utils.llm_utils import get_llm
 from agents.utils.pdf_utils import convert_pdf_to_images
-from langchain.prompts import ChatPromptTemplate
 from langsmith.run_helpers import traceable
+from langchain.prompts import ChatPromptTemplate
+from agents.utils.llm_utils import get_llm
+import base64
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -21,172 +19,117 @@ logger.setLevel(logging.INFO)
 
 BATCH_SIZE = 5
 
-IMAGE_ANALYSIS_PROMPT = """You are an expert at analyzing presentation slides and extracting their content.
-For this slide image, please:
-1. Extract all visible text
-2. Describe any visible diagrams, charts, or graphics
-3. Note any key data points or statistics
-4. Identify the main topic/purpose of the slide
-5. Generate a descriptive name for this slide based on its content (use snake_case)
-
-Return the information in this JSON format:
-{
-    "extracted_text": "All text found in the image",
-    "visual_elements": "Description of diagrams/charts/graphics",
-    "key_points": ["List of important points"],
-    "main_topic": "Primary topic of the slide",
-    "descriptive_name": "snake_case_name_for_slide"
-}"""
-
-@traceable(name="get_image_base64")
-async def get_image_base64(image_path: Path) -> str:
-    """Convert image to base64 string."""
+@traceable(name="collect_image_metadata")
+async def collect_image_metadata(image_path: Path, page_number: int) -> PageMetadata:
+    """Collect basic metadata about an image and generate a descriptive title."""
     try:
+        # Get basic image info
         with Image.open(image_path) as img:
-            # Convert to RGB if needed
-            if img.mode != 'RGB':
-                img = img.convert('RGB')
-            # Resize if too large (max 2048px on longest side)
-            max_size = 2048
-            if max(img.size) > max_size:
-                ratio = max_size / max(img.size)
-                new_size = tuple(int(dim * ratio) for dim in img.size)
-                img = img.resize(new_size, Image.Resampling.LANCZOS)
-            # Convert to base64
-            buffered = BytesIO()
-            img.save(buffered, format="JPEG", quality=85)
-            img_str = base64.b64encode(buffered.getvalue()).decode()
-            return img_str
-    except Exception as e:
-        logger.error(f"Error converting image to base64: {str(e)}")
-        return ""
-
-@traceable(name="analyze_image_with_gpt")
-async def analyze_image_with_gpt(image_path: Path) -> Dict[str, Any]:
-    """Analyze image content using GPT-4 Vision."""
-    try:
-        # Convert image to base64
-        base64_image = await get_image_base64(image_path)
-        if not base64_image:
-            raise ValueError("Failed to convert image to base64")
-
-        # Get LLM instance
-        llm = await get_llm(model="gpt-4o", temperature=0.2)
+            width, height = img.size
+            format = img.format
+            mode = img.mode
         
-        # Create messages for vision analysis
-        messages = [
-            {
-                "role": "system",
-                "content": IMAGE_ANALYSIS_PROMPT
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "Please analyze this slide image:"
-                    },
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/jpeg;base64,{base64_image}",
-                            "detail": "high"
-                        }
-                    }
-                ]
-            }
-        ]
+        # Encode image for model
+        image_data = encode_image_to_base64(str(image_path))
         
-        # Call the vision model directly
-        response = await llm.ainvoke(messages)
+        # Generate descriptive title using OpenAI with image
+        llm = await get_llm(temperature=0.7)
+        title_prompt = ChatPromptTemplate.from_messages([
+            ("system", "You are an expert at creating descriptive titles for insurance presentation slides. Create a 15-20 word title that describes the content and purpose of this slide. The title should be clear and professional."),
+            ("human", [
+                {"type": "text", "text": f"Create a descriptive title for slide {page_number} that will be used as a filename. The title should be separated by underscores and be safe for use in a filename (no special characters)."},
+                {"type": "image_url", "image_url": image_data}
+            ])
+        ])
         
-        # Parse response
+        title_response = await llm.ainvoke(title_prompt)
+        descriptive_title = title_response.content.strip().replace(" ", "_").replace("-", "_")
+        descriptive_title = "".join(c for c in descriptive_title if c.isalnum() or c == "_")
+        
+        # Clear the image data from memory explicitly
+        del image_data
+        
+        # Create new filename with order prefix
+        new_filename = f"{page_number:02d}_from_{descriptive_title}.jpg"
+        new_path = image_path.parent / new_filename
+        
+        # Rename the file
         try:
-            result = json.loads(response.content)
-            return result
-        except:
-            # If not JSON, create structured response
-            return {
-                "extracted_text": response.content.strip(),
-                "visual_elements": "",
-                "key_points": [],
-                "main_topic": "Unknown",
-                "descriptive_name": image_path.stem
-            }
-
+            image_path.rename(new_path)
+            logger.info(f"Renamed image to: {new_filename}")
+        except Exception as e:
+            logger.error(f"Failed to rename image {image_path.name}: {str(e)}")
+            new_path = image_path  # Fallback to original path if rename fails
+        
+        # Create basic content string
+        content = (
+            f"Image Information:\n"
+            f"Title: {descriptive_title.replace('_', ' ')}\n"
+            f"Dimensions: {width}x{height}\n"
+            f"Format: {format}\n"
+            f"Mode: {mode}\n"
+            f"File: {new_path.name}"
+        )
+        
+        # Create metadata
+        metadata = PageMetadata(
+            page_number=page_number,
+            page_name=f"page_{page_number:02d}",
+            file_path=str(new_path),
+            content_type="slide",
+            content=content,
+            descriptive_title=descriptive_title.replace('_', ' ')
+        )
+        
+        logger.info(f"✓ Collected metadata for page {page_number}")
+        return metadata
+        
     except Exception as e:
-        logger.error(f"Error analyzing image with GPT: {str(e)}")
-        return {"error": str(e)}
+        logger.error(f"Error collecting metadata for {image_path.name}: {str(e)}")
+        return None
+
+def encode_image_to_base64(image_path: str) -> str:
+    """Encode an image file to base64.
+    WARNING: The returned base64 string should never be logged or stored in state.
+    It should only be used for immediate processing and then discarded.
+    """
+    with open(image_path, "rb") as image_file:
+        # Get file extension to determine mime type
+        ext = Path(image_path).suffix.lower()
+        mime_type = "image/jpeg" if ext in [".jpg", ".jpeg"] else "image/png"
+        # Create proper data URL format
+        return f"data:{mime_type};base64,{base64.b64encode(image_file.read()).decode('utf-8')}"
 
 @traceable(name="process_image_batch")
 async def process_image_batch(
     batch: List[Path],
     state: BuilderState,
-    pages_dir: Path,
-    existing_metadata: Dict[int, PageMetadata] = None
+    start_index: int
 ) -> List[PageMetadata]:
-    """Process a batch of images concurrently."""
-    async def process_single_image(image_path: Path, index: int) -> PageMetadata:
+    """Process a batch of images to collect metadata."""
+    results = []
+    for i, img_path in enumerate(batch):
         try:
-            # Check if metadata already exists for this page
-            page_number = index + 1  # 1-based page numbers
-            if existing_metadata and page_number in existing_metadata:
-                logger.info(f"Using existing metadata for page {page_number}")
-                return existing_metadata[page_number]
+            page_number = start_index + i + 1  # 1-based page numbers
+            metadata = await collect_image_metadata(img_path, page_number)
+            if metadata:
+                results.append(metadata)
                 
-            # Analyze image with GPT
-            analysis = await analyze_image_with_gpt(image_path)
-            
-            if "error" in analysis:
-                raise ValueError(f"Failed to analyze image: {analysis['error']}")
-            
-            # Create new page metadata with descriptive name
-            descriptive_name = analysis.get("descriptive_name", image_path.stem)
-            content = (
-                f"Main Topic: {analysis.get('main_topic', '')}\n\n"
-                f"Extracted Text:\n{analysis.get('extracted_text', '')}\n\n"
-                f"Visual Elements:\n{analysis.get('visual_elements', '')}\n\n"
-                f"Key Points:\n" + "\n".join(analysis.get('key_points', []))
+            # Update progress
+            state.set_stage_progress(
+                total=len(batch),
+                completed=i + 1,
+                current=f"Processing page {page_number}"
             )
-            
-            metadata = PageMetadata(
-                page_number=page_number,
-                page_name=descriptive_name,
-                file_path=str(image_path),
-                content_type="slide",
-                content=content
-            )
-            
-            # Log progress
-            log_state_change(
-                state=state,
-                node_name="process_imgs",
-                change_type="image_processed",
-                details={
-                    "page_number": page_number,
-                    "file_path": str(image_path),
-                    "descriptive_name": descriptive_name
-                }
-            )
-            
-            logger.info(f"✓ Processed image {page_number}: {descriptive_name}")
-            return metadata
-            
         except Exception as e:
-            logger.error(f"❌ Error processing image {image_path.name}:")
-            log_error("process_imgs", str(e))
-            return None
-
-    # Process batch concurrently
-    tasks = [process_single_image(img, i) for i, img in enumerate(batch)]
-    results = await asyncio.gather(*tasks)
-    
-    # Filter out failed results
-    return [result for result in results if result is not None]
+            logger.error(f"Failed to process {img_path}: {str(e)}")
+            continue
+            
+    return results
 
 @traceable(name="process_imgs")
 async def process_imgs(state: BuilderState) -> BuilderState:
-    """Process images from PDF or existing files while preserving state."""
+    """Process images from PDF and prepare for summary generation."""
     try:
         logger.info("Starting process_imgs node")
         
@@ -195,9 +138,17 @@ async def process_imgs(state: BuilderState) -> BuilderState:
             logger.warning(f"Expected stage {WorkflowStage.EXTRACT}, got {state.workflow_progress.current_stage}")
             state.update_stage(WorkflowStage.EXTRACT)
         
+        # Initialize deck info if missing
+        if not state.deck_info and state.metadata and state.metadata.deck_id:
+            state.deck_info = DeckInfo(
+                path=f"decks/{state.metadata.deck_id}",
+                template="FEN_TEMPLATE"
+            )
+            logger.info(f"Initialized deck info for {state.metadata.deck_id}")
+        
         # Check deck info exists
         if not state.deck_info:
-            error_msg = "No deck info found in state"
+            error_msg = "No deck info found in state and unable to initialize"
             logger.error(f"❌ {error_msg}")
             state.set_error(error_msg, "process_imgs")
             return state
@@ -211,59 +162,34 @@ async def process_imgs(state: BuilderState) -> BuilderState:
         
         # Set initial progress
         state.set_stage_progress(
-            total=3,  # PDF conversion, image processing, finalization
+            total=3,  # PDF conversion, image verification, metadata collection
             completed=0,
             current="Starting image processing"
         )
         
-        logger.info(f"Directories to use:")
-        logger.info(f"  - Deck dir: {deck_dir}")
-        logger.info(f"  - PDF dir: {pdf_dir}")
-        logger.info(f"  - Pages dir: {pages_dir}")
-        
         # Create directories if they don't exist
         pdf_dir.mkdir(parents=True, exist_ok=True)
         pages_dir.mkdir(parents=True, exist_ok=True)
-        logger.info("✓ Directories created/verified")
         
-        # Check for PDFs first
+        # Convert PDFs to images
         pdf_files = list(pdf_dir.glob("*.pdf"))
         if pdf_files:
-            logger.info(f"✓ Found {len(pdf_files)} PDF files:")
-            for pdf in pdf_files:
-                logger.info(f"  - {pdf.name}")
-                
-            # Convert PDFs to images if needed
-            logger.info(f"Starting PDF conversion for deck_id: {state.metadata.deck_id}")
             logger.info(f"Converting PDF to images in: {deck_dir}")
-            
-            state.set_stage_progress(
-                total=3,
-                completed=1,
-                current="Converting PDFs to images"
+            result = await convert_pdf_to_images(
+                deck_id=state.metadata.deck_id,
+                deck_path=str(deck_dir)
             )
             
-            try:
-                # Convert PDFs to images with correct parameters
-                result = await convert_pdf_to_images(
-                    deck_id=state.metadata.deck_id,
-                    deck_path=str(deck_dir)
-                )
-                
-                if result["status"] == "error":
-                    error_msg = f"PDF conversion failed: {result['error']}"
-                    logger.error(f"❌ {error_msg}")
-                    state.set_error(error_msg, "process_imgs")
-                    return state
-                    
-                logger.info(f"✓ PDF conversion completed - {result['page_count']} pages")
-            except Exception as e:
-                error_msg = f"PDF conversion failed: {str(e)}"
+            if result["status"] == "error":
+                error_msg = f"PDF conversion failed: {result['error']}"
                 logger.error(f"❌ {error_msg}")
                 state.set_error(error_msg, "process_imgs")
                 return state
-        
-        # Get all image files
+                
+            logger.info(f"✓ PDF conversion completed - {result['page_count']} pages")
+            await asyncio.sleep(2)  # Small delay to ensure files are written
+            
+        # Verify images exist and are readable
         image_files = sorted(list(pages_dir.glob("*.jpg")))
         if not image_files:
             error_msg = "No images found to process"
@@ -271,41 +197,68 @@ async def process_imgs(state: BuilderState) -> BuilderState:
             state.set_error(error_msg, "process_imgs")
             return state
             
-        logger.info(f"✓ Found {len(image_files)} images to process")
+        verified_images = []
+        for img_path in image_files:
+            try:
+                with Image.open(img_path) as img:
+                    img.verify()
+                verified_images.append(img_path)
+            except Exception as e:
+                logger.warning(f"Skipping unreadable image {img_path.name}: {str(e)}")
+                
+        if not verified_images:
+            error_msg = "No valid images found to process"
+            logger.error(f"❌ {error_msg}")
+            state.set_error(error_msg, "process_imgs")
+            return state
+            
+        logger.info(f"✓ Found {len(verified_images)} images to process")
         
         # Process images in batches
-        existing_metadata = {meta.page_number: meta for meta in state.page_metadata} if state.page_metadata else {}
         all_metadata = []
-        
-        # Update progress for image processing
-        state.set_stage_progress(
-            total=3,
-            completed=2,
-            current=f"Processing {len(image_files)} images"
-        )
-        
-        for i in range(0, len(image_files), BATCH_SIZE):
-            batch = image_files[i:i + BATCH_SIZE]
-            batch_metadata = await process_image_batch(batch, state, pages_dir, existing_metadata)
+        for i in range(0, len(verified_images), BATCH_SIZE):
+            batch = verified_images[i:i + BATCH_SIZE]
+            batch_metadata = await process_image_batch(batch, state, i)
             all_metadata.extend(batch_metadata)
             
-            # Update progress within batch processing
-            progress = min((i + BATCH_SIZE) / len(image_files), 1.0)
-            logger.info(f"Progress: {progress:.1%}")
+            # Save state after each batch
+            state.page_metadata = sorted(all_metadata, key=lambda x: x.page_number)
+            await save_state(state, state.metadata.deck_id)
+            
+            # Add a small delay between batches
+            await asyncio.sleep(0.5)
         
         # Update state with processed metadata
         state.page_metadata = sorted(all_metadata, key=lambda x: x.page_number)
+        
+        # Ensure clean state for next node
+        state.page_summaries = []  # Reset summaries for next stage
+        state.table_data = []      # Reset table data for next stage
         
         # Move to next stage (PROCESS)
         state.update_stage(WorkflowStage.PROCESS)
         state.set_stage_progress(
             total=3,
             completed=3,
-            current="Completed image processing"
+            current=f"Completed processing {len(state.page_metadata)} images"
         )
         
-        # Save state
+        # Log completion
+        log_state_change(
+            state=state,
+            node_name="process_imgs",
+            change_type="complete",
+            details={
+                "total_pages": len(state.page_metadata),
+                "deck_id": state.metadata.deck_id,
+                "next_stage": WorkflowStage.PROCESS
+            }
+        )
+        
+        # Save state before handoff
         await save_state(state, state.metadata.deck_id)
+        logger.info(f"State saved with {len(state.page_metadata)} pages ready for summary processing")
+        
         return state
         
     except Exception as e:

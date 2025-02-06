@@ -2,12 +2,12 @@
 import logging
 import os
 from pathlib import Path
-from typing import Optional, List
-from pydantic import BaseModel, Field
+from typing import Optional, List, Dict, Any
+from pydantic import BaseModel, Field, ConfigDict
 from langchain.prompts import ChatPromptTemplate
 from langsmith import Client, trace
 from langsmith.run_helpers import traceable
-from ..state import BuilderState, WorkflowStage, SlideContent
+from ..state import BuilderState, WorkflowStage, SlideContent, WorkflowProgress, StageProgress
 from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
 from ..utils.state_utils import save_state
@@ -16,6 +16,7 @@ from ..prompts.slides_writer_prompts import (
     SLIDES_WRITER_SYSTEM_PROMPT,
     SLIDES_WRITER_HUMAN_PROMPT
 )
+from datetime import datetime
 
 # Set up logging and LangSmith client
 logger = logging.getLogger(__name__)
@@ -23,10 +24,16 @@ ls_client = Client()
 
 class SlideState(BaseModel):
     """State for slide generation."""
-    processed_summaries: str = Field(default="")  # Default to empty string
-    template: str = Field(default="")  # Default to empty string
+    processed_summaries: str = Field(default="")
+    template: str = Field(default="")
     slides_content: Optional[str] = Field(default=None)
     structured_slides: List[SlideContent] = Field(default_factory=list)
+    
+    model_config = ConfigDict(
+        extra='ignore',
+        validate_assignment=True,
+        str_strip_whitespace=True
+    )
 
 def get_template(state: BuilderState) -> str:
     """Get the slides template from state.
@@ -169,18 +176,34 @@ async def process_slides(state: BuilderState) -> BuilderState:
 
 @traceable(name="setup_slides")
 async def setup_slides(state: BuilderState) -> BuilderState:
-    """Setup slides for the presentation."""
+    """Set up slides based on processed content."""
     try:
-        if state.current_stage != WorkflowStage.SETUP_SLIDES:
-            logger.warning(f"Expected stage {WorkflowStage.SETUP_SLIDES}, but got {state.current_stage}")
-            state.current_stage = WorkflowStage.SETUP_SLIDES
-
+        logger.info("Starting slide setup")
+        
+        # Initialize workflow progress if not present
+        if not state.workflow_progress:
+            state.workflow_progress = WorkflowProgress(
+                current_stage=WorkflowStage.GENERATE,
+                stages={
+                    WorkflowStage.GENERATE: StageProgress(
+                        status="in_progress",
+                        started_at=datetime.now().isoformat()
+                    )
+                }
+            )
+        
+        # Verify we're in the correct stage
+        if state.workflow_progress.current_stage != WorkflowStage.GENERATE:
+            logger.warning(f"Expected stage {WorkflowStage.GENERATE}, got {state.workflow_progress.current_stage}")
+            state.update_stage(WorkflowStage.GENERATE)
+            
         # ... rest of the function implementation ...
 
         log_state_change(state, "setup_slides", "complete")
         return state
 
     except Exception as e:
-        log_error("Error in setup_slides", e)
-        state.set_error(str(e), "setup_slides")
+        error_msg = f"Error in setup_slides: {str(e)}"
+        logger.error(error_msg)
+        state.set_error(error_msg, "setup_slides")
         return state 

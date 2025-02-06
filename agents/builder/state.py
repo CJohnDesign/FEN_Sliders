@@ -153,17 +153,39 @@ class PageMetadata(BaseModel):
     file_path: str
     content_type: str = "slide"
     content: Optional[str] = None
+    descriptive_title: str = Field(default="")
+    
+    model_config = ConfigDict(
+        extra='ignore',
+        validate_assignment=True,
+        str_strip_whitespace=True
+    )
+
+class TableDetails(BaseModel):
+    """Details about tables and limitations in a page."""
+    hasBenefitsTable: bool = False
+    hasLimitations: bool = False
+    
+    model_config = ConfigDict(
+        extra='ignore'
+    )
 
 class PageSummary(BaseModel):
-    """Summary of a page's content."""
-    page_number: int
-    page_name: str
-    file_path: str
-    summary: Optional[str] = None
+    """Model for page summaries."""
+    page_name: str = Field(default="")
+    page_number: int = Field(default=0)
+    title: str = Field(default="")
+    summary: str = Field(default="")
     key_points: List[str] = Field(default_factory=list)
     action_items: List[str] = Field(default_factory=list)
-    has_tables: bool = False
-    has_limitations: bool = False
+    has_tables: bool = Field(default=False)
+    has_limitations: bool = Field(default=False)
+    
+    model_config = ConfigDict(
+        extra='ignore',
+        validate_assignment=True,
+        str_strip_whitespace=True
+    )
 
 class TableData(BaseModel):
     """Structured table data."""
@@ -257,99 +279,13 @@ class WorkflowProgress(BaseModel):
     )
 
 class BuilderState(BaseModel):
-    """State for the builder agent."""
-    # Core metadata
+    """Model for builder state."""
     metadata: Optional[DeckMetadata] = None
+    workflow_progress: Optional[WorkflowProgress] = None
     deck_info: Optional[DeckInfo] = None
-    
-    # Content storage
-    slides: Optional[str] = None
-    script: Optional[str] = None
-    processed_summaries: Optional[str] = None
-    
-    # Structured content
-    page_summaries: List[PageSummary] = Field(default_factory=list)
-    page_metadata: List[PageMetadata] = Field(default_factory=list)
-    structured_slides: List[SlideContent] = Field(default_factory=list)
-    structured_pages: Optional[Pages] = None
-    table_data: List[TableData] = Field(default_factory=list)
-    
-    # Progress tracking
-    workflow_progress: WorkflowProgress = Field(default_factory=WorkflowProgress)
-    needs_fixes: bool = Field(default=False)
-    retry_count: int = Field(default=0)
-    max_retries: int = Field(default=3)
-    
-    # Validation
-    validation_state: Optional[ValidationState] = None
-    validation_issues: Optional[ValidationIssues] = Field(default_factory=ValidationIssues)
-    
-    # Export state
-    google_drive_config: Optional[GoogleDriveConfig] = None
-    google_drive_sync_info: Optional[GoogleDriveSyncInfo] = None
-    
-    # Error handling
-    error_context: Optional[ErrorContext] = None
-    
-    # Methods
-    def update_stage(self, new_stage: WorkflowStage) -> None:
-        """Update the current workflow stage and track progress."""
-        old_stage = self.workflow_progress.current_stage
-        
-        # Complete the old stage
-        if old_stage in self.workflow_progress.stages:
-            stage_progress = self.workflow_progress.stages[old_stage]
-            stage_progress.status = "completed"
-            stage_progress.completed_at = datetime.now().isoformat()
-            
-            if old_stage not in self.workflow_progress.completed_stages:
-                self.workflow_progress.completed_stages.append(old_stage)
-        
-        # Initialize the new stage
-        self.workflow_progress.current_stage = new_stage
-        if new_stage not in self.workflow_progress.stages:
-            self.workflow_progress.stages[new_stage] = StageProgress(
-                status="in_progress",
-                started_at=datetime.now().isoformat()
-            )
-    
-    def set_stage_progress(self, total: int, completed: int, current: Optional[str] = None) -> None:
-        """Update progress for the current stage."""
-        stage = self.workflow_progress.current_stage
-        if stage not in self.workflow_progress.stages:
-            self.workflow_progress.stages[stage] = StageProgress()
-            
-        progress = self.workflow_progress.stages[stage]
-        progress.total_items = total
-        progress.completed_items = completed
-        if current:
-            progress.current_item = current
-    
-    def add_validation_issue(self, issue: ValidationIssue, is_script: bool = True) -> None:
-        """Add a validation issue to the appropriate list."""
-        if not self.validation_issues:
-            self.validation_issues = ValidationIssues()
-        
-        if is_script:
-            self.validation_issues.script_issues.append(issue)
-        else:
-            self.validation_issues.slide_issues.append(issue)
-    
-    def clear_validation_issues(self) -> None:
-        """Clear all validation issues."""
-        self.validation_issues = ValidationIssues()
-    
-    def set_error(self, error: str, stage: str, details: Optional[Dict[str, Any]] = None) -> None:
-        """Set error context and update stage progress."""
-        self.error_context = ErrorContext(
-            error=error,
-            stage=stage,
-            details=details or {}
-        )
-        
-        # Update stage progress to failed
-        if stage in self.workflow_progress.stages:
-            self.workflow_progress.stages[stage].status = "failed"
+    page_summaries: Dict[str, PageSummary] = Field(default_factory=dict)
+    slides_content: Optional[SlideContent] = None
+    script_content: Optional[ContentSection] = None
     
     model_config = ConfigDict(
         extra='ignore',

@@ -6,14 +6,44 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.messages import SystemMessage, HumanMessage
-from ..state import BuilderState, PageMetadata, PageSummary, WorkflowStage
+from ..state import BuilderState, PageMetadata, PageSummary, WorkflowStage, TableDetails
 from ..utils.logging_utils import log_state_change, log_error
 from ...utils.llm_utils import get_llm
 from ..utils.state_utils import save_state
 from ..prompts.summary_prompts import PROCESS_SUMMARIES_PROMPT
+from langsmith.run_helpers import traceable
+from pydantic import BaseModel, Field, ConfigDict
+from datetime import datetime
 
 # Set up logging
 logger = logging.getLogger(__name__)
+
+class SummaryResult(BaseModel):
+    """Model for summary generation results."""
+    title: str = Field(default="")
+    summary: str = Field(default="")
+    key_points: List[str] = Field(default_factory=list)
+    action_items: List[str] = Field(default_factory=list)
+    has_tables: bool = Field(default=False)
+    has_limitations: bool = Field(default=False)
+    
+    model_config = ConfigDict(
+        extra='ignore',
+        validate_assignment=True,
+        str_strip_whitespace=True
+    )
+
+class ProcessingState(BaseModel):
+    """Model for tracking summary processing state."""
+    total_pages: int = Field(default=0)
+    processed_pages: int = Field(default=0)
+    current_page: Optional[int] = Field(default=None)
+    errors: List[str] = Field(default_factory=list)
+    
+    model_config = ConfigDict(
+        extra='ignore',
+        validate_assignment=True
+    )
 
 def preserve_state(state: BuilderState, field_name: str) -> Any:
     """Helper to preserve state fields."""
@@ -31,6 +61,7 @@ def transition_stage(state: BuilderState, current: WorkflowStage, next_stage: Wo
         state.update_stage(next_stage)
         logger.info(f"Transitioned from {current} to {next_stage}")
 
+@traceable(name="process_single_summary")
 async def process_single_summary(
     metadata: PageMetadata,
     existing_summaries: Dict[int, PageSummary] = None
@@ -54,6 +85,7 @@ async def process_single_summary(
         human_message = HumanMessage(content=f"""Please analyze and summarize this page:
 
 Page {metadata.page_number}: {metadata.page_name}
+Title: {metadata.descriptive_title}
 
 Content: {metadata.content}
 
@@ -89,6 +121,7 @@ Please provide:
         summary = PageSummary(
             page_number=metadata.page_number,
             page_name=metadata.page_name,
+            title=metadata.descriptive_title or result.get("title", metadata.page_name),
             file_path=metadata.file_path,
             summary=result.get("summary", ""),
             key_points=result.get("key_points", []),
@@ -104,82 +137,76 @@ Please provide:
         logger.error(f"Error processing summary for page {metadata.page_number}: {str(e)}")
         return None
 
+@traceable(name="process_summaries")
 async def process_summaries(state: BuilderState) -> BuilderState:
-    """Process summaries for all pages while preserving existing state."""
-    try:
-        logger.info("Starting summary processing")
-        
-        # Verify we're in the correct stage
-        if state.workflow_progress.current_stage != WorkflowStage.PROCESS_SUMMARIES:
-            logger.warning(f"Expected stage {WorkflowStage.PROCESS_SUMMARIES}, but got {state.workflow_progress.current_stage}")
-            state.update_stage(WorkflowStage.PROCESS_SUMMARIES)
-            
-        # Preserve existing state
-        existing_summaries = {
-            summary.page_number: summary 
-            for summary in (preserve_state(state, "page_summaries") or [])
-        }
-            
-        if not state.deck_info or not state.deck_info.path:
-            error_msg = "Missing deck_info in state"
-            logger.error(error_msg)
-            state.set_error(error_msg, "process_summaries")
-            return state
-            
-        # Check for required state
-        if not state.page_metadata:
-            error_msg = "No page metadata found in state"
-            logger.error(error_msg)
-            state.set_error(error_msg, "process_summaries")
-            return state
-            
-        logger.info(f"Processing summaries for {len(state.page_metadata)} pages")
-        
-        # Set initial progress
-        total_pages = len(state.page_metadata)
-        state.set_stage_progress(
-            total=total_pages,
-            completed=0,
-            current="Starting summary processing"
-        )
-        
-        # Process each page
-        processed_summaries = []
-        for idx, metadata in enumerate(sorted(state.page_metadata, key=lambda x: x.page_number)):
-            summary = await process_single_summary(metadata, existing_summaries)
-            if summary:
-                processed_summaries.append(summary)
-                
-            # Update progress
-            state.set_stage_progress(
-                total=total_pages,
-                completed=idx + 1,
-                current=f"Processed page {metadata.page_number}"
-            )
-                
-        # Update state with processed summaries
-        state.page_summaries = processed_summaries
-        
-        # Log completion and transition stage
-        log_state_change(
-            state=state,
-            node_name="process_summaries",
-            change_type="complete",
-            details={
-                "processed_summaries": len(processed_summaries),
-                "deck_id": state.metadata.deck_id
+    """Process summaries for each page."""
+    logger.info("Starting summary processing")
+    
+    if not state.workflow_progress:
+        state.workflow_progress = WorkflowProgress(
+            current_stage=WorkflowStage.PROCESS,
+            stages={
+                WorkflowStage.PROCESS: StageProgress(
+                    status="in_progress",
+                    started_at=datetime.now().isoformat()
+                )
             }
         )
-        
-        # Move to next stage
-        state.update_stage(WorkflowStage.EXTRACT_TABLES)
-        await save_state(state, state.metadata.deck_id)
-        logger.info(f"Completed summary processing for deck {state.metadata.deck_id}")
-        
-        return state
+    
+    processing_state = ProcessingState(
+        total_pages=len(state.page_metadata) if state.page_metadata else 0
+    )
+    
+    for idx, page_meta in enumerate(state.page_metadata or []):
+        try:
+            processing_state.current_page = idx + 1
+            logger.info(f"Processing page {idx + 1} of {processing_state.total_pages}")
+            
+            # Generate summary using OpenAI
+            summary_result = await generate_page_summary(page_meta)
+            
+            # Create PageSummary instance
+            page_summary = PageSummary(
+                page_name=f"page_{idx + 1}",
+                page_number=idx + 1,
+                title=summary_result.title,
+                summary=summary_result.summary,
+                key_points=summary_result.key_points,
+                action_items=summary_result.action_items,
+                has_tables=summary_result.has_tables,
+                has_limitations=summary_result.has_limitations
+            )
+            
+            # Store in state
+            state.page_summaries[page_summary.page_name] = page_summary
+            processing_state.processed_pages += 1
+            
+        except Exception as e:
+            error_msg = f"Error processing page {idx + 1}: {str(e)}"
+            logger.error(error_msg)
+            processing_state.errors.append(error_msg)
+    
+    logger.info(f"Completed summary processing. Processed {processing_state.processed_pages} pages with {len(processing_state.errors)} errors")
+    return state
+
+async def process_single_page(page_metadata: PageMetadata, state: BuilderState) -> Optional[PageSummary]:
+    """Process a single page to generate its summary."""
+    try:
+        # Create page summary with page name from metadata
+        summary = await generate_page_summary(page_metadata)
+        if summary:
+            return PageSummary(
+                page_number=page_metadata.page_number,
+                page_name=page_metadata.page_name,
+                title=summary.get("title", ""),
+                summary=summary.get("summary", ""),
+                tableDetails=TableDetails(
+                    hasBenefitsTable=summary.get("hasBenefitsTable", False),
+                    hasLimitations=summary.get("hasLimitations", False)
+                )
+            )
+        return None
         
     except Exception as e:
-        error_msg = f"Summary processing failed: {str(e)}"
-        logger.error(error_msg)
-        state.set_error(error_msg, "process_summaries")
-        return state 
+        logger.error(f"Failed to process page {page_metadata.page_number}: {str(e)}")
+        return None 
