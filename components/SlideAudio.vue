@@ -1,5 +1,4 @@
 <template>
-  <div></div>
 </template>
 
 <script setup lang="ts">
@@ -22,18 +21,44 @@ const getCurrentClick = () => {
   return clickParam ? parseInt(clickParam) + 1 : 1;
 };
 
+// Add type for audio file validation
+type AudioFileConfig = {
+  slideNumber: number;
+  clicks: number[];
+};
+
+// Add a helper function for consistent end-of-presentation handling
+const handleEndOfPresentation = async () => {
+  console.log('Reached end of presentation');
+  // Wait 2 seconds before stopping
+  setTimeout(() => {
+    console.log('Auto-stopping after last track');
+    if (currentHowl.value) {
+      currentHowl.value.stop();
+      currentHowl.value.unload();
+      currentHowl.value = null;
+    }
+    isPlaying.value = false;
+  }, 2000);
+};
+
 // Function to play audio for current slide and click
 const playAudio = async (slideNumber: number, clickNumber: number) => {
   try {
-    // If we're not in playing state, don't continue
-    if (!isPlaying.value) {
+    // Add validation for numeric parameters
+    if (isNaN(slideNumber) || isNaN(clickNumber)) {
+      console.error('Invalid slide or click number', { slideNumber, clickNumber });
       return;
     }
 
-    // Check if we've reached the end of the presentation
+    // Check if we've reached the end of the presentation first
     if (nav.value && slideNumber > nav.value.total) {
-      console.log('Reached end of presentation');
-      isPlaying.value = false;
+      await handleEndOfPresentation();
+      return;
+    }
+
+    // If we're not in playing state, don't continue
+    if (!isPlaying.value) {
       return;
     }
 
@@ -43,15 +68,32 @@ const playAudio = async (slideNumber: number, clickNumber: number) => {
       currentHowl.value = null;
     }
 
-    const audioPath = `../decks/${props.deckKey}/audio/oai/${props.deckKey}${slideNumber}_${clickNumber}.mp3`;
-    console.log(`Attempting to play: ${props.deckKey}${slideNumber}_${clickNumber}.mp3`);
+    // Sanitize click numbers for filenames
+    const sanitizedClick = String(clickNumber).replace('.', '_');
     
-    const audioModule = await import(audioPath);
+    // Construct filename with validation
+    const audioFileName = `${props.deckKey}${slideNumber}_${sanitizedClick}.mp3`;
+    
+    // Use root-relative path
+    const audioPath = `/decks/${props.deckKey}/audio/oai/${audioFileName}`;
+
+    // Debug logging
+    console.log('Attempting to play audio:', {
+      deckKey: props.deckKey,
+      slideNumber,
+      clickNumber,
+      audioPath,
+      fullUrl: new URL(audioPath, window.location.href).toString()
+    });
     
     currentHowl.value = new Howl({
-      src: [audioModule.default],
+      src: [audioPath],
       format: ['mp3'],
       html5: true,
+      preload: true,
+      onload: () => {
+        console.log(`Successfully loaded audio: ${audioFileName}`);
+      },
       onend: async () => {
         console.log(`Finished playing audio ${slideNumber}_${clickNumber}`);
         
@@ -62,8 +104,7 @@ const playAudio = async (slideNumber: number, clickNumber: number) => {
 
         // Check if we're on the last slide
         if (nav.value && slideNumber >= nav.value.total) {
-          console.log('Reached end of presentation');
-          isPlaying.value = false;
+          await handleEndOfPresentation();
           return;
         }
 
@@ -82,54 +123,58 @@ const playAudio = async (slideNumber: number, clickNumber: number) => {
       onplay: () => {
         console.log(`Started playing audio ${slideNumber}_${clickNumber}`);
       },
-      onloaderror: async () => {
-        console.log(`Audio file not found: ${props.deckKey}${slideNumber}_${clickNumber}.mp3`);
-        
-        // Check if we're on the last slide
-        if (nav.value && nav.value.currentPage >= nav.value.total) {
-          console.log('Reached end of presentation');
-          isPlaying.value = false;
-          return;
-        }
-
-        // If audio file not found, advance to next slide
-        if (nav.value) {
-          await nav.value.next();
-          // Wait for URL to update before playing next audio
-          setTimeout(async () => {
-            const newSlide = nav.value?.currentPage;
-            const newClick = getCurrentClick();
-            console.log(`Advanced to slide ${newSlide}, click ${newClick}`);
-            playAudio(newSlide, newClick);
-          }, 100);
-        }
+      onloaderror: async (id, error) => {
+        console.error(`Error loading audio ${audioFileName}:`, error);
+        // Log more details about the attempted URL
+        console.error('Audio load error details:', {
+          audioPath,
+          error,
+          fullUrl: new URL(audioPath, window.location.href).toString()
+        });
+        handleAudioError(slideNumber, clickNumber);
       }
     });
 
     currentHowl.value.play();
   } catch (error) {
-    console.error('Error playing audio:', error);
-    // If we're still playing, try to advance to next slide
-    if (isPlaying.value && nav.value) {
-      if (nav.value.currentPage >= nav.value.total) {
-        console.log('Reached end of presentation');
-        isPlaying.value = false;
-        return;
-      }
-      
-      await nav.value.next();
-      setTimeout(async () => {
-        const newSlide = nav.value?.currentPage;
-        const newClick = getCurrentClick();
-        console.log(`Advanced to slide ${newSlide}, click ${newClick}`);
-        playAudio(newSlide, newClick);
-      }, 100);
-    }
+    console.error('Audio playback error:', {
+      error,
+      slideNumber,
+      clickNumber,
+      deckKey: props.deckKey
+    });
+    handleAudioError(slideNumber, clickNumber);
+  }
+};
+
+// Function to handle audio errors
+const handleAudioError = async (slideNumber: number, clickNumber: number) => {
+  const formattedSlideNumber = slideNumber;
+  const audioFileName = `${props.deckKey}${formattedSlideNumber}_${clickNumber}.mp3`;
+  console.log(`Audio file not found: ${audioFileName} in /decks/${props.deckKey}/audio/oai/`);
+  
+  // Check if we're on the last slide
+  if (nav.value && nav.value.currentPage >= nav.value.total) {
+    await handleEndOfPresentation();
+    return;
+  }
+
+  // If audio file not found, try the next slide
+  if (nav.value) {
+    console.log('Audio not found, advancing to next slide');
+    await nav.value.next();
+    // Wait for URL to update before playing next audio
+    setTimeout(async () => {
+      const newSlide = nav.value?.currentPage;
+      const newClick = getCurrentClick();
+      console.log(`Advanced to slide ${newSlide}, click ${newClick}`);
+      playAudio(newSlide, newClick);
+    }, 100);
   }
 };
 
 // Handle 'A' key press for play/pause
-const handleKeyPress = (event: KeyboardEvent) => {
+const handleKeyPress = async (event: KeyboardEvent) => {
   if (event.key.toLowerCase() === 'a') {
     console.log('=== "A" Key Pressed ===');
     if (isPlaying.value) {
@@ -147,7 +192,8 @@ const handleKeyPress = (event: KeyboardEvent) => {
       if (nav.value) {
         const currentSlide = nav.value.currentPage;
         const currentClick = getCurrentClick();
-        console.log(`Starting playback from slide ${currentSlide}, click ${currentClick}`);
+        // Ensure we're using the correct deckKey
+        console.log(`Starting playback from slide ${currentSlide}, click ${currentClick}, deckKey: ${props.deckKey}`);
         playAudio(currentSlide, currentClick);
       }
     }
@@ -163,6 +209,7 @@ const cleanup = () => {
 };
 
 onMounted(() => {
+  console.log(`[SlideAudio mounted] deckKey: ${props.deckKey}`);
   window.addEventListener('keydown', handleKeyPress);
 });
 
@@ -170,7 +217,3 @@ onBeforeUnmount(() => {
   cleanup();
 });
 </script>
-
-<style scoped>
-/* Add any necessary styles here */
-</style>
