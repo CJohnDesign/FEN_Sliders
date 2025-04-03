@@ -165,6 +165,10 @@ class TableDetails(BaseModel):
     """Details about tables and limitations in a page."""
     hasBenefitsTable: bool = False
     hasLimitations: bool = False
+    tableType: str = ""  # "benefits", "comparison", "limitations", etc.
+    tableHeaders: List[str] = Field(default_factory=list)
+    benefitKeywords: List[str] = Field(default_factory=list)
+    confidenceScore: float = 0.0  # How confident we are this is a benefits table
     
     model_config = ConfigDict(
         extra='ignore'

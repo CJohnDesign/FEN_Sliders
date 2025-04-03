@@ -10,7 +10,7 @@ is brought to you by America's Choice Health Care,
 
 with Administration by Detego Health. 
 
-This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional medical plans can still access vital healthcare services. 
+This plan is all about accessibility, ensuring that individuals and families who may not qualify for traditional comprehensive medical plans can still access vital healthcare services. 
 
 It's designed to have a personal impact, making sure necessary care is within reach.
 
@@ -26,11 +26,9 @@ Each plan tier has specific co-pays, visit allowances, and maximum coverage limi
 
 Eligibility is focused on individuals and families who value affordability and health services.
 
-Now, let's look into the common service features.
-
 ---- Common Service Features ----
 
-With the First Health Network, 
+Now, let's look into the common service features. With the First Health Network, 
 
 you'll have access to a wide range of healthcare providers and facilities. 
 
@@ -158,14 +156,9 @@ offers flexible healthcare options with varying coverage levels.
 
 It ensures affordable access to healthcare and prescriptions, supported by the extensive First Health Network. 
 
+Members will receive a Welcome E-mail from MyLiveDoc to access their portal and their Rx card.  The e-mail is sent every 5 days until the member enrolls, or the member can call MLD for assistance. Be sure to have clients be on the lookout for this important information.
+
 Consider your healthcare needs and budget to select the most appropriate plan tier, and reach out for further assistance and enrollment.
-
-Members will receive a Welcome E-mail from MyLiveDoc to access their portal and their Rx card.  
-
-The e-mail is sent every 5 days until the member enrolls, or the member can call MLD for assistance. Be sure to have clients be on the lookout for this important information.
-
-Members can always call for assistance.
-
 
 ---- Closing ----
 

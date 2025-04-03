@@ -482,21 +482,34 @@ layout: default
 
 ## Key Takeaways
 
-<v-clicks>
+<v-click>
 
-- **Flexible healthcare options** with varying coverage levels
-- Affordable access through **First Health Network**
-- Choose your tier based on **needs and budget**
-- Welcome Email from **MyLiveDoc** for **Portal** and **RX Card Access**
-- Email sent every 5 days until member enrolls
-- Members can always **call for assistance**
+Flexible healthcare options with varying coverage levels
 
-</v-clicks>
+</v-click>
+
+<v-click>
+
+Affordable access through **First Health Network**
+
+</v-click>
+
+<v-click>
+
+Welcome Email from **MyLiveDoc** for **Portal** and **RX Card Access**
+
+</v-click>
+
+<v-click>
+
+Choose your tier based on **needs and budget**
+
+</v-click>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the Premier Insurance Offer Review. Continue to be great!
+line: Thank you for participating in the Premier Plan Offer Review. Continue to be great!
 ---
 
 # Thank You!

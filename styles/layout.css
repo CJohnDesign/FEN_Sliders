@@ -3,7 +3,7 @@
 /* Define theme variables */
 :root {
   --slidev-theme-primary: #87B1EB;
-  --slidev-theme-accent: #20a808;
+  --slidev-theme-accent: rgba(255, 255, 255, 0); /*  #20a808 */
   --slidev-theme-text: #333333;
   --slidev-theme-text-dark: #ffffff;
   --slidev-theme-background: #F3F6FE;
@@ -78,7 +78,7 @@ a:hover {
 }
 .slidev-layout h2 {
   margin: 0;
-  margin-bottom: 0.65rem !important;
+  margin-bottom: 0.875rem !important;
   line-height: 1 !important;
   font-weight: 600;
 }
@@ -93,7 +93,7 @@ a:hover {
 
 .slidev-layout ul {
   list-style: square;
-  margin-bottom: 1.125rem !important;
+  margin-bottom: .125rem !important;
   font-size: 0.875em;
   line-height: 1.4;
 }
@@ -103,6 +103,41 @@ a:hover {
   margin-bottom: 0.25rem !important;
   font-size: 0.9em;
   line-height: 1.4;
+}
+
+.slidev-layout table {
+  font-size: 0.75em;
+  line-height: 1.2;
+  width: 100%;
+  margin: 1rem 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.slidev-layout table th,
+.slidev-layout table td {
+  padding: 0.4rem 0.75rem;
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.slidev-layout table th {
+  font-weight: 600;
+}
+
+.slidev-layout table th:first-child,
+.slidev-layout table td:first-child {
+  width: 20%; /* Give more space to first column */
+}
+
+.slidev-layout table th:not(:first-child),
+.slidev-layout table td:not(:first-child) {
+  width: calc(80% / 6); /* Distribute remaining space evenly */
+  text-align: center;
+}
+
+.slidev-layout table th:last-child,
+.slidev-layout table td:last-child {
+  border-right: none;
 }
 
 .fixed.flex.flex-wrap.text-xl.p-2.gap-1.rounded-md.bg-main.shadow.transition-opacity.duration-200.z-20.border.border-main {

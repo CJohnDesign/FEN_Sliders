@@ -74,11 +74,11 @@ def create_structured_pages(slides_content: str, script_content: str) -> Pages:
         logger.error(f"Error creating structured pages: {str(e)}")
         return Pages(pages=[])
 
-async def validate_page(
+async def validate_single_page(
     page: PageContent,
     page_number: int,
     history: Optional[PageValidationHistory] = None
-) -> ValidationIssues:
+) -> Tuple[bool, ValidationIssues]:
     """Validate a single page's content.
     
     Args:
@@ -87,7 +87,7 @@ async def validate_page(
         history: Optional validation history for this page
         
     Returns:
-        ValidationIssues containing any found issues
+        Tuple of (is_valid, validation_issues)
     """
     try:
         # Create prompt with page content
@@ -113,12 +113,13 @@ async def validate_page(
             ("human", analysis_prompt)
         ])
         
-        # Get LLM response using chain
+        # Get LLM response
         llm = await get_llm(temperature=0.2)
         chain = prompt | llm
         response = await chain.ainvoke({})
         
-        # Parse response for issues
+        # Parse response
+        validation_result = json.loads(response.content)
         validation_issues = ValidationIssues()
         
         # Add to history if provided
@@ -128,41 +129,15 @@ async def validate_page(
                 result=response.content
             ))
         
-        # If issues found, add improvement suggestions
-        if "issue" in response.content.lower() or "improve" in response.content.lower():
-            improvement_prompt = ChatPromptTemplate.from_messages([
-                ("system", VALIDATOR_SYSTEM_PROMPT),
-                ("human", f"{analysis_prompt}\n\n{VALIDATOR_IMPROVEMENT_PROMPT}")
-            ])
+        # Extract issues if any
+        if not validation_result["is_valid"]:
+            validation_issues = ValidationIssues(**validation_result["validation_issues"])
             
-            # Get improvement suggestions using chain
-            improvement_chain = improvement_prompt | llm
-            improvement_response = await improvement_chain.ainvoke({})
-            
-            # Add validation issues
-            validation_issues.script_issues.append(
-                ValidationIssue(
-                    section=f"Page {page_number} - Script",
-                    issue=response.content,
-                    severity="medium",
-                    suggestions=improvement_response.content.split("\n")
-                )
-            )
-            
-            validation_issues.slide_issues.append(
-                ValidationIssue(
-                    section=f"Page {page_number} - Slide",
-                    issue=response.content,
-                    severity="medium",
-                    suggestions=improvement_response.content.split("\n")
-                )
-            )
-            
-        return validation_issues
+        return validation_result["is_valid"], validation_issues
         
     except Exception as e:
         logger.error(f"Error validating page {page_number}: {str(e)}")
-        return ValidationIssues(
+        return False, ValidationIssues(
             script_issues=[
                 ValidationIssue(
                     section=f"Page {page_number}",
@@ -239,7 +214,7 @@ async def save_final_content(state: BuilderState) -> bool:
         return False
 
 async def validate(state: BuilderState) -> BuilderState:
-    """Validate and fix deck content.
+    """Validate deck content page by page.
     
     Args:
         state: Current builder state
@@ -250,77 +225,21 @@ async def validate(state: BuilderState) -> BuilderState:
     try:
         logger.info("Starting validation")
         
-        # Preserve existing state
-        if state.slides_content is None and state.script_content is None:
-            logger.error("Missing slides and script content")
-            state.set_error("Missing content", "validate")
-            return state
-            
-        # Validate required state attributes
-        if not state.metadata or not state.metadata.deck_id:
-            logger.error("Missing deck ID in metadata")
-            state.set_error("Missing deck ID", "validate")
-            return state
-            
-        # Get paths
-        if not state.deck_info or not state.deck_info.path:
-            logger.error("Missing deck info or path")
-            state.set_error("Missing deck info", "validate")
-            return state
-            
-        deck_dir = Path(state.deck_info.path)
-        slides_path = deck_dir / "slides.md"
-        script_path = deck_dir / "audio" / "audio_script.md"
-        
-        # Check if files exist
-        if not slides_path.exists():
-            logger.error("Slides file not found")
-            state.set_error("Slides file not found", "validate")
-            return state
-            
-        if not script_path.exists():
-            logger.error("Script file not found")
-            state.set_error("Script file not found", "validate")
-            return state
-            
-        # Read content if not already in state
-        try:
-            slides_content = state.slides_content or slides_path.read_text()
-            script_content = state.script_content or script_path.read_text()
-            
-            # Update state with content if needed
-            if not state.slides_content:
-                state.slides_content = slides_content
-            if not state.script_content:
-                state.script_content = script_content
-                
-        except Exception as e:
-            logger.error(f"Error reading files: {str(e)}")
-            state.set_error(f"Error reading files: {str(e)}", "validate")
-            return state
-            
-        # Create structured pages if not present
-        if not state.structured_pages or not state.structured_pages.pages:
-            logger.info("Creating structured pages from content")
-            state.structured_pages = create_structured_pages(slides_content, script_content)
-            
         # Initialize validation state if not present
         if not state.validation_state:
             state.validation_state = ValidationState()
             
-        # Increment attempt counter
-        state.validation_state.current_attempt += 1
-        
-        # Validate each page
+        # Validate required state attributes
         if not state.structured_pages or not state.structured_pages.pages:
-            logger.error("No structured pages found after creation")
-            state.set_error("No structured pages found", "validate")
+            logger.error("Missing structured pages")
+            state.set_error("Missing structured pages", "validate")
             return state
             
-        # Preserve existing validation issues if any
-        if not state.validation_issues:
-            state.validation_issues = ValidationIssues()
-            
+        # Track overall validation status
+        all_valid = True
+        state.validation_issues = ValidationIssues()
+        
+        # Validate each page
         for i, page in enumerate(state.structured_pages.pages, 1):
             # Get validation history for this page
             history = state.validation_state.page_histories.get(i)
@@ -329,31 +248,35 @@ async def validate(state: BuilderState) -> BuilderState:
                 state.validation_state.page_histories[i] = history
                 
             # Validate page
-            validation_issues = await validate_page(page, i, history)
+            is_valid, issues = await validate_single_page(page, i, history)
             
-            # Add any issues found
-            if validation_issues.script_issues or validation_issues.slide_issues:
-                state.validation_issues.script_issues.extend(validation_issues.script_issues)
-                state.validation_issues.slide_issues.extend(validation_issues.slide_issues)
+            # Update overall status and collect issues
+            if not is_valid:
+                all_valid = False
+                state.validation_issues.script_issues.extend(issues.script_issues)
+                state.validation_issues.slide_issues.extend(issues.slide_issues)
                 if i not in state.validation_state.invalid_pages:
                     state.validation_state.invalid_pages.append(i)
+                    
+            logger.info(f"Page {i} validation: {'valid' if is_valid else 'invalid'}")
         
-        # If no issues found, move to next stage
-        if not state.validation_issues.script_issues and not state.validation_issues.slide_issues:
+        # Update state based on validation results
+        if all_valid:
             state.update_stage(WorkflowStage.VALIDATE)
-            await save_state(state, state.metadata.deck_id)
             log_state_change(state, "validate", "complete")
         else:
-            # Keep track of validation state even if there are issues
-            await save_state(state, state.metadata.deck_id)
             log_state_change(state, "validate", "issues_found", {
                 "num_script_issues": len(state.validation_issues.script_issues),
                 "num_slide_issues": len(state.validation_issues.slide_issues),
                 "invalid_pages": state.validation_state.invalid_pages
             })
+        
+        # Save state
+        if state.metadata and state.metadata.deck_id:
+            await save_state(state, state.metadata.deck_id)
             
         return state
-            
+        
     except Exception as e:
         logger.error(f"Error in validate: {str(e)}")
         state.set_error(str(e), "validate")

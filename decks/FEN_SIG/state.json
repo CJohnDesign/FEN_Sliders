@@ -1,0 +1,787 @@
+{
+  "deck_id": "FEN_SIG",
+  "deck_title": "Sigma Care",
+  "deck_info": {
+    "deck_id": "FEN_SIG",
+    "deck_title": "Sigma Care"
+  },
+  "initial_deck": {
+    "slides": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "scripts": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "instructions": "# Instructions\n\n## Plan Tiers Overview\n\n### Plans Listed:\n1. **100A**  \n2. **100**  \n3. **200**  \n4. **200+**  \n5. **300**  \n6. **500**  \n7. **750**  \n8. **1000**  \n\n**Always include all plans in the summary.**\n"
+  },
+  "pdf_files": [
+    "Sigma Care Brochure.pdf"
+  ],
+  "processed_images": {
+    "1": {
+      "page_number": 1,
+      "original_name": "Sigma Care Brochure_page_001.jpg",
+      "original_path": "img/pages/Sigma Care Brochure_page_001.jpg",
+      "new_name": "01_cover_page_for_sigma_care_plus_insurance_plan.jpg",
+      "new_path": "img/pages/01_cover_page_for_sigma_care_plus_insurance_plan.jpg",
+      "page_title": "cover_page_for_sigma_care_plus_insurance_plan",
+      "summary": "This cover page introduces the Sigma Care Plus insurance plan, featuring branding elements and imagery. The page prominently displays the logo and name of the Sigma Care Plus plan, suggesting a focus on health and wellness. The image depicts a healthcare professional interacting with a patient, emphasizing a personal and caring approach to healthcare services. The page also includes the logo of American Financial Security Life Insurance Co., indicating the underwriter of the plan. Additionally, there is a note stating that the plan is a limited benefit health insurance plan, underwritten by American Financial Security Life Insurance Co., and issued to the National Congress of Employers. This introductory page sets the stage for the detailed plan information that follows.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "Sigma Care Brochure",
+      "global_page_num": 1
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "Sigma Care Brochure_page_003.jpg",
+      "original_path": "img/pages/Sigma Care Brochure_page_003.jpg",
+      "new_name": "03_sigma_care_plus_limited_medical_benefit_plan_details_and_membership_information.jpg",
+      "new_path": "img/pages/03_sigma_care_plus_limited_medical_benefit_plan_details_and_membership_information.jpg",
+      "page_title": "sigma_care_plus_limited_medical_benefit_plan_details_and_membership_information",
+      "summary": "The Sigma Care Plus plan is associated with the National Congress of Employers (NCE), which provides members with reliable services and benefits. Membership includes a packet and ID cards, which are sent after successful application processing. Members receive a purchase confirmation email containing the NCE Membership Handbook and a sample certificate of insurance. The fulfillment packet, including a hard copy of the handbook and a personalized Certificate of Insurance, is mailed within 7-10 business days post-enrollment.\n\nThe plan operates on a monthly membership basis, with billing reflecting the monthly premium for health benefits and NCE association membership. An initial non-refundable enrollment fee is processed on the day of enrollment, with subsequent drafts occurring monthly. Payment options include credit cards and bank automatic drafts.\n\nSigma Care Plus offers limited medical coverage, designed to supplement higher deductible major medical plans. It is not a major medical plan and provides basic insurance coverage with specific caps on services. Eligibility is for adult members aged 18-65 and dependent children aged 1-25.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "Sigma Care Brochure",
+      "global_page_num": 3
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "Sigma Care Brochure_page_004.jpg",
+      "original_path": "img/pages/Sigma Care Brochure_page_004.jpg",
+      "new_name": "04_gapafford_plus_nce_membership_benefits_with_prescription_discount_and_vision_network.jpg",
+      "new_path": "img/pages/04_gapafford_plus_nce_membership_benefits_with_prescription_discount_and_vision_network.jpg",
+      "page_title": "gapafford_plus_nce_membership_benefits_with_prescription_discount_and_vision_network",
+      "summary": "The GapAfford Plus program offers a variety of benefits aimed at reducing out-of-pocket medical expenses for individuals and families. Key features include no deductibles, no pre-existing condition limitations, and no claim forms. Prescription discounts are available, providing a 15% discount on brand-name and 55% on generic medications at participating pharmacies. The program also includes access to the Aetna Dental Access Network, offering savings on dental services without pre-existing condition exclusions. \n\nThe OUTLOOK Vision Network provides savings of 10% to 50% on eyeglasses and lenses through a national network of optical centers. Pet Rx benefits allow for discounted medications for pets, and the Alternative Medicine program offers savings on services from over 8,000 providers. Chiropractic care includes free initial consultations and discounts on services. \n\nAdditional benefits include savings on medical supplies and equipment, laboratory services, and physical therapy. Members can also access a 24/7 Health Information Line and Nurse Help Line for medical advice. The program is not insurance and does not meet PPACA requirements. It is not available in certain states, including Alaska, Connecticut, Delaware, Montana, Rhode Island, Utah, Vermont, and Washington.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "Sigma Care Brochure",
+      "global_page_num": 4
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "Sigma Care Brochure_page_002.jpg",
+      "original_path": "img/pages/Sigma Care Brochure_page_002.jpg",
+      "new_name": "02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg",
+      "new_path": "img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg",
+      "page_title": "sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000",
+      "summary": "The Sigma Care Plus Limited Medical Benefit Policy provides a detailed comparison of various plans, including 100A, 100, 200, 200+, 300, 500, 750, and 1000. Each plan offers different levels of benefits for hospital confinement, primary and specialty care office visits, emergency room visits, and more. For instance, the Hospital Confinement Benefit ranges from $100 per day for Plan 100A to $1000 per day for Plan 1000, with a maximum of 30 days across all plans. Primary Care Doctors Office Visit Benefit is $50 per day for most plans, increasing to $75 for Plan 1000, with a maximum of 3 to 5 days depending on the plan.\n\nSpecialty Care Doctors\u2019 Office Visit Benefit mirrors the primary care benefit structure, with similar per-day amounts and maximum days. Emergency Room Benefits are available for higher-tier plans, with per-day amounts reaching up to $100 for Plan 1000. Surgery Benefits start at $400 per day for Plan 200 and go up to $1500 for Plan 1000, with a maximum of 3 days. Anesthesia Benefits are consistent across plans at 20% per day, with a maximum of 3 days.\n\nThe policy also includes benefits for mental health inpatient and outpatient services, supplemental accident benefits, and critical illness coverage, with specific amounts and conditions. Notably, there is a 30-day waiting period for coverage to begin, and pre-existing conditions are not covered for the first 12 months. The Accidental Death Benefit is capped at $10,000 across all plans.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "Sigma Care Brochure",
+      "global_page_num": 2
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "Sigma Care Brochure_page_005.jpg",
+      "original_path": "img/pages/Sigma Care Brochure_page_005.jpg",
+      "new_name": "05_hospital_indemnity_insurance_limitations_exclusions_sigma_care_plus.jpg",
+      "new_path": "img/pages/05_hospital_indemnity_insurance_limitations_exclusions_sigma_care_plus.jpg",
+      "page_title": "hospital_indemnity_insurance_limitations_exclusions_sigma_care_plus",
+      "summary": "This page outlines the limitations and exclusions for the Sigma Care Plus Hospital Indemnity Insurance. Benefits will not be provided for services deemed not medically necessary, those not prescribed by a doctor, or those that are experimental unless required by law. Additional exclusions include dental procedures not related to accidental injury, elective and cosmetic surgeries not related to reconstructive needs, and injuries resulting from felonious acts or illegal occupations. Specific exclusions are detailed for manipulations of the musculoskeletal system, self-inflicted injuries, and injuries related to war or acts of terrorism. \n\nA 30-day waiting period is enforced for sickness benefits, and voluntary abortion is only covered if the life of the insured is threatened. Pre-existing conditions are not covered for 12 months following the effective date, with exceptions for newborns or newly adopted children. Coverage provisions are subject to the terms and conditions of the group insurance policy, and may vary by state. Claims should be mailed to International Benefits Administrators, with electronic submissions and inquiries directed to specified contacts.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "Sigma Care Brochure",
+      "global_page_num": 5
+    }
+  },
+  "extracted_tables": {
+    "2": {
+      "page_number": "2",
+      "tables": [
+        {
+          "table_title": "Sigma Care Plus Benefit Description",
+          "headers": [
+            "Benefit Description",
+            "100A",
+            "100",
+            "200",
+            "200+",
+            "300",
+            "500",
+            "750",
+            "1000"
+          ],
+          "rows": [
+            [
+              "Hospital Confinement Benefit",
+              "$100",
+              "$200",
+              "$200",
+              "$300",
+              "$500",
+              "$750",
+              "$1000"
+            ],
+            [
+              "Max Day",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30"
+            ],
+            [
+              "Primary Care Doctors Office Visit Benefit",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$75"
+            ],
+            [
+              "Max Day",
+              "3",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Specialty Care Doctors\u2019 Office Visit Benefit",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$75"
+            ],
+            [
+              "Max Day",
+              "3",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Emergency Room Benefit",
+              "-",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$75",
+              "$100"
+            ],
+            [
+              "Max Day",
+              "-",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "Basic Pathology & Radiology Benefit*",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Max Day",
+              "-",
+              "1",
+              "3",
+              "-",
+              "2",
+              "2",
+              "3"
+            ],
+            [
+              "Advance Studies Benefit*",
+              "-",
+              "$50",
+              "$50",
+              "-",
+              "$50",
+              "$50",
+              "$75"
+            ],
+            [
+              "Max Day",
+              "-",
+              "1",
+              "3",
+              "-",
+              "2",
+              "2",
+              "3"
+            ],
+            [
+              "Surgery Benefit",
+              "-",
+              "$400",
+              "$400",
+              "$750",
+              "$1000",
+              "$1500",
+              "$1500"
+            ],
+            [
+              "Max Day",
+              "-",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3"
+            ],
+            [
+              "Anesthesia Benefit",
+              "-",
+              "20%",
+              "20%",
+              "20%",
+              "20%",
+              "20%",
+              "20%"
+            ],
+            [
+              "Max Day",
+              "-",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3"
+            ],
+            [
+              "Mental Health Inpatient Benefit",
+              "-",
+              "$150",
+              "$250",
+              "$375",
+              "$500",
+              "$500",
+              "$500"
+            ],
+            [
+              "Max Day",
+              "-",
+              "60",
+              "60",
+              "60",
+              "60",
+              "60",
+              "60"
+            ],
+            [
+              "Mental Health Outpatient Benefit",
+              "-",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50"
+            ],
+            [
+              "Max Day",
+              "-",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20"
+            ],
+            [
+              "Supplemental Accident Inpatient Admission Benefit",
+              "-",
+              "$500",
+              "$500",
+              "$500",
+              "$500",
+              "$500",
+              "$500"
+            ],
+            [
+              "Max Day",
+              "-",
+              "1",
+              "1",
+              "2",
+              "3",
+              "3",
+              "3"
+            ],
+            [
+              "Supplemental Accident Emergency Room Benefit",
+              "-",
+              "$250",
+              "$250",
+              "$250",
+              "$250",
+              "$250",
+              "$250"
+            ],
+            [
+              "Max Day",
+              "-",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "Hospital Intensive Care Unit Benefit",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Additional Hospital Admission Benefit",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Per Admission",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Accidental Death Benefit",
+              "-",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000"
+            ],
+            [
+              "Maximum Benefit",
+              "-",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000"
+            ],
+            [
+              "Critical Illness",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "# Deck ID: FEN_SIG\n# Deck Title: Sigma Care\n\n## Cover (1 slide)\n- **Plan Name:** Sigma Care Plus\n- **Tagline:** \"Focused on Health and Wellness with a Personal Touch\"\n\n## Plan Overview (1 slide)\n- **Target Audience:** Individuals and families\n- **Offerings:** Limited medical benefits, supplemental coverage\n- **Key Benefits:** Accessibility, affordability, personal impact\n\n## Core Plan Elements (3 slides)\n- **Coverage Areas:**\n  - Physician services\n  - Hospitalization\n  - Virtual visits\n- **Plan Structure:**\n  - Tiered options (Plans 100A to 1000)\n  - Co-pays and visit limits\n- **Eligibility:**\n  - Adults 18-65, dependents 1-25\n  - Focus on affordability\n\n## Common Service Features (3 slides)\n- **Provider Networks:** Access to a wide range of healthcare providers\n- **Claims Management:** Efficient processing and support\n- **Support Tools:**\n  - Wellness programs\n  - Advocacy services\n  - Dashboards for tracking benefits\n\n## Plan Tiers Breakdown (8 slides)\n### Plan 100A\n- **Hospital Confinement Benefit:** $100/day, max 30 days\n- **Primary Care Visit Benefit:** $50/day, max 3 days\n- **Specialty Care Visit Benefit:** $50/day, max 3 days\n\n### Plan 100\n- **Hospital Confinement Benefit:** $200/day, max 30 days\n- **Primary Care Visit Benefit:** $50/day, max 5 days\n- **Specialty Care Visit Benefit:** $50/day, max 5 days\n- **Emergency Room Benefit:** $50/day, max 1 day\n\n### Plan 200\n- **Hospital Confinement Benefit:** $200/day, max 30 days\n- **Primary Care Visit Benefit:** $50/day, max 5 days\n- **Specialty Care Visit Benefit:** $50/day, max 5 days\n- **Emergency Room Benefit:** $50/day, max 1 day\n- **Surgery Benefit:** $400/day, max 3 days\n\n### Plan 200+\n- **Hospital Confinement Benefit:** $300/day, max 30 days\n- **Primary Care Visit Benefit:** $50/day, max 5 days\n- **Specialty Care Visit Benefit:** $50/day, max 5 days\n- **Emergency Room Benefit:** $50/day, max 2 days\n- **Surgery Benefit:** $750/day, max 3 days\n\n### Plan 300\n- **Hospital Confinement Benefit:** $500/day, max 30 days\n- **Primary Care Visit Benefit:** $50/day, max 5 days\n- **Specialty Care Visit Benefit:** $50/day, max 5 days\n- **Emergency Room Benefit:** $50/day, max 1 day\n- **Surgery Benefit:** $1000/day, max 3 days\n\n### Plan 500\n- **Hospital Confinement Benefit:** $750/day, max 30 days\n- **Primary Care Visit Benefit:** $50/day, max 5 days\n- **Specialty Care Visit Benefit:** $50/day, max 5 days\n- **Emergency Room Benefit:** $75/day, max 1 day\n- **Surgery Benefit:** $1500/day, max 3 days\n\n### Plan 750\n- **Hospital Confinement Benefit:** $1000/day, max 30 days\n- **Primary Care Visit Benefit:** $75/day, max 5 days\n- **Specialty Care Visit Benefit:** $75/day, max 5 days\n- **Emergency Room Benefit:** $100/day, max 1 day\n- **Surgery Benefit:** $1500/day, max 3 days\n\n### Plan 1000\n- **Hospital Confinement Benefit:** $1000/day, max 30 days\n- **Primary Care Visit Benefit:** $75/day, max 5 days\n- **Specialty Care Visit Benefit:** $75/day, max 5 days\n- **Emergency Room Benefit:** $100/day, max 1 day\n- **Surgery Benefit:** $1500/day, max 3 days\n\n## Comparison Slides (1 slide)\n| Benefit Description                  | 100A | 100 | 200 | 200+ | 300 | 500 | 750 | 1000 |\n|--------------------------------------|------|-----|-----|------|-----|-----|-----|------|\n| Hospital Confinement Benefit         | $100 | $200| $200| $300 | $500| $750| $1000| $1000|\n| Primary Care Doctors Office Visit    | $50  | $50 | $50 | $50  | $50 | $50 | $75  | $75  |\n| Specialty Care Doctors\u2019 Office Visit | $50  | $50 | $50 | $50  | $50 | $50 | $75  | $75  |\n| Emergency Room Benefit               | -    | $50 | $50 | $50  | $50 | $75 | $100 | $100 |\n| Surgery Benefit                      | -    | $400| $400| $750 | $1000| $1500| $1500| $1500|\n\n## Limitations and Exclusions (2 slides)\n- **Exclusions:**\n  - Pre-existing conditions not covered for 12 months\n  - 30-day waiting period for sickness benefits\n  - No coverage for elective or cosmetic surgeries\n- **Specific Limitations:**\n  - Dental procedures not related to accidental injury\n  - Injuries from illegal activities or acts of war\n\n## Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Multiple tiers to suit different needs\n- **Balance:** Cost-effective supplemental coverage\n- **Next Steps:** Enroll through the National Congress of Employers, contact support for assistance\n\n## Thank You (1 slide)\n- **Message:** \"Thank you for considering Sigma Care Plus. Your health, our priority.\"",
+    "generated_at": "2025-02-28T19:51:09.102006"
+  },
+  "slides": {
+    "content": "---\nid: FEN_SIG\ntheme: ../../\ntitle: | \n  Sigma Care Plus\ninfo: |\n  ## Sigma Care Plus Plan Overview\n  A look at the Sigma Care Plus benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"SIG\" />\n\n# Sigma Care Plus Plan Overview\n\nUnderstanding the details and benefits of the **Sigma Care Plus**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Sigma Care Plus Plan\n\n<v-click>\n\n- Limited medical benefits through **National Congress of Employers**\n\n</v-click>\n\n<v-click>\n\n- **Accessibility** for individuals and families\n\n</v-click>\n\n<v-click>\n\n- **Affordability** and personal impact\n\n</v-click>\n\n<v-click>\n\n- **Supplemental coverage** through tiered options\n\n</v-click>\n\n<v-click>\n\n- **Focus on health and wellness** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Limited Medical Benefits**\n\n</v-click>\n\n<v-click>\n\n**Supplemental Coverage**\n\n</v-click>\n\n<v-click>\n\n**Tiered Options** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Personal Impact** through National Congress of Employers\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/NCE_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"NCE Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**Wellness Programs** (WP)\n</v-click>\n\n<v-click>\n\n**Advocacy Services** System\n</v-click>\n\n<v-click>\n\n**Dashboards** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How Wellness Programs Work\n\n<v-click>\n\n1. Enroll through **National Congress of Employers**\n</v-click>\n\n<v-click>\n\n2. Access wellness resources\n</v-click>\n\n<v-click>\n\n3. Participate in health activities\n</v-click>\n\n<v-click>\n\n4. Receive wellness updates **(WP)**\n</v-click>\n\n<v-click>\n\n5. Track progress through dashboards\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Physician Services** Services\n</v-click>\n\n<v-click>\n\n- **Hospitalization** Programs\n</v-click>\n\n<v-click>\n\n- **Virtual Visits** provides telehealth services\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **Virtual Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **Remote Consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Management** assistance\n\n</v-click>\n\n<v-click>\n\n- **Provider Networks** options\n\n</v-click>\n\n<v-click>\n\n- **Support Tools** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 100A (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 3 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 100A (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- Not available\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- Not available\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 100 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 100 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $400/day, max 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 200 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 200 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $400/day, max 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 200+ (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $300/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 200+ (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50/day, max 2 days\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $750/day, max 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 300 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $500/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 300 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1000/day, max 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 500 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $750/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 500 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $75/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1500/day, max 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 750 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $75/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75/day, max 5 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 750 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $100/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1500/day, max 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 1000 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $75/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75/day, max 5 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg\n---\n\n## Plan 1000 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $100/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1500/day, max 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|-----------|\n| Hospital Confinement Benefit | $100 | $200 | $200 | $300 | $500 | $750 | $1000 | $1000 |\n| Primary Care Doctors Office Visit | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 |\n| Specialty Care Doctors\u2019 Office Visit | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 |\n| Emergency Room Benefit | - | $50 | $50 | $50 | $50 | $75 | $100 | $100 |\n| Surgery Benefit | - | $400 | $400 | $750 | $1000 | $1500 | $1500 | $1500 |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/05_hospital_indemnity_insurance_limitations_exclusions_sigma_care_plus.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions not covered for 12 months\n- 30-day waiting period for sickness benefits\n- No coverage for elective or cosmetic surgeries\n</v-click>\n\n<v-click>\n\n**Specific Limitations**\n- Dental procedures not related to accidental injury\n- Injuries from illegal activities or acts of war\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** benefits\n</v-click>  \n\n<v-click>\n\n- **Balance** included\n</v-click>\n\n<v-click>\n\n- **Next Steps** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Sigma Care Plus Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/04_gapafford_plus_nce_membership_benefits_with_prescription_discount_and_vision_network.jpg",
+      "pages/05_hospital_indemnity_insurance_limitations_exclusions_sigma_care_plus.jpg",
+      "pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg",
+      "pages/03_sigma_care_plus_limited_medical_benefit_plan_details_and_membership_information.jpg",
+      "pages/01_cover_page_for_sigma_care_plus_insurance_plan.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Sigma Care Plus plan. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\nThe Sigma Care Plus plan\n\noffers limited medical benefits through the National Congress of Employers. \n\nIt is designed to provide accessibility for individuals and families, \n\nfocusing on affordability and personal impact. \n\nThe plan includes supplemental coverage through tiered options, \n\nwith a strong focus on health and wellness support.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nThe plan provides limited medical benefits, \n\nand offers supplemental coverage to enhance your healthcare options. \n\nIt includes tiered options that vary by plan, \n\nand aims to make a personal impact through the National Congress of Employers.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nThe plan includes wellness programs, often referred to as WP, \n\nand an advocacy services system to assist members. \n\nAdditionally, dashboards support is available to help track and manage healthcare expenses.\n\n---- How Wellness Programs Work ----\n\nHere's how the wellness programs work.\n\nFirst, members enroll through the National Congress of Employers. \n\nThey can then access a variety of wellness resources, \n\nand participate in health activities to improve their well-being. \n\nMembers receive regular wellness updates, known as WP, \n\nand can track their progress through dedicated dashboards.\n\n---- Preventive Care and Wellness ----\n\nThe plan emphasizes preventive care and wellness.\n\nIt includes physician services to ensure regular health check-ups, \n\nhospitalization programs for necessary medical care, \n\nand virtual visits that provide telehealth services for convenient access to healthcare professionals.\n\n---- Telehealth Services ----\n\nLet's talk about telehealth services.\n\nThe plan offers virtual visits, \n\nproviding twenty-four seven access to healthcare professionals. \n\nRemote consultations are available, \n\nensuring convenient access to care whenever needed.\n\n---- Advocacy and Support Services ----\n\nNow, let's look at advocacy and support services.\n\nThe plan provides healthcare advocacy to assist members, \n\nalong with claims management assistance to simplify the process. \n\nThere are various provider network options available, \n\nand support tools are in place to help members navigate their healthcare journey.\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier, Plan 100A.\n\nThe hospital confinement benefit offers one hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit provides fifty dollars per day, up to three days. \n\nSimilarly, the specialty care visit benefit is fifty dollars per day, also for a maximum of three days.\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier, Plan 100A.\n\nPlease note that the emergency room benefit is not available, \n\nand the surgery benefit is also not available under this plan.\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier, Plan 100.\n\nThe hospital confinement benefit increases to two hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit remains at fifty dollars per day, but extends to five days. \n\nThe specialty care visit benefit is also fifty dollars per day, for up to five days.\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier, Plan 100.\n\nThe emergency room benefit provides fifty dollars per day, for a maximum of one day. \n\nThe surgery benefit offers four hundred dollars per day, with a maximum of three days.\n\n---- Plan Tier 3 (One of Two) ----\n\nLet's move on to Plan 200.\n\nThe hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is fifty dollars per day, up to five days. \n\nThe specialty care visit benefit is also fifty dollars per day, for a maximum of five days.\n\n---- Plan Tier 3 (Two of Two) ----\n\nContinuing with Plan 200.\n\nThe emergency room benefit provides fifty dollars per day, for one day. \n\nThe surgery benefit offers four hundred dollars per day, with a maximum of three days.\n\n---- Plan Tier 4 (One of Two) ----\n\nNext, we have Plan 200+.\n\nThe hospital confinement benefit increases to three hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit remains at fifty dollars per day, for up to five days. \n\nThe specialty care visit benefit is fifty dollars per day, for a maximum of five days.\n\n---- Plan Tier 4 (Two of Two) ----\n\nContinuing with Plan 200+.\n\nThe emergency room benefit provides fifty dollars per day, for up to two days. \n\nThe surgery benefit offers seven hundred fifty dollars per day, with a maximum of three days.\n\n---- Plan Tier 5 (One of Two) ----\n\nNow, let's look at Plan 300.\n\nThe hospital confinement benefit is five hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is fifty dollars per day, for up to five days. \n\nThe specialty care visit benefit is fifty dollars per day, for a maximum of five days.\n\n---- Plan Tier 5 (Two of Two) ----\n\nContinuing with Plan 300.\n\nThe emergency room benefit provides fifty dollars per day, for one day. \n\nThe surgery benefit offers one thousand dollars per day, with a maximum of three days.\n\n---- Plan Tier 6 (One of Two) ----\n\nLet's examine Plan 500.\n\nThe hospital confinement benefit is seven hundred fifty dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is fifty dollars per day, for up to five days. \n\nThe specialty care visit benefit is fifty dollars per day, for a maximum of five days.\n\n---- Plan Tier 6 (Two of Two) ----\n\nContinuing with Plan 500.\n\nThe emergency room benefit provides seventy-five dollars per day, for one day. \n\nThe surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days.\n\n---- Plan Tier 7 (One of Two) ----\n\nNow, let's look at Plan 750.\n\nThe hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is seventy-five dollars per day, for up to five days. \n\nThe specialty care visit benefit is seventy-five dollars per day, for a maximum of five days.\n\n---- Plan Tier 7 (Two of Two) ----\n\nContinuing with Plan 750.\n\nThe emergency room benefit provides one hundred dollars per day, for one day. \n\nThe surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days.\n\n---- Plan Tier 8 (One of Two) ----\n\nFinally, let's examine Plan 1000.\n\nThe hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is seventy-five dollars per day, for up to five days. \n\nThe specialty care visit benefit is seventy-five dollars per day, for a maximum of five days.\n\n---- Plan Tier 8 (Two of Two) ----\n\nContinuing with Plan 1000.\n\nThe emergency room benefit provides one hundred dollars per day, for one day. \n\nThe surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nThe table outlines the benefits for each plan tier, including hospital confinement, primary care, specialty care, emergency room, and surgery benefits. \n\nEach tier offers varying levels of coverage to suit different needs and budgets.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nExclusions include pre-existing conditions not covered for twelve months, a thirty-day waiting period for sickness benefits, and no coverage for elective or cosmetic surgeries. \n\nSpecific limitations include no coverage for dental procedures not related to accidental injury, and injuries resulting from illegal activities or acts of war.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers flexibility in benefits, \n\nand maintains a balance between coverage and cost. \n\nNext steps involve understanding the benefits and enrolling in the plan. \n\nRemember, enrollment is required to access these benefits.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Sigma Care Plus Plan Overview",
+          "content": "<SlideAudio deckKey=\"SIG\" />\n\n# Sigma Care Plus Plan Overview\n\nUnderstanding the details and benefits of the **Sigma Care Plus**",
+          "frontmatter": "id: FEN_SIG\ntheme: ../../\ntitle: | \n  Sigma Care Plus\ninfo: |\n  ## Sigma Care Plus Plan Overview\n  A look at the Sigma Care Plus benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Sigma Care Plus plan. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Sigma Care Plus Plan",
+          "content": "## The Sigma Care Plus Plan\n\n<v-click>\n\n- Limited medical benefits through **National Congress of Employers**\n\n</v-click>\n\n<v-click>\n\n- **Accessibility** for individuals and families\n\n</v-click>\n\n<v-click>\n\n- **Affordability** and personal impact\n\n</v-click>\n\n<v-click>\n\n- **Supplemental coverage** through tiered options\n\n</v-click>\n\n<v-click>\n\n- **Focus on health and wellness** support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Plan Overview",
+          "content": "The Sigma Care Plus plan\n\noffers limited medical benefits through the National Congress of Employers. \n\nIt is designed to provide accessibility for individuals and families, \n\nfocusing on affordability and personal impact. \n\nThe plan includes supplemental coverage through tiered options, \n\nwith a strong focus on health and wellness support."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Limited Medical Benefits**\n\n</v-click>\n\n<v-click>\n\n**Supplemental Coverage**\n\n</v-click>\n\n<v-click>\n\n**Tiered Options** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Personal Impact** through National Congress of Employers\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/NCE_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"NCE Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nThe plan provides limited medical benefits, \n\nand offers supplemental coverage to enhance your healthcare options. \n\nIt includes tiered options that vary by plan, \n\nand aims to make a personal impact through the National Congress of Employers."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**Wellness Programs** (WP)\n</v-click>\n\n<v-click>\n\n**Advocacy Services** System\n</v-click>\n\n<v-click>\n\n**Dashboards** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nThe plan includes wellness programs, often referred to as WP, \n\nand an advocacy services system to assist members. \n\nAdditionally, dashboards support is available to help track and manage healthcare expenses."
+        }
+      },
+      {
+        "slide": {
+          "header": "How Wellness Programs Work",
+          "content": "## How Wellness Programs Work\n\n<v-click>\n\n1. Enroll through **National Congress of Employers**\n</v-click>\n\n<v-click>\n\n2. Access wellness resources\n</v-click>\n\n<v-click>\n\n3. Participate in health activities\n</v-click>\n\n<v-click>\n\n4. Receive wellness updates **(WP)**\n</v-click>\n\n<v-click>\n\n5. Track progress through dashboards\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How Wellness Programs Work",
+          "content": "Here's how the wellness programs work.\n\nFirst, members enroll through the National Congress of Employers. \n\nThey can then access a variety of wellness resources, \n\nand participate in health activities to improve their well-being. \n\nMembers receive regular wellness updates, known as WP, \n\nand can track their progress through dedicated dashboards."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Physician Services** Services\n</v-click>\n\n<v-click>\n\n- **Hospitalization** Programs\n</v-click>\n\n<v-click>\n\n- **Virtual Visits** provides telehealth services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "The plan emphasizes preventive care and wellness.\n\nIt includes physician services to ensure regular health check-ups, \n\nhospitalization programs for necessary medical care, \n\nand virtual visits that provide telehealth services for convenient access to healthcare professionals."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **Virtual Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **Remote Consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to care\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Let's talk about telehealth services.\n\nThe plan offers virtual visits, \n\nproviding twenty-four seven access to healthcare professionals. \n\nRemote consultations are available, \n\nensuring convenient access to care whenever needed."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Management** assistance\n\n</v-click>\n\n<v-click>\n\n- **Provider Networks** options\n\n</v-click>\n\n<v-click>\n\n- **Support Tools** support\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Now, let's look at advocacy and support services.\n\nThe plan provides healthcare advocacy to assist members, \n\nalong with claims management assistance to simplify the process. \n\nThere are various provider network options available, \n\nand support tools are in place to help members navigate their healthcare journey."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 100A (1/2)",
+          "content": "## Plan 100A (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 3 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "Let's examine our first plan tier, Plan 100A.\n\nThe hospital confinement benefit offers one hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit provides fifty dollars per day, up to three days. \n\nSimilarly, the specialty care visit benefit is fifty dollars per day, also for a maximum of three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 100A (2/2)",
+          "content": "## Plan 100A (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- Not available\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- Not available\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "Continuing with our first plan tier, Plan 100A.\n\nPlease note that the emergency room benefit is not available, \n\nand the surgery benefit is also not available under this plan."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 100 (1/2)",
+          "content": "## Plan 100 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier, Plan 100.\n\nThe hospital confinement benefit increases to two hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit remains at fifty dollars per day, but extends to five days. \n\nThe specialty care visit benefit is also fifty dollars per day, for up to five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 100 (2/2)",
+          "content": "## Plan 100 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $400/day, max 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Continuing with our second plan tier, Plan 100.\n\nThe emergency room benefit provides fifty dollars per day, for a maximum of one day. \n\nThe surgery benefit offers four hundred dollars per day, with a maximum of three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200 (1/2)",
+          "content": "## Plan 200 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (One of Two)",
+          "content": "Let's move on to Plan 200.\n\nThe hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is fifty dollars per day, up to five days. \n\nThe specialty care visit benefit is also fifty dollars per day, for a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200 (2/2)",
+          "content": "## Plan 200 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $400/day, max 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (Two of Two)",
+          "content": "Continuing with Plan 200.\n\nThe emergency room benefit provides fifty dollars per day, for one day. \n\nThe surgery benefit offers four hundred dollars per day, with a maximum of three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200+ (1/2)",
+          "content": "## Plan 200+ (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $300/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 4 (One of Two)",
+          "content": "Next, we have Plan 200+.\n\nThe hospital confinement benefit increases to three hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit remains at fifty dollars per day, for up to five days. \n\nThe specialty care visit benefit is fifty dollars per day, for a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200+ (2/2)",
+          "content": "## Plan 200+ (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50/day, max 2 days\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $750/day, max 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 4 (Two of Two)",
+          "content": "Continuing with Plan 200+.\n\nThe emergency room benefit provides fifty dollars per day, for up to two days. \n\nThe surgery benefit offers seven hundred fifty dollars per day, with a maximum of three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 300 (1/2)",
+          "content": "## Plan 300 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $500/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 5 (One of Two)",
+          "content": "Now, let's look at Plan 300.\n\nThe hospital confinement benefit is five hundred dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is fifty dollars per day, for up to five days. \n\nThe specialty care visit benefit is fifty dollars per day, for a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 300 (2/2)",
+          "content": "## Plan 300 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1000/day, max 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 5 (Two of Two)",
+          "content": "Continuing with Plan 300.\n\nThe emergency room benefit provides fifty dollars per day, for one day. \n\nThe surgery benefit offers one thousand dollars per day, with a maximum of three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 500 (1/2)",
+          "content": "## Plan 500 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $750/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50/day, max 5 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 6 (One of Two)",
+          "content": "Let's examine Plan 500.\n\nThe hospital confinement benefit is seven hundred fifty dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is fifty dollars per day, for up to five days. \n\nThe specialty care visit benefit is fifty dollars per day, for a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 500 (2/2)",
+          "content": "## Plan 500 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $75/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1500/day, max 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 6 (Two of Two)",
+          "content": "Continuing with Plan 500.\n\nThe emergency room benefit provides seventy-five dollars per day, for one day. \n\nThe surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 750 (1/2)",
+          "content": "## Plan 750 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $75/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75/day, max 5 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 7 (One of Two)",
+          "content": "Now, let's look at Plan 750.\n\nThe hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is seventy-five dollars per day, for up to five days. \n\nThe specialty care visit benefit is seventy-five dollars per day, for a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 750 (2/2)",
+          "content": "## Plan 750 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $100/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1500/day, max 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 7 (Two of Two)",
+          "content": "Continuing with Plan 750.\n\nThe emergency room benefit provides one hundred dollars per day, for one day. \n\nThe surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1000 (1/2)",
+          "content": "## Plan 1000 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000/day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $75/day, max 5 days\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75/day, max 5 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 8 (One of Two)",
+          "content": "Finally, let's examine Plan 1000.\n\nThe hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days. \n\nThe primary care visit benefit is seventy-five dollars per day, for up to five days. \n\nThe specialty care visit benefit is seventy-five dollars per day, for a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1000 (2/2)",
+          "content": "## Plan 1000 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $100/day, max 1 day\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1500/day, max 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 8 (Two of Two)",
+          "content": "Continuing with Plan 1000.\n\nThe emergency room benefit provides one hundred dollars per day, for one day. \n\nThe surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|-----------|\n| Hospital Confinement Benefit | $100 | $200 | $200 | $300 | $500 | $750 | $1000 | $1000 |\n| Primary Care Doctors Office Visit | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 |\n| Specialty Care Doctors\u2019 Office Visit | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 |\n| Emergency Room Benefit | - | $50 | $50 | $50 | $50 | $75 | $100 | $100 |\n| Surgery Benefit | - | $400 | $400 | $750 | $1000 | $1500 | $1500 | $1500 |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nThe table outlines the benefits for each plan tier, including hospital confinement, primary care, specialty care, emergency room, and surgery benefits. \n\nEach tier offers varying levels of coverage to suit different needs and budgets."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions not covered for 12 months\n- 30-day waiting period for sickness benefits\n- No coverage for elective or cosmetic surgeries\n</v-click>\n\n<v-click>\n\n**Specific Limitations**\n- Dental procedures not related to accidental injury\n- Injuries from illegal activities or acts of war\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/05_hospital_indemnity_insurance_limitations_exclusions_sigma_care_plus.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nExclusions include pre-existing conditions not covered for twelve months, a thirty-day waiting period for sickness benefits, and no coverage for elective or cosmetic surgeries. \n\nSpecific limitations include no coverage for dental procedures not related to accidental injury, and injuries resulting from illegal activities or acts of war."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** benefits\n</v-click>  \n\n<v-click>\n\n- **Balance** included\n</v-click>\n\n<v-click>\n\n- **Next Steps** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers flexibility in benefits, \n\nand maintains a balance between coverage and cost. \n\nNext steps involve understanding the benefits and enrolling in the plan. \n\nRemember, enrollment is required to access these benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Sigma Care Plus Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 28
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 28,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

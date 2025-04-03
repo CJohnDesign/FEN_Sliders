@@ -1,19 +1,17 @@
 <template>
-    <div class="slidev-layout !p-0">
-      <div class="flex h-full">
-        <div class="w-1/2 flex flex-col items-left justify-center text-left p-8">
-          <slot></slot>
-        </div>  
-        <div class="w-1/2 p-8">
+  <div class="slidev-layout !p-0">
+    <div class="flex h-full">
+      <div class="w-1/2 flex flex-col items-left justify-center text-left p-8">
+        <slot></slot>
+      </div>  
+      <div class="w-1/2 h-full p-8">
+        <div class="w-full h-full flex items-center justify-center">
           <div 
-            class="grid h-full gap-4" 
-            :class="[
-              images.length <= 2 ? 'grid-cols-1' : 
-              images.length <= 4 ? 'grid-cols-2' :
-              images.length <= 9 ? 'grid-cols-4' :
-              images.length <= 16 ? 'grid-cols-5' :
-              'grid-cols-5'
-            ]"
+            class="grid gap-4 w-full h-[90%]"
+            :style="{
+              'grid-template-columns': `repeat(${getColumnCount()}, minmax(0, 1fr))`,
+              'grid-template-rows': `repeat(${getRowCount()}, minmax(0, 1fr))`
+            }"
           >
             <img 
               v-for="(img, index) in images" 
@@ -23,18 +21,58 @@
             />
           </div>
         </div>
-        <CornerCurves2 class="absolute bottom-0 right-0 transform scale-x--100" />
       </div>
+      <CornerCurves2 class="absolute bottom-0 right-0 transform scale-x--100" />
     </div>
-    
+    <SlideAudio :deck-key="deckKey" />
+  </div>
 </template>
 
-<script setup>
-defineProps({
-  images: {
-    type: Array,
-    required: true,
-    default: () => []
-  }
+<script setup lang="ts">
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import SlideAudio from '../components/SlideAudio.vue'
+
+const route = useRoute()
+const deckKey = computed(() => {
+  const pathParts = route.path.split('/')
+  return pathParts[1] || 'FEN_MFT'
 })
+
+const props = defineProps<{
+  images: string[]
+}>()
+
+function getColumnCount() {
+  const count = props.images.length
+  if (count <= 2) return 1
+  if (count <= 4) return 2
+  if (count <= 6) return 2
+  return Math.min(3, Math.ceil(Math.sqrt(count)))
+}
+
+function getRowCount() {
+  const count = props.images.length
+  const cols = getColumnCount()
+  return Math.ceil(count / cols)
+}
 </script>
+
+<style scoped>
+.slidev-layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+</style>

@@ -20,12 +20,12 @@ logger = logging.getLogger(__name__)
 
 class SummaryResult(BaseModel):
     """Model for summary generation results."""
-    title: str = Field(default="")
+    page_title: str = Field(default="")
     summary: str = Field(default="")
-    key_points: List[str] = Field(default_factory=list)
-    action_items: List[str] = Field(default_factory=list)
-    has_tables: bool = Field(default=False)
-    has_limitations: bool = Field(default=False)
+    tableDetails: Dict[str, bool] = Field(default_factory=lambda: {
+        "hasBenefitsTable": False,
+        "hasLimitations": False
+    })
     
     model_config = ConfigDict(
         extra='ignore',
@@ -68,8 +68,11 @@ async def process_single_summary(
 ) -> Optional[PageSummary]:
     """Process a single page summary."""
     try:
-        # Check if summary already exists
-        if existing_summaries and metadata.page_number in existing_summaries:
+        # Check if summary already exists and is not empty
+        if (existing_summaries and 
+            metadata.page_number in existing_summaries and
+            existing_summaries[metadata.page_number].summary.strip() and  # Has non-empty summary
+            existing_summaries[metadata.page_number].key_points):  # Has key points
             logger.info(f"Using existing summary for page {metadata.page_number}")
             return existing_summaries[metadata.page_number]
             
@@ -81,81 +84,99 @@ async def process_single_summary(
         # Create system message with imported prompt
         system_message = SystemMessage(content=PROCESS_SUMMARIES_PROMPT)
         
-        # Create human message for this page
-        human_message = HumanMessage(content=f"""Please analyze and summarize this page:
+        # Create human message with more explicit instructions
+        human_message = HumanMessage(content=f"""Please analyze this page in detail:
 
-Page {metadata.page_number}: {metadata.page_name}
-Title: {metadata.descriptive_title}
-
-Content: {metadata.content}
-
-Please provide:
-1. A concise summary
-2. Key points
-3. Any action items
-4. Note if there are any tables
-5. Note if there are any limitations or restrictions""")
-        
-        # Create and execute chain with better error handling
-        prompt = ChatPromptTemplate.from_messages([system_message, human_message])
-        llm = await get_llm(temperature=0.2, response_format={"type": "json_object"})
-        
-        # Generate summary
-        response = await llm.ainvoke(prompt.format_messages(content=metadata.content))
-        
-        try:
-            # Parse JSON response
-            parsed_response = json.loads(response.content)
-            
-            # Create summary object with proper validation
-            summary = PageSummary(
-                page_number=metadata.page_number,
-                page_name=metadata.page_name,
-                title=metadata.descriptive_title or parsed_response.get("title", metadata.page_name),
-                file_path=metadata.file_path,
-                summary=parsed_response.get("summary", ""),
-                key_points=parsed_response.get("key_points", []),
-                action_items=parsed_response.get("action_items", []),
-                has_tables=parsed_response.get("tableDetails", {}).get("hasBenefitsTable", False),
-                has_limitations=parsed_response.get("tableDetails", {}).get("hasLimitations", False)
-            )
-            
-            # Validate that we have actual content
-            if not summary.summary.strip():
-                logger.warning(f"Empty summary for page {metadata.page_number}, retrying...")
-                # Retry once with a more explicit prompt
-                retry_message = HumanMessage(content=f"""Please provide a DETAILED analysis and summary of this page:
-
-Page {metadata.page_number}: {metadata.page_name}
+Page Number: {metadata.page_number}
+Page Name: {metadata.page_name}
 Title: {metadata.descriptive_title}
 
 Content: {metadata.content}
 
 You MUST provide:
-1. A detailed multi-paragraph summary (at least 2-3 paragraphs)
-2. At least 3-5 specific key points
-3. Any relevant action items
-4. Note if there are any tables
-5. Note if there are any limitations or restrictions
+1. A detailed multi-paragraph summary of all content
+2. At least 3-5 specific key points about features and benefits
+3. Clear action items or next steps
+4. Explicitly identify if this page contains any benefits tables or plan comparisons
+5. Note any limitations, restrictions, or exclusions
 
-Your response must be detailed and thorough.""")
+Pay special attention to:
+- Tables comparing different plans or benefits
+- Coverage details and limits
+- Cost structures and tiers
+- Special provisions or requirements
+
+Your response must be a valid JSON object with all fields populated.""")
+        
+        # Create and execute chain with better error handling
+        prompt = ChatPromptTemplate.from_messages([system_message, human_message])
+        llm = await get_llm(temperature=0.2, response_format={"type": "json_object"})
+        
+        # Generate summary with retries
+        max_retries = 2
+        for attempt in range(max_retries + 1):
+            try:
+                response = await llm.ainvoke(prompt.format_messages(content=metadata.content))
+                parsed_response = json.loads(response.content)
                 
-                retry_response = await llm.ainvoke([system_message, retry_message])
-                retry_parsed = json.loads(retry_response.content)
+                # Validate response has required fields and structure
+                required_fields = ["page_title", "summary", "tableDetails"]
+                if not all(field in parsed_response for field in required_fields):
+                    raise ValueError(f"Missing required fields. Got: {list(parsed_response.keys())}")
                 
-                summary.summary = retry_parsed.get("summary", "")
-                summary.key_points = retry_parsed.get("key_points", [])
-                summary.action_items = retry_parsed.get("action_items", [])
-                summary.has_tables = retry_parsed.get("tableDetails", {}).get("hasBenefitsTable", False)
-                summary.has_limitations = retry_parsed.get("tableDetails", {}).get("hasLimitations", False)
-            
-            logger.info(f"Generated summary for page {metadata.page_number}")
-            return summary
-            
-        except json.JSONDecodeError:
-            logger.error(f"Failed to parse JSON response for page {metadata.page_number}")
-            logger.error(f"Raw response: {response.content[:500]}...")  # Log first 500 chars
-            return None
+                # Validate tableDetails structure
+                table_details = parsed_response.get("tableDetails", {})
+                if not isinstance(table_details, dict) or not all(key in table_details for key in ["hasBenefitsTable", "hasLimitations"]):
+                    raise ValueError("Invalid tableDetails structure. Must contain hasBenefitsTable and hasLimitations")
+                
+                # Validate field types
+                if not isinstance(parsed_response["page_title"], str):
+                    raise ValueError("page_title must be a string")
+                if not isinstance(parsed_response["summary"], str):
+                    raise ValueError("summary must be a string")
+                if not all(isinstance(x, bool) for x in table_details.values()):
+                    raise ValueError("tableDetails values must be boolean")
+                
+                # Create summary object
+                summary = PageSummary(
+                    page_number=metadata.page_number,
+                    page_name=metadata.page_name,
+                    title=parsed_response["page_title"],
+                    file_path=metadata.file_path,
+                    summary=parsed_response["summary"],
+                    key_points=[],  # No longer needed
+                    action_items=[],  # No longer needed
+                    has_tables=table_details["hasBenefitsTable"],
+                    has_limitations=table_details["hasLimitations"]
+                )
+                
+                # Validate summary has content
+                if not summary.summary.strip():
+                    if attempt < max_retries:
+                        logger.warning(f"Empty summary for page {metadata.page_number}, attempt {attempt + 1}")
+                        continue
+                    else:
+                        raise ValueError("Failed to generate non-empty summary after retries")
+                        
+                logger.info(f"Generated summary for page {metadata.page_number}")
+                return summary
+                
+            except json.JSONDecodeError as e:
+                if attempt < max_retries:
+                    logger.warning(f"JSON parse error on attempt {attempt + 1}: {str(e)}")
+                    continue
+                else:
+                    logger.error(f"Failed to parse JSON response after {max_retries} retries")
+                    return None
+            except Exception as e:
+                if attempt < max_retries:
+                    logger.warning(f"Error on attempt {attempt + 1}: {str(e)}")
+                    continue
+                else:
+                    logger.error(f"Failed after {max_retries} retries: {str(e)}")
+                    return None
+        
+        return None
         
     except Exception as e:
         logger.error(f"Error processing summary for page {metadata.page_number}: {str(e)}")

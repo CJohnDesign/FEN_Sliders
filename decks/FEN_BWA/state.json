@@ -1,0 +1,1267 @@
+{
+  "deck_id": "FEN_BWA",
+  "deck_title": "BWA Americare",
+  "deck_info": {
+    "deck_id": "FEN_BWA",
+    "deck_title": "BWA Americare"
+  },
+  "initial_deck": {
+    "slides": "---\nid: FEN_{{deck_key}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Review\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_{{deck_key}}\" />\n\n# {{ Plan Name }} Review\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## {{ Plan Name }} Overview\n\n<v-clicks>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n- **{{ Benefit Category 1 }}** for various situations\n- **{{ Benefit Category 2 }}** and support tools\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n- **{{ Benefit Category 4 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-clicks>\n\n**{{ Benefit Type 1 }}**\n\n**{{ Benefit Type 2 }}**\n\n**{{ Benefit Type 3 }}**\n\n**{{ Benefit Type 4 }}** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-clicks>\n\n1. Enroll through **{{ Organization }}**\n2. {{ Step 2 }}\n3. {{ Step 3 }}\n4. Receive {{ Document }} **({{ Acronym }})**\n5. {{ Step 5 }}\n6. **{{ Final Outcome }}**\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-clicks>\n\n- **{{ Service 1 }}** Services\n- **{{ Service 2 }}** Programs\n- **{{ Partner }}** provides {{ service_type }}\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-clicks>\n\n- **{{ Feature 1 }}**\n- **{{ Feature 2 }}**\n- **{{ Feature 3 }}** available\n- **{{ Feature 4 }}** to care\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-clicks>\n\n- **{{ Service Style }}** healthcare advocacy\n- **{{ Service 1 }}** assistance\n- **{{ Service 2 }}** options\n- **{{ Service 3 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **{{ Feature 1 }}** benefits\n- **{{ Feature 2 }}** included\n- **{{ Feature 3 }}** benefits\n- **{{ Requirement }}** required\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "scripts": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!",
+    "instructions": "# Instructions\n\n## Plan Tiers Overview\n\nPlans Listed:\n- Plan 2\n- Plan 3\n- Plan 4\n\n**Always include all plans in the summary.**"
+  },
+  "processed_images": {
+    "4": {
+      "page_number": 4,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_004.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_004.jpg",
+      "new_name": "04_error_analyzing_bwabrochureplan3mbr-americare3_rev_page_004jpg.jpg",
+      "new_path": "img/pages/04_error_analyzing_bwabrochureplan3mbr-americare3_rev_page_004jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan3MBR-Americare3_REV_page_004.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 4
+    },
+    "1": {
+      "page_number": 1,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_001.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg",
+      "new_name": "01_error_analyzing_bwabrochureplan3mbr-americare3_rev_page_001jpg.jpg",
+      "new_path": "img/pages/01_error_analyzing_bwabrochureplan3mbr-americare3_rev_page_001jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan3MBR-Americare3_REV_page_001.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 1
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_003.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_003.jpg",
+      "new_name": "03_association_benefits_as_a_member_of_bwa_with_package_details.jpg",
+      "new_path": "img/pages/03_association_benefits_as_a_member_of_bwa_with_package_details.jpg",
+      "page_title": "association_benefits_as_a_member_of_bwa_with_package_details",
+      "summary": "The document outlines the benefits and services available to members of the Business Workers of America Association (BWA). As a member, you and your family are entitled to a comprehensive package of benefits designed to support various needs. This booklet serves as a guide to understanding the range of benefits included with your membership. It emphasizes the importance of these benefits in providing support and security to members and their families. The document is structured to offer clear insights into the entitlements and services that come with being a part of the BWA. It highlights the association's commitment to delivering valuable resources and support to its members.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 3
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_002.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_002.jpg",
+      "new_name": "02_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "new_path": "img/pages/02_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "page_title": "business_workers_of_america_association_mission_and_member_benefits",
+      "summary": "The Business Workers of America Association (BWA) is a not-for-profit member association founded in 2001, dedicated to improving the lives of American workers and their families. The association aims to achieve this mission through various activities and services. These include providing valuable information and education about members' trades or professions, and directing members to federal or state programs that offer financial assistance to enhance their life opportunities. \n\nBWA also represents American workers' interests in influencing federal and state legislation to benefit individuals and their families, aiming for a better lifestyle, higher incomes, and lower healthcare costs. The association makes available healthcare, supplemental benefits, and wellness programs to improve overall family health and wellness. Additionally, BWA supports trade colleges or institutions that offer free or low-cost higher education and skill training programs.\n\nThe association provides scholarships or grants to members or their family members who wish to attend college or trade schools to learn a skill or trade, facilitating entry into professional programs. Furthermore, BWA supports institutions that educate and train workers to meet workplace demands and supports charities aligned with the association's goals and mission.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 2
+    },
+    "7": {
+      "page_number": 7,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_007.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_007.jpg",
+      "new_name": "07_additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits.jpg",
+      "new_path": "img/pages/07_additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits.jpg",
+      "page_title": "additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits",
+      "summary": "The document outlines additional MBR services focusing on Managed Care and White Glove Advocacy. Managed Care primarily aims to reprice and reduce medical provider bills, leveraging one of the nation's largest provider networks. This network includes over 5,500 hospitals, 164,000 ancillary facilities, and 1.3 million healthcare providers across the United States and Puerto Rico, covering over 95% of the US population. The primary advantage for members is the reduction of out-of-pocket costs.\n\nWhite Glove Advocacy provides personalized assistance to members before and after visiting a provider. Advocacy specialists help members find low-cost providers and negotiate medical bill balances after insurance discounts and benefits are applied. They use advanced software and expertise in billing rules to potentially eliminate remaining balances. This service aims to ease the financial burden on members by negotiating with hospitals and providers.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 7
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_006.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_006.jpg",
+      "new_name": "06_referenced_based_pricing_system_with_discounted_medical_bills_and_claim_process.jpg",
+      "new_path": "img/pages/06_referenced_based_pricing_system_with_discounted_medical_bills_and_claim_process.jpg",
+      "page_title": "referenced_based_pricing_system_with_discounted_medical_bills_and_claim_process",
+      "summary": "This document outlines the process for obtaining significant discounts on medical bills through a Referenced Based Pricing system. Members are encouraged to contact MBR before visiting a provider to receive necessary documents and instructions, although this step is not mandatory. At the time of service, members should present their MBR card to the provider. A pre-payment of $25 is required for primary care office visits and $50 for specialist office visits. After the visit, the provider will send the remaining medical bills to MBR for repricing. \n\nTo receive insured benefits, members must complete insurance claim forms, which can be provided by the MBR team along with instructions. Once the bills are submitted for repricing, both the member and the healthcare provider will receive an Explanation of Benefits (EOB) from MBR, detailing the billed amount and any discounts applied. Finally, members will receive a final bill from their medical provider, which should match the amount on the EOB. The insurance company may offer additional funds to cover any outstanding balances. The MBR team is available to assist throughout the entire process.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 6
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_005.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_005.jpg",
+      "new_name": "05_medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits.jpg",
+      "new_path": "img/pages/05_medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits.jpg",
+      "page_title": "medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits",
+      "summary": "The Medical Bill Repricer (MBR) program is designed to simplify the process of visiting a Primary Care Doctor or Specialist by offering pre-payment options. For Primary Care Office Visits, a pre-payment of $25 is required. Similarly, Urgent Care Facility Visits also require a $25 pre-payment, with most facilities providing consultations, lab testing, x-rays, and more. Specialist Doctor Visits have a pre-payment of $50. To maximize savings, it is recommended to choose a network physician.\n\nThe program utilizes PPO Networks, Reference-Based Pricing, and Direct Bill Negotiation to help lower medical bills. However, it is important to note that while MBR strives to assist, it cannot guarantee the outcome of any claim or the amount of savings on any bill. A majority of the time, MBR reprices bills to amounts exceeding Medicare's allowable rate, but medical providers may still decline to honor this service. For assistance, providers can contact MBR at the provided phone number.\n\nTo locate a PHCS network provider, individuals can call the specified number or visit the website. This ensures access to network physicians, which is crucial for achieving the maximum savings offered by the program.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 5
+    },
+    "8": {
+      "page_number": 8,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_008.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_008.jpg",
+      "new_name": "08_medchoice_group_hospital_indemnity_insurance_plan_3_with_benefits_and_limitations.jpg",
+      "new_path": "img/pages/08_medchoice_group_hospital_indemnity_insurance_plan_3_with_benefits_and_limitations.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_plan_3_with_benefits_and_limitations",
+      "summary": "The MedChoice Group Hospital Indemnity Insurance offers a limited benefit policy designed to assist with costs arising from unexpected illnesses or serious accidents. This plan focuses on providing financial support during hospital stays, outpatient surgeries, or treatments in a doctor's office. Key features include coverage for doctor\u2019s office visits, urgent care, outpatient surgery, and hospital stays. The plan allows flexibility in using benefit funds for both medical and non-medical expenses. It is a guarantee issue plan, meaning no medical questions or exams are required, and it offers cost-effective premiums with payroll deduction options.\n\nPlan 3 includes several specific benefits. Hospital admission benefits provide $1,000 per day for a maximum of one day, while hospital confinement benefits offer $300 per day for up to 30 days. Intensive care unit admission benefits are $2,000 per day for one day, and intensive care unit benefits are $500 per day for up to 30 days. Accident and sickness surgery benefits include $500 per day for inpatient surgery and $300 per day for outpatient surgery, both for a maximum of one day. General anesthesia benefits are $125 per day.\n\nOutpatient accident and sickness treatment benefits cover emergency room visits at $300 per day for up to two days, urgent care facilities at $50 per day for up to three days, and physician\u2019s office visits at $50 per day for up to three days. Physical, speech, or occupational therapy facilities are covered at $15 per day for up to five days. The plan includes spouse and dependent child coverage, with no pre-existing condition exclusion period. However, it is not HSA compatible.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 8
+    },
+    "9": {
+      "page_number": 9,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_009.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_009.jpg",
+      "new_name": "09_medchoice_group_hospital_indemnity_insurance_plan_3_with_additional_riders_and_treatments.jpg",
+      "new_path": "img/pages/09_medchoice_group_hospital_indemnity_insurance_plan_3_with_additional_riders_and_treatments.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_plan_3_with_additional_riders_and_treatments",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance Plan 3 offers several additional riders and treatment options. The plan includes a Portability Option Rider, allowing policyholders to maintain their coverage even if they change jobs or leave their employer. However, the Occupational Exclusion Rider is not included, which means that coverage is not restricted based on the policyholder's occupation. The Continuity of Coverage Amendment Rider (Takeover) is included, providing credit for time served under prior coverage specifically for the Pre-Existing Condition Period. This ensures that individuals transitioning from another plan do not face new waiting periods for pre-existing conditions.\n\nIn terms of additional treatment options, the plan covers treatment for serious mental illness, ensuring that policyholders have access to necessary mental health services. Additionally, treatment for alcohol or drug addiction is included, offering support for those seeking recovery from substance abuse. These inclusions highlight the plan's focus on providing comprehensive support for both physical and mental health needs.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 9
+    },
+    "10": {
+      "page_number": 10,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_010.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_010.jpg",
+      "new_name": "10_medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions.jpg",
+      "new_path": "img/pages/10_medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance plan provides specific benefits per covered person, with certain exceptions. Benefits are paid per day, up to a maximum number of days per calendar year, for covered individuals. The plan includes a general anesthesia benefit, payable per day, and a critical illness rider benefit, payable once per covered person annually. Benefit amounts may vary based on the service location, and no benefits are payable during the pre-existing condition exclusion period. A covered person is defined as someone eligible for coverage under the policy, including lawful spouses and children under 26 years of age. Hospitals are defined as institutions for acute care, excluding facilities like nursing homes or rehabilitation centers.\n\nThe plan offers several specific benefits: the Hospital Admission Benefit, payable once per confinement period if admitted as an inpatient; the Hospital Confinement Benefit, payable for each day of inpatient confinement; the Intensive Care Unit (ICU) Admission Benefit, payable once per confinement in an ICU; and the Intensive Care Unit (ICU) Confinement Benefit, payable for each day confined in an ICU. Additional benefits include the Accident & Sickness Surgery Benefit for surgeries due to injury or sickness, the General Anesthesia Benefit for surgeries requiring anesthesia, and the Outpatient Accident & Sickness Treatment Benefit for treatments in emergency or therapy facilities.\n\nExclusions are detailed, including no benefits for losses related to hernia, adenoids, tonsils, or similar conditions within six months of the certificate effective date, or for injuries related to war, military service, or illegal acts. Cosmetic surgeries, treatments for intoxication, and certain reproductive procedures are also excluded. The plan specifies no coverage for injuries during illegal activities or due to self-inflicted harm, and excludes certain pregnancy-related complications unless specified otherwise.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 10
+    },
+    "11": {
+      "page_number": 11,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_011.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_011.jpg",
+      "new_name": "11_medchoice_group_hospital_indemnity_insurance_with_termination_and_continuity_provisions.jpg",
+      "new_path": "img/pages/11_medchoice_group_hospital_indemnity_insurance_with_termination_and_continuity_provisions.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_with_termination_and_continuity_provisions",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance document outlines several key provisions related to the termination and continuity of coverage. Termination of the certificate and any attached riders occurs on the earliest of several specified dates, such as the policy termination date, the date the premium becomes due after the grace period, or when the insured no longer qualifies. Additionally, coverage may end upon the insured's death, with APL potentially covering claims submitted before this event. Riders are subject to all policy provisions and must not conflict with existing terms.\n\nThe document also details a Portability Option Rider, allowing insured individuals to continue coverage under specific conditions unrelated to premium non-payment. This option requires a rider attached to the certificate, and APL will notify the insured of any changes in premium amounts or due dates. Furthermore, the Continuity of Coverage Amendment Rider provides continuity for those previously covered under a different group hospital indemnity plan. This continuity is limited to benefits under the new policy and does not cover losses incurred before the effective date. Employees not previously enrolled must meet all APL policy requirements.\n\nThe policy includes limitations, exclusions, and a waiting period, and is not suitable for individuals eligible for Medicaid. It is considered an employee welfare benefit plan under ERISA guidelines, with specific tax implications if premiums are paid pre-tax.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 11
+    },
+    "15": {
+      "page_number": 15,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_015.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_015.jpg",
+      "new_name": "15_access_your_employee_perks_program_with_savings_on_electronics_appliances_and_more.jpg",
+      "new_path": "img/pages/15_access_your_employee_perks_program_with_savings_on_electronics_appliances_and_more.jpg",
+      "page_title": "access_your_employee_perks_program_with_savings_on_electronics_appliances_and_more",
+      "summary": "The document introduces the Employee Perks Program, designed to enhance personal and financial well-being through exclusive deals and limited-time offers. It highlights the variety of products, services, and experiences available, aiming to provide more perks and savings to employees. The program offers discounts on a wide range of categories including electronics, appliances, apparel, cars, flowers, fitness memberships, gift cards, groceries, hotels, movie tickets, rental cars, special events, and theme parks. \n\nTo get started with the Working Advantage program, new users are guided through a simple three-step process. First, they are directed to visit the Working Advantage website. Next, they are instructed to click on 'Become a Member.' Finally, they must enter their company code or work email to create an account. The company code provided for access is 'BWAAPERKS.' For any assistance, users are encouraged to contact customer service via email.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 15
+    },
+    "12": {
+      "page_number": 12,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_012.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_012.jpg",
+      "new_name": "12_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount_and_no_restrictions.jpg",
+      "new_path": "img/pages/12_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount_and_no_restrictions.jpg",
+      "page_title": "prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount_and_no_restrictions",
+      "summary": "This document outlines the features and benefits of the Free Rx Coupon Card provided by the Business Workers of America Association. The card offers significant savings on prescription medications, allowing users to save up to 80% on their purchases. It is a free pharmacy coupon card that can be used at over 68,000 pharmacies nationwide, including major chains such as CVS, Walmart, Walgreens, and Rite Aid. The card provides discounts on both brand and generic drugs, making it a versatile option for a wide range of prescriptions.\n\nThe card is pre-activated, meaning it can be used immediately without any additional steps. Users simply need to bring the discount coupon card to their pharmacy and present it to the pharmacist when paying for their prescriptions. The program is designed to be user-friendly, with no restrictions and full HIPAA compliance, ensuring privacy and ease of use.\n\nIt is important to note that this program is not insurance, but rather a discount service that provides substantial savings on prescription costs. The card is provided at no cost to the user, and there are no hidden fees or charges associated with its use.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 12
+    },
+    "13": {
+      "page_number": 13,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_013.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_013.jpg",
+      "new_name": "13_bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings.jpg",
+      "new_path": "img/pages/13_bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings.jpg",
+      "page_title": "bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings",
+      "summary": "The Business Workers of America Association (BWA) has partnered with HealthWarehouse.com to offer significant savings on prescription medications. Customers can save between 30% to 90% on their prescriptions by utilizing this service. The process for ordering is straightforward, allowing customers to check medication prices online or contact the service via phone. This partnership aims to provide affordable pricing by eliminating unnecessary costs between manufacturers and customers. \n\nHealthWarehouse.com leverages technology and efficient sourcing to reduce costs, avoiding the overhead associated with traditional retail pharmacy chains. This approach allows them to offer lower prices without the need to artificially inflate prescription drug costs to meet insurance reimbursement requirements. The savings are directly passed on to the patients, ensuring cost-effective access to necessary medications. \n\nThe service emphasizes compassion, convenience, and transparency, aiming to provide a seamless experience for users seeking affordable medication options. By focusing on these core values, HealthWarehouse.com and BWA strive to meet the needs of their customers effectively.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 13
+    },
+    "14": {
+      "page_number": 14,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_014.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_014.jpg",
+      "new_name": "14_lab_services_with_direct_access_to_clinical_labs_and_discounted_prices.jpg",
+      "new_path": "img/pages/14_lab_services_with_direct_access_to_clinical_labs_and_discounted_prices.jpg",
+      "page_title": "lab_services_with_direct_access_to_clinical_labs_and_discounted_prices",
+      "summary": "The document outlines the lab services provided by DirectLabs, offering direct access to major clinical labs across the USA for essential blood tests at discounted prices. These services are designed to detect serious medical conditions such as heart disease, prostate cancer, diabetes, and thyroid disease, which can often go undetected for up to two years. The service allows individuals to take charge of their health without the need for a doctor's appointment, offering savings of up to 80% off typical lab costs. DirectLabs services include blood, urine, saliva, hair, and fecal tests.\n\nTo use the service, individuals can order online by creating an account on the DirectLabs website, which allows them to place orders, sign HIPAA forms, and view results. After ordering, a requisition is generated and uploaded to the online account, with results available within 24-48 hours. Alternatively, orders can be placed by phone, with similar steps for account creation and result retrieval. The document emphasizes that the discount program is not health insurance and is only available in certain states, excluding NJ, NY, and RI.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 14
+    },
+    "16": {
+      "page_number": 16,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_016.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_016.jpg",
+      "new_name": "16_learn_all_year_long_with_10_percent_discount_on_live_online_seminars.jpg",
+      "new_path": "img/pages/16_learn_all_year_long_with_10_percent_discount_on_live_online_seminars.jpg",
+      "page_title": "learn_all_year_long_with_10_percent_discount_on_live_online_seminars",
+      "summary": "This page highlights the opportunity to learn throughout the year with a 10% discount on all live online seminars. It emphasizes the availability of training in over 20 business categories, including communication, Excel, HR, leadership, and project management. Participants can earn certifications and credits such as NASBA, OSHA, PMI, and SHRM, including CEU, CPE, HRCI, PDC, and PDU credits. The seminars offer flexible scheduling options, with both half-day and full-day sessions available. An express code is provided to receive pricing changes in the cart, enhancing the accessibility and affordability of these educational opportunities.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 16
+    },
+    "19": {
+      "page_number": 19,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_019.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_019.jpg",
+      "new_name": "19_error_analyzing_bwabrochureplan3mbr-americare3_rev_page_019jpg.jpg",
+      "new_path": "img/pages/19_error_analyzing_bwabrochureplan3mbr-americare3_rev_page_019jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan3MBR-Americare3_REV_page_019.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 19
+    },
+    "20": {
+      "page_number": 20,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_020.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_020.jpg",
+      "new_name": "20_error_analyzing_bwabrochureplan3mbr-americare3_rev_page_020jpg.jpg",
+      "new_path": "img/pages/20_error_analyzing_bwabrochureplan3mbr-americare3_rev_page_020jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan3MBR-Americare3_REV_page_020.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 20
+    },
+    "17": {
+      "page_number": 17,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_017.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_017.jpg",
+      "new_name": "17_allheart_member_discounts_and_uniform_services_with_personalized_options.jpg",
+      "new_path": "img/pages/17_allheart_member_discounts_and_uniform_services_with_personalized_options.jpg",
+      "page_title": "allheart_member_discounts_and_uniform_services_with_personalized_options",
+      "summary": "The page outlines the services and benefits offered by Allheart, focusing on providing quality products and services to students and medical professionals. It emphasizes the importance of equipping individuals from head to toe for convenience and value. Members can access discounts by visiting the Allheart website and entering a specific code. \n\nThe page highlights several key services, including a dedicated account manager who collaborates with businesses to develop tailored programs. It also offers customer logo and embroidery services to enhance professional appearance and brand consistency. Personalized ordering options are available, allowing for customized websites to ensure timely delivery and satisfaction. \n\nOn-site fittings are provided to eliminate guesswork in sizing and color, ensuring the right product fit. Additionally, Allheart offers a one-stop shop with a large selection of medical apparel and equipment, such as scrubs, lab coats, stethoscopes, and diagnostic tools. The mission is to make groups look and feel their best through expert uniform services.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 17
+    },
+    "23": {
+      "page_number": 23,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_023.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_023.jpg",
+      "new_name": "23_error_analyzing_bwabrochureplan4mbr-americare4_rev_page_023jpg.jpg",
+      "new_path": "img/pages/23_error_analyzing_bwabrochureplan4mbr-americare4_rev_page_023jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan4MBR-Americare4_REV_page_023.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 23
+    },
+    "21": {
+      "page_number": 21,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_021.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_021.jpg",
+      "new_name": "21_error_analyzing_bwabrochureplan4mbr-americare4_rev_page_021jpg.jpg",
+      "new_path": "img/pages/21_error_analyzing_bwabrochureplan4mbr-americare4_rev_page_021jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan4MBR-Americare4_REV_page_021.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 21
+    },
+    "18": {
+      "page_number": 18,
+      "original_name": "BWABrochurePlan3MBR-Americare3_REV_page_018.jpg",
+      "original_path": "img/pages/BWABrochurePlan3MBR-Americare3_REV_page_018.jpg",
+      "new_name": "18_allheart_group_solutions_uniform_program_with_management_and_discounts.jpg",
+      "new_path": "img/pages/18_allheart_group_solutions_uniform_program_with_management_and_discounts.jpg",
+      "page_title": "allheart_group_solutions_uniform_program_with_management_and_discounts",
+      "summary": "The Allheart Group Solutions page outlines a uniform program designed to assist teams in looking and feeling their best. The program is supported by dedicated account managers who understand the specific needs of each team, providing guidance throughout the uniform selection process. High-quality embroidery options are available to enhance the professional appearance of uniforms. The program emphasizes reliability and helpfulness, ensuring support is available when needed most. The goal is to ensure that those who care for others are presented in the best possible way.\n\nAdditionally, the program offers a simplified management system for overseeing product inventory and customizing shipping options. This is facilitated through a user-friendly portal, making the process efficient and straightforward. Members can access exclusive discounts by visiting the Allheart website and entering a specific code, enhancing the value of the program for participating teams.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan3MBR-Americare3_REV",
+      "global_page_num": 18
+    },
+    "22": {
+      "page_number": 22,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_022.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_022.jpg",
+      "new_name": "22_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "new_path": "img/pages/22_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "page_title": "business_workers_of_america_association_mission_and_member_benefits",
+      "summary": "The Business Workers of America Association, established in 2001, is a not-for-profit member association dedicated to enhancing the lives of American workers and their families. The association aims to achieve this mission through various activities and services. These include providing valuable information and education about members' trades or professions, and directing members to federal or state programs that offer financial assistance to improve their life opportunities. \n\nThe association also represents American workers' interests in influencing federal and state legislation to benefit individuals and their families, aiming for a better lifestyle, higher incomes, and lower healthcare costs. Additionally, it makes healthcare, supplemental benefits, and wellness programs available to improve overall health and wellness. \n\nSupport is extended to trade colleges or institutions offering free or low-cost higher education and skill training programs. The association also supports institutions that educate and train workers to meet workplace demands. Scholarships or grants are provided to members or their family members for college or trade school education, enabling them to learn a skill or trade. Furthermore, the association supports charities aligned with its goals and mission.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 22
+    },
+    "24": {
+      "page_number": 24,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_024.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_024.jpg",
+      "new_name": "24_medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits.jpg",
+      "new_path": "img/pages/24_medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits.jpg",
+      "page_title": "medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits",
+      "summary": "The Medical Bill Repricer (MBR) program offers a simplified process for visiting primary care doctors and specialists. It provides a structured pre-payment system to help manage medical expenses effectively. For primary care office visits, a pre-payment of $25 is required. This same amount applies to urgent care facility visits, where most facilities offer consultations, lab testing, and x-rays. Specialist doctor visits require a $50 pre-payment. \n\nTo maximize savings, it is recommended to choose a network physician. The program utilizes PPO Networks, Reference-Based Pricing, and Direct Bill Negotiation to help lower medical bills. However, it is important to note that while MBR strives to assist, it cannot guarantee the outcome of any claim or the amount of savings on any bill. A majority of the time, MBR reprices bills to amounts exceeding Medicare's allowable rate, but medical providers may still decline to honor this service. For assistance, providers can contact MBR at the provided phone number.\n\nTo locate a PHCS network provider, individuals can call the specified number or visit the MultiPlan website. This program is designed to offer financial predictability and ease of access to medical services, though it does not cover all potential medical expenses.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 24
+    },
+    "25": {
+      "page_number": 25,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_025.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_025.jpg",
+      "new_name": "25_referenced_based_pricing_system_with_steps_for_discounted_medical_bills.jpg",
+      "new_path": "img/pages/25_referenced_based_pricing_system_with_steps_for_discounted_medical_bills.jpg",
+      "page_title": "referenced_based_pricing_system_with_steps_for_discounted_medical_bills",
+      "summary": "This document outlines the process for obtaining significant discounts on medical bills through a Referenced Based Pricing system. Members are encouraged to contact MBR before visiting a provider to receive necessary documents and instructions, although this step is not mandatory. Upon visiting a provider, members should present their MBR card at the time of service. A pre-payment of $25 is required for Primary Care Office Visits and $50 for Specialist Office Visits. Providers will then send the remaining medical bills to MBR for repricing. \n\nMembers must complete insurance claim forms to access insured benefits, with assistance available from the MBR team. After bills are submitted for repricing, both the member and healthcare provider will receive an Explanation of Benefits (EOB) from MBR, detailing the billed amount and any discounts applied. Finally, members will receive a final bill from their medical provider, which should match the amount on the EOB. Insurance companies may provide additional funds to cover any outstanding balances.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 25
+    },
+    "26": {
+      "page_number": 26,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_026.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_026.jpg",
+      "new_name": "26_additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits.jpg",
+      "new_path": "img/pages/26_additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits.jpg",
+      "page_title": "additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits",
+      "summary": "The document outlines additional MBR services focusing on Managed Care and White Glove Advocacy. Managed Care primarily aims to reprice and reduce medical provider bills, offering members access to a vast network of healthcare providers. This network includes over 5,500 hospitals, 164,000 ancillary facilities, and more than 1.3 million healthcare providers across the United States and Puerto Rico, covering over 95% of the US population. The primary advantage for members is the reduction of out-of-pocket costs.\n\nWhite Glove Advocacy provides personalized assistance to members before and after visiting a provider. Advocacy specialists help members find low-cost providers and negotiate medical bill balances after insurance is applied. They utilize advanced software and billing expertise to potentially eliminate remaining balances. This service ensures members receive financial assistance and support in managing healthcare expenses effectively.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 26
+    },
+    "27": {
+      "page_number": 27,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_027.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_027.jpg",
+      "new_name": "27_medchoice_group_hospital_indemnity_insurance_plan_4_with_benefits_and_coverage_details.jpg",
+      "new_path": "img/pages/27_medchoice_group_hospital_indemnity_insurance_plan_4_with_benefits_and_coverage_details.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_plan_4_with_benefits_and_coverage_details",
+      "summary": "The MedChoice Group Hospital Indemnity Insurance offers a limited benefit policy designed to assist with costs associated with unexpected illnesses or serious accidents. This plan provides coverage for hospital stays, outpatient surgeries, and treatments in a doctor's office. Key features include coverage for doctor's office visits, urgent care, outpatient surgery, and hospital stays. The plan allows flexibility in using benefit funds for both medical and non-medical expenses. It is a guarantee issue plan, meaning no medical questions or exams are required, and it offers cost-effective premiums with convenient payroll deduction.\n\nPlan 4 includes several specific benefits. Hospital admission benefits are set at $2,000 per day with a maximum of one day. Hospital confinement benefits provide $500 per day for up to 30 days. Intensive care unit admission and care unit benefits are also $2,000 and $500 per day, respectively, with similar duration limits. Accident and sickness surgery benefits include $750 per day for inpatient surgery and $400 per day for outpatient surgery, each with a one-day maximum. General anesthesia benefits are $300 per day. Outpatient accident and sickness treatment benefits cover emergency room visits at $500 per day for up to two days, urgent care facilities at $75 per day for up to five days, and physician's office visits at $75 per day for up to five days.\n\nThe plan is not HSA compatible but does offer spouse and dependent child coverage. There is no pre-existing condition period or exclusion period applicable, and pregnancy coverage is included.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 27
+    },
+    "28": {
+      "page_number": 28,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_028.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_028.jpg",
+      "new_name": "28_medchoice_group_hospital_indemnity_insurance_plan_4_with_benefits_and_exclusions.jpg",
+      "new_path": "img/pages/28_medchoice_group_hospital_indemnity_insurance_plan_4_with_benefits_and_exclusions.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_plan_4_with_benefits_and_exclusions",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance Plan 4 provides specific benefits for various medical services. For physical, speech, or occupational therapy facilities, the plan offers $75 per day, with a maximum of 5 days covered. Minor diagnostic exams are covered at $100 per day for a maximum of 1 day, while major diagnostic exams receive $500 per day, also limited to 1 day. Ambulance benefits are included, with ground transportation covered at $500 per day for 1 day and air transportation at $1,000 per day for 1 day.\n\nAdditional riders include the Portability Option Rider, which is included, while the Occupational Exclusion Rider and Continuity of Coverage Amendment Rider (Takeover) are not included. The plan does not cover treatment for serious mental illness or treatment for alcohol or drug addiction, indicating specific exclusions.\n\nThis plan outlines clear benefits and exclusions, providing a structured approach to coverage. The limitations on the number of days and specific exclusions highlight the need for careful consideration of individual healthcare needs when selecting this plan.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 28
+    },
+    "30": {
+      "page_number": 30,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_030.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_030.jpg",
+      "new_name": "30_medchoice_group_hospital_indemnity_insurance_with_limitations_and_exclusions.jpg",
+      "new_path": "img/pages/30_medchoice_group_hospital_indemnity_insurance_with_limitations_and_exclusions.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_with_limitations_and_exclusions",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance plan outlines specific exclusions and limitations that apply to the coverage. Notably, the plan excludes coverage for services related to in vitro fertilization, sterilization, and abortion, except in cases where the life of the mother is endangered. It also excludes treatment for serious mental illnesses without demonstrable organic disease, alcohol or drug addiction, and services not legally required, such as those covered by Medicaid or provided in Veterans Administration hospitals. Additionally, the plan does not cover injuries or illnesses resulting from participation in riots, civil disobedience, or unlawful assembly, nor does it cover injuries sustained while participating in certain high-risk activities like parachuting or hang gliding.\n\nThe plan includes an occupational exclusion rider, which specifies that accidents and sicknesses arising out of and in the course of employment are not covered if benefits are available under Workers' Compensation or similar laws. The termination of the certificate is outlined, with coverage ending on the earliest of several specified dates, such as the date the policy terminates or the date the premium becomes due and unpaid. An additional rider provision allows for the attachment of riders that modify the policy's terms, and a portability option rider is available for coverage continuation under certain conditions.\n\nThe document emphasizes that the product is not suitable for individuals eligible for Medicaid coverage and is considered an employee welfare benefit plan under ERISA guidelines. It also notes that if the premium is paid on a pre-tax basis, the benefit may be taxable, advising consultation with a tax or legal advisor for further guidance.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 30
+    },
+    "31": {
+      "page_number": 31,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_031.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_031.jpg",
+      "new_name": "31_free_rx_coupon_card_with_prescription_savings_and_pharmacy_acceptance_details.jpg",
+      "new_path": "img/pages/31_free_rx_coupon_card_with_prescription_savings_and_pharmacy_acceptance_details.jpg",
+      "page_title": "free_rx_coupon_card_with_prescription_savings_and_pharmacy_acceptance_details",
+      "summary": "This page introduces a Free Rx Coupon Card provided by the Business Workers of America Association, designed to offer significant savings on prescription medications. The card allows users to save up to 80% on prescriptions, providing a cost-effective solution for both brand and generic drugs. It is accepted at over 68,000 pharmacies nationwide, ensuring wide accessibility and convenience for users. The program highlights include the absence of restrictions and full HIPAA compliance, making it a straightforward and secure option for prescription savings.\n\nThe card is pre-activated, allowing immediate use to maximize savings on prescription drugs. Users are instructed to bring the discount coupon card to their pharmacy and present it to the pharmacist when paying to benefit from the savings. The card is not an insurance program but serves as a discount tool to reduce out-of-pocket expenses for medications. Participating pharmacies include major chains such as CVS, Walmart, Walgreens, and Rite Aid, among others, ensuring that users have multiple options for utilizing the card.\n\nOverall, the Free Rx Coupon Card offers a practical and accessible way to reduce prescription costs without the complexities of insurance plans. It emphasizes ease of use and broad acceptance, making it a valuable resource for individuals seeking to manage their medication expenses effectively.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 31
+    },
+    "32": {
+      "page_number": 32,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_032.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_032.jpg",
+      "new_name": "32_bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings.jpg",
+      "new_path": "img/pages/32_bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings.jpg",
+      "page_title": "bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings",
+      "summary": "The Business Workers of America Association (BWA) has partnered with HealthWarehouse.com to offer significant savings on prescription medications. Customers can save between 30% to 90% on their prescriptions by utilizing this service. The process for ordering is straightforward, allowing customers to check medication prices online or contact the service via phone. The partnership focuses on reducing costs by eliminating layers between the manufacturer and the customer. This is achieved through the use of proprietary software that processes prescription products efficiently and cost-effectively. \n\nHealthWarehouse.com operates without the substantial overhead costs associated with traditional retail pharmacy chains. This allows them to avoid artificially inflating prescription drug costs to meet insurance reimbursement requirements. As a result, they can maintain low costs and pass these savings directly to patients. The service emphasizes compassion, convenience, and transparency in its operations, ensuring that customers receive affordable and accessible medication options.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 32
+    },
+    "29": {
+      "page_number": 29,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_029.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_029.jpg",
+      "new_name": "29_medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions.jpg",
+      "new_path": "img/pages/29_medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance plan provides specific benefits per day, up to a maximum number of days per calendar year, for each covered person. Benefits include a general anesthesia benefit, payable per day, and a critical illness rider benefit, payable once per covered person annually. Benefit amounts may vary based on the place of service, and no benefits are payable during the pre-existing condition exclusion period. Coverage extends to eligible dependents, including spouses and children under 26 years of age, with specific conditions for eligibility.\n\nThe plan outlines several specific benefits, including the Hospital Admission Benefit, which is payable once per period of confinement if a covered person is admitted as an inpatient. The Hospital Confinement Benefit is payable for each day a person is confined as an inpatient due to injury or sickness. Intensive Care Unit (ICU) Admission and Confinement Benefits are also detailed, with specific conditions for payment based on the type of ICU and the nature of the confinement.\n\nAdditional benefits include the Accident & Sickness Surgery Benefit, which covers surgical procedures performed as an inpatient or outpatient due to injury or sickness. The General Anesthesia Benefit is payable when surgery is performed, and the Outpatient Accident & Sickness Treatment Benefit covers treatment in various facilities. The plan also includes a Major Diagnostic Exam Benefit and an Ambulance Benefit, with specific conditions for payment.\n\nThe document lists several exclusions, such as no benefits for losses resulting from specific conditions or activities, including hernia, varicose veins, and injuries incurred while engaging in illegal activities. Other exclusions cover surgeries related to congenital defects, intoxication, and experimental treatments. The plan specifies that no benefits are payable for losses occurring within six months of the certificate effective date unless due to an emergency.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 29
+    },
+    "33": {
+      "page_number": 33,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_033.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_033.jpg",
+      "new_name": "33_lab_services_usage_instructions_with_directlabs_benefits_and_ordering_options.jpg",
+      "new_path": "img/pages/33_lab_services_usage_instructions_with_directlabs_benefits_and_ordering_options.jpg",
+      "page_title": "lab_services_usage_instructions_with_directlabs_benefits_and_ordering_options",
+      "summary": "This document provides detailed instructions on how to utilize lab services through DirectLabs, highlighting the benefits and ordering options available. DirectLabs offers access to major clinical labs across the USA, allowing individuals to conduct important blood tests without the need for a doctor's appointment. Tests are available at a discount of up to 80% off typical lab costs, using the same CLIA-certified labs as physicians. Services include blood, urine, saliva, hair, and fecal tests.\n\nOrdering can be done online or by phone. For online orders, users must create an account on the DirectLabs website, allowing them to place orders, sign HIPAA forms, print requisitions, and view results. After ordering, a requisition is generated and uploaded to the user's account, with an email notification sent when it's ready for printing. If an 'at home' kit is ordered, it will be mailed to the provided address. Results are typically available within 24-48 hours.\n\nFor phone orders, users call a specified number and provide a code. An account is created automatically, and users provide personal and payment information. The process for receiving requisitions and results is similar to online ordering. The document notes that services are not available in NJ, NY, and RI, and emphasizes that this is a discount program, not insurance.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 33
+    },
+    "35": {
+      "page_number": 35,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_035.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_035.jpg",
+      "new_name": "35_error_analyzing_bwabrochureplan4mbr-americare4_rev_page_035jpg.jpg",
+      "new_path": "img/pages/35_error_analyzing_bwabrochureplan4mbr-americare4_rev_page_035jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan4MBR-Americare4_REV_page_035.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 35
+    },
+    "37": {
+      "page_number": 37,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_037.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_037.jpg",
+      "new_name": "37_echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee.jpg",
+      "new_path": "img/pages/37_echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee.jpg",
+      "page_title": "echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee",
+      "summary": "The Echo-Sigma Emergency Systems page highlights a 10% savings offer on their emergency kits, emphasizing the ease of use and practicality of their products. These kits are designed for enthusiasts who prefer not to undergo extensive training, ensuring they are user-friendly while maintaining high quality. The page also features a 100% satisfaction guarantee, allowing customers to return any emergency kit within 60 days for a full refund if they are not completely satisfied. This policy includes covering return postage, underscoring the company's commitment to customer satisfaction. The page encourages potential buyers by assuring them of the thoughtful design and quality of the kits, reinforcing the confidence in their purchase decision. Additionally, a 10% discount is available with the use of a specific coupon code, further incentivizing purchases.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 37
+    },
+    "34": {
+      "page_number": 34,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_034.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_034.jpg",
+      "new_name": "34_learn_all_year_long_with_10_percent_discount_on_live_online_seminars.jpg",
+      "new_path": "img/pages/34_learn_all_year_long_with_10_percent_discount_on_live_online_seminars.jpg",
+      "page_title": "learn_all_year_long_with_10_percent_discount_on_live_online_seminars",
+      "summary": "This page promotes a 10% discount on all live online seminars available throughout the year. It highlights the opportunity to train in over 20 business categories, including Communication, Excel, HR, Leadership, and Project Management. The seminars offer flexible scheduling options, with both half-day and full-day sessions available to accommodate various needs. Participants can earn certifications such as NASBA, OSHA, PMI, and SHRM, with credits including CEU, CPE, HRCI, PDC, and PDU. The page encourages users to enter an express code for pricing changes and provides a link to register for the seminars.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 34
+    },
+    "38": {
+      "page_number": 38,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_038.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_038.jpg",
+      "new_name": "38_employee_perks_program_with_savings_on_electronics_appliances_and_more.jpg",
+      "new_path": "img/pages/38_employee_perks_program_with_savings_on_electronics_appliances_and_more.jpg",
+      "page_title": "employee_perks_program_with_savings_on_electronics_appliances_and_more",
+      "summary": "This page introduces the Employee Perks Program offered by the Business Workers of America Association, emphasizing the benefits of accessing exclusive deals and limited-time offers. The program is designed to enhance personal and financial well-being by providing savings on a wide range of products and services. Key areas where members can start saving include electronics, appliances, apparel, cars, and theme parks. Additionally, the program offers discounts on gift cards, groceries, hotels, movie tickets, and flowers. Fitness memberships, rental cars, special events, and more are also included in the savings opportunities.\n\nThe page outlines a simple three-step process to get started with the program. First, individuals are directed to visit the website workingadvantage.com. Next, they are encouraged to click on 'Become a Member' to join the program. Finally, they must enter their company code or work email to create an account. The company code provided for access is 'BWAAPERKS'. This straightforward process ensures easy access to the perks and savings available through the program.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 38
+    },
+    "36": {
+      "page_number": 36,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_036.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_036.jpg",
+      "new_name": "36_allheart_group_solutions_uniform_program_with_management_and_discounts.jpg",
+      "new_path": "img/pages/36_allheart_group_solutions_uniform_program_with_management_and_discounts.jpg",
+      "page_title": "allheart_group_solutions_uniform_program_with_management_and_discounts",
+      "summary": "The Allheart Group Solutions focuses on providing uniform solutions tailored to help teams look and feel their best. The program is supported by dedicated account managers who understand the specific needs of each client, ensuring a seamless experience. High-quality embroidery services are offered to enhance the professional appearance of uniforms, empowering the wearers. The company prides itself on reliability and helpfulness, aiming to support clients whenever needed. The goal is to ensure that those who care for others are presented in the best possible way.\n\nThe uniform program is designed to simplify management by overseeing product inventory and offering customizable shipping options through a user-friendly portal. This approach reduces the complexity often associated with uniform management, making it easier for organizations to maintain their uniform standards.\n\nAdditionally, Allheart provides access to member discounts through their website. By visiting the specified URL and entering a unique code, members can enjoy reduced prices on their purchases, further enhancing the value of the program.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 36
+    },
+    "39": {
+      "page_number": 39,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_039.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_039.jpg",
+      "new_name": "39_additional_discount_benefits_and_services_access_instructions_for_bwa_members.jpg",
+      "new_path": "img/pages/39_additional_discount_benefits_and_services_access_instructions_for_bwa_members.jpg",
+      "page_title": "additional_discount_benefits_and_services_access_instructions_for_bwa_members",
+      "summary": "This document introduces new members of the Business Workers of America (BWA) to a package of additional discount benefits and services. As a not-for-profit member association, BWA is committed to enhancing the lives of American workers and their families. The document outlines the steps necessary for members to access and utilize these benefits effectively. Members are encouraged to visit a specified website to find detailed information about their benefits. To access the site, members must enter their Group Number, Unique Member Number, and Zip Code. These credentials are found on the member ID card. The document emphasizes the importance of understanding how to access and use the benefits provided. For further assistance, members can contact the Member Service using the phone number on their ID card.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 39
+    },
+    "40": {
+      "page_number": 40,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_040.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_040.jpg",
+      "new_name": "40_members_save_25_percent_on_lets_get_checked_home_tests_excluding_covid.jpg",
+      "new_path": "img/pages/40_members_save_25_percent_on_lets_get_checked_home_tests_excluding_covid.jpg",
+      "page_title": "members_save_25_percent_on_lets_get_checked_home_tests_excluding_covid",
+      "summary": "This page highlights a special offer for members, providing a 25% discount on most 'Let's Get Checked' home tests, with the exception of COVID tests. The promotion emphasizes the importance of personal health awareness, encouraging individuals to 'Know your health. Know yourself.' Members can choose from over 30 home health tests, which are designed to be convenient and accessible. The offer includes free shipping both ways, ensuring that members can easily send and receive their test kits without additional costs. Furthermore, the tests promise accurate lab results within 2 to 5 days, allowing members to quickly gain insights into their health status. The page visually supports the offer with images of various test kits available, such as pregnancy and allergy tests, reinforcing the variety and utility of the service.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 40
+    },
+    "42": {
+      "page_number": 42,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_042.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_042.jpg",
+      "new_name": "42_online_fitness_and_nutrition_program_with_six_week_modules_and_ongoing_support.jpg",
+      "new_path": "img/pages/42_online_fitness_and_nutrition_program_with_six_week_modules_and_ongoing_support.jpg",
+      "page_title": "online_fitness_and_nutrition_program_with_six_week_modules_and_ongoing_support",
+      "summary": "The online fitness and nutrition program is designed to be fully accessible without the need for downloads or special equipment, making it compatible with phones, tablets, and desktops. The program is structured in six-week modules, beginning with an orientation week to familiarize participants with the online campus and initial lessons. This is followed by five weeks of education, accountability, and support aimed at weight loss and the reduction of unwanted fat. Each subsequent module starts with a transition week, followed by focused weeks for either maintaining weight loss or further reducing fat.\n\nThe program emphasizes a balanced lifestyle, incorporating nutritional, physical, and emotional fitness to keep participants engaged and achieving their weight goals with coaching support. Unlike traditional short-term diets, this program is ongoing, with new modules starting every six weeks. The first week of each module is a transition period, followed by five weeks of active engagement, supported by research and evidence.\n\nThe program highlights the importance of continuous education and support, noting that individuals who have lost significant weight have a low chance of maintaining it without ongoing assistance. Successful participants are encouraged to maintain the program and support team until they have sustained their goal weight for at least four years.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 42
+    },
+    "41": {
+      "page_number": 41,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_041.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_041.jpg",
+      "new_name": "41_online_fitness_center_with_weight_management_and_education_benefits.jpg",
+      "new_path": "img/pages/41_online_fitness_center_with_weight_management_and_education_benefits.jpg",
+      "page_title": "online_fitness_center_with_weight_management_and_education_benefits",
+      "summary": "The Online Fitness Center (OFC), in collaboration with Leanness Lifestyle University, provides a structured approach to weight management through online lifestyle education. The program is designed to facilitate permanent weight management by utilizing progressive, ongoing, six-week, step-by-step wellness-education modules. Students can expect to lose up to 10 pounds in their first week and up to 10% of their starting weight within six weeks. The program aims for a total weight loss of up to 89 pounds in 18 weeks, focusing on sustainable strategies for maintaining weight loss.\n\nFounded in 1999 by David Greenwalt, a Certified Wellness Coach, Leanness Lifestyle University has educated industry leaders globally for over two decades. The program caters to a diverse audience, including Fortune 500 executives, healthcare professionals, and educators, providing them with the tools to manage their nutrition, activity, and lifestyle behaviors effectively.\n\nThe OFC program is entirely online, emphasizing education beyond simple calorie counting. It aims to empower students to take control of their health and achieve lasting weight loss. The program's comprehensive approach is designed to be the final solution for those seeking to manage their weight effectively.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 41
+    },
+    "43": {
+      "page_number": 43,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_043.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_043.jpg",
+      "new_name": "43_online_fitness_nutrition_coach_mentoring_support_with_effective_tools_and_apps.jpg",
+      "new_path": "img/pages/43_online_fitness_nutrition_coach_mentoring_support_with_effective_tools_and_apps.jpg",
+      "page_title": "online_fitness_nutrition_coach_mentoring_support_with_effective_tools_and_apps",
+      "summary": "The OFC program offers students access to Wellness Coaches and graduate mentors for personalized support. Participants can ask questions related to nutrition, exercise, or fitness and receive a qualified response within one business day. This program provides a unique feature missing from popular fitness apps: a coach who analyzes, understands, and provides feedback on user inputs. The program facilitates food and activity tracking, personalized feedback, motivation, accountability, and lifestyle management, similar to in-person group behavioral programs but at a reduced cost.\n\nMembers benefit from fun and effective tools and apps, including text support services designed to keep them motivated. For instance, members receive motivational texts when tempted to deviate from their plans. Additionally, daily healthy motivation texts are sent at optimal times to maintain focus. The program also includes access to high-quality audio for cardio workouts, guided by a Cardio Coach, Sean O'Malley, who assists with any cardio-based workout using any equipment. Furthermore, members can access audio-guided strength training from the founder, David Greenwalt, and tools for creating safe and effective strength-training routines using minimal equipment.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 43
+    },
+    "44": {
+      "page_number": 44,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_044.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_044.jpg",
+      "new_name": "44_online_fitness_and_nutrition_review_of_ofc_benefits_for_proactive_members.jpg",
+      "new_path": "img/pages/44_online_fitness_and_nutrition_review_of_ofc_benefits_for_proactive_members.jpg",
+      "page_title": "online_fitness_and_nutrition_review_of_ofc_benefits_for_proactive_members",
+      "summary": "The document outlines the benefits of the Online Fitness and Nutrition program, specifically designed for proactive members who value their health. It emphasizes the importance of reducing excess weight, highlighting that this initiative impacts various facets of health and wellness. The program, established in 1999, is continuously refined to provide evidence-based lifestyle education aimed at permanent weight management. Key features include privacy and anonymity, eliminating the need for in-person meetings, travel, special foods, or diet pills. The program also offers a strength and cardio exercise regimen to enhance calorie burn, strength, and mental sharpness.\n\nAdditional benefits include personalized coaching for accountability and motivation, as well as group support through on-campus lounges and private Facebook groups. The program provides an organized system for tracking and reporting progress, fostering new friendships that may last a lifetime. To kickstart the journey, participants receive a free body-transformation textbook titled 'The Leanness Lifestyle' by David, serving as a Nutrition and Exercise Quick Start guide.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 44
+    },
+    "45": {
+      "page_number": 45,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_045.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_045.jpg",
+      "new_name": "45_online_health_manager_with_benefit_description_health_tracker_and_personal_health_record.jpg",
+      "new_path": "img/pages/45_online_health_manager_with_benefit_description_health_tracker_and_personal_health_record.jpg",
+      "page_title": "online_health_manager_with_benefit_description_health_tracker_and_personal_health_record",
+      "summary": "The Online Health Manager provides a comprehensive suite of tools and resources designed to help individuals take better care of themselves. It offers a total health approach, enabling users to identify and target risk areas, take action, and track improvement. The platform includes a variety of resources such as physician-reviewed materials and health assessments to give users an overview of their health status. Additionally, it provides access to a Health Information Library containing over 1500 topics, each with tutorials and printable articles.\n\nThe Health Tracker feature, powered by MyFitnessPal, supports users in achieving healthier lifestyles. It offers tools and motivation for weight management and overall health improvement. Data indicates that consistent tracking, such as logging meals for seven consecutive days, significantly aids in weight loss. The Personal Health Record feature emphasizes the importance of maintaining updated health records, allowing users to play an active role in their healthcare management. This feature ensures that users have a complete picture of their health history, similar to the records kept by healthcare providers.\n\nWeekly Health Tips, authored by physicians, are published at the end of each week. These tips cover a range of topics, including seasonal issues and reader requests, and are designed to be quick and easy to understand. The tips often include links to further resources for those interested in deeper research, and users can access past tips through the Weekly Health Tip blog.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 45
+    },
+    "46": {
+      "page_number": 46,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_046.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_046.jpg",
+      "new_name": "46_my_auto_expert_mechanic_hotline_with_ase_certified_technicians_and_nationwide_warranty.jpg",
+      "new_path": "img/pages/46_my_auto_expert_mechanic_hotline_with_ase_certified_technicians_and_nationwide_warranty.jpg",
+      "page_title": "my_auto_expert_mechanic_hotline_with_ase_certified_technicians_and_nationwide_warranty",
+      "summary": "The My Auto Expert service offers a mechanic hotline that connects users with ASE Certified Automotive Technicians. These technicians provide expert, unbiased, and independent advice on both general and emergency automotive issues. The service is designed to assist with questions related to personal or rental vehicles. Key features include a shop locator service, second opinion consultations, repair cost estimations, mechanical diagnosis, and technical assistance. \n\nTechnicians can validate diagnoses and recommended repairs, ensuring charges are fair and at market price. They help identify potential issues with vehicles and direct users to the nearest affiliate within a nationwide network. This network offers a minimum 12-month or 12,000-mile nationwide parts and labor warranty on qualifying repairs or services. \n\nTo access the service, users can call a certified ASE technician during specified hours. This hotline provides a convenient and reliable resource for vehicle-related inquiries and support.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 46
+    },
+    "48": {
+      "page_number": 48,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_048.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_048.jpg",
+      "new_name": "48_nurse_hotline_24_7_access_with_free_consultation_for_members.jpg",
+      "new_path": "img/pages/48_nurse_hotline_24_7_access_with_free_consultation_for_members.jpg",
+      "page_title": "nurse_hotline_24_7_access_with_free_consultation_for_members",
+      "summary": "The Nurse Hot-Line provides members with 24-hour access to registered nurses every day of the year, including weekends and holidays. This service is designed to offer immediate professional medical advice for health-related questions or concerns. Members can call the hotline when they need guidance on handling health decisions, especially during times when other medical resources are unavailable, such as late at night or on weekends. This benefit is particularly useful for situations involving children with fevers, strange rashes, or other unusual symptoms.\n\nThe service emphasizes the importance of making informed medical decisions rather than relying on instincts, which could potentially affect the safety and welfare of families. The Nurse Hot-Line is a valuable resource for members, providing peace of mind by ensuring access to professional advice whenever needed. Importantly, this service is included in the membership package at no additional cost, allowing members to use it as often as necessary without incurring any charges.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 48
+    },
+    "47": {
+      "page_number": 47,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_047.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_047.jpg",
+      "new_name": "47_health_information_library_with_over_1000_topics_and_available_categories.jpg",
+      "new_path": "img/pages/47_health_information_library_with_over_1000_topics_and_available_categories.jpg",
+      "page_title": "health_information_library_with_over_1000_topics_and_available_categories",
+      "summary": "The Health Information Library offers access to a vast collection of over 1,000 health-related topics. This resource is available both over the phone and through a web portal, ensuring accessibility to users. Each topic is regularly reviewed by medical authorities to provide the most accurate and up-to-date information. The library covers a wide range of categories, including allergies and immune system, blood and cancer, bones, muscles and joints, brain and nervous system, and children's health. Additional categories include diabetes, diet and exercise, digestive system, ear, nose and throat, women's health, eyes, foot problems, genes and heredity, general health, heart and blood vessels, hormones, infectious disease, injuries, medicines, men's health, pain management, physical and sports medicine, pregnancy, preventive health, respiratory and lung problems, sexual and reproductive health, skin, sleep disorders, social and family, surgery, and tests and diagnostic. This extensive library aims to provide users with reliable health information across a broad spectrum of topics.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 47
+    },
+    "52": {
+      "page_number": 52,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_052.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_052.jpg",
+      "new_name": "52_error_analyzing_bwabrochureplan4mbr-americare4_rev_page_052jpg.jpg",
+      "new_path": "img/pages/52_error_analyzing_bwabrochureplan4mbr-americare4_rev_page_052jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan4MBR-Americare4_REV_page_052.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 52
+    },
+    "53": {
+      "page_number": 53,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_053.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_053.jpg",
+      "new_name": "53_error_analyzing_bwabrochureplan2mbr-americare2_rev_page_053jpg.jpg",
+      "new_path": "img/pages/53_error_analyzing_bwabrochureplan2mbr-americare2_rev_page_053jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan2MBR-Americare2_REV_page_053.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 53
+    },
+    "49": {
+      "page_number": 49,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_049.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_049.jpg",
+      "new_name": "49_legal_plan_details_with_consultation_and_preferred_rate_reduction_for_various_legal_matters.jpg",
+      "new_path": "img/pages/49_legal_plan_details_with_consultation_and_preferred_rate_reduction_for_various_legal_matters.jpg",
+      "page_title": "legal_plan_details_with_consultation_and_preferred_rate_reduction_for_various_legal_matters",
+      "summary": "The Legal Plan is designed to address the unmet need for legal services among 90% of the population, providing affordable access to legal resources. It offers members a 30-minute office or telephone consultation per separate legal matter. Additionally, members benefit from a 25% preferred rate reduction on the law firm's normal hourly or flat rate fees. This discount is available to both members and their dependents as often as needed while covered by the plan.\n\nThe plan covers a wide range of legal matters, ensuring members can access necessary legal assistance. Eligible services include adoption and guardianship, divorce matters, ante nuptial agreements, bankruptcy, document preparation and review, civil litigation, and driving under the influence. Other covered areas are landlord/tenant issues, collection matters, name changes, corporations and partnerships, real estate, criminal matters, traffic violations, debt collection defense, and wills and trusts.\n\nThis plan aims to mitigate the financial burden of legal fees and provide guidance through experienced attorneys, mediators, and legal document assistants. It is particularly beneficial during challenging life stages, offering a structured approach to managing legal issues effectively.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 49
+    },
+    "51": {
+      "page_number": 51,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_051.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_051.jpg",
+      "new_name": "51_financial_counseling_and_resources_with_personal_financial_phone_services.jpg",
+      "new_path": "img/pages/51_financial_counseling_and_resources_with_personal_financial_phone_services.jpg",
+      "page_title": "financial_counseling_and_resources_with_personal_financial_phone_services",
+      "summary": "The document provides an overview of financial counseling and resources available through personal financial phone services. It covers various aspects of financial management, including debt management, budgeting, taxes, savings, and retirement planning. The section on debt management offers guidance on paying off debt, dealing with creditors, and understanding credit ratings. It also addresses considerations for bankruptcy and foreclosure. Budgeting advice is provided to help individuals manage financial stress and create effective budgets.\n\nThe document also includes information on taxes, such as locating tax professionals and understanding tax withholding and filing status. Savings and retirement planning are discussed, with tools to determine savings rates and retirement needs. It explains different types of retirement accounts and offers guidance on saving for education and finding financial planners.\n\nHome ownership and mortgages are covered, detailing steps for purchasing a home, available programs, and the benefits of renting versus buying. It also touches on home equity loans and the tax implications of selling a home. The insurance section explains how disability affects cash flow and the types of life insurance available. It discusses insurance needs after retirement and the importance of long-term health care insurance. Lastly, eldercare resources are mentioned for those seeking financial assistance for seniors.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 51
+    },
+    "50": {
+      "page_number": 50,
+      "original_name": "BWABrochurePlan4MBR-Americare4_REV_page_050.jpg",
+      "original_path": "img/pages/BWABrochurePlan4MBR-Americare4_REV_page_050.jpg",
+      "new_name": "50_financial_counseling_and_resources_with_free_services_and_unlimited_access.jpg",
+      "new_path": "img/pages/50_financial_counseling_and_resources_with_free_services_and_unlimited_access.jpg",
+      "page_title": "financial_counseling_and_resources_with_free_services_and_unlimited_access",
+      "summary": "The document outlines the benefits and features of financial counseling services offered over 20 years. It emphasizes professional and objective guidance to help individuals manage financial uncertainty. The counseling is designed to be an effective defense against financial challenges, providing live, confidential, and objective advice from experienced and accredited financial counselors. Unlimited access to these services is highlighted as a key advantage.\n\nThe document further explains the advantages of financial counseling, including direct access to the Financial Resource Center. It stresses the importance of unbiased advice, noting that the counselors have no revenue incentives or ancillary services to sell. The focus is on listening to clients and providing fact-based recommendations to foster fundamental changes in financial behavior and improve future decision-making.\n\nThe counseling services are presented as a means to regain control over finances, with an emphasis on personal consultation and analysis of spending patterns. This approach aims to empower individuals to make informed financial decisions without the influence of external sales pressures.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan4MBR-Americare4_REV",
+      "global_page_num": 50
+    },
+    "55": {
+      "page_number": 55,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_055.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_055.jpg",
+      "new_name": "55_association_benefits_as_a_member_of_bwa_with_package_details.jpg",
+      "new_path": "img/pages/55_association_benefits_as_a_member_of_bwa_with_package_details.jpg",
+      "page_title": "association_benefits_as_a_member_of_bwa_with_package_details",
+      "summary": "The document outlines the benefits and services available to members of the Business Workers of America Association (BWA). As a member, you and your family are entitled to a comprehensive package of benefits designed to support various needs. This booklet serves as a guide to understanding the specific benefits included with your membership. It emphasizes the value of being part of the association and the range of services provided. The benefits are tailored to enhance the well-being of members and their families, ensuring access to essential services and support. The document highlights the importance of these benefits in providing security and peace of mind to members.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 55
+    },
+    "54": {
+      "page_number": 54,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_054.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_054.jpg",
+      "new_name": "54_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "new_path": "img/pages/54_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "page_title": "business_workers_of_america_association_mission_and_member_benefits",
+      "summary": "The Business Workers of America Association (BWA) is a not-for-profit member association founded in 2001, dedicated to improving the lives of American workers and their families. The association aims to achieve this mission through various activities and services. These include providing valuable information and education about members' trades or professions, and directing members to federal or state programs that offer financial assistance to enhance their life opportunities. \n\nBWA also represents American workers' interests in influencing federal and state legislation that benefits individuals and their families, aiming for a better lifestyle, higher incomes, and lower healthcare costs. The association makes available healthcare, supplemental benefits, and wellness programs to improve overall family health and wellness. Additionally, BWA supports trade colleges or institutions that offer free or low-cost higher education and skill training programs.\n\nThe association provides scholarships or grants to members or their family members who wish to attend college or trade schools, enabling them to learn a skill or trade. BWA also supports institutions that educate and train workers to meet workplace demands and supports charities aligned with the association's goals and mission.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 54
+    },
+    "56": {
+      "page_number": 56,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_056.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_056.jpg",
+      "new_name": "56_medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits.jpg",
+      "new_path": "img/pages/56_medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits.jpg",
+      "page_title": "medical_bill_repricer_with_primary_care_urgent_care_and_specialist_visits",
+      "summary": "The Medical Bill Repricer (MBR) program offers a streamlined process for patients visiting primary care doctors or specialists. The plan includes a $25 pre-payment for primary care office visits, ensuring affordability and ease of access. Additionally, urgent care facility visits are also covered with a $25 pre-payment, which includes consultations, lab testing, and x-rays. For specialist doctor visits, the plan requires a $50 pre-payment, providing a cost-effective solution for specialized medical care.\n\nPatients are encouraged to choose a network physician to maximize savings. The plan utilizes PPO networks, reference-based pricing, and direct bill negotiation to help lower medical bills. However, it is important to note that while the program strives to assist, it cannot guarantee the outcome of any claim or the amount of savings on any bill. A majority of the time, MBR reprices bills to amounts exceeding Medicare's allowable rate, but medical providers may still decline to honor this service.\n\nFor assistance in locating a PHCS network provider, patients can call the provided number or visit the specified website. The plan emphasizes the importance of network selection to achieve the best possible savings.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 56
+    },
+    "57": {
+      "page_number": 57,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_057.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_057.jpg",
+      "new_name": "57_referenced_based_pricing_system_with_steps_for_claim_processing_and_discounts.jpg",
+      "new_path": "img/pages/57_referenced_based_pricing_system_with_steps_for_claim_processing_and_discounts.jpg",
+      "page_title": "referenced_based_pricing_system_with_steps_for_claim_processing_and_discounts",
+      "summary": "This document outlines the process for obtaining significant discounts on medical bills through a Referenced Based Pricing system. Members are encouraged to contact MBR before visiting a provider to receive necessary documents and instructions, although this step is not mandatory. Upon visiting a provider, members should present their MBR card. A pre-payment of $25 is required for Primary Care Office Visits and $50 for Specialist Office Visits. Providers will then send the remaining bills to MBR for repricing. \n\nMembers must complete insurance claim forms to access Insured Benefits, with assistance available from the MBR team. After bills are submitted for repricing, both the member and healthcare provider will receive an Explanation of Benefits (EOB) from MBR, detailing the billed amount and any discounts applied. Finally, members will receive a final bill from their medical provider, which should match the EOB amount. Insurance companies may provide additional funds to cover any outstanding balances.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 57
+    },
+    "59": {
+      "page_number": 59,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_059.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_059.jpg",
+      "new_name": "59_medchoice_group_hospital_indemnity_insurance_with_benefits_comparison_for_business_workers_of_america.jpg",
+      "new_path": "img/pages/59_medchoice_group_hospital_indemnity_insurance_with_benefits_comparison_for_business_workers_of_america.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_with_benefits_comparison_for_business_workers_of_america",
+      "summary": "The MedChoice Group Hospital Indemnity Insurance is designed to assist with the financial burden of unexpected illnesses or serious accidents that require hospital stays, outpatient surgeries, or treatments in a doctor's office. This plan offers flexibility in choosing coverage that best suits the needs of the insured and their family. Key features include coverage for doctor\u2019s office visits, urgent care, outpatient surgery, and hospital stays. The plan allows beneficiaries to decide how to use the benefit funds for both medical and non-medical expenses. It is a guarantee issue plan, meaning no medical questions or exams are required, and it offers cost-effective premiums with convenient payroll deduction options.\n\nThe plan provides a detailed summary of benefits for Business Workers of America Association under Plan 2. It includes spouse and dependent child coverage, with no pre-existing condition exclusion period applicable. Pregnancy coverage is included. The hospital admission benefit is $750 per day, limited to one day. Hospital confinement benefits are $200 per day, with a maximum of 30 days. Intensive care unit admission benefits are $1,500 per day, limited to one day, and intensive care unit benefits are $350 per day, with a maximum of 30 days. Accident and sickness surgery benefits include $500 per day for inpatient surgery, limited to one day, and $300 per day for outpatient surgery, limited to one day. General anesthesia benefits are $125 per day.\n\nOutpatient accident and sickness treatment benefits include $200 per day for emergency room visits, limited to two days, $50 per day for urgent care facilities, limited to three days, $50 per day for physician\u2019s office visits, limited to three days, and $15 per day for physical, speech, or occupational therapy facilities, limited to five days.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 59
+    },
+    "60": {
+      "page_number": 60,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_060.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_060.jpg",
+      "new_name": "60_medchoice_group_hospital_indemnity_insurance_plan_2_with_riders_and_treatment_exclusions.jpg",
+      "new_path": "img/pages/60_medchoice_group_hospital_indemnity_insurance_plan_2_with_riders_and_treatment_exclusions.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_plan_2_with_riders_and_treatment_exclusions",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance Plan 2 offers specific additional riders and treatment options. The plan includes a Portability Option Rider, allowing policyholders to maintain their coverage under certain conditions. However, the Occupational Exclusion Rider is not included, which may affect coverage related to work-related incidents. The Continuity of Coverage Amendment Rider (Takeover) is included, providing credit for time served under prior coverage, specifically for the Pre-Existing Condition Period. This feature is beneficial for those transitioning from another plan, ensuring continuity in coverage without additional waiting periods.\n\nIn terms of additional treatment, the plan does not cover treatment for Serious Mental Illness or Treatment for Alcohol or Drug Addiction. These exclusions are significant for policyholders who may require such services, as they will need to seek alternative coverage or bear the costs out-of-pocket. The absence of these treatments highlights the importance of understanding the specific limitations and exclusions of the plan.\n\nOverall, the plan provides certain benefits with clear exclusions, emphasizing the need for potential policyholders to carefully consider their healthcare needs and the specific provisions of the plan.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 60
+    },
+    "58": {
+      "page_number": 58,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_058.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_058.jpg",
+      "new_name": "58_additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits.jpg",
+      "new_path": "img/pages/58_additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits.jpg",
+      "page_title": "additional_mbr_services_with_managed_care_and_white_glove_advocacy_benefits",
+      "summary": "The document outlines additional MBR services focusing on Managed Care and White Glove Advocacy. Managed Care primarily aims to reprice and reduce medical provider bills, leveraging one of the nation's largest provider networks. This network includes over 5,500 hospitals, 164,000 ancillary facilities, and 1.3 million healthcare providers across the United States and Puerto Rico, covering over 95% of the US population. The primary advantage for members is the reduction of out-of-pocket costs.\n\nWhite Glove Advocacy provides assistance to members both before and after visiting a provider. Advocacy specialists help members find low-cost providers and negotiate medical bill balances after insurance discounts and benefits are applied. They use advanced software and expertise in billing rules to potentially eliminate remaining balances. This service aims to ease the financial burden on members by negotiating with hospitals and providers.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 58
+    },
+    "61": {
+      "page_number": 61,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_061.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_061.jpg",
+      "new_name": "61_medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions.jpg",
+      "new_path": "img/pages/61_medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_with_benefits_and_exclusions",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance plan provides specific benefits per covered person, with certain exceptions. Benefits are paid per day, up to a maximum number of days per calendar year, for each covered person. The plan includes a general anesthesia benefit, payable per day, and a critical illness rider benefit, payable once per covered person annually. Benefit amounts may vary based on the service location, and no benefits are payable during the pre-existing condition exclusion period. A covered person is defined as someone eligible for coverage under the policy, including lawful spouses and children under 26 years of age. Hospitals are defined as institutions used for medical care, excluding facilities like nursing homes or rehabilitation centers.\n\nThe plan offers several specific benefits: the Hospital Admission Benefit is payable once per confinement period if a covered person is admitted as an inpatient. The Hospital Confinement Benefit is payable for each day a person is confined as an inpatient due to injury or sickness. The Intensive Care Unit (ICU) Admission Benefit and ICU Confinement Benefit are payable under similar conditions, with specific terms for HSA compatibility. Additional benefits include the Accident & Sickness Surgery Benefit for surgeries due to injury or sickness and the General Anesthesia Benefit for surgeries requiring anesthesia. The Outpatient Accident & Sickness Treatment Benefit covers treatments in emergency rooms or similar facilities.\n\nExclusions are detailed, including no benefits for losses related to specific conditions or actions, such as hernia, adenoids, or injuries from illegal acts. Cosmetic surgeries, injuries from military service, and treatments not legally required are also excluded. The plan specifies that no benefits are payable for injuries under the influence of narcotics or alcohol, or for certain reproductive procedures. Coverage limitations include exclusions for injuries related to war, insurrection, or civil commotion.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 61
+    },
+    "62": {
+      "page_number": 62,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_062.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_062.jpg",
+      "new_name": "62_medchoice_group_hospital_indemnity_insurance_with_termination_and_continuity_provisions.jpg",
+      "new_path": "img/pages/62_medchoice_group_hospital_indemnity_insurance_with_termination_and_continuity_provisions.jpg",
+      "page_title": "medchoice_group_hospital_indemnity_insurance_with_termination_and_continuity_provisions",
+      "summary": "The MedChoice\u2122 Group Hospital Indemnity Insurance plan outlines specific conditions under which coverage may be terminated. Coverage ends on the earliest of several dates: the policy termination date, the end of the grace period if premiums remain unpaid, or when the insured no longer qualifies. Additionally, coverage for riders ends under similar conditions, including the policy termination date and the end of the premium grace period. The policy also allows for termination upon written request from the insured or upon the insured's death. \n\nThe plan includes provisions for additional riders, which are subject to all policy terms and conditions. A portability option is available, allowing insured individuals to continue coverage under certain conditions, such as leaving the policy for reasons other than non-payment. This option requires a rider and notification to APL about premium details. \n\nContinuity of coverage is addressed, allowing insured individuals and their dependents to qualify for coverage credit for limitations served under prior group hospital indemnity coverage. This continuity is limited to benefits provided under the new policy and does not cover losses incurred before the effective date. The policy explicitly states that it is inappropriate for individuals eligible for Medicaid coverage and is governed by ERISA guidelines.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 62
+    },
+    "64": {
+      "page_number": 64,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_064.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_064.jpg",
+      "new_name": "64_bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings.jpg",
+      "new_path": "img/pages/64_bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings.jpg",
+      "page_title": "bwa_healthwarehouse_partnership_for_affordable_prescription_medication_savings",
+      "summary": "The Business Workers of America Association (BWA) has partnered with HealthWarehouse.com to offer significant savings on prescription medications. Customers can save between 30% to 90% on their prescriptions by utilizing this service. The process for ordering is straightforward, allowing customers to check medication prices online or contact the service via phone. This partnership aims to provide affordable pricing by eliminating unnecessary costs typically associated with traditional retail pharmacy chains.\n\nHealthWarehouse.com leverages technology and sourcing strategies to reduce costs between manufacturers and customers. Their proprietary software enables efficient and cost-effective processing of prescription products. By avoiding the overhead costs of traditional pharmacies and not inflating drug prices to meet insurance reimbursement requirements, HealthWarehouse.com can maintain low costs and pass these savings on to patients.\n\nThe service emphasizes compassion, convenience, and transparency, ensuring that customers receive their medications at reduced prices without compromising on quality or service. This initiative reflects a commitment to making healthcare more accessible and affordable for all.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 64
+    },
+    "63": {
+      "page_number": 63,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_063.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_063.jpg",
+      "new_name": "63_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount.jpg",
+      "new_path": "img/pages/63_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount.jpg",
+      "page_title": "prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount",
+      "summary": "The document outlines the features of a Free Rx Coupon Card provided by the Business Workers of America Association. This card offers significant savings on prescription medications, allowing users to save up to 80% on their purchases. The card is pre-activated and can be used immediately at over 68,000 pharmacies nationwide, including major chains such as CVS, Walmart, and Walgreens. It provides discounts on both brand and generic drugs, ensuring a wide range of medications are covered.\n\nThe program highlights include the absence of restrictions and its compliance with HIPAA regulations, ensuring user privacy and ease of use. The card is designed to be presented at the pharmacy during payment to apply the discount. It is important to note that this program is not insurance but a discount service to help reduce the cost of prescriptions.\n\nUsers are encouraged to bring the discount coupon card to their pharmacy and present it to the pharmacist when paying to maximize their savings. The card is provided at no cost to the user, making it an accessible option for those looking to reduce their prescription expenses.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 63
+    },
+    "68": {
+      "page_number": 68,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_068.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_068.jpg",
+      "new_name": "68_error_analyzing_bwabrochureplan2mbr-americare2_rev_page_068jpg.jpg",
+      "new_path": "img/pages/68_error_analyzing_bwabrochureplan2mbr-americare2_rev_page_068jpg.jpg",
+      "page_title": "Error analyzing BWABrochurePlan2MBR-Americare2_REV_page_068.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 68
+    },
+    "66": {
+      "page_number": 66,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_066.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_066.jpg",
+      "new_name": "66_allheart_member_discounts_and_uniform_services_with_personalized_options.jpg",
+      "new_path": "img/pages/66_allheart_member_discounts_and_uniform_services_with_personalized_options.jpg",
+      "page_title": "allheart_member_discounts_and_uniform_services_with_personalized_options",
+      "summary": "This page outlines the services and benefits provided by Allheart, focusing on member discounts and uniform solutions for medical professionals. Allheart emphasizes the importance of quality products and services, aiming to equip students and medical professionals with necessary apparel and tools. Members can access discounts by visiting the Allheart website and entering a specific code.\n\nThe page highlights several key services, including a dedicated account manager who collaborates with businesses to develop tailored programs. Additionally, Allheart offers customer logo and embroidery services to enhance professional appearance and brand consistency. Personalized ordering options are available, allowing clients to work directly with account managers to create customized ordering websites, ensuring timely delivery and satisfaction.\n\nOn-site fittings are provided to eliminate guesswork in sizing and color selection, with multiple program options to ensure the right fit and style. Allheart also boasts a one-stop shop with a vast selection of medical apparel and equipment, including scrubs, lab coats, stethoscopes, and diagnostic tools, catering to the diverse needs of medical professionals.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 66
+    },
+    "67": {
+      "page_number": 67,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_067.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_067.jpg",
+      "new_name": "67_allheart_group_solutions_uniform_program_with_management_and_discounts.jpg",
+      "new_path": "img/pages/67_allheart_group_solutions_uniform_program_with_management_and_discounts.jpg",
+      "page_title": "allheart_group_solutions_uniform_program_with_management_and_discounts",
+      "summary": "The Allheart Group Solutions page outlines a uniform program designed to assist teams in looking and feeling their best. The program is supported by dedicated account managers who understand the specific needs of each team, providing guidance throughout the uniform selection process. High-quality embroidery options are available to enhance the professional appearance of uniforms. The program emphasizes reliability and helpfulness, ensuring support is available when needed most. The goal is to ensure that those who care for others are presented in the best possible way.\n\nAdditionally, the program offers a simplified management system for overseeing product inventory and customizing shipping options. This is facilitated through a user-friendly portal, making the process efficient and straightforward. Members can access exclusive discounts by visiting the Allheart website and entering a specific code, enhancing the value of the program.\n\nOverall, the Allheart Group Solutions uniform program combines quality products with exceptional service, aiming to provide the best experience for teams in need of professional attire.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 67
+    },
+    "65": {
+      "page_number": 65,
+      "original_name": "BWABrochurePlan2MBR-Americare2_REV_page_065.jpg",
+      "original_path": "img/pages/BWABrochurePlan2MBR-Americare2_REV_page_065.jpg",
+      "new_name": "65_directlabs_lab_services_with_ordering_instructions_and_availability_restrictions.jpg",
+      "new_path": "img/pages/65_directlabs_lab_services_with_ordering_instructions_and_availability_restrictions.jpg",
+      "page_title": "directlabs_lab_services_with_ordering_instructions_and_availability_restrictions",
+      "summary": "The DirectLabs service provides access to major clinical labs across the USA for essential blood tests at discounted prices. This service allows individuals to order tests without needing a doctor's appointment, offering savings of up to 80% off typical lab costs. Tests available include blood, urine, saliva, hair, and fecal tests. Ordering can be done online or by phone. Online ordering involves creating an account at directlabs.com/4members, where users can place orders, sign HIPAA forms, and view results. After ordering, requisitions are uploaded to the user's account, and results are available online within 24-48 hours. For phone orders, users call a specified number and provide a code, after which an account is created for them. Results are similarly available online within 24-48 hours.\n\nThe service emphasizes that it is not health insurance but a discount program for lab tests, which are prepaid and out-of-pocket. There are specific geographic restrictions, as services are not available in NJ, NY, and RI. Additionally, members must use locations listed on the website to avoid being turned away or billed.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "BWABrochurePlan2MBR-Americare2_REV",
+      "global_page_num": 65
+    }
+  },
+  "extracted_tables": {},
+  "presentation": {
+    "content": "Here's a structured outline for the presentation slides and narrative script for the BWA Americare insurance plan, following the provided instructions:\n\n### Cover (1 slide)\n- **Title:** BWA Americare\n- **Tagline:** \"Empowering American Workers with Accessible and Affordable Healthcare Solutions\"\n\n### Plan Overview (1 slide)\n- **Target Audience:** Individuals and families seeking affordable healthcare options.\n- **Offerings:** Comprehensive healthcare coverage with a focus on affordability and accessibility.\n- **Key Benefits:** Easy access to healthcare services, financial predictability, and support for both medical and non-medical expenses.\n\n### Core Plan Elements (2-3 slides)\n- **Coverage Areas:**\n  - Physician services\n  - Hospitalization\n  - Virtual visits\n- **Plan Structure:**\n  - Tiered options with varying co-pays and visit limits\n- **Eligibility:**\n  - Open to individuals and families\n  - Focus on affordability\n\n### Common Service Features (2-3 slides)\n- **Provider Networks:** Access to a vast network of healthcare providers.\n- **Claims Management:** Efficient claims processing and management.\n- **Support Tools:** Dashboards, wellness programs, and advocacy services for enhanced user experience.\n\n### Plan Tiers Breakdown (8-12 slides)\n- **Plan 2:**\n  - **Hospital Admission Benefit:** $750 per day, 1 day max\n  - **Hospital Confinement Benefit:** $200 per day, 30 days max\n  - **ICU Admission Benefit:** $1,500 per day, 1 day max\n  - **ICU Confinement Benefit:** $350 per day, 30 days max\n  - **Accident & Sickness Surgery Benefit:** $500 per day inpatient, $300 per day outpatient, 1 day max each\n  - **General Anesthesia Benefit:** $125 per day\n  - **Outpatient Treatment Benefits:** Emergency room $200 per day (2 days max), Urgent care $50 per day (3 days max), Physician\u2019s office $50 per day (3 days max), Therapy $15 per day (5 days max)\n  - **Additional Riders:** Portability Option Rider included, Occupational Exclusion Rider not included\n\n- **Plan 3:**\n  - **Hospital Admission Benefit:** $1,000 per day, 1 day max\n  - **Hospital Confinement Benefit:** $300 per day, 30 days max\n  - **ICU Admission Benefit:** $2,000 per day, 1 day max\n  - **ICU Confinement Benefit:** $500 per day, 30 days max\n  - **Accident & Sickness Surgery Benefit:** $500 per day inpatient, $300 per day outpatient, 1 day max each\n  - **General Anesthesia Benefit:** $125 per day\n  - **Outpatient Treatment Benefits:** Emergency room $300 per day (2 days max), Urgent care $50 per day (3 days max), Physician\u2019s office $50 per day (3 days max), Therapy $15 per day (5 days max)\n  - **Additional Riders:** Portability Option Rider included, Occupational Exclusion Rider not included\n\n- **Plan 4:**\n  - **Hospital Admission Benefit:** $2,000 per day, 1 day max\n  - **Hospital Confinement Benefit:** $500 per day, 30 days max\n  - **ICU Admission Benefit:** $2,000 per day, 1 day max\n  - **ICU Confinement Benefit:** $500 per day, 30 days max\n  - **Accident & Sickness Surgery Benefit:** $750 per day inpatient, $400 per day outpatient, 1 day max each\n  - **General Anesthesia Benefit:** $300 per day\n  - **Outpatient Treatment Benefits:** Emergency room $500 per day (2 days max), Urgent care $75 per day (5 days max), Physician\u2019s office $75 per day (5 days max)\n  - **Additional Riders:** Portability Option Rider included, Occupational Exclusion Rider not included\n\n### Comparison Slides (Markdown Table)\n```markdown\n| Benefit/Feature                  | Plan 2                      | Plan 3                      | Plan 4                      |\n|----------------------------------|-----------------------------|-----------------------------|-----------------------------|\n| Hospital Admission Benefit       | $750 per day, 1 day max     | $1,000 per day, 1 day max   | $2,000 per day, 1 day max   |\n| Hospital Confinement Benefit     | $200 per day, 30 days max   | $300 per day, 30 days max   | $500 per day, 30 days max   |\n| ICU Admission Benefit            | $1,500 per day, 1 day max   | $2,000 per day, 1 day max   | $2,000 per day, 1 day max   |\n| ICU Confinement Benefit          | $350 per day, 30 days max   | $500 per day, 30 days max   | $500 per day, 30 days max   |\n| Accident & Sickness Surgery      | $500 inpatient, $300 outpatient | $500 inpatient, $300 outpatient | $750 inpatient, $400 outpatient |\n| General Anesthesia Benefit       | $125 per day                | $125 per day                | $300 per day                |\n| Outpatient Treatment Benefits    | ER $200, Urgent $50, Office $50, Therapy $15 | ER $300, Urgent $50, Office $50, Therapy $15 | ER $500, Urgent $75, Office $75 |\n| Portability Option Rider         | Included                    | Included                    | Included                    |\n| Occupational Exclusion Rider     | Not included                | Not included                | Not included                |\n```\n\n### Limitations and Exclusions (1-2 slides)\n- **Exclusions:**\n  - No coverage for pre-existing conditions during exclusion period\n  - Excludes treatment for serious mental illness, alcohol or drug addiction\n  - Excludes injuries from illegal acts, war, or high-risk activities\n- **Limitations:**\n  - Specific day limits on benefits\n  - Not suitable for Medicaid-eligible individuals\n\n### Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Offers a range of plans to suit different needs and budgets.\n- **Balance:** Provides a balance between cost and coverage.\n- **Next Steps:** Contact BWA for enrollment details and support.\n\n### Thank You (1 slide)\n- **Message:** \"Thank you for considering BWA Americare. We are committed to supporting your healthcare needs.\"",
+    "generated_at": "2025-02-10T21:33:06.420608"
+  },
+  "slides": {
+    "content": "---\nid: FEN_BWA\ntheme: ../../\ntitle: | \n  Business Workers of America Association\ninfo: |\n  ## Business Workers of America Association Review\n  A look at the Business Workers of America Association benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_BWA\" />\n\n# Business Workers of America Association Review\n\nUnderstanding the details and benefits of the **Business Workers of America Association**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Business Workers of America Association Overview\n\n<v-clicks>\n\n- Founded in 2001 as a not-for-profit member association\n- **Healthcare and Supplemental Benefits** for members\n- **Wellness Programs** to improve family health\n- **Educational Support** through scholarships and grants\n- **Legislative Advocacy** for better lifestyle and lower healthcare costs\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-clicks>\n\n**Healthcare Benefits**\n\n**Educational Support**\n\n**Legislative Advocacy**\n\n**Wellness Programs** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**Prescription Savings** through HealthWarehouse.com\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"HealthWarehouse Logo\">\n</div>\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**Medical Bill Repricer** (MBR)\n</v-click>\n\n<v-click>\n\n**Reference-Based Pricing** System\n</v-click>\n\n<v-click>\n\n**Direct Bill Negotiation** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How Medical Bill Repricer Works\n\n<v-clicks>\n\n1. Enroll through **BWA**\n2. Present MBR card at provider\n3. Pre-pay $25 for primary care, $50 for specialists\n4. Receive Explanation of Benefits **(EOB)**\n5. Final bill matches EOB\n6. **Insurance may cover remaining balance**\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-clicks>\n\n- **Wellness Programs** Services\n- **Educational Seminars** Programs\n- **DirectLabs** provides lab services\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-clicks>\n\n- **24/7 Nurse Hotline**\n- **Online Health Manager**\n- **Telemedicine Consultations** available\n- **Remote Access** to care\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-clicks>\n\n- **White Glove** healthcare advocacy\n- **Managed Care** assistance\n- **Financial Counseling** options\n- **Legal Plan** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg\n---\n\n## Plan 2 (1/2)\n\n<v-click>\n\n**Hospital Benefits**\n- $750 per day admission\n- $200 per day confinement\n- $1,500 per day ICU admission\n- $350 per day ICU confinement\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Surgery Benefits**\n- $500 per day inpatient\n- $300 per day outpatient\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- $200 per day ER visits\n- $50 per day urgent care\n- $50 per day physician visits\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg\n---\n\n## Plan 2 (2/2)\n\n<v-click>\n\n**Therapy Benefits**\n- $15 per day for therapy\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Additional Riders**\n- Portability Option included\n- No Occupational Exclusion\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg\n---\n\n## Plan 3 (1/2)\n\n<v-click>\n\n**Hospital Benefits**\n- $1,000 per day admission\n- $300 per day confinement\n- $2,000 per day ICU admission\n- $500 per day ICU confinement\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Surgery Benefits**\n- $500 per day inpatient\n- $300 per day outpatient\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- $300 per day ER visits\n- $50 per day urgent care\n- $50 per day physician visits\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg\n---\n\n## Plan 3 (2/2)\n\n<v-click>\n\n**Therapy Benefits**\n- $15 per day for therapy\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Additional Riders**\n- Portability Option included\n- No Occupational Exclusion\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg\n---\n\n## Plan 4 (1/2)\n\n<v-click>\n\n**Hospital Benefits**\n- $2,000 per day admission\n- $500 per day confinement\n- $2,000 per day ICU admission\n- $500 per day ICU confinement\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Surgery Benefits**\n- $750 per day inpatient\n- $400 per day outpatient\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- $500 per day ER visits\n- $75 per day urgent care\n- $75 per day physician visits\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg\n---\n\n## Plan 4 (2/2)\n\n<v-click>\n\n**Therapy Benefits**\n- $75 per day for therapy\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Additional Riders**\n- Portability Option included\n- No Occupational Exclusion\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Plan 2** | **Plan 3** | **Plan 4** |\n|---------|----------|----------|-----------|\n| Hospital Admission | $750/day | $1,000/day | $2,000/day |\n| Hospital Confinement | $200/day | $300/day | $500/day |\n| ICU Admission | $1,500/day | $2,000/day | $2,000/day |\n| ICU Confinement | $350/day | $500/day | $500/day |\n| Surgery Inpatient | $500/day | $500/day | $750/day |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Hospital Benefits**\n- Limited to specific days\n- Excludes certain conditions\n- Requires network providers\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Surgery Benefits**\n- Limited to specific procedures\n- Excludes cosmetic surgeries\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- Limited to specific visits\n- Excludes certain treatments\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Therapy Benefits**\n- Limited to specific therapies\n- Excludes experimental treatments\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **Comprehensive Benefits** for members\n- **Educational Support** included\n- **Advocacy Services** benefits\n- **Network Provider** required\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Business Workers of America Association Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_key}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Review\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_{{deck_key}}\" />\n\n# {{ Plan Name }} Review\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## {{ Plan Name }} Overview\n\n<v-clicks>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n- **{{ Benefit Category 1 }}** for various situations\n- **{{ Benefit Category 2 }}** and support tools\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n- **{{ Benefit Category 4 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-clicks>\n\n**{{ Benefit Type 1 }}**\n\n**{{ Benefit Type 2 }}**\n\n**{{ Benefit Type 3 }}**\n\n**{{ Benefit Type 4 }}** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-clicks>\n\n1. Enroll through **{{ Organization }}**\n2. {{ Step 2 }}\n3. {{ Step 3 }}\n4. Receive {{ Document }} **({{ Acronym }})**\n5. {{ Step 5 }}\n6. **{{ Final Outcome }}**\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-clicks>\n\n- **{{ Service 1 }}** Services\n- **{{ Service 2 }}** Programs\n- **{{ Partner }}** provides {{ service_type }}\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-clicks>\n\n- **{{ Feature 1 }}**\n- **{{ Feature 2 }}**\n- **{{ Feature 3 }}** available\n- **{{ Feature 4 }}** to care\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-clicks>\n\n- **{{ Service Style }}** healthcare advocacy\n- **{{ Service 1 }}** assistance\n- **{{ Service 2 }}** options\n- **{{ Service 3 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **{{ Feature 1 }}** benefits\n- **{{ Feature 2 }}** included\n- **{{ Feature 3 }}** benefits\n- **{{ Requirement }}** required\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n"
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Business Workers of America Association. We'll walk through the association's benefits and details, designed to support your health and well-being. Let's get started!\n\n---- Business Workers of America Association Overview ----\n\nThe Business Workers of America Association was founded in 2001 as a not-for-profit member association. \n\nIt provides healthcare and supplemental benefits for its members, ensuring access to essential services. \n\nThe association also offers wellness programs aimed at improving family health. \n\nIn addition, there is educational support available through scholarships and grants. \n\nFinally, the association engages in legislative advocacy to promote a better lifestyle and lower healthcare costs.\n\nNow, let's explore the key features and benefits.\n\n---- Key Features and Benefits ----\n\nThe association offers a range of healthcare benefits tailored to meet diverse needs. \n\nEducational support is provided to help members and their families achieve their academic goals. \n\nLegislative advocacy is a key focus, working towards better living conditions and reduced healthcare expenses. \n\nWellness programs are available, varying by plan, to promote overall health. \n\nAdditionally, members can enjoy prescription savings through HealthWarehouse.com.\n\nLet's move on to the cost management tools.\n\n---- Cost Management Tools ----\n\nThe Medical Bill Repricer, or MBR, is a valuable tool for managing healthcare expenses. \n\nThe reference-based pricing system helps ensure fair pricing for medical services. \n\nDirect bill negotiation support is also available to assist with managing healthcare costs.\n\nNext, we'll see how the Medical Bill Repricer works.\n\n---- How Medical Bill Repricer Works ----\n\nTo use the Medical Bill Repricer, you first enroll through the Business Workers of America Association. \n\nPresent your MBR card at the provider's office to access services. \n\nYou'll pre-pay twenty-five dollars for primary care and fifty dollars for specialists. \n\nAfter your visit, you'll receive an Explanation of Benefits, or EOB, detailing the costs. \n\nThe final bill you receive will match the EOB, ensuring transparency. \n\nIn many cases, insurance may cover the remaining balance.\n\nLet's discuss preventive care and wellness.\n\n---- Preventive Care and Wellness ----\n\nThe association offers wellness program services to support your health. \n\nEducational seminars are available to provide valuable health information. \n\nDirectLabs provides lab services to help monitor and maintain your well-being.\n\nNow, let's talk about telehealth services.\n\n---- Telehealth Services ----\n\nMembers have access to a twenty-four/seven nurse hotline for immediate assistance. \n\nAn online health manager is available to help you track and manage your health. \n\nTelemedicine consultations offer convenient access to healthcare professionals. \n\nRemote access to care ensures you can receive support wherever you are.\n\nLet's move on to advocacy and support services.\n\n---- Advocacy and Support Services ----\n\nThe association provides white glove healthcare advocacy to assist members. \n\nManaged care assistance is available to help navigate healthcare options. \n\nFinancial counseling options are offered to support financial well-being. \n\nA legal plan is also available to provide legal support when needed.\n\nNow, let's examine our first plan tier.\n\n---- Plan 2 (One of Two) ----\n\nPlan 2 offers hospital benefits, including seven hundred fifty dollars per day for admission, two hundred dollars per day for confinement, one thousand five hundred dollars per day for ICU admission, and three hundred fifty dollars per day for ICU confinement. \n\nSurgery benefits include five hundred dollars per day for inpatient procedures and three hundred dollars per day for outpatient procedures. \n\nOutpatient benefits cover two hundred dollars per day for ER visits, fifty dollars per day for urgent care, and fifty dollars per day for physician visits.\n\nContinuing with our first plan tier.\n\n---- Plan 2 (Two of Two) ----\n\nTherapy benefits in Plan 2 include fifteen dollars per day for therapy sessions. \n\nAdditional riders include a portability option and no occupational exclusion.\n\nNow, let's look at our second plan tier.\n\n---- Plan 3 (One of Two) ----\n\nPlan 3 provides hospital benefits with one thousand dollars per day for admission, three hundred dollars per day for confinement, two thousand dollars per day for ICU admission, and five hundred dollars per day for ICU confinement. \n\nSurgery benefits remain at five hundred dollars per day for inpatient and three hundred dollars per day for outpatient procedures. \n\nOutpatient benefits include three hundred dollars per day for ER visits, fifty dollars per day for urgent care, and fifty dollars per day for physician visits.\n\nContinuing with our second plan tier.\n\n---- Plan 3 (Two of Two) ----\n\nTherapy benefits in Plan 3 also include fifteen dollars per day for therapy sessions. \n\nAdditional riders feature a portability option and no occupational exclusion.\n\nNow, let's look at our third plan tier.\n\n---- Plan 4 (One of Two) ----\n\nPlan 4 offers hospital benefits with two thousand dollars per day for admission, five hundred dollars per day for confinement, two thousand dollars per day for ICU admission, and five hundred dollars per day for ICU confinement. \n\nSurgery benefits increase to seven hundred fifty dollars per day for inpatient and four hundred dollars per day for outpatient procedures. \n\nOutpatient benefits cover five hundred dollars per day for ER visits, seventy-five dollars per day for urgent care, and seventy-five dollars per day for physician visits.\n\nContinuing with our third plan tier.\n\n---- Plan 4 (Two of Two) ----\n\nTherapy benefits in Plan 4 include seventy-five dollars per day for therapy sessions. \n\nAdditional riders include a portability option and no occupational exclusion.\n\nLet's compare the different tiers available.\n\n---- Comparing Plan Tiers ----\n\nIn this table, we compare the key features of each plan tier. \n\nPlan 2 offers seven hundred fifty dollars per day for hospital admission, while Plan 3 provides one thousand dollars, and Plan 4 offers two thousand dollars. \n\nHospital confinement benefits range from two hundred dollars per day in Plan 2 to five hundred dollars in Plan 4. \n\nICU admission benefits are one thousand five hundred dollars per day in Plan 2, increasing to two thousand dollars in Plans 3 and 4. \n\nICU confinement benefits are three hundred fifty dollars per day in Plan 2 and five hundred dollars in Plans 3 and 4. \n\nSurgery inpatient benefits are five hundred dollars per day in Plans 2 and 3, with Plan 4 offering seven hundred fifty dollars.\n\nLet's review important definitions and limitations.\n\n---- Definitions and Limitations ----\n\nHospital benefits are limited to specific days and exclude certain conditions, requiring network providers. \n\nSurgery benefits are limited to specific procedures and exclude cosmetic surgeries. \n\nOutpatient benefits are limited to specific visits and exclude certain treatments. \n\nTherapy benefits are limited to specific therapies and exclude experimental treatments.\n\nHere are the key points to remember.\n\n---- Key Takeaways and Reminders ----\n\nThe association offers a wide range of benefits for its members. \n\nEducational support is included to help members achieve their academic goals. \n\nAdvocacy services provide valuable support and assistance. \n\nRemember, network providers are required for accessing these benefits.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Business Workers of America Association Review",
+          "content": "<SlideAudio deckKey=\"FEN_BWA\" />\n\n# Business Workers of America Association Review\n\nUnderstanding the details and benefits of the **Business Workers of America Association**",
+          "frontmatter": "id: FEN_BWA\ntheme: ../../\ntitle: | \n  Business Workers of America Association\ninfo: |\n  ## Business Workers of America Association Review\n  A look at the Business Workers of America Association benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Business Workers of America Association. We'll walk through the association's benefits and details, designed to support your health and well-being. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "Business Workers of America Association Overview",
+          "content": "## Business Workers of America Association Overview\n\n<v-clicks>\n\n- Founded in 2001 as a not-for-profit member association\n- **Healthcare and Supplemental Benefits** for members\n- **Wellness Programs** to improve family health\n- **Educational Support** through scholarships and grants\n- **Legislative Advocacy** for better lifestyle and lower healthcare costs\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Business Workers of America Association Overview",
+          "content": "The Business Workers of America Association was founded in 2001 as a not-for-profit member association. \n\nIt provides healthcare and supplemental benefits for its members, ensuring access to essential services. \n\nThe association also offers wellness programs aimed at improving family health. \n\nIn addition, there is educational support available through scholarships and grants. \n\nFinally, the association engages in legislative advocacy to promote a better lifestyle and lower healthcare costs.\n\nNow, let's explore the key features and benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-clicks>\n\n**Healthcare Benefits**\n\n**Educational Support**\n\n**Legislative Advocacy**\n\n**Wellness Programs** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**Prescription Savings** through HealthWarehouse.com\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"HealthWarehouse Logo\">\n</div>\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "The association offers a range of healthcare benefits tailored to meet diverse needs. \n\nEducational support is provided to help members and their families achieve their academic goals. \n\nLegislative advocacy is a key focus, working towards better living conditions and reduced healthcare expenses. \n\nWellness programs are available, varying by plan, to promote overall health. \n\nAdditionally, members can enjoy prescription savings through HealthWarehouse.com.\n\nLet's move on to the cost management tools."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**Medical Bill Repricer** (MBR)\n</v-click>\n\n<v-click>\n\n**Reference-Based Pricing** System\n</v-click>\n\n<v-click>\n\n**Direct Bill Negotiation** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "The Medical Bill Repricer, or MBR, is a valuable tool for managing healthcare expenses. \n\nThe reference-based pricing system helps ensure fair pricing for medical services. \n\nDirect bill negotiation support is also available to assist with managing healthcare costs.\n\nNext, we'll see how the Medical Bill Repricer works."
+        }
+      },
+      {
+        "slide": {
+          "header": "How Medical Bill Repricer Works",
+          "content": "## How Medical Bill Repricer Works\n\n<v-clicks>\n\n1. Enroll through **BWA**\n2. Present MBR card at provider\n3. Pre-pay $25 for primary care, $50 for specialists\n4. Receive Explanation of Benefits **(EOB)**\n5. Final bill matches EOB\n6. **Insurance may cover remaining balance**\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How Medical Bill Repricer Works",
+          "content": "To use the Medical Bill Repricer, you first enroll through the Business Workers of America Association. \n\nPresent your MBR card at the provider's office to access services. \n\nYou'll pre-pay twenty-five dollars for primary care and fifty dollars for specialists. \n\nAfter your visit, you'll receive an Explanation of Benefits, or EOB, detailing the costs. \n\nThe final bill you receive will match the EOB, ensuring transparency. \n\nIn many cases, insurance may cover the remaining balance.\n\nLet's discuss preventive care and wellness."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-clicks>\n\n- **Wellness Programs** Services\n- **Educational Seminars** Programs\n- **DirectLabs** provides lab services\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "The association offers wellness program services to support your health. \n\nEducational seminars are available to provide valuable health information. \n\nDirectLabs provides lab services to help monitor and maintain your well-being.\n\nNow, let's talk about telehealth services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-clicks>\n\n- **24/7 Nurse Hotline**\n- **Online Health Manager**\n- **Telemedicine Consultations** available\n- **Remote Access** to care\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Members have access to a twenty-four/seven nurse hotline for immediate assistance. \n\nAn online health manager is available to help you track and manage your health. \n\nTelemedicine consultations offer convenient access to healthcare professionals. \n\nRemote access to care ensures you can receive support wherever you are.\n\nLet's move on to advocacy and support services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-clicks>\n\n- **White Glove** healthcare advocacy\n- **Managed Care** assistance\n- **Financial Counseling** options\n- **Legal Plan** support\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "The association provides white glove healthcare advocacy to assist members. \n\nManaged care assistance is available to help navigate healthcare options. \n\nFinancial counseling options are offered to support financial well-being. \n\nA legal plan is also available to provide legal support when needed.\n\nNow, let's examine our first plan tier."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 2 (1/2)",
+          "content": "## Plan 2 (1/2)\n\n<v-click>\n\n**Hospital Benefits**\n- $750 per day admission\n- $200 per day confinement\n- $1,500 per day ICU admission\n- $350 per day ICU confinement\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Surgery Benefits**\n- $500 per day inpatient\n- $300 per day outpatient\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- $200 per day ER visits\n- $50 per day urgent care\n- $50 per day physician visits\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg"
+        },
+        "script": {
+          "header": "Plan 2 (One of Two)",
+          "content": "Plan 2 offers hospital benefits, including seven hundred fifty dollars per day for admission, two hundred dollars per day for confinement, one thousand five hundred dollars per day for ICU admission, and three hundred fifty dollars per day for ICU confinement. \n\nSurgery benefits include five hundred dollars per day for inpatient procedures and three hundred dollars per day for outpatient procedures. \n\nOutpatient benefits cover two hundred dollars per day for ER visits, fifty dollars per day for urgent care, and fifty dollars per day for physician visits.\n\nContinuing with our first plan tier."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 2 (2/2)",
+          "content": "## Plan 2 (2/2)\n\n<v-click>\n\n**Therapy Benefits**\n- $15 per day for therapy\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Additional Riders**\n- Portability Option included\n- No Occupational Exclusion\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg"
+        },
+        "script": {
+          "header": "Plan 2 (Two of Two)",
+          "content": "Therapy benefits in Plan 2 include fifteen dollars per day for therapy sessions. \n\nAdditional riders include a portability option and no occupational exclusion.\n\nNow, let's look at our second plan tier."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 3 (1/2)",
+          "content": "## Plan 3 (1/2)\n\n<v-click>\n\n**Hospital Benefits**\n- $1,000 per day admission\n- $300 per day confinement\n- $2,000 per day ICU admission\n- $500 per day ICU confinement\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Surgery Benefits**\n- $500 per day inpatient\n- $300 per day outpatient\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- $300 per day ER visits\n- $50 per day urgent care\n- $50 per day physician visits\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg"
+        },
+        "script": {
+          "header": "Plan 3 (One of Two)",
+          "content": "Plan 3 provides hospital benefits with one thousand dollars per day for admission, three hundred dollars per day for confinement, two thousand dollars per day for ICU admission, and five hundred dollars per day for ICU confinement. \n\nSurgery benefits remain at five hundred dollars per day for inpatient and three hundred dollars per day for outpatient procedures. \n\nOutpatient benefits include three hundred dollars per day for ER visits, fifty dollars per day for urgent care, and fifty dollars per day for physician visits.\n\nContinuing with our second plan tier."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 3 (2/2)",
+          "content": "## Plan 3 (2/2)\n\n<v-click>\n\n**Therapy Benefits**\n- $15 per day for therapy\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Additional Riders**\n- Portability Option included\n- No Occupational Exclusion\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg"
+        },
+        "script": {
+          "header": "Plan 3 (Two of Two)",
+          "content": "Therapy benefits in Plan 3 also include fifteen dollars per day for therapy sessions. \n\nAdditional riders feature a portability option and no occupational exclusion.\n\nNow, let's look at our third plan tier."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 4 (1/2)",
+          "content": "## Plan 4 (1/2)\n\n<v-click>\n\n**Hospital Benefits**\n- $2,000 per day admission\n- $500 per day confinement\n- $2,000 per day ICU admission\n- $500 per day ICU confinement\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Surgery Benefits**\n- $750 per day inpatient\n- $400 per day outpatient\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- $500 per day ER visits\n- $75 per day urgent care\n- $75 per day physician visits\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg"
+        },
+        "script": {
+          "header": "Plan 4 (One of Two)",
+          "content": "Plan 4 offers hospital benefits with two thousand dollars per day for admission, five hundred dollars per day for confinement, two thousand dollars per day for ICU admission, and five hundred dollars per day for ICU confinement. \n\nSurgery benefits increase to seven hundred fifty dollars per day for inpatient and four hundred dollars per day for outpatient procedures. \n\nOutpatient benefits cover five hundred dollars per day for ER visits, seventy-five dollars per day for urgent care, and seventy-five dollars per day for physician visits.\n\nContinuing with our third plan tier."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 4 (2/2)",
+          "content": "## Plan 4 (2/2)\n\n<v-click>\n\n**Therapy Benefits**\n- $75 per day for therapy\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Additional Riders**\n- Portability Option included\n- No Occupational Exclusion\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg"
+        },
+        "script": {
+          "header": "Plan 4 (Two of Two)",
+          "content": "Therapy benefits in Plan 4 include seventy-five dollars per day for therapy sessions. \n\nAdditional riders include a portability option and no occupational exclusion.\n\nLet's compare the different tiers available."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Plan 2** | **Plan 3** | **Plan 4** |\n|---------|----------|----------|-----------|\n| Hospital Admission | $750/day | $1,000/day | $2,000/day |\n| Hospital Confinement | $200/day | $300/day | $500/day |\n| ICU Admission | $1,500/day | $2,000/day | $2,000/day |\n| ICU Confinement | $350/day | $500/day | $500/day |\n| Surgery Inpatient | $500/day | $500/day | $750/day |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "In this table, we compare the key features of each plan tier. \n\nPlan 2 offers seven hundred fifty dollars per day for hospital admission, while Plan 3 provides one thousand dollars, and Plan 4 offers two thousand dollars. \n\nHospital confinement benefits range from two hundred dollars per day in Plan 2 to five hundred dollars in Plan 4. \n\nICU admission benefits are one thousand five hundred dollars per day in Plan 2, increasing to two thousand dollars in Plans 3 and 4. \n\nICU confinement benefits are three hundred fifty dollars per day in Plan 2 and five hundred dollars in Plans 3 and 4. \n\nSurgery inpatient benefits are five hundred dollars per day in Plans 2 and 3, with Plan 4 offering seven hundred fifty dollars.\n\nLet's review important definitions and limitations."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Hospital Benefits**\n- Limited to specific days\n- Excludes certain conditions\n- Requires network providers\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Surgery Benefits**\n- Limited to specific procedures\n- Excludes cosmetic surgeries\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Outpatient Benefits**\n- Limited to specific visits\n- Excludes certain treatments\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Therapy Benefits**\n- Limited to specific therapies\n- Excludes experimental treatments\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Hospital benefits are limited to specific days and exclude certain conditions, requiring network providers. \n\nSurgery benefits are limited to specific procedures and exclude cosmetic surgeries. \n\nOutpatient benefits are limited to specific visits and exclude certain treatments. \n\nTherapy benefits are limited to specific therapies and exclude experimental treatments.\n\nHere are the key points to remember."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **Comprehensive Benefits** for members\n- **Educational Support** included\n- **Advocacy Services** benefits\n- **Network Provider** required\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "The association offers a wide range of benefits for its members. \n\nEducational support is included to help members achieve their academic goals. \n\nAdvocacy services provide valuable support and assistance. \n\nRemember, network providers are required for accessing these benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Business Workers of America Association Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 18
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 18,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

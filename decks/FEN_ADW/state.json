@@ -1,0 +1,782 @@
+{
+  "deck_id": "FEN_ADW",
+  "deck_title": "Advanced Wellness",
+  "deck_info": {
+    "deck_id": "FEN_ADW",
+    "deck_title": "Advanced Wellness"
+  },
+  "initial_deck": {
+    "slides": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "scripts": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "instructions": "Make sure to include the plan tiers in full:\n\nPlan 100A\nPlan 100\nPlan 200 (1/2)\nPlan 200 (2/2)\nPlan 200+ (1/2)\nPlan 200+ (2/2)\nPlan 300 (1/3)\nPlan 300 (2/3)\nPlan 300 (3/3)\nPlan 500 (1/3)\nPlan 500 (2/3)\nPlan 500 (3/3)\nPlan 750 (1/3)\nPlan 750 (2/3)\nPlan 750 (3/3)\nPlan 1000 (1/3)\nPlan 1000 (2/3)\nPlan 1000 (3/3)"
+  },
+  "processed_images": {
+    "1": {
+      "page_number": 1,
+      "original_name": "ADW_page_001.jpg",
+      "original_path": "img/pages/ADW_page_001.jpg",
+      "new_name": "01_cover_page_for_advanced_wellness_plus_insurance_plan.jpg",
+      "new_path": "img/pages/01_cover_page_for_advanced_wellness_plus_insurance_plan.jpg",
+      "page_title": "cover_page_for_advanced_wellness_plus_insurance_plan",
+      "summary": "This cover page introduces the Advanced Wellness Plus insurance plan. It features branding elements, including the logo and name of the plan prominently displayed at the top. The image depicts a healthcare professional interacting with a senior patient, suggesting a focus on wellness and care. The page also includes the name of the underwriting company, American Financial Security Life Insurance Co., and mentions that it is a limited benefit health insurance plan. Additionally, there is a reference to the group policy form and its issuance to the National Congress of Employers.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "ADW",
+      "global_page_num": 1
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "ADW_page_002.jpg",
+      "original_path": "img/pages/ADW_page_002.jpg",
+      "new_name": "02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg",
+      "new_path": "img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg",
+      "page_title": "advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000",
+      "summary": "The Advanced Wellness Plus plan offers a range of benefits across different plan tiers, including 100A, 100, 200, 200+, 300, 500, 750, and 1000. Each plan provides specific daily benefits for hospital confinement, with amounts ranging from $100 per day for Plan 100A to $1000 per day for Plan 1000, and a maximum of 30 days. Primary and specialty care doctors' office visit benefits are available, with daily amounts varying from $50 to $75, and a maximum of 3 to 5 days depending on the plan. Emergency room benefits are included, with a maximum of 1 to 2 days for certain plans.\n\nAdditional benefits include basic pathology and radiology, advance studies, surgery, and anesthesia, with specific per day and maximum day limits. Mental health inpatient and outpatient benefits are provided in higher-tier plans, with varying maximum days. Supplemental accident inpatient admission and emergency room benefits are also available, with specific per day and maximum day limits. The plan includes a hospital intensive care unit benefit and an additional hospital admission benefit for certain plans.\n\nThe accidental death benefit offers a maximum of $10,000 across all plans. Critical illness coverage provides a $1,000 benefit for each plan. Notably, there is a 30-day waiting period immediately following the coverage effective date, which does not apply to injuries. Pre-existing conditions are not covered for a continuous period of 12 months following the effective date of a covered person under the policy.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "ADW",
+      "global_page_num": 2
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "ADW_page_003.jpg",
+      "original_path": "img/pages/ADW_page_003.jpg",
+      "new_name": "03_advanced_wellness_plus_plan_details_with_membership_and_limited_medical_coverage_information.jpg",
+      "new_path": "img/pages/03_advanced_wellness_plus_plan_details_with_membership_and_limited_medical_coverage_information.jpg",
+      "page_title": "advanced_wellness_plus_plan_details_with_membership_and_limited_medical_coverage_information",
+      "summary": "The Advanced Wellness Plus plan is associated with the National Congress of Employers (NCE), which provides members with reliable services and benefits. Membership includes a monthly premium for health benefits and a non-refundable, one-time enrollment fee processed at enrollment. Members receive a Purchase Confirmation E-mail, including a membership handbook and certificate of insurance. Fulfillment packets are mailed within 7-10 business days post-enrollment. \n\nThe plan offers limited medical coverage, not intended to replace major medical plans, but to provide basic insurance coverage with specific caps. It is suitable for those supplementing a higher deductible major medical plan. Eligibility is for adult members aged 18-65 and dependent children aged 1-25. The plan emphasizes the importance of having sufficient funds for monthly drafts, which occur approximately every 30 days. Payment options include credit cards and bank automatic drafts.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "ADW",
+      "global_page_num": 3
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "ADW_page_005.jpg",
+      "original_path": "img/pages/ADW_page_005.jpg",
+      "new_name": "05_hospital_indemnity_insurance_limitations_exclusions_for_advanced_wellness_plus.jpg",
+      "new_path": "img/pages/05_hospital_indemnity_insurance_limitations_exclusions_for_advanced_wellness_plus.jpg",
+      "page_title": "hospital_indemnity_insurance_limitations_exclusions_for_advanced_wellness_plus",
+      "summary": "This page outlines the limitations and exclusions associated with the Advanced Wellness Plus Hospital Indemnity Insurance. It specifies that benefits will not be provided for services deemed not medically necessary, those not prescribed by a doctor, or those that are experimental unless required by law. Additional exclusions include dental procedures not related to accidental injury, elective and cosmetic surgeries unless necessary due to trauma, and injuries resulting from felonious activities. \n\nThe document further details exclusions related to manipulations of the musculoskeletal system, self-inflicted injuries, and injuries sustained during acts of war or terrorism. It also highlights a 30-day waiting period for sickness benefits, with no coverage for voluntary abortion unless life-threatening. Pre-existing conditions are not covered for 12 months, with exceptions for newborns or newly adopted children. \n\nCoverage provisions are briefly described, emphasizing that coverage is subject to the terms and conditions of the group insurance policy. The page also provides contact information for claims submissions and inquiries.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "ADW",
+      "global_page_num": 5
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "ADW_page_004.jpg",
+      "original_path": "img/pages/ADW_page_004.jpg",
+      "new_name": "04_advanced_wellness_plus_gapafford_plus_nce_membership_benefits_with_prescription_and_dental_access.jpg",
+      "new_path": "img/pages/04_advanced_wellness_plus_gapafford_plus_nce_membership_benefits_with_prescription_and_dental_access.jpg",
+      "page_title": "advanced_wellness_plus_gapafford_plus_nce_membership_benefits_with_prescription_and_dental_access",
+      "summary": "The Advanced Wellness Plus GapAfford Plus program offers a variety of benefits aimed at reducing out-of-pocket medical expenses for individuals and families. Key features include no deductibles, no pre-existing condition limitations, and no age restrictions. Prescription discounts are available, with savings of 15% on brand-name and 55% on generic medications at participating pharmacies. The Aetna Dental Access Network provides access to over 132,000 dental locations, offering savings on services like cleanings and x-rays, with no pre-existing condition exclusions. \n\nThe program also includes the OUTLOOK Vision Network, offering savings of 10% to 50% on eyeglasses and lenses. Pet Rx benefits allow for discounted medications for pets, and the Alternative Medicine program offers savings on services from over 8,000 providers. Chiropractic care is available with initial consultation savings and ongoing treatment discounts. Hearing savings and imaging savings programs provide additional cost reductions on aids and radiology testing, respectively. \n\nMembers can also benefit from medical bill negotiations, saving on their overall healthcare costs. The program includes access to medical supply discounts, laboratory savings, and physical therapy services. Vitamins and supplements are available at reduced prices, and a 24/7 Health Information Line offers medical advice. A 24/7 Nurse Help Line is also available for family health issues. However, the program is not available in certain states, including Alaska and Connecticut.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "ADW",
+      "global_page_num": 4
+    }
+  },
+  "extracted_tables": {
+    "2": {
+      "page_number": "2",
+      "tables": [
+        {
+          "table_title": "Advanced Wellness Plus Benefit Description",
+          "headers": [
+            "Benefit Description",
+            "100A",
+            "100",
+            "200",
+            "200+",
+            "300",
+            "500",
+            "750",
+            "1000"
+          ],
+          "rows": [
+            [
+              "Hospital Confinement Benefit Per Day",
+              "$100",
+              "$100",
+              "$200",
+              "$200",
+              "$300",
+              "$500",
+              "$750",
+              "$1000"
+            ],
+            [
+              "Hospital Confinement Benefit Max Day",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30"
+            ],
+            [
+              "Primary Care Doctors Office Visit Benefit Per Day",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$75"
+            ],
+            [
+              "Primary Care Doctors Office Visit Benefit Max Day",
+              "3",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Specialty Care Doctors' Office Visit Benefit Per Day",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$75"
+            ],
+            [
+              "Specialty Care Doctors' Office Visit Benefit Max Day",
+              "3",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Emergency Room Benefit Per Day",
+              "-",
+              "-",
+              "-",
+              "$50",
+              "$50",
+              "$50",
+              "$75",
+              "$100"
+            ],
+            [
+              "Emergency Room Benefit Max Day",
+              "-",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "Basic Pathology & Radiology Benefit* Per Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Basic Pathology & Radiology Benefit* Max Day",
+              "-",
+              "1",
+              "3",
+              "-",
+              "2",
+              "2",
+              "3",
+              "-"
+            ],
+            [
+              "Advance Studies Benefit* Per Day",
+              "-",
+              "-",
+              "$50",
+              "$50",
+              "-",
+              "$50",
+              "$50",
+              "$75"
+            ],
+            [
+              "Advance Studies Benefit* Max Day",
+              "-",
+              "1",
+              "3",
+              "-",
+              "2",
+              "2",
+              "3",
+              "-"
+            ],
+            [
+              "Surgery Benefit Per Day",
+              "-",
+              "-",
+              "-",
+              "$400",
+              "$400",
+              "$750",
+              "$1000",
+              "$1500"
+            ],
+            [
+              "Surgery Benefit Max Day",
+              "-",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3"
+            ],
+            [
+              "Anesthesia Benefit Per Day",
+              "-",
+              "-",
+              "-",
+              "20%",
+              "20%",
+              "20%",
+              "20%",
+              "20%"
+            ],
+            [
+              "Anesthesia Benefit Max Day",
+              "-",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3"
+            ],
+            [
+              "Mental Health Inpatient Benefit Per Day",
+              "-",
+              "-",
+              "-",
+              "$150",
+              "$250",
+              "$375",
+              "$500",
+              "-"
+            ],
+            [
+              "Mental Health Inpatient Benefit Max Day",
+              "-",
+              "-",
+              "-",
+              "60",
+              "60",
+              "60",
+              "60",
+              "-"
+            ],
+            [
+              "Mental Health Outpatient Benefit Per Day",
+              "-",
+              "-",
+              "-",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "-"
+            ],
+            [
+              "Mental Health Outpatient Benefit Max Day",
+              "-",
+              "-",
+              "-",
+              "20",
+              "20",
+              "20",
+              "20",
+              "-"
+            ],
+            [
+              "Supplemental Accident Inpatient Admission Benefit Per Day",
+              "-",
+              "-",
+              "-",
+              "$500",
+              "$500",
+              "$500",
+              "$500",
+              "-"
+            ],
+            [
+              "Supplemental Accident Inpatient Admission Benefit Max Day",
+              "-",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "-"
+            ],
+            [
+              "Supplemental Accident Emergency Room Benefit Per Day",
+              "-",
+              "-",
+              "-",
+              "$250",
+              "$250",
+              "$250",
+              "$250",
+              "-"
+            ],
+            [
+              "Supplemental Accident Emergency Room Benefit Max Day",
+              "-",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "-"
+            ],
+            [
+              "Hospital Intensive Care Unit Benefit Per Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Hospital Intensive Care Unit Benefit Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Additional Hospital Admission Benefit Per Admission",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Additional Hospital Admission Benefit Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "Accidental Death Benefit Maximum Benefit",
+              "-",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000"
+            ],
+            [
+              "Critical Illness",
+              "-",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "# Deck ID: FEN_ADW\n# Deck Title: Advanced Wellness\n\n## Cover (1 slide)\n- **Plan Name:** Advanced Wellness Plus\n- **Tagline:** \"Empowering Your Health Journey with Essential Coverage\"\n\n## Plan Overview (1 slide)\n- **Target Audience:** Individuals and families\n- **Offerings:** Limited medical coverage, wellness programs\n- **Key Benefits:** Accessibility, affordability, and personal impact\n\n## Core Plan Elements (3 slides)\n- **Coverage Areas:** Physician services, hospitalization, virtual visits\n- **Plan Structure:** Tiered options with specific co-pays and visit limits\n- **Eligibility:** Adults aged 18-65, dependent children aged 1-25\n\n## Common Service Features (3 slides)\n- **Provider Networks:** Extensive access through Aetna Dental Access and OUTLOOK Vision Network\n- **Claims Management:** Efficient claims processing and support\n- **Support Tools:** Wellness programs, 24/7 Health Information Line, and Nurse Help Line\n\n## Plan Tiers Breakdown (18 slides)\n\n### Plan 100A\n- **Hospital Confinement Benefit:** $100 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 3 days\n- **Specialty Care Visit Benefit:** $50 per day, max 3 days\n- **Accidental Death Benefit:** $10,000\n- **Critical Illness Coverage:** $1,000\n\n### Plan 100\n- **Hospital Confinement Benefit:** $100 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 5 days\n- **Specialty Care Visit Benefit:** $50 per day, max 5 days\n- **Emergency Room Benefit:** 1 day\n- **Accidental Death Benefit:** $10,000\n- **Critical Illness Coverage:** $1,000\n\n### Plan 200 (1/2)\n- **Hospital Confinement Benefit:** $200 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 5 days\n- **Specialty Care Visit Benefit:** $50 per day, max 5 days\n\n### Plan 200 (2/2)\n- **Emergency Room Benefit:** 1 day\n- **Advance Studies Benefit:** $50 per day, max 3 days\n- **Accidental Death Benefit:** $10,000\n- **Critical Illness Coverage:** $1,000\n\n### Plan 200+ (1/2)\n- **Hospital Confinement Benefit:** $200 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 5 days\n- **Specialty Care Visit Benefit:** $50 per day, max 5 days\n\n### Plan 200+ (2/2)\n- **Emergency Room Benefit:** $50 per day, max 2 days\n- **Surgery Benefit:** $400 per day, max 3 days\n- **Accidental Death Benefit:** $10,000\n- **Critical Illness Coverage:** $1,000\n\n### Plan 300 (1/3)\n- **Hospital Confinement Benefit:** $300 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 5 days\n- **Specialty Care Visit Benefit:** $50 per day, max 5 days\n\n### Plan 300 (2/3)\n- **Emergency Room Benefit:** $50 per day, max 1 day\n- **Surgery Benefit:** $400 per day, max 3 days\n- **Anesthesia Benefit:** 20% per day, max 3 days\n\n### Plan 300 (3/3)\n- **Mental Health Inpatient Benefit:** $250 per day, max 60 days\n- **Accidental Death Benefit:** $10,000\n- **Critical Illness Coverage:** $1,000\n\n### Plan 500 (1/3)\n- **Hospital Confinement Benefit:** $500 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 5 days\n- **Specialty Care Visit Benefit:** $50 per day, max 5 days\n\n### Plan 500 (2/3)\n- **Emergency Room Benefit:** $50 per day, max 1 day\n- **Surgery Benefit:** $750 per day, max 3 days\n- **Anesthesia Benefit:** 20% per day, max 3 days\n\n### Plan 500 (3/3)\n- **Mental Health Inpatient Benefit:** $375 per day, max 60 days\n- **Accidental Death Benefit:** $10,000\n- **Critical Illness Coverage:** $1,000\n\n### Plan 750 (1/3)\n- **Hospital Confinement Benefit:** $750 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 5 days\n- **Specialty Care Visit Benefit:** $50 per day, max 5 days\n\n### Plan 750 (2/3)\n- **Emergency Room Benefit:** $75 per day, max 1 day\n- **Surgery Benefit:** $1000 per day, max 3 days\n- **Anesthesia Benefit:** 20% per day, max 3 days\n\n### Plan 750 (3/3)\n- **Mental Health Inpatient Benefit:** $500 per day, max 60 days\n- **Accidental Death Benefit:** $10,000\n- **Critical Illness Coverage:** $1,000\n\n### Plan 1000 (1/3)\n- **Hospital Confinement Benefit:** $1000 per day, max 30 days\n- **Primary Care Visit Benefit:** $75 per day, max 5 days\n- **Specialty Care Visit Benefit:** $75 per day, max 5 days\n\n### Plan 1000 (2/3)\n- **Emergency Room Benefit:** $100 per day, max 1 day\n- **Surgery Benefit:** $1500 per day, max 3 days\n- **Anesthesia Benefit:** 20% per day, max 3 days\n\n### Plan 1000 (3/3)\n- **Accidental Death Benefit:** $10,000\n- **Critical Illness Coverage:** $1,000\n\n## Comparison Slides (1 slide)\n```markdown\n| Benefit Description                  | Plan 100A | Plan 100 | Plan 200 | Plan 200+ | Plan 300 | Plan 500 | Plan 750 | Plan 1000 |\n|--------------------------------------|-----------|----------|----------|-----------|----------|----------|----------|-----------|\n| Hospital Confinement Benefit Per Day | $100      | $100     | $200     | $200      | $300     | $500     | $750     | $1000     |\n| Primary Care Visit Benefit Per Day   | $50       | $50      | $50      | $50       | $50      | $50      | $50      | $75       |\n| Specialty Care Visit Benefit Per Day | $50       | $50      | $50      | $50       | $50      | $50      | $50      | $75       |\n| Emergency Room Benefit Per Day       | -         | -        | -        | $50       | $50      | $50      | $75      | $100      |\n| Surgery Benefit Per Day              | -         | -        | -        | $400      | $400     | $750     | $1000    | $1500     |\n| Accidental Death Benefit             | $10,000   | $10,000  | $10,000  | $10,000   | $10,000  | $10,000  | $10,000  | $10,000   |\n```\n\n## Limitations and Exclusions (2 slides)\n- **Exclusions:** Pre-existing conditions for 12 months, elective surgeries, dental procedures not due to injury\n- **Limitations:** 30-day waiting period for sickness benefits, no coverage for experimental treatments\n\n## Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Multiple tiers to suit different needs\n- **Balance:** Affordable options with essential coverage\n- **Next Steps:** Contact for enrollment and support\n\n## Thank You (1 slide)\n- **Message:** \"Thank you for considering Advanced Wellness Plus. Your health, our priority.\"",
+    "generated_at": "2025-02-20T21:44:57.632339"
+  },
+  "slides": {
+    "content": "---\nid: FEN_ADW\ntheme: ../../\ntitle: | \n  Advanced Wellness Plus\ninfo: |\n  ## Advanced Wellness Plus Plan Overview\n  A look at the Advanced Wellness Plus benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"ADW\" />\n\n# Advanced Wellness Plus Plan Overview\n\nUnderstanding the details and benefits of the **Advanced Wellness Plus**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Advanced Wellness Plus Plan\n\n<v-click>\n\n- Targeted at **Individuals and families** through **American Financial Security Life Insurance Co.**\n\n</v-click>\n\n<v-click>\n\n- **Limited medical coverage** and wellness programs\n\n</v-click>\n\n<v-click>\n\n- **Accessibility, affordability, and personal impact** benefits\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Core Plan Elements\n\n<v-click>  \n\n**Coverage Areas**\n\n- Physician services\n- Hospitalization\n- Virtual visits\n\n</v-click>\n\n<v-click>\n\n**Plan Structure**\n\n- Tiered options with specific co-pays and visit limits\n\n</v-click>\n\n<v-click>\n\n**Eligibility**\n\n- Adults aged 18-65\n- Dependent children aged 1-25\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Common Service Features\n\n<v-click>  \n\n**Provider Networks**\n\n- Extensive access through Aetna Dental Access and OUTLOOK Vision Network\n\n</v-click>\n\n<v-click>\n\n**Claims Management**\n\n- Efficient claims processing and support\n\n</v-click>\n\n<v-click>\n\n**Support Tools**\n\n- Wellness programs\n- 24/7 Health Information Line\n- Nurse Help Line\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 100A\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 100\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- 1 day\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 200 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 200 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- 1 day\n\n</v-click>\n\n<v-click>\n\n**Advance Studies Benefit**\n- $50 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 200+ (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 200+ (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 2 days\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $400 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 300 (1/3)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $300 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 300 (2/3)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 day\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $400 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Anesthesia Benefit**\n- 20% per day, max 3 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 300 (3/3)\n\n<v-click>\n\n**Mental Health Inpatient Benefit**\n- $250 per day, max 60 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 500 (1/3)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $500 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 500 (2/3)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 day\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $750 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Anesthesia Benefit**\n- 20% per day, max 3 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 500 (3/3)\n\n<v-click>\n\n**Mental Health Inpatient Benefit**\n- $375 per day, max 60 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 750 (1/3)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $750 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 750 (2/3)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $75 per day, max 1 day\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1000 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Anesthesia Benefit**\n- 20% per day, max 3 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 750 (3/3)\n\n<v-click>\n\n**Mental Health Inpatient Benefit**\n- $500 per day, max 60 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 1000 (1/3)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $75 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75 per day, max 5 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 1000 (2/3)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $100 per day, max 1 day\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1500 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Anesthesia Benefit**\n- 20% per day, max 3 days\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg\n---\n\n## Plan 1000 (3/3)\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Plan 100A** | **Plan 100** | **Plan 200** | **Plan 200+** | **Plan 300** | **Plan 500** | **Plan 750** | **Plan 1000** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|-----------|\n| Hospital Confinement Benefit Per Day | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 |\n| Primary Care Visit Benefit Per Day | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |\n| Specialty Care Visit Benefit Per Day | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |\n| Emergency Room Benefit Per Day | - | - | - | $50 | $50 | $50 | $75 | $100 |\n| Surgery Benefit Per Day | - | - | - | $400 | $400 | $750 | $1000 | $1500 |\n| Accidental Death Benefit | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/05_hospital_indemnity_insurance_limitations_exclusions_for_advanced_wellness_plus.jpg\n---\n\n## Limitations and Exclusions\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions for 12 months\n- Elective surgeries\n- Dental procedures not due to injury\n\n</v-click>\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness benefits\n- No coverage for experimental treatments\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Action Steps\n\n<v-click>\n\n- **Flexibility:** Multiple tiers to suit different needs\n\n</v-click>  \n\n<v-click>\n\n- **Balance:** Affordable options with essential coverage\n\n</v-click>\n\n<v-click>\n\n- **Next Steps:** Contact for enrollment and support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Advanced Wellness Plus Review. Continue to be great!\n---\n\n# Thank You!\n\nThank you for considering Advanced Wellness Plus. Your health, our priority.\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/03_advanced_wellness_plus_plan_details_with_membership_and_limited_medical_coverage_information.jpg",
+      "pages/04_advanced_wellness_plus_gapafford_plus_nce_membership_benefits_with_prescription_and_dental_access.jpg",
+      "pages/01_cover_page_for_advanced_wellness_plus_insurance_plan.jpg",
+      "pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg",
+      "pages/05_hospital_indemnity_insurance_limitations_exclusions_for_advanced_wellness_plus.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Advanced Wellness Plus plan. We'll walk through this plan's features and benefits, designed to provide targeted healthcare solutions for your members. Let's get started!\n\n---- The Advanced Wellness Plus Plan ----\n\nThe Advanced Wellness Plus plan is targeted at individuals and families through American Financial Security Life Insurance Co.\n\nIt offers limited medical coverage and wellness programs to support your members' health needs.\n\nThe plan emphasizes accessibility, affordability, and personal impact, ensuring essential services are within reach.\n\n---- Core Plan Elements ----\n\nNow, let's explore the core elements of the plan.\n\nThe coverage areas include physician services, hospitalization, and virtual visits, providing a range of healthcare options.\n\nThe plan structure features tiered options with specific co-pays and visit limits, offering flexibility to suit different needs.\n\nEligibility is open to adults aged eighteen to sixty-five and dependent children aged one to twenty-five.\n\n---- Common Service Features ----\n\nLet's discuss the common service features available with this plan.\n\nThe provider networks offer extensive access through Aetna Dental Access and OUTLOOK Vision Network, ensuring a wide range of choices.\n\nEfficient claims management is supported by streamlined processing and dedicated support.\n\nSupport tools include wellness programs, a twenty-four/seven Health Information Line, and a Nurse Help Line to assist members.\n\n---- Plan 100A ----\n\nLet's examine our first plan tier, Plan 100A.\n\nThe Hospital Confinement Benefit provides one hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit offers fifty dollars per day, up to three days.\n\nThe Specialty Care Visit Benefit also provides fifty dollars per day, with a maximum of three days.\n\nAn Accidental Death Benefit of ten thousand dollars is included.\n\nCritical Illness Coverage offers one thousand dollars for specified conditions.\n\n---- Plan 100 ----\n\nContinuing with our first plan tier, Plan 100.\n\nThe Hospital Confinement Benefit remains at one hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit increases to fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.\n\nAn Emergency Room Benefit is available for one day.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage provides one thousand dollars.\n\n---- Plan 200 (One of Two) ----\n\nNow, let's look at our second plan tier, Plan 200.\n\nThe Hospital Confinement Benefit increases to two hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.\n\n---- Plan 200 (Two of Two) ----\n\nContinuing with Plan 200.\n\nAn Emergency Room Benefit is available for one day.\n\nThe Advance Studies Benefit offers fifty dollars per day, up to three days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage provides one thousand dollars.\n\n---- Plan 200+ (One of Two) ----\n\nLet's explore Plan 200+.\n\nThe Hospital Confinement Benefit is two hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.\n\n---- Plan 200+ (Two of Two) ----\n\nContinuing with Plan 200+.\n\nThe Emergency Room Benefit offers fifty dollars per day, up to two days.\n\nThe Surgery Benefit provides four hundred dollars per day, with a maximum of three days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars.\n\n---- Plan 300 (One of Three) ----\n\nNow, let's examine Plan 300.\n\nThe Hospital Confinement Benefit increases to three hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.\n\n---- Plan 300 (Two of Three) ----\n\nContinuing with Plan 300.\n\nThe Emergency Room Benefit offers fifty dollars per day, up to one day.\n\nThe Surgery Benefit provides four hundred dollars per day, with a maximum of three days.\n\nThe Anesthesia Benefit covers twenty percent per day, up to three days.\n\n---- Plan 300 (Three of Three) ----\n\nCompleting Plan 300.\n\nThe Mental Health Inpatient Benefit is two hundred fifty dollars per day, with a maximum of sixty days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars.\n\n---- Plan 500 (One of Three) ----\n\nLet's move on to Plan 500.\n\nThe Hospital Confinement Benefit increases to five hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.\n\n---- Plan 500 (Two of Three) ----\n\nContinuing with Plan 500.\n\nThe Emergency Room Benefit offers fifty dollars per day, up to one day.\n\nThe Surgery Benefit provides seven hundred fifty dollars per day, with a maximum of three days.\n\nThe Anesthesia Benefit covers twenty percent per day, up to three days.\n\n---- Plan 500 (Three of Three) ----\n\nCompleting Plan 500.\n\nThe Mental Health Inpatient Benefit is three hundred seventy-five dollars per day, with a maximum of sixty days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars.\n\n---- Plan 750 (One of Three) ----\n\nNow, let's explore Plan 750.\n\nThe Hospital Confinement Benefit increases to seven hundred fifty dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.\n\n---- Plan 750 (Two of Three) ----\n\nContinuing with Plan 750.\n\nThe Emergency Room Benefit offers seventy-five dollars per day, up to one day.\n\nThe Surgery Benefit provides one thousand dollars per day, with a maximum of three days.\n\nThe Anesthesia Benefit covers twenty percent per day, up to three days.\n\n---- Plan 750 (Three of Three) ----\n\nCompleting Plan 750.\n\nThe Mental Health Inpatient Benefit is five hundred dollars per day, with a maximum of sixty days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars.\n\n---- Plan 1000 (One of Three) ----\n\nFinally, let's examine Plan 1000.\n\nThe Hospital Confinement Benefit increases to one thousand dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit is seventy-five dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is seventy-five dollars per day, with a maximum of five days.\n\n---- Plan 1000 (Two of Three) ----\n\nContinuing with Plan 1000.\n\nThe Emergency Room Benefit offers one hundred dollars per day, up to one day.\n\nThe Surgery Benefit provides one thousand five hundred dollars per day, with a maximum of three days.\n\nThe Anesthesia Benefit covers twenty percent per day, up to three days.\n\n---- Plan 1000 (Three of Three) ----\n\nCompleting Plan 1000.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nThe Hospital Confinement Benefit ranges from one hundred dollars to one thousand dollars per day, depending on the plan.\n\nPrimary and Specialty Care Visit Benefits are consistent across most plans, with slight variations in Plan 1000.\n\nEmergency Room and Surgery Benefits increase with higher tiers, offering more substantial coverage.\n\nAccidental Death and Critical Illness Benefits remain consistent across all plans.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nExclusions include pre-existing conditions for twelve months, elective surgeries, and dental procedures not due to injury.\n\nLimitations involve a thirty-day waiting period for sickness benefits and no coverage for experimental treatments.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers flexibility with multiple tiers to suit different needs.\n\nIt balances affordability with essential coverage, ensuring members have access to necessary services.\n\nFor next steps, contact us for enrollment and support.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Advanced Wellness Plus Plan Overview",
+          "content": "<SlideAudio deckKey=\"ADW\" />\n\n# Advanced Wellness Plus Plan Overview\n\nUnderstanding the details and benefits of the **Advanced Wellness Plus**",
+          "frontmatter": "id: FEN_ADW\ntheme: ../../\ntitle: | \n  Advanced Wellness Plus\ninfo: |\n  ## Advanced Wellness Plus Plan Overview\n  A look at the Advanced Wellness Plus benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Advanced Wellness Plus plan. We'll walk through this plan's features and benefits, designed to provide targeted healthcare solutions for your members. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Advanced Wellness Plus Plan",
+          "content": "## The Advanced Wellness Plus Plan\n\n<v-click>\n\n- Targeted at **Individuals and families** through **American Financial Security Life Insurance Co.**\n\n</v-click>\n\n<v-click>\n\n- **Limited medical coverage** and wellness programs\n\n</v-click>\n\n<v-click>\n\n- **Accessibility, affordability, and personal impact** benefits\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "The Advanced Wellness Plus Plan",
+          "content": "The Advanced Wellness Plus plan is targeted at individuals and families through American Financial Security Life Insurance Co.\n\nIt offers limited medical coverage and wellness programs to support your members' health needs.\n\nThe plan emphasizes accessibility, affordability, and personal impact, ensuring essential services are within reach."
+        }
+      },
+      {
+        "slide": {
+          "header": "Core Plan Elements",
+          "content": "## Core Plan Elements\n\n<v-click>  \n\n**Coverage Areas**\n\n- Physician services\n- Hospitalization\n- Virtual visits\n\n</v-click>\n\n<v-click>\n\n**Plan Structure**\n\n- Tiered options with specific co-pays and visit limits\n\n</v-click>\n\n<v-click>\n\n**Eligibility**\n\n- Adults aged 18-65\n- Dependent children aged 1-25\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Core Plan Elements",
+          "content": "Now, let's explore the core elements of the plan.\n\nThe coverage areas include physician services, hospitalization, and virtual visits, providing a range of healthcare options.\n\nThe plan structure features tiered options with specific co-pays and visit limits, offering flexibility to suit different needs.\n\nEligibility is open to adults aged eighteen to sixty-five and dependent children aged one to twenty-five."
+        }
+      },
+      {
+        "slide": {
+          "header": "Common Service Features",
+          "content": "## Common Service Features\n\n<v-click>  \n\n**Provider Networks**\n\n- Extensive access through Aetna Dental Access and OUTLOOK Vision Network\n\n</v-click>\n\n<v-click>\n\n**Claims Management**\n\n- Efficient claims processing and support\n\n</v-click>\n\n<v-click>\n\n**Support Tools**\n\n- Wellness programs\n- 24/7 Health Information Line\n- Nurse Help Line\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Common Service Features",
+          "content": "Let's discuss the common service features available with this plan.\n\nThe provider networks offer extensive access through Aetna Dental Access and OUTLOOK Vision Network, ensuring a wide range of choices.\n\nEfficient claims management is supported by streamlined processing and dedicated support.\n\nSupport tools include wellness programs, a twenty-four/seven Health Information Line, and a Nurse Help Line to assist members."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 100A",
+          "content": "## Plan 100A\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 100A",
+          "content": "Let's examine our first plan tier, Plan 100A.\n\nThe Hospital Confinement Benefit provides one hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit offers fifty dollars per day, up to three days.\n\nThe Specialty Care Visit Benefit also provides fifty dollars per day, with a maximum of three days.\n\nAn Accidental Death Benefit of ten thousand dollars is included.\n\nCritical Illness Coverage offers one thousand dollars for specified conditions."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 100",
+          "content": "## Plan 100\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- 1 day\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 100",
+          "content": "Continuing with our first plan tier, Plan 100.\n\nThe Hospital Confinement Benefit remains at one hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit increases to fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.\n\nAn Emergency Room Benefit is available for one day.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage provides one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200 (1/2)",
+          "content": "## Plan 200 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 200 (One of Two)",
+          "content": "Now, let's look at our second plan tier, Plan 200.\n\nThe Hospital Confinement Benefit increases to two hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200 (2/2)",
+          "content": "## Plan 200 (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- 1 day\n\n</v-click>\n\n<v-click>\n\n**Advance Studies Benefit**\n- $50 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 200 (Two of Two)",
+          "content": "Continuing with Plan 200.\n\nAn Emergency Room Benefit is available for one day.\n\nThe Advance Studies Benefit offers fifty dollars per day, up to three days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage provides one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200+ (1/2)",
+          "content": "## Plan 200+ (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 200+ (One of Two)",
+          "content": "Let's explore Plan 200+.\n\nThe Hospital Confinement Benefit is two hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200+ (2/2)",
+          "content": "## Plan 200+ (2/2)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 2 days\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $400 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 200+ (Two of Two)",
+          "content": "Continuing with Plan 200+.\n\nThe Emergency Room Benefit offers fifty dollars per day, up to two days.\n\nThe Surgery Benefit provides four hundred dollars per day, with a maximum of three days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 300 (1/3)",
+          "content": "## Plan 300 (1/3)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $300 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 300 (One of Three)",
+          "content": "Now, let's examine Plan 300.\n\nThe Hospital Confinement Benefit increases to three hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 300 (2/3)",
+          "content": "## Plan 300 (2/3)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 day\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $400 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Anesthesia Benefit**\n- 20% per day, max 3 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 300 (Two of Three)",
+          "content": "Continuing with Plan 300.\n\nThe Emergency Room Benefit offers fifty dollars per day, up to one day.\n\nThe Surgery Benefit provides four hundred dollars per day, with a maximum of three days.\n\nThe Anesthesia Benefit covers twenty percent per day, up to three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 300 (3/3)",
+          "content": "## Plan 300 (3/3)\n\n<v-click>\n\n**Mental Health Inpatient Benefit**\n- $250 per day, max 60 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 300 (Three of Three)",
+          "content": "Completing Plan 300.\n\nThe Mental Health Inpatient Benefit is two hundred fifty dollars per day, with a maximum of sixty days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 500 (1/3)",
+          "content": "## Plan 500 (1/3)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $500 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 500 (One of Three)",
+          "content": "Let's move on to Plan 500.\n\nThe Hospital Confinement Benefit increases to five hundred dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 500 (2/3)",
+          "content": "## Plan 500 (2/3)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 day\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $750 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Anesthesia Benefit**\n- 20% per day, max 3 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 500 (Two of Three)",
+          "content": "Continuing with Plan 500.\n\nThe Emergency Room Benefit offers fifty dollars per day, up to one day.\n\nThe Surgery Benefit provides seven hundred fifty dollars per day, with a maximum of three days.\n\nThe Anesthesia Benefit covers twenty percent per day, up to three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 500 (3/3)",
+          "content": "## Plan 500 (3/3)\n\n<v-click>\n\n**Mental Health Inpatient Benefit**\n- $375 per day, max 60 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 500 (Three of Three)",
+          "content": "Completing Plan 500.\n\nThe Mental Health Inpatient Benefit is three hundred seventy-five dollars per day, with a maximum of sixty days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 750 (1/3)",
+          "content": "## Plan 750 (1/3)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $750 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 5 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 750 (One of Three)",
+          "content": "Now, let's explore Plan 750.\n\nThe Hospital Confinement Benefit increases to seven hundred fifty dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit remains at fifty dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 750 (2/3)",
+          "content": "## Plan 750 (2/3)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $75 per day, max 1 day\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1000 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Anesthesia Benefit**\n- 20% per day, max 3 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 750 (Two of Three)",
+          "content": "Continuing with Plan 750.\n\nThe Emergency Room Benefit offers seventy-five dollars per day, up to one day.\n\nThe Surgery Benefit provides one thousand dollars per day, with a maximum of three days.\n\nThe Anesthesia Benefit covers twenty percent per day, up to three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 750 (3/3)",
+          "content": "## Plan 750 (3/3)\n\n<v-click>\n\n**Mental Health Inpatient Benefit**\n- $500 per day, max 60 days\n\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 750 (Three of Three)",
+          "content": "Completing Plan 750.\n\nThe Mental Health Inpatient Benefit is five hundred dollars per day, with a maximum of sixty days.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1000 (1/3)",
+          "content": "## Plan 1000 (1/3)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000 per day, max 30 days\n\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $75 per day, max 5 days\n\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75 per day, max 5 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 1000 (One of Three)",
+          "content": "Finally, let's examine Plan 1000.\n\nThe Hospital Confinement Benefit increases to one thousand dollars per day, with a maximum of thirty days.\n\nThe Primary Care Visit Benefit is seventy-five dollars per day, up to five days.\n\nThe Specialty Care Visit Benefit is seventy-five dollars per day, with a maximum of five days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1000 (2/3)",
+          "content": "## Plan 1000 (2/3)\n\n<v-click>\n\n**Emergency Room Benefit**\n- $100 per day, max 1 day\n\n</v-click>\n\n<v-click>\n\n**Surgery Benefit**\n- $1500 per day, max 3 days\n\n</v-click>\n\n<v-click>\n\n**Anesthesia Benefit**\n- 20% per day, max 3 days\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 1000 (Two of Three)",
+          "content": "Continuing with Plan 1000.\n\nThe Emergency Room Benefit offers one hundred dollars per day, up to one day.\n\nThe Surgery Benefit provides one thousand five hundred dollars per day, with a maximum of three days.\n\nThe Anesthesia Benefit covers twenty percent per day, up to three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1000 (3/3)",
+          "content": "## Plan 1000 (3/3)\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n\n</v-click>\n\n<v-click>\n\n**Critical Illness Coverage**\n- $1,000\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_advanced_wellness_plus_benefit_details_for_plans_100a_100_200_200plus_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 1000 (Three of Three)",
+          "content": "Completing Plan 1000.\n\nThe Accidental Death Benefit is ten thousand dollars.\n\nCritical Illness Coverage offers one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Plan 100A** | **Plan 100** | **Plan 200** | **Plan 200+** | **Plan 300** | **Plan 500** | **Plan 750** | **Plan 1000** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|-----------|\n| Hospital Confinement Benefit Per Day | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 |\n| Primary Care Visit Benefit Per Day | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |\n| Specialty Care Visit Benefit Per Day | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |\n| Emergency Room Benefit Per Day | - | - | - | $50 | $50 | $50 | $75 | $100 |\n| Surgery Benefit Per Day | - | - | - | $400 | $400 | $750 | $1000 | $1500 |\n| Accidental Death Benefit | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nThe Hospital Confinement Benefit ranges from one hundred dollars to one thousand dollars per day, depending on the plan.\n\nPrimary and Specialty Care Visit Benefits are consistent across most plans, with slight variations in Plan 1000.\n\nEmergency Room and Surgery Benefits increase with higher tiers, offering more substantial coverage.\n\nAccidental Death and Critical Illness Benefits remain consistent across all plans."
+        }
+      },
+      {
+        "slide": {
+          "header": "Limitations and Exclusions",
+          "content": "## Limitations and Exclusions\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions for 12 months\n- Elective surgeries\n- Dental procedures not due to injury\n\n</v-click>\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness benefits\n- No coverage for experimental treatments\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/05_hospital_indemnity_insurance_limitations_exclusions_for_advanced_wellness_plus.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nExclusions include pre-existing conditions for twelve months, elective surgeries, and dental procedures not due to injury.\n\nLimitations involve a thirty-day waiting period for sickness benefits and no coverage for experimental treatments."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Action Steps",
+          "content": "## Key Takeaways and Action Steps\n\n<v-click>\n\n- **Flexibility:** Multiple tiers to suit different needs\n\n</v-click>  \n\n<v-click>\n\n- **Balance:** Affordable options with essential coverage\n\n</v-click>\n\n<v-click>\n\n- **Next Steps:** Contact for enrollment and support\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers flexibility with multiple tiers to suit different needs.\n\nIt balances affordability with essential coverage, ensuring members have access to necessary services.\n\nFor next steps, contact us for enrollment and support."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nThank you for considering Advanced Wellness Plus. Your health, our priority.\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Advanced Wellness Plus Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 26
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 26,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

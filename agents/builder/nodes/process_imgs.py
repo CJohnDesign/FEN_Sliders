@@ -35,22 +35,27 @@ async def collect_image_metadata(image_path: Path, page_number: int) -> PageMeta
         # Generate descriptive title using OpenAI with image
         llm = await get_llm(temperature=0.7)
         messages = [
-            {"role": "system", "content": "You are an expert at creating descriptive titles for insurance presentation slides. Create a 15-20 word title that describes the content and purpose of this slide. The title should be clear and professional."},
+            {"role": "system", "content": "You are an expert at analyzing insurance plan documents. Create a descriptive title and analyze the content of this slide."},
             {"role": "user", "content": [
-                {"type": "text", "text": f"Create a descriptive title for slide {page_number} that will be used as a filename. The title should be separated by underscores and be safe for use in a filename (no special characters)."},
+                {"type": "text", "text": "Analyze this slide and provide:\n1. A descriptive title (15-20 words)\n2. A detailed content analysis including any tables, benefits, or limitations"},
                 {"type": "image_url", "image_url": {"url": image_data}}
             ]}
         ]
         
-        title_response = await llm.ainvoke(messages)
-        descriptive_title = title_response.content.strip().replace(" ", "_").replace("-", "_")
-        descriptive_title = "".join(c for c in descriptive_title if c.isalnum() or c == "_")
+        response = await llm.ainvoke(messages)
         
         # Clear the image data from memory explicitly
         del image_data
         
+        # Extract title and content from response
+        descriptive_title = response.content.split('\n')[0].strip()  # First line is title
+        content = '\n'.join(response.content.split('\n')[1:]).strip()  # Rest is content
+        
+        # Sanitize title for filename
+        safe_title = "".join(c for c in descriptive_title if c.isalnum() or c == "_")
+        
         # Create new filename with order prefix
-        new_filename = f"{page_number:02d}_from_{descriptive_title}.jpg"
+        new_filename = f"{page_number:02d}_from_{safe_title}.jpg"
         new_path = image_path.parent / new_filename
         
         # Rename the file
@@ -61,16 +66,6 @@ async def collect_image_metadata(image_path: Path, page_number: int) -> PageMeta
             logger.error(f"Failed to rename image {image_path.name}: {str(e)}")
             new_path = image_path  # Fallback to original path if rename fails
         
-        # Create basic content string
-        content = (
-            f"Image Information:\n"
-            f"Title: {descriptive_title.replace('_', ' ')}\n"
-            f"Dimensions: {width}x{height}\n"
-            f"Format: {format}\n"
-            f"Mode: {mode}\n"
-            f"File: {new_path.name}"
-        )
-        
         # Create metadata
         metadata = PageMetadata(
             page_number=page_number,
@@ -78,7 +73,7 @@ async def collect_image_metadata(image_path: Path, page_number: int) -> PageMeta
             file_path=str(new_path),
             content_type="slide",
             content=content,
-            descriptive_title=descriptive_title.replace('_', ' ')
+            descriptive_title=descriptive_title
         )
         
         logger.info(f"✓ Collected metadata for page {page_number}")
@@ -187,7 +182,6 @@ async def process_imgs(state: BuilderState) -> BuilderState:
                 return state
                 
             logger.info(f"✓ PDF conversion completed - {result['page_count']} pages")
-            await asyncio.sleep(2)  # Small delay to ensure files are written
             
         # Verify images exist and are readable
         image_files = sorted(list(pages_dir.glob("*.jpg")))
@@ -197,48 +191,86 @@ async def process_imgs(state: BuilderState) -> BuilderState:
             state.set_error(error_msg, "process_imgs")
             return state
             
-        verified_images = []
-        for img_path in image_files:
+        # Create basic metadata for each page
+        page_metadata = []
+        for i, img_path in enumerate(image_files, 1):
             try:
+                # Get basic image info
                 with Image.open(img_path) as img:
-                    img.verify()
-                verified_images.append(img_path)
-            except Exception as e:
-                logger.warning(f"Skipping unreadable image {img_path.name}: {str(e)}")
+                    width, height = img.size
+                    format = img.format
+                    mode = img.mode
                 
-        if not verified_images:
-            error_msg = "No valid images found to process"
+                # Encode image for model
+                image_data = encode_image_to_base64(str(img_path))
+                
+                # Generate descriptive title using OpenAI with image
+                llm = await get_llm(temperature=0.7)
+                messages = [
+                    {"role": "system", "content": "You are an expert at analyzing insurance plan documents. Create a descriptive title and analyze the content of this slide."},
+                    {"role": "user", "content": [
+                        {"type": "text", "text": "Analyze this slide and provide:\n1. A descriptive title (15-20 words)\n2. A detailed content analysis including any tables, benefits, or limitations"},
+                        {"type": "image_url", "image_url": {"url": image_data}}
+                    ]}
+                ]
+                
+                response = await llm.ainvoke(messages)
+                
+                # Clear the image data from memory explicitly
+                del image_data
+                
+                # Extract title and content from response
+                descriptive_title = response.content.split('\n')[0].strip()  # First line is title
+                content = '\n'.join(response.content.split('\n')[1:]).strip()  # Rest is content
+                
+                # Sanitize title for filename
+                safe_title = "".join(c for c in descriptive_title if c.isalnum() or c == "_")
+                
+                # Create new filename with order prefix
+                new_filename = f"{i:02d}_from_{safe_title}.jpg"
+                new_path = img_path.parent / new_filename
+                
+                # Rename the file
+                try:
+                    img_path.rename(new_path)
+                    logger.info(f"Renamed image to: {new_filename}")
+                except Exception as e:
+                    logger.error(f"Failed to rename image {img_path.name}: {str(e)}")
+                    new_path = img_path  # Fallback to original path if rename fails
+                
+                # Create metadata
+                metadata = PageMetadata(
+                    page_number=i,
+                    page_name=f"page_{i:02d}",
+                    file_path=str(new_path),
+                    content_type="slide",
+                    content=content,
+                    descriptive_title=descriptive_title
+                )
+                
+                page_metadata.append(metadata)
+                logger.info(f"✓ Created metadata for page {i}")
+            except Exception as e:
+                logger.warning(f"Failed to create metadata for {img_path.name}: {str(e)}")
+                continue
+                
+        if not page_metadata:
+            error_msg = "Failed to create page metadata"
             logger.error(f"❌ {error_msg}")
             state.set_error(error_msg, "process_imgs")
             return state
             
-        logger.info(f"✓ Found {len(verified_images)} images to process")
-        
-        # Process images in batches
-        all_metadata = []
-        for i in range(0, len(verified_images), BATCH_SIZE):
-            batch = verified_images[i:i + BATCH_SIZE]
-            batch_metadata = await process_image_batch(batch, state, i)
-            all_metadata.extend(batch_metadata)
-            
-            # Save state after each batch
-            state.page_metadata = sorted(all_metadata, key=lambda x: x.page_number)
-            # Initialize empty page_summaries dictionary with PageSummary objects
-            state.page_summaries = {
-                meta.page_number: PageSummary(
-                    page_number=meta.page_number,
-                    page_name=meta.page_name,
-                    title=meta.descriptive_title,
-                    file_path=meta.file_path
-                ) for meta in all_metadata
-            }
-            await save_state(state, state.metadata.deck_id)
-            
-            # Add a small delay between batches
-            await asyncio.sleep(0.5)
-        
         # Update state with processed metadata
-        state.page_metadata = sorted(all_metadata, key=lambda x: x.page_number)
+        state.page_metadata = sorted(page_metadata, key=lambda x: x.page_number)
+        
+        # Initialize empty page_summaries dictionary
+        state.page_summaries = {
+            meta.page_number: PageSummary(
+                page_number=meta.page_number,
+                page_name=meta.page_name,
+                file_path=meta.file_path
+            ) for meta in page_metadata
+        }
         
         # Move to next stage (PROCESS)
         state.update_stage(WorkflowStage.PROCESS)

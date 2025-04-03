@@ -1,57 +1,281 @@
-[Intro Music Fades In]
+---- Cover ----
 
-Welcome to the Everest Review. In this session, we’ll explore the details and benefits of Everest Insurance Benefits, helping you understand the comprehensive coverage options available to you.
+Hello, everyone! Thank you for joining today's session on the Everest Group Indemnity Insurance. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!
 
-[Slide Transition]
+---- Everest Group Indemnity Insurance Overview ----
 
-Let's start with an overview of what Everest Insurance offers. Coverage through Everest includes a variety of health benefits designed to support you in different situations. You'll have access to financial support tools, wellness programs available through digital platforms, and robust customer service support.
+The Everest Group Indemnity Insurance offers supplemental coverage through Everest. 
 
-[Slide Transition]
+It provides fixed payments for various medical expenses, ensuring predictability in your healthcare costs. 
 
-Now, let's dive into the key features and benefits. Everest Insurance provides extensive medical coverage, along with dental and vision plans. You can also access mental health support services and prescription drug coverage, which varies by plan. Additionally, you’ll enjoy extra perks through Everest Insurance partners.
+The plan includes access to the Multiplan Preferred Provider Organization (PPO) Network and support tools, enhancing your member’s healthcare experience. 
 
-[Slide Transition]
+With a simplified claims process, direct payment is made easy, allowing for flexible use of their benefits.
 
-To help you manage costs, Everest offers several tools. You'll have the option to set up a Health Savings Account or HSA, which offers tax advantages. Budgeting assistance systems and financial planning support are also available to help you keep your expenses in check.
+Now, let's explore the key features and benefits of this plan.
 
-[Slide Transition]
+---- Key Features and Benefits ----
 
-Here’s how the Health Savings Account works: First, enroll through Everest Insurance. Once your account is set up, you can contribute pre-tax dollars and receive monthly statements. Use these funds for eligible expenses, ultimately helping you save on healthcare costs.
+This plan includes fixed indemnity benefits, which means members receive a set payment amount for covered services. 
 
-[Slide Transition]
+Members have access to the Multiplan PPO Network, offering a wide range of healthcare providers. 
 
-Everest also prioritizes preventive care and wellness, offering annual check-up services and fitness program initiatives. With resources provided by Everest Insurance partners, you have access to comprehensive wellness resources.
+Direct payment of benefits simplifies their healthcare transactions, making it easier to manage their expenses. 
 
-[Slide Transition]
+The claims process is simplified, though it may vary by plan, ensuring members can focus on their health rather than paperwork.
 
-Telehealth services with Everest are designed for your convenience, offering 24/7 access to virtual consultations and specialist referrals, ensuring you get the care you need, when you need it, from the comfort of your home.
+Additionally, members can enjoy extra savings through the Multiplan network.
 
-[Slide Transition]
+Now, let's discuss the cost management tools available with this plan.
 
-In addition to health services, Everest provides advocacy and support services. This includes personalized healthcare advocacy, claims assistance, exploration of coverage options, and emotional support resources to help you navigate your healthcare journey.
+---- Cost Management Tools ----
 
-[Slide Transition]
+The GapAfford Plus Program, or GAP, is a key cost management tool. 
 
-Let’s look at the Everest Basic Plan. This plan covers essential health benefits like doctor visits, hospital stays, emergency care, and preventive services. It also includes financial support tools for budgeting and expense tracking, and wellness programs offering fitness discounts, nutritional guidance, and stress management resources.
+It includes a pre-negotiated rates system, helping them save on healthcare services. 
 
-[Slide Transition]
+Importantly, there are no deductibles, providing support for them financial planning.
 
-The Everest Basic Plan also emphasizes customer service, with 24/7 support lines and online chat assistance. Additional benefits include travel assistance and identity theft protection for a well-rounded coverage experience.
+Let's see how the GapAfford Plus works in practice.
 
-[Slide Transition]
+---- How GapAfford Plus Works ----
 
-When comparing plans, the Everest Basic provides foundational coverage. The Everest Plus offers enhanced benefits, while the Everest Premium delivers comprehensive coverage, including premium dental and vision, extensive mental health support, and full prescription coverage.
+Through GapAfoord Plus members gain access to pre-negotiated rates, which can significantly reduce members healthcare costs. 
 
-[Slide Transition]
+Services can be used without deductibles, offering immediate savings. 
 
-Understanding the definitions and limitations is crucial. Be aware of coverage limits such as annual maximums and service restrictions. Note the exclusions for cosmetic or experimental treatments, and remember that pre-authorization is required for certain services. Out-of-network services may incur higher costs and require pre-approval.
+The program provides financial relief by allowing them to pay at the time of service. 
 
-[Slide Transition]
+This approach ensures members receive savings through the GAP program.
 
-Key takeaways include the comprehensive coverage benefits Everest offers, including preventive care and telehealth services. Remember to pay attention to the enrollment deadline to ensure you secure the coverage you need.
+Next, let's look at certain Discount programs available 
+---- Healthcare Discounts ----
 
-[Outro Music Begins]
+The plan includes dental services through the Aetna Network, ensuring members oral health is covered. 
 
-Thank you for participating in the Everest Review. We hope this information helps you make informed decisions about your health coverage. Continue to be great!
+Vision programs are available with OUTLOOK Vision, supporting members eye care needs. 
 
-[Outro Music Fades Out]
+Aetna also provides dental savings, adding value to members' preventive care options.
+
+Now, let's explore telehealth services.
+
+---- Telehealth Services ----
+
+The plan offers a twenty-four/seven nurse help line, providing round-the-clock support. 
+
+Speech therapy is available via telepractice, ensuring access to specialized care. 
+
+Video conferencing is an option, allowing members to consult with healthcare providers from the comfort of their home. 
+
+These services ensure members have access to care whenever they need it.
+
+Let's move on to advocacy and support services.
+
+---- Advocacy and Support Services ----
+
+Patient advocacy is a key feature, offering healthcare support when members need it most. 
+
+Medical bill negotiations can assist in managing member’s healthcare expenses. 
+
+Discount programs provide additional options for savings. 
+
+Hearing services support is also available, ensuring comprehensive care.
+
+Let's examine our first plan tier.
+
+---- Plan 100 (One of Two) ----
+
+Plan 100 offers hospital confinement benefits of one hundred dollars per day. 
+
+For intensive care unit (ICU) stays, the benefit is two hundred dollars per day. 
+
+Emergency room (ER) visits are covered at fifty dollars per visit, with surgery benefits available for up to three days.
+
+Outpatient benefits include lab tests and X-rays, each covered at fifty dollars per service.
+
+Physician's office visits are covered at fifty dollars per visit, with a limit on the number of visits per year.
+
+Continuing with our first plan tier.
+
+---- Plan 100 (Two of Two) ----
+
+Exclusions for Plan 100 include no coverage for chiropractic or acupuncture services. 
+
+Benefits are provided per person, ensuring individual coverage. 
+
+Policy terms vary by state, so it's important to consult the certificate for specific details.
+
+Now, let's look at our second plan tier.
+
+---- Plan 200 (One of Two) ----
+
+Plan 200 increases hospital confinement benefits to two hundred dollars per day. 
+
+ICU benefits are three hundred dollars per day, with ER visits still at fifty dollars per visit. 
+
+Surgery benefits remain available for up to three days.
+
+Outpatient benefits continue with lab tests and X-rays at fifty dollars per service.
+
+Physician's office visits are covered at fifty dollars per visit, with limited visits per year.
+
+Continuing with our second plan tier.
+
+---- Plan 200 (Two of Two) ----
+
+Exclusions for Plan 200 also include no chiropractic or acupuncture services. 
+
+Benefits are provided per person, maintaining individual coverage. 
+
+Policy terms vary by state, so please consult the certificate for details.
+
+Now, let's look at our third plan tier.
+
+---- Plan 300 (One of Two) ----
+
+Plan 300 offers hospital confinement benefits of three hundred dollars per day. 
+
+ICU benefits remain at three hundred dollars per day, with ER visits at fifty dollars per visit. 
+
+Surgery benefits are available for up to three days.
+
+Outpatient benefits include lab tests and X-rays at fifty dollars per service.
+
+Physician's office visits are covered at fifty dollars per visit, with a limit on the number of visits per year.
+
+Continuing with our third plan tier.
+
+---- Plan 300 (Two of Two) ----
+
+Exclusions for Plan 300 include no chiropractic or acupuncture services. 
+
+Benefits are provided per person, ensuring individual coverage. 
+
+Policy terms vary by state, so it's important to consult the certificate for specific details.
+
+Now, let's look at our fourth plan tier.
+
+---- Plan 500 (One of Two) ----
+
+Plan 500 increases hospital confinement benefits to five hundred dollars per day. 
+
+ICU benefits are five hundred dollars per day, with ER visits at fifty dollars per visit. 
+
+Surgery benefits remain available for up to three days.
+
+Outpatient benefits continue with lab tests and X-rays at fifty dollars per service.
+
+Physician's office visits are covered at fifty dollars per visit, with limited visits per year.
+
+Continuing with our fourth plan tier.
+
+---- Plan 500 (Two of Two) ----
+
+Exclusions for Plan 500 also include no chiropractic or acupuncture services. 
+
+Benefits are provided per person, maintaining individual coverage. 
+
+Policy terms vary by state, so please consult the certificate for details.
+
+Now, let's look at our fifth plan tier.
+
+---- Plan 750 (One of Two) ----
+
+Plan 750 offers hospital confinement benefits of seven hundred fifty dollars per day. 
+
+ICU benefits are seven hundred fifty dollars per day, with ER visits at fifty dollars per visit. 
+
+Surgery benefits are available for up to three days.
+
+Outpatient benefits include lab tests and X-rays at fifty dollars per service.
+
+Physician's office visits are covered at fifty dollars per visit, with a limit on the number of visits per year.
+
+Continuing with our fifth plan tier.
+
+---- Plan 750 (Two of Two) ----
+
+Exclusions for Plan 750 include no chiropractic or acupuncture services. 
+
+Benefits are provided per person, ensuring individual coverage. 
+
+Policy terms vary by state, so it's important to consult the certificate for specific details.
+
+Now, let's look at our sixth plan tier.
+
+---- Plan 1000 (One of Two) ----
+
+Plan 1000 increases hospital confinement benefits to one thousand dollars per day. 
+
+ICU benefits are one thousand dollars per day, with ER visits at one hundred dollars per visit. 
+
+Surgery benefits remain available for up to three days.
+
+Outpatient benefits continue with lab tests and X-rays at one hundred dollars per service.
+
+Physician's office visits are covered at one hundred dollars per visit, with limited visits per year.
+
+Continuing with our sixth plan tier.
+
+---- Plan 1000 (Two of Two) ----
+
+Exclusions for Plan 1000 also include no chiropractic or acupuncture services. 
+
+Benefits are provided per person, maintaining individual coverage. 
+
+Policy terms vary by state, so please consult the certificate for details.
+
+Now, let's look at our seventh plan tier.
+
+---- Plan 1000+ (One of Two) ----
+
+Plan 1000+ offers hospital confinement benefits of one thousand dollars per day. 
+
+ICU benefits are one thousand dollars per day, with ER visits at one hundred dollars per visit. 
+
+Surgery benefits are available for up to three days.
+
+Outpatient benefits include lab tests and X-rays at one hundred dollars per service.
+
+Physician's office visits are covered at one hundred dollars per visit, with a limit on the number of visits per year.
+
+Continuing with our seventh plan tier.
+
+---- Plan 1000+ (Two of Two) ----
+
+Exclusions for Plan 1000+ include no chiropractic or acupuncture services. 
+
+Benefits are provided per person, ensuring individual coverage. 
+
+Policy terms vary by state, so it's important to consult the certificate for specific details.
+
+Let's compare the different tiers available.
+
+---- Comparing Plan Tiers ----
+
+In this table, we compare the key features across all plan tiers. Hospital confinement benefits range from one hundred dollars per day in Plan 100 to one thousand dollars per day in Plan 1000 and 1000+. ICU confinement benefits also vary, starting at two hundred dollars per day in Plan 100 and reaching one thousand dollars per day in Plan 1000 and 1000+. Emergency room visits are covered at fifty dollars per visit in most plans, increasing to one hundred dollars per visit in Plan 1000 and 1000+. Surgery days are consistently covered for up to three days across all plans. Lab tests and X-rays are covered at fifty dollars per service in most plans, with Plan 1000 and 1000+ offering one hundred dollars per service. Let's review important definitions and limitations.
+
+---- Definitions and Limitations ----
+
+Pre-existing conditions have a twelve-month limitation, which applies to all plans. 
+
+Exclusions include no coverage for chiropractic or acupuncture services and no cosmetic surgery. 
+
+Policy terms vary by state, so it's crucial to consult the certificate for specific details. 
+
+Limitations also include no coverage for hazardous activities and no benefits for illegal acts.
+
+Here are the key points to remember.
+
+---- Key Takeaways and Reminders ----
+
+The Everest Group Indemnity Insurance provides supplemental coverage with fixed payments for medical expenses. 
+
+Access to the Multiplan PPO Network and support tools enhances member’s healthcare experience. 
+
+The GapAfford Plus Program offers financial relief through pre-negotiated rates and no deductibles. 
+
+Each plan tier offers different levels of benefits, allowing members to choose the coverage that best fits their needs.
+
+Thank you for your time today. We hope this information helps you with your clients to make informed decisions about their health coverage. Continue to be great!
+

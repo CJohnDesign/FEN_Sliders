@@ -1,105 +1,155 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Basic Core health insurance plans.
+Hello, everyone! Thank you for joining today's session on the Basic Core and Basic Core-Plus Plans. We'll walk through these plans' features and benefits, designed to provide valuable healthcare solutions for your members. Let's get started!
 
-We'll walk through the plan's coverage options and features.
+---- Plan Overview ----
 
-Let's get started!
+The Basic Core and Basic Core-Plus Plans
 
----- Core Benefits Overview ----
+are managed care options with no waiting or exclusion periods for pre-existing conditions, provided through American Public Life Insurance Company.
 
-The Basic Core and Basic Core-Plus plans offer health insurance coverage underwritten by the American Public Life Insurance Company, with an A plus (Superior) rating from AM Best.
+These plans offer Indemnity Insurance, which means you receive a set payment amount with specific daily limits.
 
-These plans are designed to provide essential health benefits without waiting periods or exclusions for pre-existing conditions.
+Members can benefit from the Free Prescription Club and telemedicine services.
 
-However, they do not cover pregnancy.
+Additionally, the plans include a Medical Bill Repricer through Reference Based Pricing.
+
+Advocacy Services are also available to support members.
+
+---- Key Features and Benefits ----
 
 Let's explore the key features and benefits of these plans.
 
-The plans cover hospital admission and confinement costs, providing six hundred dollars per day for hospital admission, capped at one day.
+Managed Care is a central feature, ensuring members have access to necessary services without delay.
 
-They also offer one hundred dollars per day for hospital daily confinement, up to ten days.
+Indemnity Insurance provides financial support with predetermined daily limits.
 
-Emergency and urgent care benefits include coverage for emergency room visits at one hundred dollars per day for one day.
+The Free Prescription Club offers varying benefits depending on the plan.
 
-Urgent care visits are covered at fifty dollars per day for up to three days.
-
-Additionally, physician office visits are covered at seventy dollars per day for up to three days.
-
-The Free Prescription Club is a valuable feature, offering free acute and chronic medications, diabetic supplies, and pharmacy coaching.
-
-Members also have access to a personal portal for account management.
-
-They can benefit from discounted diabetic insulin through Walmart and reduced prices for over-the-counter medications.
-
-Telemedicine services provide unlimited virtual doctor visits available twenty-four/seven under the Basic Core-Plus plan.
-
-Consultations are available via various digital platforms with immediate prescription filling.
-
-The Medical Bill Repricer Services allow members to visit any doctor with set prepay amounts for visits, twenty-five dollars for primary care, and fifty dollars for specialists.
-
-Reference Based Pricing helps manage healthcare costs by paying providers a percentage of Medicare Allowable Rates, ranging from one hundred fifty percent to two hundred percent.
-
-Advocacy services include a concierge service to assist members in understanding their benefits, filing claims, and negotiating with providers to reduce out-of-pocket expenses.
+Telemedicine Services are available through virtual consultations, enhancing accessibility.
 
 ---- Cost Management Tools ----
 
-Cost management tools are embedded within the plans.
+Now, let's discuss the cost management tools available with these plans.
 
-Notably, through the Medical Bill Repricer Services and advocacy offerings that facilitate efficient healthcare cost navigation.
+The Medical Bill Repricer, or MBR, helps manage healthcare expenses effectively.
+
+The Reference Based Pricing System ensures fair pricing for medical services.
+
+Advocacy Services provide additional support in navigating healthcare costs.
 
 ---- How Medical Bill Repricer Works ----
 
-The Medical Bill Repricer, or MBR, empowers members to choose any healthcare provider.
+Here's how the Medical Bill Repricer works.
 
-It ensures costs are managed through prepay amounts and Reference Based Pricing.
+First, members enroll through American Public Life Insurance Company.
 
-This pays providers a fraction of Medicare Allowable Rates, enhancing affordability.
+They can use a twenty-five dollar pre-pay for doctor visits or fifty dollars for specialist visits.
+
+MBR explains benefits and assists with claims, ensuring clarity.
+
+Members receive Reference Based Pricing, or RBP, for their services.
+
+Importantly, they can choose any doctor without network restrictions.
 
 ---- Preventive Care and Wellness ----
 
-Both plans focus on preventive care by covering physician visits.
+Preventive care and wellness are integral to these plans.
 
-They offer the Free Prescription Club, which includes medications that support chronic condition management and overall wellness.
+Members have access to Free Prescription Club Services.
+
+Telemedicine Programs offer convenient healthcare access.
+
+The Patient Assistance Program provides affordable medication options.
 
 ---- Telehealth Services ----
 
-Under the Basic Core-Plus plan, telehealth services include unlimited virtual doctor visits.
+Let's talk about telehealth services.
 
-These are accessible twenty-four/seven, ensuring members can receive medical advice and prescriptions without leaving home.
+Members enjoy unlimited virtual doctor visits.
+
+They have twenty-four-seven access to care.
+
+No-cost consultations are available, enhancing affordability.
+
+Immediate prescriptions can be sent to local pharmacies.
 
 ---- Advocacy and Support Services ----
 
-The plans feature advocacy services, providing a concierge to help members understand their benefits.
+Advocacy and support services are key components.
 
-They assist in filing claims efficiently and negotiating with healthcare providers to minimize out-of-pocket costs.
+Concierge Healthcare Advocacy assists members with their healthcare needs.
 
----- Comparing the Plans ----
+Provider Negotiation helps manage costs effectively.
 
-When comparing the plans:
+Claims Filing options simplify the process for members.
 
-Hospital admission and confinement benefits are identical across both plans.
+Cost Reduction support is available to minimize expenses.
 
-Basic Core-Plus offers additional features, such as unlimited virtual doctor visits without copay and free generic medications.
+---- Plan Tier 1 (One of Two) ----
 
-Both plans include the Free Prescription Club, but Basic Core-Plus enhances medication benefits significantly.
+Let's examine our first plan tier, the Basic Core Plan.
+
+Indemnity Insurance provides five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.
+
+The Free Prescription Club offers a Discount Rx Card.
+
+Telemedicine Services are not available in this plan.
+
+---- Plan Tier 1 (Two of Two) ----
+
+Continuing with the Basic Core Plan.
+
+The Medical Bill Repricer includes a twenty-five dollar prepay for doctor visits and a fifty dollar prepay for specialist visits.
+
+Advocacy Services are included to support members.
+
+---- Plan Tier 2 (One of Two) ----
+
+Now, let's look at our second plan tier, the Basic Core-Plus Plan.
+
+Indemnity Insurance offers the same benefits as the Basic Core Plan, with five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.
+
+The Free Prescription Club provides Free Generic Medications with zero copay.
+
+Telemedicine Services include unlimited visits, available twenty-four hours a day with zero copay.
+
+---- Plan Tier 2 (Two of Two) ----
+
+Continuing with the Basic Core-Plus Plan.
+
+The Medical Bill Repricer features a twenty-five dollar prepay for doctor visits and a fifty dollar prepay for specialist visits.
+
+Advocacy Services are included to assist members.
+
+---- Comparing Plan Tiers ----
+
+Let's compare the different tiers available. Both plans have no waiting or exclusion periods for pre-existing conditions. Neither plan covers pregnancy. Hospital admission and daily confinement benefits are identical in both plans. The Basic Core-Plus Plan offers additional benefits like Free Generic Medications and unlimited telemedicine visits.
 
 ---- Definitions and Limitations ----
 
-The plans do not cover pregnancy but allow members the flexibility to choose any healthcare provider without network restrictions.
+Let's review important definitions and limitations.
 
-Cost management is facilitated through advocacy services, which help negotiate out-of-pocket expenses.
+Indemnity Insurance provides set payments, such as five hundred dollars per day for one day for hospital admission and one hundred dollars per day for up to ten days for hospital daily confinement.
+
+The Free Prescription Club offers a Discount Rx Card in the Basic Core Plan.
+
+Telemedicine Services are not available in the Basic Core Plan.
+
+Advocacy Services are included in both plans.
 
 ---- Key Takeaways and Reminders ----
 
-The Basic Core and Basic Core-Plus plans provide health insurance with no waiting periods for pre-existing conditions.
+Here are the key points to remember.
 
-The Basic Core-Plus offers enhanced benefits, including unlimited virtual doctor visits and free generic medications, making it a valuable choice for coverage.
+Managed Care benefits are a highlight of these plans.
+
+Indemnity Insurance is included to support members financially.
+
+The Free Prescription Club offers valuable benefits.
+
+Enrollment is required to access these services.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the Basic Core health insurance plans.
-
-We appreciate your interest and encourage you to reach out to our support team for any further inquiries.
-
-Continue to be great!
+Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!

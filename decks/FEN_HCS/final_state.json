@@ -1,0 +1,795 @@
+{
+  "deck_id": "FEN_HCS",
+  "deck_title": "Health Choice Silver",
+  "processed_images": {
+    "1": {
+      "page_number": 1,
+      "original_name": "HealthChoiceSilverBrochure2 (1)_page_001.jpg",
+      "original_path": "img/pages/HealthChoiceSilverBrochure2 (1)_page_001.jpg",
+      "new_name": "01_cover_page_for_nce_health_choice_silver_plan.jpg",
+      "new_path": "img/pages/01_cover_page_for_nce_health_choice_silver_plan.jpg",
+      "page_title": "cover_page_for_nce_health_choice_silver_plan",
+      "summary": "This cover page introduces the NCE Health Choice Silver plan, a limited benefit health insurance option. The page prominently features branding elements, including the NCE logo and the AFSLIC logo, indicating the plan is underwritten by American Financial Security Life Insurance Co. The imagery includes a smiling individual making a heart shape with their hands, suggesting a focus on health and well-being. The design uses a calming color palette with green and blue tones, likely to convey trust and security.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "HealthChoiceSilverBrochure2 (1)",
+      "global_page_num": 1
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "HealthChoiceSilverBrochure2 (1)_page_004.jpg",
+      "original_path": "img/pages/HealthChoiceSilverBrochure2 (1)_page_004.jpg",
+      "new_name": "04_gapafford_plus_nce_membership_benefits_with_prescription_discount_and_dental_access.jpg",
+      "new_path": "img/pages/04_gapafford_plus_nce_membership_benefits_with_prescription_discount_and_dental_access.jpg",
+      "page_title": "gapafford_plus_nce_membership_benefits_with_prescription_discount_and_dental_access",
+      "summary": "The GapAfford Plus program is designed to help individuals and families reduce out-of-pocket medical expenses by providing access to pre-negotiated, lowered rates. Key features include no deductibles, pre-existing condition limitations, medical exams, claim forms, or age restrictions. Members can benefit from prescription discounts, saving 15% on brand-name and 55% on generic medications at participating pharmacies. The program also offers access to the Aetna Dental Access Network, providing savings of 15-50% on various dental services. \n\nAdditional benefits include the OUTLOOK Vision Network, offering savings on prescription eyeglasses and contact lenses through a network of over 10,000 locations. The Pet Rx program provides discounts on medications for pets, while the Alternative Medicine program offers savings on services like acupuncture and massage. Members can also access chiropractic care, hearing savings, and imaging savings programs. \n\nThe plan includes discounts on medical supplies and equipment, laboratory services, and physical therapy. Members can save on vitamins and supplements and have access to a 24/7 Health Information Line and Nurse Help Line. However, the program is not available in certain states and does not meet the requirements of the PPACA.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HealthChoiceSilverBrochure2 (1)",
+      "global_page_num": 4
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "HealthChoiceSilverBrochure2 (1)_page_003.jpg",
+      "original_path": "img/pages/HealthChoiceSilverBrochure2 (1)_page_003.jpg",
+      "new_name": "03_nce_health_choice_silver_plan_details_with_membership_and_limited_medical_coverage.jpg",
+      "new_path": "img/pages/03_nce_health_choice_silver_plan_details_with_membership_and_limited_medical_coverage.jpg",
+      "page_title": "nce_health_choice_silver_plan_details_with_membership_and_limited_medical_coverage",
+      "summary": "The NCE Health Choice Silver plan is offered by the National Congress of Employers (NCE), which provides benefits and resources to small and medium-sized businesses. Membership includes access to valuable benefits and superior customer service. Upon successful enrollment, members receive a confirmation email with a membership handbook and insurance certificate. A physical copy of these documents is mailed within 7-10 business days. \n\nThe plan features a monthly membership fee that covers health benefits and the NCE association membership. An initial, non-refundable enrollment fee is charged at the time of enrollment. Future payments are drafted monthly, and members are advised to ensure sufficient funds are available. \n\nThe plan offers limited medical coverage, which is not intended to replace major medical plans. It provides basic insurance coverage with capped amounts for specific services. This plan is suitable when major medical insurance is not an option, is too costly, or when supplementing a high-deductible major medical plan. Eligibility is open to adults aged 65 and older, and dependent children aged 1-25.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HealthChoiceSilverBrochure2 (1)",
+      "global_page_num": 3
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "HealthChoiceSilverBrochure2 (1)_page_005.jpg",
+      "original_path": "img/pages/HealthChoiceSilverBrochure2 (1)_page_005.jpg",
+      "new_name": "05_policy_limitations_and_exclusions_for_nce_health_choice_silver.jpg",
+      "new_path": "img/pages/05_policy_limitations_and_exclusions_for_nce_health_choice_silver.jpg",
+      "page_title": "policy_limitations_and_exclusions_for_nce_health_choice_silver",
+      "summary": "This page outlines the policy limitations and exclusions for the NCE Health Choice Silver plan. It specifies that no benefits will be provided for treatments, services, and supplies unless they are medically necessary and related to a specific diagnosis or course of treatment. The document lists several exclusions, including pre-employment or pre-marital examinations, non-prescription drugs, and experimental substances not approved by the FDA. Additionally, it excludes treatments for injuries related to employment or covered under worker's compensation laws.\n\nThe plan does not cover services provided by close relatives or those outside the scope of the provider's license. Cosmetic surgery, eye examinations for refractive errors, and related surgeries are also excluded. The document further specifies that injuries resulting from war, riots, or felonies are not covered. Travel or transportation services, except by professional ground or air ambulance, are not included in the benefits.\n\nOther exclusions include treatments for which the covered person is not legally required to pay, telephone consultations, and failure to provide necessary medical information. The policy also excludes services related to educational or recreational therapy, nutritional counseling, and self-help training.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HealthChoiceSilverBrochure2 (1)",
+      "global_page_num": 5
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "HealthChoiceSilverBrochure2 (1)_page_002.jpg",
+      "original_path": "img/pages/HealthChoiceSilverBrochure2 (1)_page_002.jpg",
+      "new_name": "02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg",
+      "new_path": "img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg",
+      "page_title": "nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200+_300_500_750_1000_1000+",
+      "summary": "The NCE Health Choice Silver plan offers a range of benefits across different tiers, including plans 100A, 100, 200, 200+, 300, 500, 750, 1000, and 1000+. Each plan provides specific daily benefits for hospital confinement, with amounts ranging from $100 to $1000 per day, and a maximum of 30 days. Primary care and specialty care doctors' office visit benefits are available, with per-day amounts varying from $50 to $100, and a maximum of 3 to 5 visits. Emergency room benefits are included in higher tiers, with per-day amounts up to $200 and a maximum of 1 to 2 visits.\n\nAdditional benefits include basic pathology and radiology, advance studies, surgery, and anesthesia, with varying coverage across plans. Mental health inpatient and outpatient benefits are provided in select plans, with inpatient benefits ranging from $150 to $500 per day. Supplemental accident inpatient admission and emergency room benefits are also available, with specific per-day amounts and maximum limits.\n\nThe plan includes an accidental death benefit of $10,000 across all tiers and a critical illness benefit of $1,000, with a 30-day waiting period for coverage to take effect. Limitations include specific maximum days for certain benefits and a waiting period for coverage initiation. The plan does not cover certain services, as indicated by the absence of values in some benefit categories.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "HealthChoiceSilverBrochure2 (1)",
+      "global_page_num": 2
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "HealthChoiceSilverBrochure2 (1)_page_006.jpg",
+      "original_path": "img/pages/HealthChoiceSilverBrochure2 (1)_page_006.jpg",
+      "new_name": "06_nce_health_choice_silver_policy_limitations_and_exclusions_details.jpg",
+      "new_path": "img/pages/06_nce_health_choice_silver_policy_limitations_and_exclusions_details.jpg",
+      "page_title": "nce_health_choice_silver_policy_limitations_and_exclusions_details",
+      "summary": "This page outlines the specific policy limitations and exclusions for the NCE Health Choice Silver plan. It details various treatments, services, and conditions that are not covered under the policy. Coverage is excluded for services received before the effective date or after the termination date of the policy. Inpatient hospital admissions on Fridays or Saturdays are limited unless scheduled for the following week, with exceptions for emergency surgical admissions. Pregnancy-related services, custodial care, and dental services are not covered. The plan excludes voluntary sterilization, transsexual surgery, and routine foot care. Procedures for sex determination of the fetus and infertility treatments, including artificial insemination and in-vitro fertilization, are also excluded.\n\nThe policy does not cover illnesses or injuries incurred during illegal acts or while imprisoned. Physical, speech, and occupational therapies, as well as mental and nervous disorders, are excluded. Substance use disorders, venipuncture, prescription drugs, hospice care, and home health care are not covered. Treatments for obesity and related surgeries, including bariatric surgery, are excluded. Additionally, any treatment for illnesses prior to the expiration of the waiting period is not covered. The policy also excludes self-inflicted injuries unless resulting from a medical condition.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HealthChoiceSilverBrochure2 (1)",
+      "global_page_num": 6
+    }
+  },
+  "extracted_tables": {
+    "2": {
+      "page_number": "2",
+      "tables": [
+        {
+          "table_title": "NCE Health Choice Silver Benefit Description",
+          "headers": [
+            "Benefit Description",
+            "100A",
+            "100",
+            "200",
+            "200+",
+            "300",
+            "500",
+            "750",
+            "1000",
+            "1000+"
+          ],
+          "rows": [
+            [
+              "Hospital Confinement Benefit",
+              "Per Day",
+              "$100",
+              "$100",
+              "$200",
+              "$200",
+              "$300",
+              "$500",
+              "$750",
+              "$1000",
+              "$1000"
+            ],
+            [
+              "",
+              "Max Day",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30",
+              "30"
+            ],
+            [
+              "Primary Care Doctors Office Visit Benefit",
+              "Per Day",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$75",
+              "$100",
+              "$100"
+            ],
+            [
+              "",
+              "Max Day",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Specialty Care Doctors\u2019 Office Visit Benefit",
+              "Per Day",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$75",
+              "$75",
+              "$100"
+            ],
+            [
+              "",
+              "Max Day",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Emergency Room Benefit",
+              "Per Day",
+              "-",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$75",
+              "$100",
+              "$200"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "Basic Pathology & Radiology Benefit*",
+              "Per Day",
+              "-",
+              "1",
+              "$50",
+              "$50",
+              "-",
+              "$50",
+              "$50",
+              "$75",
+              "$100"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "1",
+              "1",
+              "1",
+              "-",
+              "2",
+              "2",
+              "3",
+              "3"
+            ],
+            [
+              "Advance Studies Benefit*",
+              "Per Day",
+              "-",
+              "1",
+              "$50",
+              "$50",
+              "-",
+              "$50",
+              "$50",
+              "$75",
+              "$200"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "1",
+              "1",
+              "1",
+              "-",
+              "1",
+              "1",
+              "3",
+              "3"
+            ],
+            [
+              "Surgery Benefit",
+              "Per Day",
+              "-",
+              "-",
+              "50%",
+              "50%",
+              "50%",
+              "70%",
+              "80%",
+              "100%",
+              "100%"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "-",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3"
+            ],
+            [
+              "Anesthesia Benefit",
+              "Per Day",
+              "-",
+              "-",
+              "20%",
+              "20%",
+              "20%",
+              "20%",
+              "20%",
+              "20%",
+              "25%"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "-",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3",
+              "3"
+            ],
+            [
+              "Mental Health Inpatient Benefit",
+              "Per Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "$150",
+              "$250",
+              "$375",
+              "$500",
+              "$500"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "60",
+              "60",
+              "60",
+              "60",
+              "60"
+            ],
+            [
+              "Mental Health Outpatient Benefit",
+              "Per Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "$50",
+              "$50",
+              "$50",
+              "$50",
+              "$50"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20"
+            ],
+            [
+              "Supplemental Accident Inpatient Admission Benefit",
+              "Per Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "$500",
+              "$500",
+              "$500",
+              "$500",
+              "$500"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "Supplemental Accident Emergency Room Benefit",
+              "Per Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "$250",
+              "$250",
+              "$250",
+              "$250",
+              "$250"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "Hospital Intensive Care Unit Benefit",
+              "Per Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "$1000"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "15"
+            ],
+            [
+              "Additional Hospital Admission Benefit",
+              "Per Admission",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "$1000"
+            ],
+            [
+              "",
+              "Max Day",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "5"
+            ],
+            [
+              "Accidental Death Benefit",
+              "Maximum Benefit",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000",
+              "$10,000"
+            ],
+            [
+              "Critical Illness",
+              "",
+              "n/a",
+              "n/a",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$1,000"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "# Deck ID: FEN_HCS\n# Deck Title: Health Choice Silver\n\n## Cover (1 slide)\n- **Plan Name:** Health Choice Silver\n- **Tagline:** Affordable Health Solutions for Individuals and Families\n\n## Plan Overview (1 slide)\n- **Target Audience:** Individuals and families seeking limited benefit health insurance.\n- **Offerings:** Provides essential healthcare benefits with a focus on affordability.\n- **Key Benefits:** Accessibility to essential services, impactful personal health management, and supplemental options for high-deductible plans.\n\n## Core Plan Elements (3 slides)\n- **Coverage Areas:** Includes physician services, hospitalization, virtual visits, and more.\n- **Plan Structure:** Offers tiered options with varying co-pays and visit limits.\n- **Eligibility:** Open to adults 65+ and dependent children aged 1-25, focusing on affordability.\n\n## Common Service Features (3 slides)\n- **Provider Networks:** Access to a wide network of healthcare providers.\n- **Claims Management:** Efficient claims processing and management.\n- **Support Tools:** Includes wellness programs, advocacy services, and a 24/7 Health Information Line.\n\n## Plan Tiers Breakdown (9 slides)\n### Plan 100\n- **Hospital Confinement Benefit:** $100 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 3 visits\n- **Specialty Care Visit Benefit:** $50 per day, max 3 visits\n- **Emergency Room Benefit:** $50 per day, max 1 visit\n- **Accidental Death Benefit:** $10,000\n\n### Plan 100A\n- **Hospital Confinement Benefit:** $100 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 3 visits\n- **Specialty Care Visit Benefit:** $50 per day, max 3 visits\n- **Accidental Death Benefit:** $10,000\n\n### Plan 200\n- **Hospital Confinement Benefit:** $200 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 3 visits\n- **Specialty Care Visit Benefit:** $50 per day, max 3 visits\n- **Emergency Room Benefit:** $50 per day, max 1 visit\n- **Critical Illness Benefit:** $1,000\n\n### Plan 200+\n- **Hospital Confinement Benefit:** $200 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 3 visits\n- **Specialty Care Visit Benefit:** $50 per day, max 3 visits\n- **Emergency Room Benefit:** $50 per day, max 2 visits\n- **Critical Illness Benefit:** $1,000\n\n### Plan 300\n- **Hospital Confinement Benefit:** $300 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 3 visits\n- **Specialty Care Visit Benefit:** $50 per day, max 3 visits\n- **Emergency Room Benefit:** $50 per day, max 1 visit\n- **Critical Illness Benefit:** $1,000\n\n### Plan 500\n- **Hospital Confinement Benefit:** $500 per day, max 30 days\n- **Primary Care Visit Benefit:** $50 per day, max 3 visits\n- **Specialty Care Visit Benefit:** $50 per day, max 3 visits\n- **Emergency Room Benefit:** $50 per day, max 1 visit\n- **Critical Illness Benefit:** $1,000\n\n### Plan 750\n- **Hospital Confinement Benefit:** $750 per day, max 30 days\n- **Primary Care Visit Benefit:** $75 per day, max 5 visits\n- **Specialty Care Visit Benefit:** $75 per day, max 5 visits\n- **Emergency Room Benefit:** $75 per day, max 1 visit\n- **Critical Illness Benefit:** $1,000\n\n### Plan 1000\n- **Hospital Confinement Benefit:** $1000 per day, max 30 days\n- **Primary Care Visit Benefit:** $100 per day, max 5 visits\n- **Specialty Care Visit Benefit:** $75 per day, max 5 visits\n- **Emergency Room Benefit:** $100 per day, max 1 visit\n- **Critical Illness Benefit:** $1,000\n\n### Plan 1000+\n- **Hospital Confinement Benefit:** $1000 per day, max 30 days\n- **Primary Care Visit Benefit:** $100 per day, max 5 visits\n- **Specialty Care Visit Benefit:** $100 per day, max 5 visits\n- **Emergency Room Benefit:** $200 per day, max 1 visit\n- **Critical Illness Benefit:** $1,000\n\n## Comparison Slides (1 slide)\n| Benefit Description                  | Plan 100 | Plan 100A | Plan 200 | Plan 200+ | Plan 300 | Plan 500 | Plan 750 | Plan 1000 | Plan 1000+ |\n|--------------------------------------|----------|-----------|----------|-----------|----------|----------|----------|-----------|------------|\n| Hospital Confinement (Per Day)       | $100     | $100      | $200     | $200      | $300     | $500     | $750     | $1000     | $1000      |\n| Primary Care Visit (Per Day)         | $50      | $50       | $50      | $50       | $50      | $50      | $75      | $100      | $100       |\n| Specialty Care Visit (Per Day)       | $50      | $50       | $50      | $50       | $50      | $50      | $75      | $75       | $100       |\n| Emergency Room (Per Day)             | $50      | -         | $50      | $50       | $50      | $50      | $75      | $100      | $200       |\n| Critical Illness                     | n/a      | n/a       | $1,000   | $1,000    | $1,000   | $1,000   | $1,000   | $1,000    | $1,000     |\n\n## Limitations and Exclusions (2 slides)\n- **Exclusions:** Pre-existing conditions, non-prescription drugs, cosmetic surgery, and more.\n- **Limitations:** Specific maximum days for benefits, waiting periods, and exclusions for certain services.\n\n## Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Offers a range of options to suit different needs.\n- **Cost vs. Coverage:** Balances affordability with essential coverage.\n- **Next Steps:** Contact support for enrollment assistance and further information.\n\n## Thank You (1 slide)\n- **Message:** Thank you for considering Health Choice Silver for your healthcare needs.",
+    "generated_at": "2025-02-28T15:33:20.457138"
+  },
+  "slides": {
+    "content": "---\nid: FEN_HCS\ntheme: ../../\ntitle: | \n  Health Choice Silver\ninfo: |\n  ## Health Choice Silver Plan Overview\n  A look at the Health Choice Silver benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"HCS\" />\n\n# Health Choice Silver Plan Overview\n\nUnderstanding the details and benefits of the **Health Choice Silver**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Health Choice Silver Plan\n\n<v-click>\n\n- Affordable health solutions for individuals and families through **NCE**\n\n</v-click>\n\n<v-click>\n\n- **Essential healthcare benefits** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Impactful personal health management** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Supplemental options** for high-deductible plans\n\n</v-click>\n\n<v-click>\n\n- **Accessibility** to essential services\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Target Audience**\n\n</v-click>\n\n<v-click>\n\n**Offerings**\n\n</v-click>\n\n<v-click>\n\n**Key Benefits** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Membership Benefits** through NCE\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/NCE_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"NCE Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**GapAfford Plus** (GAP)\n</v-click>\n\n<v-click>\n\n**Prescription Discounts** System\n</v-click>\n\n<v-click>\n\n**Dental Access** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How GapAfford Plus Works\n\n<v-click>\n\n1. Enroll through **NCE**\n</v-click>\n\n<v-click>\n\n2. Access pre-negotiated rates\n</v-click>\n\n<v-click>\n\n3. Save on prescriptions and dental services\n</v-click>\n\n<v-click>\n\n4. Receive membership handbook **(GAP)**\n</v-click>\n\n<v-click>\n\n5. Utilize additional benefits\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Wellness Programs** Services\n</v-click>\n\n<v-click>\n\n- **Advocacy Services** Programs\n</v-click>\n\n<v-click>\n\n- **24/7 Health Information Line** provides support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **Virtual Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **Remote Consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Management** assistance\n\n</v-click>\n\n<v-click>\n\n- **Provider Networks** options\n\n</v-click>\n\n<v-click>\n\n- **Support Tools** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 100 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 100A (2/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 200 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 200+ (2/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 2 visits\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 300 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $300 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 500 (2/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $500 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 750 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $750 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $75 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $75 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 1000 (2/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $100 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $100 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg\n---\n\n## Plan 1000+ (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $100 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $100 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $200 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Plan 100** | **Plan 100A** | **Plan 200** | **Plan 200+** | **Plan 300** | **Plan 500** | **Plan 750** | **Plan 1000** | **Plan 1000+** |\n|---------|----------|----------|-----------|-----------|----------|----------|----------|-----------|------------|\n| Hospital Confinement (Per Day) | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 | $1000 |\n| Primary Care Visit (Per Day) | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $100 | $100 |\n| Specialty Care Visit (Per Day) | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 | $100 |\n| Emergency Room (Per Day) | $50 | - | $50 | $50 | $50 | $50 | $75 | $100 | $200 |\n| Critical Illness | n/a | n/a | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/06_nce_health_choice_silver_policy_limitations_and_exclusions_details.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions\n- Non-prescription drugs\n- Cosmetic surgery\n</v-click>\n\n<v-click>\n\n**Limitations**\n- Specific maximum days for benefits\n- Waiting periods\n</v-click>\n\n<v-click>\n\n**Coverage Restrictions**\n- Services before effective date\n- Inpatient admissions on weekends\n</v-click>\n\n<v-click>\n\n**Non-Covered Services**\n- Pregnancy-related services\n- Custodial care\n- Dental services\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** benefits\n</v-click>  \n\n<v-click>\n\n- **Cost vs. Coverage** included\n</v-click>\n\n<v-click>\n\n- **Next Steps** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment Assistance** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Health Choice Silver Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/06_nce_health_choice_silver_policy_limitations_and_exclusions_details.jpg",
+      "pages/01_cover_page_for_nce_health_choice_silver_plan.jpg",
+      "pages/04_gapafford_plus_nce_membership_benefits_with_prescription_discount_and_dental_access.jpg",
+      "pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg",
+      "pages/03_nce_health_choice_silver_plan_details_with_membership_and_limited_medical_coverage.jpg",
+      "pages/05_policy_limitations_and_exclusions_for_nce_health_choice_silver.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Health Choice Silver plan. We'll walk through this plan's features and benefits, designed to provide affordable health solutions for your members. Let's get started!\n\n---- The Health Choice Silver Plan ----\n\nThe Health Choice Silver plan offers affordable health solutions for individuals and families through NCE.\n\nIt provides essential healthcare benefits for various situations,\n\nand includes impactful personal health management and support tools.\n\nThere are supplemental options available for high-deductible plans,\n\nensuring accessibility to essential services.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nThe target audience for this plan includes individuals and families seeking affordable healthcare solutions.\n\nThe plan offers a variety of benefits tailored to meet different healthcare needs.\n\nKey benefits vary by plan, providing flexibility and choice for members.\n\nMembership benefits are available through NCE, enhancing the value of the plan.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nThe GapAfford Plus, or GAP, is a key tool for managing healthcare costs.\n\nMembers can also benefit from a prescription discounts system,\n\nand dental access support is available to further assist with cost management.\n\n---- How GapAfford Plus Works ----\n\nHere's how the GapAfford Plus works.\n\nFirst, members enroll through NCE.\n\nThey then gain access to pre-negotiated rates,\n\nallowing them to save on prescriptions and dental services.\n\nMembers receive a membership handbook for GAP,\n\nand can utilize additional benefits provided by the plan.\n\n---- Preventive Care and Wellness ----\n\nLet's talk about preventive care and wellness.\n\nThe plan includes wellness programs services,\n\nas well as advocacy services programs to support members.\n\nA twenty-four seven health information line provides support whenever needed.\n\n---- Telehealth Services ----\n\nNow, let's explore telehealth services.\n\nMembers have access to virtual visits,\n\nwith twenty-four seven access to healthcare professionals.\n\nRemote consultations are available,\n\nproviding convenient access to care from anywhere.\n\n---- Advocacy and Support Services ----\n\nLet's discuss advocacy and support services.\n\nThe plan offers healthcare advocacy to assist members with their needs.\n\nClaims management assistance is available to help navigate the claims process.\n\nProvider networks options are provided to ensure members have access to necessary services.\n\nSupport tools are also available to enhance the member experience.\n\n---- Plan 100 (One of Two) ----\n\nLet's examine our first plan tier, Plan 100.\n\nThe hospital confinement benefit provides one hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit offers fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit also provides fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of one visit.\n\nThe accidental death benefit is ten thousand dollars.\n\n---- Plan 100A (Two of Two) ----\n\nContinuing with our first plan tier, Plan 100A.\n\nThe hospital confinement benefit remains at one hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe accidental death benefit is ten thousand dollars.\n\n---- Plan 200 (One of Two) ----\n\nNow, let's look at our second plan tier, Plan 200.\n\nThe hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars.\n\n---- Plan 200+ (Two of Two) ----\n\nContinuing with our second plan tier, Plan 200+.\n\nThe hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of two visits.\n\nThe critical illness benefit is one thousand dollars.\n\n---- Plan 300 (One of Two) ----\n\nLet's move on to Plan 300.\n\nThe hospital confinement benefit is three hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars.\n\n---- Plan 500 (Two of Two) ----\n\nContinuing with Plan 500.\n\nThe hospital confinement benefit is five hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars.\n\n---- Plan 750 (One of Two) ----\n\nNow, let's look at Plan 750.\n\nThe hospital confinement benefit is seven hundred fifty dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is seventy-five dollars per day, with a maximum of five visits.\n\nThe specialty care visit benefit is seventy-five dollars per day, with a maximum of five visits.\n\nThe emergency room benefit is seventy-five dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars.\n\n---- Plan 1000 (Two of Two) ----\n\nContinuing with Plan 1000.\n\nThe hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is one hundred dollars per day, with a maximum of five visits.\n\nThe specialty care visit benefit is seventy-five dollars per day, with a maximum of five visits.\n\nThe emergency room benefit is one hundred dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars.\n\n---- Plan 1000+ (One of Two) ----\n\nFinally, let's examine Plan 1000+.\n\nThe hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is one hundred dollars per day, with a maximum of five visits.\n\nThe specialty care visit benefit is one hundred dollars per day, with a maximum of five visits.\n\nThe emergency room benefit is two hundred dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nThe table shows the hospital confinement benefit per day, ranging from one hundred dollars in Plan 100 to one thousand dollars in Plan 1000+.\n\nPrimary care visit benefits range from fifty dollars to one hundred dollars per day, depending on the plan.\n\nSpecialty care visit benefits also vary, with amounts from fifty dollars to one hundred dollars per day.\n\nEmergency room benefits differ across plans, with some plans offering up to two hundred dollars per day.\n\nThe critical illness benefit is consistent at one thousand dollars across applicable plans.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nExclusions include pre-existing conditions, non-prescription drugs, and cosmetic surgery.\n\nLimitations involve specific maximum days for benefits and waiting periods.\n\nCoverage restrictions apply to services before the effective date and inpatient admissions on weekends.\n\nNon-covered services include pregnancy-related services, custodial care, and dental services.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers flexibility benefits to suit various needs.\n\nConsider the cost versus coverage when selecting a plan.\n\nNext steps involve understanding the benefits and how they apply to members.\n\nEnrollment assistance is available to help members choose the right plan.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Health Choice Silver Plan Overview",
+          "content": "<SlideAudio deckKey=\"HCS\" />\n\n# Health Choice Silver Plan Overview\n\nUnderstanding the details and benefits of the **Health Choice Silver**",
+          "frontmatter": "id: FEN_HCS\ntheme: ../../\ntitle: | \n  Health Choice Silver\ninfo: |\n  ## Health Choice Silver Plan Overview\n  A look at the Health Choice Silver benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Health Choice Silver plan. We'll walk through this plan's features and benefits, designed to provide affordable health solutions for your members. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Health Choice Silver Plan",
+          "content": "## The Health Choice Silver Plan\n\n<v-click>\n\n- Affordable health solutions for individuals and families through **NCE**\n\n</v-click>\n\n<v-click>\n\n- **Essential healthcare benefits** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Impactful personal health management** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Supplemental options** for high-deductible plans\n\n</v-click>\n\n<v-click>\n\n- **Accessibility** to essential services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "The Health Choice Silver Plan",
+          "content": "The Health Choice Silver plan offers affordable health solutions for individuals and families through NCE.\n\nIt provides essential healthcare benefits for various situations,\n\nand includes impactful personal health management and support tools.\n\nThere are supplemental options available for high-deductible plans,\n\nensuring accessibility to essential services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Target Audience**\n\n</v-click>\n\n<v-click>\n\n**Offerings**\n\n</v-click>\n\n<v-click>\n\n**Key Benefits** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Membership Benefits** through NCE\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/NCE_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"NCE Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nThe target audience for this plan includes individuals and families seeking affordable healthcare solutions.\n\nThe plan offers a variety of benefits tailored to meet different healthcare needs.\n\nKey benefits vary by plan, providing flexibility and choice for members.\n\nMembership benefits are available through NCE, enhancing the value of the plan."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**GapAfford Plus** (GAP)\n</v-click>\n\n<v-click>\n\n**Prescription Discounts** System\n</v-click>\n\n<v-click>\n\n**Dental Access** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nThe GapAfford Plus, or GAP, is a key tool for managing healthcare costs.\n\nMembers can also benefit from a prescription discounts system,\n\nand dental access support is available to further assist with cost management."
+        }
+      },
+      {
+        "slide": {
+          "header": "How GapAfford Plus Works",
+          "content": "## How GapAfford Plus Works\n\n<v-click>\n\n1. Enroll through **NCE**\n</v-click>\n\n<v-click>\n\n2. Access pre-negotiated rates\n</v-click>\n\n<v-click>\n\n3. Save on prescriptions and dental services\n</v-click>\n\n<v-click>\n\n4. Receive membership handbook **(GAP)**\n</v-click>\n\n<v-click>\n\n5. Utilize additional benefits\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How GapAfford Plus Works",
+          "content": "Here's how the GapAfford Plus works.\n\nFirst, members enroll through NCE.\n\nThey then gain access to pre-negotiated rates,\n\nallowing them to save on prescriptions and dental services.\n\nMembers receive a membership handbook for GAP,\n\nand can utilize additional benefits provided by the plan."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Wellness Programs** Services\n</v-click>\n\n<v-click>\n\n- **Advocacy Services** Programs\n</v-click>\n\n<v-click>\n\n- **24/7 Health Information Line** provides support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Let's talk about preventive care and wellness.\n\nThe plan includes wellness programs services,\n\nas well as advocacy services programs to support members.\n\nA twenty-four seven health information line provides support whenever needed."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **Virtual Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **Remote Consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to care\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Now, let's explore telehealth services.\n\nMembers have access to virtual visits,\n\nwith twenty-four seven access to healthcare professionals.\n\nRemote consultations are available,\n\nproviding convenient access to care from anywhere."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Management** assistance\n\n</v-click>\n\n<v-click>\n\n- **Provider Networks** options\n\n</v-click>\n\n<v-click>\n\n- **Support Tools** support\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Let's discuss advocacy and support services.\n\nThe plan offers healthcare advocacy to assist members with their needs.\n\nClaims management assistance is available to help navigate the claims process.\n\nProvider networks options are provided to ensure members have access to necessary services.\n\nSupport tools are also available to enhance the member experience."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 100 (1/2)",
+          "content": "## Plan 100 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 100 (One of Two)",
+          "content": "Let's examine our first plan tier, Plan 100.\n\nThe hospital confinement benefit provides one hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit offers fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit also provides fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of one visit.\n\nThe accidental death benefit is ten thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 100A (2/2)",
+          "content": "## Plan 100A (2/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $100 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Accidental Death Benefit**\n- $10,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 100A (Two of Two)",
+          "content": "Continuing with our first plan tier, Plan 100A.\n\nThe hospital confinement benefit remains at one hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe accidental death benefit is ten thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200 (1/2)",
+          "content": "## Plan 200 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 200 (One of Two)",
+          "content": "Now, let's look at our second plan tier, Plan 200.\n\nThe hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 200+ (2/2)",
+          "content": "## Plan 200+ (2/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $200 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 2 visits\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 200+ (Two of Two)",
+          "content": "Continuing with our second plan tier, Plan 200+.\n\nThe hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of two visits.\n\nThe critical illness benefit is one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 300 (1/2)",
+          "content": "## Plan 300 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $300 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 300 (One of Two)",
+          "content": "Let's move on to Plan 300.\n\nThe hospital confinement benefit is three hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 500 (2/2)",
+          "content": "## Plan 500 (2/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $500 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $50 per day, max 3 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $50 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 500 (Two of Two)",
+          "content": "Continuing with Plan 500.\n\nThe hospital confinement benefit is five hundred dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe specialty care visit benefit is fifty dollars per day, with a maximum of three visits.\n\nThe emergency room benefit is fifty dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 750 (1/2)",
+          "content": "## Plan 750 (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $750 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $75 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $75 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 750 (One of Two)",
+          "content": "Now, let's look at Plan 750.\n\nThe hospital confinement benefit is seven hundred fifty dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is seventy-five dollars per day, with a maximum of five visits.\n\nThe specialty care visit benefit is seventy-five dollars per day, with a maximum of five visits.\n\nThe emergency room benefit is seventy-five dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1000 (2/2)",
+          "content": "## Plan 1000 (2/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $100 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $75 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $100 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 1000 (Two of Two)",
+          "content": "Continuing with Plan 1000.\n\nThe hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is one hundred dollars per day, with a maximum of five visits.\n\nThe specialty care visit benefit is seventy-five dollars per day, with a maximum of five visits.\n\nThe emergency room benefit is one hundred dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1000+ (1/2)",
+          "content": "## Plan 1000+ (1/2)\n\n<v-click>\n\n**Hospital Confinement Benefit**\n- $1000 per day, max 30 days\n</v-click>\n\n<v-click>\n\n**Primary Care Visit Benefit**\n- $100 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Specialty Care Visit Benefit**\n- $100 per day, max 5 visits\n</v-click>\n\n<v-click>\n\n**Emergency Room Benefit**\n- $200 per day, max 1 visit\n</v-click>\n\n<v-click>\n\n**Critical Illness Benefit**\n- $1,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg"
+        },
+        "script": {
+          "header": "Plan 1000+ (One of Two)",
+          "content": "Finally, let's examine Plan 1000+.\n\nThe hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days.\n\nThe primary care visit benefit is one hundred dollars per day, with a maximum of five visits.\n\nThe specialty care visit benefit is one hundred dollars per day, with a maximum of five visits.\n\nThe emergency room benefit is two hundred dollars per day, with a maximum of one visit.\n\nThe critical illness benefit is one thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Plan 100** | **Plan 100A** | **Plan 200** | **Plan 200+** | **Plan 300** | **Plan 500** | **Plan 750** | **Plan 1000** | **Plan 1000+** |\n|---------|----------|----------|-----------|-----------|----------|----------|----------|-----------|------------|\n| Hospital Confinement (Per Day) | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 | $1000 |\n| Primary Care Visit (Per Day) | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $100 | $100 |\n| Specialty Care Visit (Per Day) | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 | $100 |\n| Emergency Room (Per Day) | $50 | - | $50 | $50 | $50 | $50 | $75 | $100 | $200 |\n| Critical Illness | n/a | n/a | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nThe table shows the hospital confinement benefit per day, ranging from one hundred dollars in Plan 100 to one thousand dollars in Plan 1000+.\n\nPrimary care visit benefits range from fifty dollars to one hundred dollars per day, depending on the plan.\n\nSpecialty care visit benefits also vary, with amounts from fifty dollars to one hundred dollars per day.\n\nEmergency room benefits differ across plans, with some plans offering up to two hundred dollars per day.\n\nThe critical illness benefit is consistent at one thousand dollars across applicable plans."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions\n- Non-prescription drugs\n- Cosmetic surgery\n</v-click>\n\n<v-click>\n\n**Limitations**\n- Specific maximum days for benefits\n- Waiting periods\n</v-click>\n\n<v-click>\n\n**Coverage Restrictions**\n- Services before effective date\n- Inpatient admissions on weekends\n</v-click>\n\n<v-click>\n\n**Non-Covered Services**\n- Pregnancy-related services\n- Custodial care\n- Dental services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/06_nce_health_choice_silver_policy_limitations_and_exclusions_details.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nExclusions include pre-existing conditions, non-prescription drugs, and cosmetic surgery.\n\nLimitations involve specific maximum days for benefits and waiting periods.\n\nCoverage restrictions apply to services before the effective date and inpatient admissions on weekends.\n\nNon-covered services include pregnancy-related services, custodial care, and dental services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** benefits\n</v-click>  \n\n<v-click>\n\n- **Cost vs. Coverage** included\n</v-click>\n\n<v-click>\n\n- **Next Steps** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment Assistance** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers flexibility benefits to suit various needs.\n\nConsider the cost versus coverage when selecting a plan.\n\nNext steps involve understanding the benefits and how they apply to members.\n\nEnrollment assistance is available to help members choose the right plan."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Health Choice Silver Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 21
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 21,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

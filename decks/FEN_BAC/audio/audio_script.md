@@ -1,162 +1,179 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the BWA Americare Membership Package. We're going to explore the benefits and details offered by this plan. Let's dive in!
+Hello, everyone! Thank you for joining today's session on the BWA Americare plan. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!
 
----- BWA Americare Membership Package Overview ----
+---- Plan Overview ----
 
-Let me introduce you to the BWA Americare Membership Package.
+Understanding the details and benefits of the BWA Americare plan.
 
-First, we provide benefits through BWA Americare.
+This plan offers coverage through the Business Workers of America Association.
 
-Our healthcare and wellness programs are designed for various situations.
+It includes Hospital Indemnity for various situations.
 
-We offer educational support and legislative representation.
+Outpatient Surgery and support tools are also part of the plan.
 
-Our advocacy services provide dynamic support.
+Doctor's Office Visits are available through flexible options.
 
-And importantly, we provide family coverage support.
+Additionally, Emergency Services support is provided.
 
 ---- Key Features and Benefits ----
 
-Let's start with our healthcare programs.
+Let's explore the key features and benefits of this plan.
 
-Our wellness initiatives are designed to promote and maintain your health.
+The plan includes Hospital Admission Benefits.
 
-Educational support is available to help you make informed decisions.
+It also offers Intensive Care Unit Benefits.
 
-Legislative advocacy varies by occupation, ensuring representation that matters for your field.
+Surgery Benefits are available and vary by plan.
 
-And as an additional benefit through BWA Americare, you'll receive even more value with our package.
+Prescription Savings are provided through HealthWarehouse.
 
 ---- Cost Management Tools ----
 
-First, let's discuss our Medical Bill Repricer, or MBR, which helps manage your healthcare costs.
+Now, let's discuss the cost management tools available with this plan.
 
-Our PPO Network system ensures you receive maximum savings.
+The Medical Bill Repricer, or MBR, is a key tool.
 
-And our direct bill negotiation support gives you additional tools to manage your expenses.
+A Pre-Pay System is also in place.
+
+White Glove Advocacy Support is available to assist members.
 
 ---- How Medical Bill Repricer Works ----
 
-First, you'll enroll through BWA Americare to access these benefits.
+Here's how the Medical Bill Repricer works.
 
-Then, you can submit your medical bills for thorough review.
+First, members enroll through the Business Workers of America Association.
 
-Our system applies available discounts to your bills.
+Then, they access healthcare services when needed.
 
-You'll receive a repriced bill showing your savings.
+After receiving care, members submit their bills to MBR for repricing.
 
-Payment confirmation follows the repricing process.
+Members will receive an Explanation of Benefits, or EOB, detailing the repriced amounts.
 
-Finally, you'll see the cost savings achieved through this service.
+Finally, they pay the final bill based on the negotiated rates.
 
----- Plan 2 Benefits (1/2) ----
+---- Preventive Care and Wellness ----
 
-Let's start with our Plan 2 hospital benefits:
-The hospital admission benefit provides $750 per day, for a maximum of one day.
-For hospital confinement, you receive $200 per day, up to 30 days.
-ICU admission offers $1,500 per day, for a maximum of one day.
-And the ICU benefit continues at $350 per day, for up to 30 days.
+Preventive care and wellness are integral parts of the plan.
 
-Now for the surgical benefits:
-Inpatient surgery is covered at $500 per day, for one day maximum.
-Outpatient surgery provides $300 per day, also for one day.
-And general anesthesia benefits are $125 per day.
+Routine Checkups Services are included.
 
----- Plan 2 Benefits (2/2) ----
+Wellness Programs Initiatives are available.
 
-Let's look at the outpatient treatment benefits:
-Emergency room visits are covered at $200 per day, up to 2 days.
-Urgent care facilities provide $50 per day, up to 3 days.
-Physician office visits are covered at $50 per day, up to 3 days.
-And physical, speech, or occupational therapy is covered at $15 per day, up to 5 days.
+Prescription savings are offered through HealthWarehouse.
 
-Additional coverage includes:
-The Portability Option is included.
-Pregnancy coverage is included.
-However, mental health treatment is not included in this plan.
+---- Telehealth Services ----
 
----- Plan 3 Benefits (1/2) ----
+Telehealth services provide additional support.
 
-Moving to Plan 3's hospital benefits:
-Hospital admission provides $1,000 per day, for a maximum of one day.
-Hospital confinement offers $300 per day, up to 30 days.
-ICU admission gives you $2,000 per day, for one day.
-And the ICU benefit continues at $500 per day, for up to 30 days.
+Members have 24/7 Access to care.
 
-For surgical benefits:
-Inpatient surgery is covered at $500 per day, for one day.
-Outpatient surgery provides $300 per day, for one day.
-And general anesthesia benefits are $125 per day.
+Virtual Consultations are available for convenience.
 
----- Plan 3 Benefits (2/2) ----
+Remote Monitoring tools are part of the service.
 
-For outpatient treatment under Plan 3:
-Emergency room visits are covered at $300 per day, up to 2 days.
-Urgent care facilities provide $50 per day, up to 3 days.
-Physician office visits are covered at $50 per day, up to 3 days.
-And therapy services are covered at $15 per day, up to 5 days.
+There is also Convenient Access to specialists.
 
-Additional coverage in Plan 3 includes:
-The Portability Option is included.
-Pregnancy coverage is included.
-And importantly, mental health treatment is included in this plan.
+---- Advocacy and Support Services ----
 
----- Plan 4 Benefits (1/2) ----
+Advocacy and support services are key components.
 
-Now for our premium Plan 4 hospital benefits:
-Hospital admission provides $2,000 per day, for a maximum of one day.
-Hospital confinement offers $500 per day, up to 30 days.
-ICU admission gives you $2,000 per day, for one day.
-And the ICU benefit continues at $500 per day, for up to 30 days.
+Personalized healthcare advocacy is provided.
 
-The enhanced surgical benefits include:
-Inpatient surgery covered at $750 per day, for one day.
-Outpatient surgery providing $400 per day, for one day.
-And increased general anesthesia benefits at $300 per day.
+Financial Assistance options are available.
 
----- Plan 4 Benefits (2/2) ----
+Legal Support services are included.
 
-Plan 4's outpatient treatment offers:
-Emergency room visits covered at $500 per day, up to 2 days.
-Urgent care facilities provide $75 per day, up to 5 days.
-Physician office visits are covered at $75 per day, up to 5 days.
-And therapy services are covered at $75 per day, up to 5 days.
+Emotional Support resources are also offered.
 
-This plan includes diagnostic and ambulance benefits:
-Minor diagnostic exams are covered at $100 per day.
-Major diagnostic exams provide $500 per day.
-Ground ambulance service offers $500 per day.
-And air ambulance service provides $1,000 per day.
+---- Plan 2 (1/2) ----
 
-Additional coverage features:
-The Portability Option is included.
-Pregnancy coverage is included.
-However, mental health treatment is not included in this plan.
+Let's examine Plan 2.
 
----- Comparing the Plans ----
+Hospital Benefits offer seven hundred fifty dollars per day for admission with a maximum of one day, two hundred dollars per day for confinement with a maximum of thirty days, one thousand five hundred dollars per day for ICU admission with a maximum of one day, and three hundred fifty dollars per day for ICU confinement with a maximum of thirty days.
 
-Let's compare the key differences between our plans:
-Plan 2 offers a hospital admission benefit of $750.
-Plan 3 increases this to $1,000.
-Plan 4 provides the highest at $2,000.
-Emergency room coverage ranges from $200 to $500 per day.
-And notably, only Plan 3 includes mental health coverage.
+Surgery Benefits provide five hundred dollars per day for inpatient with a maximum of one day and three hundred dollars per day for outpatient with a maximum of one day.
 
----- Key Takeaways ----
+Outpatient Treatment includes two hundred dollars per day for ER with a maximum of two days, fifty dollars per day for urgent care with a maximum of three days, fifty dollars per day for physician's office with a maximum of three days, and fifteen dollars per day for therapy with a maximum of five days.
 
-Let me summarize the key points about our plans:
-Plan 2 is our basic option with the lowest benefits, ideal for budget-conscious members.
+Additional Benefits include General Anesthesia at one hundred twenty-five dollars per day.
 
-Plan 3 is our mid-tier option and uniquely includes mental health coverage.
+---- Plan 2 (2/2) ----
 
-Plan 4 is our premium option with the highest benefits and additional diagnostic coverage.
+Continuing with Plan 2.
 
-And remember to choose based on your specific needs:
-- Choose Plan 2 if you're budget-conscious
-- Select Plan 3 if mental health coverage is important
-- Opt for Plan 4 if you want the most coverage
+Additional Riders include the Portability Option Rider and the Continuity of Coverage Amendment Rider.
+
+Exclusions include no coverage for serious mental illness and no coverage for alcohol or drug addiction.
+
+---- Plan 3 (1/2) ----
+
+Now, let's look at Plan 3.
+
+Hospital Benefits include one thousand dollars per day for admission with a maximum of one day, three hundred dollars per day for confinement with a maximum of thirty days, two thousand dollars per day for ICU admission with a maximum of one day, and five hundred dollars per day for ICU confinement with a maximum of thirty days.
+
+Surgery Benefits offer five hundred dollars per day for inpatient with a maximum of one day and three hundred dollars per day for outpatient with a maximum of one day.
+
+Outpatient Treatment includes three hundred dollars per day for ER with a maximum of two days, fifty dollars per day for urgent care with a maximum of three days, fifty dollars per day for physician's office with a maximum of three days, and fifteen dollars per day for therapy with a maximum of five days.
+
+Additional Benefits include General Anesthesia at one hundred twenty-five dollars per day.
+
+---- Plan 3 (2/2) ----
+
+Continuing with Plan 3.
+
+Additional Riders include the Portability Option Rider and the Continuity of Coverage Amendment Rider.
+
+Mental Health and Addiction treatment for serious mental illness and alcohol or drug addiction is included.
+
+---- Plan 4 (1/2) ----
+
+Let's examine Plan 4.
+
+Hospital Benefits include two thousand dollars per day for admission with a maximum of one day, five hundred dollars per day for confinement with a maximum of thirty days, two thousand dollars per day for ICU admission with a maximum of one day, and five hundred dollars per day for ICU confinement with a maximum of thirty days.
+
+Surgery Benefits offer seven hundred fifty dollars per day for inpatient with a maximum of one day and four hundred dollars per day for outpatient with a maximum of one day.
+
+Outpatient Treatment includes five hundred dollars per day for ER with a maximum of two days, seventy-five dollars per day for urgent care with a maximum of five days, seventy-five dollars per day for physician's office with a maximum of five days, and seventy-five dollars per day for therapy with a maximum of five days.
+
+---- Plan 4 (2/2) ----
+
+Continuing with Plan 4.
+
+Additional Benefits include General Anesthesia at three hundred dollars per day, Ground Ambulance at five hundred dollars per day with a maximum of one day, Air Ambulance at one thousand dollars per day with a maximum of one day, Minor Diagnostic Exam at one hundred dollars per day with a maximum of one day, and Major Diagnostic Exam at five hundred dollars per day with a maximum of one day.
+
+Additional Riders include the Portability Option Rider.
+
+Exclusions include no coverage for serious mental illness and no coverage for alcohol or drug addiction.
+
+---- Comparing Plan Tiers ----
+
+Let's compare the different plans available. Plan 2 offers seven hundred fifty dollars per day for hospital admission with a maximum of one day, one thousand five hundred dollars per day for ICU admission with a maximum of one day, five hundred dollars per day for inpatient surgery with a maximum of one day, and three hundred dollars per day for outpatient surgery with a maximum of one day. General anesthesia is covered at one hundred twenty-five dollars per day. Plan 3 provides one thousand dollars per day for hospital admission with a maximum of one day, two thousand dollars per day for ICU admission with a maximum of one day, five hundred dollars per day for inpatient surgery with a maximum of one day, and three hundred dollars per day for outpatient surgery with a maximum of one day. General anesthesia is also covered at one hundred twenty-five dollars per day. Plan 4 includes two thousand dollars per day for hospital admission with a maximum of one day, two thousand dollars per day for ICU admission with a maximum of one day, seven hundred fifty dollars per day for inpatient surgery with a maximum of one day, and four hundred dollars per day for outpatient surgery with a maximum of one day. General anesthesia coverage increases to three hundred dollars per day, and additional diagnostic and ambulance benefits are included.
+
+---- Definitions and Limitations ----
+
+Let's review important definitions and limitations.
+
+General Exclusions include no coverage for cosmetic surgeries, routine vision services, and injuries from illegal acts.
+
+Specific Conditions exclude hernia, adenoids, and tonsils unless emergency, and injuries related to military service.
+
+Rider Limitations specify conditions for portability and continuity riders.
+
+Tax Implications suggest consulting a tax advisor for pre-tax premium payments.
+
+---- Key Takeaways and Reminders ----
+
+Here are the key points to remember.
+
+The plan offers broad coverage benefits.
+
+Flexible Options are included to suit different needs.
+
+Advocacy and Support benefits are available to assist members.
+
+Enrollment is required to access these benefits.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about the BWA Americare Membership Package. Remember, your health and well-being are paramount, and having the right plan can make all the difference. Continue to be great!
+Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!

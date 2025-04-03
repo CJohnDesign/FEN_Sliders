@@ -5,6 +5,7 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { Howl } from 'howler'
 import { useNav } from '@slidev/client'
+import { obsService } from '../services/obsService'
 
 const props = defineProps<{
   deckKey: string
@@ -13,6 +14,9 @@ const props = defineProps<{
 const nav = ref(useNav());
 const currentHowl = ref<Howl | null>(null);
 const isPlaying = ref(false);
+const obsConnected = ref(false);
+const isRecording = ref(false);
+const isValidDeck = ref(false);
 
 // Function to get current click from URL
 const getCurrentClick = () => {
@@ -27,33 +31,126 @@ type AudioFileConfig = {
   clicks: number[];
 };
 
-// Add a helper function for consistent end-of-presentation handling
-const handleEndOfPresentation = async () => {
-  console.log('Reached end of presentation');
-  // Wait 2 seconds before stopping
-  setTimeout(() => {
-    console.log('Auto-stopping after last track');
-    if (currentHowl.value) {
-      currentHowl.value.stop();
-      currentHowl.value.unload();
-      currentHowl.value = null;
+// Add OBS connection initialization
+const initOBS = async () => {
+  try {
+    console.log('Initializing OBS connection...', { wasConnected: obsConnected.value, wasRecording: isRecording.value });
+    const status = await obsService.connect();
+    obsConnected.value = status.connected;
+    
+    if (status.connected) {
+      console.log('Successfully connected to OBS');
+      const recordingStatus = obsService.getRecordingStatus();
+      console.log('Current OBS recording status:', recordingStatus);
+      isRecording.value = recordingStatus;
+    } else {
+      console.error('Failed to connect to OBS:', status.error);
     }
-    isPlaying.value = false;
-  }, 2000);
+  } catch (error) {
+    console.error('Error initializing OBS:', error);
+    obsConnected.value = false;
+    isRecording.value = false;
+  }
+};
+
+// Function to start recording
+const startRecording = async () => {
+  try {
+    console.log('Starting recording process...', { wasConnected: obsConnected.value, wasRecording: isRecording.value });
+    await initOBS();
+    
+    if (obsConnected.value && !isRecording.value) {
+      console.log('Attempting to start recording...');
+      isRecording.value = await obsService.toggleRecording();
+      console.log('Recording toggle result:', isRecording.value);
+      
+      // Verify recording actually started
+      const actualStatus = obsService.getRecordingStatus();
+      console.log('Verifying recording status:', actualStatus);
+      
+      if (!actualStatus) {
+        console.error('Recording failed to start - OBS reports not recording');
+      }
+    } else {
+      console.log('Skipping recording start:', { connected: obsConnected.value, recording: isRecording.value });
+    }
+  } catch (error) {
+    console.error('Failed to start recording:', error);
+  }
+};
+
+// Function to stop recording
+const stopRecording = async () => {
+  try {
+    console.log('Stop recording requested...', { wasConnected: obsConnected.value, wasRecording: isRecording.value });
+    
+    // Only try to reconnect if we're actually recording
+    if (isRecording.value && !obsConnected.value) {
+      console.log('Reconnecting to OBS to stop recording...');
+      await initOBS();
+    }
+
+    if (obsConnected.value && isRecording.value) {
+      console.log('Attempting to stop recording...');
+      isRecording.value = await obsService.toggleRecording();
+      console.log('Stop recording toggle result:', isRecording.value);
+      
+      // Verify recording actually stopped
+      const actualStatus = obsService.getRecordingStatus();
+      console.log('Verifying recording stopped:', !actualStatus);
+      
+      if (actualStatus) {
+        console.error('Failed to stop recording - OBS reports still recording');
+        // Try one more time
+        console.log('Attempting second stop...');
+        isRecording.value = await obsService.toggleRecording();
+        const finalStatus = obsService.getRecordingStatus();
+        console.log('Final recording status after retry:', finalStatus);
+      }
+    } else {
+      console.log('Skipping recording stop:', { connected: obsConnected.value, recording: isRecording.value });
+    }
+  } catch (error) {
+    console.error('Failed to stop recording:', error);
+    console.log('Current states after error:', { connected: obsConnected.value, recording: isRecording.value });
+  }
+};
+
+// Function to check if we're at the end
+const isEndSlide = () => {
+  const result = nav.value?.currentPage >= (nav.value?.total || 0);
+  console.log('[End Detection] Checking end slide:', {
+    currentPage: nav.value?.currentPage,
+    totalSlides: nav.value?.total,
+    isEnd: result
+  });
+  return result;
+};
+
+// Validate deck key on mount
+const validateDeckKey = () => {
+  // Ensure deckKey is a valid string and not a number
+  if (!props.deckKey || /^\d+$/.test(props.deckKey)) {
+    console.error('[Deck Validation] Invalid deck key:', props.deckKey);
+    isValidDeck.value = false;
+    return false;
+  }
+  isValidDeck.value = true;
+  return true;
 };
 
 // Function to play audio for current slide and click
 const playAudio = async (slideNumber: number, clickNumber: number) => {
   try {
-    // Add validation for numeric parameters
-    if (isNaN(slideNumber) || isNaN(clickNumber)) {
-      console.error('Invalid slide or click number', { slideNumber, clickNumber });
+    // Validate deck key before attempting to play
+    if (!isValidDeck.value) {
+      console.error('[Deck Validation] Cannot play audio - invalid deck key:', props.deckKey);
       return;
     }
 
-    // Check if we've reached the end of the presentation first
-    if (nav.value && slideNumber > nav.value.total) {
-      await handleEndOfPresentation();
+    // Add validation for numeric parameters
+    if (isNaN(slideNumber) || isNaN(clickNumber)) {
+      console.error('Invalid slide or click number', { slideNumber, clickNumber });
       return;
     }
 
@@ -78,7 +175,7 @@ const playAudio = async (slideNumber: number, clickNumber: number) => {
     const audioPath = `/decks/${props.deckKey}/audio/oai/${audioFileName}`;
 
     // Debug logging
-    console.log('Attempting to play audio:', {
+    console.log('[Audio] Attempting to play:', {
       deckKey: props.deckKey,
       slideNumber,
       clickNumber,
@@ -103,7 +200,8 @@ const playAudio = async (slideNumber: number, clickNumber: number) => {
         }
 
         // Check if we're on the last slide
-        if (nav.value && slideNumber >= nav.value.total) {
+        if (isEndSlide()) {
+          console.log('[End Detection] Last audio finished, handling end of presentation');
           await handleEndOfPresentation();
           return;
         }
@@ -154,7 +252,8 @@ const handleAudioError = async (slideNumber: number, clickNumber: number) => {
   console.log(`Audio file not found: ${audioFileName} in /decks/${props.deckKey}/audio/oai/`);
   
   // Check if we're on the last slide
-  if (nav.value && nav.value.currentPage >= nav.value.total) {
+  if (isEndSlide()) {
+    console.log('[End Detection] Audio error on last slide, handling end');
     await handleEndOfPresentation();
     return;
   }
@@ -176,6 +275,12 @@ const handleAudioError = async (slideNumber: number, clickNumber: number) => {
 // Handle 'A' key press for play/pause
 const handleKeyPress = async (event: KeyboardEvent) => {
   if (event.key.toLowerCase() === 'a') {
+    // Only handle key press if this is a valid deck
+    if (!isValidDeck.value) {
+      console.log('[Deck Validation] Ignoring key press - invalid deck key:', props.deckKey);
+      return;
+    }
+
     console.log('=== "A" Key Pressed ===');
     if (isPlaying.value) {
       // Stop playback
@@ -185,14 +290,20 @@ const handleKeyPress = async (event: KeyboardEvent) => {
         currentHowl.value = null;
       }
       isPlaying.value = false;
-      console.log('Playback stopped');
+      
+      // Always stop recording when manually stopping with 'A'
+      if (isRecording.value) {
+        console.log('Manual stop requested - stopping OBS recording...');
+        await stopRecording();
+      }
+      console.log('Playback and recording stopped');
     } else {
-      // Start playback
+      // Start playback and recording
       isPlaying.value = true;
+      await startRecording();
       if (nav.value) {
         const currentSlide = nav.value.currentPage;
         const currentClick = getCurrentClick();
-        // Ensure we're using the correct deckKey
         console.log(`Starting playback from slide ${currentSlide}, click ${currentClick}, deckKey: ${props.deckKey}`);
         playAudio(currentSlide, currentClick);
       }
@@ -206,11 +317,40 @@ const cleanup = () => {
     currentHowl.value.unload();
   }
   window.removeEventListener('keydown', handleKeyPress);
+  
+  // Only stop recording during cleanup if we're actually at the end
+  if (isRecording.value && nav.value && nav.value.currentPage >= nav.value.total) {
+    console.log('Stopping recording during cleanup at end of presentation');
+    stopRecording();
+  }
 };
 
-onMounted(() => {
+// Add a helper function for consistent end-of-presentation handling
+const handleEndOfPresentation = async () => {
+  console.log('[End Detection] Handling end of presentation');
+  // Wait 1 second before stopping
+  setTimeout(async () => {
+    console.log('[End Detection] Stopping after 1 second delay');
+    // Stop audio first
+    if (currentHowl.value) {
+      currentHowl.value.stop();
+      currentHowl.value.unload();
+      currentHowl.value = null;
+    }
+    isPlaying.value = false;
+    
+    // Stop recording since we've completed the last audio
+    console.log('[End Detection] Last audio complete, stopping OBS recording...');
+    await stopRecording();
+  }, 1000);
+};
+
+onMounted(async () => {
   console.log(`[SlideAudio mounted] deckKey: ${props.deckKey}`);
-  window.addEventListener('keydown', handleKeyPress);
+  if (validateDeckKey()) {
+    await initOBS();
+    window.addEventListener('keydown', handleKeyPress);
+  }
 });
 
 onBeforeUnmount(() => {

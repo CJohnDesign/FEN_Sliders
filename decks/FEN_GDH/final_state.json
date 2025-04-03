@@ -1,0 +1,2015 @@
+{
+  "deck_id": "FEN_GDH",
+  "deck_title": "Good Health",
+  "processed_images": {
+    "3": {
+      "page_number": 3,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_003.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_003.jpg",
+      "new_name": "03_gdhp_1_plan_details_with_benefits_for_physician_services_telemedicine_and_advocacy.jpg",
+      "new_path": "img/pages/03_gdhp_1_plan_details_with_benefits_for_physician_services_telemedicine_and_advocacy.jpg",
+      "page_title": "gdhp_1_plan_details_with_benefits_for_physician_services_telemedicine_and_advocacy",
+      "summary": "The GDHP-1 plan offers specific benefits under physician services, telemedicine, and advocacy. For primary care office visits, the plan allows for three visits per year with a co-pay of $25 and a maximum of $150 per visit. Specialist or urgent care office visits are limited to one visit per year, with a co-pay of $50 and a maximum of $300 per visit. The in-patient hospitalization benefit provides $1,000 per day, with a yearly maximum of $5,000, and includes a 12-month pre-existing condition clause. Telemedicine services are available with no consult fee and no maximum limit. Discount prescriptions are available through participating pharmacies only. The plan also includes advocacy services, such as a hospital bill reducer, to assist with managing healthcare expenses.\n\nThe plan emphasizes that all sickness benefits are subject to a 30-day waiting period before they become payable. Outpatient physician services and wellness benefits require in-network providers, while inpatient hospital indemnity benefits do not. The plan is not a major medical plan and is limited to covering preventive and wellness services as required by law. It is important to review the schedule of benefits for detailed coverage information, including copays, deductibles, and limitations.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 3
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_002.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_002.jpg",
+      "new_name": "02_gdhp_w_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg",
+      "new_path": "img/pages/02_gdhp_w_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg",
+      "page_title": "gdhp_w_plan_details_with_wellness_exam_and_telemedicine_benefits",
+      "summary": "The GHDP-W plan offers specific benefits focusing on wellness exams and telemedicine services. Under the Physician Services, which utilize the First Health Network, the plan provides one wellness exam per year with a co-pay of $25 and a maximum charge of $150 per visit. Telemedicine services are available through Recuro Health with no consult fee and no maximum limit on usage. Additionally, the plan includes access to discount prescriptions through BestChoice RX participating pharmacies. \n\nThe plan emphasizes support services through Kindly Human, offering 24/7 assistance for everyday challenges. This service is designed to connect individuals with someone who can relate to their experiences, providing fundamental human support. \n\nThere are specific limitations and requirements associated with the plan. All sickness benefits are subject to a 30-day waiting period before they become payable. Outpatient physician services and wellness benefits are restricted to in-network providers only, while inpatient hospital indemnity benefits are not subject to this restriction. The plan is not a major medical plan and does not cover services unless listed in the Schedule of Benefits. It is limited to preventive and wellness services as required by law, with detailed information on copays, deductibles, and limitations provided in the Summary Plan Description.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 2
+    },
+    "1": {
+      "page_number": 1,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_001.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_001.jpg",
+      "new_name": "01_gdhp_summary_with_benefits_for_ghw_gh1_gh2_gh3_gh4_gh5.jpg",
+      "new_path": "img/pages/01_gdhp_summary_with_benefits_for_ghw_gh1_gh2_gh3_gh4_gh5.jpg",
+      "page_title": "gdhp_summary_with_benefits_for_ghw_gh1_gh2_gh3_gh4_gh5",
+      "summary": "The GHDP Summary page outlines the features and benefits of various health plans, including GHW, GH1, GH2, GH3, GH4, and GH5. Key benefits across these plans include Telemedicine, BestChoiceRX Group Discount Program, and BestChoiceRX Plus, which offers non-preferred generic and brand medications with a co-pay up to $150 per month. Preventative care and annual wellness exams are available in most plans, with specific coverage details varying by plan. Specialty drugs and prescription assistance programs are also highlighted.\n\nThe page details primary care physician visits, with GH1 covering one visit, GH2 covering two, and GH5 covering up to five visits. Specialist and urgent care visits are similarly tiered, with GH1 covering one visit and GH5 covering five. Hospital indemnity benefits, emergency room services, ambulance services, and in-out patient surgery are included in all plans, with specific conditions and limitations noted.\n\nDental plans are available with annual maximums of $1,500, $3,000, and $5,000 per person, depending on the plan tier. The Dental/Vision Bundle emphasizes a digital-first platform for vision services, aiming to replace traditional insurance while maintaining cost efficiency and satisfaction.\n\nLimitations include a 30-day waiting period for sickness benefits, in-network provider requirements for outpatient services, and exclusions for pre-existing conditions within the first twelve months. The plan is not a major medical plan and does not cover services outside the Schedule of Benefits.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 1
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_004.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_004.jpg",
+      "new_name": "04_gdhp_2_plan_details_with_benefits_for_physician_services_and_prescription_terms.jpg",
+      "new_path": "img/pages/04_gdhp_2_plan_details_with_benefits_for_physician_services_and_prescription_terms.jpg",
+      "page_title": "gdhp_2_plan_details_with_benefits_for_physician_services_and_prescription_terms",
+      "summary": "The GHDP-2 plan offers specific benefits for physician services and prescription terms. Under physician services, members are allowed up to four primary care office visits per year with a co-pay of $25 and a maximum charge of $150 per visit. Specialist or urgent care office visits are limited to two per year, with a co-pay of $50 and a maximum charge of $300 per visit. In-patient hospitalization benefits are provided at $1,000 per day, with a yearly maximum of $10,000, subject to a 12-month pre-existing condition clause. Telemedicine services are available with no consult fee and no maximum limit. \n\nFor prescriptions, the plan includes preventive and acute prescriptions subject to a formulary, with no monthly maximum. Pharmacy retail for up to a 30-day supply of acute and preventive generic drugs requires the member to pay, while generic drugs have a $0 copay. For a 90-day supply of maintenance drugs, members pay, with preferred generics having a $5 copay. The RX plan includes discounts for formulary prescriptions, but specialty drugs are not covered. Members may qualify for the Prescription Assistance Program based on income guidelines. \n\nAdditional support services include Kindly Human for 24/7 access to support and MyHealthcare Ninja for advocacy. The plan includes a hospital bill reducer. Limitations include a 30-day waiting period for sickness benefits and restrictions on inpatient hospital indemnity benefits. Pre-existing conditions are not covered for the first 12 months. The plan is not a major medical plan and is limited to preventive and wellness services.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 4
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_005.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_005.jpg",
+      "new_name": "05_gdhp_3_plan_details_with_benefits_and_coverage_limits.jpg",
+      "new_path": "img/pages/05_gdhp_3_plan_details_with_benefits_and_coverage_limits.jpg",
+      "page_title": "gdhp_3_plan_details_with_benefits_and_coverage_limits",
+      "summary": "The GHDP-3 plan offers a structured set of benefits focusing on physician services, telemedicine, and prescription coverage. Under physician services, members are entitled to four primary care office visits per year with a co-pay of $25 and a maximum of $150 per visit. Specialist or urgent care visits are also limited to four per year, with a co-pay of $50 and a maximum of $300 per visit. In-patient hospitalization benefits are set at $1,000 per day, with a yearly maximum of $15,000, and a 12-month pre-existing condition exclusion applies.\n\nTelemedicine services are provided with no consult fee and no maximum limit, enhancing accessibility to healthcare professionals. Prescription coverage includes preventive and acute prescriptions, with specific terms and conditions. For pharmacy retail up to a 30-day supply, members pay for acute and preventive generic drugs, while generic drugs have a $0 copay. Preferred generic drugs have a $5 copay, and non-preferred generics require member payment with retail copays of $5 and $10, and mail order copays of $5 and $20 for a 90-day supply. Brand drugs require prior authorization, with member payment and retail copays of $40 and mail order copays of $80 for a 90-day supply.\n\nThe plan includes prescription terms and conditions, such as a $150 benefit limit per person per month for non-preventive maintenance prescriptions. Specialty drugs are not covered, and members may qualify for a Prescription Assistance Program based on income guidelines. Additional support services include advocacy and hospital bill reduction, with a focus on providing access to support 24/7. Limitations include a 30-day waiting period for sickness benefits and specific exclusions for pre-existing conditions.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 5
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_006.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_006.jpg",
+      "new_name": "06_gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_care_and_specialist_visits.jpg",
+      "new_path": "img/pages/06_gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_care_and_specialist_visits.jpg",
+      "page_title": "gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_care_and_specialist_visits",
+      "summary": "The GDHP-4 plan offers a range of benefits focusing on physician services, telemedicine, and prescription coverage. Under physician services, the plan includes one wellness exam per year with a $25 co-pay and a maximum of $150 per visit. Primary care office visits are covered up to four times a year with a $50 co-pay and a $150 maximum per visit. Specialist or urgent care office visits are also covered up to four times a year with a $75 co-pay and a $300 maximum per visit. In-patient hospitalization benefits provide $1,000 per day with a $10,000 yearly maximum, subject to a 12-month pre-existing condition exclusion. In/outpatient surgery is covered up to $1,000 per year with a $2,000 yearly maximum, also subject to a 12-month pre-existing condition exclusion. Emergency room visits, if admitted, have a $1,000 per incident benefit, and ambulance services are covered at $500 per incident, both with a 12-month pre-existing condition exclusion.\n\nTelemedicine services are offered with no consult fee and no maximum limit. The plan includes preventive and acute prescription coverage, with member pays for pharmacy retail up to a 30-day supply and mail order up to a 90-day supply. Non-preferred generic drugs have a retail co-pay of $5 and $10, and mail order co-pays of $8 and $20. Brand drugs require prior authorization and have retail co-pays of $30 for 30 days and $80 for 90 days. Prescription terms specify that non-preventive maintenance prescriptions have a $150 benefit limit per person per month, with specialty drugs not covered. The plan also includes advocacy support through Kindly Human and MyHealthcare Ninja, providing hospital bill reduction services.\n\nThe plan has specific limitations, including a 30-day waiting period for sickness benefits and exclusions for out-of-network providers for inpatient hospital indemnity benefits. Pre-existing condition exclusions apply for the first 12 months of coverage, and certain benefits are not payable for pre-existing conditions as defined in the policy.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 6
+    },
+    "7": {
+      "page_number": 7,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_007.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_007.jpg",
+      "new_name": "07_gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_care_and_prescription_coverage.jpg",
+      "new_path": "img/pages/07_gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_care_and_prescription_coverage.jpg",
+      "page_title": "gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_care_and_prescription_coverage",
+      "summary": "The GDHP-5 plan offers a range of benefits focusing on physician services, telemedicine, and prescription coverage. Under physician services, the plan includes one wellness exam per year with a co-pay of $25 and a maximum of $150 per visit. It also covers up to five primary care office visits annually, with a $50 co-pay and a $150 maximum per visit. Specialist or urgent care visits are similarly covered, with a $75 co-pay and a $300 maximum per visit.\n\nIn-patient hospitalization benefits are provided at $1,500 per day, with a yearly maximum of $15,000, subject to a 12-month pre-existing condition clause. In/outpatient surgery is covered at $1,500 per day, with a $4,500 yearly maximum, also subject to the pre-existing condition clause. Emergency room visits, if admitted, incur a $1,000 per incident charge, and ambulance services are covered at $500 per incident, both with the same pre-existing condition limitations.\n\nTelemedicine services are offered with no consult fee and no maximum limit. Prescription coverage includes preventive and acute prescriptions, with member payments required for retail and mail-order options. Non-preferred generic and brand drugs require member payments, with specific costs outlined for 30-day and 90-day supplies. The plan also includes advocacy support through the Hospital Bill Reducer service.\n\nLimitations include a 30-day waiting period for sickness benefits and restrictions on non-preventive maintenance prescriptions. Specialty drugs are not covered, and there are specific conditions for pre-existing conditions and network usage.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 7
+    },
+    "8": {
+      "page_number": 8,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_008.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_008.jpg",
+      "new_name": "08_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_requirements.jpg",
+      "new_path": "img/pages/08_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_requirements.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_requirements",
+      "summary": "This document outlines the preventive health services covered under the MEC/Preventive Health Services plan. Benefits are subject to specific regulations and amendments, ensuring compliance with legislative acts. The services covered are based on recommendations from the United States Preventive Services Task Force, focusing on medical services with a rating of 'A' or 'B'. Preventive care and screenings for various age groups, including infants, children, and adolescents, are provided following guidelines from the Health Resources and Services Administration. Immunizations are recommended by the Advisory Committee on Immunization Practices for certain individuals.\n\nThe document includes a detailed table listing various preventive health services, their intervals, and specific requirements. For example, abdominal aortic aneurysm screening is available once per lifetime for men aged 65-75 who have smoked. Adult annual standard physicals are covered once per plan year for adults. Alcohol misuse screening and counseling are provided annually for adults 18 years or older. Aspirin as a preventive medication is prescribed for adults aged 50 to 59 with high cardiovascular risk. Other services include bacteriuria screening for pregnant women, BRCA risk assessment, and breast cancer preventive medications.\n\nIt is important to note that none of the preventive health services are covered if provided at a hospital. This limitation is explicitly stated, ensuring clarity on the coverage restrictions.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 8
+    },
+    "12": {
+      "page_number": 12,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_012.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_012.jpg",
+      "new_name": "12_mec_preventive_health_services_summary_of_benefits_immunizations_for_children.jpg",
+      "new_path": "img/pages/12_mec_preventive_health_services_summary_of_benefits_immunizations_for_children.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_immunizations_for_children",
+      "summary": "This page provides a detailed summary of immunization benefits under the MEC/Preventive Health Services plan. It outlines the recommended vaccines for children from birth through eighteen years old, as advised by the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention. The document is divided into two sections based on age groups: Birth Through Six Years Old and Children From Seven Through Eighteen Years Old. \n\nFor children from birth through six years old, the vaccines include Hepatitis B, Diphtheria, Tetanus, and Acellular Pertussis (DTaP), Haemophilus Influenzae Type B (Hib), Pneumococcal 13-valent Conjugate (PCV13), Inactivated Poliovirus (IPV), Influenza (Flu), Measles, Mumps, and Rubella (MMR), Varicella (VAR), Hepatitis A, and Rotavirus (RV). Each vaccine has specific age requirements and limitations, such as the age range for administration and any special conditions.\n\nFor children from seven through eighteen years old, the vaccines include Influenza (yearly), Tetanus, Diphtheria, and Acellular Pertussis (Tdap), Human Papillomavirus (HPV), and Meningococcal Serogroups A,C,W,Y. The HPV vaccine has specific notes regarding the series of shots required for those with weakened immune systems or those starting the series at age 15 or older.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 12
+    },
+    "9": {
+      "page_number": 9,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_009.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_009.jpg",
+      "new_name": "09_mec_preventive_health_services_summary_of_benefits.jpg",
+      "new_path": "img/pages/09_mec_preventive_health_services_summary_of_benefits.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits",
+      "summary": "This page outlines the preventive health services covered under the MEC plan, detailing the benefits, intervals, and specific requirements for each service. Breastfeeding support, supplies, and counseling are provided in conjunction with each birth, with interventions during pregnancy and after birth to support breastfeeding. Cervical cancer screening with cytology is available once every three plan years for women aged 21 to 65. Additionally, cervical cancer screening with a combination of cytology and HPV testing is offered once every five plan years for women aged 30 to 65 with high-risk HPV.\n\nChlamydia screening is available annually for sexually active women aged 24 and younger, and older women at increased risk. Colorectal cancer screening is provided once every five plan years starting at age 50, with benefits for a colonoscopy if the home test is positive. Contraceptive methods and counseling are offered as prescribed, covering FDA-approved methods and related education.\n\nDental caries prevention for infants and children up to age 5 is provided annually, with fluoride varnish application and oral fluoride supplementation starting at age 6 months. Depression screening is available annually for adolescents aged 12 to 18 and the general adult population, including pregnant and postpartum women. Diabetes screening is offered annually for adults aged 40 to 70 who are overweight or obese. Fall prevention for older adults is available annually for those aged 65 and older. Folic acid supplementation is prescribed for women planning or capable of pregnancy. Gestational diabetes mellitus screening is provided annually for asymptomatic pregnant women after 24 weeks of gestation.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 9
+    },
+    "10": {
+      "page_number": 10,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_010.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_010.jpg",
+      "new_name": "10_mec_preventive_health_services_summary_of_benefits.jpg",
+      "new_path": "img/pages/10_mec_preventive_health_services_summary_of_benefits.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits",
+      "summary": "This page provides a detailed summary of preventive health services covered under the MEC/Preventive Health Services plan. It outlines various benefits, the frequency of coverage, and specific requirements for eligibility. The benefits include Gonorrhea Prophylactic Medication, which is provided as prescribed for all newborns to prevent gonococcal ophthalmia neonatorum. Gonorrhea Screening is available once per plan year for sexually active women aged 24 years or younger and older women at increased risk. Healthy Diet and Physical Activity Counseling is offered once per plan year for adults who are overweight or obese with additional cardiovascular disease risk factors.\n\nHemoglobinopathies Screening is conducted once per plan year for sickle cell disease in newborns. Hepatitis B and C screenings are available once per plan year for non-pregnant adolescents and adults at high risk, with specific provisions for pregnant women and adults born between 1945 and 1965. High Blood Pressure Screening is provided once per plan year for adults aged 18 or older. HIV Preexposure Prophylaxis is prescribed for persons at high risk, while HIV Screening is available once per plan year for adolescents and adults aged 15 to 65 years.\n\nAdditional screenings include Hypothyroidism Screening for newborns, Intimate Partner Violence Screening for women of reproductive age, and Lung Cancer Screening for adults aged 55 to 80 years with a significant smoking history. Obesity Screening and Counseling are offered to children, adolescents, and adults with a BMI of 30 kg/m2 or higher. Osteoporosis Screening is available for women aged 65 and older, and Phenylketonuria Screening is conducted for newborns.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 10
+    },
+    "11": {
+      "page_number": 11,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_011.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_011.jpg",
+      "new_name": "11_mec_preventive_health_services_summary_of_benefits.jpg",
+      "new_path": "img/pages/11_mec_preventive_health_services_summary_of_benefits.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits",
+      "summary": "This page provides a detailed summary of preventive health services covered under the MEC/Preventive Health Services plan. It outlines various benefits, intervals, and specific requirements for each service. Preeclampsia screening is available once per plan year for pregnant women, with blood pressure measurements throughout pregnancy. Rh incompatibility screening is offered during the first pregnancy visit and again at 24-28 weeks' gestation for Rh (D)-negative women. Sexually transmitted infections counseling is provided once per plan year for sexually active adolescents and adults. Skin cancer behavioral counseling is available annually for young adults, adolescents, children, and parents of young children to minimize ultraviolet radiation exposure.\n\nStatin preventive medication is prescribed for adults with a history of cardiovascular disease or risk factors. Syphilis screening is conducted annually for non-pregnant persons at increased risk and all pregnant women. Tobacco use counseling and interventions are offered twice per plan year for adults and pregnant women, including behavioral interventions and FDA-approved pharmacotherapy. Tuberculosis screening is available annually for latent infection in at-risk populations. Vision screening is provided once every two plan years for children aged 3 to 5. Well-woman visits are available annually for women under 65, and well-child visits are offered annually for children, with one visit recommended for children under three.\n\nThe page emphasizes the importance of preventive services and outlines specific criteria for eligibility and frequency of each service. It provides a structured overview of the preventive measures covered, ensuring that members are informed about the available health services and their requirements.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 11
+    },
+    "13": {
+      "page_number": 13,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_013.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_013.jpg",
+      "new_name": "13_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "new_path": "img/pages/13_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions",
+      "summary": "This page provides a detailed summary of benefits under the MEC/Preventive Health Services plan, focusing on immunizations for adults aged nineteen years or older. The table lists various vaccines, including Influenza inactivated, Influenza recombinant, and Tetanus, diphtheria, and acellular pertussis, among others. Each vaccine is accompanied by specific age requirements and limitations, such as the Influenza inactivated vaccine being available annually for individuals aged 19 to 65 years. The Tdap vaccine is recommended for ages 19 to 65, with a booster every 10 years. The page also includes a section on exclusions, detailing specific services and conditions not covered by the plan. These exclusions include routine foot care, dental procedures, and any medical service not explicitly provided in the plan document. Additionally, claims related to injury or illness arising out of employment or covered by a Worker's Compensation policy are excluded. The page emphasizes that certain medical services, treatments, or procedures are not covered unless specifically authorized as medically necessary.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 13
+    },
+    "14": {
+      "page_number": 14,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_014.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_014.jpg",
+      "new_name": "14_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "new_path": "img/pages/14_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations",
+      "summary": "This page outlines the exclusions and limitations associated with the MEC/Preventive Health Services plan. It lists specific conditions and services that are not covered under the plan. These include claims arising from acts of war, services not medically necessary, and treatments related to fertility or infertility. Additionally, claims for cosmetic surgery, experimental treatments, and services primarily educational in nature are excluded. The document also specifies that claims related to illegal acts, self-inflicted injuries, and certain travel-related expenses are not covered. \n\nThe exclusions extend to various medical services such as chiropractic care, acupuncture, and alternative medicine. Claims for durable medical equipment, hospice care, and residential facilities not licensed for healthcare are also excluded. The plan does not cover organ transplants, genetic testing, or any claims not explicitly covered in the schedule of benefits. Furthermore, the document clarifies that exclusions are meant to provide clarity and should not be interpreted as evidence of coverage for any service not listed.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 14
+    },
+    "15": {
+      "page_number": 15,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_015.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_015.jpg",
+      "new_name": "15_individual_and_family_dental_plans_with_benefits_for_dental_1500_3000_5000.jpg",
+      "new_path": "img/pages/15_individual_and_family_dental_plans_with_benefits_for_dental_1500_3000_5000.jpg",
+      "page_title": "individual_and_family_dental_plans_with_benefits_for_dental_1500_3000_5000",
+      "summary": "This page outlines the individual and family dental plans offered by GoodHealth Distribution Partners, utilizing the MaximumCare PPO networks. Three plans are available: Dental 1500, Dental 3000, and Dental 5000, each with different annual maximums of $1,500, $3,000, and $5,000 per person, respectively. The plans include a $50 annual deductible for basic and major services per person and $150 per family, with no deductible for preventative services. \n\nPreventive care is covered at 100% with no waiting period, including routine exams, cleanings, bitewing X-rays, and fluoride treatments for children under 16. Basic care is covered at 80% with no waiting period, covering services like full mouth X-rays, sealants, space maintainers, restorative amalgams, and simple extractions. Major care is covered at 50% with a 12-month waiting period, including onlays, oral surgery, crowns, endodontics, periodontics, dentures, bridges, complex extractions, and anesthesia. \n\nThe plan follows the 'Carve Out' Coordination of Benefits method, which calculates the normal plan benefits and reduces them by the amount paid by the primary plan. Products are not available in certain states, including MA, MD, ME, NH, OR, VT, and WA.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 15
+    },
+    "16": {
+      "page_number": 16,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_016.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_016.jpg",
+      "new_name": "16_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "new_path": "img/pages/16_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "page_title": "limitations_and_exclusions_for_goodhealth_dental_plan",
+      "summary": "This page outlines the limitations and exclusions applicable to the GoodHealth Dental Plan. It specifies that no benefits are payable for services not included in the Schedule of Covered Procedures. Services started or appliances installed before the effective or termination date are not covered, except as noted in the certificate. Procedures deemed unnecessary or experimental, as well as those not offering a favorable prognosis, are excluded. Cosmetic procedures not recognized by the American Dental Association are also not covered unless listed in the Schedule of Covered Procedures.\n\nThe document further excludes coverage for appliances or procedures related to changes in vertical dimension, splinting, and bite analysis. Replacement of bridges and dentures is not covered if they exceed the age limits specified in the Schedule of Covered Procedures. Orthodontic services and treatments for temporomandibular joint dysfunction are excluded unless specifically listed as covered. Additional exclusions include charges for precision attachments, athletic mouth guards, and various professional services such as myofunctional therapy and treatment for malignancies.\n\nThe plan also excludes coverage for prescription drugs, premedication, pharmaceuticals, or analgesia. These limitations ensure that only specified procedures and services are eligible for coverage, emphasizing the importance of consulting the Schedule of Covered Procedures for detailed coverage information.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 16
+    },
+    "20": {
+      "page_number": 20,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_020.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_020.jpg",
+      "new_name": "20_smarter_vision_care_with_hassle_free_approach_and_eyewear_marketplace.jpg",
+      "new_path": "img/pages/20_smarter_vision_care_with_hassle_free_approach_and_eyewear_marketplace.jpg",
+      "page_title": "smarter_vision_care_with_hassle_free_approach_and_eyewear_marketplace",
+      "summary": "This page introduces a modern approach to vision care, highlighting the limitations of traditional vision insurance, which has not evolved in over 20 years. It points out that only 50% of employees use their vision insurance, with high costs averaging $230 per pair of glasses, and a poor experience reflected by a -8 NPS score. The new vision care solution offers a digital-first platform that replaces traditional insurance, aiming to keep costs low and improve satisfaction. \n\nThe page details an eyewear marketplace that eliminates markups, providing access for all with 100% usage. It offers over 1,500 designer frames and sunglasses at an average cost of $42 per pair. The platform promises a great experience with a +72 NPS, utilizing AI technology for virtual try-ons to find the perfect eyewear. \n\nAdditional benefits include improved access to eye exams, with in-person exams available at no cost through a network of over 99,000 providers. RX renewals are available on demand, allowing employees to get the care they need through simple online prescription renewals. The service is trusted and vetted, partnering with innovative organizations and recognized by top publications. Note that this plan is only available when bundled with one of three dental plans: 1500 Plan, 3000 Plan, or 5000 Plan.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 20
+    },
+    "19": {
+      "page_number": 19,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_019.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_019.jpg",
+      "new_name": "19_limitations_and_exclusions_for_goodhealth_insurance_plan.jpg",
+      "new_path": "img/pages/19_limitations_and_exclusions_for_goodhealth_insurance_plan.jpg",
+      "page_title": "limitations_and_exclusions_for_goodhealth_insurance_plan",
+      "summary": "This page outlines the limitations and exclusions related to the Coordination of Benefits (COB) provision for the GoodHealth Insurance Plan. It details the order of benefit payments when a person is covered by more than one plan. The hierarchy for payment begins with a plan covering a person as a non-dependent, followed by plans covering them as a dependent. Specific rules are provided for dependent children with separated or divorced parents, including the order of plans based on custody and court orders. Joint custody scenarios are also addressed, specifying the application of rules when custody details are not clear.\n\nThe document further explains the rights related to receiving and releasing necessary information for COB, emphasizing that consent is not required for obtaining such information. It also covers the right to make payments to another plan and the right to recovery, which allows the plan to reclaim overpayments. An appeal process is described for cases where claims are denied, requiring a written appeal within 60 days of denial. The appeal decision will be communicated within 15 days, with provisions for additional time if needed.\n\nContact information for submitting appeals is provided, directing correspondence to the Merchants Benefit Administration, Attn: Appeals Department, in Scottsdale, AZ. The page concludes with a note encouraging individuals to refer to the plan document if they are dissatisfied with the appeal response.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 19
+    },
+    "18": {
+      "page_number": 18,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_018.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_018.jpg",
+      "new_name": "18_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "new_path": "img/pages/18_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "page_title": "limitations_and_exclusions_for_goodhealth_dental_plan",
+      "summary": "This page outlines the limitations and exclusions associated with the GoodHealth Dental Plan. It begins by discussing alternate benefits, noting that when multiple services can address a dental problem, the plan will cover the least costly option. The plan will not cover the excess amount if a more expensive procedure is chosen. Specific details are provided for resin fillings on posterior teeth, which will be paid at the rate for amalgam fillings. The document also addresses the missing tooth clause, stating that no benefits will be paid for teeth missing before the effective date of coverage. However, exceptions are made for replacements of teeth extracted while covered under the group policy, with certain restrictions. The missing teeth limitation can be waived after five continuous years of coverage if it involves replacing an unserviceable prosthesis.\n\nThe page also includes a timely filing limit, requiring claims to be submitted within 12 months from the date of service. Coordination of Benefits (COB) is explained, indicating that when a person has coverage under more than one plan, benefits will be coordinated using the 'Carve Out' method. The order of benefit determination is outlined, specifying how benefits are paid when multiple plans are involved. This section ensures clarity on how benefits are coordinated to avoid overpayment or duplication of coverage.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 18
+    },
+    "17": {
+      "page_number": 17,
+      "original_name": "GH_CompletePlansSummary_6_2024_page_017.jpg",
+      "original_path": "img/pages/GH_CompletePlansSummary_6_2024_page_017.jpg",
+      "new_name": "17_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "new_path": "img/pages/17_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "page_title": "limitations_and_exclusions_for_goodhealth_dental_plan",
+      "summary": "This page outlines the limitations and exclusions applicable to the GoodHealth Dental Plan. It specifies that dental diseases, defects, or injuries caused by acts of war, terrorism, or criminal activities are not covered. Additionally, dental treatments not approved by the American Dental Association or those considered experimental are excluded. Services available under Worker\u2019s Compensation or similar laws are not covered, and treatments performed outside the United States are limited to a maximum of $100 per plan year, except for emergency treatments.\n\nThe document details restrictions on the initial placement of dentures and bridges, requiring that they replace a natural tooth extracted while insured. It also excludes full-mouth reconstruction services and treatments for congenital or developmental malformations, except within 31 days of a child's birth. Dental care provided by government facilities is not covered unless there is a legal obligation to pay.\n\nOther exclusions include dental services performed in hospitals, services covered under existing medical plans, charges exceeding reasonable amounts, fees for missed appointments, and nitrous sedation. These limitations ensure that only specific dental services are eligible for coverage under the plan.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "GH_CompletePlansSummary_6_2024",
+      "global_page_num": 17
+    }
+  },
+  "extracted_tables": {
+    "3": {
+      "page_number": "3",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Visits per Year",
+            "Co-pay",
+            "Maximum per Visit"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "3 visits / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "1 visits / yr",
+              "$50",
+              "$300"
+            ]
+          ]
+        },
+        {
+          "table_title": "In-Patient Hospitalization Benefit",
+          "headers": [
+            "Benefit",
+            "Amount",
+            "Year Maximum",
+            "Pre-Existing Condition"
+          ],
+          "rows": [
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$5,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Consult Fee",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Telemedicine",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Discount Prescriptions",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "BestChoice RX",
+              "Discount Prescriptions Only"
+            ]
+          ]
+        },
+        {
+          "table_title": "Kindly Human Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Kindly Human",
+              "Hearing from and connecting with someone who can relate to what we're facing is a fundamental human need. When we know we're not alone in what we're facing, everyone feels better. Kindly Human is designed to provide easy access to support 24/7 for everyday challenges that we all face."
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "MyHealthcare Ninja",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "4": {
+      "page_number": "4",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Visits per Year",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "4 visits / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "2 visits / yr",
+              "$50",
+              "$300"
+            ]
+          ]
+        },
+        {
+          "table_title": "In-Patient Hospitalization Benefit",
+          "headers": [
+            "Benefit",
+            "Amount",
+            "Maximum",
+            "Pre-Existing Condition"
+          ],
+          "rows": [
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$10,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Consult Fee",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Recurro Health",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Pharmacy Retail Details",
+          "headers": [
+            "Supply Type",
+            "Member Pays",
+            "Generic"
+          ],
+          "rows": [
+            [
+              "Pharmacy Retail - up to a 30 day supply (Acute & Preventive Generic)",
+              "Member Pays",
+              "Generic - $0 Copay"
+            ],
+            [
+              "Pharmacy Retail up to a 30-day supply or Mailorder up to a 90-day supply (200 Generic Maintenance Drugs)",
+              "Member Pays",
+              "Preferred Generic - $5 Copay"
+            ]
+          ]
+        },
+        {
+          "table_title": "Support and Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Kindly Human",
+              "Hearing from and connecting with someone who can relate to what we're facing is a fundamental human need. When we know we're not alone in what we're facing, everyone feels better. Kindly Human is designed to provide easy access to support 24/7 for everyday challenges that we all face."
+            ],
+            [
+              "Advocacy",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "2": {
+      "page_number": "2",
+      "tables": [
+        {
+          "table_title": "Physician Services and Telemedicine Details",
+          "headers": [
+            "Service",
+            "Details",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Wellness Exam",
+              "1 Visit / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Telemedicine",
+              "$0 Consult Fee",
+              "No Maximum",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "Support Services Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Some people need care. Everyone can use support.",
+              "Hearing from and connecting with someone who can relate to what we\u2019re facing is a fundamental human need. When we know we\u2019re not alone in what we\u2019re facing, everyone feels better. Kindly Human is designed to provide easy access to support 24/7 for everyday challenges that we all face."
+            ]
+          ]
+        }
+      ]
+    },
+    "1": {
+      "page_number": "1",
+      "tables": [
+        {
+          "table_title": "GHDP Features and Benefits Comparison",
+          "headers": [
+            "Features/Benefits",
+            "GHW",
+            "GH1",
+            "GH2",
+            "GH3",
+            "GH4",
+            "GH5"
+          ],
+          "rows": [
+            [
+              "Telemedicine",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "BestChoiceRX Group Discount Program",
+              "",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "BestChoiceRX (Accute & Wellness $0 Co-pay Maintenance Generic $5 Co-Pay)",
+              "",
+              "",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "BestChoiceRX Plus - Includes non-preferred Generic & Brand with a co-pay up to a maximum of $150/mo",
+              "",
+              "",
+              "",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Preventative Care",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Annual Wellness Exam",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Specialty Drugs - Prescription Assistance Program",
+              "",
+              "",
+              "",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Healthcare Ninja",
+              "",
+              "",
+              "",
+              "",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Primary Care Physician Visits",
+              "",
+              "3",
+              "4",
+              "4",
+              "4",
+              "5"
+            ],
+            [
+              "Specialist / UC Visit",
+              "",
+              "1",
+              "2",
+              "4",
+              "4",
+              "5"
+            ],
+            [
+              "Hospital Indemnity Benefit",
+              "\u2714",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Emergency Room Services",
+              "",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Ambulance Services",
+              "",
+              "",
+              "\u2714",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "In-Out patient surgery",
+              "",
+              "",
+              "",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ]
+          ]
+        },
+        {
+          "table_title": "Dental Plan Comparison",
+          "headers": [
+            "Dental",
+            "1500 Plan",
+            "3000 Plan",
+            "5000 Plan"
+          ],
+          "rows": [
+            [
+              "Individual & Family Dental Plans",
+              "$1,500 annual max per person",
+              "$3,000 annual max per person",
+              "$5,000 annual max per person"
+            ],
+            [
+              "Dental/Vision Bundle",
+              "Dental + Our Vision is different. Our digital-1st platform easily replaces traditional vision insurance, while keeping costs low and satisfaction high.",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    "8": {
+      "page_number": "8",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services - Covered Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Abdominal Aortic Aneurysm Screening",
+              "1 per lifetime",
+              "By ultrasonography in men ages 65-75 years who have ever smoked."
+            ],
+            [
+              "Adult Annual Standard Physical",
+              "1 per plan year",
+              "Adults, one (1) physical preventive exam per plan year."
+            ],
+            [
+              "Alcohol Misuse: Unhealthy Alcohol Use Screening and Counseling",
+              "1 per plan year",
+              "Screenings for unhealthy alcohol use in adults 18 years or older, including pregnant women, and providing persons engaged in risky or hazardous drinking with brief behavioral counseling interventions to reduce unhealthy alcohol use."
+            ],
+            [
+              "Aspirin: Preventive Medication",
+              "As prescribed",
+              "Adults ages 50 to 59 with high risk of cardiovascular diseases and for the primary prevention of cardiovascular disease and colorectal cancer. Low-dose aspirin (81 mg/d) as preventive medication for women after 12 weeks of gestation who are at high risk for pre-eclampsia."
+            ],
+            [
+              "Bacteriuria Screening",
+              "1 per plan year",
+              "Screening for asymptomatic bacteriuria with urine culture in pregnant women at 12 to 16 weeks\u2019 gestation or at the first prenatal visit, if later."
+            ],
+            [
+              "BRCA Risk Assessment and Genetic Counseling/Testing",
+              "1 per plan year",
+              "Screening to women who have family members with breast, ovarian, tubal, or peritoneal cancer with one of several screening tools designed to identify a family history that may be associated with an increased risk for potentially harmful mutations in breast cancer susceptibility genes (BRCA 1 or BRCA 2). Women with positive screening results should receive genetic counseling and, if indicated after counseling, BRCA testing."
+            ],
+            [
+              "Breast Cancer Preventive Medications",
+              "As prescribed",
+              "Risk-reducing medications, such as tamoxifen, raloxifene, or aromatase inhibitors for women who are at increased risk for breast cancer and at low risk for adverse medication effects."
+            ],
+            [
+              "Breast Cancer Screening",
+              "1 time every 2 plan years",
+              "Screening mammography for women age 50 years and older. Coverage limited to 2D mammograms only."
+            ]
+          ]
+        }
+      ]
+    },
+    "6": {
+      "page_number": "6",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Frequency",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Wellness Exam",
+              "1 Visit / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Primary Care Office Visit",
+              "4 visits / yr",
+              "$50",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "4 visits / yr",
+              "$75",
+              "$300"
+            ]
+          ]
+        },
+        {
+          "table_title": "Hospitalization and Surgery Benefits",
+          "headers": [
+            "Benefit",
+            "Amount",
+            "Maximum",
+            "Pre-Existing Condition"
+          ],
+          "rows": [
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$10,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ],
+            [
+              "In/Outpatient Surgery",
+              "$1,000 / Year",
+              "$2,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ],
+            [
+              "Emergency Room (if admitted)",
+              "$1,000/Per Incident",
+              "",
+              "12/12 mo Pre-Ex"
+            ],
+            [
+              "Ambulance Benefit (if admitted)",
+              "$500/Per Incident",
+              "",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Co-pay",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Telemedicine",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Pharmacy Benefits",
+          "headers": [
+            "Service",
+            "Member Pays",
+            "Generic - $0 Copay"
+          ],
+          "rows": [
+            [
+              "Pharmacy Retail - up to a 30 day supply",
+              "Member Pays",
+              "Generic - $0 Copay"
+            ],
+            [
+              "Pharmacy Retail up to a 30 day supply or Mailorder up to a 90-day supply",
+              "Member Pays",
+              "Preferred Generic - $5 Copay"
+            ],
+            [
+              "Non-Preferred Generic",
+              "Member Pays",
+              "Retail 30-day $5 & $10 Copay, Mail Order 90-day $5 & $20 Copay"
+            ],
+            [
+              "Brand (Prior Authorization Required)",
+              "Member Pays",
+              "Retail 30-day $40, Mail Order 90-day $80"
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Kindly Human",
+              "Hearing from and connecting with someone who can relate to what we\u2019re facing is a fundamental human need. When we know we\u2019re not alone in what we\u2019re facing, everyone feels better. Kindly Human is designed to provide easy access to support 24/7 for everyday challenges that we all face."
+            ],
+            [
+              "MyHealthcare NINJA",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "7": {
+      "page_number": "7",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Frequency",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Wellness Exam",
+              "1 Visit / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Primary Care Office Visit",
+              "5 visits / yr",
+              "$50",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "5 visits / yr",
+              "$75",
+              "$300"
+            ]
+          ]
+        },
+        {
+          "table_title": "Hospitalization and Surgery Benefits",
+          "headers": [
+            "Benefit",
+            "Cost",
+            "Year Maximum",
+            "Pre-Existing Condition"
+          ],
+          "rows": [
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,500 / Day",
+              "$15,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ],
+            [
+              "In/Outpatient Surgery",
+              "$1,500 / Day",
+              "$4,500 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ],
+            [
+              "Emergency Room (if admitted)",
+              "$1,000/Per Incident",
+              "",
+              "12/12 mo Pre-Ex"
+            ],
+            [
+              "Ambulance Benefit (if admitted)",
+              "$500/Per Incident",
+              "",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Consult Fee",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Telemedicine",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Prescription and Pharmacy Benefits",
+          "headers": [
+            "Service",
+            "Member Pays",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Pharmacy Retail - up to a 30 day supply (Acute & Preventive Generic)",
+              "Member Pays",
+              "Generic - $0 Copay"
+            ],
+            [
+              "Pharmacy Retail up to a 30 day supply or Mailorder up to a 90-day supply (200 Generic Maintenance Drugs)",
+              "Member Pays",
+              "Preferred Generic - $5 Copay"
+            ],
+            [
+              "Non-Preferred Generic",
+              "Member Pays",
+              "Retail 30-day $5 & $10 Copay, Mail Order 90-day $5 & $20 Copay"
+            ],
+            [
+              "Brand (Prior Authorization Required)",
+              "Member Pays",
+              "Retail 30-day $40, Mail Order 90-day $80"
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Advocacy",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "5": {
+      "page_number": "5",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "4 visits / yr, Co-pay $25, Maximum/ Visit $150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "4 visits / yr, Co-pay $50, Maximum/ Visit $300"
+            ],
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day, $15,000 / Year Maximum, 12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Telemedicine",
+              "$0 Consult Fee, No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Preventive & Prescriptions Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Pharmacy Retail - up to a 30 day supply (Acute & Preventive Generic)",
+              "Member Pays, Generic - $0 Copay"
+            ],
+            [
+              "Pharmacy Retail up to a 30 day supply or Mailorder up to a 90-day supply. (200 Generic Maintenance Drugs)",
+              "Member Pays, Preferred Generic - $5 Copay"
+            ],
+            [
+              "Non-Preferred Generic",
+              "Member Pays, Retail 30-day $5 & $10 Copay, Mail Order 90-day $5 & $20 Copay"
+            ],
+            [
+              "Brand (Prior Authorization Required)",
+              "Member Pays, Retail 30-day $40, Mail Order 90-day $80"
+            ]
+          ]
+        },
+        {
+          "table_title": "Support and Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Some people need care. Everyone can use support.",
+              "Hearing from and connecting with someone who can relate to what we\u2019re facing is a fundamental human need. When we know we\u2019re not alone in what we\u2019re facing, everyone feels better. Kindly Human is designed to provide easy access to support 24/7 for everyday challenges that we all face."
+            ],
+            [
+              "Advocacy",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "12": {
+      "page_number": "12",
+      "tables": [
+        {
+          "table_title": "Immunizations for Birth Through Six Years Old",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "HepB",
+              "Hepatitis B",
+              "Ages 4 weeks- 2 months\nAges 6 months- 18 months"
+            ],
+            [
+              "DTaP",
+              "Diphtheria, tetanus, and acellular pertussis",
+              "Ages 15 months- 18 months"
+            ],
+            [
+              "Hib",
+              "Haemophilus influenzae type b",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "PCV13",
+              "Pneumococcal 13-valent conjugate",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "IPV",
+              "Inactivated poliovirus",
+              "Ages 6 months-18 months"
+            ],
+            [
+              "Flu",
+              "Influenza (yearly)",
+              "Ages 6 months- 6 years"
+            ],
+            [
+              "MMR",
+              "Measles, mumps, and rubella",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "VAR",
+              "Varicella",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "HepA",
+              "Hepatitis A",
+              "Ages 12 months-23 months (1st dose)"
+            ],
+            [
+              "RV",
+              "Rotavirus",
+              "Ages 2 months- 6 months\n(if recommended)"
+            ]
+          ]
+        },
+        {
+          "table_title": "Immunizations for Children From Seven Through Eighteen Years Old",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "Flu",
+              "Influenza (yearly)",
+              "Ages 7 - 18 years"
+            ],
+            [
+              "Tdap",
+              "Tetanus, diphtheria, and acellular pertussis",
+              "Ages 11- 12 years"
+            ],
+            [
+              "HPV",
+              "Human papillomavirus",
+              "Ages 11- 12 years (2 shots series)\nNote: A 3-shots series of HPV vaccine is needed for those with weakened immune systems and those who start the series at 15 years or older"
+            ],
+            [
+              "MenACWY",
+              "Meningococcal serogroups A,C,W,Y",
+              "Ages 11- 12 years"
+            ],
+            [
+              "MenACWY",
+              "Meningococcal A,C,W,Y Booster",
+              "Age 16 (recommended)"
+            ]
+          ]
+        }
+      ]
+    },
+    "9": {
+      "page_number": "9",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Breastfeeding Support, Supplies and Counseling",
+              "In Conjunction with each birth",
+              "Interventions during pregnancy and after birth to support breastfeeding. Costs for renting breastfeeding equipment will be covered in conjunction with each birth."
+            ],
+            [
+              "Cervical Cancer Screening: with Cytology (Pap Smear)",
+              "1 time every 3 plan years",
+              "Women age 21 to 65 years with cervical cytology alone."
+            ],
+            [
+              "Cervical Cancer Screening: with Combination of Cytology and Human Papilloma Virus (HPV) testing",
+              "1 time every 5 plan years",
+              "Women age 30 to 65 years with high-risk papillomavirus (hrHPV) testing alone, or every 5 years with hrHPV testing in combination with cytology."
+            ],
+            [
+              "Chlamydia Screening",
+              "1 per plan year",
+              "Sexually active women age 24 and younger and in older women who are at increased risk infection."
+            ],
+            [
+              "Colorectal Cancer Screening benefit subject to at home test kit for initial screening. If positive, the plan will provide benefits for a colonoscopy.",
+              "1 time every 5 plan years",
+              "Starting in adults at age 50 years and continuing until age 75 years."
+            ],
+            [
+              "Contraceptive Methods and Counseling",
+              "As prescribed",
+              "Food and Drug Administration (FDA) approved contraceptive methods, sterilization procedures, and patient education and counseling for all women with reproductive capacity; not including abortifacient drugs."
+            ],
+            [
+              "Dental Caries Prevention: Infants and Children Up to Age 5",
+              "1 per plan year",
+              "Application of fluoride varnish to the primary teeth of all infants and children starting at the age of primary tooth eruption and prescription of oral fluoride supplementation starting at age 6 months for children whose water supply is fluoride deficient."
+            ],
+            [
+              "Depression Screening",
+              "1 per plan year",
+              "Screening for major depressive disorder (MDD) in adolescents aged 12 to 18 years. Screening should be implemented with adequate systems in place to ensure accurate diagnosis, effective treatment, and appropriate follow-up. Screening for depression in the general adult population, including pregnant and postpartum women. Screening should be implemented with adequate systems in place to ensure accurate diagnosis, effective treatment, and appropriate follow-up. Pregnant and postpartum persons at increased risk of perinatal depression should be refer to counseling interventions."
+            ],
+            [
+              "Diabetes Screening",
+              "1 per plan year",
+              "Screening for abnormal blood glucose as part of cardiovascular risk assessment in adults aged 40 to 70 years who are overweight or obese. Clinicians should offer or refer patients with abnormal blood glucose to intensive behavioral counseling interventions to promote a healthful diet and physical activity."
+            ],
+            [
+              "Fall Prevention: Older Adults",
+              "1 per plan year",
+              "Exercise interventions for community-dwelling adults age 65 years and older who are at increased risk for falls."
+            ],
+            [
+              "Folic Acid Supplementation",
+              "As prescribed",
+              "Daily supplement containing 0.4 to 0.8 mg (400 to 800\u03bcg) of folic acid for all women planning or capable of pregnancy."
+            ],
+            [
+              "Gestational Diabetes Mellitus Screening",
+              "1 per plan year",
+              "Asymptomatic pregnant women after 24 weeks of gestation."
+            ]
+          ]
+        }
+      ]
+    },
+    "11": {
+      "page_number": "11",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Preeclampsia Screening",
+              "1 per plan year",
+              "Pregnant women with blood pressure measurements throughout pregnancy."
+            ],
+            [
+              "Rh Incompatibility Screening: First Pregnancy Visit",
+              "1 per plan year",
+              "Rh (D) blood typing and antibody testing for all pregnant women during their first visit for pregnancy-related care."
+            ],
+            [
+              "RH Incompatibility Screening: 24\u201328 Weeks\u2019 Gestation",
+              "1 per plan year",
+              "Repeated Rh (D) antibody testing for all unsensitized Rh (D)-negative women at 24 to 28 weeks\u2019 gestation, unless the biological father is known to be Rh (D)-negative."
+            ],
+            [
+              "Sexually Transmitted Infections Counseling",
+              "1 per plan year",
+              "Intensive behavioral counseling for all sexually active adolescents and for adults who are at increased risk for sexually transmitted infections."
+            ],
+            [
+              "Skin Cancer Behavioral Counseling",
+              "1 per plan year",
+              "Counseling young adults, adolescents, children, and parents of young children about minimizing their exposure to ultraviolet radiation for persons aged 6 months to 24 years with fair skin types to reduce their risk for skin cancer."
+            ],
+            [
+              "Statin Preventive Medication",
+              "As prescribed",
+              "Adults without a history of cardiovascular disease (CVD) (i.e., symptomatic coronary artery disease or ischemic stroke) use a low- to moderate-dose statin for the prevention of CVD events and mortality when all of the following criteria are met: 1) they are aged 40 to 75 years; 2) they have 1 or more CVD risk factors (i.e., dyslipidemia, diabetes, hypertension, or smoking); and 3) they have a calculated 10-year risk of a cardiovascular event of 10% or greater. Identification of dyslipidemia and calculation of 10-year CVD event risk requires universal lipid screening in adults ages 40 to 75 years."
+            ],
+            [
+              "Syphilis Screening",
+              "1 per plan year",
+              "Non-pregnant persons who are at increased risk for infection. All pregnant women."
+            ],
+            [
+              "Tobacco Use Counseling and Interventions",
+              "2 per plan year",
+              "Provide behavioral interventions for cessation to all adults who use tobacco, advise them to stop using tobacco, and provide behavioral interventions, U.S. Food and Drug Administration (FDA) approved pharmacotherapy for cessation to adults who use tobacco is covered. Provide behavioral interventions for cessation to pregnant women who use tobacco. Interventions, including education or brief counseling, to prevent initiation of tobacco use in school-aged children and adolescents."
+            ],
+            [
+              "Tuberculosis Screening",
+              "1 per plan year",
+              "Screening for latent tuberculosis infection in populations at risk."
+            ],
+            [
+              "Vision Screening",
+              "1 time every 2 plan years",
+              "All children aged 3 to 5 years to detect amblyopia or its risk factors."
+            ],
+            [
+              "Well-Woman Visits",
+              "1 per plan year",
+              "Women under 65 to obtain the recommended preventive services that are age and developmentally appropriate, including preconception care and many services necessary for prenatal care."
+            ],
+            [
+              "Well-Child Visits",
+              "1 per plan year",
+              "Children to obtain the recommended preventive services that are age and developmentally appropriate. (Covers 1 visit except as more frequently recommended for children under the age of 3 years.)"
+            ]
+          ]
+        }
+      ]
+    },
+    "10": {
+      "page_number": "10",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Gonorrhea Prophylactic Medication",
+              "As prescribed",
+              "Prophylactic ocular topical medication for all newborns for the prevention of gonococcal ophthalmia neonatorum."
+            ],
+            [
+              "Gonorrhea Screening",
+              "1 per plan year",
+              "Sexually active women age 24 years or younger and in older women who are at increased risk for infection."
+            ],
+            [
+              "Healthy Diet and Physical Activity Counseling to Prevent Cardiovascular Disease",
+              "1 per plan year",
+              "Adults who are overweight or obese and have additional cardiovascular disease (CVD) risk factors to intensive behavioral counseling interventions to promote a healthful diet and physical activity for CVD prevention."
+            ],
+            [
+              "Hemoglobinopathies Screening",
+              "1 per plan year",
+              "Screening for sickle cell disease in newborns."
+            ],
+            [
+              "Hepatitis B Screening",
+              "1 per plan year",
+              "Non-pregnant adolescents and adults at high risk for infection."
+            ],
+            [
+              "Hepatitis C Virus (HCV) Infection Screening",
+              "1 per plan year",
+              "Persons at high risk for infection and Adults born between 1945 and 1965."
+            ],
+            [
+              "High Blood Pressure Screening",
+              "1 per plan year",
+              "Screening for high blood pressure in adults aged 18 or older."
+            ],
+            [
+              "HIV Preexposure Prophylaxis for the Prevention of HIV Infection",
+              "As prescribed",
+              "Persons who are at high risk of HIV acquisition."
+            ],
+            [
+              "HIV Screening",
+              "1 per plan year",
+              "Adolescents and adults aged 15 to 65 years. Younger adolescents and older adults who are at increased risk should also be screened. Pregnant women including those who present in labor, who are untested and whose HIV status is unknown."
+            ],
+            [
+              "Hypothyroidism Screening",
+              "1 per plan year",
+              "Screening for congenital hypothyroidism in newborns."
+            ],
+            [
+              "Intimate Partner Violence Screening",
+              "1 per plan year",
+              "Screening for intimate partner violence, in women of reproductive age and provide or refer women who screen positive to ongoing supportive services."
+            ],
+            [
+              "Lung Cancer Screening",
+              "1 per plan year",
+              "With low-dose computed tomography in adults aged 55 to 80 years who have a 30 pack-year smoking history and currently smoke or have quit within the past 15 years. Screening should be discontinued once a person has not smoked for 15 years or develops a health problem that substantially limits life expectancy or the ability or willingness to have curative lung surgery."
+            ],
+            [
+              "Obesity screening and Counseling",
+              "1 per plan year",
+              "To children and adolescents 6 years and older and offer or refer them to comprehensive, intensive behavioral interventions to promote improvements in weight status. Screening all adults. Clinicians should offer or refer patients with a body mass index of 30 kg/m2 or higher to intensive, multicomponent behavioral interventions."
+            ],
+            [
+              "Osteoporosis Screening",
+              "1 per plan year",
+              "In women aged 65 and older and in younger postmenopausal women at increased risk of osteoporosis."
+            ],
+            [
+              "Phenylketonuria Screening",
+              "1 per plan year",
+              "Screening for phenylketonuria in newborns."
+            ]
+          ]
+        }
+      ]
+    },
+    "13": {
+      "page_number": "13",
+      "tables": [
+        {
+          "table_title": "Immunizations for Adults Nineteen Years or Older",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "IIV",
+              "Influenza inactivated",
+              "Ages 19 \u2265 65 years (1 dose annually)"
+            ],
+            [
+              "RIV",
+              "Influenza recombinant",
+              "Ages 19 \u2265 65 years (1 dose annually)"
+            ],
+            [
+              "LAIV",
+              "Influenza live attenuated",
+              "Ages 19 - 49 years (1 dose annually)"
+            ],
+            [
+              "Tdap",
+              "Tetanus, diphtheria, and acellular pertussis",
+              "Ages 19 \u2265 65 years (1 dose Tdap, then TD booster every 10 years)"
+            ],
+            [
+              "MMR",
+              "Measles, mumps, and rubella",
+              "Ages 19 - 60 years - 1 or 2 doses depending on indication (if born in 1957 or later)"
+            ],
+            [
+              "VAR",
+              "Varicella",
+              "Ages 19 - 37 years - 2 doses (if born in 1980 or later)"
+            ],
+            [
+              "RZV",
+              "Zoster recombinant",
+              "Ages 50 \u2265 65 years - 2 doses"
+            ],
+            [
+              "ZVL",
+              "Zoster live",
+              "Ages 60 \u2265 65 years - 1 dose"
+            ],
+            [
+              "HPV - Female",
+              "Human papillomavirus",
+              "Ages 19 - 26 years - 2 or 3 doses depending on age at initial vaccination"
+            ],
+            [
+              "HPV - Male",
+              "Human papillomavirus",
+              "Ages 19 - 21 years - 2 or 3 doses depending on age at initial vaccination"
+            ],
+            [
+              "PCV13",
+              "Pneumococcal 13-valent conjugate",
+              "Ages \u2265 65 years"
+            ],
+            [
+              "PPSV23",
+              "Pneumococcal 23-valent polysaccharide",
+              "Ages \u2265 65 years"
+            ]
+          ]
+        }
+      ]
+    },
+    "15": {
+      "page_number": "15",
+      "tables": [
+        {
+          "table_title": "Dental Plan Options and Annual Maximums",
+          "headers": [
+            "Plan",
+            "Annual Maximum"
+          ],
+          "rows": [
+            [
+              "Dental 1500",
+              "$1,500 annual max per person"
+            ],
+            [
+              "Dental 3000",
+              "$3,000 annual max per person"
+            ],
+            [
+              "Dental 5000",
+              "$5,000 annual max per person"
+            ]
+          ]
+        },
+        {
+          "table_title": "Preventive Care Coverage",
+          "headers": [
+            "Service",
+            "Coverage",
+            "Waiting Period"
+          ],
+          "rows": [
+            [
+              "Routine Exam (2 per 12 months)",
+              "100% Coverage",
+              "No Waiting Period"
+            ],
+            [
+              "Bitewing X-rays (1 per 12 months)",
+              "100% Coverage",
+              "No Waiting Period"
+            ],
+            [
+              "Cleaning (2 per 12 months)",
+              "100% Coverage",
+              "No Waiting Period"
+            ],
+            [
+              "Fluoride for children under age 16 (1 per 12 months)",
+              "100% Coverage",
+              "No Waiting Period"
+            ]
+          ]
+        },
+        {
+          "table_title": "Basic Care Coverage",
+          "headers": [
+            "Service",
+            "Coverage",
+            "Waiting Period"
+          ],
+          "rows": [
+            [
+              "Full Mouth/Panoramic X-rays (1 per 3 years)",
+              "80% Coverage",
+              "No Waiting Period"
+            ],
+            [
+              "Sealants (ages 6 through 16)",
+              "80% Coverage",
+              "No Waiting Period"
+            ],
+            [
+              "Space Maintainers (child under 16)",
+              "80% Coverage",
+              "No Waiting Period"
+            ],
+            [
+              "Restorative Amalgams (fillings)",
+              "80% Coverage",
+              "No Waiting Period"
+            ],
+            [
+              "Simple Extractions",
+              "80% Coverage",
+              "No Waiting Period"
+            ]
+          ]
+        },
+        {
+          "table_title": "Major Care Coverage",
+          "headers": [
+            "Service",
+            "Coverage",
+            "Waiting Period"
+          ],
+          "rows": [
+            [
+              "Onlays",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Oral Surgery",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Crowns (1 per tooth, per 7 years)",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Crown Repair",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Endodontics (nonsurgical)",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Periodontics (nonsurgical)",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Periodontics (surgical)",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Denture Repair",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Dentures (1 appliance per 5 years)",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Bridge (1 per 7 years)",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Complex Extractions",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ],
+            [
+              "Anesthesia",
+              "50% Coverage",
+              "12 Month Waiting Period"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "# Presentation Plan for Good Health Insurance\n\n## Deck ID: FEN_GDH\n## Deck Title: Good Health\n\n### Cover (1 slide)\n- **Plan Name:** Good Health\n- **Tagline:** \"Empowering Your Health Journey with Accessible and Affordable Care\"\n\n### Plan Overview (1 slide)\n- **Target Audience:** Individuals and Families\n- **Offerings:** Healthcare services focusing on wellness, telemedicine, and prescription coverage.\n- **Key Benefits:** Accessibility, affordability, and personal impact through comprehensive support services.\n\n### Core Plan Elements (3 slides)\n- **Coverage Areas:**\n  - Physician services, hospitalization, virtual visits.\n- **Plan Structure:**\n  - Tiered options with varying co-pays and visit limits.\n- **Eligibility:**\n  - Focus on affordability for individuals and families.\n\n### Common Service Features (3 slides)\n- **Provider Networks:**\n  - Extensive networks for in-network services.\n- **Claims Management:**\n  - Efficient processing and support.\n- **Support Tools:**\n  - Dashboards, wellness programs, and advocacy services.\n\n### Plan Tiers Breakdown (12 slides)\n\n#### GHDP-W - Good Health Wellness Plan\n- **Benefits:**\n  - Wellness Exam: 1 visit/year, $25 co-pay, $150 max/visit.\n  - Telemedicine: No consult fee, no maximum.\n  - Discount Prescriptions: Available through BestChoice RX.\n  - Support Services: 24/7 access via Kindly Human.\n\n#### GHDP-1 - Good Health 1 Plan\n- **Benefits:**\n  - Primary Care: 3 visits/year, $25 co-pay, $150 max/visit.\n  - Specialist/Urgent Care: 1 visit/year, $50 co-pay, $300 max/visit.\n  - In-Patient Hospitalization: $1,000/day, $5,000/year max.\n  - Telemedicine: No consult fee, no maximum.\n  - Advocacy: Hospital Bill Reducer.\n\n#### GHDP-2 - Good Health 2 Plan\n- **Benefits:**\n  - Primary Care: 4 visits/year, $25 co-pay, $150 max/visit.\n  - Specialist/Urgent Care: 2 visits/year, $50 co-pay, $300 max/visit.\n  - In-Patient Hospitalization: $1,000/day, $10,000/year max.\n  - Telemedicine: No consult fee, no maximum.\n  - Prescription Terms: Preventive and acute prescriptions with formulary.\n\n#### GHDP-3 - Good Health 3 Plan\n- **Benefits:**\n  - Primary Care: 4 visits/year, $25 co-pay, $150 max/visit.\n  - Specialist/Urgent Care: 4 visits/year, $50 co-pay, $300 max/visit.\n  - In-Patient Hospitalization: $1,000/day, $15,000/year max.\n  - Telemedicine: No consult fee, no maximum.\n  - Prescription Coverage: Includes preventive and acute prescriptions.\n\n#### GHDP-4 - Good Health 4 Plan\n- **Benefits:**\n  - Wellness Exam: 1 visit/year, $25 co-pay, $150 max/visit.\n  - Primary Care: 4 visits/year, $50 co-pay, $150 max/visit.\n  - Specialist/Urgent Care: 4 visits/year, $75 co-pay, $300 max/visit.\n  - In-Patient Hospitalization: $1,000/day, $10,000/year max.\n  - Telemedicine: No consult fee, no maximum.\n\n#### GHDP-5 - Good Health 5 Plan\n- **Benefits:**\n  - Wellness Exam: 1 visit/year, $25 co-pay, $150 max/visit.\n  - Primary Care: 5 visits/year, $50 co-pay, $150 max/visit.\n  - Specialist/Urgent Care: 5 visits/year, $75 co-pay, $300 max/visit.\n  - In-Patient Hospitalization: $1,500/day, $15,000/year max.\n  - Telemedicine: No consult fee, no maximum.\n\n### Comparison Slides (Markdown Table)\n\n```markdown\n| Feature/Benefit                  | GHDP-W | GHDP-1 | GHDP-2 | GHDP-3 | GHDP-4 | GHDP-5 |\n|----------------------------------|--------|--------|--------|--------|--------|--------|\n| Wellness Exam                    | \u2714      | \u2714      | \u2714      | \u2714      | \u2714      | \u2714      |\n| Primary Care Visits              | -      | 3      | 4      | 4      | 4      | 5      |\n| Specialist/Urgent Care Visits    | -      | 1      | 2      | 4      | 4      | 5      |\n| In-Patient Hospitalization       | -      | $5,000 | $10,000| $15,000| $10,000| $15,000|\n| Telemedicine                     | \u2714      | \u2714      | \u2714      | \u2714      | \u2714      | \u2714      |\n| Prescription Coverage            | \u2714      | \u2714      | \u2714      | \u2714      | \u2714      | \u2714      |\n```\n\n### Limitations and Exclusions (2 slides)\n- **Exclusions:**\n  - Pre-existing conditions, waiting periods, prescription limitations.\n- **Specific Limitations:**\n  - 30-day waiting period for sickness benefits, in-network provider requirements.\n\n### Key Takeaways and Action Steps (1 slide)\n- **Flexibility and Balance:**\n  - Plans offer a balance between cost and coverage.\n- **Next Steps:**\n  - Enrollment details and support contact information.\n\n### Thank You (1 slide)\n- **Message:** \"Thank you for considering Good Health. Your journey to better health starts here.\"",
+    "generated_at": "2025-02-27T01:40:26.045635"
+  },
+  "slides": {
+    "content": "---\nid: FEN_GDH\ntheme: ../../\ntitle: | \n  Good Health\ninfo: |\n  ## Good Health Plan Overview\n  A look at the Good Health benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"GDH\" />\n\n# Good Health Plan Overview\n\nUnderstanding the details and benefits of the **Good Health Insurance Plan**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Good Health Plan\n\n<v-click>\n\n- Empowering your health journey with accessible and affordable care through **Good Health**\n\n</v-click>\n\n<v-click>\n\n- **Healthcare services** focusing on wellness, telemedicine, and prescription coverage\n\n</v-click>\n\n<v-click>\n\n- **Accessibility, affordability, and personal impact** through comprehensive support services\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Accessibility**\n\n</v-click>\n\n<v-click>\n\n**Affordability**\n\n</v-click>\n\n<v-click>\n\n**Comprehensive Support Services** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Prescription Coverage** through BestChoice RX\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/FirstHealth_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"First Health Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**Hospital Bill Reducer** (HBR)\n</v-click>\n\n<v-click>\n\n**Efficient Claims Management** System\n</v-click>\n\n<v-click>\n\n**Support Tools** for wellness and advocacy\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How Hospital Bill Reducer Works\n\n<v-click>\n\n1. Enroll through **Good Health**\n</v-click>\n\n<v-click>\n\n2. Submit hospital bills for review\n</v-click>\n\n<v-click>\n\n3. Advocacy team negotiates on your behalf\n</v-click>\n\n<v-click>\n\n4. Receive reduced bill statement **(HBR)**\n</v-click>\n\n<v-click>\n\n5. Pay reduced amount\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Wellness Exam** Services\n</v-click>\n\n<v-click>\n\n- **Preventive Health Programs**\n</v-click>\n\n<v-click>\n\n- **Kindly Human** provides 24/7 support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **No Consult Fee**\n\n</v-click>\n\n<v-click>\n\n- **Unlimited Access**\n\n</v-click>\n\n<v-click>\n\n- **Convenient and Accessible** care\n\n</v-click>\n\n<v-click>\n\n- **24/7 Availability** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Hospital Bill Reducer** assistance\n\n</v-click>\n\n<v-click>\n\n- **Prescription Assistance** options\n\n</v-click>\n\n<v-click>\n\n- **24/7 Support** through Kindly Human\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_gdhp_w_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg\n---\n\n## GHDP-W - Good Health Wellness Plan (1/2)\n\n<v-click>\n\n**Wellness Exam**\n- 1 visit/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n<v-click>\n\n**Discount Prescriptions**\n- Available through BestChoice RX\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_gdhp_w_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg\n---\n\n## GHDP-W - Good Health Wellness Plan (2/2)\n\n<v-click>\n\n**Support Services**\n- 24/7 access via Kindly Human\n</v-click>\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness benefits\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_gdhp_1_plan_details_with_benefits_for_physician_services_telemedicine_and_advocacy.jpg\n---\n\n## GHDP-1 - Good Health 1 Plan (1/2)\n\n<v-click>\n\n**Primary Care**\n- 3 visits/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 1 visit/year\n- $50 co-pay\n- $300 max/visit\n</v-click>\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,000/day\n- $5,000/year max\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_gdhp_1_plan_details_with_benefits_for_physician_services_telemedicine_and_advocacy.jpg\n---\n\n## GHDP-1 - Good Health 1 Plan (2/2)\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n<v-click>\n\n**Advocacy**\n- Hospital Bill Reducer\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/04_gdhp_2_plan_details_with_benefits_for_physician_services_and_prescription_terms.jpg\n---\n\n## GHDP-2 - Good Health 2 Plan (1/2)\n\n<v-click>\n\n**Primary Care**\n- 4 visits/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 2 visits/year\n- $50 co-pay\n- $300 max/visit\n</v-click>\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,000/day\n- $10,000/year max\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/04_gdhp_2_plan_details_with_benefits_for_physician_services_and_prescription_terms.jpg\n---\n\n## GHDP-2 - Good Health 2 Plan (2/2)\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n<v-click>\n\n**Prescription Terms**\n- Preventive and acute prescriptions with formulary\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/05_gdhp_3_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## GHDP-3 - Good Health 3 Plan (1/2)\n\n<v-click>\n\n**Primary Care**\n- 4 visits/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 4 visits/year\n- $50 co-pay\n- $300 max/visit\n</v-click>\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,000/day\n- $15,000/year max\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/05_gdhp_3_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## GHDP-3 - Good Health 3 Plan (2/2)\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n<v-click>\n\n**Prescription Coverage**\n- Includes preventive and acute prescriptions\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/06_gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_care_and_specialist_visits.jpg\n---\n\n## GHDP-4 - Good Health 4 Plan (1/2)\n\n<v-click>\n\n**Wellness Exam**\n- 1 visit/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Primary Care**\n- 4 visits/year\n- $50 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 4 visits/year\n- $75 co-pay\n- $300 max/visit\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/06_gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_care_and_specialist_visits.jpg\n---\n\n## GHDP-4 - Good Health 4 Plan (2/2)\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,000/day\n- $10,000/year max\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/07_gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_care_and_prescription_coverage.jpg\n---\n\n## GHDP-5 - Good Health 5 Plan (1/2)\n\n<v-click>\n\n**Wellness Exam**\n- 1 visit/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Primary Care**\n- 5 visits/year\n- $50 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 5 visits/year\n- $75 co-pay\n- $300 max/visit\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/07_gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_care_and_prescription_coverage.jpg\n---\n\n## GHDP-5 - Good Health 5 Plan (2/2)\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,500/day\n- $15,000/year max\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **GHDP-W** | **GHDP-1** | **GHDP-2** | **GHDP-3** | **GHDP-4** | **GHDP-5** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|\n| Wellness Exam | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 |\n| Primary Care Visits | - | 3 | 4 | 4 | 4 | 5 |\n| Specialist/Urgent Care Visits | - | 1 | 2 | 4 | 4 | 5 |\n| In-Patient Hospitalization | - | $5,000 | $10,000 | $15,000 | $10,000 | $15,000 |\n| Telemedicine | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 |\n| Prescription Coverage | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/19_limitations_and_exclusions_for_goodhealth_insurance_plan.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Coordination of Benefits**\n- Order of benefit payments\n- Rights to information\n- Appeal process\n</v-click>\n\n<v-click>\n\n**Pre-existing Conditions**\n- 12-month exclusion\n</v-click>\n\n<v-click>\n\n**Waiting Periods**\n- 30-day for sickness benefits\n</v-click>\n\n<v-click>\n\n**Network Requirements**\n- In-network provider restrictions\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Comprehensive Coverage** benefits\n</v-click>  \n\n<v-click>\n\n- **Telemedicine and Wellness** included\n</v-click>\n\n<v-click>\n\n- **Advocacy and Support** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Good Health Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/19_limitations_and_exclusions_for_goodhealth_insurance_plan.jpg",
+      "pages/02_gdhp_w_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg",
+      "pages/10_mec_preventive_health_services_summary_of_benefits.jpg",
+      "pages/09_mec_preventive_health_services_summary_of_benefits.jpg",
+      "pages/12_mec_preventive_health_services_summary_of_benefits_immunizations_for_children.jpg",
+      "pages/15_individual_and_family_dental_plans_with_benefits_for_dental_1500_3000_5000.jpg",
+      "pages/04_gdhp_2_plan_details_with_benefits_for_physician_services_and_prescription_terms.jpg",
+      "pages/11_mec_preventive_health_services_summary_of_benefits.jpg",
+      "pages/08_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_requirements.jpg",
+      "pages/20_smarter_vision_care_with_hassle_free_approach_and_eyewear_marketplace.jpg",
+      "pages/17_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "pages/14_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "pages/07_gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_care_and_prescription_coverage.jpg",
+      "pages/16_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "pages/18_limitations_and_exclusions_for_goodhealth_dental_plan.jpg",
+      "pages/05_gdhp_3_plan_details_with_benefits_and_coverage_limits.jpg",
+      "pages/01_gdhp_summary_with_benefits_for_ghw_gh1_gh2_gh3_gh4_gh5.jpg",
+      "pages/06_gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_care_and_specialist_visits.jpg",
+      "pages/13_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "pages/03_gdhp_1_plan_details_with_benefits_for_physician_services_telemedicine_and_advocacy.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Good Health Insurance Plan. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\nUnderstanding the details and benefits of the Good Health Insurance Plan\n\nis about empowering your health journey with accessible and affordable care through Good Health.\n\nThe plan offers healthcare services focusing on wellness, telemedicine, and prescription coverage.\n\nIt emphasizes accessibility, affordability, and personal impact through extensive support services.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nThe plan ensures accessibility to essential health services.\n\nAffordability is a key focus, making healthcare more reachable.\n\nIt offers extensive support services, which vary by plan.\n\nPrescription coverage is provided through BestChoice RX.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nThe Hospital Bill Reducer, or HBR, is a significant tool.\n\nEfficient Claims Management System helps streamline processes.\n\nSupport tools are available for wellness and advocacy.\n\n---- How Hospital Bill Reducer Works ----\n\nHere's how the Hospital Bill Reducer works.\n\nFirst, you enroll through Good Health.\n\nNext, submit hospital bills for review.\n\nThe advocacy team then negotiates on your behalf.\n\nYou will receive a reduced bill statement through HBR.\n\nFinally, pay the reduced amount.\n\n---- Preventive Care and Wellness ----\n\nPreventive care and wellness are integral parts of the plan.\n\nWellness Exam Services are available to members.\n\nPreventive Health Programs are designed to keep you healthy.\n\nKindly Human provides twenty-four seven support for everyday challenges.\n\n---- Telehealth Services ----\n\nTelehealth services offer several advantages.\n\nThere is no consult fee for telehealth services.\n\nMembers have unlimited access to telehealth.\n\nCare is convenient and accessible.\n\nTelehealth services are available twenty-four seven.\n\n---- Advocacy and Support Services ----\n\nAdvocacy and support services are crucial components.\n\nThe plan offers extensive healthcare advocacy.\n\nHospital Bill Reducer assistance is available.\n\nPrescription assistance options are provided.\n\nTwenty-four seven support is available through Kindly Human.\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier, the Good Health Wellness Plan.\n\nThe Wellness Exam includes one visit per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nTelemedicine services have no consult fee and no maximum.\n\nDiscount prescriptions are available through BestChoice RX.\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\nSupport services offer twenty-four seven access via Kindly Human.\n\nThere is a thirty-day waiting period for sickness benefits.\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier, the Good Health 1 Plan.\n\nPrimary Care includes three visits per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes one visit per year with a fifty dollar co-pay and a three hundred dollar maximum per visit.\n\nIn-Patient Hospitalization is covered at one thousand dollars per day with a five thousand dollar yearly maximum.\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\nTelemedicine services have no consult fee and no maximum.\n\nAdvocacy services include the Hospital Bill Reducer.\n\n---- Plan Tier 3 (One of Two) ----\n\nLet's explore the Good Health 2 Plan.\n\nPrimary Care includes four visits per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes two visits per year with a fifty dollar co-pay and a three hundred dollar maximum per visit.\n\nIn-Patient Hospitalization is covered at one thousand dollars per day with a ten thousand dollar yearly maximum.\n\n---- Plan Tier 3 (Two of Two) ----\n\nContinuing with the Good Health 2 Plan.\n\nTelemedicine services have no consult fee and no maximum.\n\nPrescription terms include preventive and acute prescriptions with a formulary.\n\n---- Plan Tier 4 (One of Two) ----\n\nNow, let's examine the Good Health 3 Plan.\n\nPrimary Care includes four visits per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes four visits per year with a fifty dollar co-pay and a three hundred dollar maximum per visit.\n\nIn-Patient Hospitalization is covered at one thousand dollars per day with a fifteen thousand dollar yearly maximum.\n\n---- Plan Tier 4 (Two of Two) ----\n\nContinuing with the Good Health 3 Plan.\n\nTelemedicine services have no consult fee and no maximum.\n\nPrescription coverage includes preventive and acute prescriptions.\n\n---- Plan Tier 5 (One of Two) ----\n\nLet's look at the Good Health 4 Plan.\n\nThe Wellness Exam includes one visit per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nPrimary Care includes four visits per year with a fifty dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes four visits per year with a seventy-five dollar co-pay and a three hundred dollar maximum per visit.\n\n---- Plan Tier 5 (Two of Two) ----\n\nContinuing with the Good Health 4 Plan.\n\nIn-Patient Hospitalization is covered at one thousand dollars per day with a ten thousand dollar yearly maximum.\n\nTelemedicine services have no consult fee and no maximum.\n\n---- Plan Tier 6 (One of Two) ----\n\nFinally, let's explore the Good Health 5 Plan.\n\nThe Wellness Exam includes one visit per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nPrimary Care includes five visits per year with a fifty dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes five visits per year with a seventy-five dollar co-pay and a three hundred dollar maximum per visit.\n\n---- Plan Tier 6 (Two of Two) ----\n\nContinuing with the Good Health 5 Plan.\n\nIn-Patient Hospitalization is covered at one thousand five hundred dollars per day with a fifteen thousand dollar yearly maximum.\n\nTelemedicine services have no consult fee and no maximum.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nThe comparison table highlights key features across all plans, including wellness exams, primary care visits, specialist visits, in-patient hospitalization, telemedicine, and prescription coverage.\n\nEach plan offers unique benefits tailored to different needs.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nCoordination of Benefits outlines the order of benefit payments, rights to information, and the appeal process.\n\nPre-existing conditions have a twelve-month exclusion period.\n\nThere is a thirty-day waiting period for sickness benefits.\n\nNetwork requirements include in-network provider restrictions.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers extensive coverage benefits.\n\nTelemedicine and wellness services are included.\n\nAdvocacy and support benefits are available.\n\nEnrollment is required to access these benefits.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Good Health Plan Overview",
+          "content": "<SlideAudio deckKey=\"GDH\" />\n\n# Good Health Plan Overview\n\nUnderstanding the details and benefits of the **Good Health Insurance Plan**",
+          "frontmatter": "id: FEN_GDH\ntheme: ../../\ntitle: | \n  Good Health\ninfo: |\n  ## Good Health Plan Overview\n  A look at the Good Health benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Good Health Insurance Plan. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Good Health Plan",
+          "content": "## The Good Health Plan\n\n<v-click>\n\n- Empowering your health journey with accessible and affordable care through **Good Health**\n\n</v-click>\n\n<v-click>\n\n- **Healthcare services** focusing on wellness, telemedicine, and prescription coverage\n\n</v-click>\n\n<v-click>\n\n- **Accessibility, affordability, and personal impact** through comprehensive support services\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Plan Overview",
+          "content": "Understanding the details and benefits of the Good Health Insurance Plan\n\nis about empowering your health journey with accessible and affordable care through Good Health.\n\nThe plan offers healthcare services focusing on wellness, telemedicine, and prescription coverage.\n\nIt emphasizes accessibility, affordability, and personal impact through extensive support services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Accessibility**\n\n</v-click>\n\n<v-click>\n\n**Affordability**\n\n</v-click>\n\n<v-click>\n\n**Comprehensive Support Services** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Prescription Coverage** through BestChoice RX\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/FirstHealth_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"First Health Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nThe plan ensures accessibility to essential health services.\n\nAffordability is a key focus, making healthcare more reachable.\n\nIt offers extensive support services, which vary by plan.\n\nPrescription coverage is provided through BestChoice RX."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**Hospital Bill Reducer** (HBR)\n</v-click>\n\n<v-click>\n\n**Efficient Claims Management** System\n</v-click>\n\n<v-click>\n\n**Support Tools** for wellness and advocacy\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nThe Hospital Bill Reducer, or HBR, is a significant tool.\n\nEfficient Claims Management System helps streamline processes.\n\nSupport tools are available for wellness and advocacy."
+        }
+      },
+      {
+        "slide": {
+          "header": "How Hospital Bill Reducer Works",
+          "content": "## How Hospital Bill Reducer Works\n\n<v-click>\n\n1. Enroll through **Good Health**\n</v-click>\n\n<v-click>\n\n2. Submit hospital bills for review\n</v-click>\n\n<v-click>\n\n3. Advocacy team negotiates on your behalf\n</v-click>\n\n<v-click>\n\n4. Receive reduced bill statement **(HBR)**\n</v-click>\n\n<v-click>\n\n5. Pay reduced amount\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How Hospital Bill Reducer Works",
+          "content": "Here's how the Hospital Bill Reducer works.\n\nFirst, you enroll through Good Health.\n\nNext, submit hospital bills for review.\n\nThe advocacy team then negotiates on your behalf.\n\nYou will receive a reduced bill statement through HBR.\n\nFinally, pay the reduced amount."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Wellness Exam** Services\n</v-click>\n\n<v-click>\n\n- **Preventive Health Programs**\n</v-click>\n\n<v-click>\n\n- **Kindly Human** provides 24/7 support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Preventive care and wellness are integral parts of the plan.\n\nWellness Exam Services are available to members.\n\nPreventive Health Programs are designed to keep you healthy.\n\nKindly Human provides twenty-four seven support for everyday challenges."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **No Consult Fee**\n\n</v-click>\n\n<v-click>\n\n- **Unlimited Access**\n\n</v-click>\n\n<v-click>\n\n- **Convenient and Accessible** care\n\n</v-click>\n\n<v-click>\n\n- **24/7 Availability** to care\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Telehealth services offer several advantages.\n\nThere is no consult fee for telehealth services.\n\nMembers have unlimited access to telehealth.\n\nCare is convenient and accessible.\n\nTelehealth services are available twenty-four seven."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Hospital Bill Reducer** assistance\n\n</v-click>\n\n<v-click>\n\n- **Prescription Assistance** options\n\n</v-click>\n\n<v-click>\n\n- **24/7 Support** through Kindly Human\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Advocacy and support services are crucial components.\n\nThe plan offers extensive healthcare advocacy.\n\nHospital Bill Reducer assistance is available.\n\nPrescription assistance options are provided.\n\nTwenty-four seven support is available through Kindly Human."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-W - Good Health Wellness Plan (1/2)",
+          "content": "## GHDP-W - Good Health Wellness Plan (1/2)\n\n<v-click>\n\n**Wellness Exam**\n- 1 visit/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n<v-click>\n\n**Discount Prescriptions**\n- Available through BestChoice RX\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_gdhp_w_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "Let's examine our first plan tier, the Good Health Wellness Plan.\n\nThe Wellness Exam includes one visit per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nTelemedicine services have no consult fee and no maximum.\n\nDiscount prescriptions are available through BestChoice RX."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-W - Good Health Wellness Plan (2/2)",
+          "content": "## GHDP-W - Good Health Wellness Plan (2/2)\n\n<v-click>\n\n**Support Services**\n- 24/7 access via Kindly Human\n</v-click>\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness benefits\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_gdhp_w_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "Continuing with our first plan tier.\n\nSupport services offer twenty-four seven access via Kindly Human.\n\nThere is a thirty-day waiting period for sickness benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-1 - Good Health 1 Plan (1/2)",
+          "content": "## GHDP-1 - Good Health 1 Plan (1/2)\n\n<v-click>\n\n**Primary Care**\n- 3 visits/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 1 visit/year\n- $50 co-pay\n- $300 max/visit\n</v-click>\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,000/day\n- $5,000/year max\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_gdhp_1_plan_details_with_benefits_for_physician_services_telemedicine_and_advocacy.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier, the Good Health 1 Plan.\n\nPrimary Care includes three visits per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes one visit per year with a fifty dollar co-pay and a three hundred dollar maximum per visit.\n\nIn-Patient Hospitalization is covered at one thousand dollars per day with a five thousand dollar yearly maximum."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-1 - Good Health 1 Plan (2/2)",
+          "content": "## GHDP-1 - Good Health 1 Plan (2/2)\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n<v-click>\n\n**Advocacy**\n- Hospital Bill Reducer\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_gdhp_1_plan_details_with_benefits_for_physician_services_telemedicine_and_advocacy.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Continuing with our second plan tier.\n\nTelemedicine services have no consult fee and no maximum.\n\nAdvocacy services include the Hospital Bill Reducer."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-2 - Good Health 2 Plan (1/2)",
+          "content": "## GHDP-2 - Good Health 2 Plan (1/2)\n\n<v-click>\n\n**Primary Care**\n- 4 visits/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 2 visits/year\n- $50 co-pay\n- $300 max/visit\n</v-click>\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,000/day\n- $10,000/year max\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/04_gdhp_2_plan_details_with_benefits_for_physician_services_and_prescription_terms.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (One of Two)",
+          "content": "Let's explore the Good Health 2 Plan.\n\nPrimary Care includes four visits per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes two visits per year with a fifty dollar co-pay and a three hundred dollar maximum per visit.\n\nIn-Patient Hospitalization is covered at one thousand dollars per day with a ten thousand dollar yearly maximum."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-2 - Good Health 2 Plan (2/2)",
+          "content": "## GHDP-2 - Good Health 2 Plan (2/2)\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n<v-click>\n\n**Prescription Terms**\n- Preventive and acute prescriptions with formulary\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/04_gdhp_2_plan_details_with_benefits_for_physician_services_and_prescription_terms.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (Two of Two)",
+          "content": "Continuing with the Good Health 2 Plan.\n\nTelemedicine services have no consult fee and no maximum.\n\nPrescription terms include preventive and acute prescriptions with a formulary."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-3 - Good Health 3 Plan (1/2)",
+          "content": "## GHDP-3 - Good Health 3 Plan (1/2)\n\n<v-click>\n\n**Primary Care**\n- 4 visits/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 4 visits/year\n- $50 co-pay\n- $300 max/visit\n</v-click>\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,000/day\n- $15,000/year max\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/05_gdhp_3_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 4 (One of Two)",
+          "content": "Now, let's examine the Good Health 3 Plan.\n\nPrimary Care includes four visits per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes four visits per year with a fifty dollar co-pay and a three hundred dollar maximum per visit.\n\nIn-Patient Hospitalization is covered at one thousand dollars per day with a fifteen thousand dollar yearly maximum."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-3 - Good Health 3 Plan (2/2)",
+          "content": "## GHDP-3 - Good Health 3 Plan (2/2)\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>\n\n<v-click>\n\n**Prescription Coverage**\n- Includes preventive and acute prescriptions\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/05_gdhp_3_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 4 (Two of Two)",
+          "content": "Continuing with the Good Health 3 Plan.\n\nTelemedicine services have no consult fee and no maximum.\n\nPrescription coverage includes preventive and acute prescriptions."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-4 - Good Health 4 Plan (1/2)",
+          "content": "## GHDP-4 - Good Health 4 Plan (1/2)\n\n<v-click>\n\n**Wellness Exam**\n- 1 visit/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Primary Care**\n- 4 visits/year\n- $50 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 4 visits/year\n- $75 co-pay\n- $300 max/visit\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/06_gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_care_and_specialist_visits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 5 (One of Two)",
+          "content": "Let's look at the Good Health 4 Plan.\n\nThe Wellness Exam includes one visit per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nPrimary Care includes four visits per year with a fifty dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes four visits per year with a seventy-five dollar co-pay and a three hundred dollar maximum per visit."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-4 - Good Health 4 Plan (2/2)",
+          "content": "## GHDP-4 - Good Health 4 Plan (2/2)\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,000/day\n- $10,000/year max\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/06_gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_care_and_specialist_visits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 5 (Two of Two)",
+          "content": "Continuing with the Good Health 4 Plan.\n\nIn-Patient Hospitalization is covered at one thousand dollars per day with a ten thousand dollar yearly maximum.\n\nTelemedicine services have no consult fee and no maximum."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-5 - Good Health 5 Plan (1/2)",
+          "content": "## GHDP-5 - Good Health 5 Plan (1/2)\n\n<v-click>\n\n**Wellness Exam**\n- 1 visit/year\n- $25 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Primary Care**\n- 5 visits/year\n- $50 co-pay\n- $150 max/visit\n</v-click>\n\n<v-click>\n\n**Specialist/Urgent Care**\n- 5 visits/year\n- $75 co-pay\n- $300 max/visit\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/07_gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_care_and_prescription_coverage.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 6 (One of Two)",
+          "content": "Finally, let's explore the Good Health 5 Plan.\n\nThe Wellness Exam includes one visit per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nPrimary Care includes five visits per year with a fifty dollar co-pay and a one hundred fifty dollar maximum per visit.\n\nSpecialist or Urgent Care includes five visits per year with a seventy-five dollar co-pay and a three hundred dollar maximum per visit."
+        }
+      },
+      {
+        "slide": {
+          "header": "GHDP-5 - Good Health 5 Plan (2/2)",
+          "content": "## GHDP-5 - Good Health 5 Plan (2/2)\n\n<v-click>\n\n**In-Patient Hospitalization**\n- $1,500/day\n- $15,000/year max\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee\n- No maximum\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/07_gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_care_and_prescription_coverage.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 6 (Two of Two)",
+          "content": "Continuing with the Good Health 5 Plan.\n\nIn-Patient Hospitalization is covered at one thousand five hundred dollars per day with a fifteen thousand dollar yearly maximum.\n\nTelemedicine services have no consult fee and no maximum."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **GHDP-W** | **GHDP-1** | **GHDP-2** | **GHDP-3** | **GHDP-4** | **GHDP-5** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|\n| Wellness Exam | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 |\n| Primary Care Visits | - | 3 | 4 | 4 | 4 | 5 |\n| Specialist/Urgent Care Visits | - | 1 | 2 | 4 | 4 | 5 |\n| In-Patient Hospitalization | - | $5,000 | $10,000 | $15,000 | $10,000 | $15,000 |\n| Telemedicine | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 |\n| Prescription Coverage | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 | \u2714 |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nThe comparison table highlights key features across all plans, including wellness exams, primary care visits, specialist visits, in-patient hospitalization, telemedicine, and prescription coverage.\n\nEach plan offers unique benefits tailored to different needs."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Coordination of Benefits**\n- Order of benefit payments\n- Rights to information\n- Appeal process\n</v-click>\n\n<v-click>\n\n**Pre-existing Conditions**\n- 12-month exclusion\n</v-click>\n\n<v-click>\n\n**Waiting Periods**\n- 30-day for sickness benefits\n</v-click>\n\n<v-click>\n\n**Network Requirements**\n- In-network provider restrictions\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/19_limitations_and_exclusions_for_goodhealth_insurance_plan.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nCoordination of Benefits outlines the order of benefit payments, rights to information, and the appeal process.\n\nPre-existing conditions have a twelve-month exclusion period.\n\nThere is a thirty-day waiting period for sickness benefits.\n\nNetwork requirements include in-network provider restrictions."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Comprehensive Coverage** benefits\n</v-click>  \n\n<v-click>\n\n- **Telemedicine and Wellness** included\n</v-click>\n\n<v-click>\n\n- **Advocacy and Support** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers extensive coverage benefits.\n\nTelemedicine and wellness services are included.\n\nAdvocacy and support benefits are available.\n\nEnrollment is required to access these benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Good Health Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 24
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 24,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

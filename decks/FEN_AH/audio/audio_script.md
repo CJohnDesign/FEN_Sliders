@@ -1,289 +1,207 @@
 ---- Cover ----
 
-Welcome to our Advanced Wellness Plus Review. Today, we'll explore the details and benefits of the Advanced Wellness Plus Insurance Plan, helping you understand how this coverage can support your member’s healthcare needs.
+Hello, everyone! Thank you for joining today's session on the Access Health Limited Duration Group Short Term Medical Insurance. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!
 
 ---- Plan Overview ----
 
-Let's begin with an overview of the Advanced Wellness Plus plan.
+The Access Health Plan
 
-This is a Limited Benefit Health plan offered through American Financial Security Life Insurance Company. 
+offers short-term coverage lasting up to thirty-six months through American Financial Security Life Insurance Company.
 
-The plan provides indemnity health for all plans 
+It provides flexible deductible options for various situations,
 
-critical illness for two hundred plus and above
+and includes a coinsurance structure with support tools.
 
-Along with a accidental death benefit for plans one hundred and above 
+Network access is available through PHCS,
 
-and works as a supplement to major medical plans 
-
-with capped benefits for healthcare services.
+and there is a pre-existing condition waiver to support eligible members.
 
 ---- Key Features and Benefits ----
 
-The plan includes several key features. 
+Let's explore the key features and benefits of this plan.
 
-Members will receive medical benefits, coverage for hospital confinement, 
+The duration of the plan offers short-term coverage lasting up to thirty-six months.
 
-and office visits. There's also emergency room coverage and additional benefits like 
+Deductible options are flexible, ranging from five hundred dollars to ten thousand dollars.
 
-accidental death coverage. 
+The coinsurance structure is eighty/twenty with maximum out-of-pocket limits of two thousand dollars or four thousand dollars.
 
-The plan also includes Critical Illness coverage through various tiers.
+Network access is provided through the PHCS network with negotiated provider rates.
 
----- Eligibility Requirements ----
+---- Cost Management Tools ----
 
-Let's review who can enroll in this plan. 
+Now, let's discuss the cost management tools available with this plan.
 
-Coverage is available to adult members aged eighteen to sixty-five, 
+The pre-existing condition waiver, or PCW, is a key tool.
 
-and dependent children aged one to twenty-five.
+There is a flexible deductible system in place.
 
----- Common Service Features ----
+Coinsurance support options are also available.
 
-The plan includes 
+---- How Pre-existing Condition Waiver Works ----
 
-valuable cost-saving features through the GapAfford Plus Program and 
+Let me explain how the Pre-existing Condition Waiver works.
 
-access to Aetna Dental Access network. 
+First, you'll need to enroll through American Financial Security Life Insurance Company.
 
-You'll benefit from prescription discount programs and 
+Next, you'll choose your deductible and coinsurance options based on your needs and budget.
 
-optical savings through the OUTLOOK Vision Network.
+If you're eligible, you can apply for the waiver rider to cover pre-existing conditions.
 
-Claims processing is straightforward through easy submission, 
+Once approved, you'll receive your Certificate of Insurance, or COI, which documents your coverage.
 
-and you'll have access to support services, including a twenty-four-seven health line.
+Finally, you can enjoy your coverage with all the selected benefits and the peace of mind that comes with having your pre-existing conditions covered.
 
----- Plan 100A ----
+---- Preventive Care and Wellness ----
 
-Let's review Plan 100A. 
+Preventive care and wellness are important aspects of this plan.
 
-This plan provides a hospital confinement benefit of one hundred dollars per day for up to thirty days. 
+Wellness services are included to support overall health.
 
-For doctor visits, you'll receive fifty dollars per day for up to three days for both primary care and specialty care visits.
+Preventive programs are available to help maintain well-being.
 
----- Plan 100 ----
+The PHCS network provides extensive coverage for these services.
 
-Moving to Plan 100, 
+---- Telehealth Services ----
 
-you'll find similar hospital confinement benefits of one hundred dollars per day for up to thirty days. 
+Telehealth services offer convenient access to care.
 
-Doctor visits remain at fifty dollars per day for up to three days for both primary and specialty care. 
+Members have twenty-four/seven access to care.
 
-This plan adds an emergency room benefit of fifty dollars for one visit and 
+Licensed physicians are available for consultations.
 
-includes a ten thousand dollar accidental death benefit.
+Non-emergency medical services can be accessed easily.
 
----- Plan 200 (1/2) ----
+This ensures convenient access to care whenever needed.
 
-The Plan 200 
+---- Advocacy and Support Services ----
 
-increases the hospital confinement benefit to two hundred dollars per day for up to thirty days. 
+Advocacy and support services are available to assist members.
 
-Doctor visits increase to five days coverage at fifty dollars per day for both primary and specialty care. 
+Healthcare advocacy is provided to help navigate the system.
 
-The emergency room benefit provides fifty dollars for one day.
+Assistance with claims is available to ensure smooth processing.
 
----- Plan 200 (2/2) ----
+Options for care are presented to members.
 
-Continuing with Plan 200, 
+Support is offered to help members make informed decisions.
 
-it includes basic pathology and radiology benefits of fifty dollars for one day, 
+---- Plan Tier 1 (One of Two) ----
 
-as well as advanced studies benefits at the same rate. 
+Let's examine our first plan tier.
 
-The plan includes a ten thousand dollar accidental death benefit.
+Deductible options range from five hundred dollars to ten thousand dollars.
 
----- Plan 200+ (1/2) ----
+Coinsurance options are set at eighty/twenty.
 
-Plan 200+ maintains the 
+The coinsurance limit is two thousand dollars or four thousand dollars.
 
-two hundred dollar per day hospital confinement benefit for up to thirty days.
+For physician office visits, the copay is twenty-five dollars with a maximum of two visits. After the copayment, additional services are subject to deductible and coinsurance, with a combined maximum benefit of two thousand dollars per coverage period.
 
-Doctor visits provide five days of coverage at fifty dollars per day for both primary and specialty care. 
+There is no additional deductible for urgent care visits.
 
-The emergency room benefit increases to three days of coverage at fifty dollars per day.
+---- Plan Tier 1 (Two of Two) ----
 
----- Plan 200+ (2/2) ----
+Continuing with our first plan tier.
 
-The second part of Plan 200+ 
+Coverage period maximum options are two hundred fifty thousand dollars, five hundred thousand dollars, or one million dollars.
 
-includes pathology, radiology, and advanced studies benefits at fifty dollars per day for three days each. 
+Doctor office consultation copays are as follows: twenty-five dollars for physician office or urgent care, maximum two visits; forty dollars for specialists, maximum two visits; and fifty dollars for wellness, maximum one visit.
 
-It adds surgery benefits of four hundred dollars per day for up to three days 
+For hospital and surgical benefits, there are specific limits for different services. Hospital services include inpatient room limited to one thousand five hundred dollars per day, intensive care limited to two thousand dollars per day, doctor visits at fifty dollars per day limited to five hundred dollars per coverage period, and outpatient surgery limited to one thousand five hundred dollars per day. Surgical services include surgeon benefits at five thousand dollars per surgery not to exceed ten thousand dollars per coverage period, assistant surgeon at one thousand dollars per surgery not to exceed two thousand dollars per coverage period, and anesthetics at one thousand dollars per surgery not to exceed two thousand dollars per coverage period.
 
-with twenty percent anesthesia coverage. 
+For emergency services, emergency room treatment is not to exceed two hundred fifty dollars per visit, with no additional deductible.
 
-The plan includes both accidental death coverage of ten thousand dollars 
+---- Plan Tier 2 (One of Two) ----
 
-and a critical illness benefit of one thousand dollars.
+Now, let's look at our second plan tier.
 
----- Plan 300 (1/3) ----
+Deductible options are the same, ranging from five hundred dollars to ten thousand dollars.
 
-Plan 300 
+Coinsurance options remain at eighty/twenty.
 
-increases hospital confinement to three hundred dollars per day for up to thirty days. 
+The coinsurance limit is also two thousand dollars or four thousand dollars.
 
-It maintains five-day coverage for doctor visits at fifty dollars per day and 
+For physician office visits, the copay is fifteen dollars with unlimited visits. After the copayment, other covered services are subject to plan deductible and coinsurance.
 
-includes emergency room coverage of fifty dollars for one day.
+There is a one hundred dollar additional deductible for urgent care, maximum one per coverage period.
 
----- Plan 300 (2/3) ----
+---- Plan Tier 2 (Two of Two) ----
 
-The second part of Plan 300 
+Continuing with our second plan tier.
 
-includes surgery benefits of four hundred dollars per day for three days 
+Coverage period maximum options are the same as Plan 1.
 
-with twenty percent anesthesia coverage. 
+Doctor office consultation copays are fifteen dollars for physician office or urgent care, unlimited visits; twenty-five dollars for specialists, unlimited visits; and fifty dollars for wellness, maximum one visit.
 
-Mental health benefits include inpatient coverage at one hundred fifty dollars per day for sixty days and 
+For hospital and surgical benefits, all services are subject to deductible and coinsurance.
 
-outpatient coverage at fifty dollars per day for twenty days.
+For emergency services, emergency room treatment is subject to a two hundred fifty dollar additional deductible, then deductible and coinsurance. This additional deductible is waived if admitted within twenty-four hours.
 
----- Plan 300 (3/3) ----
+---- Plan Tier 3 (One of Two) ----
 
-Completing Plan 300, 
+Let's move on to our third plan tier.
 
-it provides supplemental accident inpatient admission coverage of five hundred dollars for one day 
+Deductible options remain consistent, ranging from five hundred dollars to ten thousand dollars.
 
-and emergency room coverage of two hundred fifty dollars for one day. 
+Coinsurance options are still eighty/twenty.
 
-The plan includes both a ten thousand dollar accidental death benefit 
+The coinsurance limit is two thousand dollars or four thousand dollars.
 
-and a one thousand dollar critical illness benefit.
+For physician office visits, the copay is twenty-five dollars with a maximum of two visits. After the copayment, other covered services are subject to plan deductible and coinsurance.
 
----- Plan 500 (1/3) ----
+There is no additional deductible for urgent care visits.
 
-Plan 500 
+---- Plan Tier 3 (Two of Two) ----
 
-increases the hospital confinement benefit to five hundred dollars per day for up to thirty days. 
+Continuing with our third plan tier.
 
-Doctor visits remain at fifty dollars per day for up to five days for both primary and specialty care. 
+Coverage period maximum options are the same as the previous plans.
 
-The emergency room benefit provides fifty dollars for one day. 
+Doctor office consultation copays are twenty-five dollars for physician office or urgent care, maximum two visits; forty dollars for specialists, maximum two visits; and fifty dollars for wellness, maximum one visit.
 
-Basic pathology, radiology, and advanced studies benefits are fifty dollars per day for up to two days each.
+For hospital and surgical benefits, all services are subject to deductible and coinsurance.
 
----- Plan 500 (2/3) ----
+For emergency services, emergency room treatment is subject to deductible and coinsurance, with no additional deductible.
 
-The second part of Plan 500 
+---- Comparing Plan Tiers ----
 
-includes surgery benefits of seven hundred fifty dollars per day for up to three days 
+Let's compare the different tiers available. All plans offer the same deductible options, ranging from five hundred dollars to ten thousand dollars. Coinsurance options are consistent at eighty/twenty across all plans. The coinsurance limit is two thousand dollars or four thousand dollars for each plan. Coverage period maximum options are two hundred fifty thousand dollars, five hundred thousand dollars, or one million dollars for all plans. Copays for physician office or urgent care visits vary slightly between plans.
 
-with twenty percent anesthesia coverage. 
+---- Other Covered Expenses ----
 
-Mental health benefits include inpatient coverage at two hundred fifty dollars per day for sixty days 
+Let's review other covered expenses that apply to all plans.
 
-and outpatient coverage at fifty dollars per day for twenty days.
+For transplants, extended care, and hospice, all plans cover organ, tissue, and bone marrow transplants up to fifty thousand dollars per coverage period. Extended care facility benefits are up to one hundred dollars per day for thirty days per coverage period. Hospice care is covered up to five thousand dollars per coverage period.
 
----- Plan 500 (3/3) ----
+For specific conditions, all plans cover AIDS up to ten thousand dollars per coverage period. Joint and tendon surgery, knee injury or disorder, and gallbladder surgery are all covered up to three thousand dollars per coverage period.
 
-Completing Plan 500, 
+For additional services, home health care is covered up to thirty dollars per day for a maximum of thirty days per coverage period. Therapy services are covered up to thirty dollars per day for a maximum of fifteen days per coverage period. Ambulance services are covered up to five hundred dollars per trip for ground transportation and up to one thousand dollars per trip for air ambulance.
 
-it provides supplemental accident inpatient admission coverage of five hundred dollars for one day 
+---- Definitions and Limitations ----
 
-and emergency room coverage of two hundred fifty dollars for one day. 
+Let's review important definitions and limitations.
 
-The plan includes both a ten thousand dollar accidental death benefit 
+Pre-existing conditions are defined as any medical advice, diagnosis, care, or treatment received within thirty-six months prior to the effective date.
 
-and a one thousand dollar critical illness benefit.
+Excluded services include cosmetic surgery, infertility treatments, and experimental procedures.
 
----- Plan 750 (1/3) ----
+Coverage caps include a three thousand dollar maximum benefit for joint surgery, a two thousand five hundred dollar maximum benefit for gallbladder surgery, and a five thousand dollar maximum benefit for back surgery.
 
-Plan 750 increases 
+Waiting periods are five days for general illness and thirty days for cancer coverage.
 
-the hospital confinement benefit to seven hundred fifty dollars per day for up to thirty days. 
+---- Key Takeaways and Reminders ----
 
-Doctor visits remain at fifty dollars per day for up to five days for both primary and specialty care. 
+Here are the key points to remember.
 
-The emergency room benefit increases to seventy-five dollars for one day.
+Flexible deductible options are available to suit different needs.
 
----- Plan 750 (2/3) ----
+The coinsurance structure is included to manage costs.
 
-The second part of Plan 750 
+Network access provides extensive coverage through PHCS.
 
-includes basic pathology and radiology benefits of fifty dollars per day for up to two days, 
-
-as well as advanced studies benefits at the same rate. 
-
-Surgery benefits increase to one thousand dollars per day for up to three days 
-
-with twenty percent anesthesia coverage.
-
----- Plan 750 (3/3) ----
-
-For Plan 750's final section, 
-
-mental health inpatient benefits increase to three hundred seventy-five dollars per day for sixty days, 
-
-with outpatient coverage at fifty dollars per day for twenty days. 
-
-Supplemental accident inpatient admission provides five hundred dollars for up to two days, and 
-
-emergency room coverage is two hundred fifty dollars for one day. 
-
-The plan maintains the ten thousand dollar accidental death benefit 
-
-and one thousand dollar critical illness benefit.
-
----- Plan 1000 (1/3) ----
-
-Plan 1000, our option with the most coverage, 
-
-provides a hospital confinement benefit of one thousand dollars per day for up to thirty days. 
-
-Doctor visits increase to seventy-five dollars per day for up to five days for both primary and specialty care. 
-
-The emergency room benefit provides one hundred dollars per day for up to three days.
-
----- Plan 1000 (2/3) ----
-
-The second part of Plan 1000 includes enhanced pathology, radiology, 
-
-and advanced studies benefits at seventy-five dollars per day for up to three days each. 
-
-Surgery benefits increase to fifteen hundred dollars per day for up to three days 
-
-with twenty percent anesthesia coverage. 
-
-Mental health inpatient benefits provide five hundred dollars per day for up to sixty days.
-
----- Plan 1000 (3/3) ----
-
-Completing Plan 1000, 
-
-mental health outpatient benefits remain at fifty dollars per day for up to twenty days. 
-
-Supplemental accident inpatient admission coverage increases to five hundred dollars for up to three days, 
-
-while emergency room coverage provides two hundred fifty dollars for one day. 
-
-The plan maintains both the ten thousand dollar accidental death benefit and 
-
-the one thousand dollar critical illness benefit.
-
----- Limitations and Definitions ----
-
-Let's review some important exclusions and limitations. 
-
-The plan does not cover non-medically necessary treatments, dental procedures not due to injury, or cosmetic and experimental treatments. 
-
-There are specific exclusions for injuries from war, self-harm, or illegal activities. Important timing restrictions include a thirty-day waiting period for sickness and a twelve-month pre-existing condition exclusion. 
-
-Make sure to carefully review all limitations.
-
----- Key Takeaways ----
-
-To summarize, 
-
-the Advanced Wellness Plus plan offers broad healthcare benefits 
-
-as an affordable, supplemental coverage option. 
-
-We encourage you to review these benefits with your members to ensure you understand all aspects of the coverage.
+A pre-existing condition waiver is required for eligible members.
 
 ---- Closing ----
 
-Thank you for participating in the Advanced Wellness Plus Review. Continue to be great!
-
-
+Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!

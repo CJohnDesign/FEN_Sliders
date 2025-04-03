@@ -66,6 +66,19 @@ async function parseMdFile(filePath) {
   return sections;
 }
 
+// Add filename validation
+const validateFilename = (deckKey, slideNumber, clickNumber) => {
+  if (!deckKey.match(/^FEN_[A-Z]{2,4}$/)) {
+    throw new Error(`Invalid deckKey format: ${deckKey}`);
+  }
+  
+  const cleanClick = String(clickNumber)
+    .replace(/[^0-9_]/g, '')
+    .replace(/_{2,}/g, '_');
+    
+  return `${deckKey}${slideNumber}_${cleanClick}.mp3`;
+};
+
 async function generateAudio(deckKey, specificSlide = null, specificClick = null) {
   try {
     const baseUrl = 'https://api.openai.com/v1/audio/speech';
@@ -120,13 +133,14 @@ async function generateAudio(deckKey, specificSlide = null, specificClick = null
 
       const audioBuffer = Buffer.from(await response.arrayBuffer());
       
-      const outputFileName = `${deckKey}${section.slideNumber}_${section.clickNumber}`;
+      // Modify the output filename generation
+      const outputFileName = validateFilename(deckKey, section.slideNumber, section.clickNumber);
       await fs.writeFile(
-        path.join(outputDir, `${outputFileName}.mp3`),
+        path.join(outputDir, outputFileName),
         audioBuffer
       );
 
-      console.log(`Generated audio file: ${outputFileName}.mp3 for section: ${section.title}`);
+      console.log(`Generated audio file: ${outputFileName} for section: ${section.title}`);
     }
 
     console.log('Audio generation completed successfully!');

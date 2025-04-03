@@ -1,0 +1,707 @@
+{
+  "deck_id": "FEN_BCR",
+  "deck_title": "Basic Core",
+  "deck_info": {
+    "deck_id": "FEN_BCR",
+    "deck_title": "Basic Core"
+  },
+  "initial_deck": {
+    "slides": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "scripts": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "instructions": "# Instructions\n\n## Plan Tiers Overview\n\n- Basic Core\n- Basic Core-Plus\n\n**Always include all plans in the summary.**\n"
+  },
+  "pdf_files": [
+    "BasicCore_brochure2.pdf"
+  ],
+  "processed_images": {
+    "2": {
+      "page_number": 2,
+      "original_name": "BasicCore_brochure2_page_002.jpg",
+      "original_path": "img/pages/BasicCore_brochure2_page_002.jpg",
+      "new_name": "02_medical_bill_repricer_managed_care_solution_with_reference_based_pricing_and_advocacy_service.jpg",
+      "new_path": "img/pages/02_medical_bill_repricer_managed_care_solution_with_reference_based_pricing_and_advocacy_service.jpg",
+      "page_title": "medical_bill_repricer_managed_care_solution_with_reference_based_pricing_and_advocacy_service",
+      "summary": "The Medical Bill Repricer is a key feature in the Managed Care Benefit Package, designed to simplify the healthcare billing process. It addresses the complexity of medical bills, which often include various charges such as hospital room fees, surgical fees, and specialist fees. The Repricer uses 'Reference Based Pricing' to manage costs, allowing providers to be paid between 150% to 200% of Medicare Allowable Rates. This method is widely accepted by doctors and medical facilities, helping to lower the cost of provider fees compared to traditional PPO networks.\n\nMembers can benefit from a $25 pre-pay for doctor office visits or a $50 pre-pay for specialist visits, without the need to use a network doctor. The service includes assistance in locating providers and setting appointments. The Repricer also offers an Advocacy Service, which helps members understand their benefits and negotiate with providers to reduce any remaining balances after insurance payments. This service ensures that members are not limited to network providers and can choose their own doctors.\n\nThe plan includes detailed instructions on how to use the Pre-Pay Doctor Visit benefit, emphasizing the role of the Medical Bill Repricer in explaining benefits, assisting with claims, and providing necessary support to minimize member responsibilities.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "BasicCore_brochure2",
+      "global_page_num": 2
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "BasicCore_brochure2_page_003.jpg",
+      "original_path": "img/pages/BasicCore_brochure2_page_003.jpg",
+      "new_name": "03_pharmacy_plan_free_prescription_club_with_telemedicine_virtual_doctor_visits.jpg",
+      "new_path": "img/pages/03_pharmacy_plan_free_prescription_club_with_telemedicine_virtual_doctor_visits.jpg",
+      "page_title": "pharmacy_plan_free_prescription_club_with_telemedicine_virtual_doctor_visits",
+      "summary": "The Pharmacy Plan offers a range of benefits under the Free Prescription Club, focusing on providing free acute and chronic medications, diabetic supplies, and pharmacy coaching. Members can access short-term immediate need medications from local pharmacies and receive maintenance medications on a regular basis. Diabetic supplies, including starter kits with meters and testing strips, are also provided at no cost. The plan includes a Patient Assistance Program for brand name and specialty medications to make them more affordable. Members have 24/7 access to a personal Member Portal for account details and private medical information. Additionally, the plan offers the lowest cost diabetic insulin at $19.88 per vial and discounts on over-the-counter medications.\n\nThe Telemedicine section highlights unlimited virtual doctor visits available 24/7, allowing members to consult with doctors via video, computer, or phone. These consultations can lead to diagnoses, order tests, and prescriptions that can be filled immediately at local pharmacies. While there is a co-pay for doctor visits, prescriptions filled with the Free Prescription Club ID Card incur no cost for generic medications, covering 90% of the most popular medications.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "BasicCore_brochure2",
+      "global_page_num": 3
+    },
+    "1": {
+      "page_number": 1,
+      "original_name": "BasicCore_brochure2_page_001.jpg",
+      "original_path": "img/pages/BasicCore_brochure2_page_001.jpg",
+      "new_name": "01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg",
+      "new_path": "img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg",
+      "page_title": "basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits",
+      "summary": "The document outlines the features and benefits of the Basic Core and Basic Core-Plus insurance plans underwritten by American Public Life Insurance Company. Both plans offer managed care with no waiting or exclusion periods for pre-existing conditions. Pregnancy is not covered under these plans. The Basic Core plan provides indemnity insurance with specific daily limits for hospital admission, hospital daily confinement, emergency room visits, urgent care, and physician office visits. For instance, hospital admission is covered at $500 per day for a maximum of one day, while hospital daily confinement is covered at $100 per day for up to ten days.\n\nAdditional benefits for the Basic Core plan include a free prescription club and no-cost telemedicine virtual doctor visits. The Basic Core-Plus plan offers free generic medications with a $0 copay and unlimited virtual doctor visits at no cost. Both plans include medical bill repricer services, allowing members to choose any doctor with a $25 prepay for primary care and a $50 prepay for specialist visits. Managed Care Reference Base Pricing (MRBP) is utilized, which involves paying providers between 150% to 200% of Medicare Allowable Rates, generally lower than PPO network rates. Advocacy services are also available to assist members in understanding benefits, finding providers, and negotiating costs.\n\nThe document emphasizes the structured benefits and cost-saving features of these plans, highlighting the flexibility and support provided to members through managed care and advocacy services.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "BasicCore_brochure2",
+      "global_page_num": 1
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "BasicCore_brochure2_page_004.jpg",
+      "original_path": "img/pages/BasicCore_brochure2_page_004.jpg",
+      "new_name": "04_member_benefit_package_summary_with_basic_core_and_basic_core_plus_bundles.jpg",
+      "new_path": "img/pages/04_member_benefit_package_summary_with_basic_core_and_basic_core_plus_bundles.jpg",
+      "page_title": "member_benefit_package_summary_with_basic_core_and_basic_core_plus_bundles",
+      "summary": "This page provides a detailed summary of the Member Benefit Package, comparing the Basic Core and Basic Core Plus bundles. The Basic Core bundle includes features such as medical bill repricing with $25 prepay doctor visits, reference-based pricing to reduce medical provider rates, and advocacy/concierge services for personal health plan navigation. The Basic Core Plus bundle offers additional benefits, including no-cost virtual doctor visits with unlimited virtual consultations and a free prescription club covering 90% of most commonly prescribed medications.\n\nBoth bundles include a prescription program offering discounts at over 60,000 pharmacies nationwide, with savings of up to 60% on medications. The mail order pharmacy service provides up to 80% savings on prescription medications delivered to the doorstep. Entertainment packages, direct lab testing with discounts up to 80%, and Pryor Learning for professional field certifications are also included in the Basic Core Plus bundle.\n\nAdditional benefits exclusive to the Basic Core Plus bundle include MRI and CT scan discounts, diabetic supplies with significant savings, medical supplies discounts, and access to an online health manager for diet and fitness planning. The bundle also offers online fitness and nutrition programs and alternative wellness services with discounts on therapies such as physical therapy and acupuncture.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "BasicCore_brochure2",
+      "global_page_num": 4
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "BasicCore_brochure2_page_005.jpg",
+      "original_path": "img/pages/BasicCore_brochure2_page_005.jpg",
+      "new_name": "05_basic_core_and_basic_core_plus_membership_benefit_package_pricing_details.jpg",
+      "new_path": "img/pages/05_basic_core_and_basic_core_plus_membership_benefit_package_pricing_details.jpg",
+      "page_title": "basic_core_and_basic_core_plus_membership_benefit_package_pricing_details",
+      "summary": "This page provides an overview of the membership benefit package offered by the Business Workers of America, underwritten by American Public Life Insurance Company. The insurance plans are rated A+ (Superior) by AM Best. The page features wholesale plan pricing for two plans: Basic Core Plan and Basic Core-Plus Plan. Pricing is categorized based on member classification, including Member, Member & Spouse, Member & Child(ren), and Family. The Basic Core Plan costs $32.78 for a single member, $49.47 for a member and spouse, $40.75 for a member and child(ren), and $58.18 for a family. The Basic Core-Plus Plan is priced at $45.22 for a single member, $61.91 for a member and spouse, $53.19 for a member and child(ren), and $70.62 for a family. This structured pricing table allows members to easily compare costs between the two plans based on their specific needs and family composition.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "BasicCore_brochure2",
+      "global_page_num": 5
+    }
+  },
+  "extracted_tables": {
+    "2": {
+      "page_number": "2",
+      "tables": [
+        {
+          "table_title": "Member MBR Service Description and Benefits",
+          "headers": [
+            "Description",
+            "Benefits in Both Plans"
+          ],
+          "rows": [
+            [
+              "Medical Bill Repricer",
+              "$25 pre-pay at Doctor Office Visit or $50 prepay at Specialist office"
+            ],
+            [
+              "Pre-Pay Doctor Visit - How to Use?",
+              ""
+            ],
+            [
+              "1. MBR will explain benefits to both the member and provider, when necessary.",
+              "Included in Both Plans"
+            ],
+            [
+              "2. MBR will explain to the members and providers how the Pre-Pay Benefit works and how to submit bills for repricing.",
+              "Included in Both Plans"
+            ],
+            [
+              "3. MBR will provide support and instruction to the member on filing necessary insurance claims.",
+              "Included in Both Plans"
+            ],
+            [
+              "4. MBR will provide Reference Based Repricing for any bill submitted by a Provider.",
+              "Included in Both Plans"
+            ],
+            [
+              "5. Members pay a Pre-Pay amount when they visit a provider, MBR will contact the member to assist them with filing a claim so that the member\u2019s responsibilities are as little as possible.",
+              "Included in Both Plans"
+            ],
+            [
+              "*Member is responsible for any remaining balance due after all MBR services are completed.",
+              ""
+            ],
+            [
+              "Manage Care Reference Based Pricing",
+              "Included in Both Plans"
+            ],
+            [
+              "Advocacy Service - Concierge Service",
+              "Included in Both Plans"
+            ]
+          ]
+        }
+      ]
+    },
+    "3": {
+      "page_number": "3",
+      "tables": [
+        {
+          "table_title": "Pharmacy Plan Benefits",
+          "headers": [
+            "Club Benefits",
+            "Benefit Description",
+            "Basic Core",
+            "Basic Core"
+          ],
+          "rows": [
+            [
+              "Free Acute Medications",
+              "Short-term immediate need medications purchased from your local Pharmacy.",
+              "Discount Rx Only",
+              "FREE Medication"
+            ],
+            [
+              "Free Chronic Medications",
+              "Maintenance medication that are taken on a regular, reoccurring basis",
+              "Discount Rx Only",
+              "FREE Medication"
+            ],
+            [
+              "Free Diabetic Supplies",
+              "Members receive free starter kit with meter, testing strips, lancing devise, lancets and more.",
+              "Discount Rx Only",
+              "FREE Medication"
+            ],
+            [
+              "Free Pharmacy Coaching",
+              "Patient Assistance Program (PAP) for brand name and specialty medication needs, to make these drugs more affordable.",
+              "Discount Rx Only",
+              "FREE Medication"
+            ],
+            [
+              "Free Member Portal",
+              "24/7 access to personal Member Portal with your account details, ID Card, private medical information",
+              "Discount Rx Only",
+              "FREE Medication"
+            ],
+            [
+              "Lowest Cost Diabetic Insulin",
+              "Diabetic Insulin, $19.88 per vial and pens per box with Club partner WalMart.",
+              "Discount Rx Only",
+              "FREE Medication"
+            ],
+            [
+              "Lower Prices Over-the-Counter Medications",
+              "Members can purchase Over-the-Counter medications at lower prices than Pharmacies or Big Box Stores.",
+              "Discount Rx Only",
+              "FREE Medication"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Benefits",
+          "headers": [
+            "Telemedicine",
+            "Benefit Description",
+            "Basic Core",
+            "Basic Core Plus"
+          ],
+          "rows": [
+            [
+              "Unlimited Virtual Doctor Visits",
+              "Members have \u201cunlimited\u201d 24-Hour a day or night, 7 days a week, weekend or holidays",
+              "Not Included",
+              "Virtual Doctor Visits Included"
+            ],
+            [
+              "No-Cost",
+              "Members have ability to set a Consultation or Visit within a few minutes with a doctor. Consultation can be setup by live video, computer, laptop, pad or phone.",
+              "Not Included",
+              "Virtual Doctor Visits Included"
+            ],
+            [
+              "",
+              "On a Telemedicine virtual meeting, a doctor can diagnose, order tests, refer to other medical facilities or specialist and write you prescriptions that you need and can be filled immediately at your local pharmacy",
+              "Not Included",
+              "Virtual Doctor Visits Included"
+            ],
+            [
+              "",
+              "Doctor Visits cost you ... $0 Co-Pay per visit",
+              "Not Included",
+              "Virtual Doctor Visits Included"
+            ],
+            [
+              "",
+              "Doctors scripts can be filled with your Free Prescription Club ID Card to pay NOTHING for generic medications. (90% of the most popular medications are FREE)",
+              "Not Included",
+              "Virtual Doctor Visits Included"
+            ]
+          ]
+        }
+      ]
+    },
+    "1": {
+      "page_number": "1",
+      "tables": [
+        {
+          "table_title": "Basic Core Plan Comparison",
+          "headers": [
+            "Feature",
+            "Basic Core",
+            "Basic Core-Plus"
+          ],
+          "rows": [
+            [
+              "Pre-Existing Condition Period",
+              "No Waiting Period",
+              "No Waiting Period"
+            ],
+            [
+              "Pre-Existing Condition Exclusion Period",
+              "No Exclusion Period",
+              "No Exclusion Period"
+            ],
+            [
+              "Pregnancy Coverage",
+              "Pregnancy Not Covered",
+              "Pregnancy Not Covered"
+            ],
+            [
+              "Hospital Admission",
+              "$500 per day max of 1 day(s)",
+              "$500 per day max of 1 day(s)"
+            ],
+            [
+              "Hospital Daily Confinement",
+              "$100 per day max of 10 day(s)",
+              "$100 per day max of 10 day(s)"
+            ],
+            [
+              "Emergency Room",
+              "$50 per day max of 1 day(s)",
+              "$50 per day max of 1 day(s)"
+            ],
+            [
+              "Urgent Care",
+              "$50 per day max of 3 day(s)",
+              "$50 per day max of 3 day(s)"
+            ],
+            [
+              "Physician Office Visits",
+              "$50 per day max of 3 day(s)",
+              "$50 per day max of 3 day(s)"
+            ]
+          ]
+        },
+        {
+          "table_title": "Additional Benefits Comparison",
+          "headers": [
+            "Additional Benefits",
+            "Basic Core",
+            "Basic Core-Plus"
+          ],
+          "rows": [
+            [
+              "Free Prescription Club",
+              "Discount Rx Card",
+              "Free Generic Medications $0 Copay"
+            ],
+            [
+              "Telemedicine - Virtual Doctor Visits",
+              "Not Available",
+              "Unlimited Visits - 24-Hours a Day $0 Copay"
+            ]
+          ]
+        },
+        {
+          "table_title": "Medical Bill Repricer Services",
+          "headers": [
+            "Service",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Doctor or Specialist Office Visit",
+              "$25 Prepay Feature Choose Your Doctor"
+            ],
+            [
+              "Members Can Choose Any Doctor",
+              "Primary Care Doctor Office Visit $25 prepay Specialist Office Visit $50 prepay"
+            ],
+            [
+              "Managed Care Reference Base Pricing",
+              "MRBP - Managed Care Reference Based Pricing is a system of paying providers between 150% to 200% of 'Medicare Allowable Rates' Rates paid for doctor office visits or hospital, emergency room, urgent care, or surgery is generally lower than PPO Network negotiated rates."
+            ],
+            [
+              "Advocacy Concierge Service",
+              "Medical Professionals assist members with understanding how to utilize their benefits, find providers and book appointments with providers, file claims, and negotiate with providers. When there is a balance due to a provider, Advocacy will negotiate to lower or eliminate members out-of-pocket cost"
+            ]
+          ]
+        }
+      ]
+    },
+    "4": {
+      "page_number": "4",
+      "tables": [
+        {
+          "table_title": "Member Benefit Package Comparison",
+          "headers": [
+            "Description of Association Member Benefit Package",
+            "Basic Core",
+            "Basic Core Plus"
+          ],
+          "rows": [
+            [
+              "Medical Bill Repricing\n$25 Prepay Doctor Visits",
+              "Included",
+              "Included"
+            ],
+            [
+              "Reference Based Pricing\nReducing Medical Providers Rates",
+              "Included",
+              "Included"
+            ],
+            [
+              "Advocacy/Concierge Service\nPersonal help in navigating your health plan, filing claims and repricing network reductions",
+              "Included",
+              "Included"
+            ],
+            [
+              "No Cost Virtual Doctor Visits\nUnlimited Virtual Doctor Consultations",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "FREE Prescription Club\n90% of Most Commonly Prescribed Medications FREE!",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "Prescription Program - Discount prescription card that can be used at over 60,000 pharmacies nationwide and will give members up to 60% discounts on their prescription medications.",
+              "Included",
+              "Included"
+            ],
+            [
+              "Mail Order Pharmacy Savings of up to 80% on prescription medication, delivered free and to your doorstep.",
+              "Included",
+              "Included"
+            ],
+            [
+              "Entertainment Package Theme Parks, Movie Tickets, Vacation Packages, Cruise Excursions, Airline Tickets, Car Rental, Ski Lodge, Disney World, Six Flags, Sea World",
+              "Included",
+              "Included"
+            ],
+            [
+              "Direct Lab Testing Lab testing discounts of up to 80% . Blood tests of urine, hair, for virus, flu, covid, rashes, for disease identification. Starts as low as $5.00.",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "Pryor Learning Business training for communication, Excel, HR, leadership, Project Management, certification in many professional fields.",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "MRI and CT Scans Members save 40% to 75% on usual charges for MRI and CT Scans at thousands of credentialed radiology centers nationwide. Members are referred to a certified radiologist based on condition, preferences and location.",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "Diabetic Supplies Members get 60% off average retail prices and free shipping on all packages, and an extra 15% off any single order item.",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "Medical Supplies Members who need medical supplies, such as bandages, beds, wheel chairs, walkers, oxygen tanks, etc. can save from 25% to 50% .",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "Online Health Manager Health aid diet planning, fitness training, food nutritional guidance, and much more.",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "Online Fitness & Nutrition Customized Fitness Program on-line, with personal trainers, progress monitoring, plan guides and nutrition plans.",
+              "\u2014",
+              "Included"
+            ],
+            [
+              "Alternative Wellness 25% or more discounted service fees on Alternative Wellness Medicines and Services, such as: Physical Therapist, Chiropractor, Nutrition Counselor, Massage Therapist, Acupuncturist Herbal Medicine, Yoga Training, Tai Chi Schools",
+              "\u2014",
+              "Included"
+            ]
+          ]
+        }
+      ]
+    },
+    "5": {
+      "page_number": "5",
+      "tables": [
+        {
+          "table_title": "Wholesale Plan Pricing",
+          "headers": [
+            "Member Classification",
+            "Basic Core Plan",
+            "Basic Core-Plus Plan"
+          ],
+          "rows": [
+            [
+              "Member",
+              "$32.78",
+              "$45.22"
+            ],
+            [
+              "Member & Spouse",
+              "$49.47",
+              "$61.91"
+            ],
+            [
+              "Member & Child(ren)",
+              "$40.75",
+              "$53.19"
+            ],
+            [
+              "Family",
+              "$58.18",
+              "$70.62"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "Error: No content found in response",
+    "generated_at": "2025-02-26T23:53:32.746992"
+  },
+  "slides": {
+    "content": "---\nid: FEN_001\ntheme: ../../\ntitle: | \n  Basic Core and Basic Core-Plus Plans\ninfo: |\n  ## Basic Core and Basic Core-Plus Plans Overview\n  A look at the Basic Core and Basic Core-Plus benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"001\" />\n\n# Basic Core and Basic Core-Plus Plans Overview\n\nUnderstanding the details and benefits of the **Basic Core and Basic Core-Plus Insurance Plans**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Basic Core and Basic Core-Plus Plans\n\n<v-click>\n\n- Managed care with no waiting or exclusion periods for pre-existing conditions through **American Public Life Insurance Company**\n\n</v-click>\n\n<v-click>\n\n- **Indemnity Insurance** with specific daily limits\n\n</v-click>\n\n<v-click>\n\n- **Free Prescription Club** and telemedicine services\n\n</v-click>\n\n<v-click>\n\n- **Medical Bill Repricer** through Reference Based Pricing\n\n</v-click>\n\n<v-click>\n\n- **Advocacy Services** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Managed Care**\n\n</v-click>\n\n<v-click>\n\n**Indemnity Insurance**\n\n</v-click>\n\n<v-click>\n\n**Free Prescription Club** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Telemedicine Services** through virtual consultations\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/MBR_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"MBR Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**Medical Bill Repricer** (MBR)\n</v-click>\n\n<v-click>\n\n**Reference Based Pricing** System\n</v-click>\n\n<v-click>\n\n**Advocacy Services** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How Medical Bill Repricer Works\n\n<v-click>\n\n1. Enroll through **American Public Life Insurance Company**\n</v-click>\n\n<v-click>\n\n2. Use the $25 pre-pay for doctor visits or $50 for specialist visits\n</v-click>\n\n<v-click>\n\n3. MBR explains benefits and assists with claims\n</v-click>\n\n<v-click>\n\n4. Receive Reference Based Pricing **(RBP)**\n</v-click>\n\n<v-click>\n\n5. Choose any doctor without network restrictions\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Free Prescription Club** Services\n</v-click>\n\n<v-click>\n\n- **Telemedicine** Programs\n</v-click>\n\n<v-click>\n\n- **Patient Assistance Program** provides affordable medication options\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **Unlimited Virtual Doctor Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access** to care\n\n</v-click>\n\n<v-click>\n\n- **No-Cost Consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Immediate Prescriptions** to local pharmacies\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Concierge Healthcare Advocacy**\n\n</v-click>\n\n<v-click>\n\n- **Provider Negotiation** assistance\n\n</v-click>\n\n<v-click>\n\n- **Claims Filing** options\n\n</v-click>\n\n<v-click>\n\n- **Cost Reduction** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## Basic Core Plan (1/2)\n\n<v-click>\n\n**Indemnity Insurance**\n- $500 per day max of 1 day for hospital admission\n- $100 per day max of 10 days for hospital daily confinement\n- $50 per day max of 1 day for emergency room visits\n- $50 per day max of 3 days for urgent care\n</v-click>\n\n<v-click>\n\n**Free Prescription Club**\n- Discount Rx Card\n</v-click>\n\n<v-click>\n\n**Telemedicine Services**\n- Not Available\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## Basic Core Plan (2/2)\n\n<v-click>\n\n**Medical Bill Repricer**\n- $25 prepay for doctor visits\n- $50 prepay for specialist visits\n</v-click>\n\n<v-click>\n\n**Advocacy Services**\n- Included\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## Basic Core-Plus Plan (1/2)\n\n<v-click>\n\n**Indemnity Insurance**\n- $500 per day max of 1 day for hospital admission\n- $100 per day max of 10 days for hospital daily confinement\n- $50 per day max of 1 day for emergency room visits\n- $50 per day max of 3 days for urgent care\n</v-click>\n\n<v-click>\n\n**Free Prescription Club**\n- Free Generic Medications $0 Copay\n</v-click>\n\n<v-click>\n\n**Telemedicine Services**\n- Unlimited Visits - 24-Hours a Day $0 Copay\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## Basic Core-Plus Plan (2/2)\n\n<v-click>\n\n**Medical Bill Repricer**\n- $25 prepay for doctor visits\n- $50 prepay for specialist visits\n</v-click>\n\n<v-click>\n\n**Advocacy Services**\n- Included\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Basic Core** | **Basic Core-Plus** |\n|---------|----------|-----------|\n| Pre-Existing Condition Period | No Waiting Period | No Waiting Period |\n| Pre-Existing Condition Exclusion Period | No Exclusion Period | No Exclusion Period |\n| Pregnancy Coverage | Not Covered | Not Covered |\n| Hospital Admission | $500 per day max of 1 day | $500 per day max of 1 day |\n| Hospital Daily Confinement | $100 per day max of 10 days | $100 per day max of 10 days |\n| Emergency Room | $50 per day max of 1 day | $50 per day max of 1 day |\n| Urgent Care | $50 per day max of 3 days | $50 per day max of 3 days |\n| Physician Office Visits | $50 per day max of 3 days | $50 per day max of 3 days |\n| Free Prescription Club | Discount Rx Card | Free Generic Medications $0 Copay |\n| Telemedicine - Virtual Doctor Visits | Not Available | Unlimited Visits - 24-Hours a Day $0 Copay |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Indemnity Insurance**\n- $500 per day max of 1 day for hospital admission\n- $100 per day max of 10 days for hospital daily confinement\n- $50 per day max of 1 day for emergency room visits\n</v-click>\n\n<v-click>\n\n**Free Prescription Club**\n- Discount Rx Card\n</v-click>\n\n<v-click>\n\n**Telemedicine Services**\n- Not Available\n</v-click>\n\n<v-click>\n\n**Advocacy Services**\n- Included\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Managed Care** benefits\n</v-click>  \n\n<v-click>\n\n- **Indemnity Insurance** included\n</v-click>\n\n<v-click>\n\n- **Free Prescription Club** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Basic Core and Basic Core-Plus Plans Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/04_member_benefit_package_summary_with_basic_core_and_basic_core_plus_bundles.jpg",
+      "pages/02_medical_bill_repricer_managed_care_solution_with_reference_based_pricing_and_advocacy_service.jpg",
+      "pages/03_pharmacy_plan_free_prescription_club_with_telemedicine_virtual_doctor_visits.jpg",
+      "pages/05_basic_core_and_basic_core_plus_membership_benefit_package_pricing_details.jpg",
+      "pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Basic Core and Basic Core-Plus Plans. We'll walk through these plans' features and benefits, designed to provide valuable healthcare solutions for your members. Let's get started!\n\n---- Plan Overview ----\n\nThe Basic Core and Basic Core-Plus Plans\n\nare managed care options with no waiting or exclusion periods for pre-existing conditions, provided through American Public Life Insurance Company.\n\nThese plans offer Indemnity Insurance, which means you receive a set payment amount with specific daily limits.\n\nMembers can benefit from the Free Prescription Club and telemedicine services.\n\nAdditionally, the plans include a Medical Bill Repricer through Reference Based Pricing.\n\nAdvocacy Services are also available to support members.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of these plans.\n\nManaged Care is a central feature, ensuring members have access to necessary services without delay.\n\nIndemnity Insurance provides financial support with predetermined daily limits.\n\nThe Free Prescription Club offers varying benefits depending on the plan.\n\nTelemedicine Services are available through virtual consultations, enhancing accessibility.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with these plans.\n\nThe Medical Bill Repricer, or MBR, helps manage healthcare expenses effectively.\n\nThe Reference Based Pricing System ensures fair pricing for medical services.\n\nAdvocacy Services provide additional support in navigating healthcare costs.\n\n---- How Medical Bill Repricer Works ----\n\nHere's how the Medical Bill Repricer works.\n\nFirst, members enroll through American Public Life Insurance Company.\n\nThey can use a twenty-five dollar pre-pay for doctor visits or fifty dollars for specialist visits.\n\nMBR explains benefits and assists with claims, ensuring clarity.\n\nMembers receive Reference Based Pricing, or RBP, for their services.\n\nImportantly, they can choose any doctor without network restrictions.\n\n---- Preventive Care and Wellness ----\n\nPreventive care and wellness are integral to these plans.\n\nMembers have access to Free Prescription Club Services.\n\nTelemedicine Programs offer convenient healthcare access.\n\nThe Patient Assistance Program provides affordable medication options.\n\n---- Telehealth Services ----\n\nLet's talk about telehealth services.\n\nMembers enjoy unlimited virtual doctor visits.\n\nThey have twenty-four-seven access to care.\n\nNo-cost consultations are available, enhancing affordability.\n\nImmediate prescriptions can be sent to local pharmacies.\n\n---- Advocacy and Support Services ----\n\nAdvocacy and support services are key components.\n\nConcierge Healthcare Advocacy assists members with their healthcare needs.\n\nProvider Negotiation helps manage costs effectively.\n\nClaims Filing options simplify the process for members.\n\nCost Reduction support is available to minimize expenses.\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier, the Basic Core Plan.\n\nIndemnity Insurance provides five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.\n\nThe Free Prescription Club offers a Discount Rx Card.\n\nTelemedicine Services are not available in this plan.\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with the Basic Core Plan.\n\nThe Medical Bill Repricer includes a twenty-five dollar prepay for doctor visits and a fifty dollar prepay for specialist visits.\n\nAdvocacy Services are included to support members.\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier, the Basic Core-Plus Plan.\n\nIndemnity Insurance offers the same benefits as the Basic Core Plan, with five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.\n\nThe Free Prescription Club provides Free Generic Medications with zero copay.\n\nTelemedicine Services include unlimited visits, available twenty-four hours a day with zero copay.\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with the Basic Core-Plus Plan.\n\nThe Medical Bill Repricer features a twenty-five dollar prepay for doctor visits and a fifty dollar prepay for specialist visits.\n\nAdvocacy Services are included to assist members.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nBoth plans have no waiting or exclusion periods for pre-existing conditions.\n\nNeither plan covers pregnancy.\n\nHospital admission and daily confinement benefits are identical in both plans.\n\nThe Basic Core-Plus Plan offers additional benefits like Free Generic Medications and unlimited telemedicine visits.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nIndemnity Insurance provides set payments, such as five hundred dollars per day for one day for hospital admission and one hundred dollars per day for up to ten days for hospital daily confinement.\n\nThe Free Prescription Club offers a Discount Rx Card in the Basic Core Plan.\n\nTelemedicine Services are not available in the Basic Core Plan.\n\nAdvocacy Services are included in both plans.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nManaged Care benefits are a highlight of these plans.\n\nIndemnity Insurance is included to support members financially.\n\nThe Free Prescription Club offers valuable benefits.\n\nEnrollment is required to access these services.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Basic Core and Basic Core-Plus Plans Overview",
+          "content": "<SlideAudio deckKey=\"001\" />\n\n# Basic Core and Basic Core-Plus Plans Overview\n\nUnderstanding the details and benefits of the **Basic Core and Basic Core-Plus Insurance Plans**",
+          "frontmatter": "id: FEN_001\ntheme: ../../\ntitle: | \n  Basic Core and Basic Core-Plus Plans\ninfo: |\n  ## Basic Core and Basic Core-Plus Plans Overview\n  A look at the Basic Core and Basic Core-Plus benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Basic Core and Basic Core-Plus Plans. We'll walk through these plans' features and benefits, designed to provide valuable healthcare solutions for your members. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Basic Core and Basic Core-Plus Plans",
+          "content": "## The Basic Core and Basic Core-Plus Plans\n\n<v-click>\n\n- Managed care with no waiting or exclusion periods for pre-existing conditions through **American Public Life Insurance Company**\n\n</v-click>\n\n<v-click>\n\n- **Indemnity Insurance** with specific daily limits\n\n</v-click>\n\n<v-click>\n\n- **Free Prescription Club** and telemedicine services\n\n</v-click>\n\n<v-click>\n\n- **Medical Bill Repricer** through Reference Based Pricing\n\n</v-click>\n\n<v-click>\n\n- **Advocacy Services** support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Plan Overview",
+          "content": "The Basic Core and Basic Core-Plus Plans\n\nare managed care options with no waiting or exclusion periods for pre-existing conditions, provided through American Public Life Insurance Company.\n\nThese plans offer Indemnity Insurance, which means you receive a set payment amount with specific daily limits.\n\nMembers can benefit from the Free Prescription Club and telemedicine services.\n\nAdditionally, the plans include a Medical Bill Repricer through Reference Based Pricing.\n\nAdvocacy Services are also available to support members."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Managed Care**\n\n</v-click>\n\n<v-click>\n\n**Indemnity Insurance**\n\n</v-click>\n\n<v-click>\n\n**Free Prescription Club** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Telemedicine Services** through virtual consultations\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/MBR_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"MBR Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of these plans.\n\nManaged Care is a central feature, ensuring members have access to necessary services without delay.\n\nIndemnity Insurance provides financial support with predetermined daily limits.\n\nThe Free Prescription Club offers varying benefits depending on the plan.\n\nTelemedicine Services are available through virtual consultations, enhancing accessibility."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**Medical Bill Repricer** (MBR)\n</v-click>\n\n<v-click>\n\n**Reference Based Pricing** System\n</v-click>\n\n<v-click>\n\n**Advocacy Services** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with these plans.\n\nThe Medical Bill Repricer, or MBR, helps manage healthcare expenses effectively.\n\nThe Reference Based Pricing System ensures fair pricing for medical services.\n\nAdvocacy Services provide additional support in navigating healthcare costs."
+        }
+      },
+      {
+        "slide": {
+          "header": "How Medical Bill Repricer Works",
+          "content": "## How Medical Bill Repricer Works\n\n<v-click>\n\n1. Enroll through **American Public Life Insurance Company**\n</v-click>\n\n<v-click>\n\n2. Use the $25 pre-pay for doctor visits or $50 for specialist visits\n</v-click>\n\n<v-click>\n\n3. MBR explains benefits and assists with claims\n</v-click>\n\n<v-click>\n\n4. Receive Reference Based Pricing **(RBP)**\n</v-click>\n\n<v-click>\n\n5. Choose any doctor without network restrictions\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How Medical Bill Repricer Works",
+          "content": "Here's how the Medical Bill Repricer works.\n\nFirst, members enroll through American Public Life Insurance Company.\n\nThey can use a twenty-five dollar pre-pay for doctor visits or fifty dollars for specialist visits.\n\nMBR explains benefits and assists with claims, ensuring clarity.\n\nMembers receive Reference Based Pricing, or RBP, for their services.\n\nImportantly, they can choose any doctor without network restrictions."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Free Prescription Club** Services\n</v-click>\n\n<v-click>\n\n- **Telemedicine** Programs\n</v-click>\n\n<v-click>\n\n- **Patient Assistance Program** provides affordable medication options\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Preventive care and wellness are integral to these plans.\n\nMembers have access to Free Prescription Club Services.\n\nTelemedicine Programs offer convenient healthcare access.\n\nThe Patient Assistance Program provides affordable medication options."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **Unlimited Virtual Doctor Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access** to care\n\n</v-click>\n\n<v-click>\n\n- **No-Cost Consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Immediate Prescriptions** to local pharmacies\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Let's talk about telehealth services.\n\nMembers enjoy unlimited virtual doctor visits.\n\nThey have twenty-four-seven access to care.\n\nNo-cost consultations are available, enhancing affordability.\n\nImmediate prescriptions can be sent to local pharmacies."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Concierge Healthcare Advocacy**\n\n</v-click>\n\n<v-click>\n\n- **Provider Negotiation** assistance\n\n</v-click>\n\n<v-click>\n\n- **Claims Filing** options\n\n</v-click>\n\n<v-click>\n\n- **Cost Reduction** support\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Advocacy and support services are key components.\n\nConcierge Healthcare Advocacy assists members with their healthcare needs.\n\nProvider Negotiation helps manage costs effectively.\n\nClaims Filing options simplify the process for members.\n\nCost Reduction support is available to minimize expenses."
+        }
+      },
+      {
+        "slide": {
+          "header": "Basic Core Plan (1/2)",
+          "content": "## Basic Core Plan (1/2)\n\n<v-click>\n\n**Indemnity Insurance**\n- $500 per day max of 1 day for hospital admission\n- $100 per day max of 10 days for hospital daily confinement\n- $50 per day max of 1 day for emergency room visits\n- $50 per day max of 3 days for urgent care\n</v-click>\n\n<v-click>\n\n**Free Prescription Club**\n- Discount Rx Card\n</v-click>\n\n<v-click>\n\n**Telemedicine Services**\n- Not Available\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "Let's examine our first plan tier, the Basic Core Plan.\n\nIndemnity Insurance provides five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.\n\nThe Free Prescription Club offers a Discount Rx Card.\n\nTelemedicine Services are not available in this plan."
+        }
+      },
+      {
+        "slide": {
+          "header": "Basic Core Plan (2/2)",
+          "content": "## Basic Core Plan (2/2)\n\n<v-click>\n\n**Medical Bill Repricer**\n- $25 prepay for doctor visits\n- $50 prepay for specialist visits\n</v-click>\n\n<v-click>\n\n**Advocacy Services**\n- Included\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "Continuing with the Basic Core Plan.\n\nThe Medical Bill Repricer includes a twenty-five dollar prepay for doctor visits and a fifty dollar prepay for specialist visits.\n\nAdvocacy Services are included to support members."
+        }
+      },
+      {
+        "slide": {
+          "header": "Basic Core-Plus Plan (1/2)",
+          "content": "## Basic Core-Plus Plan (1/2)\n\n<v-click>\n\n**Indemnity Insurance**\n- $500 per day max of 1 day for hospital admission\n- $100 per day max of 10 days for hospital daily confinement\n- $50 per day max of 1 day for emergency room visits\n- $50 per day max of 3 days for urgent care\n</v-click>\n\n<v-click>\n\n**Free Prescription Club**\n- Free Generic Medications $0 Copay\n</v-click>\n\n<v-click>\n\n**Telemedicine Services**\n- Unlimited Visits - 24-Hours a Day $0 Copay\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier, the Basic Core-Plus Plan.\n\nIndemnity Insurance offers the same benefits as the Basic Core Plan, with five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.\n\nThe Free Prescription Club provides Free Generic Medications with zero copay.\n\nTelemedicine Services include unlimited visits, available twenty-four hours a day with zero copay."
+        }
+      },
+      {
+        "slide": {
+          "header": "Basic Core-Plus Plan (2/2)",
+          "content": "## Basic Core-Plus Plan (2/2)\n\n<v-click>\n\n**Medical Bill Repricer**\n- $25 prepay for doctor visits\n- $50 prepay for specialist visits\n</v-click>\n\n<v-click>\n\n**Advocacy Services**\n- Included\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Continuing with the Basic Core-Plus Plan.\n\nThe Medical Bill Repricer features a twenty-five dollar prepay for doctor visits and a fifty dollar prepay for specialist visits.\n\nAdvocacy Services are included to assist members."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Basic Core** | **Basic Core-Plus** |\n|---------|----------|-----------|\n| Pre-Existing Condition Period | No Waiting Period | No Waiting Period |\n| Pre-Existing Condition Exclusion Period | No Exclusion Period | No Exclusion Period |\n| Pregnancy Coverage | Not Covered | Not Covered |\n| Hospital Admission | $500 per day max of 1 day | $500 per day max of 1 day |\n| Hospital Daily Confinement | $100 per day max of 10 days | $100 per day max of 10 days |\n| Emergency Room | $50 per day max of 1 day | $50 per day max of 1 day |\n| Urgent Care | $50 per day max of 3 days | $50 per day max of 3 days |\n| Physician Office Visits | $50 per day max of 3 days | $50 per day max of 3 days |\n| Free Prescription Club | Discount Rx Card | Free Generic Medications $0 Copay |\n| Telemedicine - Virtual Doctor Visits | Not Available | Unlimited Visits - 24-Hours a Day $0 Copay |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nBoth plans have no waiting or exclusion periods for pre-existing conditions.\n\nNeither plan covers pregnancy.\n\nHospital admission and daily confinement benefits are identical in both plans.\n\nThe Basic Core-Plus Plan offers additional benefits like Free Generic Medications and unlimited telemedicine visits."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Indemnity Insurance**\n- $500 per day max of 1 day for hospital admission\n- $100 per day max of 10 days for hospital daily confinement\n- $50 per day max of 1 day for emergency room visits\n</v-click>\n\n<v-click>\n\n**Free Prescription Club**\n- Discount Rx Card\n</v-click>\n\n<v-click>\n\n**Telemedicine Services**\n- Not Available\n</v-click>\n\n<v-click>\n\n**Advocacy Services**\n- Included\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nIndemnity Insurance provides set payments, such as five hundred dollars per day for one day for hospital admission and one hundred dollars per day for up to ten days for hospital daily confinement.\n\nThe Free Prescription Club offers a Discount Rx Card in the Basic Core Plan.\n\nTelemedicine Services are not available in the Basic Core Plan.\n\nAdvocacy Services are included in both plans."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Managed Care** benefits\n</v-click>  \n\n<v-click>\n\n- **Indemnity Insurance** included\n</v-click>\n\n<v-click>\n\n- **Free Prescription Club** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nManaged Care benefits are a highlight of these plans.\n\nIndemnity Insurance is included to support members financially.\n\nThe Free Prescription Club offers valuable benefits.\n\nEnrollment is required to access these services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Basic Core and Basic Core-Plus Plans Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 16
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 16,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

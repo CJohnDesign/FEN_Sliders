@@ -116,21 +116,43 @@ async def setup_slides(state: BuilderState) -> BuilderState:
             logger.error(error_msg)
             state.set_error(error_msg, "setup_slides")
             return state
-            
+
+        # Prepare metadata for template variables
+        metadata = {
+            "deck_key": state.metadata.deck_id,
+            "title": state.metadata.title if state.metadata.title else state.metadata.deck_id
+        }
+        
         # Create chat prompt for slide generation
         prompt = ChatPromptTemplate.from_messages([
             ("system", SLIDES_WRITER_SYSTEM_PROMPT),
-            ("human", SLIDES_WRITER_HUMAN_PROMPT)
+            ("human", SLIDES_WRITER_HUMAN_PROMPT.format(
+                template=template,
+                processed_summaries=processed_summaries,
+                metadata=metadata
+            ))
         ])
         
-        # Get LLM response
-        llm = await get_llm(temperature=0.2)
+        # Get LLM response with higher temperature for more creative content
+        llm = await get_llm(temperature=0.4)
         formatted_prompt = await prompt.ainvoke({
             "template": template,
-            "processed_summaries": processed_summaries
+            "processed_summaries": processed_summaries,
+            "metadata": metadata
         })
+        
+        # Log prompt details for debugging
+        logger.debug(f"Sending prompt with metadata: {metadata}")
+        
         response = await llm.ainvoke(formatted_prompt)
         slides_content = response.content
+        
+        # Validate slides content
+        if not slides_content or "{{" in slides_content:
+            error_msg = "Generated slides content contains unresolved template variables"
+            logger.error(error_msg)
+            state.set_error(error_msg, "setup_slides")
+            return state
         
         # Process slides content
         if slides_content:
@@ -152,13 +174,15 @@ async def setup_slides(state: BuilderState) -> BuilderState:
             state = await save_state(state, state.metadata.deck_id)
             logger.info("Completed slide processing")
             
-            # Log completion
+            # Log completion with detailed metrics
             log_state_change(
                 state=state,
                 node_name="setup_slides",
                 change_type="complete",
                 details={
-                    "slides_content_length": len(slides_content)
+                    "slides_content_length": len(slides_content),
+                    "template_variables_resolved": "{{" not in slides_content,
+                    "metadata_used": metadata
                 }
             )
             

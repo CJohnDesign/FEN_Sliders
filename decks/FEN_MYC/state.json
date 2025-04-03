@@ -1,0 +1,1192 @@
+{
+  "deck_id": "FEN_MYC",
+  "deck_title": "MyChoice",
+  "deck_info": {
+    "deck_id": "FEN_MYC",
+    "deck_title": "MyChoice"
+  },
+  "initial_deck": {
+    "slides": "---\nid: FEN_{{deck_key}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Review\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_{{deck_key}}\" />\n\n# {{ Plan Name }} Review\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## {{ Plan Name }} Overview\n\n<v-clicks>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n- **{{ Benefit Category 1 }}** for various situations\n- **{{ Benefit Category 2 }}** and support tools\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n- **{{ Benefit Category 4 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-clicks>\n\n**{{ Benefit Type 1 }}**\n\n**{{ Benefit Type 2 }}**\n\n**{{ Benefit Type 3 }}**\n\n**{{ Benefit Type 4 }}** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-clicks>\n\n1. Enroll through **{{ Organization }}**\n2. {{ Step 2 }}\n3. {{ Step 3 }}\n4. Receive {{ Document }} **({{ Acronym }})**\n5. {{ Step 5 }}\n6. **{{ Final Outcome }}**\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-clicks>\n\n- **{{ Service 1 }}** Services\n- **{{ Service 2 }}** Programs\n- **{{ Partner }}** provides {{ service_type }}\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-clicks>\n\n- **{{ Feature 1 }}**\n- **{{ Feature 2 }}**\n- **{{ Feature 3 }}** available\n- **{{ Feature 4 }}** to care\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-clicks>\n\n- **{{ Service Style }}** healthcare advocacy\n- **{{ Service 1 }}** assistance\n- **{{ Service 2 }}** options\n- **{{ Service 3 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **{{ Feature 1 }}** benefits\n- **{{ Feature 2 }}** included\n- **{{ Feature 3 }}** benefits\n- **{{ Requirement }}** required\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "scripts": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!",
+    "instructions": "# Instructions\n\n## Plan Tiers Overview\n\n### Plans Listed:\n1. **Plan 1**  \n2. **Plan 2**  \n3. **Plan 3**  \n\n**Always include all plans in the summary.**"
+  },
+  "processed_images": {
+    "3": {
+      "page_number": 3,
+      "original_name": "MyChoice Low_Brochure_1_page_003.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_003.jpg",
+      "new_name": "03_error_analyzing_mychoice_low_brochure_1_page_003jpg.jpg",
+      "new_path": "img/pages/03_error_analyzing_mychoice_low_brochure_1_page_003jpg.jpg",
+      "page_title": "Error analyzing MyChoice Low_Brochure_1_page_003.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 3
+    },
+    "1": {
+      "page_number": 1,
+      "original_name": "MyChoice Low_Brochure_1_page_001.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_001.jpg",
+      "new_name": "01_error_analyzing_mychoice_low_brochure_1_page_001jpg.jpg",
+      "new_path": "img/pages/01_error_analyzing_mychoice_low_brochure_1_page_001jpg.jpg",
+      "page_title": "Error analyzing MyChoice Low_Brochure_1_page_001.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 1
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "MyChoice Low_Brochure_1_page_002.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_002.jpg",
+      "new_name": "02_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "new_path": "img/pages/02_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "page_title": "business_workers_of_america_association_mission_and_member_benefits",
+      "summary": "The Business Workers of America Association (BWA) is a not-for-profit member association founded in 2001, dedicated to improving the lives of American workers and their families. The mission is achieved through various activities and services aimed at providing valuable information and education about trades or professions. The association focuses on representing American workers' interests in federal and state legislation to benefit individuals and families by promoting better lifestyles, higher incomes, and lower healthcare costs. \n\nBWA supports trade colleges and institutions offering free or low-cost higher education and skill training programs. It provides scholarships or grants to members or their family members who wish to attend college or trade schools, enabling them to learn skills or trades for professional advancement. Additionally, the association directs and assists members in accessing federal or state programs for financial assistance and life improvement opportunities. \n\nThe association also makes healthcare, supplemental benefits, and wellness programs available to enhance family health and wellness. It supports institutions that educate and train workers to meet workplace demands and backs charities aligned with the association's goals and mission.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 2
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "MyChoice Low_Brochure_1_page_005.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_005.jpg",
+      "new_name": "05_mbr_plus_discount_program_with_reference_based_pricing_and_how_it_works.jpg",
+      "new_path": "img/pages/05_mbr_plus_discount_program_with_reference_based_pricing_and_how_it_works.jpg",
+      "page_title": "mbr_plus_discount_program_with_reference_based_pricing_and_how_it_works",
+      "summary": "The MBR Plus program offers members significant discounts on all medical bills submitted by participating doctors or hospitals through a Reference Based Pricing system. The process begins with a recommendation to call MBR before visiting a provider to receive necessary documents and instructions, although this step is not mandatory. Members are required to pay a $25 pre-pay for primary care office visits and a $50 pre-pay for specialist office visits. After the visit, providers should mail the remaining medical bills to MBR for repricing.\n\nUpon submission of bills for repricing, both the member and the healthcare provider will receive a detailed Explanation of Benefits (EOB) from MBR via traditional mail. This document will outline the billed amount and any discounts applied. Members are advised to show their MBR card at the time of service and complete insurance claim forms to receive insured benefits. The MBR team can provide these forms and instructions on how to complete them.\n\nFinally, members should expect a final bill from their medical provider, which should match the amount due on the EOB already received. The insurance company may provide additional funds to help cover any outstanding balances. It is important to note that while MBR strives to lower medical bills through Reference Based Pricing and Direct Bill Negotiation, they cannot guarantee the outcome of any claim or the amount of savings. Medical providers may decline to honor this service.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 5
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "MyChoice Low_Brochure_1_page_004.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_004.jpg",
+      "new_name": "04_mbr_plus_medical_bill_repricing_healthcare_advocacy_and_financial_assistance_guidance.jpg",
+      "new_path": "img/pages/04_mbr_plus_medical_bill_repricing_healthcare_advocacy_and_financial_assistance_guidance.jpg",
+      "page_title": "mbr_plus_medical_bill_repricing_healthcare_advocacy_and_financial_assistance_guidance",
+      "summary": "MBR Plus is a service that integrates medical bill repricing, healthcare advocacy, and bill negotiation, providing members with the flexibility to seek medical care from any licensed healthcare provider. Members are required to pay a $25 pre-pay for primary care office visits, with further details available on page 2. The service offers concierge-style healthcare advocacy, medical bill repricing, and direct bill negotiations, along with guidance on obtaining financial assistance. The mission of MBR is to assist members in navigating the complex healthcare system, ensuring access to high-quality care at competitive prices. The service includes bill negotiation to help members lower their medical expenses.\n\nThe dedicated support team at MBR is committed to guiding members through the process, from financial aid to direct bill negotiation. Although the outcome of claims or bills cannot be guaranteed, the team aims to make the experience as stress-free as possible. MBR utilizes a Reference Based Pricing System, which reprices healthcare bills to 150% to 200% of the Medicare Allowable Rates. This system is widely accepted in the Healthcare Self-Insured Group Marketplace, with over 70% of employer groups in America using it to reduce medical service rates. By employing this cost-containment method, MBR can achieve lower provider fees and reduce out-of-pocket expenses for members, often surpassing the savings offered by common PPO networks.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 4
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "MyChoice Low_Brochure_1_page_006.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_006.jpg",
+      "new_name": "06_group_affordable_choice_hospital_indemnity_policy_with_cash_benefits_and_eligibility_criteria.jpg",
+      "new_path": "img/pages/06_group_affordable_choice_hospital_indemnity_policy_with_cash_benefits_and_eligibility_criteria.jpg",
+      "page_title": "group_affordable_choice_hospital_indemnity_policy_with_cash_benefits_and_eligibility_criteria",
+      "summary": "The Group Affordable Choice plan offers cash benefits directly to members, supplementing other insurance coverage. These benefits can be used flexibly to cover medical bills and everyday expenses, aiding members in returning to work. Key features include receiving cash benefits regardless of other insurance, no requirement for physical exams, and inclusion of premiums in monthly membership dues. Benefits are paid directly to the insured for covered services due to sickness or injury, allowing members to use the funds as needed.\n\nThe policy is a group hospital indemnity form designed to cover everyday medical expenses for members and their families. The product details include a group policy type named 'Group Affordable Choice' with the policy form AN7002. Eligibility criteria require members to be actively working full-time, at least 20 hours per week. Spouses and children are not eligible if the member lacks coverage. Spouses can include domestic partners where permitted by state and association rules.\n\nIssue ages for members and spouses range from 18 to 70, while children must be under age 26. Termination ages are specified as 71 for employees, upon member termination for spouses, and age 26 or member termination for children, whichever comes first. The coverage tier offers a guarantee issue for members, spouses, and children. For claims, members are directed to call a specified number. The document notes that this is not a complete disclosure of plan qualifications and limitations, with benefits varying based on the selected plan.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 6
+    },
+    "7": {
+      "page_number": 7,
+      "original_name": "MyChoice Low_Brochure_1_page_007.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_007.jpg",
+      "new_name": "07_benefits_and_features_for_plan_1_with_coverage_limits_and_pre_existing_conditions.jpg",
+      "new_path": "img/pages/07_benefits_and_features_for_plan_1_with_coverage_limits_and_pre_existing_conditions.jpg",
+      "page_title": "benefits_and_features_for_plan_1_with_coverage_limits_and_pre_existing_conditions",
+      "summary": "The document outlines the benefits and features of Plan 1, providing specific details on coverage and limits. Inpatient hospital confinement is covered at $100, while intensive care confinement offers $200. The plan has a hospital benefits year maximum of $1,000,000, indicating the total amount covered annually for hospital-related expenses. First day hospitalization admission is covered at $1,000, providing immediate financial support upon hospital entry. Ambulance benefits are specified with ground and air transport both covered at $100. Emergency room visits are covered at $200, ensuring some financial relief for urgent care needs.\n\nThe plan includes office and wellness visits, each covered at $50, supporting routine and preventive care. The calendar year maximum outpatient benefit is $4,000, setting a cap on outpatient services covered annually. The lifetime maximum benefit is $5,000,000, indicating the total coverage available over the policyholder's lifetime. Pre-existing conditions have a 12/12 clause, which may refer to a waiting period or coverage limitation. Portability is included, allowing the policyholder to maintain coverage under certain conditions.\n\nSeveral benefits are marked as not applicable (N/A), including surgical benefits, ambulatory outpatient facility, assistant surgeon, and anesthesia, indicating these services are not covered under this plan. The document also notes that this is not a complete disclosure of plan qualifications and limitations, suggesting additional terms and conditions may apply.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 7
+    },
+    "8": {
+      "page_number": 8,
+      "original_name": "MyChoice Low_Brochure_1_page_008.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_008.jpg",
+      "new_name": "08_definitions_of_benefits_including_inpatient_hospital_intensive_care_first_day_admission_ambulance_emergency_room_surgery.jpg",
+      "new_path": "img/pages/08_definitions_of_benefits_including_inpatient_hospital_intensive_care_first_day_admission_ambulance_emergency_room_surgery.jpg",
+      "page_title": "definitions_of_benefits_including_inpatient_hospital_intensive_care_first_day_admission_ambulance_emergency_room_surgery",
+      "summary": "The document outlines various benefits provided under the insurance plan, detailing specific conditions and limits for each. The Inpatient Hospital Confinement Benefit offers a daily benefit for up to 10 days during a confinement period under medical orders due to sickness or injury. This benefit is not applicable if the confinement is in a rehabilitation unit and is subject to the Hospital Benefits Calendar Year Maximum. The Intensive Care Unit Confinement Benefit also provides a daily benefit for up to 10 days for confinements in an ICU, cardiac care unit, or burn unit, with similar restrictions and maximums.\n\nThe First Day Hospital Admission Benefit pays for the first day of inpatient admission once per calendar year, while the Ambulance Benefit covers per trip costs for necessary ground or air transportation, limited to one trip per year. The Emergency Room Benefit provides a daily benefit for a single day when a covered person receives care in an emergency room, subject to annual maximums. The Surgery Benefit is determined by the units shown in the Schedule of Benefits for covered surgeries, with similar conditions applying to the Anesthesia and Assistant Surgeon Benefits.\n\nAdditional benefits include the Ambulatory/Outpatient Facility Benefit, Office Visit Benefit, and Wellness Benefit, each with specific daily limits and conditions. The document also addresses pre-existing conditions, stating that benefits are not payable for related events unless the person has been continuously insured for 12 months. Portability allows members to retain coverage under certain conditions, with specific eligibility criteria outlined. The document concludes with a note on the limited nature of the benefits and a contact number for claims.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 8
+    },
+    "9": {
+      "page_number": 9,
+      "original_name": "MyChoice Low_Brochure_1_page_009.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_009.jpg",
+      "new_name": "09_hospital_bill_advocacy_with_personalized_advocacy_and_pricing_portal_benefits.jpg",
+      "new_path": "img/pages/09_hospital_bill_advocacy_with_personalized_advocacy_and_pricing_portal_benefits.jpg",
+      "page_title": "hospital_bill_advocacy_with_personalized_advocacy_and_pricing_portal_benefits",
+      "summary": "The document outlines a hospital bill advocacy service aimed at reducing surprise medical bills and hospital harassment. It emphasizes personalized advocacy, where advocates assist clients in navigating hospital interactions. The service includes a focus on hospital bills, highlighting that 100 million Americans may qualify for free or discounted hospital care. The advocacy team helps determine eligibility for such benefits. \n\nCare navigation is another key feature, where advocates guide clients to better-priced routine care providers in their area. This service requires clients to call before visiting a provider to avoid unexpected bills. The pricing portal is designed to counteract secretive pricing practices by hospitals, allowing advocates to leverage this information for the client's benefit. \n\nAdditionally, the service offers guaranteed blood work pricing, ensuring access to affordable lab facilities with transparent pricing. Clients are advised to call before visiting to secure these benefits. Lastly, the service provides significant discounts on drugs, available at over 63,000 pharmacies, helping clients save on medication costs.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 9
+    },
+    "10": {
+      "page_number": 10,
+      "original_name": "MyChoice Low_Brochure_1_page_010.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_010.jpg",
+      "new_name": "10_lab_services_usage_and_benefits_with_ordering_instructions_and_discounts.jpg",
+      "new_path": "img/pages/10_lab_services_usage_and_benefits_with_ordering_instructions_and_discounts.jpg",
+      "page_title": "lab_services_usage_and_benefits_with_ordering_instructions_and_discounts",
+      "summary": "This document provides detailed information on how to utilize lab services offered by DirectLabs. It highlights the importance of early detection of serious medical conditions such as heart disease, prostate cancer, diabetes, and thyroid disease, which can often go unnoticed for up to two years. The service allows direct access to major clinical labs across the USA for essential blood tests at discounted prices, offering savings of up to 80% off typical lab costs. No doctor's appointment is necessary, and tests include blood, urine, saliva, hair, and fecal tests.\n\nThe document outlines two methods for ordering lab services: online and by phone. For online ordering, users are instructed to create an account on the DirectLabs website, complete the registration, and manage their orders through a MyDLS account. This account facilitates the ordering process, including signing HIPAA forms, printing requisitions, and accessing results. After ordering, a requisition is generated and uploaded to the user's account, with results typically available within 24-48 hours.\n\nFor phone orders, users can call a specified number and provide a code to create a MyDLS account. Personal information and payment details are required to complete the order. The document emphasizes that the discount program is not health insurance and that all tests are prepaid and out of pocket. It also notes that services are not available in NJ, NY, and RI.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 10
+    },
+    "11": {
+      "page_number": 11,
+      "original_name": "MyChoice Low_Brochure_1_page_011.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_011.jpg",
+      "new_name": "11_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount.jpg",
+      "new_path": "img/pages/11_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount.jpg",
+      "page_title": "prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount",
+      "summary": "The document outlines the features and benefits of a Free Rx Coupon Card provided by the Business Workers of America Association. This card offers significant savings on prescription medications, allowing users to save up to 80% on their purchases. The card is pre-activated and can be used immediately at over 68,000 pharmacies nationwide, including major chains such as CVS, Walgreens, and Walmart. It provides discounts on both brand and generic drugs, ensuring broad applicability for various prescription needs.\n\nThe program highlights include the absence of restrictions and full HIPAA compliance, ensuring user privacy and ease of use. Users are instructed to bring the discount coupon card to their pharmacy and present it to the pharmacist when paying to receive the savings. The card is not insurance but serves as a valuable tool for reducing out-of-pocket costs for prescription drugs.\n\nThe document emphasizes the convenience and accessibility of the program, with a focus on immediate savings and widespread acceptance across numerous pharmacy locations. This makes it an attractive option for individuals seeking to lower their prescription expenses without the complexities of insurance plans.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 11
+    },
+    "14": {
+      "page_number": 14,
+      "original_name": "MyChoice Low_Brochure_1_page_014.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_014.jpg",
+      "new_name": "14_error_analyzing_mychoice_low_brochure_1_page_014jpg.jpg",
+      "new_path": "img/pages/14_error_analyzing_mychoice_low_brochure_1_page_014jpg.jpg",
+      "page_title": "Error analyzing MyChoice Low_Brochure_1_page_014.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 14
+    },
+    "13": {
+      "page_number": 13,
+      "original_name": "MyChoice Low_Brochure_1_page_013.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_013.jpg",
+      "new_name": "13_learn_all_year_long_with_10_percent_discount_on_live_online_seminars.jpg",
+      "new_path": "img/pages/13_learn_all_year_long_with_10_percent_discount_on_live_online_seminars.jpg",
+      "page_title": "learn_all_year_long_with_10_percent_discount_on_live_online_seminars",
+      "summary": "This page promotes a year-long learning opportunity through live online seminars, offering a 10% discount on all sessions. The seminars cover over 20 business training categories, including Communication, Excel, HR, Leadership, and Project Management. Participants can earn certifications such as NASBA, OSHA, PMI, and SHRM, with credits like CEU, CPE, HRCI, PDC, and PDU. The seminars are designed with flexible scheduling options, providing both half-day and full-day sessions to accommodate various needs. \n\nTo take advantage of the discount, users are instructed to enter the express code 922633 during registration. The seminars are accessible through Pryor Learning, and interested individuals can visit the provided website link to register. This initiative aims to enhance professional skills and credentials through structured and accessible online learning experiences.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 13
+    },
+    "12": {
+      "page_number": 12,
+      "original_name": "MyChoice Low_Brochure_1_page_012.jpg",
+      "original_path": "img/pages/MyChoice Low_Brochure_1_page_012.jpg",
+      "new_name": "12_bwa_healthwarehouse_prescription_savings_and_ordering_information.jpg",
+      "new_path": "img/pages/12_bwa_healthwarehouse_prescription_savings_and_ordering_information.jpg",
+      "page_title": "bwa_healthwarehouse_prescription_savings_and_ordering_information",
+      "summary": "This page highlights the partnership between BWA and HealthWarehouse to offer significant savings on prescription medications. Customers can save between 30% to 90% on their prescriptions by utilizing this service. The process for ordering medications is straightforward, with options to check prices online or contact the service directly via phone. The contact number provided is 888-706-7608, and the website link is https://try.healthwarehouse.com/bwa/. \n\nThe page emphasizes the efficiency and cost-effectiveness achieved through advanced technology and sourcing strategies. By eliminating the traditional retail pharmacy overhead and avoiding inflated prescription drug costs, HealthWarehouse can offer lower prices directly to consumers. This approach allows for significant savings to be passed on to patients, enhancing affordability and access to necessary medications. \n\nHealthWarehouse is committed to providing services with compassion, convenience, and transparency, ensuring a seamless experience for users seeking affordable prescription solutions.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Low_Brochure_1",
+      "global_page_num": 12
+    },
+    "15": {
+      "page_number": 15,
+      "original_name": "MyChoice High_Brochure_1_page_015.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_015.jpg",
+      "new_name": "15_error_analyzing_mychoice_high_brochure_1_page_015jpg.jpg",
+      "new_path": "img/pages/15_error_analyzing_mychoice_high_brochure_1_page_015jpg.jpg",
+      "page_title": "Error analyzing MyChoice High_Brochure_1_page_015.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 15
+    },
+    "16": {
+      "page_number": 16,
+      "original_name": "MyChoice High_Brochure_1_page_016.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_016.jpg",
+      "new_name": "16_business_workers_of_america_association_mission_and_support_activities_for_members.jpg",
+      "new_path": "img/pages/16_business_workers_of_america_association_mission_and_support_activities_for_members.jpg",
+      "page_title": "business_workers_of_america_association_mission_and_support_activities_for_members",
+      "summary": "The Business Workers of America Association, established in 2001, is a not-for-profit member association dedicated to enhancing the lives of American workers and their families. The association's mission is achieved through various activities and services aimed at providing valuable information and education about trades or professions. It focuses on representing American workers' interests in federal and state legislation to benefit individuals and families by improving lifestyles, increasing incomes, and reducing healthcare costs. \n\nThe association supports trade colleges and institutions offering free or low-cost higher education and skill training programs. It provides scholarships or grants to members or their family members who wish to attend college or trade schools, enabling them to learn a skill or trade and enter professional programs. Additionally, the association directs and assists members in accessing federal or state programs for financial assistance and life improvement opportunities.\n\nFurthermore, the association makes healthcare, supplemental benefits, and wellness programs available to enhance family health and wellness. It supports institutions that educate and train workers to meet workplace demands and supports charities aligned with the association's goals and mission.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 16
+    },
+    "17": {
+      "page_number": 17,
+      "original_name": "MyChoice High_Brochure_1_page_017.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_017.jpg",
+      "new_name": "17_association_benefits_for_bwa_membership_package_outline.jpg",
+      "new_path": "img/pages/17_association_benefits_for_bwa_membership_package_outline.jpg",
+      "page_title": "association_benefits_for_bwa_membership_package_outline",
+      "summary": "The document introduces the benefits available to members of the Business Workers of America Association (BWA). It highlights that both members and their families are entitled to a variety of benefits and services as part of their membership. The booklet serves as a guide to understanding the specific benefits included with the BWA membership. The focus is on providing a clear overview of the entitlements that come with being a member, ensuring that individuals are aware of the advantages they can access. This introduction sets the stage for a detailed exploration of the benefits package, emphasizing the value of membership in the association.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 17
+    },
+    "20": {
+      "page_number": 20,
+      "original_name": "MyChoice High_Brochure_1_page_020.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_020.jpg",
+      "new_name": "20_error_analyzing_mychoice_high_brochure_1_page_020jpg.jpg",
+      "new_path": "img/pages/20_error_analyzing_mychoice_high_brochure_1_page_020jpg.jpg",
+      "page_title": "Error analyzing MyChoice High_Brochure_1_page_020.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 20
+    },
+    "18": {
+      "page_number": 18,
+      "original_name": "MyChoice High_Brochure_1_page_018.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_018.jpg",
+      "new_name": "18_mbr_plus_medical_bill_repricing_healthcare_advocacy_and_negotiation_benefits.jpg",
+      "new_path": "img/pages/18_mbr_plus_medical_bill_repricing_healthcare_advocacy_and_negotiation_benefits.jpg",
+      "page_title": "mbr_plus_medical_bill_repricing_healthcare_advocacy_and_negotiation_benefits",
+      "summary": "The MBR Plus service integrates medical bill repricing, healthcare advocacy, and bill negotiation, providing members with the flexibility to access medical care from any licensed provider. Key features include a $25 pre-pay for primary care office visits, concierge-style healthcare advocacy, and direct bill negotiations. Additionally, members receive guidance on obtaining financial assistance. The service aims to simplify the healthcare system for members, ensuring they receive high-quality care at competitive prices. MBR's dedicated support team assists members throughout the process, from financial aid to bill negotiation.\n\nMBR employs a Reference Based Pricing System, which adjusts healthcare bills to 150% to 200% of the 'Medicare Allowable Rates.' This system is prevalent in the Healthcare Self-Insured Group Marketplace, with over 70% of employer groups in America using it to reduce medical service rates. By leveraging this cost-containment method, MBR can achieve lower provider fees and reduce out-of-pocket expenses for members, often exceeding the savings offered by common PPO networks. The service is designed to make the healthcare experience as stress-free and enjoyable as possible, although it does not guarantee the outcome of claims or bills.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 18
+    },
+    "19": {
+      "page_number": 19,
+      "original_name": "MyChoice High_Brochure_1_page_019.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_019.jpg",
+      "new_name": "19_mbr_plus_discount_program_with_referenced_based_pricing_and_how_it_works_steps.jpg",
+      "new_path": "img/pages/19_mbr_plus_discount_program_with_referenced_based_pricing_and_how_it_works_steps.jpg",
+      "page_title": "mbr_plus_discount_program_with_referenced_based_pricing_and_how_it_works_steps",
+      "summary": "The MBR Plus program offers members significant discounts on all medical bills submitted by participating doctors or hospitals through a Referenced Based Pricing system. The process begins with a recommendation to contact MBR before visiting a provider to receive necessary documents and instructions, although this step is not mandatory. Members are required to pay a $25 pre-pay for primary care office visits and a $50 pre-pay for specialist office visits. After the visit, providers should mail the remaining medical bills to MBR for repricing.\n\nUpon visiting the provider, members must show their MBR card at the time of service. Members are also responsible for completing insurance claim forms to receive insured benefits, with the MBR team available to provide forms and instructions. Once bills are submitted for repricing, both the member and healthcare provider will receive a detailed Explanation of Benefits (EOB) from MBR, specifying the billed amount and any discounts applied.\n\nFinally, members should expect a final bill from their medical provider, aligning with the amount due on the EOB. Insurance companies may provide additional funds to cover outstanding balances. The MBR team is available to assist throughout the entire process. However, it is noted that while MBR strives to help, they cannot guarantee the outcome of any claim or the amount of savings on any bill, and medical providers may decline to honor this service.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 19
+    },
+    "24": {
+      "page_number": 24,
+      "original_name": "MyChoice High_Brochure_1_page_024.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_024.jpg",
+      "new_name": "24_additional_member_benefits_these_benefits_are_not_insurance_page_16.jpg",
+      "new_path": "img/pages/24_additional_member_benefits_these_benefits_are_not_insurance_page_16.jpg",
+      "page_title": "additional_member_benefits_these_benefits_are_not_insurance_page_16",
+      "summary": "The page titled 'Additional Member Benefits' highlights benefits that are explicitly stated as not being insurance. This suggests that the benefits provided are supplementary and may include services or discounts that enhance the primary insurance coverage. The emphasis on these benefits not being insurance indicates that they are likely ancillary services that provide added value to members without being part of the core insurance plan. These could include services like wellness programs, discounts on health-related products, or access to certain health facilities at reduced rates. The page serves as an introduction to these additional offerings, setting the stage for more detailed descriptions in subsequent sections.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 24
+    },
+    "22": {
+      "page_number": 22,
+      "original_name": "MyChoice High_Brochure_1_page_022.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_022.jpg",
+      "new_name": "22_benefits_and_features_for_plan_3_with_coverage_limits_and_pre_existing_conditions.jpg",
+      "new_path": "img/pages/22_benefits_and_features_for_plan_3_with_coverage_limits_and_pre_existing_conditions.jpg",
+      "page_title": "benefits_and_features_for_plan_3_with_coverage_limits_and_pre_existing_conditions",
+      "summary": "This document outlines the benefits and features of Plan 3, highlighting various coverage details and limits. The plan provides an inpatient hospital confinement benefit of $300 and an intensive care confinement benefit of $500. The hospital benefits are capped at a $1,000,000 calendar year limit. For the first day of hospitalization admission, a benefit of $1,000 is provided. Ambulance benefits are specified as $100 for ground transport and $300 for air transport. Emergency room visits are covered at $200 per visit.\n\nThe plan includes a surgical benefit aligned with a surgical schedule, and the same applies to anesthesia and assistant surgeon benefits. Ambulatory outpatient facility coverage is set at $500. Office visits are covered at $75, while wellness visits are covered at $50. The calendar year maximum for outpatient services is $4,000, and the lifetime maximum benefit is $5,000,000.\n\nPre-existing conditions have a 12/12 clause, indicating a waiting period or limitation. Portability is included, allowing for the transfer of coverage under certain conditions. The document notes that this is not a complete disclosure of plan qualifications and limitations, and benefits depend on the selected plan.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 22
+    },
+    "21": {
+      "page_number": 21,
+      "original_name": "MyChoice High_Brochure_1_page_021.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_021.jpg",
+      "new_name": "21_group_affordable_choice_hospital_indemnity_plan_with_cash_benefits_and_eligibility_criteria.jpg",
+      "new_path": "img/pages/21_group_affordable_choice_hospital_indemnity_plan_with_cash_benefits_and_eligibility_criteria.jpg",
+      "page_title": "group_affordable_choice_hospital_indemnity_plan_with_cash_benefits_and_eligibility_criteria",
+      "summary": "The Group Affordable Choice plan offers cash benefits directly to members, supplementing other insurance coverage. These benefits can be used flexibly to cover medical bills and everyday expenses, aiding members in returning to work. Key features include receiving cash benefits regardless of other insurance, no requirement for physical exams, and inclusion of premiums in monthly membership dues. Benefits are paid directly to the insured for covered services due to sickness or injury, allowing members to use the cash as needed.\n\nThe plan is a group hospital indemnity policy designed to cover everyday medical expenses for members and their families. It is available to members aged 18-70, with spouses also eligible within the same age range, and children under age 26. Eligibility requires members to be actively working full-time, at least 20 hours per week. Spouses and children are not eligible if the member is not covered. Domestic partners are included where allowed by state and association.\n\nTermination age for members is 71, for spouses when the member terminates, and for children at age 26 or when the member terminates, whichever is earlier. The coverage tier offers a guarantee issue for members, spouses, and children. The document notes that this is not a complete disclosure of plan qualifications and limitations, and benefits depend on the selected plan.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 21
+    },
+    "23": {
+      "page_number": 23,
+      "original_name": "MyChoice High_Brochure_1_page_023.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_023.jpg",
+      "new_name": "23_definitions_of_benefits_including_inpatient_hospital_intensive_care_and_surgery_benefits.jpg",
+      "new_path": "img/pages/23_definitions_of_benefits_including_inpatient_hospital_intensive_care_and_surgery_benefits.jpg",
+      "page_title": "definitions_of_benefits_including_inpatient_hospital_intensive_care_and_surgery_benefits",
+      "summary": "The document outlines various benefits provided under the insurance plan, focusing on specific conditions and limitations. The Inpatient Hospital Confinement Benefit offers a daily benefit for up to 10 days when a covered person is confined under a healthcare practitioner's orders due to sickness or injury. This benefit is not applicable if the confinement is in a rehabilitation unit and is subject to the Hospital Benefits Calendar Year Maximum. Similarly, the Intensive Care Unit Confinement Benefit provides a daily benefit for up to 10 days for confinement in an ICU, cardiac care unit, or burn unit, with similar restrictions and maximums.\n\nThe First Day Hospital Admission Benefit pays a benefit for the first day of inpatient admission once per calendar year. The Ambulance Benefit covers per trip expenses for ground or air transportation, limited to one trip per year. Emergency Room Benefit provides a daily benefit for emergency room visits, subject to a calendar year maximum. Surgery Benefit, Anesthesia Benefit, and Assistant Surgeon Benefit are determined by the units shown on the Schedule of Benefits for covered surgeries, each subject to the Surgical Benefits Calendar Year Maximum.\n\nAdditional benefits include the Ambulatory/Outpatient Facility Benefit, Office Visit Benefit, and Wellness Benefit, each with specific daily limits and conditions. The document also details pre-existing condition clauses, stating that benefits are not payable for events related to pre-existing conditions unless the covered person has been insured for 12 months. Portability allows members to retain coverage under certain conditions, with specific eligibility requirements outlined. The document emphasizes that this is not a complete disclosure of plan qualifications and limitations.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 23
+    },
+    "26": {
+      "page_number": 26,
+      "original_name": "MyChoice High_Brochure_1_page_026.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_026.jpg",
+      "new_name": "26_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount.jpg",
+      "new_path": "img/pages/26_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount.jpg",
+      "page_title": "prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount",
+      "summary": "The document outlines the features and benefits of a Free Rx Coupon Card provided by the Business Workers of America Association. This card offers significant savings on prescription medications, allowing users to save up to 80% on their purchases. The card is accepted at over 68,000 pharmacies nationwide, providing broad access to discounts on both brand and generic drugs. The program is designed to be user-friendly, with no restrictions and full HIPAA compliance, ensuring privacy and ease of use.\n\nThe card is pre-activated, meaning it can be used immediately without any additional steps. Users are instructed to bring the discount coupon card to their pharmacy and present it to the pharmacist when paying to receive the savings. This straightforward process is aimed at maximizing convenience and accessibility for users.\n\nThe document also highlights the wide network of participating pharmacies, including major chains such as CVS, Walgreens, Walmart, and Rite Aid, among others. This extensive network ensures that users can easily find a participating pharmacy near them. It is important to note that this program is not insurance, but rather a discount program designed to reduce out-of-pocket costs for prescription medications.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 26
+    },
+    "27": {
+      "page_number": 27,
+      "original_name": "MyChoice High_Brochure_1_page_027.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_027.jpg",
+      "new_name": "27_bwa_healthwarehouse_prescription_savings_and_ordering_information.jpg",
+      "new_path": "img/pages/27_bwa_healthwarehouse_prescription_savings_and_ordering_information.jpg",
+      "page_title": "bwa_healthwarehouse_prescription_savings_and_ordering_information",
+      "summary": "This page highlights the partnership between BWA and HealthWarehouse to offer significant savings on prescription medications, ranging from 30% to 90%. It emphasizes the ease of ordering medications online or via phone, providing a direct contact number and website link for convenience. The focus is on reducing costs by eliminating the traditional retail pharmacy overhead and leveraging technology and sourcing strategies. This approach allows for efficient and cost-effective processing of prescriptions, ultimately passing savings to customers. The page underscores the commitment to compassion, convenience, and transparency in providing affordable medication options.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 27
+    },
+    "25": {
+      "page_number": 25,
+      "original_name": "MyChoice High_Brochure_1_page_025.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_025.jpg",
+      "new_name": "25_lab_services_usage_instructions_with_directlabs_blood_urine_saliva_hair_fecal_tests.jpg",
+      "new_path": "img/pages/25_lab_services_usage_instructions_with_directlabs_blood_urine_saliva_hair_fecal_tests.jpg",
+      "page_title": "lab_services_usage_instructions_with_directlabs_blood_urine_saliva_hair_fecal_tests",
+      "summary": "This page provides detailed instructions on how to utilize lab services through DirectLabs, focusing on serious medical conditions such as heart disease, prostate cancer, diabetes, and thyroid disease. It emphasizes the importance of early detection and offers direct access to major clinical labs across the USA for essential blood tests at discounted prices. The process is simplified as no doctor's appointment is necessary, and tests are offered at a savings of up to 80% compared to typical lab costs. DirectLabs services include blood, urine, saliva, hair, and fecal tests.\n\nFor ordering online, users are instructed to create an account on the DirectLabs website, complete the registration, and use their MyDLS account to place orders, sign HIPAA forms, and print requisitions. After ordering, a requisition is generated and uploaded to the user's online account, with results available online within 24-48 hours for most tests. Users are advised to log into their account to submit results to their healthcare provider.\n\nFor ordering by phone, users can call a provided number and use a specific code. A MyDLS account is created automatically, and users receive an email with login details. Personal information and credit card details are required for payment. The page also notes that the discount program is not health insurance and that all tests are prepaid and out-of-pocket.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 25
+    },
+    "30": {
+      "page_number": 30,
+      "original_name": "MyChoice High_Brochure_1_page_030.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_030.jpg",
+      "new_name": "30_error_analyzing_mychoice_high_brochure_1_page_030jpg.jpg",
+      "new_path": "img/pages/30_error_analyzing_mychoice_high_brochure_1_page_030jpg.jpg",
+      "page_title": "Error analyzing MyChoice High_Brochure_1_page_030.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 30
+    },
+    "28": {
+      "page_number": 28,
+      "original_name": "MyChoice High_Brochure_1_page_028.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_028.jpg",
+      "new_name": "28_employee_perks_program_with_savings_on_electronics_appliances_and_more.jpg",
+      "new_path": "img/pages/28_employee_perks_program_with_savings_on_electronics_appliances_and_more.jpg",
+      "page_title": "employee_perks_program_with_savings_on_electronics_appliances_and_more",
+      "summary": "The page introduces an Employee Perks Program designed to enhance personal and financial well-being through exclusive deals and limited-time offers. It highlights the opportunity for employees to access a variety of savings on products, services, and experiences that are essential and enjoyable. The program offers discounts on electronics, appliances, apparel, cars, and theme parks, providing a broad range of options for employees to choose from. Additionally, savings are available on gift cards, groceries, hotels, movie tickets, and flowers, catering to both everyday needs and special occasions.\n\nThe program also includes discounts on fitness memberships, rental cars, special events, and more, ensuring that employees can benefit from a wide array of services. The process to join the program is straightforward, involving visiting the website, becoming a member, and entering a company code or work email to create an account. This initiative is aimed at making employees happier by offering more perks and savings, thereby supporting their overall well-being.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 28
+    },
+    "31": {
+      "page_number": 31,
+      "original_name": "MyChoice High_Brochure_1_page_031.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_031.jpg",
+      "new_name": "31_live_online_seminars_with_10_percent_discount_and_certification_credits.jpg",
+      "new_path": "img/pages/31_live_online_seminars_with_10_percent_discount_and_certification_credits.jpg",
+      "page_title": "live_online_seminars_with_10_percent_discount_and_certification_credits",
+      "summary": "This page promotes live online seminars available throughout the year, offering a 10% discount on all sessions. The seminars cover over 20 business training categories, including communication, Excel, HR, leadership, and project management. Participants can earn certifications such as NASBA, OSHA, PMI, and SHRM, with credits like CEU, CPE, HRCI, PDC, and PDU. The seminars offer flexible scheduling options, including half-day and full-day sessions. To avail of the discount, users must enter the express code 922633 during registration. More information and registration details can be found at the provided website link.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 31
+    },
+    "29": {
+      "page_number": 29,
+      "original_name": "MyChoice High_Brochure_1_page_029.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_029.jpg",
+      "new_name": "29_allheart_member_discounts_and_uniform_services_with_personalized_options.jpg",
+      "new_path": "img/pages/29_allheart_member_discounts_and_uniform_services_with_personalized_options.jpg",
+      "page_title": "allheart_member_discounts_and_uniform_services_with_personalized_options",
+      "summary": "This page highlights the services and benefits offered by Allheart to medical professionals and students. It emphasizes the importance of providing quality products and services, aiming to equip individuals from head to toe for convenience and value. Members can access discounts by visiting the Allheart website and using a specific code. The page outlines several key services, including a dedicated account manager who collaborates closely with businesses to develop tailored programs. Additionally, there is an option for customer logo and embroidery services to enhance professional appearance and brand consistency across facilities.\n\nPersonalized ordering options are available, allowing clients to work directly with account managers to create customized ordering websites. This ensures timely delivery and customer satisfaction. On-site fittings are offered to eliminate guesswork in sizes or colors, with multiple program options to ensure the right product is selected. The page also mentions a one-stop shop feature, boasting the largest in-stock selection of medical apparel and equipment, including scrubs, lab coats, stethoscopes, and diagnostic tools.\n\nOverall, the page focuses on the comprehensive range of services provided to enhance the professional image and operational efficiency of medical groups, ensuring they have access to the necessary tools and apparel.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 29
+    },
+    "32": {
+      "page_number": 32,
+      "original_name": "MyChoice High_Brochure_1_page_032.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_032.jpg",
+      "new_name": "32_echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee.jpg",
+      "new_path": "img/pages/32_echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee.jpg",
+      "page_title": "echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee",
+      "summary": "The document introduces Echo-Sigma Emergency Systems, emphasizing the brand's commitment to providing high-quality emergency kits that do not require extensive training to use. These kits are designed for enthusiasts who appreciate handbuilt quality without the need to adopt a 'prepper' lifestyle. A key feature highlighted is the 10% savings available on purchases, which can be accessed using the coupon code 'ESFRIENDS' on their website. \n\nAdditionally, Echo-Sigma offers a 100% satisfaction guarantee. Customers who are not completely satisfied with their emergency kit purchase can return it for a full refund within 60 days, with no hassle or paperwork involved. The company even covers the return postage, underscoring their commitment to customer satisfaction. This guarantee reflects Echo-Sigma's confidence in the quality and thoughtfulness of their products, ensuring that customers feel they have made the right decision upon receiving their order.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 32
+    },
+    "33": {
+      "page_number": 33,
+      "original_name": "MyChoice High_Brochure_1_page_033.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_033.jpg",
+      "new_name": "33_additional_discount_benefits_and_services_access_instructions_for_bwa_members.jpg",
+      "new_path": "img/pages/33_additional_discount_benefits_and_services_access_instructions_for_bwa_members.jpg",
+      "page_title": "additional_discount_benefits_and_services_access_instructions_for_bwa_members",
+      "summary": "This document introduces new members of the Business Workers of America (BWA) to a package of additional discount benefits and services. As a not-for-profit member association, BWA is committed to enhancing the lives of American workers and their families. The document outlines the steps necessary for members to access and utilize their benefits. Members are directed to a specific website where they can find detailed information about their benefits. To access the site, members must enter their Group Number, Unique Member Number, and Zip Code. The Group Number is provided in the document, while the Member Number can be found on the member's ID card. The website will provide comprehensive instructions on how to use each benefit. For further assistance, members are encouraged to contact Member Services using the phone number on their ID card.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 33
+    },
+    "35": {
+      "page_number": 35,
+      "original_name": "MyChoice High_Brochure_1_page_035.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_035.jpg",
+      "new_name": "35_online_fitness_center_with_weight_management_and_education_benefits.jpg",
+      "new_path": "img/pages/35_online_fitness_center_with_weight_management_and_education_benefits.jpg",
+      "page_title": "online_fitness_center_with_weight_management_and_education_benefits",
+      "summary": "The Online Fitness Center (OFC), in collaboration with Leanness Lifestyle University, provides a structured online lifestyle education program aimed at permanent weight management. The program is designed with progressive, ongoing, six-week, step-by-step wellness-education modules. It claims to offer an effective weight-management solution, enabling students to lose up to 10 pounds in their first week, up to 10% of their starting weight in six weeks, and up to 89 pounds in 18 weeks. The focus is on teaching strategies to maintain weight loss for life.\n\nFounded by David Greenwalt, a Certified Wellness Coach, Leanness Lifestyle University has been educating industry leaders globally for over 20 years. The program is entirely online, targeting a wide range of professionals, including executives and household leaders, to educate them on nutrition, activity, and lifestyle behaviors. The aim is to empower students to take control of their weight for the last time, moving beyond the simple 'calories in and calories out' approach.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 35
+    },
+    "34": {
+      "page_number": 34,
+      "original_name": "MyChoice High_Brochure_1_page_034.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_034.jpg",
+      "new_name": "34_online_health_manager_with_health_tracker_and_personal_health_record_benefits.jpg",
+      "new_path": "img/pages/34_online_health_manager_with_health_tracker_and_personal_health_record_benefits.jpg",
+      "page_title": "online_health_manager_with_health_tracker_and_personal_health_record_benefits",
+      "summary": "The Online Health Manager offers a comprehensive suite of tools and resources designed to help individuals take better care of themselves by identifying and targeting risk areas. Users are encouraged to take action and track improvements in their health, with the aim of enjoying a healthier lifestyle. The platform provides a guide to managing daily life challenges, such as sleep issues or stress, through its Online Health Manager feature. This feature includes access to a variety of resources, such as physician-reviewed materials and health assessments, to give users an overview of their health status.\n\nThe Health Tracker, powered by MyFitnessPal, is a key component, used by over 140 million people to achieve healthier lifestyles. It offers tools and support for weight management and healthy eating habits, emphasizing the importance of consistent tracking. Data shows that 88% of users who track for seven days in a row lose weight. Additionally, the Personal Health Record feature allows users to maintain complete and accessible health records, which can be shared with family members or healthcare providers, offering a comprehensive view of one's health history.\n\nWeekly Health Tips are another valuable resource, authored by physicians and covering a range of topics from seasonal issues to new research. These tips are easy to understand and provide links to further resources for those interested in deeper exploration. The Health Information Library complements these features by offering over 1500 physician-reviewed topics, complete with tutorials and printable articles for user review.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 34
+    },
+    "37": {
+      "page_number": 37,
+      "original_name": "MyChoice High_Brochure_1_page_037.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_037.jpg",
+      "new_name": "37_online_fitness_and_nutrition_coach_support_and_tools_for_motivation.jpg",
+      "new_path": "img/pages/37_online_fitness_and_nutrition_coach_support_and_tools_for_motivation.jpg",
+      "page_title": "online_fitness_and_nutrition_coach_support_and_tools_for_motivation",
+      "summary": "The OFC program offers students access to Wellness Coaches and graduate mentors for personalized support. These mentors, who have successfully completed the program, provide accountability and answer specific questions related to nutrition, exercise, and fitness. Students can expect a personal response within one business day. The program emphasizes the importance of having a coach to help analyze, understand, and provide feedback on health-related inputs, which is a feature missing from popular fitness apps. \n\nThe program facilitates structured and easy tracking of food and activity, along with personalized feedback, motivation, and lifestyle management. These services are designed to mimic successful in-person group behavioral programs but at a reduced cost. Additionally, the program offers text support services to keep members motivated. This includes sending motivational texts when members face tempting situations and providing daily doses of healthy motivation through text messages. \n\nMembers also have access to audio-guided cardio workouts led by Cardio Coach Sean O'Malley, which are designed to be engaging and effective. Furthermore, the program provides access to strength training resources from founder David Greenwalt, offering tools for creating safe and effective strength-training routines using minimal equipment.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 37
+    },
+    "39": {
+      "page_number": 39,
+      "original_name": "MyChoice High_Brochure_1_page_039.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_039.jpg",
+      "new_name": "39_members_save_25_percent_on_lets_get_checked_home_tests_with_overview_of_benefits.jpg",
+      "new_path": "img/pages/39_members_save_25_percent_on_lets_get_checked_home_tests_with_overview_of_benefits.jpg",
+      "page_title": "members_save_25_percent_on_lets_get_checked_home_tests_with_overview_of_benefits",
+      "summary": "This page highlights a special offer for members, providing a 25% discount on most 'Lets Get Checked' home tests, with the exclusion of COVID tests. The offer is part of a broader initiative to encourage proactive health management. Members can choose from over 30 different home health tests, catering to a wide range of health monitoring needs. The service includes free shipping both ways, ensuring convenience and cost-effectiveness for users. Additionally, the tests promise accurate lab results within 2 to 5 days, allowing for timely health assessments. The overview section showcases various test kits available, emphasizing the ease and accessibility of home health testing. This initiative aims to empower individuals to take charge of their health with reliable and efficient testing options.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 39
+    },
+    "36": {
+      "page_number": 36,
+      "original_name": "MyChoice High_Brochure_1_page_036.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_036.jpg",
+      "new_name": "36_online_fitness_nutrition_program_with_six_week_modules_and_ongoing_support.jpg",
+      "new_path": "img/pages/36_online_fitness_nutrition_program_with_six_week_modules_and_ongoing_support.jpg",
+      "page_title": "online_fitness_nutrition_program_with_six_week_modules_and_ongoing_support",
+      "summary": "The online fitness and nutrition program is designed to be easily accessible, requiring no downloads or special software, and is compatible with various devices such as phones, tablets, and desktops. The program eliminates the need for travel, in-person meetings, or special dietary supplements. It is structured in six-week modules, beginning with an orientation week to familiarize students with the online platform and initial lessons, followed by personal communication from a coach. The subsequent five weeks focus on education, accountability, and support aimed at weight loss and unwanted fat reduction.\n\nEach module starts with a transition week, followed by five weeks of continued education and support, either for maintaining weight loss or further fat reduction. The program emphasizes a nutritionally and actively fit lifestyle, incorporating emotional fitness to keep students engaged and achieving their weight goals with coaching input. Unlike typical short-term diets, this program is ongoing, with new modules every six weeks, ensuring continuous engagement and support.\n\nThe program is not a diet but a lifestyle change, supported by research and evidence. It highlights the importance of ongoing education and accountability, noting that individuals who maintain these practices have a higher chance of sustaining weight loss. Successful participants are encouraged to continue with the program and maintain the support system that helped them achieve their goals, aiming for long-term weight maintenance over at least four years.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 36
+    },
+    "38": {
+      "page_number": 38,
+      "original_name": "MyChoice High_Brochure_1_page_038.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_038.jpg",
+      "new_name": "38_online_fitness_and_nutrition_review_of_ofc_benefits_for_proactive_health_members.jpg",
+      "new_path": "img/pages/38_online_fitness_and_nutrition_review_of_ofc_benefits_for_proactive_health_members.jpg",
+      "page_title": "online_fitness_and_nutrition_review_of_ofc_benefits_for_proactive_health_members",
+      "summary": "This document outlines the benefits of the Online Fitness and Nutrition program, specifically designed for proactive members who value their health. The program emphasizes the importance of reducing excess weight and maintaining a healthy lifestyle, which impacts overall wellness. It highlights that, aside from smoking cessation, no other wellness initiative matches the impact of living a healthier lifestyle.\n\nThe program has been proven since 1999 and is refined daily to deliver evidence-based lifestyle education for permanent weight management. It offers privacy and anonymity, with no in-person meetings, travel, special foods, or diet pills required. The program includes a strength and cardio exercise regimen for optimal calorie burn, strength, and mental sharpness.\n\nParticipants receive support from coaches who provide accountability, motivation, feedback, and personal support. Group support is available through on-campus student lounges and private Facebook groups. The program also includes an organized system for recording, tracking, and reporting progress, fostering new friendships that may last a lifetime. Additionally, participants receive a free body-transformation textbook to kickstart their journey.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 38
+    },
+    "40": {
+      "page_number": 40,
+      "original_name": "MyChoice High_Brochure_1_page_040.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_040.jpg",
+      "new_name": "40_my_auto_expert_mechanic_hotline_with_ase_certified_technicians_and_nationwide_warranty.jpg",
+      "new_path": "img/pages/40_my_auto_expert_mechanic_hotline_with_ase_certified_technicians_and_nationwide_warranty.jpg",
+      "page_title": "my_auto_expert_mechanic_hotline_with_ase_certified_technicians_and_nationwide_warranty",
+      "summary": "The My Auto Expert\u2122 service offers a mechanic hotline that connects users with ASE Certified Automotive Technicians. These experts provide unbiased and independent advice for both general and emergency automotive issues. The service includes a variety of features such as a shop locator service, second opinion consultations, repair cost estimations, mechanical diagnosis, and technical assistance. These services are designed to assist with questions related to vehicles, including those involving rental cars.\n\nTechnicians associated with My Auto Expert\u2122 can validate diagnoses and recommended repairs, ensuring that charges are fair and at market price. They also help identify potential issues with vehicles and direct users to the nearest affiliate within their nationwide network. This network offers a minimum 12-month/12,000-mile nationwide parts and labor warranty on qualifying repairs or services.\n\nTo access the service, users can call a certified ASE technician at the provided hotline number during specified hours. This ensures that expert advice is readily available to address automotive concerns efficiently.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 40
+    },
+    "41": {
+      "page_number": 41,
+      "original_name": "MyChoice High_Brochure_1_page_041.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_041.jpg",
+      "new_name": "41_nurse_hotline_24_7_access_with_free_member_benefit_for_medical_advice.jpg",
+      "new_path": "img/pages/41_nurse_hotline_24_7_access_with_free_member_benefit_for_medical_advice.jpg",
+      "page_title": "nurse_hotline_24_7_access_with_free_member_benefit_for_medical_advice",
+      "summary": "The Nurse Hot-Line is a valuable membership benefit that provides 24-hour access to registered nurses every day of the year. This service is designed to assist members in making informed health decisions, especially during times when other medical resources are unavailable, such as late at night or on weekends. Members can call the hotline to receive immediate advice on health-related questions, which can be crucial for situations involving children with fevers, strange rashes, or other unusual symptoms. The service is particularly beneficial when a doctor's office is closed, offering peace of mind and professional guidance at any hour.\n\nThis benefit is entirely free for members, allowing unlimited use without any additional cost. It emphasizes the importance of making decisions based on professional medical advice rather than relying solely on personal judgment, which can have long-term implications for family safety and welfare. The hotline ensures that members have access to expert advice whenever they need it, supporting better health outcomes and reducing the stress associated with urgent medical decisions.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 41
+    },
+    "42": {
+      "page_number": 42,
+      "original_name": "MyChoice High_Brochure_1_page_042.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_042.jpg",
+      "new_name": "42_health_information_library_with_over_1000_topics_and_available_categories.jpg",
+      "new_path": "img/pages/42_health_information_library_with_over_1000_topics_and_available_categories.jpg",
+      "page_title": "health_information_library_with_over_1000_topics_and_available_categories",
+      "summary": "The Health Information Library offers access to a vast collection of over 1,000 health-related topics. This resource is available both over the phone and through a web portal, providing users with convenient access to a wide range of health information. Each topic is regularly reviewed by medical authorities to ensure accuracy and up-to-date content. The library covers a diverse array of categories, including Allergies and Immune System, Blood and Cancer, Bones, Muscles and Joints, Brain and Nervous System, and Cancer. Additional categories include Children, Diabetes, Diet and Exercise, Digestive System, Ear, Nose and Throat, and Women's Health.\n\nFurther topics encompass Eyes, Foot Problems, Genes and Heredity, General Health, Heart and Blood Vessels, Hormones, Infectious Disease, Injuries, Medicines, Men's Health, and Pain Management. The library also includes information on Physical and Sports Medicine, Pregnancy, Preventive Health, Respiratory and Lung Problems, Sexual and Reproductive Health, Skin, Sleep Disorders, Social and Family, Surgery, and Tests and Diagnostic. This extensive library aims to provide the most accurate and up-to-date health information possible, catering to a wide range of health interests and needs.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 42
+    },
+    "45": {
+      "page_number": 45,
+      "original_name": "MyChoice High_Brochure_1_page_045.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_045.jpg",
+      "new_name": "45_error_analyzing_mychoice_high_brochure_1_page_045jpg.jpg",
+      "new_path": "img/pages/45_error_analyzing_mychoice_high_brochure_1_page_045jpg.jpg",
+      "page_title": "Error analyzing MyChoice High_Brochure_1_page_045.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 45
+    },
+    "46": {
+      "page_number": 46,
+      "original_name": "MyChoice Mid_Brochure_1_page_046.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_046.jpg",
+      "new_name": "46_error_analyzing_mychoice_mid_brochure_1_page_046jpg.jpg",
+      "new_path": "img/pages/46_error_analyzing_mychoice_mid_brochure_1_page_046jpg.jpg",
+      "page_title": "Error analyzing MyChoice Mid_Brochure_1_page_046.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 46
+    },
+    "44": {
+      "page_number": 44,
+      "original_name": "MyChoice High_Brochure_1_page_044.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_044.jpg",
+      "new_name": "44_financial_counseling_and_resources_with_unlimited_access_and_direct_resource_center.jpg",
+      "new_path": "img/pages/44_financial_counseling_and_resources_with_unlimited_access_and_direct_resource_center.jpg",
+      "page_title": "financial_counseling_and_resources_with_unlimited_access_and_direct_resource_center",
+      "summary": "The document outlines the benefits of financial counseling and resources provided by the Business Workers of America Association. With over 20 years of experience, the organization offers professional and objective financial counseling and coaching. The focus is on education, dedication, and working towards financial goals as a defense against uncertain financial times. Clients can access live, confidential, and objective guidance from experienced, accredited financial counselors with unlimited access. Additionally, there is direct access to the Financial Resource Center.\n\nThe advantages of this service include the ability to address any financial question or issue, no matter how small or complex. The counseling is designed to help individuals take control of their finances and make informed decisions. The service emphasizes the importance of unbiased advice, as the counselors have no revenue incentives or ancillary services to sell. The goal is to provide fact-based recommendations through personal consultations and analysis of spending patterns.\n\nThe document highlights the importance of knowing who to trust with financial matters. Unlike financial planners, these counselors focus solely on listening to clients and providing tailored advice. This approach aims to bring about fundamental changes in financial behavior and improve future decision-making.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 44
+    },
+    "43": {
+      "page_number": 43,
+      "original_name": "MyChoice High_Brochure_1_page_043.jpg",
+      "original_path": "img/pages/MyChoice High_Brochure_1_page_043.jpg",
+      "new_name": "43_legal_plan_with_fee_reduction_and_consultation_benefits_for_various_legal_matters.jpg",
+      "new_path": "img/pages/43_legal_plan_with_fee_reduction_and_consultation_benefits_for_various_legal_matters.jpg",
+      "page_title": "legal_plan_with_fee_reduction_and_consultation_benefits_for_various_legal_matters",
+      "summary": "The legal plan offers significant benefits to members by providing access to legal services at reduced costs. Members are entitled to one free 30-minute office or telephone consultation per separate legal matter. Additionally, there is a 25% preferred rate reduction from the law firm's standard hourly or flat rate fees. This reduction can be utilized by members and their dependents as often as needed while covered by the plan.\n\nThe plan covers a wide range of legal matters, ensuring members have access to necessary legal assistance. These matters include adoption and guardianship, divorce, ante nuptial agreements, bankruptcy, document preparation and review, civil litigation, driving under the influence, landlord/tenant issues, collection matters, name changes, corporations and partnerships, debt collection defense, criminal matters, traffic violations, real estate, and wills and trusts.\n\nThis legal plan is designed to assist consumers with potentially high legal fees by providing affordable resources during critical times. It connects members with experienced attorneys, mediators, and legal document assistants, offering support through various challenging legal situations.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice High_Brochure_1",
+      "global_page_num": 43
+    },
+    "47": {
+      "page_number": 47,
+      "original_name": "MyChoice Mid_Brochure_1_page_047.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_047.jpg",
+      "new_name": "47_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "new_path": "img/pages/47_business_workers_of_america_association_mission_and_member_benefits.jpg",
+      "page_title": "business_workers_of_america_association_mission_and_member_benefits",
+      "summary": "The Business Workers of America Association (BWA) is a not-for-profit member association founded in 2001, dedicated to improving the lives of American workers and their families. The mission is achieved through various activities and services aimed at providing valuable information and education about trades or professions. The association focuses on representing American workers' interests in federal and state legislation, which directly benefits individuals and their families by promoting better lifestyles, higher incomes, and lower healthcare costs. \n\nBWA supports trade colleges and institutions that offer free or low-cost higher education and skill training programs. It provides scholarships or grants to members or their family members who wish to attend college or trade schools, enabling them to learn a skill or trade and enter professional programs. Additionally, the association directs and assists members in accessing federal or state programs for financial assistance, improving their life opportunities. \n\nThe association also makes healthcare, supplemental benefits, and wellness programs available to enhance families' overall health and wellness. It supports institutions that educate and train workers to meet workplace demands and supports charities aligned with the association's goals and mission.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 47
+    },
+    "48": {
+      "page_number": 48,
+      "original_name": "MyChoice Mid_Brochure_1_page_048.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_048.jpg",
+      "new_name": "48_association_benefits_as_a_member_of_bwa_package_details_and_services.jpg",
+      "new_path": "img/pages/48_association_benefits_as_a_member_of_bwa_package_details_and_services.jpg",
+      "page_title": "association_benefits_as_a_member_of_bwa_package_details_and_services",
+      "summary": "The document outlines the benefits and services available to members of the Business Workers of America Association (BWA). It emphasizes that both members and their families are entitled to a package of benefits designed to support their needs. The booklet serves as a guide to understanding the various benefits included with the membership, providing a detailed overview of what members can expect. This includes access to specific services and support mechanisms that are part of the membership package. The focus is on ensuring that members are aware of the entitlements and how they can utilize these benefits effectively.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 48
+    },
+    "49": {
+      "page_number": 49,
+      "original_name": "MyChoice Mid_Brochure_1_page_049.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_049.jpg",
+      "new_name": "49_mbr_plus_medical_bill_repricing_and_concierge_healthcare_advocacy_with_financial_guidance.jpg",
+      "new_path": "img/pages/49_mbr_plus_medical_bill_repricing_and_concierge_healthcare_advocacy_with_financial_guidance.jpg",
+      "page_title": "mbr_plus_medical_bill_repricing_and_concierge_healthcare_advocacy_with_financial_guidance",
+      "summary": "MBR Plus is a service that integrates medical bill repricing, healthcare advocacy, and bill negotiation, providing members with the flexibility to access medical care from any licensed provider. Key features include a $25 pre-pay for primary care office visits, concierge-style healthcare advocacy, and direct bill negotiations. Additionally, members receive guidance on obtaining financial assistance. The service aims to simplify the complex healthcare system, ensuring members receive high-quality care at competitive prices. MBR Plus employs a Reference Based Pricing System, which adjusts healthcare bills to 150% to 200% of the 'Medicare Allowable Rates.' This system is prevalent in the Healthcare Self-Insured Group Marketplace, with over 70% of employer groups utilizing it to reduce medical service rates. By leveraging this cost-containment method, MBR Plus often achieves lower provider fees and reduces out-of-pocket expenses for members, surpassing typical PPO network savings. The dedicated support team assists members throughout the process, from financial aid to bill negotiation, ensuring a stress-free experience.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 49
+    },
+    "52": {
+      "page_number": 52,
+      "original_name": "MyChoice Mid_Brochure_1_page_052.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_052.jpg",
+      "new_name": "52_benefits_and_features_for_plan_2_with_coverage_limits_and_pre_existing_conditions.jpg",
+      "new_path": "img/pages/52_benefits_and_features_for_plan_2_with_coverage_limits_and_pre_existing_conditions.jpg",
+      "page_title": "benefits_and_features_for_plan_2_with_coverage_limits_and_pre_existing_conditions",
+      "summary": "This document outlines the benefits and features of Plan 2, providing detailed information on various coverage aspects. The plan includes an inpatient hospital confinement benefit of $300 and an intensive care confinement benefit of $500. The hospital benefits are capped at a $1,000,000 calendar year limit. For the first day of hospitalization admission, the plan offers a benefit of $1,000. Ambulance benefits are specified as $100 for ground transportation and $200 for air transportation. Emergency room visits are covered with a $200 benefit.\n\nThe plan also includes office and wellness visits, each covered at $50. The calendar year maximum for outpatient services is set at $4,000, while the lifetime maximum benefit is $5,000,000. Pre-existing conditions are subject to a 12/12 clause, indicating a waiting period or limitation. Portability is included, allowing for continued coverage under certain conditions.\n\nCertain benefits such as surgical, ambulatory outpatient facility, assistant surgeon, and anesthesia are marked as not applicable (N/A), indicating they are not covered under this plan. The document also notes that this is not a complete disclosure of plan qualifications and limitations, emphasizing the importance of reviewing the full policy details.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 52
+    },
+    "51": {
+      "page_number": 51,
+      "original_name": "MyChoice Mid_Brochure_1_page_051.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_051.jpg",
+      "new_name": "51_group_affordable_choice_plan_with_cash_benefits_and_eligibility_criteria.jpg",
+      "new_path": "img/pages/51_group_affordable_choice_plan_with_cash_benefits_and_eligibility_criteria.jpg",
+      "page_title": "group_affordable_choice_plan_with_cash_benefits_and_eligibility_criteria",
+      "summary": "The Group Affordable Choice plan offers cash benefits directly to members, which can be used to pay medical bills and cover everyday expenses. This plan provides flexibility as the cash benefits are paid regardless of any other insurance coverage the member may have. Notably, there is no requirement for a physical exam, and premiums are included in the monthly membership dues. The plan is designed to reimburse insured individuals for specified amounts for covered services due to sickness or injury, with benefits paid directly to the insured. \n\nEligibility for the plan requires members to be actively working full-time, with a minimum of 20 hours per week. The issue age for members and spouses is between 18 and 70, while children under the age of 26 are also eligible. Spouses, including domestic partners where allowed, are covered if the member is issued coverage. Termination age for members is 71, for spouses it is when the member terminates, and for children, it is age 26 or when the member terminates, whichever is earlier. \n\nThe plan offers a guarantee issue for members, spouses, and children, ensuring coverage without underwriting requirements. This plan is underwritten by ManhattanLife Insurance and Annuity Company, with specific terms and conditions outlined in the policy form AN7002. For claims, members are directed to contact the provided phone number.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 51
+    },
+    "50": {
+      "page_number": 50,
+      "original_name": "MyChoice Mid_Brochure_1_page_050.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_050.jpg",
+      "new_name": "50_mbr_plus_discount_program_with_referenced_based_pricing_and_how_it_works_steps.jpg",
+      "new_path": "img/pages/50_mbr_plus_discount_program_with_referenced_based_pricing_and_how_it_works_steps.jpg",
+      "page_title": "mbr_plus_discount_program_with_referenced_based_pricing_and_how_it_works_steps",
+      "summary": "The MBR Plus program offers members significant discounts on all medical bills submitted by participating doctors or hospitals through a Referenced Based Pricing system. The process begins with a recommendation to call MBR before visiting a provider to receive necessary documents and instructions, although this step is not mandatory. Members are required to pay a $25 pre-pay for primary care office visits and a $50 pre-pay for specialist office visits. After the visit, providers should mail the remaining medical bills to MBR for repricing.\n\nUpon submission of bills for repricing, both the member and the healthcare provider will receive a detailed Explanation of Benefits (EOB) from MBR via traditional mail. This document will outline the billed amount and any discounts applied. Members are advised to show their MBR card at the time of service and complete insurance claim forms to receive insured benefits. The MBR team can provide these forms and instructions on how to complete them.\n\nFinally, members should expect a final bill from their medical provider, which should match the amount due on the EOB already received. Insurance companies may provide additional funds to help cover any outstanding balances. The MBR team is available to assist throughout the entire process, although they cannot guarantee the outcome of any claim or the amount of savings on any bill. Medical providers may decline to honor this service.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 50
+    },
+    "53": {
+      "page_number": 53,
+      "original_name": "MyChoice Mid_Brochure_1_page_053.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_053.jpg",
+      "new_name": "53_definitions_of_benefits_including_inpatient_hospital_intensive_care_and_emergency_room.jpg",
+      "new_path": "img/pages/53_definitions_of_benefits_including_inpatient_hospital_intensive_care_and_emergency_room.jpg",
+      "page_title": "definitions_of_benefits_including_inpatient_hospital_intensive_care_and_emergency_room",
+      "summary": "This document outlines various benefits provided under the insurance plan, detailing specific conditions and limits for each. The Inpatient Hospital Confinement Benefit offers a daily benefit for up to 10 days when a covered person is confined under a healthcare practitioner's orders. This benefit is not applicable if the confinement is in a rehabilitation unit. The Intensive Care Unit Confinement Benefit also provides a daily benefit for up to 10 days for confinements in an ICU, cardiac care unit, or burn unit. The First Day Hospital Admission Benefit covers the first day of inpatient admission once per calendar year. Ambulance Benefit provides a per-trip benefit for ground or air transportation, limited to one trip per year. Emergency Room Benefit offers a daily benefit for a single day when a covered person visits an emergency room.\n\nSurgery Benefit pays a daily benefit based on the surgical schedule for covered surgeries, while the Ambulatory/Outpatient Facility Benefit covers surgeries performed in outpatient settings. Anesthesia and Assistant Surgeon Benefits are determined by the surgical schedule and provide coverage for anesthesia and surgical assistance, respectively. Office Visit Benefit allows for up to three visits per year for sickness or injury, and the Wellness Benefit covers one wellness visit per year. Pre-existing conditions are not covered unless the person has been insured for 12 months, with benefits available for events occurring after this period. Portability allows members to retain coverage under certain conditions, such as continuous insurance for at least six months and being under age 70.\n\nThe document emphasizes that this is not a complete description of plan qualifications and limitations. It highlights that the benefits are limited and subject to specific conditions, such as calendar year maximums and exclusions for pre-existing conditions.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 53
+    },
+    "54": {
+      "page_number": 54,
+      "original_name": "MyChoice Mid_Brochure_1_page_054.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_054.jpg",
+      "new_name": "54_hospital_bill_advocacy_with_personalized_advocacy_and_pricing_portal_benefits.jpg",
+      "new_path": "img/pages/54_hospital_bill_advocacy_with_personalized_advocacy_and_pricing_portal_benefits.jpg",
+      "page_title": "hospital_bill_advocacy_with_personalized_advocacy_and_pricing_portal_benefits",
+      "summary": "This document outlines the services provided under the Hospital Bill Advocacy program, focusing on personalized advocacy and financial navigation for medical expenses. The program offers personalized advocacy, where experts assist individuals in understanding and managing their hospital bills. This service aims to alleviate the stress of dealing with unexpected medical expenses and hospital interactions.\n\nThe advocacy program highlights that 100 million Americans may qualify for free or discounted hospital care. The service includes a thorough assessment to determine eligibility for such benefits. Additionally, the program provides care navigation, guiding individuals to cost-effective routine care providers in their area. This ensures that patients receive necessary care without incurring surprise bills, emphasizing the importance of contacting the service before visiting a provider.\n\nA key feature is the Pricing Portal, which helps uncover hidden pricing strategies used by hospitals. Advocates use this information to negotiate better rates for patients. The program also guarantees affordable pricing for blood work through partnerships with lab facilities, offering 'know before you go' pricing. Lastly, the service provides significant discounts on prescription drugs, available at over 63,000 pharmacies, helping patients save on medication costs.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 54
+    },
+    "56": {
+      "page_number": 56,
+      "original_name": "MyChoice Mid_Brochure_1_page_056.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_056.jpg",
+      "new_name": "56_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount.jpg",
+      "new_path": "img/pages/56_prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount.jpg",
+      "page_title": "prescription_savings_free_rx_coupon_card_with_up_to_80_percent_discount",
+      "summary": "The document outlines the features of a Free Rx Coupon Card provided by the Business Workers of America Association. This card offers significant savings on prescription medications, allowing users to save up to 80% on their purchases. The card is pre-activated and can be used immediately at participating pharmacies. It is accepted at over 68,000 pharmacies nationwide, providing discounts on both brand and generic drugs. The program is designed to be user-friendly, with no restrictions and is HIPAA compliant, ensuring privacy and ease of use.\n\nTo utilize the savings, cardholders are instructed to bring the discount coupon card to their pharmacy and present it to the pharmacist when paying for prescriptions. The card is not insurance but serves as a discount tool to reduce the cost of medications. Participating pharmacies include major chains such as CVS, Walgreens, Walmart, Rite Aid, and many others, ensuring wide accessibility for users across various locations.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 56
+    },
+    "55": {
+      "page_number": 55,
+      "original_name": "MyChoice Mid_Brochure_1_page_055.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_055.jpg",
+      "new_name": "55_lab_services_usage_guide_with_ordering_instructions_and_discounts_for_blood_tests.jpg",
+      "new_path": "img/pages/55_lab_services_usage_guide_with_ordering_instructions_and_discounts_for_blood_tests.jpg",
+      "page_title": "lab_services_usage_guide_with_ordering_instructions_and_discounts_for_blood_tests",
+      "summary": "This document provides a detailed guide on how to utilize lab services offered by DirectLabs, focusing on ordering procedures and available discounts. It highlights the importance of early detection of serious medical conditions such as heart disease, prostate cancer, diabetes, and thyroid disease, which can often go unnoticed for up to two years. The service allows direct access to major clinical labs across the USA for essential blood tests at discounted prices, offering savings of up to 80% off typical lab costs. \n\nThe document outlines two primary methods for ordering lab services: online and by phone. For online orders, users are instructed to create an account on the DirectLabs website, complete the registration process, and manage their orders through the MyDLS account. This account facilitates placing orders, signing HIPAA forms, printing requisitions, and accessing results. Users are advised to keep their login credentials secure. After ordering, DirectLabs generates a requisition for the user to print, and results are typically available within 24-48 hours. Users can find a convenient lab location using the Lab Locator tool. \n\nFor phone orders, users must call a specified number and provide a code. A MyDLS account is created automatically, and users receive an email with login details. Personal information and credit card details are required for order processing. The document emphasizes that this discount program is not health insurance and that all tests are prepaid and out-of-pocket expenses. Services are not available in NJ, NY, MD, and RI.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 55
+    },
+    "57": {
+      "page_number": 57,
+      "original_name": "MyChoice Mid_Brochure_1_page_057.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_057.jpg",
+      "new_name": "57_bwa_healthwarehouse_prescription_savings_and_ordering_information.jpg",
+      "new_path": "img/pages/57_bwa_healthwarehouse_prescription_savings_and_ordering_information.jpg",
+      "page_title": "bwa_healthwarehouse_prescription_savings_and_ordering_information",
+      "summary": "This page highlights the partnership between BWA and HealthWarehouse to offer significant savings on prescription medications. Customers can save between 30% to 90% on their prescriptions by utilizing this service. The page provides instructions on how to order medications, either by checking prices online or by calling a dedicated phone number. The focus is on reducing costs by eliminating the traditional overhead associated with retail pharmacy chains. By leveraging technology and efficient sourcing, HealthWarehouse can offer lower prices directly to consumers. The page emphasizes the absence of inflated costs due to insurance reimbursement requirements, allowing for direct savings to patients. HealthWarehouse is committed to providing services with compassion, convenience, and transparency.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 57
+    },
+    "58": {
+      "page_number": 58,
+      "original_name": "MyChoice Mid_Brochure_1_page_058.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_058.jpg",
+      "new_name": "58_employee_perks_program_with_savings_on_electronics_appliances_and_more.jpg",
+      "new_path": "img/pages/58_employee_perks_program_with_savings_on_electronics_appliances_and_more.jpg",
+      "page_title": "employee_perks_program_with_savings_on_electronics_appliances_and_more",
+      "summary": "The document introduces an Employee Perks Program designed to enhance personal and financial well-being through exclusive deals and limited-time offers. It highlights the opportunity for employees to access a variety of savings on products, services, and experiences that are frequently used and enjoyed. The program offers discounts on electronics, appliances, apparel, cars, and theme parks, providing a broad range of options for employees to benefit from. Additionally, savings are available on gift cards, groceries, hotels, movie tickets, and flowers, catering to diverse needs and preferences.\n\nThe program also includes discounts on fitness memberships, rental cars, special events, and more, ensuring that employees have access to a wide array of benefits. The document outlines a simple three-step process to get started with the program: visiting the website, becoming a member, and entering a company code or work email to create an account. This straightforward approach makes it easy for employees to take advantage of the perks offered.\n\nOverall, the Employee Perks Program is positioned as a valuable resource for employees, providing more perks, more savings, and more of what makes them happy. The emphasis is on supporting employees' well-being through meaningful savings and exclusive offers.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 58
+    },
+    "60": {
+      "page_number": 60,
+      "original_name": "MyChoice Mid_Brochure_1_page_060.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_060.jpg",
+      "new_name": "60_allheart_group_solutions_uniform_program_with_member_discounts_and_management_features.jpg",
+      "new_path": "img/pages/60_allheart_group_solutions_uniform_program_with_member_discounts_and_management_features.jpg",
+      "page_title": "allheart_group_solutions_uniform_program_with_member_discounts_and_management_features",
+      "summary": "The Allheart Group Solutions page outlines a uniform program designed to enhance the appearance and comfort of team members. The program is supported by dedicated account managers who assist clients in navigating the uniform selection process. High-quality embroidery services are offered to personalize uniforms, ensuring that team members present a professional image. The program emphasizes reliability and support, aiming to be available when clients need assistance the most. The goal is to provide the best products and services to those who care for others.\n\nAdditionally, the program offers management features that simplify inventory oversight and shipping customization through a user-friendly portal. This allows for efficient handling of uniform needs, reducing the administrative burden on clients. Members can access exclusive discounts by visiting the Allheart website and entering a specific code, enhancing the value of the program.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 60
+    },
+    "59": {
+      "page_number": 59,
+      "original_name": "MyChoice Mid_Brochure_1_page_059.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_059.jpg",
+      "new_name": "59_allheart_member_discounts_and_uniform_services_with_personalized_options.jpg",
+      "new_path": "img/pages/59_allheart_member_discounts_and_uniform_services_with_personalized_options.jpg",
+      "page_title": "allheart_member_discounts_and_uniform_services_with_personalized_options",
+      "summary": "This page outlines the services and benefits provided by Allheart, focusing on member discounts and uniform solutions for medical professionals. The company emphasizes the importance of quality products and services, aiming to equip students and medical professionals with necessary apparel and tools. Members can access discounts by visiting the Allheart website and using a specific code. \n\nThe page highlights several key services, including a dedicated account manager who collaborates closely with businesses to develop tailored programs. This partnership aims to enhance business operations and create a program that businesses can be proud of. Additionally, Allheart offers customer logo and embroidery services to help groups maintain a consistent professional image and strengthen their brand identity.\n\nPersonalized ordering options are available, allowing clients to work directly with an account manager to create a customized ordering website. This ensures timely delivery and complete satisfaction. On-site fittings are also offered, providing multiple program options to ensure the right product in the correct color and size. Finally, Allheart boasts a one-stop shop with the largest in-stock selection of medical apparel and equipment, including scrubs, lab coats, stethoscopes, and diagnostic tools.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 59
+    },
+    "63": {
+      "page_number": 63,
+      "original_name": "MyChoice Mid_Brochure_1_page_063.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_063.jpg",
+      "new_name": "63_error_analyzing_mychoice_mid_brochure_1_page_063jpg.jpg",
+      "new_path": "img/pages/63_error_analyzing_mychoice_mid_brochure_1_page_063jpg.jpg",
+      "page_title": "Error analyzing MyChoice Mid_Brochure_1_page_063.jpg",
+      "summary": "Failed to parse analysis results",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 63
+    },
+    "61": {
+      "page_number": 61,
+      "original_name": "MyChoice Mid_Brochure_1_page_061.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_061.jpg",
+      "new_name": "61_learn_all_year_long_with_10_percent_discount_on_live_online_seminars.jpg",
+      "new_path": "img/pages/61_learn_all_year_long_with_10_percent_discount_on_live_online_seminars.jpg",
+      "page_title": "learn_all_year_long_with_10_percent_discount_on_live_online_seminars",
+      "summary": "This page promotes a year-long learning opportunity through live online seminars, offering a 10% discount on all sessions. The seminars cover over 20 business training categories, including Communication, Excel, HR, Leadership, and Project Management. Participants can earn certifications such as NASBA, OSHA, PMI, and SHRM, with credits like CEU, CPE, HRCI, PDC, and PDU. The seminars are designed with flexible scheduling options, providing both half-day and full-day formats to accommodate various needs. To avail the discount, users are instructed to enter the express code 922633 during registration. The seminars are accessible through Pryor Learning's website, where interested individuals can register and explore the available courses.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 61
+    },
+    "62": {
+      "page_number": 62,
+      "original_name": "MyChoice Mid_Brochure_1_page_062.jpg",
+      "original_path": "img/pages/MyChoice Mid_Brochure_1_page_062.jpg",
+      "new_name": "62_echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee.jpg",
+      "new_path": "img/pages/62_echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee.jpg",
+      "page_title": "echo_sigma_emergency_systems_with_10_percent_savings_and_satisfaction_guarantee",
+      "summary": "The document introduces Echo-Sigma Emergency Systems, emphasizing the brand's commitment to providing high-quality emergency kits that do not require extensive training to use. It highlights a 10% savings offer available through a specific coupon code, ESFRIENDS, which can be used on their website. The company prides itself on creating handbuilt kits for enthusiasts who want to be prepared without the need to appear as 'preppers.'\n\nA key feature of Echo-Sigma's offering is their 100% satisfaction guarantee. Customers are assured that if they are not completely satisfied with their purchase for any reason, they can return the product within 60 days for a full refund. The process is designed to be hassle-free, with no paperwork involved, and the company even covers return postage. This guarantee underscores Echo-Sigma's dedication to customer satisfaction and confidence in their product quality.\n\nThe document concludes with a statement of the company's belief in the quality and thoughtfulness of their products, suggesting that customers will recognize the value and care put into each kit upon receipt.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "MyChoice Mid_Brochure_1",
+      "global_page_num": 62
+    }
+  },
+  "extracted_tables": {},
+  "presentation": {
+    "content": "### Presentation Plan for MyChoice Insurance Plan\n\n---\n\n#### Cover (1 slide)\n- **Title:** MyChoice Insurance Plan\n- **Tagline:** \"Empowering Your Health Choices with Flexibility and Savings\"\n\n---\n\n#### Plan Overview (1 slide)\n- **Target Audience:** Individuals and families seeking affordable healthcare solutions.\n- **Offerings:** Comprehensive healthcare services with a focus on affordability and accessibility.\n- **Key Benefits:** Direct access to healthcare services, significant savings on prescriptions, and flexible cash benefits.\n\n---\n\n#### Core Plan Elements (3 slides)\n- **Coverage Areas:**\n  - Physician services, hospitalization, virtual visits.\n  - Prescription savings and lab services.\n- **Plan Structure:**\n  - Tiered options with varying benefits and coverage limits.\n  - Co-pays and visit limits specified per plan.\n- **Eligibility:**\n  - Available to individuals and families.\n  - Focus on affordability with no physical exams required for enrollment.\n\n---\n\n#### Common Service Features (3 slides)\n- **Provider Networks:**\n  - Access to a wide network of healthcare providers.\n- **Claims Management:**\n  - Efficient claims processing with support for bill negotiation.\n- **Support Tools:**\n  - Online health management tools, wellness programs, and advocacy services.\n\n---\n\n#### Plan Tiers Breakdown (9 slides)\n\n1. **Plan 1:**\n   - **Inpatient Hospital Confinement:** $100 per day, up to 10 days.\n   - **Intensive Care Confinement:** $200 per day, up to 10 days.\n   - **First Day Hospital Admission:** $1,000.\n   - **Ambulance Benefits:** $100 for ground and air transport.\n   - **Emergency Room Visits:** $200 per visit.\n   - **Office and Wellness Visits:** $50 each.\n   - **Outpatient Services Maximum:** $4,000 per year.\n   - **Lifetime Maximum Benefit:** $5,000,000.\n   - **Pre-existing Conditions Clause:** 12/12 waiting period.\n   - **Portability:** Included.\n\n2. **Plan 2:**\n   - **Inpatient Hospital Confinement:** $300 per day, up to 10 days.\n   - **Intensive Care Confinement:** $500 per day, up to 10 days.\n   - **First Day Hospital Admission:** $1,000.\n   - **Ambulance Benefits:** $100 for ground, $200 for air transport.\n   - **Emergency Room Visits:** $200 per visit.\n   - **Office and Wellness Visits:** $50 each.\n   - **Outpatient Services Maximum:** $4,000 per year.\n   - **Lifetime Maximum Benefit:** $5,000,000.\n   - **Pre-existing Conditions Clause:** 12/12 waiting period.\n   - **Portability:** Included.\n\n3. **Plan 3:**\n   - **Inpatient Hospital Confinement:** $300 per day, up to 10 days.\n   - **Intensive Care Confinement:** $500 per day, up to 10 days.\n   - **First Day Hospital Admission:** $1,000.\n   - **Ambulance Benefits:** $100 for ground, $300 for air transport.\n   - **Emergency Room Visits:** $200 per visit.\n   - **Surgical Benefits:** Aligned with a surgical schedule.\n   - **Anesthesia and Assistant Surgeon Benefits:** Aligned with a surgical schedule.\n   - **Ambulatory Outpatient Facility:** $500.\n   - **Office Visits:** $75.\n   - **Wellness Visits:** $50.\n   - **Outpatient Services Maximum:** $4,000 per year.\n   - **Lifetime Maximum Benefit:** $5,000,000.\n   - **Pre-existing Conditions Clause:** 12/12 waiting period.\n   - **Portability:** Included.\n\n---\n\n#### Comparison Slides (1 slide)\n- **Markdown Table:**\n\n```markdown\n| Feature                        | Plan 1                  | Plan 2                  | Plan 3                  |\n|--------------------------------|-------------------------|-------------------------|-------------------------|\n| Inpatient Hospital Confinement | $100/day, 10 days max   | $300/day, 10 days max   | $300/day, 10 days max   |\n| Intensive Care Confinement     | $200/day, 10 days max   | $500/day, 10 days max   | $500/day, 10 days max   |\n| First Day Hospital Admission   | $1,000                  | $1,000                  | $1,000                  |\n| Ambulance Benefits             | $100 ground/air         | $100 ground, $200 air   | $100 ground, $300 air   |\n| Emergency Room Visits          | $200/visit              | $200/visit              | $200/visit              |\n| Office Visits                  | $50                     | $50                     | $75                     |\n| Wellness Visits                | $50                     | $50                     | $50                     |\n| Outpatient Services Max        | $4,000/year             | $4,000/year             | $4,000/year             |\n| Lifetime Maximum Benefit       | $5,000,000              | $5,000,000              | $5,000,000              |\n| Pre-existing Conditions        | 12/12 clause            | 12/12 clause            | 12/12 clause            |\n| Portability                    | Included                | Included                | Included                |\n```\n\n---\n\n#### Limitations and Exclusions (2 slides)\n- **Exclusions:**\n  - Pre-existing conditions subject to a 12/12 waiting period.\n  - Certain surgical and anesthesia benefits not applicable in some plans.\n- **Limitations:**\n  - Specific coverage limits per benefit category.\n  - Lifetime and annual maximums apply.\n\n---\n\n#### Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Offers a range of plans to suit different needs and budgets.\n- **Cost vs. Coverage:** Balances affordability with essential healthcare services.\n- **Next Steps:** Contact support for enrollment assistance and further inquiries.\n\n---\n\n#### Thank You (1 slide)\n- **Message:** \"Thank you for considering MyChoice. Empowering your health, one choice at a time.\"",
+    "generated_at": "2025-02-10T22:43:22.362827"
+  },
+  "slides": {
+    "content": "---\nid: FEN_MyChoice\ntheme: ../../\ntitle: | \n  MyChoice Plan\ninfo: |\n  ## MyChoice Plan Review\n  A look at the MyChoice Plan benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_MyChoice\" />\n\n# MyChoice Plan Review\n\nUnderstanding the details and benefits of the **MyChoice Plan**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## MyChoice Plan Overview\n\n<v-clicks>\n\n- Dedicated to improving the lives of American workers through **Business Workers of America Association (BWA)**\n- **Healthcare and Wellness Programs** for better lifestyles\n- **Educational Support** through scholarships and grants\n- **Financial Assistance** and guidance\n- **Advocacy and Support** services\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-clicks>\n\n**Medical Bill Repricing**\n\n**Healthcare Advocacy**\n\n**Financial Assistance Guidance**\n\n**Cash Benefits** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**Prescription Savings** through HealthWarehouse\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"HealthWarehouse Logo\">\n</div>\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**MBR Plus** (Medical Bill Repricing)\n</v-click>\n\n<v-click>\n\n**Reference Based Pricing** System\n</v-click>\n\n<v-click>\n\n**Concierge Healthcare Advocacy** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How MBR Plus Works\n\n<v-clicks>\n\n1. Enroll through **BWA**\n2. Pay $25 pre-pay for primary care visits\n3. Pay $50 pre-pay for specialist visits\n4. Receive Explanation of Benefits **(EOB)**\n5. Submit bills for repricing\n6. **Lower Out-of-Pocket Expenses**\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-clicks>\n\n- **Wellness Visits** Services\n- **Health Programs** for members\n- **DirectLabs** provides lab services\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-clicks>\n\n- **24/7 Nurse Hotline**\n- **Online Health Manager**\n- **Health Information Library** available\n- **Access to Care** anytime\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-clicks>\n\n- **Concierge-Style** healthcare advocacy\n- **Financial Assistance** guidance\n- **Bill Negotiation** options\n- **Personalized Advocacy** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Low_Brochure_1_page_001.jpg\n---\n\n## Plan 1 (1/2)\n\n<v-click>\n\n**Inpatient Hospital Confinement**\n- $100 per day\n- Up to 10 days\n- Not applicable in rehab units\n- Subject to annual maximum\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Intensive Care Confinement**\n- $200 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**First Day Hospital Admission**\n- $1,000 once per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Low_Brochure_1_page_001.jpg\n---\n\n## Plan 1 (2/2)\n\n<v-click>\n\n**Ambulance Benefits**\n- $100 ground transport\n- $100 air transport\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Emergency Room Visits**\n- $200 per visit\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg\n---\n\n## Plan 2 (1/2)\n\n<v-click>\n\n**Inpatient Hospital Confinement**\n- $300 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Intensive Care Confinement**\n- $500 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**First Day Hospital Admission**\n- $1,000 once per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg\n---\n\n## Plan 2 (2/2)\n\n<v-click>\n\n**Ambulance Benefits**\n- $100 ground transport\n- $200 air transport\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Emergency Room Visits**\n- $200 per visit\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_High_Brochure_1_page_015.jpg\n---\n\n## Plan 3 (1/2)\n\n<v-click>\n\n**Inpatient Hospital Confinement**\n- $300 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Intensive Care Confinement**\n- $500 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**First Day Hospital Admission**\n- $1,000 once per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_High_Brochure_1_page_015.jpg\n---\n\n## Plan 3 (2/2)\n\n<v-click>\n\n**Ambulance Benefits**\n- $100 ground transport\n- $300 air transport\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Emergency Room Visits**\n- $200 per visit\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Plan 1** | **Plan 2** | **Plan 3** |\n|---------|----------|----------|-----------|\n| Inpatient Hospital Confinement | $100/day | $300/day | $300/day |\n| Intensive Care Confinement | $200/day | $500/day | $500/day |\n| First Day Hospital Admission | $1,000 | $1,000 | $1,000 |\n| Ambulance Benefits | $100 ground, $100 air | $100 ground, $200 air | $100 ground, $300 air |\n| Emergency Room Visits | $200/visit | $200/visit | $200/visit |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Low_Brochure_1_page_001.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Inpatient Hospital Confinement**\n- Daily benefit for up to 10 days\n- Not applicable in rehab units\n- Subject to annual maximum\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Intensive Care Confinement**\n- Daily benefit for up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**First Day Hospital Admission**\n- Once per calendar year\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Ambulance Benefits**\n- Per trip, limited to one trip per year\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **Comprehensive Coverage** benefits\n- **Advocacy and Support** included\n- **Cost Management Tools** benefits\n- **Eligibility Criteria** required\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the MyChoice Plan Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_key}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Review\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_{{deck_key}}\" />\n\n# {{ Plan Name }} Review\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## {{ Plan Name }} Overview\n\n<v-clicks>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n- **{{ Benefit Category 1 }}** for various situations\n- **{{ Benefit Category 2 }}** and support tools\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n- **{{ Benefit Category 4 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-clicks>\n\n**{{ Benefit Type 1 }}**\n\n**{{ Benefit Type 2 }}**\n\n**{{ Benefit Type 3 }}**\n\n**{{ Benefit Type 4 }}** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-clicks>\n\n1. Enroll through **{{ Organization }}**\n2. {{ Step 2 }}\n3. {{ Step 3 }}\n4. Receive {{ Document }} **({{ Acronym }})**\n5. {{ Step 5 }}\n6. **{{ Final Outcome }}**\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-clicks>\n\n- **{{ Service 1 }}** Services\n- **{{ Service 2 }}** Programs\n- **{{ Partner }}** provides {{ service_type }}\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-clicks>\n\n- **{{ Feature 1 }}**\n- **{{ Feature 2 }}**\n- **{{ Feature 3 }}** available\n- **{{ Feature 4 }}** to care\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-clicks>\n\n- **{{ Service Style }}** healthcare advocacy\n- **{{ Service 1 }}** assistance\n- **{{ Service 2 }}** options\n- **{{ Service 3 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **{{ Feature 1 }}** benefits\n- **{{ Feature 2 }}** included\n- **{{ Feature 3 }}** benefits\n- **{{ Requirement }}** required\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n"
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the MyChoice Plan. We'll walk through this plan's features and benefits, designed to enhance your healthcare experience and provide valuable support. Let's get started!\n\n---- MyChoice Plan Overview ----\n\nThe MyChoice Plan is dedicated to improving the lives of American workers through the Business Workers of America Association, or BWA. \n\nIt offers healthcare and wellness programs aimed at promoting better lifestyles. \n\nAdditionally, the plan provides educational support through scholarships and grants. \n\nFinancial assistance and guidance are also key components of this plan. \n\nFinally, advocacy and support services are available to help you navigate your healthcare journey.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nMedical bill repricing is a significant feature that helps manage healthcare costs. \n\nHealthcare advocacy is available to assist you in understanding and utilizing your benefits effectively. \n\nThe plan also offers financial assistance guidance to support your financial well-being. \n\nCash benefits, which vary by plan, provide additional financial support. \n\nPrescription savings are available through HealthWarehouse, offering cost-effective options for your medication needs.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nMBR Plus, or Medical Bill Repricing, is a tool designed to reduce your medical expenses. \n\nThe plan utilizes a reference-based pricing system to ensure fair pricing for healthcare services. \n\nConcierge healthcare advocacy support is available to assist you in navigating the healthcare system.\n\n---- How MBR Plus Works ----\n\nHere's how the MBR Plus system operates.\n\nFirst, you enroll through BWA. \n\nFor primary care visits, there is a twenty-five dollar pre-pay. \n\nSpecialist visits require a fifty dollar pre-pay. \n\nYou will receive an Explanation of Benefits, or EOB, detailing your coverage. \n\nSubmit your bills for repricing to potentially lower your costs. \n\nThis process aims to reduce your out-of-pocket expenses.\n\n---- Preventive Care and Wellness ----\n\nThe plan emphasizes preventive care and wellness.\n\nWellness visits are included to support your overall health. \n\nHealth programs are available for members to encourage healthy living. \n\nDirectLabs provides lab services to assist in monitoring your health.\n\n---- Telehealth Services ----\n\nLet's discuss the telehealth services offered.\n\nA twenty-four seven nurse hotline is available for immediate health concerns. \n\nThe online health manager provides tools to manage your health information. \n\nA health information library is accessible for educational resources. \n\nThese services ensure access to care anytime, anywhere.\n\n---- Advocacy and Support Services ----\n\nThe plan includes advocacy and support services.\n\nConcierge-style healthcare advocacy is available to guide you through your healthcare options. \n\nFinancial assistance guidance is provided to help manage your expenses. \n\nBill negotiation options are available to potentially reduce your medical costs. \n\nPersonalized advocacy support is offered to address your unique healthcare needs.\n\n---- Plan 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\nInpatient hospital confinement offers one hundred dollars per day, up to ten days. \n\nIntensive care confinement provides two hundred dollars per day, also up to ten days. \n\nThe first day hospital admission benefit is one thousand dollars, available once per year.\n\n---- Plan 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\nAmbulance benefits include one hundred dollars for ground transport and one hundred dollars for air transport. \n\nEmergency room visits are covered at two hundred dollars per visit.\n\n---- Plan 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\nInpatient hospital confinement offers three hundred dollars per day, up to ten days. \n\nIntensive care confinement provides five hundred dollars per day, also up to ten days. \n\nThe first day hospital admission benefit remains at one thousand dollars, available once per year.\n\n---- Plan 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\nAmbulance benefits include one hundred dollars for ground transport and two hundred dollars for air transport. \n\nEmergency room visits are covered at two hundred dollars per visit.\n\n---- Plan 3 (One of Two) ----\n\nNow, let's explore our third plan tier.\n\nInpatient hospital confinement offers three hundred dollars per day, up to ten days. \n\nIntensive care confinement provides five hundred dollars per day, also up to ten days. \n\nThe first day hospital admission benefit is one thousand dollars, available once per year.\n\n---- Plan 3 (Two of Two) ----\n\nContinuing with our third plan tier.\n\nAmbulance benefits include one hundred dollars for ground transport and three hundred dollars for air transport. \n\nEmergency room visits are covered at two hundred dollars per visit.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nPlan one offers one hundred dollars per day for inpatient hospital confinement, while plans two and three offer three hundred dollars per day. \n\nIntensive care confinement is two hundred dollars per day in plan one, and five hundred dollars per day in plans two and three. \n\nThe first day hospital admission benefit is one thousand dollars across all plans. \n\nAmbulance benefits vary, with plan one offering one hundred dollars for both ground and air transport, plan two offering one hundred dollars for ground and two hundred dollars for air, and plan three offering one hundred dollars for ground and three hundred dollars for air. \n\nEmergency room visits are consistently covered at two hundred dollars per visit across all plans.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nInpatient hospital confinement provides a daily benefit for up to ten days, excluding rehab units, and is subject to an annual maximum. \n\nIntensive care confinement offers a daily benefit for up to ten days. \n\nThe first day hospital admission benefit is available once per calendar year. \n\nAmbulance benefits are limited to one trip per year, per type of transport.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers extensive coverage benefits to support your healthcare needs. \n\nAdvocacy and support services are included to assist you in navigating your healthcare journey. \n\nCost management tools are available to help manage your expenses. \n\nEligibility criteria must be met to enroll in the plan.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "MyChoice Plan Review",
+          "content": "<SlideAudio deckKey=\"FEN_MyChoice\" />\n\n# MyChoice Plan Review\n\nUnderstanding the details and benefits of the **MyChoice Plan**",
+          "frontmatter": "id: FEN_MyChoice\ntheme: ../../\ntitle: | \n  MyChoice Plan\ninfo: |\n  ## MyChoice Plan Review\n  A look at the MyChoice Plan benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the MyChoice Plan. We'll walk through this plan's features and benefits, designed to enhance your healthcare experience and provide valuable support. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "MyChoice Plan Overview",
+          "content": "## MyChoice Plan Overview\n\n<v-clicks>\n\n- Dedicated to improving the lives of American workers through **Business Workers of America Association (BWA)**\n- **Healthcare and Wellness Programs** for better lifestyles\n- **Educational Support** through scholarships and grants\n- **Financial Assistance** and guidance\n- **Advocacy and Support** services\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "MyChoice Plan Overview",
+          "content": "The MyChoice Plan is dedicated to improving the lives of American workers through the Business Workers of America Association, or BWA. \n\nIt offers healthcare and wellness programs aimed at promoting better lifestyles. \n\nAdditionally, the plan provides educational support through scholarships and grants. \n\nFinancial assistance and guidance are also key components of this plan. \n\nFinally, advocacy and support services are available to help you navigate your healthcare journey."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-clicks>\n\n**Medical Bill Repricing**\n\n**Healthcare Advocacy**\n\n**Financial Assistance Guidance**\n\n**Cash Benefits** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**Prescription Savings** through HealthWarehouse\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"HealthWarehouse Logo\">\n</div>\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nMedical bill repricing is a significant feature that helps manage healthcare costs. \n\nHealthcare advocacy is available to assist you in understanding and utilizing your benefits effectively. \n\nThe plan also offers financial assistance guidance to support your financial well-being. \n\nCash benefits, which vary by plan, provide additional financial support. \n\nPrescription savings are available through HealthWarehouse, offering cost-effective options for your medication needs."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**MBR Plus** (Medical Bill Repricing)\n</v-click>\n\n<v-click>\n\n**Reference Based Pricing** System\n</v-click>\n\n<v-click>\n\n**Concierge Healthcare Advocacy** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nMBR Plus, or Medical Bill Repricing, is a tool designed to reduce your medical expenses. \n\nThe plan utilizes a reference-based pricing system to ensure fair pricing for healthcare services. \n\nConcierge healthcare advocacy support is available to assist you in navigating the healthcare system."
+        }
+      },
+      {
+        "slide": {
+          "header": "How MBR Plus Works",
+          "content": "## How MBR Plus Works\n\n<v-clicks>\n\n1. Enroll through **BWA**\n2. Pay $25 pre-pay for primary care visits\n3. Pay $50 pre-pay for specialist visits\n4. Receive Explanation of Benefits **(EOB)**\n5. Submit bills for repricing\n6. **Lower Out-of-Pocket Expenses**\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How MBR Plus Works",
+          "content": "Here's how the MBR Plus system operates.\n\nFirst, you enroll through BWA. \n\nFor primary care visits, there is a twenty-five dollar pre-pay. \n\nSpecialist visits require a fifty dollar pre-pay. \n\nYou will receive an Explanation of Benefits, or EOB, detailing your coverage. \n\nSubmit your bills for repricing to potentially lower your costs. \n\nThis process aims to reduce your out-of-pocket expenses."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-clicks>\n\n- **Wellness Visits** Services\n- **Health Programs** for members\n- **DirectLabs** provides lab services\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "The plan emphasizes preventive care and wellness.\n\nWellness visits are included to support your overall health. \n\nHealth programs are available for members to encourage healthy living. \n\nDirectLabs provides lab services to assist in monitoring your health."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-clicks>\n\n- **24/7 Nurse Hotline**\n- **Online Health Manager**\n- **Health Information Library** available\n- **Access to Care** anytime\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Let's discuss the telehealth services offered.\n\nA twenty-four seven nurse hotline is available for immediate health concerns. \n\nThe online health manager provides tools to manage your health information. \n\nA health information library is accessible for educational resources. \n\nThese services ensure access to care anytime, anywhere."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-clicks>\n\n- **Concierge-Style** healthcare advocacy\n- **Financial Assistance** guidance\n- **Bill Negotiation** options\n- **Personalized Advocacy** support\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "The plan includes advocacy and support services.\n\nConcierge-style healthcare advocacy is available to guide you through your healthcare options. \n\nFinancial assistance guidance is provided to help manage your expenses. \n\nBill negotiation options are available to potentially reduce your medical costs. \n\nPersonalized advocacy support is offered to address your unique healthcare needs."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1 (1/2)",
+          "content": "## Plan 1 (1/2)\n\n<v-click>\n\n**Inpatient Hospital Confinement**\n- $100 per day\n- Up to 10 days\n- Not applicable in rehab units\n- Subject to annual maximum\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Intensive Care Confinement**\n- $200 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**First Day Hospital Admission**\n- $1,000 once per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Low_Brochure_1_page_001.jpg"
+        },
+        "script": {
+          "header": "Plan 1 (One of Two)",
+          "content": "Let's examine our first plan tier.\n\nInpatient hospital confinement offers one hundred dollars per day, up to ten days. \n\nIntensive care confinement provides two hundred dollars per day, also up to ten days. \n\nThe first day hospital admission benefit is one thousand dollars, available once per year."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1 (2/2)",
+          "content": "## Plan 1 (2/2)\n\n<v-click>\n\n**Ambulance Benefits**\n- $100 ground transport\n- $100 air transport\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Emergency Room Visits**\n- $200 per visit\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Low_Brochure_1_page_001.jpg"
+        },
+        "script": {
+          "header": "Plan 1 (Two of Two)",
+          "content": "Continuing with our first plan tier.\n\nAmbulance benefits include one hundred dollars for ground transport and one hundred dollars for air transport. \n\nEmergency room visits are covered at two hundred dollars per visit."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 2 (1/2)",
+          "content": "## Plan 2 (1/2)\n\n<v-click>\n\n**Inpatient Hospital Confinement**\n- $300 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Intensive Care Confinement**\n- $500 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**First Day Hospital Admission**\n- $1,000 once per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg"
+        },
+        "script": {
+          "header": "Plan 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier.\n\nInpatient hospital confinement offers three hundred dollars per day, up to ten days. \n\nIntensive care confinement provides five hundred dollars per day, also up to ten days. \n\nThe first day hospital admission benefit remains at one thousand dollars, available once per year."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 2 (2/2)",
+          "content": "## Plan 2 (2/2)\n\n<v-click>\n\n**Ambulance Benefits**\n- $100 ground transport\n- $200 air transport\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Emergency Room Visits**\n- $200 per visit\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg"
+        },
+        "script": {
+          "header": "Plan 2 (Two of Two)",
+          "content": "Continuing with our second plan tier.\n\nAmbulance benefits include one hundred dollars for ground transport and two hundred dollars for air transport. \n\nEmergency room visits are covered at two hundred dollars per visit."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 3 (1/2)",
+          "content": "## Plan 3 (1/2)\n\n<v-click>\n\n**Inpatient Hospital Confinement**\n- $300 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Intensive Care Confinement**\n- $500 per day\n- Up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**First Day Hospital Admission**\n- $1,000 once per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_High_Brochure_1_page_015.jpg"
+        },
+        "script": {
+          "header": "Plan 3 (One of Two)",
+          "content": "Now, let's explore our third plan tier.\n\nInpatient hospital confinement offers three hundred dollars per day, up to ten days. \n\nIntensive care confinement provides five hundred dollars per day, also up to ten days. \n\nThe first day hospital admission benefit is one thousand dollars, available once per year."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 3 (2/2)",
+          "content": "## Plan 3 (2/2)\n\n<v-click>\n\n**Ambulance Benefits**\n- $100 ground transport\n- $300 air transport\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Emergency Room Visits**\n- $200 per visit\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_High_Brochure_1_page_015.jpg"
+        },
+        "script": {
+          "header": "Plan 3 (Two of Two)",
+          "content": "Continuing with our third plan tier.\n\nAmbulance benefits include one hundred dollars for ground transport and three hundred dollars for air transport. \n\nEmergency room visits are covered at two hundred dollars per visit."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Plan 1** | **Plan 2** | **Plan 3** |\n|---------|----------|----------|-----------|\n| Inpatient Hospital Confinement | $100/day | $300/day | $300/day |\n| Intensive Care Confinement | $200/day | $500/day | $500/day |\n| First Day Hospital Admission | $1,000 | $1,000 | $1,000 |\n| Ambulance Benefits | $100 ground, $100 air | $100 ground, $200 air | $100 ground, $300 air |\n| Emergency Room Visits | $200/visit | $200/visit | $200/visit |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nPlan one offers one hundred dollars per day for inpatient hospital confinement, while plans two and three offer three hundred dollars per day. \n\nIntensive care confinement is two hundred dollars per day in plan one, and five hundred dollars per day in plans two and three. \n\nThe first day hospital admission benefit is one thousand dollars across all plans. \n\nAmbulance benefits vary, with plan one offering one hundred dollars for both ground and air transport, plan two offering one hundred dollars for ground and two hundred dollars for air, and plan three offering one hundred dollars for ground and three hundred dollars for air. \n\nEmergency room visits are consistently covered at two hundred dollars per visit across all plans."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Inpatient Hospital Confinement**\n- Daily benefit for up to 10 days\n- Not applicable in rehab units\n- Subject to annual maximum\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Intensive Care Confinement**\n- Daily benefit for up to 10 days\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**First Day Hospital Admission**\n- Once per calendar year\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Ambulance Benefits**\n- Per trip, limited to one trip per year\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/MyChoice_Low_Brochure_1_page_001.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nInpatient hospital confinement provides a daily benefit for up to ten days, excluding rehab units, and is subject to an annual maximum. \n\nIntensive care confinement offers a daily benefit for up to ten days. \n\nThe first day hospital admission benefit is available once per calendar year. \n\nAmbulance benefits are limited to one trip per year, per type of transport."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **Comprehensive Coverage** benefits\n- **Advocacy and Support** included\n- **Cost Management Tools** benefits\n- **Eligibility Criteria** required\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers extensive coverage benefits to support your healthcare needs. \n\nAdvocacy and support services are included to assist you in navigating your healthcare journey. \n\nCost management tools are available to help manage your expenses. \n\nEligibility criteria must be met to enroll in the plan."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the MyChoice Plan Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 18
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 18,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

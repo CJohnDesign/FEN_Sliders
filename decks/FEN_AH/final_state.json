@@ -1,0 +1,672 @@
+{
+  "deck_id": "FEN_AH",
+  "deck_title": "Access Health",
+  "processed_images": {
+    "1": {
+      "page_number": 1,
+      "original_name": "AccessHealthBrochure_page_001.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_001.jpg",
+      "new_name": "01_cover_page_for_access_health_limited_duration_group_short_term_medical_insurance.jpg",
+      "new_path": "img/pages/01_cover_page_for_access_health_limited_duration_group_short_term_medical_insurance.jpg",
+      "page_title": "cover_page_for_access_health_limited_duration_group_short_term_medical_insurance",
+      "summary": "This cover page introduces the Access Health Limited Duration Group Short Term Medical Insurance. It features a family walking in a field during sunset, symbolizing health and well-being. The page includes branding elements such as the logo of the carrier and underwriter, American Financial Security Life Insurance Company. It also lists the states where the insurance is underwritten, including AL, AR, AZ, KY, MS, NE, NV, OH, OK, TX, WI, GA, IL, IN, and VA. The document is identified with the code BR-AFS-STM-2022.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 1
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "AccessHealthBrochure_page_002.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_002.jpg",
+      "new_name": "02_product_summary_with_deductible_and_coinsurance_options_and_pre_existing_waiver_rider.jpg",
+      "new_path": "img/pages/02_product_summary_with_deductible_and_coinsurance_options_and_pre_existing_waiver_rider.jpg",
+      "page_title": "product_summary_with_deductible_and_coinsurance_options_and_pre_existing_waiver_rider",
+      "summary": "This product summary outlines various deductible options ranging from $500 to $10,000, allowing flexibility in choosing the level of out-of-pocket expenses. The coinsurance options are set at 80%/20%, with a coinsurance limit of either $2,000 or $4,000. Coverage can last up to 36 months, subject to state regulations. The network includes access to PHCS, with facilities charging up to 150% of Medicare allowable charges, and there is no requirement to use in-network providers. Coverage can begin the next day, with eligibility for individuals aged 18 to 64 1/2, and child policies available for ages 2 to 17. A waiting period of 5 days applies for sickness and 30 days for cancer, with no waiting period for injuries.\n\nThe pre-existing waiver rider allows conditions covered during a prior period to be waived, meaning consumers will not need to re-qualify for another term. This plan is suitable for those who are between jobs, laid off, or without adequate health insurance. Consecutive policy terms are streamlined, with initial coverage issued and subsequent terms automatically renewed without reapplication. The plan benefits, including deductibles and coinsurance limits, reset with each 12-month period of coverage.\n\nThe disclaimer notes that this coverage is not required to comply with certain federal market requirements and may not be available in all states. Exclusions and limitations apply, particularly regarding pre-existing conditions and health benefits, and coverage may differ based on state law.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 2
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "AccessHealthBrochure_page_003.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_003.jpg",
+      "new_name": "03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg",
+      "new_path": "img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg",
+      "page_title": "detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits",
+      "summary": "This document provides a detailed comparison of three insurance plans, focusing on deductibles, coinsurance options, and coverage period maximums. Plan 1, Plan 2, and Plan 3 offer deductible options ranging from $500 to $10,000, with coinsurance options of 80/20. The coinsurance limit is set at $2,000 or $4,000 across all plans. Coverage period maximums are available at $250,000, $500,000, and $1,000,000. \n\nIn the Doctor Office Consultation section, copays for physician office or urgent care visits are $25 for Plan 1 and Plan 3, with a maximum of 2 visits, and $15 for Plan 2 with unlimited visits. Specialist copays are $40 for Plan 1 and Plan 3, and $25 for Plan 2, both with a maximum of 2 visits. Wellness copays are $50 with a maximum of 1 visit across all plans. Additional services during visits are subject to deductibles and coinsurance, with a combined maximum benefit of $2,000 per coverage period. \n\nInpatient Hospital Covered Expenses include a standard room rate benefit limited to $1,500 per day, with intensive care charges capped at $2,000 per day. Doctor visits during hospital stays are limited to $500 per covered person per coverage period. Outpatient expenses, including surgery and miscellaneous hospital expenses, are limited to $1,500 per day. Emergency room treatment has a maximum benefit of $250 per visit, with additional deductibles applicable in Plan 2. \n\nSurgical services cover up to $5,000 per surgery, with limits on assistant surgeon and anesthesia services. All surgical benefits are subject to deductibles and coinsurance.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 3
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "AccessHealthBrochure_page_004.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_004.jpg",
+      "new_name": "04_benefits_continued_with_other_covered_expenses_for_plan_1_2_3.jpg",
+      "new_path": "img/pages/04_benefits_continued_with_other_covered_expenses_for_plan_1_2_3.jpg",
+      "page_title": "benefits_continued_with_other_covered_expenses_for_plan_1_2_3",
+      "summary": "This page provides a detailed comparison of other covered expenses across three different plans. It includes specific coverage details for various medical procedures and services. For organ, tissue, and bone marrow transplants, all plans are subject to deductible and coinsurance, with a coverage limit of up to $50,000 per coverage period. Extended care facility benefits are also subject to deductible and coinsurance, with a limit of up to $100 per day and a maximum of 30 days per coverage period. Hospice care is covered up to $5,000 per coverage period under all plans. \n\nFor acquired immune deficiency syndrome (AIDS), coverage is up to $10,000 per coverage period, subject to deductible and coinsurance. Joint/tendon surgery and knee injury or disorder are covered up to $3,000 per coverage period, with similar deductible and coinsurance requirements. Gallbladder surgery, appendectomy, and kidney stones are also covered up to $3,000 per coverage period. Temporomandibular joint disorder (TMJ) is included with the same coverage limits. \n\nHome health care is covered up to $30 per day for a maximum of 30 days per coverage period. Therapy services, including physical, speech, and occupational therapy, are covered up to $30 per day for a maximum of 15 days per coverage period. Ambulance services, both ground and air, are covered up to $500 per trip, with a maximum of $1,000 per trip for air ambulance. Durable medical equipment and medical supplies are subject to deductible and coinsurance. The page notes that all benefits are limited to usual and customary fees, and eligible expenses are subject to plan limitations.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 4
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "AccessHealthBrochure_page_005.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_005.jpg",
+      "new_name": "05_limitations_and_exclusions_for_insurance_plan_with_pre_existing_conditions_and_excluded_services.jpg",
+      "new_path": "img/pages/05_limitations_and_exclusions_for_insurance_plan_with_pre_existing_conditions_and_excluded_services.jpg",
+      "page_title": "limitations_and_exclusions_for_insurance_plan_with_pre_existing_conditions_and_excluded_services",
+      "summary": "This page outlines the limitations and exclusions applicable to the insurance plan, focusing on pre-existing conditions and specific services not covered. Pre-existing conditions are defined as any medical advice, diagnosis, care, or treatment received within 36 months prior to the effective date. The document lists various treatments and services that are excluded, such as those not related to a specific diagnosis or deemed not medically necessary. It also excludes pre-employment or premarital examinations, experimental procedures, and services for which the covered person is not legally required to pay.\n\nAdditional exclusions include telephone consultations, services provided by close relatives, and treatments outside the practitioner's licensed scope. The document specifies that education, training, or bed and board while confined to certain institutions are not covered. Other exclusions include cosmetic surgery, infertility procedures, pregnancy-related services, and voluntary sterilization. The plan also excludes custodial care, dental services, routine foot care, and treatments for mental or nervous disorders.\n\nFurther limitations are placed on substance use disorders, obesity treatments, and tobacco cessation programs. The document also excludes treatments for sleeping disorders, allergy testing, diabetic equipment, and autism spectrum disorder. These exclusions highlight the specific conditions and services that are not covered under the plan, providing clear guidelines on what is not included in the insurance coverage.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 5
+    },
+    "7": {
+      "page_number": 7,
+      "original_name": "AccessHealthBrochure_page_007.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_007.jpg",
+      "new_name": "07_additional_plan_provisions_with_waiting_period_and_termination_details.jpg",
+      "new_path": "img/pages/07_additional_plan_provisions_with_waiting_period_and_termination_details.jpg",
+      "page_title": "additional_plan_provisions_with_waiting_period_and_termination_details",
+      "summary": "This page outlines additional provisions for the insurance plan, focusing on waiting periods, premium rate changes, and termination of coverage. Covered persons will only receive benefits for illnesses that begin more than 5 days after the effective date, and for cancer, more than 30 days after. There is no waiting period for injuries. The insurer reserves the right to change premium rates, providing at least 31 days' notice before any change. The usual, reasonable, and customary amount is defined by several factors, including the actual charge, provider acceptance, and various cost-related criteria.\n\nEligibility is extended to members of NCE, their spouses, and dependent children aged 6 months to 64 years and 11 months, with no requirement for association membership in all states. Coverage termination occurs under specific conditions, such as non-payment of premiums, joining the armed forces, policy termination, reaching age 65, or death. Fraudulent activities related to coverage acquisition or claims can also lead to termination. The document provides a detailed list of these conditions, ensuring clarity on when coverage may end.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 7
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "AccessHealthBrochure_page_006.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_006.jpg",
+      "new_name": "06_limitations_and_exclusions_for_short_term_medical_plan.jpg",
+      "new_path": "img/pages/06_limitations_and_exclusions_for_short_term_medical_plan.jpg",
+      "page_title": "limitations_and_exclusions_for_short_term_medical_plan",
+      "summary": "This page outlines the limitations and exclusions applicable to the short-term medical plan. It lists specific treatments and services that are not covered under the policy. These include therapy for learning disorders, participation in clinical trials, and homeopathy. The plan also excludes coverage for orthopedic manipulation, private duty nursing services, and acupuncture. Genetic testing or counseling, sex transformation procedures, and treatments to stimulate growth hormones are not covered. Eye examinations and treatments for hearing aids are excluded, along with cataract treatments and orthoptics. \n\nThe document specifies that services for newborns not yet discharged from the hospital are not covered unless medically necessary. Personal comfort items and non-medical self-care are also excluded. Recreational therapy, travel expenses, and services rendered outside the United States are not covered unless specified in Section 4 - Benefits. The plan excludes injuries resulting from acts of war, participation in riots, or illegal occupations. It also lists exclusions for injuries from competitive sports and certain motor vehicle accidents. \n\nThe page concludes with a disclaimer stating that this is a brief description of the plan's limitations and exclusions, and terms may vary by state. It advises consulting the product certificate for complete details.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 6
+    },
+    "8": {
+      "page_number": 8,
+      "original_name": "AccessHealthBrochure_page_008.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_008.jpg",
+      "new_name": "08_additional_plan_provisions_and_coverage_details_for_dependants.jpg",
+      "new_path": "img/pages/08_additional_plan_provisions_and_coverage_details_for_dependants.jpg",
+      "page_title": "additional_plan_provisions_and_coverage_details_for_dependants",
+      "summary": "This page outlines the conditions under which insurance coverage for dependents will terminate. Coverage ends on the earliest of several specified dates, including when the primary insurance terminates, the last day for which the premium has been paid, or when a dependent no longer qualifies due to age or marital status. Additional conditions include the dependent entering active military duty for over 31 days, or the dissolution of a marriage or civil union. Coverage also ends when a covered person reaches the maximum benefit amount. \n\nThe document provides a brief description of the coverage under the Certificate of Insurance, emphasizing that it is subject to terms, conditions, limitations, and exclusions. It clarifies that the insurance is not an alternative to major medical coverage and does not meet the minimum essential benefits as defined by the Patient Protection and Affordable Care Act. The policy is underwritten by American Financial Services Life Insurance Company, located in Boca Raton, Florida.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 8
+    },
+    "9": {
+      "page_number": 9,
+      "original_name": "AccessHealthBrochure_page_009.jpg",
+      "original_path": "img/pages/AccessHealthBrochure_page_009.jpg",
+      "new_name": "09_phcs_network_and_nce_membership_benefits_with_dentachoice_discount_prescription_and_mail_order_programs.jpg",
+      "new_path": "img/pages/09_phcs_network_and_nce_membership_benefits_with_dentachoice_discount_prescription_and_mail_order_programs.jpg",
+      "page_title": "phcs_network_and_nce_membership_benefits_with_dentachoice_discount_prescription_and_mail_order_programs",
+      "summary": "The PHCS Network provides insured individuals with access to a wide range of healthcare providers and facilities, offering negotiated prices for medical care. With approximately 900,000 healthcare providers under contract and 110 million claims processed annually, the network allows plan members to pay up to 150% of the Medicare allowable charge for facility charges. Members can locate providers through the PHCS website, benefiting from the extensive network coverage. \n\nThe NCE Membership Benefits include several programs designed to reduce healthcare costs. The NCE Dentachoice program offers access to the Aetna Dental Access network, providing discounts of 15-50% on dental services such as cleanings and x-rays. This program has no exclusions for pre-existing conditions, no waiting periods, and requires no referrals. The NCE Discount Prescription Drug Card offers savings of 15% on brand name and 55% on generic medications, accepted at over 60,000 pharmacies. The Rx Mail Order Program allows savings of up to 80% on brand-name medications through international mail order. Additional benefits include chiropractic care, hearing, imaging, and more. \n\nOther programs include the Rx Savings Card, offering 15-55% savings on generic medications, and the International Brand-Name Mail-Order program, providing up to 80% savings. The Patient Assistance Program offers cost prescription medicine after a qualification process. The page also highlights CBD Products, Speech Therapy Savings, and MyTelemedicine services, which provide non-emergency medical services through a network of licensed physicians.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "AccessHealthBrochure",
+      "global_page_num": 9
+    }
+  },
+  "extracted_tables": {
+    "3": {
+      "page_number": "3",
+      "tables": [
+        {
+          "table_title": "Plan Options and Features",
+          "headers": [
+            "Feature",
+            "Plan 1",
+            "Plan 2",
+            "Plan 3"
+          ],
+          "rows": [
+            [
+              "Deductible Options",
+              "$500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000",
+              "$500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000",
+              "$500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000"
+            ],
+            [
+              "Coinsurance Options",
+              "80/20",
+              "80/20",
+              "80/20"
+            ],
+            [
+              "Coinsurance Limit",
+              "$2,000, $4,000",
+              "$2,000, $4,000",
+              "$2,000, $4,000"
+            ],
+            [
+              "Coverage Period Maximum Options",
+              "$250,000, $500,000, $1,000,000",
+              "$250,000, $500,000, $1,000,000",
+              "$250,000, $500,000, $1,000,000"
+            ]
+          ]
+        },
+        {
+          "table_title": "Doctor Office Consultation",
+          "headers": [
+            "Service",
+            "Plan 1",
+            "Plan 2",
+            "Plan 3"
+          ],
+          "rows": [
+            [
+              "Copay - Physician Office / Urgent Care",
+              "$25, maximum 2",
+              "$15, unlimited",
+              "$25, maximum 2"
+            ],
+            [
+              "Copay - Specialist",
+              "$40, maximum 2",
+              "$25, unlimited",
+              "$40, maximum 2"
+            ],
+            [
+              "Copay - Wellness",
+              "$50, maximum 1",
+              "$50, maximum 1",
+              "$50, maximum 1"
+            ],
+            [
+              "Physician Office Visits and Urgent Care",
+              "After the copayment shown above, any additional covered service performed during a Physician Office or Urgent Care visit will be subject to Deductible and Coinsurance. Physician Office and Urgent Care visit are subject to a combined maximum benefit of $2,000 per coverage period.",
+              "After the Copayment shown above, any other covered services or tests performed as part of the office visit will be subject to the Plan Deductible and Coinsurance.",
+              "After the Copayment shown above, any other covered services or tests performed as part of the office visit will be subject to the Plan Deductible and Coinsurance."
+            ],
+            [
+              "Urgent Care Additional Deductible",
+              "No Additional Deductible",
+              "$100, maximum 1",
+              "No Additional Deductible"
+            ]
+          ]
+        },
+        {
+          "table_title": "Inpatient Hospital Covered Expenses",
+          "headers": [
+            "Expense",
+            "Plan 1",
+            "Plan 2",
+            "Plan 3"
+          ],
+          "rows": [
+            [
+              "Average Standard Room Rate",
+              "The benefit payable per day including all miscellaneous expense, is limited to $1,500.",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ],
+            [
+              "Hospital Intensive or Critical Care",
+              "Benefits, including nursing services and all miscellaneous medical charges are limited to $2,000 per day.",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ],
+            [
+              "Doctor Visits",
+              "$50 per day. Benefits for all Hospital visits during a Hospital stay are limited to $500 per Covered Person per Coverage Period.",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ]
+          ]
+        },
+        {
+          "table_title": "Outpatient Expenses",
+          "headers": [
+            "Expense",
+            "Plan 1",
+            "Plan 2",
+            "Plan 3"
+          ],
+          "rows": [
+            [
+              "Outpatient Hospital Surgery or Ambulatory Surgical Center",
+              "Benefits, including nursing services and all miscellaneous medical charges are limited to $1,500 per day.",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ],
+            [
+              "Outpatient Miscellaneous Hospital Expenses",
+              "The benefit payable for miscellaneous Outpatient Hospital expenses, excluding Outpatient Surgery. Benefits are limited to $1,500 per Covered Person per Coverage Period for all Eligible Expenses combined.",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ],
+            [
+              "Emergency Room Treatment",
+              "The benefit payable for each emergency room visit, including professional and facility services, will not exceed $250 per visit.",
+              "Subject to the Emergency Room Additional Deductible shown below, then Deductible and Coinsurance. The Additional Deductible is waived if admitted within 24 hours of Emergency Room Treatment.",
+              "Subject to the Emergency Room Additional Deductible shown below, then Deductible and Coinsurance. The Additional Deductible is waived if admitted within 24 hours of Emergency Room Treatment."
+            ],
+            [
+              "Emergency Room Additional Deductible",
+              "No Additional Deductible",
+              "$250, maximum 1",
+              "No Additional Deductible"
+            ]
+          ]
+        },
+        {
+          "table_title": "Surgical Services",
+          "headers": [
+            "Service",
+            "Plan 1",
+            "Plan 2",
+            "Plan 3"
+          ],
+          "rows": [
+            [
+              "Surgeon",
+              "$5,000 per surgery, for all Eligible Expenses combined, not to exceed $10,000 per Covered Person per Coverage Period.",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ],
+            [
+              "Assistant Surgeon",
+              "$1,000 per surgery, for all Eligible Expenses combined, not to exceed $2,000 per Covered Person per Coverage Period.",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ],
+            [
+              "Administration of Anesthetics",
+              "$1,000 per surgery, for all Eligible Expenses combined, not to exceed $2,000 per Covered Person per Coverage Period.",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ]
+          ]
+        }
+      ]
+    },
+    "4": {
+      "page_number": "4",
+      "tables": [
+        {
+          "table_title": "Other Covered Expenses Comparison Across Plans",
+          "headers": [
+            "Other Covered Expenses",
+            "Plan 1",
+            "Plan 2",
+            "Plan 3"
+          ],
+          "rows": [
+            [
+              "Organ, Tissue, Bone Marrow Transplants",
+              "Subject to Deductible and Coinsurance up to $50,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $50,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $50,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses."
+            ],
+            [
+              "Extended Care Facility",
+              "Subject to Deductible and Coinsurance up to $100 per day and 30 days per Coverage Period.",
+              "Subject to Deductible and Coinsurance up to $100 per day and 30 days per Coverage Period.",
+              "Subject to Deductible and Coinsurance up to $100 per day and 30 days per Coverage Period."
+            ],
+            [
+              "Hospice Care",
+              "Subject to Deductible and Coinsurance up to $5,000 per Coverage Period.",
+              "Subject to Deductible and Coinsurance up to $5,000 per Coverage Period.",
+              "Subject to Deductible and Coinsurance up to $5,000 per Coverage Period."
+            ],
+            [
+              "Acquired Immune Deficiency Syndrome (AIDS)",
+              "Subject to Deductible and Coinsurance up to $10,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $10,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $10,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses."
+            ],
+            [
+              "Joint/Tendon Surgery",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses."
+            ],
+            [
+              "Knee Injury or Disorder",
+              "Subject to Deductible and Coinsurance up to before 3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses for both left and right knees.",
+              "Subject to Deductible and Coinsurance up to before 3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses for both left and right knees.",
+              "Subject to Deductible and Coinsurance up to before 3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses for both left and right knees."
+            ],
+            [
+              "Gallbladder Surgery",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses."
+            ],
+            [
+              "Appendectomy",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses."
+            ],
+            [
+              "Kidney Stones",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Covered Expenses."
+            ],
+            [
+              "Temporomandibular Joint Disorder (TMJ)",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Cov-ered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Cov-ered Expenses.",
+              "Subject to Deductible and Coinsurance up to $3,000 per Coverage Period for all Covered Expenses including Inpatient Hospital, Surgical and Outpatient Miscellaneous Medical Cov-ered Expenses."
+            ],
+            [
+              "Home Health Care",
+              "Subject to Deductible and Coinsurance up to $30 per day and a maximum of 30 days per Coverage Period",
+              "Subject to Deductible and Coinsurance up to $30 per day and a maximum of 30 days per Coverage Period",
+              "Subject to Deductible and Coinsurance up to $30 per day and a maximum of 30 days per Coverage Period"
+            ],
+            [
+              "Therapy Services - Physical Therapist, Speech Therapist and Occupational Therapist",
+              "Subject to Deductible and Coinsurance up to $30 per day and a maximum of 15 days per Coverage Period",
+              "Subject to Deductible and Coinsurance up to $30 per day and a maximum of 15 days per Coverage Period",
+              "Subject to Deductible and Coinsurance up to $30 per day and a maximum of 15 days per Coverage Period"
+            ],
+            [
+              "Ambulance, Ground or Air",
+              "Subject to Deductible and Coinsurance up to $500 per trip \u2013 Ground up to $1,000 per trip \u2013 Air Ambulance",
+              "Subject to Deductible and Coinsurance up to $500 per trip \u2013 Ground up to $1,000 per trip \u2013 Air Ambulance",
+              "Subject to Deductible and Coinsurance up to $500 per trip \u2013 Ground up to $1,000 per trip \u2013 Air Ambulance"
+            ],
+            [
+              "Durable Medical Equipment and Medical Supplies",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance",
+              "Subject to Deductible and Coinsurance"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "Error: No content found in response",
+    "generated_at": "2025-02-26T21:25:00.167211"
+  },
+  "slides": {
+    "content": "---\nid: FEN_001\ntheme: ../../\ntitle: | \n  Access Health\ninfo: |\n  ## Access Health Plan Overview\n  A look at the Access Health benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"001\" />\n\n# Access Health Plan Overview\n\nUnderstanding the details and benefits of the **Access Health Limited Duration Group Short Term Medical Insurance**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Access Health Plan\n\n<v-click>\n\n- Short-term coverage lasting up to 36 months through **American Financial Security Life Insurance Company**\n\n</v-click>\n\n<v-click>\n\n- **Flexible Deductible Options** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Coinsurance Structure** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Network Access** through PHCS\n\n</v-click>\n\n<v-click>\n\n- **Pre-existing Condition Waiver** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Duration**: Short-term coverage lasting up to 36 months\n\n</v-click>\n\n<v-click>\n\n**Deductible Options**: Flexible range from $500 to $10,000\n\n</v-click>\n\n<v-click>\n\n**Coinsurance Structure**: 80/20 with maximum out-of-pocket limits of $2,000 or $4,000\n\n</v-click>\n\n<v-click>\n\n**Network Access**: PHCS network with negotiated provider rates\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"/img/logos/FirstHealth_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"FirstHealth Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**Pre-existing Condition Waiver** (PCW)\n</v-click>\n\n<v-click>\n\n**Flexible Deductible** System\n</v-click>\n\n<v-click>\n\n**Coinsurance Support** Options\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How Pre-existing Condition Waiver Works\n\n<v-click>\n\n1. Enroll through **American Financial Security Life Insurance Company**\n</v-click>\n\n<v-click>\n\n2. Choose deductible and coinsurance options\n</v-click>\n\n<v-click>\n\n3. Apply for waiver rider if eligible\n</v-click>\n\n<v-click>\n\n4. Receive Certificate of Insurance **(COI)**\n</v-click>\n\n<v-click>\n\n5. Enjoy coverage with selected benefits\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Wellness Services** Services\n</v-click>\n\n<v-click>\n\n- **Preventive Programs** Programs\n</v-click>\n\n<v-click>\n\n- **PHCS Network** provides extensive coverage\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **24/7 Access** to care\n\n</v-click>\n\n<v-click>\n\n- **Licensed Physicians** available\n\n</v-click>\n\n<v-click>\n\n- **Non-emergency Medical Services** available\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Assistance** with claims\n\n</v-click>\n\n<v-click>\n\n- **Options** for care\n\n</v-click>\n\n<v-click>\n\n- **Support** for members\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg\n---\n\n## Plan 1 (1/2)\n\n<v-click>\n\n**Deductible Options**\n- $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000\n</v-click>\n\n<v-click>\n\n**Coinsurance Options**\n- 80/20\n</v-click>\n\n<v-click>\n\n**Coinsurance Limit**\n- $2,000, $4,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg\n---\n\n## Plan 1 (2/2)\n\n<v-click>\n\n**Coverage Period Maximum Options**\n- $250,000, $500,000, $1,000,000\n</v-click>\n\n<v-click>\n\n**Doctor Office Consultation**\n- Copay - Physician Office / Urgent Care: $25, maximum 2\n- Copay - Specialist: $40, maximum 2\n- Copay - Wellness: $50, maximum 1\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg\n---\n\n## Plan 2 (1/2)\n\n<v-click>\n\n**Deductible Options**\n- $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000\n</v-click>\n\n<v-click>\n\n**Coinsurance Options**\n- 80/20\n</v-click>\n\n<v-click>\n\n**Coinsurance Limit**\n- $2,000, $4,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg\n---\n\n## Plan 2 (2/2)\n\n<v-click>\n\n**Coverage Period Maximum Options**\n- $250,000, $500,000, $1,000,000\n</v-click>\n\n<v-click>\n\n**Doctor Office Consultation**\n- Copay - Physician Office / Urgent Care: $15, unlimited\n- Copay - Specialist: $25, unlimited\n- Copay - Wellness: $50, maximum 1\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg\n---\n\n## Plan 3 (1/2)\n\n<v-click>\n\n**Deductible Options**\n- $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000\n</v-click>\n\n<v-click>\n\n**Coinsurance Options**\n- 80/20\n</v-click>\n\n<v-click>\n\n**Coinsurance Limit**\n- $2,000, $4,000\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg\n---\n\n## Plan 3 (2/2)\n\n<v-click>\n\n**Coverage Period Maximum Options**\n- $250,000, $500,000, $1,000,000\n</v-click>\n\n<v-click>\n\n**Doctor Office Consultation**\n- Copay - Physician Office / Urgent Care: $25, maximum 2\n- Copay - Specialist: $40, maximum 2\n- Copay - Wellness: $50, maximum 1\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Plan 1** | **Plan 2** | **Plan 3** |\n|---------|----------|----------|-----------|\n| Deductible Options | $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000 | $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000 | $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000 |\n| Coinsurance Options | 80/20 | 80/20 | 80/20 |\n| Coinsurance Limit | $2,000, $4,000 | $2,000, $4,000 | $2,000, $4,000 |\n| Coverage Period Maximum Options | $250,000, $500,000, $1,000,000 | $250,000, $500,000, $1,000,000 | $250,000, $500,000, $1,000,000 |\n| Copay - Physician Office / Urgent Care | $25, maximum 2 | $15, unlimited | $25, maximum 2 |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/05_limitations_and_exclusions_for_insurance_plan_with_pre_existing_conditions_and_excluded_services.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Pre-existing Conditions**\n- Defined as any medical advice, diagnosis, care, or treatment received within 36 months prior to the effective date\n- Excludes pre-employment or premarital examinations\n- Excludes experimental procedures\n</v-click>\n\n<v-click>\n\n**Excluded Services**\n- Cosmetic surgery\n- Infertility treatments\n- Experimental procedures\n</v-click>\n\n<v-click>\n\n**Coverage Caps**\n- Joint Surgery: $3,000 maximum benefit\n- Gallbladder Surgery: $2,500 maximum benefit\n- Back Surgery: $5,000 maximum benefit\n</v-click>\n\n<v-click>\n\n**Waiting Periods**\n- General Illness: 5-day waiting period\n- Cancer Coverage: 30-day waiting period\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexible Deductible Options** benefits\n</v-click>  \n\n<v-click>\n\n- **Coinsurance Structure** included\n</v-click>\n\n<v-click>\n\n- **Network Access** benefits\n</v-click>\n\n<v-click>\n\n- **Pre-existing Condition Waiver** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Access Health Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/08_additional_plan_provisions_and_coverage_details_for_dependants.jpg",
+      "pages/07_additional_plan_provisions_with_waiting_period_and_termination_details.jpg",
+      "pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg",
+      "pages/04_benefits_continued_with_other_covered_expenses_for_plan_1_2_3.jpg",
+      "pages/02_product_summary_with_deductible_and_coinsurance_options_and_pre_existing_waiver_rider.jpg",
+      "pages/06_limitations_and_exclusions_for_short_term_medical_plan.jpg",
+      "pages/09_phcs_network_and_nce_membership_benefits_with_dentachoice_discount_prescription_and_mail_order_programs.jpg",
+      "pages/01_cover_page_for_access_health_limited_duration_group_short_term_medical_insurance.jpg",
+      "pages/05_limitations_and_exclusions_for_insurance_plan_with_pre_existing_conditions_and_excluded_services.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Access Health Limited Duration Group Short Term Medical Insurance. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\nThe Access Health Plan\n\noffers short-term coverage lasting up to thirty-six months through American Financial Security Life Insurance Company.\n\nIt provides flexible deductible options for various situations,\n\nand includes a coinsurance structure with support tools.\n\nNetwork access is available through PHCS,\n\nand there is a pre-existing condition waiver to support eligible members.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nThe duration of the plan offers short-term coverage lasting up to thirty-six months.\n\nDeductible options are flexible, ranging from five hundred dollars to ten thousand dollars.\n\nThe coinsurance structure is eighty/twenty with maximum out-of-pocket limits of two thousand dollars or four thousand dollars.\n\nNetwork access is provided through the PHCS network with negotiated provider rates.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nThe pre-existing condition waiver, or PCW, is a key tool.\n\nThere is a flexible deductible system in place.\n\nCoinsurance support options are also available.\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\nThe PHCS network provides extensive coverage with negotiated rates.\n\nThis ensures that members have access to a wide range of healthcare providers.\n\n---- Preventive Care and Wellness ----\n\nPreventive care and wellness are important aspects of this plan.\n\nWellness services are included to support overall health.\n\nPreventive programs are available to help maintain well-being.\n\nThe PHCS network provides extensive coverage for these services.\n\n---- Telehealth Services ----\n\nTelehealth services offer convenient access to care.\n\nMembers have twenty-four/seven access to care.\n\nLicensed physicians are available for consultations.\n\nNon-emergency medical services can be accessed easily.\n\nThis ensures convenient access to care whenever needed.\n\n---- Advocacy and Support Services ----\n\nAdvocacy and support services are available to assist members.\n\nHealthcare advocacy is provided to help navigate the system.\n\nAssistance with claims is available to ensure smooth processing.\n\nOptions for care are presented to members.\n\nSupport is offered to help members make informed decisions.\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\nDeductible options range from five hundred dollars to ten thousand dollars.\n\nCoinsurance options are set at eighty/twenty.\n\nThe coinsurance limit is two thousand dollars or four thousand dollars.\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\nCoverage period maximum options are two hundred fifty thousand dollars, five hundred thousand dollars, or one million dollars.\n\nDoctor office consultation copays are as follows: twenty-five dollars for physician office or urgent care, maximum two visits; forty dollars for specialists, maximum two visits; and fifty dollars for wellness, maximum one visit.\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\nDeductible options are the same, ranging from five hundred dollars to ten thousand dollars.\n\nCoinsurance options remain at eighty/twenty.\n\nThe coinsurance limit is also two thousand dollars or four thousand dollars.\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\nCoverage period maximum options are the same as Plan 1.\n\nDoctor office consultation copays are fifteen dollars for physician office or urgent care, unlimited visits; twenty-five dollars for specialists, unlimited visits; and fifty dollars for wellness, maximum one visit.\n\n---- Plan Tier 3 (One of Two) ----\n\nLet's move on to our third plan tier.\n\nDeductible options remain consistent, ranging from five hundred dollars to ten thousand dollars.\n\nCoinsurance options are still eighty/twenty.\n\nThe coinsurance limit is two thousand dollars or four thousand dollars.\n\n---- Plan Tier 3 (Two of Two) ----\n\nContinuing with our third plan tier.\n\nCoverage period maximum options are the same as the previous plans.\n\nDoctor office consultation copays are twenty-five dollars for physician office or urgent care, maximum two visits; forty dollars for specialists, maximum two visits; and fifty dollars for wellness, maximum one visit.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nAll plans offer the same deductible options, ranging from five hundred dollars to ten thousand dollars.\n\nCoinsurance options are consistent at eighty/twenty across all plans.\n\nThe coinsurance limit is two thousand dollars or four thousand dollars for each plan.\n\nCoverage period maximum options are two hundred fifty thousand dollars, five hundred thousand dollars, or one million dollars for all plans.\n\nCopays for physician office or urgent care visits vary slightly between plans.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nPre-existing conditions are defined as any medical advice, diagnosis, care, or treatment received within thirty-six months prior to the effective date.\n\nExcluded services include cosmetic surgery, infertility treatments, and experimental procedures.\n\nCoverage caps include a three thousand dollar maximum benefit for joint surgery, a two thousand five hundred dollar maximum benefit for gallbladder surgery, and a five thousand dollar maximum benefit for back surgery.\n\nWaiting periods are five days for general illness and thirty days for cancer coverage.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nFlexible deductible options are available to suit different needs.\n\nThe coinsurance structure is included to manage costs.\n\nNetwork access provides extensive coverage through PHCS.\n\nA pre-existing condition waiver is required for eligible members.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Access Health Plan Overview",
+          "content": "<SlideAudio deckKey=\"001\" />\n\n# Access Health Plan Overview\n\nUnderstanding the details and benefits of the **Access Health Limited Duration Group Short Term Medical Insurance**",
+          "frontmatter": "id: FEN_001\ntheme: ../../\ntitle: | \n  Access Health\ninfo: |\n  ## Access Health Plan Overview\n  A look at the Access Health benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Access Health Limited Duration Group Short Term Medical Insurance. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Access Health Plan",
+          "content": "## The Access Health Plan\n\n<v-click>\n\n- Short-term coverage lasting up to 36 months through **American Financial Security Life Insurance Company**\n\n</v-click>\n\n<v-click>\n\n- **Flexible Deductible Options** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Coinsurance Structure** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Network Access** through PHCS\n\n</v-click>\n\n<v-click>\n\n- **Pre-existing Condition Waiver** support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Plan Overview",
+          "content": "The Access Health Plan\n\noffers short-term coverage lasting up to thirty-six months through American Financial Security Life Insurance Company.\n\nIt provides flexible deductible options for various situations,\n\nand includes a coinsurance structure with support tools.\n\nNetwork access is available through PHCS,\n\nand there is a pre-existing condition waiver to support eligible members."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Duration**: Short-term coverage lasting up to 36 months\n\n</v-click>\n\n<v-click>\n\n**Deductible Options**: Flexible range from $500 to $10,000\n\n</v-click>\n\n<v-click>\n\n**Coinsurance Structure**: 80/20 with maximum out-of-pocket limits of $2,000 or $4,000\n\n</v-click>\n\n<v-click>\n\n**Network Access**: PHCS network with negotiated provider rates\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"/img/logos/FirstHealth_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"FirstHealth Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nThe duration of the plan offers short-term coverage lasting up to thirty-six months.\n\nDeductible options are flexible, ranging from five hundred dollars to ten thousand dollars.\n\nThe coinsurance structure is eighty/twenty with maximum out-of-pocket limits of two thousand dollars or four thousand dollars.\n\nNetwork access is provided through the PHCS network with negotiated provider rates."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**Pre-existing Condition Waiver** (PCW)\n</v-click>\n\n<v-click>\n\n**Flexible Deductible** System\n</v-click>\n\n<v-click>\n\n**Coinsurance Support** Options\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nThe pre-existing condition waiver, or PCW, is a key tool.\n\nThere is a flexible deductible system in place.\n\nCoinsurance support options are also available."
+        }
+      },
+      {
+        "slide": {
+          "header": "How Pre-existing Condition Waiver Works",
+          "content": "## How Pre-existing Condition Waiver Works\n\n<v-click>\n\n1. Enroll through **American Financial Security Life Insurance Company**\n</v-click>\n\n<v-click>\n\n2. Choose deductible and coinsurance options\n</v-click>\n\n<v-click>\n\n3. Apply for waiver rider if eligible\n</v-click>\n\n<v-click>\n\n4. Receive Certificate of Insurance **(COI)**\n</v-click>\n\n<v-click>\n\n5. Enjoy coverage with selected benefits\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Provider Network Details",
+          "content": "Here's how the provider network works.\n\nThe PHCS network provides extensive coverage with negotiated rates.\n\nThis ensures that members have access to a wide range of healthcare providers."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Wellness Services** Services\n</v-click>\n\n<v-click>\n\n- **Preventive Programs** Programs\n</v-click>\n\n<v-click>\n\n- **PHCS Network** provides extensive coverage\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Preventive care and wellness are important aspects of this plan.\n\nWellness services are included to support overall health.\n\nPreventive programs are available to help maintain well-being.\n\nThe PHCS network provides extensive coverage for these services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **24/7 Access** to care\n\n</v-click>\n\n<v-click>\n\n- **Licensed Physicians** available\n\n</v-click>\n\n<v-click>\n\n- **Non-emergency Medical Services** available\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to care\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Telehealth services offer convenient access to care.\n\nMembers have twenty-four/seven access to care.\n\nLicensed physicians are available for consultations.\n\nNon-emergency medical services can be accessed easily.\n\nThis ensures convenient access to care whenever needed."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Assistance** with claims\n\n</v-click>\n\n<v-click>\n\n- **Options** for care\n\n</v-click>\n\n<v-click>\n\n- **Support** for members\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Advocacy and support services are available to assist members.\n\nHealthcare advocacy is provided to help navigate the system.\n\nAssistance with claims is available to ensure smooth processing.\n\nOptions for care are presented to members.\n\nSupport is offered to help members make informed decisions."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1 (1/2)",
+          "content": "## Plan 1 (1/2)\n\n<v-click>\n\n**Deductible Options**\n- $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000\n</v-click>\n\n<v-click>\n\n**Coinsurance Options**\n- 80/20\n</v-click>\n\n<v-click>\n\n**Coinsurance Limit**\n- $2,000, $4,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "Let's examine our first plan tier.\n\nDeductible options range from five hundred dollars to ten thousand dollars.\n\nCoinsurance options are set at eighty/twenty.\n\nThe coinsurance limit is two thousand dollars or four thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 1 (2/2)",
+          "content": "## Plan 1 (2/2)\n\n<v-click>\n\n**Coverage Period Maximum Options**\n- $250,000, $500,000, $1,000,000\n</v-click>\n\n<v-click>\n\n**Doctor Office Consultation**\n- Copay - Physician Office / Urgent Care: $25, maximum 2\n- Copay - Specialist: $40, maximum 2\n- Copay - Wellness: $50, maximum 1\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "Continuing with our first plan tier.\n\nCoverage period maximum options are two hundred fifty thousand dollars, five hundred thousand dollars, or one million dollars.\n\nDoctor office consultation copays are as follows: twenty-five dollars for physician office or urgent care, maximum two visits; forty dollars for specialists, maximum two visits; and fifty dollars for wellness, maximum one visit."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 2 (1/2)",
+          "content": "## Plan 2 (1/2)\n\n<v-click>\n\n**Deductible Options**\n- $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000\n</v-click>\n\n<v-click>\n\n**Coinsurance Options**\n- 80/20\n</v-click>\n\n<v-click>\n\n**Coinsurance Limit**\n- $2,000, $4,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier.\n\nDeductible options are the same, ranging from five hundred dollars to ten thousand dollars.\n\nCoinsurance options remain at eighty/twenty.\n\nThe coinsurance limit is also two thousand dollars or four thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 2 (2/2)",
+          "content": "## Plan 2 (2/2)\n\n<v-click>\n\n**Coverage Period Maximum Options**\n- $250,000, $500,000, $1,000,000\n</v-click>\n\n<v-click>\n\n**Doctor Office Consultation**\n- Copay - Physician Office / Urgent Care: $15, unlimited\n- Copay - Specialist: $25, unlimited\n- Copay - Wellness: $50, maximum 1\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Continuing with our second plan tier.\n\nCoverage period maximum options are the same as Plan 1.\n\nDoctor office consultation copays are fifteen dollars for physician office or urgent care, unlimited visits; twenty-five dollars for specialists, unlimited visits; and fifty dollars for wellness, maximum one visit."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 3 (1/2)",
+          "content": "## Plan 3 (1/2)\n\n<v-click>\n\n**Deductible Options**\n- $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000\n</v-click>\n\n<v-click>\n\n**Coinsurance Options**\n- 80/20\n</v-click>\n\n<v-click>\n\n**Coinsurance Limit**\n- $2,000, $4,000\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (One of Two)",
+          "content": "Let's move on to our third plan tier.\n\nDeductible options remain consistent, ranging from five hundred dollars to ten thousand dollars.\n\nCoinsurance options are still eighty/twenty.\n\nThe coinsurance limit is two thousand dollars or four thousand dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Plan 3 (2/2)",
+          "content": "## Plan 3 (2/2)\n\n<v-click>\n\n**Coverage Period Maximum Options**\n- $250,000, $500,000, $1,000,000\n</v-click>\n\n<v-click>\n\n**Doctor Office Consultation**\n- Copay - Physician Office / Urgent Care: $25, maximum 2\n- Copay - Specialist: $40, maximum 2\n- Copay - Wellness: $50, maximum 1\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (Two of Two)",
+          "content": "Continuing with our third plan tier.\n\nCoverage period maximum options are the same as the previous plans.\n\nDoctor office consultation copays are twenty-five dollars for physician office or urgent care, maximum two visits; forty dollars for specialists, maximum two visits; and fifty dollars for wellness, maximum one visit."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Plan 1** | **Plan 2** | **Plan 3** |\n|---------|----------|----------|-----------|\n| Deductible Options | $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000 | $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000 | $500, $1,000, $2,000, $2,500, $5,000, $7,500, $10,000 |\n| Coinsurance Options | 80/20 | 80/20 | 80/20 |\n| Coinsurance Limit | $2,000, $4,000 | $2,000, $4,000 | $2,000, $4,000 |\n| Coverage Period Maximum Options | $250,000, $500,000, $1,000,000 | $250,000, $500,000, $1,000,000 | $250,000, $500,000, $1,000,000 |\n| Copay - Physician Office / Urgent Care | $25, maximum 2 | $15, unlimited | $25, maximum 2 |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nAll plans offer the same deductible options, ranging from five hundred dollars to ten thousand dollars.\n\nCoinsurance options are consistent at eighty/twenty across all plans.\n\nThe coinsurance limit is two thousand dollars or four thousand dollars for each plan.\n\nCoverage period maximum options are two hundred fifty thousand dollars, five hundred thousand dollars, or one million dollars for all plans.\n\nCopays for physician office or urgent care visits vary slightly between plans."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Pre-existing Conditions**\n- Defined as any medical advice, diagnosis, care, or treatment received within 36 months prior to the effective date\n- Excludes pre-employment or premarital examinations\n- Excludes experimental procedures\n</v-click>\n\n<v-click>\n\n**Excluded Services**\n- Cosmetic surgery\n- Infertility treatments\n- Experimental procedures\n</v-click>\n\n<v-click>\n\n**Coverage Caps**\n- Joint Surgery: $3,000 maximum benefit\n- Gallbladder Surgery: $2,500 maximum benefit\n- Back Surgery: $5,000 maximum benefit\n</v-click>\n\n<v-click>\n\n**Waiting Periods**\n- General Illness: 5-day waiting period\n- Cancer Coverage: 30-day waiting period\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/05_limitations_and_exclusions_for_insurance_plan_with_pre_existing_conditions_and_excluded_services.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nPre-existing conditions are defined as any medical advice, diagnosis, care, or treatment received within thirty-six months prior to the effective date.\n\nExcluded services include cosmetic surgery, infertility treatments, and experimental procedures.\n\nCoverage caps include a three thousand dollar maximum benefit for joint surgery, a two thousand five hundred dollar maximum benefit for gallbladder surgery, and a five thousand dollar maximum benefit for back surgery.\n\nWaiting periods are five days for general illness and thirty days for cancer coverage."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexible Deductible Options** benefits\n</v-click>  \n\n<v-click>\n\n- **Coinsurance Structure** included\n</v-click>\n\n<v-click>\n\n- **Network Access** benefits\n</v-click>\n\n<v-click>\n\n- **Pre-existing Condition Waiver** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nFlexible deductible options are available to suit different needs.\n\nThe coinsurance structure is included to manage costs.\n\nNetwork access provides extensive coverage through PHCS.\n\nA pre-existing condition waiver is required for eligible members."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Access Health Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 18
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 18,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

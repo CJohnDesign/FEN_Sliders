@@ -1,0 +1,444 @@
+{
+  "deck_id": "FEN_COMP",
+  "deck_title": "Compass Discount",
+  "processed_images": {
+    "3": {
+      "page_number": 3,
+      "original_name": "HAOBrochure_page_003.jpg",
+      "original_path": "img/pages/HAOBrochure_page_003.jpg",
+      "new_name": "03_table_of_contents_for_health_access_options_with_wellness_benefits_and_member_terms.jpg",
+      "new_path": "img/pages/03_table_of_contents_for_health_access_options_with_wellness_benefits_and_member_terms.jpg",
+      "page_title": "table_of_contents_for_health_access_options_with_wellness_benefits_and_member_terms",
+      "summary": "This page serves as the table of contents for the Health Access Options document. It outlines the main sections and their corresponding page numbers. The document begins with an introduction to benefits on page 2, followed by complimentary wellness benefits on page 4, which include access to a personal wellness specialist. Pages 5 to 7 cover members-only priced wellness benefits, featuring services such as mobile diagnostics testing, a 1-800MD telemedicine program, medical bill assist, prescription savings, and LabCorp blood testing services. The final section, spanning pages 8 to 12, details the member terms and conditions. It is explicitly stated that HAO membership is not a health insurance policy and does not replace any health insurance policy. Additionally, HAO is not a qualified health plan under the Affordable Care Act.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 3
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "HAOBrochure_page_004.jpg",
+      "original_path": "img/pages/HAOBrochure_page_004.jpg",
+      "new_name": "04_hao_complimentary_wellness_benefits_with_personal_wellness_specialist_and_prescription_assistance_program.jpg",
+      "new_path": "img/pages/04_hao_complimentary_wellness_benefits_with_personal_wellness_specialist_and_prescription_assistance_program.jpg",
+      "page_title": "hao_complimentary_wellness_benefits_with_personal_wellness_specialist_and_prescription_assistance_program",
+      "summary": "The HAO Complimentary Wellness Benefits page outlines the unlimited free access members have to various wellness programs and services. The Personal Wellness Specialist service is highlighted, offering members assistance in coordinating their wellness journey. This includes locating healthcare providers for various treatments such as doctor visits, dental, vision, hearing, and routine checkups. The specialists also help in price shopping for doctors, scheduling appointments, and locating medical equipment at the lowest prices. Additional services include scheduling medical imaging appointments and ordering medical supplies. Members can also receive assistance with scheduling blood tests and procedures like colonoscopies and endoscopies.\n\nThe Prescription Assistance Program, provided by ImpaxRx, is also detailed. This program helps members access thousands of FDA-approved medications at the lowest prices. It includes a personal prescription advocate who works on behalf of the member. Brand name prescription medications are available starting at $25.00 per prescription per month. There is no age or income limit to apply for this program, and there is no limit on the number of medications. The program ensures communication with doctors to obtain necessary signatures.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 4
+    },
+    "1": {
+      "page_number": 1,
+      "original_name": "HAOBrochure_page_001.jpg",
+      "original_path": "img/pages/HAOBrochure_page_001.jpg",
+      "new_name": "01_cover_page_for_health_access_options_introduction_fulfillment_packet.jpg",
+      "new_path": "img/pages/01_cover_page_for_health_access_options_introduction_fulfillment_packet.jpg",
+      "page_title": "cover_page_for_health_access_options_introduction_fulfillment_packet",
+      "summary": "This cover page introduces the Health Access Options Introduction Fulfillment Packet. It highlights the program's focus on addressing everyday health and wellness needs through a membership that offers free services and savings on wellness benefits. The page emphasizes the unique access to a Wellness Specialist to assist members in making lifestyle changes for long-term health. The mission statement is to improve members' quality of life by offering programs and lifestyle benefits supported by Personal Wellness Specialists. Contact information is provided, including an address in Boca Raton, Florida, a website, and a phone number for further inquiries.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 1
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "HAOBrochure_page_002.jpg",
+      "original_path": "img/pages/HAOBrochure_page_002.jpg",
+      "new_name": "02_health_access_options_member_welcome_and_benefits_overview.jpg",
+      "new_path": "img/pages/02_health_access_options_member_welcome_and_benefits_overview.jpg",
+      "page_title": "health_access_options_member_welcome_and_benefits_overview",
+      "summary": "This page welcomes new members to Health Access Options (HAO) and outlines the various benefits and support services available. Members are introduced to the Personal Wellness Specialist, who coordinates health and wellness activities. Mobile Diagnostic Testing offers convenient at-home services like X-rays and ultrasounds. The 1-800MD service provides 24/7 access to U.S. board-certified doctors and pediatricians, offering telemedicine consultations to save time and money. Additionally, 1-800MD tele-behavioral and MAP programs provide mental health support through video conferencing.\n\nImpaxRx 6 Ways To Save is highlighted as a program to help members find the lowest prices on prescription medications, with potential free medication through the Prescription Assistance Program. Life Extension Resources and Services offer access to supplements and health advisors, including free phone consultations with a team of health professionals. The Wellness Assessment provides personalized health recommendations, while members can save 25%-50% on Life Extension Supplements.\n\nOther benefits include Medical Bill Assist for unpaid medical bills, Pet Benefits for 24/7 pet care advice, and the Wellness Pantry & Healthy Eating Program for organic food delivery. The Cleanse & Weight Loss program offers educational lifestyle coaching, and Online Exercise Programs provide unlimited access to workout videos. Members are encouraged to contact the Personal Wellness Specialist for further assistance.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 2
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "HAOBrochure_page_006.jpg",
+      "original_path": "img/pages/HAOBrochure_page_006.jpg",
+      "new_name": "06_health_access_options_blood_testing_and_1_800md_telemedicine_program_details.jpg",
+      "new_path": "img/pages/06_health_access_options_blood_testing_and_1_800md_telemedicine_program_details.jpg",
+      "page_title": "health_access_options_blood_testing_and_1_800md_telemedicine_program_details",
+      "summary": "This page outlines the process for accessing blood testing services through Health Access Options. Members can initiate testing by calling a dedicated number and taking a requisition to a local LabCorp facility. Results are delivered via mail, email, or fax, and can be discussed with a doctor or a Health Advisor. Blood testing services are limited to the continental United States and Anchorage, Alaska, with exclusions in Hawaii. Additional blood test categories include cancer tests, heart health, hormone testing, and more. \n\nThe page also introduces the 1-800MD Telemedicine Program, which offers 24/7 access to medical consultations. This service provides an alternative to non-emergent ER visits and urgent care clinics, allowing members to consult with physicians from home or while traveling. Members can request free consultations by telephone, enhancing convenience and accessibility to healthcare services.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 6
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "HAOBrochure_page_005.jpg",
+      "original_path": "img/pages/HAOBrochure_page_005.jpg",
+      "new_name": "05_prescription_assistance_programs_and_blood_testing_services_details.jpg",
+      "new_path": "img/pages/05_prescription_assistance_programs_and_blood_testing_services_details.jpg",
+      "page_title": "prescription_assistance_programs_and_blood_testing_services_details",
+      "summary": "This page outlines the features and benefits of the Health Access Options Prescription Assistance Programs and Blood Testing Services. The prescription assistance program offers support in managing medication prescriptions, including completion and submission of paperwork, medication changes, and re-order processes. It highlights the importance of these programs by noting that 20 to 30 percent of prescriptions are never filled, and 50 percent of chronic disease medications are not taken as prescribed. The program aims to simplify the process for members by verifying medication details and coordinating with physicians. \n\nAdditionally, the page describes three ways to save on prescriptions: obtaining the best retail price at pharmacies, using mail order delivery, and participating in a prescription savings program. For those struggling with prescription costs, contacting an ImpaxRx Specialist is recommended. \n\nThe blood testing services, provided by LabCorp, offer affordable testing options without the need for insurance. These services include a wide range of tests at reduced prices, with convenient locations available by zip code. The focus is on providing accessible and cost-effective health management solutions.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 5
+    },
+    "7": {
+      "page_number": 7,
+      "original_name": "HAOBrochure_page_007.jpg",
+      "original_path": "img/pages/HAOBrochure_page_007.jpg",
+      "new_name": "07_mobile_diagnostic_services_and_medical_bill_assist_details.jpg",
+      "new_path": "img/pages/07_mobile_diagnostic_services_and_medical_bill_assist_details.jpg",
+      "page_title": "mobile_diagnostic_services_and_medical_bill_assist_details",
+      "summary": "This page outlines the Mobile Diagnostic Services available at home, including X-Ray, Ultrasound, and Electrocardiogram (EKG) services. Each service is priced at $199 and requires scheduling through a dedicated phone line. The X-Ray service is interpreted by board-certified radiologists, with reports delivered promptly. Ultrasound services cover a range of diagnostic needs, with preliminary reports provided immediately. EKG services offer standard 12 lead electrocardiograms with interpretations by specialists. These services are available nationwide, with specific state exclusions listed.\n\nAdditionally, the page details the Medical Bill Assist Program offered by Health Access Options (HAO). This program aids members in managing and reducing outstanding medical bills through negotiations and financial assistance. Medical Bill Specialists are available to help with bills that are not yet in collections, as well as those that are. The program requires a nominal enrollment fee, and members are encouraged to contact their specialists for further assistance. Contact information and a portal link are provided for easy access to services.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 7
+    },
+    "8": {
+      "page_number": 8,
+      "original_name": "HAOBrochure_page_008.jpg",
+      "original_path": "img/pages/HAOBrochure_page_008.jpg",
+      "new_name": "08_terms_and_conditions_for_health_access_options_membership.jpg",
+      "new_path": "img/pages/08_terms_and_conditions_for_health_access_options_membership.jpg",
+      "page_title": "terms_and_conditions_for_health_access_options_membership",
+      "summary": "This page outlines the terms and conditions for members of Health Access Options (HAO), LLC. It specifies that the terms apply to the member and their family residing at the same household. The document highlights that some terms may not apply depending on the product or membership level. Members are informed about the availability of lifestyle and wellness programs that offer enhanced wellness opportunities and discounts on nonmedical services. \n\nFor any questions or issues regarding membership, members are encouraged to contact Member Services at the provided phone number. The document details the fees and termination policies, stating that members must pay the monthly membership cost, which will be automatically debited. If payment is declined, members have ten days to provide a new payment method, or their membership will be canceled. A returned check fee of $25.00 will be imposed for payments not honored by the financial institution. \n\nMembership activation occurs one day after enrollment, and the effective date is determined by the initial payment receipt. The document also includes a section on patient authorization for the use and disclosure of protected health information, allowing HAO to use this information for administrative and advocacy services related to pharmaceutical companies' patient assistance programs.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 8
+    },
+    "12": {
+      "page_number": 12,
+      "original_name": "HAOBrochure_page_012.jpg",
+      "original_path": "img/pages/HAOBrochure_page_012.jpg",
+      "new_name": "12_membership_acceptance_page_for_health_access_options.jpg",
+      "new_path": "img/pages/12_membership_acceptance_page_for_health_access_options.jpg",
+      "page_title": "membership_acceptance_page_for_health_access_options",
+      "summary": "This page serves as a membership acceptance form for the Health Access Options program. It emphasizes the purpose of the program, which is to complement existing insurance or function independently to help members manage their healthcare expenses effectively. Members are required to enter their Membership ID, Name, and Date to accept the program's terms and conditions. This formal acceptance is necessary to activate membership and access the benefits provided by the program.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 12
+    },
+    "11": {
+      "page_number": 11,
+      "original_name": "HAOBrochure_page_011.jpg",
+      "original_path": "img/pages/HAOBrochure_page_011.jpg",
+      "new_name": "11_cancellation_policy_and_terms_for_health_access_options_membership.jpg",
+      "new_path": "img/pages/11_cancellation_policy_and_terms_for_health_access_options_membership.jpg",
+      "page_title": "cancellation_policy_and_terms_for_health_access_options_membership",
+      "summary": "This page outlines the cancellation policy and terms for members of Health Access Options. Members identified as the primary account holder can cancel their membership by calling a toll-free number or by sending a signed cancellation notice to the specified address or email. If cancellation occurs within thirty days of signing up, the first month's paid membership fee will be refunded. However, cancellation notifications must be received at least one business day prior to the monthly recurring charge date to avoid automatic membership continuation and fee collection.\n\nThe page also includes a section where members must enter their Membership ID, Name, and Sign to accept the payment terms and conditions. Additionally, it contains a statement that the membership is not a health insurance policy and does not replace one. It is also not a Qualified Health Plan under the Affordable Care Act. Members authorize the disclosure of protected health information (PHI) and other relevant information to entities involved in providing payment, treatment, or services.\n\nThe document emphasizes that the membership agreement is the complete and exclusive statement of the agreement between the member and Health Access Options, superseding any other representations or agreements.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 11
+    },
+    "9": {
+      "page_number": 9,
+      "original_name": "HAOBrochure_page_009.jpg",
+      "original_path": "img/pages/HAOBrochure_page_009.jpg",
+      "new_name": "09_health_access_options_prescription_savings_program_and_telemedicine_services_details.jpg",
+      "new_path": "img/pages/09_health_access_options_prescription_savings_program_and_telemedicine_services_details.jpg",
+      "page_title": "health_access_options_prescription_savings_program_and_telemedicine_services_details",
+      "summary": "This page outlines several key features and provisions related to the Health Access Options (HAO) plan, focusing on the Prescription Savings Program (PSP) and Telemedicine Services. The PSP allows eligible members to pay a monthly administrative service fee for individual or family membership. Members are responsible for pricing as discussed in voice-recorded verification upon pharmaceutical manufacturer approval. HAO is not affiliated with pharmaceutical companies and does not dispense medications. Identification and documentation may be required for each application.\n\nTelemedicine Services are also detailed, emphasizing that telemedicine does not replace primary care physicians and prescriptions are not guaranteed. Telemedicine partners adhere to state regulations and do not prescribe certain drugs due to potential abuse. Co-pays for telemedicine benefits are paid directly to partners.\n\nThe page includes disclaimers stating that HAO is not an insurer or healthcare service underwriter. Membership features and benefits may change, and HAO disclaims liability for professional services rendered by providers. Limitations of liability are clearly stated, emphasizing that HAO is not liable for damages related to professional services.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 9
+    },
+    "10": {
+      "page_number": 10,
+      "original_name": "HAOBrochure_page_010.jpg",
+      "original_path": "img/pages/HAOBrochure_page_010.jpg",
+      "new_name": "10_terms_and_conditions_for_health_access_options_plan.jpg",
+      "new_path": "img/pages/10_terms_and_conditions_for_health_access_options_plan.jpg",
+      "page_title": "terms_and_conditions_for_health_access_options_plan",
+      "summary": "This page outlines the terms and conditions associated with the Health Access Options plan. It includes a disclaimer of liability for special, indirect, consequential, or incidental damages, emphasizing that the provider is not responsible for any loss of profits, revenue, or use arising from the service. The indemnification clause requires members to indemnify and hold harmless the provider from all claims, liabilities, costs, and expenses, including attorney's fees, arising from the use or misuse of the provider's products or services.\n\nThe governing law section specifies that the agreement is governed by the laws of the State of Florida, with provisions for severability to ensure the validity of the agreement even if parts are deemed unenforceable. The miscellaneous section includes an arbitration clause, mandating that disputes be resolved through binding arbitration in Palm Beach County, Florida, under the American Arbitration Association's rules. It also states that each party bears its own costs, and no class arbitration is allowed.\n\nAdditionally, the page mentions that any damages, costs, and expenses, including attorney's fees incurred by the provider, must be paid by the member. It specifies that no action may be brought by either party more than one year after the membership's effective date.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "HAOBrochure",
+      "global_page_num": 10
+    }
+  },
+  "presentation": {
+    "content": "# Presentation Plan for Compass Discount\n\n## Deck ID: FEN_COMP\n## Deck Title: Compass Discount\n\n### Cover (1 slide)\n- **Plan Name:** Compass Discount\n- **Tagline:** \"Empowering Your Health Journey with Affordable Wellness Solutions\"\n\n### Plan Overview (1 slide)\n- **Target Audience:** Individuals and families seeking affordable healthcare solutions.\n- **Offerings:** Access to discounted and complimentary wellness services.\n- **Key Benefits:** Personal wellness coordination, cost savings on prescriptions, and 24/7 telemedicine access.\n\n### Core Plan Elements (3 slides)\n- **Coverage Areas:**\n  - Physician services, hospitalization, virtual visits.\n- **Plan Structure:**\n  - Membership-based with tiered options.\n- **Eligibility:**\n  - Open to individuals and families, focusing on affordability.\n\n### Common Service Features (3 slides)\n- **Provider Networks:**\n  - Access to a wide range of healthcare providers.\n- **Claims Management:**\n  - Assistance with medical bill negotiations.\n- **Support Tools:**\n  - Wellness programs, online exercise resources, and health advisors.\n\n### Plan Tiers Breakdown (10 slides)\n- **Tier 1: Basic Membership**\n  - Personal Wellness Specialist\n  - Prescription Assistance Program\n  - 1-800MD Telemedicine Services\n  - LabCorp Blood Testing Services\n  - Medical Bill Assistance\n\n- **Tier 2: Enhanced Membership**\n  - All Basic Membership benefits\n  - Mobile Diagnostic Testing (X-ray, EKG, Ultrasound)\n  - Additional Prescription Savings\n  - Advanced Diagnostic Testing\n\n- **Tier 3: Premium Membership**\n  - All Enhanced Membership benefits\n  - Comprehensive Health & Wellness Resources\n  - Pet Health Benefits\n  - Enhanced Medical Bill Assistance\n\n### Comparison Slides (2 slides)\n- **Markdown Table:**\n\n```markdown\n| Feature                      | Basic Membership | Enhanced Membership | Premium Membership |\n|------------------------------|------------------|---------------------|--------------------|\n| Personal Wellness Specialist | Yes              | Yes                 | Yes                |\n| Prescription Assistance      | Yes              | Yes                 | Yes                |\n| Telemedicine Services        | Yes              | Yes                 | Yes                |\n| Mobile Diagnostics           | No               | Yes                 | Yes                |\n| Pet Health Benefits          | No               | No                  | Yes                |\n```\n\n### Limitations and Exclusions (2 slides)\n- **Exclusions:**\n  - Not a replacement for health insurance.\n  - Excludes certain state services (e.g., Hawaii).\n- **Limitations:**\n  - No coverage for pre-existing conditions.\n  - Waiting periods for some services.\n\n### Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Offers a range of services to suit different needs.\n- **Cost vs. Coverage:** Balances affordability with access to essential services.\n- **Next Steps:** Contact a Personal Wellness Specialist to enroll or get support.\n\n### Thank You (1 slide)\n- **Message:** \"Thank you for considering Compass Discount. Your path to better health starts here!\"",
+    "generated_at": "2025-02-28T14:25:31.784554"
+  },
+  "slides": {
+    "content": "---\nid: FEN_COMP\ntheme: ../../\ntitle: | \n  Compass Discount\ninfo: |\n  ## Compass Discount Plan Overview\n  A look at the Compass Discount benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"COMP\" />\n\n# Compass Discount Plan Overview\n\nUnderstanding the details and benefits of the **Compass Discount Plan**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Compass Discount Plan\n\n<v-click>\n\n- Membership-based wellness and healthcare assistance service through **Compass Discount**\n\n</v-click>\n\n<v-click>\n\n- **Complimentary Services** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Paid Services** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Health & Wellness Resources** through Life Extension\n\n</v-click>\n\n<v-click>\n\n- **Pet Health Benefits** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Personal Wellness Specialist**\n\n</v-click>\n\n<v-click>\n\n**Prescription Assistance Program**\n\n</v-click>\n\n<v-click>\n\n**1-800MD Telemedicine & Mental Health Services**\n\n</v-click>\n\n<v-click>\n\n**LabCorp Blood Testing Services** through LabCorp\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/LabCorp_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"LabCorp Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**Medical Bill Assistance** (MBA)\n</v-click>\n\n<v-click>\n\n**Mobile Diagnostic Testing** System\n</v-click>\n\n<v-click>\n\n**Advanced Diagnostic Testing** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How Medical Bill Assistance Works\n\n<v-click>\n\n1. Enroll through **Compass Discount**\n</v-click>\n\n<v-click>\n\n2. Contact a Medical Bill Specialist\n</v-click>\n\n<v-click>\n\n3. Submit unpaid medical bills for review\n</v-click>\n\n<v-click>\n\n4. Receive negotiated bill reductions **(MBA)**\n</v-click>\n\n<v-click>\n\n5. Pay reduced bill amounts\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Life Extension** Services\n</v-click>\n\n<v-click>\n\n- **Wellness Programs** and resources\n</v-click>\n\n<v-click>\n\n- **Life Extension** provides supplements and health advisors\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **24/7 access to board-certified doctors**\n\n</v-click>\n\n<v-click>\n\n- **Tele-behavioral health services**\n\n</v-click>\n\n<v-click>\n\n- **Convenient consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Eliminates unnecessary doctor or ER visits** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Personalized healthcare advocacy**\n\n</v-click>\n\n<v-click>\n\n- **Prescription Assistance** assistance\n\n</v-click>\n\n<v-click>\n\n- **Medical Bill Assistance** options\n\n</v-click>\n\n<v-click>\n\n- **Wellness Coordination** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/04_hao_complimentary_wellness_benefits_with_personal_wellness_specialist_and_prescription_assistance_program.jpg\n---\n\n## Basic Membership (1/2)\n\n<v-click>\n\n**Personal Wellness Specialist**\n- Finding and scheduling appointments\n- Price shopping for medical providers\n- Scheduling medical imaging\n- Coordinating blood tests and screenings\n</v-click>\n\n<v-click>\n\n**Prescription Assistance Program**\n- Lower prescription medication costs\n- Free eligible medications\n</v-click>\n\n<v-click>\n\n**1-800MD Telemedicine Services**\n- 24/7 access to doctors\n- Tele-behavioral health services\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/04_hao_complimentary_wellness_benefits_with_personal_wellness_specialist_and_prescription_assistance_program.jpg\n---\n\n## Basic Membership (2/2)\n\n<v-click>\n\n**LabCorp Blood Testing Services**\n- Discounted blood tests\n- Results via mail, email, or online\n</v-click>\n\n<v-click>\n\n**Medical Bill Assistance**\n- Negotiate and reduce unpaid bills\n</v-click>\n\n<v-click>\n\n**Mobile Diagnostic Testing**\n- Home-based X-ray, EKG, and Ultrasound\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/07_mobile_diagnostic_services_and_medical_bill_assist_details.jpg\n---\n\n## Enhanced Membership (1/2)\n\n<v-click>\n\n**All Basic Membership benefits**\n- Personal Wellness Specialist\n- Prescription Assistance Program\n- 1-800MD Telemedicine Services\n</v-click>\n\n<v-click>\n\n**Mobile Diagnostic Testing**\n- X-ray, EKG, Ultrasound\n- Advanced Diagnostic Testing\n</v-click>\n\n<v-click>\n\n**Additional Prescription Savings**\n- Beyond free program\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/07_mobile_diagnostic_services_and_medical_bill_assist_details.jpg\n---\n\n## Enhanced Membership (2/2)\n\n<v-click>\n\n**Advanced Diagnostic Testing**\n- Comprehensive testing options\n</v-click>\n\n<v-click>\n\n**Enhanced Medical Bill Assistance**\n- For complex cases\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/06_health_access_options_blood_testing_and_1_800md_telemedicine_program_details.jpg\n---\n\n## Premium Membership (1/2)\n\n<v-click>\n\n**All Enhanced Membership benefits**\n- Personal Wellness Specialist\n- Prescription Assistance Program\n- 1-800MD Telemedicine Services\n</v-click>\n\n<v-click>\n\n**Comprehensive Health & Wellness Resources**\n- Life Extension supplements\n- Health advisors\n</v-click>\n\n<v-click>\n\n**Pet Health Benefits**\n- 24/7 veterinary advice\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/06_health_access_options_blood_testing_and_1_800md_telemedicine_program_details.jpg\n---\n\n## Premium Membership (2/2)\n\n<v-click>\n\n**Enhanced Medical Bill Assistance**\n- For more complex cases\n</v-click>\n\n<v-click>\n\n**Online Exercise Programs**\n- Unlimited access to workout videos\n</v-click>\n\n<v-click>\n\n**Weight-Loss Coaching**\n- Educational lifestyle coaching\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Basic Membership** | **Enhanced Membership** | **Premium Membership** |\n|------------------------------|------------------|---------------------|--------------------|\n| Personal Wellness Specialist | Yes              | Yes                 | Yes                |\n| Prescription Assistance      | Yes              | Yes                 | Yes                |\n| Telemedicine Services        | Yes              | Yes                 | Yes                |\n| Mobile Diagnostics           | No               | Yes                 | Yes                |\n| Pet Health Benefits          | No               | No                  | Yes                |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/10_terms_and_conditions_for_health_access_options_plan.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Not a replacement for health insurance\n- Excludes certain state services (e.g., Hawaii)\n</v-click>\n\n<v-click>\n\n**Limitations**\n- No coverage for pre-existing conditions\n- Waiting periods for some services\n</v-click>\n\n<v-click>\n\n**Terms and Conditions**\n- Governed by the laws of the State of Florida\n- Arbitration clause for disputes\n</v-click>\n\n<v-click>\n\n**Cancellation Policy**\n- Refunds within thirty days of signing up\n- Ongoing billing terms\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** offers a range of services to suit different needs\n</v-click>  \n\n<v-click>\n\n- **Cost vs. Coverage** balances affordability with access to essential services\n</v-click>\n\n<v-click>\n\n- **Next Steps** contact a Personal Wellness Specialist to enroll or get support\n</v-click>\n\n<v-click>\n\n- **HAO is NOT insurance** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Compass Discount Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/12_membership_acceptance_page_for_health_access_options.jpg",
+      "pages/10_terms_and_conditions_for_health_access_options_plan.jpg",
+      "pages/06_health_access_options_blood_testing_and_1_800md_telemedicine_program_details.jpg",
+      "pages/02_health_access_options_member_welcome_and_benefits_overview.jpg",
+      "pages/01_cover_page_for_health_access_options_introduction_fulfillment_packet.jpg",
+      "pages/11_cancellation_policy_and_terms_for_health_access_options_membership.jpg",
+      "pages/03_table_of_contents_for_health_access_options_with_wellness_benefits_and_member_terms.jpg",
+      "pages/05_prescription_assistance_programs_and_blood_testing_services_details.jpg",
+      "pages/08_terms_and_conditions_for_health_access_options_membership.jpg",
+      "pages/09_health_access_options_prescription_savings_program_and_telemedicine_services_details.jpg",
+      "pages/04_hao_complimentary_wellness_benefits_with_personal_wellness_specialist_and_prescription_assistance_program.jpg",
+      "pages/07_mobile_diagnostic_services_and_medical_bill_assist_details.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Compass Discount Plan. We'll walk through this plan's features and benefits, designed to empower your members with wellness and healthcare assistance. Let's get started!\n\n---- The Compass Discount Plan ----\n\nThe Compass Discount Plan is a membership-based wellness and healthcare assistance service.\n\nIt offers complimentary services for various situations, \n\nalong with paid services and support tools. \n\nMembers have access to health and wellness resources through Life Extension, \n\nand there are also pet health benefits available.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nMembers have access to a Personal Wellness Specialist, \n\na Prescription Assistance Program, \n\n1-800MD Telemedicine and Mental Health Services, \n\nand LabCorp Blood Testing Services, which provide discounted blood tests.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nThe plan includes Medical Bill Assistance, also known as MBA, \n\na Mobile Diagnostic Testing System, \n\nand support for Advanced Diagnostic Testing.\n\n---- How Medical Bill Assistance Works ----\n\nHere's how the Medical Bill Assistance process works.\n\nFirst, members enroll through Compass Discount. \n\nNext, they contact a Medical Bill Specialist. \n\nMembers then submit unpaid medical bills for review. \n\nThey receive negotiated bill reductions through MBA, \n\nand finally, they pay the reduced bill amounts.\n\n---- Preventive Care and Wellness ----\n\nThe plan offers preventive care and wellness resources.\n\nMembers can access Life Extension services, \n\nparticipate in wellness programs and resources, \n\nand receive supplements and health advice from Life Extension.\n\n---- Telehealth Services ----\n\nLet's talk about the telehealth services available.\n\nMembers have 24/7 access to board-certified doctors, \n\ncan use tele-behavioral health services, \n\nenjoy convenient consultations, \n\nand eliminate unnecessary doctor or ER visits.\n\n---- Advocacy and Support Services ----\n\nThe plan also includes advocacy and support services.\n\nMembers receive personalized healthcare advocacy, \n\nprescription assistance, \n\nmedical bill assistance options, \n\nand wellness coordination support.\n\n---- Basic Membership (One of Two) ----\n\nLet's examine the basic membership benefits.\n\nMembers have access to a Personal Wellness Specialist who helps with finding and scheduling appointments, price shopping for medical providers, scheduling medical imaging, and coordinating blood tests and screenings.\n\nThe Prescription Assistance Program helps lower prescription medication costs and offers free eligible medications.\n\n1-800MD Telemedicine Services provide 24/7 access to doctors and tele-behavioral health services.\n\n---- Basic Membership (Two of Two) ----\n\nContinuing with the basic membership benefits.\n\nLabCorp Blood Testing Services offer discounted blood tests with results available via mail, email, or online.\n\nMedical Bill Assistance helps negotiate and reduce unpaid bills.\n\nMobile Diagnostic Testing provides home-based X-ray, EKG, and Ultrasound services.\n\n---- Enhanced Membership (One of Two) ----\n\nNow, let's look at the enhanced membership benefits.\n\nIt includes all basic membership benefits, such as the Personal Wellness Specialist, Prescription Assistance Program, and 1-800MD Telemedicine Services.\n\nMobile Diagnostic Testing offers X-ray, EKG, and Ultrasound services, along with Advanced Diagnostic Testing.\n\nMembers receive additional prescription savings beyond the free program.\n\n---- Enhanced Membership (Two of Two) ----\n\nContinuing with the enhanced membership benefits.\n\nAdvanced Diagnostic Testing offers a range of testing options.\n\nEnhanced Medical Bill Assistance is available for more complex cases.\n\n---- Premium Membership (One of Two) ----\n\nLet's examine the premium membership benefits.\n\nIt includes all enhanced membership benefits, such as the Personal Wellness Specialist, Prescription Assistance Program, and 1-800MD Telemedicine Services.\n\nMembers have access to comprehensive health and wellness resources, including Life Extension supplements and health advisors.\n\nPet Health Benefits provide 24/7 veterinary advice.\n\n---- Premium Membership (Two of Two) ----\n\nContinuing with the premium membership benefits.\n\nEnhanced Medical Bill Assistance is available for more complex cases.\n\nMembers have unlimited access to online exercise programs and workout videos.\n\nWeight-loss coaching offers educational lifestyle coaching.\n\n---- Comparing the Plans ----\n\nLet's compare the different membership plans available.\n\nThe table shows that all membership levels include a Personal Wellness Specialist, Prescription Assistance, and Telemedicine Services.\n\nMobile Diagnostics are available in the Enhanced and Premium Memberships.\n\nPet Health Benefits are exclusive to the Premium Membership.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nExclusions include that the plan is not a replacement for health insurance and excludes certain state services, such as in Hawaii.\n\nLimitations include no coverage for pre-existing conditions and waiting periods for some services.\n\nTerms and conditions are governed by the laws of the State of Florida, with an arbitration clause for disputes.\n\nThe cancellation policy allows refunds within thirty days of signing up, with ongoing billing terms.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers flexibility with a range of services to suit different needs.\n\nIt balances cost versus coverage, providing affordability with access to essential services.\n\nNext steps include contacting a Personal Wellness Specialist to enroll or get support.\n\nRemember, HAO is not insurance.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Compass Discount Plan Overview",
+          "content": "<SlideAudio deckKey=\"COMP\" />\n\n# Compass Discount Plan Overview\n\nUnderstanding the details and benefits of the **Compass Discount Plan**",
+          "frontmatter": "id: FEN_COMP\ntheme: ../../\ntitle: | \n  Compass Discount\ninfo: |\n  ## Compass Discount Plan Overview\n  A look at the Compass Discount benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Compass Discount Plan. We'll walk through this plan's features and benefits, designed to empower your members with wellness and healthcare assistance. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Compass Discount Plan",
+          "content": "## The Compass Discount Plan\n\n<v-click>\n\n- Membership-based wellness and healthcare assistance service through **Compass Discount**\n\n</v-click>\n\n<v-click>\n\n- **Complimentary Services** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Paid Services** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Health & Wellness Resources** through Life Extension\n\n</v-click>\n\n<v-click>\n\n- **Pet Health Benefits** support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "The Compass Discount Plan",
+          "content": "The Compass Discount Plan is a membership-based wellness and healthcare assistance service.\n\nIt offers complimentary services for various situations, \n\nalong with paid services and support tools. \n\nMembers have access to health and wellness resources through Life Extension, \n\nand there are also pet health benefits available."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Personal Wellness Specialist**\n\n</v-click>\n\n<v-click>\n\n**Prescription Assistance Program**\n\n</v-click>\n\n<v-click>\n\n**1-800MD Telemedicine & Mental Health Services**\n\n</v-click>\n\n<v-click>\n\n**LabCorp Blood Testing Services** through LabCorp\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/LabCorp_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"LabCorp Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nMembers have access to a Personal Wellness Specialist, \n\na Prescription Assistance Program, \n\n1-800MD Telemedicine and Mental Health Services, \n\nand LabCorp Blood Testing Services, which provide discounted blood tests."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**Medical Bill Assistance** (MBA)\n</v-click>\n\n<v-click>\n\n**Mobile Diagnostic Testing** System\n</v-click>\n\n<v-click>\n\n**Advanced Diagnostic Testing** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nThe plan includes Medical Bill Assistance, also known as MBA, \n\na Mobile Diagnostic Testing System, \n\nand support for Advanced Diagnostic Testing."
+        }
+      },
+      {
+        "slide": {
+          "header": "How Medical Bill Assistance Works",
+          "content": "## How Medical Bill Assistance Works\n\n<v-click>\n\n1. Enroll through **Compass Discount**\n</v-click>\n\n<v-click>\n\n2. Contact a Medical Bill Specialist\n</v-click>\n\n<v-click>\n\n3. Submit unpaid medical bills for review\n</v-click>\n\n<v-click>\n\n4. Receive negotiated bill reductions **(MBA)**\n</v-click>\n\n<v-click>\n\n5. Pay reduced bill amounts\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How Medical Bill Assistance Works",
+          "content": "Here's how the Medical Bill Assistance process works.\n\nFirst, members enroll through Compass Discount. \n\nNext, they contact a Medical Bill Specialist. \n\nMembers then submit unpaid medical bills for review. \n\nThey receive negotiated bill reductions through MBA, \n\nand finally, they pay the reduced bill amounts."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Life Extension** Services\n</v-click>\n\n<v-click>\n\n- **Wellness Programs** and resources\n</v-click>\n\n<v-click>\n\n- **Life Extension** provides supplements and health advisors\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "The plan offers preventive care and wellness resources.\n\nMembers can access Life Extension services, \n\nparticipate in wellness programs and resources, \n\nand receive supplements and health advice from Life Extension."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **24/7 access to board-certified doctors**\n\n</v-click>\n\n<v-click>\n\n- **Tele-behavioral health services**\n\n</v-click>\n\n<v-click>\n\n- **Convenient consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Eliminates unnecessary doctor or ER visits** to care\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Let's talk about the telehealth services available.\n\nMembers have 24/7 access to board-certified doctors, \n\ncan use tele-behavioral health services, \n\nenjoy convenient consultations, \n\nand eliminate unnecessary doctor or ER visits."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Personalized healthcare advocacy**\n\n</v-click>\n\n<v-click>\n\n- **Prescription Assistance** assistance\n\n</v-click>\n\n<v-click>\n\n- **Medical Bill Assistance** options\n\n</v-click>\n\n<v-click>\n\n- **Wellness Coordination** support\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "The plan also includes advocacy and support services.\n\nMembers receive personalized healthcare advocacy, \n\nprescription assistance, \n\nmedical bill assistance options, \n\nand wellness coordination support."
+        }
+      },
+      {
+        "slide": {
+          "header": "Basic Membership (1/2)",
+          "content": "## Basic Membership (1/2)\n\n<v-click>\n\n**Personal Wellness Specialist**\n- Finding and scheduling appointments\n- Price shopping for medical providers\n- Scheduling medical imaging\n- Coordinating blood tests and screenings\n</v-click>\n\n<v-click>\n\n**Prescription Assistance Program**\n- Lower prescription medication costs\n- Free eligible medications\n</v-click>\n\n<v-click>\n\n**1-800MD Telemedicine Services**\n- 24/7 access to doctors\n- Tele-behavioral health services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/04_hao_complimentary_wellness_benefits_with_personal_wellness_specialist_and_prescription_assistance_program.jpg"
+        },
+        "script": {
+          "header": "Basic Membership (One of Two)",
+          "content": "Let's examine the basic membership benefits.\n\nMembers have access to a Personal Wellness Specialist who helps with finding and scheduling appointments, price shopping for medical providers, scheduling medical imaging, and coordinating blood tests and screenings.\n\nThe Prescription Assistance Program helps lower prescription medication costs and offers free eligible medications.\n\n1-800MD Telemedicine Services provide 24/7 access to doctors and tele-behavioral health services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Basic Membership (2/2)",
+          "content": "## Basic Membership (2/2)\n\n<v-click>\n\n**LabCorp Blood Testing Services**\n- Discounted blood tests\n- Results via mail, email, or online\n</v-click>\n\n<v-click>\n\n**Medical Bill Assistance**\n- Negotiate and reduce unpaid bills\n</v-click>\n\n<v-click>\n\n**Mobile Diagnostic Testing**\n- Home-based X-ray, EKG, and Ultrasound\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/04_hao_complimentary_wellness_benefits_with_personal_wellness_specialist_and_prescription_assistance_program.jpg"
+        },
+        "script": {
+          "header": "Basic Membership (Two of Two)",
+          "content": "Continuing with the basic membership benefits.\n\nLabCorp Blood Testing Services offer discounted blood tests with results available via mail, email, or online.\n\nMedical Bill Assistance helps negotiate and reduce unpaid bills.\n\nMobile Diagnostic Testing provides home-based X-ray, EKG, and Ultrasound services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Enhanced Membership (1/2)",
+          "content": "## Enhanced Membership (1/2)\n\n<v-click>\n\n**All Basic Membership benefits**\n- Personal Wellness Specialist\n- Prescription Assistance Program\n- 1-800MD Telemedicine Services\n</v-click>\n\n<v-click>\n\n**Mobile Diagnostic Testing**\n- X-ray, EKG, Ultrasound\n- Advanced Diagnostic Testing\n</v-click>\n\n<v-click>\n\n**Additional Prescription Savings**\n- Beyond free program\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/07_mobile_diagnostic_services_and_medical_bill_assist_details.jpg"
+        },
+        "script": {
+          "header": "Enhanced Membership (One of Two)",
+          "content": "Now, let's look at the enhanced membership benefits.\n\nIt includes all basic membership benefits, such as the Personal Wellness Specialist, Prescription Assistance Program, and 1-800MD Telemedicine Services.\n\nMobile Diagnostic Testing offers X-ray, EKG, and Ultrasound services, along with Advanced Diagnostic Testing.\n\nMembers receive additional prescription savings beyond the free program."
+        }
+      },
+      {
+        "slide": {
+          "header": "Enhanced Membership (2/2)",
+          "content": "## Enhanced Membership (2/2)\n\n<v-click>\n\n**Advanced Diagnostic Testing**\n- Comprehensive testing options\n</v-click>\n\n<v-click>\n\n**Enhanced Medical Bill Assistance**\n- For complex cases\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/07_mobile_diagnostic_services_and_medical_bill_assist_details.jpg"
+        },
+        "script": {
+          "header": "Enhanced Membership (Two of Two)",
+          "content": "Continuing with the enhanced membership benefits.\n\nAdvanced Diagnostic Testing offers a range of testing options.\n\nEnhanced Medical Bill Assistance is available for more complex cases."
+        }
+      },
+      {
+        "slide": {
+          "header": "Premium Membership (1/2)",
+          "content": "## Premium Membership (1/2)\n\n<v-click>\n\n**All Enhanced Membership benefits**\n- Personal Wellness Specialist\n- Prescription Assistance Program\n- 1-800MD Telemedicine Services\n</v-click>\n\n<v-click>\n\n**Comprehensive Health & Wellness Resources**\n- Life Extension supplements\n- Health advisors\n</v-click>\n\n<v-click>\n\n**Pet Health Benefits**\n- 24/7 veterinary advice\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/06_health_access_options_blood_testing_and_1_800md_telemedicine_program_details.jpg"
+        },
+        "script": {
+          "header": "Premium Membership (One of Two)",
+          "content": "Let's examine the premium membership benefits.\n\nIt includes all enhanced membership benefits, such as the Personal Wellness Specialist, Prescription Assistance Program, and 1-800MD Telemedicine Services.\n\nMembers have access to comprehensive health and wellness resources, including Life Extension supplements and health advisors.\n\nPet Health Benefits provide 24/7 veterinary advice."
+        }
+      },
+      {
+        "slide": {
+          "header": "Premium Membership (2/2)",
+          "content": "## Premium Membership (2/2)\n\n<v-click>\n\n**Enhanced Medical Bill Assistance**\n- For more complex cases\n</v-click>\n\n<v-click>\n\n**Online Exercise Programs**\n- Unlimited access to workout videos\n</v-click>\n\n<v-click>\n\n**Weight-Loss Coaching**\n- Educational lifestyle coaching\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/06_health_access_options_blood_testing_and_1_800md_telemedicine_program_details.jpg"
+        },
+        "script": {
+          "header": "Premium Membership (Two of Two)",
+          "content": "Continuing with the premium membership benefits.\n\nEnhanced Medical Bill Assistance is available for more complex cases.\n\nMembers have unlimited access to online exercise programs and workout videos.\n\nWeight-loss coaching offers educational lifestyle coaching."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Basic Membership** | **Enhanced Membership** | **Premium Membership** |\n|------------------------------|------------------|---------------------|--------------------|\n| Personal Wellness Specialist | Yes              | Yes                 | Yes                |\n| Prescription Assistance      | Yes              | Yes                 | Yes                |\n| Telemedicine Services        | Yes              | Yes                 | Yes                |\n| Mobile Diagnostics           | No               | Yes                 | Yes                |\n| Pet Health Benefits          | No               | No                  | Yes                |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing the Plans",
+          "content": "Let's compare the different membership plans available.\n\nThe table shows that all membership levels include a Personal Wellness Specialist, Prescription Assistance, and Telemedicine Services.\n\nMobile Diagnostics are available in the Enhanced and Premium Memberships.\n\nPet Health Benefits are exclusive to the Premium Membership."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Not a replacement for health insurance\n- Excludes certain state services (e.g., Hawaii)\n</v-click>\n\n<v-click>\n\n**Limitations**\n- No coverage for pre-existing conditions\n- Waiting periods for some services\n</v-click>\n\n<v-click>\n\n**Terms and Conditions**\n- Governed by the laws of the State of Florida\n- Arbitration clause for disputes\n</v-click>\n\n<v-click>\n\n**Cancellation Policy**\n- Refunds within thirty days of signing up\n- Ongoing billing terms\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/10_terms_and_conditions_for_health_access_options_plan.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nExclusions include that the plan is not a replacement for health insurance and excludes certain state services, such as in Hawaii.\n\nLimitations include no coverage for pre-existing conditions and waiting periods for some services.\n\nTerms and conditions are governed by the laws of the State of Florida, with an arbitration clause for disputes.\n\nThe cancellation policy allows refunds within thirty days of signing up, with ongoing billing terms."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** offers a range of services to suit different needs\n</v-click>  \n\n<v-click>\n\n- **Cost vs. Coverage** balances affordability with access to essential services\n</v-click>\n\n<v-click>\n\n- **Next Steps** contact a Personal Wellness Specialist to enroll or get support\n</v-click>\n\n<v-click>\n\n- **HAO is NOT insurance** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers flexibility with a range of services to suit different needs.\n\nIt balances cost versus coverage, providing affordability with access to essential services.\n\nNext steps include contacting a Personal Wellness Specialist to enroll or get support.\n\nRemember, HAO is not insurance."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Compass Discount Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 18
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 18,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

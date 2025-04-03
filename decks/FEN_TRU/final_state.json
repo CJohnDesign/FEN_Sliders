@@ -1,0 +1,2217 @@
+{
+  "deck_id": "FEN_TRU",
+  "deck_title": "True Health",
+  "processed_images": {
+    "3": {
+      "page_number": 2,
+      "original_name": "TrueHealth_Complete_2025_page_002.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_002.jpg",
+      "new_name": "02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg",
+      "new_path": "img/pages/02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg",
+      "page_title": "true_health_1_plan_details_with_benefits_and_coverage_limits",
+      "summary": "The True Health 1 plan offers a structured set of benefits focusing on physician services, telemedicine, and prescription discounts. Under physician services, the plan allows for three primary care office visits per year with a $25 co-pay and a maximum of $150 per visit. Specialist or urgent care office visits are limited to one per year, with a $50 co-pay and a $300 maximum per visit. In-patient hospitalization benefits are provided at $1,000 per day, with a yearly maximum of $5,000, subject to a 12-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and no maximum limit, enhancing accessibility to healthcare professionals. The plan also includes a discount prescription program through BestChoice RX, applicable at participating pharmacies only. Advocacy services are offered through MyHealthcare Ninja, focusing on hospital bill reduction.\n\nThe plan is subject to several limitations. All sickness benefits require a 30-day waiting period before becoming payable. Outpatient physician services and wellness benefits are restricted to in-network providers, while inpatient hospital indemnity benefits are not. The plan does not cover services outside the Schedule of Benefits, emphasizing preventive and wellness services as mandated by the Patient Protection and Affordable Care Act. Detailed information on copays, deductibles, and limitations is provided in the Summary Plan Description.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 2
+    },
+    "4": {
+      "page_number": 2,
+      "original_name": "02_true_health_1_plan_with_physician_services_telemedicine_and_advocacy_benefits.jpg",
+      "original_path": "img/pages/02_true_health_1_plan_with_physician_services_telemedicine_and_advocacy_benefits.jpg",
+      "new_name": "02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg",
+      "new_path": "img/pages/02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg",
+      "page_title": "true_health_1_plan_details_with_benefits_and_coverage_limits",
+      "summary": "The True Health 1 plan offers a structured set of benefits focusing on physician services, telemedicine, and prescription discounts. Under physician services, the plan allows for three primary care office visits per year with a $25 co-pay and a maximum of $150 per visit. Specialist or urgent care office visits are limited to one per year, with a $50 co-pay and a $300 maximum per visit. In-patient hospitalization benefits are provided at $1,000 per day, with a yearly maximum of $5,000, subject to a 12-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and no maximum limit, enhancing accessibility to healthcare professionals. The plan also includes a discount prescription program through BestChoice RX, applicable at participating pharmacies only. Additionally, advocacy services are offered through MyHealthcare Ninja, focusing on hospital bill reduction.\n\nThe plan is sponsored by Vitaminpatch and administered by Merchants Benefit Admin, utilizing the First Health Network for in-network services. Notably, all sickness benefits are subject to a 30-day waiting period before becoming payable. Outpatient services and wellness benefits are restricted to in-network providers, while hospitalization benefits are not subject to network restrictions. The plan explicitly excludes services not listed in the Schedule of Benefits and is limited to preventive and wellness services as mandated by the Affordable Care Act.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "true_health_1_plan_with_physician_services_telemedicine_and_advocacy_benefits",
+      "global_page_num": 2
+    },
+    "2": {
+      "page_number": 1,
+      "original_name": "TrueHealth_Complete_2025_page_001.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_001.jpg",
+      "new_name": "01_true_health_summary_with_benefits_for_th1_th2_th3.jpg",
+      "new_path": "img/pages/01_true_health_summary_with_benefits_for_th1_th2_th3.jpg",
+      "page_title": "true_health_summary_with_benefits_for_th1_th2_th3",
+      "summary": "The True Health Summary outlines the features and benefits of three plans: TH1, TH2, and TH3. Key benefits include telemedicine, the BestChoiceRX Group Discount Program, and the BestChoiceRX Plus, which offers non-preferred generic and brand medications with a co-pay up to $150 per month. Preventative care and specialty drugs through a prescription assistance program are also highlighted. The plans provide varying levels of coverage for primary care physician visits and specialist/urgent care visits, with TH1 offering 3 visits, TH2 offering 4, and TH3 offering 4 visits. A hospital indemnity benefit is included across all plans.\n\nThe document specifies several limitations. All sickness benefits are subject to a 30-day waiting period before they become payable. Outpatient physician services and wellness benefits are limited to in-network providers, while inpatient hospital indemnity benefits are not. Hospitalization benefits are not payable for pre-existing conditions during the first twelve months of coverage. The plan does not cover services unless listed in the Schedule of Benefits, emphasizing the importance of reviewing this list. Additionally, the plan is limited to covering preventive and wellness services as required by law.\n\nA special provision is included for colorectal cancer screening, which is subject to a home test kit for initial screening. If the test is positive, the plan will provide benefits for a colonoscopy.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 1
+    },
+    "1": {
+      "page_number": 1,
+      "original_name": "01_true_health_summary_with_features_benefits_and_limitations_for_th1_th2_th3.jpg",
+      "original_path": "img/pages/01_true_health_summary_with_features_benefits_and_limitations_for_th1_th2_th3.jpg",
+      "new_name": "01_true_health_summary_with_benefits_for_th1_th2_th3.jpg",
+      "new_path": "img/pages/01_true_health_summary_with_benefits_for_th1_th2_th3.jpg",
+      "page_title": "true_health_summary_with_benefits_for_th1_th2_th3",
+      "summary": "The True Health Summary outlines the features and benefits of three plans: TH1, TH2, and TH3. Key benefits include telemedicine, the BestChoiceRX Group Discount Program, and the BestChoiceRX Plus, which offers non-preferred generic and brand medications with a co-pay up to $150 per month. Preventative care and specialty drugs through a prescription assistance program are also highlighted. The plans provide access to the Healthcare Ninja service, primary care physician visits, and specialist or urgent care visits, with varying levels of coverage across the plans.\n\nThe document specifies a hospital indemnity benefit available across all plans. It notes that all sickness benefits are subject to a 30-day waiting period before they become payable. Outpatient physician services and wellness benefits require in-network providers, while inpatient hospital indemnity benefits do not. Hospitalization benefits are not payable for pre-existing conditions during the first twelve months of coverage. The plan does not cover services unless listed in the Schedule of Benefits, emphasizing the importance of reviewing this list.\n\nAdditionally, the colorectal cancer screening benefit is subject to a home test kit for initial screening. If the test is positive, the plan will cover a colonoscopy. The document stresses the plan's focus on preventive and wellness services as required by law, with details on copays, deductibles, and limitations.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "true_health_summary_with_features_benefits_and_limitations_for_th1_th2_th3",
+      "global_page_num": 1
+    },
+    "5": {
+      "page_number": 3,
+      "original_name": "TrueHealth_Complete_2025_page_003.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_003.jpg",
+      "new_name": "03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_pharmacy.jpg",
+      "new_path": "img/pages/03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_pharmacy.jpg",
+      "page_title": "true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_pharmacy",
+      "summary": "The True Health 2 plan offers a range of benefits focusing on physician services, telemedicine, and pharmacy options. For physician services, the plan includes four primary care office visits per year with a co-pay of $25 and a maximum of $150 per visit. Specialist or urgent care office visits are limited to two per year, with a $50 co-pay and a $300 maximum per visit. In-patient hospitalization benefits are provided at $1,000 per day, with a yearly maximum of $10,000, subject to a 12-month pre-existing condition clause.\n\nTelemedicine services are available through Opyn, with no consult fee and no maximum limit on usage. Pharmacy benefits include preventive and acute prescriptions, subject to formulary restrictions. For a 30-day supply of acute and preventive generic drugs, members pay the cost, with a $0 copay for generics. A 90-day supply of maintenance drugs is available through mail order, with a $5 copay for preferred generics.\n\nThe plan includes a hospital bill reducer under advocacy services. Prescription terms specify that discounts apply when prescriptions are off the formulary, and specialty drugs are not covered. The plan does not cover services unless listed in the Schedule of Benefits and is limited to preventive and wellness services as required by law. A 30-day waiting period applies to all sickness benefits, and outpatient services are limited to in-network providers.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 3
+    },
+    "6": {
+      "page_number": 3,
+      "original_name": "03_true_health_2_plan_features_with_physician_services_and_prescription_benefits.jpg",
+      "original_path": "img/pages/03_true_health_2_plan_features_with_physician_services_and_prescription_benefits.jpg",
+      "new_name": "03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_prescriptions.jpg",
+      "new_path": "img/pages/03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_prescriptions.jpg",
+      "page_title": "true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_prescriptions",
+      "summary": "The True Health 2 plan offers a range of benefits focusing on physician services, telemedicine, and prescription coverage. For primary care office visits, the plan allows for four visits per year with a co-pay of $25 and a maximum charge of $150 per visit. Specialist or urgent care visits are limited to two per year, with a $50 co-pay and a $300 maximum per visit. In-patient hospitalization benefits provide $1,000 per day, with a yearly maximum of $10,000, subject to a 12-month pre-existing condition clause.\n\nTelemedicine services are provided with no consult fee and no maximum limit, enhancing accessibility to healthcare professionals. Prescription coverage includes preventive and acute prescriptions, subject to formulary restrictions. Retail pharmacy options allow for up to a 30-day supply, with members paying for prescriptions, while generic options have a $0 copay. Mail order services offer up to a 90-day supply for 200 generic maintenance drugs, with preferred generics available for a $5 copay.\n\nThe plan includes a hospital bill reducer under its advocacy benefits. Limitations include a 30-day waiting period for sickness benefits and restrictions on outpatient physician services to in-network providers. Hospitalization benefits are not payable for pre-existing conditions within the first 12 months of coverage. Specialty drugs are excluded from coverage, and the plan does not cover services outside the defined schedule of benefits.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "true_health_2_plan_features_with_physician_services_and_prescription_benefits",
+      "global_page_num": 3
+    },
+    "7": {
+      "page_number": 4,
+      "original_name": "TrueHealth_Complete_2025_page_004.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_004.jpg",
+      "new_name": "04_true_health_3_plan_details_with_benefits_and_prescription_terms.jpg",
+      "new_path": "img/pages/04_true_health_3_plan_details_with_benefits_and_prescription_terms.jpg",
+      "page_title": "true_health_3_plan_details_with_benefits_and_prescription_terms",
+      "summary": "The True Health 3 plan offers a range of benefits focusing on physician services, telemedicine, and prescription coverage. Members are entitled to four primary care office visits per year with a $25 co-pay and a maximum charge of $150 per visit. Specialist or urgent care visits are also limited to four per year, with a $50 co-pay and a $300 maximum per visit. In-patient hospitalization benefits provide $1,000 per day, with a yearly maximum of $15,000, subject to a 12-month pre-existing condition clause.\n\nTelemedicine services are available with no consult fee and no maximum limit, enhancing accessibility to healthcare professionals. Prescription coverage includes preventive and acute prescriptions, with member payments required for retail and mail-order supplies. Generic drugs have a $0 co-pay, while preferred generics incur a $5 co-pay. Non-preferred generics and brand drugs require member payments, with specific co-pays for retail and mail-order options.\n\nThe plan includes prescription terms and conditions, highlighting that non-preventive maintenance prescriptions are subject to a $150 benefit limit per person per month. Specialty drugs are not covered, but a Prescription Assistance Program is available for eligible members. Advocacy services and hospital bill reduction support are also provided. The plan emphasizes the importance of reviewing the Schedule of Benefits for detailed coverage information and limitations.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 4
+    },
+    "8": {
+      "page_number": 4,
+      "original_name": "04_true_health_3_plan_features_benefits_and_coverage_details_with_limitations.jpg",
+      "original_path": "img/pages/04_true_health_3_plan_features_benefits_and_coverage_details_with_limitations.jpg",
+      "new_name": "04_true_health_3_plan_details_with_benefits_and_coverage_limits.jpg",
+      "new_path": "img/pages/04_true_health_3_plan_details_with_benefits_and_coverage_limits.jpg",
+      "page_title": "true_health_3_plan_details_with_benefits_and_coverage_limits",
+      "summary": "The True Health 3 plan offers a range of benefits and coverage options. It includes four primary care office visits per year with a $25 co-pay and a maximum of $150 per visit. Similarly, it provides four specialist or urgent care office visits annually, with a $50 co-pay and a $300 maximum per visit. The in-patient hospitalization benefit is set at $1,000 per day, with a yearly maximum of $15,000, subject to a 12-month pre-existing condition clause.\n\nTelemedicine services are available with no consult fee and no maximum limit. Prescription benefits include preventive and acute prescriptions, with member payments required for retail and mail-order supplies. Generic drugs have a $0 co-pay, while preferred generics have a $5 co-pay. Non-preferred generics and brand drugs require member payments, with specific retail and mail-order costs outlined.\n\nThe plan includes prescription terms and conditions, noting that non-preventive maintenance prescriptions have a $150 benefit limit per person per month. Specialty drugs are not covered, but a Prescription Assistance Program is available. Advocacy services include a hospital bill reducer. The plan emphasizes the importance of reviewing the Schedule of Benefits for exclusions and limitations, such as a 30-day waiting period for sickness benefits and in-network provider requirements for outpatient services.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "true_health_3_plan_features_benefits_and_coverage_details_with_limitations",
+      "global_page_num": 4
+    },
+    "10": {
+      "page_number": 5,
+      "original_name": "TrueHealth_Complete_2025_page_005.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_005.jpg",
+      "new_name": "05_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_intervals.jpg",
+      "new_path": "img/pages/05_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_intervals.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_intervals",
+      "summary": "This page outlines the preventive health services covered under the MEC/Preventive Health Services plan. Benefits are automatically subject to specific federal regulations, and amendments are incorporated by reference. The document highlights medical services with a rating of 'A' or 'B' from the United States Preventive Services Task Force, preventive care for infants, children, and adolescents, and immunizations recommended by the Advisory Committee on Immunization Practices. \n\nThe table provides a detailed list of benefits, including the interval and specific requirements for each service. For example, abdominal aortic aneurysm screening is covered once per lifetime for men aged 65-75 who have ever smoked. An adult annual standard physical is covered once per plan year for adults, while alcohol misuse screening and counseling are available once per plan year for adults 18 years or older. Aspirin as a preventive medication is covered as prescribed for adults aged 50 to 59 with high cardiovascular risk. \n\nOther services include bacteriuria screening, BRCA risk assessment and genetic counseling/testing, breast cancer preventive medications, and breast cancer screening. Notably, none of the preventive health services are covered if provided at a hospital, indicating a limitation in the coverage.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 5
+    },
+    "11": {
+      "page_number": 6,
+      "original_name": "06_mec_preventive_health_services_summary_of_benefits_including_screenings_and_counseling.jpg",
+      "original_path": "img/pages/06_mec_preventive_health_services_summary_of_benefits_including_screenings_and_counseling.jpg",
+      "new_name": "06_mec_preventive_health_services_summary_of_benefits.jpg",
+      "new_path": "img/pages/06_mec_preventive_health_services_summary_of_benefits.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits",
+      "summary": "This page provides a detailed summary of preventive health services covered under the MEC plan. It outlines various benefits, intervals, and specific requirements for each service. Breastfeeding support, supplies, and counseling are provided in conjunction with each birth, with interventions during pregnancy and after birth. Cervical cancer screening with cytology is available once every three plan years for women aged 21 to 65. Cervical cancer screening with HPV testing is offered once every five years for women aged 30 to 65. Chlamydia screening is available annually for sexually active women aged 24 and younger, and older women at increased risk. Colorectal cancer screening is provided once every five years for adults aged 50 to 75.\n\nContraceptive methods and counseling are offered as prescribed, following FDA guidelines. Dental caries prevention for infants and children up to age 5 includes fluoride varnish application and fluoride supplementation starting at 6 months. Depression screening is available annually for the general adult population, including pregnant and postpartum women. Diabetes screening is provided annually for adults aged 40 to 70 who are overweight or obese. Fall prevention for older adults includes exercise interventions for those aged 65 and older at risk of falls. Folic acid supplementation is prescribed for women planning or capable of pregnancy. Gestational diabetes mellitus screening is available annually for asymptomatic pregnant women after 24 weeks of gestation.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "mec_preventive_health_services_summary_of_benefits_including_screenings_and_counseling",
+      "global_page_num": 6
+    },
+    "12": {
+      "page_number": 6,
+      "original_name": "TrueHealth_Complete_2025_page_006.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_006.jpg",
+      "new_name": "06_mec_preventive_health_services_summary_of_benefits.jpg",
+      "new_path": "img/pages/06_mec_preventive_health_services_summary_of_benefits.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits",
+      "summary": "This page provides a detailed summary of preventive health services covered under the MEC plan. It outlines various benefits, intervals, and specific requirements for each service. Breastfeeding support, supplies, and counseling are provided in conjunction with each birth, with interventions during pregnancy and after birth. Cervical cancer screening with cytology is available once every three plan years for women aged 21 to 65. Cervical cancer screening with HPV testing is offered once every five plan years for women aged 30 to 65. Chlamydia screening is available annually for sexually active women aged 24 and younger, and older women at increased risk. Colorectal cancer screening is provided once every five plan years for adults aged 50 to 75.\n\nContraceptive methods and counseling are offered as prescribed, following FDA guidelines. Dental caries prevention for infants and children up to age 5 includes fluoride varnish application and oral fluoride supplementation starting at six months. Depression screening is available annually for the general adult population, including pregnant and postpartum women. Diabetes screening is provided annually for adults aged 40 to 70 who are overweight or obese. Fall prevention for older adults is available annually for those aged 65 and older at increased risk. Folic acid supplementation is prescribed for women planning or capable of pregnancy. Gestational diabetes mellitus screening is available annually for asymptomatic pregnant women after 24 weeks of gestation.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 6
+    },
+    "13": {
+      "page_number": 7,
+      "original_name": "07_mec_preventive_health_services_summary_of_benefits_with_screening_intervals_and_requirements.jpg",
+      "original_path": "img/pages/07_mec_preventive_health_services_summary_of_benefits_with_screening_intervals_and_requirements.jpg",
+      "new_name": "07_mec_preventive_health_services_summary_of_benefits_for_true_health.jpg",
+      "new_path": "img/pages/07_mec_preventive_health_services_summary_of_benefits_for_true_health.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_for_true_health",
+      "summary": "This page provides a detailed summary of preventive health services covered under the MEC/Preventive Health Services plan by True Health. It outlines various benefits, intervals, and specific requirements for each service. The benefits include Gonorrhea Prophylactic Medication, Gonorrhea Screening, and Healthy Diet and Physical Activity Counseling to Prevent Cardiovascular Disease, among others. Each benefit is associated with a specific interval, such as 'as prescribed' or '1 per plan year,' indicating the frequency of the service. \n\nThe requirements section specifies the target groups for each service. For instance, Gonorrhea Prophylactic Medication is prescribed for all newborns to prevent gonococcal ophthalmia neonatorum, while Gonorrhea Screening is recommended for sexually active women aged 24 years or younger. The plan also includes screenings for Hemoglobinopathies, Hepatitis B and C, High Blood Pressure, and HIV, with specific guidelines for different age groups and risk factors. \n\nAdditional services include Hypothyroidism Screening for newborns, Intimate Partner Violence Screening for women of reproductive age, and Lung Cancer Screening for adults aged 55 to 80 years with a significant smoking history. The plan also covers Obesity Screening and Counseling, Osteoporosis Screening for women aged 65 and older, and Phenylketonuria Screening for newborns. Each service is tailored to address specific health needs and risk factors, ensuring targeted preventive care.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "mec_preventive_health_services_summary_of_benefits_with_screening_intervals_and_requirements",
+      "global_page_num": 7
+    },
+    "9": {
+      "page_number": 5,
+      "original_name": "05_mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details.jpg",
+      "original_path": "img/pages/05_mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details.jpg",
+      "new_name": "05_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_intervals.jpg",
+      "new_path": "img/pages/05_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_intervals.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_intervals",
+      "summary": "This page outlines the preventive health services covered under the MEC/Preventive Health Services plan. Benefits are automatically subject to specific federal regulations, and amendments are incorporated by reference. The document highlights medical services with a rating of 'A' or 'B' from the United States Preventive Services Task Force, preventive care for infants, children, and adolescents, and immunizations recommended by the Advisory Committee on Immunization Practices. \n\nThe table provides a detailed list of benefits, including the interval and specific requirements for each service. For example, abdominal aortic aneurysm screening is covered once per lifetime for men aged 65-75 who have ever smoked. Adult annual standard physicals are covered once per plan year for adults. Alcohol misuse screening and counseling are available once per plan year for adults 18 years or older. Aspirin as a preventive medication is covered as prescribed for adults aged 50 to 59 with high cardiovascular risk. \n\nOther services include bacteriuria screening, BRCA risk assessment and genetic counseling/testing, breast cancer preventive medications, and breast cancer screening. Each service has specific intervals and requirements, such as age and risk factors. Notably, none of the preventive health services are covered if provided at a hospital.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details",
+      "global_page_num": 5
+    },
+    "15": {
+      "page_number": 8,
+      "original_name": "08_mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details.jpg",
+      "original_path": "img/pages/08_mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details.jpg",
+      "new_name": "08_mec_preventive_health_services_summary_of_benefits.jpg",
+      "new_path": "img/pages/08_mec_preventive_health_services_summary_of_benefits.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits",
+      "summary": "This page outlines the preventive health services covered under the MEC/Preventive Health Services plan. It details various screenings and counseling services available to plan members, specifying the frequency and requirements for each service. Preeclampsia screening is available once per plan year for pregnant women with blood pressure measurements throughout pregnancy. Rh incompatibility screening is offered once per plan year during the first pregnancy visit and again at 24-28 weeks' gestation for unsensitized Rh (D)-negative women. Sexually transmitted infections counseling is provided once per plan year for sexually active adolescents and adults at increased risk.\n\nSkin cancer behavioral counseling is available once per plan year for young adults, adolescents, children, and parents of young children to minimize ultraviolet exposure. Statin preventive medication is prescribed for adults aged 40 to 75 without a history of cardiovascular disease but with risk factors. Syphilis screening is offered once per plan year for non-pregnant persons at risk and all pregnant women. Tobacco use counseling is available twice per plan year for adults and pregnant women, with interventions for school-aged children and adolescents.\n\nTuberculosis screening is provided once per plan year for at-risk populations. Vision screening is available once every two plan years for children aged 3 to 5. Well-woman visits are covered once per plan year for women under 65, and well-child visits are covered once per plan year for children, with specific recommendations for those under age 3.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details",
+      "global_page_num": 8
+    },
+    "14": {
+      "page_number": 7,
+      "original_name": "TrueHealth_Complete_2025_page_007.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_007.jpg",
+      "new_name": "07_mec_preventive_health_services_summary_of_benefits_for_true_health.jpg",
+      "new_path": "img/pages/07_mec_preventive_health_services_summary_of_benefits_for_true_health.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_for_true_health",
+      "summary": "This page provides a detailed summary of preventive health services covered under the MEC/Preventive Health Services plan by True Health. It outlines various benefits, intervals, and specific requirements for each service. The plan includes coverage for Gonorrhea Prophylactic Medication, which is prescribed for all newborns to prevent gonococcal ophthalmia neonatorum. Gonorrhea Screening is available once per plan year for sexually active women aged 24 years or younger and older women at increased risk. Healthy Diet and Physical Activity Counseling is offered once per plan year for adults who are overweight or have additional cardiovascular disease risk factors.\n\nHemoglobinopathies Screening is provided once per plan year for sickle cell disease in newborns. Hepatitis B and C screenings are available once per plan year for non-pregnant adolescents and adults at high risk, with specific guidelines for pregnant women and adults born between 1945 and 1965. High Blood Pressure Screening is offered once per plan year for adults aged 18 or older. HIV Preexposure Prophylaxis and HIV Screening are available as prescribed and once per plan year, respectively, for individuals at high risk.\n\nAdditional screenings include Hypothyroidism Screening for newborns, Intimate Partner Violence Screening for women of reproductive age, Lung Cancer Screening for adults aged 55 to 80 years with a significant smoking history, and Obesity Screening and Counseling for children, adolescents, and adults. Osteoporosis Screening is available once per plan year for women aged 65 and older, and Phenylketonuria Screening is provided for newborns. Each service has specific requirements and intervals to ensure targeted preventive care.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 7
+    },
+    "16": {
+      "page_number": 8,
+      "original_name": "TrueHealth_Complete_2025_page_008.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_008.jpg",
+      "new_name": "08_mec_preventive_health_services_summary_of_benefits.jpg",
+      "new_path": "img/pages/08_mec_preventive_health_services_summary_of_benefits.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits",
+      "summary": "This page provides a detailed summary of preventive health services covered under the MEC plan. It outlines various benefits, intervals, and specific requirements for each service. Preeclampsia screening is available once per plan year for pregnant women with blood pressure measurements throughout pregnancy. Rh incompatibility screening is offered once per plan year during the first pregnancy visit and again at 24-28 weeks' gestation for unsensitized Rh (D)-negative women. Sexually transmitted infections counseling is provided once per plan year for sexually active adolescents and adults at increased risk. Skin cancer behavioral counseling is available once per plan year for young adults, adolescents, children, and parents of young children to minimize ultraviolet exposure.\n\nStatin preventive medication is prescribed for adults aged 40 to 75 years without a history of cardiovascular disease, meeting specific criteria. Syphilis screening is offered once per plan year for non-pregnant persons at risk and all pregnant women. Tobacco use counseling and interventions are available twice per plan year for adults and pregnant women who use tobacco, including FDA-approved pharmacotherapy. Tuberculosis screening is provided once per plan year for at-risk populations. Vision screening is available once every two plan years for children aged 3 to 5 years. Well-woman visits are covered once per plan year for women under 65, and well-child visits are covered once per plan year for children, with specific recommendations for those under age 3.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 8
+    },
+    "17": {
+      "page_number": 9,
+      "original_name": "09_mec_preventive_health_services_summary_of_benefits_with_immunization_details_for_children.jpg",
+      "original_path": "img/pages/09_mec_preventive_health_services_summary_of_benefits_with_immunization_details_for_children.jpg",
+      "new_name": "09_mec_preventive_health_services_summary_of_benefits_immunizations_for_children.jpg",
+      "new_path": "img/pages/09_mec_preventive_health_services_summary_of_benefits_immunizations_for_children.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_immunizations_for_children",
+      "summary": "This page provides a detailed summary of immunization benefits under the MEC/Preventive Health Services plan, focusing on vaccines recommended for children. The document outlines the specific vaccines available for children from birth through six years old and from seven through eighteen years old. For the younger age group, vaccines such as Hepatitis B, Diphtheria, Tetanus, and Acellular Pertussis (DTaP), Haemophilus Influenzae Type B (Hib), and Pneumococcal 13-valent Conjugate (PCV13) are covered. Each vaccine has specific age requirements and limitations, such as Hepatitis B being administered from ages 4 weeks to 2 months, and DTaP from ages 15 months to 18 months.\n\nFor children aged seven through eighteen, the plan includes vaccines like Influenza (yearly), Tetanus, Diphtheria, and Acellular Pertussis (Tdap), and Human Papillomavirus (HPV). The HPV vaccine is recommended for ages 11 to 12 years, with a note that a 3-shot series is necessary for those with weakened immune systems or those starting the series at 15 years or older. The document also specifies the Meningococcal vaccines for serogroups A, C, W, and Y, with a booster recommended at age 16.\n\nThe page emphasizes the importance of adhering to the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention guidelines for routine use in children, adolescents, or adults. The age requirements and limitations are clearly outlined to ensure compliance with recommended immunization schedules.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "mec_preventive_health_services_summary_of_benefits_with_immunization_details_for_children",
+      "global_page_num": 9
+    },
+    "19": {
+      "page_number": 10,
+      "original_name": "10_mec_preventive_health_services_summary_of_benefits_with_immunization_and_exclusion_details.jpg",
+      "original_path": "img/pages/10_mec_preventive_health_services_summary_of_benefits_with_immunization_and_exclusion_details.jpg",
+      "new_name": "10_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "new_path": "img/pages/10_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions",
+      "summary": "This page provides a summary of benefits for the MEC/Preventive Health Services, focusing on immunizations for adults aged nineteen years or older. The table lists various vaccines, including Influenza (IIV, RIV, LAIV), Tetanus (Tdap), Measles, Mumps, and Rubella (MMR), Varicella (VAR), Zoster (RZV, ZVL), Human Papillomavirus (HPV), and Pneumococcal (PCV13, PPSV23). Each vaccine is accompanied by specific age requirements and limitations, such as the number of doses and age ranges for administration. For example, the Influenza inactivated vaccine (IIV) is recommended annually for ages 19 and older, while the Tetanus vaccine (Tdap) is advised for ages 19 to 65, with a booster every 10 years.\n\nThe page also outlines exclusions applicable to the benefits offered under this plan. Exclusions include office visits, physical examinations, immunizations, and tests required solely for purposes such as sports, camp, employment, and legal proceedings. Other exclusions cover routine foot care, dental procedures, cosmetic surgeries unless medically necessary, and any medical service not explicitly provided in the plan document. Additionally, treatments related to employment or covered by a Worker's Compensation policy are excluded. These exclusions are detailed to ensure clarity on what is not covered under the plan.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "mec_preventive_health_services_summary_of_benefits_with_immunization_and_exclusion_details",
+      "global_page_num": 10
+    },
+    "18": {
+      "page_number": 9,
+      "original_name": "TrueHealth_Complete_2025_page_009.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_009.jpg",
+      "new_name": "09_mec_preventive_health_services_summary_of_benefits_immunizations_for_children.jpg",
+      "new_path": "img/pages/09_mec_preventive_health_services_summary_of_benefits_immunizations_for_children.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_immunizations_for_children",
+      "summary": "This page provides a detailed summary of immunization benefits under the MEC/Preventive Health Services plan, focusing on vaccines recommended by the Advisory Committee on Immunization Practices. The document outlines the specific vaccines covered for children from birth through eighteen years old, along with age requirements and limitations. For children from birth through six years old, vaccines such as Hepatitis B, Diphtheria, Tetanus, and Acellular Pertussis (DTaP), Haemophilus Influenzae Type B (Hib), and Pneumococcal 13-valent Conjugate (PCV13) are included. Each vaccine has specific age requirements, such as Hepatitis B being administered from ages 4 weeks to 2 months, and DTaP from ages 15 months to 18 months.\n\nFor children from seven through eighteen years old, the plan covers vaccines like Influenza (yearly), Tetanus, Diphtheria, and Acellular Pertussis (Tdap), and Human Papillomavirus (HPV). The HPV vaccine is recommended for ages 11 to 12 years, with a note that a 3-shot series is needed for those with weakened immune systems or those starting the series at 15 years or older. The document also includes the Meningococcal vaccine for serogroups A, C, W, Y, recommended at ages 11 to 12 years, with a booster at age 16. These details ensure that the immunization schedule aligns with health guidelines, providing essential preventive care for children.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 9
+    },
+    "20": {
+      "page_number": 10,
+      "original_name": "TrueHealth_Complete_2025_page_010.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_010.jpg",
+      "new_name": "10_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "new_path": "img/pages/10_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions",
+      "summary": "This page provides a detailed summary of benefits for the MEC/Preventive Health Services plan, focusing on immunizations for adults aged nineteen years or older. The table lists various vaccines, including Influenza inactivated (IIV), Influenza recombinant (RIV), and Influenza live attenuated (LAIV), along with age requirements and limitations. For example, the RIV vaccine is recommended annually for individuals aged 19 to 65 years. The Tdap vaccine is advised for ages 19 to 65, with a booster every 10 years. Other vaccines like MMR, VAR, and RZV have specific age and dosage recommendations based on CDC guidelines.\n\nThe page also outlines exclusions applicable to the plan. These exclusions include office visits, physical examinations, immunizations, and tests required solely for activities such as sports, camp, or employment. The plan does not cover routine foot care, dental procedures, or any medical service not explicitly provided in the plan document. Cosmetic surgeries require medical necessity authorization, and treatments related to congenital deformity or disease conditions are excluded unless specified. Additionally, the plan excludes any treatment related to teeth or periodontal issues, except for malignancies or benefits noted in the schedule of benefits. Claims related to employment or worker's compensation are also not covered.\n\nThe page emphasizes that the immunization schedule is based on CDC recommendations, and additional scenarios may be covered under the plan pursuant to CDC recommendations.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 10
+    },
+    "21": {
+      "page_number": 11,
+      "original_name": "TrueHealth_Complete_2025_page_011.jpg",
+      "original_path": "img/pages/TrueHealth_Complete_2025_page_011.jpg",
+      "new_name": "11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "new_path": "img/pages/11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations",
+      "summary": "This page outlines the exclusions and limitations associated with the MEC/Preventive Health Services plan. It specifies that any claims arising from services received outside the United States are not covered, except for those related to the Veterans Administration or Department of Defense. Claims for services not deemed medically necessary or those exceeding reasonable and customary rates are excluded. Additionally, charges covered by public health programs or arising from acts of war or terrorism are not reimbursable. \n\nThe document lists specific exclusions such as claims for eyeglasses, hearing aids, abortion services, and custodial care. It also excludes claims from non-medical providers, experimental treatments, and services related to suicide or illegal acts. Claims for procedures to change one's physical anatomy, fertility treatments, and obesity-related surgeries are not covered unless explicitly stated in the schedule of benefits. \n\nFurther exclusions include claims for cosmetic surgery, chiropractic care, dialysis, acupuncture, and alternative medicine. The plan does not cover non-emergency care outside the U.S., pregnancy benefits, or routine well-baby care while inpatient. The purpose of these exclusions is to clarify treatments and services not covered under the plan, ensuring no negative implications regarding coverage exist.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "TrueHealth_Complete_2025",
+      "global_page_num": 11
+    },
+    "22": {
+      "page_number": 11,
+      "original_name": "11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "original_path": "img/pages/11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "new_name": "11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "new_path": "img/pages/11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations",
+      "summary": "This page outlines the exclusions and limitations associated with the MEC/Preventive Health Services plan. It specifies that any claims for services received outside the United States are excluded, except for those covered by the Veterans Administration or Department of Defense. Claims for services not deemed medically necessary or not contracted within a PPO network are also excluded. The plan does not cover charges reimbursed by public health programs or claims due to acts of war or terrorism. Additionally, claims for eyeglasses, hearing aids, and abortion services are not covered unless specified in the schedule of benefits.\n\nThe document further excludes claims for custodial care, experimental treatments, and services related to suicide or illegal acts. Claims from medical service providers related by blood or marriage to the participant are not covered. Fertility treatments, weight control surgeries, and sterilization reversal are also excluded. The plan does not cover claims for missed appointments, genetic testing, or organ transplants unless explicitly included in the benefits schedule.\n\nOther exclusions include chiropractic care, radiation therapy, dialysis, acupuncture, and alternative medicine. The plan does not cover non-emergency care outside the U.S., pregnancy benefits, or routine well-baby care while inpatient. The purpose of these exclusions is to clarify treatments and services not covered under this plan, ensuring no negative implications are assumed regarding coverage.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations",
+      "global_page_num": 11
+    }
+  },
+  "extracted_tables": {
+    "1": {
+      "page_number": "1",
+      "tables": [
+        {
+          "table_title": "True Health Plan Features and Benefits Comparison",
+          "headers": [
+            "Features/Benefits",
+            "TH1",
+            "TH2",
+            "TH3"
+          ],
+          "rows": [
+            [
+              "Telemedicine",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "BestChoiceRX Group Discount Program",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "BestChoiceRX (Accute & Wellness $0 Co-pay Maintenance Generic $5 Co-Pay)",
+              "\u2714",
+              "",
+              ""
+            ],
+            [
+              "BestChoiceRX Plus - Includes non-preferred Generic & Brand with a co-pay up to a maximum of $150/mo",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Preventative Care**",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Specialty Drugs - Prescription Assistance Program",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Healthcare Ninja",
+              "",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Primary Care Physician Visits",
+              "3",
+              "4",
+              "4"
+            ],
+            [
+              "Specialist / UC Visit",
+              "1",
+              "2",
+              "4"
+            ],
+            [
+              "Hospital Indemnity Benefit",
+              "",
+              "\u2714",
+              "\u2714"
+            ]
+          ]
+        }
+      ]
+    },
+    "2": {
+      "page_number": "2",
+      "tables": [
+        {
+          "table_title": "True Health Plan Features and Benefits",
+          "headers": [
+            "Features/Benefits",
+            "TH1",
+            "TH2",
+            "TH3"
+          ],
+          "rows": [
+            [
+              "Telemedicine",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "BestChoiceRX Group Discount Program",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "BestChoiceRX (Accute & Wellness $0 Co-pay Maintenance Generic $5 Co-Pay)",
+              "\u2714",
+              "",
+              ""
+            ],
+            [
+              "BestChoiceRX Plus - Includes non-preferred Generic & Brand with a co-pay up to a maximum of $150/mo",
+              "",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Preventative Care**",
+              "\u2714",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Specialty Drugs - Prescription Assistance Program",
+              "",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Healthcare Ninja",
+              "",
+              "\u2714",
+              "\u2714"
+            ],
+            [
+              "Primary Care Physician Visits",
+              "3",
+              "4",
+              "4"
+            ],
+            [
+              "Specialist / UC Visit",
+              "1",
+              "2",
+              "4"
+            ],
+            [
+              "Hospital Indemnity Benefit",
+              "",
+              "\u2714",
+              "\u2714"
+            ]
+          ]
+        }
+      ]
+    },
+    "3": {
+      "page_number": "3",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Visits/Year",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "3 visits / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "1 visit / yr",
+              "$50",
+              "$300"
+            ]
+          ]
+        },
+        {
+          "table_title": "In-Patient Hospitalization Benefit",
+          "headers": [
+            "Benefit",
+            "Amount",
+            "Year Maximum",
+            "Pre-Existing Condition"
+          ],
+          "rows": [
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$5,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Consult Fee",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Opyn Live",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Discount Prescriptions",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "BestChoice RX",
+              "Participating Pharmacies only"
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "MyHealthcare NINJA",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "4": {
+      "page_number": "4",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Visits per Year",
+            "Co-pay",
+            "Maximum / Visit"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "3 visits / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "1 visit / yr",
+              "$50",
+              "$300"
+            ]
+          ]
+        },
+        {
+          "table_title": "In-Patient Hospitalization Benefit",
+          "headers": [
+            "Benefit",
+            "Amount",
+            "Year Maximum",
+            "Pre-Existing Condition"
+          ],
+          "rows": [
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$5,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Consult Fee",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Opyn Live",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "MyHealthcare Ninja",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "7": {
+      "page_number": "7",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Visits/Year",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "4 visits / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "4 visits / yr",
+              "$50",
+              "$300"
+            ],
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$15,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Consult Fee",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Telemedicine",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Prescription Details",
+          "headers": [
+            "Prescription Type",
+            "Member Pays",
+            "Generic/Preferred/Brand"
+          ],
+          "rows": [
+            [
+              "Pharmacy Retail - up to a 30 day supply (Acute & Preventive Generic)",
+              "Member Pays",
+              "Generic - $0 Copay"
+            ],
+            [
+              "Pharmacy Retail up to a 30 day supply or Mailorder up to a 90-day supply. (200 Generic Maintenance Drugs)",
+              "Member Pays",
+              "Preferred Generic - $5 Copay"
+            ],
+            [
+              "Non-Preferred Generic",
+              "Member Pays",
+              "Retail 30-day $5 & $10 Copay Mail Order 90-day $5 & $20 Copay"
+            ],
+            [
+              "Brand (Prior Authorization Required)",
+              "Member Pays",
+              "Retail 30-day $40, Mail Order 90-day $80"
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Advocacy",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "5": {
+      "page_number": "5",
+      "tables": [
+        {
+          "table_title": "Physician Services and Telemedicine Details",
+          "headers": [
+            "Service",
+            "Details",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "4 visits / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "2 visits / yr",
+              "$50",
+              "$300"
+            ],
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$10,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ],
+            [
+              "Telemedicine",
+              "opyn Live",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Pharmacy Retail and Mail Order Details",
+          "headers": [
+            "Pharmacy Option",
+            "Member Pays",
+            "Generic"
+          ],
+          "rows": [
+            [
+              "Pharmacy Retail - up to a 30 day supply (Acute & Preventive Generic)",
+              "Member Pays",
+              "Generic - $0 Copay"
+            ],
+            [
+              "Pharmacy Retail up to a 30-day supply or Mailorder up to a 90-day supply (200 Generic Maintenance Drugs)",
+              "Member Pays",
+              "Preferred Generic - $5 Copay"
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Advocacy",
+            "Details"
+          ],
+          "rows": [
+            [
+              "MyHealthcare NINJA",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "8": {
+      "page_number": "8",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Visits/Year",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "4 visits / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "4 visits / yr",
+              "$50",
+              "$300"
+            ],
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$15,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Consult Fee",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Opyn Live",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Prescription Details",
+          "headers": [
+            "Type",
+            "Member Pays",
+            "Generic/Preferred/Brand"
+          ],
+          "rows": [
+            [
+              "Pharmacy Retail - up to a 30 day supply (Acute & Preventive Generic)",
+              "Member Pays",
+              "Generic - $0 Copay"
+            ],
+            [
+              "Pharmacy Retail up to a 30 day supply or Mailorder up to a 90-day supply. (200 Generic Maintenance Drugs)",
+              "Member Pays",
+              "Preferred Generic - $5 Copay"
+            ],
+            [
+              "Non-Preferred Generic",
+              "Member Pays",
+              "Retail 30-day $5 & $10 Copay, Mail Order 90-day $5 & $20 Copay"
+            ],
+            [
+              "Brand (Prior Authorization Required)",
+              "Member Pays",
+              "Retail 30-day $40, Mail Order 90-day $80"
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "My Healthcare Ninja",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "6": {
+      "page_number": "6",
+      "tables": [
+        {
+          "table_title": "Physician Services Details",
+          "headers": [
+            "Service",
+            "Visits/Year",
+            "Co-pay",
+            "Maximum/Visit"
+          ],
+          "rows": [
+            [
+              "Primary Care Office Visit",
+              "4 visits / yr",
+              "$25",
+              "$150"
+            ],
+            [
+              "Specialist or Urgent Care Office Visit",
+              "2 visits / yr",
+              "$50",
+              "$300"
+            ]
+          ]
+        },
+        {
+          "table_title": "In-Patient Hospitalization Benefit",
+          "headers": [
+            "Benefit",
+            "Amount",
+            "Maximum",
+            "Pre-Existing Condition"
+          ],
+          "rows": [
+            [
+              "In-Patient Hospitalization Benefit",
+              "$1,000 / Day",
+              "$10,000 / Year Maximum",
+              "12/12 mo Pre-Ex"
+            ]
+          ]
+        },
+        {
+          "table_title": "Telemedicine Details",
+          "headers": [
+            "Service",
+            "Consult Fee",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "OpyN Live",
+              "$0 Consult Fee",
+              "No Maximum"
+            ]
+          ]
+        },
+        {
+          "table_title": "Pharmacy Retail Details",
+          "headers": [
+            "Supply Type",
+            "Member Pays",
+            "Generic"
+          ],
+          "rows": [
+            [
+              "Pharmacy Retail - up to a 30 day supply (Acute & Preventive Generic)",
+              "Member Pays",
+              "Generic - $0 Copay"
+            ],
+            [
+              "Pharmacy Retail up to a 30-day supply or Mailorder up to a 90-day supply (200 Generic Maintenance Drugs)",
+              "Member Pays",
+              "Preferred Generic - $5 Copay"
+            ]
+          ]
+        },
+        {
+          "table_title": "Advocacy Details",
+          "headers": [
+            "Service",
+            "Details"
+          ],
+          "rows": [
+            [
+              "MyHealthcare NINJA",
+              "Hospital Bill Reducer"
+            ]
+          ]
+        }
+      ]
+    },
+    "10": {
+      "page_number": "10",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services - Covered Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Abdominal Aortic Aneurysm Screening",
+              "1 per lifetime",
+              "By ultrasonography in men ages 65-75 years who have ever smoked."
+            ],
+            [
+              "Adult Annual Standard Physical",
+              "1 per plan year",
+              "Adults, one (1) physical preventive exam per plan year."
+            ],
+            [
+              "Alcohol Misuse: Unhealthy Alcohol Use Screening and Counseling",
+              "1 per plan year",
+              "Screenings for unhealthy alcohol use in adults 18 years or older, including pregnant women, and providing persons engaged in risky or hazardous drinking with brief behavioral counseling interventions to reduce unhealthy alcohol use."
+            ],
+            [
+              "Aspirin: Preventive Medication",
+              "As prescribed",
+              "Adults ages 50 to 59 with high risk of cardiovascular diseases and for the primary prevention of cardiovascular disease and colorectal cancer. Low-dose aspirin (81 mg/d) as preventive medication for women after 12 weeks of gestation who are at high risk for preeclampsia."
+            ],
+            [
+              "Bacteriuria Screening",
+              "1 per plan year",
+              "Screening for asymptomatic bacteriuria with urine culture in pregnant women at 12 to 16 weeks' gestation or at the first prenatal visit, if later."
+            ],
+            [
+              "BRCA Risk Assessment and Genetic Counseling/Testing",
+              "1 per plan year",
+              "Screening to women who have family members with breast, ovarian, tubal, or peritoneal cancer with one of several screening tools designed to identify a family history that may be associated with an increased risk for potentially harmful mutations in breast cancer susceptibility genes (BRCA 1 or BRCA 2). Women with positive screening results should receive genetic counseling and, if indicated after counseling, BRCA testing."
+            ],
+            [
+              "Breast Cancer Preventive Medications",
+              "As prescribed",
+              "Risk-reducing medications, such as tamoxifen, raloxifene, or aromatase inhibitors for women who are at increased risk for breast cancer and at low risk for adverse medication effects."
+            ],
+            [
+              "Breast Cancer Screening",
+              "1 time every 2 plan years",
+              "Screening mammography for women age 50 years and older. Coverage limited to 2D mammograms only."
+            ]
+          ]
+        }
+      ]
+    },
+    "11": {
+      "page_number": "11",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Breastfeeding Support, Supplies and Counseling",
+              "In Conjunction with each birth",
+              "Interventions during pregnancy and after birth to support breastfeeding. Costs for renting breastfeeding equipment will be covered in conjunction with each birth."
+            ],
+            [
+              "Cervical Cancer Screening: with Cytology (Pap Smear)",
+              "1 time every 3 plan years",
+              "Women age 21 to 65 years with cervical cytology alone."
+            ],
+            [
+              "Cervical Cancer Screening: with Combination of Cytology and Human Papilloma Virus (HPV) testing",
+              "1 time every 5 plan years",
+              "Women age 30 to 65 years with high-risk papillomavirus (hrHPV) testing alone, or every 5 years with hrHPV testing in combination with cytology."
+            ],
+            [
+              "Chlamydia Screening",
+              "1 per plan year",
+              "Sexually active women age 24 and younger and in older women who are at increased risk infection."
+            ],
+            [
+              "Colorectal Cancer Screening",
+              "1 time every 5 plan years",
+              "Starting in adults at age 50 years and continuing until age 75 years."
+            ],
+            [
+              "Contraceptive Methods and Counseling",
+              "As prescribed",
+              "Food and Drug Administration (FDA) approved contraceptive methods, sterilization procedures, and patient education and counseling for all women with reproductive capacity, not including abortifacient drugs."
+            ],
+            [
+              "Dental Caries Prevention: Infants and Children Up to Age 5",
+              "1 per plan year",
+              "Application of fluoride varnish to the primary teeth of all infants and children starting at the age of primary tooth eruption and prescription of oral fluoride supplementation starting at age 6 months for children whose water supply is fluoride deficient."
+            ],
+            [
+              "Depression Screening",
+              "1 per plan year",
+              "Screening for major depressive disorder (MDD) in adolescents aged 12 to 18 years. Screening should be implemented with adequate systems in place to ensure accurate diagnosis, effective treatment, and appropriate follow-up. Screening for depression in the general adult population, including pregnant and postpartum women. Screening should be implemented with adequate systems in place to ensure accurate diagnosis, effective treatment, and appropriate follow-up. Pregnant and postpartum persons at increased risk of perinatal depression should be refer to counseling interventions."
+            ],
+            [
+              "Diabetes Screening",
+              "1 per plan year",
+              "Screening for abnormal blood glucose as part of cardiovascular risk assessment in adults aged 40 to 70 years who are overweight or obese. Clinicians should offer or refer patients with abnormal blood glucose to intensive behavioral counseling interventions to promote a healthful diet and physical activity."
+            ],
+            [
+              "Fall Prevention: Older Adults",
+              "1 per plan year",
+              "Exercise interventions for community-dwelling adults age 65 years and older who are at increased risk for falls."
+            ],
+            [
+              "Folic Acid Supplementation",
+              "As prescribed",
+              "Daily supplement containing 0.4 to 0.8 mg (400 to 800 \u03bcg) of folic acid for all women planning or capable of pregnancy."
+            ],
+            [
+              "Gestational Diabetes Mellitus Screening",
+              "1 per plan year",
+              "Asymptomatic pregnant women after 24 weeks of gestation."
+            ]
+          ]
+        }
+      ]
+    },
+    "12": {
+      "page_number": "12",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Breastfeeding Support, Supplies and Counseling",
+              "In Conjunction with each birth",
+              "Interventions during pregnancy and after birth to support breastfeeding. Costs for renting breastfeeding equipment will be covered in conjunction with each birth."
+            ],
+            [
+              "Cervical Cancer Screening: with Cytology (Pap Smear)",
+              "1 time every 3 plan years",
+              "Women age 21 to 65 years with cervical cytology alone."
+            ],
+            [
+              "Cervical Cancer Screening: with Combination of Cytology and Human Papilloma Virus (HPV) testing",
+              "1 time every 5 plan years",
+              "Women age 30 to 65 years with high-risk papillomavirus (hrHPV) testing alone, or every 5 years with hrHPV testing in combination with cytology."
+            ],
+            [
+              "Chlamydia Screening",
+              "1 per plan year",
+              "Sexually active women age 24 and younger and in older women who are at increased risk infection."
+            ],
+            [
+              "Colorectal Cancer Screening",
+              "1 time every 5 plan years",
+              "Starting in adults at age 50 years and continuing until age 75 years."
+            ],
+            [
+              "Contraceptive Methods and Counseling",
+              "As prescribed",
+              "Food and Drug Administration (FDA) approved contraceptive methods, sterilization procedures, and patient education and counseling for all women with reproductive capacity, not including abortifacient drugs."
+            ],
+            [
+              "Dental Caries Prevention: Infants and Children Up to Age 5",
+              "1 per plan year",
+              "Application of fluoride varnish to the primary teeth of all infants and children starting at the age of primary tooth eruption and prescription of oral fluoride supplementation starting at age 6 months for children whose water supply is fluoride deficient."
+            ],
+            [
+              "Depression Screening",
+              "1 per plan year",
+              "Screening for major depressive disorder (MDD) in adolescents aged 12 to 18 years. Screening should be implemented with adequate systems in place to ensure accurate diagnosis, effective treatment, and appropriate follow-up. Screening for depression in the general adult population, including pregnant and postpartum women. Screening should be implemented with adequate systems in place to ensure accurate diagnosis, effective treatment, and appropriate follow-up. Pregnant and postpartum persons at increased risk of perinatal depression should be refer to counseling interventions."
+            ],
+            [
+              "Diabetes Screening",
+              "1 per plan year",
+              "Screening for abnormal blood glucose as part of cardiovascular risk assessment in adults aged 40 to 70 years who are overweight or obese. Clinicians should offer or refer patients with abnormal blood glucose to intensive behavioral counseling interventions to promote a healthful diet and physical activity."
+            ],
+            [
+              "Fall Prevention: Older Adults",
+              "1 per plan year",
+              "Exercise interventions for community-dwelling adults age 65 years and older who are at increased risk for falls."
+            ],
+            [
+              "Folic Acid Supplementation",
+              "As prescribed",
+              "Daily supplement containing 0.4 to 0.8 mg (400 to 800 \u03bcg) of folic acid for all women planning or capable of pregnancy."
+            ],
+            [
+              "Gestational Diabetes Mellitus Screening",
+              "1 per plan year",
+              "Asymptomatic pregnant women after 24 weeks of gestation."
+            ]
+          ]
+        }
+      ]
+    },
+    "13": {
+      "page_number": "13",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Gonorrhea Prophylactic Medication",
+              "As prescribed",
+              "Prophylactic ocular topical medication for all newborns for the prevention of gonococcal ophthalmia neonatorum."
+            ],
+            [
+              "Gonorrhea Screening",
+              "1 per plan year",
+              "Sexually active women age 24 years or younger and in older women who are at increased risk for infection."
+            ],
+            [
+              "Healthy Diet and Physical Activity Counseling to Prevent Cardiovascular Disease",
+              "1 per plan year",
+              "Adults who are overweight or obese and have additional cardiovascular disease (CVD) risk factors to intensive behavioral counseling interventions to promote a healthful diet and physical activity for CVD prevention."
+            ],
+            [
+              "Hemoglobinopathies Screening",
+              "1 per plan year",
+              "Screening for sickle cell disease in newborns."
+            ],
+            [
+              "Hepatitis B Screening",
+              "1 per plan year",
+              "Non-pregnant adolescents and adults at high risk for infection. Pregnant women at their first prenatal visit."
+            ],
+            [
+              "Hepatitis C Virus (HCV) Infection Screening",
+              "1 per plan year",
+              "Persons at high risk for infection and Adults born between 1945 and 1965."
+            ],
+            [
+              "High Blood Pressure Screening",
+              "1 per plan year",
+              "Screening for high blood pressure in adults aged 18 or older."
+            ],
+            [
+              "HIV Preexposure Prophylaxis for the Prevention of HIV Infection",
+              "As prescribed",
+              "Persons who are at high risk of HIV acquisition."
+            ],
+            [
+              "HIV Screening",
+              "1 per plan year",
+              "Adolescents and adults aged 15 to 65 years. Younger adolescents and older adults who are at increased risk should also be screened. Pregnant women including those who present in labor, who are untested and whose HIV status is unknown."
+            ],
+            [
+              "Hypothyroidism Screening",
+              "1 per plan year",
+              "Screening for congenital hypothyroidism in newborns."
+            ],
+            [
+              "Intimate Partner Violence Screening",
+              "1 per plan year",
+              "Screening for intimate partner violence, in women of reproductive age and provide or refer women who screen positive to ongoing supporting services."
+            ],
+            [
+              "Lung Cancer Screening",
+              "1 per plan year",
+              "With low-dose computed tomography in adults aged 55 to 80 years who have a 30 pack-year smoking history and currently smoke or have quit within the past 15 years. Screening should be discontinued once a person has not smoked for 15 years or develops a health problem that substantially limits life expectancy or the ability or willingness to have curative lung surgery."
+            ],
+            [
+              "Obesity screening and Counseling",
+              "1 per plan year",
+              "To children and adolescents 6 years and older and offer or refer them to comprehensive, intensive behavioral interventions to promote improvements in weight status. Screening all adults. Clinicians should offer or refer patients with a body mass index of 30 kg/m2 or higher to intensive, multicomponent behavioral interventions."
+            ],
+            [
+              "Osteoporosis Screening",
+              "1 per plan year",
+              "In women aged 65 and older and in younger postmenopausal women at increased risk of osteoporosis."
+            ],
+            [
+              "Phenylketonuria Screening",
+              "1 per plan year",
+              "Screening for phenylketonuria in newborns."
+            ]
+          ]
+        }
+      ]
+    },
+    "15": {
+      "page_number": "15",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Preeclampsia Screening",
+              "1 per plan year",
+              "Pregnant women with blood pressure measurements throughout pregnancy."
+            ],
+            [
+              "Rh Incompatibility Screening: First Pregnancy Visit",
+              "1 per plan year",
+              "Rh (D) blood typing and antibody testing for all pregnant women during their first visit for pregnancy-related care."
+            ],
+            [
+              "RH Incompatibility Screening: 24-28 Weeks\u2019 Gestation",
+              "1 per plan year",
+              "Repeated Rh (D) antibody testing for all unsensitized Rh (D)-negative women at 24 to 28 weeks\u2019 gestation, unless the biological father is known to be Rh (D) - negative."
+            ],
+            [
+              "Sexually Transmitted Infections Counseling",
+              "1 per plan year",
+              "Intensive behavioral counseling for all sexually active adolescents and for adults who are at increased risk for sexually transmitted infections."
+            ],
+            [
+              "Skin Cancer Behavioral Counseling",
+              "1 per plan year",
+              "Counseling young adults, adolescents, children, and parents of young children about minimizing their exposure to ultraviolet radiation for persons aged 6 months to 24 years with fair skin types to reduce their risk for skin cancer."
+            ],
+            [
+              "Statin Preventive Medication",
+              "As prescribed",
+              "Adults without a history of cardiovascular disease (CVD) (i.e., symptomatic coronary artery disease or ischemic stroke) use a low- to moderate-dose statin for the prevention of CVD events and mortality when all of the following criteria are met: 1) they are aged 40 to 75 years; 2) they have 1 or more CVD risk factors (i.e., dyslipidemia, diabetes, hypertension, or smoking); and 3) they have a calculated 10-year risk of a cardiovascular event of 10% or greater. Identification of dyslipidemia and calculation of 10-year CVD event risk requires universal lipids screening in adults ages 40 to 75 years."
+            ],
+            [
+              "Syphilis Screening",
+              "1 per plan year",
+              "Non-pregnant persons who are at increased risk for infection. All pregnant women."
+            ],
+            [
+              "Tobacco Use Counseling and Interventions",
+              "2 per plan year",
+              "Provide behavioral interventions for cessation to all adults who use tobacco, advise them to stop using tobacco, and provide behavioral interventions. U.S. Food and Drug Administration (FDA) approved pharmacotherapy for cessation to adults who use tobacco is covered. Provide behavioral interventions for cessation to pregnant women who use tobacco. Interventions, including education or brief counseling, to prevent initiation of tobacco use in school-aged children and adolescents."
+            ],
+            [
+              "Tuberculosis Screening",
+              "1 per plan year",
+              "Screening for latent tuberculosis infection in populations at risk."
+            ],
+            [
+              "Vision Screening",
+              "1 time every 2 plan years",
+              "All children aged 3 to 5 years to detect amblyopia or its risk factors."
+            ],
+            [
+              "Well-Woman Visits",
+              "1 per plan year",
+              "Women under 65 to obtain the recommended preventive services that are age and developmentally appropriate, including preconception care and many services necessary for prenatal care."
+            ],
+            [
+              "Well-Child Visits",
+              "1 per plan year",
+              "Children to obtain the recommended preventive services that are age and developmentally appropriate. (Covers 1 visit except as more frequently recommended for children under the age of 3 years.)"
+            ]
+          ]
+        }
+      ]
+    },
+    "16": {
+      "page_number": "16",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Preeclampsia Screening",
+              "1 per plan year",
+              "Pregnant women with blood pressure measurements throughout pregnancy."
+            ],
+            [
+              "Rh Incompatibility Screening: First Pregnancy Visit",
+              "1 per plan year",
+              "Rh (D) blood typing and antibody testing for all pregnant women during their first visit for pregnancy-related care."
+            ],
+            [
+              "RH Incompatibility Screening: 24-28 Weeks\u2019 Gestation",
+              "1 per plan year",
+              "Repeated Rh (D) antibody testing for all unsensitized Rh (D)-negative women at 24 to 28 weeks\u2019 gestation, unless the biological father is known to be Rh (D) - negative."
+            ],
+            [
+              "Sexually Transmitted Infections Counseling",
+              "1 per plan year",
+              "Intensive behavioral counseling for all sexually active adolescents and for adults who are at increased risk for sexually transmitted infections."
+            ],
+            [
+              "Skin Cancer Behavioral Counseling",
+              "1 per plan year",
+              "Counseling young adults, adolescents, children, and parents of young children about minimizing their exposure to ultraviolet radiation for persons aged 6 months to 24 years with fair skin types to reduce their risk for skin cancer."
+            ],
+            [
+              "Statin Preventive Medication",
+              "As prescribed",
+              "Adults without a history of cardiovascular disease (CVD) (i.e., symptomatic coronary artery disease or ischemic stroke) use a low- to moderate-dose statin for the prevention of CVD events and mortality when all of the following criteria are met: 1) they are aged 40 to 75 years; 2) they have 1 or more CVD risk factors (i.e., dyslipidemia, diabetes, hypertension, or smoking); and 3) they have a calculated 10-year risk of a cardiovascular event of 10% or greater. Identification of dyslipidemia and calculation of 10-year CVD event risk requires universal lipids screening in adults ages 40 to 75 years."
+            ],
+            [
+              "Syphilis Screening",
+              "1 per plan year",
+              "Non-pregnant persons who are at increased risk for infection. All pregnant women."
+            ],
+            [
+              "Tobacco Use Counseling and Interventions",
+              "2 per plan year",
+              "Provide behavioral interventions for cessation to all adults who use tobacco, advise them to stop using tobacco, and provide behavioral interventions, U.S. Food and Drug Administration (FDA) approved pharmacotherapy for cessation to adults who use tobacco is covered. Provide behavioral interventions for cessation to pregnant women who use tobacco. Interventions, including education or brief counseling, to prevent initiation of tobacco use in school-aged children and adolescents."
+            ],
+            [
+              "Tuberculosis Screening",
+              "1 per plan year",
+              "Screening for latent tuberculosis infection in populations at risk."
+            ],
+            [
+              "Vision Screening",
+              "1 time every 2 plan years",
+              "All children aged 3 to 5 years to detect amblyopia or its risk factors."
+            ],
+            [
+              "Well-Woman Visits",
+              "1 per plan year",
+              "Women under 65 to obtain the recommended preventive services that are age and developmentally appropriate, including preconception care and many services necessary for prenatal care."
+            ],
+            [
+              "Well-Child Visits",
+              "1 per plan year",
+              "Children to obtain the recommended preventive services that are age and developmentally appropriate. (Covers 1 visit except as more frequently recommended for children under the age of 3 years.)"
+            ]
+          ]
+        }
+      ]
+    },
+    "9": {
+      "page_number": "9",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services - Covered Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Abdominal Aortic Aneurysm Screening",
+              "1 per lifetime",
+              "By ultrasonography in men ages 65-75 years who have ever smoked."
+            ],
+            [
+              "Adult Annual Standard Physical",
+              "1 per plan year",
+              "Adults, one (1) physical preventive exam per plan year."
+            ],
+            [
+              "Alcohol Misuse: Unhealthy Alcohol Use Screening and Counseling",
+              "1 per plan year",
+              "Screenings for unhealthy alcohol use in adults 18 years or older, including pregnant women, and providing persons engaged in risky or hazardous drinking with brief behavioral counseling interventions to reduce unhealthy alcohol use."
+            ],
+            [
+              "Aspirin: Preventive Medication",
+              "As prescribed",
+              "Adults ages 50 to 59 with high risk of cardiovascular diseases and for the primary prevention of cardiovascular disease and colorectal cancer. Low-dose aspirin (81 mg/d) as preventive medication for women after 12 weeks of gestation who are at high risk for preeclampsia."
+            ],
+            [
+              "Bacteriuria Screening",
+              "1 per plan year",
+              "Screening for asymptomatic bacteriuria with urine culture in pregnant women at 12 to 16 weeks' gestation or at the first prenatal visit, if later."
+            ],
+            [
+              "BRCA Risk Assessment and Genetic Counseling/Testing",
+              "1 per plan year",
+              "Screening to women who have family members with breast, ovarian, tubal, or peritoneal cancer with one of several screening tools designed to identify a family history that may be associated with an increased risk for potentially harmful mutations in breast cancer susceptibility genes (BRCA 1 or BRCA 2). Women with positive screening results should receive genetic counseling and, if indicated after counseling, BRCA testing."
+            ],
+            [
+              "Breast Cancer Preventive Medications",
+              "As prescribed",
+              "Risk-reducing medications, such as tamoxifen, raloxifene, or aromatase inhibitors for women who are at increased risk for breast cancer and at low risk for adverse medication effects."
+            ],
+            [
+              "Breast Cancer Screening",
+              "1 time every 2 plan years",
+              "Screening mammography for women age 50 years and older. Coverage limited to 2D mammograms only."
+            ]
+          ]
+        }
+      ]
+    },
+    "14": {
+      "page_number": "14",
+      "tables": [
+        {
+          "table_title": "Preventive Health Services Summary of Benefits",
+          "headers": [
+            "Benefit",
+            "Interval",
+            "Requirements"
+          ],
+          "rows": [
+            [
+              "Gonorrhea Prophylactic Medication",
+              "As prescribed",
+              "Prophylactic ocular topical medication for all newborns for the prevention of gonococcal ophthalmia neonatorum."
+            ],
+            [
+              "Gonorrhea Screening",
+              "1 per plan year",
+              "Sexually active women age 24 years or younger and in older women who are at increased risk for infection."
+            ],
+            [
+              "Healthy Diet and Physical Activity Counseling to Prevent Cardiovascular Disease",
+              "1 per plan year",
+              "Adults who are overweight or obese and have additional cardiovascular disease (CVD) risk factors to intensive behavioral counseling interventions to promote a healthful diet and physical activity for CVD prevention."
+            ],
+            [
+              "Hemoglobinopathies Screening",
+              "1 per plan year",
+              "Screening for sickle cell disease in newborns."
+            ],
+            [
+              "Hepatitis B Screening",
+              "1 per plan year",
+              "Non-pregnant adolescents and adults at high risk for infection. Pregnant women at their first prenatal visit."
+            ],
+            [
+              "Hepatitis C Virus (HCV) Infection Screening",
+              "1 per plan year",
+              "Persons at high risk for infection and Adults born between 1945 and 1965."
+            ],
+            [
+              "High Blood Pressure Screening",
+              "1 per plan year",
+              "Screening for high blood pressure in adults aged 18 or older."
+            ],
+            [
+              "HIV Preexposure Prophylaxis for the Prevention of HIV Infection",
+              "As prescribed",
+              "Persons who are at high risk of HIV acquisition."
+            ],
+            [
+              "HIV Screening",
+              "1 per plan year",
+              "Adolescents and adults aged 15 to 65 years. Younger adolescents and older adults who are at increased risk should also be screened. Pregnant women including those who present in labor, who are untested and whose HIV status is unknown."
+            ],
+            [
+              "Hypothyroidism Screening",
+              "1 per plan year",
+              "Screening for congenital hypothyroidism in newborns."
+            ],
+            [
+              "Intimate Partner Violence Screening",
+              "1 per plan year",
+              "Screening for intimate partner violence, in women of reproductive age and provide or refer women who screen positive to ongoing supporting services."
+            ],
+            [
+              "Lung Cancer Screening",
+              "1 per plan year",
+              "With low-dose computed tomography in adults aged 55 to 80 years who have a 30 pack-year smoking history and currently smoke or have quit within the past 15 years. Screening should be discontinued once a person has not smoked for 15 years or develops a health problem that substantially limits life expectancy or the ability or willingness to have curative lung surgery."
+            ],
+            [
+              "Obesity screening and Counseling",
+              "1 per plan year",
+              "To children and adolescents 6 years and older and offer or refer them to comprehensive, intensive behavioral interventions to promote improvements in weight status. Screening all adults. Clinicians should offer or refer patients with a body mass index of 30 kg/m2 or higher to intensive, multicomponent behavioral interventions."
+            ],
+            [
+              "Osteoporosis Screening",
+              "1 per plan year",
+              "In women aged 65 and older and in younger postmenopausal women at increased risk of osteoporosis."
+            ],
+            [
+              "Phenylketonuria Screening",
+              "1 per plan year",
+              "Screening for phenylketonuria in newborns."
+            ]
+          ]
+        }
+      ]
+    },
+    "18": {
+      "page_number": "18",
+      "tables": [
+        {
+          "table_title": "Immunizations for Birth Through Six Years Old",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "HepB",
+              "Hepatitis B",
+              "Ages 4 weeks- 2 months"
+            ],
+            [
+              "HepB",
+              "Hepatitis B",
+              "Ages 6 months- 18 months"
+            ],
+            [
+              "DTaP",
+              "Diphtheria, tetanus, and acellular pertussis",
+              "Ages 15 months- 18 months"
+            ],
+            [
+              "Hib",
+              "Haemophilus influenzae type b",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "PCV13",
+              "Pneumococcal 13-valent conjugate",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "IPV",
+              "Inactivated poliovirus",
+              "Ages 6 months-18 months"
+            ],
+            [
+              "Flu",
+              "Influenza (yearly)",
+              "Ages 6 months- 6 years"
+            ],
+            [
+              "MMR",
+              "Measles, mumps, and rubella",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "VAR",
+              "Varicella",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "HepA",
+              "Hepatitis A",
+              "Ages 12 months-23 months (1st dose)"
+            ],
+            [
+              "HepA",
+              "Hepatitis A",
+              "Six months after the last dose (2nd dose)"
+            ],
+            [
+              "RV",
+              "Rotavirus",
+              "Ages 2 months- 6 months (if recommended)"
+            ]
+          ]
+        },
+        {
+          "table_title": "Immunizations for Children From Seven Through Eighteen Years Old",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "Flu",
+              "Influenza (yearly)",
+              "Ages 7 - 18 years"
+            ],
+            [
+              "Tdap",
+              "Tetanus, diphtheria, and acellular pertussis",
+              "Ages 11- 12 years"
+            ],
+            [
+              "HPV",
+              "Human papillomavirus",
+              "Ages 11- 12 years (2 shots series) Note: A 3-shot series of HPV vaccine is needed for those with weakened immune systems and those who start the series at 15 years or older"
+            ],
+            [
+              "MenACWY",
+              "Meningococcal serogroups A,C,W,Y",
+              "Ages 11- 12 years"
+            ],
+            [
+              "MenACWY",
+              "Meningococcal A,C,W,Y Booster",
+              "Age 16 (recommended)"
+            ]
+          ]
+        }
+      ]
+    },
+    "20": {
+      "page_number": "20",
+      "tables": [
+        {
+          "table_title": "Immunizations for Adults Nineteen Years or Older",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "IIV",
+              "Influenza inactivated",
+              "Ages 19 \u2265 65 years (1 dose annually)"
+            ],
+            [
+              "RIV",
+              "Influenza recombinant",
+              "Ages 19 \u2265 65 years (1 dose annually)"
+            ],
+            [
+              "LAIV",
+              "Influenza live attenuated",
+              "Ages 19 - 49 years (1 dose annually)"
+            ],
+            [
+              "Tdap",
+              "Tetanus, diphtheria, and acellular pertussis",
+              "Ages 19 \u2265 65 years (1 dose Tdap, then TD booster every 10 years)"
+            ],
+            [
+              "MMR",
+              "Measles, mumps, and rubella",
+              "Ages 19 - 60 years - 1 or 2 doses depending on indication (if born in 1957 or later)"
+            ],
+            [
+              "VAR",
+              "Varicella",
+              "Ages 19 -37 years - 2 doses (if born in 1980 or later)"
+            ],
+            [
+              "RZV",
+              "Zoster recombinant",
+              "Ages 50 \u2265 65 years - 2 doses"
+            ],
+            [
+              "ZVL",
+              "Zoster live",
+              "Ages 60 \u2265 65 years - 1 dose"
+            ],
+            [
+              "HPV - Female",
+              "Human papillomavirus",
+              "Ages 19 - 26 years - 2 or 3 doses depending on age at initial vaccination"
+            ],
+            [
+              "HPV- Male",
+              "Human papillomavirus",
+              "Ages 19 - 21 years - 2 or 3 doses depending on age at initial vaccination"
+            ],
+            [
+              "PCV13",
+              "Pneumococcal 13-valent conjugate",
+              "Ages \u2265 65 years"
+            ],
+            [
+              "PPSV23",
+              "Pneumococcal 23-valent polysaccharide",
+              "Ages \u2265 65 years"
+            ]
+          ]
+        }
+      ]
+    },
+    "19": {
+      "page_number": "19",
+      "tables": [
+        {
+          "table_title": "Immunizations for Adults Nineteen Years or Older",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "IIV",
+              "Influenza inactivated",
+              "Ages 19 \u2265 65 years (1 dose annually)"
+            ],
+            [
+              "RIV",
+              "Influenza recombinant",
+              "Ages 19 \u2265 65 years (1 dose annually)"
+            ],
+            [
+              "LAIV",
+              "Influenza live attenuated",
+              "Ages 19 - 49 years (1 dose annually)"
+            ],
+            [
+              "Tdap",
+              "Tetanus, diphtheria, and acellular pertussis",
+              "Ages 19 \u2265 65 years (1 dose Tdap, then TD booster every 10 years)"
+            ],
+            [
+              "MMR",
+              "Measles, mumps, and rubella",
+              "Ages 19 - 60 years - 1 or 2 doses depending on indication (if born in 1957 or later)"
+            ],
+            [
+              "VAR",
+              "Varicella",
+              "Ages 19 -37 years - 2 doses (if born in 1980 or later)"
+            ],
+            [
+              "RZV",
+              "Zoster recombinant",
+              "Ages 50 \u2265 65 years - 2 doses"
+            ],
+            [
+              "ZVL",
+              "Zoster live",
+              "Ages 60 \u2265 65 years - 1 dose"
+            ],
+            [
+              "HPV - Female",
+              "Human papillomavirus",
+              "Ages 19 - 26 years - 2 or 3 doses depending on age at initial vaccination"
+            ],
+            [
+              "HPV- Male",
+              "Human papillomavirus",
+              "Ages 19 - 21 years - 2 or 3 doses depending on age at initial vaccination"
+            ],
+            [
+              "PCV13",
+              "Pneumococcal 13-valent conjugate",
+              "Ages \u2265 65 years"
+            ],
+            [
+              "PPSV23",
+              "Pneumococcal 23-valent polysaccharide",
+              "Ages \u2265 65 years"
+            ]
+          ]
+        }
+      ]
+    },
+    "17": {
+      "page_number": "17",
+      "tables": [
+        {
+          "table_title": "Immunizations for Birth Through Six Years Old",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "HepB",
+              "Hepatitis B",
+              "Ages 4 weeks- 2 months\nAges 6 months- 18 months"
+            ],
+            [
+              "DTaP",
+              "Diphtheria, tetanus, and acellular pertussis",
+              "Ages 15 months- 18 months"
+            ],
+            [
+              "Hib",
+              "Haemophilus influenzae type b",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "PCV13",
+              "Pneumococcal 13-valent conjugate",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "IPV",
+              "Inactivated poliovirus",
+              "Ages 6 months-18 months"
+            ],
+            [
+              "Flu",
+              "Influenza (yearly)",
+              "Ages 6 months- 6 years"
+            ],
+            [
+              "MMR",
+              "Measles, mumps, and rubella",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "VAR",
+              "Varicella",
+              "Ages 12 months- 15 months"
+            ],
+            [
+              "HepA",
+              "Hepatitis A",
+              "Ages 12 months-23 months (1st dose)\nSix months after the last dose (2nd dose)"
+            ],
+            [
+              "RV",
+              "Rotavirus",
+              "Ages 2 months- 6 months\n(if recommended)"
+            ]
+          ]
+        },
+        {
+          "table_title": "Immunizations for Children From Seven Through Eighteen Years Old",
+          "headers": [
+            "Abbreviations",
+            "Vaccines",
+            "Age Requirements and Limitations"
+          ],
+          "rows": [
+            [
+              "Flu",
+              "Influenza (yearly)",
+              "Ages 7 - 18 years"
+            ],
+            [
+              "Tdap",
+              "Tetanus, diphtheria, and acellular pertussis",
+              "Ages 11- 12 years"
+            ],
+            [
+              "HPV",
+              "Human papillomavirus",
+              "Ages 11- 12 years (2 shots series)\nNote: A 3-shot series of HPV vaccine is needed for those with weakened immune systems and those who start the series at 15 years or older"
+            ],
+            [
+              "MenACWY",
+              "Meningococcal serogroups A,C,W,Y",
+              "Ages 11- 12 years"
+            ],
+            [
+              "MenACWY",
+              "Meningococcal A,C,W,Y Booster",
+              "Age 16 (recommended)"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "# Deck ID: FEN_TRU\n# Deck Title: True Health\n\n## Cover (1 slide)\n- **Plan Name:** True Health\n- **Tagline:** Empowering Your Health Journey with Accessible and Affordable Care\n\n## Plan Overview (1 slide)\n- **Target Audience:** Individuals and Families\n- **Offerings:** Healthcare services with a focus on affordability and accessibility\n- **Key Benefits:** Telemedicine, prescription discounts, preventive care, and wellness services\n\n## Core Plan Elements (3 slides)\n- **Coverage Areas:**\n  - Physician services, hospitalization, telemedicine\n- **Plan Structure:**\n  - Tiered options with varying co-pays and visit limits\n- **Eligibility:**\n  - Open to individuals and families with a focus on affordability\n\n## Common Service Features (3 slides)\n- **Provider Networks:**\n  - In-network services for outpatient care\n- **Claims Management:**\n  - Efficient processing with advocacy support\n- **Support Tools:**\n  - Wellness programs and hospital bill reduction services\n\n## Plan Tiers Breakdown (12 slides)\n\n### True Health 1 (TH1)\n- **Physician Services:**\n  - 3 primary care visits/year, $25 co-pay, $150 max/visit\n  - 1 specialist/urgent care visit/year, $50 co-pay, $300 max/visit\n- **Hospitalization:**\n  - $1,000/day, $5,000/year max, 12-month pre-existing condition exclusion\n- **Telemedicine:**\n  - No consult fee, unlimited access\n- **Prescriptions:**\n  - BestChoice RX discounts at participating pharmacies\n- **Advocacy:**\n  - Hospital bill reduction through MyHealthcare Ninja\n\n### True Health 2 (TH2)\n- **Physician Services:**\n  - 4 primary care visits/year, $25 co-pay, $150 max/visit\n  - 2 specialist/urgent care visits/year, $50 co-pay, $300 max/visit\n- **Hospitalization:**\n  - $1,000/day, $10,000/year max, 12-month pre-existing condition exclusion\n- **Telemedicine:**\n  - No consult fee, unlimited access\n- **Prescriptions:**\n  - Preventive and acute prescriptions, $0 copay for generics\n  - Mail order for maintenance drugs, $5 copay for preferred generics\n- **Advocacy:**\n  - Hospital bill reduction through MyHealthcare Ninja\n\n### True Health 3 (TH3)\n- **Physician Services:**\n  - 4 primary care visits/year, $25 co-pay, $150 max/visit\n  - 4 specialist/urgent care visits/year, $50 co-pay, $300 max/visit\n- **Hospitalization:**\n  - $1,000/day, $15,000/year max, 12-month pre-existing condition exclusion\n- **Telemedicine:**\n  - No consult fee, unlimited access\n- **Prescriptions:**\n  - Preventive and acute prescriptions, $0 copay for generics\n  - Mail order for maintenance drugs, $5 copay for preferred generics\n  - Non-preferred generics and brand drugs with specific co-pays\n- **Advocacy:**\n  - Hospital bill reduction through MyHealthcare Ninja\n\n## Comparison Slides (Markdown Table)\n\n```markdown\n| Feature/Benefit                  | TH1 | TH2 | TH3 |\n|----------------------------------|-----|-----|-----|\n| Telemedicine                     | \u2714   | \u2714   | \u2714   |\n| BestChoiceRX Group Discount      | \u2714   | \u2714   | \u2714   |\n| BestChoiceRX Plus                |     | \u2714   | \u2714   |\n| Preventative Care                | \u2714   | \u2714   | \u2714   |\n| Specialty Drugs Assistance       |     | \u2714   | \u2714   |\n| Healthcare Ninja                 |     | \u2714   | \u2714   |\n| Primary Care Physician Visits    | 3   | 4   | 4   |\n| Specialist / UC Visit            | 1   | 2   | 4   |\n| Hospital Indemnity Benefit       |     | \u2714   | \u2714   |\n```\n\n## Limitations and Exclusions (2 slides)\n- **Exclusions:**\n  - Pre-existing conditions for the first 12 months\n  - Services not listed in the Schedule of Benefits\n  - Non-emergency care outside the U.S.\n- **Limitations:**\n  - 30-day waiting period for sickness benefits\n  - In-network provider requirement for outpatient services\n\n## Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Multiple tiers to suit different needs\n- **Balance:** Cost-effective coverage with essential benefits\n- **Next Steps:** Contact support for enrollment assistance\n\n## Thank You (1 slide)\n- **Message:** Thank you for considering True Health \u2013 Your Partner in Wellness!",
+    "generated_at": "2025-02-28T20:31:49.283213"
+  },
+  "slides": {
+    "content": "---\nid: FEN_TRU\ntheme: ../../\ntitle: | \n  True Health\ninfo: |\n  ## True Health Plan Overview\n  A look at the True Health benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"TRU\" />\n\n# True Health Plan Overview\n\nUnderstanding the details and benefits of the **True Health Plan**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The True Health Plan\n\n<v-click>\n\n- Empowering your health journey with accessible and affordable care through **True Health**\n\n</v-click>\n\n<v-click>\n\n- **Telemedicine** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Prescription Discounts** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Preventive Care** through wellness services\n\n</v-click>\n\n<v-click>\n\n- **Advocacy** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Telemedicine**\n\n</v-click>\n\n<v-click>\n\n**Prescription Discounts**\n\n</v-click>\n\n<v-click>\n\n**Preventive Care** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Advocacy** through MyHealthcare Ninja\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mix-blend-multiply\" alt=\"FirstEnroll Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**BestChoice RX** (BCRX)\n</v-click>\n\n<v-click>\n\n**Telemedicine** System\n</v-click>\n\n<v-click>\n\n**Advocacy** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How BestChoice RX Works\n\n<v-click>\n\n1. Enroll through **True Health**\n</v-click>\n\n<v-click>\n\n2. Access discounts at participating pharmacies\n</v-click>\n\n<v-click>\n\n3. Utilize mail order for maintenance drugs\n</v-click>\n\n<v-click>\n\n4. Receive prescription assistance **(BCRX)**\n</v-click>\n\n<v-click>\n\n5. Manage costs effectively\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Screening Services** for various health needs\n</v-click>\n\n<v-click>\n\n- **Wellness Programs** for ongoing health\n</v-click>\n\n<v-click>\n\n- **MyHealthcare Ninja** provides advocacy\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **Unlimited Access** to telemedicine\n\n</v-click>\n\n<v-click>\n\n- **No Consult Fee** for services\n\n</v-click>\n\n<v-click>\n\n- **24/7 Availability** for care\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to healthcare\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Hospital Bill Reduction** assistance\n\n</v-click>\n\n<v-click>\n\n- **Prescription Assistance** options\n\n</v-click>\n\n<v-click>\n\n- **Support** for navigating healthcare\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## True Health 1 (TH1) (1/2)\n\n<v-click>\n\n**Physician Services**\n- 3 primary care visits/year, $25 co-pay, $150 max/visit\n- 1 specialist/urgent care visit/year, $50 co-pay, $300 max/visit\n</v-click>\n\n<v-click>\n\n**Hospitalization**\n- $1,000/day, $5,000/year max, 12-month pre-existing condition exclusion\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee, unlimited access\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg\n---\n\n## True Health 1 (TH1) (2/2)\n\n<v-click>\n\n**Prescriptions**\n- BestChoice RX discounts at participating pharmacies\n</v-click>\n\n<v-click>\n\n**Advocacy**\n- Hospital bill reduction through MyHealthcare Ninja\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_prescriptions.jpg\n---\n\n## True Health 2 (TH2) (1/2)\n\n<v-click>\n\n**Physician Services**\n- 4 primary care visits/year, $25 co-pay, $150 max/visit\n- 2 specialist/urgent care visits/year, $50 co-pay, $300 max/visit\n</v-click>\n\n<v-click>\n\n**Hospitalization**\n- $1,000/day, $10,000/year max, 12-month pre-existing condition exclusion\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee, unlimited access\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_prescriptions.jpg\n---\n\n## True Health 2 (TH2) (2/2)\n\n<v-click>\n\n**Prescriptions**\n- Preventive and acute prescriptions, $0 copay for generics\n- Mail order for maintenance drugs, $5 copay for preferred generics\n</v-click>\n\n<v-click>\n\n**Advocacy**\n- Hospital bill reduction through MyHealthcare Ninja\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/04_true_health_3_plan_details_with_benefits_and_prescription_terms.jpg\n---\n\n## True Health 3 (TH3) (1/2)\n\n<v-click>\n\n**Physician Services**\n- 4 primary care visits/year, $25 co-pay, $150 max/visit\n- 4 specialist/urgent care visits/year, $50 co-pay, $300 max/visit\n</v-click>\n\n<v-click>\n\n**Hospitalization**\n- $1,000/day, $15,000/year max, 12-month pre-existing condition exclusion\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee, unlimited access\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/04_true_health_3_plan_details_with_benefits_and_prescription_terms.jpg\n---\n\n## True Health 3 (TH3) (2/2)\n\n<v-click>\n\n**Prescriptions**\n- Preventive and acute prescriptions, $0 copay for generics\n- Mail order for maintenance drugs, $5 copay for preferred generics\n- Non-preferred generics and brand drugs with specific co-pays\n</v-click>\n\n<v-click>\n\n**Advocacy**\n- Hospital bill reduction through MyHealthcare Ninja\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **TH1** | **TH2** | **TH3** |\n|---------|----------|----------|-----------|\n| Telemedicine | \u2714 | \u2714 | \u2714 |\n| BestChoiceRX Group Discount | \u2714 | \u2714 | \u2714 |\n| BestChoiceRX Plus | | \u2714 | \u2714 |\n| Preventative Care | \u2714 | \u2714 | \u2714 |\n| Specialty Drugs Assistance | | \u2714 | \u2714 |\n| Healthcare Ninja | | \u2714 | \u2714 |\n| Primary Care Physician Visits | 3 | 4 | 4 |\n| Specialist / UC Visit | 1 | 2 | 4 |\n| Hospital Indemnity Benefit | | \u2714 | \u2714 |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions for the first 12 months\n- Services not listed in the Schedule of Benefits\n- Non-emergency care outside the U.S.\n</v-click>\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness benefits\n- In-network provider requirement for outpatient services\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** with multiple tiers\n</v-click>  \n\n<v-click>\n\n- **Balance** of cost-effective coverage\n</v-click>\n\n<v-click>\n\n- **Next Steps**: Contact support for enrollment assistance\n</v-click>\n\n<v-click>\n\n- **Review** the Schedule of Benefits\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the True Health Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/05_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_intervals.jpg",
+      "pages/07_mec_preventive_health_services_summary_of_benefits_for_true_health.jpg",
+      "pages/03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_pharmacy.jpg",
+      "pages/10_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "pages/01_true_health_summary_with_benefits_for_th1_th2_th3.jpg",
+      "pages/02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg",
+      "pages/04_true_health_3_plan_details_with_benefits_and_coverage_limits.jpg",
+      "pages/08_mec_preventive_health_services_summary_of_benefits.jpg",
+      "pages/04_true_health_3_plan_details_with_benefits_and_prescription_terms.jpg",
+      "pages/03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_prescriptions.jpg",
+      "pages/11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "pages/06_mec_preventive_health_services_summary_of_benefits.jpg",
+      "pages/09_mec_preventive_health_services_summary_of_benefits_immunizations_for_children.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the True Health Plan. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\nUnderstanding the details and benefits of the True Health Plan\n\nis all about empowering your health journey with accessible and affordable care through True Health.\n\nThe plan includes telemedicine services for various situations,\n\noffering prescription discounts and support tools to manage medication costs.\n\nPreventive care is emphasized through wellness services,\n\nand advocacy support is available to assist members in navigating their healthcare needs.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nTelemedicine services are available to provide care wherever you are.\n\nPrescription discounts help manage medication expenses effectively.\n\nPreventive care varies by plan, ensuring members receive necessary wellness services.\n\nAdvocacy is provided through MyHealthcare Ninja, offering support and guidance.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nBestChoice RX, or BCRX, offers significant savings on prescriptions.\n\nThe telemedicine system provides convenient access to healthcare professionals.\n\nAdvocacy support is available to help members navigate complex healthcare situations.\n\n---- How BestChoice RX Works ----\n\nHere's how BestChoice RX works.\n\nFirst, enroll through True Health to access the program.\n\nMembers can then access discounts at participating pharmacies.\n\nUtilize mail order services for maintenance drugs to ensure consistent medication supply.\n\nReceive prescription assistance through BCRX to manage costs effectively.\n\nThis approach helps members manage their healthcare expenses efficiently.\n\n---- Preventive Care and Wellness ----\n\nPreventive care and wellness are key components of the plan.\n\nScreening services are available for various health needs to catch issues early.\n\nWellness programs support ongoing health and well-being.\n\nMyHealthcare Ninja provides advocacy to ensure members receive the care they need.\n\n---- Telehealth Services ----\n\nTelehealth services offer several advantages.\n\nMembers have unlimited access to telemedicine consultations.\n\nThere is no consult fee for services, making it cost-effective.\n\nCare is available twenty-four seven, ensuring support whenever needed.\n\nThis provides convenient access to healthcare from the comfort of home.\n\n---- Advocacy and Support Services ----\n\nAdvocacy and support services are integral to the plan.\n\nHealthcare advocacy is available to assist members with their needs.\n\nHospital bill reduction assistance helps manage unexpected expenses.\n\nPrescription assistance options are provided to ease medication costs.\n\nSupport is available for navigating the complexities of healthcare.\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier, True Health 1 (TH1).\n\nPhysician services include three primary care visits per year with a twenty-five dollar co-pay and a maximum of one hundred fifty dollars per visit. There is also one specialist or urgent care visit per year with a fifty dollar co-pay and a maximum of three hundred dollars per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a five thousand dollar annual maximum and a twelve-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and unlimited access.\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\nPrescriptions are managed through BestChoice RX discounts at participating pharmacies.\n\nAdvocacy is provided through MyHealthcare Ninja for hospital bill reduction.\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier, True Health 2 (TH2).\n\nPhysician services include four primary care visits per year with a twenty-five dollar co-pay and a maximum of one hundred fifty dollars per visit. There are two specialist or urgent care visits per year with a fifty dollar co-pay and a maximum of three hundred dollars per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a ten thousand dollar annual maximum and a twelve-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and unlimited access.\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\nPrescriptions include preventive and acute prescriptions with a zero dollar copay for generics. Mail order for maintenance drugs is available with a five dollar copay for preferred generics.\n\nAdvocacy is provided through MyHealthcare Ninja for hospital bill reduction.\n\n---- Plan Tier 3 (One of Two) ----\n\nLet's examine our third plan tier, True Health 3 (TH3).\n\nPhysician services include four primary care visits per year with a twenty-five dollar co-pay and a maximum of one hundred fifty dollars per visit. There are four specialist or urgent care visits per year with a fifty dollar co-pay and a maximum of three hundred dollars per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a fifteen thousand dollar annual maximum and a twelve-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and unlimited access.\n\n---- Plan Tier 3 (Two of Two) ----\n\nContinuing with our third plan tier.\n\nPrescriptions include preventive and acute prescriptions with a zero dollar copay for generics. Mail order for maintenance drugs is available with a five dollar copay for preferred generics. Non-preferred generics and brand drugs have specific co-pays.\n\nAdvocacy is provided through MyHealthcare Ninja for hospital bill reduction.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nAll tiers offer telemedicine services and BestChoice RX group discounts.\n\nTrue Health 2 and True Health 3 include BestChoice RX Plus and specialty drugs assistance.\n\nHealthcare Ninja advocacy is available in True Health 2 and True Health 3.\n\nPrimary care physician visits range from three to four visits per year across the tiers.\n\nSpecialist or urgent care visits range from one to four visits per year.\n\nHospital indemnity benefits are included in True Health 2 and True Health 3.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nExclusions include pre-existing conditions for the first twelve months, services not listed in the Schedule of Benefits, and non-emergency care outside the U.S.\n\nLimitations include a thirty-day waiting period for sickness benefits and an in-network provider requirement for outpatient services.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers flexibility with multiple tiers to suit different needs.\n\nThere is a balance of cost-effective coverage across the tiers.\n\nFor next steps, contact support for enrollment assistance.\n\nBe sure to review the Schedule of Benefits for detailed information.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "True Health Plan Overview",
+          "content": "<SlideAudio deckKey=\"TRU\" />\n\n# True Health Plan Overview\n\nUnderstanding the details and benefits of the **True Health Plan**",
+          "frontmatter": "id: FEN_TRU\ntheme: ../../\ntitle: | \n  True Health\ninfo: |\n  ## True Health Plan Overview\n  A look at the True Health benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the True Health Plan. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The True Health Plan",
+          "content": "## The True Health Plan\n\n<v-click>\n\n- Empowering your health journey with accessible and affordable care through **True Health**\n\n</v-click>\n\n<v-click>\n\n- **Telemedicine** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Prescription Discounts** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Preventive Care** through wellness services\n\n</v-click>\n\n<v-click>\n\n- **Advocacy** support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Plan Overview",
+          "content": "Understanding the details and benefits of the True Health Plan\n\nis all about empowering your health journey with accessible and affordable care through True Health.\n\nThe plan includes telemedicine services for various situations,\n\noffering prescription discounts and support tools to manage medication costs.\n\nPreventive care is emphasized through wellness services,\n\nand advocacy support is available to assist members in navigating their healthcare needs."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Telemedicine**\n\n</v-click>\n\n<v-click>\n\n**Prescription Discounts**\n\n</v-click>\n\n<v-click>\n\n**Preventive Care** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Advocacy** through MyHealthcare Ninja\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mix-blend-multiply\" alt=\"FirstEnroll Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nTelemedicine services are available to provide care wherever you are.\n\nPrescription discounts help manage medication expenses effectively.\n\nPreventive care varies by plan, ensuring members receive necessary wellness services.\n\nAdvocacy is provided through MyHealthcare Ninja, offering support and guidance."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**BestChoice RX** (BCRX)\n</v-click>\n\n<v-click>\n\n**Telemedicine** System\n</v-click>\n\n<v-click>\n\n**Advocacy** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nBestChoice RX, or BCRX, offers significant savings on prescriptions.\n\nThe telemedicine system provides convenient access to healthcare professionals.\n\nAdvocacy support is available to help members navigate complex healthcare situations."
+        }
+      },
+      {
+        "slide": {
+          "header": "How BestChoice RX Works",
+          "content": "## How BestChoice RX Works\n\n<v-click>\n\n1. Enroll through **True Health**\n</v-click>\n\n<v-click>\n\n2. Access discounts at participating pharmacies\n</v-click>\n\n<v-click>\n\n3. Utilize mail order for maintenance drugs\n</v-click>\n\n<v-click>\n\n4. Receive prescription assistance **(BCRX)**\n</v-click>\n\n<v-click>\n\n5. Manage costs effectively\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How BestChoice RX Works",
+          "content": "Here's how BestChoice RX works.\n\nFirst, enroll through True Health to access the program.\n\nMembers can then access discounts at participating pharmacies.\n\nUtilize mail order services for maintenance drugs to ensure consistent medication supply.\n\nReceive prescription assistance through BCRX to manage costs effectively.\n\nThis approach helps members manage their healthcare expenses efficiently."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Screening Services** for various health needs\n</v-click>\n\n<v-click>\n\n- **Wellness Programs** for ongoing health\n</v-click>\n\n<v-click>\n\n- **MyHealthcare Ninja** provides advocacy\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Preventive care and wellness are key components of the plan.\n\nScreening services are available for various health needs to catch issues early.\n\nWellness programs support ongoing health and well-being.\n\nMyHealthcare Ninja provides advocacy to ensure members receive the care they need."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **Unlimited Access** to telemedicine\n\n</v-click>\n\n<v-click>\n\n- **No Consult Fee** for services\n\n</v-click>\n\n<v-click>\n\n- **24/7 Availability** for care\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to healthcare\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Telehealth services offer several advantages.\n\nMembers have unlimited access to telemedicine consultations.\n\nThere is no consult fee for services, making it cost-effective.\n\nCare is available twenty-four seven, ensuring support whenever needed.\n\nThis provides convenient access to healthcare from the comfort of home."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Hospital Bill Reduction** assistance\n\n</v-click>\n\n<v-click>\n\n- **Prescription Assistance** options\n\n</v-click>\n\n<v-click>\n\n- **Support** for navigating healthcare\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Advocacy and support services are integral to the plan.\n\nHealthcare advocacy is available to assist members with their needs.\n\nHospital bill reduction assistance helps manage unexpected expenses.\n\nPrescription assistance options are provided to ease medication costs.\n\nSupport is available for navigating the complexities of healthcare."
+        }
+      },
+      {
+        "slide": {
+          "header": "True Health 1 (TH1) (1/2)",
+          "content": "## True Health 1 (TH1) (1/2)\n\n<v-click>\n\n**Physician Services**\n- 3 primary care visits/year, $25 co-pay, $150 max/visit\n- 1 specialist/urgent care visit/year, $50 co-pay, $300 max/visit\n</v-click>\n\n<v-click>\n\n**Hospitalization**\n- $1,000/day, $5,000/year max, 12-month pre-existing condition exclusion\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee, unlimited access\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "Let's examine our first plan tier, True Health 1 (TH1).\n\nPhysician services include three primary care visits per year with a twenty-five dollar co-pay and a maximum of one hundred fifty dollars per visit. There is also one specialist or urgent care visit per year with a fifty dollar co-pay and a maximum of three hundred dollars per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a five thousand dollar annual maximum and a twelve-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and unlimited access."
+        }
+      },
+      {
+        "slide": {
+          "header": "True Health 1 (TH1) (2/2)",
+          "content": "## True Health 1 (TH1) (2/2)\n\n<v-click>\n\n**Prescriptions**\n- BestChoice RX discounts at participating pharmacies\n</v-click>\n\n<v-click>\n\n**Advocacy**\n- Hospital bill reduction through MyHealthcare Ninja\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_true_health_1_plan_details_with_benefits_and_coverage_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "Continuing with our first plan tier.\n\nPrescriptions are managed through BestChoice RX discounts at participating pharmacies.\n\nAdvocacy is provided through MyHealthcare Ninja for hospital bill reduction."
+        }
+      },
+      {
+        "slide": {
+          "header": "True Health 2 (TH2) (1/2)",
+          "content": "## True Health 2 (TH2) (1/2)\n\n<v-click>\n\n**Physician Services**\n- 4 primary care visits/year, $25 co-pay, $150 max/visit\n- 2 specialist/urgent care visits/year, $50 co-pay, $300 max/visit\n</v-click>\n\n<v-click>\n\n**Hospitalization**\n- $1,000/day, $10,000/year max, 12-month pre-existing condition exclusion\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee, unlimited access\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_prescriptions.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier, True Health 2 (TH2).\n\nPhysician services include four primary care visits per year with a twenty-five dollar co-pay and a maximum of one hundred fifty dollars per visit. There are two specialist or urgent care visits per year with a fifty dollar co-pay and a maximum of three hundred dollars per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a ten thousand dollar annual maximum and a twelve-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and unlimited access."
+        }
+      },
+      {
+        "slide": {
+          "header": "True Health 2 (TH2) (2/2)",
+          "content": "## True Health 2 (TH2) (2/2)\n\n<v-click>\n\n**Prescriptions**\n- Preventive and acute prescriptions, $0 copay for generics\n- Mail order for maintenance drugs, $5 copay for preferred generics\n</v-click>\n\n<v-click>\n\n**Advocacy**\n- Hospital bill reduction through MyHealthcare Ninja\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_true_health_2_plan_details_with_benefits_for_physician_services_telemedicine_and_prescriptions.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Continuing with our second plan tier.\n\nPrescriptions include preventive and acute prescriptions with a zero dollar copay for generics. Mail order for maintenance drugs is available with a five dollar copay for preferred generics.\n\nAdvocacy is provided through MyHealthcare Ninja for hospital bill reduction."
+        }
+      },
+      {
+        "slide": {
+          "header": "True Health 3 (TH3) (1/2)",
+          "content": "## True Health 3 (TH3) (1/2)\n\n<v-click>\n\n**Physician Services**\n- 4 primary care visits/year, $25 co-pay, $150 max/visit\n- 4 specialist/urgent care visits/year, $50 co-pay, $300 max/visit\n</v-click>\n\n<v-click>\n\n**Hospitalization**\n- $1,000/day, $15,000/year max, 12-month pre-existing condition exclusion\n</v-click>\n\n<v-click>\n\n**Telemedicine**\n- No consult fee, unlimited access\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/04_true_health_3_plan_details_with_benefits_and_prescription_terms.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (One of Two)",
+          "content": "Let's examine our third plan tier, True Health 3 (TH3).\n\nPhysician services include four primary care visits per year with a twenty-five dollar co-pay and a maximum of one hundred fifty dollars per visit. There are four specialist or urgent care visits per year with a fifty dollar co-pay and a maximum of three hundred dollars per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a fifteen thousand dollar annual maximum and a twelve-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and unlimited access."
+        }
+      },
+      {
+        "slide": {
+          "header": "True Health 3 (TH3) (2/2)",
+          "content": "## True Health 3 (TH3) (2/2)\n\n<v-click>\n\n**Prescriptions**\n- Preventive and acute prescriptions, $0 copay for generics\n- Mail order for maintenance drugs, $5 copay for preferred generics\n- Non-preferred generics and brand drugs with specific co-pays\n</v-click>\n\n<v-click>\n\n**Advocacy**\n- Hospital bill reduction through MyHealthcare Ninja\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/04_true_health_3_plan_details_with_benefits_and_prescription_terms.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (Two of Two)",
+          "content": "Continuing with our third plan tier.\n\nPrescriptions include preventive and acute prescriptions with a zero dollar copay for generics. Mail order for maintenance drugs is available with a five dollar copay for preferred generics. Non-preferred generics and brand drugs have specific co-pays.\n\nAdvocacy is provided through MyHealthcare Ninja for hospital bill reduction."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **TH1** | **TH2** | **TH3** |\n|---------|----------|----------|-----------|\n| Telemedicine | \u2714 | \u2714 | \u2714 |\n| BestChoiceRX Group Discount | \u2714 | \u2714 | \u2714 |\n| BestChoiceRX Plus | | \u2714 | \u2714 |\n| Preventative Care | \u2714 | \u2714 | \u2714 |\n| Specialty Drugs Assistance | | \u2714 | \u2714 |\n| Healthcare Ninja | | \u2714 | \u2714 |\n| Primary Care Physician Visits | 3 | 4 | 4 |\n| Specialist / UC Visit | 1 | 2 | 4 |\n| Hospital Indemnity Benefit | | \u2714 | \u2714 |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nAll tiers offer telemedicine services and BestChoice RX group discounts.\n\nTrue Health 2 and True Health 3 include BestChoice RX Plus and specialty drugs assistance.\n\nHealthcare Ninja advocacy is available in True Health 2 and True Health 3.\n\nPrimary care physician visits range from three to four visits per year across the tiers.\n\nSpecialist or urgent care visits range from one to four visits per year.\n\nHospital indemnity benefits are included in True Health 2 and True Health 3."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions for the first 12 months\n- Services not listed in the Schedule of Benefits\n- Non-emergency care outside the U.S.\n</v-click>\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness benefits\n- In-network provider requirement for outpatient services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nExclusions include pre-existing conditions for the first twelve months, services not listed in the Schedule of Benefits, and non-emergency care outside the U.S.\n\nLimitations include a thirty-day waiting period for sickness benefits and an in-network provider requirement for outpatient services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** with multiple tiers\n</v-click>  \n\n<v-click>\n\n- **Balance** of cost-effective coverage\n</v-click>\n\n<v-click>\n\n- **Next Steps**: Contact support for enrollment assistance\n</v-click>\n\n<v-click>\n\n- **Review** the Schedule of Benefits\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers flexibility with multiple tiers to suit different needs.\n\nThere is a balance of cost-effective coverage across the tiers.\n\nFor next steps, contact support for enrollment assistance.\n\nBe sure to review the Schedule of Benefits for detailed information."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the True Health Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 18
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 18,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      },
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

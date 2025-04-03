@@ -1,0 +1,55 @@
+{
+  "name": "FEN Deck Builder",
+  "description": "AI-powered deck building workflow",
+  "node_version": "20",
+  "dependencies": [
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.5",
+    "langchain-anthropic>=0.0.2",
+    "langgraph>=0.0.10",
+    "langsmith>=0.0.69",
+    "python-dotenv>=1.0.0",
+    "openai>=1.12.0",
+    "anthropic>=0.8.1",
+    "pydantic>=2.5.0"
+  ],
+  "nodes": {
+    "create_deck": {
+      "type": "task",
+      "next": ["process_imgs"]
+    },
+    "process_imgs": {
+      "type": "task",
+      "next": ["process_summaries"]
+    },
+    "process_summaries": {
+      "type": "task",
+      "next": ["extract_tables"]
+    },
+    "extract_tables": {
+      "type": "task",
+      "next": ["aggregate_summary"]
+    },
+    "aggregate_summary": {
+      "type": "task",
+      "next": ["setup_slides"]
+    },
+    "setup_slides": {
+      "type": "task",
+      "next": ["setup_script"]
+    },
+    "setup_script": {
+      "type": "task",
+      "next": ["validate"]
+    },
+    "validate": {
+      "type": "task",
+      "condition": true,
+      "next": ["validate", "google_drive_sync"]
+    },
+    "google_drive_sync": {
+      "type": "task",
+      "next": []
+    }
+  }
+} 

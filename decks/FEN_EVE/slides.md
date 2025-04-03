@@ -2,10 +2,10 @@
 id: FEN_EVE
 theme: ../../
 title: | 
-  Everest
+  Everest Group Indemnity Insurance
 info: |
-  ## Everest Review
-  A look at the Everest benefits and details.
+  ## Everest Group Indemnity Insurance Review
+  A look at the Everest Group Indemnity Insurance benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -18,24 +18,24 @@ drawings:
 
 <SlideAudio deckKey="FEN_EVE" />
 
-# Everest Review
+# Everest Plan Overview
 
-Understanding the details and benefits of the **Everest Insurance Benefits**
+Understanding the details and benefits of the **Everest Group Indemnity Insurance**
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Everest Overview
+## Everest Group Indemnity Insurance Overview
 
 <v-clicks>
 
-- Coverage through **Everest Insurance**
-- **Health Benefits** for various situations
-- **Financial Support** and tools
-- **Wellness Programs** through digital platforms
-- **Customer Service** support
+- Supplemental coverage through **Everest**
+- **Fixed Payments** for various medical expenses
+- **Multiplan PPO Network** and support tools
+- **Direct Payment** through simplified claims process
+- **Flexible Use** support
 
 </v-clicks>
 
@@ -48,18 +48,18 @@ layout: default
 
 <v-clicks>
 
-**Medical Coverage**
+**Fixed Indemnity Benefits**
 
-**Dental and Vision Plans**
+**Multiplan PPO Network Access**
 
-**Mental Health Support**
+**Direct Payment of Benefits**
 
-**Prescription Drug Coverage** (varies by plan)
+**Simplified Claims Process** (varies by plan)
 </v-clicks>
 
 <v-click>
 
-**Additional Perks** through Everest Insurance Partners
+**Additional Savings** through Multiplan
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
   <img src="" class="h-12 mix-blend-multiply" alt="Everest Logo">
 </div>
@@ -75,17 +75,17 @@ layout: default
 
 <v-click>
 
-**Health Savings Account** (HSA)
+**GapAfford Plus Program** (GAP)
 </v-click>
 
 <v-click>
 
-**Budgeting Assistance** System
+**Pre-Negotiated Rates** System
 </v-click>
 
 <v-click>
 
-**Financial Planning** Support
+**No Deductibles** Support
 </v-click>
 
 ---
@@ -93,16 +93,16 @@ transition: fade-out
 layout: default
 ---
 
-## How Health Savings Account Works
+## How GapAfford Plus Works
 
 <v-clicks>
 
-1. Enroll through **Everest Insurance**
-2. Set up your account
-3. Contribute pre-tax dollars
-4. Receive monthly statements **(HSA)**
-5. Use funds for eligible expenses
-6. **Save on healthcare costs**
+1. Enroll through **Everest**
+2. Access pre-negotiated rates
+3. Use services without deductibles
+4. Receive savings **(GAP)**
+5. Pay at the time of service
+6. **Financial Relief**
 
 </v-clicks>
 
@@ -115,9 +115,9 @@ layout: default
 
 <v-clicks>
 
-- **Annual Check-ups** Services
-- **Fitness Programs** Initiatives
-- **Everest Insurance Partners** provides wellness resources
+- **Dental Services** through Aetna Network
+- **Vision Programs** with OUTLOOK Vision
+- **Aetna** provides dental savings
 
 </v-clicks>
 
@@ -130,10 +130,10 @@ layout: default
 
 <v-clicks>
 
-- **24/7 Access**
-- **Virtual Consultations**
-- **Specialist Referrals** available
-- **Convenient Access** to care
+- **24/7 Nurse Help Line**
+- **Speech Therapy** via telepractice
+- **Video Conferencing** available
+- **Access** to care
 
 </v-clicks>
 
@@ -146,69 +146,416 @@ layout: default
 
 <v-clicks>
 
-- **Personalized** healthcare advocacy
-- **Claims Assistance** support
-- **Coverage Options** exploration
-- **Emotional Support** resources
+- **Patient Advocacy** healthcare support
+- **Medical Bill Negotiations** assistance
+- **Discount Programs** options
+- **Hearing Services** support
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+image: img/pages/Everest_Brochure_REV_page_002.jpg
 ---
 
-## Everest Basic Plan (1/2)
+## Plan 100 (1/2)
 
 <v-click>
 
-**Health Benefits**
-- Doctor visits
-- Hospital stays
-- Emergency care
-- Preventive services
+**Hospital Confinement Benefits**
+- $100 per day
+- ICU: $200 per day
+- ER Visits: $50 per visit
+- Surgery: Up to 3 days
 <Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Financial Support**
-- Budgeting tools
-- Expense tracking
+**Outpatient Benefits**
+- Lab Tests: $50 per service
+- X-rays: $50 per service
 <Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Wellness Programs**
-- Fitness discounts
-- Nutritional guidance
-- Stress management
+**Physician's Office Visits**
+- $50 per visit
+- Limited visits per year
 <Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_1.jpg
+image: img/pages/Everest_Brochure_REV_page_002.jpg
 ---
 
-## Everest Basic Plan (2/2)
+## Plan 100 (2/2)
 
 <v-click>
 
-**Customer Service**
-- 24/7 support line
-- Online chat assistance
+**Exclusions**
+- No chiropractic or acupuncture
+- Benefits per person
 <Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Additional Benefits**
-- Travel assistance
-- Identity theft protection
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_003.jpg
+---
+
+## Plan 200 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefits**
+- $200 per day
+- ICU: $300 per day
+- ER Visits: $50 per visit
+- Surgery: Up to 3 days
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab Tests: $50 per service
+- X-rays: $50 per service
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Physician's Office Visits**
+- $50 per visit
+- Limited visits per year
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_003.jpg
+---
+
+## Plan 200 (2/2)
+
+<v-click>
+
+**Exclusions**
+- No chiropractic or acupuncture
+- Benefits per person
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_004.jpg
+---
+
+## Plan 300 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefits**
+- $300 per day
+- ICU: $300 per day
+- ER Visits: $50 per visit
+- Surgery: Up to 3 days
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab Tests: $50 per service
+- X-rays: $50 per service
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Physician's Office Visits**
+- $50 per visit
+- Limited visits per year
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_004.jpg
+---
+
+## Plan 300 (2/2)
+
+<v-click>
+
+**Exclusions**
+- No chiropractic or acupuncture
+- Benefits per person
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_005.jpg
+---
+
+## Plan 500 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefits**
+- $500 per day
+- ICU: $500 per day
+- ER Visits: $50 per visit
+- Surgery: Up to 3 days
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab Tests: $50 per service
+- X-rays: $50 per service
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Physician's Office Visits**
+- $50 per visit
+- Limited visits per year
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_005.jpg
+---
+
+## Plan 500 (2/2)
+
+<v-click>
+
+**Exclusions**
+- No chiropractic or acupuncture
+- Benefits per person
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_006.jpg
+---
+
+## Plan 750 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefits**
+- $750 per day
+- ICU: $750 per day
+- ER Visits: $50 per visit
+- Surgery: Up to 3 days
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab Tests: $50 per service
+- X-rays: $50 per service
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Physician's Office Visits**
+- $50 per visit
+- Limited visits per year
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_006.jpg
+---
+
+## Plan 750 (2/2)
+
+<v-click>
+
+**Exclusions**
+- No chiropractic or acupuncture
+- Benefits per person
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_007.jpg
+---
+
+## Plan 1000 (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefits**
+- $1000 per day
+- ICU: $1000 per day
+- ER Visits: $100 per visit
+- Surgery: Up to 3 days
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab Tests: $100 per service
+- X-rays: $100 per service
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Physician's Office Visits**
+- $100 per visit
+- Limited visits per year
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_007.jpg
+---
+
+## Plan 1000 (2/2)
+
+<v-click>
+
+**Exclusions**
+- No chiropractic or acupuncture
+- Benefits per person
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_008.jpg
+---
+
+## Plan 1000+ (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefits**
+- $1000 per day
+- ICU: $1000 per day
+- ER Visits: $100 per visit
+- Surgery: Up to 3 days
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab Tests: $100 per service
+- X-rays: $100 per service
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Physician's Office Visits**
+- $100 per visit
+- Limited visits per year
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/Everest_Brochure_REV_page_008.jpg
+---
+
+## Plan 1000+ (2/2)
+
+<v-click>
+
+**Exclusions**
+- No chiropractic or acupuncture
+- Benefits per person
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -219,76 +566,58 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **Everest Basic** | **Everest Plus** | **Everest Premium** |
-|---------|----------|----------|-----------|
-| Medical Coverage | Basic | Enhanced | Comprehensive |
-| Dental & Vision | Included | Included | Premium |
-| Mental Health | Limited | Standard | Extensive |
-| Prescription Coverage | Generic | Brand | Full |
-| Wellness Programs | Basic | Advanced | Premium |
+| **Feature** | **Plan 100** | **Plan 200** | **Plan 300** | **Plan 500** | **Plan 750** | **Plan 1000** | **Plan 1000+** |
+|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|
+| Hospital Confinement | $100/day | $200/day | $300/day | $500/day | $750/day | $1000/day | $1000/day |
+| ICU Confinement | $200/day | $300/day | $300/day | $500/day | $750/day | $1000/day | $1000/day |
+| ER Visits | $50/visit | $50/visit | $50/visit | $50/visit | $50/visit | $100/visit | $100/visit |
+| Surgery Days | 3 max | 3 max | 3 max | 3 max | 3 max | 3 max | 3 max |
+| Lab Tests | $50/service | $50/service | $50/service | $50/service | $50/service | $100/service | $100/service |
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/plan_brochure_image_final.jpg
+image: img/pages/Everest_Brochure_REV_page_009.jpg
 ---
 
 ## Definitions and Limitations
 
 <v-click>
 
-**Coverage Limits**
-- Annual maximums
-- Service restrictions
-- Network limitations
+**Pre-existing Conditions**
+- 12-month limitation
+- Applies to all plans
 <Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Exclusions**
-- Cosmetic procedures
-- Experimental treatments
+- No chiropractic or acupuncture
+- No cosmetic surgery
 <Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Pre-authorization**
-- Required for certain services
-- Approval process
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
 <Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Out-of-Network**
-- Higher costs
-- Limited coverage
-- Pre-approval needed
+**Limitations**
+- No coverage for hazardous activities
+- No benefits for illegal acts
 <Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
----
-transition: fade-out
-layout: default
----
-
-## Key Takeaways and Reminders
-
-<v-clicks>
-
-- **Comprehensive Coverage** benefits
-- **Preventive Care** included
-- **Telehealth Services** benefits
-- **Enrollment Deadline** required
-
-</v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the Everest Review. Continue to be great!
 ---
 
 # Thank You!
@@ -296,3 +625,5 @@ line: Thank you for participating in the Everest Review. Continue to be great!
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+
+

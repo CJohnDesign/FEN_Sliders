@@ -1,0 +1,401 @@
+{
+  "deck_id": "FEN_AMER",
+  "deck_title": "Ameritas Dental",
+  "processed_images": {
+    "1": {
+      "page_number": 1,
+      "original_name": "NCE_Ameritas_SchedulePlan_Brochure_page_001.jpg",
+      "original_path": "img/pages/NCE_Ameritas_SchedulePlan_Brochure_page_001.jpg",
+      "new_name": "01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg",
+      "new_path": "img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg",
+      "page_title": "dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits",
+      "summary": "The FUSION plan combines dental and eye care benefits into a single, easy-to-administer package. This plan integrates the annual maximum between dental and vision plans, allowing members to use up to $1,000 toward any covered dental expense and up to $100 toward any covered eye care expense. The total benefits paid between the two coverages will not exceed $1,000. The dental plan benefits are categorized into three types: Type 1 Preventive, Type 2 Basic, and Type 3 Major, all with no waiting period. Type 1 Preventive covers routine exams, bitewing X-rays, and cleanings at 100%. Type 2 Basic includes restorative amalgams, composites, nonsurgical endodontics, and simple extractions, also at 100%. Type 3 Major covers surgical extractions, nonsurgical periodontics, crowns, surgical endodontics, surgical periodontics, and prosthodontics at 100% as well.\n\nThe deductible for Type 1 services is $0, while for Type 2 and 3 services, it is $50 per person per calendar year, with a family maximum of $150 per calendar year. The benefit year maximum for all types is $1,000 per person, per calendar year. The claims allowance is based on the maximum covered expense, with in-network allowances being discounted fees. This plan provides a structured approach to managing dental and eye care expenses, ensuring members have access to necessary preventive and major services without waiting periods.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "NCE_Ameritas_SchedulePlan_Brochure",
+      "global_page_num": 1
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "NCE_Ameritas_SchedulePlan_Brochure_page_002.jpg",
+      "original_path": "img/pages/NCE_Ameritas_SchedulePlan_Brochure_page_002.jpg",
+      "new_name": "02_vision_and_dental_plan_benefits_with_network_savings_and_late_entrant_details.jpg",
+      "new_path": "img/pages/02_vision_and_dental_plan_benefits_with_network_savings_and_late_entrant_details.jpg",
+      "page_title": "vision_and_dental_plan_benefits_with_network_savings_and_late_entrant_details",
+      "summary": "This page outlines the vision and dental plan benefits available to members, including specific allowances and frequencies for various services. Vision plan benefits are subject to the FUSION plan design, with allowances for exams, lenses, and frames, all subject to maximums. Specific lens types such as bifocal, trifocal, and progressive are also covered under these maximums. The plan includes a lifetime deductible of $0 for certain services. Members are encouraged to submit claims within 90 days of the date of service to ensure consideration by the plan.\n\nThe dental rewards program allows members to grow their annual maximum benefit by submitting at least one dental claim per year. If total dental benefits paid are under $500, members can carry over $250 in rewards to the following year. Additional rewards are available for using Ameritas network providers, with a potential maximum reward accumulation of $1000. However, if no dental claim is submitted within a year, rewards are reset.\n\nProvider flexibility is emphasized, allowing members to choose any dentist, with network dentists offering savings up to 30% below regional averages. The Ameritas dental network is extensive, providing over 428,000 access points nationwide. Late entrants, those who enroll after initially declining, face a 12-month waiting period for most benefits, except for evaluations, cleanings, and fluoride applications.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "NCE_Ameritas_SchedulePlan_Brochure",
+      "global_page_num": 2
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "NCE_Ameritas_SchedulePlan_Brochure_page_003.jpg",
+      "original_path": "img/pages/NCE_Ameritas_SchedulePlan_Brochure_page_003.jpg",
+      "new_name": "03_member_savings_and_customer_service_details_for_national_congress_of_employers_plan.jpg",
+      "new_path": "img/pages/03_member_savings_and_customer_service_details_for_national_congress_of_employers_plan.jpg",
+      "page_title": "member_savings_and_customer_service_details_for_national_congress_of_employers_plan",
+      "summary": "This page provides information on member savings and customer service details for the National Congress of Employers plan. Members can access prescription savings through a network of over 60,000 pharmacies, including major chains like Walgreens and Walmart. The plan offers up to 65% savings on generic prescriptions and an average of 40% savings on brand name prescriptions. Additionally, members can save on frames and lenses at Walmart Vision Centers, with discounts up to 35% on eyewear frames and lenses. The plan includes benefits such as frames for the entire family, a wide selection of lens options, and safety eyewear. Walmart Vision Centers offer guarantees like a 60-day frame and lens satisfaction guarantee, a 12-month replacement guarantee on broken or damaged frames or lenses, and lifetime adjustments and cleanings.\n\nCustomer service is available through Customer Connections at 800-487-5553 or www.Ameritas.com, with operating hours from Monday to Thursday, 7am to 12am CST, and Friday, 7am to 6:30pm CST. The document notes that it is a highlight of plan benefits provided by Ameritas Life Insurance Corp. and advises contacting the benefits administrator for a complete list of covered procedures, exclusions, and limitations.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "NCE_Ameritas_SchedulePlan_Brochure",
+      "global_page_num": 3
+    }
+  },
+  "extracted_tables": {
+    "1": {
+      "page_number": "1",
+      "tables": [
+        {
+          "table_title": "Dental Plan Benefits",
+          "headers": [
+            "Type",
+            "Coverage",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Type 1 Preventive",
+              "100%",
+              "Routine Exam (1 per 6 months), Bitewing X-rays (1 per 12 months), Cleaning (1 per 6 months)"
+            ],
+            [
+              "Type 2 Basic",
+              "100%",
+              "Restorative Amalgams, Restorative Composites, Endodontics (nonsurgical), Simple Extractions"
+            ],
+            [
+              "Type 3 Major",
+              "100%",
+              "Surgical Extractions, Periodontics (nonsurgical), Crowns (1 in 10 years per tooth), Endodontics (surgical), Periodontics (surgical), Prosthodontics (Bridges, Dentures) (1 in 10 years)"
+            ]
+          ]
+        },
+        {
+          "table_title": "Deductible Information",
+          "headers": [
+            "Type",
+            "Deductible"
+          ],
+          "rows": [
+            [
+              "Type 1",
+              "$0"
+            ],
+            [
+              "Type 2 and 3",
+              "$50 per person, per calendar year"
+            ],
+            [
+              "Family Maximum",
+              "$150 per Calendar Year"
+            ]
+          ]
+        },
+        {
+          "table_title": "Benefit Year Maximum",
+          "headers": [
+            "Type",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Type 1, 2, and 3 (per person, per calendar year)",
+              "$1,000"
+            ]
+          ]
+        },
+        {
+          "table_title": "Claims Allowance",
+          "headers": [
+            "Type",
+            "Allowance"
+          ],
+          "rows": [
+            [
+              "Type 1, 2 and 3",
+              "Maximum Covered Expense"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "Error: No content found in response",
+    "generated_at": "2025-02-26T22:17:32.125967"
+  },
+  "slides": {
+    "content": "---\nid: FEN_AMER\ntheme: ../../\ntitle: | \n  Ameritas Dental\ninfo: |\n  ## Ameritas Dental Plan Overview\n  A look at the Ameritas Dental benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_AMER\" />\n\n# Ameritas Dental Plan Overview\n\nUnderstanding the details and benefits of the **Ameritas Dental Plan**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Ameritas Dental Plan\n\n<v-click>\n\n- Comprehensive coverage through **Ameritas**\n\n</v-click>\n\n<v-click>\n\n- **Preventive Care** for routine check-ups\n\n</v-click>\n\n<v-click>\n\n- **Basic and Major Services** with extensive support\n\n</v-click>\n\n<v-click>\n\n- **Vision Benefits** through integrated FUSION plan\n\n</v-click>\n\n<v-click>\n\n- **Network Savings** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Preventive Care**\n\n</v-click>\n\n<v-click>\n\n**Basic Services**\n\n</v-click>\n\n<v-click>\n\n**Major Services** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Vision Benefits** through Ameritas\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/Ameritas_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"Ameritas Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**Dental Rewards Program** (DRP)\n</v-click>\n\n<v-click>\n\n**Annual Maximum** System\n</v-click>\n\n<v-click>\n\n**Network Savings** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How Dental Rewards Program Works\n\n<v-click>\n\n1. Enroll through **Ameritas**\n</v-click>\n\n<v-click>\n\n2. Submit at least one dental claim per year\n</v-click>\n\n<v-click>\n\n3. Carry over $250 in rewards if benefits paid are under $500\n</v-click>\n\n<v-click>\n\n4. Receive additional rewards for using network providers\n</v-click>\n\n<v-click>\n\n5. Accumulate up to $1000 in rewards\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Routine Exams** Services\n</v-click>\n\n<v-click>\n\n- **Cleaning and X-rays** Programs\n</v-click>\n\n<v-click>\n\n- **Ameritas Network** provides extensive coverage\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **Virtual Consultations**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **Prescription Services** available\n\n</v-click>\n\n<v-click>\n\n- **Remote Access** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Assistance** support\n\n</v-click>\n\n<v-click>\n\n- **Provider Options** flexibility\n\n</v-click>\n\n<v-click>\n\n- **Customer Service** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg\n---\n\n## Type 1 Preventive (1/2)\n\n<v-click>\n\n**Preventive Care**\n- Routine Exam (1 per 6 months)\n- Bitewing X-rays (1 per 12 months)\n- Cleaning (1 per 6 months)\n</v-click>\n\n<v-click>\n\n**Coverage**\n- 100% for all services\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg\n---\n\n## Type 1 Preventive (2/2)\n\n<v-click>\n\n**Deductible**\n- $0 for Type 1 services\n</v-click>\n\n<v-click>\n\n**Benefit Year Maximum**\n- $1,000 per person, per calendar year\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg\n---\n\n## Type 2 Basic (1/2)\n\n<v-click>\n\n**Basic Services**\n- Restorative Amalgams\n- Restorative Composites\n- Endodontics (nonsurgical)\n- Simple Extractions\n</v-click>\n\n<v-click>\n\n**Coverage**\n- 100% for all services\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg\n---\n\n## Type 2 Basic (2/2)\n\n<v-click>\n\n**Deductible**\n- $50 per person, per calendar year\n</v-click>\n\n<v-click>\n\n**Family Maximum**\n- $150 per Calendar Year\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg\n---\n\n## Type 3 Major (1/2)\n\n<v-click>\n\n**Major Services**\n- Surgical Extractions\n- Periodontics (nonsurgical)\n- Crowns (1 in 10 years per tooth)\n</v-click>\n\n<v-click>\n\n**Coverage**\n- 100% for all services\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg\n---\n\n## Type 3 Major (2/2)\n\n<v-click>\n\n**Deductible**\n- $50 per person, per calendar year\n</v-click>\n\n<v-click>\n\n**Benefit Year Maximum**\n- $1,000 per person, per calendar year\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_vision_and_dental_plan_benefits_with_network_savings_and_late_entrant_details.jpg\n---\n\n## Vision Plan (1/2)\n\n<v-click>\n\n**Vision Benefits**\n- Exams, Lenses, Frames\n- Bifocal, Trifocal, Progressive Lenses\n</v-click>\n\n<v-click>\n\n**Coverage**\n- Subject to maximums\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_vision_and_dental_plan_benefits_with_network_savings_and_late_entrant_details.jpg\n---\n\n## Vision Plan (2/2)\n\n<v-click>\n\n**Lifetime Deductible**\n- $0 for certain services\n</v-click>\n\n<v-click>\n\n**Network Savings**\n- Up to 30% below regional averages\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Type 1 Preventive** | **Type 2 Basic** | **Type 3 Major** | **Vision Plan** |\n|---------|----------|----------|-----------|-----------|\n| Coverage | 100% | 100% | 100% | Subject to maximums |\n| Deductible | $0 | $50 per person | $50 per person | $0 for certain services |\n| Benefit Year Maximum | $1,000 | $1,000 | $1,000 | Integrated with dental |\n| Network Savings | Up to 30% | Up to 30% | Up to 30% | Up to 30% |\n| Waiting Period | None | None | None | None |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_member_savings_and_customer_service_details_for_national_congress_of_employers_plan.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Preventive Care**\n- Routine exams and cleanings\n- Bitewing X-rays\n</v-click>\n\n<v-click>\n\n**Basic Services**\n- Restorative procedures\n- Simple extractions\n</v-click>\n\n<v-click>\n\n**Major Services**\n- Surgical procedures\n- Crowns and prosthodontics\n</v-click>\n\n<v-click>\n\n**Vision Services**\n- Exams and lenses\n- Frame allowances\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Comprehensive Coverage** benefits\n</v-click>  \n\n<v-click>\n\n- **No Waiting Periods** included\n</v-click>\n\n<v-click>\n\n- **Network Savings** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Ameritas Dental Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/02_vision_and_dental_plan_benefits_with_network_savings_and_late_entrant_details.jpg",
+      "pages/03_member_savings_and_customer_service_details_for_national_congress_of_employers_plan.jpg",
+      "pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Ameritas Dental Plan. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\nUnderstanding the details and benefits of the Ameritas Dental Plan\n\nbegins with its comprehensive coverage through Ameritas. \n\nThe plan includes preventive care for routine check-ups, \n\nas well as basic and major services with extensive support. \n\nAdditionally, vision benefits are available through the integrated FUSION plan, \n\nand network savings support is also provided.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nThe plan offers preventive care, \n\nbasic services, \n\nand major services, which vary by plan. \n\nVision benefits are also available through Ameritas.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nThe Dental Rewards Program, or DRP, \n\nis a key feature, along with the annual maximum system, \n\nand network savings support.\n\n---- How Dental Rewards Program Works ----\n\nHere's how the Dental Rewards Program works.\n\nFirst, you enroll through Ameritas. \n\nThen, submit at least one dental claim per year. \n\nIf benefits paid are under five hundred dollars, you can carry over two hundred fifty dollars in rewards. \n\nAdditional rewards are available for using network providers, \n\nand you can accumulate up to one thousand dollars in rewards.\n\n---- Preventive Care and Wellness ----\n\nPreventive care and wellness are essential components of the plan.\n\nRoutine exams services are included, \n\nalong with cleaning and X-rays programs. \n\nThe Ameritas Network provides extensive coverage.\n\n---- Telehealth Services ----\n\nTelehealth services are an important part of the plan.\n\nVirtual consultations are available, \n\nwith twenty-four seven access. \n\nPrescription services are also available, \n\nand you have remote access to care.\n\n---- Advocacy and Support Services ----\n\nAdvocacy and support services are here to assist you.\n\nThe plan offers comprehensive healthcare advocacy, \n\nclaims assistance support, \n\nprovider options flexibility, \n\nand customer service support.\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\nType 1 Preventive includes preventive care, \n\nsuch as routine exams, bitewing X-rays, and cleaning. \n\nCoverage is one hundred percent for all services.\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\nThe deductible is zero dollars for Type 1 services, \n\nand the benefit year maximum is one thousand dollars per person, per calendar year.\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\nType 2 Basic includes basic services, \n\nsuch as restorative amalgams, restorative composites, endodontics (nonsurgical), and simple extractions. \n\nCoverage is one hundred percent for all services.\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\nThe deductible is fifty dollars per person, per calendar year, \n\nand the family maximum is one hundred fifty dollars per calendar year.\n\n---- Plan Tier 3 (One of Two) ----\n\nLet's examine our third plan tier.\n\nType 3 Major includes major services, \n\nsuch as surgical extractions, periodontics (nonsurgical), and crowns (one in ten years per tooth). \n\nCoverage is one hundred percent for all services.\n\n---- Plan Tier 3 (Two of Two) ----\n\nContinuing with our third plan tier.\n\nThe deductible is fifty dollars per person, per calendar year, \n\nand the benefit year maximum is one thousand dollars per person, per calendar year.\n\n---- Vision Plan (One of Two) ----\n\nNow, let's look at the vision plan.\n\nVision benefits include exams, lenses, frames, bifocal, trifocal, and progressive lenses. \n\nCoverage is subject to maximums.\n\n---- Vision Plan (Two of Two) ----\n\nContinuing with the vision plan.\n\nThe lifetime deductible is zero dollars for certain services, \n\nand network savings can be up to thirty percent below regional averages.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nType 1 Preventive, Type 2 Basic, and Type 3 Major all offer one hundred percent coverage, \n\nwhile the vision plan coverage is subject to maximums. \n\nThe deductible for Type 1 is zero dollars, while Type 2 and 3 have a fifty-dollar deductible per person. \n\nThe benefit year maximum is one thousand dollars for dental plans, and the vision plan is integrated with dental. \n\nNetwork savings are up to thirty percent for all plans, and there are no waiting periods.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nPreventive care includes routine exams and cleanings, as well as bitewing X-rays. \n\nBasic services cover restorative procedures and simple extractions. \n\nMajor services include surgical procedures, crowns, and prosthodontics. \n\nVision services cover exams, lenses, and frame allowances.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers broad coverage benefits, \n\nwith no waiting periods included. \n\nNetwork savings benefits are available, \n\nand enrollment is required.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Ameritas Dental Plan Overview",
+          "content": "<SlideAudio deckKey=\"FEN_AMER\" />\n\n# Ameritas Dental Plan Overview\n\nUnderstanding the details and benefits of the **Ameritas Dental Plan**",
+          "frontmatter": "id: FEN_AMER\ntheme: ../../\ntitle: | \n  Ameritas Dental\ninfo: |\n  ## Ameritas Dental Plan Overview\n  A look at the Ameritas Dental benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Ameritas Dental Plan. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Ameritas Dental Plan",
+          "content": "## The Ameritas Dental Plan\n\n<v-click>\n\n- Comprehensive coverage through **Ameritas**\n\n</v-click>\n\n<v-click>\n\n- **Preventive Care** for routine check-ups\n\n</v-click>\n\n<v-click>\n\n- **Basic and Major Services** with extensive support\n\n</v-click>\n\n<v-click>\n\n- **Vision Benefits** through integrated FUSION plan\n\n</v-click>\n\n<v-click>\n\n- **Network Savings** support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Plan Overview",
+          "content": "Understanding the details and benefits of the Ameritas Dental Plan\n\nbegins with its comprehensive coverage through Ameritas. \n\nThe plan includes preventive care for routine check-ups, \n\nas well as basic and major services with extensive support. \n\nAdditionally, vision benefits are available through the integrated FUSION plan, \n\nand network savings support is also provided."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Preventive Care**\n\n</v-click>\n\n<v-click>\n\n**Basic Services**\n\n</v-click>\n\n<v-click>\n\n**Major Services** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Vision Benefits** through Ameritas\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/Ameritas_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"Ameritas Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nThe plan offers preventive care, \n\nbasic services, \n\nand major services, which vary by plan. \n\nVision benefits are also available through Ameritas."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**Dental Rewards Program** (DRP)\n</v-click>\n\n<v-click>\n\n**Annual Maximum** System\n</v-click>\n\n<v-click>\n\n**Network Savings** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nThe Dental Rewards Program, or DRP, \n\nis a key feature, along with the annual maximum system, \n\nand network savings support."
+        }
+      },
+      {
+        "slide": {
+          "header": "How Dental Rewards Program Works",
+          "content": "## How Dental Rewards Program Works\n\n<v-click>\n\n1. Enroll through **Ameritas**\n</v-click>\n\n<v-click>\n\n2. Submit at least one dental claim per year\n</v-click>\n\n<v-click>\n\n3. Carry over $250 in rewards if benefits paid are under $500\n</v-click>\n\n<v-click>\n\n4. Receive additional rewards for using network providers\n</v-click>\n\n<v-click>\n\n5. Accumulate up to $1000 in rewards\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How Dental Rewards Program Works",
+          "content": "Here's how the Dental Rewards Program works.\n\nFirst, you enroll through Ameritas. \n\nThen, submit at least one dental claim per year. \n\nIf benefits paid are under five hundred dollars, you can carry over two hundred fifty dollars in rewards. \n\nAdditional rewards are available for using network providers, \n\nand you can accumulate up to one thousand dollars in rewards."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Routine Exams** Services\n</v-click>\n\n<v-click>\n\n- **Cleaning and X-rays** Programs\n</v-click>\n\n<v-click>\n\n- **Ameritas Network** provides extensive coverage\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Preventive care and wellness are essential components of the plan.\n\nRoutine exams services are included, \n\nalong with cleaning and X-rays programs. \n\nThe Ameritas Network provides extensive coverage."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **Virtual Consultations**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **Prescription Services** available\n\n</v-click>\n\n<v-click>\n\n- **Remote Access** to care\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Telehealth services are an important part of the plan.\n\nVirtual consultations are available, \n\nwith twenty-four seven access. \n\nPrescription services are also available, \n\nand you have remote access to care."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Assistance** support\n\n</v-click>\n\n<v-click>\n\n- **Provider Options** flexibility\n\n</v-click>\n\n<v-click>\n\n- **Customer Service** support\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Advocacy and support services are here to assist you.\n\nThe plan offers comprehensive healthcare advocacy, \n\nclaims assistance support, \n\nprovider options flexibility, \n\nand customer service support."
+        }
+      },
+      {
+        "slide": {
+          "header": "Type 1 Preventive (1/2)",
+          "content": "## Type 1 Preventive (1/2)\n\n<v-click>\n\n**Preventive Care**\n- Routine Exam (1 per 6 months)\n- Bitewing X-rays (1 per 12 months)\n- Cleaning (1 per 6 months)\n</v-click>\n\n<v-click>\n\n**Coverage**\n- 100% for all services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "Let's examine our first plan tier.\n\nType 1 Preventive includes preventive care, \n\nsuch as routine exams, bitewing X-rays, and cleaning. \n\nCoverage is one hundred percent for all services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Type 1 Preventive (2/2)",
+          "content": "## Type 1 Preventive (2/2)\n\n<v-click>\n\n**Deductible**\n- $0 for Type 1 services\n</v-click>\n\n<v-click>\n\n**Benefit Year Maximum**\n- $1,000 per person, per calendar year\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "Continuing with our first plan tier.\n\nThe deductible is zero dollars for Type 1 services, \n\nand the benefit year maximum is one thousand dollars per person, per calendar year."
+        }
+      },
+      {
+        "slide": {
+          "header": "Type 2 Basic (1/2)",
+          "content": "## Type 2 Basic (1/2)\n\n<v-click>\n\n**Basic Services**\n- Restorative Amalgams\n- Restorative Composites\n- Endodontics (nonsurgical)\n- Simple Extractions\n</v-click>\n\n<v-click>\n\n**Coverage**\n- 100% for all services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier.\n\nType 2 Basic includes basic services, \n\nsuch as restorative amalgams, restorative composites, endodontics (nonsurgical), and simple extractions. \n\nCoverage is one hundred percent for all services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Type 2 Basic (2/2)",
+          "content": "## Type 2 Basic (2/2)\n\n<v-click>\n\n**Deductible**\n- $50 per person, per calendar year\n</v-click>\n\n<v-click>\n\n**Family Maximum**\n- $150 per Calendar Year\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Continuing with our second plan tier.\n\nThe deductible is fifty dollars per person, per calendar year, \n\nand the family maximum is one hundred fifty dollars per calendar year."
+        }
+      },
+      {
+        "slide": {
+          "header": "Type 3 Major (1/2)",
+          "content": "## Type 3 Major (1/2)\n\n<v-click>\n\n**Major Services**\n- Surgical Extractions\n- Periodontics (nonsurgical)\n- Crowns (1 in 10 years per tooth)\n</v-click>\n\n<v-click>\n\n**Coverage**\n- 100% for all services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (One of Two)",
+          "content": "Let's examine our third plan tier.\n\nType 3 Major includes major services, \n\nsuch as surgical extractions, periodontics (nonsurgical), and crowns (one in ten years per tooth). \n\nCoverage is one hundred percent for all services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Type 3 Major (2/2)",
+          "content": "## Type 3 Major (2/2)\n\n<v-click>\n\n**Deductible**\n- $50 per person, per calendar year\n</v-click>\n\n<v-click>\n\n**Benefit Year Maximum**\n- $1,000 per person, per calendar year\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/01_dental_and_eye_care_fusion_plan_benefits_with_coverage_details_and_limits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (Two of Two)",
+          "content": "Continuing with our third plan tier.\n\nThe deductible is fifty dollars per person, per calendar year, \n\nand the benefit year maximum is one thousand dollars per person, per calendar year."
+        }
+      },
+      {
+        "slide": {
+          "header": "Vision Plan (1/2)",
+          "content": "## Vision Plan (1/2)\n\n<v-click>\n\n**Vision Benefits**\n- Exams, Lenses, Frames\n- Bifocal, Trifocal, Progressive Lenses\n</v-click>\n\n<v-click>\n\n**Coverage**\n- Subject to maximums\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_vision_and_dental_plan_benefits_with_network_savings_and_late_entrant_details.jpg"
+        },
+        "script": {
+          "header": "Vision Plan (One of Two)",
+          "content": "Now, let's look at the vision plan.\n\nVision benefits include exams, lenses, frames, bifocal, trifocal, and progressive lenses. \n\nCoverage is subject to maximums."
+        }
+      },
+      {
+        "slide": {
+          "header": "Vision Plan (2/2)",
+          "content": "## Vision Plan (2/2)\n\n<v-click>\n\n**Lifetime Deductible**\n- $0 for certain services\n</v-click>\n\n<v-click>\n\n**Network Savings**\n- Up to 30% below regional averages\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_vision_and_dental_plan_benefits_with_network_savings_and_late_entrant_details.jpg"
+        },
+        "script": {
+          "header": "Vision Plan (Two of Two)",
+          "content": "Continuing with the vision plan.\n\nThe lifetime deductible is zero dollars for certain services, \n\nand network savings can be up to thirty percent below regional averages."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Type 1 Preventive** | **Type 2 Basic** | **Type 3 Major** | **Vision Plan** |\n|---------|----------|----------|-----------|-----------|\n| Coverage | 100% | 100% | 100% | Subject to maximums |\n| Deductible | $0 | $50 per person | $50 per person | $0 for certain services |\n| Benefit Year Maximum | $1,000 | $1,000 | $1,000 | Integrated with dental |\n| Network Savings | Up to 30% | Up to 30% | Up to 30% | Up to 30% |\n| Waiting Period | None | None | None | None |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nType 1 Preventive, Type 2 Basic, and Type 3 Major all offer one hundred percent coverage, \n\nwhile the vision plan coverage is subject to maximums. \n\nThe deductible for Type 1 is zero dollars, while Type 2 and 3 have a fifty-dollar deductible per person. \n\nThe benefit year maximum is one thousand dollars for dental plans, and the vision plan is integrated with dental. \n\nNetwork savings are up to thirty percent for all plans, and there are no waiting periods."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Preventive Care**\n- Routine exams and cleanings\n- Bitewing X-rays\n</v-click>\n\n<v-click>\n\n**Basic Services**\n- Restorative procedures\n- Simple extractions\n</v-click>\n\n<v-click>\n\n**Major Services**\n- Surgical procedures\n- Crowns and prosthodontics\n</v-click>\n\n<v-click>\n\n**Vision Services**\n- Exams and lenses\n- Frame allowances\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_member_savings_and_customer_service_details_for_national_congress_of_employers_plan.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nPreventive care includes routine exams and cleanings, as well as bitewing X-rays. \n\nBasic services cover restorative procedures and simple extractions. \n\nMajor services include surgical procedures, crowns, and prosthodontics. \n\nVision services cover exams, lenses, and frame allowances."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Comprehensive Coverage** benefits\n</v-click>  \n\n<v-click>\n\n- **No Waiting Periods** included\n</v-click>\n\n<v-click>\n\n- **Network Savings** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers broad coverage benefits, \n\nwith no waiting periods included. \n\nNetwork savings benefits are available, \n\nand enrollment is required."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Ameritas Dental Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 20
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 20,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

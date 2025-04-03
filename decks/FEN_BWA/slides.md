@@ -1,10 +1,11 @@
 ---
 id: FEN_BWA
 theme: ../../
-title: Business Workers of America (BWA)
+title: | 
+  Business Workers of America Association
 info: |
-  ## Business Workers of America Overview
-  A look at BWA membership benefits and details.
+  ## Business Workers of America Association Review
+  A look at the Business Workers of America Association benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
@@ -14,188 +15,394 @@ transition: fade-out
 drawings:
   persist: false
 ---
-<div class="relative top-24">
 
 <SlideAudio deckKey="FEN_BWA" />
 
-  <div class="grid grid-cols-1 items-center py-8">
+# Business Workers of America Association Review
 
-  # Business Workers of America
+Understanding the details and benefits of the **Business Workers of America Association**
 
-  Understanding the benefits of **BWA Membership**
-  </div>
-  <div class="grid grid-cols-1 gap-4 items-center py-8 mt-16">
-    <img src="/img/logos/BWA_logo.png" class="h-12 pt-1 mix-blend-multiply" alt="BWA Logo">
-  </div>
+---
+transition: fade-out
+layout: default
+---
+
+## Business Workers of America Association Overview
+
+<v-clicks>
+
+- Founded in 2001 as a not-for-profit member association
+- **Healthcare and Supplemental Benefits** for members
+- **Wellness Programs** to improve family health
+- **Educational Support** through scholarships and grants
+- **Legislative Advocacy** for better lifestyle and lower healthcare costs
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Key Features and Benefits
+
+<v-clicks>
+
+**Healthcare Benefits**
+
+**Educational Support**
+
+**Legislative Advocacy**
+
+**Wellness Programs** (varies by plan)
+</v-clicks>
+
+<v-click>
+
+**Prescription Savings** through HealthWarehouse.com
+<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
+  <img src="" class="h-12 mix-blend-multiply" alt="HealthWarehouse Logo">
 </div>
 
+</v-click>
+
 ---
 transition: fade-out
-layout: one-half-img
-image: /img/style/association.png
+layout: default
 ---
 
-## What is an Association?
+## Cost Management Tools
+
+<v-click>
+
+**Medical Bill Repricer** (MBR)
+</v-click>
+
+<v-click>
+
+**Reference-Based Pricing** System
+</v-click>
+
+<v-click>
+
+**Direct Bill Negotiation** Support
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+## How Medical Bill Repricer Works
 
 <v-clicks>
 
-- Organizations serving **collective member interests**
-- Provides access to various **services**
-- Focuses on **health insurance plans**
-- Leverages **collective purchasing power**
-- Negotiates better **terms** and **coverage**
+1. Enroll through **BWA**
+2. Present MBR card at provider
+3. Pre-pay $25 for primary care, $50 for specialists
+4. Receive Explanation of Benefits **(EOB)**
+5. Final bill matches EOB
+6. **Insurance may cover remaining balance**
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Preventive Care and Wellness
+
+<v-clicks>
+
+- **Wellness Programs** Services
+- **Educational Seminars** Programs
+- **DirectLabs** provides lab services
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Telehealth Services
+
+<v-clicks>
+
+- **24/7 Nurse Hotline**
+- **Online Health Manager**
+- **Telemedicine Consultations** available
+- **Remote Access** to care
+
+</v-clicks>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Advocacy and Support Services
+
+<v-clicks>
+
+- **White Glove** healthcare advocacy
+- **Managed Care** assistance
+- **Financial Counseling** options
+- **Legal Plan** support
 
 </v-clicks>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: ./img/style/bargaining.png
+image: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg
 ---
 
-## How Associations Work
+## Plan 2 (1/2)
 
-<v-clicks>
+<v-click>
 
-- Acts as **intermediary** between providers and members
-- Negotiates **group rates** and **terms**
-- Manages **enrollment process**
-- Provides ongoing **member support**
-- Coordinates **benefit offerings**
+**Hospital Benefits**
+- $750 per day admission
+- $200 per day confinement
+- $1,500 per day ICU admission
+- $350 per day ICU confinement
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
+<v-click>
+
+**Surgery Benefits**
+- $500 per day inpatient
+- $300 per day outpatient
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- $200 per day ER visits
+- $50 per day urgent care
+- $50 per day physician visits
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/about.png
+image: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg
 ---
 
-## About BWA
+## Plan 2 (2/2)
 
-<v-clicks>
+<v-click>
 
-- **Not-for-profit** member association since **2006**
-- Dedicated to improving **workers' lives**
-- Enhances **standard of living**
-- Provides access to **savings**
-- Influences **federal** and **state** legislation
-- Benefits **American workforce**
+**Therapy Benefits**
+- $15 per day for therapy
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
+<v-click>
+
+**Additional Riders**
+- Portability Option included
+- No Occupational Exclusion
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/enroll.png
+image: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg
 ---
 
-## BWA & Plan Relationship
+## Plan 3 (1/2)
 
-<v-clicks>
+<v-click>
 
-- **Must be working** required
-- Must join **BWA Association**
-- Eligibility for **Health Benefits**
-- Access to **BWA Membership Benefits**
+**Hospital Benefits**
+- $1,000 per day admission
+- $300 per day confinement
+- $2,000 per day ICU admission
+- $500 per day ICU confinement
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
-</v-clicks>
+<v-click>
+
+**Surgery Benefits**
+- $500 per day inpatient
+- $300 per day outpatient
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- $300 per day ER visits
+- $50 per day urgent care
+- $50 per day physician visits
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: /img/style/benefits.png
+image: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg
 ---
 
-## MBR Benefits
+## Plan 3 (2/2)
+
+<v-click>
+
+**Therapy Benefits**
+- $15 per day for therapy
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Additional Riders**
+- Portability Option included
+- No Occupational Exclusion
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg
+---
+
+## Plan 4 (1/2)
+
+<v-click>
+
+**Hospital Benefits**
+- $2,000 per day admission
+- $500 per day confinement
+- $2,000 per day ICU admission
+- $500 per day ICU confinement
+<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Surgery Benefits**
+- $750 per day inpatient
+- $400 per day outpatient
+<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- $500 per day ER visits
+- $75 per day urgent care
+- $75 per day physician visits
+<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg
+---
+
+## Plan 4 (2/2)
+
+<v-click>
+
+**Therapy Benefits**
+- $75 per day for therapy
+<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Additional Riders**
+- Portability Option included
+- No Occupational Exclusion
+<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Comparing the Plans
+
+| **Feature** | **Plan 2** | **Plan 3** | **Plan 4** |
+|---------|----------|----------|-----------|
+| Hospital Admission | $750/day | $1,000/day | $2,000/day |
+| Hospital Confinement | $200/day | $300/day | $500/day |
+| ICU Admission | $1,500/day | $2,000/day | $2,000/day |
+| ICU Confinement | $350/day | $500/day | $500/day |
+| Surgery Inpatient | $500/day | $500/day | $750/day |
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/BWABrochurePlan3MBR-Americare3_REV_page_001.jpg
+---
+
+## Definitions and Limitations
+
+<v-click>
+
+**Hospital Benefits**
+- Limited to specific days
+- Excludes certain conditions
+- Requires network providers
+<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Surgery Benefits**
+- Limited to specific procedures
+- Excludes cosmetic surgeries
+<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Limited to specific visits
+- Excludes certain treatments
+<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Therapy Benefits**
+- Limited to specific therapies
+- Excludes experimental treatments
+<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Key Takeaways and Reminders
 
 <v-clicks>
 
-- **Most Important Benefit** for New Members
-- Insurance and **non-insurance** Benefit support
-- **Claim filing** Assistance
-- **Bill Reduction** Coordination
-- **$25 pre-pay** for Urgent Care/Primary Care
-- **$50 pre-pay** for Specialist Visits
-- **Advocacy** and **Negotiating** Services
+- **Comprehensive Benefits** for members
+- **Educational Support** included
+- **Advocacy Services** benefits
+- **Network Provider** required
 
 </v-clicks>
-
----
-transition: fade-out
-layout: default-row
----
-
-::header::
-# Healthcare Services
-
-::left::
-<v-click>
-
-**Telemedicine**
-- **24/7** Physician Consultations
-- **Prescription services** 
-- **No Consult fees** or Co-pays
-</v-click>
-
-::center::
-<v-click>
-
-**Health Advocate**
-- Provider **location assistance**
-- **Claims Resolution** support
-- **Medical treatment** guidance
-- **24/7** Nurse Hotline
-</v-click>
-
-::right::
-<v-click>
-
-**Lab Testing**
-- **DirectLabs** discounted services
-- **No Doctor's Visit** required
-- Includes **Blood Testing** orders
-</v-click>
-
----
-transition: fade-out
-layout: default-row
----
-
-::header::
-# Additional Member Benefits
-
-::left::
-<v-click>
-
-**Online Health Manager**
-- **Physician reviewed** materials
-- **Health assessment** tools
-- **Weekly** health tips
-</v-click>
-
-::center::
-<v-click>
-
-**Travel Benefits**
-- **Hotel** discounts
-- **Resort** access
-- **Condominium** savings
-</v-click>
-
-::right::
-<v-click>
-
-**Professional Development**
-- **Online** courses
-- **Webinars**
-- **Career advancement** workshops
-</v-click>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for learning about BWA. Continue to be great!
+line: Thank you for participating in the Business Workers of America Association Review. Continue to be great!
 ---
 
 # Thank You!
@@ -203,6 +410,3 @@ line: Thank you for learning about BWA. Continue to be great!
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
-
-
-

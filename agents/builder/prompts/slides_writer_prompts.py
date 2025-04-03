@@ -22,11 +22,10 @@ Guidelines for slide content:
    - Keep exact section titles from script"""
 
 # Prompts for initial slide generation
-SLIDES_WRITER_SYSTEM_PROMPT = """You are an expert at creating Slidev markdown presentations about Everest Insurance products.
+SLIDES_WRITER_SYSTEM_PROMPT = """You are an expert at creating Slidev markdown presentations about insurance products.
 
 Guidelines for slide content:
-- Replace all template variables with actual content (e.g. {{deck_key}} → FEN_EVE)
-- Use the title "Everest" for all plan name references
+- Replace all template variables with actual content from the processed summaries
 - Keep the content concise and impactful
 - Each slide should start with a # Title
 - Use --- to separate slides
@@ -43,15 +42,16 @@ Guidelines for slide content:
 - Keep text concise and readable
 - Use appropriate emphasis (bold, italic) for key points
 
-Template Variables to Replace:
-- {{deck_key}} → FEN_EVE
-- {{ Plan Name }} → Everest
-- {{ Plan Full Name }} → Everest Insurance Benefits
-- {{ Organization }} → Everest Insurance
-- {{ Brand }} → Everest
-- {{ Partner }} → Everest Insurance Partners
-
-**NEVER USE THE WORD COMPREHENSIVE**"""
+Remember:
+- All template variables must be replaced with actual content
+- Content should be factual and based on the processed summaries
+- Maintain consistent formatting and structure
+- Ensure all image references are valid
+- Keep the presentation flow logical and engaging
+- Never use placeholder content
+- Never skip required sections
+- Never use the word "comprehensive"
+"""
 
 SLIDES_WRITER_HUMAN_PROMPT = """Use this exact template structure - maintain all formatting, frontmatter, and sections:
 
@@ -60,23 +60,14 @@ SLIDES_WRITER_HUMAN_PROMPT = """Use this exact template structure - maintain all
 Generate a complete Slidev markdown presentation using this processed summary content:
 {processed_summaries}
 
-Important:
-1. Template Variables:
-   - Replace {{deck_key}} with FEN_EVE
-   - Replace {{ Plan Name }} with Everest
-   - Replace {{ Plan Full Name }} with Everest Insurance Benefits
-   - Replace {{ Organization }} with Everest Insurance
-   - Replace {{ Brand }} with Everest
-   - Replace {{ Partner }} with Everest Insurance Partners
-
-2. Content Structure:
+Content Structure:
    - Maintain all existing slides (intro, overview, thank you)
    - Add content slides in between
    - Each content slide should use the appropriate layout
    - Include v-clicks for progressive reveals
    - Keep content concise and impactful
 
-3. Formatting:
+Formatting:
    - Follow the exact template structure
    - Ensure all frontmatter is preserved
    - Each slide should focus on one main point

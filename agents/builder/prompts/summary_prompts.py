@@ -20,19 +20,22 @@ Common Service Features (2-3 slides)
 ## Plan 1
 
 **Category 1**
-- **Details**
-- **Details**
+- **Details with values**
+- **Details with values**
 **Category 2**
-- **Details**
+- **Details with values**
+- **Details with values**
 
 **Category 3**
-- **Details**
+- **Details with values**
+- **Details with values**
 
 **Category 4**
-- **Details**
+- **Details with values**
+- **Details with values**
 
 **Category 5**
-- **Details**   
+- **Details with values**   
 - **Details**
 
 **Category 6**
@@ -43,21 +46,23 @@ Common Service Features (2-3 slides)
 ## Plan 2
 
 **Category 1**
-- **Details**
-- **Details**
-- **Details**
+- **Details with values**
+- **Details with values**
+- **Details with values**
 
 **Category 2**
-- **Details**
+- **Details with values**
+- **Details with values**
 
 **Category 3**
-- **Details**
+- **Details with values**
+- **Details with values**
 
 **Category 4**
-- **Details**
+- **Details with values**
 
 **Category 5**
-- **Details**
+- **Details with values**
 
 **Category 6**
 - **Details**
@@ -66,24 +71,24 @@ Common Service Features (2-3 slides)
 ## Plan 3 (1/2)
 
 **Category 1**
-- **Details**
-- **Details**
-- **Details**
-- **Details**
+- **Details with values**
+- **Details with values**
+- **Details with values**
+- **Details with values**
 
 **Category 2**
-- **Details**
-- **Additional Details**
+- **Details with values**
+- **Details with values**
 
 
 ## Plan 3 (2/2)
 
 **Category 3**
-- **Details**
-- **Additional Details**
+- **Details with values**
+- **Details with values**
 
 **Category 4**
-- **Details**
+- **Details with values**
 
 **Category 5**
 - **Details**
@@ -176,28 +181,22 @@ Maintain all existing slides (intro, overview, thank you) and add the content sl
 Each content slide should use the appropriate layout and include v-clicks for progressive reveals."""
 
 PROCESS_SUMMARIES_PROMPT = """You are an expert at analyzing insurance plan documents and extracting key information.
+
+You MUST output a valid JSON object with this exact structure:
+{
+    "page_title": "long_and_descriptive_title_that_summarizes_the_content_of_the_slide",
+    "summary": "Detailed content summary with multiple paragraphs outlining all key content",
+    "tableDetails": {
+        "hasBenefitsTable": true/false,  # Must be true if the page contains a benefits comparison table
+        "hasLimitations": true/false  # Must be true if the page contains limitations or exclusions
+    }
+}
+
 Focus on identifying and summarizing:
 1. Plan features and benefits
 2. Coverage details and limits
 3. Cost structures and tiers
 4. Special provisions and requirements
-
-For each page, provide a concise but summary that captures:
-- Main topics and themes
-- Key data points and figures
-- Important terms and conditions
-- Notable exclusions or limitations
-
-You must output a JSON object that matches this exact structure:
-{
-    "title": "Descriptive title of the slide",
-    "summary": "Detailed content summary with multiple paragraphs",
-    "tableDetails": {
-        "hasBenefitsTable": true/false,  # Must be true if the page contains a benefits comparison table
-        "hasLimitations": true/false  # Must be true if the page contains limitations or exclusions
-    },
-    "page": 1  # Page number
-}
 
 Conditions for identifying a benefits table:
 - Must be a structured table format
@@ -212,4 +211,5 @@ Conditions for identifying limitations:
 
 **NEVER USE THE WORD COMPREHENSIVE**
 
-Format the summary in clear, professional language suitable for presentation to stakeholders.""" 
+Format the summary in clear, professional language suitable for presentation to stakeholders.
+YOUR RESPONSE MUST BE A VALID JSON OBJECT.""" 

@@ -1,101 +1,187 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on Business Workers of America, or BWA. We'll walk through what associations are, how they work, and the valuable benefits BWA offers to its members.
+Hello, everyone! Thank you for joining today's session on the Business Workers of America Association. We'll walk through the association's benefits and details, designed to support your health and well-being. Let's get started!
 
----- What is an Association? ----
+---- Business Workers of America Association Overview ----
 
-Let's begin with understanding what an association is 
+The Business Workers of America Association was founded in 2001 as a not-for-profit member association. 
 
-At its core, associations are organizations formed to serve collective member interests. 
+It provides healthcare and supplemental benefits for its members, ensuring access to essential services. 
 
-They provide access to various important services 
+The association also offers wellness programs aimed at improving family health. 
 
-with a particular focus on health insurance plans
+In addition, there is educational support available through scholarships and grants. 
 
-The key strength of an association lies in its ability to leverage collective purchasing power 
+Finally, the association engages in legislative advocacy to promote a better lifestyle and lower healthcare costs.
 
-allowing it to negotiate better terms and coverage for all its members.
+Now, let's explore the key features and benefits.
 
----- How Associations Work ----
+---- Key Features and Benefits ----
 
-Now, let me explain how associations operate. 
+The association offers a range of healthcare benefits tailored to meet diverse needs. 
 
-An association acts as an intermediary between providers and members, 
+Educational support is provided to help members and their families achieve their academic goals. 
 
-playing a crucial role in negotiating group rates and terms. 
+Legislative advocacy is a key focus, working towards better living conditions and reduced healthcare expenses. 
 
-They manage the entire enrollment process 
+Wellness programs are available, varying by plan, to promote overall health. 
 
-and provide ongoing member support 
+Additionally, members can enjoy prescription savings through HealthWarehouse.com.
 
-Through this structure, they effectively coordinate benefit offerings for all members.
+Let's move on to the cost management tools.
 
----- About BWA ----
+---- Cost Management Tools ----
 
-BWA, or Business Workers of America, 
+The Medical Bill Repricer, or MBR, is a valuable tool for managing healthcare expenses. 
 
-is a not-for-profit member association that was founded in 2006. 
+The reference-based pricing system helps ensure fair pricing for medical services. 
 
-Their mission is dedicated to improving workers' lives 
+Direct bill negotiation support is also available to assist with managing healthcare costs.
 
-by enhancing their standard of living 
+Next, we'll see how the Medical Bill Repricer works.
 
-and providing access to valuable savings. 
+---- How Medical Bill Repricer Works ----
 
-They actively influence both federal and state legislation 
+To use the Medical Bill Repricer, you first enroll through the Business Workers of America Association. 
 
-to benefit the American workforce, ensuring member’s interests are represented at every level.
+Present your MBR card at the provider's office to access services. 
 
----- BWA & Plan Relationship ----
+You'll pre-pay twenty-five dollars for primary care and fifty dollars for specialists. 
 
-Before we discuss plan benefits with clients, there's required information we must cover with them.
+After your visit, you'll receive an Explanation of Benefits, or EOB, detailing the costs. 
 
-Members must be working and
+The final bill you receive will match the EOB, ensuring transparency. 
 
-become a member of BWA Association to be eligible for plan and member benefits. This allows members to not only 
+In many cases, insurance may cover the remaining balance.
 
-take advantage of BWA Membership health benefits 
+Let's discuss preventive care and wellness.
 
-but other benefits as well. 
+---- Preventive Care and Wellness ----
 
----- MBR Benefits ----
+The association offers wellness program services to support your health. 
 
-Next up are MBR Benefits
+Educational seminars are available to provide valuable health information. 
 
-MBR is one of our Most Important Benefits available to new members. 
+DirectLabs provides lab services to help monitor and maintain your well-being.
 
-This benefit helps members understand their insurance and non-insurance benefits, 
+Now, let's talk about telehealth services.
 
-assists with claim filing 
+---- Telehealth Services ----
 
-and coordinates insurance benefits with bill reductions 
+Members have access to a twenty-four/seven nurse hotline for immediate assistance. 
 
-Members enjoy significant savings with a $25 pre-pay for urgent care facility visits and primary care doctor visits, 
+An online health manager is available to help you track and manage your health. 
 
-and a $50 pre-pay for specialist physician visits. 
+Telemedicine consultations offer convenient access to healthcare professionals. 
 
-Additionally, it provides vital advocacy and negotiating services to maximize the value of their health benefits.
+Remote access to care ensures you can receive support wherever you are.
 
----- Healthcare Services ----
+Let's move on to advocacy and support services.
 
-Let's explore our healthcare services. 
+---- Advocacy and Support Services ----
 
-Our Telemedicine service provides 24/7/365 physician consultations, prescription services when needed, and all without consult fees or co-pays. 
+The association provides white glove healthcare advocacy to assist members. 
 
-Through their Health Advocate service, members receive assistance in locating providers, resolving claims, understanding medical treatments, and access to a 24/7 nurse hotline. 
+Managed care assistance is available to help navigate healthcare options. 
 
-For lab testing, they offer DirectLabs discounted services with no doctor's visit required, including necessary blood testing orders.
+Financial counseling options are offered to support financial well-being. 
 
----- Additional Member Benefits ----
+A legal plan is also available to provide legal support when needed.
 
-Beyond healthcare, they offer several valuable additional benefits. 
+Now, let's examine our first plan tier.
 
-Their Online Health Manager provides physician-reviewed materials, health assessment tools, and weekly health tips to help members maintain their wellbeing. 
+---- Plan 2 (One of Two) ----
 
-For travel needs, they offer hotel discounts, resort access, and condominium savings. 
+Plan 2 offers hospital benefits, including seven hundred fifty dollars per day for admission, two hundred dollars per day for confinement, one thousand five hundred dollars per day for ICU admission, and three hundred fifty dollars per day for ICU confinement. 
 
-To support professional growth, they provide online courses, webinars, and career advancement workshops.
+Surgery benefits include five hundred dollars per day for inpatient procedures and three hundred dollars per day for outpatient procedures. 
+
+Outpatient benefits cover two hundred dollars per day for ER visits, fifty dollars per day for urgent care, and fifty dollars per day for physician visits.
+
+Continuing with our first plan tier.
+
+---- Plan 2 (Two of Two) ----
+
+Therapy benefits in Plan 2 include fifteen dollars per day for therapy sessions. 
+
+Additional riders include a portability option and no occupational exclusion.
+
+Now, let's look at our second plan tier.
+
+---- Plan 3 (One of Two) ----
+
+Plan 3 provides hospital benefits with one thousand dollars per day for admission, three hundred dollars per day for confinement, two thousand dollars per day for ICU admission, and five hundred dollars per day for ICU confinement. 
+
+Surgery benefits remain at five hundred dollars per day for inpatient and three hundred dollars per day for outpatient procedures. 
+
+Outpatient benefits include three hundred dollars per day for ER visits, fifty dollars per day for urgent care, and fifty dollars per day for physician visits.
+
+Continuing with our second plan tier.
+
+---- Plan 3 (Two of Two) ----
+
+Therapy benefits in Plan 3 also include fifteen dollars per day for therapy sessions. 
+
+Additional riders feature a portability option and no occupational exclusion.
+
+Now, let's look at our third plan tier.
+
+---- Plan 4 (One of Two) ----
+
+Plan 4 offers hospital benefits with two thousand dollars per day for admission, five hundred dollars per day for confinement, two thousand dollars per day for ICU admission, and five hundred dollars per day for ICU confinement. 
+
+Surgery benefits increase to seven hundred fifty dollars per day for inpatient and four hundred dollars per day for outpatient procedures. 
+
+Outpatient benefits cover five hundred dollars per day for ER visits, seventy-five dollars per day for urgent care, and seventy-five dollars per day for physician visits.
+
+Continuing with our third plan tier.
+
+---- Plan 4 (Two of Two) ----
+
+Therapy benefits in Plan 4 include seventy-five dollars per day for therapy sessions. 
+
+Additional riders include a portability option and no occupational exclusion.
+
+Let's compare the different tiers available.
+
+---- Comparing Plan Tiers ----
+
+In this table, we compare the key features of each plan tier. 
+
+Plan 2 offers seven hundred fifty dollars per day for hospital admission, while Plan 3 provides one thousand dollars, and Plan 4 offers two thousand dollars. 
+
+Hospital confinement benefits range from two hundred dollars per day in Plan 2 to five hundred dollars in Plan 4. 
+
+ICU admission benefits are one thousand five hundred dollars per day in Plan 2, increasing to two thousand dollars in Plans 3 and 4. 
+
+ICU confinement benefits are three hundred fifty dollars per day in Plan 2 and five hundred dollars in Plans 3 and 4. 
+
+Surgery inpatient benefits are five hundred dollars per day in Plans 2 and 3, with Plan 4 offering seven hundred fifty dollars.
+
+Let's review important definitions and limitations.
+
+---- Definitions and Limitations ----
+
+Hospital benefits are limited to specific days and exclude certain conditions, requiring network providers. 
+
+Surgery benefits are limited to specific procedures and exclude cosmetic surgeries. 
+
+Outpatient benefits are limited to specific visits and exclude certain treatments. 
+
+Therapy benefits are limited to specific therapies and exclude experimental treatments.
+
+Here are the key points to remember.
+
+---- Key Takeaways and Reminders ----
+
+The association offers a wide range of benefits for its members. 
+
+Educational support is included to help members achieve their academic goals. 
+
+Advocacy services provide valuable support and assistance. 
+
+Remember, network providers are required for accessing these benefits.
 
 ---- Closing ----
 
-Thank you for taking the time to learn about Business Workers of America and their member benefits. We're here to support you and your needs, and remember, Continue to be great!
+Thank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!

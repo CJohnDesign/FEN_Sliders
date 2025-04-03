@@ -1,0 +1,785 @@
+{
+  "deck_id": "FEN_USF",
+  "deck_title": "Premier",
+  "processed_images": {
+    "1": {
+      "page_number": 1,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_001.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_001.jpg",
+      "new_name": "01_cover_page_for_group_hospital_fixed_indemnity_and_group_accident_insurance.jpg",
+      "new_path": "img/pages/01_cover_page_for_group_hospital_fixed_indemnity_and_group_accident_insurance.jpg",
+      "page_title": "cover_page_for_group_hospital_fixed_indemnity_and_group_accident_insurance",
+      "summary": "This cover page introduces the Group Hospital Fixed Indemnity and Group Accident Insurance plans. These plans are underwritten by the United States Fire Insurance Company and are offered exclusively to NCE members. The page features branding elements, including the Premier logo, and an image of three individuals engaging in a casual setting, suggesting a focus on community and accessibility.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 1
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_002.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_002.jpg",
+      "new_name": "02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg",
+      "new_path": "img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg",
+      "page_title": "group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000",
+      "summary": "This document outlines the benefits and coverage details for the Group Hospital Fixed Indemnity and Group Accident Insurance plans, specifically for Plan 100, 200A, 200+, 300, 500, 750, 1000, and 1000+. Each plan offers varying levels of daily benefits for hospital confinement, admission, and intensive care, with amounts ranging from $100 to $1,000 per day. Emergency room visits for both injury and sickness are covered, with benefits ranging from $50 to $200 per visit, depending on the plan. Inpatient and outpatient surgeries, along with anesthesia, are also covered, with daily benefits ranging from $100 to $500.\n\nThe plans include coverage for diagnostic radiology and x-ray, as well as laboratory tests, with daily benefits ranging from $50 to $100. Physician office visits are covered with benefits ranging from $50 to $75 per visit. Additionally, there is an accidental death benefit of $10,000 across all plans. Hospital admission benefits are set at $500 per day, and emergency room benefits are $250 per day.\n\nThe document specifies a 30-day benefit waiting period for sickness per covered person. Coverage is available in several states, including Alabama, Arkansas, Arizona, California, and others. The plans have specific waiting periods for certain benefits, such as 5 days for daily hospital admission and 15 days for intensive care. These details highlight the structured benefits and coverage limits associated with each plan.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 2
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_004.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_004.jpg",
+      "new_name": "04_group_hospital_fixed_indemnity_description_of_benefits_with_daily_outpatient_and_inpatient_services.jpg",
+      "new_path": "img/pages/04_group_hospital_fixed_indemnity_description_of_benefits_with_daily_outpatient_and_inpatient_services.jpg",
+      "page_title": "group_hospital_fixed_indemnity_description_of_benefits_with_daily_outpatient_and_inpatient_services",
+      "summary": "This document outlines the benefits provided under the Group Hospital Fixed Indemnity plan, focusing on daily outpatient and inpatient services. The Daily Outpatient Surgery Benefit covers surgeries performed in a hospital or ambulatory surgical center when ordered by a physician due to a covered injury or sickness. It excludes surgeries in a physician's office or surgical suite. The Daily Outpatient Surgery Anesthesia Benefit is available when anesthesia is administered for medically necessary surgeries. Additionally, the plan includes a Daily Physician\u2019s Office Visits Benefit for visits to a physician\u2019s office, hospital clinic, or urgent care center for necessary medical treatment. \n\nThe plan also provides benefits for diagnostic radiology and imaging services. The Daily Inpatient Diagnostic Radiology, X-ray, and Imaging Benefits are available when a covered person is confined in a hospital, and the services are ordered by a physician. Similarly, the Daily Outpatient Diagnostic Radiology, X-ray, and Imaging Benefits apply when the covered person is not confined in a hospital. Both benefits exclude radiation therapy. \n\nLaboratory test benefits are also included. The Daily Inpatient Laboratory Test Benefit is applicable when a covered person is hospitalized, and tests are ordered by a physician. The Daily Outpatient Laboratory Test Benefit applies when the person is not hospitalized. Both benefits cover tests intended to detect or quantify significant substances or evaluate organ functions.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 4
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_003.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_003.jpg",
+      "new_name": "03_group_hospital_fixed_indemnity_description_of_benefits_hospital_admission_daily_confinement_emergency_room_visits.jpg",
+      "new_path": "img/pages/03_group_hospital_fixed_indemnity_description_of_benefits_hospital_admission_daily_confinement_emergency_room_visits.jpg",
+      "page_title": "group_hospital_fixed_indemnity_description_of_benefits_hospital_admission_daily_confinement_emergency_room_visits",
+      "summary": "This document outlines the benefits available under the Group Hospital Fixed Indemnity plan. The Hospital Admission Benefit is payable if a covered person is hospitalized due to a medically necessary condition resulting from an injury or illness. This benefit is paid in addition to the Daily Hospital Confinement Benefit and ends when the hospital stay concludes, the covered person dies, or the insurance terminates. The Daily Hospital Confinement Benefit is available for inpatient hospital stays under similar conditions and ends when the hospital stay concludes, the covered person dies, the maximum benefit is reached, or the insurance terminates.\n\nThe Daily Intensive Care/Coronary Care Unit Benefit is payable for ICU/CCU stays that are medically necessary and result from a covered accident or sickness. This benefit ends when the ICU/CCU stay concludes, the covered person dies, the maximum benefit is reached, or the insurance terminates. The Daily Inpatient Surgery Benefit covers surgeries deemed medically necessary due to a covered accident or sickness, performed in a hospital. The Daily Inpatient Surgery Anesthesia Benefit is also available for anesthesia administered during such surgeries.\n\nThe Emergency Room Visits Benefit is provided for emergency room treatment due to a medical emergency resulting from a covered accident or sickness. This benefit is applicable when treatment is received in a hospital emergency room. The document notes that coverage is subject to terms, conditions, limitations, and exclusions, and may vary by state. The insurance plans are underwritten by United States Fire Insurance Company.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 3
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_005.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_005.jpg",
+      "new_name": "05_group_accident_description_of_benefits_with_hospital_admission_daily_hospital_confinement_and_emergency_room_visits.jpg",
+      "new_path": "img/pages/05_group_accident_description_of_benefits_with_hospital_admission_daily_hospital_confinement_and_emergency_room_visits.jpg",
+      "page_title": "group_accident_description_of_benefits_with_hospital_admission_daily_hospital_confinement_and_emergency_room_visits",
+      "summary": "This page outlines the benefits available under the group accident policy, focusing on various hospital and medical services. The Hospital Admission Benefit is provided if a covered person is hospital confined, with conditions such as the necessity of the hospital stay and it being the first confinement during the policy period. Payments are made in addition to the Daily Hospital Confinement benefit and end on specific dates like the end of the hospital stay or the policy period.\n\nThe Daily Hospital Confinement Benefit is paid if a covered person is confined as an inpatient, with similar conditions to the Hospital Admission Benefit. Payments end on dates such as the end of the hospital stay or the death of the covered person. The Daily Intensive Care/Coronary Care Unit Benefit is also available under similar conditions, with payments ending on specific dates like the end of the ICU/CCU stay.\n\nAdditional benefits include the Daily Physician\u2019s Office Visits Benefit for medically necessary treatment at a physician\u2019s office or clinic, and the Daily Emergency Room Visits Benefit for emergency room treatment due to an accident or sickness. Anesthesia benefits are provided for both inpatient and outpatient surgeries if administered for medically necessary surgeries. These benefits are subject to specific conditions and timelines as outlined in the policy.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 5
+    },
+    "7": {
+      "page_number": 7,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_007.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_007.jpg",
+      "new_name": "07_group_hospital_fixed_indemnity_benefit_exclusions.jpg",
+      "new_path": "img/pages/07_group_hospital_fixed_indemnity_benefit_exclusions.jpg",
+      "page_title": "group_hospital_fixed_indemnity_benefit_exclusions",
+      "summary": "This page outlines the exclusions for the Group Hospital Fixed Indemnity plan, detailing specific situations and conditions where coverage is not provided. The exclusions include losses resulting from suicide, self-inflicted injuries, and acts of war, whether declared or undeclared. Coverage is also denied for injuries or sicknesses incurred while the covered person is on active duty in military services or participating in riots or insurrections. Additionally, treatments arising from brawling, assault, or battery are excluded.\n\nThe plan does not cover treatments for mental illness or nervous disorders unless specified in the policy. Substance abuse treatments are similarly excluded unless specifically provided. Injuries or sicknesses related to the use of alcohol, illegal drugs, or medications not prescribed by a physician are not covered. Legal violations or felonies committed by the covered person also result in exclusion from coverage.\n\nOther exclusions include services rendered by family members, treatments in federal hospitals, and travel-related injuries outside the United States unless for medical emergencies. The plan excludes coverage for pregnancy-related conditions unless conception occurred while coverage was active. Elective abortions, experimental treatments, and certain dental and orthodontic damages are also not covered. Specific exclusions apply to treatments for obesity, services by private duty nurses, and TMJ disorders unless specified in the policy.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 7
+    },
+    "8": {
+      "page_number": 8,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_008.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_008.jpg",
+      "new_name": "08_group_hospital_fixed_indemnity_benefit_exclusions_and_pre_existing_conditions_limitation.jpg",
+      "new_path": "img/pages/08_group_hospital_fixed_indemnity_benefit_exclusions_and_pre_existing_conditions_limitation.jpg",
+      "page_title": "group_hospital_fixed_indemnity_benefit_exclusions_and_pre_existing_conditions_limitation",
+      "summary": "This page outlines the exclusions and limitations associated with the Group Hospital Fixed Indemnity plan. It details specific treatments and services that are not covered under the policy. These include treatments for blood or blood plasma, routine vision care, and any accident where the covered person is operating a motor vehicle without a valid license. Additionally, travel-related exclusions are specified, such as travel on motorcycles or recreational vehicles, and travel or flight in aircraft not intended for passenger transport. The page also lists exclusions for rest cures, custodial care, and prescription drugs unless specifically provided for under the policy. Elective or cosmetic surgeries, except for reconstructive surgery on a diseased or injured part of the body, and physiotherapy services are also excluded.\n\nA significant limitation is the pre-existing conditions clause, which states that pre-existing conditions will not be covered for the first 12 months after the effective date of coverage. This applies to hospital, surgery, and related anesthesia benefits. The page emphasizes that the insurance is a limited policy and not a substitute for major medical insurance, highlighting that it does not provide minimum essential benefits as defined by the Patient Protection and Affordable Care Act.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 8
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_006.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_006.jpg",
+      "new_name": "06_group_accident_description_of_benefits_with_inpatient_and_outpatient_coverage.jpg",
+      "new_path": "img/pages/06_group_accident_description_of_benefits_with_inpatient_and_outpatient_coverage.jpg",
+      "page_title": "group_accident_description_of_benefits_with_inpatient_and_outpatient_coverage",
+      "summary": "This document outlines the benefits available under the Group Accident plan, focusing on both inpatient and outpatient services. The Daily Inpatient Surgery Benefit covers medically necessary surgeries resulting from a covered accident or sickness, provided the surgery is performed in a hospital. The benefit is applicable when the surgery is necessary for the treatment of the covered person. \n\nThe Daily Inpatient Diagnostic Radiology, X-ray, and Imaging Benefits are available when a covered person is confined in a hospital and the diagnostic tests are ordered by a physician. These benefits exclude radiation therapy and are specific to imaging using ionizing radiation and other advanced techniques. \n\nFor outpatient services, the Daily Outpatient Surgery Benefit is provided for surgeries performed in an outpatient department or ambulatory surgical center. This benefit is applicable when the surgery is necessary for the treatment of a covered injury or sickness. \n\nThe Daily Outpatient Diagnostic Radiology, X-ray, and Imaging Benefits are available when the covered person is not confined in a hospital, with similar exclusions as the inpatient benefits. \n\nAdditionally, the plan includes Daily Inpatient and Outpatient Laboratory Test Benefits, which cover tests ordered by a physician and performed by a licensed technician. These benefits are contingent on the patient's confinement status and are intended to detect or evaluate medical conditions.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 6
+    },
+    "9": {
+      "page_number": 9,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_009.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_009.jpg",
+      "new_name": "09_group_accident_benefit_exclusions_detailed_list_of_exclusions_and_conditions.jpg",
+      "new_path": "img/pages/09_group_accident_benefit_exclusions_detailed_list_of_exclusions_and_conditions.jpg",
+      "page_title": "group_accident_benefit_exclusions_detailed_list_of_exclusions_and_conditions",
+      "summary": "This page outlines the exclusions and conditions under which the Group Accident Benefit does not cover losses. It specifies that the certificate does not cover any loss resulting from suicide, self-destruction, or intentional self-inflicted injury while sane or insane. It also excludes coverage for injuries or death resulting from war, declared or undeclared, and accidents occurring while the covered person is on active duty in any armed forces. Additionally, injuries sustained while in the service of the armed forces are not covered, and a refund of the unearned pro rata premium is available upon request.\n\nThe document further lists exclusions such as participation in riots, insurrections, or any injury requiring treatment arising out of fighting or assault. It excludes sickness, disease, or mental infirmity, except as specifically provided, and any treatment not specifically covered by the certificate. Other exclusions include driving under the influence, intoxication, and injuries sustained while engaged in illegal occupations or activities.\n\nAdditional exclusions cover expenses incurred after the benefit period, regular health check-ups, and services rendered by non-physicians. Specific conditions like heart attacks, strokes, hernias, and certain diseases are also excluded unless caused by a covered accident. The document concludes with exclusions related to pregnancy, childbirth, and damage to dental or orthodontic equipment unless specified in the certificate.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 9
+    },
+    "10": {
+      "page_number": 10,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_010.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_010.jpg",
+      "new_name": "10_group_accident_benefit_exclusions_and_limitations_for_specific_losses.jpg",
+      "new_path": "img/pages/10_group_accident_benefit_exclusions_and_limitations_for_specific_losses.jpg",
+      "page_title": "group_accident_benefit_exclusions_and_limitations_for_specific_losses",
+      "summary": "This page outlines the exclusions and limitations associated with the Group Accident Benefit plan. It specifies that expenses incurred for the treatment of temporomandibular joint (TMJ) disorders, dental care other than for injury-related care, and treatment for blood or blood plasma are not covered. Additionally, vision-related expenses such as eyeglasses and contact lenses are excluded. The plan does not cover accidents involving motor vehicles if the covered person lacks a valid license, nor does it cover travel on certain vehicles like snowmobiles and water jet skis.\n\nFurther exclusions include travel or flight in aircraft not intended for passenger transport, participation in professional sports contests, and the repair or replacement of existing artificial limbs or orthopedic devices. Rest cures, custodial care, and elective or cosmetic surgery are also not covered unless for reconstructive purposes due to disease or injury. The document emphasizes that benefits are not payable for losses due to sickness and are limited to specific losses from accidents only. It clarifies that this is a limited benefit policy, not intended to replace major medical insurance, and does not provide major medical coverage.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 10
+    },
+    "11": {
+      "page_number": 11,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_011.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_011.jpg",
+      "new_name": "11_termination_of_insurance_policy_details_and_insurance_premium_information.jpg",
+      "new_path": "img/pages/11_termination_of_insurance_policy_details_and_insurance_premium_information.jpg",
+      "page_title": "termination_of_insurance_policy_details_and_insurance_premium_information",
+      "summary": "This page outlines the conditions under which an insurance policy may be terminated. The policy automatically terminates at 12:01 A.M. on the earlier of the policy expiration date or the premium due date if payments are not made, subject to any grace period. The policyholder or the company can terminate the policy by providing written notice at least 60 days prior to the desired termination date. If premiums are paid beyond the termination date, the company will refund the excess, whereas if premiums are short, the policyholder will owe the difference.\n\nThe insured person's coverage ends when they are no longer in an eligible class, report for full-time active duty, or upon termination of the policy. Dependents' coverage ends when the policy terminates, the insured person's coverage ends, or they are no longer a dependent. The page also details the insurance premium rates for various plans, including Premier 100, Premier 200, and Premier 300, with specific rates for single, two-party, and family coverage. These premiums reflect only the coverage underwritten by United States Fire Insurance Company and exclude other costs related to association services.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 11
+    },
+    "13": {
+      "page_number": 13,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_013.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_013.jpg",
+      "new_name": "13_nce_association_membership_benefits_with_gapafford_plus_and_first_health_network_discounts.jpg",
+      "new_path": "img/pages/13_nce_association_membership_benefits_with_gapafford_plus_and_first_health_network_discounts.jpg",
+      "page_title": "nce_association_membership_benefits_with_gapafford_plus_and_first_health_network_discounts",
+      "summary": "The NCE Association Membership Benefits offer a range of services without waiting periods or pre-existing condition limitations. Members can access medical discounts through the First Health Network, pharmacy discount cards, vision and dental care, hearing services, and alternative care options. The GapAfford Plus program is highlighted as a cost-saving initiative that provides members with pre-negotiated, lowered rates on medical expenses. This program eliminates deductibles, medical exams, claim forms, usage limitations, age restrictions, and pre-existing condition limitations.\n\nAdditionally, members benefit from First Health Network Provider Network Discounts. These discounts apply when using a First Health Network provider, ensuring claims are re-priced to reduce out-of-pocket costs. The benefits remain consistent regardless of network utilization, with the same dollar amounts paid by all plans. Members are required to present their NCE Member ID card at the time of service, and the provider will handle claim submissions directly to the carrier's claims department. The network includes practitioners across all 50 states, covering doctors, hospitals, clinics, and laboratories.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 13
+    },
+    "14": {
+      "page_number": 14,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_014.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_014.jpg",
+      "new_name": "14_nce_association_membership_benefits_gapafford_plus_with_prescription_dental_and_vision_discounts.jpg",
+      "new_path": "img/pages/14_nce_association_membership_benefits_gapafford_plus_with_prescription_dental_and_vision_discounts.jpg",
+      "page_title": "nce_association_membership_benefits_gapafford_plus_with_prescription_dental_and_vision_discounts",
+      "summary": "The NCE Association Membership Benefits for the GapAfford Plus plan offer a variety of discounts and services. Prescription Discount Benefits allow members to use a discount RX card to save an average of 15% on brand-name and 55% on generic medications at participating pharmacies. There is no limit on the number of prescriptions filled, and the card can be used by all family members. The OUTLOOK Vision Network provides savings of 10% to 50% on prescription eyeglasses, frames, and lenses, and 10% to 30% on medical eye exams and surgical procedures through a network of over 10,000 locations. Hearing Savings Program offers 20% to 50% off Manufacturer\u2019s Suggested Retail Pricing for hearing aids. Imaging Savings Program provides up to 60% off advanced radiology testing costs.\n\nThe Aetna Dental Access Network offers savings of 15% to 50% on dental services such as cleanings, x-rays, and orthodontia. There are no pre-existing condition exclusions or benefit maximums, and it can be used alongside dental insurance. Pet Rx covers about 50% of the cost of medications prescribed by veterinarians. Chiropractic Care includes a free initial consultation and up to 50% savings on diagnostic services. Medical Bill Negotiations help members save on existing medical bills without a minimum bill requirement.\n\nAdditional benefits include savings on medical supplies and equipment, laboratory services, physical therapy, vitamins, and supplements. The plan also provides access to a 24/7 Health Information Line and a 24/7 Nurse Help Line. These services are available in multiple languages, offering assistance on health issues. However, the Laboratory Savings Program is not available in NY, NJ, or RI.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 14
+    },
+    "12": {
+      "page_number": 12,
+      "original_name": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_012.jpg",
+      "original_path": "img/pages/US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits_page_012.jpg",
+      "new_name": "12_nce_association_membership_with_group_hospital_fixed_indemnity_and_group_accident_insurance_plans.jpg",
+      "new_path": "img/pages/12_nce_association_membership_with_group_hospital_fixed_indemnity_and_group_accident_insurance_plans.jpg",
+      "page_title": "nce_association_membership_with_group_hospital_fixed_indemnity_and_group_accident_insurance_plans",
+      "summary": "The National Congress of Employers (NCE) is a national association that supports small and medium-sized businesses in the U.S. by providing networking, advocacy, and information sharing. NCE offers its members reliable services and benefits, including non-insurance benefits and insurance enrollment opportunities. Upon successful payment and application processing, members receive a confirmation email containing the NCE Membership Handbook and insurance information. ID cards for the Premier Group Hospital Fixed Indemnity and Group Accident Insurance Plans are mailed within 7-10 business days.\n\nThe insurance provided is a limited benefit and accident-only plan, designed to supplement rather than replace medical insurance. It does not cover losses due to sickness, and coverage terms are subject to state laws. The policies are issued to the National Congress of Employers Association and underwritten by United States Fire Insurance Company. Coverage may not be available in all states, and conditions may vary based on state law.\n\nEligibility for the Group Hospital Fixed Indemnity and Group Accident Insurance Plans is limited to NCE members under age 65 who are not Medicare eligible. Coverage is available for spouses and dependent children up to age 26, but not for children under age 18. Insurance becomes effective on the policy's effective date or upon meeting any required waiting periods as specified in the Schedule of Benefits.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "US Fire _ Premier Plan _ Brochure - 09.04.2024(revised_JR) (002)_Edits",
+      "global_page_num": 12
+    }
+  },
+  "extracted_tables": {
+    "2": {
+      "page_number": "2",
+      "tables": [
+        {
+          "table_title": "Plan Benefits and Coverage Limits",
+          "headers": [
+            "Benefit",
+            "100 Plan",
+            "200A Plan",
+            "200+ Plan",
+            "300 Plan",
+            "500 Plan",
+            "750 Plan",
+            "1000 Plan",
+            "1000+ Plan"
+          ],
+          "rows": [
+            [
+              "Daily Hospital Confinement Per Day",
+              "$100 30 Days",
+              "$200 30 Days",
+              "$200 30 Days",
+              "$300 30 Days",
+              "$500 30 Days",
+              "$750 30 Days",
+              "$1,000 30 Days",
+              "$1,000 30 Days"
+            ],
+            [
+              "Daily Hospital Admission Per Day",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "$1,000 5 Days",
+              "$1,000 15 Days"
+            ],
+            [
+              "Daily Intensive Care/Coronary Care (ICU/CCU) Per Day",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Daily Emergency Room Visit (Injury) Per Visit",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$75 1 Day",
+              "$100 1 Day",
+              "$200 1 Day"
+            ],
+            [
+              "Daily Emergency Room Visit (Sickness) Per Visit",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$75 1 Day",
+              "$100 1 Day",
+              "$200 1 Day"
+            ],
+            [
+              "Daily Inpatient Surgery Per Day",
+              "",
+              "",
+              "$250 3 Days",
+              "$350 3 Days",
+              "$400 3 Days",
+              "$500 3 Days",
+              "$500 3 Days"
+            ],
+            [
+              "Daily Inpatient Surgery Anesthesia Per Day",
+              "",
+              "",
+              "$100 3 Days",
+              "$100 3 Days",
+              "$100 3 Days",
+              "$100 3 Days",
+              "$125 3 Days"
+            ],
+            [
+              "Daily Outpatient Surgery Per Day",
+              "",
+              "",
+              "$250 3 Days",
+              "$350 3 Days",
+              "$400 3 Days",
+              "$500 3 Days",
+              "$500 3 Days"
+            ],
+            [
+              "Daily Outpatient Surgery Anesthesia Per Day",
+              "",
+              "",
+              "$100 3 Days",
+              "$100 3 Days",
+              "$100 3 Days",
+              "$100 3 Days",
+              "$125 3 Days"
+            ],
+            [
+              "Daily Physician Office Visit Per Visit",
+              "$50 6 Days",
+              "$50 6 Days",
+              "$50 10 Days",
+              "$50 10 Days",
+              "$50 10 Days",
+              "$75 10 Days",
+              "$75 10 Days"
+            ],
+            [
+              "Daily Inpatient diagnostic radiology & x-ray Per Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 2 Days",
+              "$50 2 Days",
+              "$50 2 Days",
+              "$75 3 Days",
+              "$100 3 Days"
+            ],
+            [
+              "Daily Outpatient diagnostic radiology & x-ray Per Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 2 Days",
+              "$50 2 Days",
+              "$50 2 Days",
+              "$75 3 Days",
+              "$100 3 Days"
+            ],
+            [
+              "Daily Inpatient diagnostic laboratory tests Per Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 2 Days",
+              "$50 2 Days",
+              "$50 2 Days",
+              "$75 3 Days",
+              "$100 3 Days"
+            ],
+            [
+              "Daily Outpatient diagnostic laboratory tests Per Day",
+              "$50 1 Day",
+              "$50 1 Day",
+              "$50 2 Days",
+              "$50 2 Days",
+              "$50 2 Days",
+              "$75 3 Days",
+              "$100 3 Days"
+            ]
+          ]
+        },
+        {
+          "table_title": "Group Accident Benefits",
+          "headers": [
+            "Benefit",
+            "Coverage"
+          ],
+          "rows": [
+            [
+              "Accidental Death",
+              "$10,000"
+            ],
+            [
+              "Hospital Admission Benefit Per Day",
+              "$500 1 Day",
+              "$500 1 Day",
+              "$500 2 Days",
+              "$500 2 Days",
+              "$500 3 Days",
+              "$500 3 Days"
+            ],
+            [
+              "Emergency Room Per Day",
+              "$250 1 Day",
+              "$250 1 Day",
+              "$250 1 Day",
+              "$250 1 Day",
+              "$250 1 Day",
+              "$250 1 Day"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "# Deck ID: FEN_USF\n# Deck Title: Premier\n\n## Cover (1 slide)\n- **Plan Name:** Premier\n- **Tagline:** \"Empowering NCE Members with Accessible and Affordable Coverage\"\n\n## Plan Overview (1 slide)\n- **Target Audience:** NCE members, individuals, and families\n- **Offerings:** Group Hospital Fixed Indemnity and Group Accident Insurance\n- **Key Benefits:** Accessibility, affordability, and personal impact\n\n## Core Plan Elements (3 slides)\n- **Coverage Areas:** Physician services, hospitalization, virtual visits\n- **Plan Structure:** Tiered options, co-pays, visit limits\n- **Eligibility:** NCE members under age 65, spouses, and dependent children up to age 26\n\n## Common Service Features (3 slides)\n- **Provider Networks:** First Health Network discounts\n- **Claims Management:** Direct provider submissions\n- **Support Tools:** Wellness programs, advocacy services\n\n## Plan Tiers Breakdown (8 slides)\n### 100 Plan\n- **Benefits:**\n  - $100/day hospital confinement (30 days)\n  - $50 ER visits (1 day)\n  - $50 physician office visits (6 days)\n  - $10,000 accidental death benefit\n\n### 200A Plan\n- **Benefits:**\n  - $200/day hospital confinement (30 days)\n  - $50 ER visits (1 day)\n  - $50 physician office visits (6 days)\n  - $10,000 accidental death benefit\n\n### 200+ Plan\n- **Benefits:**\n  - $200/day hospital confinement (30 days)\n  - $250 inpatient/outpatient surgery (3 days)\n  - $50 physician office visits (10 days)\n  - $10,000 accidental death benefit\n\n### 300 Plan\n- **Benefits:**\n  - $300/day hospital confinement (30 days)\n  - $250 inpatient/outpatient surgery (3 days)\n  - $50 physician office visits (10 days)\n  - $10,000 accidental death benefit\n\n### 500 Plan\n- **Benefits:**\n  - $500/day hospital confinement (30 days)\n  - $350 inpatient/outpatient surgery (3 days)\n  - $50 physician office visits (10 days)\n  - $10,000 accidental death benefit\n\n### 750 Plan\n- **Benefits:**\n  - $750/day hospital confinement (30 days)\n  - $400 inpatient/outpatient surgery (3 days)\n  - $75 physician office visits (10 days)\n  - $10,000 accidental death benefit\n\n### 1000 Plan\n- **Benefits:**\n  - $1,000/day hospital confinement (30 days)\n  - $500 inpatient/outpatient surgery (3 days)\n  - $75 physician office visits (10 days)\n  - $10,000 accidental death benefit\n\n### 1000+ Plan\n- **Benefits:**\n  - $1,000/day hospital confinement (30 days)\n  - $1,000 hospital admission (5 days)\n  - $1,000 ICU care (15 days)\n  - $500 inpatient/outpatient surgery (3 days)\n  - $10,000 accidental death benefit\n\n## Comparison Slides (1 slide)\n```markdown\n| Benefit                        | 100 Plan | 200A Plan | 200+ Plan | 300 Plan | 500 Plan | 750 Plan | 1000 Plan | 1000+ Plan |\n|--------------------------------|----------|-----------|-----------|----------|----------|----------|-----------|------------|\n| Daily Hospital Confinement     | $100     | $200      | $200      | $300     | $500     | $750     | $1,000    | $1,000     |\n| ER Visit (Injury/Sickness)     | $50      | $50       | $50       | $50      | $50      | $75      | $100      | $200       |\n| Physician Office Visits        | $50      | $50       | $50       | $50      | $50      | $75      | $75       | $75        |\n| Inpatient/Outpatient Surgery   | -        | -         | $250      | $250     | $350     | $400     | $500      | $500       |\n| Accidental Death Benefit       | $10,000  | $10,000   | $10,000   | $10,000  | $10,000  | $10,000  | $10,000   | $10,000    |\n```\n\n## Limitations and Exclusions (2 slides)\n- **Exclusions:** Pre-existing conditions, TMJ disorders, elective surgeries\n- **Limitations:** 30-day waiting period for sickness, specific exclusions for travel and activities\n\n## Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Multiple tiers to suit different needs\n- **Balance:** Cost-effective coverage options\n- **Next Steps:** Enrollment details and support contact information\n\n## Thank You (1 slide)\n- **Message:** \"Thank you for considering Premier for your insurance needs. We are here to support you every step of the way.\"",
+    "generated_at": "2025-02-28T22:34:51.090139"
+  },
+  "slides": {
+    "content": "---\nid: FEN_USF\ntheme: ../../\ntitle: | \n  Premier\ninfo: |\n  ## Premier Plan Overview\n  A look at the Premier benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"USF\" />\n\n# Premier Plan Overview\n\nUnderstanding the details and benefits of the **Premier Plan**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Premier Plan\n\n<v-click>\n\n- Empowering NCE Members with Accessible and Affordable Coverage through **United States Fire Insurance Company**\n\n</v-click>\n\n<v-click>\n\n- **Group Hospital Fixed Indemnity** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Group Accident Insurance** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Accessibility and Affordability** through structured benefits\n\n</v-click>\n\n<v-click>\n\n- **Personal Impact** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Accessibility**\n\n</v-click>\n\n<v-click>\n\n**Affordability**\n\n</v-click>\n\n<v-click>\n\n**Personal Impact** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**First Health Network Discounts** through NCE Membership\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/FirstHealth_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"First Health Network Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**GapAfford Plus** (GAP)\n</v-click>\n\n<v-click>\n\n**Pre-negotiated Rates** System\n</v-click>\n\n<v-click>\n\n**No Deductibles** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How GapAfford Plus Works\n\n<v-click>\n\n1. Enroll through **NCE Membership**\n</v-click>\n\n<v-click>\n\n2. Access pre-negotiated rates\n</v-click>\n\n<v-click>\n\n3. Present NCE Member ID card at service\n</v-click>\n\n<v-click>\n\n4. Receive discounted rates **(GAP)**\n</v-click>\n\n<v-click>\n\n5. Enjoy reduced out-of-pocket costs\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Wellness Programs** Services\n</v-click>\n\n<v-click>\n\n- **Advocacy Services** Programs\n</v-click>\n\n<v-click>\n\n- **First Health Network** provides medical discounts\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **Virtual Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **No Travel Required** available\n\n</v-click>\n\n<v-click>\n\n- **Direct Access** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Management** assistance\n\n</v-click>\n\n<v-click>\n\n- **Wellness Programs** options\n\n</v-click>\n\n<v-click>\n\n- **Support Tools** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 100 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $100/day (30 days)\n- $50 ER visits (1 day)\n- $50 physician office visits (6 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (1 day)\n- $50 outpatient diagnostic radiology & x-ray (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 100 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (1 day)\n- $50 outpatient diagnostic laboratory tests (1 day)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (1 day)\n- $250 emergency room benefit (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 200A Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $200/day (30 days)\n- $50 ER visits (1 day)\n- $50 physician office visits (6 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (1 day)\n- $50 outpatient diagnostic radiology & x-ray (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 200A Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (1 day)\n- $50 outpatient diagnostic laboratory tests (1 day)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (1 day)\n- $250 emergency room benefit (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 200+ Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $200/day (30 days)\n- $250 inpatient/outpatient surgery (3 days)\n- $50 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (2 days)\n- $50 outpatient diagnostic radiology & x-ray (2 days)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 200+ Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (2 days)\n- $50 outpatient diagnostic laboratory tests (2 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (2 days)\n- $250 emergency room benefit (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 300 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $300/day (30 days)\n- $250 inpatient/outpatient surgery (3 days)\n- $50 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (2 days)\n- $50 outpatient diagnostic radiology & x-ray (2 days)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 300 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (2 days)\n- $50 outpatient diagnostic laboratory tests (2 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (2 days)\n- $250 emergency room benefit (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 500 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $500/day (30 days)\n- $350 inpatient/outpatient surgery (3 days)\n- $50 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (2 days)\n- $50 outpatient diagnostic radiology & x-ray (2 days)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 500 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (2 days)\n- $50 outpatient diagnostic laboratory tests (2 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (3 days)\n- $250 emergency room benefit (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 750 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $750/day (30 days)\n- $400 inpatient/outpatient surgery (3 days)\n- $75 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $75 inpatient diagnostic radiology & x-ray (3 days)\n- $75 outpatient diagnostic radiology & x-ray (3 days)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 750 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $75 inpatient diagnostic laboratory tests (3 days)\n- $75 outpatient diagnostic laboratory tests (3 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (3 days)\n- $250 emergency room benefit (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 1000 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $1,000/day (30 days)\n- $500 inpatient/outpatient surgery (3 days)\n- $75 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $100 inpatient diagnostic radiology & x-ray (3 days)\n- $100 outpatient diagnostic radiology & x-ray (3 days)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 1000 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $100 inpatient diagnostic laboratory tests (3 days)\n- $100 outpatient diagnostic laboratory tests (3 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (3 days)\n- $250 emergency room benefit (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 1000+ Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $1,000/day (30 days)\n- $1,000 hospital admission (5 days)\n- $1,000 ICU care (15 days)\n- $500 inpatient/outpatient surgery (3 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $100 inpatient diagnostic radiology & x-ray (3 days)\n- $100 outpatient diagnostic radiology & x-ray (3 days)\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg\n---\n\n## 1000+ Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $100 inpatient diagnostic laboratory tests (3 days)\n- $100 outpatient diagnostic laboratory tests (3 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (3 days)\n- $250 emergency room benefit (1 day)\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **100 Plan** | **200A Plan** | **200+ Plan** | **300 Plan** | **500 Plan** | **750 Plan** | **1000 Plan** | **1000+ Plan** |\n|---------|----------|-----------|-----------|----------|----------|----------|-----------|------------|\n| Daily Hospital Confinement | $100 | $200 | $200 | $300 | $500 | $750 | $1,000 | $1,000 |\n| ER Visit (Injury/Sickness) | $50 | $50 | $50 | $50 | $50 | $75 | $100 | $200 |\n| Physician Office Visits | $50 | $50 | $50 | $50 | $50 | $75 | $75 | $75 |\n| Inpatient/Outpatient Surgery | - | - | $250 | $250 | $350 | $400 | $500 | $500 |\n| Accidental Death Benefit | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/08_group_hospital_fixed_indemnity_benefit_exclusions_and_pre_existing_conditions_limitation.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions not covered for 12 months\n- TMJ disorders, elective surgeries\n- Routine vision care, blood treatments\n</v-click>\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness\n- Travel-related exclusions\n</v-click>\n\n<v-click>\n\n**Specific Exclusions**\n- Accidents without a valid license\n- Non-passenger aircraft travel\n</v-click>\n\n<v-click>\n\n**Additional Exclusions**\n- Rest cures, custodial care\n- Prescription drugs unless specified\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** with multiple tiers\n</v-click>  \n\n<v-click>\n\n- **Balance** of cost-effective coverage\n</v-click>\n\n<v-click>\n\n- **Next Steps** for enrollment\n</v-click>\n\n<v-click>\n\n- **Support Contact Information** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Premier Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/08_group_hospital_fixed_indemnity_benefit_exclusions_and_pre_existing_conditions_limitation.jpg",
+      "pages/13_nce_association_membership_benefits_with_gapafford_plus_and_first_health_network_discounts.jpg",
+      "pages/09_group_accident_benefit_exclusions_detailed_list_of_exclusions_and_conditions.jpg",
+      "pages/01_cover_page_for_group_hospital_fixed_indemnity_and_group_accident_insurance.jpg",
+      "pages/07_group_hospital_fixed_indemnity_benefit_exclusions.jpg",
+      "pages/04_group_hospital_fixed_indemnity_description_of_benefits_with_daily_outpatient_and_inpatient_services.jpg",
+      "pages/10_group_accident_benefit_exclusions_and_limitations_for_specific_losses.jpg",
+      "pages/05_group_accident_description_of_benefits_with_hospital_admission_daily_hospital_confinement_and_emergency_room_visits.jpg",
+      "pages/11_termination_of_insurance_policy_details_and_insurance_premium_information.jpg",
+      "pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg",
+      "pages/12_nce_association_membership_with_group_hospital_fixed_indemnity_and_group_accident_insurance_plans.jpg",
+      "pages/03_group_hospital_fixed_indemnity_description_of_benefits_hospital_admission_daily_confinement_emergency_room_visits.jpg",
+      "pages/06_group_accident_description_of_benefits_with_inpatient_and_outpatient_coverage.jpg",
+      "pages/14_nce_association_membership_benefits_gapafford_plus_with_prescription_dental_and_vision_discounts.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Premier Plan. We'll walk through this plan's features and benefits, designed to empower your members with accessible and affordable healthcare coverage. Let's get started!\n\n---- Premier Plan Overview ----\n\nThe Premier Plan is designed to empower NCE Members with accessible and affordable coverage through United States Fire Insurance Company.\n\nThis plan includes Group Hospital Fixed Indemnity, which means you receive a set payment amount for various situations.\n\nIt also offers Group Accident Insurance and support tools to enhance member protection.\n\nThe plan emphasizes accessibility and affordability through structured benefits.\n\nFinally, it provides personal impact support to ensure members' needs are met.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nThe plan prioritizes accessibility, making healthcare services easy to reach for members.\n\nAffordability is a core focus, ensuring that members can manage their healthcare costs effectively.\n\nThe plan's personal impact varies by plan, allowing members to choose what best suits their needs.\n\nMembers can enjoy First Health Network Discounts through their NCE Membership, providing additional savings.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nThe GapAfford Plus (GAP) tool is designed to help members manage their healthcare expenses.\n\nA pre-negotiated rates system is in place to ensure members receive the best possible prices for services.\n\nThere are no deductibles, providing support and reducing out-of-pocket costs for members.\n\n---- How GapAfford Plus Works ----\n\nHere's how the GapAfford Plus works.\n\nFirst, members enroll through NCE Membership.\n\nThey then access pre-negotiated rates for healthcare services.\n\nMembers present their NCE Member ID card at the time of service.\n\nThey receive discounted rates through the GAP program.\n\nFinally, members enjoy reduced out-of-pocket costs, making healthcare more affordable.\n\n---- Preventive Care and Wellness ----\n\nLet's talk about preventive care and wellness.\n\nThe plan includes wellness programs to support members' overall health.\n\nAdvocacy services programs are available to assist members in navigating their healthcare needs.\n\nThe First Health Network provides medical discounts, adding value to the plan.\n\n---- Telehealth Services ----\n\nNow, let's discuss telehealth services.\n\nMembers have access to virtual visits, allowing them to consult with healthcare providers remotely.\n\nThe service is available twenty-four/seven, ensuring members can access care anytime.\n\nNo travel is required, making healthcare more convenient for members.\n\nMembers have direct access to care, enhancing their healthcare experience.\n\n---- Advocacy and Support Services ----\n\nLet's explore the advocacy and support services offered.\n\nThe plan provides healthcare advocacy to assist members in understanding their benefits.\n\nClaims management assistance is available to help members with the claims process.\n\nWellness programs offer options to support members' health and well-being.\n\nSupport tools are provided to enhance the overall member experience.\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier, the 100 Plan.\n\nThe 100 Plan includes hospital confinement benefits of one hundred dollars per day for thirty days, fifty dollars for ER visits, and fifty dollars for physician office visits for six days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for one day, and fifty dollars for outpatient diagnostic radiology and x-ray for one day.\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier, the 100 Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for one day, and fifty dollars for outpatient diagnostic laboratory tests for one day.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for one day and a two hundred fifty dollar emergency room benefit for one day.\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier, the 200A Plan.\n\nThe 200A Plan offers hospital confinement benefits of two hundred dollars per day for thirty days, fifty dollars for ER visits, and fifty dollars for physician office visits for six days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for one day, and fifty dollars for outpatient diagnostic radiology and x-ray for one day.\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier, the 200A Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for one day, and fifty dollars for outpatient diagnostic laboratory tests for one day.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for one day and a two hundred fifty dollar emergency room benefit for one day.\n\n---- Plan Tier 3 (One of Two) ----\n\nLet's examine our third plan tier, the 200+ Plan.\n\nThe 200+ Plan includes hospital confinement benefits of two hundred dollars per day for thirty days, two hundred fifty dollars for inpatient/outpatient surgery for three days, and fifty dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for two days, and fifty dollars for outpatient diagnostic radiology and x-ray for two days.\n\n---- Plan Tier 3 (Two of Two) ----\n\nContinuing with our third plan tier, the 200+ Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for two days, and fifty dollars for outpatient diagnostic laboratory tests for two days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for two days and a two hundred fifty dollar emergency room benefit for one day.\n\n---- Plan Tier 4 (One of Two) ----\n\nNow, let's look at our fourth plan tier, the 300 Plan.\n\nThe 300 Plan offers hospital confinement benefits of three hundred dollars per day for thirty days, two hundred fifty dollars for inpatient/outpatient surgery for three days, and fifty dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for two days, and fifty dollars for outpatient diagnostic radiology and x-ray for two days.\n\n---- Plan Tier 4 (Two of Two) ----\n\nContinuing with our fourth plan tier, the 300 Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for two days, and fifty dollars for outpatient diagnostic laboratory tests for two days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for two days and a two hundred fifty dollar emergency room benefit for one day.\n\n---- Plan Tier 5 (One of Two) ----\n\nLet's examine our fifth plan tier, the 500 Plan.\n\nThe 500 Plan includes hospital confinement benefits of five hundred dollars per day for thirty days, three hundred fifty dollars for inpatient/outpatient surgery for three days, and fifty dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for two days, and fifty dollars for outpatient diagnostic radiology and x-ray for two days.\n\n---- Plan Tier 5 (Two of Two) ----\n\nContinuing with our fifth plan tier, the 500 Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for two days, and fifty dollars for outpatient diagnostic laboratory tests for two days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for three days and a two hundred fifty dollar emergency room benefit for one day.\n\n---- Plan Tier 6 (One of Two) ----\n\nNow, let's look at our sixth plan tier, the 750 Plan.\n\nThe 750 Plan offers hospital confinement benefits of seven hundred fifty dollars per day for thirty days, four hundred dollars for inpatient/outpatient surgery for three days, and seventy-five dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover seventy-five dollars for inpatient diagnostic radiology and x-ray for three days, and seventy-five dollars for outpatient diagnostic radiology and x-ray for three days.\n\n---- Plan Tier 6 (Two of Two) ----\n\nContinuing with our sixth plan tier, the 750 Plan.\n\nLaboratory tests are covered at seventy-five dollars for inpatient diagnostic laboratory tests for three days, and seventy-five dollars for outpatient diagnostic laboratory tests for three days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for three days and a two hundred fifty dollar emergency room benefit for one day.\n\n---- Plan Tier 7 (One of Two) ----\n\nLet's examine our seventh plan tier, the 1000 Plan.\n\nThe 1000 Plan includes hospital confinement benefits of one thousand dollars per day for thirty days, five hundred dollars for inpatient/outpatient surgery for three days, and seventy-five dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover one hundred dollars for inpatient diagnostic radiology and x-ray for three days, and one hundred dollars for outpatient diagnostic radiology and x-ray for three days.\n\n---- Plan Tier 7 (Two of Two) ----\n\nContinuing with our seventh plan tier, the 1000 Plan.\n\nLaboratory tests are covered at one hundred dollars for inpatient diagnostic laboratory tests for three days, and one hundred dollars for outpatient diagnostic laboratory tests for three days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for three days and a two hundred fifty dollar emergency room benefit for one day.\n\n---- Plan Tier 8 (One of Two) ----\n\nNow, let's look at our eighth plan tier, the 1000+ Plan.\n\nThe 1000+ Plan offers hospital confinement benefits of one thousand dollars per day for thirty days, one thousand dollars for hospital admission for five days, one thousand dollars for ICU care for fifteen days, and five hundred dollars for inpatient/outpatient surgery for three days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover one hundred dollars for inpatient diagnostic radiology and x-ray for three days, and one hundred dollars for outpatient diagnostic radiology and x-ray for three days.\n\n---- Plan Tier 8 (Two of Two) ----\n\nContinuing with our eighth plan tier, the 1000+ Plan.\n\nLaboratory tests are covered at one hundred dollars for inpatient diagnostic laboratory tests for three days, and one hundred dollars for outpatient diagnostic laboratory tests for three days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for three days and a two hundred fifty dollar emergency room benefit for one day.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nThe table outlines the daily hospital confinement benefits, ER visit coverage, physician office visit allowances, and inpatient/outpatient surgery benefits for each plan tier.\n\nEach plan tier offers a ten thousand dollar accidental death benefit, providing peace of mind for members.\n\nThe progressive benefit structure allows members to choose a plan that best fits their healthcare needs and financial situation.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nExclusions include pre-existing conditions not covered for twelve months, TMJ disorders, elective surgeries, routine vision care, and blood treatments.\n\nThere is a thirty-day waiting period for sickness, and travel-related exclusions apply.\n\nSpecific exclusions include accidents without a valid license and non-passenger aircraft travel.\n\nAdditional exclusions cover rest cures, custodial care, and prescription drugs unless specified.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers flexibility with multiple tiers, allowing members to select the best option for their needs.\n\nIt provides a balance of cost-effective coverage, ensuring members can manage their healthcare expenses.\n\nNext steps for enrollment should be considered to ensure members can access these benefits.\n\nSupport contact information is required for any questions or assistance needed.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Premier Plan Overview",
+          "content": "<SlideAudio deckKey=\"USF\" />\n\n# Premier Plan Overview\n\nUnderstanding the details and benefits of the **Premier Plan**",
+          "frontmatter": "id: FEN_USF\ntheme: ../../\ntitle: | \n  Premier\ninfo: |\n  ## Premier Plan Overview\n  A look at the Premier benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Premier Plan. We'll walk through this plan's features and benefits, designed to empower your members with accessible and affordable healthcare coverage. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Premier Plan",
+          "content": "## The Premier Plan\n\n<v-click>\n\n- Empowering NCE Members with Accessible and Affordable Coverage through **United States Fire Insurance Company**\n\n</v-click>\n\n<v-click>\n\n- **Group Hospital Fixed Indemnity** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Group Accident Insurance** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Accessibility and Affordability** through structured benefits\n\n</v-click>\n\n<v-click>\n\n- **Personal Impact** support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Premier Plan Overview",
+          "content": "The Premier Plan is designed to empower NCE Members with accessible and affordable coverage through United States Fire Insurance Company.\n\nThis plan includes Group Hospital Fixed Indemnity, which means you receive a set payment amount for various situations.\n\nIt also offers Group Accident Insurance and support tools to enhance member protection.\n\nThe plan emphasizes accessibility and affordability through structured benefits.\n\nFinally, it provides personal impact support to ensure members' needs are met."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Accessibility**\n\n</v-click>\n\n<v-click>\n\n**Affordability**\n\n</v-click>\n\n<v-click>\n\n**Personal Impact** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**First Health Network Discounts** through NCE Membership\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/FirstHealth_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"First Health Network Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nThe plan prioritizes accessibility, making healthcare services easy to reach for members.\n\nAffordability is a core focus, ensuring that members can manage their healthcare costs effectively.\n\nThe plan's personal impact varies by plan, allowing members to choose what best suits their needs.\n\nMembers can enjoy First Health Network Discounts through their NCE Membership, providing additional savings."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**GapAfford Plus** (GAP)\n</v-click>\n\n<v-click>\n\n**Pre-negotiated Rates** System\n</v-click>\n\n<v-click>\n\n**No Deductibles** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nThe GapAfford Plus (GAP) tool is designed to help members manage their healthcare expenses.\n\nA pre-negotiated rates system is in place to ensure members receive the best possible prices for services.\n\nThere are no deductibles, providing support and reducing out-of-pocket costs for members."
+        }
+      },
+      {
+        "slide": {
+          "header": "How GapAfford Plus Works",
+          "content": "## How GapAfford Plus Works\n\n<v-click>\n\n1. Enroll through **NCE Membership**\n</v-click>\n\n<v-click>\n\n2. Access pre-negotiated rates\n</v-click>\n\n<v-click>\n\n3. Present NCE Member ID card at service\n</v-click>\n\n<v-click>\n\n4. Receive discounted rates **(GAP)**\n</v-click>\n\n<v-click>\n\n5. Enjoy reduced out-of-pocket costs\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How GapAfford Plus Works",
+          "content": "Here's how the GapAfford Plus works.\n\nFirst, members enroll through NCE Membership.\n\nThey then access pre-negotiated rates for healthcare services.\n\nMembers present their NCE Member ID card at the time of service.\n\nThey receive discounted rates through the GAP program.\n\nFinally, members enjoy reduced out-of-pocket costs, making healthcare more affordable."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Wellness Programs** Services\n</v-click>\n\n<v-click>\n\n- **Advocacy Services** Programs\n</v-click>\n\n<v-click>\n\n- **First Health Network** provides medical discounts\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Let's talk about preventive care and wellness.\n\nThe plan includes wellness programs to support members' overall health.\n\nAdvocacy services programs are available to assist members in navigating their healthcare needs.\n\nThe First Health Network provides medical discounts, adding value to the plan."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **Virtual Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **No Travel Required** available\n\n</v-click>\n\n<v-click>\n\n- **Direct Access** to care\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Now, let's discuss telehealth services.\n\nMembers have access to virtual visits, allowing them to consult with healthcare providers remotely.\n\nThe service is available twenty-four/seven, ensuring members can access care anytime.\n\nNo travel is required, making healthcare more convenient for members.\n\nMembers have direct access to care, enhancing their healthcare experience."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Comprehensive** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Management** assistance\n\n</v-click>\n\n<v-click>\n\n- **Wellness Programs** options\n\n</v-click>\n\n<v-click>\n\n- **Support Tools** support\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Let's explore the advocacy and support services offered.\n\nThe plan provides healthcare advocacy to assist members in understanding their benefits.\n\nClaims management assistance is available to help members with the claims process.\n\nWellness programs offer options to support members' health and well-being.\n\nSupport tools are provided to enhance the overall member experience."
+        }
+      },
+      {
+        "slide": {
+          "header": "100 Plan (1/2)",
+          "content": "## 100 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $100/day (30 days)\n- $50 ER visits (1 day)\n- $50 physician office visits (6 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (1 day)\n- $50 outpatient diagnostic radiology & x-ray (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "Let's examine our first plan tier, the 100 Plan.\n\nThe 100 Plan includes hospital confinement benefits of one hundred dollars per day for thirty days, fifty dollars for ER visits, and fifty dollars for physician office visits for six days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for one day, and fifty dollars for outpatient diagnostic radiology and x-ray for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "100 Plan (2/2)",
+          "content": "## 100 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (1 day)\n- $50 outpatient diagnostic laboratory tests (1 day)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (1 day)\n- $250 emergency room benefit (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "Continuing with our first plan tier, the 100 Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for one day, and fifty dollars for outpatient diagnostic laboratory tests for one day.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for one day and a two hundred fifty dollar emergency room benefit for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "200A Plan (1/2)",
+          "content": "## 200A Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $200/day (30 days)\n- $50 ER visits (1 day)\n- $50 physician office visits (6 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (1 day)\n- $50 outpatient diagnostic radiology & x-ray (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier, the 200A Plan.\n\nThe 200A Plan offers hospital confinement benefits of two hundred dollars per day for thirty days, fifty dollars for ER visits, and fifty dollars for physician office visits for six days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for one day, and fifty dollars for outpatient diagnostic radiology and x-ray for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "200A Plan (2/2)",
+          "content": "## 200A Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (1 day)\n- $50 outpatient diagnostic laboratory tests (1 day)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (1 day)\n- $250 emergency room benefit (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Continuing with our second plan tier, the 200A Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for one day, and fifty dollars for outpatient diagnostic laboratory tests for one day.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for one day and a two hundred fifty dollar emergency room benefit for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "200+ Plan (1/2)",
+          "content": "## 200+ Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $200/day (30 days)\n- $250 inpatient/outpatient surgery (3 days)\n- $50 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (2 days)\n- $50 outpatient diagnostic radiology & x-ray (2 days)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (One of Two)",
+          "content": "Let's examine our third plan tier, the 200+ Plan.\n\nThe 200+ Plan includes hospital confinement benefits of two hundred dollars per day for thirty days, two hundred fifty dollars for inpatient/outpatient surgery for three days, and fifty dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for two days, and fifty dollars for outpatient diagnostic radiology and x-ray for two days."
+        }
+      },
+      {
+        "slide": {
+          "header": "200+ Plan (2/2)",
+          "content": "## 200+ Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (2 days)\n- $50 outpatient diagnostic laboratory tests (2 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (2 days)\n- $250 emergency room benefit (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (Two of Two)",
+          "content": "Continuing with our third plan tier, the 200+ Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for two days, and fifty dollars for outpatient diagnostic laboratory tests for two days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for two days and a two hundred fifty dollar emergency room benefit for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "300 Plan (1/2)",
+          "content": "## 300 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $300/day (30 days)\n- $250 inpatient/outpatient surgery (3 days)\n- $50 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (2 days)\n- $50 outpatient diagnostic radiology & x-ray (2 days)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 4 (One of Two)",
+          "content": "Now, let's look at our fourth plan tier, the 300 Plan.\n\nThe 300 Plan offers hospital confinement benefits of three hundred dollars per day for thirty days, two hundred fifty dollars for inpatient/outpatient surgery for three days, and fifty dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for two days, and fifty dollars for outpatient diagnostic radiology and x-ray for two days."
+        }
+      },
+      {
+        "slide": {
+          "header": "300 Plan (2/2)",
+          "content": "## 300 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (2 days)\n- $50 outpatient diagnostic laboratory tests (2 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (2 days)\n- $250 emergency room benefit (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 4 (Two of Two)",
+          "content": "Continuing with our fourth plan tier, the 300 Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for two days, and fifty dollars for outpatient diagnostic laboratory tests for two days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for two days and a two hundred fifty dollar emergency room benefit for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "500 Plan (1/2)",
+          "content": "## 500 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $500/day (30 days)\n- $350 inpatient/outpatient surgery (3 days)\n- $50 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $50 inpatient diagnostic radiology & x-ray (2 days)\n- $50 outpatient diagnostic radiology & x-ray (2 days)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 5 (One of Two)",
+          "content": "Let's examine our fifth plan tier, the 500 Plan.\n\nThe 500 Plan includes hospital confinement benefits of five hundred dollars per day for thirty days, three hundred fifty dollars for inpatient/outpatient surgery for three days, and fifty dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover fifty dollars for inpatient diagnostic radiology and x-ray for two days, and fifty dollars for outpatient diagnostic radiology and x-ray for two days."
+        }
+      },
+      {
+        "slide": {
+          "header": "500 Plan (2/2)",
+          "content": "## 500 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $50 inpatient diagnostic laboratory tests (2 days)\n- $50 outpatient diagnostic laboratory tests (2 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (3 days)\n- $250 emergency room benefit (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 5 (Two of Two)",
+          "content": "Continuing with our fifth plan tier, the 500 Plan.\n\nLaboratory tests are covered at fifty dollars for inpatient diagnostic laboratory tests for two days, and fifty dollars for outpatient diagnostic laboratory tests for two days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for three days and a two hundred fifty dollar emergency room benefit for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "750 Plan (1/2)",
+          "content": "## 750 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $750/day (30 days)\n- $400 inpatient/outpatient surgery (3 days)\n- $75 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $75 inpatient diagnostic radiology & x-ray (3 days)\n- $75 outpatient diagnostic radiology & x-ray (3 days)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 6 (One of Two)",
+          "content": "Now, let's look at our sixth plan tier, the 750 Plan.\n\nThe 750 Plan offers hospital confinement benefits of seven hundred fifty dollars per day for thirty days, four hundred dollars for inpatient/outpatient surgery for three days, and seventy-five dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover seventy-five dollars for inpatient diagnostic radiology and x-ray for three days, and seventy-five dollars for outpatient diagnostic radiology and x-ray for three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "750 Plan (2/2)",
+          "content": "## 750 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $75 inpatient diagnostic laboratory tests (3 days)\n- $75 outpatient diagnostic laboratory tests (3 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (3 days)\n- $250 emergency room benefit (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 6 (Two of Two)",
+          "content": "Continuing with our sixth plan tier, the 750 Plan.\n\nLaboratory tests are covered at seventy-five dollars for inpatient diagnostic laboratory tests for three days, and seventy-five dollars for outpatient diagnostic laboratory tests for three days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for three days and a two hundred fifty dollar emergency room benefit for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "1000 Plan (1/2)",
+          "content": "## 1000 Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $1,000/day (30 days)\n- $500 inpatient/outpatient surgery (3 days)\n- $75 physician office visits (10 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $100 inpatient diagnostic radiology & x-ray (3 days)\n- $100 outpatient diagnostic radiology & x-ray (3 days)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 7 (One of Two)",
+          "content": "Let's examine our seventh plan tier, the 1000 Plan.\n\nThe 1000 Plan includes hospital confinement benefits of one thousand dollars per day for thirty days, five hundred dollars for inpatient/outpatient surgery for three days, and seventy-five dollars for physician office visits for ten days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover one hundred dollars for inpatient diagnostic radiology and x-ray for three days, and one hundred dollars for outpatient diagnostic radiology and x-ray for three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "1000 Plan (2/2)",
+          "content": "## 1000 Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $100 inpatient diagnostic laboratory tests (3 days)\n- $100 outpatient diagnostic laboratory tests (3 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (3 days)\n- $250 emergency room benefit (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 7 (Two of Two)",
+          "content": "Continuing with our seventh plan tier, the 1000 Plan.\n\nLaboratory tests are covered at one hundred dollars for inpatient diagnostic laboratory tests for three days, and one hundred dollars for outpatient diagnostic laboratory tests for three days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for three days and a two hundred fifty dollar emergency room benefit for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "1000+ Plan (1/2)",
+          "content": "## 1000+ Plan (1/2)\n\n<v-click>\n\n**Hospital Confinement**\n- $1,000/day (30 days)\n- $1,000 hospital admission (5 days)\n- $1,000 ICU care (15 days)\n- $500 inpatient/outpatient surgery (3 days)\n- $10,000 accidental death benefit\n</v-click>\n\n<v-click>\n\n**Diagnostic Services**\n- $100 inpatient diagnostic radiology & x-ray (3 days)\n- $100 outpatient diagnostic radiology & x-ray (3 days)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 8 (One of Two)",
+          "content": "Now, let's look at our eighth plan tier, the 1000+ Plan.\n\nThe 1000+ Plan offers hospital confinement benefits of one thousand dollars per day for thirty days, one thousand dollars for hospital admission for five days, one thousand dollars for ICU care for fifteen days, and five hundred dollars for inpatient/outpatient surgery for three days. It also includes a ten thousand dollar accidental death benefit.\n\nDiagnostic services cover one hundred dollars for inpatient diagnostic radiology and x-ray for three days, and one hundred dollars for outpatient diagnostic radiology and x-ray for three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "1000+ Plan (2/2)",
+          "content": "## 1000+ Plan (2/2)\n\n<v-click>\n\n**Laboratory Tests**\n- $100 inpatient diagnostic laboratory tests (3 days)\n- $100 outpatient diagnostic laboratory tests (3 days)\n</v-click>\n\n<v-click>\n\n**Additional Benefits**\n- $500 hospital admission benefit (3 days)\n- $250 emergency room benefit (1 day)\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_group_hospital_fixed_indemnity_and_group_accident_insurance_plan_details_with_benefits_for_plan_100_200_300_500_750_1000.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 8 (Two of Two)",
+          "content": "Continuing with our eighth plan tier, the 1000+ Plan.\n\nLaboratory tests are covered at one hundred dollars for inpatient diagnostic laboratory tests for three days, and one hundred dollars for outpatient diagnostic laboratory tests for three days.\n\nAdditional benefits include a five hundred dollar hospital admission benefit for three days and a two hundred fifty dollar emergency room benefit for one day."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **100 Plan** | **200A Plan** | **200+ Plan** | **300 Plan** | **500 Plan** | **750 Plan** | **1000 Plan** | **1000+ Plan** |\n|---------|----------|-----------|-----------|----------|----------|----------|-----------|------------|\n| Daily Hospital Confinement | $100 | $200 | $200 | $300 | $500 | $750 | $1,000 | $1,000 |\n| ER Visit (Injury/Sickness) | $50 | $50 | $50 | $50 | $50 | $75 | $100 | $200 |\n| Physician Office Visits | $50 | $50 | $50 | $50 | $50 | $75 | $75 | $75 |\n| Inpatient/Outpatient Surgery | - | - | $250 | $250 | $350 | $400 | $500 | $500 |\n| Accidental Death Benefit | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nThe table outlines the daily hospital confinement benefits, ER visit coverage, physician office visit allowances, and inpatient/outpatient surgery benefits for each plan tier.\n\nEach plan tier offers a ten thousand dollar accidental death benefit, providing peace of mind for members.\n\nThe progressive benefit structure allows members to choose a plan that best fits their healthcare needs and financial situation."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions not covered for 12 months\n- TMJ disorders, elective surgeries\n- Routine vision care, blood treatments\n</v-click>\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness\n- Travel-related exclusions\n</v-click>\n\n<v-click>\n\n**Specific Exclusions**\n- Accidents without a valid license\n- Non-passenger aircraft travel\n</v-click>\n\n<v-click>\n\n**Additional Exclusions**\n- Rest cures, custodial care\n- Prescription drugs unless specified\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/08_group_hospital_fixed_indemnity_benefit_exclusions_and_pre_existing_conditions_limitation.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nExclusions include pre-existing conditions not covered for twelve months, TMJ disorders, elective surgeries, routine vision care, and blood treatments.\n\nThere is a thirty-day waiting period for sickness, and travel-related exclusions apply.\n\nSpecific exclusions include accidents without a valid license and non-passenger aircraft travel.\n\nAdditional exclusions cover rest cures, custodial care, and prescription drugs unless specified."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** with multiple tiers\n</v-click>  \n\n<v-click>\n\n- **Balance** of cost-effective coverage\n</v-click>\n\n<v-click>\n\n- **Next Steps** for enrollment\n</v-click>\n\n<v-click>\n\n- **Support Contact Information** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers flexibility with multiple tiers, allowing members to select the best option for their needs.\n\nIt provides a balance of cost-effective coverage, ensuring members can manage their healthcare expenses.\n\nNext steps for enrollment should be considered to ensure members can access these benefits.\n\nSupport contact information is required for any questions or assistance needed."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Premier Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 28
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 28,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}

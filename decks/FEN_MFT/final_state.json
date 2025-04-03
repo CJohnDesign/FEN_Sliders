@@ -1,0 +1,514 @@
+{
+  "deck_id": "FEN_MFT",
+  "deck_title": "MedFirst",
+  "processed_images": {
+    "2": {
+      "page_number": 2,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_002.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_002.jpg",
+      "new_name": "02_medfirst_wellness_plan_with_physician_services_and_telemedicine_benefits.jpg",
+      "new_path": "img/pages/02_medfirst_wellness_plan_with_physician_services_and_telemedicine_benefits.jpg",
+      "page_title": "medfirst_wellness_plan_with_physician_services_and_telemedicine_benefits",
+      "summary": "The MedFirst Wellness plan offers specific benefits focusing on physician services and telemedicine. Under physician services, the plan provides one wellness exam per year with a co-pay of $25 and a maximum coverage of $150 per visit. This benefit is available through the First Health Network, emphasizing the use of in-network providers for outpatient services. Telemedicine services are offered with no consult fee and no maximum limit, providing flexibility and accessibility for virtual healthcare consultations. Additionally, the plan includes discount prescription services through participating pharmacies. \n\nThe plan is subject to certain limitations and requirements. All sickness benefits have a 30-day waiting period before they become payable. Outpatient physician services and wellness benefits are restricted to in-network providers, while inpatient hospital indemnity benefits are not covered. The plan is designed to cover preventive and wellness services as mandated by the Patient Protection and Affordable Care Act. It is important to review the Schedule of Benefits for a detailed understanding of covered services, copays, deductibles, and limitations. Exclusions apply to services not listed in the Schedule of Benefits.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 2
+    },
+    "1": {
+      "page_number": 1,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_001.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_001.jpg",
+      "new_name": "01_medfirst_summary_with_benefits_comparison_and_limitations_for_mfw_mf1_mf2_mf3_mf4_mf5.jpg",
+      "new_path": "img/pages/01_medfirst_summary_with_benefits_comparison_and_limitations_for_mfw_mf1_mf2_mf3_mf4_mf5.jpg",
+      "page_title": "medfirst_summary_with_benefits_comparison_and_limitations_for_mfw_mf1_mf2_mf3_mf4_mf5",
+      "summary": "The MedFirst Summary provides a detailed comparison of benefits across six different plans: MFW, MF1, MF2, MF3, MF4, and MF5. Key features include Telemedicine, which is available across all plans, and the BestChoiceRX Group Discount Program, also universally offered. The BestChoiceRX Plus program, which includes non-preferred Generic & Brand medications with a co-pay up to $150 per month, is available in plans MF2, MF3, MF4, and MF5. Preventative care and annual wellness exams are included in all plans, ensuring basic health maintenance is covered. Specialty drugs through a Prescription Assistance Program are available in all plans except MFW.\n\nHealthcare Ninja services are provided in all plans, while Primary Care Physician Visits vary, with MFW offering 3 visits, MF1 offering 4, and MF5 offering 5 visits. Specialist or UC Visits are limited, with MFW offering 1 visit, MF1 offering 2, and MF5 offering 5 visits. Hospital Indemnity Benefits are included in all plans, providing a safety net for hospital stays. Emergency Room Services and Ambulance Services are covered in plans MF3, MF4, and MF5, while In-Out patient surgery is not covered in any plan.\n\nThe document outlines several limitations, including a 30-day waiting period for sickness benefits and restrictions on outpatient physician services to in-network providers. Hospitalization benefits are not payable for pre-existing conditions during the first twelve months of coverage. The plan does not cover services not listed in the Schedule of Benefits, emphasizing the importance of reviewing this list carefully. Additionally, colorectal cancer screening is subject to an at-home test kit for initial screening before benefits for a colonoscopy are payable.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 1
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_003.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_003.jpg",
+      "new_name": "03_medfirst_1_plan_details_with_physician_services_and_telemedicine_benefits.jpg",
+      "new_path": "img/pages/03_medfirst_1_plan_details_with_physician_services_and_telemedicine_benefits.jpg",
+      "page_title": "medfirst_1_plan_details_with_physician_services_and_telemedicine_benefits",
+      "summary": "The MedFirst 1 plan offers a structured set of benefits focusing on physician services, telemedicine, and prescription discounts. Under physician services, the plan allows for three primary care office visits per year with a co-pay of $25 and a maximum charge of $150 per visit. Additionally, it includes one specialist or urgent care office visit annually, with a $50 co-pay and a $300 maximum per visit. In-patient hospitalization benefits are provided at $1,000 per day, capped at $5,000 per year, with a 12-month pre-existing condition exclusion period.\n\nTelemedicine services are available with no consult fee and no maximum limit, enhancing accessibility to healthcare professionals remotely. The plan also includes a discount prescription program through participating pharmacies, although it is limited to discount prescriptions only.\n\nAdvocacy services are provided through a hospital bill reducer, assisting members in managing hospital expenses. The plan is sponsored by The Vitamin Patch and administered by Merchants Benefit Admin, utilizing the First Health Network for in-network services. Notably, all sickness benefits are subject to a 30-day waiting period before they become payable. Outpatient physician services and wellness benefits are restricted to in-network providers, while inpatient hospital indemnity benefits are not covered for pre-existing conditions within the first 12 months of coverage. The plan emphasizes preventive and wellness services as required by the Patient Protection and Affordable Care Act.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 3
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_004.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_004.jpg",
+      "new_name": "04_medfirst_2_plan_details_with_physician_services_telemedicine_and_prescription_terms.jpg",
+      "new_path": "img/pages/04_medfirst_2_plan_details_with_physician_services_telemedicine_and_prescription_terms.jpg",
+      "page_title": "medfirst_2_plan_details_with_physician_services_telemedicine_and_prescription_terms",
+      "summary": "The MedFirst 2 plan offers a structured approach to healthcare services, focusing on physician visits, telemedicine, and prescription benefits. Under physician services, the plan allows for four primary care office visits per year with a co-pay of $25 and a maximum charge of $150 per visit. Specialist or urgent care visits are limited to two per year, with a $50 co-pay and a $300 maximum per visit. In-patient hospitalization benefits are provided at $1,000 per day, with a yearly maximum of $10,000, subject to a 12-month pre-existing condition clause.\n\nTelemedicine services are offered with no consult fee and no maximum limit, enhancing accessibility to healthcare professionals remotely. Prescription benefits include preventive and acute prescriptions, which are subject to a formulary but not a monthly maximum. For pharmacy retail, members pay for up to a 30-day supply of acute and preventive generics, with a $0 copay for generic drugs. Mail order options are available for a 90-day supply of 200 generic maintenance drugs, with a preferred generic copay of $5.\n\nThe plan includes specific terms and conditions, such as a 30-day waiting period for sickness benefits and in-network provider requirements for outpatient services. Hospitalization benefits are not payable for pre-existing conditions within the first 12 months of coverage. The plan does not cover services outside the Schedule of Benefits, emphasizing the importance of reviewing the list carefully.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 4
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_005.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_005.jpg",
+      "new_name": "05_medfirst_3_plan_details_with_physician_services_and_prescription_terms.jpg",
+      "new_path": "img/pages/05_medfirst_3_plan_details_with_physician_services_and_prescription_terms.jpg",
+      "page_title": "medfirst_3_plan_details_with_physician_services_and_prescription_terms",
+      "summary": "The MedFirst 3 plan offers a structured approach to healthcare services, focusing on physician services and prescription benefits. Under physician services, members are entitled to four primary care office visits per year, with a co-pay of $25 and a maximum charge of $150 per visit. Similarly, specialist or urgent care office visits are limited to four per year, with a $50 co-pay and a $300 maximum per visit. In-patient hospitalization benefits are provided at $1,000 per day, with a yearly maximum of $15,000, subject to a 12-month pre-existing condition clause.\n\nTelemedicine services are available with no consult fee and no maximum limit, enhancing accessibility to healthcare professionals. Prescription benefits are categorized under preventive and acute prescriptions, with a focus on generic drugs. For pharmacy retail up to a 30-day supply, members pay for non-preferred generics, while preferred generics have a $5 copay. Brand drugs require prior authorization, with retail costs of $40 for a 30-day supply and $80 for a 90-day mail order.\n\nThe plan includes specific prescription terms and conditions, highlighting that non-preventive maintenance prescriptions are subject to a $150 monthly benefit limit per person. Specialty drugs are not covered, and members must qualify for PAP according to income guidelines. The plan emphasizes the importance of reviewing the schedule of benefits for exclusions and limitations, as it does not cover services not listed. Advocacy services and hospital bill reduction support are also part of the plan's offerings.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 5
+    },
+    "7": {
+      "page_number": 7,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_007.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_007.jpg",
+      "new_name": "07_medfirst_5_plan_details_with_benefits_comparison_and_limitations.jpg",
+      "new_path": "img/pages/07_medfirst_5_plan_details_with_benefits_comparison_and_limitations.jpg",
+      "page_title": "medfirst_5_plan_details_with_benefits_comparison_and_limitations",
+      "summary": "The MedFirst 5 plan offers a structured set of benefits focusing on physician services, hospitalization, surgery, and prescriptions. Under physician services, the plan includes one wellness exam per year with a $25 co-pay and a maximum of $150 per visit. Primary care and specialist or urgent care office visits are covered for up to five visits per year, with co-pays of $50 and $75 respectively, and a maximum of $150 and $300 per visit. In-patient hospitalization and in/outpatient surgery benefits are provided at $1,500 per day, with annual maximums of $15,000 and $4,500 respectively, subject to a 12-month pre-existing condition exclusion. Emergency room visits, if admitted, incur a $1,000 per incident charge, and ambulance services are covered at $500 per incident, both also subject to the 12-month pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and no maximum limit. Prescription benefits include preventive and acute prescriptions, with a focus on generic drugs. Pharmacy retail for up to a 30-day supply is covered with member payments, and preferred generics have a $5 copay. Non-preferred generics and brand drugs require member payments, with specific copays for retail and mail order options. The plan includes a prescription assistance program for specialty drugs, which are not covered under the standard benefits.\n\nThe plan has specific limitations, including a 30-day waiting period for sickness benefits and restrictions on non-preventive maintenance prescriptions. Hospitalization benefits are not payable for pre-existing conditions within the first 12 months. The plan does not cover services not listed in the Schedule of Benefits, emphasizing the importance of reviewing the details carefully.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 7
+    },
+    "8": {
+      "page_number": 8,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_008.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_008.jpg",
+      "new_name": "08_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_requirements.jpg",
+      "new_path": "img/pages/08_mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_requirements.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_covered_benefits_and_requirements",
+      "summary": "This document outlines the preventive health services covered under the MEC/Preventive Health Services plan. Benefits are subject to specific regulations and are automatically incorporated through legislative acts. The services covered include those with an 'A' or 'B' rating from the United States Preventive Services Task Force, preventive care for infants, children, and adolescents, and immunizations recommended by the Advisory Committee on Immunization Practices. \n\nThe document provides a detailed table listing various preventive health services, their intervals, and specific requirements. For example, abdominal aortic aneurysm screening is covered once per lifetime for men aged 65-75 who have smoked. Adult annual standard physicals are covered once per plan year for adults, while alcohol misuse screening and counseling are available once per plan year for adults 18 years or older. Aspirin as a preventive medication is covered as prescribed for adults aged 50 to 59 with high cardiovascular risk. \n\nOther services include bacteriuria screening for pregnant women, BRCA risk assessment and genetic counseling/testing for women with a family history of certain cancers, and breast cancer preventive medications and screenings. Notably, none of these preventive health services are covered if provided at a hospital.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 8
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_006.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_006.jpg",
+      "new_name": "06_medfirst_4_plan_features_benefits_and_coverage_details_with_limitations.jpg",
+      "new_path": "img/pages/06_medfirst_4_plan_features_benefits_and_coverage_details_with_limitations.jpg",
+      "page_title": "medfirst_4_plan_features_benefits_and_coverage_details_with_limitations",
+      "summary": "The MedFirst 4 plan offers a range of healthcare services with specific visit limits and co-pays. Wellness exams are covered for one visit per year with a $25 co-pay and a maximum of $150 per visit. Primary care office visits are limited to four visits per year, each with a $50 co-pay and a $150 maximum per visit. Specialist or urgent care office visits also have a limit of four visits per year, with a $75 co-pay and a $300 maximum per visit. In-patient hospitalization benefits provide $1,000 per day, with a $10,000 annual maximum, subject to a 12-month pre-existing condition exclusion. In/outpatient surgery is covered up to $1,000 per year, with a $2,000 maximum, also subject to a 12-month pre-existing condition exclusion. Emergency room visits, if admitted, incur a $1,000 per incident charge, and ambulance services are covered at $500 per incident, both subject to the same pre-existing condition exclusion.\n\nTelemedicine services are available with no consult fee and no maximum limit. Prescription benefits include preventive and acute prescriptions, with a focus on generic drugs. Pharmacy retail for a 30-day supply of generic drugs has no co-pay, while preferred generics have a $5 co-pay. Non-preferred generics have a $5 and $10 co-pay for a 30-day supply, and $20 for a 90-day mail order. Brand drugs require prior authorization and have a $40 co-pay for a 30-day supply and $80 for a 90-day mail order. Non-preventive maintenance prescriptions are subject to a $150 benefit limit per person per month.\n\nThe plan includes specific limitations and exclusions. All sickness benefits are subject to a 30-day waiting period. Outpatient services and wellness benefits are limited to in-network providers. Hospital indemnity benefits are not payable for pre-existing conditions for the first 12 months of coverage. The plan does not cover services unless listed in the Schedule of Benefits, focusing on preventive and wellness services as required by law.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 6
+    },
+    "9": {
+      "page_number": 9,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_009.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_009.jpg",
+      "new_name": "09_mec_preventive_health_services_summary_of_benefits_including_screenings_and_counseling.jpg",
+      "new_path": "img/pages/09_mec_preventive_health_services_summary_of_benefits_including_screenings_and_counseling.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_including_screenings_and_counseling",
+      "summary": "This document outlines the preventive health services covered under the MEC/Preventive Health Services plan. It details various benefits, intervals, and specific requirements for each service. Breastfeeding support, supplies, and counseling are provided in conjunction with each birth, with interventions during pregnancy and after birth to support breastfeeding. Cervical cancer screening with cytology is available once every three plan years for women aged 21 to 65. Additionally, cervical cancer screening with a combination of cytology and HPV testing is offered once every five plan years for women aged 30 to 65 with high-risk HPV. Chlamydia screening is available annually for sexually active women aged 24 and younger, as well as older women at increased risk of infection.\n\nColorectal cancer screening is subject to an at-home test kit for initial screening, with benefits for a colonoscopy if positive, available once every five plan years for adults aged 50 to 75. Contraceptive methods and counseling are provided as prescribed, including FDA-approved methods and patient education. Dental caries prevention for infants and children up to age 5 includes fluoride varnish application and oral fluoride supplementation starting at age 6 months. Depression screening is available annually for adolescents aged 12 to 18 and the general adult population, including pregnant and postpartum women.\n\nDiabetes screening is offered annually for adults aged 40 to 70 who are overweight or obese, with referrals for counseling and interventions. Fall prevention for older adults includes exercise interventions for those aged 65 and older. Folic acid supplementation is prescribed for women planning or capable of pregnancy. Gestational diabetes mellitus screening is available annually for asymptomatic pregnant women after 24 weeks of gestation.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 9
+    },
+    "11": {
+      "page_number": 11,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_011.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_011.jpg",
+      "new_name": "11_mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details.jpg",
+      "new_path": "img/pages/11_mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details",
+      "summary": "This document provides a detailed summary of preventive health services covered under the MEC/Preventive Health Services plan. It outlines various benefits, intervals, and specific requirements for each service. Preeclampsia screening is available once per plan year for pregnant women, focusing on blood pressure measurements. Rh incompatibility screening is offered during the first pregnancy visit and again at 24-28 weeks' gestation for Rh (D)-negative women. Sexually transmitted infections counseling is provided annually for sexually active adolescents and adults at increased risk. Skin cancer behavioral counseling is available once per year for young adults and children to minimize ultraviolet radiation exposure.\n\nStatin preventive medication is prescribed for adults without cardiovascular disease history but with risk factors. Syphilis screening is conducted annually for non-pregnant persons at risk and all pregnant women. Tobacco use counseling and interventions are offered twice per year, including FDA-approved pharmacotherapy for adults and pregnant women. Tuberculosis screening is available annually for populations at risk. Vision screening is conducted once every two plan years for children aged 3 to 5. Well-woman visits are provided annually for women under 65, covering age-appropriate preventive services. Well-child visits are also available annually, focusing on age-appropriate preventive services for children.\n\nThe document specifies the intervals and requirements for each service, ensuring that individuals receive appropriate preventive care based on their age, risk factors, and health status. These services aim to promote early detection and prevention of health issues, supporting overall well-being.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 11
+    },
+    "12": {
+      "page_number": 12,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_012.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_012.jpg",
+      "new_name": "12_mec_preventive_health_services_summary_of_benefits_with_immunization_requirements_and_age_limits.jpg",
+      "new_path": "img/pages/12_mec_preventive_health_services_summary_of_benefits_with_immunization_requirements_and_age_limits.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_immunization_requirements_and_age_limits",
+      "summary": "This document provides a detailed summary of benefits related to immunizations under the MEC/Preventive Health Services. It outlines the recommended vaccines for children from birth through eighteen years old, as advised by the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention. The document is divided into two main sections based on age groups: Birth Through Six Years Old and Children From Seven Through Eighteen Years Old.\n\nFor children from birth through six years old, the document lists vaccines such as Hepatitis B, Diphtheria, Tetanus, and Acellular Pertussis (DtaP), Haemophilus Influenzae Type b (Hib), and others. Each vaccine entry includes specific age requirements and limitations, such as Hepatitis B being recommended from ages 4 weeks to 2 months, and DTaP from ages 15 months to 18 months.\n\nFor children from seven through eighteen years old, the document includes vaccines like Influenza (yearly), Tetanus, Diphtheria, and Acellular Pertussis (Tdap), and Human Papillomavirus (HPV). The HPV vaccine is noted to be a 2-shot series for ages 11 to 12 years, with additional recommendations for those with weakened immune systems. The document specifies age requirements and limitations for each vaccine, ensuring clarity on the appropriate timing for immunizations.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 12
+    },
+    "10": {
+      "page_number": 10,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_010.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_010.jpg",
+      "new_name": "10_mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details.jpg",
+      "new_path": "img/pages/10_mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_screening_and_counseling_details",
+      "summary": "This document outlines the preventive health services covered under the MEC/Preventive Health Services plan. It includes a variety of screenings and counseling services aimed at promoting health and preventing disease. The benefits are organized by type, interval, and specific requirements for eligibility. For instance, gonorrhea prophylactic medication is provided as prescribed for all newborns to prevent gonococcal ophthalmia neonatorum. Gonorrhea screening is available once per plan year for sexually active women aged 24 years or younger and older women at increased risk of infection.\n\nHealthy diet and physical activity counseling is offered once per plan year for adults who are overweight or obese and have additional cardiovascular disease risk factors. Hemoglobinopathies screening is available once per plan year for sickle cell disease in newborns. Hepatitis B and C screenings are provided once per plan year for non-pregnant adolescents and adults at high risk, with specific provisions for pregnant women and adults born between 1945 and 1965.\n\nThe plan also includes screenings for high blood pressure, HIV, hypothyroidism, intimate partner violence, lung cancer, obesity, osteoporosis, and phenylketonuria, each with specific intervals and eligibility criteria. For example, lung cancer screening is available once per plan year for adults aged 55 to 80 years with a significant smoking history. Obesity screening and counseling are provided for all adults, with a focus on those with a body mass index of 30 kg/m2 or higher.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 10
+    },
+    "13": {
+      "page_number": 13,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_013.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_013.jpg",
+      "new_name": "13_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "new_path": "img/pages/13_mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_immunizations_and_exclusions",
+      "summary": "This document provides a detailed summary of benefits for the MEC/Preventive Health Services, focusing on immunizations for adults aged nineteen years or older. The immunization schedule includes various vaccines such as Influenza (IIV, RIV, LAIV), Tetanus, Diphtheria, and Acellular Pertussis (Tdap), Measles, Mumps, and Rubella (MMR), Varicella (VAR), Zoster (RZV, ZVL), Human Papillomavirus (HPV) for both females and males, and Pneumococcal vaccines (PCV13, PPSV23). Each vaccine has specific age requirements and limitations, such as annual doses or age-specific recommendations. For instance, the Influenza inactivated vaccine is recommended annually for individuals aged 19 and older, while the Tdap vaccine is administered once with a booster every ten years for those aged 19 and older.\n\nThe document also outlines exclusions applicable to the benefits offered under this plan. Exclusions include office visits, physical examinations, immunizations, and tests when required solely for activities such as sports, camp, employment, travel, and legal proceedings. Routine foot care for specific conditions, dental procedures, and any medical service not covered under the plan are also excluded. Additionally, claims related to employment, cosmetic surgery without medical necessity, and treatments for teeth or periodontium are not covered. The plan does not cover any service expenses unless explicitly provided by the plan document.\n\nThe immunization schedule is based on CDC recommendations, and additional scenarios may be covered under this plan. The exclusions section provides a comprehensive list of services and conditions not covered, ensuring clarity on the limitations of the plan.",
+      "table_details": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 13
+    },
+    "14": {
+      "page_number": 14,
+      "original_name": "MF_CompletePlansSummary_5_2024_page_014.jpg",
+      "original_path": "img/pages/MF_CompletePlansSummary_5_2024_page_014.jpg",
+      "new_name": "14_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "new_path": "img/pages/14_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg",
+      "page_title": "mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations",
+      "summary": "The document outlines the exclusions and limitations associated with the MEC/Preventive Health Services plan. It specifies that claims arising from services received outside the United States are generally not covered, except for certain cases involving the Veterans Administration or Department of Defense. Claims for services that are not medically necessary or those that exceed reasonable and customary rates are excluded. Additionally, charges that could be reimbursed by public health programs are not covered. \n\nThe plan excludes claims related to acts of war, terrorism, and self-inflicted injuries. It also does not cover abortion services, custodial care, and services from non-healthcare providers unless explicitly permitted. Experimental treatments and services primarily educational in nature are excluded unless part of approved clinical trials. Claims related to illegal acts, cosmetic surgery, and fertility treatments are not covered. \n\nSpecific exclusions include claims for eyeglasses, hearing aids, and treatments for obesity unless specified in the schedule of benefits. The plan also excludes coverage for certain therapies, such as chiropractic care, acupuncture, and alternative medicine. Routine care for adults and non-emergency care outside the U.S. are not covered. The document emphasizes that exclusions are meant to clarify non-covered items and should not imply coverage elsewhere in the plan.",
+      "table_details": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "MF_CompletePlansSummary_5_2024",
+      "global_page_num": 14
+    }
+  },
+  "extracted_tables": {},
+  "presentation": {
+    "content": "Here's a structured outline for the presentation deck based on the provided data:\n\n---\n\n### Cover (1 slide)\n- **Title:** MedFirst\n- **Tagline:** \"Comprehensive Healthcare Solutions for Every Need\"\n\n---\n\n### Plan Overview (1 slide)\n- **Target Audience:** Individuals and families seeking accessible and affordable healthcare.\n- **Offerings:** A range of healthcare services including physician visits, telemedicine, and prescription benefits.\n- **Key Benefits:** Accessibility through telemedicine, preventive care, and a focus on affordability with tiered plan options.\n\n---\n\n### Core Plan Elements (2-3 slides)\n- **Coverage Areas:**\n  - Physician Services: Available in all plans with varying visit limits.\n  - Hospitalization: Included in all plans with daily and annual maximums.\n  - Virtual Visits: Unlimited telemedicine access across all plans.\n- **Plan Structure:**\n  - Tiered options with different co-pays and visit limits.\n  - Emphasis on in-network provider usage.\n- **Eligibility:**\n  - Designed for individuals and families with a focus on affordability and preventive care.\n\n---\n\n### Common Service Features (2-3 slides)\n- **Provider Networks:** Utilizes the First Health Network for in-network services.\n- **Claims Management:** Support through advocacy services and hospital bill reducers.\n- **Support Tools:** Access to wellness programs and prescription discount services.\n\n---\n\n### Plan Tiers Breakdown (8-12 slides)\n\n#### **MedFirst Wellness**\n- **Physician Services:** 1 wellness exam/year, $25 co-pay, $150 max/visit.\n- **Telemedicine:** No consult fee, unlimited access.\n- **Prescription Discounts:** Available through participating pharmacies.\n\n#### **MedFirst 1**\n- **Physician Services:** 3 primary care visits/year, $25 co-pay, $150 max/visit.\n- **Specialist Visits:** 1 visit/year, $50 co-pay, $300 max/visit.\n- **Hospitalization:** $1,000/day, $5,000 annual max.\n- **Telemedicine:** No consult fee, unlimited access.\n\n#### **MedFirst 2**\n- **Physician Services:** 4 primary care visits/year, $25 co-pay, $150 max/visit.\n- **Specialist Visits:** 2 visits/year, $50 co-pay, $300 max/visit.\n- **Hospitalization:** $1,000/day, $10,000 annual max.\n- **Prescriptions:** $0 copay for generics, $5 copay for preferred generics.\n\n#### **MedFirst 3**\n- **Physician Services:** 4 primary care visits/year, $25 co-pay, $150 max/visit.\n- **Specialist Visits:** 4 visits/year, $50 co-pay, $300 max/visit.\n- **Hospitalization:** $1,000/day, $15,000 annual max.\n- **Prescriptions:** $5 copay for preferred generics, $40 for brand drugs.\n\n#### **MedFirst 4**\n- **Physician Services:** 4 primary care visits/year, $50 co-pay, $150 max/visit.\n- **Specialist Visits:** 4 visits/year, $75 co-pay, $300 max/visit.\n- **Hospitalization:** $1,000/day, $10,000 annual max.\n- **Emergency Services:** $1,000 per incident if admitted.\n\n#### **MedFirst 5**\n- **Physician Services:** 5 primary care visits/year, $50 co-pay, $150 max/visit.\n- **Specialist Visits:** 5 visits/year, $75 co-pay, $300 max/visit.\n- **Hospitalization:** $1,500/day, $15,000 annual max.\n- **Prescriptions:** Includes a prescription assistance program for specialty drugs.\n\n---\n\n### Comparison Slides (Markdown Table)\n\n```markdown\n| Feature                  | MedFirst Wellness | MedFirst 1 | MedFirst 2 | MedFirst 3 | MedFirst 4 | MedFirst 5 |\n|--------------------------|-------------------|------------|------------|------------|------------|------------|\n| Primary Care Visits      | 1/year            | 3/year     | 4/year     | 4/year     | 4/year     | 5/year     |\n| Specialist Visits        | N/A               | 1/year     | 2/year     | 4/year     | 4/year     | 5/year     |\n| Hospitalization          | N/A               | $5,000 max | $10,000 max| $15,000 max| $10,000 max| $15,000 max|\n| Telemedicine             | Unlimited         | Unlimited  | Unlimited  | Unlimited  | Unlimited  | Unlimited  |\n| Prescription Copay       | Discounts         | Discounts  | $0/$5      | $5/$40     | $5/$40     | $5/$40     |\n```\n\n---\n\n### Limitations and Exclusions (1-2 slides)\n- **Exclusions:**\n  - Pre-existing conditions not covered for the first 12 months.\n  - Services not listed in the Schedule of Benefits.\n  - Non-emergency care outside the U.S.\n- **Limitations:**\n  - 30-day waiting period for sickness benefits.\n  - In-network provider requirement for outpatient services.\n\n---\n\n### Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Multiple tiers to suit different needs and budgets.\n- **Balance:** Cost-effective plans with essential coverage.\n- **Next Steps:** Review plan details, consult with an advisor, and enroll.\n\n---\n\n### Thank You (1 slide)\n- **Message:** \"Thank you for considering MedFirst for your healthcare needs. We are committed to providing accessible and affordable healthcare solutions.\"\n\n--- \n\nThis outline ensures a comprehensive presentation of the MedFirst plans, highlighting key features, differences, and actionable steps for potential enrollees.",
+    "generated_at": "2025-02-10T23:17:26.178593"
+  },
+  "slides": {
+    "content": "---\nid: FEN_MedFirst\ntheme: ../../\ntitle: | \n  MedFirst Plan Review\ninfo: |\n  ## MedFirst Plan Review\n  A look at the MedFirst benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_MedFirst\" />\n\n# MedFirst Plan Review\n\nUnderstanding the details and benefits of the **MedFirst Plans**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## MedFirst Overview\n\n<v-clicks>\n\n- Comprehensive healthcare options through **First Health Network**\n- **Telemedicine** available across all plans\n- **Prescription Benefits** and support tools\n- **Preventive Care** through annual wellness exams\n- **Hospital Indemnity** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-clicks>\n\n**Telemedicine Services**\n\n**Prescription Discounts**\n\n**Preventive Care**\n\n**Hospital Indemnity** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**Healthcare Ninja Services** through BestChoiceRX\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"BestChoiceRX Logo\">\n</div>\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**BestChoiceRX Group Discount Program** (BCRX)\n</v-click>\n\n<v-click>\n\n**Prescription Assistance** System\n</v-click>\n\n<v-click>\n\n**Hospital Bill Reducer** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How BestChoiceRX Works\n\n<v-clicks>\n\n1. Enroll through **First Health Network**\n2. Access telemedicine services with no consult fee\n3. Utilize prescription discounts at participating pharmacies\n4. Receive **BCRX** card\n5. Manage hospital expenses with advocacy services\n6. **Enhanced Healthcare Access**\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-clicks>\n\n- **Annual Wellness Exams** Services\n- **Preventive Screenings** Programs\n- **First Health Network** provides comprehensive care\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-clicks>\n\n- **No Consult Fee**\n- **Unlimited Access**\n- **Virtual Consultations** available\n- **24/7 Access** to care\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-clicks>\n\n- **Comprehensive** healthcare advocacy\n- **Hospital Bill Reduction** assistance\n- **Prescription Assistance** options\n- **Telemedicine** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_wellness_plan_with_physician_services_and_telemedicine_benefits.jpg\n---\n\n## MedFirst Wellness (1/2)\n\n<v-click>\n\n**Physician Services**\n- One wellness exam per year\n- $25 co-pay, $150 max per visit\n- In-network providers only\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Discounts**\n- Participating pharmacies\n- Discounted rates\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_wellness_plan_with_physician_services_and_telemedicine_benefits.jpg\n---\n\n## MedFirst Wellness (2/2)\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness benefits\n- In-network provider restrictions\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Exclusions**\n- No inpatient hospital indemnity\n- Services not listed in Schedule of Benefits\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_1_plan_details_with_physician_services_and_telemedicine_benefits.jpg\n---\n\n## MedFirst 1 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Three primary care visits per year\n- $25 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- One visit per year\n- $50 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,000 per day, $5,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_1_plan_details_with_physician_services_and_telemedicine_benefits.jpg\n---\n\n## MedFirst 1 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Discounts**\n- Participating pharmacies\n- Discounted rates\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_2_plan_details_with_physician_services_telemedicine_and_prescription_terms.jpg\n---\n\n## MedFirst 2 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Four primary care visits per year\n- $25 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- Two visits per year\n- $50 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,000 per day, $10,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_2_plan_details_with_physician_services_telemedicine_and_prescription_terms.jpg\n---\n\n## MedFirst 2 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Benefits**\n- Preventive and acute prescriptions\n- $0 copay for generics\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_3_plan_details_with_physician_services_and_prescription_terms.jpg\n---\n\n## MedFirst 3 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Four primary care visits per year\n- $25 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- Four visits per year\n- $50 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,000 per day, $15,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_3_plan_details_with_physician_services_and_prescription_terms.jpg\n---\n\n## MedFirst 3 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Benefits**\n- Preventive and acute prescriptions\n- $5 copay for preferred generics\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_4_plan_features_benefits_and_coverage_details_with_limitations.jpg\n---\n\n## MedFirst 4 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Four primary care visits per year\n- $50 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- Four visits per year\n- $75 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,000 per day, $10,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_4_plan_features_benefits_and_coverage_details_with_limitations.jpg\n---\n\n## MedFirst 4 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Benefits**\n- Preventive and acute prescriptions\n- $5 copay for preferred generics\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_5_plan_details_with_benefits_comparison_and_limitations.jpg\n---\n\n## MedFirst 5 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Five primary care visits per year\n- $50 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- Five visits per year\n- $75 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,500 per day, $15,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_5_plan_details_with_benefits_comparison_and_limitations.jpg\n---\n\n## MedFirst 5 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Benefits**\n- Preventive and acute prescriptions\n- $5 copay for preferred generics\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **MedFirst Wellness** | **MedFirst 1** | **MedFirst 2** | **MedFirst 3** | **MedFirst 4** | **MedFirst 5** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|\n| Primary Care Visits | 1 | 3 | 4 | 4 | 4 | 5 |\n| Specialist Visits | 0 | 1 | 2 | 4 | 4 | 5 |\n| Hospitalization | Not Covered | $5,000 max | $10,000 max | $15,000 max | $10,000 max | $15,000 max |\n| Telemedicine | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited |\n| Prescription Copay | Discount | Discount | $0 for generics | $5 for preferred generics | $5 for preferred generics | $5 for preferred generics |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Waiting Periods**\n- 30-day for sickness benefits\n- Pre-existing conditions not covered for 12 months\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Provider Restrictions**\n- In-network only for outpatient services\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Exclusions**\n- Services not listed in Schedule of Benefits\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Screening Limitations**\n- At-home test kit required for colorectal cancer screening\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **Telemedicine** benefits across all plans\n- **Prescription Discounts** included\n- **Preventive Care** benefits\n- **In-network Provider** required\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the MedFirst Plan Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_key}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Review\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"FEN_{{deck_key}}\" />\n\n# {{ Plan Name }} Review\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## {{ Plan Name }} Overview\n\n<v-clicks>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n- **{{ Benefit Category 1 }}** for various situations\n- **{{ Benefit Category 2 }}** and support tools\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n- **{{ Benefit Category 4 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-clicks>\n\n**{{ Benefit Type 1 }}**\n\n**{{ Benefit Type 2 }}**\n\n**{{ Benefit Type 3 }}**\n\n**{{ Benefit Type 4 }}** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-clicks>\n\n1. Enroll through **{{ Organization }}**\n2. {{ Step 2 }}\n3. {{ Step 3 }}\n4. Receive {{ Document }} **({{ Acronym }})**\n5. {{ Step 5 }}\n6. **{{ Final Outcome }}**\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-clicks>\n\n- **{{ Service 1 }}** Services\n- **{{ Service 2 }}** Programs\n- **{{ Partner }}** provides {{ service_type }}\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-clicks>\n\n- **{{ Feature 1 }}**\n- **{{ Feature 2 }}**\n- **{{ Feature 3 }}** available\n- **{{ Feature 4 }}** to care\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-clicks>\n\n- **{{ Service Style }}** healthcare advocacy\n- **{{ Service 1 }}** assistance\n- **{{ Service 2 }}** options\n- **{{ Service 3 }}** support\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **{{ Feature 1 }}** benefits\n- **{{ Feature 2 }}** included\n- **{{ Feature 3 }}** benefits\n- **{{ Requirement }}** required\n\n</v-clicks>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n"
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the MedFirst Plans. We'll walk through the details and benefits of these plans, designed to support your health needs effectively. Let's get started!\n\n---- MedFirst Overview ----\n\nThe MedFirst Plans offer a range of healthcare options through the First Health Network.\n\nTelemedicine services are available across all plans, providing convenient access to care.\n\nPrescription benefits and support tools are included to help manage medication costs.\n\nPreventive care is emphasized through annual wellness exams to keep you healthy.\n\nAdditionally, hospital indemnity support is available to assist with hospital-related expenses.\n\nNow, let's explore the key features and benefits of these plans.\n\n---- Key Features and Benefits ----\n\nTelemedicine services are a standout feature, offering easy access to healthcare professionals.\n\nPrescription discounts are available, helping you save on medication costs.\n\nPreventive care is a priority, with services designed to maintain your health.\n\nHospital indemnity benefits vary by plan, providing financial support during hospital stays.\n\nHealthcare Ninja Services are offered through BestChoiceRX, enhancing your healthcare experience.\n\nNext, let's discuss the cost management tools available with these plans.\n\n---- Cost Management Tools ----\n\nThe BestChoiceRX Group Discount Program, or BCRX, offers significant savings on prescriptions.\n\nA prescription assistance system is in place to help manage medication expenses.\n\nHospital bill reducer support is available to help lower hospital-related costs.\n\nLet's take a closer look at how BestChoiceRX works.\n\n---- How BestChoiceRX Works ----\n\nTo get started, enroll through the First Health Network.\n\nYou can access telemedicine services with no consult fee, making healthcare more accessible.\n\nUtilize prescription discounts at participating pharmacies to save on medications.\n\nReceive your BCRX card, which provides access to these benefits.\n\nManage hospital expenses with advocacy services, ensuring you get the support you need.\n\nThis program enhances your healthcare access, making it more efficient and affordable.\n\nNow, let's focus on preventive care and wellness.\n\n---- Preventive Care and Wellness ----\n\nAnnual wellness exams are a key component of preventive care services.\n\nPreventive screenings programs are available to catch health issues early.\n\nThe First Health Network provides a wide range of care options to support your wellness.\n\nLet's move on to telehealth services.\n\n---- Telehealth Services ----\n\nTelehealth services come with no consult fee, making them cost-effective.\n\nYou have unlimited access to virtual consultations, providing flexibility in care.\n\nThese services are available twenty-four seven, ensuring you can get help anytime.\n\nNow, let's discuss advocacy and support services.\n\n---- Advocacy and Support Services ----\n\nComprehensive healthcare advocacy is available to guide you through your healthcare journey.\n\nHospital bill reduction assistance helps manage and reduce hospital expenses.\n\nPrescription assistance options are provided to help with medication costs.\n\nTelemedicine support is included, offering guidance and access to virtual care.\n\nLet's examine our first plan tier, MedFirst Wellness.\n\n---- Plan Tier 1 (One of Two) ----\n\nMedFirst Wellness includes physician services with one wellness exam per year.\n\nThere is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit, using in-network providers only.\n\nTelemedicine services are available with no consult fee and unlimited access.\n\nPrescription discounts are offered at participating pharmacies, providing discounted rates.\n\nContinuing with MedFirst Wellness, let's look at the limitations and exclusions.\n\n---- Plan Tier 1 (Two of Two) ----\n\nThere is a thirty-day waiting period for sickness benefits, with in-network provider restrictions.\n\nExclusions include no inpatient hospital indemnity and services not listed in the Schedule of Benefits.\n\nNow, let's look at our second plan tier, MedFirst 1.\n\n---- Plan Tier 2 (One of Two) ----\n\nMedFirst 1 offers physician services with three primary care visits per year.\n\nThere is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with one visit per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a five thousand dollar maximum per year.\n\nContinuing with MedFirst 1, let's explore telemedicine and prescription benefits.\n\n---- Plan Tier 2 (Two of Two) ----\n\nTelemedicine services are available with no consult fee and unlimited access.\n\nPrescription discounts are offered at participating pharmacies, providing discounted rates.\n\nNow, let's look at our third plan tier, MedFirst 2.\n\n---- Plan Tier 3 (One of Two) ----\n\nMedFirst 2 includes physician services with four primary care visits per year.\n\nThere is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with two visits per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a ten thousand dollar maximum per year.\n\nContinuing with MedFirst 2, let's explore telemedicine and prescription benefits.\n\n---- Plan Tier 3 (Two of Two) ----\n\nTelemedicine services are available with no consult fee and unlimited access.\n\nPrescription benefits include preventive and acute prescriptions, with a zero dollar copay for generics.\n\nNow, let's look at our fourth plan tier, MedFirst 3.\n\n---- Plan Tier 4 (One of Two) ----\n\nMedFirst 3 includes physician services with four primary care visits per year.\n\nThere is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with four visits per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a fifteen thousand dollar maximum per year.\n\nContinuing with MedFirst 3, let's explore telemedicine and prescription benefits.\n\n---- Plan Tier 4 (Two of Two) ----\n\nTelemedicine services are available with no consult fee and unlimited access.\n\nPrescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.\n\nNow, let's look at our fifth plan tier, MedFirst 4.\n\n---- Plan Tier 5 (One of Two) ----\n\nMedFirst 4 includes physician services with four primary care visits per year.\n\nThere is a fifty dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with four visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a ten thousand dollar maximum per year.\n\nContinuing with MedFirst 4, let's explore telemedicine and prescription benefits.\n\n---- Plan Tier 5 (Two of Two) ----\n\nTelemedicine services are available with no consult fee and unlimited access.\n\nPrescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.\n\nNow, let's look at our sixth plan tier, MedFirst 5.\n\n---- Plan Tier 6 (One of Two) ----\n\nMedFirst 5 includes physician services with five primary care visits per year.\n\nThere is a fifty dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with five visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand five hundred dollars per day, with a fifteen thousand dollar maximum per year.\n\nContinuing with MedFirst 5, let's explore telemedicine and prescription benefits.\n\n---- Plan Tier 6 (Two of Two) ----\n\nTelemedicine services are available with no consult fee and unlimited access.\n\nPrescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.\n\nLet's compare the different tiers available.\n\n---- Comparing Plan Tiers ----\n\nThe table compares key features across all MedFirst plans.\n\nPrimary care visits range from one to five visits per year, depending on the plan.\n\nSpecialist visits vary from zero to five visits per year.\n\nHospitalization benefits range from not covered to a fifteen thousand dollar maximum per year.\n\nTelemedicine services offer unlimited access across all plans.\n\nPrescription copays range from discounts to five dollars for preferred generics.\n\nLet's review important definitions and limitations.\n\n---- Definitions and Limitations ----\n\nThere is a thirty-day waiting period for sickness benefits, and pre-existing conditions are not covered for twelve months.\n\nProvider restrictions require in-network providers for outpatient services.\n\nExclusions include services not listed in the Schedule of Benefits.\n\nScreening limitations require an at-home test kit for colorectal cancer screening.\n\nHere are the key points to remember.\n\n---- Key Takeaways and Reminders ----\n\nTelemedicine benefits are available across all plans, providing convenient access to care.\n\nPrescription discounts are included, helping manage medication costs.\n\nPreventive care benefits are emphasized to maintain your health.\n\nIn-network providers are required for services, ensuring quality care.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "MedFirst Plan Review",
+          "content": "<SlideAudio deckKey=\"FEN_MedFirst\" />\n\n# MedFirst Plan Review\n\nUnderstanding the details and benefits of the **MedFirst Plans**",
+          "frontmatter": "id: FEN_MedFirst\ntheme: ../../\ntitle: | \n  MedFirst Plan Review\ninfo: |\n  ## MedFirst Plan Review\n  A look at the MedFirst benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the MedFirst Plans. We'll walk through the details and benefits of these plans, designed to support your health needs effectively. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst Overview",
+          "content": "## MedFirst Overview\n\n<v-clicks>\n\n- Comprehensive healthcare options through **First Health Network**\n- **Telemedicine** available across all plans\n- **Prescription Benefits** and support tools\n- **Preventive Care** through annual wellness exams\n- **Hospital Indemnity** support\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "MedFirst Overview",
+          "content": "The MedFirst Plans offer a range of healthcare options through the First Health Network.\n\nTelemedicine services are available across all plans, providing convenient access to care.\n\nPrescription benefits and support tools are included to help manage medication costs.\n\nPreventive care is emphasized through annual wellness exams to keep you healthy.\n\nAdditionally, hospital indemnity support is available to assist with hospital-related expenses.\n\nNow, let's explore the key features and benefits of these plans."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-clicks>\n\n**Telemedicine Services**\n\n**Prescription Discounts**\n\n**Preventive Care**\n\n**Hospital Indemnity** (varies by plan)\n</v-clicks>\n\n<v-click>\n\n**Healthcare Ninja Services** through BestChoiceRX\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"BestChoiceRX Logo\">\n</div>\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Telemedicine services are a standout feature, offering easy access to healthcare professionals.\n\nPrescription discounts are available, helping you save on medication costs.\n\nPreventive care is a priority, with services designed to maintain your health.\n\nHospital indemnity benefits vary by plan, providing financial support during hospital stays.\n\nHealthcare Ninja Services are offered through BestChoiceRX, enhancing your healthcare experience.\n\nNext, let's discuss the cost management tools available with these plans."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**BestChoiceRX Group Discount Program** (BCRX)\n</v-click>\n\n<v-click>\n\n**Prescription Assistance** System\n</v-click>\n\n<v-click>\n\n**Hospital Bill Reducer** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "The BestChoiceRX Group Discount Program, or BCRX, offers significant savings on prescriptions.\n\nA prescription assistance system is in place to help manage medication expenses.\n\nHospital bill reducer support is available to help lower hospital-related costs.\n\nLet's take a closer look at how BestChoiceRX works."
+        }
+      },
+      {
+        "slide": {
+          "header": "How BestChoiceRX Works",
+          "content": "## How BestChoiceRX Works\n\n<v-clicks>\n\n1. Enroll through **First Health Network**\n2. Access telemedicine services with no consult fee\n3. Utilize prescription discounts at participating pharmacies\n4. Receive **BCRX** card\n5. Manage hospital expenses with advocacy services\n6. **Enhanced Healthcare Access**\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How BestChoiceRX Works",
+          "content": "To get started, enroll through the First Health Network.\n\nYou can access telemedicine services with no consult fee, making healthcare more accessible.\n\nUtilize prescription discounts at participating pharmacies to save on medications.\n\nReceive your BCRX card, which provides access to these benefits.\n\nManage hospital expenses with advocacy services, ensuring you get the support you need.\n\nThis program enhances your healthcare access, making it more efficient and affordable.\n\nNow, let's focus on preventive care and wellness."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-clicks>\n\n- **Annual Wellness Exams** Services\n- **Preventive Screenings** Programs\n- **First Health Network** provides comprehensive care\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Annual wellness exams are a key component of preventive care services.\n\nPreventive screenings programs are available to catch health issues early.\n\nThe First Health Network provides a wide range of care options to support your wellness.\n\nLet's move on to telehealth services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-clicks>\n\n- **No Consult Fee**\n- **Unlimited Access**\n- **Virtual Consultations** available\n- **24/7 Access** to care\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Telehealth services come with no consult fee, making them cost-effective.\n\nYou have unlimited access to virtual consultations, providing flexibility in care.\n\nThese services are available twenty-four seven, ensuring you can get help anytime.\n\nNow, let's discuss advocacy and support services."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-clicks>\n\n- **Comprehensive** healthcare advocacy\n- **Hospital Bill Reduction** assistance\n- **Prescription Assistance** options\n- **Telemedicine** support\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Comprehensive healthcare advocacy is available to guide you through your healthcare journey.\n\nHospital bill reduction assistance helps manage and reduce hospital expenses.\n\nPrescription assistance options are provided to help with medication costs.\n\nTelemedicine support is included, offering guidance and access to virtual care.\n\nLet's examine our first plan tier, MedFirst Wellness."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst Wellness (1/2)",
+          "content": "## MedFirst Wellness (1/2)\n\n<v-click>\n\n**Physician Services**\n- One wellness exam per year\n- $25 co-pay, $150 max per visit\n- In-network providers only\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Discounts**\n- Participating pharmacies\n- Discounted rates\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_wellness_plan_with_physician_services_and_telemedicine_benefits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "MedFirst Wellness includes physician services with one wellness exam per year.\n\nThere is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit, using in-network providers only.\n\nTelemedicine services are available with no consult fee and unlimited access.\n\nPrescription discounts are offered at participating pharmacies, providing discounted rates.\n\nContinuing with MedFirst Wellness, let's look at the limitations and exclusions."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst Wellness (2/2)",
+          "content": "## MedFirst Wellness (2/2)\n\n<v-click>\n\n**Limitations**\n- 30-day waiting period for sickness benefits\n- In-network provider restrictions\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Exclusions**\n- No inpatient hospital indemnity\n- Services not listed in Schedule of Benefits\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_wellness_plan_with_physician_services_and_telemedicine_benefits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "There is a thirty-day waiting period for sickness benefits, with in-network provider restrictions.\n\nExclusions include no inpatient hospital indemnity and services not listed in the Schedule of Benefits.\n\nNow, let's look at our second plan tier, MedFirst 1."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 1 (1/2)",
+          "content": "## MedFirst 1 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Three primary care visits per year\n- $25 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- One visit per year\n- $50 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,000 per day, $5,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_1_plan_details_with_physician_services_and_telemedicine_benefits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "MedFirst 1 offers physician services with three primary care visits per year.\n\nThere is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with one visit per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a five thousand dollar maximum per year.\n\nContinuing with MedFirst 1, let's explore telemedicine and prescription benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 1 (2/2)",
+          "content": "## MedFirst 1 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Discounts**\n- Participating pharmacies\n- Discounted rates\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_1_plan_details_with_physician_services_and_telemedicine_benefits.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Telemedicine services are available with no consult fee and unlimited access.\n\nPrescription discounts are offered at participating pharmacies, providing discounted rates.\n\nNow, let's look at our third plan tier, MedFirst 2."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 2 (1/2)",
+          "content": "## MedFirst 2 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Four primary care visits per year\n- $25 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- Two visits per year\n- $50 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,000 per day, $10,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_2_plan_details_with_physician_services_telemedicine_and_prescription_terms.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (One of Two)",
+          "content": "MedFirst 2 includes physician services with four primary care visits per year.\n\nThere is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with two visits per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a ten thousand dollar maximum per year.\n\nContinuing with MedFirst 2, let's explore telemedicine and prescription benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 2 (2/2)",
+          "content": "## MedFirst 2 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Benefits**\n- Preventive and acute prescriptions\n- $0 copay for generics\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_2_plan_details_with_physician_services_telemedicine_and_prescription_terms.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 3 (Two of Two)",
+          "content": "Telemedicine services are available with no consult fee and unlimited access.\n\nPrescription benefits include preventive and acute prescriptions, with a zero dollar copay for generics.\n\nNow, let's look at our fourth plan tier, MedFirst 3."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 3 (1/2)",
+          "content": "## MedFirst 3 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Four primary care visits per year\n- $25 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- Four visits per year\n- $50 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,000 per day, $15,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_3_plan_details_with_physician_services_and_prescription_terms.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 4 (One of Two)",
+          "content": "MedFirst 3 includes physician services with four primary care visits per year.\n\nThere is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with four visits per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a fifteen thousand dollar maximum per year.\n\nContinuing with MedFirst 3, let's explore telemedicine and prescription benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 3 (2/2)",
+          "content": "## MedFirst 3 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Benefits**\n- Preventive and acute prescriptions\n- $5 copay for preferred generics\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_3_plan_details_with_physician_services_and_prescription_terms.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 4 (Two of Two)",
+          "content": "Telemedicine services are available with no consult fee and unlimited access.\n\nPrescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.\n\nNow, let's look at our fifth plan tier, MedFirst 4."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 4 (1/2)",
+          "content": "## MedFirst 4 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Four primary care visits per year\n- $50 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- Four visits per year\n- $75 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,000 per day, $10,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_4_plan_features_benefits_and_coverage_details_with_limitations.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 5 (One of Two)",
+          "content": "MedFirst 4 includes physician services with four primary care visits per year.\n\nThere is a fifty dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with four visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand dollars per day, with a ten thousand dollar maximum per year.\n\nContinuing with MedFirst 4, let's explore telemedicine and prescription benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 4 (2/2)",
+          "content": "## MedFirst 4 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Benefits**\n- Preventive and acute prescriptions\n- $5 copay for preferred generics\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_4_plan_features_benefits_and_coverage_details_with_limitations.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 5 (Two of Two)",
+          "content": "Telemedicine services are available with no consult fee and unlimited access.\n\nPrescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.\n\nNow, let's look at our sixth plan tier, MedFirst 5."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 5 (1/2)",
+          "content": "## MedFirst 5 (1/2)\n\n<v-click>\n\n**Physician Services**\n- Five primary care visits per year\n- $50 co-pay, $150 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Specialist Visits**\n- Five visits per year\n- $75 co-pay, $300 max per visit\n<Arrow v-bind=\"{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Hospitalization Benefits**\n- $1,500 per day, $15,000 max per year\n<Arrow v-bind=\"{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_5_plan_details_with_benefits_comparison_and_limitations.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 6 (One of Two)",
+          "content": "MedFirst 5 includes physician services with five primary care visits per year.\n\nThere is a fifty dollar co-pay, with a one hundred fifty dollar maximum per visit.\n\nSpecialist visits are included, with five visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum per visit.\n\nHospitalization benefits provide one thousand five hundred dollars per day, with a fifteen thousand dollar maximum per year.\n\nContinuing with MedFirst 5, let's explore telemedicine and prescription benefits."
+        }
+      },
+      {
+        "slide": {
+          "header": "MedFirst 5 (2/2)",
+          "content": "## MedFirst 5 (2/2)\n\n<v-click>\n\n**Telemedicine Services**\n- No consult fee\n- Unlimited access\n<Arrow v-bind=\"{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Prescription Benefits**\n- Preventive and acute prescriptions\n- $5 copay for preferred generics\n<Arrow v-bind=\"{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/medfirst_5_plan_details_with_benefits_comparison_and_limitations.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 6 (Two of Two)",
+          "content": "Telemedicine services are available with no consult fee and unlimited access.\n\nPrescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.\n\nLet's compare the different tiers available."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **MedFirst Wellness** | **MedFirst 1** | **MedFirst 2** | **MedFirst 3** | **MedFirst 4** | **MedFirst 5** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|\n| Primary Care Visits | 1 | 3 | 4 | 4 | 4 | 5 |\n| Specialist Visits | 0 | 1 | 2 | 4 | 4 | 5 |\n| Hospitalization | Not Covered | $5,000 max | $10,000 max | $15,000 max | $10,000 max | $15,000 max |\n| Telemedicine | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited |\n| Prescription Copay | Discount | Discount | $0 for generics | $5 for preferred generics | $5 for preferred generics | $5 for preferred generics |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "The table compares key features across all MedFirst plans.\n\nPrimary care visits range from one to five visits per year, depending on the plan.\n\nSpecialist visits vary from zero to five visits per year.\n\nHospitalization benefits range from not covered to a fifteen thousand dollar maximum per year.\n\nTelemedicine services offer unlimited access across all plans.\n\nPrescription copays range from discounts to five dollars for preferred generics.\n\nLet's review important definitions and limitations."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Waiting Periods**\n- 30-day for sickness benefits\n- Pre-existing conditions not covered for 12 months\n<Arrow v-bind=\"{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Provider Restrictions**\n- In-network only for outpatient services\n<Arrow v-bind=\"{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Exclusions**\n- Services not listed in Schedule of Benefits\n<Arrow v-bind=\"{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>\n\n<v-click>\n\n**Screening Limitations**\n- At-home test kit required for colorectal cancer screening\n<Arrow v-bind=\"{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}\" />\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "There is a thirty-day waiting period for sickness benefits, and pre-existing conditions are not covered for twelve months.\n\nProvider restrictions require in-network providers for outpatient services.\n\nExclusions include services not listed in the Schedule of Benefits.\n\nScreening limitations require an at-home test kit for colorectal cancer screening.\n\nHere are the key points to remember."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-clicks>\n\n- **Telemedicine** benefits across all plans\n- **Prescription Discounts** included\n- **Preventive Care** benefits\n- **In-network Provider** required\n\n</v-clicks>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Telemedicine benefits are available across all plans, providing convenient access to care.\n\nPrescription discounts are included, helping manage medication costs.\n\nPreventive care benefits are emphasized to maintain your health.\n\nIn-network providers are required for services, ensuring quality care."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the MedFirst Plan Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 24
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 24,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}
