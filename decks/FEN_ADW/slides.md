@@ -81,6 +81,12 @@ layout: default
 
 </v-click>
 
+<v-click>
+
+**All benefits mentioned in this presentation apply per policy period.**
+
+</v-click>
+
 ---
 transition: fade-out
 layout: default
@@ -842,6 +848,8 @@ image: img/pages/05_hospital_indemnity_insurance_limitations_exclusions_for_adva
 - Elective surgeries
 - Dental procedures not due to injury
 
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
+
 </v-click>
 
 <v-click>
@@ -885,5 +893,3 @@ layout: end
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

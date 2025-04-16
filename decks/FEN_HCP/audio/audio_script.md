@@ -12,7 +12,7 @@ providing accessibility for both individuals and families.
 
 It offers affordability with supplemental coverage for high-deductible plans, 
 
-and aims to make a personal impact through a wide range of benefits. 
+and aims to make a personal impact through comprehensive benefits. 
 
 Additionally, it includes support tools for effective healthcare management.
 
@@ -26,7 +26,7 @@ Hospitalization,
 
 and Virtual Visits, which vary by plan. 
 
-Supplemental Coverage is provided through the National Congress of Employers.
+Supplemental Coverage is provided through National Congress of Employers.
 
 ---- Cost Management Tools ----
 
@@ -42,15 +42,15 @@ and Advocacy Services Support.
 
 Here's how the Dashboards work.
 
-First, members enroll through the National Congress of Employers. 
+First, members enroll through National Congress of Employers. 
 
 They can then access personalized health tracking, 
 
 utilize wellness resources, 
 
-and receive monthly updates. 
+receive monthly updates, 
 
-Finally, they can engage with support services.
+and engage with support services.
 
 ---- Preventive Care and Wellness ----
 
@@ -60,7 +60,7 @@ The plan offers Wellness Programs Services,
 
 Health Tracking Programs, 
 
-and support from the National Congress of Employers for wellness.
+and support from NCE for wellness.
 
 ---- Telehealth Services ----
 
@@ -68,9 +68,9 @@ Now, let's look at telehealth services.
 
 Members can benefit from Virtual Consultations, 
 
-with twenty-four seven access, 
+with twenty-four seven Access, 
 
-Remote Monitoring, 
+Remote Monitoring available, 
 
 and convenient access to care.
 
@@ -86,143 +86,181 @@ Benefit Options exploration,
 
 and Resource Support for members.
 
----- 100A Plan (One of Two) ----
+---- 100A Plan ----
 
 Let's examine our first plan tier, the 100A Plan.
 
 It includes a Hospital Confinement Benefit of one hundred dollars per day, with a maximum of thirty days. 
 
-The Primary Care Visit Benefit is fifty dollars per day, with a maximum of three days. 
+The Primary Care Visit Benefit is fifty dollars per day, with a maximum of three visits. 
 
-The Specialty Care Visit Benefit is also fifty dollars per day, with a maximum of three days.
+The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of three visits.
 
----- 100A Plan (Two of Two) ----
-
-Continuing with the 100A Plan.
-
-It offers an Accidental Death Benefit of ten thousand dollars, 
-
-and a Critical Illness Benefit of one thousand dollars.
-
----- 100 Plan (One of Two) ----
+---- 100 Plan ----
 
 Now, let's look at the 100 Plan.
 
-This plan provides a Hospital Confinement Benefit of two hundred dollars per day, with a maximum of thirty days. 
+This plan provides a Hospital Confinement Benefit of one hundred dollars per day, with a maximum of thirty days. 
 
-The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five days. 
+The Primary Care Visit Benefit is fifty dollars per day, with a maximum of three visits. 
 
-The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.
+The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of three visits.
 
----- 100 Plan (Two of Two) ----
+The Emergency Room Benefit is fifty dollars per day, with a maximum of one visit.
 
-Continuing with the 100 Plan.
+The Accidental Death Benefit is ten thousand dollars.
 
-It includes a Mental Health Inpatient Benefit of one hundred fifty dollars per day, with a maximum of sixty days. 
-
-The Accidental Death Benefit is ten thousand dollars, 
-
-and the Critical Illness Benefit is one thousand dollars.
-
----- 200 Plan (One of Two) ----
+---- 200 Plan ----
 
 Let's move on to the 200 Plan.
 
 This plan offers a Hospital Confinement Benefit of two hundred dollars per day, with a maximum of thirty days. 
 
-The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five days. 
+The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five visits. 
 
-The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.
+The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five visits.
 
----- 200 Plan (Two of Two) ----
+The Emergency Room Benefit is fifty dollars per day, with a maximum of one visit.
 
-Continuing with the 200 Plan.
+Basic Pathology and Radiology Benefit is fifty dollars per day, with a maximum of one day.
 
-It includes a Surgery Benefit of four hundred dollars per day, with a maximum of three days. 
+Advanced Studies Benefit is fifty dollars per day, with a maximum of one day.
 
-The Accidental Death Benefit is ten thousand dollars, 
-
-and the Critical Illness Benefit is one thousand dollars.
+The Accidental Death Benefit is ten thousand dollars.
 
 ---- 200+ Plan (One of Two) ----
 
-Now, let's look at the 200+ Plan.
+Moving to the 200+ Plan.
 
-This plan provides a Hospital Confinement Benefit of three hundred dollars per day, with a maximum of thirty days. 
+This plan includes a Hospital Confinement Benefit of two hundred dollars per day, with a maximum of thirty days. 
 
-The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five days. 
+The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five visits. 
 
-The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.
+The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five visits.
+
+The Emergency Room Benefit is fifty dollars per day, with a maximum of two visits.
+
+Basic Pathology and Radiology Benefit is fifty dollars per day, with a maximum of three days.
+
+Advanced Studies Benefit is fifty dollars per day, with a maximum of two days.
 
 ---- 200+ Plan (Two of Two) ----
 
 Continuing with the 200+ Plan.
 
-It offers a Surgery Benefit of four hundred dollars per day, with a maximum of three days. 
+Surgery Benefit of four hundred dollars per day, with a maximum of three days.
 
-The Accidental Death Benefit is ten thousand dollars, 
+Anesthesia Benefit of twenty percent per day, with a maximum of three days.
 
-and the Critical Illness Benefit is one thousand dollars.
+The Accidental Death Benefit is ten thousand dollars.
+
+The Critical Illness Benefit is one thousand dollars.
 
 ---- 300 Plan (One of Two) ----
 
 Let's examine the 300 Plan.
 
-This plan includes a Hospital Confinement Benefit of five hundred dollars per day, with a maximum of thirty days. 
+This plan includes a Hospital Confinement Benefit of three hundred dollars per day, with a maximum of thirty days. 
 
-The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five days. 
+The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five visits. 
 
-The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five days.
+The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five visits.
+
+The Emergency Room Benefit is fifty dollars per day, with a maximum of one visit.
+
+Advanced Studies Benefit is fifty dollars per day, with a maximum of two days.
+
+Surgery Benefit of four hundred dollars per day, with a maximum of three days.
 
 ---- 300 Plan (Two of Two) ----
 
 Continuing with the 300 Plan.
 
-It provides an Emergency Room Benefit of fifty dollars per day, with a maximum of one day. 
+Anesthesia Benefit of twenty percent per day, with a maximum of three days.
 
-The Accidental Death Benefit is ten thousand dollars, 
+Mental Health Inpatient Benefit of one hundred fifty dollars per day, with a maximum of sixty days.
 
-and the Critical Illness Benefit is one thousand dollars.
+Mental Health Outpatient Benefit of fifty dollars per day, with a maximum of twenty visits.
+
+Accident Inpatient Admission Benefit of five hundred dollars per day, with a maximum of one day.
+
+Accident Emergency Room Benefit of two hundred fifty dollars per day, with a maximum of one visit.
+
+The Accidental Death Benefit is ten thousand dollars.
+
+The Critical Illness Benefit is one thousand dollars.
 
 ---- 500 Plan (One of Two) ----
 
 Now, let's look at the 500 Plan.
 
-This plan offers a Hospital Confinement Benefit of seven hundred fifty dollars per day, with a maximum of thirty days. 
+This plan offers a Hospital Confinement Benefit of five hundred dollars per day, with a maximum of thirty days. 
 
-The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five days. 
+The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five visits. 
 
-The Specialty Care Visit Benefit is seventy-five dollars per day, with a maximum of five days.
+The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five visits.
+
+The Emergency Room Benefit is seventy-five dollars per day, with a maximum of one visit.
+
+Basic Pathology and Radiology Benefit is fifty dollars per day, with a maximum of two days.
+
+Advanced Studies Benefit is fifty dollars per day, with a maximum of two days.
+
+Surgery Benefit of seven hundred fifty dollars per day, with a maximum of three days.
 
 ---- 500 Plan (Two of Two) ----
 
 Continuing with the 500 Plan.
 
-It includes an Emergency Room Benefit of seventy-five dollars per day, with a maximum of one day. 
+Anesthesia Benefit of twenty percent per day, with a maximum of three days.
 
-The Accidental Death Benefit is ten thousand dollars, 
+Mental Health Inpatient Benefit of two hundred fifty dollars per day, with a maximum of sixty days.
 
-and the Critical Illness Benefit is one thousand dollars.
+Mental Health Outpatient Benefit of fifty dollars per day, with a maximum of twenty visits.
+
+Accident Inpatient Admission Benefit of five hundred dollars per day, with a maximum of one day.
+
+Accident Emergency Room Benefit of two hundred fifty dollars per day, with a maximum of one visit.
+
+The Accidental Death Benefit is ten thousand dollars.
+
+The Critical Illness Benefit is one thousand dollars.
 
 ---- 750 Plan (One of Two) ----
 
 Let's examine the 750 Plan.
 
-This plan provides a Hospital Confinement Benefit of one thousand dollars per day, with a maximum of thirty days. 
+This plan provides a Hospital Confinement Benefit of seven hundred fifty dollars per day, with a maximum of thirty days. 
 
-The Primary Care Visit Benefit is seventy-five dollars per day, with a maximum of five days. 
+The Primary Care Visit Benefit is fifty dollars per day, with a maximum of five visits. 
 
-The Specialty Care Visit Benefit is one hundred dollars per day, with a maximum of five days.
+The Specialty Care Visit Benefit is fifty dollars per day, with a maximum of five visits.
+
+The Emergency Room Benefit is seventy-five dollars per day, with a maximum of one visit.
+
+Basic Pathology and Radiology Benefit is fifty dollars per day, with a maximum of two days.
+
+Advanced Studies Benefit is fifty dollars per day, with a maximum of two days.
+
+Surgery Benefit of one thousand dollars per day, with a maximum of three days.
 
 ---- 750 Plan (Two of Two) ----
 
 Continuing with the 750 Plan.
 
-It offers an Emergency Room Benefit of one hundred dollars per day, with a maximum of one day. 
+Anesthesia Benefit of twenty percent per day, with a maximum of three days.
 
-The Accidental Death Benefit is ten thousand dollars, 
+Mental Health Inpatient Benefit of three hundred seventy-five dollars per day, with a maximum of sixty days.
 
-and the Critical Illness Benefit is one thousand dollars.
+Mental Health Outpatient Benefit of fifty dollars per day, with a maximum of twenty visits.
+
+Accident Inpatient Admission Benefit of five hundred dollars per day, with a maximum of two days.
+
+Accident Emergency Room Benefit of two hundred fifty dollars per day, with a maximum of one visit.
+
+The Accidental Death Benefit is ten thousand dollars.
+
+The Critical Illness Benefit is one thousand dollars.
 
 ---- 1000 Plan (One of Two) ----
 
@@ -230,23 +268,39 @@ Now, let's look at the 1000 Plan.
 
 This plan includes a Hospital Confinement Benefit of one thousand dollars per day, with a maximum of thirty days. 
 
-The Primary Care Visit Benefit is seventy-five dollars per day, with a maximum of five days. 
+The Primary Care Visit Benefit is seventy-five dollars per day, with a maximum of five visits. 
 
-The Specialty Care Visit Benefit is one hundred dollars per day, with a maximum of five days.
+The Specialty Care Visit Benefit is seventy-five dollars per day, with a maximum of five visits.
+
+The Emergency Room Benefit is one hundred dollars per day, with a maximum of one visit.
+
+Basic Pathology and Radiology Benefit is seventy-five dollars per day, with a maximum of three days.
+
+Advanced Studies Benefit is seventy-five dollars per day, with a maximum of three days.
+
+Surgery Benefit of one thousand five hundred dollars per day, with a maximum of three days.
 
 ---- 1000 Plan (Two of Two) ----
 
 Continuing with the 1000 Plan.
 
-It provides an Emergency Room Benefit of one hundred dollars per day, with a maximum of one day. 
+Anesthesia Benefit of twenty percent per day, with a maximum of three days.
 
-The Accidental Death Benefit is ten thousand dollars, 
+Mental Health Inpatient Benefit of five hundred dollars per day, with a maximum of sixty days.
 
-and the Critical Illness Benefit is one thousand dollars.
+Mental Health Outpatient Benefit of fifty dollars per day, with a maximum of twenty visits.
+
+Accident Inpatient Admission Benefit of five hundred dollars per day, with a maximum of three days.
+
+Accident Emergency Room Benefit of two hundred fifty dollars per day, with a maximum of one visit.
+
+The Accidental Death Benefit is ten thousand dollars.
+
+The Critical Illness Benefit is one thousand dollars.
 
 ---- Comparing Plan Tiers ----
 
-Let's compare the different tiers available. The Hospital Confinement Benefit ranges from one hundred dollars to one thousand dollars per day, depending on the plan. Primary Care Visit Benefits are fifty dollars per day for most plans, with the 750 and 1000 plans offering seventy-five dollars. Specialty Care Visit Benefits range from fifty dollars to one hundred dollars per day. Emergency Room Benefits are available in the 300 plan and above, starting at fifty dollars per day. All plans include an Accidental Death Benefit of ten thousand dollars and a Critical Illness Benefit of one thousand dollars.
+Let's compare the different tiers available. The Hospital Confinement Benefit ranges from one hundred dollars to one thousand dollars per day, depending on the plan. Primary Care Visit Benefits start at fifty dollars per day for most plans, with the 1000 plan offering seventy-five dollars. Specialty Care Visit Benefits follow a similar pattern. Emergency Room Benefits range from fifty to one hundred dollars per day. Additional benefits like Surgery, Mental Health, and Accident coverage increase with higher tier plans. All plans from 100 and up include an Accidental Death Benefit of ten thousand dollars, and most plans include a Critical Illness Benefit of one thousand dollars.
 
 ---- Definitions and Limitations ----
 

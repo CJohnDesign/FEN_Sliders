@@ -95,6 +95,10 @@ a:hover {
   list-style: square;
   margin-bottom: .125rem !important;
   font-size: 0.875em;
+  line-height: 1.6;
+}
+
+.slidev-layout li {
   line-height: 1.4;
 }
 

@@ -48,8 +48,8 @@ async function parseMdFile(filePath) {
     const text = parts[i + 1]?.trim();
     
     if (title && text) {
-      // Split the text into paragraphs (split by double newline)
-      const paragraphs = text.split(/\n\n+/).filter(p => p.trim());
+      // Split the text into paragraphs (split by lines that are empty or contain only whitespace)
+      const paragraphs = text.split(/\n[\s\n]*\n/).filter(p => p.trim());
       
       // Create a section for each paragraph
       paragraphs.forEach((paragraph, pIndex) => {

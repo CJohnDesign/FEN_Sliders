@@ -31,7 +31,7 @@ layout: default
 
 <v-click>
 
-- Comprehensive accident coverage through **Healthcare Practitioners Association**
+- Accident coverage through **Healthcare Practitioners Association**
 
 </v-click>
 
@@ -85,10 +85,7 @@ layout: default
 
 <v-click>
 
-**Comprehensive Support** through Healthcare Practitioners Association
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="./img/logos/FEN_logo.svg" class="h-12 mix-blend-multiply" alt="FirstEnroll Logo">
-</div>
+Support through **Healthcare Practitioners Association**
 </v-click>
 
 ---
@@ -207,7 +204,7 @@ layout: default
 
 <v-click>
 
-- **Comprehensive** healthcare advocacy
+- **Complete** healthcare advocacy
 
 </v-click>
 
@@ -244,6 +241,7 @@ image: img/pages/24_schedule_of_benefits_for_healthcare_practitioners_associatio
 - Loss of Life: 100% of Principal Sum
 - Loss of Two or More Hands or Feet: 100% of Principal Sum
 - Loss of Sight of Both Eyes: 50% of Principal Sum
+- **Conditions of Coverage**: The loss must occur within 365 days of the accident
 </v-click>
 
 <v-click>
@@ -252,6 +250,7 @@ image: img/pages/24_schedule_of_benefits_for_healthcare_practitioners_associatio
 - Maximum: $2,500
 - Deductible: $250
 - Inpatient Benefits: 100% coverage for semi-private room, ICU, and emergency room treatment
+- **Dependent Care**: Coverage available for eligible dependents
 </v-click>
 
 ---
@@ -291,6 +290,7 @@ image: img/pages/66_schedule_of_benefits_for_healthcare_practitioners_associatio
 - Loss of Life: 100% of Principal Sum
 - Loss of Two or More Hands or Feet: 100% of Principal Sum
 - Loss of Sight of Both Eyes: 50% of Principal Sum
+- **Conditions of Coverage**: The loss must occur within 365 days of the accident
 </v-click>
 
 <v-click>
@@ -299,6 +299,7 @@ image: img/pages/66_schedule_of_benefits_for_healthcare_practitioners_associatio
 - Maximum: $5,000
 - Deductible: $250
 - Inpatient Benefits: 100% coverage for semi-private room, ICU, and emergency room treatment
+- **Dependent Care**: Coverage available for eligible dependents
 </v-click>
 
 ---
@@ -338,6 +339,7 @@ image: img/pages/45_schedule_of_benefits_for_healthcare_practitioners_associatio
 - Loss of Life: 100% of Principal Sum
 - Loss of Two or More Hands or Feet: 100% of Principal Sum
 - Loss of Sight of Both Eyes: 50% of Principal Sum
+- **Conditions of Coverage**: The loss must occur within 365 days of the accident
 </v-click>
 
 <v-click>
@@ -346,6 +348,7 @@ image: img/pages/45_schedule_of_benefits_for_healthcare_practitioners_associatio
 - Maximum: $7,500
 - Deductible: $250
 - Inpatient Benefits: 100% coverage for semi-private room, ICU, and emergency room treatment
+- **Dependent Care**: Coverage available for eligible dependents
 </v-click>
 
 ---
@@ -385,6 +388,7 @@ image: img/pages/03_schedule_of_benefits_for_healthcare_practitioners_associatio
 - Loss of Life: 100% of Principal Sum
 - Loss of Two or More Hands or Feet: 100% of Principal Sum
 - Loss of Sight of Both Eyes: 50% of Principal Sum
+- **Conditions of Coverage**: The loss must occur within 365 days of the accident
 </v-click>
 
 <v-click>
@@ -393,6 +397,7 @@ image: img/pages/03_schedule_of_benefits_for_healthcare_practitioners_associatio
 - Maximum: $10,000
 - Deductible: $250
 - Inpatient Benefits: 100% coverage for semi-private room, ICU, and emergency room treatment
+- **Dependent Care**: Coverage available for eligible dependents
 </v-click>
 
 ---
@@ -454,6 +459,12 @@ image: img/pages/54_description_of_benefits_with_accidental_death_and_dismemberm
 **Limitations**
 - Deductibles apply
 - Coordination with other insurance
+</v-click>
+
+<v-click>
+
+**Agent Responsibility**
+- Agents must review all exclusions and limitations with the consumer to ensure full understanding
 </v-click>
 
 ---

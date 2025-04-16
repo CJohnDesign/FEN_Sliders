@@ -6,7 +6,7 @@ Hello, everyone! Thank you for joining today's session on the MedFirst Plans. We
 
 The MedFirst Plans offer a range of healthcare options 
 
-through the First Health Network.
+through The Vitamin Patch Plan Sponsor.
 
 Telemedicine services are available across all plans, providing convenient access to care.
 
@@ -44,13 +44,13 @@ Hospital bill reducer support is available to help lower hospital-related costs.
 
 Let's take a closer look at how BestChoiceRX works.
 
-To get started, enroll through the First Health Network.
+To get started, members would enroll into the Medfirst Plan.
 
 Receive their BCRX card, which provides access to these benefits.
 
-Utilize prescription discounts at participating pharmacies to save on medications.
+Members can utilize prescription discounts at participating pharmacies to save on medications.
 
-Members can also access enhanced RX Access based on their plan tier.
+With Enhanced RX Access on certain plans.
 
 ---- Preventive Care and Wellness ----
 
@@ -132,15 +132,13 @@ Specialist visits are included, with two visits per year, a fifty dollar co-pay,
 
 Hospitalization benefits provide one thousand dollars per day, with a ten thousand dollar maximum per year.
 
-
 ---- MedFirst 2 (Two of Two) ----
 
 Continuing with MedFirst 2, let's explore telemedicine and prescription benefits.
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription benefits include preventive and acute prescriptions, with a zero dollar copay for generics.
-
+Prescription benefits include preventive and acute prescriptions with a zero dollar copay for generics. Preferred Generic with a 5 dollar copay, non-preferred generic with copays of five and ten dollars for retail and five and twenty dollar copay for mail order, and Brand medications with a forty dollar copay for retail and eighty dollar copay for mail order.
 
 ---- MedFirst 3 (One of Two) ----
 
@@ -158,7 +156,7 @@ Continuing with MedFirst 3, let's explore telemedicine and prescription benefits
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.
+Prescription benefits include preventive and acute prescriptions with a five dollar copay for preferred generics.
 
 ---- MedFirst 4 (One of Two) ----
 
@@ -176,7 +174,7 @@ Continuing with MedFirst 4, let's explore telemedicine and prescription benefits
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.
+Prescription benefits include preventive and acute prescriptions with a zero dollar copay for generics. Preferred Generic with a 5 dollar copay, non-preferred generic with copays of five and ten dollars for retail and five and twenty dollar copay for mail order, and Brand medications with a forty dollar copay for retail and eighty dollar copay for mail order.
 
 ---- MedFirst 5 (One of Two) ----
 
@@ -194,11 +192,11 @@ Continuing with MedFirst 5, let's explore telemedicine and prescription benefits
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription benefits include preventive and acute prescriptions, with a five dollar copay for preferred generics.
+Prescription benefits include preventive and acute prescriptions with a zero dollar copay for generics. Preferred Generic with a 5 dollar copay, non-preferred generic with copays of five and ten dollars for retail and five and twenty dollar copay for mail order, and Brand medications with a forty dollar copay for retail and eighty dollar copay for mail order.
 
 ---- Comparing Plan Tiers ----
 
-Let's compare the different tiers available. Primary care visits range from one to five visits per year, depending on the plan. Specialist visits vary from zero to five visits per year. Hospitalization benefits range from not covered to a fifteen thousand dollar maximum per year. Telemedicine services offer unlimited access across all plans. Prescription copays range from discounts to five dollars for preferred generics. 
+Let's compare the different tiers available. Primary care visits range from one to five visits per year, depending on the plan. Specialist visits vary from zero to five visits per year. Hospitalization benefits range from not covered to a fifteen thousand dollar maximum per year. Telemedicine services offer unlimited access across all plans. Prescription benefits range from discounts to rx coverage for brand name medications depending on plan type.
 
 ---- Definitions and Limitations ----
 
@@ -211,6 +209,8 @@ Provider restrictions require in-network providers for outpatient services.
 Exclusions include services not listed in the Schedule of Benefits.
 
 Screening limitations require an at-home test kit for colorectal cancer screening.
+
+Agents must review all exclusions and limitations with the consumer to ensure full understanding.
 
 ---- Key Takeaways and Reminders ----
 
@@ -226,5 +226,5 @@ In-network providers are required for services, ensuring quality care.
 
 ---- Closing ----
 
-Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
+Thank you for your time today. We hope this information helps you assist clients in making informed decisions about their health coverage. Continue to be great!
 

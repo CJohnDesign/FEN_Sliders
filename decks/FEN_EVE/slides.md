@@ -33,7 +33,7 @@ layout: default
 
 - Supplemental coverage through **Everest**
 - **Fixed Payments** for various medical expenses
-- **Multiplan PPO Network** and support tools
+- **Claritev Network** and support tools
 - **Direct Payment** through simplified claims process
 - **Flexible Use** support
 
@@ -50,7 +50,7 @@ layout: default
 
 **Fixed Indemnity Benefits**
 
-**Multiplan PPO Network Access**
+**Claritev Network Access**
 
 **Direct Payment of Benefits**
 
@@ -60,9 +60,6 @@ layout: default
 <v-click>
 
 **Additional Savings** through Multiplan
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="Everest Logo">
-</div>
 
 </v-click>
 

@@ -146,13 +146,17 @@ Additional Riders include the Portability Option Rider.
 
 Exclusions include no coverage for serious mental illness and no coverage for alcohol or drug addiction.
 
----- Comparing Plan Tiers ----
+---- Comparing Plan Tiers (1/2) ----
 
-Let's compare the different plans available. Plan 2 offers seven hundred fifty dollars per day for hospital admission with a maximum of one day, one thousand five hundred dollars per day for ICU admission with a maximum of one day, five hundred dollars per day for inpatient surgery with a maximum of one day, and three hundred dollars per day for outpatient surgery with a maximum of one day. General anesthesia is covered at one hundred twenty-five dollars per day. Plan 3 provides one thousand dollars per day for hospital admission with a maximum of one day, two thousand dollars per day for ICU admission with a maximum of one day, five hundred dollars per day for inpatient surgery with a maximum of one day, and three hundred dollars per day for outpatient surgery with a maximum of one day. General anesthesia is also covered at one hundred twenty-five dollars per day. Plan 4 includes two thousand dollars per day for hospital admission with a maximum of one day, two thousand dollars per day for ICU admission with a maximum of one day, seven hundred fifty dollars per day for inpatient surgery with a maximum of one day, and four hundred dollars per day for outpatient surgery with a maximum of one day. General anesthesia coverage increases to three hundred dollars per day, and additional diagnostic and ambulance benefits are included.
+Let's compare the core benefits of our three plans. Plan 2 starts with hospital admission at seven hundred fifty dollars per day, ICU admission at one thousand five hundred dollars per day, and surgery benefits of five hundred dollars for inpatient and three hundred dollars for outpatient procedures, all with one-day maximums. Emergency room visits are covered at two hundred dollars per day for up to two days. For routine care, urgent care and physician's office visits are both fifty dollars per day with three-visit maximums. General anesthesia is covered at one hundred twenty-five dollars per day. Plan 3 increases hospital admission coverage to one thousand dollars per day and ICU admission to two thousand dollars per day. Surgery benefits remain the same as Plan 2, while emergency room coverage increases to three hundred dollars per day. Urgent care, physician's office visits, and general anesthesia maintain the same coverage levels as Plan 2. Plan 4 offers our highest level of core benefits, with two thousand dollars per day for both hospital and ICU admission. Surgery benefits increase to seven hundred fifty dollars for inpatient and four hundred dollars for outpatient procedures. Emergency room coverage rises to five hundred dollars per day, while urgent care and physician's office visits increase to seventy-five dollars per day with five-visit maximums. General anesthesia coverage also increases to three hundred dollars per day.
 
----- Definitions and Limitations ----
+---- Comparing Plan Tiers (2/2) ----
 
-Let's review important definitions and limitations.
+Now let's examine the additional benefits and coverage options. For therapy services, Plans 2 and 3 both offer fifteen dollars per day with a five-day maximum, while Plan 4 increases this to seventy-five dollars per day. Diagnostic and ambulance benefits are exclusive to Plan 4, which provides one hundred dollars per day for minor diagnostic exams and five hundred dollars per day for major diagnostic exams. Plan 4 also includes ambulance coverage at five hundred dollars for ground transportation and one thousand dollars for air transportation, with one-day maximums. Regarding additional coverage, Plans 2 and 3 both include Portability and Continuity riders, while Plan 4 includes only the Portability rider. A notable difference is mental health and addiction coverage - Plan 3 is the only option that covers treatment for serious mental illness and substance use disorders, while Plans 2 and 4 do not include this coverage.
+
+---- Exclusions and Limitations ----
+
+Let's review important Exclusions and Limitations.
 
 General Exclusions include no coverage for cosmetic surgeries, routine vision services, and injuries from illegal acts.
 
@@ -161,6 +165,8 @@ Specific Conditions exclude hernia, adenoids, and tonsils unless emergency, and 
 Rider Limitations specify conditions for portability and continuity riders.
 
 Tax Implications suggest consulting a tax advisor for pre-tax premium payments.
+
+Agents must review all exclusions and limitations with the consumer to ensure full understanding
 
 ---- Key Takeaways and Reminders ----
 
@@ -177,3 +183,4 @@ Enrollment is required to access these benefits.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
+

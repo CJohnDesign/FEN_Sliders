@@ -15,7 +15,8 @@ function analyzeScript(content) {
   // Split by section headers (---- Section Name ----)
   const sections = content.split(/----.*?----/).filter(section => section.trim());
   const lineCounts = sections.map(section => {
-    return section.trim().split('\n\n').filter(line => line.trim()).length;
+    // Split by lines that are empty or contain only whitespace
+    return section.trim().split(/\n[\s\n]*\n/).filter(line => line.trim()).length;
   });
   
   return {

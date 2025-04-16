@@ -86,9 +86,6 @@ layout: default
 <v-click>
 
 **Network Access**: PHCS network with negotiated provider rates
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="/img/logos/FirstHealth_logo.png" class="h-12 mix-blend-multiply" alt="FirstHealth Logo">
-</div>
 </v-click>
 
 ---
@@ -235,7 +232,7 @@ layout: one-half-img
 image: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg
 ---
 
-## Plan 1 (1/2)
+## Plan 1 (1/3)
 
 <v-click>
 
@@ -257,17 +254,22 @@ image: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coi
 
 <v-click>
 
-**Physician Office Visits**
-- Copay - Physician Office / Urgent Care: $25, maximum 2
-- After copayment, additional services subject to Deductible and Coinsurance
-- Combined maximum benefit of $2,000 per coverage period
+**Coverage Period Maximum Options**
+- $250,000, $500,000, $1,000,000
 </v-click>
 
 <v-click>
 
-**Urgent Care**
-- No Additional Deductible
+**Physician Office Visits**
+- Copay - Physician Office / Urgent Care: $25, maximum 2
+- Copay - Specialist $40, maximum 2
+- Copay - Wellness $50, maximum 1
+
+- After copayment, additional services subject to Deductible and Coinsurance
+- Combined maximum benefit of $2,000 per coverage period
 </v-click>
+
+
 
 ---
 transition: fade-out
@@ -275,12 +277,12 @@ layout: one-half-img
 image: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg
 ---
 
-## Plan 1 (2/2)
+## Plan 1 (2/3)
 
 <v-click>
 
-**Coverage Period Maximum Options**
-- $250,000, $500,000, $1,000,000
+**Urgent Care**
+- No Additional Deductible
 </v-click>
 
 <v-click>
@@ -293,16 +295,27 @@ image: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coi
 
 <v-click>
 
-**Hospital & Surgical Benefits**
-- **Hospital Services**
-  - Inpatient Room: Limited to $1,500 per day
-  - Intensive Care: Limited to $2,000 per day
-  - Doctor Visits: $50 per day, limited to $500 per Coverage Period
-  - Outpatient Surgery: Limited to $1,500 per day
-- **Surgical Services**
-  - Surgeon: $5,000 per surgery, max $10,000 per Coverage Period
-  - Assistant Surgeon: $1,000 per surgery, max $2,000 per Coverage Period
-  - Anesthetics: $1,000 per surgery, max $2,000 per Coverage Period
+**Hospital Services**
+- Inpatient Room: Limited to $1,500 per day
+- Intensive Care or Critical Care: Limited to $2,000 per day
+- Doctor Visits: $50 per day, limited to $500 per Coverage Period
+- Outpatient Surgery: Limited to $1,500 per day
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg
+---
+
+## Plan 1 (3/3)
+
+<v-click>
+
+**Surgical Services**
+- Surgeon: $5,000 per surgery, max $10,000 per Coverage Period
+- Assistant Surgeon: $1,000 per surgery, max $2,000 per Coverage Period
+- Anesthetics: $1,000 per surgery, max $2,000 per Coverage Period
 </v-click>
 
 <v-click>
@@ -476,7 +489,14 @@ layout: default
 | Coinsurance Limit | $2,000, $4,000 | $2,000, $4,000 | $2,000, $4,000 |
 | Coverage Period Maximum Options | $250,000, $500,000, $1,000,000 | $250,000, $500,000, $1,000,000 | $250,000, $500,000, $1,000,000 |
 | Copay - Physician Office / Urgent Care | $25, maximum 2 | $15, unlimited | $25, maximum 2 |
+| Surgeon| $5,000 per surgery, Up to $10K | Subject to deductible and coinsurance | Subject to deductible and coinsurance | 
+| Assistant Surgeon| $1,000 per surgery, Up to $2K | Subject to deductible and coinsurance | Subject to deductible and coinsurance
+| Admin. Of Anesthetics| $1,000 per surgery, Up to $2K | Subject to deductible and coinsurance | Subject to deductible and coinsurance
+| Specialist | $40, maximum 2 | $25, unlimited | $40, maximum 2 |
+| Wellness | $50, maximum 1 | $50, maximum 1 | $50, maximum 1 |
 | Urgent Care Additional Deductible | No Additional Deductible | $100, maximum 1 | No Additional Deductible |
+
+
 
 ---
 transition: fade-out
@@ -484,7 +504,7 @@ layout: one-half-img
 image: img/pages/03_detailed_plan_comparison_for_plan_1_2_3_with_deductibles_coinsurance_and_coverage_limits.jpg
 ---
 
-## Other Covered Expenses (All Plans)
+## Other Covered Expenses 
 
 <v-click>
 
@@ -517,7 +537,7 @@ layout: one-half-img
 image: img/pages/05_limitations_and_exclusions_for_insurance_plan_with_pre_existing_conditions_and_excluded_services.jpg
 ---
 
-## Definitions and Limitations
+## Limitations and Exclusions
 
 <v-click>
 
@@ -525,6 +545,7 @@ image: img/pages/05_limitations_and_exclusions_for_insurance_plan_with_pre_exist
 - Defined as any medical advice, diagnosis, care, or treatment received within 36 months prior to the effective date
 - Excludes pre-employment or premarital examinations
 - Excludes experimental procedures
+
 </v-click>
 
 <v-click>
@@ -548,6 +569,11 @@ image: img/pages/05_limitations_and_exclusions_for_insurance_plan_with_pre_exist
 **Waiting Periods**
 - General Illness: 5-day waiting period
 - Cancer Coverage: 30-day waiting period
+</v-click>
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
 </v-click>
 
 ---
@@ -587,4 +613,3 @@ line: Thank you for participating in the Access Health Review. Continue to be gr
 
 Continue to be great!
 
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

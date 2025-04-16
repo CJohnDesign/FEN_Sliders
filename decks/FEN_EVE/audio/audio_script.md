@@ -8,7 +8,7 @@ The Everest Group Indemnity Insurance offers supplemental coverage through Evere
 
 It provides fixed payments for various medical expenses, ensuring predictability in your healthcare costs. 
 
-The plan includes access to the Multiplan Preferred Provider Organization (PPO) Network and support tools, enhancing your member’s healthcare experience. 
+The plan includes access to the Claritev Network and support tools, enhancing your member’s healthcare experience. 
 
 With a simplified claims process, direct payment is made easy, allowing for flexible use of their benefits.
 
@@ -18,13 +18,13 @@ Now, let's explore the key features and benefits of this plan.
 
 This plan includes fixed indemnity benefits, which means members receive a set payment amount for covered services. 
 
-Members have access to the Multiplan PPO Network, offering a wide range of healthcare providers. 
+Members have access to the Claritev Network, offering a wide range of healthcare providers. 
 
 Direct payment of benefits simplifies their healthcare transactions, making it easier to manage their expenses. 
 
 The claims process is simplified, though it may vary by plan, ensuring members can focus on their health rather than paperwork.
 
-Additionally, members can enjoy extra savings through the Multiplan network.
+Additionally, members can enjoy extra savings through the Claritev network.
 
 Now, let's discuss the cost management tools available with this plan.
 
@@ -271,7 +271,7 @@ Here are the key points to remember.
 
 The Everest Group Indemnity Insurance provides supplemental coverage with fixed payments for medical expenses. 
 
-Access to the Multiplan PPO Network and support tools enhances member’s healthcare experience. 
+Access to the Claritev Network and support tools enhances member’s healthcare experience. 
 
 The GapAfford Plus Program offers financial relief through pre-negotiated rates and no deductibles. 
 

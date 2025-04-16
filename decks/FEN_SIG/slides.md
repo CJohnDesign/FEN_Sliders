@@ -246,13 +246,13 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50/day, max 3 days
+- $50/day, max 3 visits
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $50/day, max 3 days
+- $50/day, max 3 visits
 </v-click>
 
 ---
@@ -286,19 +286,19 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Hospital Confinement Benefit**
-- $200/day, max 30 days
+- $100/day, max 30 days
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 3 visits
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 3 visits
 </v-click>
 
 ---
@@ -338,13 +338,25 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 5 visits
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 5 visits
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $50/day, max 1 day
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day, max 1 day
 </v-click>
 
 ---
@@ -378,19 +390,31 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Hospital Confinement Benefit**
-- $300/day, max 30 days
+- $200/day, max 30 days
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 5 visits
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 5 visits
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $50/day, max 3 days
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day, max 2 days
 </v-click>
 
 ---
@@ -410,7 +434,7 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Surgery Benefit**
-- $750/day, max 3 days
+- $400/day, max 3 days
 </v-click>
 
 ---
@@ -424,19 +448,37 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Hospital Confinement Benefit**
-- $500/day, max 30 days
+- $300/day, max 30 days
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 5 visits
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 5 visits
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day, max 2 days
+</v-click>
+
+<v-click>
+
+**Mental Health Inpatient**
+- $150/day, max 60 days
+</v-click>
+
+<v-click>
+
+**Mental Health Outpatient**
+- $50/day, max 20 visits
 </v-click>
 
 ---
@@ -456,7 +498,25 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Surgery Benefit**
-- $1000/day, max 3 days
+- $400/day, max 3 days
+</v-click>
+
+<v-click>
+
+**Anesthesia Benefit**
+- 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Accident Inpatient Admission**
+- $500/day, max 1 day
+</v-click>
+
+<v-click>
+
+**Accident ER Benefit**
+- $250/day, max 1 visit
 </v-click>
 
 ---
@@ -470,19 +530,43 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Hospital Confinement Benefit**
-- $750/day, max 30 days
+- $500/day, max 30 days
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 5 visits
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $50/day, max 5 days
+- $50/day, max 5 visits
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $50/day, max 2 days
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day, max 2 days
+</v-click>
+
+<v-click>
+
+**Mental Health Inpatient**
+- $250/day, max 60 days
+</v-click>
+
+<v-click>
+
+**Mental Health Outpatient**
+- $50/day, max 20 visits
 </v-click>
 
 ---
@@ -502,7 +586,25 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Surgery Benefit**
-- $1500/day, max 3 days
+- $750/day, max 3 days
+</v-click>
+
+<v-click>
+
+**Anesthesia Benefit**
+- 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Accident Inpatient Admission**
+- $500/day, max 1 day
+</v-click>
+
+<v-click>
+
+**Accident ER Benefit**
+- $250/day, max 1 visit
 </v-click>
 
 ---
@@ -516,19 +618,43 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Hospital Confinement Benefit**
-- $1000/day, max 30 days
+- $750/day, max 30 days
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $75/day, max 5 days
+- $50/day, max 5 visits
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $75/day, max 5 days
+- $50/day, max 5 visits
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $50/day, max 2 days
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day, max 2 days
+</v-click>
+
+<v-click>
+
+**Mental Health Inpatient**
+- $375/day, max 60 days
+</v-click>
+
+<v-click>
+
+**Mental Health Outpatient**
+- $50/day, max 20 visits
 </v-click>
 
 ---
@@ -542,13 +668,31 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Emergency Room Benefit**
-- $100/day, max 1 day
+- $75/day, max 1 day
 </v-click>
 
 <v-click>
 
 **Surgery Benefit**
-- $1500/day, max 3 days
+- $1000/day, max 3 days
+</v-click>
+
+<v-click>
+
+**Anesthesia Benefit**
+- 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Accident Inpatient Admission**
+- $500/day, max 2 days
+</v-click>
+
+<v-click>
+
+**Accident ER Benefit**
+- $250/day, max 1 visit
 </v-click>
 
 ---
@@ -568,13 +712,37 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 <v-click>
 
 **Primary Care Visit Benefit**
-- $75/day, max 5 days
+- $75/day, max 5 visits
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $75/day, max 5 days
+- $75/day, max 5 visits
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $75/day, max 3 days
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $75/day, max 3 days
+</v-click>
+
+<v-click>
+
+**Mental Health Inpatient**
+- $500/day, max 60 days
+</v-click>
+
+<v-click>
+
+**Mental Health Outpatient**
+- $50/day, max 20 visits
 </v-click>
 
 ---
@@ -597,6 +765,24 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 - $1500/day, max 3 days
 </v-click>
 
+<v-click>
+
+**Anesthesia Benefit**
+- 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Accident Inpatient Admission**
+- $500/day, max 3 days
+</v-click>
+
+<v-click>
+
+**Accident ER Benefit**
+- $250/day, max 1 visit
+</v-click>
+
 ---
 transition: fade-out
 layout: default
@@ -606,11 +792,18 @@ layout: default
 
 | **Feature** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
 |---------|----------|----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| Hospital Confinement Benefit | $100 | $200 | $200 | $300 | $500 | $750 | $1000 | $1000 |
-| Primary Care Doctors Office Visit | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 |
-| Specialty Care Doctors’ Office Visit | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 |
-| Emergency Room Benefit | - | $50 | $50 | $50 | $50 | $75 | $100 | $100 |
-| Surgery Benefit | - | $400 | $400 | $750 | $1000 | $1500 | $1500 | $1500 |
+| Hospital Confinement Benefit | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 |
+| Primary Care Visit | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |
+| Specialty Care Visit | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |
+| Emergency Room Benefit | - | $50 | $50 | $50 | $50 | $75 | $75 | $100 |
+| Basic Pathology & Radiology | - | - | $50 | $50 | - | $50 | $50 | $75 |
+| Advance Studies | - | - | $50 | $50 | $50 | $50 | $50 | $75 |
+| Surgery Benefit | - | - | - | $400 | $400 | $750 | $1000 | $1500 |
+| Anesthesia Benefit | - | - | - | 20% | 20% | 20% | 20% | 20% |
+| Mental Health Inpatient | - | - | - | - | $150 | $250 | $375 | $500 |
+| Mental Health Outpatient | - | - | - | - | $50 | $50 | $50 | $50 |
+| Accident Inpatient Admission | - | - | - | - | $500 | $500 | $500 | $500 |
+| Accident ER Benefit | - | - | - | - | $250 | $250 | $250 | $250 |
 
 ---
 transition: fade-out

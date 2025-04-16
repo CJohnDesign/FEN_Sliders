@@ -242,30 +242,25 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 100A 
+## Plan 100A
 
 <v-click>
 
-**Hospital Confinement Benefit**
+**Hospital Confinement**
 - $100 per day, max 30 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $50 per day, max 3 visits
+**Primary Care & Specialty Care**
+- Primary Care: $50 per day, max 3 visits
+- Specialty Care: $50 per day, max 3 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $50 per day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000
+**Accident & Critical Coverage**
+- Accidental Death: $10,000
 </v-click>
 
 ---
@@ -274,36 +269,27 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 100
+## Plan 100 (1/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
+**Hospital Confinement**
 - $100 per day, max 30 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $50 per day, max 3 visits
+**Primary Care & Specialty Care**
+- Primary Care: $50 per day, max 3 visits
+- Specialty Care: $50 per day, max 3 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $50 per day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50 per day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000
+**Additional Benefits**
+- Emergency Room: $50 per day, max 1 visit
+- Basic Pathology & Radiology: $50 per day, max 1 day
+- Advance Studies: $50 per day, max 1 day
 </v-click>
 
 ---
@@ -312,36 +298,51 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 200
+## Plan 100 (2/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
+**Surgical Benefits**
+- Surgery: 50%, max 3 days
+- Anesthesia: 20%, max 3 days
+</v-click>
+
+
+<v-click>
+
+**Accident & Critical Coverage**
+- Accident Inpatient Admission: $500 per day, max 1 day
+- Accident ER Benefit: $250 per day, max 1 visit
+- Accidental Death: $10,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
+---
+
+## Plan 200 (1/2)
+
+<v-click>
+
+**Hospital Confinement**
 - $200 per day, max 30 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $50 per day, max 3 visits
+**Primary Care & Specialty Care**
+- Primary Care: $50 per day, max 5 visits
+- Specialty Care: $50 per day, max 5 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $50 per day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50 per day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
+**Additional Benefits**
+- Emergency Room: $50 per day, max 1 visit
+- Basic Pathology & Radiology: $50 per day, max 1 day
+- Advance Studies: $50 per day, max 1 day
 </v-click>
 
 ---
@@ -350,36 +351,51 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 200+
+## Plan 200 (2/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
+**Surgical Benefits**
+- Surgery: 50%, max 3 days
+- Anesthesia: 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Accident & Critical Coverage**
+- Accident Inpatient Admission: $500 per day, max 1 day
+- Accident ER Benefit: $250 per day, max 1 visit
+- Accidental Death: $10,000
+- Critical Illness: $1,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
+---
+
+## Plan 200+ (1/2)
+
+<v-click>
+
+**Hospital Confinement**
 - $200 per day, max 30 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $50 per day, max 3 visits
+**Primary Care & Specialty Care**
+- Primary Care: $50 per day, max 5 visits
+- Specialty Care: $50 per day, max 5 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $50 per day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50 per day, max 2 visits
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
+**Additional Benefits**
+- Emergency Room: $50 per day, max 2 visits
+- Basic Pathology & Radiology: $50 per day, max 3 days
+- Advance Studies: $50 per day, max 3 days
 </v-click>
 
 ---
@@ -388,36 +404,51 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 300
+## Plan 200+ (2/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
+**Surgical Benefits**
+- Surgery: 50%, max 3 days
+- Anesthesia: 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Accident & Critical Coverage**
+- Accident Inpatient Admission: $500 per day, max 1 day
+- Accident ER Benefit: $250 per day, max 1 visit
+- Accidental Death: $10,000
+- Critical Illness: $1,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
+---
+
+## Plan 300 (1/2)
+
+<v-click>
+
+**Hospital Confinement**
 - $300 per day, max 30 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $50 per day, max 3 visits
+**Primary Care & Specialty Care**
+- Primary Care: $50 per day, max 5 visits
+- Specialty Care: $50 per day, max 5 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $50 per day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50 per day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
+**Additional Benefits**
+- Emergency Room: $50 per day, max 1 visit
+- Basic Pathology & Radiology: $50 per day, max 2 days
+- Advance Studies: $50 per day, max 2 days
 </v-click>
 
 ---
@@ -426,36 +457,58 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 500
+## Plan 300 (2/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
+**Surgical Benefits**
+- Surgery: 50%, max 3 days
+- Anesthesia: 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Mental Health**
+- Inpatient: $150 per day, max 60 days
+- Outpatient: $50 per day, max 20 visits
+</v-click>
+
+<v-click>
+
+**Accident & Critical Coverage**
+- Accident Inpatient Admission: $500 per day, max 1 day
+- Accident ER Benefit: $250 per day, max 1 visit
+- Accidental Death: $10,000
+- Critical Illness: $1,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
+---
+
+## Plan 500 (1/2)
+
+<v-click>
+
+**Hospital Confinement**
 - $500 per day, max 30 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $50 per day, max 3 visits
+**Primary Care & Specialty Care**
+- Primary Care: $50 per day, max 5 visits
+- Specialty Care: $50 per day, max 5 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $50 per day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50 per day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
+**Additional Benefits**
+- Emergency Room: $75 per day, max 1 visit
+- Basic Pathology & Radiology: $50 per day, max 2 days
+- Advance Studies: $50 per day, max 2 days
 </v-click>
 
 ---
@@ -464,36 +517,58 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 750
+## Plan 500 (2/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
+**Surgical Benefits**
+- Surgery: 70%, max 3 days
+- Anesthesia: 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Mental Health**
+- Inpatient: $250 per day, max 60 days
+- Outpatient: $50 per day, max 20 visits
+</v-click>
+
+<v-click>
+
+**Accident & Critical Coverage**
+- Accident Inpatient Admission: $500 per day, max 1 day
+- Accident ER Benefit: $250 per day, max 1 visit
+- Accidental Death: $10,000
+- Critical Illness: $1,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
+---
+
+## Plan 750 (1/2)
+
+<v-click>
+
+**Hospital Confinement**
 - $750 per day, max 30 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $75 per day, max 5 visits
+**Primary Care & Specialty Care**
+- Primary Care: $50 per day, max 5 visits
+- Specialty Care: $50 per day, max 5 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $75 per day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $75 per day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
+**Additional Benefits**
+- Emergency Room: $75 per day, max 1 visit
+- Basic Pathology & Radiology: $50 per day, max 2 days
+- Advance Studies: $50 per day, max 2 days
 </v-click>
 
 ---
@@ -502,36 +577,29 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 1000
+## Plan 750 (2/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
-- $1000 per day, max 30 days
+**Surgical Benefits**
+- Surgery: 80%, max 3 days
+- Anesthesia: 20%, max 3 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $100 per day, max 5 visits
+**Mental Health**
+- Inpatient: $375 per day, max 60 days
+- Outpatient: $50 per day, max 20 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $75 per day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $100 per day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
+**Accident & Critical Coverage**
+- Accident Inpatient Admission: $500 per day, max 2 days
+- Accident ER Benefit: $250 per day, max 1 visit
+- Accidental Death: $10,000
+- Critical Illness: $1,000
 </v-click>
 
 ---
@@ -540,36 +608,121 @@ layout: one-half-img
 image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
 ---
 
-## Plan 1000+
+## Plan 1000 (1/2)
 
 <v-click>
 
-**Hospital Confinement Benefit**
+**Hospital Confinement**
 - $1000 per day, max 30 days
 </v-click>
 
 <v-click>
 
-**Primary Care Visit Benefit**
-- $100 per day, max 5 visits
+**Primary Care & Specialty Care**
+- Primary Care: $75 per day, max 5 visits
+- Specialty Care: $75 per day, max 5 visits
 </v-click>
 
 <v-click>
 
-**Specialty Care Visit Benefit**
-- $100 per day, max 5 visits
+**Additional Benefits**
+- Emergency Room: $100 per day, max 1 visit
+- Basic Pathology & Radiology: $75 per day, max 3 days
+- Advance Studies: $75 per day, max 3 days
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
+---
+
+## Plan 1000 (2/2)
+
+<v-click>
+
+**Surgical Benefits**
+- Surgery: 100%, max 3 days
+- Anesthesia: 20%, max 3 days
 </v-click>
 
 <v-click>
 
-**Emergency Room Benefit**
-- $200 per day, max 1 visit
+**Mental Health**
+- Inpatient: $500 per day, max 60 days
+- Outpatient: $50 per day, max 20 visits
 </v-click>
 
 <v-click>
 
-**Critical Illness Benefit**
-- $1,000
+**Accident & Critical Coverage**
+- Accident Inpatient Admission: $500 per day, max 3 days
+- Accident ER Benefit: $250 per day, max 1 visit
+- Hospital ICU Benefit: $1000 per day, max 15 days
+- Accidental Death: $10,000
+- Critical Illness: $1,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
+---
+
+## Plan 1000+ (1/2)
+
+<v-click>
+
+**Hospital Confinement**
+- $1000 per day, max 30 days
+</v-click>
+
+<v-click>
+
+**Primary Care & Specialty Care**
+- Primary Care: $100 per day, max 5 visits
+- Specialty Care: $100 per day, max 5 visits
+</v-click>
+
+<v-click>
+
+**Additional Benefits**
+- Emergency Room: $200 per day, max 1 visit
+- Basic Pathology & Radiology: $100 per day, max 3 days
+- Advance Studies: $200 per day, max 3 days
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_nce_health_choice_silver_plan_details_with_benefits_for_100a_100_200_200_300_500_750_1000_1000.jpg
+---
+
+## Plan 1000+ (2/2)
+
+<v-click>
+
+**Surgical Benefits**
+- Surgery: 100%, max 3 days
+- Anesthesia: 25%, max 3 days
+</v-click>
+
+<v-click>
+
+**Mental Health**
+- Inpatient: $500 per day, max 60 days
+- Outpatient: $50 per day, max 20 visits
+</v-click>
+
+<v-click>
+
+**Accident & Critical Coverage**
+- Accident Inpatient Admission: $500 per day, max 3 days
+- Accident ER Benefit: $250 per day, max 1 visit
+- Hospital ICU Benefit: $1000 per day, max 15 days
+- Additional Hospital Admission: $1000 per admission, max 5 admissions
+- Accidental Death: $10,000
+- Critical Illness: $1,000
 </v-click>
 
 ---
@@ -579,13 +732,26 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** | **1000+** |
-|---------|----------|----------|-----------|-----------|----------|----------|----------|-----------|------------|
-| Hospital Confinement (Per Day) | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 | $1000 |
-| Primary Care Visit (Per Day) | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $100 | $100 |
-| Specialty Care Visit (Per Day) | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 | $100 |
-| Emergency Room (Per Day) | - | $50 | $50 | $50 | $50 | $50 | $75 | $100 | $200 |
-| Critical Illness | - | - | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 |
+| Benefit | 100A | 100 | 200 | 200+ | 300 | 500 | 750 | 1000 | 1000+ |
+|---------|------|-----|------|------|------|------|------|-------|--------|
+| Hospital Confinement | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 | $1000 |
+| Primary Care Visit | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $100 |
+| Specialty Care Visit | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $100 |
+| Emergency Room | - | $50 | $50 | $50 | $50 | $75 | $75 | $100 | $200 |
+| Basic Path & Rad | - | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $100 |
+| Advance Studies | - | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $200 |
+| Surgery | - | 50% | 50% | 50% | 50% | 70% | 80% | 100% | 100% |
+| Anesthesia | - | 20% | 20% | 20% | 20% | 20% | 20% | 20% | 25% |
+| Mental Health IP | - | - | - | - | $150 | $250 | $375 | $500 | $500 |
+| Mental Health OP | - | - | - | - | $50 | $50 | $50 | $50 | $50 |
+| Accident IP Admit | - | $500 | $500 | $500 | $500 | $500 | $500 | $500 | $500 |
+| Accident ER | - | $250 | $250 | $250 | $250 | $250 | $250 | $250 | $250 |
+| Hospital ICU | - | - | - | - | - | - | - | $1000 | $1000 |
+| Add'l Hospital Admit | - | - | - | - | - | - | - | - | $1000 |
+| Accidental Death | $10K | $10K | $10K | $10K | $10K | $10K | $10K | $10K | $10K |
+| Critical Illness | - | - | $1K | $1K | $1K | $1K | $1K | $1K | $1K |
+
+*All benefits are per day unless otherwise noted. Maximum days/visits apply as detailed in plan descriptions.
 
 ---
 transition: fade-out
@@ -661,5 +827,3 @@ line: Thank you for participating in the Health Choice Silver Review. Continue t
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

@@ -92,9 +92,9 @@ Let's examine our first plan tier, Plan 100A.
 
 The hospital confinement benefit offers one hundred dollars per day, with a maximum of thirty days. 
 
-The primary care visit benefit provides fifty dollars per day, up to three days. 
+The primary care visit benefit provides fifty dollars per day, up to three visits. 
 
-Similarly, the specialty care visit benefit is fifty dollars per day, also for a maximum of three days.
+Similarly, the specialty care visit benefit is fifty dollars per day, also for a maximum of three visits.
 
 ---- Plan Tier 1 (Two of Two) ----
 
@@ -108,11 +108,11 @@ and the surgery benefit is also not available under this plan.
 
 Now, let's look at our second plan tier, Plan 100.
 
-The hospital confinement benefit increases to two hundred dollars per day, with a maximum of thirty days. 
+The hospital confinement benefit is one hundred dollars per day, with a maximum of thirty days. 
 
-The primary care visit benefit remains at fifty dollars per day, but extends to five days. 
+The primary care visit benefit is fifty dollars per day, up to three visits. 
 
-The specialty care visit benefit is also fifty dollars per day, for up to five days.
+The specialty care visit benefit is also fifty dollars per day, for up to three visits.
 
 ---- Plan Tier 2 (Two of Two) ----
 
@@ -120,7 +120,7 @@ Continuing with our second plan tier, Plan 100.
 
 The emergency room benefit provides fifty dollars per day, for a maximum of one day. 
 
-The surgery benefit offers four hundred dollars per day, with a maximum of three days.
+No surgery benefit is available under this plan.
 
 ---- Plan Tier 3 (One of Two) ----
 
@@ -128,9 +128,13 @@ Let's move on to Plan 200.
 
 The hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days. 
 
-The primary care visit benefit is fifty dollars per day, up to five days. 
+The primary care visit benefit is fifty dollars per day, up to five visits. 
 
-The specialty care visit benefit is also fifty dollars per day, for a maximum of five days.
+The specialty care visit benefit is also fifty dollars per day, for a maximum of five visits.
+
+The basic pathology and radiology benefit provides fifty dollars per day, for up to one day.
+
+The advance studies benefit offers fifty dollars per day, for a maximum of one day.
 
 ---- Plan Tier 3 (Two of Two) ----
 
@@ -138,17 +142,21 @@ Continuing with Plan 200.
 
 The emergency room benefit provides fifty dollars per day, for one day. 
 
-The surgery benefit offers four hundred dollars per day, with a maximum of three days.
+No surgery benefit is available under this plan.
 
 ---- Plan Tier 4 (One of Two) ----
 
 Next, we have Plan 200+.
 
-The hospital confinement benefit increases to three hundred dollars per day, with a maximum of thirty days. 
+The hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days. 
 
-The primary care visit benefit remains at fifty dollars per day, for up to five days. 
+The primary care visit benefit is fifty dollars per day, for up to five visits. 
 
-The specialty care visit benefit is fifty dollars per day, for a maximum of five days.
+The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
+
+The basic pathology and radiology benefit provides fifty dollars per day, for up to three days.
+
+The advance studies benefit offers fifty dollars per day, for a maximum of two days.
 
 ---- Plan Tier 4 (Two of Two) ----
 
@@ -156,17 +164,25 @@ Continuing with Plan 200+.
 
 The emergency room benefit provides fifty dollars per day, for up to two days. 
 
-The surgery benefit offers seven hundred fifty dollars per day, with a maximum of three days.
+The surgery benefit offers four hundred dollars per day, with a maximum of three days.
+
+The anesthesia benefit offers twenty percent, with a maximum of three days.
 
 ---- Plan Tier 5 (One of Two) ----
 
 Now, let's look at Plan 300.
 
-The hospital confinement benefit is five hundred dollars per day, with a maximum of thirty days. 
+The hospital confinement benefit is three hundred dollars per day, with a maximum of thirty days. 
 
-The primary care visit benefit is fifty dollars per day, for up to five days. 
+The primary care visit benefit is fifty dollars per day, for up to five visits. 
 
-The specialty care visit benefit is fifty dollars per day, for a maximum of five days.
+The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
+
+The advance studies benefit offers fifty dollars per day, for a maximum of two days.
+
+The mental health inpatient benefit is one hundred fifty dollars per day, for up to sixty days.
+
+The mental health outpatient benefit provides fifty dollars per day, for a maximum of twenty visits.
 
 ---- Plan Tier 5 (Two of Two) ----
 
@@ -174,17 +190,31 @@ Continuing with Plan 300.
 
 The emergency room benefit provides fifty dollars per day, for one day. 
 
-The surgery benefit offers one thousand dollars per day, with a maximum of three days.
+The surgery benefit offers four hundred dollars per day, with a maximum of three days.
+
+The anesthesia benefit offers twenty percent, with a maximum of three days.
+
+The accident inpatient admission benefit offers five hundred dollars per day, for up to one day.
+
+The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
 
 ---- Plan Tier 6 (One of Two) ----
 
 Let's examine Plan 500.
 
-The hospital confinement benefit is seven hundred fifty dollars per day, with a maximum of thirty days. 
+The hospital confinement benefit is five hundred dollars per day, with a maximum of thirty days. 
 
-The primary care visit benefit is fifty dollars per day, for up to five days. 
+The primary care visit benefit is fifty dollars per day, for up to five visits. 
 
-The specialty care visit benefit is fifty dollars per day, for a maximum of five days.
+The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
+
+The basic pathology and radiology benefit offers fifty dollars per day, for up to two days.
+
+The advance studies benefit provides fifty dollars per day, for a maximum of two days.
+
+The mental health inpatient benefit is two hundred fifty dollars per day, for up to sixty days.
+
+The mental health outpatient benefit provides fifty dollars per day, for a maximum of twenty visits.
 
 ---- Plan Tier 6 (Two of Two) ----
 
@@ -192,25 +222,45 @@ Continuing with Plan 500.
 
 The emergency room benefit provides seventy-five dollars per day, for one day. 
 
-The surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days.
+The surgery benefit offers seven hundred fifty dollars per day, with a maximum of three days.
+
+The anesthesia benefit provides twenty percent, with a maximum of three days.
+
+The accident inpatient admission benefit offers five hundred dollars per day, for up to one day.
+
+The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
 
 ---- Plan Tier 7 (One of Two) ----
 
 Now, let's look at Plan 750.
 
-The hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days. 
+The hospital confinement benefit is seven hundred fifty dollars per day, with a maximum of thirty days. 
 
-The primary care visit benefit is seventy-five dollars per day, for up to five days. 
+The primary care visit benefit is fifty dollars per day, for up to five visits. 
 
-The specialty care visit benefit is seventy-five dollars per day, for a maximum of five days.
+The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
+
+The basic pathology and radiology benefit offers fifty dollars per day, for up to two days.
+
+The advance studies benefit provides fifty dollars per day, for a maximum of two days.
+
+The mental health inpatient benefit is three hundred seventy-five dollars per day, for up to sixty days.
+
+The mental health outpatient benefit provides fifty dollars per day, for a maximum of twenty visits.
 
 ---- Plan Tier 7 (Two of Two) ----
 
 Continuing with Plan 750.
 
-The emergency room benefit provides one hundred dollars per day, for one day. 
+The emergency room benefit provides seventy-five dollars per day, for one day. 
 
-The surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days.
+The surgery benefit offers one thousand dollars per day, with a maximum of three days.
+
+The anesthesia benefit provides twenty percent, with a maximum of three days.
+
+The accident inpatient admission benefit offers five hundred dollars per day, for up to two days.
+
+The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
 
 ---- Plan Tier 8 (One of Two) ----
 
@@ -218,9 +268,17 @@ Finally, let's examine Plan 1000.
 
 The hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days. 
 
-The primary care visit benefit is seventy-five dollars per day, for up to five days. 
+The primary care visit benefit is seventy-five dollars per day, for up to five visits. 
 
-The specialty care visit benefit is seventy-five dollars per day, for a maximum of five days.
+The specialty care visit benefit is seventy-five dollars per day, for a maximum of five visits.
+
+The basic pathology and radiology benefit offers seventy-five dollars per day, for up to three days.
+
+The advance studies benefit provides seventy-five dollars per day, for a maximum of three days.
+
+The mental health inpatient benefit is five hundred dollars per day, for up to sixty days.
+
+The mental health outpatient benefit provides fifty dollars per day, for a maximum of twenty visits.
 
 ---- Plan Tier 8 (Two of Two) ----
 
@@ -230,9 +288,15 @@ The emergency room benefit provides one hundred dollars per day, for one day.
 
 The surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days.
 
+The anesthesia benefit provides twenty percent, with a maximum of three days.
+
+The accident inpatient admission benefit offers five hundred dollars per day, for up to three days.
+
+The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
+
 ---- Comparing Plan Tiers ----
 
-Let's compare the different tiers available. The Sigma Care Plus plans range from the basic 100A tier to the premium 1000 tier, with hospital confinement benefits increasing from $100 to $1000 per day across the spectrum. Primary and specialty care visit benefits start at $50 per day in lower tiers and increase to $75 in the premium tiers, while emergency room coverage ranges from $50 to $100 per day. Surgery benefits show the most dramatic progression, starting at $400 in Plan 100 and reaching $1500 in the higher-tier plans, giving members the flexibility to select coverage that aligns with both their healthcare needs and financial considerations.
+Let's compare the different tiers available. The Sigma Care Plus plans range from the basic 100A tier to the premium 1000 tier, with hospital confinement benefits increasing from $100 to $1000 per day across the spectrum. Primary and specialty care visit benefits vary from $50 in most plans to $75 in the premium tier, while emergency room coverage ranges from $50 to $100 per day. The plans progressively add more benefits like pathology services, mental health coverage, and accident benefits. Surgery benefits show the most dramatic progression, starting at $400 in Plan 200+ and reaching $1500 in the premium plan, giving members the flexibility to select coverage that aligns with both their healthcare needs and financial considerations.
 
 ---- Definitions and Limitations ----
 

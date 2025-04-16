@@ -235,27 +235,24 @@ layout: one-half-img
 image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
 ---
 
-## 100A Plan (1/2)
+## 100A Plan
 
 <v-click>
 
 **Hospital Confinement Benefit**
-- $100 per day
-- Max 30 days
+- $100/day (max 30 days)
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50 per day
-- Max 3 days
+- $50/day (max 3 visits)
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $50 per day
-- Max 3 days
+- $50/day (max 3 visits)
 </v-click>
 
 ---
@@ -264,230 +261,150 @@ layout: one-half-img
 image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
 ---
 
-## 100A Plan (2/2)
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
----
-
-## 100 Plan (1/2)
+## 100 Plan
 
 <v-click>
 
 **Hospital Confinement Benefit**
-- $200 per day
-- Max 30 days
+- $100/day (max 30 days)
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50 per day
-- Max 5 days
+- $50/day (max 3 visits)
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $50 per day
-- Max 5 days
+- $50/day (max 3 visits)
 </v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
----
-
-## 100 Plan (2/2)
-
-<v-click>
-
-**Mental Health Inpatient Benefit**
-- $150 per day
-- Max 60 days
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
----
-
-## 200 Plan (1/2)
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $200 per day
-- Max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50 per day
-- Max 5 days
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50 per day
-- Max 5 days
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
----
-
-## 200 Plan (2/2)
-
-<v-click>
-
-**Surgery Benefit**
-- $400 per day
-- Max 3 days
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
----
-
-## 200+ Plan (1/2)
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $300 per day
-- Max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50 per day
-- Max 5 days
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50 per day
-- Max 5 days
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
----
-
-## 200+ Plan (2/2)
-
-<v-click>
-
-**Surgery Benefit**
-- $400 per day
-- Max 3 days
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000
-</v-click>
-
-<v-click>
-
-**Critical Illness Benefit**
-- $1,000
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
----
-
-## 300 Plan (1/2)
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $500 per day
-- Max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50 per day
-- Max 5 days
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50 per day
-- Max 5 days
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
----
-
-## 300 Plan (2/2)
 
 <v-click>
 
 **Emergency Room Benefit**
-- $50 per day
-- Max 1 day
+- $50/day (max 1 visit)
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- $10,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
+---
+
+## 200 Plan
+
+<v-click>
+
+**Hospital Confinement Benefit**
+- $200/day (max 30 days)
+</v-click>
+
+<v-click>
+
+**Primary Care Visit Benefit**
+- $50/day (max 5 visits)
+</v-click>
+
+<v-click>
+
+**Specialty Care Visit Benefit**
+- $50/day (max 5 visits)
+</v-click>
+
+<v-click>
+
+**Emergency Room Benefit**
+- $50/day (max 1 visit)
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $50/day (max 1 day)
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day (max 1 day)
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- $10,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
+---
+
+## 200+ Plan (One of Two)
+
+<v-click>
+
+**Hospital Confinement Benefit**
+- $200/day (max 30 days)
+</v-click>
+
+<v-click>
+
+**Primary Care Visit Benefit**
+- $50/day (max 5 visits)
+</v-click>
+
+<v-click>
+
+**Specialty Care Visit Benefit**
+- $50/day (max 5 visits)
+</v-click>
+
+<v-click>
+
+**Emergency Room Benefit**
+- $50/day (max 2 visits)
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $50/day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day (max 2 days)
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
+---
+
+## 200+ Plan (Two of Two)
+
+<v-click>
+
+**Surgery**
+- $400/day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Anesthesia**
+- 20% per day (max 3 days)
 </v-click>
 
 <v-click>
@@ -508,27 +425,42 @@ layout: one-half-img
 image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
 ---
 
-## 500 Plan (1/2)
+## 300 Plan (One of Two)
 
 <v-click>
 
 **Hospital Confinement Benefit**
-- $750 per day
-- Max 30 days
+- $300/day (max 30 days)
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $50 per day
-- Max 5 days
+- $50/day (max 5 visits)
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $75 per day
-- Max 5 days
+- $50/day (max 5 visits)
+</v-click>
+
+<v-click>
+
+**Emergency Room Benefit**
+- $50/day (max 1 visit)
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day (max 2 days)
+</v-click>
+
+<v-click>
+
+**Surgery**
+- $400/day (max 3 days)
 </v-click>
 
 ---
@@ -537,13 +469,36 @@ layout: one-half-img
 image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
 ---
 
-## 500 Plan (2/2)
+## 300 Plan (Two of Two)
 
 <v-click>
 
-**Emergency Room Benefit**
-- $75 per day
-- Max 1 day
+**Anesthesia**
+- 20% per day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Mental Health Inpatient**
+- $150/day (max 60 days)
+</v-click>
+
+<v-click>
+
+**Mental Health Outpatient**
+- $50/day (max 20 visits)
+</v-click>
+
+<v-click>
+
+**Accident Inpatient Admission**
+- $500/day (max 1 day)
+</v-click>
+
+<v-click>
+
+**Accident ER Benefit**
+- $250/day (max 1 visit)
 </v-click>
 
 <v-click>
@@ -564,27 +519,48 @@ layout: one-half-img
 image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
 ---
 
-## 750 Plan (1/2)
+## 500 Plan (One of Two)
 
 <v-click>
 
 **Hospital Confinement Benefit**
-- $1000 per day
-- Max 30 days
+- $500/day (max 30 days)
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $75 per day
-- Max 5 days
+- $50/day (max 5 visits)
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $100 per day
-- Max 5 days
+- $50/day (max 5 visits)
+</v-click>
+
+<v-click>
+
+**Emergency Room Benefit**
+- $75/day (max 1 visit)
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $50/day (max 2 days)
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day (max 2 days)
+</v-click>
+
+<v-click>
+
+**Surgery**
+- $750/day (max 3 days)
 </v-click>
 
 ---
@@ -593,13 +569,36 @@ layout: one-half-img
 image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
 ---
 
-## 750 Plan (2/2)
+## 500 Plan (Two of Two)
 
 <v-click>
 
-**Emergency Room Benefit**
-- $100 per day
-- Max 1 day
+**Anesthesia**
+- 20% per day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Mental Health Inpatient**
+- $250/day (max 60 days)
+</v-click>
+
+<v-click>
+
+**Mental Health Outpatient**
+- $50/day (max 20 visits)
+</v-click>
+
+<v-click>
+
+**Accident Inpatient Admission**
+- $500/day (max 1 day)
+</v-click>
+
+<v-click>
+
+**Accident ER Benefit**
+- $250/day (max 1 visit)
 </v-click>
 
 <v-click>
@@ -620,27 +619,48 @@ layout: one-half-img
 image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
 ---
 
-## 1000 Plan (1/2)
+## 750 Plan (One of Two)
 
 <v-click>
 
 **Hospital Confinement Benefit**
-- $1000 per day
-- Max 30 days
+- $750/day (max 30 days)
 </v-click>
 
 <v-click>
 
 **Primary Care Visit Benefit**
-- $75 per day
-- Max 5 days
+- $50/day (max 5 visits)
 </v-click>
 
 <v-click>
 
 **Specialty Care Visit Benefit**
-- $100 per day
-- Max 5 days
+- $50/day (max 5 visits)
+</v-click>
+
+<v-click>
+
+**Emergency Room Benefit**
+- $75/day (max 1 visit)
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $50/day (max 2 days)
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $50/day (max 2 days)
+</v-click>
+
+<v-click>
+
+**Surgery**
+- $1000/day (max 3 days)
 </v-click>
 
 ---
@@ -649,13 +669,136 @@ layout: one-half-img
 image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
 ---
 
-## 1000 Plan (2/2)
+## 750 Plan (Two of Two)
+
+<v-click>
+
+**Anesthesia**
+- 20% per day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Mental Health Inpatient**
+- $375/day (max 60 days)
+</v-click>
+
+<v-click>
+
+**Mental Health Outpatient**
+- $50/day (max 20 visits)
+</v-click>
+
+<v-click>
+
+**Accident Inpatient Admission**
+- $500/day (max 2 days)
+</v-click>
+
+<v-click>
+
+**Accident ER Benefit**
+- $250/day (max 1 visit)
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- $10,000
+</v-click>
+
+<v-click>
+
+**Critical Illness Benefit**
+- $1,000
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
+---
+
+## 1000 Plan (One of Two)
+
+<v-click>
+
+**Hospital Confinement Benefit**
+- $1000/day (max 30 days)
+</v-click>
+
+<v-click>
+
+**Primary Care Visit Benefit**
+- $75/day (max 5 visits)
+</v-click>
+
+<v-click>
+
+**Specialty Care Visit Benefit**
+- $75/day (max 5 visits)
+</v-click>
 
 <v-click>
 
 **Emergency Room Benefit**
-- $100 per day
-- Max 1 day
+- $100/day (max 1 visit)
+</v-click>
+
+<v-click>
+
+**Basic Pathology & Radiology**
+- $75/day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Advance Studies**
+- $75/day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Surgery**
+- $1500/day (max 3 days)
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_1000.jpg
+---
+
+## 1000 Plan (Two of Two)
+
+<v-click>
+
+**Anesthesia**
+- 20% per day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Mental Health Inpatient**
+- $500/day (max 60 days)
+</v-click>
+
+<v-click>
+
+**Mental Health Outpatient**
+- $50/day (max 20 visits)
+</v-click>
+
+<v-click>
+
+**Accident Inpatient Admission**
+- $500/day (max 3 days)
+</v-click>
+
+<v-click>
+
+**Accident ER Benefit**
+- $250/day (max 1 visit)
 </v-click>
 
 <v-click>
@@ -679,12 +822,20 @@ layout: default
 
 | **Feature** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
 |---------|----------|----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| Hospital Confinement Benefit Per Day | $100 | $200 | $200 | $300 | $500 | $750 | $1000 | $1000 |
-| Primary Care Visit Benefit Per Day | $50 | $50 | $50 | $50 | $50 | $50 | $75 | $75 |
-| Specialty Care Visit Benefit Per Day | $50 | $50 | $50 | $50 | $50 | $75 | $100 | $100 |
-| Emergency Room Benefit Per Day | - | - | - | - | $50 | $75 | $100 | $100 |
-| Accidental Death Benefit | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |
-| Critical Illness Benefit | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 |
+| Hospital Confinement Per Day | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 |
+| Primary Care Visit Per Day | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |
+| Specialty Care Visit Per Day | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |
+| Emergency Room Per Day | - | $50 | $50 | $50 | $50 | $75 | $75 | $100 |
+| Basic Pathology & Radiology Per Day | - | - | $50 | $50 | - | $50 | $50 | $75 |
+| Advance Studies Per Day | - | - | $50 | $50 | $50 | $50 | $50 | $75 |
+| Surgery Per Day | - | - | - | $400 | $400 | $750 | $1000 | $1500 |
+| Anesthesia Per Day | - | - | - | 20% | 20% | 20% | 20% | 20% |
+| Mental Health Inpatient Per Day | - | - | - | - | $150 | $250 | $375 | $500 |
+| Mental Health Outpatient Per Day | - | - | - | - | $50 | $50 | $50 | $50 |
+| Accident Inpatient Admission Per Day | - | - | - | - | $500 | $500 | $500 | $500 |
+| Accident ER Benefit Per Day | - | - | - | - | $250 | $250 | $250 | $250 |
+| Accidental Death | - | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |
+| Critical Illness | - | - | - | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 |
 
 ---
 transition: fade-out

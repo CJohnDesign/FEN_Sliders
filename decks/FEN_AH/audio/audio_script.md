@@ -86,7 +86,7 @@ Options for care are presented to members.
 
 Support is offered to help members make informed decisions.
 
----- Plan Tier 1 (One of Two) ----
+---- Plan Tier 1 (One of Three) ----
 
 Let's examine our first plan tier.
 
@@ -96,19 +96,25 @@ Coinsurance options are set at eighty/twenty.
 
 The coinsurance limit is two thousand dollars or four thousand dollars.
 
-For physician office visits, the copay is twenty-five dollars with a maximum of two visits. After the copayment, additional services are subject to deductible and coinsurance, with a combined maximum benefit of two thousand dollars per coverage period.
+Coverage period maximum options are two hundred fifty thousand dollars, five hundred thousand dollars, or one million dollars.
 
-There is no additional deductible for urgent care visits.
+For physician office visits, the copay is twenty-five dollars with a maximum of two visits for physician office or urgent care, forty dollars for specialists with a maximum of two visits, and fifty dollars for wellness with a maximum of one visit. After copayment, additional services are subject to deductible and coinsurance, with a combined maximum benefit of two thousand dollars per coverage period.
 
----- Plan Tier 1 (Two of Two) ----
+---- Plan Tier 1 (Two of Three) ----
 
 Continuing with our first plan tier.
 
-Coverage period maximum options are two hundred fifty thousand dollars, five hundred thousand dollars, or one million dollars.
+There is no additional deductible for urgent care visits.
 
-Doctor office consultation copays are as follows: twenty-five dollars for physician office or urgent care, maximum two visits; forty dollars for specialists, maximum two visits; and fifty dollars for wellness, maximum one visit.
+Doctor office consultation copays are as follows: twenty-five dollars for physician office or urgent care with a maximum of two visits; forty dollars for specialists with a maximum of two visits; and fifty dollars for wellness with a maximum of one visit.
 
-For hospital and surgical benefits, there are specific limits for different services. Hospital services include inpatient room limited to one thousand five hundred dollars per day, intensive care limited to two thousand dollars per day, doctor visits at fifty dollars per day limited to five hundred dollars per coverage period, and outpatient surgery limited to one thousand five hundred dollars per day. Surgical services include surgeon benefits at five thousand dollars per surgery not to exceed ten thousand dollars per coverage period, assistant surgeon at one thousand dollars per surgery not to exceed two thousand dollars per coverage period, and anesthetics at one thousand dollars per surgery not to exceed two thousand dollars per coverage period.
+For hospital services, there are specific limits: inpatient room is limited to one thousand five hundred dollars per day, intensive care or critical care is limited to two thousand dollars per day, doctor visits are fifty dollars per day limited to five hundred dollars per coverage period, and outpatient surgery is limited to one thousand five hundred dollars per day.
+
+---- Plan Tier 1 (Three of Three) ----
+
+Completing our review of the first plan tier.
+
+For surgical services, surgeon benefits are five thousand dollars per surgery not to exceed ten thousand dollars per coverage period, assistant surgeon at one thousand dollars per surgery not to exceed two thousand dollars per coverage period, and anesthetics at one thousand dollars per surgery not to exceed two thousand dollars per coverage period.
 
 For emergency services, emergency room treatment is not to exceed two hundred fifty dollars per visit, with no additional deductible.
 
@@ -178,17 +184,19 @@ For specific conditions, all plans cover AIDS up to ten thousand dollars per cov
 
 For additional services, home health care is covered up to thirty dollars per day for a maximum of thirty days per coverage period. Therapy services are covered up to thirty dollars per day for a maximum of fifteen days per coverage period. Ambulance services are covered up to five hundred dollars per trip for ground transportation and up to one thousand dollars per trip for air ambulance.
 
----- Definitions and Limitations ----
+---- Exclusions and Limitations ----
 
-Let's review important definitions and limitations.
+Let's review important exclusions and limitations.
 
-Pre-existing conditions are defined as any medical advice, diagnosis, care, or treatment received within thirty-six months prior to the effective date.
+Pre-existing conditions are defined as any medical advice, diagnosis, care, or treatment received within thirty-six months prior to the effective date. 
 
 Excluded services include cosmetic surgery, infertility treatments, and experimental procedures.
 
 Coverage caps include a three thousand dollar maximum benefit for joint surgery, a two thousand five hundred dollar maximum benefit for gallbladder surgery, and a five thousand dollar maximum benefit for back surgery.
 
 Waiting periods are five days for general illness and thirty days for cancer coverage.
+
+Agents must review all exclusions and limitations with the consumer to ensure full understanding
 
 ---- Key Takeaways and Reminders ----
 
@@ -205,3 +213,5 @@ A pre-existing condition waiver is required for eligible members.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
+
+

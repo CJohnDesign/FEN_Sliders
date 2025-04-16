@@ -22,9 +22,11 @@ The plan structure features tiered options with specific co-pays and visit limit
 
 Eligibility is open to adults aged eighteen to sixty-five and dependent children aged one to twenty-five.
 
+All benefits mentioned in this presentation apply per policy period.
+
 ---- Common Service Features ----
 
-Let's discuss the common service features available with this plan.
+Let's discuss the common service features available with these plans.
 
 The provider networks offer extensive access through Aetna Dental Access and OUTLOOK Vision Network, ensuring a wide range of choices.
 
@@ -270,7 +272,7 @@ Let's compare the different tiers available. The Hospital Confinement Benefit ra
 
 Let's review important definitions and limitations.
 
-Exclusions include pre-existing conditions for twelve months, elective surgeries, and dental procedures not due to injury.
+Exclusions include pre-existing conditions for twelve months, elective surgeries, and dental procedures not due to injury. Agents must review all exclusions and limitations with the consumer to ensure full understanding
 
 Limitations involve a thirty-day waiting period for sickness benefits and no coverage for experimental treatments.
 

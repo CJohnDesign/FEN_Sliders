@@ -78,7 +78,7 @@ Convenient access to care is a priority.
 
 The plan offers advocacy and support services.
 
-Comprehensive healthcare advocacy is provided.
+Complete healthcare advocacy is provided.
 
 Claims management assistance is available to members.
 
@@ -90,9 +90,9 @@ Advocacy services support members throughout their care.
 
 Let's examine our first plan tier, the HPA AME 2500.
 
-Accidental Death and Dismemberment benefits include a principal sum of two thousand five hundred dollars. The plan covers loss of life and loss of two or more hands or feet at one hundred percent of the principal sum. Loss of sight of both eyes is covered at fifty percent of the principal sum.
+Accidental Death and Dismemberment benefits include a principal sum of two thousand five hundred dollars. The plan covers loss of life and loss of two or more hands or feet at one hundred percent of the principal sum. Loss of sight of both eyes is covered at fifty percent of the principal sum. It's important to note that any loss must occur within three hundred and sixty-five days of the accident.
 
-The Accident Medical Expense Benefit has a maximum of two thousand five hundred dollars with a deductible of two hundred fifty dollars. Inpatient benefits include one hundred percent coverage for semi-private room, ICU, and emergency room treatment.
+The Accident Medical Expense Benefit has a maximum of two thousand five hundred dollars with a deductible of two hundred fifty dollars. Inpatient benefits include one hundred percent coverage for semi-private room, ICU, and emergency room treatment. Dependent care coverage is also available for eligible dependents.
 
 ---- Plan Tier 1 (Two of Two) ----
 
@@ -106,9 +106,9 @@ Additional services include ambulance coverage at one hundred percent up to one 
 
 Now, let's look at our second plan tier, the HPA AME 5000.
 
-Accidental Death and Dismemberment benefits include a principal sum of five thousand dollars. The plan covers loss of life and loss of two or more hands or feet at one hundred percent of the principal sum. Loss of sight of both eyes is covered at fifty percent of the principal sum.
+Accidental Death and Dismemberment benefits include a principal sum of five thousand dollars. The plan covers loss of life and loss of two or more hands or feet at one hundred percent of the principal sum. Loss of sight of both eyes is covered at fifty percent of the principal sum. The conditions of coverage require that any loss must occur within three hundred and sixty-five days of the accident.
 
-The Accident Medical Expense Benefit has a maximum of five thousand dollars with a deductible of two hundred fifty dollars. Inpatient benefits include one hundred percent coverage for semi-private room, ICU, and emergency room treatment.
+The Accident Medical Expense Benefit has a maximum of five thousand dollars with a deductible of two hundred fifty dollars. Inpatient benefits include one hundred percent coverage for semi-private room, ICU, and emergency room treatment. Dependent care is included, providing coverage for eligible dependents.
 
 ---- Plan Tier 2 (Two of Two) ----
 
@@ -122,9 +122,9 @@ Additional services include ambulance coverage at one hundred percent up to one 
 
 Let's examine our third plan tier, the HPA AME 7500.
 
-Accidental Death and Dismemberment benefits include a principal sum of seven thousand five hundred dollars. The plan covers loss of life and loss of two or more hands or feet at one hundred percent of the principal sum. Loss of sight of both eyes is covered at fifty percent of the principal sum. 
+Accidental Death and Dismemberment benefits include a principal sum of seven thousand five hundred dollars. The plan covers loss of life and loss of two or more hands or feet at one hundred percent of the principal sum. Loss of sight of both eyes is covered at fifty percent of the principal sum. Remember that the loss must occur within three hundred and sixty-five days of the accident to be covered.
 
-The Accident Medical Expense Benefit has a maximum of seven thousand five hundred dollars with a deductible of two hundred fifty dollars. Inpatient benefits include one hundred percent coverage for semi-private room, ICU, and emergency room treatment.
+The Accident Medical Expense Benefit has a maximum of seven thousand five hundred dollars with a deductible of two hundred fifty dollars. Inpatient benefits include one hundred percent coverage for semi-private room, ICU, and emergency room treatment. This plan also includes dependent care coverage for eligible dependents.
 
 ---- Plan Tier 3 (Two of Two) ----
 
@@ -138,9 +138,9 @@ Additional services include ambulance coverage at one hundred percent up to one 
 
 Now, let's look at our fourth plan tier, the HPA AME 10000.
 
-Accidental Death and Dismemberment benefits include a principal sum of ten thousand dollars. The plan covers loss of life and loss of two or more hands or feet at one hundred percent of the principal sum. Loss of sight of both eyes is covered at fifty percent of the principal sum.
+Accidental Death and Dismemberment benefits include a principal sum of ten thousand dollars. The plan covers loss of life and loss of two or more hands or feet at one hundred percent of the principal sum. Loss of sight of both eyes is covered at fifty percent of the principal sum. As with all tiers, the loss must occur within three hundred and sixty-five days of the accident to qualify for coverage.
 
-The Accident Medical Expense Benefit has a maximum of ten thousand dollars with a deductible of two hundred fifty dollars. Inpatient benefits include one hundred percent coverage for semi-private room, ICU, and emergency room treatment.
+The Accident Medical Expense Benefit has a maximum of ten thousand dollars with a deductible of two hundred fifty dollars. Inpatient benefits include one hundred percent coverage for semi-private room, ICU, and emergency room treatment. Dependent care coverage is included for eligible dependents.
 
 ---- Plan Tier 4 (Two of Two) ----
 
@@ -161,6 +161,8 @@ Let's review important definitions and limitations.
 Exclusions include pre-existing conditions, professional athletics injuries, and routine physical care.
 
 Limitations involve deductibles and coordination with other insurance.
+
+Agents must review all exclusions and limitations with the consumer to ensure full understanding of the policy terms and conditions.
 
 ---- Key Takeaways and Reminders ----
 

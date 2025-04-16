@@ -419,7 +419,7 @@ transition: fade-out
 layout: default
 ---
 
-## Comparing the Plans
+## Comparing the Plans (1/2)
 
 | **Feature** | **Plan 2** | **Plan 3** | **Plan 4** |
 |---------|----------|----------|-----------|
@@ -429,6 +429,25 @@ layout: default
 | Outpatient Surgery | $300/day; max 1 | $300/day; max 1 | $400/day; max 1 |
 | ER Visits | $200/day; max 2 | $300/day; max 2 | $500/day; max 2 |
 | General Anesthesia | $125/day | $125/day | $300/day |
+| Urgent Care | $50/day; max 3 | $50/day; max 3 | $75/day; max 5 |
+| Physician's Office | $50/day; max 3 | $50/day; max 3 | $75/day; max 5 |
+
+---
+transition: fade-out
+layout: default
+---
+
+## Comparing the Plans (2/2)
+
+| **Feature** | **Plan 2** | **Plan 3** | **Plan 4** |
+|---------|----------|----------|-----------|
+| Therapy | $15/day; max 5 | $15/day; max 5 | $75/day; max 5 |
+| Minor Diagnostic | Not covered | Not covered | $100/day; max 1 |
+| Major Diagnostic | Not covered | Not covered | $500/day; max 1 |
+| Ambulance (Ground) | Not covered | Not covered | $500/day; max 1 |
+| Ambulance (Air) | Not covered | Not covered | $1,000/day; max 1 |
+| Additional Riders | Portability, Continuity | Portability, Continuity | Portability |
+| Mental Health & Addiction | Not covered | Covered | Not covered |
 
 ---
 transition: fade-out
@@ -436,7 +455,7 @@ layout: one-half-img
 image: img/pages/30_medchoice_group_hospital_indemnity_insurance_with_limitations_and_exclusions.jpg
 ---
 
-## Definitions and Limitations
+## Exclusions and Limitations
 
 <v-click>
 
@@ -444,6 +463,7 @@ image: img/pages/30_medchoice_group_hospital_indemnity_insurance_with_limitation
 - No coverage for cosmetic surgeries
 - No coverage for routine vision services
 - No coverage for injuries from illegal acts
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
 </v-click>
 
 <v-click>
@@ -463,6 +483,11 @@ image: img/pages/30_medchoice_group_hospital_indemnity_insurance_with_limitation
 
 **Tax Implications**
 - Consult a tax advisor for pre-tax premium payments
+</v-click>
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
 </v-click>
 
 ---
@@ -501,5 +526,3 @@ line: Thank you for participating in the BWA Americare Review. Continue to be gr
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

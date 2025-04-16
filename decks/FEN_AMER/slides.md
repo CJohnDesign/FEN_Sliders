@@ -448,6 +448,14 @@ image: img/pages/03_member_savings_and_customer_service_details_for_national_con
 - Frame allowances
 </v-click>
 
+
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
+</v-click>
+
+
 ---
 transition: fade-out
 layout: default

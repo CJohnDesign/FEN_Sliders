@@ -86,9 +86,6 @@ layout: default
 <v-click>
 
 **Telemedicine Services** through virtual consultations
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="./img/logos/MBR_logo.png" class="h-12 mix-blend-multiply" alt="MBR Logo">
-</div>
 </v-click>
 
 ---
@@ -122,7 +119,7 @@ layout: default
 
 <v-click>
 
-1. Enroll through **American Public Life Insurance Company**
+1. Enroll through **Basic Core** or **Basic Core Plus**
 </v-click>
 
 <v-click>
@@ -382,6 +379,13 @@ image: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_an
 **Advocacy Services**
 - Included
 </v-click>
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
+</v-click>
+
+
 
 ---
 transition: fade-out

@@ -1,8 +1,8 @@
----- Cover ----
+---- 1 - Cover ----
 
 Hello, everyone! Thank you for joining today's session on the Basic Core and Basic Core-Plus Plans. We'll walk through these plans' features and benefits, designed to provide valuable healthcare solutions for your members. Let's get started!
 
----- Plan Overview ----
+---- 2 - Plan Overview ----
 
 The Basic Core and Basic Core-Plus Plans
 
@@ -16,7 +16,7 @@ Additionally, the plans include a Medical Bill Repricer through Reference Based 
 
 Advocacy Services are also available to support members.
 
----- Key Features and Benefits ----
+---- 3 - Key Features and Benefits ----
 
 Let's explore the key features and benefits of these plans.
 
@@ -28,7 +28,7 @@ The Free Prescription Club offers varying benefits depending on the plan.
 
 Telemedicine Services are available through virtual consultations, enhancing accessibility.
 
----- Cost Management Tools ----
+---- 4 - Cost Management Tools ----
 
 Now, let's discuss the cost management tools available with these plans.
 
@@ -38,11 +38,11 @@ The Reference Based Pricing System ensures fair pricing for medical services.
 
 Advocacy Services provide additional support in navigating healthcare costs.
 
----- How Medical Bill Repricer Works ----
+---- 5 - How Medical Bill Repricer Works ----
 
 Here's how the Medical Bill Repricer works.
 
-First, members enroll through American Public Life Insurance Company.
+First, members enroll through Basic Core or Basic Core Plus
 
 They can use a twenty-five dollar pre-pay for doctor visits or fifty dollars for specialist visits.
 
@@ -137,6 +137,8 @@ The Free Prescription Club offers a Discount Rx Card in the Basic Core Plan.
 Telemedicine Services are not available in the Basic Core Plan.
 
 Advocacy Services are included in both plans.
+
+Agents must review all exclusions and limitations with the consumer to ensure full understanding
 
 ---- Key Takeaways and Reminders ----
 

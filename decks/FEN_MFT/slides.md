@@ -27,11 +27,11 @@ transition: fade-out
 layout: default
 ---
 
-## MedFirst Plan Overview
+## MedFirst Overview
 
 <v-clicks>
 
-- Affordable healthcare options through **First Health Network**
+- Affordable healthcare options through **The Vitamin Patch Plan Sponsor**
 - **Telemedicine** available across all plans
 - **Prescription Benefits** and support tools
 - **Preventive Care** through annual wellness exams
@@ -50,7 +50,7 @@ layout: default
 
 **Telemedicine Services**
 
-**Prescription Discounts**
+**Prescription Discounts** through BestChoiceRX
 
 **Preventive Care**
 
@@ -59,9 +59,9 @@ layout: default
 
 <v-click>
 
-**Healthcare Ninja Services** through BestChoiceRX
+**Advocacy** through Healthcare Ninja Services
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="/img/logos/best-choice.png" class="h-12 mix-blend-multiply" alt="BestChoiceRX Logo">
+  <img src="/img/logos/health-ninja.png" class="h-12 mix-blend-multiply" alt="Healthcare Ninja Logo">
 </div>
 
 </v-click>
@@ -97,11 +97,10 @@ layout: default
 
 <v-clicks>
 
-1. Enroll through **First Health Network**
+1. Enroll through **MedFirst**
 2. Receive **BCRX** card
 3. Utilize prescription discounts at participating pharmacies
 4. **Enhanced RX Access** (based on plan)
-
 
 </v-clicks>
 
@@ -314,8 +313,11 @@ image: ./img/pages/04_medfirst_2_plan_details_with_physician_services_telemedici
 <v-click>
 
 **Prescription Benefits**
-- Preventive and acute prescriptions
-- $0 copay for generics
+- Preventive and Acute prescriptions
+- $0 copay for generics (subject to formulary NOT the monthly max)
+- $5 copay for preferred generics
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -369,8 +371,11 @@ image: ./img/pages/05_medfirst_3_plan_details_with_physician_services_and_prescr
 <v-click>
 
 **Prescription Benefits**
-- Preventive and acute prescriptions
+- Preventive and Acute prescriptions
+- $0 copay for generics (subject to formulary NOT the monthly max)
 - $5 copay for preferred generics
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -424,8 +429,11 @@ image: ./img/pages/06_medfirst_4_plan_features_benefits_and_coverage_details_wit
 <v-click>
 
 **Prescription Benefits**
-- Preventive and acute prescriptions
+- Preventive and Acute prescriptions
+- $0 copay for generics (subject to formulary NOT the monthly max)
 - $5 copay for preferred generics
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -479,8 +487,11 @@ image: ./img/pages/07_medfirst_5_plan_details_with_benefits_comparison_and_limit
 <v-click>
 
 **Prescription Benefits**
-- Preventive and acute prescriptions
+- Preventive and Acute prescriptions
+- $0 copay for generics (subject to formulary NOT the monthly max)
 - $5 copay for preferred generics
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 <Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
@@ -497,7 +508,7 @@ layout: default
 | Specialist Visits | 0 | 1 | 2 | 4 | 4 | 5 |
 | Hospitalization | Not Covered | $5,000 max | $10,000 max | $15,000 max | $10,000 max | $15,000 max |
 | Telemedicine | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited |
-| Prescription Copay | Discount | Discount | $0 for generics | $5 for preferred generics | $5 for preferred generics | $5 for preferred generics |
+| Prescription Copay | Discount | Discount | Generics $0/ Preferred Generics $5-Retail | Generics $0/ Preferred Generics $5/ Non-Preferred Generic $5 & $10/ Brand $40- Retail | Generics $0/ Preferred Generics $5/ Non-Preferred Generic $5 & $10/ Brand $40- Retail | Generics $0/ Preferred Generics $5/ Non-Preferred Generic $5 & $10/ Brand $40- Retail |
 
 ---
 transition: fade-out
@@ -508,7 +519,7 @@ images:
   - /img/pages/14_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg
 ---
 
-## Definitions and Limitations
+## Exclusions and Limitations
 
 <v-click>
 
@@ -537,6 +548,11 @@ images:
 **Screening Limitations**
 - At-home test kit required for colorectal cancer screening
 <Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
+</v-click>
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
 </v-click>
 
 ---

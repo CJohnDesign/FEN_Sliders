@@ -235,7 +235,7 @@ layout: one-half-img
 image: img/pages/10_reliant_care_wellness_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg
 ---
 
-## Reliant Care Wellness (1/2)
+## Reliant Care Wellness
 
 <v-click>
 
@@ -258,26 +258,13 @@ image: img/pages/10_reliant_care_wellness_plan_details_with_wellness_exam_and_te
 - Discount at Participating Pharmacies
 </v-click>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/10_reliant_care_wellness_plan_details_with_wellness_exam_and_telemedicine_benefits.jpg
----
-
-## Reliant Care Wellness (2/2)
-
-<v-click>
-
-**Advocacy Services**
-- Hospital Bill Reducer
-</v-click>
-
 <v-click>
 
 **Limitations**
 - 30-day waiting period for sickness benefits
 - In-network provider requirement
 </v-click>
+
 
 ---
 transition: fade-out
@@ -297,7 +284,16 @@ image: img/pages/11_reliant_care_1_plan_details_with_benefits_and_limitations.jp
 
 <v-click>
 
+**Specialist or Urgent Care**
+- 1 Primary Care Visits/yr
+- $50 Co-pay
+- $300 Max/Visit
+</v-click>
+
+<v-click>
+
 **Hospitalization**
+- 1 Visit/yr
 - $1,000/Day
 - $5,000/Year Max
 </v-click>
@@ -348,6 +344,14 @@ image: img/pages/12_reliant_care_2_plan_details_with_benefits_and_limitations.jp
 
 <v-click>
 
+**Specialist or Urgent Care**
+- 2 Primary Care Visits/yr
+- $50 Co-pay
+- $300 Max/Visit
+</v-click>
+
+<v-click>
+
 **Hospitalization**
 - $1,000/Day
 - $10,000/Year Max
@@ -373,6 +377,8 @@ image: img/pages/12_reliant_care_2_plan_details_with_benefits_and_limitations.jp
 **Prescriptions**
 - Generic $0 Co-pay
 - Preferred Generic $5 Co-pay
+- Non-Preferred Generic: Retail 30-day $5 & $10 Co-pay, Mail Order 90-day $5 & $20 Co-pay
+- Brand (Prior Auth Required): Retail 30-day $40, Mail Order 90-day $80
 </v-click>
 
 <v-click>
@@ -396,6 +402,14 @@ image: img/pages/13_reliant_care_3_plan_details_with_benefits_and_coverage_limit
 - 4 Primary Care Visits/yr
 - $25 Co-pay
 - $150 Max/Visit
+</v-click>
+
+<v-click>
+
+**Specialist or Urgent Care**
+- 4 Primary Care Visits/yr
+- $50 Co-pay
+- $300 Max/Visit
 </v-click>
 
 <v-click>
@@ -425,6 +439,8 @@ image: img/pages/13_reliant_care_3_plan_details_with_benefits_and_coverage_limit
 **Prescriptions**
 - Generic $0 Co-pay
 - Preferred Generic $5 Co-pay
+- Non-Preferred Generic: Retail 30-day $5 & $10 Co-pay, Mail Order 90-day $5 & $20 Co-pay
+- Brand (Prior Auth Required): Retail 30-day $40, Mail Order 90-day $80
 </v-click>
 
 <v-click>
@@ -445,23 +461,39 @@ image: img/pages/14_reliant_care_4_plan_details_with_benefits_and_coverage_limit
 <v-click>
 
 **Physician Services**
-- 4 Primary Care Visits/yr
-- $50 Co-pay
-- $150 Max/Visit
+- 1 Wellness Exam/yr ($25 Co-pay, $150 Max/Visit)
+- 4 Primary Care Visits/yr ($50 Co-pay, $150 Max/Visit)
+- 4 Specialist or Urgent Care Visits/yr ($75 Co-pay, $300 Max/Visit)
 </v-click>
 
 <v-click>
 
 **Hospitalization**
-- $1,000/Day
-- $10,000/Year Max
+- $1,000/Day, $10,000/Year Max, 12/12 mo Pre-Ex
 </v-click>
 
 <v-click>
 
-**Surgery**
-- $1,000/Year
-- $2,000/Year Max
+**In/Outpatient Surgery**
+- $1,000/Year, $2,000/Year Max, 12/12 mo Pre-Ex
+</v-click>
+
+<v-click>
+
+**Emergency Room** (if admitted)
+- $1,000/Per Incident, 12/12 mo Pre-Ex
+</v-click>
+
+<v-click>
+
+**Ambulance Benefit** (if admitted)
+- $500/Per Incident, 12/12 mo Pre-Ex
+</v-click>
+
+<v-click>
+
+**Telemedicine**
+- No Consult Fee, No Maximum
 </v-click>
 
 ---
@@ -474,9 +506,11 @@ image: img/pages/14_reliant_care_4_plan_details_with_benefits_and_coverage_limit
 
 <v-click>
 
-**Telemedicine**
-- No Consult Fee
-- No Maximum
+**Prescriptions**
+- Generic $0 Co-pay
+- Preferred Generic $5 Co-pay
+- Non-Preferred Generic: Retail 30-day $5 & $10 Co-pay, Mail Order 90-day $5 & $20 Co-pay
+- Brand (Prior Auth Required): Retail 30-day $40, Mail Order 90-day $80
 </v-click>
 
 <v-click>
@@ -497,23 +531,39 @@ image: img/pages/15_reliant_care_5_plan_details_with_benefits_and_coverage_limit
 <v-click>
 
 **Physician Services**
-- 5 Primary Care Visits/yr
-- $50 Co-pay
-- $150 Max/Visit
+- 1 Wellness Exam/yr ($25 Co-pay, $150 Max/Visit)
+- 5 Primary Care Visits/yr ($50 Co-pay, $150 Max/Visit)
+- 5 Specialist or Urgent Care Visits/yr ($75 Co-pay, $300 Max/Visit)
 </v-click>
 
 <v-click>
 
 **Hospitalization**
-- $1,500/Day
-- $15,000/Year Max
+- $1,500/Day, $15,000/Year Maximum, 12/12 mo Pre-Ex
 </v-click>
 
 <v-click>
 
-**Surgery**
-- $1,500/Year
-- $4,500/Year Max
+**In/Outpatient Surgery**
+- $1,500/Year, $4,500/Year Maximum, 12/12 mo Pre-Ex
+</v-click>
+
+<v-click>
+
+**Emergency Room** (if admitted)
+- $1,000/Per Incident, 12/12 mo Pre-Ex
+</v-click>
+
+<v-click>
+
+**Ambulance Benefit** (if admitted)
+- $500/Per Incident, 12/12 mo Pre-Ex
+</v-click>
+
+<v-click>
+
+**Telemedicine** (Kindly Human & RECURO HEALTH)
+- $0 Consult Fee, No Maximum
 </v-click>
 
 ---
@@ -526,9 +576,11 @@ image: img/pages/15_reliant_care_5_plan_details_with_benefits_and_coverage_limit
 
 <v-click>
 
-**Telemedicine**
-- No Consult Fee
-- No Maximum
+**Prescriptions**
+- Generic $0 Co-pay
+- Preferred Generic $5 Co-pay
+- Non-Preferred Generic: Retail 30-day $5 & $10 Co-pay, Mail Order 90-day $5 & $20 Co-pay
+- Brand (Prior Auth Required): Retail 30-day $40, Mail Order 90-day $80
 </v-click>
 
 <v-click>
@@ -547,12 +599,20 @@ layout: default
 
 | **Feature** | **Wellness** | **Care 1** | **Care 2** | **Care 3** | **Care 4** | **Care 5** |
 |---------|----------|----------|-----------|-----------|-----------|-----------|
-| Primary Care Visits/yr | 1 | 3 | 4 | 4 | 4 | 5 |
+| Wellness Exam/yr | 1 | - | - | - | 1 | 1 |
+| Primary Care Visits/yr | - | 3 | 4 | 4 | 4 | 5 |
 | Specialist Visits/yr | - | 1 | 2 | 4 | 4 | 5 |
 | Hospitalization/Day | - | $1,000 | $1,000 | $1,000 | $1,000 | $1,500 |
 | Yearly Hospital Max | - | $5,000 | $10,000 | $15,000 | $10,000 | $15,000 |
+| Surgery/Year | - | - | - | - | $1,000 | $1,500 |
+| Surgery Max/Year | - | - | - | - | $2,000 | $4,500 |
+| Emergency Room | - | - | - | - | $1,000 | $1,000 |
+| Ambulance | - | - | - | - | $500 | $500 |
 | Telemedicine | Yes | Yes | Yes | Yes | Yes | Yes |
-| Prescription Co-pay | Discount | Discount | $0/$5 | $0/$5 | $0/$5 | $0/$5 |
+| Generic Rx | Discount | Discount | $0 | $0 | $0 | $0 |
+| Preferred Generic Rx | - | - | $5 | $5 | $5 | $5 |
+| Non-Preferred Generic Rx | - | - | $5-$10 | $5-$10 | $5-$10 | $5-$10 |
+| Brand Rx | - | - | $40 | $40 | $40 | $40 |
 
 ---
 transition: fade-out
@@ -575,6 +635,11 @@ image: img/pages/37_mec_preventative_health_services_summary_of_benefits_with_ex
 **Specific Limitations**
 - Specialty Drugs Excluded
 - In-network Provider Requirement
+</v-click>
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
 </v-click>
 
 ---
@@ -615,3 +680,4 @@ line: Thank you for participating in the Reliant Care Review. Continue to be gre
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+

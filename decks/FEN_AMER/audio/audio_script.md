@@ -166,6 +166,9 @@ Major services include surgical procedures, crowns, and prosthodontics.
 
 Vision services cover exams, lenses, and frame allowances.
 
+Agents must review all exclusions and limitations with the consumer to ensure full understanding
+
+
 ---- Key Takeaways and Reminders ----
 
 Here are the key points to remember.
