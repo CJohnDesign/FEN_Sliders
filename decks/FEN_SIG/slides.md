@@ -235,7 +235,7 @@ layout: one-half-img
 image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
 ---
 
-## Plan 100A (1/2)
+## Plan 100A 
 
 <v-click>
 
@@ -261,27 +261,7 @@ layout: one-half-img
 image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
 ---
 
-## Plan 100A (2/2)
-
-<v-click>
-
-**Emergency Room Benefit**
-- Not available
-</v-click>
-
-<v-click>
-
-**Surgery Benefit**
-- Not available
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 100 (1/2)
+## Plan 100 
 
 <v-click>
 
@@ -300,14 +280,6 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 **Specialty Care Visit Benefit**
 - $50/day, max 3 visits
 </v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 100 (2/2)
 
 <v-click>
 
@@ -317,8 +289,8 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 
 <v-click>
 
-**Surgery Benefit**
-- $400/day, max 3 days
+**Accidental Death Benefit**
+- $10,000 maximum benefit
 </v-click>
 
 ---
@@ -327,7 +299,7 @@ layout: one-half-img
 image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
 ---
 
-## Plan 200 (1/2)
+## Plan 200
 
 <v-click>
 
@@ -349,6 +321,12 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 
 <v-click>
 
+**Emergency Room Benefit**
+- $50/day, max 1 day
+</v-click>
+
+<v-click>
+
 **Basic Pathology & Radiology**
 - $50/day, max 1 day
 </v-click>
@@ -359,24 +337,10 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 - $50/day, max 1 day
 </v-click>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 200 (2/2)
-
 <v-click>
 
-**Emergency Room Benefit**
-- $50/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Surgery Benefit**
-- $400/day, max 3 days
+**Accidental Death Benefit**
+- $10,000 maximum benefit
 </v-click>
 
 ---
@@ -407,6 +371,12 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 
 <v-click>
 
+**Emergency Room Benefit**
+- $50/day, max 2 days
+</v-click>
+
+<v-click>
+
 **Basic Pathology & Radiology**
 - $50/day, max 3 days
 </v-click>
@@ -425,16 +395,29 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 
 ## Plan 200+ (2/2)
 
-<v-click>
-
-**Emergency Room Benefit**
-- $50/day, max 2 days
-</v-click>
 
 <v-click>
 
 **Surgery Benefit**
 - $400/day, max 3 days
+</v-click>
+
+<v-click>
+
+**Anesthesia Benefit**
+- 20%, max 3 days
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- $10,000 maximum benefit
+</v-click>
+
+<v-click>
+
+**Critical Illness**
+- $1,000 maximum benefit
 </v-click>
 
 ---
@@ -517,6 +500,18 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 
 **Accident ER Benefit**
 - $250/day, max 1 visit
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- $10,000 maximum benefit
+</v-click>
+
+<v-click>
+
+**Critical Illness**
+- $1,000 maximum benefit
 </v-click>
 
 ---
@@ -607,6 +602,18 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 - $250/day, max 1 visit
 </v-click>
 
+<v-click>
+
+**Accidental Death Benefit**
+- $10,000 maximum benefit
+</v-click>
+
+<v-click>
+
+**Critical Illness**
+- $1,000 maximum benefit
+</v-click>
+
 ---
 transition: fade-out
 layout: one-half-img
@@ -693,6 +700,18 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 
 **Accident ER Benefit**
 - $250/day, max 1 visit
+</v-click>
+
+<v-click>
+
+**Accidental Death Benefit**
+- $10,000 maximum benefit
+</v-click>
+
+<v-click>
+
+**Critical Illness**
+- $1,000 maximum benefit
 </v-click>
 
 ---
@@ -783,6 +802,18 @@ image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_p
 - $250/day, max 1 visit
 </v-click>
 
+<v-click>
+
+**Accidental Death Benefit**
+- $10,000 maximum benefit
+</v-click>
+
+<v-click>
+
+**Critical Illness**
+- $1,000 maximum benefit
+</v-click>
+
 ---
 transition: fade-out
 layout: default
@@ -797,13 +828,15 @@ layout: default
 | Specialty Care Visit | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |
 | Emergency Room Benefit | - | $50 | $50 | $50 | $50 | $75 | $75 | $100 |
 | Basic Pathology & Radiology | - | - | $50 | $50 | - | $50 | $50 | $75 |
-| Advance Studies | - | - | $50 | $50 | $50 | $50 | $50 | $75 |
+| Advance Studies | - | - | $50 | $50 | - | $50 | $50 | $75 |
 | Surgery Benefit | - | - | - | $400 | $400 | $750 | $1000 | $1500 |
 | Anesthesia Benefit | - | - | - | 20% | 20% | 20% | 20% | 20% |
 | Mental Health Inpatient | - | - | - | - | $150 | $250 | $375 | $500 |
 | Mental Health Outpatient | - | - | - | - | $50 | $50 | $50 | $50 |
 | Accident Inpatient Admission | - | - | - | - | $500 | $500 | $500 | $500 |
 | Accident ER Benefit | - | - | - | - | $250 | $250 | $250 | $250 |
+| Accidental Death Benefit | - | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |
+| Critical Illness | - | - | - | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 |
 
 ---
 transition: fade-out
@@ -826,6 +859,12 @@ image: img/pages/05_hospital_indemnity_insurance_limitations_exclusions_sigma_ca
 **Specific Limitations**
 - Dental procedures not related to accidental injury
 - Injuries from illegal activities or acts of war
+</v-click>
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
+
 </v-click>
 
 ---

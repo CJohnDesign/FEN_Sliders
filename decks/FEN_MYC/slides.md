@@ -55,16 +55,11 @@ layout: default
 **Financial Assistance Guidance**
 
 **Cash Benefits** (varies by plan)
-</v-clicks>
-
-<v-click>
 
 **Prescription Savings** through HealthWarehouse
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="" class="h-12 mix-blend-multiply" alt="HealthWarehouse Logo">
-</div>
 
-</v-click>
+</v-clicks>
+
 
 ---
 transition: fade-out
@@ -156,7 +151,7 @@ layout: default
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice_Low_Brochure_1_page_001.jpg
+image: img/pages/07_benefits_and_features_for_plan_1_with_coverage_limits_and_pre_existing_conditions.jpg
 ---
 
 ## Plan 1 (1/2)
@@ -168,7 +163,6 @@ image: img/pages/MyChoice_Low_Brochure_1_page_001.jpg
 - Up to 10 days
 - Not applicable in rehab units
 - Subject to annual maximum
-<Arrow v-bind="{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
@@ -176,20 +170,18 @@ image: img/pages/MyChoice_Low_Brochure_1_page_001.jpg
 **Intensive Care Confinement**
 - $200 per day
 - Up to 10 days
-<Arrow v-bind="{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **First Day Hospital Admission**
 - $1,000 once per year
-<Arrow v-bind="{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice_Low_Brochure_1_page_001.jpg
+image: img/pages/07_benefits_and_features_for_plan_1_with_coverage_limits_and_pre_existing_conditions.jpg
 ---
 
 ## Plan 1 (2/2)
@@ -199,20 +191,18 @@ image: img/pages/MyChoice_Low_Brochure_1_page_001.jpg
 **Ambulance Benefits**
 - $100 ground transport
 - $100 air transport
-<Arrow v-bind="{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **Emergency Room Visits**
 - $200 per visit
-<Arrow v-bind="{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg
+image: img/pages/52_benefits_and_features_for_plan_2_with_coverage_limits_and_pre_existing_conditions.jpg
 ---
 
 ## Plan 2 (1/2)
@@ -222,7 +212,6 @@ image: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg
 **Inpatient Hospital Confinement**
 - $300 per day
 - Up to 10 days
-<Arrow v-bind="{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
@@ -230,20 +219,18 @@ image: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg
 **Intensive Care Confinement**
 - $500 per day
 - Up to 10 days
-<Arrow v-bind="{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **First Day Hospital Admission**
 - $1,000 once per year
-<Arrow v-bind="{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg
+image: img/pages/52_benefits_and_features_for_plan_2_with_coverage_limits_and_pre_existing_conditions.jpg
 ---
 
 ## Plan 2 (2/2)
@@ -253,20 +240,18 @@ image: img/pages/MyChoice_Mid_Brochure_1_page_046.jpg
 **Ambulance Benefits**
 - $100 ground transport
 - $200 air transport
-<Arrow v-bind="{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **Emergency Room Visits**
 - $200 per visit
-<Arrow v-bind="{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice_High_Brochure_1_page_015.jpg
+image: img/pages/22_benefits_and_features_for_plan_3_with_coverage_limits_and_pre_existing_conditions.jpg
 ---
 
 ## Plan 3 (1/2)
@@ -276,7 +261,6 @@ image: img/pages/MyChoice_High_Brochure_1_page_015.jpg
 **Inpatient Hospital Confinement**
 - $300 per day
 - Up to 10 days
-<Arrow v-bind="{{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
@@ -284,20 +268,18 @@ image: img/pages/MyChoice_High_Brochure_1_page_015.jpg
 **Intensive Care Confinement**
 - $500 per day
 - Up to 10 days
-<Arrow v-bind="{{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **First Day Hospital Admission**
 - $1,000 once per year
-<Arrow v-bind="{{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice_High_Brochure_1_page_015.jpg
+image: img/pages/22_benefits_and_features_for_plan_3_with_coverage_limits_and_pre_existing_conditions.jpg
 ---
 
 ## Plan 3 (2/2)
@@ -307,14 +289,12 @@ image: img/pages/MyChoice_High_Brochure_1_page_015.jpg
 **Ambulance Benefits**
 - $100 ground transport
 - $300 air transport
-<Arrow v-bind="{{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **Emergency Room Visits**
 - $200 per visit
-<Arrow v-bind="{{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 ---
@@ -335,7 +315,7 @@ layout: default
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/MyChoice_Low_Brochure_1_page_001.jpg
+image: img/pages/08_definitions_of_benefits_including_inpatient_hospital_intensive_care_first_day_admission_ambulance_emergency_room_surgery.jpg
 ---
 
 ## Definitions and Limitations
@@ -346,28 +326,30 @@ image: img/pages/MyChoice_Low_Brochure_1_page_001.jpg
 - Daily benefit for up to 10 days
 - Not applicable in rehab units
 - Subject to annual maximum
-<Arrow v-bind="{{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **Intensive Care Confinement**
 - Daily benefit for up to 10 days
-<Arrow v-bind="{{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **First Day Hospital Admission**
 - Once per calendar year
-<Arrow v-bind="{{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }}" />
 </v-click>
 
 <v-click>
 
 **Ambulance Benefits**
 - Per trip, limited to one trip per year
-<Arrow v-bind="{{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }}" />
+</v-click>
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
+
 </v-click>
 
 ---
@@ -395,5 +377,3 @@ line: Thank you for participating in the MyChoice Plan Review. Continue to be gr
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

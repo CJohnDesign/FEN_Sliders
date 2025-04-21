@@ -96,14 +96,6 @@ The primary care visit benefit provides fifty dollars per day, up to three visit
 
 Similarly, the specialty care visit benefit is fifty dollars per day, also for a maximum of three visits.
 
----- Plan Tier 1 (Two of Two) ----
-
-Continuing with our first plan tier, Plan 100A.
-
-Please note that the emergency room benefit is not available, 
-
-and the surgery benefit is also not available under this plan.
-
 ---- Plan Tier 2 (One of Two) ----
 
 Now, let's look at our second plan tier, Plan 100.
@@ -114,13 +106,9 @@ The primary care visit benefit is fifty dollars per day, up to three visits.
 
 The specialty care visit benefit is also fifty dollars per day, for up to three visits.
 
----- Plan Tier 2 (Two of Two) ----
-
-Continuing with our second plan tier, Plan 100.
-
 The emergency room benefit provides fifty dollars per day, for a maximum of one day. 
 
-No surgery benefit is available under this plan.
+The accidental death benefit provides a maximum of ten thousand dollars.
 
 ---- Plan Tier 3 (One of Two) ----
 
@@ -132,17 +120,13 @@ The primary care visit benefit is fifty dollars per day, up to five visits.
 
 The specialty care visit benefit is also fifty dollars per day, for a maximum of five visits.
 
+The emergency room benefit provides fifty dollars per day, for one day. 
+
 The basic pathology and radiology benefit provides fifty dollars per day, for up to one day.
 
 The advance studies benefit offers fifty dollars per day, for a maximum of one day.
 
----- Plan Tier 3 (Two of Two) ----
-
-Continuing with Plan 200.
-
-The emergency room benefit provides fifty dollars per day, for one day. 
-
-No surgery benefit is available under this plan.
+The accidental death benefit provides a maximum of ten thousand dollars.
 
 ---- Plan Tier 4 (One of Two) ----
 
@@ -154,6 +138,8 @@ The primary care visit benefit is fifty dollars per day, for up to five visits.
 
 The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
 
+The emergency room benefit provides fifty dollars per day, for up to two days. 
+
 The basic pathology and radiology benefit provides fifty dollars per day, for up to three days.
 
 The advance studies benefit offers fifty dollars per day, for a maximum of two days.
@@ -162,11 +148,13 @@ The advance studies benefit offers fifty dollars per day, for a maximum of two d
 
 Continuing with Plan 200+.
 
-The emergency room benefit provides fifty dollars per day, for up to two days. 
-
 The surgery benefit offers four hundred dollars per day, with a maximum of three days.
 
-The anesthesia benefit offers twenty percent, with a maximum of three days.
+The anesthesia benefit provides twenty percent coverage, for up to three days.
+
+The accidental death benefit provides a maximum of ten thousand dollars.
+
+The critical illness benefit provides a maximum of one thousand dollars.
 
 ---- Plan Tier 5 (One of Two) ----
 
@@ -192,11 +180,15 @@ The emergency room benefit provides fifty dollars per day, for one day.
 
 The surgery benefit offers four hundred dollars per day, with a maximum of three days.
 
-The anesthesia benefit offers twenty percent, with a maximum of three days.
+The anesthesia benefit provides twenty percent coverage, for up to three days.
 
 The accident inpatient admission benefit offers five hundred dollars per day, for up to one day.
 
 The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
+
+The accidental death benefit provides a maximum of ten thousand dollars.
+
+The critical illness benefit provides a maximum of one thousand dollars.
 
 ---- Plan Tier 6 (One of Two) ----
 
@@ -224,11 +216,15 @@ The emergency room benefit provides seventy-five dollars per day, for one day.
 
 The surgery benefit offers seven hundred fifty dollars per day, with a maximum of three days.
 
-The anesthesia benefit provides twenty percent, with a maximum of three days.
+The anesthesia benefit provides twenty percent coverage, for up to three days.
 
 The accident inpatient admission benefit offers five hundred dollars per day, for up to one day.
 
 The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
+
+The accidental death benefit provides a maximum of ten thousand dollars.
+
+The critical illness benefit provides a maximum of one thousand dollars.
 
 ---- Plan Tier 7 (One of Two) ----
 
@@ -256,11 +252,15 @@ The emergency room benefit provides seventy-five dollars per day, for one day.
 
 The surgery benefit offers one thousand dollars per day, with a maximum of three days.
 
-The anesthesia benefit provides twenty percent, with a maximum of three days.
+The anesthesia benefit provides twenty percent coverage, for up to three days.
 
 The accident inpatient admission benefit offers five hundred dollars per day, for up to two days.
 
 The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
+
+The accidental death benefit provides a maximum of ten thousand dollars.
+
+The critical illness benefit provides a maximum of one thousand dollars.
 
 ---- Plan Tier 8 (One of Two) ----
 
@@ -288,15 +288,19 @@ The emergency room benefit provides one hundred dollars per day, for one day.
 
 The surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days.
 
-The anesthesia benefit provides twenty percent, with a maximum of three days.
+The anesthesia benefit provides twenty percent coverage, for up to three days.
 
 The accident inpatient admission benefit offers five hundred dollars per day, for up to three days.
 
 The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
 
+The accidental death benefit provides a maximum of ten thousand dollars.
+
+The critical illness benefit provides a maximum of one thousand dollars.
+
 ---- Comparing Plan Tiers ----
 
-Let's compare the different tiers available. The Sigma Care Plus plans range from the basic 100A tier to the premium 1000 tier, with hospital confinement benefits increasing from $100 to $1000 per day across the spectrum. Primary and specialty care visit benefits vary from $50 in most plans to $75 in the premium tier, while emergency room coverage ranges from $50 to $100 per day. The plans progressively add more benefits like pathology services, mental health coverage, and accident benefits. Surgery benefits show the most dramatic progression, starting at $400 in Plan 200+ and reaching $1500 in the premium plan, giving members the flexibility to select coverage that aligns with both their healthcare needs and financial considerations.
+Let's compare the different tiers available. The Sigma Care Plus plans range from the basic 100A tier to the premium 1000 tier, with hospital confinement benefits increasing from $100 to $1000 per day across the spectrum. Primary and specialty care visit benefits vary from $50 in most plans to $75 in the premium tier, while emergency room coverage ranges from $50 to $100 per day. The plans progressively add more benefits like pathology services, mental health coverage, and accident benefits. Surgery benefits show the most dramatic progression, starting at $400 in Plan 200+ and reaching $1500 in the premium plan. All plans except 100A include a $10,000 accidental death benefit, and plans 200+ and higher include a $1,000 critical illness benefit, giving members the flexibility to select coverage that aligns with both their healthcare needs and financial considerations.
 
 ---- Definitions and Limitations ----
 
@@ -305,6 +309,8 @@ Let's review important definitions and limitations.
 Exclusions include pre-existing conditions not covered for twelve months, a thirty-day waiting period for sickness benefits, and no coverage for elective or cosmetic surgeries. 
 
 Specific limitations include no coverage for dental procedures not related to accidental injury, and injuries resulting from illegal activities or acts of war.
+
+Agents must review all exclusions and limitations with the consumer to ensure full understanding
 
 ---- Key Takeaways and Reminders ----
 

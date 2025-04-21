@@ -100,7 +100,7 @@ Telemedicine services are available with no consult fee and unlimited access.
 
 Continuing with our first plan tier.
 
-Prescriptions are managed through BestChoice RX discounts at participating pharmacies. BestChoice RX Discount is a Discount Plan and is not RX insurance.
+Prescriptions are managed through BestChoice RX Group Discount Program at participating pharmacies. BestChoice RX Group Discount Program is a Discount Plan and is not RX insurance.
 
 Advocacy is provided through MyHealthcare Ninja for hospital bill reduction.
 
@@ -118,7 +118,7 @@ Telemedicine services are available with no consult fee and unlimited access.
 
 Continuing with our second plan tier.
 
-Prescriptions include preventive and acute prescriptions with a zero dollar copay for generics. Mail order for maintenance drugs is available with a five dollar copay for preferred generics.
+Best Choice RX Prescriptions include preventive and acute prescriptions as well. There’s a zero dollar copay for generics with a five dollar copay for preferred generics. Mail order is available for maintenance drugs under preferred generics.
 
 Advocacy is provided through MyHealthcare Ninja for hospital bill reduction.
 
@@ -136,15 +136,15 @@ Telemedicine services are available with no consult fee and unlimited access.
 
 Continuing with our third plan tier.
 
-Prescriptions include preventive and acute prescriptions with a zero dollar copay for generics. Mail order for maintenance drugs is available with a five dollar copay for preferred generics. Non-preferred generics and brand drugs have specific co-pays.
+Best Choice RX Plus Prescription benefits include preventive and acute prescriptions also. There’s a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
 
 Advocacy is provided through MyHealthcare Ninja for hospital bill reduction.
 
 ---- Comparing Plan Tiers ----
 
-Let's compare the different tiers available. All tiers offer telemedicine services and BestChoice RX group discounts. True Health 2 and True Health 3 include BestChoice RX Plus and specialty drugs assistance. Healthcare Ninja advocacy is available in True Health 2 and True Health 3. Primary care physician visits range from three to four visits per year across the tiers. Specialist or urgent care visits range from one to four visits per year. Hospital indemnity benefits are included in True Health 2 and True Health 3.
+Let's compare the different tiers available. All tiers offer telemedicine services and BestChoice RX group discounts. True Health 2 offers BestChoice RX and True Health 3 includes BestChoice RX Plus which includes specialty drugs assistance through P.A.P. Healthcare Ninja advocacy is available in True Health 2 and True Health 3. Primary care physician visits range from three to four visits per year across the tiers. Specialist or urgent care visits range from one to four visits per year. Hospital indemnity benefits are included in True Health 2 and True Health 3.
 
----- Definitions and Limitations ----
+---- Exclusions and Limitations ----
 
 Let's review important definitions and limitations.
 
@@ -152,11 +152,14 @@ Exclusions include pre-existing conditions for the first twelve months, services
 
 Limitations include a thirty-day waiting period for sickness benefits and an in-network provider requirement for outpatient services.
 
+Agents must review all exclusions and limitations with the consumer to ensure full understanding.
+
 ---- Key Takeaways and Reminders ----
 
 Here are the key points to remember.
 
-The plan offers flexibility with multiple tiers to suit different needs.
+The plan offers flexibility with multiple tiers to sui
+t different needs.
 
 There is a balance of cost-effective coverage across the tiers.
 

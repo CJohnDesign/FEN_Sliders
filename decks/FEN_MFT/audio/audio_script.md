@@ -94,7 +94,7 @@ MedFirst Wellness includes physician services with one wellness exam per year. T
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription discounts are offered at participating pharmacies, providing discounted rates.
+Prescriptions are managed through BestChoice RX Group discount program at participating pharmacies. BestChoice RX Group Discount Program is a Discount Plan and is not RX insurance.
 
 ---- Medfirst Wellness (Two of Two) ----
 
@@ -120,7 +120,7 @@ Continuing with MedFirst 1, let's explore telemedicine and prescription benefits
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription discounts are offered at participating pharmacies, providing discounted rates.
+Like the Wellness Plan prescriptions are still managed through BestChoice RX Group discount program at participating pharmacies. As a reminder BestChoice RX Group Discount Program is a Discount Plan and is not RX insurance.
 
 ---- MedFirst 2 (One of Two) ----
 
@@ -138,7 +138,7 @@ Continuing with MedFirst 2, let's explore telemedicine and prescription benefits
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription benefits include preventive and acute prescriptions with a zero dollar copay for generics. Preferred Generic with a 5 dollar copay, non-preferred generic with copays of five and ten dollars for retail and five and twenty dollar copay for mail order, and Brand medications with a forty dollar copay for retail and eighty dollar copay for mail order.
+Best Choice RX Prescriptions include preventive and acute prescriptions. There's a zero dollar copay for generics with a five dollar copay for preferred generics. Mail order is available for maintenance drugs under preferred generics.
 
 ---- MedFirst 3 (One of Two) ----
 
@@ -156,25 +156,25 @@ Continuing with MedFirst 3, let's explore telemedicine and prescription benefits
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription benefits include preventive and acute prescriptions with a five dollar copay for preferred generics.
+Best Choice RX Plus prescription benefits include preventive and acute prescriptions as well. There's a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
 
 ---- MedFirst 4 (One of Two) ----
 
 Now, let's look at our fifth plan tier, MedFirst 4.
 
-MedFirst 4 includes physician services with four primary care visits per year. There is a fifty dollar co-pay, with a one hundred fifty dollar maximum per visit.
+MedFirst 4 includes one annual wellness exam with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit. For primary care, it offers four visits per year with a fifty dollar co-pay and a one hundred fifty dollar maximum per visit.
 
 Specialist visits are included, with four visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum per visit.
 
-Hospitalization benefits provide one thousand dollars per day, with a ten thousand dollar maximum per year.
+For hospital benefits, inpatient care provides one thousand dollars per day, with a ten thousand dollar annual maximum. Surgery benefits are covered up to one thousand dollars per year with a two thousand dollar combined maximum. Emergency room visits are covered at one thousand dollars per incident if admitted, and ambulance services at five hundred dollars per incident.
 
 ---- MedFirst 4 (Two of Two) ----
 
 Continuing with MedFirst 4, let's explore telemedicine and prescription benefits.
 
-Telemedicine services are available with no consult fee and unlimited access.
+Telemedicine services are available twenty-four seven with no consult fee and unlimited access.
 
-Prescription benefits include preventive and acute prescriptions with a zero dollar copay for generics. Preferred Generic with a 5 dollar copay, non-preferred generic with copays of five and ten dollars for retail and five and twenty dollar copay for mail order, and Brand medications with a forty dollar copay for retail and eighty dollar copay for mail order.
+The prescription benefits through BestChoiceRX Plus include coverage for preventive and acute prescriptions. There's a zero dollar copay for generic drugs and five dollars for preferred generics. Non-preferred generic medications carry copays of five and ten dollars for thirty-day retail supply, and twenty dollars for ninety-day mail order. Brand medications have a forty dollar copay for thirty-day retail supply and eighty dollar copay for ninety-day mail order supply. These prescription benefits are subject to a one hundred fifty dollar monthly benefit limit per person.
 
 ---- MedFirst 5 (One of Two) ----
 
@@ -192,15 +192,15 @@ Continuing with MedFirst 5, let's explore telemedicine and prescription benefits
 
 Telemedicine services are available with no consult fee and unlimited access.
 
-Prescription benefits include preventive and acute prescriptions with a zero dollar copay for generics. Preferred Generic with a 5 dollar copay, non-preferred generic with copays of five and ten dollars for retail and five and twenty dollar copay for mail order, and Brand medications with a forty dollar copay for retail and eighty dollar copay for mail order.
+Like Medfirst 3 and 4 Prescription benefits include preventive and acute prescriptions. There's a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
 
 ---- Comparing Plan Tiers ----
 
 Let's compare the different tiers available. Primary care visits range from one to five visits per year, depending on the plan. Specialist visits vary from zero to five visits per year. Hospitalization benefits range from not covered to a fifteen thousand dollar maximum per year. Telemedicine services offer unlimited access across all plans. Prescription benefits range from discounts to rx coverage for brand name medications depending on plan type.
 
----- Definitions and Limitations ----
+---- Exclusions and Limitations ----
 
-Let's review important definitions and limitations.
+Let's review important exclusions and limitations.
 
 There is a thirty-day waiting period for sickness benefits, and pre-existing conditions are not covered for twelve months.
 
@@ -227,4 +227,6 @@ In-network providers are required for services, ensuring quality care.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist clients in making informed decisions about their health coverage. Continue to be great!
+
+
 

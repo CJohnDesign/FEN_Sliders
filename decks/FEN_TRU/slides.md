@@ -85,10 +85,7 @@ layout: default
 
 <v-click>
 
-**Advocacy** through MyHealthcare Ninja
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="./img/logos/heathcare-ninja.png" class="h-12 mix-blend-multiply" alt="MyHealthcare Ninja Logo">
-</div>
+**Advocacy** through **MyHealthcare Ninja**
 </v-click>
 
 ---
@@ -137,7 +134,7 @@ layout: default
 
 <v-click>
 
-4. Receive prescription assistance **(BCRX)**
+4. Receive prescription assistance **(P.A.P)**
 </v-click>
 
 <v-click>
@@ -264,8 +261,10 @@ image: img/pages/02_true_health_1_plan_details_with_benefits_and_coverage_limits
 
 <v-click>
 
-**BestChoiceRX Group Discount**
-- Discounts at participating pharmacies
+**Prescriptions**
+- BestChoice RX Group Discount Program
+- Discounted RX 
+- Participating pharmacies
 </v-click>
 
 <v-click>
@@ -311,9 +310,11 @@ image: img/pages/03_true_health_2_plan_details_with_benefits_for_physician_servi
 
 <v-click>
 
-**BestChoiceRX**
-- Preventive and acute prescriptions, $0 copay for generics
-- Mail order for maintenance drugs, $5 copay for preferred generics
+**Prescriptions**
+- BestChoice RX
+- Preventive and Acute Prescriptions subject to formulary NOT the monthly max
+- $0 copay for Generics
+- $5 copay for Preferred Generics
 </v-click>
 
 <v-click>
@@ -359,10 +360,13 @@ image: img/pages/04_true_health_3_plan_details_with_benefits_and_prescription_te
 
 <v-click>
 
-**BestChoiceRX Plus**
-- Preventive and acute prescriptions, $0 copay for generics
-- Mail order for maintenance drugs, $5 copay for preferred generics
-- Non-preferred generics and brand drugs with specific co-pays
+**Prescriptions**
+- BestChoiceRX Plus
+- $0 copay for Generics
+- $5 copay for Preferred Generics
+- Preventive and Acute Prescriptions subject to formulary NOT the monthly max
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-Preferred Generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 </v-click>
 
 <v-click>
@@ -397,7 +401,7 @@ layout: one-half-img
 image: img/pages/11_mec_preventive_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg
 ---
 
-## Definitions and Limitations
+## Exclusions and Limitations
 
 <v-click>
 
@@ -405,6 +409,7 @@ image: img/pages/11_mec_preventive_health_services_summary_of_benefits_with_excl
 - Pre-existing conditions for the first 12 months
 - Services not listed in the Schedule of Benefits
 - Non-emergency care outside the U.S.
+- Must review all exclusions
 </v-click>
 
 <v-click>
@@ -412,6 +417,12 @@ image: img/pages/11_mec_preventive_health_services_summary_of_benefits_with_excl
 **Limitations**
 - 30-day waiting period for sickness benefits
 - In-network provider requirement for outpatient services
+- Must review all limiations
+</v-click>
+
+<v-click>
+
+**Agents must review all exclusions and limitations with the member to ensure full understanding.**
 </v-click>
 
 ---
@@ -450,6 +461,4 @@ line: Thank you for participating in the True Health Review. Continue to be grea
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
 

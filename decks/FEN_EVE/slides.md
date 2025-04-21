@@ -55,13 +55,10 @@ layout: default
 **Direct Payment of Benefits**
 
 **Simplified Claims Process** (varies by plan)
+
+**Additional Savings** through Claritev
+
 </v-clicks>
-
-<v-click>
-
-**Additional Savings** through Multiplan
-
-</v-click>
 
 ---
 transition: fade-out
@@ -153,7 +150,7 @@ layout: default
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_002.jpg
+image: /img/pages/03_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_100_plan_200_plan_200plus_plan_300.jpg
 ---
 
 ## Plan 100 (1/2)
@@ -165,7 +162,6 @@ image: img/pages/Everest_Brochure_REV_page_002.jpg
 - ICU: $200 per day
 - ER Visits: $50 per visit
 - Surgery: Up to 3 days
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -173,7 +169,6 @@ image: img/pages/Everest_Brochure_REV_page_002.jpg
 **Outpatient Benefits**
 - Lab Tests: $50 per service
 - X-rays: $50 per service
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -181,13 +176,12 @@ image: img/pages/Everest_Brochure_REV_page_002.jpg
 **Physician's Office Visits**
 - $50 per visit
 - Limited visits per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_002.jpg
+image: /img/pages/03_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_100_plan_200_plan_200plus_plan_300.jpg
 ---
 
 ## Plan 100 (2/2)
@@ -197,7 +191,6 @@ image: img/pages/Everest_Brochure_REV_page_002.jpg
 **Exclusions**
 - No chiropractic or acupuncture
 - Benefits per person
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -205,13 +198,12 @@ image: img/pages/Everest_Brochure_REV_page_002.jpg
 **Policy Terms**
 - Vary by state
 - Consult certificate for details
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_003.jpg
+image: /img/pages/03_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_100_plan_200_plan_200plus_plan_300.jpg
 ---
 
 ## Plan 200 (1/2)
@@ -223,7 +215,6 @@ image: img/pages/Everest_Brochure_REV_page_003.jpg
 - ICU: $300 per day
 - ER Visits: $50 per visit
 - Surgery: Up to 3 days
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -231,7 +222,6 @@ image: img/pages/Everest_Brochure_REV_page_003.jpg
 **Outpatient Benefits**
 - Lab Tests: $50 per service
 - X-rays: $50 per service
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -239,13 +229,12 @@ image: img/pages/Everest_Brochure_REV_page_003.jpg
 **Physician's Office Visits**
 - $50 per visit
 - Limited visits per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_003.jpg
+image: /img/pages/03_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_100_plan_200_plan_200plus_plan_300.jpg
 ---
 
 ## Plan 200 (2/2)
@@ -255,7 +244,6 @@ image: img/pages/Everest_Brochure_REV_page_003.jpg
 **Exclusions**
 - No chiropractic or acupuncture
 - Benefits per person
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -263,13 +251,70 @@ image: img/pages/Everest_Brochure_REV_page_003.jpg
 **Policy Terms**
 - Vary by state
 - Consult certificate for details
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_004.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
+---
+
+## Plan 200+ (1/2)
+
+<v-click>
+
+**Hospital Confinement Benefits**
+- $200 per day
+- 30 day per confinement limit
+- 90 days per certificate year maximum
+- ICU: $200 per day
+- ER Visits: $50 per visit (2 visits/year)
+</v-click>
+
+<v-click>
+
+**Surgery Benefits**
+- Up to 3 days per certificate year
+- $250 per day (inpatient/outpatient)
+- Anesthesia: 25% coverage
+</v-click>
+
+<v-click>
+
+**Outpatient Benefits**
+- Lab Tests: $50 per service
+- X-rays: $50 per service
+- Advanced diagnostics included
+- 4 days coverage per certificate year
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: /img/pages/03_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_100_plan_200_plan_200plus_plan_300.jpg
+---
+
+## Plan 200+ (2/2)
+
+<v-click>
+
+**Physician's Office Visits**
+- $50 per visit
+- Pre-existing condition limitation: 12-12
+- Guaranteed issue
+</v-click>
+
+<v-click>
+
+**Policy Terms**
+- Vary by state
+- Consult certificate for details
+</v-click>
+
+---
+transition: fade-out
+layout: one-half-img
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
 ---
 
 ## Plan 300 (1/2)
@@ -281,7 +326,6 @@ image: img/pages/Everest_Brochure_REV_page_004.jpg
 - ICU: $300 per day
 - ER Visits: $50 per visit
 - Surgery: Up to 3 days
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -289,7 +333,6 @@ image: img/pages/Everest_Brochure_REV_page_004.jpg
 **Outpatient Benefits**
 - Lab Tests: $50 per service
 - X-rays: $50 per service
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -297,13 +340,12 @@ image: img/pages/Everest_Brochure_REV_page_004.jpg
 **Physician's Office Visits**
 - $50 per visit
 - Limited visits per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_004.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
 ---
 
 ## Plan 300 (2/2)
@@ -313,7 +355,6 @@ image: img/pages/Everest_Brochure_REV_page_004.jpg
 **Exclusions**
 - No chiropractic or acupuncture
 - Benefits per person
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -321,13 +362,12 @@ image: img/pages/Everest_Brochure_REV_page_004.jpg
 **Policy Terms**
 - Vary by state
 - Consult certificate for details
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_005.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
 ---
 
 ## Plan 500 (1/2)
@@ -339,7 +379,6 @@ image: img/pages/Everest_Brochure_REV_page_005.jpg
 - ICU: $500 per day
 - ER Visits: $50 per visit
 - Surgery: Up to 3 days
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -347,7 +386,6 @@ image: img/pages/Everest_Brochure_REV_page_005.jpg
 **Outpatient Benefits**
 - Lab Tests: $50 per service
 - X-rays: $50 per service
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -355,13 +393,12 @@ image: img/pages/Everest_Brochure_REV_page_005.jpg
 **Physician's Office Visits**
 - $50 per visit
 - Limited visits per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_005.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
 ---
 
 ## Plan 500 (2/2)
@@ -371,7 +408,6 @@ image: img/pages/Everest_Brochure_REV_page_005.jpg
 **Exclusions**
 - No chiropractic or acupuncture
 - Benefits per person
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -379,13 +415,13 @@ image: img/pages/Everest_Brochure_REV_page_005.jpg
 **Policy Terms**
 - Vary by state
 - Consult certificate for details
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_006.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
+
 ---
 
 ## Plan 750 (1/2)
@@ -397,7 +433,6 @@ image: img/pages/Everest_Brochure_REV_page_006.jpg
 - ICU: $750 per day
 - ER Visits: $50 per visit
 - Surgery: Up to 3 days
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -405,7 +440,6 @@ image: img/pages/Everest_Brochure_REV_page_006.jpg
 **Outpatient Benefits**
 - Lab Tests: $50 per service
 - X-rays: $50 per service
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -413,13 +447,13 @@ image: img/pages/Everest_Brochure_REV_page_006.jpg
 **Physician's Office Visits**
 - $50 per visit
 - Limited visits per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_006.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
+
 ---
 
 ## Plan 750 (2/2)
@@ -429,7 +463,6 @@ image: img/pages/Everest_Brochure_REV_page_006.jpg
 **Exclusions**
 - No chiropractic or acupuncture
 - Benefits per person
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -437,13 +470,12 @@ image: img/pages/Everest_Brochure_REV_page_006.jpg
 **Policy Terms**
 - Vary by state
 - Consult certificate for details
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_007.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
 ---
 
 ## Plan 1000 (1/2)
@@ -455,7 +487,6 @@ image: img/pages/Everest_Brochure_REV_page_007.jpg
 - ICU: $1000 per day
 - ER Visits: $100 per visit
 - Surgery: Up to 3 days
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -463,7 +494,6 @@ image: img/pages/Everest_Brochure_REV_page_007.jpg
 **Outpatient Benefits**
 - Lab Tests: $100 per service
 - X-rays: $100 per service
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -471,13 +501,12 @@ image: img/pages/Everest_Brochure_REV_page_007.jpg
 **Physician's Office Visits**
 - $100 per visit
 - Limited visits per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_007.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
 ---
 
 ## Plan 1000 (2/2)
@@ -487,7 +516,6 @@ image: img/pages/Everest_Brochure_REV_page_007.jpg
 **Exclusions**
 - No chiropractic or acupuncture
 - Benefits per person
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -495,13 +523,12 @@ image: img/pages/Everest_Brochure_REV_page_007.jpg
 **Policy Terms**
 - Vary by state
 - Consult certificate for details
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_008.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
 ---
 
 ## Plan 1000+ (1/2)
@@ -513,7 +540,6 @@ image: img/pages/Everest_Brochure_REV_page_008.jpg
 - ICU: $1000 per day
 - ER Visits: $100 per visit
 - Surgery: Up to 3 days
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -521,7 +547,6 @@ image: img/pages/Everest_Brochure_REV_page_008.jpg
 **Outpatient Benefits**
 - Lab Tests: $100 per service
 - X-rays: $100 per service
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -529,13 +554,12 @@ image: img/pages/Everest_Brochure_REV_page_008.jpg
 **Physician's Office Visits**
 - $100 per visit
 - Limited visits per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
 transition: fade-out
 layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_008.jpg
+image: /img/pages/04_group_fixed_indemnity_plan_details_with_benefit_comparison_and_limitations_for_plan_500_plan_750_plan_1000_plan_1000_plus.jpg
 ---
 
 ## Plan 1000+ (2/2)
@@ -545,7 +569,6 @@ image: img/pages/Everest_Brochure_REV_page_008.jpg
 **Exclusions**
 - No chiropractic or acupuncture
 - Benefits per person
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -553,7 +576,6 @@ image: img/pages/Everest_Brochure_REV_page_008.jpg
 **Policy Terms**
 - Vary by state
 - Consult certificate for details
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -563,18 +585,23 @@ layout: default
 
 ## Comparing the Plans
 
-| **Feature** | **Plan 100** | **Plan 200** | **Plan 300** | **Plan 500** | **Plan 750** | **Plan 1000** | **Plan 1000+** |
-|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|
-| Hospital Confinement | $100/day | $200/day | $300/day | $500/day | $750/day | $1000/day | $1000/day |
-| ICU Confinement | $200/day | $300/day | $300/day | $500/day | $750/day | $1000/day | $1000/day |
-| ER Visits | $50/visit | $50/visit | $50/visit | $50/visit | $50/visit | $100/visit | $100/visit |
-| Surgery Days | 3 max | 3 max | 3 max | 3 max | 3 max | 3 max | 3 max |
-| Lab Tests | $50/service | $50/service | $50/service | $50/service | $50/service | $100/service | $100/service |
+| **Feature** | **Plan 100** | **Plan 200** | **Plan 200+** | **Plan 300** | **Plan 500** | **Plan 750** | **Plan 1000** | **Plan 1000+** |
+|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Hospital Confinement | $100/day | $200/day | $200/day | $300/day | $500/day | $750/day | $1000/day | $1000/day |
+| ICU Confinement | $100/day | $200/day | $200/day | $300/day | $500/day | $750/day | $1000/day | $1000/day |
+| Emergency Room | $50/visit | $50/visit | $50/visit | $50/visit | $50/visit | $75/visit | $100/visit | $100/visit |
+| Surgery | N/A | N/A | $250/day | $250/day | $350/day | $400/day | $500/day | $500/day |
+| Anesthesia | N/A | N/A | 25% | 25% | 25% | 25% | 25% | 25% |
+| Lab/X-Rays | N/A | $50/service | $50/service | N/A | $50/service | $50/service | $75/service | $100/service |
+| Physician's Office | $50/visit | $50/visit | $50/visit | $50/visit | $50/visit | $50/visit | $75/visit | $75/visit |
 
 ---
 transition: fade-out
-layout: one-half-img
-image: img/pages/Everest_Brochure_REV_page_009.jpg
+layout: one-half-img-many
+images: 
+- /img/pages/06_plan_exclusions_and_limitations_for_covered_services_and_treatments.jpg
+- /img/pages/07_insurance_plan_exclusions_and_limitations_on_coverage_for_gender_hazardous_activities_illegal_acts_and_more.jpg
+- /img/pages/08_limitations_and_exclusions_for_various_conditions_and_activities_in_insurance_plan.jpg
 ---
 
 ## Definitions and Limitations
@@ -584,7 +611,6 @@ image: img/pages/Everest_Brochure_REV_page_009.jpg
 **Pre-existing Conditions**
 - 12-month limitation
 - Applies to all plans
-<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -592,7 +618,6 @@ image: img/pages/Everest_Brochure_REV_page_009.jpg
 **Exclusions**
 - No chiropractic or acupuncture
 - No cosmetic surgery
-<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -600,7 +625,6 @@ image: img/pages/Everest_Brochure_REV_page_009.jpg
 **Policy Terms**
 - Vary by state
 - Consult certificate for details
-<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -608,9 +632,26 @@ image: img/pages/Everest_Brochure_REV_page_009.jpg
 **Limitations**
 - No coverage for hazardous activities
 - No benefits for illegal acts
-<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
+---
+transition: fade-out
+layout: default
+---
+
+## Key Takeaways
+
+<v-clicks>
+
+- The Everest Group Indemnity Insurance provides **supplemental coverage** with fixed payments for medical expenses
+
+- Access to the **Claritev Network** and support tools enhances your clients' healthcare experience
+
+- The **GapAfford Plus Program** offers financial relief through pre-negotiated rates and no deductibles
+
+- Each plan tier offers **different levels of benefits**, allowing you to help your clients choose the coverage that best fits their needs
+
+</v-clicks>
 
 ---
 transition: fade-out

@@ -43,7 +43,7 @@ layout: default
 
 <v-click>
 
-- **Accessibility, affordability, and personal impact** through comprehensive support services
+- **Accessibility, affordability, and personal impact** through support services
 
 </v-click>
 
@@ -68,7 +68,7 @@ layout: default
 
 <v-click>
 
-**Comprehensive Support Services** (varies by plan)
+**Support Services** (varies by plan)
 
 </v-click>
 
@@ -194,7 +194,7 @@ layout: default
 
 <v-click>
 
-- **Comprehensive** healthcare advocacy
+- **Healthcare advocacy**
 
 </v-click>
 
@@ -241,8 +241,10 @@ image: img/pages/02_gdhp_w_plan_details_with_wellness_exam_and_telemedicine_bene
 
 <v-click>
 
-**Discount Prescriptions**
-- Available through BestChoice RX
+**Prescriptions**
+- BestChoice RX Group Discount Program
+- Discounted RX 
+- Participating pharmacies
 </v-click>
 
 ---
@@ -317,6 +319,14 @@ image: img/pages/03_gdhp_1_plan_details_with_benefits_for_physician_services_tel
 - Hospital Bill Reducer
 </v-click>
 
+<v-click>
+
+**Prescriptions**
+- BestChoice RX Group Discount Program
+- Discounted RX 
+- Participating pharmacies
+</v-click>
+
 ---
 transition: fade-out
 layout: one-half-img
@@ -365,8 +375,11 @@ image: img/pages/04_gdhp_2_plan_details_with_benefits_for_physician_services_and
 
 <v-click>
 
-**Prescription Terms**
-- Preventive and acute prescriptions with formulary
+**Prescriptions**
+- BestChoiceRX
+- Preventive and Acute Prescriptions subject to formulary NOT the monthly max
+- $0 copay for Generics
+- $5 copay for Preferred Generics
 </v-click>
 
 ---
@@ -417,8 +430,13 @@ image: img/pages/05_gdhp_3_plan_details_with_benefits_and_coverage_limits.jpg
 
 <v-click>
 
-**Prescription Coverage**
-- Includes preventive and acute prescriptions
+**Prescriptions**
+- BestChoiceRX Plus
+- $0 copay for Generics
+- $5 copay for Preferred Generics
+- Preventive and Acute Prescriptions subject to formulary NOT the monthly max
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-Preferred Generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 </v-click>
 
 ---
@@ -475,6 +493,17 @@ image: img/pages/06_gdhp_4_plan_details_with_benefits_for_wellness_exam_primary_
 - No maximum
 </v-click>
 
+<v-click>
+
+**Prescriptions**
+- BestChoiceRX Plus
+- $0 copay for Generics
+- $5 copay for Preferred Generics
+- Preventive and Acute Prescriptions subject to formulary NOT the monthly max
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-Preferred Generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
+</v-click>
+
 ---
 transition: fade-out
 layout: one-half-img
@@ -529,6 +558,17 @@ image: img/pages/07_gdhp_5_plan_details_with_benefits_for_wellness_exam_primary_
 - No maximum
 </v-click>
 
+<v-click>
+
+**Prescriptions**
+- BestChoiceRX Plus
+- $0 copay for Generics
+- $5 copay for Preferred Generics
+- Preventive and Acute Prescriptions subject to formulary NOT the monthly max
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-Preferred Generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
+</v-click>
+
 ---
 transition: fade-out
 layout: default
@@ -543,7 +583,9 @@ layout: default
 | Specialist/Urgent Care Visits | - | 1 | 2 | 4 | 4 | 5 |
 | In-Patient Hospitalization | - | $5,000 | $10,000 | $15,000 | $10,000 | $15,000 |
 | Telemedicine | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Prescription Coverage | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| BestChoiceRX Group Discount | ✔ | ✔ | ✔ | ✔ | ✔ | 
+| BestChoiceRX | | |✔ | | | 
+| BestChoiceRX Plus | | | | ✔ |✔ | ✔ |
 
 ---
 transition: fade-out
@@ -551,7 +593,7 @@ layout: one-half-img
 image: img/pages/19_limitations_and_exclusions_for_goodhealth_insurance_plan.jpg
 ---
 
-## Definitions and Limitations
+## Exclusions and Limitations
 
 <v-click>
 
@@ -559,6 +601,7 @@ image: img/pages/19_limitations_and_exclusions_for_goodhealth_insurance_plan.jpg
 - Order of benefit payments
 - Rights to information
 - Appeal process
+- Must review all exclusions and limitations
 </v-click>
 
 <v-click>
@@ -579,6 +622,11 @@ image: img/pages/19_limitations_and_exclusions_for_goodhealth_insurance_plan.jpg
 - In-network provider restrictions
 </v-click>
 
+<v-click>
+
+**Agents must review all exclusions and limitations with the consumer to ensure full understanding.**
+</v-click>
+
 ---
 transition: fade-out
 layout: default
@@ -588,7 +636,7 @@ layout: default
 
 <v-click>
 
-- **Comprehensive Coverage** benefits
+- **Coverage** benefits
 </v-click>  
 
 <v-click>
@@ -616,4 +664,3 @@ line: Thank you for participating in the Good Health Review. Continue to be grea
 
 Continue to be great!
 
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">

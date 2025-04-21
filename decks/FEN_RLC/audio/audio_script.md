@@ -94,7 +94,7 @@ Physician Services include one Wellness Exam per year, with a twenty-five dollar
 
 Telemedicine services have No Consult Fee and No Maximum. 
 
-Prescriptions offer a Discount at Participating Pharmacies.
+Prescriptions are managed through BestChoice RX Group discount program at participating pharmacies. BestChoice RX Group Discount Program is a Discount Plan and is not RX insurance.
 
 There are Limitations, such as a thirty-day waiting period for sickness benefits, and an in-network provider requirement.
 
@@ -113,6 +113,8 @@ Telemedicine services have No Consult Fee and No Maximum.
 ---- Plan Tier 2 (Two of Two) ----
 
 Continuing with our second plan tier.
+
+Prescriptions are managed through BestChoice RX Group discount program at participating pharmacies. BestChoice RX Group Discount Program is a Discount Plan and is not RX insurance.
 
 Advocacy includes the Hospital Bill Reducer. 
 
@@ -134,7 +136,7 @@ Telemedicine services have No Consult Fee and No Maximum.
 
 Continuing with our third plan tier.
 
-Prescriptions include a Generic zero dollar Co-pay, a Preferred Generic five dollar Co-pay, Non-Preferred Generic with retail thirty-day five and ten dollar Co-pays, and mail order ninety-day five and twenty dollar Co-pays. Brand drugs require prior authorization, with retail thirty-day forty dollar Co-pay and mail order ninety-day eighty dollar Co-pay.
+Best Choice RX Prescriptions include preventive and acute prescriptions. There’s a zero dollar copay for generics with a five dollar copay for preferred generics. Mail order is available for maintenance drugs under preferred generics.
 
 Limitations include a thirty-day waiting period for sickness benefits, and an in-network provider requirement.
 
@@ -154,7 +156,7 @@ Telemedicine services have No Consult Fee and No Maximum.
 
 Continuing with our fourth plan tier.
 
-Prescriptions include a Generic zero dollar Co-pay, a Preferred Generic five dollar Co-pay, Non-Preferred Generic with retail thirty-day five and ten dollar Co-pays, and mail order ninety-day five and twenty dollar Co-pays. Brand drugs require prior authorization, with retail thirty-day forty dollar Co-pay and mail order ninety-day eighty dollar Co-pay.
+Best Choice RX Plus prescription benefits include preventive and acute prescriptions as well. There’s a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
 
 Limitations include a thirty-day waiting period for sickness benefits, and an in-network provider requirement.
 
@@ -168,7 +170,9 @@ Hospitalization benefits provide one thousand dollars per day, with a ten thousa
 
 In and Outpatient Surgery benefits provide one thousand dollars per year with a two thousand dollar yearly maximum, also subject to a twelve-twelve month pre-existing condition limitation.
 
-Emergency Room benefits, when admitted, cover one thousand dollars per incident, while Ambulance benefits, also when admitted, provide five hundred dollars per incident. Both are subject to twelve-twelve month pre-existing condition limitations.
+Emergency Room benefits, when admitted, cover one thousand dollars per incident, 
+
+while Ambulance benefits, also when admitted, provide five hundred dollars per incident. Both are subject to twelve-twelve month pre-existing condition limitations.
 
 Telemedicine services have No Consult Fee and No Maximum.
 
@@ -176,7 +180,8 @@ Telemedicine services have No Consult Fee and No Maximum.
 
 Continuing with our fifth plan tier.
 
-Prescriptions include a Generic zero dollar Co-pay, a Preferred Generic five dollar Co-pay, Non-Preferred Generic with retail thirty-day five and ten dollar Co-pays, and mail order ninety-day five and twenty dollar Co-pays. Brand drugs require prior authorization, with retail thirty-day forty dollar Co-pay and mail order ninety-day eighty dollar Co-pay.
+This plan also includes Best Choice RX Plus prescription benefits that include preventive and acute prescriptions as well. There’s a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
+
 
 Limitations include a thirty-day waiting period for sickness benefits, and an in-network provider requirement.
 
@@ -190,25 +195,27 @@ Hospitalization benefits provide one thousand five hundred dollars per day, with
 
 In and Outpatient Surgery benefits provide one thousand five hundred dollars per year with a four thousand five hundred dollar yearly maximum, also subject to a twelve-twelve month pre-existing condition limitation.
 
-Emergency Room benefits, when admitted, cover one thousand dollars per incident, while Ambulance benefits, also when admitted, provide five hundred dollars per incident. Both are subject to twelve-twelve month pre-existing condition limitations.
+Emergency Room benefits, when admitted, cover one thousand dollars per incident, 
 
----- Plan Tier 6 (Two of Two) ----
+while Ambulance benefits, also when admitted, provide five hundred dollars per incident. Both are subject to twelve-twelve month pre-existing condition limitations.
 
 Telemedicine services are provided through both Kindly Human and RECURO HEALTH, with zero dollar Consult Fee and No Maximum.
 
-Limitations include a thirty-day waiting period for sickness benefits, and an in-network provider requirement through the First Health Network.
+---- Plan Tier 6 (Two of Two) ----
 
-Prescriptions include a Generic zero dollar Co-pay, a Preferred Generic five dollar Co-pay, Non-Preferred Generic with retail thirty-day five and ten dollar Co-pays, and mail order ninety-day five and twenty dollar Co-pays. Brand drugs require prior authorization, with retail thirty-day forty dollar Co-pay and mail order ninety-day eighty dollar Co-pay.
+Again Best Choice RX Plus prescription benefits include 
+
+preventive and acute prescriptions as well. There’s a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
 
 Limitations include a thirty-day waiting period for sickness benefits, and an in-network provider requirement.
 
 ---- Comparing Plan Tiers ----
 
-Let's compare the different tiers available. For Primary Care, the Wellness plan offers one visit per year with a twenty-five dollar Co-pay, Care 1 offers three visits, Care 2 and Care 3 offer four visits with the same Co-pay, and Care 4 and 5 offer four and five visits respectively with a fifty dollar Co-pay. Specialist visits range from one visit in Care 1 to five visits in Care 5, with Co-pays increasing from fifty dollars in Care 1-3 to seventy-five dollars in Care 4-5. Hospitalization benefits range from one thousand dollars per day in Care 1-4 to one thousand five hundred dollars per day in Care 5, with yearly maximums varying from five thousand to fifteen thousand dollars. Care 4 and 5 include additional benefits such as surgery coverage, emergency room visits at one thousand dollars per incident, and ambulance services at five hundred dollars per incident. All plans include Telemedicine services with no consult fee. For prescriptions, Care 2 through Care 5 offer comprehensive coverage with Generic drugs at no cost, Preferred Generic at five dollars, Non-Preferred Generic ranging from five to ten dollars for retail and five to twenty dollars for mail order, and Brand drugs at forty dollars for retail and eighty dollars for mail order with prior authorization required. Non-preventive maintenance prescriptions have a one hundred fifty dollar monthly benefit limit per person.
+The comparison table highlights key features across all plans, including wellness exams, primary care visits, specialist visits, in-patient hospitalization, ambulance, surgery, telemedicine, and prescription coverage. Each plan offers unique benefits tailored to different needs.
 
----- Definitions and Limitations ----
+---- Exclusions and Limitations ----
 
-Let's review important definitions and limitations.
+Let's review important Exclusions and limitations.
 
 Exclusions include Pre-existing Conditions, Waiting Periods, and Prescription Limitations. 
 
@@ -231,4 +238,3 @@ and in-network providers are required.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
-

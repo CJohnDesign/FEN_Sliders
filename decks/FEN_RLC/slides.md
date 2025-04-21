@@ -254,8 +254,11 @@ image: img/pages/10_reliant_care_wellness_plan_details_with_wellness_exam_and_te
 
 <v-click>
 
-**Prescriptions**
-- Discount at Participating Pharmacies
+**Prescription Discounts**
+- Best Choice RX Group Discount Program
+- Participating pharmacies
+- Discounted rates
+- Discount on RX not RX coverage
 </v-click>
 
 <v-click>
@@ -312,6 +315,15 @@ image: img/pages/11_reliant_care_1_plan_details_with_benefits_and_limitations.jp
 ---
 
 ## Reliant Care 1 (2/2)
+
+<v-click>
+
+**Prescription Discounts**
+- Best Choice RX Group Discount Program
+- Participating pharmacies
+- Discounted rates
+- Discount on RX not RX coverage
+</v-click>
 
 <v-click>
 
@@ -374,11 +386,11 @@ image: img/pages/12_reliant_care_2_plan_details_with_benefits_and_limitations.jp
 
 <v-click>
 
-**Prescriptions**
-- Generic $0 Co-pay
-- Preferred Generic $5 Co-pay
-- Non-Preferred Generic: Retail 30-day $5 & $10 Co-pay, Mail Order 90-day $5 & $20 Co-pay
-- Brand (Prior Auth Required): Retail 30-day $40, Mail Order 90-day $80
+**Prescription Benefits**
+- BestChoiceRX
+- Preventive and Acute Prescriptions subject to formulary NOT the monthly max
+- $0 copay for Generics
+- $5 copay for Preferred Generics
 </v-click>
 
 <v-click>
@@ -426,6 +438,7 @@ image: img/pages/13_reliant_care_3_plan_details_with_benefits_and_coverage_limit
 - No Maximum
 </v-click>
 
+
 ---
 transition: fade-out
 layout: one-half-img
@@ -436,11 +449,13 @@ image: img/pages/13_reliant_care_3_plan_details_with_benefits_and_coverage_limit
 
 <v-click>
 
-**Prescriptions**
-- Generic $0 Co-pay
-- Preferred Generic $5 Co-pay
-- Non-Preferred Generic: Retail 30-day $5 & $10 Co-pay, Mail Order 90-day $5 & $20 Co-pay
-- Brand (Prior Auth Required): Retail 30-day $40, Mail Order 90-day $80
+**Prescription Benefits**
+- BestChoiceRX Plus
+- Preventive and acute prescriptions subject to formulary NOT the monthly max
+- $0 copay for preventive and acute prescriptions (generics)
+- $5 copay for preferred generics
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 </v-click>
 
 <v-click>
@@ -506,11 +521,13 @@ image: img/pages/14_reliant_care_4_plan_details_with_benefits_and_coverage_limit
 
 <v-click>
 
-**Prescriptions**
-- Generic $0 Co-pay
-- Preferred Generic $5 Co-pay
-- Non-Preferred Generic: Retail 30-day $5 & $10 Co-pay, Mail Order 90-day $5 & $20 Co-pay
-- Brand (Prior Auth Required): Retail 30-day $40, Mail Order 90-day $80
+*Prescription Benefits**
+- BestChoiceRX Plus
+- Preventive and acute prescriptions subject to formulary NOT the monthly max
+- $0 copay for preventive and acute prescriptions (generics)
+- $5 copay for preferred generics
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 </v-click>
 
 <v-click>
@@ -576,11 +593,13 @@ image: img/pages/15_reliant_care_5_plan_details_with_benefits_and_coverage_limit
 
 <v-click>
 
-**Prescriptions**
-- Generic $0 Co-pay
-- Preferred Generic $5 Co-pay
-- Non-Preferred Generic: Retail 30-day $5 & $10 Co-pay, Mail Order 90-day $5 & $20 Co-pay
-- Brand (Prior Auth Required): Retail 30-day $40, Mail Order 90-day $80
+**Prescription Benefits**
+- BestChoiceRX Plus
+- Preventive and acute prescriptions subject to formulary NOT the monthly max
+- $0 copay for preventive and acute prescriptions (generics)
+- $5 copay for preferred generics
+- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
+- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
 </v-click>
 
 <v-click>
@@ -609,10 +628,9 @@ layout: default
 | Emergency Room | - | - | - | - | $1,000 | $1,000 |
 | Ambulance | - | - | - | - | $500 | $500 |
 | Telemedicine | Yes | Yes | Yes | Yes | Yes | Yes |
-| Generic Rx | Discount | Discount | $0 | $0 | $0 | $0 |
-| Preferred Generic Rx | - | - | $5 | $5 | $5 | $5 |
-| Non-Preferred Generic Rx | - | - | $5-$10 | $5-$10 | $5-$10 | $5-$10 |
-| Brand Rx | - | - | $40 | $40 | $40 | $40 |
+| BestChoiceRX Group Discount | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | 
+| BestChoiceRX | | |✔ | | | |  
+| BestChoiceRX Plus | | | | ✔ | ✔ | ✔ |
 
 ---
 transition: fade-out
@@ -620,7 +638,7 @@ layout: one-half-img
 image: img/pages/37_mec_preventative_health_services_summary_of_benefits_with_exclusions_and_limitations.jpg
 ---
 
-## Definitions and Limitations
+## Exclusions and Limitations
 
 <v-click>
 
@@ -628,6 +646,7 @@ image: img/pages/37_mec_preventative_health_services_summary_of_benefits_with_ex
 - Pre-existing Conditions
 - Waiting Periods
 - Prescription Limitations
+- Must review all exclusions and limitations
 </v-click>
 
 <v-click>
@@ -678,6 +697,3 @@ line: Thank you for participating in the Reliant Care Review. Continue to be gre
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
-

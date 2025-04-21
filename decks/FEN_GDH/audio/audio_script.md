@@ -90,7 +90,7 @@ The Wellness Exam includes one visit per year with a twenty-five dollar co-pay a
 
 Telemedicine services have no consult fee and no maximum.
 
-Discount prescriptions are available through BestChoice RX.
+Discount prescriptions are available through BestChoice RX Group Discount Program at participating pharmacies.
 
 ---- Plan Tier 1 (Two of Two) ----
 
@@ -118,6 +118,8 @@ Telemedicine services have no consult fee and no maximum.
 
 Advocacy services include the Hospital Bill Reducer.
 
+Discount prescriptions are also available through BestChoice RX Group Discount Program at participating pharmacies for Good Health 1.
+
 ---- Plan Tier 3 (One of Two) ----
 
 Let's explore the Good Health 2 Plan.
@@ -134,7 +136,7 @@ Continuing with the Good Health 2 Plan.
 
 Telemedicine services have no consult fee and no maximum.
 
-Prescription terms include preventive and acute prescriptions with a formulary.
+Best Choice RX Prescriptions include preventive and acute prescriptions as well. There’s a zero dollar copay for generics with a five dollar copay for preferred generics. Mail order is available for maintenance drugs under preferred generics.
 
 ---- Plan Tier 4 (One of Two) ----
 
@@ -152,7 +154,7 @@ Continuing with the Good Health 3 Plan.
 
 Telemedicine services have no consult fee and no maximum.
 
-Prescription coverage includes preventive and acute prescriptions.
+Best Choice RX Plus Prescription benefits include preventive and acute prescriptions also. There’s a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
 
 ---- Plan Tier 5 (One of Two) ----
 
@@ -172,6 +174,8 @@ In-Patient Hospitalization is covered at one thousand dollars per day with a ten
 
 Telemedicine services have no consult fee and no maximum.
 
+Like the Good Health 3 Plan it also has the Best Choice RX Plus Prescription benefits to include preventive and acute prescriptions also. There’s a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
+
 ---- Plan Tier 6 (One of Two) ----
 
 Finally, let's explore the Good Health 5 Plan.
@@ -190,13 +194,15 @@ In-Patient Hospitalization is covered at one thousand five hundred dollars per d
 
 Telemedicine services have no consult fee and no maximum.
 
+As mentioned before Best Choice RX Plus Prescription benefits include preventive and acute prescriptions also. There’s a zero dollar copay for generics and five dollars for preferred. Non-preferred generic medication carry copays of five and ten dollars for retail and five and twenty dollar copay for 90 day mail order, and Brand medications with a forty dollar copay for 30 day supply for retail and eighty dollar copay for 90 day mail order supply.
+
 ---- Comparing Plan Tiers ----
 
 Let's compare the different tiers available. The comparison table highlights key features across all plans, including wellness exams, primary care visits, specialist visits, in-patient hospitalization, telemedicine, and prescription coverage. Each plan offers unique benefits tailored to different needs.
 
----- Definitions and Limitations ----
+---- Exclusions and Limitations ----
 
-Let's review important definitions and limitations.
+Let's review important exclusions and limitations.
 
 Coordination of Benefits outlines the order of benefit payments, rights to information, and the appeal process.
 
@@ -205,6 +211,8 @@ Pre-existing conditions have a twelve-month exclusion period.
 There is a thirty-day waiting period for sickness benefits.
 
 Network requirements include in-network provider restrictions.
+
+Agents must review all exclusions and limitations with the consumer to ensure full understanding.
 
 ---- Key Takeaways and Reminders ----
 

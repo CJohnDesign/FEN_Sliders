@@ -80,7 +80,7 @@ layout: default
 
 <v-click>
 
-**Prescription Assistance** System
+**Prescription Assistance Program** (P.A.P) System
 </v-click>
 
 <v-click>
@@ -165,7 +165,6 @@ image: ./img/pages/02_medfirst_wellness_plan_with_physician_services_and_telemed
 - One wellness exam per year
 - $25 co-pay, $150 max per visit
 - In-network providers only
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -173,15 +172,14 @@ image: ./img/pages/02_medfirst_wellness_plan_with_physician_services_and_telemed
 **Telemedicine Services**
 - No consult fee
 - Unlimited access
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Prescription Discounts**
+- Managed through BestChoice RX Group
 - Participating pharmacies
 - Discounted rates
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -197,7 +195,6 @@ image: ./img/pages/02_medfirst_wellness_plan_with_physician_services_and_telemed
 **Limitations**
 - 30-day waiting period for sickness benefits
 - In-network provider restrictions
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -205,7 +202,6 @@ image: ./img/pages/02_medfirst_wellness_plan_with_physician_services_and_telemed
 **Exclusions**
 - No inpatient hospital indemnity
 - Services not listed in Schedule of Benefits
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -221,7 +217,6 @@ image: ./img/pages/03_medfirst_1_plan_details_with_physician_services_and_teleme
 **Physician Services**
 - Three primary care visits per year
 - $25 co-pay, $150 max per visit
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -229,14 +224,12 @@ image: ./img/pages/03_medfirst_1_plan_details_with_physician_services_and_teleme
 **Specialist Visits**
 - One visit per year
 - $50 co-pay, $300 max per visit
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Hospitalization Benefits**
 - $1,000 per day, $5,000 max per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -252,15 +245,14 @@ image: ./img/pages/03_medfirst_1_plan_details_with_physician_services_and_teleme
 **Telemedicine Services**
 - No consult fee
 - Unlimited access
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Prescription Discounts**
+- Best Choice RX Group Discount Program
 - Participating pharmacies
 - Discounted rates
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -276,7 +268,6 @@ image: ./img/pages/04_medfirst_2_plan_details_with_physician_services_telemedici
 **Physician Services**
 - Four primary care visits per year
 - $25 co-pay, $150 max per visit
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -284,14 +275,12 @@ image: ./img/pages/04_medfirst_2_plan_details_with_physician_services_telemedici
 **Specialist Visits**
 - Two visits per year
 - $50 co-pay, $300 max per visit
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Hospitalization Benefits**
 - $1,000 per day, $10,000 max per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -307,18 +296,15 @@ image: ./img/pages/04_medfirst_2_plan_details_with_physician_services_telemedici
 **Telemedicine Services**
 - No consult fee
 - Unlimited access
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Prescription Benefits**
-- Preventive and Acute prescriptions
-- $0 copay for generics (subject to formulary NOT the monthly max)
-- $5 copay for preferred generics
-- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
-- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+- BestChoiceRX
+- Preventive and Acute Prescriptions subject to formulary NOT the monthly max
+- $0 copay for Generics
+- $5 copay for Preferred Generics
 </v-click>
 
 ---
@@ -334,7 +320,6 @@ image: ./img/pages/05_medfirst_3_plan_details_with_physician_services_and_prescr
 **Physician Services**
 - Four primary care visits per year
 - $25 co-pay, $150 max per visit
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -342,14 +327,12 @@ image: ./img/pages/05_medfirst_3_plan_details_with_physician_services_and_prescr
 **Specialist Visits**
 - Four visits per year
 - $50 co-pay, $300 max per visit
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Hospitalization Benefits**
 - $1,000 per day, $15,000 max per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -365,18 +348,17 @@ image: ./img/pages/05_medfirst_3_plan_details_with_physician_services_and_prescr
 **Telemedicine Services**
 - No consult fee
 - Unlimited access
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Prescription Benefits**
-- Preventive and Acute prescriptions
-- $0 copay for generics (subject to formulary NOT the monthly max)
+- BestChoiceRX Plus
+- Preventive and acute prescriptions subject to formulary NOT the monthly max
+- $0 copay for preventive and acute prescriptions (generics)
 - $5 copay for preferred generics
 - $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
 - $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -390,9 +372,9 @@ image: ./img/pages/06_medfirst_4_plan_features_benefits_and_coverage_details_wit
 <v-click>
 
 **Physician Services**
+- One wellness exam per year ($25 co-pay, $150 max)
 - Four primary care visits per year
 - $50 co-pay, $150 max per visit
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -400,14 +382,15 @@ image: ./img/pages/06_medfirst_4_plan_features_benefits_and_coverage_details_wit
 **Specialist Visits**
 - Four visits per year
 - $75 co-pay, $300 max per visit
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Hospitalization Benefits**
-- $1,000 per day, $10,000 max per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+**Hospital Benefits**
+- Inpatient: $1,000 per day, $10,000 max per year
+- Surgery: $1,000 per year ($2,000 combined max)
+- ER: $1,000 per incident if admitted
+- Ambulance: $500 per incident
 </v-click>
 
 ---
@@ -422,19 +405,19 @@ image: ./img/pages/06_medfirst_4_plan_features_benefits_and_coverage_details_wit
 
 **Telemedicine Services**
 - No consult fee
-- Unlimited access
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
+- Unlimited access, 24/7
 </v-click>
 
 <v-click>
 
 **Prescription Benefits**
-- Preventive and Acute prescriptions
-- $0 copay for generics (subject to formulary NOT the monthly max)
+- BestChoiceRX Plus
+- Preventive and acute prescriptions
+- $0 copay for generic drugs
 - $5 copay for preferred generics
-- $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
-- $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
+- Non-preferred generics: $5/$10 copay (30-day retail), $20 (90-day mail)
+- Brand drugs: $40 copay (30-day retail), $80 (90-day mail)
+- $150 monthly benefit limit per person
 </v-click>
 
 ---
@@ -448,9 +431,9 @@ image: ./img/pages/07_medfirst_5_plan_details_with_benefits_comparison_and_limit
 <v-click>
 
 **Physician Services**
+- One wellness exam per year ($25 co-pay, $150 max)
 - Five primary care visits per year
 - $50 co-pay, $150 max per visit
-<Arrow v-bind="{ x1:480, y1:160, x2:560, y2:160, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -458,14 +441,15 @@ image: ./img/pages/07_medfirst_5_plan_details_with_benefits_comparison_and_limit
 **Specialist Visits**
 - Five visits per year
 - $75 co-pay, $300 max per visit
-<Arrow v-bind="{ x1:480, y1:215, x2:560, y2:215, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
-**Hospitalization Benefits**
-- $1,500 per day, $15,000 max per year
-<Arrow v-bind="{ x1:480, y1:340, x2:560, y2:340, color: 'var(--slidev-theme-accent)' }" />
+**Hospital Benefits**
+- Inpatient: $1,500 per day, $15,000 max per year
+- Surgery: $1,500 per day, $4,500 max per year
+- ER: $1,000 per incident (if admitted)
+- Ambulance: $500 per incident (if admitted)
 </v-click>
 
 ---
@@ -481,18 +465,17 @@ image: ./img/pages/07_medfirst_5_plan_details_with_benefits_comparison_and_limit
 **Telemedicine Services**
 - No consult fee
 - Unlimited access
-<Arrow v-bind="{ x1:480, y1:370, x2:560, y2:370, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Prescription Benefits**
-- Preventive and Acute prescriptions
-- $0 copay for generics (subject to formulary NOT the monthly max)
+- BestChoiceRX Plus
+- Preventive and acute prescriptions subject to formulary NOT the monthly max
+- $0 copay for preventive and acute prescriptions (generics)
 - $5 copay for preferred generics
 - $5 & $10 copay Retail (30-day) / $5 & $20 Mail-order (90-day) for Non-preferred generics
 - $40 copay Retail (30-day) / $80 Mail-order (90-day) for Brand
-<Arrow v-bind="{ x1:480, y1:410, x2:560, y2:410, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 ---
@@ -526,28 +509,25 @@ images:
 **Waiting Periods**
 - 30-day for sickness benefits
 - Pre-existing conditions not covered for 12 months
-<Arrow v-bind="{ x1:480, y1:160, x2:550, y2:160, color: 'var(--slidev-theme-accent)' }" />
+- Must review all exclusions and limitations 
 </v-click>
 
 <v-click>
 
 **Provider Restrictions**
 - In-network only for outpatient services
-<Arrow v-bind="{ x1:480, y1:255, x2:550, y2:255, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Exclusions**
 - Services not listed in Schedule of Benefits
-<Arrow v-bind="{ x1:480, y1:360, x2:550, y2:360, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
 
 **Screening Limitations**
 - At-home test kit required for colorectal cancer screening
-<Arrow v-bind="{ x1:480, y1:420, x2:550, y2:420, color: 'var(--slidev-theme-accent)' }" />
 </v-click>
 
 <v-click>
@@ -580,6 +560,3 @@ line: Thank you for participating in the MedFirst Plan Overview. Continue to be 
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
-
