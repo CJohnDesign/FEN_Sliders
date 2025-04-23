@@ -106,6 +106,10 @@ Ambulance benefits include one hundred dollars for ground transport and one hund
 
 Emergency room visits are covered at two hundred dollars per visit.
 
+Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plan 1.
+
+Hospital Benefits have a calendar year maximum of one million dollars and lifetime max of five million.
+
 ---- Plan 2 (One of Two) ----
 
 Now, let's look at our second plan tier.
@@ -124,6 +128,7 @@ Ambulance benefits include one hundred dollars for ground transport and two hund
 
 Emergency room visits are covered at two hundred dollars per visit.
 
+Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plan 2.
 ---- Plan 3 (One of Two) ----
 
 Now, let's explore our third plan tier.
@@ -134,13 +139,25 @@ Intensive care confinement provides five hundred dollars per day, also up to ten
 
 The first day hospital admission benefit is one thousand dollars, available once per year.
 
+Ambulance benefits include one hundred dollars for ground transport and three hundred dollars for air transport. 
+
+Emergency room visits are covered at two hundred dollars per visit.
+
+Surgical  Benefit is 1 times the Surgical Schedule 
+
 ---- Plan 3 (Two of Two) ----
 
 Continuing with our third plan tier.
 
-Ambulance benefits include one hundred dollars for ground transport and three hundred dollars for air transport. 
+Ambulatory Outpatient facility has a five hundred dollar benefit.
 
-Emergency room visits are covered at two hundred dollars per visit.
+And both Assistant Surgeon and  Anesthesia benefit are one time the Surgical Schedule.
+
+Office Visit has a seventy five dollar benefit
+
+While Wellness visits are fifty dollars.
+
+Hospital Benefits have a calendar year maximum of one million dollars. Outpatient has a calendar year max of four thousand and lifetime max of five million for all benefits.
 
 ---- Comparing Plan Tiers ----
 
@@ -156,7 +173,9 @@ Ambulance benefits vary, with plan one offering one hundred dollars for both gro
 
 Emergency room visits are consistently covered at two hundred dollars per visit across all plans.
 
----- Definitions and Limitations ----
+Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plans 1 & 2, but have availability on plan 3.
+
+---- Exclusions and Limitations ----
 
 Let's review important definitions and limitations.
 
@@ -167,6 +186,8 @@ Intensive care confinement offers a daily benefit for up to ten days.
 The first day hospital admission benefit is available once per calendar year. 
 
 Ambulance benefits are limited to one trip per year, per type of transport.
+
+Hospital Benefits have a calendar year maximum of one million dollars. Outpatient has a calendar year max of four thousand and lifetime max of five million for all benefits.
 
 Agents must review all exclusions and limitations with the consumer to ensure full understanding
 
@@ -185,3 +206,4 @@ Eligibility criteria must be met to enroll in the plan.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you make informed decisions about your health coverage. Continue to be great!
+

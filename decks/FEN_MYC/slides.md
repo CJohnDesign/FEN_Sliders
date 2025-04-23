@@ -197,6 +197,12 @@ image: img/pages/07_benefits_and_features_for_plan_1_with_coverage_limits_and_pr
 
 **Emergency Room Visits**
 - $200 per visit
+<v-click>
+
+<v-click>
+
+**Not Covered**
+- Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered
 </v-click>
 
 ---
@@ -227,6 +233,13 @@ image: img/pages/52_benefits_and_features_for_plan_2_with_coverage_limits_and_pr
 - $1,000 once per year
 </v-click>
 
+<v-click>
+
+**Ambulance Benefits**
+- $100 ground transport
+- $200 air transport
+</v-click>
+
 ---
 transition: fade-out
 layout: one-half-img
@@ -239,7 +252,7 @@ image: img/pages/52_benefits_and_features_for_plan_2_with_coverage_limits_and_pr
 
 **Ambulance Benefits**
 - $100 ground transport
-- $200 air transport
+- $300 air transport
 </v-click>
 
 <v-click>
@@ -276,6 +289,25 @@ image: img/pages/22_benefits_and_features_for_plan_3_with_coverage_limits_and_pr
 - $1,000 once per year
 </v-click>
 
+</v-click>
+
+**Ambulance Benefits**
+- $100 ground transport
+- $300 air transport
+</v-click>
+
+</v-click>
+
+**Emergency Room Visits**
+- $200 per visit
+</v-click>
+
+</v-click>
+
+**Surgical Benefit**
+- 1x Surgical Schedule
+<v-click>
+
 ---
 transition: fade-out
 layout: one-half-img
@@ -286,14 +318,29 @@ image: img/pages/22_benefits_and_features_for_plan_3_with_coverage_limits_and_pr
 
 <v-click>
 
-**Ambulance Benefits**
-- $100 ground transport
-- $300 air transport
+**Ambulatory Outpatient Facility**
+- $500 per visit
 </v-click>
 
+</v-click>
+
+**Assistant Surgeon**
+- 1x Surgical Schedule
 <v-click>
 
-**Emergency Room Visits**
+</v-click>
+
+** Anesthesia**
+- 1x Surgical Schedule
+<v-click>
+
+**Office Visits**
+- $200 per visit
+</v-click>
+
+<v-click>*
+
+*Wellness Visits**
 - $200 per visit
 </v-click>
 
@@ -311,6 +358,15 @@ layout: default
 | First Day Hospital Admission | $1,000 | $1,000 | $1,000 |
 | Ambulance Benefits | $100 ground, $100 air | $100 ground, $200 air | $100 ground, $300 air |
 | Emergency Room Visits | $200/visit | $200/visit | $200/visit |
+| Surgical Benefit | n/a | n/a | 1x surgical schedule
+| Ambulatory Outpatient Facility | n/a | n/a | $500/visit
+| Assistant Surgeon| n/a | n/a | 1x surgical schedule
+| Anesthesia | n/a | n/a | 1x surgical schedule
+| Office Visits | n/a | n/a| $75/visit |
+| WellnessVisits | n/a | n/a| $50/visit |
+
+
+
 
 ---
 transition: fade-out
@@ -318,7 +374,7 @@ layout: one-half-img
 image: img/pages/08_definitions_of_benefits_including_inpatient_hospital_intensive_care_first_day_admission_ambulance_emergency_room_surgery.jpg
 ---
 
-## Definitions and Limitations
+## Exclusions and Limitations
 
 <v-click>
 
@@ -346,7 +402,13 @@ image: img/pages/08_definitions_of_benefits_including_inpatient_hospital_intensi
 - Per trip, limited to one trip per year
 </v-click>
 
+</v-click>
+
+**Maximum Benefits**
+- Hospital Benefits have a calendar year maximum of one million dollars. Outpatient has a calendar year max of four thousand and lifetime max of five million for all benefits.
 <v-click>
+
+</v-click>
 
 **Agents must review all exclusions and limitations with the consumer to ensure full understanding**
 
@@ -377,3 +439,4 @@ line: Thank you for participating in the MyChoice Plan Review. Continue to be gr
 # Thank You!
 
 Continue to be great!
+
