@@ -389,7 +389,7 @@ image: ./img/pages/06_medfirst_4_plan_features_benefits_and_coverage_details_wit
 **Hospital Benefits**
 - Inpatient: $1,000 per day, $10,000 max per year
 - Surgery: $1,000 per year ($2,000 combined max)
-- ER: $1,000 per incident if admitted
+- ER: $100,000 per incident if admitted
 - Ambulance: $500 per incident
 </v-click>
 
@@ -560,3 +560,6 @@ line: Thank you for participating in the MedFirst Plan Overview. Continue to be 
 # Thank You!
 
 Continue to be great!
+
+
+

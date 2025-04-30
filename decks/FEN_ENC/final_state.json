@@ -1,0 +1,841 @@
+{
+  "deck_id": "FEN_ENC",
+  "deck_title": "Encore Health",
+  "processed_images": {
+    "1": {
+      "page_number": 1,
+      "original_name": "Encore_Brochure_V3_040825 (2)_page_001.jpg",
+      "original_path": "img/pages/Encore_Brochure_V3_040825 (2)_page_001.jpg",
+      "new_name": "01_cover_page_for_encore_health_everyday_benefits_primary_care_mental_health_prescriptions.jpg",
+      "new_path": "img/pages/01_cover_page_for_encore_health_everyday_benefits_primary_care_mental_health_prescriptions.jpg",
+      "page_title": "cover_page_for_encore_health_everyday_benefits_primary_care_mental_health_prescriptions",
+      "summary": "This cover page introduces the Encore Health plan, highlighting its focus on providing everyday benefits that make a significant impact. The plan emphasizes coverage for primary care, mental health, and prescriptions, aiming to simplify access to these essential services. The page features branding elements from Zurich and includes an image of a confident individual, symbolizing the empowerment and support offered by the plan. The overall design is clean and professional, setting the tone for the detailed information that follows in the document.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": false
+      },
+      "pdf_source": "Encore_Brochure_V3_040825 (2)",
+      "global_page_num": 1
+    },
+    "3": {
+      "page_number": 3,
+      "original_name": "Encore_Brochure_V3_040825 (2)_page_003.jpg",
+      "original_path": "img/pages/Encore_Brochure_V3_040825 (2)_page_003.jpg",
+      "new_name": "03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg",
+      "new_path": "img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg",
+      "page_title": "individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans",
+      "summary": "This document outlines the benefits and coverage details for Individual Hospital Indemnity Accident & Sickness plans, categorized into Basic and Enhanced Plans. The Basic Plans include Plan A, Plan B, and Plan C, while the Enhanced Plans consist of Plan A, Plan B, Plan C, and Plan D. Each plan offers specific outpatient benefits, including physician office visits, urgent care visits, and emergency room visits, with varying coverage amounts and number of days covered. For instance, physician office visits are covered at $50 per visit for most plans, with Plan C of the Enhanced Plans offering $75 per visit. The number of days covered ranges from 2 to 3 days depending on the plan.\n\nThe document also details coverage for outpatient surgery, anesthesia, and urgent care surgery, with specific amounts allocated for each service. For example, outpatient surgery under the ACS category is covered from $200 to $500 depending on the plan. Additional benefits include coverage for X-rays, lab tests, and specialty radiology, with amounts ranging from $50 to $300. A critical illness rider is available, covering conditions such as cancer and heart attack, with benefits ranging from $2,500 to $10,000.\n\nFamily care and pet care benefits are also included, with coverage amounts and days specified. Family care is covered from $250 to $400, while pet care is consistently covered at $150 across plans. The document provides a clear comparison of benefits across different plans, allowing for easy evaluation of coverage options.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "Encore_Brochure_V3_040825 (2)",
+      "global_page_num": 3
+    },
+    "2": {
+      "page_number": 2,
+      "original_name": "Encore_Brochure_V3_040825 (2)_page_002.jpg",
+      "original_path": "img/pages/Encore_Brochure_V3_040825 (2)_page_002.jpg",
+      "new_name": "02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg",
+      "new_path": "img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg",
+      "page_title": "individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans",
+      "summary": "This document outlines the in-hospital benefits for both Basic and Enhanced Plans under the Individual Hospital Indemnity Accident & Sickness coverage. The Basic Plans include Plan A, Plan B, and Plan C, while the Enhanced Plans consist of Plan A, Plan B, Plan C, and Plan D. Each plan provides specific daily confinement benefits, with Basic Plans offering $250 to $1,000 per day and Enhanced Plans ranging from $600 to $3,000 per day. The coverage extends for up to 31 days for daily confinement.\n\nICU daily confinement benefits are also detailed, with Basic Plans providing $500 to $2,000 per day and Enhanced Plans offering $1,000 to $3,000 per day, covering up to 5 days. Inpatient surgery benefits are included, with amounts ranging from $500 to $2,000, and inpatient anesthesia benefits from $200 to $500, depending on the plan. Additionally, inpatient surgery blood products and second opinion benefits are set at $100 each, applicable to all plans.\n\nThe document provides a clear comparison of benefits across different plans, allowing for easy evaluation of coverage options. However, it does not specify any limitations or exclusions related to these benefits, focusing solely on the financial aspects of the coverage provided.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": false
+      },
+      "pdf_source": "Encore_Brochure_V3_040825 (2)",
+      "global_page_num": 2
+    },
+    "4": {
+      "page_number": 4,
+      "original_name": "Encore_Brochure_V3_040825 (2)_page_004.jpg",
+      "original_path": "img/pages/Encore_Brochure_V3_040825 (2)_page_004.jpg",
+      "new_name": "04_plan_design_details_applicable_to_basic_and_enhanced_with_exclusions_and_waiting_periods.jpg",
+      "new_path": "img/pages/04_plan_design_details_applicable_to_basic_and_enhanced_with_exclusions_and_waiting_periods.jpg",
+      "page_title": "plan_design_details_applicable_to_basic_and_enhanced_with_exclusions_and_waiting_periods",
+      "summary": "This page outlines the plan design details applicable to both Basic and Enhanced insurance plans. Key features include Hospital Indemnity Guaranteed Issue, a 60-day time period for the initial care, and a 30-day benefit waiting period for sickness only. The plan also includes a 6/12 pre-existing condition clause, maternity claims, and a 10-month maternity wait period. There is a 50% benefit reduction at age 65, and spouse and child benefit amounts are equal to the primary. The Child CI benefit amount is 25% of the primary, and the CI Rider is also GI because it is a rider on the Hospital Indemnity Product. The CI specific wait period is 30 days for CI Rider Coverages and 90 days for cancer.\n\nThe page also details base policy exclusions, which include suicide or attempted suicide, war, involvement in active military service beyond 31 consecutive days, and travel outside the United States unless covered by a rider. Other exclusions cover mental and nervous disorders, substance abuse, and treatments provided by government agencies unless required by a covered person. Elective or cosmetic surgeries are excluded except for reconstructive surgery due to disease, infection, or trauma, or congenital anomalies. The policy will not pay for benefits unless required by law for elective abortion, gender-affirming procedures, and certain surgeries.\n\nThese exclusions and waiting periods are critical for understanding the limitations and conditions under which the benefits are provided, ensuring that policyholders are aware of what is not covered under the plan.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "Encore_Brochure_V3_040825 (2)",
+      "global_page_num": 4
+    },
+    "6": {
+      "page_number": 6,
+      "original_name": "Encore_Brochure_V3_040825 (2)_page_006.jpg",
+      "original_path": "img/pages/Encore_Brochure_V3_040825 (2)_page_006.jpg",
+      "new_name": "06_exclusions_and_ame_rider_exclusions_for_zurich_insurance_plan.jpg",
+      "new_path": "img/pages/06_exclusions_and_ame_rider_exclusions_for_zurich_insurance_plan.jpg",
+      "page_title": "exclusions_and_ame_rider_exclusions_for_zurich_insurance_plan",
+      "summary": "This page outlines specific exclusions and limitations under the Zurich Insurance Plan, detailing conditions and scenarios where benefits will not be paid. The exclusions include activities such as riding in or on any motor vehicle or aircraft engaged in acrobatic tricks, organized sports in a professional capacity, and participation in high-risk activities like bungee jumping, skydiving, and scuba diving. Additionally, illnesses or diseases, regardless of how contracted, are excluded unless they result from accidental ingestion of contaminated foods. Accidents involving unlicensed vehicle operation and cardiovascular events occurring immediately before or during an accident are also not covered.\n\nFurther exclusions include elective abortion, gender-affirming procedures, and any mental and nervous disorders unless covered by a specific rider. Substance abuse and medical mishaps due to negligence are also excluded. The AME Rider Exclusions specify that cosmetic surgeries, pregnancy-related expenses, and pre-existing conditions are not covered unless deemed medically necessary. Travel outside the United States, personal comfort items, and routine physical examinations are also excluded from coverage. These exclusions highlight the specific conditions and treatments that are not eligible for benefits under the policy.\n\nThe document emphasizes the importance of understanding these exclusions to avoid unexpected denials of claims. It provides a comprehensive list of activities and conditions that are not covered, ensuring policyholders are aware of the limitations of their coverage.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "Encore_Brochure_V3_040825 (2)",
+      "global_page_num": 6
+    },
+    "5": {
+      "page_number": 5,
+      "original_name": "Encore_Brochure_V3_040825 (2)_page_005.jpg",
+      "original_path": "img/pages/Encore_Brochure_V3_040825 (2)_page_005.jpg",
+      "new_name": "05_ci_rider_exclusions_and_plan_design_details_for_basic_and_enhanced_plans.jpg",
+      "new_path": "img/pages/05_ci_rider_exclusions_and_plan_design_details_for_basic_and_enhanced_plans.jpg",
+      "page_title": "ci_rider_exclusions_and_plan_design_details_for_basic_and_enhanced_plans",
+      "summary": "This document outlines the exclusions related to the Critical Illness (CI) Rider and provides plan design details applicable to both Basic and Enhanced plans. The CI Rider exclusions specify conditions under which a critical illness claim may be denied. These include refusal of recommended medical treatments such as angioplasty or coronary artery bypass, brain aneurysm treatment, or diagnostic procedures for cancer. Additionally, a critical illness diagnosis must not be pre-existing, diagnosed by a non-physician, or occur outside the United States unless verified by a licensed physician. The document also states that critical illness caused by substance abuse or alcohol is excluded.\n\nThe plan design details highlight that the accident coverage is guaranteed issue, with a 50% benefit reduction at age 65. Accidental Medical Expense (AME) benefits are paid on a primary basis, with benefit amounts set at 100% for primary, spouse, and children. The Accidental Death & Dismemberment (AD&D) enhanced principal sums are 100% for primary, 50% for spouse, and 25% for children, while the basic principal sums are 100% for all categories.\n\nBase policy exclusions include suicide, war, active military service beyond 31 days, and intoxication while operating a motor vehicle. Specific conditions are outlined for intoxication, including blood alcohol levels and evidence from autopsy reports. The document also includes a table comparing individual accident coverage across different plans, detailing benefits such as accident medical expense and accidental death & dismemberment.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": true,
+        "hasLimitations": true
+      },
+      "pdf_source": "Encore_Brochure_V3_040825 (2)",
+      "global_page_num": 5
+    },
+    "8": {
+      "page_number": 8,
+      "original_name": "Encore_Brochure_V3_040825 (2)_page_008.jpg",
+      "original_path": "img/pages/Encore_Brochure_V3_040825 (2)_page_008.jpg",
+      "new_name": "08_disclaimer_and_coverage_details_for_zurich_individual_accident_and_hospital_indemnity_insurance.jpg",
+      "new_path": "img/pages/08_disclaimer_and_coverage_details_for_zurich_individual_accident_and_hospital_indemnity_insurance.jpg",
+      "page_title": "disclaimer_and_coverage_details_for_zurich_individual_accident_and_hospital_indemnity_insurance",
+      "summary": "This page outlines that the plan is a discount plan and not a health insurance policy. It provides discounts at certain health care providers but does not make payments directly to providers. The insured is responsible for all health care services, receiving a discount from providers contracted with the discount medical plan organization. The document specifies that the plan does not offer major medical or comprehensive medical coverage and is not intended to replace such insurance. It is not considered minimum essential benefits under the Patient Protection and Affordable Care Act.\n\nThe coverage may not be available in all states, and terms, conditions, and exclusions may vary by state law. Benefits decrease at age 65 and terminate at age 75. The Zurich Individual Accident Insurance and Zurich Individual Hospital Indemnity Insurance benefits are underwritten by Zurich American Insurance Company. The document emphasizes that the insurance provides limited benefits and is intended to supplement comprehensive coverage.\n\nThe page includes a disclaimer that E123 is not affiliated with Zurich, and their products and services are independent. The insurance premium disclosure notes that the price shown in the shopping cart is the total monthly cost for the chosen plan, with specific premiums for Zurich Hospital Indemnity Insurance and Zurich Accident Insurance.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "Encore_Brochure_V3_040825 (2)",
+      "global_page_num": 8
+    },
+    "7": {
+      "page_number": 7,
+      "original_name": "Encore_Brochure_V3_040825 (2)_page_007.jpg",
+      "original_path": "img/pages/Encore_Brochure_V3_040825 (2)_page_007.jpg",
+      "new_name": "07_association_for_entrepreneurship_afe_membership_information_with_metlife_group_term_life_insurance_and_vision_service_plan.jpg",
+      "new_path": "img/pages/07_association_for_entrepreneurship_afe_membership_information_with_metlife_group_term_life_insurance_and_vision_service_plan.jpg",
+      "page_title": "association_for_entrepreneurship_afe_membership_information_with_metlife_group_term_life_insurance_and_vision_service_plan",
+      "summary": "The Association for Entrepreneurship (AFE) offers a membership that includes MetLife Group Term Life Insurance with AD&D, available in most states. This insurance provides decreasing term coverage up to age 80, with a benefit of ten thousand dollars for life and AD&D coverage, and a buy-up option of seventy-five thousand dollars. A six-month waiting period applies to the death benefit, and coverage starts on the first of the month. The default beneficiary is the insured\u2019s estate, but members can update this in the member portal.\n\nMembers have access to Primary Digital Health, which includes Acute, Primary, Physical Therapy, and Pet Coverage through their app, allowing direct access to healthcare without out-of-pocket expenses. Mental Health benefits are also available within the app at a cost of $50 per visit for counseling.\n\nThe plan includes a Vision Service Plan with access to over 30,000 providers nationwide. Additionally, ACI Legal coverage offers legal counsel for up to 30 minutes free, with a 25% discount on additional assistance. The Encore Dental Savings Program provides access to the Aetna Dental Access network, offering savings of 15%-50% per visit on most dental services. The WellDyne pharmacy benefit manager offers options for medications with a 30-day waiting period and access to over 65,000 pharmacies twice every 180 days. There are also savings on medications accessed outside the country through MedAfford Global.",
+      "tableDetails": {
+        "hasBenefitsComparisonTable": false,
+        "hasLimitations": true
+      },
+      "pdf_source": "Encore_Brochure_V3_040825 (2)",
+      "global_page_num": 7
+    }
+  },
+  "extracted_tables": {
+    "5": {
+      "page_number": "5",
+      "tables": [
+        {
+          "table_title": "Plan Comparison for Basic and Enhanced Plans",
+          "headers": [
+            "Individual Accident Only",
+            "Basic Plans",
+            "",
+            "",
+            "Enhanced Plans",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "Plan A",
+              "Plan B",
+              "Plan C",
+              "Plan A",
+              "Plan B",
+              "Plan D"
+            ],
+            [
+              "Accident Medical Expense",
+              "$2,500",
+              "$5,000",
+              "$7,500",
+              "$10,000",
+              "$2,500",
+              "$5,000",
+              "$7,500",
+              "$10,000"
+            ],
+            [
+              "Deductible",
+              "$0",
+              "$0",
+              "$0",
+              "$0",
+              "$0",
+              "$0",
+              "$0",
+              "$0"
+            ],
+            [
+              "Accidental Death & Dismemberment",
+              "$1,000",
+              "$1,000",
+              "$1,000",
+              "$25,000",
+              "$5,000",
+              "$50,000",
+              "$75,000",
+              "$100,000"
+            ]
+          ]
+        }
+      ]
+    },
+    "2": {
+      "page_number": "2",
+      "tables": [
+        {
+          "table_title": "Individual Hospital Indemnity Accident & Sickness - In-Hospital Benefits",
+          "headers": [
+            "Benefit",
+            "Basic Plans - Plan A",
+            "Basic Plans - Plan B",
+            "Basic Plans - Plan C",
+            "Enhanced Plans - Plan A",
+            "Enhanced Plans - Plan B",
+            "Enhanced Plans - Plan C",
+            "Enhanced Plans - Plan D"
+          ],
+          "rows": [
+            [
+              "Admission",
+              "$600/day",
+              "$1,000/day",
+              "$2,000/day",
+              "$3,000/day",
+              "",
+              "",
+              ""
+            ],
+            [
+              "# Admissions",
+              "1",
+              "1",
+              "1",
+              "1",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Daily Confinement",
+              "$250/day",
+              "$500/day",
+              "$1,000/day",
+              "$300/day",
+              "$500/day",
+              "$1,000/day",
+              "$1,500/day"
+            ],
+            [
+              "# Days",
+              "31",
+              "31",
+              "31",
+              "31",
+              "31",
+              "31",
+              "31"
+            ],
+            [
+              "ICU Daily Confinement",
+              "$500/day",
+              "$1,000/day",
+              "$2,000/day",
+              "$600/day",
+              "$1,000/day",
+              "$2,000/day",
+              "$3,000/day"
+            ],
+            [
+              "# Days",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Inpatient Surgery",
+              "$500",
+              "$1,000",
+              "$1,500",
+              "$2,000",
+              "",
+              "",
+              ""
+            ],
+            [
+              "# Days",
+              "1",
+              "1",
+              "1",
+              "1",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Inpatient Anesthesia",
+              "$200",
+              "$250",
+              "$375",
+              "$500",
+              "",
+              "",
+              ""
+            ],
+            [
+              "# Days",
+              "1",
+              "1",
+              "1",
+              "1",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Inpatient Surgery - Blood Products",
+              "$100",
+              "$100",
+              "$100",
+              "$100",
+              "",
+              "",
+              ""
+            ],
+            [
+              "# Days",
+              "1",
+              "1",
+              "1",
+              "1",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Inpatient Surgery - Second Opinion",
+              "$100",
+              "$100",
+              "$100",
+              "$100",
+              "",
+              "",
+              ""
+            ],
+            [
+              "# Days",
+              "1",
+              "1",
+              "1",
+              "1",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    "3": {
+      "page_number": "3",
+      "tables": [
+        {
+          "table_title": "Individual Hospital Indemnity Accident & Sickness Plan Benefits",
+          "headers": [
+            "Benefit",
+            "Basic Plan A",
+            "Basic Plan B",
+            "Basic Plan C",
+            "Enhanced Plan A",
+            "Enhanced Plan B",
+            "Enhanced Plan C",
+            "Enhanced Plan D"
+          ],
+          "rows": [
+            [
+              "Physician Office Visit",
+              "$50/visit",
+              "$50/visit",
+              "$75/visit",
+              "$50/visit",
+              "$50/visit",
+              "$50/visit",
+              "$75/visit"
+            ],
+            [
+              "# Days",
+              "2",
+              "3",
+              "3",
+              "2",
+              "2",
+              "3",
+              "3"
+            ],
+            [
+              "Urgent Care Visit",
+              "$50/visit",
+              "$50/visit",
+              "$75/visit",
+              "$50/visit",
+              "$50/visit",
+              "$50/visit",
+              "$75/visit"
+            ],
+            [
+              "# Days",
+              "2",
+              "3",
+              "3",
+              "2",
+              "2",
+              "3",
+              "3"
+            ],
+            [
+              "Emergency Room Visit / Observation Unit",
+              "$250/visit",
+              "$250/visit",
+              "$400/visit",
+              "$200/visit",
+              "$250/visit",
+              "$250/visit",
+              "$400/visit"
+            ],
+            [
+              "# Days",
+              "1",
+              "2",
+              "2",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            [
+              "Outpatient Surgery - ACS",
+              "",
+              "",
+              "$200",
+              "$250",
+              "$375",
+              "$500",
+              ""
+            ],
+            [
+              "# Days",
+              "",
+              "",
+              "2",
+              "2",
+              "2",
+              "2",
+              ""
+            ],
+            [
+              "Outpatient Anesthesia",
+              "",
+              "",
+              "$50",
+              "$50",
+              "$75",
+              "$100",
+              ""
+            ],
+            [
+              "# Days",
+              "",
+              "",
+              "2",
+              "2",
+              "2",
+              "2",
+              ""
+            ],
+            [
+              "Outpatient Surgery - Urgent Care",
+              "",
+              "",
+              "$150",
+              "$150",
+              "$150",
+              "$150",
+              ""
+            ],
+            [
+              "# Days",
+              "",
+              "",
+              "2",
+              "2",
+              "2",
+              "2",
+              ""
+            ],
+            [
+              "X-Ray",
+              "",
+              "",
+              "$50",
+              "$50",
+              "$100",
+              "$150",
+              ""
+            ],
+            [
+              "# Days",
+              "",
+              "",
+              "2",
+              "2",
+              "2",
+              "2",
+              ""
+            ],
+            [
+              "Lab",
+              "",
+              "",
+              "$50",
+              "$50",
+              "$100",
+              "$150",
+              ""
+            ],
+            [
+              "# Days",
+              "",
+              "",
+              "2",
+              "2",
+              "2",
+              "2",
+              ""
+            ],
+            [
+              "Specialty Radiology",
+              "",
+              "",
+              "$100",
+              "$100",
+              "$200",
+              "$300",
+              ""
+            ],
+            [
+              "# Days",
+              "",
+              "",
+              "1",
+              "1",
+              "1",
+              "1",
+              ""
+            ],
+            [
+              "Critical Illness Rider",
+              "",
+              "$5,000",
+              "$2,500",
+              "$5,000",
+              "$7,500",
+              "$10,000",
+              ""
+            ],
+            [
+              "Cancer, Heart Attack, Stroke, Paralysis, Kidney Failure, Major Organ Transplant",
+              "",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              ""
+            ],
+            [
+              "Family Care",
+              "",
+              "$250",
+              "$250",
+              "$250",
+              "$300",
+              "$400",
+              ""
+            ],
+            [
+              "# Days",
+              "",
+              "5",
+              "5",
+              "5",
+              "10",
+              "10",
+              ""
+            ],
+            [
+              "Pet Care",
+              "",
+              "$150",
+              "$150",
+              "$150",
+              "$150",
+              "",
+              ""
+            ],
+            [
+              "# Days",
+              "",
+              "5",
+              "5",
+              "5",
+              "10",
+              "10",
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "content": "# Presentation Plan for Encore Health\n\n## Deck ID: FEN_ENC\n## Deck Title: Encore Health\n\n### Cover (1 slide)\n- **Plan Name:** Encore Health\n- **Tagline:** Empowering Everyday Health with Primary Care, Mental Health, and Prescription Coverage\n\n### Plan Overview (1 slide)\n- **Target Audience:** Individuals and Families\n- **Offerings:** Comprehensive healthcare with a focus on affordability\n- **Key Benefits:** Accessibility to primary care, mental health services, and prescription coverage\n\n### Core Plan Elements (3 slides)\n- **Coverage Areas:**\n  - Physician Services\n  - Hospitalization\n  - Virtual Visits\n- **Plan Structure:**\n  - Tiered Options\n  - Co-pays and Visit Limits\n- **Eligibility:**\n  - Individuals and Families\n  - Focus on Affordability\n\n### Common Service Features (3 slides)\n- **Provider Networks:** Extensive network for easy access\n- **Claims Management:** Streamlined process for hassle-free claims\n- **Support Tools:**\n  - Health Dashboards\n  - Wellness Programs\n  - Advocacy Services\n\n### Plan Tiers Breakdown (12 slides)\n\n#### Basic Plans\n- **Plan A:**\n  - Admission: $600/day\n  - Daily Confinement: $250/day for 31 days\n  - ICU Daily Confinement: $500/day for 5 days\n  - Inpatient Surgery: $500\n  - Physician Office Visit: $50/visit for 2 days\n  - Urgent Care Visit: $50/visit for 2 days\n  - Emergency Room Visit: $250/visit for 1 day\n\n- **Plan B:**\n  - Admission: $1,000/day\n  - Daily Confinement: $500/day for 31 days\n  - ICU Daily Confinement: $1,000/day for 5 days\n  - Inpatient Surgery: $1,000\n  - Physician Office Visit: $50/visit for 3 days\n  - Urgent Care Visit: $50/visit for 3 days\n  - Emergency Room Visit: $250/visit for 2 days\n\n- **Plan C:**\n  - Admission: $2,000/day\n  - Daily Confinement: $1,000/day for 31 days\n  - ICU Daily Confinement: $2,000/day for 5 days\n  - Inpatient Surgery: $1,500\n  - Physician Office Visit: $75/visit for 3 days\n  - Urgent Care Visit: $75/visit for 3 days\n  - Emergency Room Visit: $400/visit for 2 days\n\n#### Enhanced Plans\n- **Plan A:**\n  - Admission: $3,000/day\n  - Daily Confinement: $300/day for 31 days\n  - ICU Daily Confinement: $600/day for 5 days\n  - Inpatient Surgery: $2,000\n  - Physician Office Visit: $50/visit for 2 days\n  - Urgent Care Visit: $50/visit for 2 days\n  - Emergency Room Visit: $200/visit for 1 day\n\n- **Plan B:**\n  - Daily Confinement: $500/day for 31 days\n  - ICU Daily Confinement: $1,000/day for 5 days\n  - Physician Office Visit: $50/visit for 2 days\n  - Urgent Care Visit: $50/visit for 2 days\n  - Emergency Room Visit: $250/visit for 1 day\n\n- **Plan C:**\n  - Daily Confinement: $1,000/day for 31 days\n  - ICU Daily Confinement: $2,000/day for 5 days\n  - Physician Office Visit: $50/visit for 3 days\n  - Urgent Care Visit: $50/visit for 3 days\n  - Emergency Room Visit: $250/visit for 2 days\n\n- **Plan D:**\n  - Daily Confinement: $1,500/day for 31 days\n  - ICU Daily Confinement: $3,000/day for 5 days\n  - Physician Office Visit: $75/visit for 3 days\n  - Urgent Care Visit: $75/visit for 3 days\n  - Emergency Room Visit: $400/visit for 2 days\n\n### Comparison Slides (2 slides)\n- **Markdown Table:**\n\n```markdown\n| Benefit                        | Basic Plan A | Basic Plan B | Basic Plan C | Enhanced Plan A | Enhanced Plan B | Enhanced Plan C | Enhanced Plan D |\n|--------------------------------|--------------|--------------|--------------|-----------------|-----------------|-----------------|-----------------|\n| Admission                      | $600/day     | $1,000/day   | $2,000/day   | $3,000/day      |                 |                 |                 |\n| Daily Confinement              | $250/day     | $500/day     | $1,000/day   | $300/day        | $500/day        | $1,000/day      | $1,500/day      |\n| ICU Daily Confinement          | $500/day     | $1,000/day   | $2,000/day   | $600/day        | $1,000/day      | $2,000/day      | $3,000/day      |\n| Physician Office Visit         | $50/visit    | $50/visit    | $75/visit    | $50/visit       | $50/visit       | $50/visit       | $75/visit       |\n| Urgent Care Visit              | $50/visit    | $50/visit    | $75/visit    | $50/visit       | $50/visit       | $50/visit       | $75/visit       |\n| Emergency Room Visit           | $250/visit   | $250/visit   | $400/visit   | $200/visit      | $250/visit      | $250/visit      | $400/visit      |\n```\n\n### Limitations and Exclusions (2 slides)\n- **Exclusions:**\n  - Pre-existing conditions\n  - Waiting periods for certain benefits\n  - Specific exclusions for elective surgeries and high-risk activities\n\n### Key Takeaways and Action Steps (1 slide)\n- **Flexibility:** Multiple plan options to suit different needs\n- **Balance:** Cost-effective coverage with essential benefits\n- **Next Steps:** Enrollment details and support contact information\n\n### Thank You (1 slide)\n- **Message:** Thank you for considering Encore Health. Empowering your health journey with confidence.",
+    "generated_at": "2025-04-30T13:17:30.186205"
+  },
+  "slides": {
+    "content": "---\nid: FEN_ENC\ntheme: ../../\ntitle: | \n  Encore Health\ninfo: |\n  ## Encore Health Plan Overview\n  A look at the Encore Health benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"ENC\" />\n\n# Encore Health Plan Overview\n\nUnderstanding the details and benefits of the **Encore Health Plan**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The Encore Health Plan\n\n<v-click>\n\n- Comprehensive healthcare with a focus on affordability through **Encore Health**\n\n</v-click>\n\n<v-click>\n\n- **Accessibility to primary care** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Mental health services** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Prescription coverage** through extensive networks\n\n</v-click>\n\n<v-click>\n\n- **Support for individuals and families**\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**Primary Care Accessibility**\n\n</v-click>\n\n<v-click>\n\n**Mental Health Services**\n\n</v-click>\n\n<v-click>\n\n**Prescription Coverage** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Comprehensive Support** through extensive provider networks\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/FirstHealth_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"FirstHealth Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**Health Dashboards** (HD)\n</v-click>\n\n<v-click>\n\n**Wellness Programs** System\n</v-click>\n\n<v-click>\n\n**Advocacy Services** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How Health Dashboards Work\n\n<v-click>\n\n1. Enroll through **Encore Health**\n</v-click>\n\n<v-click>\n\n2. Access personalized health data\n</v-click>\n\n<v-click>\n\n3. Utilize wellness programs\n</v-click>\n\n<v-click>\n\n4. Receive regular updates **(HD)**\n</v-click>\n\n<v-click>\n\n5. Engage with advocacy services\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **Primary Care** Services\n</v-click>\n\n<v-click>\n\n- **Mental Health** Programs\n</v-click>\n\n<v-click>\n\n- **FirstHealth** provides comprehensive care\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **Virtual Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **Remote Consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **Personalized** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Management** assistance\n\n</v-click>\n\n<v-click>\n\n- **Provider Network** options\n\n</v-click>\n\n<v-click>\n\n- **Comprehensive Support** services\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg\n---\n\n## Basic Plans (1/2)\n\n<v-click>\n\n**Plan A**\n- Admission: $600/day\n- Daily Confinement: $250/day for 31 days\n- ICU Daily Confinement: $500/day for 5 days\n- Inpatient Surgery: $500\n</v-click>\n\n<v-click>\n\n**Plan B**\n- Admission: $1,000/day\n- Daily Confinement: $500/day for 31 days\n- ICU Daily Confinement: $1,000/day for 5 days\n- Inpatient Surgery: $1,000\n</v-click>\n\n<v-click>\n\n**Plan C**\n- Admission: $2,000/day\n- Daily Confinement: $1,000/day for 31 days\n- ICU Daily Confinement: $2,000/day for 5 days\n- Inpatient Surgery: $1,500\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg\n---\n\n## Basic Plans (2/2)\n\n<v-click>\n\n**Plan A**\n- Physician Office Visit: $50/visit for 2 days\n- Urgent Care Visit: $50/visit for 2 days\n- Emergency Room Visit: $250/visit for 1 day\n</v-click>\n\n<v-click>\n\n**Plan B**\n- Physician Office Visit: $50/visit for 3 days\n- Urgent Care Visit: $50/visit for 3 days\n- Emergency Room Visit: $250/visit for 2 days\n</v-click>\n\n<v-click>\n\n**Plan C**\n- Physician Office Visit: $75/visit for 3 days\n- Urgent Care Visit: $75/visit for 3 days\n- Emergency Room Visit: $400/visit for 2 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg\n---\n\n## Enhanced Plans (1/2)\n\n<v-click>\n\n**Plan A**\n- Admission: $3,000/day\n- Daily Confinement: $300/day for 31 days\n- ICU Daily Confinement: $600/day for 5 days\n- Inpatient Surgery: $2,000\n</v-click>\n\n<v-click>\n\n**Plan B**\n- Daily Confinement: $500/day for 31 days\n- ICU Daily Confinement: $1,000/day for 5 days\n- Physician Office Visit: $50/visit for 2 days\n</v-click>\n\n<v-click>\n\n**Plan C**\n- Daily Confinement: $1,000/day for 31 days\n- ICU Daily Confinement: $2,000/day for 5 days\n- Physician Office Visit: $50/visit for 3 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg\n---\n\n## Enhanced Plans (2/2)\n\n<v-click>\n\n**Plan D**\n- Daily Confinement: $1,500/day for 31 days\n- ICU Daily Confinement: $3,000/day for 5 days\n- Physician Office Visit: $75/visit for 3 days\n</v-click>\n\n<v-click>\n\n**Plan A**\n- Urgent Care Visit: $50/visit for 2 days\n- Emergency Room Visit: $200/visit for 1 day\n</v-click>\n\n<v-click>\n\n**Plan B**\n- Urgent Care Visit: $50/visit for 2 days\n- Emergency Room Visit: $250/visit for 1 day\n</v-click>\n\n<v-click>\n\n**Plan C**\n- Urgent Care Visit: $50/visit for 3 days\n- Emergency Room Visit: $250/visit for 2 days\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **Basic Plan A** | **Basic Plan B** | **Basic Plan C** | **Enhanced Plan A** | **Enhanced Plan B** | **Enhanced Plan C** | **Enhanced Plan D** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|\n| Admission | $600/day | $1,000/day | $2,000/day | $3,000/day | | | |\n| Daily Confinement | $250/day | $500/day | $1,000/day | $300/day | $500/day | $1,000/day | $1,500/day |\n| ICU Daily Confinement | $500/day | $1,000/day | $2,000/day | $600/day | $1,000/day | $2,000/day | $3,000/day |\n| Physician Office Visit | $50/visit | $50/visit | $75/visit | $50/visit | $50/visit | $50/visit | $75/visit |\n| Urgent Care Visit | $50/visit | $50/visit | $75/visit | $50/visit | $50/visit | $50/visit | $75/visit |\n| Emergency Room Visit | $250/visit | $250/visit | $400/visit | $200/visit | $250/visit | $250/visit | $400/visit |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/06_exclusions_and_ame_rider_exclusions_for_zurich_insurance_plan.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions\n- Waiting periods for certain benefits\n- Specific exclusions for elective surgeries and high-risk activities\n</v-click>\n\n<v-click>\n\n**Limitations**\n- Benefits decrease at age 65\n- Coverage terminates at age 75\n</v-click>\n\n<v-click>\n\n**Additional Exclusions**\n- Substance abuse and medical mishaps due to negligence\n- Travel outside the United States\n</v-click>\n\n<v-click>\n\n**AME Rider Exclusions**\n- Cosmetic surgeries, pregnancy-related expenses\n- Routine physical examinations\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** with multiple plan options\n</v-click>  \n\n<v-click>\n\n- **Balance** of cost-effective coverage with essential benefits\n</v-click>\n\n<v-click>\n\n- **Comprehensive Support** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment Details** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the Encore Health Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+    "template_used": "---\nid: FEN_{{deck_id}}\ntheme: ../../\ntitle: | \n  {{ Plan Name }}\ninfo: |\n  ## {{ Plan Name }} Plan Overview\n  A look at the {{ Plan Name }} benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false\n---\n\n<SlideAudio deckKey=\"{{deck_id}}\" />\n\n# {{ Plan Name }} Plan Overview\n\nUnderstanding the details and benefits of the **{{ Plan Full Name }}**\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## The {{ Plan Name }} Plan\n\n<v-click>\n\n- {{ Overview Point 1 }} through **{{ Organization }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 1 }}** for various situations\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 2 }}** and support tools\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 3 }}** through {{ Feature }}\n\n</v-click>\n\n<v-click>\n\n- **{{ Benefit Category 4 }}** support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Features and Benefits\n\n<v-click>  \n\n**{{ Benefit Type 1 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 2 }}**\n\n</v-click>\n\n<v-click>\n\n**{{ Benefit Type 4 }}** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**{{ Additional Benefit }}** through {{ Partner }}\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"\" class=\"h-12 mix-blend-multiply\" alt=\"{{ Brand }} Logo\">\n</div>\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Cost Management Tools\n\n<v-click>\n\n**{{ Tool Name }}** ({{ Acronym }})\n</v-click>\n\n<v-click>\n\n**{{ Feature 1 }}** System\n</v-click>\n\n<v-click>\n\n**{{ Feature 2 }}** Support\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## How {{ Tool Name }} Works\n\n<v-click>\n\n1. Enroll through **{{ Organization }}**\n</v-click>\n\n<v-click>\n\n2. {{ Step 2 }}\n</v-click>\n\n<v-click>\n\n3. {{ Step 3 }}\n</v-click>\n\n<v-click>\n\n4. Receive {{ Document }} **({{ Acronym }})**\n</v-click>\n\n<v-click>\n\n5. {{ Step 5 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Preventive Care and Wellness\n\n<v-click>  \n\n- **{{ Service 1 }}** Services\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** Programs\n</v-click>\n\n<v-click>\n\n- **{{ Partner }}** provides {{ service_type }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Telehealth Services\n\n<v-click>\n\n- **{{ Feature 1 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 2 }}**\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** available\n\n</v-click>\n\n<v-click>\n\n- **{{ Feature 4 }}** to care\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Advocacy and Support Services\n\n<v-click>\n\n- **{{ Service Style }}** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 1 }}** assistance\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 2 }}** options\n\n</v-click>\n\n<v-click>\n\n- **{{ Service 3 }}** support\n\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (1/2)\n\n<v-click>\n\n**{{ Benefit Category 1 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n- {{ Detail 4 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 2 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 3 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n- {{ Detail 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_1}}.jpg\n---\n\n## {{ Plan 1 Name }} (2/2)\n\n<v-click>\n\n**{{ Benefit Category 4 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Benefit Category 5 }}**\n- {{ Detail 1 }}\n- {{ Detail 2 }}\n</v-click>\n\n<!-- Insert as many plans as needed. Make sure they are always returned as a two part section -->\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Comparing the Plans\n\n| **Feature** | **{{ Plan 1 }}** | **{{ Plan 2 }}** | **{{ Plan 3 }}** |\n|---------|----------|----------|-----------|\n| {{ Feature 1 }} | {{ Value 1.1 }} | {{ Value 1.2 }} | {{ Value 1.3 }} |\n| {{ Feature 2 }} | {{ Value 2.1 }} | {{ Value 2.2 }} | {{ Value 2.3 }} |\n| {{ Feature 3 }} | {{ Value 3.1 }} | {{ Value 3.2 }} | {{ Value 3.3 }} |\n| {{ Feature 4 }} | {{ Value 4.1 }} | {{ Value 4.2 }} | {{ Value 4.3 }} |\n| {{ Feature 5 }} | {{ Value 5.1 }} | {{ Value 5.2 }} | {{ Value 5.3 }} |\n\n---\ntransition: fade-out\nlayout: one-half-img\nimage: img/pages/{{plan_brochure_image_final}}.jpg\n---\n\n## Definitions and Limitations\n\n<v-click>\n\n**{{ Category 1 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 2 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 3 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n</v-click>\n\n<v-click>\n\n**{{ Category 4 }}**\n- {{ Limitation 1 }}\n- {{ Limitation 2 }}\n- {{ Limitation 3 }}\n</v-click>\n\n---\ntransition: fade-out\nlayout: default\n---\n\n## Key Takeaways and Reminders\n\n<v-click>\n\n- **{{ Feature 1 }}** benefits\n</v-click>  \n\n<v-click>\n\n- **{{ Feature 2 }}** included\n</v-click>\n\n<v-click>\n\n- **{{ Feature 3 }}** benefits\n</v-click>\n\n<v-click>\n\n- **{{ Requirement }}** required\n</v-click>\n\n---\ntransition: fade-out\nlayout: end\nline: Thank you for participating in the {{ Plan Name }} Review. Continue to be great!\n---\n\n# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">\n\n",
+    "pages_list": [
+      "pages/01_cover_page_for_encore_health_everyday_benefits_primary_care_mental_health_prescriptions.jpg",
+      "pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg",
+      "pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg",
+      "pages/08_disclaimer_and_coverage_details_for_zurich_individual_accident_and_hospital_indemnity_insurance.jpg",
+      "pages/06_exclusions_and_ame_rider_exclusions_for_zurich_insurance_plan.jpg",
+      "pages/05_ci_rider_exclusions_and_plan_design_details_for_basic_and_enhanced_plans.jpg",
+      "pages/07_association_for_entrepreneurship_afe_membership_information_with_metlife_group_term_life_insurance_and_vision_service_plan.jpg",
+      "pages/04_plan_design_details_applicable_to_basic_and_enhanced_with_exclusions_and_waiting_periods.jpg"
+    ],
+    "logos_list": [
+      "logos/FirstHealth_logo.png",
+      "logos/USFire-Premier_logo.png",
+      "logos/Ameritas_logo.png",
+      "logos/FEN_logo.svg",
+      "logos/Everest.png",
+      "logos/BWA_logo.png",
+      "logos/MBR_logo.png",
+      "logos/TDK_logo.jpg",
+      "logos/EssentialCare_logo.png",
+      "logos/NCE_logo.png",
+      "logos/AFSLIC_logo.png"
+    ]
+  },
+  "script": {
+    "content": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session on the Encore Health Plan. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\nThe Encore Health Plan\n\noffers healthcare with a focus on affordability through Encore Health. \n\nIt provides accessibility to primary care for various situations, \n\nand includes mental health services and support tools. \n\nPrescription coverage is available through extensive networks, \n\nand the plan supports both individuals and families.\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\nPrimary care accessibility is a cornerstone of the Encore Health Plan. \n\nIt also includes mental health services to support emotional well-being. \n\nPrescription coverage varies by plan, ensuring members have access to necessary medications. \n\nSupport is provided through extensive provider networks, including FirstHealth.\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\nHealth Dashboards, or HD, are a key feature. \n\nThe plan includes a wellness programs system to promote healthy living. \n\nAdvocacy services support members in navigating their healthcare needs.\n\n---- How Health Dashboards Work ----\n\nHere's how the Health Dashboards work.\n\nFirst, members enroll through Encore Health. \n\nThey can then access personalized health data. \n\nMembers are encouraged to utilize wellness programs. \n\nRegular updates are provided through the Health Dashboards. \n\nFinally, members can engage with advocacy services for additional support.\n\n---- Preventive Care and Wellness ----\n\nPreventive care and wellness are integral to the Encore Health Plan.\n\nPrimary care services are readily available to members. \n\nMental health programs offer support for emotional and psychological well-being. \n\nFirstHealth provides a wide range of care options to meet diverse needs.\n\n---- Telehealth Services ----\n\nTelehealth services are a convenient feature of the plan.\n\nMembers can access virtual visits from the comfort of their homes. \n\nThe service is available twenty-four seven, ensuring care is always within reach. \n\nRemote consultations are available, providing flexibility and convenience. \n\nThis ensures convenient access to care whenever needed.\n\n---- Advocacy and Support Services ----\n\nAdvocacy and support services are vital components of the plan.\n\nPersonalized healthcare advocacy helps members navigate their options. \n\nClaims management assistance is available to simplify the process. \n\nMembers have access to a variety of provider network options. \n\nSupport services are designed to meet a wide range of needs.\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier, the Basic Plans.\n\nPlan A offers admission benefits of six hundred dollars per day, \n\nwith daily confinement at two hundred fifty dollars per day for thirty-one days, \n\nICU daily confinement at five hundred dollars per day for five days, \n\nand inpatient surgery coverage of five hundred dollars.\n\nPlan B increases admission benefits to one thousand dollars per day, \n\nwith daily confinement at five hundred dollars per day for thirty-one days, \n\nICU daily confinement at one thousand dollars per day for five days, \n\nand inpatient surgery coverage of one thousand dollars.\n\nPlan C provides admission benefits of two thousand dollars per day, \n\nwith daily confinement at one thousand dollars per day for thirty-one days, \n\nICU daily confinement at two thousand dollars per day for five days, \n\nand inpatient surgery coverage of one thousand five hundred dollars.\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier, let's look at outpatient benefits.\n\nPlan A includes physician office visits at fifty dollars per visit for two days, \n\nurgent care visits at fifty dollars per visit for two days, \n\nand emergency room visits at two hundred fifty dollars per visit for one day.\n\nPlan B offers physician office visits at fifty dollars per visit for three days, \n\nurgent care visits at fifty dollars per visit for three days, \n\nand emergency room visits at two hundred fifty dollars per visit for two days.\n\nPlan C provides physician office visits at seventy-five dollars per visit for three days, \n\nurgent care visits at seventy-five dollars per visit for three days, \n\nand emergency room visits at four hundred dollars per visit for two days.\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier, the Enhanced Plans.\n\nPlan A offers admission benefits of three thousand dollars per day, \n\nwith daily confinement at three hundred dollars per day for thirty-one days, \n\nICU daily confinement at six hundred dollars per day for five days, \n\nand inpatient surgery coverage of two thousand dollars.\n\nPlan B provides daily confinement at five hundred dollars per day for thirty-one days, \n\nICU daily confinement at one thousand dollars per day for five days, \n\nand physician office visits at fifty dollars per visit for two days.\n\nPlan C includes daily confinement at one thousand dollars per day for thirty-one days, \n\nICU daily confinement at two thousand dollars per day for five days, \n\nand physician office visits at fifty dollars per visit for three days.\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier, let's explore more benefits.\n\nPlan D offers daily confinement at one thousand five hundred dollars per day for thirty-one days, \n\nICU daily confinement at three thousand dollars per day for five days, \n\nand physician office visits at seventy-five dollars per visit for three days.\n\nPlan A includes urgent care visits at fifty dollars per visit for two days, \n\nand emergency room visits at two hundred dollars per visit for one day.\n\nPlan B provides urgent care visits at fifty dollars per visit for two days, \n\nand emergency room visits at two hundred fifty dollars per visit for one day.\n\nPlan C offers urgent care visits at fifty dollars per visit for three days, \n\nand emergency room visits at two hundred fifty dollars per visit for two days.\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\nThe Basic Plans offer admission benefits ranging from six hundred to two thousand dollars per day, \n\nwhile the Enhanced Plans range from three thousand dollars per day. \n\nDaily confinement benefits in the Basic Plans range from two hundred fifty to one thousand dollars per day, \n\nand in the Enhanced Plans, they range from three hundred to one thousand five hundred dollars per day. \n\nICU daily confinement benefits in the Basic Plans range from five hundred to two thousand dollars per day, \n\nand in the Enhanced Plans, they range from six hundred to three thousand dollars per day. \n\nPhysician office visits in the Basic Plans range from fifty to seventy-five dollars per visit, \n\nand in the Enhanced Plans, they range from fifty to seventy-five dollars per visit as well.\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\nExclusions include pre-existing conditions, waiting periods for certain benefits, \n\nand specific exclusions for elective surgeries and high-risk activities. \n\nLimitations include benefits decreasing at age sixty-five, \n\nand coverage terminating at age seventy-five. \n\nAdditional exclusions cover substance abuse and medical mishaps due to negligence, \n\nas well as travel outside the United States. \n\nAME Rider Exclusions include cosmetic surgeries, pregnancy-related expenses, \n\nand routine physical examinations.\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\nThe plan offers flexibility with multiple plan options. \n\nIt balances cost-effective coverage with essential benefits. \n\nSupport benefits are available to meet a wide range of needs. \n\nRemember to review enrollment details for your members.\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!",
+    "template_used": "---- Cover ----\n\nHello, everyone! Thank you for joining today's session. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!\n\n---- Plan Overview ----\n\n{{ Generate script based on the slides content }}\n\n---- Key Features and Benefits ----\n\nLet's explore the key features and benefits of this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Cost Management Tools ----\n\nNow, let's discuss the cost management tools available with this plan.\n\n{{ Generate script based on the slides content }}\n\n---- Provider Network Details ----\n\nHere's how the provider network works.\n\n{{ Generate script based on the slides content }}\n\n---- Preventive Care and Wellness ----\n\n{{ Generate script based on the slides content }}\n\n---- Telehealth Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Advocacy and Support Services ----\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (One of Two) ----\n\nLet's examine our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 1 (Two of Two) ----\n\nContinuing with our first plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (One of Two) ----\n\nNow, let's look at our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n---- Plan Tier 2 (Two of Two) ----\n\nContinuing with our second plan tier.\n\n{{ Generate script based on the slides content }}\n\n{{ Add as few or as many plan tiers as needed }}\n\n---- Comparing Plan Tiers ----\n\nLet's compare the different tiers available.\n\n{{ Generate script based on the slides content }}\n\n---- Definitions and Limitations ----\n\nLet's review important definitions and limitations.\n\n{{ Generate script based on the slides content }}\n\n---- Key Takeaways and Reminders ----\n\nHere are the key points to remember.\n\n{{ Generate script based on the slides content }}\n\n---- Closing ----\n\nThank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+  },
+  "pages": {
+    "content": [
+      {
+        "slide": {
+          "header": "Encore Health Plan Overview",
+          "content": "<SlideAudio deckKey=\"ENC\" />\n\n# Encore Health Plan Overview\n\nUnderstanding the details and benefits of the **Encore Health Plan**",
+          "frontmatter": "id: FEN_ENC\ntheme: ../../\ntitle: | \n  Encore Health\ninfo: |\n  ## Encore Health Plan Overview\n  A look at the Encore Health benefits and details.\nverticalCenter: true\nlayout: intro\nthemeConfig:\n  logoHeader: ./img/logos/FEN_logo.svg\n  audioEnabled: true\ntransition: fade-out\ndrawings:\n  persist: false"
+        },
+        "script": {
+          "header": "Cover",
+          "content": "Hello, everyone! Thank you for joining today's session on the Encore Health Plan. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!"
+        }
+      },
+      {
+        "slide": {
+          "header": "The Encore Health Plan",
+          "content": "## The Encore Health Plan\n\n<v-click>\n\n- Comprehensive healthcare with a focus on affordability through **Encore Health**\n\n</v-click>\n\n<v-click>\n\n- **Accessibility to primary care** for various situations\n\n</v-click>\n\n<v-click>\n\n- **Mental health services** and support tools\n\n</v-click>\n\n<v-click>\n\n- **Prescription coverage** through extensive networks\n\n</v-click>\n\n<v-click>\n\n- **Support for individuals and families**\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Plan Overview",
+          "content": "The Encore Health Plan\n\noffers healthcare with a focus on affordability through Encore Health. \n\nIt provides accessibility to primary care for various situations, \n\nand includes mental health services and support tools. \n\nPrescription coverage is available through extensive networks, \n\nand the plan supports both individuals and families."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Features and Benefits",
+          "content": "## Key Features and Benefits\n\n<v-click>  \n\n**Primary Care Accessibility**\n\n</v-click>\n\n<v-click>\n\n**Mental Health Services**\n\n</v-click>\n\n<v-click>\n\n**Prescription Coverage** (varies by plan)\n\n</v-click>\n\n<v-click>\n\n**Comprehensive Support** through extensive provider networks\n<div class=\"grid grid-cols-1 gap-4 items-center px-8 py-4\">\n  <img src=\"./img/logos/FirstHealth_logo.png\" class=\"h-12 mix-blend-multiply\" alt=\"FirstHealth Logo\">\n</div>\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Features and Benefits",
+          "content": "Let's explore the key features and benefits of this plan.\n\nPrimary care accessibility is a cornerstone of the Encore Health Plan. \n\nIt also includes mental health services to support emotional well-being. \n\nPrescription coverage varies by plan, ensuring members have access to necessary medications. \n\nSupport is provided through extensive provider networks, including FirstHealth."
+        }
+      },
+      {
+        "slide": {
+          "header": "Cost Management Tools",
+          "content": "## Cost Management Tools\n\n<v-click>\n\n**Health Dashboards** (HD)\n</v-click>\n\n<v-click>\n\n**Wellness Programs** System\n</v-click>\n\n<v-click>\n\n**Advocacy Services** Support\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Cost Management Tools",
+          "content": "Now, let's discuss the cost management tools available with this plan.\n\nHealth Dashboards, or HD, are a key feature. \n\nThe plan includes a wellness programs system to promote healthy living. \n\nAdvocacy services support members in navigating their healthcare needs."
+        }
+      },
+      {
+        "slide": {
+          "header": "How Health Dashboards Work",
+          "content": "## How Health Dashboards Work\n\n<v-click>\n\n1. Enroll through **Encore Health**\n</v-click>\n\n<v-click>\n\n2. Access personalized health data\n</v-click>\n\n<v-click>\n\n3. Utilize wellness programs\n</v-click>\n\n<v-click>\n\n4. Receive regular updates **(HD)**\n</v-click>\n\n<v-click>\n\n5. Engage with advocacy services\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "How Health Dashboards Work",
+          "content": "Here's how the Health Dashboards work.\n\nFirst, members enroll through Encore Health. \n\nThey can then access personalized health data. \n\nMembers are encouraged to utilize wellness programs. \n\nRegular updates are provided through the Health Dashboards. \n\nFinally, members can engage with advocacy services for additional support."
+        }
+      },
+      {
+        "slide": {
+          "header": "Preventive Care and Wellness",
+          "content": "## Preventive Care and Wellness\n\n<v-click>  \n\n- **Primary Care** Services\n</v-click>\n\n<v-click>\n\n- **Mental Health** Programs\n</v-click>\n\n<v-click>\n\n- **FirstHealth** provides comprehensive care\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Preventive Care and Wellness",
+          "content": "Preventive care and wellness are integral to the Encore Health Plan.\n\nPrimary care services are readily available to members. \n\nMental health programs offer support for emotional and psychological well-being. \n\nFirstHealth provides a wide range of care options to meet diverse needs."
+        }
+      },
+      {
+        "slide": {
+          "header": "Telehealth Services",
+          "content": "## Telehealth Services\n\n<v-click>\n\n- **Virtual Visits**\n\n</v-click>\n\n<v-click>\n\n- **24/7 Access**\n\n</v-click>\n\n<v-click>\n\n- **Remote Consultations** available\n\n</v-click>\n\n<v-click>\n\n- **Convenient Access** to care\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Telehealth Services",
+          "content": "Telehealth services are a convenient feature of the plan.\n\nMembers can access virtual visits from the comfort of their homes. \n\nThe service is available twenty-four seven, ensuring care is always within reach. \n\nRemote consultations are available, providing flexibility and convenience. \n\nThis ensures convenient access to care whenever needed."
+        }
+      },
+      {
+        "slide": {
+          "header": "Advocacy and Support Services",
+          "content": "## Advocacy and Support Services\n\n<v-click>\n\n- **Personalized** healthcare advocacy\n\n</v-click>\n\n<v-click>\n\n- **Claims Management** assistance\n\n</v-click>\n\n<v-click>\n\n- **Provider Network** options\n\n</v-click>\n\n<v-click>\n\n- **Comprehensive Support** services\n\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Advocacy and Support Services",
+          "content": "Advocacy and support services are vital components of the plan.\n\nPersonalized healthcare advocacy helps members navigate their options. \n\nClaims management assistance is available to simplify the process. \n\nMembers have access to a variety of provider network options. \n\nSupport services are designed to meet a wide range of needs."
+        }
+      },
+      {
+        "slide": {
+          "header": "Basic Plans (1/2)",
+          "content": "## Basic Plans (1/2)\n\n<v-click>\n\n**Plan A**\n- Admission: $600/day\n- Daily Confinement: $250/day for 31 days\n- ICU Daily Confinement: $500/day for 5 days\n- Inpatient Surgery: $500\n</v-click>\n\n<v-click>\n\n**Plan B**\n- Admission: $1,000/day\n- Daily Confinement: $500/day for 31 days\n- ICU Daily Confinement: $1,000/day for 5 days\n- Inpatient Surgery: $1,000\n</v-click>\n\n<v-click>\n\n**Plan C**\n- Admission: $2,000/day\n- Daily Confinement: $1,000/day for 31 days\n- ICU Daily Confinement: $2,000/day for 5 days\n- Inpatient Surgery: $1,500\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (One of Two)",
+          "content": "Let's examine our first plan tier, the Basic Plans.\n\nPlan A offers admission benefits of six hundred dollars per day, \n\nwith daily confinement at two hundred fifty dollars per day for thirty-one days, \n\nICU daily confinement at five hundred dollars per day for five days, \n\nand inpatient surgery coverage of five hundred dollars.\n\nPlan B increases admission benefits to one thousand dollars per day, \n\nwith daily confinement at five hundred dollars per day for thirty-one days, \n\nICU daily confinement at one thousand dollars per day for five days, \n\nand inpatient surgery coverage of one thousand dollars.\n\nPlan C provides admission benefits of two thousand dollars per day, \n\nwith daily confinement at one thousand dollars per day for thirty-one days, \n\nICU daily confinement at two thousand dollars per day for five days, \n\nand inpatient surgery coverage of one thousand five hundred dollars."
+        }
+      },
+      {
+        "slide": {
+          "header": "Basic Plans (2/2)",
+          "content": "## Basic Plans (2/2)\n\n<v-click>\n\n**Plan A**\n- Physician Office Visit: $50/visit for 2 days\n- Urgent Care Visit: $50/visit for 2 days\n- Emergency Room Visit: $250/visit for 1 day\n</v-click>\n\n<v-click>\n\n**Plan B**\n- Physician Office Visit: $50/visit for 3 days\n- Urgent Care Visit: $50/visit for 3 days\n- Emergency Room Visit: $250/visit for 2 days\n</v-click>\n\n<v-click>\n\n**Plan C**\n- Physician Office Visit: $75/visit for 3 days\n- Urgent Care Visit: $75/visit for 3 days\n- Emergency Room Visit: $400/visit for 2 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 1 (Two of Two)",
+          "content": "Continuing with our first plan tier, let's look at outpatient benefits.\n\nPlan A includes physician office visits at fifty dollars per visit for two days, \n\nurgent care visits at fifty dollars per visit for two days, \n\nand emergency room visits at two hundred fifty dollars per visit for one day.\n\nPlan B offers physician office visits at fifty dollars per visit for three days, \n\nurgent care visits at fifty dollars per visit for three days, \n\nand emergency room visits at two hundred fifty dollars per visit for two days.\n\nPlan C provides physician office visits at seventy-five dollars per visit for three days, \n\nurgent care visits at seventy-five dollars per visit for three days, \n\nand emergency room visits at four hundred dollars per visit for two days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Enhanced Plans (1/2)",
+          "content": "## Enhanced Plans (1/2)\n\n<v-click>\n\n**Plan A**\n- Admission: $3,000/day\n- Daily Confinement: $300/day for 31 days\n- ICU Daily Confinement: $600/day for 5 days\n- Inpatient Surgery: $2,000\n</v-click>\n\n<v-click>\n\n**Plan B**\n- Daily Confinement: $500/day for 31 days\n- ICU Daily Confinement: $1,000/day for 5 days\n- Physician Office Visit: $50/visit for 2 days\n</v-click>\n\n<v-click>\n\n**Plan C**\n- Daily Confinement: $1,000/day for 31 days\n- ICU Daily Confinement: $2,000/day for 5 days\n- Physician Office Visit: $50/visit for 3 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (One of Two)",
+          "content": "Now, let's look at our second plan tier, the Enhanced Plans.\n\nPlan A offers admission benefits of three thousand dollars per day, \n\nwith daily confinement at three hundred dollars per day for thirty-one days, \n\nICU daily confinement at six hundred dollars per day for five days, \n\nand inpatient surgery coverage of two thousand dollars.\n\nPlan B provides daily confinement at five hundred dollars per day for thirty-one days, \n\nICU daily confinement at one thousand dollars per day for five days, \n\nand physician office visits at fifty dollars per visit for two days.\n\nPlan C includes daily confinement at one thousand dollars per day for thirty-one days, \n\nICU daily confinement at two thousand dollars per day for five days, \n\nand physician office visits at fifty dollars per visit for three days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Enhanced Plans (2/2)",
+          "content": "## Enhanced Plans (2/2)\n\n<v-click>\n\n**Plan D**\n- Daily Confinement: $1,500/day for 31 days\n- ICU Daily Confinement: $3,000/day for 5 days\n- Physician Office Visit: $75/visit for 3 days\n</v-click>\n\n<v-click>\n\n**Plan A**\n- Urgent Care Visit: $50/visit for 2 days\n- Emergency Room Visit: $200/visit for 1 day\n</v-click>\n\n<v-click>\n\n**Plan B**\n- Urgent Care Visit: $50/visit for 2 days\n- Emergency Room Visit: $250/visit for 1 day\n</v-click>\n\n<v-click>\n\n**Plan C**\n- Urgent Care Visit: $50/visit for 3 days\n- Emergency Room Visit: $250/visit for 2 days\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg"
+        },
+        "script": {
+          "header": "Plan Tier 2 (Two of Two)",
+          "content": "Continuing with our second plan tier, let's explore more benefits.\n\nPlan D offers daily confinement at one thousand five hundred dollars per day for thirty-one days, \n\nICU daily confinement at three thousand dollars per day for five days, \n\nand physician office visits at seventy-five dollars per visit for three days.\n\nPlan A includes urgent care visits at fifty dollars per visit for two days, \n\nand emergency room visits at two hundred dollars per visit for one day.\n\nPlan B provides urgent care visits at fifty dollars per visit for two days, \n\nand emergency room visits at two hundred fifty dollars per visit for one day.\n\nPlan C offers urgent care visits at fifty dollars per visit for three days, \n\nand emergency room visits at two hundred fifty dollars per visit for two days."
+        }
+      },
+      {
+        "slide": {
+          "header": "Comparing the Plans",
+          "content": "## Comparing the Plans\n\n| **Feature** | **Basic Plan A** | **Basic Plan B** | **Basic Plan C** | **Enhanced Plan A** | **Enhanced Plan B** | **Enhanced Plan C** | **Enhanced Plan D** |\n|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|\n| Admission | $600/day | $1,000/day | $2,000/day | $3,000/day | | | |\n| Daily Confinement | $250/day | $500/day | $1,000/day | $300/day | $500/day | $1,000/day | $1,500/day |\n| ICU Daily Confinement | $500/day | $1,000/day | $2,000/day | $600/day | $1,000/day | $2,000/day | $3,000/day |\n| Physician Office Visit | $50/visit | $50/visit | $75/visit | $50/visit | $50/visit | $50/visit | $75/visit |\n| Urgent Care Visit | $50/visit | $50/visit | $75/visit | $50/visit | $50/visit | $50/visit | $75/visit |\n| Emergency Room Visit | $250/visit | $250/visit | $400/visit | $200/visit | $250/visit | $250/visit | $400/visit |",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Comparing Plan Tiers",
+          "content": "Let's compare the different tiers available.\n\nThe Basic Plans offer admission benefits ranging from six hundred to two thousand dollars per day, \n\nwhile the Enhanced Plans range from three thousand dollars per day. \n\nDaily confinement benefits in the Basic Plans range from two hundred fifty to one thousand dollars per day, \n\nand in the Enhanced Plans, they range from three hundred to one thousand five hundred dollars per day. \n\nICU daily confinement benefits in the Basic Plans range from five hundred to two thousand dollars per day, \n\nand in the Enhanced Plans, they range from six hundred to three thousand dollars per day. \n\nPhysician office visits in the Basic Plans range from fifty to seventy-five dollars per visit, \n\nand in the Enhanced Plans, they range from fifty to seventy-five dollars per visit as well."
+        }
+      },
+      {
+        "slide": {
+          "header": "Definitions and Limitations",
+          "content": "## Definitions and Limitations\n\n<v-click>\n\n**Exclusions**\n- Pre-existing conditions\n- Waiting periods for certain benefits\n- Specific exclusions for elective surgeries and high-risk activities\n</v-click>\n\n<v-click>\n\n**Limitations**\n- Benefits decrease at age 65\n- Coverage terminates at age 75\n</v-click>\n\n<v-click>\n\n**Additional Exclusions**\n- Substance abuse and medical mishaps due to negligence\n- Travel outside the United States\n</v-click>\n\n<v-click>\n\n**AME Rider Exclusions**\n- Cosmetic surgeries, pregnancy-related expenses\n- Routine physical examinations\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: one-half-img\nimage: img/pages/06_exclusions_and_ame_rider_exclusions_for_zurich_insurance_plan.jpg"
+        },
+        "script": {
+          "header": "Definitions and Limitations",
+          "content": "Let's review important definitions and limitations.\n\nExclusions include pre-existing conditions, waiting periods for certain benefits, \n\nand specific exclusions for elective surgeries and high-risk activities. \n\nLimitations include benefits decreasing at age sixty-five, \n\nand coverage terminating at age seventy-five. \n\nAdditional exclusions cover substance abuse and medical mishaps due to negligence, \n\nas well as travel outside the United States. \n\nAME Rider Exclusions include cosmetic surgeries, pregnancy-related expenses, \n\nand routine physical examinations."
+        }
+      },
+      {
+        "slide": {
+          "header": "Key Takeaways and Reminders",
+          "content": "## Key Takeaways and Reminders\n\n<v-click>\n\n- **Flexibility** with multiple plan options\n</v-click>  \n\n<v-click>\n\n- **Balance** of cost-effective coverage with essential benefits\n</v-click>\n\n<v-click>\n\n- **Comprehensive Support** benefits\n</v-click>\n\n<v-click>\n\n- **Enrollment Details** required\n</v-click>",
+          "frontmatter": "transition: fade-out\nlayout: default"
+        },
+        "script": {
+          "header": "Key Takeaways and Reminders",
+          "content": "Here are the key points to remember.\n\nThe plan offers flexibility with multiple plan options. \n\nIt balances cost-effective coverage with essential benefits. \n\nSupport benefits are available to meet a wide range of needs. \n\nRemember to review enrollment details for your members."
+        }
+      },
+      {
+        "slide": {
+          "header": "Thank You!",
+          "content": "# Thank You!\n\nContinue to be great!\n\n<img src=\"./img/logos/FEN_logo.svg\" class=\"h-12 mt-32\" alt=\"FirstEnroll Logo\">",
+          "frontmatter": "transition: fade-out\nlayout: end\nline: Thank you for participating in the Encore Health Review. Continue to be great!"
+        },
+        "script": {
+          "header": "Closing",
+          "content": "Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!"
+        }
+      }
+    ],
+    "count": 16
+  },
+  "validation_state": {
+    "current_page": 1,
+    "total_pages": 16,
+    "pages": {
+      "1": {
+        "page_number": 1,
+        "slide_valid": false,
+        "script_valid": false,
+        "slide_update_instructions": null,
+        "script_update_instructions": null,
+        "updated_slide": null,
+        "updated_script": null
+      }
+    },
+    "update_type": "both"
+  }
+}
