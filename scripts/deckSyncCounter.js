@@ -103,36 +103,60 @@ function analyzeSlides(content) {
  * @param {{ slideCount: number, clickCounts: number[] }} slideInfo
  */
 function compareContent(scriptInfo, slideInfo) {
-  console.log('\nAnalyzing content synchronization:');
-  console.log('----------------------------------------');
+  let hasErrors = false;
+  let errorMessages = [];
+  let totalErrors = 0;
   
-  // Compare section counts
-  console.log(`Script sections: ${scriptInfo.sectionCount}`);
-  console.log(`Content slides: ${slideInfo.slideCount}`);
-  
+  // Compare section counts first - if they don't match, only show this error
   if (scriptInfo.sectionCount !== slideInfo.slideCount) {
-    console.log('\n❌ Section count mismatch');
-    return;
+    console.log('\n❌ Slide Count Mismatch:');
+    console.log('----------------------------------------');
+    console.log(`Audio script has ${scriptInfo.sectionCount} sections`);
+    console.log(`Slides deck has ${slideInfo.slideCount} slides`);
+    console.log('\nPossible issues:');
+    
+    // Help identify where the mismatch might be
+    const maxSections = Math.max(scriptInfo.sectionCount, slideInfo.slideCount);
+    const minSections = Math.min(scriptInfo.sectionCount, slideInfo.slideCount);
+    console.log(`• Missing ${maxSections - minSections} ${scriptInfo.sectionCount > slideInfo.slideCount ? 'slides' : 'script sections'}`);
+    console.log('\n');
+    return false;
   }
   
-  console.log('\n✅ Section counts match!\n');
-  
-  // Compare click counts for each section
-  console.log('Analyzing click synchronization:');
-  console.log('----------------------------------------');
-  
+  // If section counts match, check click counts
   scriptInfo.lineCounts.forEach((lineCount, index) => {
     const clickCount = slideInfo.clickCounts[index] || 0;
-    console.log(`\nSection ${index + 1}:`);
-    console.log(`Script lines: ${lineCount}`);
-    console.log(`Slide clicks: ${clickCount}`);
     
     if (lineCount - 1 !== clickCount) {
-      console.log('❌ Click count mismatch');
-    } else {
-      console.log('✅ Click counts match');
+      hasErrors = true;
+      totalErrors++;
+      errorMessages.push(`\n❌ Click Count Mismatch in Section ${index + 1}:`);
+      errorMessages.push(`   Expected clicks: ${lineCount - 1} (based on script lines)`);
+      errorMessages.push(`   Actual clicks: ${clickCount}`);
     }
   });
+  
+  // Display output based on results
+  if (hasErrors) {
+    console.log('\nFound Click Count Issues:');
+    console.log('----------------------------------------');
+    console.log(`Total issues found: ${totalErrors}`);
+    errorMessages.forEach(msg => console.log(msg));
+    console.log('\n');
+  } else {
+    console.log('\n');
+    console.log('┌─────────────────────────────────────────────┐');
+    console.log('│                                             │');
+    console.log('│  ✅ All checks passed!                      │');
+    console.log('│                                             │');
+    console.log('│  Audio script and slides are perfectly      │');
+    console.log('│  synchronized for deck: ' + deckId.padEnd(19) + ' │');
+    console.log('│                                             │');
+    console.log('└─────────────────────────────────────────────┘');
+    console.log('\n');
+  }
+  
+  return !hasErrors;
 }
 
 /**
