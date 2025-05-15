@@ -4,9 +4,9 @@ Hello, everyone! Thank you for joining today's session on the Encore Health Plan
 
 ---- 2 The Encore Health Plan ----
 
-Let's start by understanding the Encore Health Plan and its core elements.
+Let's start by understanding the Encore Health Plan benefits available through the Association for Entrepreneurship membership and its core elements.
 
-The Encore Health Plan offers healthcare with a focus on affordability through Encore Health.
+The Association for Entrepreneurship membership Offers benefits and discounts with a focus on affordability.
 
 It provides accessibility to primary care for various situations, ensuring members can receive care when they need it.
 
@@ -20,7 +20,7 @@ The plan is designed to support both individuals and families, making it versati
 
 Now, let's review the key features and benefits that make this plan valuable to members.
 
-Primary Care Accessibility is a cornerstone of the Encore Health Plan, ensuring members can access essential healthcare services.
+Primary Care Accessibility is a cornerstone of the Association for Entrepreneurship, ensuring members can access essential healthcare services.
 
 Mental Health Services are included, providing support for emotional and psychological wellbeing needs.
 
@@ -28,7 +28,7 @@ Prescription Coverage varies by plan, giving members options that align with the
 
 ---- 4 Cost Management Tools ----
 
-The Encore Health Plan includes several effective cost management tools to help members maximize their benefits.
+The Association for Entrepreneurship benefits include several effective cost management tools to help members maximize their benefits.
 
 Primary Digital Health, provides members with Acute & Primary Care Services, and even Physical Therapy, through their App
 
@@ -38,7 +38,7 @@ Advocacy Services Support is available to help members navigate the healthcare s
 
 Let's explore how Primary Digital Health works to benefit members.
 
-First, members enroll through Encore Health plans becoming members of AFE to gain access to the dashboard system.
+First, members enroll through AFE, becoming members of the association to gain access to Encore Health plans and Primary Digital Health.
 
 They can then access personalized health data, giving them insights into their healthcare usage and needs.
 
@@ -49,7 +49,7 @@ They receive regular updates through Primary Digital Health, keeping them inform
 
 ---- 6 Primary Care and  Mental Wellness ----
 
-Primary care and mental wellness are important components of the Encore Health Plan.
+Primary care and mental wellness are important components of the Association for Entrepreneurship.
 
 Primary Care Services are readily available, encouraging regular check-ups and self care.
 
@@ -80,7 +80,7 @@ Claims Management assistance simplifies the often complex process of submitting 
 
 ---- 9 Basic Plans (1/2) ----
 
-Now, let's examine the Basic Plans and their inpatient benefits in detail.
+Now, let's examine the Encore Health Plan benefits that are separate from AFE benefits, starting with the Basic Plans and their inpatient benefits in detail.
 
 Plan A includes Daily Confinement coverage of two hundred fifty dollars per day for thirty-one days, providing financial support during hospital stays, and ICU Daily Confinement coverage of five hundred dollars per day for up to five days.
 
@@ -96,7 +96,7 @@ Plan A includes Physician Office Visit coverage of fifty dollars per visit for u
 
 Plan B expands coverage with Physician Office Visit benefits of fifty dollars per visit for up to three days, Urgent Care Visit coverage of fifty dollars per visit for up to three days, and Emergency Room Visit / Observation Unit coverage of two hundred fifty dollars per visit for up to two days.
 
-Plan C provides the most extensive coverage with Physician Office Visit benefits of seventy-five dollars per visit for up to three days, Urgent Care Visit coverage of seventy-five dollars per visit for up to three days, Emergency Room Visit / Observation Unit coverage of four hundred dollars per visit for up to two days, a Critical Illness Rider of five thousand dollars once per calendar year, Family Care benefits of two hundred fifty dollars for up to five days, and Pet Care coverage of one hundred fifty dollars for up to five days.
+Plan C provides the most extensive coverage with Physician Office Visit benefits of seventy-five dollars per visit for up to three days, Urgent Care Visit coverage of seventy-five dollars per visit for up to three days, Emergency Room Visit / Observation Unit coverage of four hundred dollars per visit for up to two days, a Critical Illness Rider of five thousand dollars once per lifetime , Family Care benefits of two hundred fifty dollars for up to five days, and Pet Care coverage of one hundred fifty dollars for up to five days.
 
 ---- 11 Enhanced Plan A ----
 
@@ -172,7 +172,7 @@ Enhanced Benefits in Oregon Plans include significantly higher Daily Confinement
 
 Reduced Coverage Areas in Oregon plans include no ICU Daily Confinement benefit, which is available in all General Statesplans. There is also no Emergency Room Visit coverage in Oregon plans, and no Critical Illness Rider, Family Care, or Pet Care benefits, which are available in some General State plans.
 
-The Plan Structure in Oregon is notable because Enhanced Plan D offers the highest benefits across all categories, significantly exceeding the General States Enhanced Plan D in many areas. Basic Plans have minimal inpatient coverage at fifty dollars per day, similar to Maryland plans. Oregon plans offer more generous Physician Office Visit coverage with up to six days in Enhanced Plan D, and enhanced surgical benefits and specialty care across all Enhanced plans. X-Ray coverage in Enhanced Plan D is for two days according to plan specifications.
+The Plan Structure in Oregon is notable because Enhanced Plan D offers the highest benefits across all categories, significantly exceeding the General States Enhanced Plan D in many areas. Basic Plans have minimal inpatient coverage at fifty dollars per day, similar to Maryland plans. Oregon plans offer more generous Physician Office Visit coverage with up to six days in Enhanced Plan D, and enhanced surgical benefits and specialty care across all Enhanced plans. X-Ray coverage in Enhanced Plan D is for three days according to plan specifications.
 
 ---- 23 South Carolina Plans Comparison (Inpatient Benefits) ----
 
@@ -220,9 +220,6 @@ Limitations include benefits decreasing at age sixty-five, typically reducing to
 
 Additional Exclusions include substance abuse and medical mishaps due to negligence, such as self-inflicted injuries or injuries resulting from illegal activities, and travel outside the United States.
 
-AME Rider Exclusions specifically exclude cosmetic surgeries, pregnancy-related expenses, and routine physical examinations.
-
-
 ---- 27 Key Takeaways and Reminders ----
 
 Let's summarize the key points to remember about Encore Health Plans.
@@ -237,7 +234,7 @@ Remember that Enrollment Details are required for proper plan administration, in
 
 Telemarketing Guidelines are important: Outbound telemarketing calls can only be made to leads that have provided express written consent to be called.
 
-The Discount Medical Plan Notice is important: A Discount Medical Plan is not affiliated with Encore Health by Zurich.
+The Discount Medical Plan Notice is important: A Discount Medical Plan is not included with Encore Health by Zurich.
 
 If a member purchases other products with Encore Health by Zurich, validating DOB & Zip code requirement will still be in place.
 
@@ -250,4 +247,5 @@ Benefit Day Limits are specific to each benefit and vary by plan and benefit typ
 ---- 31 Thank You! ----
 
 Thank you for participating in the Encore Health Review. The information we've covered will help you better serve members by understanding the nuances of different plan options across various states. Remember that your guidance is crucial in helping members make informed healthcare decisions. Continue to be great in supporting your members' healthcare needs!
+
 

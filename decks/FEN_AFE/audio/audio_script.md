@@ -68,11 +68,15 @@ opportunities for networking with like-minded entrepreneurs
 
 discounted services with up to 40% savings 
 
-comprehensive health and wellness support 
+health and wellness support 
 
 various insurance options for protection 
 
 and valuable financial tools including consultation services to maximize the value of their membership.
+
+AFE membership benefits also include rx discounts offered through Welldyne. 
+
+Term life, and Accidental Death and Dismemberment benefits through MetLife.
 
 ---- Educational Resources ----
 
@@ -107,3 +111,5 @@ To support business operations, they offer accounting support, marketing assista
 ---- Closing ----
 
 Thank you for taking the time to learn about the Association for Entrepreneurship and their member benefits. We're here to support you and your entrepreneurial journey, and remember, Continue to be great!
+
+

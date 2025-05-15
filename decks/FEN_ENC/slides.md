@@ -27,17 +27,18 @@ transition: fade-out
 layout: default
 ---
 
-## The Encore Health Plan
+## The Encore Health Plan benefits through the Association for Entrepreneurship
 
 <v-click>
 
-- Healthcare with a focus on affordability through **Encore Health**
+Healthcare with a focus on affordability available through membership in the **Association for Entrepreneurship**
 
 </v-click>
 
 <v-click>
 
-- **Accessibility to primary care** for various situations
+- **Accessibility to Primary care** for various situations (through AFE member benefits)
+
 
 </v-click>
 
@@ -55,7 +56,8 @@ layout: default
 
 <v-click>
 
-- **Support for individuals and families**
+- **Support for individuals and families** (through AFE member benefits)
+
 </v-click>
 
 ---
@@ -63,23 +65,26 @@ transition: fade-out
 layout: default
 ---
 
-## Key Features and Benefits
+## Key Features and Benefits of the Association for Entrepreneurship
 
 <v-click>  
 
-**Primary Care Accessibility**
+**Primary Care Accessibility** (through AFE member benefits)
+
 
 </v-click>
 
 <v-click>
 
-**Mental Health Services**
+**Mental Health Services** (through AFE member benefits)
+
 
 </v-click>
 
 <v-click>
 
-**Prescription Discounts** (varies by plan)
+**Prescription Discounts** (through AFE member benefits)
+
 </v-click>
 
 ---
@@ -87,16 +92,17 @@ transition: fade-out
 layout: default
 ---
 
-## Cost Management Tools
+## Cost Management Tools through the Association for Entrepreneurship
 
 <v-click>
 
-**Primary Digital Health** (AFE)
+**Primary Digital Health** (through AFE member benefits)
 </v-click>
 
 <v-click>
 
-**Advocacy Services** Support
+**Advocacy Services** Support (through AFE member benefits)
+
 </v-click>
 
 ---
@@ -106,9 +112,10 @@ layout: default
 
 ## How Primary Digital Health Works
 
+
 <v-click>
 
-1. Enroll through **Encore Health**
+1. Enroll through **AFE**
 </v-click>
 
 <v-click>
@@ -131,16 +138,16 @@ transition: fade-out
 layout: default
 ---
 
-## Preventive Care and Wellness
+## Primary Care and Mental Wellness 
 
 <v-click>  
 
-- **Primary Care** Services
+- **Primary Care** Servicesv(through AFE member benefits)
 </v-click>
 
 <v-click>
 
-- **Mental Health** Programs
+- **Mental Health** Programs (through AFE member benefits)
 </v-click>
 
 ---
@@ -148,7 +155,7 @@ transition: fade-out
 layout: default
 ---
 
-## Telehealth Services
+## Telehealth Services through AFE member benefits
 
 <v-click>
 
@@ -179,7 +186,7 @@ transition: fade-out
 layout: default
 ---
 
-## Advocacy and Support Services
+## Advocacy and Support Services through AFE member benefits
 
 <v-click>
 
@@ -194,11 +201,11 @@ layout: default
 
 ---
 transition: fade-out
-layout: one-half-img
+layout: one-half-img-plan
 image: img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg
 ---
 
-## Basic Plans (1/2)
+## Basic Plans (Inpatient)
 
 <v-click>
 
@@ -223,11 +230,11 @@ image: img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details
 
 ---
 transition: fade-out
-layout: one-half-img
+layout: one-half-img-plan
 image: img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg
 ---
 
-## Basic Plans (2/2)
+## Basic Plans (Outpatient)
 
 <v-click>
 
@@ -251,7 +258,7 @@ image: img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details
 - Physician Office Visit: $75/visit for 3 days
 - Urgent Care Visit: $75/visit for 3 days
 - ER Visit / Observation Unit: $400/visit for 2 days
-- Critical Illness Rider: $5,000 / 1 per year 
+- Critical Illness Rider: $5,000 / 1 per lifetime 
 <small>(Cancer, Heart Attack, Stroke, Paralysis, Kidney Failure, Major Organ Transplant) </small>
 - Family Care: $250 for 5 days
 - Pet Care: $150 for 5 days
@@ -259,7 +266,7 @@ image: img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details
 
 ---
 transition: fade-out
-layout: one-half-img-many
+layout: one-half-img-many-plan
 images: 
 - img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg
 - img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg
@@ -290,7 +297,7 @@ images:
 - Outpatient Surgery - Urgent Care: $150 for 2 days
 - X-Ray & Lab: $50 each for 2 days
 - Specialty Radiology: $100 for 1 day
-- Critical Illness Rider: $2,500 / 1 per year 
+- Critical Illness Rider: $2,500 / 1 per lifetime 
 <small>(Cancer, Heart Attack, Stroke, Paralysis, Kidney Failure, Major Organ Transplant) </small>
 - Family Care: $250 for 5 days
 - Pet Care: $150 for 5 days
@@ -298,7 +305,7 @@ images:
 
 ---
 transition: fade-out
-layout: one-half-img-many
+layout: one-half-img-many-plan
 images: 
 - img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg
 - img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg
@@ -329,7 +336,7 @@ images:
 - Outpatient Surgery - Urgent Care: $150 for 2 days
 - X-Ray & Lab: $50 each for 2 days
 - Specialty Radiology: $100 for 1 day
-- Critical Illness Rider: $5,000 / 1 per year 
+- Critical Illness Rider: $5,000 / 1 per lifetime 
 <small>(Cancer, Heart Attack, Stroke, Paralysis, Kidney Failure, Major Organ Transplant) </small>
 - Family Care: $250 for 5 days
 - Pet Care: $150 for 5 days
@@ -337,7 +344,7 @@ images:
 
 ---
 transition: fade-out
-layout: one-half-img-many
+layout: one-half-img-many-plan
 images: 
 - img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg
 - img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg
@@ -368,7 +375,7 @@ images:
 - Outpatient Surgery - Urgent Care: $150 for 2 days
 - X-Ray: $100 for 2 days, Lab: $100 for 2 days
 - Specialty Radiology: $200 for 1 day
-- Critical Illness Rider: $7,500 / 1 per year 
+- Critical Illness Rider: $7,500 / 1 per lifetime 
 <small>(Cancer, Heart Attack, Stroke, Paralysis, Kidney Failure, Major Organ Transplant) </small>
 - Family Care: $300 for 10 days
 - Pet Care: $150 for 10 days
@@ -376,7 +383,7 @@ images:
 
 ---
 transition: fade-out
-layout: one-half-img-many
+layout: one-half-img-many-plan
 images: 
 - img/pages/02_individual_hospital_indemnity_accident_sickness_plan_details_for_basic_and_enhanced_plans.jpg
 - img/pages/03_individual_hospital_indemnity_accident_sickness_plan_details_with_benefits_for_basic_and_enhanced_plans.jpg
@@ -407,7 +414,7 @@ images:
 - Outpatient Surgery - Urgent Care: $150 for 2 days
 - X-Ray: $150 for 2 days, Lab: $150 for 2 days
 - Specialty Radiology: $300 for 1 day
-- Critical Illness Rider: $10,000 / 1 per year 
+- Critical Illness Rider: $10,000 / 1 per lifetime 
 <small>(Cancer, Heart Attack, Stroke, Paralysis, Kidney Failure, Major Organ Transplant) </small>
 - Family Care: $400 for 10 days
 - Pet Care: $150 for 10 days
@@ -448,7 +455,7 @@ layout: default
 | X-Ray | - | - | - | $50/2 days | $50/2 days | $100/2 days | $150/2 days |
 | Lab | - | - | - | $50/2 days | $50/2 days | $100/2 days | $150/2 days |
 | Specialty Radiology | - | - | - | $100/1 day | $100/1 day | $200/1 day | $300/1 day |
-| Critical Illness Rider | - | - | $5,000/1 per year | $2,500/1 per year | $5,000/1 per year | $7,500/1 per year | $10,000/1 per year |
+| Critical Illness Rider | - | - | $5,000/1 per lifetime | $2,500/1 per lifetime | $5,000/1 per lifetime | $7,500/1 per lifetime | $10,000/1 per lifetime |
 | Family Care | - | - | $250/5 days | $250/5 days | $250/5 days | $300/10 days | $400/10 days |
 | Pet Care | - | - | $150/5 days | $150/5 days | $150/5 days | $150/10 days | $150/10 days |
 
@@ -554,7 +561,7 @@ layout: default
 | Outpatient Surgery - ACS | - | - | $750/1 day | $1,150/1 day | $2,000/1 day | $4,000/1 day |
 | Outpatient Anesthesia | - | - | $150/1 day | $350/1 day | $500/1 day | $1,000/1 day |
 | Outpatient Surgery - Urgent Care | - | - | $250/1 day | $250/1 day | $250/1 day | $250/1 day |
-| X-Ray | $50/2 days | $50/2 days | $50/2 days | $75/2 days | $100/3 days | $100/2 days |
+| X-Ray | $50/2 days | $50/2 days | $50/2 days | $75/2 days | $100/3 days | $100/3 days |
 | Lab | $50/2 days | $50/2 days | $50/3 days | $75/3 days | $100/4 days | $100/6 days |
 | Specialty Radiology | - | - | $350/1 day | $350/1 day | $350/1 day | $500/1 day |
 | Critical Illness Rider | - | - | - | - | - | - |
@@ -774,13 +781,6 @@ images:
 - Travel outside the United States
 </v-click>
 
-<v-click>
-
-**AME Rider Exclusions**
-- Cosmetic surgeries, pregnancy-related expenses
-- Routine physical examinations
-</v-click>
-
 ---
 transition: fade-out
 layout: default
@@ -815,7 +815,7 @@ layout: default
 
 <v-click>
 
-- **Discount Medical Plan Notice**: A Discount Medical Plan is not affiliated with Encore Health by Zurich
+- **Discount Medical Plan Notice**: A Discount Medical Plan is not included with Encore Health by Zurich
 </v-click>
 
 <v-click>

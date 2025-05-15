@@ -97,11 +97,6 @@ layout: default
 
 <v-click>
 
-**Pre-existing Condition Waiver** (PCW)
-</v-click>
-
-<v-click>
-
 **Flexible Deductible** System
 </v-click>
 

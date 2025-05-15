@@ -32,8 +32,6 @@ Network access is provided through the PHCS network with negotiated provider rat
 
 Now, let's discuss the cost management tools available with this plan.
 
-The pre-existing condition waiver, or PCW, is a key tool.
-
 There is a flexible deductible system in place.
 
 Coinsurance support options are also available.

@@ -109,6 +109,10 @@ image: /img/style/benefits.png
 - **Health & Wellness** support
 - **Insurance Options** for protection
 - **Financial Tools** and consultation
+- **Welldyne** for prescription discounts
+- **MetLife** for Term Life and AD&D
+
+
 
 </v-clicks>
 
@@ -227,7 +231,5 @@ line: Thank you for learning about AFE. Continue to be great!
 
 Continue to be great!
 
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
-
-
+<img src="./img/logos/FEN_logo.svg" class="h-12 mt-24" alt="FirstEnroll Logo">
 
