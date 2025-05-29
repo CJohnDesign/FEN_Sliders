@@ -1,22 +1,23 @@
----- 1 - Cover ----
+---- Cover ----
 
 Hello, everyone! Thank you for joining today's session on the Basic Core and Basic Core-Plus Plans. We'll walk through these plans' features and benefits, designed to provide valuable healthcare solutions for your members. Let's get started!
 
----- 2 - Plan Overview ----
+---- Plan Overview ----
 
 The Basic Core and Basic Core-Plus Plans
 
-are managed care options with no waiting or exclusion periods for pre-existing conditions, provided through American Public Life Insurance Company.
+are membership packages which include insured benefits from American Public Life Insurance company with no waiting or exclusion periods for pre-existing conditions
 
 These plans offer Indemnity Insurance, which means you receive a set payment amount with specific daily limits.
 
 Members can benefit from the Free Prescription Club and telemedicine services.
 
-Additionally, the plans include a Medical Bill Repricer through Reference Based Pricing.
+Additionally, these plans also include a Managed Care service from Medical Bill Repricer (MBR)
+.
 
 Advocacy Services are also available to support members.
 
----- 3 - Key Features and Benefits ----
+---- Key Features and Benefits ----
 
 Let's explore the key features and benefits of these plans.
 
@@ -28,7 +29,7 @@ The Free Prescription Club offers varying benefits depending on the plan.
 
 Telemedicine Services are available through virtual consultations, enhancing accessibility.
 
----- 4 - Cost Management Tools ----
+---- Cost Management Tools ----
 
 Now, let's discuss the cost management tools available with these plans.
 
@@ -38,11 +39,11 @@ The Reference Based Pricing System ensures fair pricing for medical services.
 
 Advocacy Services provide additional support in navigating healthcare costs.
 
----- 5 - How Medical Bill Repricer Works ----
+---- How Medical Bill Repricer Works ----
 
 Here's how the Medical Bill Repricer works.
 
-First, members enroll through Basic Core or Basic Core Plus
+First, members enroll through American Public Life Insurance Company.
 
 They can use a twenty-five dollar pre-pay for doctor visits or fifty dollars for specialist visits.
 
@@ -52,9 +53,9 @@ Members receive Reference Based Pricing, or RBP, for their services.
 
 Importantly, they can choose any doctor without network restrictions.
 
----- Preventive Care and Wellness ----
+---- Health Savings ----
 
-Preventive care and wellness are integral to these plans.
+Saving money and allowing individuals to use the funds how they choose are integral to these plans.
 
 Members have access to Free Prescription Club Services.
 
@@ -138,8 +139,6 @@ Telemedicine Services are not available in the Basic Core Plan.
 
 Advocacy Services are included in both plans.
 
-Agents must review all exclusions and limitations with the consumer to ensure full understanding
-
 ---- Key Takeaways and Reminders ----
 
 Here are the key points to remember.
@@ -155,3 +154,4 @@ Enrollment is required to access these services.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
+

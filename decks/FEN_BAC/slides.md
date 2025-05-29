@@ -147,28 +147,6 @@ transition: fade-out
 layout: default
 ---
 
-## Preventive Care and Wellness
-
-<v-click>  
-
-- **Routine Checkups** Services
-</v-click>
-
-<v-click>
-
-- **Wellness Programs** Initiatives
-</v-click>
-
-<v-click>
-
-- **HealthWarehouse** provides prescription savings
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
 ## Telehealth Services
 
 <v-click>
@@ -526,3 +504,6 @@ line: Thank you for participating in the BWA Americare Review. Continue to be gr
 # Thank You!
 
 Continue to be great!
+
+
+

@@ -20,7 +20,7 @@ drawings:
 
 # Basic Core Plan Overview
 
-Understanding the details and benefits of the **Basic Core and Basic Core-Plus Insurance Plans**
+Understanding the details and benefits of the **Basic Core and Basic Core-Plus Plans**
 
 ---
 transition: fade-out
@@ -31,7 +31,7 @@ layout: default
 
 <v-click>
 
-- Managed care with no waiting or exclusion periods for pre-existing conditions through **American Public Life Insurance Company**
+- Membership packages with no waiting or exclusion periods for pre-existing conditions through **American Public Life Insurance Company**
 
 </v-click>
 
@@ -49,7 +49,7 @@ layout: default
 
 <v-click>
 
-- **Medical Bill Repricer** through Reference Based Pricing
+- **Managed Care Service** through Medical Bill Repricer
 
 </v-click>
 
@@ -86,6 +86,9 @@ layout: default
 <v-click>
 
 **Telemedicine Services** through virtual consultations
+<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
+  <img src="./img/logos/MBR_logo.png" class="h-12 mix-blend-multiply" alt="MBR Logo">
+</div>
 </v-click>
 
 ---
@@ -119,7 +122,7 @@ layout: default
 
 <v-click>
 
-1. Enroll through **Basic Core** or **Basic Core Plus**
+1. Enroll through **American Public Life Insurance Company**
 </v-click>
 
 <v-click>
@@ -147,7 +150,7 @@ transition: fade-out
 layout: default
 ---
 
-## Preventive Care and Wellness
+## Health Savings
 
 <v-click>  
 
@@ -380,13 +383,6 @@ image: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_an
 - Included
 </v-click>
 
-<v-click>
-
-**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
-</v-click>
-
-
-
 ---
 transition: fade-out
 layout: default
@@ -425,3 +421,4 @@ line: Thank you for participating in the Basic Core and Basic Core-Plus Plans Re
 Continue to be great!
 
 <img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+

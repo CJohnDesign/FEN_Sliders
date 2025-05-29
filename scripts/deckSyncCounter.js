@@ -9,19 +9,31 @@ const projectRoot = path.join(__dirname, '..');
 /**
  * Count script sections and get line counts for each
  * @param {string} content - Content of the audio script
- * @returns {{ sectionCount: number, lineCounts: number[] }} Section count and lines per section
+ * @returns {{ sectionCount: number, lineCounts: number[], sectionTitles: string[] }} Section count, lines per section, and section titles
  */
 function analyzeScript(content) {
-  // Split by section headers (---- Section Name ----)
-  const sections = content.split(/----.*?----/).filter(section => section.trim());
-  const lineCounts = sections.map(section => {
-    // Split by lines that are empty or contain only whitespace
-    return section.trim().split(/\n[\s\n]*\n/).filter(line => line.trim()).length;
-  });
+  // Split by section headers but keep the headers
+  const allParts = content.split(/(----.*?----)/);
+  const sections = [];
+  const sectionTitles = [];
+  
+  for (let i = 1; i < allParts.length; i += 2) {
+    const header = allParts[i];
+    const sectionContent = allParts[i + 1] || '';
+    
+    // Extract section title from header (remove the ---- markers)
+    const title = header.replace(/----\s*/, '').replace(/\s*----/, '').trim();
+    sectionTitles.push(title);
+    
+    // Count lines in section content
+    const lineCount = sectionContent.trim().split(/\n[\s\n]*\n/).filter(line => line.trim()).length;
+    sections.push(lineCount);
+  }
   
   return {
     sectionCount: sections.length,
-    lineCounts
+    lineCounts: sections,
+    sectionTitles
   };
 }
 
@@ -55,9 +67,62 @@ function countClicksInSlide(slideContent) {
 }
 
 /**
+ * Extract the slide title from slide content
+ * @param {string} slideContent - Content of a single slide
+ * @returns {string} Title of the slide
+ */
+function extractSlideTitle(slideContent) {
+  const lines = slideContent.split('\n');
+  
+  for (const line of lines) {
+    const trimmed = line.trim();
+    // Look for markdown headers (# or ##)
+    if (trimmed.startsWith('#')) {
+      // Clean up markdown formatting and return the title
+      return trimmed.replace(/^#+\s*/, '').replace(/\*\*/g, '').replace(/`/g, '').trim();
+    }
+  }
+  
+  return 'No title found';
+}
+
+/**
+ * Extract the first meaningful line from slide content (excluding title)
+ * @param {string} slideContent - Content of a single slide
+ * @returns {string} First meaningful line of the slide
+ */
+function extractFirstLine(slideContent) {
+  const lines = slideContent.split('\n');
+  let foundTitle = false;
+  
+  for (const line of lines) {
+    const trimmed = line.trim();
+    
+    // Skip the title line
+    if (trimmed.startsWith('#')) {
+      foundTitle = true;
+      continue;
+    }
+    
+    // Skip empty lines, HTML tags, and markdown frontmatter
+    if (trimmed && 
+        !trimmed.startsWith('<') && 
+        !trimmed.match(/^-+$/) &&
+        !trimmed.includes('transition:') &&
+        !trimmed.includes('layout:') &&
+        foundTitle) {
+      // Clean up markdown formatting
+      return trimmed.replace(/\*\*/g, '').replace(/`/g, '').replace(/\[|\]/g, '');
+    }
+  }
+  
+  return 'No meaningful content found';
+}
+
+/**
  * Count slides and get v-click counts for each
  * @param {string} content - Content of the slides markdown
- * @returns {{ slideCount: number, clickCounts: number[] }} Slide count and clicks per slide
+ * @returns {{ slideCount: number, clickCounts: number[], firstLines: string[], slideTitles: string[] }} Slide count, clicks per slide, first lines, and slide titles
  */
 function analyzeSlides(content) {
   // Split content by frontmatter markers and filter empty sections
@@ -65,6 +130,8 @@ function analyzeSlides(content) {
   
   // Group sections into slides (each content slide has a transition section before it)
   const contentSlides = [];
+  const firstLines = [];
+  const slideTitles = [];
   let currentSlide = '';
   
   allSections.forEach((section, index) => {
@@ -75,6 +142,8 @@ function analyzeSlides(content) {
     if (section.includes('transition: fade-out')) {
       if (currentSlide) {
         contentSlides.push(currentSlide);
+        slideTitles.push(extractSlideTitle(currentSlide));
+        firstLines.push(extractFirstLine(currentSlide));
       }
       currentSlide = '';
     } else {
@@ -86,6 +155,8 @@ function analyzeSlides(content) {
   // Add the last slide if exists
   if (currentSlide) {
     contentSlides.push(currentSlide);
+    slideTitles.push(extractSlideTitle(currentSlide));
+    firstLines.push(extractFirstLine(currentSlide));
   }
   
   // Process each content slide
@@ -93,14 +164,16 @@ function analyzeSlides(content) {
   
   return {
     slideCount: contentSlides.length,
-    clickCounts
+    clickCounts,
+    firstLines,
+    slideTitles
   };
 }
 
 /**
  * Compare script sections with slides
- * @param {{ sectionCount: number, lineCounts: number[] }} scriptInfo
- * @param {{ slideCount: number, clickCounts: number[] }} slideInfo
+ * @param {{ sectionCount: number, lineCounts: number[], sectionTitles: string[] }} scriptInfo
+ * @param {{ slideCount: number, clickCounts: number[], firstLines: string[], slideTitles: string[] }} slideInfo
  */
 function compareContent(scriptInfo, slideInfo) {
   let hasErrors = false;
@@ -123,22 +196,30 @@ function compareContent(scriptInfo, slideInfo) {
     return false;
   }
   
-  // If section counts match, check click counts
+  // If section counts match, check click counts vs script lines
   scriptInfo.lineCounts.forEach((lineCount, index) => {
     const clickCount = slideInfo.clickCounts[index] || 0;
     
-    if (lineCount - 1 !== clickCount) {
+    // Compare script lines with click counts (assuming first line addresses headline)
+    const expectedClicks = Math.max(0, lineCount - 1);
+    
+    if (expectedClicks !== clickCount) {
       hasErrors = true;
       totalErrors++;
-      errorMessages.push(`\n❌ Click Count Mismatch in Section ${index + 1}:`);
-      errorMessages.push(`   Expected clicks: ${lineCount - 1} (based on script lines)`);
-      errorMessages.push(`   Actual clicks: ${clickCount}`);
+      
+      const slideTitle = slideInfo.slideTitles[index] || 'No title found';
+      
+      errorMessages.push(`\n❌ Sync Mismatch in Section ${index + 1}:`);
+      errorMessages.push(`   Slide Title: "${slideTitle}"`);
+      errorMessages.push(`   Script lines: ${lineCount}`);
+      errorMessages.push(`   Click events: ${clickCount}`);
+      errorMessages.push(`   Expected clicks: ${expectedClicks} (script lines - 1 for headline)`);
     }
   });
   
   // Display output based on results
   if (hasErrors) {
-    console.log('\nFound Click Count Issues:');
+    console.log('\nFound Synchronization Issues:');
     console.log('----------------------------------------');
     console.log(`Total issues found: ${totalErrors}`);
     errorMessages.forEach(msg => console.log(msg));

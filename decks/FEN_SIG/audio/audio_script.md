@@ -52,16 +52,6 @@ Members receive regular wellness updates, known as WP,
 
 and can track their progress through dedicated dashboards.
 
----- Preventive Care and Wellness ----
-
-The plan emphasizes preventive care and wellness.
-
-It includes physician services to ensure regular health check-ups, 
-
-hospitalization programs for necessary medical care, 
-
-and virtual visits that provide telehealth services for convenient access to healthcare professionals.
-
 ---- Telehealth Services ----
 
 Let's talk about telehealth services.
@@ -302,9 +292,9 @@ The critical illness benefit provides a maximum of one thousand dollars.
 
 Let's compare the different tiers available. The Sigma Care Plus plans range from the basic 100A tier to the premium 1000 tier, with hospital confinement benefits increasing from $100 to $1000 per day across the spectrum. Primary and specialty care visit benefits vary from $50 in most plans to $75 in the premium tier, while emergency room coverage ranges from $50 to $100 per day. The plans progressively add more benefits like pathology services, mental health coverage, and accident benefits. Surgery benefits show the most dramatic progression, starting at $400 in Plan 200+ and reaching $1500 in the premium plan. All plans except 100A include a $10,000 accidental death benefit, and plans 200+ and higher include a $1,000 critical illness benefit, giving members the flexibility to select coverage that aligns with both their healthcare needs and financial considerations.
 
----- Definitions and Limitations ----
+---- Exclusions and Limitations ----
 
-Let's review important definitions and limitations.
+Let's review important exclusions and limitations.
 
 Exclusions include pre-existing conditions not covered for twelve months, a thirty-day waiting period for sickness benefits, and no coverage for elective or cosmetic surgeries. 
 
@@ -327,3 +317,5 @@ Remember, enrollment is required to access these benefits.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
+
+

@@ -52,16 +52,6 @@ receive monthly updates,
 
 and engage with support services.
 
----- Preventive Care and Wellness ----
-
-Let's talk about preventive care and wellness.
-
-The plan offers Wellness Programs Services, 
-
-Health Tracking Programs, 
-
-and support from NCE for wellness.
-
 ---- Telehealth Services ----
 
 Now, let's look at telehealth services.
@@ -142,7 +132,7 @@ The Emergency Room Benefit is fifty dollars per day, with a maximum of two visit
 
 Basic Pathology and Radiology Benefit is fifty dollars per day, with a maximum of three days.
 
-Advanced Studies Benefit is fifty dollars per day, with a maximum of two days.
+Advanced Studies Benefit is fifty dollars per day, with a maximum of three days.
 
 ---- 200+ Plan (Two of Two) ----
 
@@ -325,3 +315,5 @@ Remember to review enrollment details with your members.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
+
+

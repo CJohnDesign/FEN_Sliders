@@ -1,14 +1,14 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the BWA Americare plan. We'll walk through the plan's features and benefits that empower your members health with financial peace of mind. Let's get started!
+Hello, everyone! Thank you for joining today's session on the BWA Americare plan. We'll walk through the plan's features and benefits that empower your members' health with financial peace of mind. Let's get started!
 
 ---- Plan Overview ----
 
 Understanding the details and benefits of the BWA Americare plan.
 
-This plan offers coverage through the Business Workers of America Association.
+In order to be eligible for these benefits you must be a working member of the Business Workers of America Association.
 
-It includes Hospital Indemnity for various situations.
+With the Americare Plan it includes Hospital Indemnity for various situations.
 
 Outpatient Surgery and support tools are also part of the plan.
 
@@ -51,16 +51,6 @@ After receiving care, members submit their bills to MBR for repricing.
 Members will receive an Explanation of Benefits, or EOB, detailing the repriced amounts.
 
 Finally, they pay the final bill based on the negotiated rates.
-
----- Preventive Care and Wellness ----
-
-Preventive care and wellness are integral parts of the plan.
-
-Routine Checkups Services are included.
-
-Wellness Programs Initiatives are available.
-
-Prescription savings are offered through HealthWarehouse.
 
 ---- Telehealth Services ----
 
@@ -183,4 +173,6 @@ Enrollment is required to access these benefits.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
+
+
 

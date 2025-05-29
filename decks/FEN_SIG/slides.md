@@ -150,28 +150,6 @@ transition: fade-out
 layout: default
 ---
 
-## Preventive Care and Wellness
-
-<v-click>  
-
-- **Physician Services** Services
-</v-click>
-
-<v-click>
-
-- **Hospitalization** Programs
-</v-click>
-
-<v-click>
-
-- **Virtual Visits** provides telehealth services
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
 ## Telehealth Services
 
 <v-click>
@@ -207,7 +185,7 @@ layout: default
 
 <v-click>
 
-- **Comprehensive** healthcare advocacy
+- **Inclusive** healthcare advocacy
 
 </v-click>
 
@@ -844,7 +822,7 @@ layout: one-half-img
 image: img/pages/05_hospital_indemnity_insurance_limitations_exclusions_sigma_care_plus.jpg
 ---
 
-## Definitions and Limitations
+## Exclusions and Limitations
 
 <v-click>
 
@@ -904,4 +882,5 @@ line: Thank you for participating in the Sigma Care Plus Review. Continue to be 
 
 Continue to be great!
 
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
+
+

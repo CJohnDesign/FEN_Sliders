@@ -4,7 +4,9 @@ Hello, everyone! Thank you for joining today's session on the MyChoice Plan. We'
 
 ---- MyChoice Plan Overview ----
 
-The MyChoice Plan is dedicated to improving the lives of American workers through the Business Workers of America Association, or BWA. 
+The MyChoice Plan 
+
+is dedicated to improving the lives of American workers through the Business Workers of America Association, or BWA. 
 
 It offers healthcare and wellness programs aimed at promoting better lifestyles. 
 
@@ -54,16 +56,6 @@ Submit your bills for repricing to potentially lower your costs.
 
 This process aims to reduce your out-of-pocket expenses.
 
----- Preventive Care and Wellness ----
-
-The plan emphasizes preventive care and wellness.
-
-Wellness visits are included to support your overall health. 
-
-Health programs are available for members to encourage healthy living. 
-
-DirectLabs provides lab services to assist in monitoring your health.
-
 ---- Telehealth Services ----
 
 Let's discuss the telehealth services offered.
@@ -106,7 +98,7 @@ Ambulance benefits include one hundred dollars for ground transport and one hund
 
 Emergency room visits are covered at two hundred dollars per visit.
 
-Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plan 1.
+Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plan 1. 
 
 Hospital Benefits have a calendar year maximum of one million dollars and lifetime max of five million.
 
@@ -126,9 +118,8 @@ Continuing with our second plan tier.
 
 Ambulance benefits include one hundred dollars for ground transport and two hundred dollars for air transport. 
 
-Emergency room visits are covered at two hundred dollars per visit.
+Emergency room visits are covered at two hundred dollars per visit Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plan 2.
 
-Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plan 2.
 ---- Plan 3 (One of Two) ----
 
 Now, let's explore our third plan tier.
@@ -161,19 +152,7 @@ Hospital Benefits have a calendar year maximum of one million dollars. Outpatien
 
 ---- Comparing Plan Tiers ----
 
-Let's compare the different tiers available.
-
-Plan one offers one hundred dollars per day for inpatient hospital confinement, while plans two and three offer three hundred dollars per day. 
-
-Intensive care confinement is two hundred dollars per day in plan one, and five hundred dollars per day in plans two and three. 
-
-The first day hospital admission benefit is one thousand dollars across all plans. 
-
-Ambulance benefits vary, with plan one offering one hundred dollars for both ground and air transport, plan two offering one hundred dollars for ground and two hundred dollars for air, and plan three offering one hundred dollars for ground and three hundred dollars for air. 
-
-Emergency room visits are consistently covered at two hundred dollars per visit across all plans.
-
-Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plans 1 & 2, but have availability on plan 3.
+Let's compare the different tiers available. Plan one offers one hundred dollars per day for inpatient hospital confinement, while plans two and three offer three hundred dollars per day. Intensive care confinement is two hundred dollars per day in plan one, and five hundred dollars per day in plans two and three. The first day hospital admission benefit is one thousand dollars across all plans. Ambulance benefits vary, with plan one offering one hundred dollars for both ground and air transport, plan two offering one hundred dollars for ground and two hundred dollars for air, and plan three offering one hundred dollars for ground and three hundred dollars for air. Emergency room visits are consistently covered at two hundred dollars per visit across all plans. Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plans 1 & 2, but have availability on plan 3.
 
 ---- Exclusions and Limitations ----
 

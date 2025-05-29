@@ -106,21 +106,6 @@ transition: fade-out
 layout: default
 ---
 
-## Preventive Care and Wellness
-
-<v-clicks>
-
-- **Wellness Visits** Services
-- **Health Programs** for members
-- **DirectLabs** provides lab services
-
-</v-clicks>
-
----
-transition: fade-out
-layout: default
----
-
 ## Telehealth Services
 
 <v-clicks>
@@ -197,12 +182,17 @@ image: img/pages/07_benefits_and_features_for_plan_1_with_coverage_limits_and_pr
 
 **Emergency Room Visits**
 - $200 per visit
-<v-click>
+</v-click>
 
 <v-click>
 
 **Not Covered**
 - Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered
+</v-click>
+
+<v-click>
+
+**Hospital Benefits have a calendar year maximum of one million dollars and lifetime max of five million.**
 </v-click>
 
 ---
@@ -233,13 +223,6 @@ image: img/pages/52_benefits_and_features_for_plan_2_with_coverage_limits_and_pr
 - $1,000 once per year
 </v-click>
 
-<v-click>
-
-**Ambulance Benefits**
-- $100 ground transport
-- $200 air transport
-</v-click>
-
 ---
 transition: fade-out
 layout: one-half-img
@@ -252,7 +235,7 @@ image: img/pages/52_benefits_and_features_for_plan_2_with_coverage_limits_and_pr
 
 **Ambulance Benefits**
 - $100 ground transport
-- $300 air transport
+- $200 air transport
 </v-click>
 
 <v-click>
@@ -289,24 +272,24 @@ image: img/pages/22_benefits_and_features_for_plan_3_with_coverage_limits_and_pr
 - $1,000 once per year
 </v-click>
 
-</v-click>
+<v-click>
 
 **Ambulance Benefits**
 - $100 ground transport
 - $300 air transport
 </v-click>
 
-</v-click>
+<v-click>
 
 **Emergency Room Visits**
 - $200 per visit
 </v-click>
 
-</v-click>
+<v-click>
 
 **Surgical Benefit**
 - 1x Surgical Schedule
-<v-click>
+</v-click>
 
 ---
 transition: fade-out
@@ -322,16 +305,18 @@ image: img/pages/22_benefits_and_features_for_plan_3_with_coverage_limits_and_pr
 - $500 per visit
 </v-click>
 
-</v-click>
+<v-click>
 
 **Assistant Surgeon**
 - 1x Surgical Schedule
-<v-click>
-
 </v-click>
+
+<v-click>
 
 ** Anesthesia**
 - 1x Surgical Schedule
+</v-click>
+
 <v-click>
 
 **Office Visits**
@@ -402,13 +387,13 @@ image: img/pages/08_definitions_of_benefits_including_inpatient_hospital_intensi
 - Per trip, limited to one trip per year
 </v-click>
 
-</v-click>
+<v-click>
 
 **Maximum Benefits**
 - Hospital Benefits have a calendar year maximum of one million dollars. Outpatient has a calendar year max of four thousand and lifetime max of five million for all benefits.
-<v-click>
-
 </v-click>
+
+<v-click>
 
 **Agents must review all exclusions and limitations with the consumer to ensure full understanding**
 
@@ -423,7 +408,7 @@ layout: default
 
 <v-clicks>
 
-- **Comprehensive Coverage** benefits
+- ** Coverage** benefits
 - **Advocacy and Support** included
 - **Cost Management Tools** benefits
 - **Eligibility Criteria** required

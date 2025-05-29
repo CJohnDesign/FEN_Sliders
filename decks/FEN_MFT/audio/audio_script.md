@@ -180,11 +180,11 @@ The prescription benefits through BestChoiceRX Plus include coverage for prevent
 
 Now, let's look at our sixth plan tier, MedFirst 5.
 
-MedFirst 5 includes physician services with five primary care visits per year. There is a fifty dollar co-pay, with a one hundred fifty dollar maximum per visit.
+MedFirst 5 includes one wellness exam per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit. For physician services, it offers five primary care visits per year. There is a fifty dollar co-pay, with a one hundred fifty dollar maximum per visit.
 
 Specialist visits are included, with five visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum per visit.
 
-Hospitalization benefits provide one thousand five hundred dollars per day, with a fifteen thousand dollar maximum per year.
+Hospitalization benefits provide one thousand five hundred dollars per day, with a fifteen thousand dollar maximum per year. Surgery benefits provide one thousand five hundred dollars per day, with a four thousand five hundred dollar maximum per year combined for both in and outpatient surgery. Emergency Room benefits come into play if admitted to the hospital and  provides a benefit of one thousand dollars per incident. Ambulance benefits come into play as well if admitted to the hospital and  provide a five hundred dollar benefit per incident.
 
 ---- MedFirst 5 (Two of Two) ----
 
@@ -227,6 +227,4 @@ In-network providers are required for services, ensuring quality care.
 ---- Closing ----
 
 Thank you for your time today. We hope this information helps you assist clients in making informed decisions about their health coverage. Continue to be great!
-
-
 

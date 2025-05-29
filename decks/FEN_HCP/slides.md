@@ -143,28 +143,7 @@ layout: default
 <v-click>
 
 5. Engage with support services
-</v-click>
 
----
-transition: fade-out
-layout: default
----
-
-## Preventive Care and Wellness
-
-<v-click>  
-
-- **Wellness Programs** Services
-</v-click>
-
-<v-click>
-
-- **Health Tracking** Programs
-</v-click>
-
-<v-click>
-
-- **NCE** provides comprehensive wellness support
 </v-click>
 
 ---
@@ -384,7 +363,7 @@ image: img/pages/02_health_choice_premium_plan_details_with_benefits_for_100a_10
 <v-click>
 
 **Advance Studies**
-- $50/day (max 2 days)
+- $50/day (max 3 days)
 </v-click>
 
 ---
@@ -896,5 +875,3 @@ line: Thank you for participating in the Health Choice Premium Review. Continue 
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
