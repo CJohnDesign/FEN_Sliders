@@ -93,7 +93,13 @@ a:hover {
 
 .slidev-layout ul {
   list-style: square;
-  margin-bottom: .125rem !important;
+  margin-bottom: 0.75rem !important;
+  font-size: 0.875em;
+  line-height: 1.6;
+}
+
+.slidev-layout ol {
+  margin-bottom: 0.75rem !important;
   font-size: 0.875em;
   line-height: 1.6;
 }
@@ -104,7 +110,7 @@ a:hover {
 
 .slidev-layout p {
   margin-top: 0;
-  margin-bottom: 0.25rem !important;
+  margin-bottom: 0.75rem !important;
   font-size: 0.9em;
   line-height: 1.4;
 }
@@ -148,6 +154,35 @@ a:hover {
   display: none;
 }
 
+
+/* Small tag styling for disclaimers */
+.slidev-layout small {
+  font-size: 0.6em;
+  line-height: 1.2;
+  opacity: 0.8;
+}
+
+/* Remove special styling from anchor tags */
+.slidev-layout a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Table column sizing - give first column more space */
+.slidev-layout table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.slidev-layout table th:first-child,
+.slidev-layout table td:first-child {
+  width: 25%;
+}
+
+.slidev-layout table th:not(:first-child),
+.slidev-layout table td:not(:first-child) {
+  width: calc(75% / 8);
+}
 
 /* Custom cursor for the entire presentation */
 * {

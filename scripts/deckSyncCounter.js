@@ -38,11 +38,23 @@ function analyzeScript(content) {
 }
 
 /**
- * Count v-clicks in a slide
+ * Count v-clicks in a slide - supports both traditional and declarative systems
  * @param {string} slideContent - Content of a single slide
  * @returns {number} Total number of clicks in the slide
  */
 function countClicksInSlide(slideContent) {
+  // First check for declarative clicks system in frontmatter
+  const frontmatterMatch = slideContent.match(/^---\s*\n([\s\S]*?)\n---/);
+  if (frontmatterMatch) {
+    const frontmatter = frontmatterMatch[1];
+    const clicksMatch = frontmatter.match(/clicks:\s*(\d+)/);
+    if (clicksMatch) {
+      // If declarative clicks are found, use that number
+      return parseInt(clicksMatch[1], 10);
+    }
+  }
+
+  // Fallback to traditional v-click counting system
   let totalClicks = 0;
 
   // Count individual <v-click> tags

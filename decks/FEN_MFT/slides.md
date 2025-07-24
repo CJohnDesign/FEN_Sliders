@@ -137,22 +137,6 @@ layout: default
 
 ---
 transition: fade-out
-layout: default
----
-
-## Advocacy and Support Services
-
-<v-clicks>
-
-- **Inclusive** healthcare advocacy
-- **Hospital Bill Reduction** assistance
-- **Prescription Assistance** options
-- **Telemedicine** support
-
-</v-clicks>
-
----
-transition: fade-out
 layout: one-half-img
 image: ./img/pages/02_medfirst_wellness_plan_with_physician_services_and_telemedicine_benefits.jpg
 ---
@@ -163,7 +147,7 @@ image: ./img/pages/02_medfirst_wellness_plan_with_physician_services_and_telemed
 
 **Physician Services**
 - One wellness exam per year
-- $25 co-pay, $150 max per visit
+- $25 co-pay, $150 max
 - In-network providers only
 </v-click>
 
@@ -177,7 +161,7 @@ image: ./img/pages/02_medfirst_wellness_plan_with_physician_services_and_telemed
 <v-click>
 
 **Prescription Discounts**
-- Managed through BestChoice RX Group
+- Managed through BestChoice RX Group Discount
 - Participating pharmacies
 - Discounted rates
 </v-click>
@@ -216,14 +200,14 @@ image: ./img/pages/03_medfirst_1_plan_details_with_physician_services_and_teleme
 
 **Physician Services**
 - Three primary care visits per year
-- $25 co-pay, $150 max per visit
+- $25 co-pay, $150 max
 </v-click>
 
 <v-click>
 
 **Specialist Visits**
 - One visit per year
-- $50 co-pay, $300 max per visit
+- $50 co-pay, $300 max
 </v-click>
 
 <v-click>
@@ -267,14 +251,14 @@ image: ./img/pages/04_medfirst_2_plan_details_with_physician_services_telemedici
 
 **Physician Services**
 - Four primary care visits per year
-- $25 co-pay, $150 max per visit
+- $25 co-pay, $150 max 
 </v-click>
 
 <v-click>
 
 **Specialist Visits**
 - Two visits per year
-- $50 co-pay, $300 max per visit
+- $50 co-pay, $300 max
 </v-click>
 
 <v-click>
@@ -319,14 +303,14 @@ image: ./img/pages/05_medfirst_3_plan_details_with_physician_services_and_prescr
 
 **Physician Services**
 - Four primary care visits per year
-- $25 co-pay, $150 max per visit
+- $25 co-pay, $150 max
 </v-click>
 
 <v-click>
 
 **Specialist Visits**
 - Four visits per year
-- $50 co-pay, $300 max per visit
+- $50 co-pay, $300 max
 </v-click>
 
 <v-click>
@@ -374,14 +358,14 @@ image: ./img/pages/06_medfirst_4_plan_features_benefits_and_coverage_details_wit
 **Physician Services**
 - One wellness exam per year ($25 co-pay, $150 max)
 - Four primary care visits per year
-- $50 co-pay, $150 max per visit
+- $50 co-pay, $150 max
 </v-click>
 
 <v-click>
 
 **Specialist Visits**
 - Four visits per year
-- $75 co-pay, $300 max per visit
+- $75 co-pay, $300 max
 </v-click>
 
 <v-click>
@@ -433,14 +417,14 @@ image: ./img/pages/07_medfirst_5_plan_details_with_benefits_comparison_and_limit
 **Physician Services**
 - One wellness exam per year ($25 co-pay, $150 max)
 - Five primary care visits per year
-- $50 co-pay, $150 max per visit
+- $50 co-pay, $150 max
 </v-click>
 
 <v-click>
 
 **Specialist Visits**
 - Five visits per year
-- $75 co-pay, $300 max per visit
+- $75 co-pay, $300 max
 </v-click>
 
 <v-click>
@@ -509,7 +493,6 @@ images:
 **Waiting Periods**
 - 30-day for sickness benefits
 - Pre-existing conditions not covered for 12 months
-- Must review all exclusions and limitations 
 </v-click>
 
 <v-click>

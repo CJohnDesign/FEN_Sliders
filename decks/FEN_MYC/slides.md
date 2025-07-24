@@ -1,5 +1,5 @@
 ---
-id: FEN_MyChoice
+id: FEN_MYC
 theme: ../../
 title: | 
   MyChoice Plan
@@ -16,7 +16,7 @@ drawings:
   persist: false
 ---
 
-<SlideAudio deckKey="FEN_MyChoice" />
+<SlideAudio deckKey="FEN_MYC" />
 
 # MyChoice Plan Review
 
@@ -313,20 +313,20 @@ image: img/pages/22_benefits_and_features_for_plan_3_with_coverage_limits_and_pr
 
 <v-click>
 
-** Anesthesia**
+**Anesthesia**
 - 1x Surgical Schedule
 </v-click>
 
 <v-click>
 
 **Office Visits**
-- $200 per visit
+- $75 per visit
 </v-click>
 
-<v-click>*
+<v-click>
 
-*Wellness Visits**
-- $200 per visit
+**Wellness Visits**
+- $50 per visit
 </v-click>
 
 ---
@@ -424,4 +424,6 @@ line: Thank you for participating in the MyChoice Plan Review. Continue to be gr
 # Thank You!
 
 Continue to be great!
+
+
 

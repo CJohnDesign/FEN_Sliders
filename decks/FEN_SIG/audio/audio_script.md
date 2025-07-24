@@ -1,321 +1,133 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the Sigma Care Plus plan. We'll walk through the plan's features and benefits that empower your health with financial peace of mind. Let's get started!
+Hello, agents! Thank you for joining today's training session on Sigma Care Plus. As sales professionals, you'll need to understand this plan's benefits thoroughly to effectively present them to your prospective members. Let's get started!
 
----- Plan Overview ----
+---- Introduction to Sigma Care Plus ----
 
-The Sigma Care Plus plan
+Sigma Care Plus, underwritten by American Financial Security Life Insurance Company (AFSLIC), is a product you'll be offering that provides 
 
-offers limited medical benefits through the National Congress of Employers. 
+flexible coverage for various medical situations. 
 
-It is designed to provide accessibility for individuals and families, 
+When presenting to prospects, emphasize how it combines hospital indemnity benefits with extensive support tools to help members navigate their healthcare journey. 
 
-focusing on affordability and personal impact. 
-
-The plan includes supplemental coverage through tiered options, 
-
-with a strong focus on health and wellness support.
+Membership is available through the National Congress of Employers, which you should refer to as NCE when speaking with prospects, granting access to these exclusive benefits.
 
 ---- Key Features and Benefits ----
 
-Let's explore the key features and benefits of this plan.
+Let's explore the key features you'll be highlighting to prospects. 
 
-The plan provides limited medical benefits, 
+Hospital Confinement Benefits provide daily financial support when your members are admitted to a hospital, ranging from one hundred to one thousand dollars per day depending on the plan level. 
 
-and offers supplemental coverage to enhance your healthcare options. 
+Doctor Office Visit Benefits cover both primary care and specialty care visits, giving prospects peace of mind for routine healthcare needs. 
 
-It includes tiered options that vary by plan, 
+Emergency Room Benefits ensure your members have coverage for unexpected medical emergencies, with most plans providing fifty to one hundred dollars per visit. 
 
-and aims to make a personal impact through the National Congress of Employers.
+Mental Health Benefits on Plans 300 and higher offer both inpatient and outpatient coverage, addressing the growing demand for mental healthcare support. 
 
----- Cost Management Tools ----
+Diagnostic and Surgery Benefits on higher-tier plans provide coverage for essential medical tests and surgical procedures, creating excellent upselling opportunities. 
 
-Now, let's discuss the cost management tools available with this plan.
+Accident and Critical Illness Benefits include supplemental accident coverage that pays in addition to regular benefits, plus critical illness protection for serious health diagnoses. 
 
-The plan includes wellness programs, often referred to as WP, 
+---- NCE Healthcare & Medical Services ----
 
-and an advocacy services system to assist members. 
+When discussing the healthcare and medical services offered through the National Congress of Employers association, you'll want to emphasize the value proposition. 
 
-Additionally, dashboards support is available to help track and manage healthcare expenses.
+Your prospects will receive medical support including bill negotiations, 24/7 nurse access, laboratory savings, and discounts on medical supplies. 
 
----- How Wellness Programs Work ----
+For dental and vision care, NCE provides significant savings through the Aetna Dental Access Network and OUTLOOK Vision Network, offering 15 to 50 percent savings on routine and specialty services that you can highlight as immediate value. Please note that these programs are not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
 
-Here's how the wellness programs work.
+---- NCE Prescription & Health Products ----
 
-First, members enroll through the National Congress of Employers. 
+Next, here's how you'll present the prescription and health product benefits to prospects.
 
-They can then access a variety of wellness resources, 
+NCE offers substantial prescription savings with discount cards and specialized programs, including significant savings on diabetic supplies and insulin medications that can resonate strongly with prospects who have these needs.
 
-and participate in health activities to improve their well-being. 
+Your prospects will also have access to natural health products including CBD alternatives and vitamins with savings up to 75 percent off retail pricing - a compelling selling point for health-conscious individuals.
 
-Members receive regular wellness updates, known as WP, 
+---- NCE Therapy & Wellness Services ----
 
-and can track their progress through dedicated dashboards.
+When presenting therapy and wellness services, you'll want to emphasize the nature of these benefits.
 
----- Telehealth Services ----
+This includes physical therapy, chiropractic care, speech therapy, and hearing services through extensive provider networks that your prospects can access immediately upon enrollment.
 
-Let's talk about telehealth services.
+Your members will also get access to nutrition education and wellness programs to support their overall health goals, which appeals to prospects looking for holistic health support.
 
-The plan offers virtual visits, 
+Remember to mention that National Congress of Employers NCE association benefits are not affiliated with American Financial Security Life Insurance Company. Sigma Care Plus Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please note that Aetna Dental Access Network and OUTLOOK Vision Network programs are not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
 
-providing twenty-four seven access to healthcare professionals. 
+---- Sigma Care Plus Plan Options ----
 
-Remote consultations are available, 
+Now let's review the Sigma Care Plus plan options you'll be presenting to prospects. You'll be offering eight different plan levels to meet various needs and budgets, ranging from Plan 100A up to Plan 1000. 
 
-ensuring convenient access to care whenever needed.
+When presenting Hospital Confinement Benefits, you can show prospects the range from one hundred dollars per day on the lower plans up to one thousand dollars per day on the highest plan. All plans provide coverage for up to 30 days per year.
 
----- Advocacy and Support Services ----
+For Doctor Visit Benefits, point out this important distinction to prospects. Most plans provide fifty dollars per visit for both primary care and specialty care, while Plan 1000 increases this to seventy-five dollars per visit.
 
-Now, let's look at advocacy and support services.
+Visit Limits also vary by plan level, giving you another selling point. The lower plans allow 3 visits per year for each category, while the higher plans allow 5 visits per year.
 
-The plan provides healthcare advocacy to assist members, 
+Finally, Emergency Room benefits highlight a key difference you should explain clearly. Plan 100A doesn't include emergency room coverage at all, while other plans range from fifty dollars to one hundred dollars per visit, with most plans allowing one emergency room visit per year.
 
-along with claims management assistance to simplify the process. 
+This flexible structure allows you to help prospects choose the plan that best matches their healthcare needs and budget.
 
-There are various provider network options available, 
+---- Additional Benefits - Diagnostics & Surgery ----
 
-and support tools are in place to help members navigate their healthcare journey.
+Now let's examine the additional benefits available on higher-tier plans that you can use as compelling upselling opportunities.
 
----- Plan Tier 1 (One of Two) ----
+When presenting diagnostic benefits, explain to prospects that certain plans include coverage for essential medical tests. Plans 200, 200 Plus, 500, 750, and 1000 provide Basic Pathology and Basic Radiology benefits. Notice that Plan 1000 offers seventy-five dollars per day compared to fifty dollars on other plans, giving you a clear value proposition for the premium plan.
 
-Let's examine our first plan tier, Plan 100A.
+For Surgery Benefits, this is where you can really differentiate the higher plans. Starting with Plan 200 Plus, prospects get both inpatient and outpatient surgery coverage. Point out the significant range from four hundred dollars per day on Plan 200 Plus up to fifteen hundred dollars per day on Plan 1000. All surgery plans allow up to 3 procedures per year.
 
-The hospital confinement benefit offers one hundred dollars per day, with a maximum of thirty days. 
+An important selling point is the Anesthesia Benefit, which provides an additional twenty percent of the surgery benefit amount. This means on Plan 1000, if a prospect has surgery worth fifteen hundred dollars, they'd receive an additional three hundred dollars for anesthesia costs.
 
-The primary care visit benefit provides fifty dollars per day, up to three visits. 
+Remember to explain the important limitations: for diagnostic tests, if multiple tests occur on the same day, only the highest benefit amount is paid. For surgery, if both inpatient and outpatient procedures happen the same day, only the inpatient benefit is paid since it's typically higher.
 
-Similarly, the specialty care visit benefit is fifty dollars per day, also for a maximum of three visits.
+These additional benefits make the higher-tier plans particularly attractive to prospects concerned about potential surgical procedures or diagnostic testing costs.
 
----- Plan Tier 2 (One of Two) ----
+---- Mental Health Benefits ----
 
-Now, let's look at our second plan tier, Plan 100.
+Mental Health Benefits represent a significant differentiator and upselling opportunity starting with Plan 300. When presenting these benefits to prospects, emphasize that mental health coverage has become increasingly important to many families and employers.
 
-The hospital confinement benefit is one hundred dollars per day, with a maximum of thirty days. 
+Plans 300 through 1000 provide robust inpatient mental health benefits ranging from one hundred fifty dollars per day on Plan 300 up to five hundred dollars per day on Plan 1000, with generous coverage of up to 60 days per year. This substantial coverage addresses the growing need for psychiatric hospital care and mental health facility stays.
 
-The primary care visit benefit is fifty dollars per day, up to three visits. 
+All these higher-tier plans also include outpatient mental health benefits at fifty dollars per day for up to 20 visits annually, covering therapy sessions and outpatient psychiatric care. This benefit alone can save prospects hundreds or thousands of dollars in annual mental health costs.
 
-The specialty care visit benefit is also fifty dollars per day, for up to three visits.
+When presenting mental health benefits, position them as essential coverage for today's stress-filled world and emphasize that these benefits are only available on Plans 300 and higher, making them excellent upselling tools.
 
-The emergency room benefit provides fifty dollars per day, for a maximum of one day. 
+---- Premium Accident & Critical Illness Benefits ----
 
-The accidental death benefit provides a maximum of ten thousand dollars.
+Now let's explore the accident and critical illness benefits that create additional value propositions across multiple plan levels.
 
----- Plan Tier 3 (One of Two) ----
+Supplemental Accident Benefits are a powerful selling tool available on Plans 300 and higher. These benefits are crucial because they pay in addition to regular hospital and emergency room benefits, effectively doubling the coverage for accident-related care. For accident-related emergency room visits, prospects receive an additional two hundred fifty dollars per day. For accident-related hospital admissions, they receive an additional five hundred dollars per day, with higher plans offering more days of coverage.
 
-Let's move on to Plan 200.
+Accidental Death Benefits provide peace of mind and are available on all plans except 100A. You can position this as a ten thousand dollar accidental death benefit at no additional cost. Remember to explain that spouses receive fifty percent, or five thousand dollars, and dependents receive twenty-five percent, or twenty-five hundred dollars.
 
-The hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days. 
+Critical Illness Benefits start with Plan 200 Plus and provide one thousand dollars per original diagnosis per family member. This is particularly appealing to prospects with family histories of serious illness, as it provides immediate cash assistance when facing major health challenges like cancer, heart attack, or stroke.
 
-The primary care visit benefit is fifty dollars per day, up to five visits. 
+These accident and critical illness benefits transform the plans from simple hospital coverage into protection packages.
 
-The specialty care visit benefit is also fifty dollars per day, for a maximum of five visits.
+---- Limitations and Exclusions ----
 
-The emergency room benefit provides fifty dollars per day, for one day. 
+As agents, you need to understand the key limitations of Sigma Care Plus plans to properly set expectations with your prospects.
 
-The basic pathology and radiology benefit provides fifty dollars per day, for up to one day.
+There's a thirty-day waiting period for sickness benefits and a twelve-month exclusion for pre-existing conditions treated before coverage begins.
 
-The advance studies benefit offers fifty dollars per day, for a maximum of one day.
+The main exclusions include treatments that aren't medically necessary, experimental procedures, dental care except for accidents, cosmetic surgery, pregnancy complications, self-inflicted injuries, extreme sports, military duty, and work-related injuries covered by Workers' Compensation.
 
-The accidental death benefit provides a maximum of ten thousand dollars.
+Remember to emphasize that these are fixed indemnity benefits with usage limitations per policy year. Always direct prospects to the complete policy certificate for full details.
 
----- Plan Tier 4 (One of Two) ----
+---- Key Takeaways for Sigma Care Plus Sales ----
 
-Next, we have Plan 200+.
+As agents, remember these crucial selling points when presenting Sigma Care Plus: 
 
-The hospital confinement benefit is two hundred dollars per day, with a maximum of thirty days. 
+With eight different plan levels from 100A through 1000, you can match any prospect's budget and coverage needs while creating natural upselling opportunities. 
 
-The primary care visit benefit is fifty dollars per day, for up to five visits. 
+Mental Health Benefits starting on Plan 300 provide a powerful differentiator in today's market, addressing the growing awareness and need for mental healthcare coverage. 
 
-The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
+Supplemental Accident and Critical Illness Benefits on Plans 300 and higher pay in addition to regular hospital benefits, with accident benefits doubling accident-related coverage and critical illness benefits providing immediate cash for serious diagnoses - compelling selling points for safety and health-conscious prospects. 
 
-The emergency room benefit provides fifty dollars per day, for up to two days. 
+NCE Association Benefits provide extensive healthcare discounts and services at no extra cost, adding tremendous value beyond the insurance coverage itself. 
 
-The basic pathology and radiology benefit provides fifty dollars per day, for up to three days.
-
-The advance studies benefit offers fifty dollars per day, for a maximum of two days.
-
----- Plan Tier 4 (Two of Two) ----
-
-Continuing with Plan 200+.
-
-The surgery benefit offers four hundred dollars per day, with a maximum of three days.
-
-The anesthesia benefit provides twenty percent coverage, for up to three days.
-
-The accidental death benefit provides a maximum of ten thousand dollars.
-
-The critical illness benefit provides a maximum of one thousand dollars.
-
----- Plan Tier 5 (One of Two) ----
-
-Now, let's look at Plan 300.
-
-The hospital confinement benefit is three hundred dollars per day, with a maximum of thirty days. 
-
-The primary care visit benefit is fifty dollars per day, for up to five visits. 
-
-The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
-
-The advance studies benefit offers fifty dollars per day, for a maximum of two days.
-
-The mental health inpatient benefit is one hundred fifty dollars per day, for up to sixty days.
-
-The mental health outpatient benefit provides fifty dollars per day, for a maximum of twenty visits.
-
----- Plan Tier 5 (Two of Two) ----
-
-Continuing with Plan 300.
-
-The emergency room benefit provides fifty dollars per day, for one day. 
-
-The surgery benefit offers four hundred dollars per day, with a maximum of three days.
-
-The anesthesia benefit provides twenty percent coverage, for up to three days.
-
-The accident inpatient admission benefit offers five hundred dollars per day, for up to one day.
-
-The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
-
-The accidental death benefit provides a maximum of ten thousand dollars.
-
-The critical illness benefit provides a maximum of one thousand dollars.
-
----- Plan Tier 6 (One of Two) ----
-
-Let's examine Plan 500.
-
-The hospital confinement benefit is five hundred dollars per day, with a maximum of thirty days. 
-
-The primary care visit benefit is fifty dollars per day, for up to five visits. 
-
-The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
-
-The basic pathology and radiology benefit offers fifty dollars per day, for up to two days.
-
-The advance studies benefit provides fifty dollars per day, for a maximum of two days.
-
-The mental health inpatient benefit is two hundred fifty dollars per day, for up to sixty days.
-
-The mental health outpatient benefit provides fifty dollars per day, for a maximum of twenty visits.
-
----- Plan Tier 6 (Two of Two) ----
-
-Continuing with Plan 500.
-
-The emergency room benefit provides seventy-five dollars per day, for one day. 
-
-The surgery benefit offers seven hundred fifty dollars per day, with a maximum of three days.
-
-The anesthesia benefit provides twenty percent coverage, for up to three days.
-
-The accident inpatient admission benefit offers five hundred dollars per day, for up to one day.
-
-The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
-
-The accidental death benefit provides a maximum of ten thousand dollars.
-
-The critical illness benefit provides a maximum of one thousand dollars.
-
----- Plan Tier 7 (One of Two) ----
-
-Now, let's look at Plan 750.
-
-The hospital confinement benefit is seven hundred fifty dollars per day, with a maximum of thirty days. 
-
-The primary care visit benefit is fifty dollars per day, for up to five visits. 
-
-The specialty care visit benefit is fifty dollars per day, for a maximum of five visits.
-
-The basic pathology and radiology benefit offers fifty dollars per day, for up to two days.
-
-The advance studies benefit provides fifty dollars per day, for a maximum of two days.
-
-The mental health inpatient benefit is three hundred seventy-five dollars per day, for up to sixty days.
-
-The mental health outpatient benefit provides fifty dollars per day, for a maximum of twenty visits.
-
----- Plan Tier 7 (Two of Two) ----
-
-Continuing with Plan 750.
-
-The emergency room benefit provides seventy-five dollars per day, for one day. 
-
-The surgery benefit offers one thousand dollars per day, with a maximum of three days.
-
-The anesthesia benefit provides twenty percent coverage, for up to three days.
-
-The accident inpatient admission benefit offers five hundred dollars per day, for up to two days.
-
-The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
-
-The accidental death benefit provides a maximum of ten thousand dollars.
-
-The critical illness benefit provides a maximum of one thousand dollars.
-
----- Plan Tier 8 (One of Two) ----
-
-Finally, let's examine Plan 1000.
-
-The hospital confinement benefit is one thousand dollars per day, with a maximum of thirty days. 
-
-The primary care visit benefit is seventy-five dollars per day, for up to five visits. 
-
-The specialty care visit benefit is seventy-five dollars per day, for a maximum of five visits.
-
-The basic pathology and radiology benefit offers seventy-five dollars per day, for up to three days.
-
-The advance studies benefit provides seventy-five dollars per day, for a maximum of three days.
-
-The mental health inpatient benefit is five hundred dollars per day, for up to sixty days.
-
-The mental health outpatient benefit provides fifty dollars per day, for a maximum of twenty visits.
-
----- Plan Tier 8 (Two of Two) ----
-
-Continuing with Plan 1000.
-
-The emergency room benefit provides one hundred dollars per day, for one day. 
-
-The surgery benefit offers one thousand five hundred dollars per day, with a maximum of three days.
-
-The anesthesia benefit provides twenty percent coverage, for up to three days.
-
-The accident inpatient admission benefit offers five hundred dollars per day, for up to three days.
-
-The accident emergency room benefit provides two hundred fifty dollars per day, for a maximum of one visit.
-
-The accidental death benefit provides a maximum of ten thousand dollars.
-
-The critical illness benefit provides a maximum of one thousand dollars.
-
----- Comparing Plan Tiers ----
-
-Let's compare the different tiers available. The Sigma Care Plus plans range from the basic 100A tier to the premium 1000 tier, with hospital confinement benefits increasing from $100 to $1000 per day across the spectrum. Primary and specialty care visit benefits vary from $50 in most plans to $75 in the premium tier, while emergency room coverage ranges from $50 to $100 per day. The plans progressively add more benefits like pathology services, mental health coverage, and accident benefits. Surgery benefits show the most dramatic progression, starting at $400 in Plan 200+ and reaching $1500 in the premium plan. All plans except 100A include a $10,000 accidental death benefit, and plans 200+ and higher include a $1,000 critical illness benefit, giving members the flexibility to select coverage that aligns with both their healthcare needs and financial considerations.
-
----- Exclusions and Limitations ----
-
-Let's review important exclusions and limitations.
-
-Exclusions include pre-existing conditions not covered for twelve months, a thirty-day waiting period for sickness benefits, and no coverage for elective or cosmetic surgeries. 
-
-Specific limitations include no coverage for dental procedures not related to accidental injury, and injuries resulting from illegal activities or acts of war.
-
-Agents must review all exclusions and limitations with the consumer to ensure full understanding
-
----- Key Takeaways and Reminders ----
-
-Here are the key points to remember.
-
-The plan offers flexibility in benefits, 
-
-and maintains a balance between coverage and cost. 
-
-Next steps involve understanding the benefits and enrolling in the plan. 
-
-Remember, enrollment is required to access these benefits.
+And remember, these are fixed indemnity benefits that pay regardless of other insurance coverage your prospects may have, making this an excellent supplement to existing health plans.
 
 ---- Closing ----
 
-Thank you for your time today. We hope this information helps you assist members in making informed decisions about their health coverage. Continue to be great!
-
-
+Thank you for taking the time to learn about Sigma Care Plus. By understanding each plan's features and cost-saving tools, you'll be able to guide your prospects toward the option that best suits their needs and close more sales effectively. Continue to be great agents!

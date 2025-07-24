@@ -1,91 +1,50 @@
 ---
 id: FEN_SIG
 theme: ../../
-title: | 
-  Sigma Care Plus
+title: Sigma Care Plus Overview
 info: |
-  ## Sigma Care Plus Plan Overview
+  ## Slidev Deck for Sigma Care Plus Review
   A look at the Sigma Care Plus benefits and details.
 verticalCenter: true
 layout: intro
 themeConfig:
-  logoHeader: ./img/logos/FEN_logo.svg
+  logoHeader: img/logos/FEN_logo.svg
   audioEnabled: true
 transition: fade-out
 drawings:
   persist: false
+line: Hello! and thanks for being here! today we're going to be reviewing Sigma Care Plus.
 ---
 
 <SlideAudio deckKey="FEN_SIG" />
 
-# Sigma Care Plus Plan Overview
+# Sigma Care Plus Overview 
 
-Understanding the details and benefits of the **Sigma Care Plus**
-
----
-transition: fade-out
-layout: default
----
-
-## The Sigma Care Plus Plan
-
-<v-click>
-
-- Limited medical benefits through **National Congress of Employers**
-
-</v-click>
-
-<v-click>
-
-- **Accessibility** for individuals and families
-
-</v-click>
-
-<v-click>
-
-- **Affordability** and personal impact
-
-</v-click>
-
-<v-click>
-
-- **Supplemental coverage** through tiered options
-
-</v-click>
-
-<v-click>
-
-- **Focus on health and wellness** support
-</v-click>
+Understanding the details and benefits of the **Sigma Care Plus** Plans.
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Key Features and Benefits
+## Introduction to Sigma Care Plus 
 
-<v-click>  
+underwritten by: **American Financial Security Life Insurance Company (AFSLIC)**
 
-**Limited Medical Benefits**
 
+<v-click>
+
+A unique set of health coverage options designed to meet **diverse needs**.
 </v-click>
 
 <v-click>
 
-**Supplemental Coverage**
-
+Combines hospital indemnity benefits with support services.
 </v-click>
 
 <v-click>
 
-**Tiered Options** (varies by plan)
-
-</v-click>
-
-<v-click>
-
-**Personal Impact** through National Congress of Employers
+Membership through the **National Congress of Employers (NCE)**.
 <div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
   <img src="./img/logos/NCE_logo.png" class="h-12 mix-blend-multiply" alt="NCE Logo">
 </div>
@@ -96,53 +55,36 @@ transition: fade-out
 layout: default
 ---
 
-## Cost Management Tools
+## Key Features and Benefits
 
 <v-click>
 
-**Wellness Programs** (WP)
+- **Hospital Confinement Benefits** - Daily coverage for hospital stays
 </v-click>
 
 <v-click>
 
-**Advocacy Services** System
+- **Doctor Office Visit Benefits** - Primary care and specialty care coverage
 </v-click>
 
 <v-click>
 
-**Dashboards** Support
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## How Wellness Programs Work
-
-<v-click>
-
-1. Enroll through **National Congress of Employers**
+- **Emergency Room Benefits** - Coverage for emergency medical situations
 </v-click>
 
 <v-click>
 
-2. Access wellness resources
+- **Mental Health Benefits** - Inpatient and outpatient coverage (Plans 300+)
 </v-click>
 
 <v-click>
 
-3. Participate in health activities
+- **Diagnostic & Surgery Benefits** - X-ray, lab tests, and surgical procedures (higher-tier plans)
 </v-click>
 
 <v-click>
 
-4. Receive wellness updates **(WP)**
-</v-click>
-
-<v-click>
-
-5. Track progress through dashboards
+- **Accident & Critical Illness Benefits** - Supplemental accident coverage and critical illness protection
 </v-click>
 
 ---
@@ -150,698 +92,302 @@ transition: fade-out
 layout: default
 ---
 
-## Telehealth Services
+## Association benefits through NCE (1/3)
 
 <v-click>
 
-- **Virtual Visits**
-
+**Core Medical Support**
+- **Medical Bill Negotiations**: Patient advocates work on your behalf to reduce the cost of your medical bills.
+- **24/7 Nurse Help Line**: Have 24/7 access to a registered nurse (RN) to answer questions on family health issues.
+- **Laboratory Savings Program**: Efficient, affordable, and confidential solution to medical laboratory testing.
+- **Medical Supplies & Equipment**: Save from **20% to 50%** off your medical supply needs.
 </v-click>
 
 <v-click>
 
-- **24/7 Access**
+**Dental & Vision Care**
+- **Aetna Dental Access® Network***: Savings ranging from **15-50%** per visit on dental services including cleanings, x-rays, fillings, root canals, crowns, bridges and orthodontia.
+- **OUTLOOK Vision Network***: Savings of **10% to 50%** on most prescription eyeglasses, frames, and lenses through over **12,000 optical centers**.
+
 
 </v-click>
 
-<v-click>
+<small>
 
-- **Remote Consultations** available
+*This program is not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
 
-</v-click>
+**Disclaimer:** National Congress of Employers (NCE) association benefits are not affiliated with American Financial Security Life Insurance Company. Sigma Care Plus Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please refer to the NCE Membership brochure for complete details. Association membership can be purchased without insurance at https://nceassociation.org/.
 
-<v-click>
-
-- **Convenient Access** to care
-
-</v-click>
+</small>
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Advocacy and Support Services
+## Association benefits through NCE (2/3)
 
 <v-click>
 
-- **Inclusive** healthcare advocacy
-
-</v-click>
-
-<v-click>
-
-- **Claims Management** assistance
-
-</v-click>
-
-<v-click>
-
-- **Provider Networks** options
-
-</v-click>
-
-<v-click>
-
-- **Support Tools** support
-
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 100A 
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $100/day, max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50/day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50/day, max 3 visits
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 100 
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $100/day, max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50/day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50/day, max 3 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000 maximum benefit
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 200
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $200/day, max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Basic Pathology & Radiology**
-- $50/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Advance Studies**
-- $50/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000 maximum benefit
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 200+ (1/2)
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $200/day, max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50/day, max 2 days
-</v-click>
-
-<v-click>
-
-**Basic Pathology & Radiology**
-- $50/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Advance Studies**
-- $50/day, max 2 days
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 200+ (2/2)
-
-
-<v-click>
-
-**Surgery Benefit**
-- $400/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Anesthesia Benefit**
-- 20%, max 3 days
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000 maximum benefit
-</v-click>
-
-<v-click>
-
-**Critical Illness**
-- $1,000 maximum benefit
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 300 (1/2)
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $300/day, max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Advance Studies**
-- $50/day, max 2 days
-</v-click>
-
-<v-click>
-
-**Mental Health Inpatient**
-- $150/day, max 60 days
-</v-click>
-
-<v-click>
-
-**Mental Health Outpatient**
-- $50/day, max 20 visits
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 300 (2/2)
-
-<v-click>
-
-**Emergency Room Benefit**
-- $50/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Surgery Benefit**
-- $400/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Anesthesia Benefit**
-- 20%, max 3 days
-</v-click>
-
-<v-click>
-
-**Accident Inpatient Admission**
-- $500/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Accident ER Benefit**
-- $250/day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000 maximum benefit
-</v-click>
-
-<v-click>
-
-**Critical Illness**
-- $1,000 maximum benefit
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 500 (1/2)
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $500/day, max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Basic Pathology & Radiology**
-- $50/day, max 2 days
-</v-click>
-
-<v-click>
-
-**Advance Studies**
-- $50/day, max 2 days
-</v-click>
-
-<v-click>
-
-**Mental Health Inpatient**
-- $250/day, max 60 days
-</v-click>
-
-<v-click>
-
-**Mental Health Outpatient**
-- $50/day, max 20 visits
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 500 (2/2)
-
-<v-click>
-
-**Emergency Room Benefit**
-- $75/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Surgery Benefit**
-- $750/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Anesthesia Benefit**
-- 20%, max 3 days
-</v-click>
-
-<v-click>
-
-**Accident Inpatient Admission**
-- $500/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Accident ER Benefit**
-- $250/day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000 maximum benefit
-</v-click>
-
-<v-click>
-
-**Critical Illness**
-- $1,000 maximum benefit
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 750 (1/2)
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $750/day, max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $50/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Basic Pathology & Radiology**
-- $50/day, max 2 days
-</v-click>
-
-<v-click>
-
-**Advance Studies**
-- $50/day, max 2 days
+**Prescription Savings**
+- **Prescription Discount Card**: Save an average of **55%** on generic drugs and **15%** on brand-name drugs at over **80%** of pharmacies.
+- **MedAfford Global**: Save up to **80%** on prescription medications with insulin medication savings of **45%** or better.
+- **Diabetic Supplies**: Receive discounts on diabetes supplies at **20-85%** off retail prices.
 </v-click>
 
 <v-click>
 
-**Mental Health Inpatient**
-- $375/day, max 60 days
-</v-click>
-
-<v-click>
-
-**Mental Health Outpatient**
-- $50/day, max 20 visits
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 750 (2/2)
-
-<v-click>
-
-**Emergency Room Benefit**
-- $75/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Surgery Benefit**
-- $1000/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Anesthesia Benefit**
-- 20%, max 3 days
-</v-click>
-
-<v-click>
-
-**Accident Inpatient Admission**
-- $500/day, max 2 days
-</v-click>
-
-<v-click>
-
-**Accident ER Benefit**
-- $250/day, max 1 visit
-</v-click>
-
-<v-click>
-
-**Accidental Death Benefit**
-- $10,000 maximum benefit
-</v-click>
-
-<v-click>
-
-**Critical Illness**
-- $1,000 maximum benefit
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
-
-## Plan 1000 (1/2)
-
-<v-click>
-
-**Hospital Confinement Benefit**
-- $1000/day, max 30 days
-</v-click>
-
-<v-click>
-
-**Primary Care Visit Benefit**
-- $75/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Specialty Care Visit Benefit**
-- $75/day, max 5 visits
-</v-click>
-
-<v-click>
-
-**Basic Pathology & Radiology**
-- $75/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Advance Studies**
-- $75/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Mental Health Inpatient**
-- $500/day, max 60 days
-</v-click>
-
-<v-click>
-
-**Mental Health Outpatient**
-- $50/day, max 20 visits
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/02_sigma_care_plus_limited_medical_benefit_policy_details_for_plans_100a_100_200_200_plus_300_500_750_1000.jpg
----
+**Natural Health Products**
+- **CBD Products**: All natural ingredients and the purest form of Cannabidiol as a **safe alternative** to prescription painkillers.
+- **Vitamins & Supplements**: Save up to **75%** off retail pricing on natural products including vitamins and supplements.
 
-## Plan 1000 (2/2)
 
-<v-click>
-
-**Emergency Room Benefit**
-- $100/day, max 1 day
-</v-click>
-
-<v-click>
-
-**Surgery Benefit**
-- $1500/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Anesthesia Benefit**
-- 20%, max 3 days
-</v-click>
-
-<v-click>
-
-**Accident Inpatient Admission**
-- $500/day, max 3 days
-</v-click>
-
-<v-click>
-
-**Accident ER Benefit**
-- $250/day, max 1 visit
 </v-click>
-
-<v-click>
 
-**Accidental Death Benefit**
-- $10,000 maximum benefit
-</v-click>
+<small>
 
-<v-click>
+**Disclaimer:** National Congress of Employers (NCE) association benefits are not affiliated with American Financial Security Life Insurance Company. Sigma Care Plus Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please refer to the NCE Membership brochure for complete details. Association membership can be purchased without insurance at https://nceassociation.org/.
 
-**Critical Illness**
-- $1,000 maximum benefit
-</v-click>
+</small>
 
 ---
 transition: fade-out
 layout: default
 ---
 
-## Comparing the Plans
+## Association benefits through NCE (3/3)
 
-| **Feature** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
-|---------|----------|----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| Hospital Confinement Benefit | $100 | $100 | $200 | $200 | $300 | $500 | $750 | $1000 |
-| Primary Care Visit | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |
-| Specialty Care Visit | $50 | $50 | $50 | $50 | $50 | $50 | $50 | $75 |
-| Emergency Room Benefit | - | $50 | $50 | $50 | $50 | $75 | $75 | $100 |
-| Basic Pathology & Radiology | - | - | $50 | $50 | - | $50 | $50 | $75 |
-| Advance Studies | - | - | $50 | $50 | - | $50 | $50 | $75 |
-| Surgery Benefit | - | - | - | $400 | $400 | $750 | $1000 | $1500 |
-| Anesthesia Benefit | - | - | - | 20% | 20% | 20% | 20% | 20% |
-| Mental Health Inpatient | - | - | - | - | $150 | $250 | $375 | $500 |
-| Mental Health Outpatient | - | - | - | - | $50 | $50 | $50 | $50 |
-| Accident Inpatient Admission | - | - | - | - | $500 | $500 | $500 | $500 |
-| Accident ER Benefit | - | - | - | - | $250 | $250 | $250 | $250 |
-| Accidental Death Benefit | - | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 | $10,000 |
-| Critical Illness | - | - | - | $1,000 | $1,000 | $1,000 | $1,000 | $1,000 |
+<v-click>
+
+**Rehabilitation & Therapy**
+- **Physical Therapy & Rehabilitation**: Save an average of **20%** at over **1,200 offices** with **4,000 providers** in 23 states.
+- **Chiropractic Savings Program**: **Free initial consultation**, up to **50%** savings on diagnostic services, and unlimited treatments at up to **30%** savings from over **12,000 chiropractors**.
+- **Speech Therapy**: Video conferencing technology for live, **one-on-one**, highly individualized speech therapy services.
+- **Hearing Savings Program**: **Free hearing consultations** and exclusive discounts on the latest hearing aid technology.
+</v-click>
+
+<v-click>
+
+**Wellness & Nutrition**
+- **SDO Nutrition**: Helps achieve **personal health goals**, maintain a healthy lifestyle, and manage chronic health conditions through **food and diet education**.
+</v-click>
+
+
+<small>
+
+**Disclaimer:** National Congress of Employers (NCE) association benefits are not affiliated with American Financial Security Life Insurance Company. Sigma Care Plus Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please refer to the NCE Membership brochure for complete details. Association membership can be purchased without insurance at https://nceassociation.org/.
+
+</small>
+
 
 ---
 transition: fade-out
-layout: one-half-img
-image: img/pages/05_hospital_indemnity_insurance_limitations_exclusions_sigma_care_plus.jpg
+layout: default
+clicks: 5
 ---
 
-## Exclusions and Limitations
+## Sigma Care Plus Benefits
+
+<small>
+
+Choose the plan that best fits your **needs and budget**. All plans offer the **same core benefits** with varying benefit amounts.
+
+</small>
 
 <v-click>
 
-**Exclusions**
-- Pre-existing conditions not covered for 12 months
-- 30-day waiting period for sickness benefits
-- No coverage for elective or cosmetic surgeries
+| **Benefit** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
+|-------------|----------|---------|---------|----------|---------|---------|---------|----------|
+| **Hospital Confinement** | | | | | | | | |
+| Per Day | <span :class="[$clicks >= 2 && 'font-bold']">$100</span> | <span :class="[$clicks >= 2 && 'font-bold']">$100</span> | <span :class="[$clicks >= 2 && 'font-bold']">$200</span> | <span :class="[$clicks >= 2 && 'font-bold']">$200</span> | <span :class="[$clicks >= 2 && 'font-bold']">$300</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$750</span> | <span :class="[$clicks >= 2 && 'font-bold']">$1,000</span> |
+| Max Days | <span :class="[$clicks >= 2 && 'font-bold']">30</span> | <span :class="[$clicks >= 2 && 'font-bold']">30</span> | <span :class="[$clicks >= 2 && 'font-bold']">30</span> | <span :class="[$clicks >= 2 && 'font-bold']">30</span> | <span :class="[$clicks >= 2 && 'font-bold']">30</span> | <span :class="[$clicks >= 2 && 'font-bold']">30</span> | <span :class="[$clicks >= 2 && 'font-bold']">30</span> | <span :class="[$clicks >= 2 && 'font-bold']">30</span> |
+| **Doctor's Office Visits** | | | | | | | | |
+| Primary Care Per Day | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$75</span> |
+| Primary Care Max Days | <span :class="[$clicks >= 4 && 'font-bold']">3</span> | <span :class="[$clicks >= 4 && 'font-bold']">3</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> |
+| Specialty Care Per Day | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$75</span> |
+| Specialty Care Max Days | <span :class="[$clicks >= 4 && 'font-bold']">3</span> | <span :class="[$clicks >= 4 && 'font-bold']">3</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> | <span :class="[$clicks >= 4 && 'font-bold']">5</span> |
+| **Emergency Room Visits** | | | | | | | | |
+| Per Day | <span :class="[$clicks >= 5 && 'font-bold']">--</span> | <span :class="[$clicks >= 5 && 'font-bold']">$50</span> | <span :class="[$clicks >= 5 && 'font-bold']">$50</span> | <span :class="[$clicks >= 5 && 'font-bold']">$50</span> | <span :class="[$clicks >= 5 && 'font-bold']">$50</span> | <span :class="[$clicks >= 5 && 'font-bold']">$50</span> | <span :class="[$clicks >= 5 && 'font-bold']">$75</span> | <span :class="[$clicks >= 5 && 'font-bold']">$100</span> |
+| Max Days | <span :class="[$clicks >= 5 && 'font-bold']">--</span> | <span :class="[$clicks >= 5 && 'font-bold']">1</span> | <span :class="[$clicks >= 5 && 'font-bold']">1</span> | <span :class="[$clicks >= 5 && 'font-bold']">2</span> | <span :class="[$clicks >= 5 && 'font-bold']">1</span> | <span :class="[$clicks >= 5 && 'font-bold']">1</span> | <span :class="[$clicks >= 5 && 'font-bold']">1</span> | <span :class="[$clicks >= 5 && 'font-bold']">1</span> |
+
+</v-click>
+
+<small>
+
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. THIS IS A GROUP ACCIDENT AND SICKNESS HOSPITAL INDEMNITY POLICY. IT PAYS BENEFITS REGARDLESS OF ANY OTHER INSURANCE. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE OF INSURANCE CAREFULLY.
+
+</small>
+
+---
+transition: fade-out
+layout: default
+clicks: 4
+---
+
+## Sigma Care Plus Benefits
+
+<small>
+
+**Higher-tier plans** include additional benefits for diagnostic tests and surgical procedures.
+
+</small>
+
+<v-click>
+
+| **Benefit** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
+|-------------|----------|---------|---------|----------|---------|---------|---------|----------|
+| **Diagnostic Tests*** | | | | | | | | |
+| Basic Pathology Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$75</span> |
+| Basic Pathology Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> |
+| Basic Radiology Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$75</span> |
+| Basic Radiology Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> |
+| **Surgery Benefits*** | | | | | | | | |
+| Inpatient Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$250</span> | <span :class="[$clicks >= 3 && 'font-bold']">$750</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,500</span> |
+| Inpatient Max Days | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> |
+| Outpatient Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$250</span> | <span :class="[$clicks >= 3 && 'font-bold']">$750</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,500</span> |
+| Outpatient Max Days | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> |
+| **Anesthesia Benefit** | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> |
+
 </v-click>
 
 <v-click>
 
-**Specific Limitations**
-- Dental procedures not related to accidental injury
-- Injuries from illegal activities or acts of war
+<small>
+
+*Maximum benefit applies to **all diagnostic tests combined** on the same day - highest value paid.  
+**Surgery benefits apply per day of surgery. If both inpatient and outpatient occur same day, **inpatient benefit paid**.
+
+</small>
+
+</v-click>
+
+<small>
+
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. THIS IS A GROUP ACCIDENT AND SICKNESS HOSPITAL INDEMNITY POLICY. IT PAYS BENEFITS REGARDLESS OF ANY OTHER INSURANCE. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE OF INSURANCE CAREFULLY.
+
+</small>
+
+---
+transition: fade-out
+layout: default
+clicks: 2
+---
+
+## Sigma Care Plus Benefits
+
+<small>
+
+**Plans 300 and higher** include mental health coverage for both inpatient and outpatient care.
+
+</small>
+
+<v-click>
+
+| **Benefit** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
+|-------------|----------|---------|---------|----------|---------|---------|---------|----------|
+| **Mental Health - Inpatient** | | | | | | | | |
+| Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$150</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> | <span :class="[$clicks >= 2 && 'font-bold']">$375</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> |
+| Max Days Per Year | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">60</span> | <span :class="[$clicks >= 2 && 'font-bold']">60</span> | <span :class="[$clicks >= 2 && 'font-bold']">60</span> | <span :class="[$clicks >= 2 && 'font-bold']">60</span> |
+| **Mental Health - Outpatient** | | | | | | | | |
+| Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> |
+| Max Days Per Year | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">20</span> | <span :class="[$clicks >= 2 && 'font-bold']">20</span> | <span :class="[$clicks >= 2 && 'font-bold']">20</span> | <span :class="[$clicks >= 2 && 'font-bold']">20</span> |
+
 </v-click>
 
 <v-click>
 
-**Agents must review all exclusions and limitations with the consumer to ensure full understanding**
+<small>
+
+**Mental Health Benefits** are available on Plans 300, 500, 750, and 1000 only.  
+Coverage includes psychiatric hospitals, mental health facilities, and outpatient therapy sessions.
+
+</small>
+
+</v-click>
+
+<small>
+
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. THIS IS A GROUP ACCIDENT AND SICKNESS HOSPITAL INDEMNITY POLICY. IT PAYS BENEFITS REGARDLESS OF ANY OTHER INSURANCE. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE OF INSURANCE CAREFULLY.
+
+</small>
+
+---
+transition: fade-out
+layout: default
+clicks: 4
+---
+
+## Sigma Care Plus Benefits
+
+<small>
+
+**Enhanced accident coverage** and critical illness benefits across multiple plan levels.
+
+</small>
+
+<v-click>
+
+| **Benefit** | **100A** | **100** | **200** | **200+** | **300** | **500** | **750** | **1000** |
+|-------------|----------|---------|---------|----------|---------|---------|---------|----------|
+| **Supplemental Accident*** | | | | | | | | |
+| Accident ER Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> |
+| Accident ER Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> |
+| Accident Admission Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> |
+| Accident Admission Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> |
+| **Accidental Death** | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> |
+| **Critical Illness** | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> |
+
+</v-click>
+
+<v-click>
+
+<small>
+
+*Supplemental Accident benefits are **paid in addition** to regular Hospital/ER benefits.  
+**Accidental Death**: Spouse receives 50%, Dependent receives 25% of primary amount.  
+**Critical Illness**: $1,000 per **original diagnosis** per family member.
+
+</small>
+
+</v-click>
+
+<small>
+
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. THIS IS A GROUP ACCIDENT AND SICKNESS HOSPITAL INDEMNITY POLICY. IT PAYS BENEFITS REGARDLESS OF ANY OTHER INSURANCE. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE OF INSURANCE CAREFULLY.
+
+</small>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Limitations and Exclusions for Sigma Care Plus
+
+<v-clicks>
+
+- **30-day waiting period** for sickness benefits
+- **12-month exclusion** for pre-existing conditions
+- Excludes **experimental treatments**, **cosmetic surgery**, **dental care** (except accidents)
+- Excludes **self-inflicted injuries**, **extreme sports**, **military duty**
+- **Fixed indemnity benefits** with usage limitations per policy year
+
+</v-clicks>
+
+<v-click>
+
+**Pre-existing Condition Definition:**  
+Pre-existing condition means a condition (whether physical or mental), regardless of the cause of the condition, for which medical advice, diagnosis, care or treatment was recommended or received from a Physician within a 12 month period preceding the effective date of coverage of the Covered Person.
+
+</v-click>
+
+<v-click>
+
+<small>
+
+Please refer to the complete policy certificate for full benefit details, limitations, and exclusions.
+
+</small>
 
 </v-click>
 
@@ -850,37 +396,24 @@ transition: fade-out
 layout: default
 ---
 
-## Key Takeaways and Reminders
+## Key Takeaways for Sigma Care Plus Sales
 
-<v-click>
+<v-clicks>
 
-- **Flexibility** benefits
-</v-click>  
+- **Eight plan levels** (100A - 1000) allow prospects to choose coverage that fits their budget
+- **Mental Health Benefits** on Plans 300+ provide a powerful upselling opportunity
+- **Supplemental Accident Benefits** on Plans 300+ pay in addition to regular benefits
+- **NCE Association Benefits** provide extensive discounts and services at no extra cost
+- **Fixed indemnity benefits** pay regardless of other insurance coverage
 
-<v-click>
-
-- **Balance** included
-</v-click>
-
-<v-click>
-
-- **Next Steps** benefits
-</v-click>
-
-<v-click>
-
-- **Enrollment** required
-</v-click>
+</v-clicks>
 
 ---
 transition: fade-out
 layout: end
-line: Thank you for participating in the Sigma Care Plus Review. Continue to be great!
 ---
+
 
 # Thank You!
 
 Continue to be great!
-
-
-

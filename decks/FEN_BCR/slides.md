@@ -29,9 +29,10 @@ layout: default
 
 ## The Basic Core and Basic Core-Plus Plans
 
+
 <v-click>
 
-- Membership packages with no waiting or exclusion periods for pre-existing conditions through **American Public Life Insurance Company**
+- Underwritten by: **American Public Life Insurance Company**
 
 </v-click>
 
@@ -41,193 +42,50 @@ layout: default
 
 </v-click>
 
-<v-click>
-
-- **Free Prescription Club** and telemedicine services
-
-</v-click>
-
-<v-click>
-
-- **Managed Care Service** through Medical Bill Repricer
-
-</v-click>
-
-<v-click>
-
-- **Advocacy Services** support
-</v-click>
-
 ---
 transition: fade-out
 layout: default
 ---
 
-## Key Features and Benefits
+## Association Benefits
 
-<v-click>  
+<v-click>
 
-**Managed Care**
+**Cost Management Tools**
 
+- **Medical Bill Repricer (MBR)** – Reduces out-of-pocket costs through direct negotiation
+- **Reference Based Pricing System** – Ensures competitive provider rates
+- **Advocacy Services Support** – Helps members navigate billing and insurance processes
 </v-click>
 
 <v-click>
 
-**Indemnity Insurance**
-
-</v-click>
-
-<v-click>
-
-**Free Prescription Club** (varies by plan)
-
-</v-click>
-
-<v-click>
-
-**Telemedicine Services** through virtual consultations
-<div class="grid grid-cols-1 gap-4 items-center px-8 py-4">
-  <img src="./img/logos/MBR_logo.png" class="h-12 mix-blend-multiply" alt="MBR Logo">
-</div>
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## Cost Management Tools
-
-<v-click>
-
-**Medical Bill Repricer** (MBR)
-</v-click>
-
-<v-click>
-
-**Reference Based Pricing** System
-</v-click>
-
-<v-click>
-
-**Advocacy Services** Support
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## How Medical Bill Repricer Works
-
-<v-click>
-
-1. Enroll through **American Public Life Insurance Company**
-</v-click>
-
-<v-click>
-
-2. Use the $25 pre-pay for doctor visits or $50 for specialist visits
-</v-click>
-
-<v-click>
-
-3. MBR explains benefits and assists with claims
-</v-click>
-
-<v-click>
-
-4. Receive Reference Based Pricing **(RBP)**
-</v-click>
-
-<v-click>
-
-5. Choose any doctor without network restrictions
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## Health Savings
-
-<v-click>  
+**Health Savings & Prescription Services**
 
 - **Free Prescription Club** Services
-</v-click>
-
-<v-click>
-
 - **Telemedicine** Programs
-</v-click>
-
-<v-click>
-
 - **Patient Assistance Program** provides affordable medication options
 </v-click>
 
----
-transition: fade-out
-layout: default
----
-
-## Telehealth Services
-
 <v-click>
 
-- **Unlimited Virtual Doctor Visits**
+**Telehealth Services**
 
-</v-click>
-
-<v-click>
-
-- **24/7 Access** to care
-
-</v-click>
-
-<v-click>
-
+- **Unlimited Virtual Doctor Visits** – 24/7 Access to care
 - **No-Cost Consultations** available
-
-</v-click>
-
-<v-click>
-
 - **Immediate Prescriptions** to local pharmacies
-
-</v-click>
-
----
-transition: fade-out
-layout: default
----
-
-## Advocacy and Support Services
-
-<v-click>
-
-- **Concierge Healthcare Advocacy**
-
 </v-click>
 
 <v-click>
 
-- **Provider Negotiation** assistance
+<small>
+
+**Disclaimer:** BWA association benefits are not affiliated with American Public Life Insurance Company. Basic Core and Basic Core Plus benefits are not dependent on the use of the association’s providers. BWA membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state and plan level. Please refer to the BWA Membership brochure for complete details. Association membership can be purchased without insurance at bwamembers.com
+
+</small>
 
 </v-click>
 
-<v-click>
-
-- **Claims Filing** options
-
-</v-click>
-
-<v-click>
-
-- **Cost Reduction** support
-
-</v-click>
 
 ---
 transition: fade-out
@@ -235,11 +93,11 @@ layout: one-half-img
 image: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg
 ---
 
-## Basic Core Plan (1/2)
+## Basic Core & Basic Core-Plus Plans
 
 <v-click>
 
-**Indemnity Insurance**
+**Indemnity Insurance** (Identical for Both Plans)
 - $500 per day max of 1 day for hospital admission
 - $100 per day max of 10 days for hospital daily confinement
 - $50 per day max of 1 day for emergency room visits
@@ -248,85 +106,19 @@ image: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_an
 
 <v-click>
 
-**Free Prescription Club**
-- Discount Rx Card
+**Plan Differences:**
+- **Basic Core**: Discount Rx Card + No Telemedicine
+- **Basic Core-Plus**: Free Generic Medications $0 Copay + Unlimited Telemedicine Visits (24/7, $0 Copay)
 </v-click>
 
 <v-click>
 
-**Telemedicine Services**
-- Not Available
-</v-click>
+<small>
 
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg
----
+**Disclaimer:** Be sure the member understands that these are FIXED INDEMNITY RATES only, with limitations on usage per policy year. Please avoid using words like coverage or unlimited to describe any of the benefits on this hospital indemnity plan. Please check the product certificate or master policy for complete benefit details and limitations and exclusions.
 
-## Basic Core Plan (2/2)
+</small>
 
-<v-click>
-
-**Medical Bill Repricer**
-- $25 prepay for doctor visits
-- $50 prepay for specialist visits
-</v-click>
-
-<v-click>
-
-**Advocacy Services**
-- Included
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg
----
-
-## Basic Core-Plus Plan (1/2)
-
-<v-click>
-
-**Indemnity Insurance**
-- $500 per day max of 1 day for hospital admission
-- $100 per day max of 10 days for hospital daily confinement
-- $50 per day max of 1 day for emergency room visits
-- $50 per day max of 3 days for urgent care
-</v-click>
-
-<v-click>
-
-**Free Prescription Club**
-- Free Generic Medications $0 Copay
-</v-click>
-
-<v-click>
-
-**Telemedicine Services**
-- Unlimited Visits - 24-Hours a Day $0 Copay
-</v-click>
-
----
-transition: fade-out
-layout: one-half-img
-image: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg
----
-
-## Basic Core-Plus Plan (2/2)
-
-<v-click>
-
-**Medical Bill Repricer**
-- $25 prepay for doctor visits
-- $50 prepay for specialist visits
-</v-click>
-
-<v-click>
-
-**Advocacy Services**
-- Included
 </v-click>
 
 ---
@@ -346,41 +138,43 @@ layout: default
 | Emergency Room | $50 per day max of 1 day | $50 per day max of 1 day |
 | Urgent Care | $50 per day max of 3 days | $50 per day max of 3 days |
 | Physician Office Visits | $50 per day max of 3 days | $50 per day max of 3 days |
-| Free Prescription Club | Discount Rx Card | Free Generic Medications $0 Copay |
-| Telemedicine - Virtual Doctor Visits | Not Available | Unlimited Visits - 24-Hours a Day $0 Copay |
+| Free Prescription Club | **Discount Rx Card** | **Free Generic Medications $0 Copay** |
+| Telemedicine - Virtual Doctor Visits | **Not Available** | **Unlimited Visits - 24-Hours a Day $0 Copay** |
 
 ---
 transition: fade-out
-layout: one-half-img
-image: img/pages/01_basic_core_and_basic_core_plus_plan_details_with_benefits_and_coverage_limits.jpg
+layout: default
 ---
 
-## Definitions and Limitations
+## Exclusions and Limitations
 
 <v-click>
 
-**Indemnity Insurance**
-- $500 per day max of 1 day for hospital admission
-- $100 per day max of 10 days for hospital daily confinement
-- $50 per day max of 1 day for emergency room visits
+**Pre-Existing Condition Definition**
+- An Injury, Sickness or physical condition for which medical advice or Treatment, was recommended by or received from a member of the medical profession within the PreExisting Period immediately preceding the Covered Person’s Effective Date. The Pre-Existing Period is shown on the Certificate Schedule.
 </v-click>
 
 <v-click>
 
-**Free Prescription Club**
-- Discount Rx Card
+**Waiting Period**
+- None
 </v-click>
 
 <v-click>
 
-**Telemedicine Services**
-- Not Available
+**Plan Limitations and Exclusions**
+- Elective cosmetic surgeries (except reconstructive surgery on a diseased or injured part of the body)
+- For a full list of exclusions, please check the product certificate, master policy or brochure
 </v-click>
 
 <v-click>
 
-**Advocacy Services**
-- Included
+<small>
+
+**Disclaimer:** This is a brief description of the Basic Core and Basic Core-Plus Plans. Please check the product certificate or master policy for complete details. Members must be made aware of how this plan handles Pre-Existing Conditions in their state, even if the member does not have a Pre-Existing Condition(s).
+
+</small>
+
 </v-click>
 
 ---
@@ -419,6 +213,3 @@ line: Thank you for participating in the Basic Core and Basic Core-Plus Plans Re
 # Thank You!
 
 Continue to be great!
-
-<img src="./img/logos/FEN_logo.svg" class="h-12 mt-32" alt="FirstEnroll Logo">
-

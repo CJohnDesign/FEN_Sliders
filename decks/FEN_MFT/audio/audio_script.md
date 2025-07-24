@@ -14,7 +14,7 @@ Prescription benefits and support tools are included to help manage medication c
 
 Preventive care is emphasized through annual wellness exams to keep members healthy.
 
-Additionally, hospital indemnity support is available to assist with hospital-related expenses. 
+Additionally, advocacy support is available to assist with hospital-related expenses. 
 
 ---- Key Features and Benefits ----
 
@@ -28,15 +28,15 @@ Preventive care is a priority, with services designed to maintain members' healt
 
 Hospital indemnity benefits vary by plan, providing financial support during hospital stays.
 
-Healthcare Ninja Services are offered through BestChoiceRX, enhancing members' healthcare experience.
+Hospital Bill Advocacy is offered through Healthcare Ninja Services , enhancing members' healthcare experience.
 
 ---- Cost Management Tools ----
 
 Next, let's discuss the cost management tools available with these plans.
 
-The BestChoiceRX Group Discount Program, or BCRX, offers significant savings on prescriptions.
+The BestChoiceRX Group Discount Program, or BCRX, offers savings on prescriptions.
 
-A prescription assistance system is in place to help manage medication expenses.
+A prescription assistance system is in place to help manage medication expenses but this is not a part of the plan benefits for Medfirst.
 
 Hospital bill reducer support is available to help lower hospital-related costs.
 
@@ -74,23 +74,11 @@ Virtual visits are available and these services are available
 
 twenty-four seven, ensuring members can get help anytime.
 
----- Advocacy and Support Services ----
-
-Now, let's discuss advocacy and support services.
-
-Healthcare advocacy is available to guide members through their healthcare journey.
-
-Hospital bill reduction assistance helps manage and reduce hospital expenses.
-
-Prescription assistance options are provided to help with medication costs.
-
-Telemedicine support is included, offering guidance and access to virtual care.
-
 ---- Medfirst Wellness (One of Two) ----
 
 Let's examine our first plan tier, MedFirst Wellness.
 
-MedFirst Wellness includes physician services with one wellness exam per year. There is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit, using in-network providers only.
+MedFirst Wellness includes physician services with one wellness exam per year. There is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum, using in-network providers only.
 
 Telemedicine services are available with no consult fee and unlimited access.
 
@@ -108,9 +96,9 @@ Exclusions include no inpatient hospital indemnity and services not listed in th
 
 Now, let's look at our next plan tier, MedFirst 1.
 
-MedFirst 1 offers physician services with three primary care visits per year. There is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.
+MedFirst 1 offers physician services with three primary care visits per year. There is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum.
 
-Specialist visits are included, with one visit per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.
+Specialist visits are included, with one visit per year, a fifty dollar co-pay, and a three hundred dollar maximum.
 
 Hospitalization benefits provide one thousand dollars per day, with a five thousand dollar maximum per year.
 
@@ -126,9 +114,9 @@ Like the Wellness Plan prescriptions are still managed through BestChoice RX Gro
 
 Now, let's look at our third plan tier, MedFirst 2.
 
-MedFirst 2 includes physician services with four primary care visits per year. There is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.
+MedFirst 2 includes physician services with four primary care visits per year. There is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum.
 
-Specialist visits are included, with two visits per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.
+Specialist visits are included, with two visits per year, a fifty dollar co-pay, and a three hundred dollar maximum.
 
 Hospitalization benefits provide one thousand dollars per day, with a ten thousand dollar maximum per year.
 
@@ -144,9 +132,9 @@ Best Choice RX Prescriptions include preventive and acute prescriptions. There's
 
 Now, let's look at our fourth plan tier, MedFirst 3.
 
-MedFirst 3 includes physician services with four primary care visits per year. There is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum per visit.
+MedFirst 3 includes physician services with four primary care visits per year. There is a twenty-five dollar co-pay, with a one hundred fifty dollar maximum.
 
-Specialist visits are included, with four visits per year, a fifty dollar co-pay, and a three hundred dollar maximum per visit.
+Specialist visits are included, with four visits per year, a fifty dollar co-pay, and a three hundred dollar maximum.
 
 Hospitalization benefits provide one thousand dollars per day, with a fifteen thousand dollar maximum per year.
 
@@ -162,9 +150,9 @@ Best Choice RX Plus prescription benefits include preventive and acute prescript
 
 Now, let's look at our fifth plan tier, MedFirst 4.
 
-MedFirst 4 includes one annual wellness exam with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit. For primary care, it offers four visits per year with a fifty dollar co-pay and a one hundred fifty dollar maximum per visit.
+MedFirst 4 includes one annual wellness exam with a twenty-five dollar co-pay and a one hundred fifty dollar maximum. For primary care, it offers four visits per year with a fifty dollar co-pay and a one hundred fifty dollar maximum.
 
-Specialist visits are included, with four visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum per visit.
+Specialist visits are included, with four visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum.
 
 For hospital benefits, inpatient care provides one thousand dollars per day, with a ten thousand dollar annual maximum. Surgery benefits are covered up to one thousand dollars per year with a two thousand dollar combined maximum. Emergency room visits are covered at one thousand dollars per incident if admitted, and ambulance services at five hundred dollars per incident.
 
@@ -180,11 +168,11 @@ The prescription benefits through BestChoiceRX Plus include coverage for prevent
 
 Now, let's look at our sixth plan tier, MedFirst 5.
 
-MedFirst 5 includes one wellness exam per year with a twenty-five dollar co-pay and a one hundred fifty dollar maximum per visit. For physician services, it offers five primary care visits per year. There is a fifty dollar co-pay, with a one hundred fifty dollar maximum per visit.
+MedFirst 5 includes physician services with five primary care visits per year. There is a fifty dollar co-pay, with a one hundred fifty dollar maximum.
 
-Specialist visits are included, with five visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum per visit.
+Specialist visits are included, with five visits per year, a seventy-five dollar co-pay, and a three hundred dollar maximum.
 
-Hospitalization benefits provide one thousand five hundred dollars per day, with a fifteen thousand dollar maximum per year. Surgery benefits provide one thousand five hundred dollars per day, with a four thousand five hundred dollar maximum per year combined for both in and outpatient surgery. Emergency Room benefits come into play if admitted to the hospital and  provides a benefit of one thousand dollars per incident. Ambulance benefits come into play as well if admitted to the hospital and  provide a five hundred dollar benefit per incident.
+Hospitalization benefits provide one thousand five hundred dollars per day, with a fifteen thousand dollar maximum per year. Surgery benefits provide one thousand dollars per year, with a two thousand dollar maximum per year combined for both in and outpatient surgery. Emergency Room benefits come into play if admitted to the hospital and  provides a benefit of one thousand dollars per incident. Ambulance benefits come into play as well if admitted to the hospital and  provide a five hundred dollar benefit per incident.
 
 ---- MedFirst 5 (Two of Two) ----
 
@@ -222,7 +210,7 @@ Prescription discounts are included, helping manage medication costs.
 
 Preventive care benefits are emphasized to maintain members health.
 
-In-network providers are required for services, ensuring quality care.
+In-network providers are required for outpatient physician services and wellness benefits to ensure quality care.
 
 ---- Closing ----
 

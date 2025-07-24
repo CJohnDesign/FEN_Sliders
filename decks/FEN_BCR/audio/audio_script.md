@@ -10,134 +10,43 @@ are membership packages which include insured benefits from American Public Life
 
 These plans offer Indemnity Insurance, which means you receive a set payment amount with specific daily limits.
 
-Members can benefit from the Free Prescription Club and telemedicine services.
+---- Association Benefits ----
 
-Additionally, these plans also include a Managed Care service from Medical Bill Repricer (MBR)
-.
+Now let's explore the comprehensive association benefits available with these plans.
 
-Advocacy Services are also available to support members.
+Starting with Cost Management Tools: The Medical Bill Repricer, or MBR, helps manage healthcare expenses effectively by reducing out-of-pocket costs through direct negotiation. The Reference Based Pricing System ensures fair and competitive pricing for medical services. And Advocacy Services provide additional support in navigating healthcare costs and billing processes.
 
----- Key Features and Benefits ----
+For Health Savings and Prescription Services: Members have access to Free Prescription Club Services. Telemedicine Programs offer convenient healthcare access. And the Patient Assistance Program provides affordable medication options for members.
 
-Let's explore the key features and benefits of these plans.
+Finally, Members enjoy unlimited virtual doctor visits with twenty-four-seven access to care. No-cost consultations are available, enhancing affordability. And immediate prescriptions can be sent to local pharmacies for convenience.
 
-Managed Care is a central feature, ensuring members have access to necessary services without delay.
+BWA association benefits are not insurance and vary by state and plan level - please refer to the BWA Membership brochure for complete details.
 
-Indemnity Insurance provides financial support with predetermined daily limits.
+---- Basic Core & Basic Core-Plus Plans ----
 
-The Free Prescription Club offers varying benefits depending on the plan.
+Now let's examine both the Basic Core and Basic Core-Plus Plans together, as they share identical core benefits with only a few key differences.
 
-Telemedicine Services are available through virtual consultations, enhancing accessibility.
+Both plans offer the same Indemnity Insurance benefits: five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.
 
----- Cost Management Tools ----
+The key differences between the plans are in their additional services: The Basic Core Plan offers a Discount Rx Card and does not include telemedicine services. The Basic Core-Plus Plan provides Free Generic Medications with zero copay and includes telemedicine visits available twenty-four hours a day with zero copay.
 
-Now, let's discuss the cost management tools available with these plans.
-
-The Medical Bill Repricer, or MBR, helps manage healthcare expenses effectively.
-
-The Reference Based Pricing System ensures fair pricing for medical services.
-
-Advocacy Services provide additional support in navigating healthcare costs.
-
----- How Medical Bill Repricer Works ----
-
-Here's how the Medical Bill Repricer works.
-
-First, members enroll through American Public Life Insurance Company.
-
-They can use a twenty-five dollar pre-pay for doctor visits or fifty dollars for specialist visits.
-
-MBR explains benefits and assists with claims, ensuring clarity.
-
-Members receive Reference Based Pricing, or RBP, for their services.
-
-Importantly, they can choose any doctor without network restrictions.
-
----- Health Savings ----
-
-Saving money and allowing individuals to use the funds how they choose are integral to these plans.
-
-Members have access to Free Prescription Club Services.
-
-Telemedicine Programs offer convenient healthcare access.
-
-The Patient Assistance Program provides affordable medication options.
-
----- Telehealth Services ----
-
-Let's talk about telehealth services.
-
-Members enjoy unlimited virtual doctor visits.
-
-They have twenty-four-seven access to care.
-
-No-cost consultations are available, enhancing affordability.
-
-Immediate prescriptions can be sent to local pharmacies.
-
----- Advocacy and Support Services ----
-
-Advocacy and support services are key components.
-
-Concierge Healthcare Advocacy assists members with their healthcare needs.
-
-Provider Negotiation helps manage costs effectively.
-
-Claims Filing options simplify the process for members.
-
-Cost Reduction support is available to minimize expenses.
-
----- Plan Tier 1 (One of Two) ----
-
-Let's examine our first plan tier, the Basic Core Plan.
-
-Indemnity Insurance provides five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.
-
-The Free Prescription Club offers a Discount Rx Card.
-
-Telemedicine Services are not available in this plan.
-
----- Plan Tier 1 (Two of Two) ----
-
-Continuing with the Basic Core Plan.
-
-The Medical Bill Repricer includes a twenty-five dollar prepay for doctor visits and a fifty dollar prepay for specialist visits.
-
-Advocacy Services are included to support members.
-
----- Plan Tier 2 (One of Two) ----
-
-Now, let's look at our second plan tier, the Basic Core-Plus Plan.
-
-Indemnity Insurance offers the same benefits as the Basic Core Plan, with five hundred dollars per day for one day for hospital admission, one hundred dollars per day for up to ten days for hospital daily confinement, fifty dollars per day for one day for emergency room visits, and fifty dollars per day for up to three days for urgent care.
-
-The Free Prescription Club provides Free Generic Medications with zero copay.
-
-Telemedicine Services include unlimited visits, available twenty-four hours a day with zero copay.
-
----- Plan Tier 2 (Two of Two) ----
-
-Continuing with the Basic Core-Plus Plan.
-
-The Medical Bill Repricer features a twenty-five dollar prepay for doctor visits and a fifty dollar prepay for specialist visits.
-
-Advocacy Services are included to assist members.
+It's important to understand that these are fixed indemnity rates only, with specific limitations on usage per policy year. Please refer to the product certificate or master policy for complete benefit details and all limitations and exclusions.
 
 ---- Comparing Plan Tiers ----
 
 Let's compare the different tiers available. Both plans have no waiting or exclusion periods for pre-existing conditions. Neither plan covers pregnancy. Hospital admission and daily confinement benefits are identical in both plans. The Basic Core-Plus Plan offers additional benefits like Free Generic Medications and unlimited telemedicine visits.
 
----- Definitions and Limitations ----
+---- Exclusions and Limitations ----
 
-Let's review important definitions and limitations.
+Let's review important exclusions and limitations for these plans.
 
-Indemnity Insurance provides set payments, such as five hundred dollars per day for one day for hospital admission and one hundred dollars per day for up to ten days for hospital daily confinement.
+First, the Pre-Existing Condition Definition: This refers to any injury, sickness, or physical condition for which medical advice or treatment was recommended by or received from a member of the medical profession within the pre-existing period immediately before the covered person's effective date. The specific pre-existing period is shown on the certificate schedule.
 
-The Free Prescription Club offers a Discount Rx Card in the Basic Core Plan.
+For the Waiting Period: There is no waiting period for these plans.
 
-Telemedicine Services are not available in the Basic Core Plan.
+Regarding Plan Limitations and Exclusions: The plans do not cover elective cosmetic surgeries, except for reconstructive surgery on a diseased or injured part of the body. For a complete list of all exclusions, please check the product certificate, master policy, or brochure.
 
-Advocacy Services are included in both plans.
+This is a brief description of the Basic Core and Basic Core-Plus Plans. Please check the product certificate or master policy for complete details. Members must be made aware of how this plan handles pre-existing conditions in their state, even if the member does not have a pre-existing condition.
 
 ---- Key Takeaways and Reminders ----
 

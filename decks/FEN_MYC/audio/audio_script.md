@@ -118,7 +118,9 @@ Continuing with our second plan tier.
 
 Ambulance benefits include one hundred dollars for ground transport and two hundred dollars for air transport. 
 
-Emergency room visits are covered at two hundred dollars per visit Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plan 2.
+Emergency room visits are covered at two hundred dollars per visit.
+
+Surgical, ambulatory outpatient, assistant surgeon, and anesthesia benefits are not covered under Plan 2.
 
 ---- Plan 3 (One of Two) ----
 
@@ -156,7 +158,7 @@ Let's compare the different tiers available. Plan one offers one hundred dollars
 
 ---- Exclusions and Limitations ----
 
-Let's review important definitions and limitations.
+Let's review important exclusions and limitations.
 
 Inpatient hospital confinement provides a daily benefit for up to ten days, excluding rehab units, and is subject to an annual maximum. 
 

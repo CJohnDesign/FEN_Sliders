@@ -505,5 +505,3 @@ line: Thank you for participating in the BWA Americare Review. Continue to be gr
 
 Continue to be great!
 
-
-
