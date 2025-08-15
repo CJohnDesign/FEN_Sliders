@@ -87,6 +87,11 @@ layout: default
 - **Accident & Critical Illness Benefits** - Supplemental accident coverage and critical illness protection
 </v-click>
 
+<v-click>
+
+- **Age Eligibility** - 18 - 64 and dependent unmarried children under the age of 26
+</v-click>
+
 ---
 transition: fade-out
 layout: default
@@ -332,8 +337,8 @@ clicks: 4
 | **Supplemental Accident*** | | | | | | | | |
 | Accident ER Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> |
 | Accident ER Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> |
-| Accident Admission Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> |
-| Accident Admission Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> |
+| Accident Inpatient Admission Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> |
+| Accident Inpatient Admission Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> |
 | **Accidental Death** | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> |
 | **Critical Illness** | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 4 && 'font-bold']">$1,000</span> |
 

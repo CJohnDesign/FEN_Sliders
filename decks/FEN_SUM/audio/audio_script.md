@@ -1,10 +1,10 @@
 ---- Cover ----
 
-Hello, agents! Thank you for joining today's training session on Summit. As sales professionals, you'll need to understand this plan's benefits thoroughly to effectively present them to your prospective members. Let's get started!
+Hello! Thank you for joining today's training session on Summit plans. Let's get started!
 
 ---- Introduction to Summit ----
 
-Summit, underwritten by American Financial Security Life Insurance Company (AFSLIC), is a product you'll be offering that provides 
+Summit, underwritten by Everest Reinsurance Company, is a product you'll be offering that provides 
 
 flexible coverage for various medical situations. 
 
@@ -16,17 +16,19 @@ Membership is available through the National Congress of Employers, which you sh
 
 Let's explore the key features you'll be highlighting to prospects. 
 
-Hospital Confinement Benefits provide daily financial support when your members are admitted to a hospital, ranging from one hundred to one thousand dollars per day depending on the plan level. 
+Hospital Confinement Benefits provide daily financial support when your members are admitted to a hospital, ranging from one hundred to one thousand dollars per day depending on the plan level, with up to 90 days of coverage per year.
 
-Doctor Office Visit Benefits cover both primary care and specialty care visits, giving prospects peace of mind for routine healthcare needs. 
+Hospital Admission Benefits on Plan 1000 Plus offer a unique one-time benefit of one thousand dollars per hospital admission, with up to 5 admissions per year, providing immediate financial assistance.
 
-Emergency Room Benefits ensure your members have coverage for unexpected medical emergencies, with most plans providing fifty to one hundred dollars per visit. 
+Emergency Room Benefits ensure your members have coverage for unexpected medical emergencies, with benefits ranging from fifty to one hundred dollars per visit and up to 2 visits per year across all plans.
 
-Mental Health Benefits on Plans 300 and higher offer both inpatient and outpatient coverage, addressing the growing demand for mental healthcare support. 
+Diagnostic Testing Benefits include laboratory work, diagnostic X-rays, and advanced diagnostic testing on select plans, with varying coverage levels and frequency based on the plan chosen.
 
-Diagnostic and Surgery Benefits on higher-tier plans provide coverage for essential medical tests and surgical procedures, creating excellent upselling opportunities. 
+Surgery Benefits starting with Plan 200 Plus provide coverage for surgical procedures ranging from two hundred fifty to five hundred dollars per day, plus anesthesia benefits at twenty-five percent of the surgical benefit amount.
 
-Accident and Critical Illness Benefits include supplemental accident coverage that pays in addition to regular benefits, plus critical illness protection for serious health diagnoses. 
+Physician Office Visit Benefits cover medical office visits with fifty to seventy-five dollars per visit depending on the plan level, ensuring access to routine medical care. 
+
+Age Eligibility covers individuals from 18 to 64 years old, with dependent unmarried children covered under the age of 25, ensuring family coverage for those who need it most.
 
 ---- NCE Healthcare & Medical Services ----
 
@@ -34,7 +36,7 @@ When discussing the healthcare and medical services offered through the National
 
 Your prospects will receive medical support including bill negotiations, 24/7 nurse access, laboratory savings, and discounts on medical supplies. 
 
-For dental and vision care, NCE provides significant savings through the Aetna Dental Access Network and OUTLOOK Vision Network, offering 15 to 50 percent savings on routine and specialty services that you can highlight as immediate value. Please note that these programs are not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
+For dental and vision discounts, NCE provides significant savings through the Aetna Dental Access Network and OUTLOOK Vision Network, offering 15 to 50 percent savings on routine and specialty services that you can highlight as immediate value. Please note that these programs are not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
 
 ---- NCE Prescription & Health Products ----
 
@@ -52,77 +54,69 @@ This includes physical therapy, chiropractic care, speech therapy, and hearing s
 
 Your members will also get access to nutrition education and wellness programs to support their overall health goals, which appeals to prospects looking for holistic health support.
 
-Remember to mention that National Congress of Employers NCE association benefits are not affiliated with American Financial Security Life Insurance Company. Summit Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please note that Aetna Dental Access Network and OUTLOOK Vision Network programs are not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
+Remember to mention that National Congress of Employers NCE association benefits are not affiliated with Everest Reinsurance Company. Summit Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please note that Aetna Dental Access Network and OUTLOOK Vision Network programs are not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
 
 ---- Summit Plan Options ----
 
-Now let's review the Summit plan options you'll be presenting to prospects. You'll be offering eight different plan levels to meet various needs and budgets, ranging from Plan 100A up to Plan 1000. 
+Now let's review the Summit plan options you'll be presenting to prospects. 
 
-When presenting Hospital Confinement Benefits, you can show prospects the range from one hundred dollars per day on the lower plans up to one thousand dollars per day on the highest plan. All plans provide coverage for up to 30 days per year.
+You'll be offering eight different plan levels to meet various needs and budgets, ranging from Plan 100 up to Plan 1000 Plus. 
 
-For Doctor Visit Benefits, point out this important distinction to prospects. Most plans provide fifty dollars per visit for both primary care and specialty care, while Plan 1000 increases this to seventy-five dollars per visit.
+When presenting Hospital Confinement Benefits, you can show prospects the range from one hundred dollars per day on Plan 100 up to one thousand dollars per day on Plans 1000 and 1000 Plus. All plans provide coverage for up to 30 days per confinement and up to 90 days per year.
 
-Visit Limits also vary by plan level, giving you another selling point. The lower plans allow 3 visits per year for each category, while the higher plans allow 5 visits per year.
+Intensive Care Unit Benefits mirror the hospital confinement benefits, providing the same daily amounts when your members require intensive care, ensuring they receive maximum financial support during critical times.
 
-Finally, Emergency Room benefits highlight a key difference you should explain clearly. Plan 100A doesn't include emergency room coverage at all, while other plans range from fifty dollars to one hundred dollars per visit, with most plans allowing one emergency room visit per year.
+Hospital Admission Benefits are exclusive to Plan 1000 Plus, offering prospects a unique one thousand dollar benefit for each hospital admission, with up to 5 admissions covered per year - a significant differentiator for your premium plan.
 
-This flexible structure allows you to help prospects choose the plan that best matches their healthcare needs and budget.
+For Physician Office Visit Benefits, point out this important distinction to prospects. Most plans provide fifty dollars per visit, while Plans 1000 and 1000 Plus increase this to seventy-five dollars per visit. Visit limits vary by plan level - lower plans allow 3 visits per year while Plans 750, 1000, and 1000 Plus allow 5 visits per year.
 
----- Additional Benefits - Diagnostics & Surgery ----
+---- Emergency Room & Diagnostic Testing Benefits ----
 
-Now let's examine the additional benefits available on higher-tier plans that you can use as compelling upselling opportunities.
+Now let's examine 
 
-When presenting diagnostic benefits, explain to prospects that certain plans include coverage for essential medical tests. Plans 200, 200 Plus, 500, 750, and 1000 provide Basic Pathology and Basic Radiology benefits. Notice that Plan 1000 offers seventy-five dollars per day compared to fifty dollars on other plans, giving you a clear value proposition for the premium plan.
+the emergency room and diagnostic testing benefits that vary by plan level and create excellent upselling opportunities.
 
-For Surgery Benefits, this is where you can really differentiate the higher plans. Starting with Plan 200 Plus, prospects get both inpatient and outpatient surgery coverage. Point out the significant range from four hundred dollars per day on Plan 200 Plus up to fifteen hundred dollars per day on Plan 1000. All surgery plans allow up to 3 procedures per year.
+Emergency Room Benefits are consistent across most plans at fifty dollars per visit, with Plans 750, 1000, and 1000 Plus providing enhanced coverage at seventy-five to one hundred dollars per visit. All plans allow up to 2 emergency room visits per year, ensuring your prospects have coverage for unexpected medical emergencies.
 
-An important selling point is the Anesthesia Benefit, which provides an additional twenty percent of the surgery benefit amount. This means on Plan 1000, if a prospect has surgery worth fifteen hundred dollars, they'd receive an additional three hundred dollars for anesthesia costs.
+When presenting diagnostic benefits, explain to prospects that specific plans include coverage for essential medical tests. Plans 200, 200 Plus, 500, 750, 1000, and 1000 Plus provide Laboratory and Diagnostic X-Ray benefits - note that Plan 300 does not include these diagnostic benefits. For these benefits, Plans 200 and 200 Plus allow up to 4 days per year, Plans 500 and 750 allow up to 8 days per year, and Plans 1000 and 1000 Plus allow up to 12 days per year. Notice that Plans 1000 and 1000 Plus offer enhanced coverage at seventy-five to one hundred dollars per day compared to fifty dollars on other plans, giving you a clear value proposition for the premium plans.
 
-Remember to explain the important limitations: for diagnostic tests, if multiple tests occur on the same day, only the highest benefit amount is paid. For surgery, if both inpatient and outpatient procedures happen the same day, only the inpatient benefit is paid since it's typically higher.
+Advanced Diagnostic Testing is available on the same plans but with different limits - Plans 500 and higher allow up to 6 days per year while Plans 200 and 200 Plus allow up to 4 days per year. This creates natural upselling opportunities for prospects who may need extensive diagnostic work.
 
-These additional benefits make the higher-tier plans particularly attractive to prospects concerned about potential surgical procedures or diagnostic testing costs.
+---- Surgery Benefits ----
 
----- Mental Health Benefits ----
+Now let's examine 
 
-Mental Health Benefits represent a significant differentiator and upselling opportunity starting with Plan 300. When presenting these benefits to prospects, emphasize that mental health coverage has become increasingly important to many families and employers.
+the surgery benefits that represent one of the most significant differentiators in the Summit plan lineup.
 
-Plans 300 through 1000 provide robust inpatient mental health benefits ranging from one hundred fifty dollars per day on Plan 300 up to five hundred dollars per day on Plan 1000, with generous coverage of up to 60 days per year. This substantial coverage addresses the growing need for psychiatric hospital care and mental health facility stays.
-
-All these higher-tier plans also include outpatient mental health benefits at fifty dollars per day for up to 20 visits annually, covering therapy sessions and outpatient psychiatric care. This benefit alone can save prospects hundreds or thousands of dollars in annual mental health costs.
-
-When presenting mental health benefits, position them as essential coverage for today's stress-filled world and emphasize that these benefits are only available on Plans 300 and higher, making them excellent upselling tools.
-
----- Premium Accident & Critical Illness Benefits ----
-
-Now let's explore the accident and critical illness benefits that create additional value propositions across multiple plan levels.
-
-Supplemental Accident Benefits are a powerful selling tool available on Plans 300 and higher. These benefits are crucial because they pay in addition to regular hospital and emergency room benefits, effectively doubling the coverage for accident-related care. For accident-related emergency room visits, prospects receive an additional two hundred fifty dollars per day. For accident-related hospital admissions, they receive an additional five hundred dollars per day, with higher plans offering more days of coverage.
-
-Accidental Death Benefits provide peace of mind and are available on all plans except 100A. You can position this as a ten thousand dollar accidental death benefit at no additional cost. Remember to explain that spouses receive fifty percent, or five thousand dollars, and dependents receive twenty-five percent, or twenty-five hundred dollars.
-
-Critical Illness Benefits start with Plan 200 Plus and provide one thousand dollars per original diagnosis per family member. This is particularly appealing to prospects with family histories of serious illness, as it provides immediate cash assistance when facing major health challenges like cancer, heart attack, or stroke.
-
-These accident and critical illness benefits transform the plans from simple hospital coverage into protection packages.
+Surgery Benefits start with Plan 200 Plus and provide coverage with specific amounts by plan level: Plans 200 Plus and 300 provide two hundred fifty dollars per day, Plan 500 provides three hundred fifty dollars per day, Plan 750 provides four hundred dollars per day, and Plans 1000 and 1000 Plus provide five hundred dollars per day. All surgery plans allow up to 3 procedures per year. An important selling point is the Anesthesia Benefit, which provides an additional twenty-five percent of the surgery benefit amount. This means on Plan 1000, if a prospect has surgery worth five hundred dollars, they'd receive an additional one hundred twenty-five dollars for anesthesia costs.
 
 ---- Limitations and Exclusions ----
 
 As agents, you need to understand the key limitations of Summit plans to properly set expectations with your prospects.
 
-There's a thirty-day waiting period for sickness benefits and a twelve-month exclusion for pre-existing conditions treated before coverage begins.
+There's a twelve-month exclusion for pre-existing conditions treated before coverage begins.
 
-The main exclusions include treatments that aren't medically necessary, experimental procedures, dental care except for accidents, cosmetic surgery, pregnancy complications, self-inflicted injuries, extreme sports, military duty, and work-related injuries covered by Workers' Compensation.
+The main exclusions include treatments that aren't medically necessary, experimental procedures, dental care except for accidents, cosmetic surgery, pregnancy complications, 
 
-Remember to emphasize that these are fixed indemnity benefits with usage limitations per policy year. Always direct prospects to the complete policy certificate for full details.
+self-inflicted injuries, extreme sports, military duty, and work-related injuries covered by Workers' Compensation.
 
----- Key Takeaways for Summit Sales ----
+Remember to emphasize that these are fixed indemnity benefits with usage limitations per policy year. 
 
-As agents, remember these crucial selling points when presenting Summit: 
+You should also explain the pre-existing condition definition and all limitations and exclusions. 
+ 
+Always direct members to the complete policy certificate for full details.
 
-With eight different plan levels from 100A through 1000, you can match any prospect's budget and coverage needs while creating natural upselling opportunities. 
+---- Key Takeaways for Summit ----
 
-Mental Health Benefits starting on Plan 300 provide a powerful differentiator in today's market, addressing the growing awareness and need for mental healthcare coverage. 
+As agents, remember these key takeaways when presenting Summit: 
 
-Supplemental Accident and Critical Illness Benefits on Plans 300 and higher pay in addition to regular hospital benefits, with accident benefits doubling accident-related coverage and critical illness benefits providing immediate cash for serious diagnoses - compelling selling points for safety and health-conscious prospects. 
+With eight different plan levels from 100 through 1000 Plus, you can match any prospect's budget and coverage needs.
+
+Hospital Admission Benefits exclusive to Plan 1000 Plus provide a unique selling proposition with one thousand dollars per admission for up to 5 admissions per year, making it an attractive premium option. 
+
+Surgery Benefits starting with Plan 200 Plus, combined with anesthesia benefits at twenty-five percent of the surgical benefit, create excellent upselling opportunities for prospects concerned about potential surgical costs. 
+
+Diagnostic Testing Benefits vary by plan level with Plans 1000 and 1000 Plus offering enhanced coverage, providing clear value propositions for prospects who may need extensive medical testing. 
 
 NCE Association Benefits provide extensive healthcare discounts and services at no extra cost, adding tremendous value beyond the insurance coverage itself. 
 

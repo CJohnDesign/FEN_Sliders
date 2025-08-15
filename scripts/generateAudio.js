@@ -68,7 +68,7 @@ async function parseMdFile(filePath) {
 
 // Add filename validation
 const validateFilename = (deckKey, slideNumber, clickNumber) => {
-  if (!deckKey.match(/^FEN_[A-Z]{2,4}$/)) {
+  if (!deckKey.match(/^FEN_[A-Z_]+$/)) {
     throw new Error(`Invalid deckKey format: ${deckKey}`);
   }
   

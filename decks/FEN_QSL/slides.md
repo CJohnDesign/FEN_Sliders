@@ -32,7 +32,7 @@ layout: default
 <p style="margin-bottom: 0">
 
 
-underwritten by: **The Ark Group**
+Powered by: **Quest Diagnostics**
 
 </p>
 

@@ -1,12 +1,12 @@
 ---- Cover ----
 
-Hello, everyone! Thank you for joining today's session on the QuestSelect Plan. We'll walk through the plan's benefits. Let's get started!
+Hello, everyone! Thank you for joining today's session on the QuestSelect Plan. Let's get started!
 
 ---- Introduction to the QuestSelect Plan ----
 
-The QuestSelect Plan is underwritten by Ark Group
+The QuestSelect Plan is powered by Quest Diagnostics
 
-This Unlimited Lab Program will significantly help reduce unnecessary outpatient lab spend 
+This Unlimited Lab Program will significantly help reduce unnecessy outpatient lab spend 
 
 and provides members with a $0 Copay option for over 1,000 outpatient lab tests!
 
