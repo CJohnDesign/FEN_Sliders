@@ -18,7 +18,7 @@ line: Hello! and thanks for being here! today we're going to be reviewing Harmon
 
 <SlideAudio deckKey="FEN_HMM" />
 
-# Harmony Care Overview 
+# Harmony Care Plan Overview 
 
 Understanding the details and benefits of the **Harmony Care** Plans.
 
@@ -247,15 +247,13 @@ clicks: 4
 | Basic Radiology Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$75</span> |
 | Basic Radiology Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> |
 | **Surgery Benefits*** | | | | | | | | |
-| Inpatient Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$250</span> | <span :class="[$clicks >= 3 && 'font-bold']">$750</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,500</span> |
+| Inpatient Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$750</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,500</span> |
 | Inpatient Max Days | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> |
-| Outpatient Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$250</span> | <span :class="[$clicks >= 3 && 'font-bold']">$750</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,500</span> |
+| Outpatient Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$750</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,500</span> |
 | Outpatient Max Days | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> |
 | **Anesthesia Benefit** | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> | <span :class="[$clicks >= 4 && 'font-bold']">20% of Surgery</span> |
 
 </v-click>
-
-<v-click>
 
 <small>
 
@@ -263,8 +261,6 @@ clicks: 4
 **Surgery benefits apply per day of surgery. If both inpatient and outpatient occur same day, **inpatient benefit paid**.
 
 </small>
-
-</v-click>
 
 <small>
 
@@ -275,7 +271,7 @@ clicks: 4
 ---
 transition: fade-out
 layout: default
-clicks: 2
+clicks: 5
 ---
 
 ## Harmony Care Benefits
@@ -294,8 +290,19 @@ clicks: 2
 | Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$150</span> | <span :class="[$clicks >= 2 && 'font-bold']">$250</span> | <span :class="[$clicks >= 2 && 'font-bold']">$375</span> | <span :class="[$clicks >= 2 && 'font-bold']">$500</span> |
 | Max Days Per Coverage Year | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">60</span> | <span :class="[$clicks >= 2 && 'font-bold']">60</span> | <span :class="[$clicks >= 2 && 'font-bold']">60</span> | <span :class="[$clicks >= 2 && 'font-bold']">60</span> |
 | **Mental Health - Outpatient** | | | | | | | | |
-| Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> |
-| Max Days Per Coverage Year | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">20</span> | <span :class="[$clicks >= 2 && 'font-bold']">20</span> | <span :class="[$clicks >= 2 && 'font-bold']">20</span> | <span :class="[$clicks >= 2 && 'font-bold']">20</span> |
+| Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> | <span :class="[$clicks >= 3 && 'font-bold']">$50</span> |
+| Max Days Per Coverage Year | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">--</span> | <span :class="[$clicks >= 4 && 'font-bold']">20</span> | <span :class="[$clicks >= 4 && 'font-bold']">20</span> | <span :class="[$clicks >= 4 && 'font-bold']">20</span> | <span :class="[$clicks >= 4 && 'font-bold']">20</span> |
+
+</v-click>
+
+<v-click>
+
+<small>
+
+**Mental Health Benefits** are available on Plans 300, 500, 750, and 1000 only.  
+Coverage includes psychiatric hospitals, mental health facilities, and outpatient therapy sessions.
+
+</small>
 
 </v-click>
 

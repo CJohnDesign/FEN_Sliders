@@ -9,7 +9,7 @@ verticalCenter: true
 layout: intro
 themeConfig:
   logoHeader: img/logos/FEN_logo.svg
-  audioEnabled: true
+  audioEnabled: "true"
 transition: fade-out
 drawings:
   persist: false
@@ -65,6 +65,11 @@ layout: default
 <v-click>
 
 - **Dismemberment Benefits** - Coverage for loss of limbs, sight, hearing, or speech
+</v-click>
+
+<v-click>
+
+- **Accident Medical Expense (AME)** - Pay Accident Medical and Dental Expense Benefits for Covered Expenses that result directly, and from no other cause, from a Covered Accident
 </v-click>
 
 <v-click>
@@ -226,6 +231,51 @@ Coverage provided when an accidental injury results in **specific dismemberments
 
 </small>
 
+
+<small>
+
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. The accident insurance products described here are underwritten by Everest Reinsurance Company, 100 Everest Way, Warren, NJ 07059, 1-800-438-4375. THESE PRODUCTS PROVIDE LIMITED BENEFIT INSURANCE. Limited benefits are insurance products with reduced benefits and are not intended to be an alternative to major medical or comprehensive healthcare coverage. Please read your certificate of insurance carefully.
+
+</small>
+
+---
+transition: fade-out
+layout: default
+clicks: 4
+---
+
+## Accident Medical Expense (AME) Benefits
+
+<small>
+
+**AME benefits** reimburse covered medical expenses incurred due to a covered accident.
+
+</small>
+
+<v-click>
+
+| **AME Benefit** | **Plan Option 1** | **Plan Option 2** |
+|-----------------|-------------------|-------------------|
+| **Benefit Amount** | <span :class="[$clicks >= 2 && 'font-bold']">$5,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$10,000</span> |
+| **Deductible** | <span :class="[$clicks >= 4 && 'font-bold']">$250</span> | <span :class="[$clicks >= 4 && 'font-bold']">$250</span> |
+| **Coverage Type** | <span :class="[$clicks >= 4 && 'font-bold']">Excess</span> | <span :class="[$clicks >= 4 && 'font-bold']">Excess</span> |
+| **First Covered Expenses Incurred within** | <span :class="[$clicks >= 4 && 'font-bold']">90 Days</span> | <span :class="[$clicks >= 4 && 'font-bold']">90 Days</span> |
+
+</v-click>
+
+<small>
+
+**Benefits payable:** Only for usual and customary charges incurred after the deductible has been met, for medically necessary covered expenses within 365 days of the covered accident.
+
+</small>
+
+
+<small>
+
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. The accident insurance products described here are underwritten by Everest Reinsurance Company, 100 Everest Way, Warren, NJ 07059, 1-800-438-4375. THESE PRODUCTS PROVIDE LIMITED BENEFIT INSURANCE. Limited benefits are insurance products with reduced benefits and are not intended to be an alternative to major medical or comprehensive healthcare coverage. Please read your certificate of insurance carefully.
+
+</small>
+
 ---
 transition: fade-out
 layout: default
@@ -251,7 +301,7 @@ clicks: 4
 
 <small>
 
-**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details.
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. The accident insurance products described here are underwritten by Everest Reinsurance Company, 100 Everest Way, Warren, NJ 07059, 1-800-438-4375. THESE PRODUCTS PROVIDE LIMITED BENEFIT INSURANCE. Limited benefits are insurance products with reduced benefits and are not intended to be an alternative to major medical or comprehensive healthcare coverage. Please read your certificate of insurance carefully.
 
 </small>
 
@@ -261,6 +311,8 @@ layout: default
 ---
 
 ## Important Definitions
+
+Now let's examine some of the AD&D policy definitions you need to understand and communicate to prospects.
 
 <v-click>
 
@@ -274,36 +326,25 @@ layout: default
 
 <v-click>
 
-**Loss of Hand or Foot** means permanent severance of an arm distal to the ulna and radius; or distal to the tibia and fibula of the leg respectively.
+Now let's examine the key definitions and coverage criteria for AME benefits that you need to understand and communicate to prospects.
 </v-click>
 
 <v-click>
 
-**Loss of Sight** means vision is permanently lost.
+**Covered Accident** means a sudden, unforeseeable external event that results, directly and independently of all other causes, in a Covered Injury or Covered Loss and meets all the following conditions:
 </v-click>
 
 <v-click>
 
-**Loss of Hearing** means total and irrecoverable loss of the ability to perceive sound.
+- Occurs while the Covered Person is insured under the Rider
+- Cannot be contributed to by disease, sickness, or mental or bodily infirmity
+- Must not be otherwise excluded under the terms of the Rider
 </v-click>
 
 <v-click>
 
-**Loss of Speech** means total and irrecoverable loss of the ability to speak.
+**Accident Medical Expense Benefits** are only payable for Usual and Customary charges incurred after the Deductible has been met, for those Medically Necessary Covered Expenses incurred by or on behalf of the Covered Person, and for Covered Expenses incurred within 365 days after the date of the Covered Accident. No benefits will be paid for any expenses incurred that are in excess of Usual and Customary charges.
 </v-click>
-
-<small>
-
-**Coverage Period:** Benefits are payable if the dismemberment occurs within 365 days of the date of the accident that caused the injury.
-
-</small>
-
-<small>
-
-Please check the product certificate or master policy for complete details.
-
-</small>
-
 
 ---
 transition: fade-out
@@ -316,6 +357,8 @@ layout: default
 
 - **Maximum of one dismemberment** benefit per Covered Person per Accident
 - **365-day time limit** - benefits only payable if dismemberment occurs within 365 days of accident
+- **AME deductible** - $250 deductible must be met before AME benefits are payable
+- **AME first covered expenses** - must be incurred within 90 days of the covered accident
 - Excludes **self-inflicted injuries**, **suicide**, **intoxication-related incidents**
 - Excludes **war**, **military service**, **aviation** (except as a fare-paying passenger)
 
@@ -354,12 +397,13 @@ layout: default
 
 <v-clicks>
 
-- **Two plan levels** ($10,000 member coverage) allow prospects to choose coverage that fits their budget
+- **Two plan levels** ($10,000 member coverage) provide affordable protection that fits your prospect's budget and coverage needs
 - **Family Coverage** includes spouse at $5,000 or $10,000 and dependent children at $2,500
 - **Dismemberment Benefits** provide percentage-based payouts from 25% to 100% of Principal Sum
+- **AME Benefits** reimburse medical expenses ($5,000 or $10,000) with $250 deductible
 - **365-day coverage window** ensures benefits are paid for qualifying accidents within one year
 - **NCE Association Benefits** provide extensive discounts and services at no extra cost
-- **Accidental Death and Dismemberment** benefits pay regardless of other insurance coverage
+- **Accidental Death, Dismemberment, and Medical Expense** benefits pay regardless of other insurance coverage
 
 </v-clicks>
 

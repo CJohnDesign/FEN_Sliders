@@ -8,7 +8,7 @@
     <!-- Logo and Disclaimer positioned at bottom -->
     <div class="absolute bottom-4 left-1/2 -translate-x-1/2 text-center flex flex-col items-center">
       <!-- Logo positioned above disclaimer -->
-      <img src="/img/logos/FEN_logo.svg" class="h-12 mb-2" alt="FirstEnroll Logo">
+      <img src="/img/logos/FEN_logo.svg" class="h-4 md:h-5 lg:h-7 w-auto max-w-[160px] md:max-w-[180px] lg:max-w-[220px] object-contain mb-4" alt="FirstEnroll Logo">
       
       <!-- Disclaimer -->
       <div class="text-[8px] text-gray-700 max-w-[60vw] leading-tight">

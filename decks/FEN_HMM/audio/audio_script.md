@@ -56,9 +56,9 @@ Your members will also get access to nutrition education and wellness programs t
 
 ---- Harmony Care Benefits ----
 
-Now let's review the Harmony Care plan options 
+Now let's review the Harmony Care plan options.
 
-you'll be presenting eight different plan levels to meet various needs and budgets, ranging from Plan 100A up to Plan 1000.
+You'll be presenting eight different plan levels to meet various needs and budgets, ranging from Plan 100A up to Plan 1000.
 
 from Hospital Confinement Benefits ranging from one hundred to one thousand dollars per day, 
 
@@ -70,7 +70,9 @@ Emergency Room Benefits varying by plan level.
 
 ---- Harmony Care Benefits ----
 
-Now let's examine the additional benefits available on higher-tier plans. 
+Now let's examine 
+
+the additional benefits available on higher-tier plans. 
 
 Diagnostic benefits include coverage for pathology and radiology. 
 
@@ -80,13 +82,17 @@ Anesthesia Benefit, which provides an additional twenty percent of the surgery b
 
 ---- Harmony Care Benefits ----
 
-Mental Health Benefits represent a significant differentiator with this policy. 
+Mental Health Benefits represent a significant differentiator with this policy.
 
-Plans 300 through 1000 provide inpatient mental health benefits ranging from 
+Plans 300 and higher include coverage for both inpatient and outpatient mental health care.
 
-one hundred fifty dollars per day on Plan 300 up to five hundred dollars per day on Plan 1000, with coverage of up to 60 days per coverage year 
+Inpatient mental health benefits range from one hundred fifty dollars per day on Plan 300 up to five hundred dollars per day on Plan 1000, with coverage of up to 60 days per coverage year.
 
-and outpatient benefits at fifty dollars per day for up to 20 visits per coverage year.
+Outpatient benefits provide fifty dollars per day.
+
+Coverage includes up to 20 visits per coverage year for outpatient care.
+
+These Mental Health Benefits are available on Plans 300, 500, 750, and 1000 only.
 
 ---- Harmony Care Benefits ----
 

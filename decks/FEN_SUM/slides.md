@@ -222,7 +222,7 @@ Choose the plan that best fits your **needs and budget**. All plans offer the **
 
 <small>
 
-**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. THIS IS A GROUP FIXED INDEMNITY POLICY. IT PAYS BENEFITS REGARDLESS OF ANY OTHER INSURANCE. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE OF INSURANCE CAREFULLY.
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. The indemnity insurance products described here are underwritten by Everest Reinsurance Company, 100 Everest Way, Warren, NJ 07059, 1-800-438-4375. THESE PRODUCTS PROVIDE LIMITED BENEFIT INSURANCE. Limited benefits are insurance products with reduced benefits and are not intended to be an alternative to major medical or comprehensive healthcare coverage. Please read your certificate of insurance carefully.
 
 </small>
 
@@ -261,7 +261,7 @@ clicks: 4
 
 <small>
 
-**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. THIS IS A GROUP FIXED INDEMNITY POLICY. IT PAYS BENEFITS REGARDLESS OF ANY OTHER INSURANCE. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE OF INSURANCE CAREFULLY.
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. The indemnity insurance products described here are underwritten by Everest Reinsurance Company, 100 Everest Way, Warren, NJ 07059, 1-800-438-4375. THESE PRODUCTS PROVIDE LIMITED BENEFIT INSURANCE. Limited benefits are insurance products with reduced benefits and are not intended to be an alternative to major medical or comprehensive healthcare coverage. Please read your certificate of insurance carefully.
 
 </small>
 
@@ -304,7 +304,7 @@ clicks: 2
 
 <small>
 
-**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. THIS IS A GROUP FIXED INDEMNITY POLICY. IT PAYS BENEFITS REGARDLESS OF ANY OTHER INSURANCE. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE OF INSURANCE CAREFULLY.
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. The indemnity insurance products described here are underwritten by Everest Reinsurance Company, 100 Everest Way, Warren, NJ 07059, 1-800-438-4375. THESE PRODUCTS PROVIDE LIMITED BENEFIT INSURANCE. Limited benefits are insurance products with reduced benefits and are not intended to be an alternative to major medical or comprehensive healthcare coverage. Please read your certificate of insurance carefully.
 
 </small>
 

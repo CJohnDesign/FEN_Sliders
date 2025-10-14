@@ -226,6 +226,12 @@ Coverage provided when an accidental injury results in **specific dismemberments
 
 </small>
 
+<small>
+
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. The accident insurance products described here are underwritten by Everest Reinsurance Company, 100 Everest Way, Warren, NJ 07059, 1-800-438-4375. THESE PRODUCTS PROVIDE LIMITED BENEFIT INSURANCE. Limited benefits are insurance products with reduced benefits and are not intended to be an alternative to major medical or comprehensive healthcare coverage. Please read your certificate of insurance carefully.
+
+</small>
+
 ---
 transition: fade-out
 layout: default
@@ -258,7 +264,7 @@ clicks: 4
 
 <small>
 
-**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details.
+**Disclaimer:** The amount of benefits provided depends upon the plan selected; the premium will vary with the amount of the benefits selected. Please check the product certificate or master policy for complete details. The accident insurance products described here are underwritten by Everest Reinsurance Company, 100 Everest Way, Warren, NJ 07059, 1-800-438-4375. THESE PRODUCTS PROVIDE LIMITED BENEFIT INSURANCE. Limited benefits are insurance products with reduced benefits and are not intended to be an alternative to major medical or comprehensive healthcare coverage. Please read your certificate of insurance carefully.
 
 </small>
 

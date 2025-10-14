@@ -140,42 +140,50 @@ function analyzeSlides(content) {
   // Split content by frontmatter markers and filter empty sections
   const allSections = content.split(/^---$/m).filter(section => section.trim());
   
-  // Group sections into slides (each content slide has a transition section before it)
-  const contentSlides = [];
+  // Group sections into complete slides (frontmatter + content)
+  const completeSlides = [];
   const firstLines = [];
   const slideTitles = [];
-  let currentSlide = '';
+  let currentSlideData = { frontmatter: '', content: '' };
+  let isInFrontmatter = false;
   
   allSections.forEach((section, index) => {
-    // Skip the frontmatter
+    // Skip the global frontmatter at the beginning
     if (index === 0) return;
     
-    // If it's a transition section, start a new slide
-    if (section.includes('transition: fade-out')) {
-      if (currentSlide) {
-        contentSlides.push(currentSlide);
-        slideTitles.push(extractSlideTitle(currentSlide));
-        firstLines.push(extractFirstLine(currentSlide));
+    // Check if this section contains transition info (frontmatter)
+    if (section.includes('transition:') || section.includes('layout:') || section.includes('clicks:')) {
+      // If we have a previous slide, save it
+      if (currentSlideData.content.trim()) {
+        const fullSlide = `---\n${currentSlideData.frontmatter}\n---\n${currentSlideData.content}`;
+        completeSlides.push(fullSlide);
+        slideTitles.push(extractSlideTitle(currentSlideData.content));
+        firstLines.push(extractFirstLine(currentSlideData.content));
       }
-      currentSlide = '';
+      
+      // Start new slide with this frontmatter
+      currentSlideData = { frontmatter: section.trim(), content: '' };
+      isInFrontmatter = true;
     } else {
-      // Add content to current slide
-      currentSlide += section;
+      // This is slide content
+      currentSlideData.content += section;
+      isInFrontmatter = false;
     }
   });
   
   // Add the last slide if exists
-  if (currentSlide) {
-    contentSlides.push(currentSlide);
-    slideTitles.push(extractSlideTitle(currentSlide));
-    firstLines.push(extractFirstLine(currentSlide));
+  if (currentSlideData.content.trim()) {
+    const fullSlide = `---\n${currentSlideData.frontmatter}\n---\n${currentSlideData.content}`;
+    completeSlides.push(fullSlide);
+    slideTitles.push(extractSlideTitle(currentSlideData.content));
+    firstLines.push(extractFirstLine(currentSlideData.content));
   }
   
-  // Process each content slide
-  const clickCounts = contentSlides.map(slide => countClicksInSlide(slide));
+  // Process each complete slide (now includes frontmatter with clicks info)
+  const clickCounts = completeSlides.map(slide => countClicksInSlide(slide));
   
   return {
-    slideCount: contentSlides.length,
+    slideCount: completeSlides.length,
     clickCounts,
     firstLines,
     slideTitles

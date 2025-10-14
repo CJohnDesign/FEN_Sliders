@@ -76,9 +76,7 @@ Loss of thumb and index Finger of the same hand provides twenty-five percent of 
 
 Now let's examine 
 
-the nine plan levels providing different Principal Sum amounts for member and family coverage.
-
-Nine plan levels give you flexibility to meet any prospect's budget and coverage needs, starting with Summit AD&D Plan fifty thousand dollars and going up to Summit AD&D Plan two hundred fifty thousand dollars.
+the nine plan levels providing different Principal Sum amounts for member and family coverage. It starts with Summit AD&D Plan fifty thousand dollars and going up to Summit AD&D Plan two hundred fifty thousand dollars.
 
 When presenting Member coverage, you can show prospects that plans range from fifty thousand dollars up to two hundred fifty thousand dollars, providing protection for accidental death or dismemberment.
 
@@ -136,4 +134,4 @@ And remember, these Accidental Death and Dismemberment benefits pay regardless o
 
 ---- Closing ----
 
-Thank you for taking the time to learn about Summit AD&D. By understanding each plan's coverage levels and the valuable association benefits, you'll be able to guide your prospects toward the option that best suits their needs and close more sales effectively. Continue to be great agents!
+Thank you for taking the time to learn about Summit AD&D. Continue to be great agents!
