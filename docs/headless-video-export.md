@@ -19,15 +19,15 @@ This document outlines strategies for automating the video export process of FEN
 4. **Quality Control**: Difficult to ensure consistent quality across multiple decks
 5. **Scalability**: Cannot batch process multiple decks
 
-## Recommended Solution: Puppeteer + FFmpeg
+## Recommended Solution: Playwright + FFmpeg
 
 ### Architecture Overview
 
 ```
 ┌─────────────────┐
-│  Puppeteer      │
+│  Playwright     │
 │  (Headless      │──┐
-│   Browser)      │  │
+│   Chromium)     │  │
 └─────────────────┘  │
                      │
 ┌─────────────────┐  │     ┌─────────────────┐
@@ -44,68 +44,75 @@ This document outlines strategies for automating the video export process of FEN
 
 ### Technology Stack
 
-1. **Puppeteer** - Headless Chrome browser automation
-2. **puppeteer-screen-recorder** - Browser screen capture
-3. **FFmpeg** - Video encoding and audio sync
-4. **Node.js** - Orchestration script
+1. **Playwright** - Headless Chromium browser automation (already in project)
+2. **FFmpeg** - Video encoding and audio sync
+3. **Node.js** - Orchestration script
+
+**Note**: Playwright is already installed in the project (`playwright-chromium`), so we'll use it instead of adding Puppeteer as a duplicate dependency.
 
 ## Implementation Approaches
 
-### Option 1: Puppeteer Screen Recorder (Recommended)
+### Option 1: Playwright with Native Video Recording (Recommended)
 
 **Pros:**
 - Captures browser exactly as it appears
 - Handles animations and transitions
-- Native audio capture support
+- Built-in video recording (no extra dependencies)
 - Simple API
+- Already installed in project
 
 **Cons:**
 - Performance overhead from running browser
 - File sizes can be large
+- Browser audio capture may need separate handling
 
 ```javascript
-const puppeteer = require('puppeteer');
-const { PuppeteerScreenRecorder } = require('puppeteer-screen-recorder');
+const { chromium } = require('playwright');
+const path = require('path');
 
 async function recordDeck(deckId) {
-  const browser = await puppeteer.launch({
+  const browser = await chromium.launch({
     headless: true,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
-      '--disable-gpu',
-      '--window-size=1920,1080',
     ],
   });
 
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1920, height: 1080 });
-  
-  // Start screen recorder
-  const recorder = new PuppeteerScreenRecorder(page, {
-    followNewTab: false,
-    fps: 30,
-    videoFrame: {
-      width: 1920,
-      height: 1080,
+  const context = await browser.newContext({
+    viewport: { width: 1920, height: 1080 },
+    recordVideo: {
+      dir: './temp/video-export',
+      size: { width: 1920, height: 1080 }
     },
-    aspectRatio: '16:9',
+    // Disable audio capture as we'll add it separately with FFmpeg
+    recordAudio: false
   });
+  
+  const page = await context.newPage();
   
   // Navigate to presentation
-  await page.goto(`http://localhost:3030/${deckId}`, {
-    waitUntil: 'networkidle0',
+  // NOTE: Server must be running on localhost:3000 before executing
+  await page.goto(`http://localhost:3000/decks/${deckId}/slides.md`, {
+    waitUntil: 'networkidle',
   });
   
-  // Start recording
-  await recorder.start(`./exports/${deckId}.mp4`);
+  // Wait for Slidev to fully load
+  await page.waitForTimeout(2000);
   
   // Automate through slides
   await automatePresentation(page, deckId);
   
-  // Stop recording
-  await recorder.stop();
+  // Close to save video
+  await context.close();
+  
+  // Get the recorded video path
+  const videoPath = await page.video().path();
+  
+  // Use FFmpeg to combine with audio
+  await combineVideoWithAudio(videoPath, deckId);
+  
   await browser.close();
 }
 ```
@@ -128,7 +135,7 @@ async function captureFrames(deckId) {
   const page = await browser.newPage();
   await page.setViewport({ width: 1920, height: 1080 });
   
-  await page.goto(`http://localhost:3030/${deckId}`);
+  await page.goto(`http://localhost:3000/decks/${deckId}/slides.md`);
   
   const audioTimings = await getAudioTimings(deckId);
   const frames = [];
@@ -173,29 +180,45 @@ async function stitchVideo(deckId, frames, audioFiles) {
 }
 ```
 
-### Option 3: Playwright Recorder (Alternative)
+### Option 3: Alternative Approach - Direct FFmpeg Stream
 
-Similar to Puppeteer but with some advantages:
+For maximum control, stream frames directly to FFmpeg without storing intermediate files:
+
+**Pros:**
+- No intermediate storage needed
+- Smallest disk footprint
+- Real-time encoding
+
+**Cons:**
+- Most complex implementation
+- Harder to debug
+- No retry capability for failed frames
 
 ```javascript
 const { chromium } = require('playwright');
+const ffmpeg = require('fluent-ffmpeg');
 
-async function recordWithPlaywright(deckId) {
+async function streamToFFmpeg(deckId) {
   const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({
-    viewport: { width: 1920, height: 1080 },
-    recordVideo: {
-      dir: './exports/',
-      size: { width: 1920, height: 1080 }
-    }
-  });
+  const page = await browser.newPage();
+  await page.setViewportSize({ width: 1920, height: 1080 });
   
-  const page = await context.newPage();
-  await page.goto(`http://localhost:3030/${deckId}`);
+  // Set up FFmpeg stream
+  const ffmpegProcess = ffmpeg()
+    .input('pipe:0')
+    .inputFormat('image2pipe')
+    .inputFPS(30)
+    .addInput(`./decks/${deckId}/audio/combined.mp3`)
+    .output(`./exports/videos/${deckId}.mp4`)
+    .videoCodec('libx264')
+    .audioCodec('aac');
   
-  await automatePresentation(page, deckId);
+  // Navigate and capture frames directly to FFmpeg
+  await page.goto(`http://localhost:3000/decks/${deckId}/slides.md`);
   
-  await context.close();
+  // This approach requires more sophisticated frame timing
+  // and is recommended only for advanced use cases
+  
   await browser.close();
 }
 ```
@@ -309,6 +332,47 @@ async function combineAudioFiles(deckId) {
 }
 ```
 
+## Critical Project-Specific Requirements
+
+### 1. Server Prerequisites
+- **Slidev server MUST be running** on `http://localhost:3000` before executing video export
+- The script will NOT start/stop the server automatically
+- User should restart the server if needed: `npm run dev:FEN_STG` (or appropriate deck command)
+- The script will validate server availability before starting export
+
+### 2. Audio File Structure
+- Audio files are located in `./decks/{DECK_ID}/audio/oai/`
+- Files follow naming pattern: `{DECK_ID}{SECTION_NUMBER}_{CLICK_NUMBER}.mp3`
+- Example: `FEN_STG1_1.mp3`, `FEN_STG2_1.mp3`, `FEN_STG2_2.mp3`
+- Audio script is in `./decks/{DECK_ID}/audio/audio_script.md`
+- Script sections are delimited by `---- Section Title ----`
+
+### 3. Git Configuration
+- Video files MUST be ignored by git (large file sizes)
+- Add to `.gitignore`:
+  ```
+  # Video exports
+  exports/videos/
+  temp/video-export/
+  ```
+- Existing PDF exports in `exports/*.pdf` will remain tracked
+
+### 4. Directory Structure
+```
+exports/
+  ├── videos/              # New: Video exports (git ignored)
+  │   ├── FEN_STG.mp4
+  │   ├── FEN_HMM.mp4
+  │   └── ...
+  └── *.pdf                # Existing: PDF exports (git tracked)
+
+temp/
+  └── video-export/        # Temporary video files (git ignored)
+      ├── frames/
+      ├── audio/
+      └── ...
+```
+
 ## Proposed Script Structure
 
 ```
@@ -316,10 +380,11 @@ async function combineAudioFiles(deckId) {
   /video-export/
     - exportVideo.js          # Main export script
     - audioProcessor.js       # Audio timing/combining
-    - browserAutomation.js    # Puppeteer/Playwright automation
+    - browserAutomation.js    # Playwright automation
     - videoEncoder.js         # FFmpeg operations
-    - deckAnalyzer.js         # Parse deck structure
+    - deckAnalyzer.js         # Parse deck structure & audio script
     - config.js               # Export settings
+    - serverCheck.js          # Validate server is running
 ```
 
 ## Configuration Options
@@ -352,56 +417,95 @@ module.exports = {
   bufferTime: 50, // ms buffer at end of each section
   
   // Paths
-  serverUrl: 'http://localhost:3030',
-  exportDir: './exports',
+  serverUrl: 'http://localhost:3000',
+  exportDir: './exports/videos',
   tempDir: './temp/video-export'
 };
 ```
 
+## Identified Issues & Recommendations
+
+### Issues Found in Original Plan:
+1. ❌ **Wrong Browser Library**: Plan used Puppeteer, but project already has Playwright
+2. ❌ **Wrong Port**: Plan used 3030, but project uses 3000
+3. ❌ **Wrong URL Pattern**: Plan didn't account for Slidev's deck structure
+4. ❌ **No Git Ignore**: Plan didn't address version control for large video files
+5. ❌ **No Export Subdirectory**: Videos mixed with PDFs in same directory
+6. ❌ **Missing Audio Path Logic**: Plan assumed flexible paths, but structure is specific
+7. ❌ **No Server Check**: Plan didn't validate server is running before export
+
+### Improvements Made:
+1. ✅ Use Playwright (already installed)
+2. ✅ Correct server URL: `http://localhost:3000/decks/{DECK_ID}/slides.md`
+3. ✅ Export to `./exports/videos/` subdirectory
+4. ✅ Add git ignore rules for video files and temp directories
+5. ✅ Document specific audio file structure
+6. ✅ Add server validation step
+7. ✅ Add proper error handling and cleanup
+
 ## Implementation Plan
 
-### Phase 1: Basic Export (1-2 days)
-1. Set up Puppeteer with basic navigation
-2. Implement audio timing extraction from your existing system
-3. Create simple frame capture loop
-4. Combine with FFmpeg
+### Phase 1: Setup & Infrastructure (1 day)
+1. Install FFmpeg dependencies
+2. Update `.gitignore` for video exports
+3. Create directory structure (`exports/videos/`, `temp/video-export/`)
+4. Set up basic config file
+5. Implement server availability check
 
-### Phase 2: Audio Integration (1 day)
-1. Parse audio config.json
-2. Extract MP3 durations
-3. Pre-combine audio files
-4. Sync with video frames
+### Phase 2: Audio Processing (1 day)
+1. Parse `audio_script.md` sections
+2. Extract MP3 durations with FFprobe
+3. Create audio file sequence
+4. Implement audio concatenation with FFmpeg
+5. Build timing map for automation
 
-### Phase 3: Automation & Quality (1-2 days)
-1. Implement CLI: `node scripts/exportVideo.js FEN_STG`
-2. Add progress indicators
-3. Error handling and retry logic
+### Phase 3: Video Capture (1-2 days)
+1. Set up Playwright with video recording
+2. Implement slide automation based on audio timings
+3. Handle transitions and animations
+4. Capture full presentation run
+5. Save temporary video file
+
+### Phase 4: Video + Audio Combination (1 day)
+1. Combine captured video with concatenated audio
+2. Implement proper audio sync
+3. Apply encoding settings (quality, bitrate, etc.)
+4. Save final video to `exports/videos/`
+5. Clean up temporary files
+
+### Phase 5: CLI & UX (1 day)
+1. Implement CLI: `node scripts/video-export/exportVideo.js FEN_STG`
+2. Add progress indicators (using existing `ora` package)
+3. Error handling and graceful failures
 4. Quality validation
-5. Batch processing support
+5. Batch processing support: `--all` or multiple deck IDs
 
-### Phase 4: Optimization (1 day)
-1. Parallel processing for multiple decks
-2. Caching mechanisms
+### Phase 6: Optimization (1 day)
+1. Caching for audio concatenation
+2. Parallel processing for multiple decks (optional)
 3. Incremental exports (only changed decks)
 4. Compression optimization
+5. Performance benchmarking
 
 ## Required Dependencies
 
 ```json
 {
   "dependencies": {
-    "puppeteer": "^21.0.0",
-    "puppeteer-screen-recorder": "^3.0.0",
     "fluent-ffmpeg": "^2.1.2",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@ffprobe-installer/ffprobe": "^1.4.0",
     "fs-extra": "^11.0.0",
-    "ora": "^5.4.1",
     "chalk": "^4.1.2",
     "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.48.2"
   }
 }
 ```
+
+**Note**: `playwright-chromium` and `ora` are already installed in the project, so we only need to add FFmpeg-related packages.
 
 ## Usage Example
 
@@ -505,7 +609,94 @@ Use services like AWS Lambda + Puppeteer layers:
 - **Consistency**: Perfect reproduction every time
 - **Scalability**: Process all decks overnight
 
+## Key Risks & Mitigation Strategies
+
+### Risk 1: Audio/Video Sync Drift
+**Problem**: Cumulative timing errors causing audio to drift from video over 10+ minutes
+**Mitigation**:
+- Use exact audio file durations from FFprobe
+- Add minimal buffer time (50-100ms max)
+- Test with shorter decks first
+- Implement sync validation checkpoints
+
+### Risk 2: Browser Resource Issues
+**Problem**: Headless browser crashes or hangs during long recordings
+**Mitigation**:
+- Increase Node.js memory: `NODE_OPTIONS=--max-old-space-size=4096`
+- Monitor memory usage during recording
+- Implement timeout detection and retry logic
+- Consider splitting very long presentations
+
+### Risk 3: Animation Timing
+**Problem**: Slidev transitions not fully completing before next action
+**Mitigation**:
+- Wait for network idle after navigation
+- Add configurable transition delay (100-300ms)
+- Use Playwright's `waitForLoadState` properly
+- Test with decks containing heavy animations
+
+### Risk 4: Large File Sizes
+**Problem**: Video files could be 500MB-1GB each
+**Mitigation**:
+- Already addressed: `.gitignore` configured
+- Use appropriate CRF settings (18-23)
+- Consider cloud storage for finals
+- Keep only latest version locally
+
+### Risk 5: FFmpeg Not Installed
+**Problem**: System may not have FFmpeg installed
+**Mitigation**:
+- Use `@ffmpeg-installer/ffmpeg` package (includes binary)
+- Provide installation instructions in README
+- Add validation check before export
+- Clear error messages if missing
+
+## Final Recommendations
+
+### Before Starting Implementation:
+1. ✅ **Git ignore is now configured** - Video files won't be committed
+2. ⚠️ **Test with ONE deck first** - Use FEN_STG (medium complexity)
+3. ⚠️ **Ensure FFmpeg installation** - Test `ffmpeg -version` in terminal
+4. ⚠️ **Server must be running** - Start with `npm run dev:FEN_STG`
+5. ⚠️ **Disk space check** - Ensure 5-10GB free for temp files
+
+### Implementation Priority:
+1. **Phase 1 first** - Get infrastructure right (dirs, config, validation)
+2. **Phase 2 critical** - Audio processing is the foundation
+3. **Phase 3-4 core** - Basic video capture + combination
+4. **Phase 5-6 polish** - Can be done incrementally
+
+### Success Criteria:
+- ✅ Video plays smoothly without stuttering
+- ✅ Audio is perfectly synced throughout (no drift)
+- ✅ All transitions and animations captured
+- ✅ File size reasonable (<500MB for 10min video)
+- ✅ Process completes in <30 minutes per deck
+- ✅ No manual intervention required
+
+### Alternative If This Fails:
+If headless approach proves too problematic:
+1. **OBS Studio Automation** - Script OBS via websocket
+2. **Cloud Recording Service** - Use AWS Lambda + Playwright
+3. **Hybrid Approach** - Manual recording with better tooling
+
 ## Conclusion
 
-Headless video export is achievable and will significantly improve your workflow. The recommended approach using Puppeteer + screen recorder provides the best balance of implementation complexity, quality, and reliability. The key success factor is ensuring audio synchronization through careful timing management based on your existing audio file system.
+Headless video export is achievable and will significantly improve your workflow. The recommended approach using **Playwright + FFmpeg** provides the best balance of implementation complexity, quality, and reliability for this specific project.
+
+**Key Advantages**:
+- Uses existing dependencies (Playwright already installed)
+- Works with current audio file structure
+- Maintains quality of manual recordings
+- Enables batch processing
+- Eliminates human error
+
+**Critical Success Factors**:
+1. Precise audio synchronization using FFprobe durations
+2. Proper git ignore configuration (✅ **DONE**)
+3. Server availability validation
+4. Appropriate error handling and cleanup
+5. Testing with incremental complexity
+
+The plan is now updated to match your project's specific structure, uses the correct port (3000), exports to the dedicated `exports/videos/` directory, and ensures video files won't be committed to git.
 

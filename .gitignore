@@ -43,3 +43,7 @@ temp/
 .env.example
 node_modules/
 .venv/
+
+# Video exports (large files)
+exports/videos/
+temp/video-export/

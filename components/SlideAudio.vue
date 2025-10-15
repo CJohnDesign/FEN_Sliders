@@ -341,6 +341,7 @@ const handleEndOfPresentation = async () => {
     
     // Stop recording since we've completed the last audio
     console.log('[End Detection] Last audio complete, stopping OBS recording...');
+    console.log('[End Detection] Presentation Complete!'); // Clear signal for video export automation
     await stopRecording();
   }, 1000);
 };
