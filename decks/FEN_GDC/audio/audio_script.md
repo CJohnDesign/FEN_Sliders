@@ -24,11 +24,21 @@ Coverage Effective Date is the first of the month following enrollment.
 
 The Free Look Period gives members 30 days to review their coverage and make changes if needed.
 
-Accelerated Death Benefit allows members to access between ten thousand and up to the lesser of two hundred fifty thousand dollars or 75 percent of their face amount if they are terminally ill with a life expectancy of 12 months or less, unable to do two or more daily living activities on their own, or cognitively impaired such as with advanced dementia or Alzheimer's. 
+Accelerated Death Benefit allows members to access to up to 75 percent of their face amount if they are terminally ill with a life expectancy of 12 months or less, unable to do two or more daily living activities on their own, or cognitively impaired such as with advanced dementia or Alzheimer's. 
 
 The Conversion Right lets a certificateholder change all or part of their group life insurance coverage into an individual permanent life insurance policy without providing medical evidence of insurability if certain events occur, such as leaving the eligible class, ending employment, the group policy ending, or a reduction in coverage.
 
 Voluntary Accidental Death & Dismemberment coverage provides one hundred percent of the life insurance benefit as the principal sum, with the accidental death common carrier benefit paying one hundred percent of AD&D benefit up to two hundred fifty thousand dollars.
+
+Age and Rate Adjustments are important for members to understand. For rate purposes, the member's age updates once a year on the Equitable group's anniversary date, which is October. Equitable's rates are age banded, which means the member's age determines the rate of their policy. If a member enrolls after the anniversary date, their age is based on the date of enrollment. Once the member reaches age 60, their rates will adjust on the next group anniversary date following their 60th birthday.
+
+---- AFE Association Benefits ----
+
+When discussing the association benefits offered through Association for Entrepreneurship USA, you'll want to emphasize the extensive value proposition for entrepreneurs and small business owners.
+
+AFE provides its members with discounts for various services that can benefit startups, self-employed individuals, gig workers, and small businesses alike. These discounts can help members save money on essential services such as marketing, accounting, and legal services.
+
+Whether members are just starting out or they're an established business owner, AFE has created a large portfolio of products and services to support their business needs. The discount benefit categories include health and wellness services, automotive savings, travel benefits, pet care, fitness and wellness, mental health services, food and nutrition, home and lifestyle services, retail and shopping discounts, and business and education resources. Remember to mention that Association for Entrepreneurship AFE association benefits are not affiliated with Equitable Financial Life Insurance Company of America. The Golden Care benefits are not dependent on the use of the association's providers. AFE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state.
 
 ---- Life Insurance Reductions ----
 
@@ -40,7 +50,7 @@ For Accidental Death & Dismemberment, coverage reduces to zero percent of the or
 
 ---- Accidental Dismemberment Benefits ----
 
-Now let's review the comprehensive dismemberment benefits you'll be presenting to prospects, 
+Now let's review the extensive dismemberment benefits you'll be presenting to prospects, 
 
 with percentages based on the AD&D Principal Sum.
 
@@ -89,14 +99,6 @@ Coverage is also excluded for felony or illegal activity, and extreme sports suc
 Finally, racing or stunt activities and non-passenger aircraft travel are excluded.
 
 This is a brief overview of some key exclusions. As agents, please review all policy materials thoroughly with your prospective members to ensure they understand the complete list of exclusions and limitations. Exclusions and limitations may vary by state, so members should always refer to the policy certificate for full terms and conditions of coverage.
-
----- AFE Association Benefits ----
-
-When discussing the association benefits offered through Association for Entrepreneurship USA, you'll want to emphasize the extensive value proposition for entrepreneurs and small business owners.
-
-AFE provides its members with discounts for various services that can benefit startups, self-employed individuals, gig workers, and small businesses alike. These discounts can help members save money on essential services such as marketing, accounting, and legal services.
-
-Whether members are just starting out or they're an established business owner, AFE has created a large portfolio of products and services to support their business needs. The discount benefit categories include health and wellness services, automotive savings, travel benefits, pet care, fitness and wellness, mental health services, food and nutrition, home and lifestyle services, retail and shopping discounts, and business and education resources. Remember to mention that Association for Entrepreneurship AFE association benefits are not affiliated with Equitable Financial Life Insurance Company of America. The Golden Care benefits are not dependent on the use of the association's providers. AFE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state.
 
 ---- Key Takeaways for Golden Care ----
 

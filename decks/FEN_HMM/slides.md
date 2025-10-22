@@ -97,88 +97,35 @@ transition: fade-out
 layout: default
 ---
 
-## Association benefits through NCE (1/3)
+## Association Benefits through NCE
 
 <v-click>
 
-**Core Medical Support**
-- **Medical Bill Negotiations**: Patient advocates work on your behalf to reduce the cost of your medical bills.
-- **24/7 Nurse Help Line**: Have 24/7 access to a registered nurse (RN) to answer questions on family health issues.
-- **Laboratory Savings Program**: Efficient, affordable, and confidential solution to medical laboratory testing.
-- **Medical Supplies & Equipment**: Save from **20% to 50%** off your medical supply needs.
+NCE provides discounts for various health and wellness services. Save money on **medical care**, **prescriptions**, **dental**, **vision**, and **therapy services**.
+
 </v-click>
 
 <v-click>
-
-**Dental & Vision Care**
-- **Aetna Dental Access® Network***: Savings ranging from **15-50%** per visit on dental services including cleanings, x-rays, fillings, root canals, crowns, bridges and orthodontia.
-- **OUTLOOK Vision Network***: Savings of **10% to 50%** on most prescription eyeglasses, frames, and lenses through over **12,000 optical centers**.
-
-
-</v-click>
 
 <small>
 
-*This program is not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
+**Medical Support:** Medical Bill Negotiations • 24/7 Nurse Help Line • Laboratory Savings • Medical Supplies & Equipment (20-50% off)
 
-**Disclaimer:** National Congress of Employers (NCE) association benefits are not affiliated with American Financial Security Life Insurance Company. Harmony Care Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please refer to the NCE Membership brochure for complete details. Association membership can be purchased without insurance at https://nceassociation.org/.
+**Dental & Vision:** Aetna Dental Access® Network* (15-50% savings) • OUTLOOK Vision Network* (10-50% off eyeglasses)
+
+**Prescriptions:** Prescription Discount Card (55% generic, 15% brand-name) • MedAfford Global (up to 80% off) • Diabetic Supplies (20-85% off)
+
+**Therapy & Rehabilitation:** Physical Therapy (avg 20% savings) • Chiropractic (free consultation, up to 50% off) • Speech Therapy • Hearing (free consultations)
+
+**Wellness & Natural Health:** SDO Nutrition • CBD Products • Vitamins & Supplements (up to 75% off)
 
 </small>
 
----
-transition: fade-out
-layout: default
----
-
-## Association benefits through NCE (2/3)
-
-<v-click>
-
-**Prescription Savings**
-- **Prescription Discount Card**: Save an average of **55%** on generic drugs and **15%** on brand-name drugs at over **80%** of pharmacies.
-- **MedAfford Global**: Save up to **80%** on prescription medications with insulin medication savings of **45%** or better.
-- **Diabetic Supplies**: Receive discounts on diabetes supplies at **20-85%** off retail prices.
-</v-click>
-
-<v-click>
-
-**Natural Health Products**
-- **CBD Products**: All natural ingredients and the purest form of Cannabidiol as a **safe alternative** to prescription painkillers.
-- **Vitamins & Supplements**: Save up to **75%** off retail pricing on natural products including vitamins and supplements.
-
-
 </v-click>
 
 <small>
 
-**Disclaimer:** National Congress of Employers (NCE) association benefits are not affiliated with American Financial Security Life Insurance Company. Harmony Care Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please refer to the NCE Membership brochure for complete details. Association membership can be purchased without insurance at https://nceassociation.org/.
-
-</small>
-
----
-transition: fade-out
-layout: default
----
-
-## Association benefits through NCE (3/3)
-
-<v-click>
-
-**Rehabilitation & Therapy**
-- **Physical Therapy & Rehabilitation**: Save an average of **20%** at over **1,200 offices** with **4,000 providers** in 23 states.
-- **Chiropractic Savings Program**: **Free initial consultation**, up to **50%** savings on diagnostic services, and unlimited treatments at up to **30%** savings from over **12,000 chiropractors**.
-- **Speech Therapy**: Video conferencing technology for live, **one-on-one**, highly individualized speech therapy services.
-- **Hearing Savings Program**: **Free hearing consultations** and exclusive discounts on the latest hearing aid technology.
-</v-click>
-
-<v-click>
-
-**Wellness & Nutrition**
-- **SDO Nutrition**: Helps achieve **personal health goals**, maintain a healthy lifestyle, and manage chronic health conditions through **food and diet education**.
-</v-click>
-
-
-<small>
+*Aetna Dental and OUTLOOK Vision not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
 
 **Disclaimer:** National Congress of Employers (NCE) association benefits are not affiliated with American Financial Security Life Insurance Company. Harmony Care Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please refer to the NCE Membership brochure for complete details. Association membership can be purchased without insurance at https://nceassociation.org/.
 
@@ -246,7 +193,7 @@ clicks: 4
 | Basic Pathology Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> |
 | Basic Radiology Per Day | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$50</span> | <span :class="[$clicks >= 2 && 'font-bold']">$75</span> |
 | Basic Radiology Max Days | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">1</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> | <span :class="[$clicks >= 2 && 'font-bold']">--</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">2</span> | <span :class="[$clicks >= 2 && 'font-bold']">3</span> |
-| **Surgery Benefits*** | | | | | | | | |
+| **Surgery Benefits**** | | | | | | | | |
 | Inpatient Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$750</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,500</span> |
 | Inpatient Max Days | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> | <span :class="[$clicks >= 3 && 'font-bold']">3</span> |
 | Outpatient Per Day | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">--</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$400</span> | <span :class="[$clicks >= 3 && 'font-bold']">$750</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,000</span> | <span :class="[$clicks >= 3 && 'font-bold']">$1,500</span> |
@@ -300,22 +247,11 @@ clicks: 5
 <small>
 
 **Mental Health Benefits** are available on Plans 300, 500, 750, and 1000 only.  
-Coverage includes psychiatric hospitals, mental health facilities, and outpatient therapy sessions.
+Coverage includes licensed mental health facilities and outpatient therapy sessions.
 
 </small>
 
 </v-click>
-
-<!-- <v-click>
-
-<small>
-
-**Mental Health Benefits** are available on Plans 300, 500, 750, and 1000 only.  
-Coverage includes psychiatric hospitals, mental health facilities, and outpatient therapy sessions.
-
-</small>
-
-</v-click> -->
 
 <small>
 

@@ -299,7 +299,7 @@ clicks: 2
 <small>
 
 **Mental Health Benefits** are available on Plans 300, 500, 750, and 1000 only.  
-Coverage includes psychiatric hospitals, mental health facilities, and outpatient therapy sessions.
+Coverage includes licensed mental health facilities and outpatient therapy sessions.
 
 </small>
 

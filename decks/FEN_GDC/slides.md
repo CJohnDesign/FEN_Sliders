@@ -79,7 +79,7 @@ layout: default
 
 <v-click>
 
-- **Accelerated Death Benefit** - $10,000 minimum, up to lesser of $250,000 or 75% of face amount
+- **Accelerated Death Benefit** - $10,000 minimum, up to 75% of face amount
 </v-click>
 
 <v-click>
@@ -91,6 +91,52 @@ layout: default
 
 - **Voluntary AD&D** - 100% of Life Insurance Benefit as Principal Sum
 </v-click>
+
+<v-click>
+
+- **Age & Rate Adjustments** - Member age updates annually on the October group anniversary date. Age is based on enrollment date if enrolled after anniversary. Rates adjust at next group anniversary after age 60.
+</v-click>
+
+---
+transition: fade-out
+layout: default
+---
+
+## Association Benefits through AFE
+
+<v-click>
+
+AFE provides discounts for various services benefiting **startups**, **self-employed individuals**, **gig workers**, and **small businesses**. Save money on **marketing**, **accounting**, and **legal services**.
+
+</v-click>
+
+<v-click>
+
+<small>
+
+**Health & Wellness:** All One Health • VSP Vision Care • Allstate ID • RX Less • Glasses USA.com • LA Fitness • Active & Fit Direct • Husk • Horizon Fitness • My Benefits Work • Spa Week Media • Byte • Apollo
+
+**Automotive:** Myautoloan® • TrueCar • Endurance Auto Protection | **Travel:** Discount Travel Marketplace • Employee Member University Travel Specials • Unlimited Biking
+
+**Pet Care:** The Farmer's Dog | **Mental Health:** Enlightened Solutions • Sound Mind Network • Of Substance. • Kindly Human
+
+**Food & Nutrition:** Chicago Steak Company • Factor • Nutrisystem
+
+**Home Services:** PODS • American Home Shield • The Home Depot • Renewal by Anderson • Vivint • ADT • Armadillo • Choice Home Warranty
+
+**Retail & Shopping:** Costco Warehouse • Sam's Club • Retail Cash Back • LocalFlavor.com • Deals on National Brands • AeroGarden • Gift a Magazine • Flower Discounts
+
+**Business & Education:** eBook & Planning Guide • Grand Canyon University • The Messinger Institute • Microsoft 365 • Intuit TurboTax • Verizon Wireless • Constant Contact
+
+</small>
+
+</v-click>
+
+<small>
+
+**Disclaimer:** Association for Entrepreneurship (AFE) association benefits are not affiliated with Equitable Financial Life Insurance Company of America. The Golden Care benefits are not dependent on the use of the association's providers. AFE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please refer to the AFE Membership brochure for complete details. Association membership can be purchased without insurance at https://afeusa.org/.
+
+</small>
 
 ---
 transition: fade-out
@@ -133,6 +179,12 @@ Any reduction takes place on the next policyholder anniversary date.
 
 </small>
 
+<small>
+
+**Disclaimer:** This is a group Term Life w/ Accelerated Death Benefit and Accidental Death & Dismemberment (AD&D) policy. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE FOR FULL DETAILS.
+
+</small>
+
 ---
 transition: fade-out
 layout: default
@@ -168,7 +220,7 @@ Percentages based on the **AD&D Principal Sum** (100% of Life Insurance Benefit)
 
 <small>
 
-**Disclaimer:** This is a brief description of Golden Care. Please check the product certificate or master policy for complete details.
+**Disclaimer:** This is a group Term Life w/ Accelerated Death Benefit and Accidental Death & Dismemberment (AD&D) policy. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE FOR FULL DETAILS.
 
 </small>
 
@@ -230,6 +282,14 @@ layout: default
 
 </div>
 
+
+<small>
+
+**Disclaimer:** This is a group Term Life w/ Accelerated Death Benefit and Accidental Death & Dismemberment (AD&D) policy. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE FOR FULL DETAILS.
+
+</small>
+
+
 ---
 transition: fade-out
 layout: default
@@ -261,6 +321,12 @@ An advance payment of part or all of a life insurance policy's death benefit if 
 Lets a certificateholder change (convert) all or part of their group life insurance coverage into an individual permanent life insurance policy **without medical evidence** if certain events occur — such as leaving the eligible class, ending employment, the group policy ending, or a reduction in coverage.
 
 </v-click>
+
+<small>
+
+**Disclaimer:** This is a brief description of Golden Care. Please check the product certificate or master policy for complete details.
+
+</small>
 
 ---
 transition: fade-out
@@ -294,46 +360,6 @@ layout: default
 
 </v-click>
 
----
-transition: fade-out
-layout: default
----
-
-## Association Benefits through AFE
-
-<v-click>
-
-AFE provides discounts for various services benefiting **startups**, **self-employed individuals**, **gig workers**, and **small businesses**. Save money on **marketing**, **accounting**, and **legal services**.
-
-</v-click>
-
-<v-click>
-
-<small>
-
-**Health & Wellness:** All One Health • VSP Vision Care • Allstate ID • RX Less • Glasses USA.com • LA Fitness • Active & Fit Direct • Husk • Horizon Fitness • My Benefits Work • Spa Week Media • Byte • Apollo
-
-**Automotive:** Myautoloan® • TrueCar • Endurance Auto Protection | **Travel:** Discount Travel Marketplace • Employee Member University Travel Specials • Unlimited Biking
-
-**Pet Care:** The Farmer's Dog | **Mental Health:** Enlightened Solutions • Sound Mind Network • Of Substance. • Kindly Human
-
-**Food & Nutrition:** Chicago Steak Company • Factor • Nutrisystem
-
-**Home Services:** PODS • American Home Shield • The Home Depot • Renewal by Anderson • Vivint • ADT • Armadillo • Choice Home Warranty
-
-**Retail & Shopping:** Costco Warehouse • Sam's Club • Retail Cash Back • LocalFlavor.com • Deals on National Brands • AeroGarden • Gift a Magazine • Flower Discounts
-
-**Business & Education:** eBook & Planning Guide • Grand Canyon University • The Messinger Institute • Microsoft 365 • Intuit TurboTax • Verizon Wireless • Constant Contact
-
-</small>
-
-</v-click>
-
-<small>
-
-**Disclaimer:** Association for Entrepreneurship (AFE) association benefits are not affiliated with Equitable Financial Life Insurance Company of America. The Golden Care benefits are not dependent on the use of the association's providers. AFE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please refer to the AFE Membership brochure for complete details. Association membership can be purchased without insurance at https://afeusa.org/.
-
-</small>
 
 ---
 transition: fade-out

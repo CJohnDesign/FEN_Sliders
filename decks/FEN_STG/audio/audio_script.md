@@ -30,29 +30,13 @@ Accident and Critical Illness Benefits include supplemental accident coverage th
 
 Age Eligibility covers individuals from 18 to 64 years old, with dependent unmarried children covered under the age of 26, ensuring family coverage for those who need it most.
 
----- Association benefits through NCE (1/3) ----
+---- Association Benefits through NCE ----
 
-Now let's discuss discount benefits through National Congress of Employers Association, NCE
+Now let's discuss the extensive discount benefits available through the National Congress of Employers Association, or NCE.
 
-Your member will receive medical support including medical bill negotiations, 24/7 nurse access, laboratory savings, and discounts on medical supplies ranging from 20 to 50 percent off retail prices.
+NCE membership provides your members with valuable discounts across multiple health and wellness categories that can really enhance the value of their plan. They'll save money on medical care, prescriptions, dental, vision, and therapy services.
 
-For dental and vision care, NCE provides savings through the Aetna Dental Access Network and OUTLOOK Vision Network, offering 15 to 50 percent savings on basic dental services.
-
----- Association benefits through NCE (2/3) ----
-
-Next, here's how you'll present the prescription and health product discount benefits.
-
-NCE offers prescription savings with discount cards and specialized programs, including savings on diabetic supplies and insulin medications that can resonate strongly with members who have these needs.
-
-Your members will also have access to natural health products including CBD alternatives and vitamins with savings up to 75 percent off retail pricing.
-
----- Association benefits through NCE (3/3) ----
-
-When presenting therapy and wellness discount services, you'll want to emphasize the nature of these discount benefits.
-
-This includes physical therapy, chiropractic care, speech therapy, and hearing services that your members can access immediately upon enrollment.
-
-Your members will also get access to nutrition education and wellness programs to support their overall health goals, which appeals to members looking for holistic health support.
+Your members will receive extensive medical support including medical bill negotiations, 24/7 nurse help line access, laboratory savings, and medical supplies with 20 to 50 percent savings. For dental and vision care, members get access to the Aetna Dental Access Network with 15 to 50 percent savings on services, and the OUTLOOK Vision Network offering 10 to 50 percent off eyeglasses and frames. Note that these programs aren't available in Alaska, Montana, Rhode Island, Utah, Vermont, and Washington. NCE also offers prescription savings with discount cards averaging 55 percent on generic drugs and 15 percent on brand-name drugs, plus MedAfford Global with up to 80 percent savings and diabetic supplies at 20 to 85 percent off. For therapy and rehabilitation, members can access physical therapy with average 20 percent savings, chiropractic care with free initial consultations and up to 50 percent off services, plus speech therapy and hearing services with free consultations. Finally, members gain access to wellness programs including SDO Nutrition, CBD products, and vitamins with up to 75 percent savings off retail pricing. Remember, these association benefits are not insurance and do not provide coverage - they only provide discounts and services that add significant value to the membership.
 
 ---- Stable Guard Benefits ----
 
@@ -140,4 +124,4 @@ And remember, these are fixed indemnity benefits that pay regardless of other in
 
 ---- Closing ----
 
-Thank you for taking the time to learn about Stable Guard. By understanding each plan's features and cost-saving tools, you'll be able to guide your members toward the option that best suits their needs. Continue to be great!
+Thank you for taking the time to learn about Stable Guard. Continue to be great!

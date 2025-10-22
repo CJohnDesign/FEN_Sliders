@@ -18,6 +18,10 @@ yarn.lock
 firstenroll-f68aed7de363.json
 *-f68aed*.json
 
+# Google Cloud authentication (DO NOT COMMIT)
+credentials.json
+token.json
+
 # IDE/Editor specific
 .idea/
 .vscode/
@@ -44,6 +48,11 @@ temp/
 node_modules/
 .venv/
 
-# Video exports (large files)
-exports/videos/
+# Exports (PDFs, videos, and other generated files)
+exports/
+
+# Audio files in decks
+decks/**/*.mp3
+
+# Temporary files
 temp/video-export/

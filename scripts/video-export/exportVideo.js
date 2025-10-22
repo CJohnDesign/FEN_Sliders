@@ -274,7 +274,23 @@ async function exportDeck(deckId, options) {
     console.log(`${chalk.bold('Duration:')} ${durationMin} minutes`);
     console.log(`${chalk.bold('Resolution:')} ${videoInfo.width}x${videoInfo.height}`);
     console.log(chalk.gray('─'.repeat(50)));
-    console.log(chalk.gray('\nReturning control to shell...\n'));
+    
+    // Output JSON for parsing by wrapper scripts
+    console.log('\n--- VIDEO_EXPORT_JSON ---');
+    console.log(JSON.stringify({
+      deckId,
+      filename: outputFilename,
+      path: outputPath,
+      size: videoInfo.size,
+      sizeMB: parseFloat(sizeInMB),
+      duration: videoInfo.duration,
+      durationMin: parseFloat(durationMin),
+      resolution: `${videoInfo.width}x${videoInfo.height}`,
+      status: 'completed'
+    }, null, 2));
+    console.log('--- END_VIDEO_EXPORT_JSON ---\n');
+    
+    console.log(chalk.gray('Returning control to shell...\n'));
 
   } catch (error) {
     spinner.fail(`Export failed: ${error.message}`);
@@ -290,7 +306,8 @@ async function exportDeck(deckId, options) {
       }
     }
     
-    process.exit(1);
+    // Re-throw error after cleanup so wrapper script can handle it
+    throw error;
   } finally {
     console.log(chalk.gray('Cleaning up...'));
     
@@ -302,6 +319,13 @@ async function exportDeck(deckId, options) {
       } catch (error) {
         // Ignore
       }
+    }
+    
+    // Also kill any processes still on port 3030
+    try {
+      await killPortProcess(3030);
+    } catch (error) {
+      // Ignore
     }
 
     // Clean up temp files quickly
@@ -326,12 +350,11 @@ async function exportDeck(deckId, options) {
     };
     
     console.log(chalk.gray('✓ Export process complete'));
-    
-    // Force exit to return control
-    setTimeout(() => {
-      process.exit(0);
-    }, 100);
   }
+  
+  // Allow stdout to flush before returning control
+  await new Promise(resolve => setTimeout(resolve, 100));
+  // Note: Removed process.exit(0) - let script complete naturally so wrapper can continue
 }
 
 /**

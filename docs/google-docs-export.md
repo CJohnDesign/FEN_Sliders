@@ -112,6 +112,43 @@ After creating the Google Docs:
 - Large files may take 2-3 minutes to process
 - If the API times out, simply retry the document creation
 
+## PDF Export Workflow
+
+### Complete Process for PDF Export and Upload
+
+For exporting the Slidev presentation itself as a PDF:
+
+```bash
+# 1. Start the dev server (in background)
+npm run deck dev FEN_[CODE]
+
+# 2. Wait 5 seconds for server to spin up
+sleep 5
+
+# 3. Export PDF (this also uploads to Supabase automatically)
+npm run deck export FEN_[CODE]
+```
+
+The export command will:
+1. Generate a versioned PDF (e.g., `FEN_IVCH_001.pdf`)
+2. Save it locally to `/Exports/`
+3. Upload it to Supabase storage automatically
+4. Provide a Supabase URL for Google Drive upload
+
+### Uploading PDF to Google Drive
+
+After the PDF export completes, upload to Google Drive:
+
+```javascript
+mcp_Zapier_google_drive_upload_file({
+  file: "[SUPABASE_URL_FROM_EXPORT]",
+  folder: "[FOLDER_ID]",
+  new_name: "FEN_[CODE]_001"  // Without .pdf extension
+})
+```
+
+**Important**: Do not include `.pdf` in the filename - it will be added automatically.
+
 ## Troubleshooting
 
 ### Folder Already Exists
@@ -132,7 +169,20 @@ If a document with the same name already exists, the API will create a new docum
 
 ### API Timeout
 
-If the Google Docs creation times out (especially for large scripts), simply retry the operation. The timeout is usually due to API rate limiting, not a problem with the content.
+If the Google Docs creation times out (especially for large scripts), use the alternative approach:
+
+**Solution**: Use `mcp_Zapier_google_drive_create_file_from_text` with `convert: true` instead:
+
+```javascript
+mcp_Zapier_google_drive_create_file_from_text({
+  title: "FEN_[CODE]-Script",
+  folder: "[FOLDER_ID]",
+  file: "[CONTENT]",
+  convert: "true"  // Converts plain text to Google Doc
+})
+```
+
+This method is more reliable for larger files and will create a Google Doc without timing out.
 
 ## Related Documentation
 

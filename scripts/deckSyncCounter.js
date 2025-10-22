@@ -229,11 +229,33 @@ function compareContent(scriptInfo, slideInfo) {
       
       const slideTitle = slideInfo.slideTitles[index] || 'No title found';
       
+      // Determine what action is needed
+      const neededScriptLines = clickCount + 1; // +1 for the title line
+      const difference = neededScriptLines - lineCount;
+      
       errorMessages.push(`\n❌ Sync Mismatch in Section ${index + 1}:`);
       errorMessages.push(`   Slide Title: "${slideTitle}"`);
-      errorMessages.push(`   Script lines: ${lineCount}`);
-      errorMessages.push(`   Click events: ${clickCount}`);
-      errorMessages.push(`   Expected clicks: ${expectedClicks} (script lines - 1 for headline)`);
+      errorMessages.push(`   Current script paragraphs: ${lineCount}`);
+      errorMessages.push(`   Slide v-clicks: ${clickCount}`);
+      
+      if (difference > 0) {
+        errorMessages.push(`   📝 ACTION: Split this section into ${neededScriptLines} paragraphs`);
+        errorMessages.push(`      • Break the existing text into ${neededScriptLines} separate paragraphs`);
+        errorMessages.push(`      • Paragraph 1: Speaks to the slide title (v-click 0)`);
+        if (clickCount > 0) {
+          errorMessages.push(`      • Paragraphs 2-${neededScriptLines}: Each speaks to one v-click (${clickCount} total v-clicks)`);
+        }
+        errorMessages.push(`      • TIP: Sentences can flow between paragraphs - mid-sentence slide changes are natural`);
+        errorMessages.push(`      • Remember: Spell out numbers, use spaces in acronyms (A M L, DOI, etc.) HIPAA has no space between the letters`);
+      } else if (difference < 0) {
+        errorMessages.push(`   📝 ACTION: Combine into ${neededScriptLines} paragraph${neededScriptLines !== 1 ? 's' : ''}`);
+        errorMessages.push(`      • Merge the existing ${lineCount} paragraphs into ${neededScriptLines}`);
+        errorMessages.push(`      • Paragraph 1: Speaks to the slide title (v-click 0)`);
+        if (clickCount > 0) {
+          errorMessages.push(`      • Paragraphs 2-${neededScriptLines}: Each speaks to one v-click (${clickCount} total v-clicks)`);
+        }
+        errorMessages.push(`      • TIP: Keep natural flow - it's OK to complete thoughts across v-clicks`);
+      }
     }
   });
   

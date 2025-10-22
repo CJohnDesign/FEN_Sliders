@@ -30,29 +30,13 @@ Accident and Critical Illness Benefits include supplemental accident coverage th
 
 And QuestSelect Laboratory Services are included on every plan level, providing unlimited lab testing through the Quest Diagnostics network at no additional cost. 
 
----- NCE Healthcare & Medical Services ----
+---- Association Benefits through NCE ----
 
-When discussing the healthcare and medical services offered through the National Congress of Employers association, you'll want to emphasize the value proposition. 
+Now let's discuss the extensive discount benefits available through the National Congress of Employers Association, or NCE.
 
-Your prospects will receive medical support including bill negotiations, 24/7 nurse access, laboratory savings, and discounts on medical supplies. 
+NCE membership provides your prospects with valuable discounts across multiple health and wellness categories that can really enhance the value of their plan. They'll save money on medical care, prescriptions, dental, vision, and therapy services.
 
-For dental and vision care, NCE provides significant savings through the Aetna Dental Access Network and OUTLOOK Vision Network, offering 15 to 50 percent savings on routine and specialty services that you can highlight as immediate value. Please note that these programs are not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
-
----- NCE Prescription & Health Products ----
-
-Next, here's how you'll present the prescription and health product benefits to prospects.
-
-NCE offers substantial prescription savings with discount cards and specialized programs, including significant savings on diabetic supplies and insulin medications that can resonate strongly with prospects who have these needs.
-
-Your prospects will also have access to natural health products including CBD alternatives and vitamins with savings up to 75 percent off retail pricing - a compelling selling point for health-conscious individuals.
-
----- NCE Therapy & Wellness Services ----
-
-When presenting therapy and wellness services, you'll want to emphasize the nature of these benefits.
-
-This includes physical therapy, chiropractic care, speech therapy, and hearing services through extensive provider networks that your prospects can access immediately upon enrollment.
-
-Your members will also get access to nutrition education and wellness programs to support their overall health goals, which appeals to prospects looking for holistic health support. Remember to mention that National Congress of Employers NCE association benefits are not affiliated with American Financial Security Life Insurance Company. Harmony Care Plus Plan benefits are not dependent on the use of the association's providers. NCE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state. Please note that Aetna Dental Access Network and OUTLOOK Vision Network programs are not available in Alaska, Montana, Rhode Island, Utah, Vermont and Washington.
+Your prospects will receive extensive medical support including medical bill negotiations, 24/7 nurse help line access, laboratory savings, and medical supplies with 20 to 50 percent savings. For dental and vision care, prospects get access to the Aetna Dental Access Network with 15 to 50 percent savings on services, and the OUTLOOK Vision Network offering 10 to 50 percent off eyeglasses and frames. Note that these programs aren't available in Alaska, Montana, Rhode Island, Utah, Vermont, and Washington. NCE also offers prescription savings with discount cards averaging 55 percent on generic drugs and 15 percent on brand-name drugs, plus MedAfford Global with up to 80 percent savings and diabetic supplies at 20 to 85 percent off. For therapy and rehabilitation, prospects can access physical therapy with average 20 percent savings, chiropractic care with free initial consultations and up to 50 percent off services, plus speech therapy and hearing services with free consultations. Finally, prospects gain access to wellness programs including SDO Nutrition, CBD products, and vitamins with up to 75 percent savings off retail pricing. Remember, these association benefits are not insurance and do not provide coverage - they only provide discounts and services that add significant value to the membership.
 
 ---- Harmony Care Plus Plan Options ----
 
