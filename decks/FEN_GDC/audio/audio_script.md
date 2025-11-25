@@ -16,15 +16,15 @@ Membership is available through the Association for Entrepreneurship USA, which 
 
 Let's explore the key features you'll be highlighting to prospects. 
 
-Guaranteed Issue Member Coverage provides ten thousand dollars of life insurance with no medical exam required and a six-month waiting period, making enrollment simple and accessible.
+Guaranteed Issue Member Coverage provides up to ten thousand dollars of life insurance with no medical exam required and a six-month waiting period, making enrollment simple and accessible.
 
-Age Eligibility covers individuals ages 18 and up, ensuring broad access to this valuable protection.
+Age Eligibility covers individuals ages 18 - 84, ensuring broad access to this valuable protection.
 
 Coverage Effective Date is the first of the month following enrollment.
 
 The Free Look Period gives members 30 days to review their coverage and make changes if needed.
 
-Accelerated Death Benefit allows members to access to up to 75 percent of their face amount if they are terminally ill with a life expectancy of 12 months or less, unable to do two or more daily living activities on their own, or cognitively impaired such as with advanced dementia or Alzheimer's. 
+Accelerated Death Benefit allows members to access up to ten thousand dollars if they are diagnosed as terminally ill with a life expectancy of 12 months or less, unable to do two or more daily living activities on their own, or cognitively impaired such as with advanced dementia or Alzheimer's. 
 
 The Conversion Right lets a certificateholder change all or part of their group life insurance coverage into an individual permanent life insurance policy without providing medical evidence of insurability if certain events occur, such as leaving the eligible class, ending employment, the group policy ending, or a reduction in coverage.
 
@@ -34,23 +34,23 @@ Age and Rate Adjustments are important for members to understand. For rate purpo
 
 ---- AFE Association Benefits ----
 
-When discussing the association benefits offered through Association for Entrepreneurship USA, you'll want to emphasize the extensive value proposition for entrepreneurs and small business owners.
+When discussing the association benefits offered through AFE, you'll want to emphasize the extensive value proposition for entrepreneurs and small business owners.
 
-AFE provides its members with discounts for various services that can benefit startups, self-employed individuals, gig workers, and small businesses alike. These discounts can help members save money on essential services such as marketing, accounting, and legal services.
+AFE provides discounts for various services benefiting those who are considering or participating in the gig economy. These discounts can help members save money on essential services such as marketing, accounting, and legal services.
 
-Whether members are just starting out or they're an established business owner, AFE has created a large portfolio of products and services to support their business needs. The discount benefit categories include health and wellness services, automotive savings, travel benefits, pet care, fitness and wellness, mental health services, food and nutrition, home and lifestyle services, retail and shopping discounts, and business and education resources. Remember to mention that Association for Entrepreneurship AFE association benefits are not affiliated with Equitable Financial Life Insurance Company of America. The Golden Care benefits are not dependent on the use of the association's providers. AFE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state.
+Whether members are just starting out or they're an established business owner, AFE has created a large portfolio of products and services to support their business needs. This membership includes a Legal Plan with a thirty minute consultation with an attorney, document resources and more, counseling up to four one hour visits in person or by phone, Vision Service Plan and Allstate ID Protection. Plus discounts at major services and retails national to choose from. Remember to mention that Association for Entrepreneurship AFE association benefits are not affiliated with Equitable Financial Life Insurance Company of America. The Golden Care benefits are not dependent on the use of the association's providers. AFE membership is available without purchasing this plan. The benefits listed are not insurance and do not provide coverage, they only provide discounts and services. Benefit discounts and services vary by state.
 
 ---- Life Insurance Reductions ----
 
 It's important to understand how coverage adjusts with age so you can properly set expectations with prospects.
 
-Upon the member's attainment of age 65 and over, the life insurance scheduled benefit amount will automatically reduce to 50 percent of the original amount. At age 75 and over, coverage reduces to 25 percent of the original amount. At age 85 and over, life insurance coverage reduces to zero percent of the original amount.
+Upon the member's attainment of age 65 and over, the life insurance scheduled benefit amount will automatically reduce to 50 percent of the original life amount. At age 75 and over, coverage reduces to 75 percent of the original amount. At age 85 and over, life insurance coverage reduces to zero percent of the original amount.
 
 For Accidental Death & Dismemberment, coverage reduces to zero percent of the original amount at age 85 and over. Any reduction takes place on the next policyholder anniversary date.
 
 ---- Accidental Dismemberment Benefits ----
 
-Now let's review the extensive dismemberment benefits you'll be presenting to prospects, 
+Now let's review the comprehensive dismemberment benefits you'll be presenting to prospects, 
 
 with percentages based on the AD&D Principal Sum.
 
@@ -62,7 +62,7 @@ Uniplegia, loss of all fingers on one hand, or loss of all toes on one foot prov
 
 ---- Additional Benefits ----
 
-Golden Care includes several additional benefits that add tremendous value for your prospects.
+Golden Care includes several additional benefits that add value for your prospects.
 
 The Child Education benefit provides the lesser of incurred educational expenses or twenty-five hundred dollars annually, with a maximum benefit period of 4 years and maximum benefit payable of ten thousand dollars.
 
@@ -102,9 +102,9 @@ This is a brief overview of some key exclusions. As agents, please review all po
 
 ---- Key Takeaways for Golden Care ----
 
-As agents, remember these crucial selling points when presenting Golden Care:
+As agents, remember these crucial points when presenting Golden Care:
 
-Guaranteed Issue Life Insurance of ten thousand dollars with no medical exam makes this accessible to all prospects ages 18 and up.
+Guaranteed Issue Life Insurance of up to ten thousand dollars with no medical exam makes this accessible to all prospects ages 18 and up.
 
 Accelerated Death Benefit provides access to life insurance funds during terminal illness, inability to perform daily living activities, or cognitive impairment, offering financial support when families need it most.
 
@@ -114,10 +114,11 @@ Additional Benefits including child education, day care, rehabilitation, repatri
 
 The Conversion Right allows members to convert group coverage to individual permanent life insurance without medical underwriting during qualifying events.
 
-AFE Association Benefits provide extensive discounts and services specifically designed for entrepreneurs, startups, gig workers, and small business owners at no extra cost.
+AFE Association Benefits AFE provides discounts for various services benefiting those who are considering or participating in the gig economy.
 
 And remember, this Group Term Life with Accelerated Death Benefit and Accidental Death & Dismemberment policy provides valuable protection that can supplement existing coverage your prospects may have.
 
 ---- Closing ----
 
 Thank you for taking the time to learn about Golden Care Plan Overview. Continue to be great agents!
+

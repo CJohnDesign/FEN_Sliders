@@ -50,6 +50,12 @@ Membership through the **Association for Entrepreneurship USA (AFE)**.
 </div> -->
 </v-click>
 
+<small>
+
+**Disclaimer:** Equitable is the brand name of the retirement and protection subsidiaries of Equitable Holdings, Inc., including Equitable Financial Life Insurance Company (Equitable Financial) (NY, NY); Equitable Financial Life Insurance Company of America (Equitable America), an AZ stock company with an administrative office located in Charlotte, NC; and Equitable Distributors, LLC. Equitable Advisors is the brand name of Equitable Advisors, LLC (member FINRA, SIPC) (Equitable Financial Advisors in MI & TN). All group insurance products are issued either by Equitable Financial or Equitable America, which have sole responsibility for their respective insurance and are backed solely by their claims-paying obligations. Some products are not available in all states. Each product has limitations and exclusions. Optional riders and/or features may incur additional costs. Plan documents are the final arbiter of coverage. Some products may not be available in all states. The policy provisions may vary or be unavailable in some states. © 2025 Equitable Holdings, Inc. All rights reserved. 8589778.1
+
+</small>
+
 ---
 transition: fade-out
 layout: default
@@ -59,12 +65,12 @@ layout: default
 
 <v-click>
 
-- **Guaranteed Issue** - $10,000 member coverage, no medical exam required (6-month waiting period)
+- **Guaranteed Issue** - up to $10,000 member coverage, no medical exam required (6-month waiting period)
 </v-click>
 
 <v-click>
 
-- **Age Eligibility** - Ages 18 and up
+- **Age Eligibility** - Ages 18 - 84
 </v-click>
 
 <v-click>
@@ -79,7 +85,7 @@ layout: default
 
 <v-click>
 
-- **Accelerated Death Benefit** - $10,000 minimum, up to 75% of face amount
+- **Accelerated Death Benefit** - $10,000 minimum
 </v-click>
 
 <v-click>
@@ -370,7 +376,7 @@ layout: default
 
 <v-clicks>
 
-- **Guaranteed Issue** - $10,000 life insurance with no medical exam (ages 18+)
+- **Guaranteed Issue** - up to $10,000 life insurance with no medical exam (ages 18 - 84)
 - **Accelerated Death Benefit** - Access funds during terminal illness, inability to perform daily activities, or cognitive impairment
 - **Voluntary AD&D Coverage** - Matches life insurance benefit as principal sum, common carrier up to $250,000
 - **Additional Benefits** - Child education, day care, rehabilitation, repatriation, seatbelt, airbag, spouse training
