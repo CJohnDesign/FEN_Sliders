@@ -195,11 +195,53 @@ export async function recordPresentation(deckId, options = {}) {
     const dl = await download;
     await dl.saveAs(outputPath);
     
+    // Wait for file to be fully written to disk
+    console.log('⏳ Waiting for file to finish writing...');
+    let previousSize = 0;
+    let stableCount = 0;
+    const maxStableChecks = 5; // File size must be stable for 5 consecutive checks
+    
+    for (let i = 0; i < 30; i++) { // Max 30 attempts (15 seconds)
+      try {
+        if (await fs.pathExists(outputPath)) {
+          const stats = await fs.stat(outputPath);
+          const currentSize = stats.size;
+          
+          if (currentSize === previousSize && currentSize > 0) {
+            stableCount++;
+            if (stableCount >= maxStableChecks) {
+              console.log(`✅ File write complete: ${(currentSize / 1024 / 1024).toFixed(2)} MB`);
+              break;
+            }
+          } else {
+            stableCount = 0;
+            previousSize = currentSize;
+          }
+        }
+      } catch (error) {
+        // File might not exist yet, continue waiting
+      }
+      
+      await new Promise(resolve => setTimeout(resolve, 500));
+    }
+    
+    // Final verification that file exists and has content
+    if (!(await fs.pathExists(outputPath))) {
+      throw new Error('Video file was not saved successfully');
+    }
+    
+    const finalStats = await fs.stat(outputPath);
+    if (finalStats.size === 0) {
+      throw new Error('Video file is empty - recording may have failed');
+    }
+    
+    console.log(`✅ File verified: ${(finalStats.size / 1024 / 1024).toFixed(2)} MB`);
+    
+    // Small buffer to ensure file handles are released
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    
     await browser.close();
     
-    const stats = await fs.stat(outputPath);
-    console.log(`✅ Saved: ${(stats.size / 1024 / 1024).toFixed(2)} MB`);
-
     return { videoPath: outputPath };
 
   } catch (error) {

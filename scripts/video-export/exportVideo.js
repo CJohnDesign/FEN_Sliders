@@ -229,35 +229,81 @@ async function exportDeck(deckId, options) {
             currentExportState.tempVideoPath = tempVideoPath;
             spinner.succeed('Recording complete');
 
-            console.log(chalk.gray('[Step 7] Converting to MP4 with 16:9 aspect ratio...'));
+            // Verify the video file exists and is readable before processing
+            console.log(chalk.gray('[Step 7] Verifying video file...'));
+            if (!(await fs.pathExists(tempVideoPath))) {
+              throw new Error(`Video file not found: ${tempVideoPath}`);
+            }
+            
+            const videoStats = await fs.stat(tempVideoPath);
+            if (videoStats.size === 0) {
+              throw new Error('Video file is empty - recording may have failed');
+            }
+            
+            console.log(chalk.gray(`✓ Video file verified: ${(videoStats.size / 1024 / 1024).toFixed(2)} MB`));
+            
+            // Small buffer to ensure file handles are fully released
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            console.log(chalk.gray('[Step 8] Converting to MP4 with 16:9 aspect ratio...'));
             spinner.start('Converting and scaling to fill 1920x1080...');
             
             await new Promise((resolve, reject) => {
-              ffmpeg(tempVideoPath)
-                .outputOptions([
-                  '-vf scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080', // Scale to fill, then crop
-                  '-c:v libx264',
-                  '-preset medium',
-                  '-crf 18',
-                  '-pix_fmt yuv420p',
-                  '-c:a aac',
-                  '-b:a 192k',
-                  '-movflags +faststart'
-                ])
-                .output(outputPath)
-                .on('progress', (p) => {
-                  if (p.percent) spinner.text = `Converting: ${p.percent.toFixed(1)}%`;
+              // Double-check file exists and is readable before starting ffmpeg
+              fs.stat(tempVideoPath)
+                .then(() => {
+                  ffmpeg(tempVideoPath)
+                    .outputOptions([
+                      '-vf scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080', // Scale to fill, then crop
+                      '-c:v libx264',
+                      '-preset medium',
+                      '-crf 18',
+                      '-pix_fmt yuv420p',
+                      '-c:a aac',
+                      '-b:a 192k',
+                      '-movflags +faststart'
+                    ])
+                    .output(outputPath)
+                    .on('start', (commandLine) => {
+                      console.log(chalk.gray(`FFmpeg command: ${commandLine}`));
+                    })
+                    .on('progress', (p) => {
+                      if (p.percent) spinner.text = `Converting: ${p.percent.toFixed(1)}%`;
+                    })
+                    .on('end', () => {
+                      spinner.succeed('MP4 ready (full frame 16:9)');
+                      resolve();
+                    })
+                    .on('error', (err) => {
+                      spinner.fail('Failed');
+                      console.error(chalk.red('\nFFmpeg Error:'), err.message);
+                      console.error(chalk.gray(`Input file: ${tempVideoPath}`));
+                      console.error(chalk.gray(`Output file: ${outputPath}`));
+                      
+                      // Check if input file still exists
+                      fs.pathExists(tempVideoPath)
+                        .then(exists => {
+                          if (!exists) {
+                            console.error(chalk.red('Input video file was deleted or moved!'));
+                          } else {
+                            fs.stat(tempVideoPath)
+                              .then(stats => {
+                                console.error(chalk.gray(`Input file size: ${(stats.size / 1024 / 1024).toFixed(2)} MB`));
+                                reject(err);
+                              })
+                              .catch(() => reject(err));
+                          }
+                        })
+                        .catch(() => reject(err));
+                    })
+                    .run();
                 })
-                .on('end', () => {
-                  spinner.succeed('MP4 ready (full frame 16:9)');
-                  resolve();
-                })
-                .on('error', (err) => {
+                .catch((err) => {
                   spinner.fail('Failed');
+                  console.error(chalk.red(`Cannot access video file: ${tempVideoPath}`));
                   console.error(chalk.red('Error:'), err.message);
-                  reject(err);
-                })
-                .run();
+                  reject(new Error(`Video file is not accessible: ${err.message}`));
+                });
             });
 
     // Get video info

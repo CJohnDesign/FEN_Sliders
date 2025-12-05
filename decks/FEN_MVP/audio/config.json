@@ -1,0 +1,220 @@
+{
+  "deckId": "FEN_MVP",
+  "totalSlides": 24,
+  "slides": [
+    {
+      "slideNumber": 1,
+      "clicks": []
+    },
+    {
+      "slideNumber": 2,
+      "clicks": [
+        3,
+        8,
+        13,
+        18
+      ]
+    },
+    {
+      "slideNumber": 3,
+      "clicks": [
+        3,
+        8,
+        15
+      ]
+    },
+    {
+      "slideNumber": 4,
+      "clicks": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18
+      ]
+    },
+    {
+      "slideNumber": 5,
+      "clicks": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "slideNumber": 6,
+      "clicks": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18
+      ]
+    },
+    {
+      "slideNumber": 7,
+      "clicks": [
+        3,
+        8,
+        13,
+        18
+      ]
+    },
+    {
+      "slideNumber": 8,
+      "clicks": [
+        3,
+        8,
+        13,
+        18
+      ]
+    },
+    {
+      "slideNumber": 9,
+      "clicks": [
+        3,
+        8,
+        13
+      ]
+    },
+    {
+      "slideNumber": 10,
+      "clicks": [
+        3,
+        8
+      ]
+    },
+    {
+      "slideNumber": 11,
+      "clicks": [
+        3,
+        8,
+        13
+      ]
+    },
+    {
+      "slideNumber": 12,
+      "clicks": [
+        3,
+        8,
+        13
+      ]
+    },
+    {
+      "slideNumber": 13,
+      "clicks": [
+        3,
+        8,
+        13,
+        18
+      ]
+    },
+    {
+      "slideNumber": 14,
+      "clicks": [
+        3,
+        8,
+        13,
+        18
+      ]
+    },
+    {
+      "slideNumber": 15,
+      "clicks": [
+        3,
+        8,
+        13,
+        18
+      ]
+    },
+    {
+      "slideNumber": 16,
+      "clicks": [
+        3,
+        8,
+        13
+      ]
+    },
+    {
+      "slideNumber": 17,
+      "clicks": [
+        3,
+        8,
+        13
+      ]
+    },
+    {
+      "slideNumber": 18,
+      "clicks": [
+        3,
+        8,
+        13
+      ]
+    },
+    {
+      "slideNumber": 19,
+      "clicks": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "slideNumber": 20,
+      "clicks": [
+        3,
+        8,
+        13
+      ]
+    },
+    {
+      "slideNumber": 21,
+      "clicks": [
+        3,
+        8,
+        13,
+        18
+      ]
+    },
+    {
+      "slideNumber": 22,
+      "clicks": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "slideNumber": 23,
+      "clicks": [
+        3,
+        8,
+        13,
+        18,
+        23,
+        28,
+        33
+      ]
+    },
+    {
+      "slideNumber": 24,
+      "clicks": []
+    }
+  ]
+}
+
+
