@@ -84,6 +84,8 @@
     "export:FEN_HPA": "slidev export decks/FEN_HPA/slides.md --output exports/FEN_HPA.pdf",
     "dev:FEN_MFT": "slidev decks/FEN_MFT/slides.md",
     "export:FEN_MFT": "slidev export decks/FEN_MFT/slides.md --output exports/FEN_MFT.pdf",
+    "dev:FEN_PXH": "slidev decks/FEN_PXH/slides.md",
+    "export:FEN_PXH": "slidev export decks/FEN_PXH/slides.md --output exports/FEN_PXH.pdf",
     "dev:zPhase1": "slidev decks/zPhase1/slides.md",
     "export:zPhase1": "slidev export decks/zPhase1/slides.md --output exports/zPhase1.pdf"
   },

@@ -1,0 +1,158 @@
+---
+alwaysApply: true
+---
+
+# FEN Project Context
+
+## Project Overview
+
+FEN is an AI-powered Insurance Deck Builder that transforms insurance plan PDFs into dynamic Slidev presentations with synchronized narration. The system uses LangGraph orchestration, GPT-5 for content analysis, and OpenAI TTS for audio generation.
+
+## Critical Workflow Principles
+
+### Deck Synchronization (CRITICAL)
+
+**The most important rule**: `slides.md` and `audio_script.md` must be perfectly synchronized.
+
+**Formula**: `Total Script Paragraphs = 1 (title paragraph) + N (number of v-clicks)`
+
+- Paragraph 1 always addresses the slide title/headline (v-click 0)
+- Paragraphs 2+ each correspond to one v-click in sequence
+- Always run `node scripts/deckSyncCounter.js <DECK_ID>` before audio/video generation
+- Content alignment: Script paragraphs should describe what appears or gets highlighted on slides at each click
+- Tables appearing on click 1 need a paragraph describing the table structure
+
+**Never proceed with audio or video generation if sync check fails.**
+
+### Deck Duplication Workflow
+
+When creating a new deck from an existing one:
+
+1. **Copy the entire template deck folder** (the template deck will be specified in instructions - may be MVP or another deck)
+2. **Update all references systematically**:
+   - Deck ID in `slides.md` frontmatter (`id:` field)
+   - Deck ID in `<SlideAudio deckKey="">` component
+   - Deck ID in `audio/config.json` (`deckId` field)
+   - Plan sponsor, plan type, network/association info
+   - All plan-specific content (benefits, limitations, etc.)
+3. **Maintain the template deck's structure**:
+   - Keep slide layouts and formatting
+   - Preserve click timing structure
+   - Maintain table structures
+   - Keep audio config click counts (update deck ID only)
+4. **Update audio script**:
+   - Replace all content with new plan information
+   - Maintain paragraph structure matching slide clicks
+   - Keep section headers format: `---- Section Name ----`
+5. **Verify synchronization**:
+   - Run sync check before any export operations
+   - Fix any mismatches immediately
+
+### Export Workflow Structure
+
+The complete export workflow consists of 5 main steps:
+
+1. **Google Docs Sync** (`scripts/google-docs-api.js`)
+   - Creates/updates Google Docs for script and slides
+   - Auto-creates 3-level folder structure: `FirstEnroll || Videos` → `Product Videos` → `<DECK_ID>`
+   - Time: ~15-40 seconds | Cost: $0
+
+2. **PDF Export** (`scripts/export-steps/03-export-pdf.js`)
+   - Exports slides to PDF using Slidev
+   - Auto-versions output (e.g., `FEN_PXH_001.pdf`)
+   - Time: ~30-60 seconds | Cost: $0
+
+3. **PDF Upload** (`scripts/upload-to-drive.js`)
+   - Uploads PDF to Google Drive folder
+   - Time: ~5-10 seconds | Cost: $0
+
+4. **Audio Generation** (`scripts/export-steps/04-generate-audio.js`)
+   - Sanitizes script (replaces "comprehensive" → "extensive")
+   - Checks slide/script synchronization (aborts if misaligned)
+   - Deletes old audio files
+   - Generates new audio via OpenAI TTS API
+   - Time: ~2-5 minutes | Cost: ⚠️ OpenAI TTS API credits (~$0.30-0.60 per deck)
+
+5. **Video Export** (`scripts/export-steps/05-export-video.js`)
+   - Checks slide/script sync (aborts if misaligned)
+   - Starts Slidev server on port 3030
+   - Records presentation with Playwright
+   - Encodes as MP4 with audio sync
+   - **Requires manual screen sharing** (Chrome tab with audio)
+   - Time: ~15-25 minutes | Cost: $0
+
+6. **Video Upload** (`scripts/upload-to-drive.js`)
+   - Uploads video to Google Drive folder
+   - Time: ~30-120 seconds | Cost: $0
+
+### Content Alignment Principles
+
+When writing or updating audio scripts:
+
+- **First paragraph** always introduces the slide topic naturally
+- **Subsequent paragraphs** match the visual progression of v-clicks
+- **Table descriptions**: When a table appears on click 1, include a paragraph describing what the table shows
+- **Bold highlighting**: Script should describe what gets bolded at each click
+- **Natural flow**: Sentences can flow between paragraphs - mid-sentence slide changes are natural
+- **Numbers**: Always spell out numbers (e.g., "three hundred" not "300")
+- **Acronyms**: Most acronyms spelled with spaces (A M L, D O I), except HIPAA has no spaces
+
+### Script Sanitization
+
+**Automatic word replacement** happens before audio generation:
+- `comprehensive` → `extensive` (preserves casing)
+- `Comprehensive` → `Extensive`
+- `COMPREHENSIVE` → `EXTENSIVE`
+
+**Never use "comprehensive"** in any context (slides, audio scripts, or documentation).
+
+### Video Export Requirements
+
+- **Port 3030** must be available (script checks and kills existing processes)
+- **Manual screen sharing** required:
+  1. Press F to enter Slidev fullscreen
+  2. Select "Chrome Tab" in screen picker
+  3. Check "Share tab audio"
+  4. Click Share
+- **Fullscreen browser window** recommended for proper recording dimensions
+- Video export will abort if sync check fails
+
+### Common Pitfalls to Avoid
+
+1. **Mismatched click counts**: Always verify sync before audio/video generation
+2. **Content misalignment**: Script paragraphs must describe what's visible at each click
+3. **Missing intro paragraphs**: Every slide section needs a title paragraph (v-click 0)
+4. **Table descriptions**: Don't forget to describe tables that appear on click 1
+5. **Deck ID mismatches**: Update ALL references when duplicating decks
+6. **Port conflicts**: Always check port 3030 availability before video export
+7. **Using "comprehensive"**: Script sanitization catches this, but avoid it entirely
+
+### File Structure
+
+Each deck follows this structure:
+```
+decks/<DECK_ID>/
+├── slides.md              # Slidev presentation (CRITICAL: must match audio script)
+├── pdf.md                 # PDF content summary
+├── audio/
+│   ├── audio_script.md    # Narration script (CRITICAL: must match slides.md clicks)
+│   └── config.json        # Audio timing configuration
+└── img/
+    └── logos/             # Branding assets
+```
+
+### Key Commands
+
+- `node scripts/deckSyncCounter.js <DECK_ID>` - Check synchronization
+- `node scripts/export-steps/03-export-pdf.js <DECK_ID>` - Export PDF
+- `node scripts/export-steps/04-generate-audio.js <DECK_ID>` - Generate audio
+- `node scripts/export-steps/05-export-video.js <DECK_ID>` - Export video
+- `npm run dev:<DECK_ID>` - Start development server
+- `npm run export:<DECK_ID>` - Export to PDF
+
+### Documentation References
+
+- Complete export workflow: `docs/complete-export-workflow.md`
+- Quick reference: `docs/complete-export-quick-reference.md`
+- Script/slide sync guide: `docs/script-slide-synchronization.md`
+- Video export details: `docs/video-export-quickstart.md`
