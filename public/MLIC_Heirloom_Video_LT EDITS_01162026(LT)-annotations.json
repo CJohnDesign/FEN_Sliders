@@ -1,0 +1,2781 @@
+[
+  {
+    "page": 2,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116094414-05'00'",
+    "modificationDate": "D:20260116094437-05'00'",
+    "rect": [
+      41.4209,
+      226.015,
+      584.928,
+      245.706
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 245.1269989013672,
+      "2": 131.97900390625,
+      "3": 245.1269989013672,
+      "4": 42,
+      "5": 226.593994140625,
+      "6": 131.97900390625,
+      "7": 226.593994140625,
+      "8": 160.58200073242188,
+      "9": 245.1269989013672,
+      "10": 307.7869873046875,
+      "11": 245.1269989013672,
+      "12": 160.58200073242188,
+      "13": 226.593994140625,
+      "14": 307.7869873046875,
+      "15": 226.593994140625,
+      "16": 334.42999267578125,
+      "17": 245.1269989013672,
+      "18": 584.3489990234375,
+      "19": 245.1269989013672,
+      "20": 334.42999267578125,
+      "21": 226.593994140625,
+      "22": 584.3489990234375,
+      "23": 226.593994140625,
+      "24": 135.29100036621094,
+      "25": 242.91700744628906,
+      "26": 157.2689971923828,
+      "27": 242.91700744628906,
+      "28": 135.29100036621094,
+      "29": 228.34100341796875,
+      "30": 157.2689971923828,
+      "31": 228.34100341796875,
+      "32": 311.09600830078125,
+      "33": 242.91700744628906,
+      "34": 331.125,
+      "35": 242.91700744628906,
+      "36": 311.09600830078125,
+      "37": 228.34100341796875,
+      "38": 331.125,
+      "39": 228.34100341796875
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Group Term Life with Accelerated Death Bene fi t and Accidental Death & Dismemberment (AD&D)",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Replace with: "
+              },
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(15.84px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "color": "#043287",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "EMA membership package which includes a variety of discount benefits, as well as Group Term w/ Accelerated Death Benefit plan underwritten by ManhattanLife Insurance and Annuity Company"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Replace with: EMA membership package which includes a variety of discount benefits, as well as Group Term w/ Accelerated Death Benefit plan underwritten by ManhattanLife Insurance and Annuity Company"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 2,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116094446-05'00'",
+    "modificationDate": "D:20260116144452Z00'00'",
+    "rect": [
+      41.5445,
+      158.515,
+      404.979,
+      178.206
+    ],
+    "quadPoints": {
+      "0": 177.75,
+      "1": 177.6269989013672,
+      "2": 404.3999938964844,
+      "3": 177.6269989013672,
+      "4": 177.75,
+      "5": 159.093994140625,
+      "6": 404.3999938964844,
+      "7": 159.093994140625,
+      "8": 42,
+      "9": 175.41700744628906,
+      "10": 174.43800354003906,
+      "11": 175.41700744628906,
+      "12": 42,
+      "13": 160.84100341796875,
+      "14": 174.43800354003906,
+      "15": 160.84100341796875
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Membership through the Emergency Management Alliance (EMA) .",
+    "name": null,
+    "richText": null,
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 2,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116094414-05'00'",
+    "modificationDate": "D:20260116094437-05'00'",
+    "rect": [
+      597.685,
+      78.3498,
+      781.612,
+      245.259
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Replace with: "
+              },
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(15.84px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "color": "#043287",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "EMA membership package which includes a variety of discount benefits, as well as Group Term w/ Accelerated Death Benefit plan underwritten by ManhattanLife Insurance and Annuity Company"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Replace with: EMA membership package which includes a variety of discount benefits, as well as Group Term w/ Accelerated Death Benefit plan underwritten by ManhattanLife Insurance and Annuity Company"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 2,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116094446-05'00'",
+    "modificationDate": "D:20260116144452Z00'00'",
+    "rect": [
+      735.12,
+      85.6268,
+      919.12,
+      177.627
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": null,
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "open"
+    ]
+  },
+  {
+    "page": 3,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095116-05'00'",
+    "modificationDate": "D:20260116095120-05'00'",
+    "rect": [
+      40.9031,
+      290.638,
+      318.497,
+      327.932
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 326.8349914550781,
+      "2": 317.3999938964844,
+      "3": 326.8349914550781,
+      "4": 42,
+      "5": 291.7349853515625,
+      "6": 317.3999938964844,
+      "7": 291.7349853515625
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Key Features and Bene fi ts",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Key Features and Benefits to Group Life Benefits"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Key Features and Benefits to Group Life Benefits"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 3,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116105130-05'00'",
+    "modificationDate": "D:20260116105151-05'00'",
+    "rect": [
+      56.4487,
+      118.924,
+      77.2676,
+      138.068
+    ],
+    "quadPoints": {
+      "0": 57.01169967651367,
+      "1": 137.5050048828125,
+      "2": 76.70449829101562,
+      "3": 137.5050048828125,
+      "4": 57.01169967651367,
+      "5": 119.48699951171875,
+      "6": 76.70449829101562,
+      "7": 119.48699951171875
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Life Bene",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Life Benefit Waiting Period"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Life Benefit Waiting Period"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 3,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095116-05'00'",
+    "modificationDate": "D:20260116095120-05'00'",
+    "rect": [
+      597.685,
+      229.412,
+      781.612,
+      326.94
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Key Features and Benefits to Group Life Benefits"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Key Features and Benefits to Group Life Benefits"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 3,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116105130-05'00'",
+    "modificationDate": "D:20260116105151-05'00'",
+    "rect": [
+      735.12,
+      45.5052,
+      919.12,
+      137.505
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Life Benefit Waiting Period"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Life Benefit Waiting Period"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 4,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095152-05'00'",
+    "modificationDate": "D:20260116095208-05'00'",
+    "rect": [
+      41.7268,
+      81.682,
+      671.215,
+      102.046
+    ],
+    "quadPoints": {
+      "0": 78.55829620361328,
+      "1": 101.77300262451172,
+      "2": 80.54319763183594,
+      "3": 101.77300262451172,
+      "4": 78.55829620361328,
+      "5": 90.65779876708984,
+      "6": 80.54319763183594,
+      "7": 90.65779876708984,
+      "8": 80.54319763183594,
+      "9": 100.4469985961914,
+      "10": 670.9420166015625,
+      "11": 100.4469985961914,
+      "12": 80.54319763183594,
+      "13": 91.7052001953125,
+      "14": 670.9420166015625,
+      "15": 91.7052001953125,
+      "16": 42,
+      "17": 90.69740295410156,
+      "18": 71.38349914550781,
+      "19": 90.69740295410156,
+      "20": 42,
+      "21": 81.9552001953125,
+      "22": 71.38349914550781,
+      "23": 81.9552001953125
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "This is a Group Term Life Insurance policy. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE FOR FULL DETAILS.",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(10.59px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "The benefits outlined on this page apply exclusively to the Group Term Life Insurance benefit included in the Heirloom Package. This benefit is not a major medical or comprehensive medical healthcare policy. Please refer to the insurance certificate for complete details regarding the insured benefits, including terms, conditions, limitations, and exclusions."
+              }
+            ]
+          }
+        ]
+      },
+      "str": "The benefits outlined on this page apply exclusively to the Group Term Life Insurance benefit included in the Heirloom Package. This benefit is not a major medical or comprehensive medical healthcare policy. Please refer to the insurance certificate for complete details regarding the insured benefits, including terms, conditions, limitations, and exclusions."
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 4,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095218-05'00'",
+    "modificationDate": "D:20260116095229-05'00'",
+    "rect": [
+      40.9031,
+      312.388,
+      191.417,
+      349.682
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 348.5849914550781,
+      "2": 190.32000732421875,
+      "3": 348.5849914550781,
+      "4": 42,
+      "5": 313.4849853515625,
+      "6": 190.32000732421875,
+      "7": 313.4849853515625
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Heirloom Plan Bene",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Insured"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Insured"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 4,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095152-05'00'",
+    "modificationDate": "D:20260116095208-05'00'",
+    "rect": [
+      597.685,
+      -37.4666,
+      781.612,
+      101.952
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(10.59px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "The benefits outlined on this page apply exclusively to the Group Term Life Insurance benefit included in the Heirloom Package. This benefit is not a major medical or comprehensive medical healthcare policy. Please refer to the insurance certificate for complete details regarding the insured benefits, including terms, conditions, limitations, and exclusions."
+              }
+            ]
+          }
+        ]
+      },
+      "str": "The benefits outlined on this page apply exclusively to the Group Term Life Insurance benefit included in the Heirloom Package. This benefit is not a major medical or comprehensive medical healthcare policy. Please refer to the insurance certificate for complete details regarding the insured benefits, including terms, conditions, limitations, and exclusions."
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 4,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095218-05'00'",
+    "modificationDate": "D:20260116095229-05'00'",
+    "rect": [
+      735.12,
+      256.585,
+      919.12,
+      348.585
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Insured"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Insured"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 5,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095859-05'00'",
+    "modificationDate": "D:20260116095904-05'00'",
+    "rect": [
+      40.9031,
+      340.138,
+      204.017,
+      377.432
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 376.3349914550781,
+      "2": 202.9199981689453,
+      "3": 376.3349914550781,
+      "4": 42,
+      "5": 341.2349853515625,
+      "6": 202.9199981689453,
+      "7": 341.2349853515625
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Additional Plan Features",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Life"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Life"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 5,
+    "type": "Text",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095919-05'00'",
+    "modificationDate": "D:20260116145942Z00'00'",
+    "rect": [
+      39.4544,
+      22.92786,
+      63.4544,
+      46.92786
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": "NoIcon",
+    "richText": null,
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "annotationType",
+      "name",
+      "state",
+      "stateModel"
+    ]
+  },
+  {
+    "page": 5,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116105045-05'00'",
+    "modificationDate": "D:20260116105102-05'00'",
+    "rect": [
+      41.6526,
+      71.5605,
+      54.4955,
+      83.37
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 83.02269744873047,
+      "2": 54.148101806640625,
+      "3": 83.02269744873047,
+      "4": 42,
+      "5": 71.90779876708984,
+      "6": 54.148101806640625,
+      "7": 71.90779876708984
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Life Bene",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Life Benefit Waiting Period:"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Life Benefit Waiting Period:"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 5,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095859-05'00'",
+    "modificationDate": "D:20260116095904-05'00'",
+    "rect": [
+      735.12,
+      284.335,
+      919.12,
+      376.335
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Life"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Life"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 5,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116095919-05'00'",
+    "modificationDate": "D:20260116145942Z00'00'",
+    "rect": [
+      597.685,
+      -96.037,
+      781.612,
+      54.5087
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": null,
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "open"
+    ]
+  },
+  {
+    "page": 5,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116105045-05'00'",
+    "modificationDate": "D:20260116105102-05'00'",
+    "rect": [
+      735.12,
+      -8.97731,
+      919.12,
+      83.0227
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Life Benefit Waiting Period:"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Life Benefit Waiting Period:"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116100653-05'00'",
+    "modificationDate": "D:20260116100723-05'00'",
+    "rect": [
+      40.9031,
+      298.888,
+      399.474,
+      336.182
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 335.0849914550781,
+      "2": 398.37701416015625,
+      "3": 335.0849914550781,
+      "4": 42,
+      "5": 299.9849853515625,
+      "6": 398.37701416015625,
+      "7": 299.9849853515625
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Pre-existing Condition Limitations",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Life Insurance Pre-Existing Conditions Limitations"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Life Insurance Pre-Existing Conditions Limitations"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116100734-05'00'",
+    "modificationDate": "D:20260116100755-05'00'",
+    "rect": [
+      41.7268,
+      95.182,
+      671.215,
+      114.971
+    ],
+    "quadPoints": {
+      "0": 80.54319763183594,
+      "1": 114.6969985961914,
+      "2": 670.9420166015625,
+      "3": 114.6969985961914,
+      "4": 80.54319763183594,
+      "5": 105.95500183105469,
+      "6": 670.9420166015625,
+      "7": 105.95500183105469,
+      "8": 42,
+      "9": 104.1969985961914,
+      "10": 71.38349914550781,
+      "11": 104.1969985961914,
+      "12": 42,
+      "13": 95.4552001953125,
+      "14": 71.38349914550781,
+      "15": 95.4552001953125
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "This is a Group Term Life Insurance policy. THE POLICY IS NOT A MAJOR MEDICAL OR COMPREHENSIVE MEDICAL HEALTHCARE POLICY. PLEASE READ THE CERTIFICATE FOR FULL DETAILS.",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(11.88px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, an exclusions related to the insured benefit."
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, an exclusions related to the insured benefit."
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 6,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116100653-05'00'",
+    "modificationDate": "D:20260116100723-05'00'",
+    "rect": [
+      597.685,
+      237.727,
+      781.612,
+      335.254
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Life Insurance Pre-Existing Conditions Limitations"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Life Insurance Pre-Existing Conditions Limitations"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 6,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116100734-05'00'",
+    "modificationDate": "D:20260116100755-05'00'",
+    "rect": [
+      597.685,
+      -29.3318,
+      781.612,
+      114.668
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(11.88px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, an exclusions related to the insured benefit."
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, an exclusions related to the insured benefit."
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 7,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116100840-05'00'",
+    "modificationDate": "D:20260116100848-05'00'",
+    "rect": [
+      40.9031,
+      288.388,
+      392.274,
+      325.682
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 324.5849914550781,
+      "2": 391.177001953125,
+      "3": 324.5849914550781,
+      "4": 42,
+      "5": 289.4849853515625,
+      "6": 391.177001953125,
+      "7": 289.4849853515625
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "AD&D Limitations and Exclusions",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(18.51px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "bold",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Accidental Death, Loss of Sight and Dismemberment Benefit - Limitations and Exclusions"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Accidental Death, Loss of Sight and Dismemberment Benefit - Limitations and Exclusions"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 7,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116100901-05'00'",
+    "modificationDate": "D:20260116100957-05'00'",
+    "rect": [
+      80.2701,
+      106.432,
+      652.205,
+      115.721
+    ],
+    "quadPoints": {
+      "0": 80.54319763183594,
+      "1": 115.4469985961914,
+      "2": 651.9320068359375,
+      "3": 115.4469985961914,
+      "4": 80.54319763183594,
+      "5": 106.70500183105469,
+      "6": 651.9320068359375,
+      "7": 106.70500183105469
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Exclusions and limitations vary by state. Refer to the Certificate or Master Policy for terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions.",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(11.88px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions related to the insured benefit."
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions related to the insured benefit."
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 7,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116100840-05'00'",
+    "modificationDate": "D:20260116100848-05'00'",
+    "rect": [
+      597.685,
+      170.676,
+      781.612,
+      324.494
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(18.51px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "bold",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Accidental Death, Loss of Sight and Dismemberment Benefit - Limitations and Exclusions"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Accidental Death, Loss of Sight and Dismemberment Benefit - Limitations and Exclusions"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 7,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116100901-05'00'",
+    "modificationDate": "D:20260116100957-05'00'",
+    "rect": [
+      597.685,
+      -28.3536,
+      781.612,
+      115.647
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(11.88px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions related to the insured benefit."
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions related to the insured benefit."
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 8,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116104215-05'00'",
+    "modificationDate": "D:20260116104229-05'00'",
+    "rect": [
+      80.2701,
+      102.682,
+      652.205,
+      111.971
+    ],
+    "quadPoints": {
+      "0": 80.54319763183594,
+      "1": 111.6969985961914,
+      "2": 651.9320068359375,
+      "3": 111.6969985961914,
+      "4": 80.54319763183594,
+      "5": 102.95500183105469,
+      "6": 651.9320068359375,
+      "7": 102.95500183105469
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Exclusions and limitations vary by state. Refer to the Certificate or Master Policy for terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions.",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(11.88px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions related to the insured benefit."
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions related to the insured benefit."
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 8,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116104215-05'00'",
+    "modificationDate": "D:20260116104229-05'00'",
+    "rect": [
+      597.685,
+      -32.2664,
+      781.612,
+      111.734
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(11.88px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions related to the insured benefit."
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Exclusions and limitations vary by state and apply solely to the insured benefit included in the Heirloom Package. Please refer to the applicable Certificate or Master Policy for complete terms and conditions of coverage, including effective dates, benefits, limitations, and exclusions related to the insured benefit."
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 9,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116105245-05'00'",
+    "modificationDate": "D:20260116105306-05'00'",
+    "rect": [
+      40.9031,
+      366.388,
+      403.074,
+      403.682
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 402.5849914550781,
+      "2": 401.97698974609375,
+      "3": 402.5849914550781,
+      "4": 42,
+      "5": 367.4849853515625,
+      "6": 401.97698974609375,
+      "7": 367.4849853515625
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Association Bene fi ts through EMA",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Emergency Management Alliance (EMA) Association Benefits"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Emergency Management Alliance (EMA) Association Benefits"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 9,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116105245-05'00'",
+    "modificationDate": "D:20260116105306-05'00'",
+    "rect": [
+      597.685,
+      305.223,
+      781.612,
+      402.751
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Emergency Management Alliance (EMA) Association Benefits"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Emergency Management Alliance (EMA) Association Benefits"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  },
+  {
+    "page": 10,
+    "type": "Highlight",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116104606-05'00'",
+    "modificationDate": "D:20260116104927-05'00'",
+    "rect": [
+      40.9031,
+      262.138,
+      342.032,
+      299.432
+    ],
+    "quadPoints": {
+      "0": 42,
+      "1": 298.3349914550781,
+      "2": 340.93499755859375,
+      "3": 298.3349914550781,
+      "4": 42,
+      "5": 263.2349853515625,
+      "6": 340.93499755859375,
+      "7": 263.2349853515625
+    },
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": "Key Takeaways for Heirloom",
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Term Life Key Takeaways"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Term Life Key Takeaways"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "it",
+      "titleObj",
+      "creationDate",
+      "popupRef",
+      "richText",
+      "annotationType",
+      "opacity",
+      "overlaidText"
+    ]
+  },
+  {
+    "page": 10,
+    "type": "Popup",
+    "contents": null,
+    "author": null,
+    "creationDate": "D:20260116104606-05'00'",
+    "modificationDate": "D:20260116104927-05'00'",
+    "rect": [
+      735.12,
+      206.335,
+      919.12,
+      298.335
+    ],
+    "quadPoints": null,
+    "color": {
+      "0": 150,
+      "1": 67,
+      "2": 252
+    },
+    "highlightedText": null,
+    "name": null,
+    "richText": {
+      "html": {
+        "name": "div",
+        "attributes": {
+          "style": {},
+          "class": [],
+          "dir": "auto"
+        },
+        "children": [
+          {
+            "name": "p",
+            "attributes": {
+              "style": {}
+            },
+            "children": [
+              {
+                "name": "span",
+                "attributes": {
+                  "style": {
+                    "fontSize": "calc(13.86px * var(--total-scale-factor))",
+                    "textAlign": "left",
+                    "fontWeight": "normal",
+                    "fontStyle": "normal"
+                  }
+                },
+                "children": [],
+                "value": "Group Term Life Key Takeaways"
+              }
+            ]
+          }
+        ]
+      },
+      "str": "Group Term Life Key Takeaways"
+    },
+    "parentId": null,
+    "inReplyTo": null,
+    "subject": null,
+    "rc": null,
+    "raw": [
+      "annotationFlags",
+      "borderStyle",
+      "backgroundColor",
+      "borderColor",
+      "rotation",
+      "contentsObj",
+      "hasAppearance",
+      "id",
+      "modificationDate",
+      "subtype",
+      "hasOwnCanvas",
+      "noRotate",
+      "noHTML",
+      "isEditable",
+      "structParent",
+      "annotationType",
+      "parentRect",
+      "creationDate",
+      "titleObj",
+      "richText",
+      "open"
+    ]
+  }
+]

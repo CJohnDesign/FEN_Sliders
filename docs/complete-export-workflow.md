@@ -314,10 +314,12 @@ FirstEnroll || Videos (root)
 ## Step 4: Audio Generation (Optional, AI-Managed)
 
 ### What The AI Does
-1. Runs `node scripts/export-steps/04-generate-audio.js FEN_STG`
+1. Runs `node scripts/generateAudio.js FEN_STG` (direct command, more reliable)
 2. Monitors progress and sync check results
 3. Reports any errors (sync issues, API failures, etc.)
 4. Confirms successful audio generation
+
+**Alternative**: The wrapper script `node scripts/export-steps/04-generate-audio.js FEN_STG` includes sanitization and sync checks, but the direct command is more reliable for environment variable loading.
 
 ### What The Script Does
 1. **Sanitize Script**: Replaces forbidden words (e.g., "comprehensive" → "extensive") with case preservation
@@ -503,7 +505,7 @@ You simply tell the AI what you need:
    - Docs sync (if needed): `node scripts/google-docs-api.js FEN_STG --folder=FEN_STG --parent-folder="Product Videos" --root-folder="FirstEnroll || Videos"`
    - PDF export (if needed): `node scripts/export-steps/03-export-pdf.js FEN_STG`
    - PDF upload (if needed): `node scripts/upload-to-drive.js exports/FEN_STG_xxx.pdf FEN_STG "Product Videos" "FirstEnroll || Videos"`
-   - Audio gen (if requested): `node scripts/export-steps/04-generate-audio.js FEN_STG`
+   - Audio gen (if requested): `node scripts/generateAudio.js FEN_STG` (direct command, more reliable)
    - Video export (if needed): `node scripts/export-steps/05-export-video.js FEN_STG [--test]`
    - Video upload (if needed): `node scripts/upload-to-drive.js exports/videos/FEN_STG_xxx.mp4 FEN_STG "Product Videos" "FirstEnroll || Videos"`
 3. **Monitors output**: Watches for errors, success messages, file paths

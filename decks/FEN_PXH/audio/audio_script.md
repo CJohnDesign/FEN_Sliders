@@ -14,11 +14,11 @@ There is no network associated with this plan. The plan operates independently w
 
 ---- Plan Options ----
 
-Pax Health offers six plan levels to meet different needs and budgets: Pax Health Wellness provides basic wellness and preventive care coverage, Pax Health 1 offers entry-level coverage, Pax Health 2 provides enhanced coverage, Pax Health 3 offers mid-tier coverage, Pax Health 4 provides advanced coverage, and Pax Health 5 offers premium coverage.
+Pax Health offers 
 
-It's important to explain to prospects that this plan has no association or network.
+six plan levels to meet different needs and budgets: Pax Health Wellness provides basic wellness and preventive care coverage, Pax Health 1 offers entry-level coverage, Pax Health 2 provides enhanced coverage, Pax Health 3 offers mid-tier coverage, Pax Health 4 provides advanced coverage, and Pax Health 5 offers premium coverage.
 
-The plan operates independently.
+It's important to explain to prospects that this plan has no association or network. The plan operates independently.
 
 ---- Eligibility Requirements ----
 

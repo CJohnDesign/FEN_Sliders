@@ -58,13 +58,17 @@ The AI will execute these steps in sequence:
 **Cost**: $0
 
 ### Step 4: Audio Generation with Sanitization (Optional)
-**Script**: `scripts/export-steps/04-generate-audio.js`  
+**Direct Command (preferred)**: `node scripts/generateAudio.js FEN_STG`  
+**Wrapper Script**: `scripts/export-steps/04-generate-audio.js` (includes sanitization + sync check)
+
 **What it does**:
 - Sanitizes script (replaces "comprehensive" → "extensive")
 - Checks slide/script synchronization
 - Deletes old audio files
 - Generates new audio via OpenAI TTS API
 - Saves MP3 files to `audio/oai/`
+
+**Note**: The direct command (`node scripts/generateAudio.js`) is more reliable for environment variable loading than the wrapper script.
 
 **Time**: ~2-5 minutes  
 **Cost**: ⚠️ OpenAI TTS API credits (~$0.015 per 1000 characters)
@@ -138,7 +142,7 @@ The AI will ask you which workflow you need, then execute the appropriate steps.
 1. Runs `node scripts/google-docs-api.js FEN_STG --folder=FEN_STG --parent-folder="Product Videos" --root-folder="FirstEnroll || Videos"`
 2. Runs `node scripts/export-steps/03-export-pdf.js FEN_STG`
 3. Runs `node scripts/upload-to-drive.js exports/FEN_STG_xxx.pdf FEN_STG "Product Videos" "FirstEnroll || Videos"`
-4. Runs `node scripts/export-steps/04-generate-audio.js FEN_STG`
+4. Runs `node scripts/generateAudio.js FEN_STG` (direct command, more reliable)
 5. Runs `node scripts/export-steps/05-export-video.js FEN_STG`
 6. Runs `node scripts/upload-to-drive.js exports/videos/FEN_STG_xxx.mp4 FEN_STG "Product Videos" "FirstEnroll || Videos"`
 
@@ -185,7 +189,7 @@ The AI will ask you which workflow you need, then execute the appropriate steps.
 
 ### 7. Audio + Video (After Script Changes)
 **What AI does**:
-1. Runs `node scripts/export-steps/04-generate-audio.js FEN_STG`
+1. Runs `node scripts/generateAudio.js FEN_STG` (direct command, more reliable)
 2. Runs `node scripts/export-steps/05-export-video.js FEN_STG`
 3. Runs `node scripts/upload-to-drive.js exports/videos/FEN_STG_xxx.mp4 FEN_STG "Product Videos" "FirstEnroll || Videos"`
 
@@ -198,7 +202,7 @@ The AI will ask you which workflow you need, then execute the appropriate steps.
 
 ### 8. Audio Only (No Exports)
 **What AI does**:
-1. Runs `node scripts/export-steps/04-generate-audio.js FEN_STG`
+1. Runs `node scripts/generateAudio.js FEN_STG` (direct command, more reliable)
 
 **Includes**: Audio generation only  
 **Time**: ~2-5 minutes  
@@ -449,6 +453,7 @@ The AI will detect and often fix these issues automatically, but here's what mig
 - Audio generation will fail if sync check doesn't pass
 
 ### "Audio generation failed"
+- Use the direct command: `node scripts/generateAudio.js FEN_STG` (more reliable than wrapper)
 - Check OpenAI API key (OPENAI_API_KEY) in `.env`
 - Verify API credits are available
 - Ensure sync check passed (slides match audio script)
